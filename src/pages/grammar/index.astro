@@ -1,0 +1,43 @@
+---
+import Base from '../../layouts/Base.astro';
+import grammar from '../../data/grammar.json';
+const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const topics = grammar.topics;
+const byLevel = (lvl) => topics.filter((t) => t.level === lvl);
+---
+<Base title="Грамматика по уровням — EnglishNotes">
+  <section class="section wrap">
+    <div class="section__head" data-reveal>
+      <div>
+        <p class="eyebrow">grammar · CEFR</p>
+        <h2>Грамматика по уровням</h2>
+      </div>
+      <span class="chip">Изучено: <b data-count style="margin-left:6px">0 / {topics.length}</b></span>
+    </div>
+
+    <div class="filters" data-reveal>
+      <button class="chip is-active" data-filter="all">Все</button>
+      {levels.map((l) => <button class="chip" data-filter={l}>{l}</button>)}
+    </div>
+
+    {levels.map((lvl) => {
+      const list = byLevel(lvl);
+      if (!list.length) return null;
+      return (
+        <div class="level-block" id={lvl} data-reveal>
+          <div class="level-block__title">{lvl} <small>{list.length} тем</small></div>
+          <div class="topic-grid">
+            {list.map((t) => (
+              <a href={'/grammar/' + t.slug} class="topic-card" data-card-level={t.level}>
+                <div class="meta"><span class="tag tag--lvl">{t.level}</span><span class="tag">{t.category}</span></div>
+                <h3>{t.title}</h3>
+                <p class="muted" style="font-size:14px;margin:0">{t.summary}</p>
+                <span class="muted" style="font-size:13px;margin-top:auto">≈ {t.readingTime} мин · читать →</span>
+              </a>
+            ))}
+          </div>
+        </div>
+      );
+    })}
+  </section>
+</Base>

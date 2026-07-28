@@ -1,0 +1,282 @@
+{
+  "topics": [
+    {
+      "slug": "present-simple",
+      "title": "Present Simple",
+      "level": "A1",
+      "category": "Tenses",
+      "readingTime": 5,
+      "summary": "Простое настоящее: рутина, факты, расписания и общие истины.",
+      "formula": "S + V1 (he/she/it → V1 + s/es)",
+      "markers": ["always", "usually", "often", "sometimes", "never", "every day", "on Mondays"],
+      "uses": [
+        "Регулярные действия и привычки: I drink coffee every morning.",
+        "Общие факты и истины: Water boils at 100°C.",
+        "Расписания и графики (даже будущие): The train leaves at 9.",
+        "Состояния и чувства с глаголами состояния: I like music, she knows him."
+      ],
+      "structure": {
+        "positive": "She works in a bank. / They work in a bank.",
+        "negative": "She doesn't work here. / They don't work here.",
+        "question": "Does she work here? / Do they work here?"
+      },
+      "rules": [
+        { "title": "Окончание -s/-es", "text": "В 3-м лице ед.ч. (he/she/it) к глаголу добавляется -s: works, plays. После шипящих и -o/-ss/-sh/-ch/-x → -es: goes, watches, fixes. Глаголы на согласную + y → -ies: study → studies." },
+        { "title": "Вспомогательный do/does", "text": "В отрицаниях и вопросах используется do (I/you/we/they) и does (he/she/it). После does основной глагол стоит БЕЗ -s: Does she work? (не works)." },
+        { "title": "Глаголы состояния", "text": "Глаголы like, love, know, want, need, believe обычно не используются в Continuous — для них Present Simple: I want water (не I am wanting)." }
+      ],
+      "examples": [
+        { "en": "She works in a bank.", "ru": "Она работает в банке.", "highlight": ["works"] },
+        { "en": "I don't eat meat.", "ru": "Я не ем мясо.", "highlight": ["don't eat"] },
+        { "en": "Does he speak English?", "ru": "Он говорит по-английски?", "highlight": ["Does", "speak"] },
+        { "en": "The sun rises in the east.", "ru": "Солнце встаёт на востоке.", "highlight": ["rises"] }
+      ],
+      "mistakes": [
+        { "wrong": "She work in a bank.", "right": "She works in a bank.", "note": "В 3-м лице ед.ч. не забывай -s." },
+        { "wrong": "Does she works here?", "right": "Does she work here?", "note": "После does глагол без -s." }
+      ],
+      "compare": {
+        "title": "Present Simple vs Present Continuous",
+        "leftLabel": "Present Simple",
+        "rightLabel": "Present Continuous",
+        "rows": [
+          { "left": "I work every day. (рутина)", "right": "I'm working now. (прямо сейчас)" },
+          { "left": "Факты и расписания", "right": "Временные ситуации и тренды" }
+        ]
+      },
+      "related": ["present-continuous", "present-perfect"],
+      "quiz": []
+    },
+    {
+      "slug": "present-continuous",
+      "title": "Present Continuous",
+      "level": "A1",
+      "category": "Tenses",
+      "readingTime": 5,
+      "summary": "Настоящее длительное: действие происходит сейчас или временно.",
+      "formula": "am / is / are + V-ing",
+      "markers": ["now", "right now", "at the moment", "today", "this week", "currently", "Look!", "Listen!"],
+      "uses": [
+        "Действие в момент речи: She is reading now.",
+        "Временная ситуация вокруг настоящего: I'm living with friends this month.",
+        "Развивающийся тренд: Prices are rising.",
+        "Запланированное будущее (личная договорённость): We're meeting tomorrow."
+      ],
+      "structure": {
+        "positive": "He is sleeping. / They are sleeping.",
+        "negative": "He isn't sleeping. / They aren't sleeping.",
+        "question": "Is he sleeping? / Are they sleeping?"
+      },
+      "rules": [
+        { "title": "Правописание -ing", "text": "make → making (немая -e уходит); run → running (удвоение согласной в коротком слоге); lie → lying (-ie → -ying)." },
+        { "title": "Не используется с глаголами состояния", "text": "know, want, like, need, understand обычно не принимают -ing: I understand (не I am understanding)." }
+      ],
+      "examples": [
+        { "en": "I am learning English.", "ru": "Я учу английский (сейчас/в этот период).", "highlight": ["am learning"] },
+        { "en": "They aren't listening.", "ru": "Они не слушают.", "highlight": ["aren't listening"] },
+        { "en": "What are you doing?", "ru": "Что ты делаешь?", "highlight": ["are", "doing"] },
+        { "en": "We're flying to Rome tomorrow.", "ru": "Завтра мы летим в Рим (план).", "highlight": ["'re flying"] }
+      ],
+      "mistakes": [
+        { "wrong": "I am want a coffee.", "right": "I want a coffee.", "note": "want — глагол состояния, без Continuous." },
+        { "wrong": "She is study now.", "right": "She is studying now.", "note": "Нужна форма V-ing." }
+      ],
+      "compare": {
+        "title": "Present Simple vs Present Continuous",
+        "leftLabel": "Present Simple",
+        "rightLabel": "Present Continuous",
+        "rows": [
+          { "left": "I read every night.", "right": "I'm reading a great book now." },
+          { "left": "Постоянное", "right": "Временное / в процессе" }
+        ]
+      },
+      "related": ["present-simple"],
+      "quiz": []
+    },
+    {
+      "slug": "past-simple",
+      "title": "Past Simple",
+      "level": "A1",
+      "category": "Tenses",
+      "readingTime": 5,
+      "summary": "Простое прошедшее: завершённое действие в известное время в прошлом.",
+      "formula": "S + V2 (правильные: V + ed)",
+      "markers": ["yesterday", "last week", "ago", "in 2010", "when I was young", "this morning (если утро прошло)"],
+      "uses": [
+        "Завершённое действие с указанным временем: I called him yesterday.",
+        "Последовательность действий в прошлом: He came in, sat down and smiled.",
+        "Прошлые факты/состояния, которых больше нет: She lived in Paris for five years."
+      ],
+      "structure": {
+        "positive": "I worked late. / She went home.",
+        "negative": "I didn't work late. / She didn't go home.",
+        "question": "Did you work late? / Did she go home?"
+      },
+      "rules": [
+        { "title": "Правильные глаголы", "text": "Окончание -ed: work → worked. После -e только -d: live → lived. Согласная + y → -ied: try → tried. Удвоение: stop → stopped." },
+        { "title": "Неправильные глаголы", "text": "Форму V2 нужно запоминать: go → went, see → saw, buy → bought. Таблица неправильных глаголов — обязательный справочник." },
+        { "title": "did для вопросов/отрицаний", "text": "Вспомогательный did для всех лиц; основной глагол после него в начальной форме: Did you go? (не went)." }
+      ],
+      "examples": [
+        { "en": "We watched a film last night.", "ru": "Вчера вечером мы смотрели фильм.", "highlight": ["watched"] },
+        { "en": "She didn't come to the party.", "ru": "Она не пришла на вечеринку.", "highlight": ["didn't come"] },
+        { "en": "Did you see him yesterday?", "ru": "Ты видел его вчера?", "highlight": ["Did", "see"] },
+        { "en": "I bought this book in 2019.", "ru": "Я купил эту книгу в 2019-м.", "highlight": ["bought"] }
+      ],
+      "mistakes": [
+        { "wrong": "Did you saw him?", "right": "Did you see him?", "note": "После did — начальная форма." },
+        { "wrong": "I go there yesterday.", "right": "I went there yesterday.", "note": "Нужна форма прошедшего went." }
+      ],
+      "compare": {
+        "title": "Past Simple vs Present Perfect",
+        "leftLabel": "Past Simple",
+        "rightLabel": "Present Perfect",
+        "rows": [
+          { "left": "I saw him yesterday. (время названо)", "right": "I've seen him. (время не важно)" },
+          { "left": "Действие «закрыто» в прошлом", "right": "Связь с настоящим / опыт" }
+        ]
+      },
+      "related": ["present-perfect", "present-simple"],
+      "quiz": []
+    },
+    {
+      "slug": "future-simple",
+      "title": "Future Simple (will)",
+      "level": "A2",
+      "category": "Tenses",
+      "readingTime": 4,
+      "summary": "Простое будущее с will: спонтанные решения, обещания, прогнозы.",
+      "formula": "will + V1",
+      "markers": ["tomorrow", "next week", "in a year", "soon", "I think", "probably", "I'm sure"],
+      "uses": [
+        "Спонтанное решение в момент речи: It's cold — I'll close the window.",
+        "Обещания и предложения помощи: I'll help you. / I won't tell anyone.",
+        "Прогнозы и мнения о будущем: I think it will rain."
+      ],
+      "structure": {
+        "positive": "I will call you. / She'll be late.",
+        "negative": "I won't forget. / They will not agree.",
+        "question": "Will you help me?"
+      },
+      "rules": [
+        { "title": "will не меняется по лицам", "text": "Одна форма для всех: I/you/he/we/they will. Сокращение 'll: I'll, she'll." },
+        { "title": "will vs be going to", "text": "will — решение сейчас/прогноз; be going to — намерение/план, принятый заранее, или очевидный прогноз по признакам: Look at the clouds — it's going to rain." }
+      ],
+      "examples": [
+        { "en": "I'll call you tomorrow.", "ru": "Я позвоню тебе завтра.", "highlight": ["'ll call"] },
+        { "en": "She won't be at the meeting.", "ru": "Её не будет на встрече.", "highlight": ["won't be"] },
+        { "en": "Will it rain today?", "ru": "Сегодня будет дождь?", "highlight": ["Will", "rain"] },
+        { "en": "I think he'll like it.", "ru": "Думаю, ему понравится.", "highlight": ["'ll like"] }
+      ],
+      "mistakes": [
+        { "wrong": "I will to go.", "right": "I will go.", "note": "После will — голый инфинитив без to." },
+        { "wrong": "She wills come.", "right": "She will come.", "note": "will не получает -s." }
+      ],
+      "compare": {
+        "title": "will vs be going to",
+        "leftLabel": "will",
+        "rightLabel": "be going to",
+        "rows": [
+          { "left": "I'll have a tea. (решение сейчас)", "right": "I'm going to study medicine. (план)" },
+          { "left": "I think it'll snow. (мнение)", "right": "It's going to snow. (видно по небу)" }
+        ]
+      },
+      "related": ["present-continuous"],
+      "quiz": []
+    },
+    {
+      "slug": "articles",
+      "title": "Articles: a / an / the",
+      "level": "A2",
+      "category": "Articles",
+      "readingTime": 6,
+      "summary": "Система артиклей: неопределённый, определённый и нулевой.",
+      "formula": "a/an + исчисляемое ед.ч. впервые · the + известное/единственное · ∅ + общее/неисчисляемое",
+      "markers": [],
+      "uses": [
+        "a/an — один из многих, впервые упоминаем: I saw a cat.",
+        "the — конкретный, известный собеседникам или единственный: the sun, the book I told you about.",
+        "нулевой артикль — обобщения и неисчисляемые понятия во множественном/общем смысле: Cats are cute. / I love music."
+      ],
+      "structure": {
+        "positive": "a book / an apple / the book / ∅ books",
+        "negative": "—",
+        "question": "—"
+      },
+      "rules": [
+        { "title": "a или an", "text": "Выбор по ЗВУКУ, не по букве: an hour (звук гласного), a university (звук /j/)." },
+        { "title": "the при повторе и уточнении", "text": "Первый раз — a, второй раз — the: I bought a bag. The bag is red. Также the перед уточнением: the girl who called." },
+        { "title": "the с единственным", "text": "the sun, the moon, the internet, the sky — то, что одно в нашем мире." },
+        { "title": "Нулевой артикль", "text": "Общие множественные и неисчисляемые: ∅ dogs, ∅ water, ∅ happiness. А также страны/города без the: ∅ France,  London (но the USA, the UK)." }
+      ],
+      "examples": [
+        { "en": "I need a pen.", "ru": "Мне нужна (какая-то) ручка.", "highlight": ["a"] },
+        { "en": "She is an engineer.", "ru": "Она инженер.", "highlight": ["an"] },
+        { "en": "Close the door, please.", "ru": "Закрой (эту конкретную) дверь.", "highlight": ["the"] },
+        { "en": "I love music.", "ru": "Я люблю музыку (вообще).", "highlight": [] }
+      ],
+      "mistakes": [
+        { "wrong": "I like the cats.", "right": "I like cats.", "note": "Обобщение во множественном — без the." },
+        { "wrong": "She is a engineer.", "right": "She is an engineer.", "note": "an перед гласным звуком." }
+      ],
+      "compare": {
+        "title": "a / an vs the",
+        "leftLabel": "a / an",
+        "rightLabel": "the",
+        "rows": [
+          { "left": "Give me a pen. (любую)", "right": "Give me the pen. (ту самую)" },
+          { "left": "Первое упоминание", "right": "Повтор / единственный объект" }
+        ]
+      },
+      "related": ["present-simple"],
+      "quiz": []
+    },
+    {
+      "slug": "present-perfect",
+      "title": "Present Perfect",
+      "level": "B1",
+      "category": "Tenses",
+      "readingTime": 6,
+      "summary": "Связывает прошлое с настоящим: результат сейчас, опыт или действие, длящееся до сих пор.",
+      "formula": "have / has + V3 (Past Participle)",
+      "markers": ["just", "already", "yet", "ever", "never", "recently", "lately", "so far", "since", "for", "this week", "in my life"],
+      "uses": [
+        "Результат на сейчас: I've lost my keys (= их нет при мне).",
+        "Жизненный опыт без даты: She has been to Japan.",
+        "Незавершённый период: I've read three books this month.",
+        "Действие длится до сих пор с since/for: We've lived here since 2020."
+      ],
+      "structure": {
+        "positive": "She has finished. / They have finished.",
+        "negative": "She hasn't finished. / They haven't finished.",
+        "question": "Has she finished? / Have they finished?"
+      },
+      "rules": [
+        { "title": "since / for", "text": "since + точка во времени (2020, Monday, I was a child); for + период (two years, a long time)." },
+        { "title": "just / already / yet", "text": "just и already — между have и V3; yet — в конце, в отрицаниях и вопросах." },
+        { "title": "has для 3-го лица ед.ч.", "text": "he/she/it → has, остальные → have." }
+      ],
+      "examples": [
+        { "en": "She has lived here since 2020.", "ru": "Она живёт здесь с 2020-го (и сейчас).", "highlight": ["has lived"] },
+        { "en": "I have never seen this film.", "ru": "Я никогда не видел этот фильм.", "highlight": ["have never seen"] },
+        { "en": "They haven't finished the report yet.", "ru": "Они ещё не закончили отчёт.", "highlight": ["haven't finished", "yet"] },
+        { "en": "Have you ever been to Paris?", "ru": "Ты когда-нибудь был в Париже?", "highlight": ["Have", "ever been"] }
+      ],
+      "mistakes": [
+        { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "note": "Есть точное время в прошлом → Past Simple." },
+        { "wrong": "She have finished.", "right": "She has finished.", "note": "3-е лицо ед.ч. → has." }
+      ],
+      "compare": {
+        "title": "Present Perfect vs Past Simple",
+        "leftLabel": "Present Perfect",
+        "rightLabel": "Past Simple",
+        "rows": [
+          { "left": "I've read this book. (важен факт/опыт)", "right": "I read this book last year. (важно когда)" },
+          { "left": "Время не названо / связь с сейчас", "right": "Время названо, действие закрыто" }
+        ]
+      },
+      "related": ["past-simple", "present-simple"],
+      "quiz": []
+    }
+  ]
+}

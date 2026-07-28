@@ -1,0 +1,124 @@
+---
+import Base from '../../layouts/Base.astro';
+import grammar from '../../data/grammar.json';
+
+export function getStaticPaths() {
+  return grammar.topics.map((t) => ({ params: { slug: t.slug }, props: { topic: t } }));
+}
+const { topic } = Astro.props;
+
+function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function highlight(text, tokens) {
+  let out = esc(text);
+  (tokens || []).forEach((t) => { out = out.replace(esc(t), '<mark class="hl">' + esc(t) + '</mark>'); });
+  return out;
+}
+
+const categories = [...new Set(grammar.topics.map((t) => t.category))];
+const sideTopics = (cat) => grammar.topics.filter((t) => t.category === cat);
+const related = grammar.topics.filter((t) => topic.related && topic.related.includes(t.slug));
+---
+<Base title={topic.title + ' — EnglishNotes'} currentSlug={topic.slug}>
+  <div class="wrap topic">
+    <aside class="side">
+      {categories.map((cat) => (
+        <div class="side__group">
+          <span>{cat}</span>
+          {sideTopics(cat).map((t) => (
+            <a href={'/grammar/' + t.slug} class:list={{ 'is-current': t.slug === topic.slug }}>{t.title}</a>
+          ))}
+        </div>
+      ))}
+    </aside>
+
+    <article>
+      <p class="eyebrow">{topic.category}</p>
+      <h1 class="topic__title"><span class="hl-mark">{topic.title}</span></h1>
+      <div class="topic__meta">
+        <span class="tag tag--lvl">Уровень {topic.level}</span>
+        <span class="tag">{topic.examples.length} примеров</span>
+        <span class="tag">≈ {topic.readingTime} мин</span>
+      </div>
+      <p class="muted" style="max-width:60ch;font-size:18px">{topic.summary}</p>
+
+      <div class="topic__actions">
+        <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false">✓ Отметить изученным</button>
+        <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false">★ В избранное</button>
+      </div>
+
+      <div class="ruled">
+        <div class="formula">{topic.formula}</div>
+        <div class="struct"><b>+</b> {topic.structure.positive}</div>
+        <div class="struct"><b>−</b> {topic.structure.negative}</div>
+        <div class="struct"><b>?</b> {topic.structure.question}</div>
+        {topic.markers && topic.markers.length > 0 && (
+          <p class="muted" style="margin-top:12px;font-size:14px">Маркеры: {topic.markers.join(' · ')}</p>
+        )}
+      </div>
+
+      <div class="block">
+        <h2>Когда используется</h2>
+        <ul class="use-list">
+          {topic.uses.map((u) => <li>{u}</li>)}
+        </ul>
+      </div>
+
+      <div class="block">
+        <h2>Правила и нюансы</h2>
+        <ul class="rule-list">
+          {topic.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
+        </ul>
+      </div>
+
+      <div class="block">
+        <h2>Примеры</h2>
+        <div class="examples">
+          {topic.examples.map((ex) => (
+            <div class="ex">
+              <div class="en" set:html={highlight(ex.en, ex.highlight)}></div>
+              <div class="ru">{ex.ru}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {topic.mistakes && topic.mistakes.length > 0 && (
+        <div class="block">
+          <h2>Типичные ошибки</h2>
+          <div class="mistakes">
+            {topic.mistakes.map((m) => (
+              <div class="mistake">
+                <div class="wrong">✗ {m.wrong}</div>
+                <div class="right">✓ {m.right}</div>
+                <div class="note">{m.note}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {topic.compare && (
+        <div class="block compare">
+          <h2>{topic.compare.title}</h2>
+          <table>
+            <thead><tr><th>{topic.compare.leftLabel}</th><th>{topic.compare.rightLabel}</th></tr></thead>
+            <tbody>
+              {topic.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      <div class="tip">Подсказка: читай примеры вслух — так правило «садится» в память быстрее.</div>
+
+      {related.length > 0 && (
+        <div class="block">
+          <h2>Связанные темы</h2>
+          <div class="related">
+            {related.map((r) => <a href={'/grammar/' + r.slug} class="chip">{r.title}</a>)}
+          </div>
+        </div>
+      )}
+    </article>
+  </div>
+</Base>

@@ -1,0 +1,130 @@
+---
+import grammar from '../data/grammar.json';
+import phrases from '../data/phrases.json';
+
+export interface Props { title?: string; currentSlug?: string; }
+const { title = 'EnglishNotes', currentSlug = '' } = Astro.props;
+
+const total = grammar.topics.length;
+const now = new Date();
+const start = new Date(now.getFullYear(), 0, 0);
+const dayOfYear = Math.floor((now.getTime() - start.getTime()) / 86400000);
+const phrase = phrases[dayOfYear % phrases.length];
+---
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23123430'/%3E%3Ctext x='16' y='22' font-size='20' font-family='sans-serif' font-weight='800' text-anchor='middle' fill='%23FFE95C'%3EE%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body data-topics-total={total} data-current-slug={currentSlug}>
+    <div class="ticker" aria-label="Фраза дня">
+      <div class="ticker__track">
+        <span class="ticker__item">Фраза дня — {phrase.en} <em>{phrase.ru}</em></span>
+        <span class="ticker__item" aria-hidden="true">Фраза дня — {phrase.en} <em>{phrase.ru}</em></span>
+      </div>
+    </div>
+
+    <header class="site-head">
+      <div class="wrap site-head__inner">
+        <a href="/" class="brand"><span class="brand__mark">E</span>English<b>Notes</b></a>
+        <details class="nav-toggle">
+          <summary>Меню</summary>
+          <nav class="nav">
+            <a href="/">Главная</a>
+            <a href="/grammar">Грамматика</a>
+            <a href="/grammar" class="is-soon">Слова · скоро</a>
+            <a href="/grammar" class="is-soon">Прогресс · скоро</a>
+          </nav>
+        </details>
+        <nav class="nav nav--desktop">
+          <a href="/">Главная</a>
+          <a href="/grammar">Грамматика</a>
+          <a href="/grammar" class="is-soon">Слова · скоро</a>
+          <a href="/grammar" class="is-soon">Прогресс · скоро</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-foot">
+      <div class="wrap site-foot__inner">
+        <span><span class="brand__mark brand__mark--sm">E</span> EnglishNotes — учим английский по‑настоящему.</span>
+        <span class="muted">MVP · грамматика по уровням CEFR</span>
+      </div>
+    </footer>
+
+    <script>
+      const STORE = 'englishnotes.progress.v1';
+      const read = () => { try { return JSON.parse(localStorage.getItem(STORE) || '{}'); } catch { return {}; } };
+      const write = (d) => localStorage.setItem(STORE, JSON.stringify(d));
+      const load = () => { const d = read(); return { completed: new Set(d.completed || []), favorites: new Set(d.favorites || []) }; };
+      const save = (s) => { write({ completed: [...s.completed], favorites: [...s.favorites] }); document.dispatchEvent(new CustomEvent('progress:change', { detail: s })); };
+      const total = parseInt(document.body.dataset.topicsTotal || '0', 10);
+      const cur = document.body.dataset.currentSlug || '';
+
+      function paintButtons(slug, s) {
+        document.querySelectorAll('[data-action][data-slug="' + slug + '"]').forEach((b) => {
+          const set = b.dataset.action === 'favorite' ? s.favorites : s.completed;
+          const on = set.has(slug);
+          b.classList.toggle('is-on', on);
+          b.setAttribute('aria-pressed', String(on));
+        });
+      }
+      function paintRings(s) {
+        const pct = total ? Math.round((s.completed.size / total) * 100) : 0;
+        document.querySelectorAll('[data-ring]').forEach((svg) => {
+          const fg = svg.querySelector('.ring__fg');
+          if (fg) fg.setAttribute('stroke-dasharray', pct + ' 100');
+        });
+        document.querySelectorAll('[data-ring-label]').forEach((el) => (el.textContent = pct + '%'));
+        document.querySelectorAll('[data-count]').forEach((el) => (el.textContent = s.completed.size + ' / ' + total));
+        document.querySelectorAll('[data-done]').forEach((el) => (el.textContent = s.completed.size));
+      }
+
+      let state = load();
+      document.querySelectorAll('[data-action]').forEach((b) => {
+        b.addEventListener('click', () => {
+          const slug = b.dataset.slug;
+          state = load();
+          const set = b.dataset.action === 'favorite' ? state.favorites : state.completed;
+          set.has(slug) ? set.delete(slug) : set.add(slug);
+          save(state);
+          paintButtons(slug, state);
+        });
+      });
+      if (cur) paintButtons(cur, state);
+      paintRings(state);
+      document.addEventListener('progress:change', (e) => { paintRings(e.detail); if (cur) paintButtons(cur, e.detail); });
+
+      // level filter on catalog
+      const chips = document.querySelectorAll('[data-filter]');
+      if (chips.length) {
+        const apply = (lvl) => {
+          chips.forEach((c) => c.classList.toggle('is-active', c.dataset.filter === lvl));
+          document.querySelectorAll('[data-card-level]').forEach((card) => {
+            card.hidden = !(lvl === 'all' || card.dataset.cardLevel === lvl);
+          });
+        };
+        chips.forEach((c) => c.addEventListener('click', () => apply(c.dataset.filter)));
+        const hash = (location.hash || '').replace('#', '');
+        apply(hash || 'all');
+      }
+
+      // scroll reveal
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
+      }, { threshold: 0.12 });
+      document.querySelectorAll('[data-reveal]').forEach((el) => io.observe(el));
+    </script>
+  </body>
+</html>
