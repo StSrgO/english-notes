@@ -1,8 +1,9 @@
 ---
 import Base from '../../layouts/Base.astro';
-import grammar from '../../data/grammar.json';
+
+const modules = import.meta.glob('../../data/grammar/*.json', { eager: true, import: 'default' });
+const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
 const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-const topics = grammar.topics;
 const byLevel = (lvl) => topics.filter((t) => t.level === lvl);
 ---
 <Base title="Грамматика по уровням — EnglishNotes">
@@ -12,7 +13,7 @@ const byLevel = (lvl) => topics.filter((t) => t.level === lvl);
         <p class="eyebrow">grammar · CEFR</p>
         <h2>Грамматика по уровням</h2>
       </div>
-      <span class="chip">Изучено: <b data-count style="margin-left:6px">0 / {topics.length}</b></span>
+      <span class="chip">Тем: <b style="margin-left:6px">{topics.length}</b></span>
     </div>
 
     <div class="filters" data-reveal>

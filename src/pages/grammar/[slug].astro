@@ -1,11 +1,12 @@
 ---
 import Base from '../../layouts/Base.astro';
-import grammar from '../../data/grammar.json';
 
 export function getStaticPaths() {
-  return grammar.topics.map((t) => ({ params: { slug: t.slug }, props: { topic: t } }));
+  const modules = import.meta.glob('../../data/grammar/*.json', { eager: true, import: 'default' });
+  const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
+  return topics.map((t) => ({ params: { slug: t.slug }, props: { topic: t, topics } }));
 }
-const { topic } = Astro.props;
+const { topic, topics } = Astro.props;
 
 function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 function highlight(text, tokens) {
@@ -14,9 +15,9 @@ function highlight(text, tokens) {
   return out;
 }
 
-const categories = [...new Set(grammar.topics.map((t) => t.category))];
-const sideTopics = (cat) => grammar.topics.filter((t) => t.category === cat);
-const related = grammar.topics.filter((t) => topic.related && topic.related.includes(t.slug));
+const categories = [...new Set(topics.map((t) => t.category))];
+const sideTopics = (cat) => topics.filter((t) => t.category === cat);
+const related = topics.filter((t) => topic.related && topic.related.includes(t.slug));
 ---
 <Base title={topic.title + ' — EnglishNotes'} currentSlug={topic.slug}>
   <div class="wrap topic">
@@ -32,11 +33,10 @@ const related = grammar.topics.filter((t) => topic.related && topic.related.incl
     </aside>
 
     <article>
-      <p class="eyebrow">{topic.category}</p>
+      <p class="eyebrow">{topic.category} · уровень {topic.level}</p>
       <h1 class="topic__title"><span class="hl-mark">{topic.title}</span></h1>
       <div class="topic__meta">
         <span class="tag tag--lvl">Уровень {topic.level}</span>
-        <span class="tag">{topic.examples.length} примеров</span>
         <span class="tag">≈ {topic.readingTime} мин</span>
       </div>
       <p class="muted" style="max-width:60ch;font-size:18px">{topic.summary}</p>
@@ -46,70 +46,144 @@ const related = grammar.topics.filter((t) => topic.related && topic.related.incl
         <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false">★ В избранное</button>
       </div>
 
-      <div class="ruled">
-        <div class="formula">{topic.formula}</div>
-        <div class="struct"><b>+</b> {topic.structure.positive}</div>
-        <div class="struct"><b>−</b> {topic.structure.negative}</div>
-        <div class="struct"><b>?</b> {topic.structure.question}</div>
-        {topic.markers && topic.markers.length > 0 && (
-          <p class="muted" style="margin-top:12px;font-size:14px">Маркеры: {topic.markers.join(' · ')}</p>
-        )}
-      </div>
+      {/* ===== УЧИМ ===== */}
+      <div class="lesson">
+        <section class="lesson__block idea" data-reveal>
+          <h2 class="lesson__h"><span class="lesson__ico">📘</span>Суть явления</h2>
+          {topic.idea.map((p) => <p class="idea__p">{p}</p>)}
+        </section>
 
-      <div class="block">
-        <h2>Когда используется</h2>
-        <ul class="use-list">
-          {topic.uses.map((u) => <li>{u}</li>)}
-        </ul>
-      </div>
+        <section class="lesson__block" data-reveal>
+          <h2 class="lesson__h"><span class="lesson__ico">🎯</span>Зачем это нужно</h2>
+          <ul class="why-list">
+            {topic.why.map((w) => <li>{w}</li>)}
+          </ul>
+        </section>
 
-      <div class="block">
-        <h2>Правила и нюансы</h2>
-        <ul class="rule-list">
-          {topic.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
-        </ul>
-      </div>
+        <section class="lesson__block" data-reveal>
+          <h2 class="lesson__h"><span class="lesson__ico">💬</span>Живой контекст</h2>
+          <div class="dialog">
+            {topic.context.lines.map((l) => (
+              <div class="dialog__line">
+                <div class="dialog__en">{l.en}</div>
+                <div class="dialog__ru">{l.ru}</div>
+              </div>
+            ))}
+            {topic.context.note && <p class="dialog__note">{topic.context.note}</p>}
+          </div>
+        </section>
 
-      <div class="block">
-        <h2>Примеры</h2>
-        <div class="examples">
-          {topic.examples.map((ex) => (
-            <div class="ex">
-              <div class="en" set:html={highlight(ex.en, ex.highlight)}></div>
-              <div class="ru">{ex.ru}</div>
+        <section class="lesson__block ru-angle" data-reveal>
+          <h2 class="lesson__h"><span class="lesson__ico">🔀</span>Взгляд через русский</h2>
+          <ul class="ru-list">
+            {topic.russianAngle.map((r) => <li>{r}</li>)}
+          </ul>
+        </section>
+
+        <section class="lesson__block" data-reveal>
+          <h2 class="lesson__h"><span class="lesson__ico">🛠️</span>Как освоить</h2>
+          <ol class="howto">
+            {topic.howToLearn.steps.map((s) => <li>{s}</li>)}
+          </ol>
+          {topic.howToLearn.exercise && (
+            <div class="try">
+              {topic.howToLearn.exercise.prompt && <p class="try__prompt">{topic.howToLearn.exercise.prompt}</p>}
+              <ol class="try__q">
+                {topic.howToLearn.exercise.items.map((it) => <li set:html={highlight(it.q, [])}></li>)}
+              </ol>
+              <details class="try__a">
+                <summary>Показать ответы</summary>
+                <ol>
+                  {topic.howToLearn.exercise.items.map((it) => <li>{it.a}</li>)}
+                </ol>
+              </details>
             </div>
-          ))}
-        </div>
+          )}
+        </section>
       </div>
 
-      {topic.mistakes && topic.mistakes.length > 0 && (
-        <div class="block">
-          <h2>Типичные ошибки</h2>
-          <div class="mistakes">
-            {topic.mistakes.map((m) => (
-              <div class="mistake">
-                <div class="wrong">✗ {m.wrong}</div>
-                <div class="right">✓ {m.right}</div>
-                <div class="note">{m.note}</div>
+      {/* ===== СПРАВОЧНИК (сворачиваемый) ===== */}
+      <details class="ref" open>
+        <summary class="ref__sum">Повторяю / справочник</summary>
+        <div class="ref__body">
+          <div class="ruled">
+            <div class="formula">{topic.formula}</div>
+            <div class="struct"><b>+</b> {topic.structure.positive}</div>
+            <div class="struct"><b>−</b> {topic.structure.negative}</div>
+            <div class="struct"><b>?</b> {topic.structure.question}</div>
+            {topic.markers && topic.markers.length > 0 && (
+              <p class="muted" style="margin-top:12px;font-size:14px">Маркеры: {topic.markers.join(' · ')}</p>
+            )}
+          </div>
+
+          <div class="block">
+            <h2>Когда используется</h2>
+            <ul class="use-list">
+              {topic.uses.map((u) => <li>{u}</li>)}
+            </ul>
+          </div>
+
+          <div class="block">
+            <h2>Правила и нюансы</h2>
+            <ul class="rule-list">
+              {topic.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
+            </ul>
+          </div>
+
+          <div class="block">
+            <h2>Примеры по ситуациям</h2>
+            {topic.examples.map((g) => (
+              <div class="ex-group">
+                <h3 class="ex-group__t">{g.group}</h3>
+                <div class="examples">
+                  {g.items.map((ex) => (
+                    <div class="ex">
+                      <div class="en" set:html={highlight(ex.en, ex.highlight)}></div>
+                      <div class="ru">{ex.ru}</div>
+                    </div>
+                  ))}
+                </div>
               </div>
             ))}
           </div>
-        </div>
-      )}
 
-      {topic.compare && (
-        <div class="block compare">
-          <h2>{topic.compare.title}</h2>
-          <table>
-            <thead><tr><th>{topic.compare.leftLabel}</th><th>{topic.compare.rightLabel}</th></tr></thead>
-            <tbody>
-              {topic.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
-            </tbody>
-          </table>
-        </div>
-      )}
+          {topic.mistakes && topic.mistakes.length > 0 && (
+            <div class="block">
+              <h2>Типичные ошибки</h2>
+              <div class="mistakes">
+                {topic.mistakes.map((m) => (
+                  <div class="mistake">
+                    <div class="wrong">✗ {m.wrong}</div>
+                    <div class="right">✓ {m.right}</div>
+                    <div class="note">{m.note}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
-      <div class="tip">Подсказка: читай примеры вслух — так правило «садится» в память быстрее.</div>
+          {topic.compare && (
+            <div class="block compare">
+              <h2>{topic.compare.title}</h2>
+              <table>
+                <thead><tr><th>{topic.compare.leftLabel}</th><th>{topic.compare.rightLabel}</th></tr></thead>
+                <tbody>
+                  {topic.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
+                </tbody>
+              </table>
+            </div>
+          )}
+
+          {topic.tips && topic.tips.length > 0 && (
+            <div class="block tips-block">
+              <h2>💡 Лайфхаки преподавателя</h2>
+              <ul class="tips">
+                {topic.tips.map((t) => <li class="tip-card">{t}</li>)}
+              </ul>
+            </div>
+          )}
+        </div>
+      </details>
 
       {related.length > 0 && (
         <div class="block">

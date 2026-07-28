@@ -1,15 +1,12 @@
 ---
-import grammar from '../data/grammar.json';
 import phrases from '../data/phrases.json';
 
 export interface Props { title?: string; currentSlug?: string; }
 const { title = 'EnglishNotes', currentSlug = '' } = Astro.props;
 
-const total = grammar.topics.length;
-const now = new Date();
-const start = new Date(now.getFullYear(), 0, 0);
-const dayOfYear = Math.floor((now.getTime() - start.getTime()) / 86400000);
-const phrase = phrases[dayOfYear % phrases.length];
+const modules = import.meta.glob('../data/grammar/*.json', { eager: true, import: 'default' });
+const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
+const total = topics.length;
 ---
 <!doctype html>
 <html lang="ru">
@@ -24,13 +21,6 @@ const phrase = phrases[dayOfYear % phrases.length];
     <link rel="stylesheet" href="/src/styles/global.css" />
   </head>
   <body data-topics-total={total} data-current-slug={currentSlug}>
-    <div class="ticker" aria-label="Фраза дня">
-      <div class="ticker__track">
-        <span class="ticker__item">Фраза дня — {phrase.en} <em>{phrase.ru}</em></span>
-        <span class="ticker__item" aria-hidden="true">Фраза дня — {phrase.en} <em>{phrase.ru}</em></span>
-      </div>
-    </div>
-
     <header class="site-head">
       <div class="wrap site-head__inner">
         <a href="/" class="brand"><span class="brand__mark">E</span>English<b>Notes</b></a>
@@ -80,16 +70,6 @@ const phrase = phrases[dayOfYear % phrases.length];
           b.setAttribute('aria-pressed', String(on));
         });
       }
-      function paintRings(s) {
-        const pct = total ? Math.round((s.completed.size / total) * 100) : 0;
-        document.querySelectorAll('[data-ring]').forEach((svg) => {
-          const fg = svg.querySelector('.ring__fg');
-          if (fg) fg.setAttribute('stroke-dasharray', pct + ' 100');
-        });
-        document.querySelectorAll('[data-ring-label]').forEach((el) => (el.textContent = pct + '%'));
-        document.querySelectorAll('[data-count]').forEach((el) => (el.textContent = s.completed.size + ' / ' + total));
-        document.querySelectorAll('[data-done]').forEach((el) => (el.textContent = s.completed.size));
-      }
 
       let state = load();
       document.querySelectorAll('[data-action]').forEach((b) => {
@@ -103,10 +83,7 @@ const phrase = phrases[dayOfYear % phrases.length];
         });
       });
       if (cur) paintButtons(cur, state);
-      paintRings(state);
-      document.addEventListener('progress:change', (e) => { paintRings(e.detail); if (cur) paintButtons(cur, e.detail); });
 
-      // level filter on catalog
       const chips = document.querySelectorAll('[data-filter]');
       if (chips.length) {
         const apply = (lvl) => {
@@ -120,7 +97,6 @@ const phrase = phrases[dayOfYear % phrases.length];
         apply(hash || 'all');
       }
 
-      // scroll reveal
       const io = new IntersectionObserver((entries) => {
         entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
       }, { threshold: 0.12 });

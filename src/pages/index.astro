@@ -1,7 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
-import grammar from '../data/grammar.json';
+import phrases from '../data/phrases.json';
 import recs from '../data/recommendations.json';
+
 const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const sections = [
   { ico: '📖', title: 'Грамматика', href: '/grammar', soon: false },
@@ -9,53 +10,75 @@ const sections = [
   { ico: '🎧', title: 'Аудирование', href: '/grammar', soon: true },
   { ico: '🎤', title: 'Говорение', href: '/grammar', soon: true },
 ];
+
+const now = new Date();
+const start = new Date(now.getFullYear(), 0, 0);
+const seed = Math.floor((now.getTime() - start.getTime()) / 86400000);
+
+const phrase = phrases[seed % phrases.length];
+
+const typeOrder = ['podcast', 'video', 'book', 'series', 'song'];
+const picks = typeOrder.map((t, i) => {
+  const pool = recs.filter((r) => r.type === t);
+  return pool[(seed + i) % pool.length];
+});
+
+const glyph = (type) => {
+  if (type === 'podcast') return '<span class="eq"><i></i><i></i><i></i></span>';
+  if (type === 'video') return '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>';
+  if (type === 'book') return '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10.5 5 8 4.5 4 4.5V18c4 0 6.5.5 8 2 1.5-1.5 4-2 8-2V4.5c-4 0-6.5.5-8 2z"/><path d="M12 6.5V20"/></svg>';
+  if (type === 'series') return '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/></svg>';
+  return '<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>';
+};
 ---
 <Base title="EnglishNotes — учим английский по-настоящему">
   <section class="hero wrap">
     <div class="hero__grid">
-      <div data-reveal>
-        <p class="eyebrow">language · skill · /ˈɪ.ɡlɪʃ/</p>
+      <div class="hero__lead" data-reveal>
+        <p class="eyebrow">language · skill · a1–c2</p>
         <h1>Учи английский,<br><span class="hl-mark">по‑настоящему.</span></h1>
-        <p class="muted" style="max-width:46ch">Грамматика, разложенная по уровням CEFR — от A1 до C2. Читай правила, разбирай примеры и отмечай пройденное. Без воды и регистрации.</p>
+        <p class="muted hero__sub">Грамматика, разложенная по уровням CEFR — от A1 до C2. Читай правила, разбирай примеры и отмечай пройденное. Без воды и регистрации.</p>
         <div class="levels">
           {levels.map((l) => <a href={'/grammar#' + l} class="level-dot" title={'Уровень ' + l}>{l}</a>)}
         </div>
         <a href="/grammar" class="btn btn--coral">Открыть грамматику →</a>
       </div>
+
       <div class="hero__visual" data-reveal>
-        <div class="sticky">Подборка<br>недели ✦</div>
-        <div class="recs">
-          {recs.map((r) => (
-            <a href={r.href} target="_blank" rel="noopener noreferrer" class="rec">
-              <span class={'rec__cover rec__cover--' + r.type} aria-hidden="true">
-                {r.type === 'podcast' && <span class="eq"><i></i><i></i><i></i></span>}
-                {r.type === 'video' && <span class="play"></span>}
-                {r.type === 'book' && <span class="pages"></span>}
-              </span>
-              <span class="rec__body">
-                <span class="rec__type">{r.typeLabel} · {r.level}</span>
-                <span class="rec__title">{r.title}</span>
-                <span class="rec__meta">{r.meta}</span>
-              </span>
-              <span class="rec__go" aria-hidden="true">↗</span>
-            </a>
-          ))}
-        </div>
+        <section class="daily">
+          <h2 class="block-label"><span class="dot"></span>фраза дня</h2>
+          <figure class="quote-card">
+            <span class="quote-card__mark" aria-hidden="true">&ldquo;</span>
+            <blockquote class="quote-card__en">{phrase.en}</blockquote>
+            <p class="quote-card__ru">{phrase.ru}</p>
+            {phrase.author && (
+              <figcaption class="quote-card__by">— {phrase.author}{phrase.source ? ', ' + phrase.source : ''}</figcaption>
+            )}
+          </figure>
+        </section>
+
+        <section class="daily">
+          <h2 class="block-label"><span class="dot"></span>подборка дня</h2>
+          <div class="picks">
+            {picks.map((r) => (
+              <a href={r.href} target="_blank" rel="noopener noreferrer" class="pick">
+                <span class={'pick__cover pick__cover--' + r.type} set:html={glyph(r.type)}></span>
+                <span class="pick__body">
+                  <span class="pick__type">{r.typeLabel} · {r.level}</span>
+                  <span class="pick__title">{r.title}</span>
+                  <span class="pick__meta">{r.meta}</span>
+                </span>
+                <span class="pick__go" aria-hidden="true">↗</span>
+              </a>
+            ))}
+          </div>
+        </section>
       </div>
     </div>
   </section>
 
   <section class="section wrap">
-    <div class="section__head" data-reveal>
-      <h2>Разделы</h2>
-      <div class="ring-wrap">
-        <svg class="ring" viewBox="0 0 36 36" data-ring>
-          <circle class="ring__bg" cx="18" cy="18" r="16" pathLength="100" />
-          <circle class="ring__fg" cx="18" cy="18" r="16" pathLength="100" stroke-dasharray="0 100" />
-        </svg>
-        <span class="ring-label" data-ring-label>0%</span>
-      </div>
-    </div>
+    <h2 class="block-label"><span class="dot"></span>разделы</h2>
     <div class="cards">
       {sections.map((s) => (
         <a href={s.href} class={'card' + (s.soon ? ' is-soon' : '')} data-reveal>
@@ -64,10 +87,6 @@ const sections = [
           <span class="muted" style="font-size:14px">{s.soon ? 'скоро' : 'перейти'}</span>
         </a>
       ))}
-      <div class="card card--progress" data-reveal>
-        <span class="muted" style="font-size:13px">Изучено тем</span>
-        <strong style="font-family:var(--display);font-size:22px" data-count>0 / {grammar.topics.length}</strong>
-      </div>
     </div>
   </section>
 </Base>

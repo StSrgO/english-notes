@@ -1,26 +1,17 @@
 [
-  {
-    "type": "podcast",
-    "typeLabel": "Подкаст",
-    "level": "B1",
-    "title": "6 Minute English",
-    "meta": "BBC Learning English · 6 мин",
-    "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english"
-  },
-  {
-    "type": "video",
-    "typeLabel": "Видео",
-    "level": "B2",
-    "title": "TED Talks Daily",
-    "meta": "ted.com · 5–18 мин",
-    "href": "https://www.ted.com/"
-  },
-  {
-    "type": "book",
-    "typeLabel": "Книга",
-    "level": "A2",
-    "title": "Alice's Adventures in Wonderland",
-    "meta": "Project Gutenberg · EN",
-    "href": "https://www.gutenberg.org/ebooks/11"
-  }
+  { "type": "podcast", "typeLabel": "Подкаст", "level": "B1", "title": "6 Minute English", "meta": "BBC Learning English", "href": "https://www.bbc.co.uk/learningenglish/english/features/6-minute-english" },
+  { "type": "podcast", "typeLabel": "Подкаст", "level": "B1", "title": "The English We Speak", "meta": "BBC Learning English", "href": "https://www.bbc.co.uk/learningenglish/english/features/the-english-we-speak" },
+  { "type": "podcast", "typeLabel": "Подкаст", "level": "B2", "title": "Luke's English Podcast", "meta": "teacherluke.co.uk", "href": "https://teacherluke.co.uk/" },
+  { "type": "video", "typeLabel": "Видео", "level": "B2", "title": "TED Talks Daily", "meta": "ted.com", "href": "https://www.ted.com/" },
+  { "type": "video", "typeLabel": "Видео", "level": "A2", "title": "BBC Learning English", "meta": "YouTube", "href": "https://www.youtube.com/@bbclearningenglish" },
+  { "type": "video", "typeLabel": "Видео", "level": "B1", "title": "English with Lucy", "meta": "YouTube", "href": "https://www.youtube.com/@EnglishwithLucy" },
+  { "type": "book", "typeLabel": "Книга", "level": "A2", "title": "Alice's Adventures in Wonderland", "meta": "Lewis Carroll · gutenberg.org", "href": "https://www.gutenberg.org/ebooks/11" },
+  { "type": "book", "typeLabel": "Книга", "level": "B1", "title": "The Adventures of Sherlock Holmes", "meta": "A. Conan Doyle · gutenberg.org", "href": "https://www.gutenberg.org/ebooks/1661" },
+  { "type": "book", "typeLabel": "Книга", "level": "B2", "title": "Pride and Prejudice", "meta": "Jane Austen · gutenberg.org", "href": "https://www.gutenberg.org/ebooks/1342" },
+  { "type": "series", "typeLabel": "Сериал", "level": "A1", "title": "Extra English", "meta": "учебный ситком · ~25 мин", "href": "https://www.youtube.com/results?search_query=extra+english+series" },
+  { "type": "series", "typeLabel": "Сериал", "level": "A2", "title": "Friends", "meta": "ситком · ~22 мин", "href": "https://www.imdb.com/title/tt0108778/" },
+  { "type": "series", "typeLabel": "Сериал", "level": "B2", "title": "The Crown", "meta": "историческая драма · ~58 мин", "href": "https://www.imdb.com/title/tt4786824/" },
+  { "type": "song", "typeLabel": "Разбор песни", "level": "B1", "title": "Yesterday — The Beatles", "meta": "lyrics + Past Simple", "href": "https://genius.com/The-beatles-yesterday-lyrics" },
+  { "type": "song", "typeLabel": "Разбор песни", "level": "B1", "title": "Imagine — John Lennon", "meta": "lyrics + vocabulary", "href": "https://genius.com/John-lennon-imagine-lyrics" },
+  { "type": "song", "typeLabel": "Разбор песни", "level": "B1", "title": "Let It Be — The Beatles", "meta": "lyrics + phrasal verbs", "href": "https://genius.com/The-beatles-let-it-be-lyrics" }
 ]
