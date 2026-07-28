@@ -1,0 +1,136 @@
+{
+  "slug": "a1-questions",
+  "title": "Questions (yes/no и wh-)",
+  "level": "A1",
+  "category": "Questions",
+  "readingTime": 8,
+  "summary": "Как строить вопросы: yes/no и wh-. Порядок слов, вспомогательный глагол и короткие ответы.",
+  "idea": [
+    "Вопросы — это половина любого разговора, и в английском они устроены принципиально иначе, чем в русском. В русском вопрос строится интонацией: «Ты работаешь?» — слова те же, меняется только голос. В английском так нельзя: вопрос требует перестройки предложения, и главный инструмент — вспомогательный глагол (do / does / did или am / is / are), который «выпрыгивает» перед подлежащим. Это самая большая механическая разница между языками, и её надо принять как данность: без вспомогательного английского вопроса не бывает.",
+    "Основных типов два. Yes/no‑вопросы — те, на которые отвечают «да» или «нет»: Do you work? Is she here? Did they come? Wh‑вопросы — с вопросительным словом (what, where, when, who, why, how): Where do you live? What is this? Общая формула порядка слов: (Wh‑слово) + вспомогательный + подлежащее + основной глагол. Вспомогательный — это «оператор», который всегда стоит перед подлежащим; именно он несёт на себе время и лицо, а основной глагол стоит в начальной форме.",
+    "Есть две тонкости, которые важно знать. Если в утверждении уже есть be или модальный глагол, они сами становятся вспомогательными — do не нужен: Are you ready? Can you swim? А вопрос к подлежащему (когда спрашиваем, кто или что делает действие) — это исключение: do не нужен, порядок слов как в утверждении, а глагол стоит в 3‑м лице: Who lives here? (не Who does live here?). Для русскоговорящих главная боль — забыть do/does: «Where you live?» вместо «Where do you live?» или вопрос без инверсии «You like coffee?». Если унести одну мысль: вопрос = (Wh) + вспомогательный + подлежащее + глагол; если нет be или модального — taщим do / does / did."
+  ],
+  "why": [
+    "Задавать yes/no‑вопросы: Do you work? Is she here?",
+    "Задавать wh‑вопросы: Where do you live? What do you want?",
+    "Расспрашивать о людях, местах, времени, причинах.",
+    "Понимать вопросы на слух и отвечать коротко: Yes, I do. / No, she isn't."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Hi! Where are you from?", "ru": "Привет! Ты откуда?" },
+      { "en": "I'm from Italy. And you?", "ru": "Я из Италии. А ты?" },
+      { "en": "I'm from Brazil. Do you speak English well?", "ru": "Я из Бразилии. Ты хорошо говоришь по‑английски?" },
+      { "en": "Quite well. Where do you work?", "ru": "Неплохо. А где ты работаешь?" },
+      { "en": "I'm a designer. Who do you work for?", "ru": "Я дизайнер. На кого ты работаешь?" },
+      { "en": "A small studio. Do you like your job?", "ru": "Небольшая студия. Тебе нравится твоя работа?" }
+    ],
+    "note": "Каждый вопрос — либо с be (Where are you from?), либо с do (Do you speak…? Where do you work?), либо с wh‑словом + вспомогательный (Who do you work for?)."
+  },
+  "russianAngle": [
+    "🇷🇺 Вопрос интонацией: «Ты работаешь?» 🇬🇧 Нужен вспомогательный + инверсия: Do you work? Без do — не вопрос.",
+    "🇷🇺 «Где ты живёшь?» — слова в любом порядке. 🇬🇧 Жёсткий порядок: Where do you live? (Wh + do + подлежащее + глагол).",
+    "🇷🇺 «Кто тебе звонил?» 🇬🇧 Who called you? — вопрос к подлежащему, без do, глагол в 3‑м лице. Это исключение.",
+    "🇷🇺 Ответ «Да, работаю». 🇬🇧 Короткий ответ через вспомогательный: Yes, I do. / No, I don't. (не Yes, I work)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: вопрос = перестройка предложения, нужен вспомогательный перед подлежащим.",
+      "Выучи формулу: (Wh) + вспомогательный (do/does/did, am/is/are) + подлежащее + глагол.",
+      "Если в утверждении есть be / модальный — do не нужен (Are you…? Can you…?).",
+      "Запомни исключение: вопрос к подлежащему (Who/What + глагол в 3‑м лице, без do).",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — вставь нужный вспомогательный или wh‑слово:",
+      "items": [
+        { "q": "___ you like coffee? (Do / Does)", "a": "Do — you → do." },
+        { "q": "Where ___ she live? (do / does)", "a": "does — she → does." },
+        { "q": "___ is your name? (What / Where)", "a": "What — «как тебя зовут» (какое имя)." },
+        { "q": "___ called you yesterday? (вопрос к подлежащему)", "a": "Who — без did: Who called you?" },
+        { "q": "Is he a doctor? — Yes, he ___.", "a": "is — короткий ответ через be." }
+      ]
+    }
+  },
+  "formula": "Yes/No: (be/do/does) + подлежащее + …? · Wh: wh-слово + (be/do/does) + подлежащее + …?",
+  "structure": {
+    "positive": "—",
+    "negative": "—",
+    "question": "Do you work? / Is she here? / What do you want?"
+  },
+  "markers": ["do/does/did", "am/is/are", "what/where/when/who/why/how"],
+  "uses": [
+    "Yes/No с be: Are you ready?",
+    "Yes/No с do/does: Do you like tea?",
+    "Wh-вопрос: Where do you live?",
+    "Вопрос к подлежащему (без do): Who called?"
+  ],
+  "rules": [
+    { "title": "Вспомогательный обязателен", "text": "Если в утверждении нет be или модального, в вопрос taщим do/does (Present) или did (Past): You like coffee → Do you like coffee?" },
+    { "title": "Вопрос к подлежащему", "text": "Если спрашиваем, кто/что делает действие, do не нужен и глагол стоит в 3‑м лице: Who lives here? (не Who does live here?)." }
+  ],
+  "examples": [
+    {
+      "group": "Yes/No с be",
+      "items": [
+        { "en": "Are you ready?", "ru": "Ты готов?", "highlight": ["Are"] },
+        { "en": "Is she at home?", "ru": "Она дома?", "highlight": ["Is"] }
+      ]
+    },
+    {
+      "group": "Yes/No с do / does / did",
+      "items": [
+        { "en": "Do you work?", "ru": "Ты работаешь?", "highlight": ["Do"] },
+        { "en": "Did you call her?", "ru": "Ты ей звонил?", "highlight": ["Did", "call"] }
+      ]
+    },
+    {
+      "group": "Wh-вопросы",
+      "items": [
+        { "en": "Where do you live?", "ru": "Где ты живёшь?", "highlight": ["Where do"] },
+        { "en": "Why are you late?", "ru": "Почему ты опоздал?", "highlight": ["Why are"] }
+      ]
+    },
+    {
+      "group": "Вопрос к подлежащему (без do)",
+      "items": [
+        { "en": "Who called you?", "ru": "Кто тебе звонил?", "highlight": ["Who called"] },
+        { "en": "What happened?", "ru": "Что случилось?", "highlight": ["What happened"] }
+      ]
+    },
+    {
+      "group": "Короткие ответы",
+      "items": [
+        { "en": "Do you like it? — Yes, I do. / No, I don't.", "ru": "Тебе нравится? — Да. / Нет.", "highlight": ["do", "don't"] },
+        { "en": "Is she here? — Yes, she is. / No, she isn't.", "ru": "Она здесь? — Да. / Нет.", "highlight": ["is", "isn't"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "You like coffee?", "right": "Do you like coffee?", "note": "Нужен do." },
+    { "wrong": "Where you live?", "right": "Where do you live?", "note": "Wh-вопрос требует do." },
+    { "wrong": "Where does she lives?", "right": "Where does she live?", "note": "После does без -s." },
+    { "wrong": "Who did call you?", "right": "Who called you?", "note": "Вопрос к подлежащему без did." },
+    { "wrong": "— Do you like jazz? — Yes, I like.", "right": "— Yes, I do.", "note": "Короткий ответ через do." }
+  ],
+  "compare": {
+    "title": "yes/no vs wh-вопросы",
+    "leftLabel": "yes/no (ответ да/нет)",
+    "rightLabel": "wh- (информация)",
+    "rows": [
+      { "left": "Do you live here?", "right": "Where do you live?" },
+      { "left": "вспомогательный + подлежащее", "right": "wh-слово + вспомогательный + подлежащее" }
+    ]
+  },
+  "tips": [
+    "Формула «оператор перед подлежащим»: вспомогательный (do/does/did/is/are/can/will) всегда прыгает ПЕРЕД подлежащим. Do YOU work? Where DO you live? Мысленно меняй оператор и подлежащее местами.",
+    "Интонация — часть грамматики: yes/no‑вопросы — голос ВВЕРХ в конце (Do you like it? ↗); wh‑вопросы — голос ВНИЗ (Where do you live? ↘). Тренируй ухом — это влияет на понимание.",
+    "Вопрос к подлежащему — ловушка: Who/What как подлежащее НЕ зовут do. Who wants coffee? (не Who does want). Who called? What happened? Звучит как утверждение с вопросительным словом.",
+    "Короткие ответы — must: Yes, I do / No, I don't; Yes, she is / No, she isn't; Yes, I can / No, I can't. Ответ повтором глагола (Yes, I like) выдаёт иностранца. Эхо‑ответ вспомогательным — норма.",
+    "«Do you mind…?» — коварный вопрос: Do you mind if I open the window? Ответ «No» означает «да, открывай» (я не возражаю), а «Yes» = «возражаю». Запоминай: No = не возражаю = можно.",
+    "Wh‑слова: what (что/какой), where (где/куда), when (когда), who (кто), why (почему), how (как), which (который), whose (чей). how расширяется: how old (возраст), how much/many (сколько), how often (как часто), how long (как долго).",
+    "В разговорном вопросы часто «упрощают»: «You working today?» (пропуск Are), «Like it?» (пропуск Do you). Понимай на слух, но в своей речи и письме держи полную форму с вспомогательным."
+  ],
+  "related": ["a1-present-simple", "a1-verb-to-be", "a1-pronouns", "a1-past-simple"],
+  "quiz": []
+}

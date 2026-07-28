@@ -1,0 +1,127 @@
+{
+  "slug": "a1-pronouns",
+  "title": "Pronouns (I / me / my / mine)",
+  "level": "A1",
+  "category": "Pronouns",
+  "readingTime": 7,
+  "summary": "Местоимения заменяют имена. Три роли: подлежащее (I), объект (me), притяжание (my / mine).",
+  "idea": [
+    "Местоимения — это слова‑заменители имён, и без них английская речь превратилась бы в бесконечное повторение имён собственных. У русского местоимения устроены похоже по смыслу, но английские жёстко различают роль слова в предложении, и именно это сбивает с толку. У каждого лица фактически три формы: подлежащее (кто делает — I, he, she, they), объект (над кем/с кем делают — me, him, her, them) и притяжательная (чей — my, his, her, their). I читает книгу. Ей дали книгу. Это её книга. Три разные формы одного «я/она»: I, her, her.",
+    "Главная идея, которую надо усвоить: форма местоимения зависит от его работы в предложении. Подлежащее стоит перед глаголом и само действует: She loves music. Объект стоит после глагола или предлога, действие направлено на него: Call me. This gift is for him. А притяжательная форма показывает принадлежность, и тут английский делает ещё одно различие, которого нет в русском одним словом: my стоит перед существительным (my car), а mine заменяет существительное целиком (the car is mine). «Моя машина» = my car, но «машина моя» = the car is mine.",
+    "Самая частая ошибка русскоговорящих — калька «Me and Tom went out» вместо «Tom and I went out»: в подлежащем нужна форма I, и по‑английски вежливо ставить себя на второе место. Вторая ловушка — предлоги: после предлога всегда объектная форма, поэтому between you and me (не between you and I), хотя «правильное» звучание так и подмывает сказать I. Если унести одну мысль: форма местоимения следует за его ролью — подлежащее (I), объект (me), притяжание (my / mine)."
+  ],
+  "why": [
+    "Говорить о себе и других, не повторяя имён: She reads. Call him.",
+    "Показывать принадлежность: my book, the book is mine.",
+    "Строить предложения с предлогами: with us, for her, between you and me.",
+    "Заменять целые существительные: Mine is red. (= моя [вещь] красная)"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Is this your phone?", "ru": "Это твой телефон?" },
+      { "en": "No, mine is black. This one isn't mine.", "ru": "Нет, мой чёрный. Этот не мой." },
+      { "en": "Oh, it's Sarah's. Give it to her, please.", "ru": "О, это Сарин. Отдай ей, пожалуйста." },
+      { "en": "Sure. I'll put it on her desk. She's sitting next to me.", "ru": "Конечно. Положу ей на стол. Она сидит рядом со мной." }
+    ],
+    "note": "Обрати внимание на смену форм: your → mine → her → me. Одна и та же «принадлежность/лицо» выражается разными формами в зависимости от роли в предложении."
+  },
+  "russianAngle": [
+    "🇷🇺 «Я и Том пошли» — порядок свободный, форма одна. 🇬🇧 В подлежащем — I, и себя ставят вторым: Tom and I went out (не Me and Tom).",
+    "🇷🇺 «между тобой и мной» — форма не меняется. 🇬🇧 После предлога — объектная форма: between you and me (не between you and I), хотя «красивое» I так и просится.",
+    "🇷🇺 «мой / моя / моё / мои» — одно слово по смыслу. 🇬🇧 my перед словом (my car), mine вместо слова (the car is mine). «Моя [машина]» = mine.",
+    "🇷🇺 «Его книга» и «книга его» — одно. 🇬🇧 his book (перед словом) и the book is his (вместо слова) — у his форма одна, а у my/mine, her/hers, our/ours, their/theirs — разные."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: форма местоимения зависит от роли — подлежащее (I), объект (me), притяжание (my / mine).",
+      "Выучи таблицу столбцами: I–me–my–mine, you–you–your–yours, he–him–his–his, she–her–her–hers, we–us–our–ours, they–them–their–theirs.",
+      "Запомни: подлежащее — перед глаголом; объект — после глагола/предлога.",
+      "my перед словом, mine вместо слова (так же your/yours, her/hers, our/ours, their/theirs).",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — вставь нужную форму местоимения:",
+      "items": [
+        { "q": "___ (я) love this song.", "a": "I — подлежащее." },
+        { "q": "Call ___ (я) later.", "a": "me — объект после глагола." },
+        { "q": "This is ___ (мой) bag, not ___ (твой).", "a": "my … yours — my перед словом, yours вместо слова." },
+        { "q": "The secret is between you and ___ (я).", "a": "me — после предлога объектная форма." },
+        { "q": "Tom and ___ (я) are friends.", "a": "I — подлежащее, себя ставим вторым." }
+      ]
+    }
+  },
+  "formula": "I–me–my–mine · he–him–his–his · she–her–her–hers · we–us–our–ours · they–them–their–theirs",
+  "structure": {
+    "positive": "I like him. / It's her bag. / The bag is hers.",
+    "negative": "—",
+    "question": "—"
+  },
+  "markers": ["I/me/my", "he/him/his", "she/her/hers", "we/us/our", "they/them/their"],
+  "uses": [
+    "Подлежащее: She reads.",
+    "Объект после глагола и предлога: Call me. / with us.",
+    "Притяжательное прилагательное: my book.",
+    "Притяжательное местоимение: It's mine."
+  ],
+  "rules": [
+    { "title": "Объект после предлога", "text": "После предлога всегда объектная форма: with me, for him, between you and me (не between you and I)." },
+    { "title": "my vs mine", "text": "my стоит перед словом (my car), mine — вместо слова (the car is mine). Так же your/yours, her/hers, our/ours, their/theirs." }
+  ],
+  "examples": [
+    {
+      "group": "Подлежащее и объект",
+      "items": [
+        { "en": "She loves him.", "ru": "Она любит его.", "highlight": ["She", "him"] },
+        { "en": "Give it to us.", "ru": "Дай это нам.", "highlight": ["it", "us"] }
+      ]
+    },
+    {
+      "group": "Притяжание: перед словом vs вместо слова",
+      "items": [
+        { "en": "This is our house.", "ru": "Это наш дом.", "highlight": ["our"] },
+        { "en": "The phone is mine.", "ru": "Телефон мой.", "highlight": ["mine"] }
+      ]
+    },
+    {
+      "group": "После предлога",
+      "items": [
+        { "en": "Come with me.", "ru": "Пойдём со мной.", "highlight": ["with me"] },
+        { "en": "It's between you and me.", "ru": "Это между тобой и мной.", "highlight": ["you and me"] }
+      ]
+    },
+    {
+      "group": "Подлежащее со «мной» (себя — вторым)",
+      "items": [
+        { "en": "Tom and I are friends.", "ru": "Мы с Томом друзья.", "highlight": ["Tom and I"] },
+        { "en": "My sister and I live here.", "ru": "Мы с сестрой здесь живём.", "highlight": ["My sister and I"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Me and Tom went out.", "right": "Tom and I went out.", "note": "В подлежащем — I, себя ставят вторым." },
+    { "wrong": "This book is my.", "right": "This book is mine.", "note": "Без слова после — притяжательное местоимение mine." },
+    { "wrong": "between you and I", "right": "between you and me", "note": "После предлога — объектная форма." },
+    { "wrong": "Her and me are friends.", "right": "She and I are friends.", "note": "Подлежащее — She and I." },
+    { "wrong": "This is hers book.", "right": "This is her book.", "note": "Перед словом — her, не hers." }
+  ],
+  "compare": {
+    "title": "my / mine, your / yours",
+    "leftLabel": "перед словом",
+    "rightLabel": "вместо слова",
+    "rows": [
+      { "left": "my bag, your car", "right": "the bag is mine, the car is yours" },
+      { "left": "her name, our team", "right": "the name is hers, the team is ours" }
+    ]
+  },
+  "tips": [
+    "Учи таблицу столбцами как стишок: I‑me‑my‑mine, you‑you‑your‑yours, he‑him‑his‑his, she‑her‑her‑hers… Через день отскакивает от зубов. Столбец = одно лицо во всех ролях.",
+    "Ловушка на between: всегда between you and ME. Хочется сказать I — остановись, это она и есть. После любого предлога (with, for, to, between, without) — объектная форма.",
+    "«Tom and I» vs «Tom and me». Простой тест: убери «Tom and» — останется I went out (верно) или me went out (неверно). Так проверяешь, какая форма нужна в подлежащем.",
+    "mine / yours / hers / ours / theirs стоят БЕЗ существительного: This phone is mine. А my / your / her / our / their — всегда С существительным: my phone. Не смешивай два ряда.",
+    "it для предметов и животных без имени; he/she — для людей и для питомцев с именем (по полу). «Where's the cat? — It's sleeping», но «Where's Barsik? — He's sleeping».",
+    "«You» не меняется: и «ты», и «вы», и подлежащее, и объект — всегда you. Число и роль понятны из контекста. Это упрощает жизнь — пользуйся.",
+    "«Its» (его/её для предмета) пишется без апострофа, а «it's» = it is. Its color is red (цвет его), но It's red (оно красное). Одна из самых частых ошибок даже у продвинутых."
+  ],
+  "related": ["a1-verb-to-be", "a1-present-simple", "a1-questions"],
+  "quiz": []
+}

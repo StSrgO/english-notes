@@ -1,0 +1,135 @@
+{
+  "slug": "a1-verb-to-be",
+  "title": "Verb to be (am / is / are)",
+  "level": "A1",
+  "category": "Verb to be",
+  "readingTime": 7,
+  "summary": "Глагол-связка «быть / являться / находиться» — фундамент английского предложения.",
+  "idea": [
+    "Глагол to be — это фундамент английского предложения, его «клей». В английском предложении всегда должен быть глагол — и когда никакого действия нет, на сцену выходит to be в значении «быть, являться, находиться». По‑русски мы легко обходимся без него: «Я студент», «Она дома», «Им холодно» — глагол подразумевается, но не произносится. По‑английски так нельзя: I am a student, She is at home, They are cold.",
+    "Проще всего думать о to be как о знаке равенства между человеком и его описанием: I = a teacher, She = happy, The keys = on the table. Это «есть / является / находится». Отсюда и его особая роль: to be сам себе вспомогательный глагол — вопрос строится простой перестановкой (Are you ready?), а отрицание — частицей not (I'm not), без всяких do/does. Сейчас мы говорим о to be как связке в настоящем времени (am/is/are); позже ты встретишь его в прошлом (was/were), в роли помощника для Continuous (I am working) и для пассива (It is made) — но это другие этажи того же здания.",
+    "Самая частая ошибка русскоговорящих на A1 — пропустить to be (I student, She at home), потому что в русском связка в настоящем нулевая. И ещё одна калька: возраст по‑английски выражается через to be, а не через «иметь»: I am 20, а не I have 20. Если унести одну мысль: нет в предложении другого глагола — ставь to be."
+  ],
+  "why": [
+    "Называть, кто ты и кто другие: I'm a doctor. She's my sister.",
+    "Говорить, где кто/что находится: We're at home. The keys are on the table.",
+    "Описывать состояние и качество: I'm tired. It's cold. They're happy.",
+    "Называть возраст: He's 25."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Hello, I'm Marco. I'm Italian. I'm a chef.", "ru": "Здравствуйте, я Марко. Я итальянец. Я повар." },
+      { "en": "Nice to meet you! Are you new here?", "ru": "Приятно познакомиться! Вы здесь новенький?" },
+      { "en": "Yes, I am. I'm a bit nervous. Where's the kitchen?", "ru": "Да. Немного волнуюсь. Где кухня?" },
+      { "en": "It's on the second floor. The other chefs are very friendly.", "ru": "На втором этаже. Остальные повара очень дружелюбные." }
+    ],
+    "note": "Здесь нет ни одного действия — только «кто есть кто», «где что» и «какой». Поэтому всюду to be."
+  },
+  "russianAngle": [
+    "🇷🇺 В русском настоящем связка опускается: «Я врач», «Она красивая», «Они дома». 🇬🇧 В английском to be обязателен: I am a doctor, She is beautiful, They are at home. Пропуск to be — ошибка №1 у русскоговорящих.",
+    "🇷🇺 «Мне 20 лет» (дательный падеж + «лет»). 🇬🇧 По‑английски: I am 20 (years old). Не I have 20!",
+    "🇷🇺 Безличные «Мне холодно / скучно / страшно». 🇬🇧 Через to be + прилагательное: I am cold / bored / scared (не Me is cold).",
+    "🇷🇺 Вопрос интонацией: «Ты дома?» 🇬🇧 Вопрос перестановкой: Are you at home?"
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: to be = «есть / является / находится»; обязателен, когда нет другого глагола.",
+      "Запомни тройку: I → am · he/she/it → is · we/you/they → are.",
+      "Выучи сокращения: I'm, he's, she's, it's, we're, they're · отрицания: I'm not, isn't, aren't.",
+      "Вопрос = вынеси to be вперёд: Are you…? Is she…? (без do).",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — вставь am / is / are (или отрицание):",
+      "items": [
+        { "q": "I ___ a student.", "a": "am — I → am." },
+        { "q": "She ___ (not) at home.", "a": "isn't — she → is, отрицание." },
+        { "q": "___ they happy?", "a": "Are — they → are, вопрос." },
+        { "q": "My parents ___ doctors.", "a": "are — parents = they → are." },
+        { "q": "How old ___ you? — I ___ 30.", "a": "are / am — How old are you? — I am 30." }
+      ]
+    }
+  },
+  "formula": "I am · he/she/it is · we/you/they are",
+  "structure": {
+    "positive": "I am / She is / They are",
+    "negative": "I'm not / She isn't / They aren't",
+    "question": "Am I…? / Is she…? / Are they…?"
+  },
+  "markers": ["am", "is", "are", "I'm", "he's", "they're"],
+  "uses": [
+    "Имя или роль: I am a student.",
+    "Возраст (не have!): She is 20.",
+    "Место: We are at home.",
+    "Состояние и описание: They are happy."
+  ],
+  "rules": [
+    { "title": "Возраст через be", "text": "По‑английски возраст — это «быть», а не «иметь»: I am 25 (не I have 25). Одна из самых частых кальк с русского." },
+    { "title": "Сокращения и am not", "text": "I'm, you're, he's, she's, it's, we're, they're. В отрицании: I'm not, isn't, aren't. Формы amn't не существует — говори I'm not." }
+  ],
+  "examples": [
+    {
+      "group": "Кто ты / кто другие",
+      "items": [
+        { "en": "I'm a teacher.", "ru": "Я учитель.", "highlight": ["'m"] },
+        { "en": "She's my sister.", "ru": "Она моя сестра.", "highlight": ["'s"] }
+      ]
+    },
+    {
+      "group": "Где кто/что",
+      "items": [
+        { "en": "The keys are on the table.", "ru": "Ключи на столе.", "highlight": ["are"] },
+        { "en": "We're at home.", "ru": "Мы дома.", "highlight": ["'re"] }
+      ]
+    },
+    {
+      "group": "Состояние, качество, возраст",
+      "items": [
+        { "en": "I'm tired. It's cold today.", "ru": "Я устал. Сегодня холодно.", "highlight": ["'m tired", "'s cold"] },
+        { "en": "He's 25.", "ru": "Ему 25.", "highlight": ["'s 25"] }
+      ]
+    },
+    {
+      "group": "Вопрос, короткий ответ, эмфаза",
+      "items": [
+        { "en": "Are you ready? — Yes, I am. / No, I'm not.", "ru": "Ты готов? — Да. / Нет.", "highlight": ["Are", "am", "'m not"] },
+        { "en": "Are you sure? — Yes, I AM!", "ru": "Ты уверен? — Да, правда!", "highlight": ["AM"] }
+      ]
+    },
+    {
+      "group": "Повелительное и живые фразы",
+      "items": [
+        { "en": "Be careful! Don't be silly! Just be yourself.", "ru": "Осторожно! Не дури! Просто будь собой.", "highlight": ["Be", "Don't be", "be"] },
+        { "en": "Who is it? — It's me.", "ru": "Кто там? — Это я.", "highlight": ["is", "'s me"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I student.", "right": "I'm a student.", "note": "Пропуск to be + артикль (калька с русского)." },
+    { "wrong": "She at home.", "right": "She's at home.", "note": "Пропуск to be." },
+    { "wrong": "I have 20 years.", "right": "I'm 20.", "note": "Возраст через be, не have." },
+    { "wrong": "Me is cold. / To me is cold.", "right": "I'm cold.", "note": "Калька с безличного «мне холодно»." },
+    { "wrong": "Yes, I'm. (в конце)", "right": "Yes, I am.", "note": "Сокращение в конце предложения невозможно." },
+    { "wrong": "They is happy.", "right": "They are happy.", "note": "Согласование по лицам: they → are." }
+  ],
+  "compare": {
+    "title": "be в настоящем и прошлом",
+    "leftLabel": "Present (am/is/are)",
+    "rightLabel": "Past (was/were)",
+    "rows": [
+      { "left": "I am / she is / they are", "right": "I was / she was / they were" },
+      { "left": "сейчас", "right": "вчера / тогда" }
+    ]
+  },
+  "tips": [
+    "Сокращения — норма, а не «лень». I'm a teacher в беглой речи звучит как /aɪm ə ˈtiːtʃə/. Полные am/is/are без сокращения звучат роботом и используются только для эмфазы. Учись сразу с сокращениями — так ты звучишь как человек.",
+    "«There's» лепят к множественному. There's two cats outside — формально «ошибка» (надо there are), но нейтивы говорят так постоянно. Понимай на слух, но на письме и экзамене держи there are.",
+    "«It's me», а не «It is I». Формально верно It is I, но в жизни 100% говорят It's me. «Who's there? — It's me.» Попытка звучать «правильно» сделает тебя неестественным.",
+    "«I'm good» vs «I'm well». На How are you? разговорное I'm good абсолютно нормально; I'm well — скорее про здоровье. Не спорь с теми, кто говорит I'm good — это живая норма.",
+    "«Yes, I AM!» — эмфаза. В коротких ответах и в конце предложения сокращение невозможно, и полная форма даёт ударение: Are you coming? — Yes, I AM! (да, правда!).",
+    "Повелительное с be все забывают: Be careful! Be quiet! Don't be late! Just be yourself. Это команды про состояние, и они повсюду в быту — а студенты их избегают, потому что «не видят действия».",
+    "«I'm 20» без «years old». Нейтивы часто говорят просто I'm 20 / She's 30. Years old добавляют для ясности или говоря о детях. Не лепи years old каждый раз."
+  ],
+  "related": ["a1-there-is-there-are", "a1-present-simple", "a1-present-continuous", "a1-articles-a-an"],
+  "quiz": []
+}

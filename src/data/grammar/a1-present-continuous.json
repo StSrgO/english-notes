@@ -1,0 +1,128 @@
+{
+  "slug": "a1-present-continuous",
+  "title": "Present Continuous",
+  "level": "A1",
+  "category": "Tenses",
+  "readingTime": 8,
+  "summary": "Настоящее длительное: действие в процессе — прямо сейчас, временно или по договорённости в ближайшем будущем.",
+  "idea": [
+    "Present Continuous — это время «прямо сейчас», время процесса в момент речи. Если Present Simple — это портрет («как устроена жизнь вообще»), то Continuous — это прямая трансляция: действие разворачивается на глазах, оно в развитии, ещё не закончено. Английский грамматически выделяет «происходящее» как отдельную категорию, и это важная идея: говорящему важно не просто назвать факт, а показать, что действие в работе, в динамике. Представь, что ты комментируешь то, что видишь: «Что ты делаешь? — Я готовлю» (I'm cooking) — процесс идёт прямо сейчас.",
+    "Но «прямо сейчас» — не единственное значение. Present Continuous обслуживает и временные ситуации вокруг настоящего (I'm living with friends this month — не навсегда, а в этот период), и запланированные договорённости в ближайшем будущем (We're flying to Rome tomorrow — всё уже решено и arranged), и даже развивающиеся тренды (Prices are rising). Отсюда главная граница с Present Simple: постоянное и «вообще» — это Simple, временное и «в процессе» — это Continuous: I live in Moscow (постоянно) против I'm living with a friend this week (временно).",
+    "Самая частая концептуальная ошибка русскоговорящих — попытка поставить в Continuous глаголы состояния: I'm wanting coffee, I'm knowing the answer. Это неверно, потому что чувства, желания и знания — не процесс, они длятся постоянно, а значит живут в Simple: I want, I know, I understand. И ещё одна механическая ошибка — потерять вспомогательный be: She studying не существует, Continuous всегда = am/is/are + V‑ing, без be это не время. Если унести одну мысль: Present Continuous = «в процессе, сейчас или временно», с обязательным am/is/are и со стоп‑листом глаголов состояния."
+  ],
+  "why": [
+    "Сказать, что делаешь прямо сейчас: I'm working. What are you doing?",
+    "Описать временную ситуацию: I'm staying with friends this week.",
+    "Поговорить о ближайших планах‑договорённостях: We're meeting Anna at 8.",
+    "Описать меняющиеся тренды: Prices are rising. It's getting colder."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Hey, what are you doing?", "ru": "Привет, ты чем занимаешься?" },
+      { "en": "I'm cooking dinner. And you?", "ru": "Готовлю ужин. А ты?" },
+      { "en": "I'm watching a film. Are you coming to the party tonight?", "ru": "Смотрю фильм. Придёшь сегодня на вечеринку?" },
+      { "en": "Yes! I'm meeting Anna at 8, and we're going together.", "ru": "Да! Я встречаюсь с Анной в 8, и мы пойдём вместе." }
+    ],
+    "note": "Все действия — либо в процессе прямо сейчас (готовлю, смотрю), либо личные договорённости на вечер (встречаюсь, идём). Поэтому везде Present Continuous."
+  },
+  "russianAngle": [
+    "🇷🇺 Русское «я делаю» покрывает и «сейчас», и «вообще». 🇬🇧 Английский разводит: сейчас/временно → Continuous (I'm cooking), вообще/всегда → Simple (I cook every day).",
+    "🇷🇺 «Я хочу кофе», «Я знаю», «Я понимаю» — состояния. 🇬🇧 Их не ставят в Continuous: I want coffee (не I'm wanting), I know, I understand. Чувства и знания — не процесс.",
+    "🇷🇺 «Я живу у друга эту неделю» и «Я живу в Москве» — одна форма. 🇬🇧 Разные: I'm living with a friend (временно) против I live in Moscow (постоянно).",
+    "🇷🇺 «Мы летим в Рим завтра» (настоящее в значении будущего). 🇬🇧 Present Continuous для договорённостей: We're flying to Rome tomorrow. Здесь русский и английский совпадают — пользуйся этим."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: Continuous = «в процессе, сейчас или временно».",
+      "Запомни скелет: am/is/are + V‑ing. Без be — не Continuous.",
+      "Лови маркеры: now, right now, at the moment, Look!, Listen!, this week, these days.",
+      "Выучи стоп‑лист состояний: like, love, want, need, know, understand, believe — без ‑ing.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — раскрой скобки (Present Simple или Continuous):",
+      "items": [
+        { "q": "Look! It ___ (snow).", "a": "is snowing — Look! → прямо сейчас." },
+        { "q": "I ___ (not / understand) this word.", "a": "don't understand — understand — состояние." },
+        { "q": "She ___ (read) a great book these days.", "a": "is reading — временно, «эти дни»." },
+        { "q": "___ you ___ (come) to the party tonight?", "a": "Are … coming — план‑договорённость." },
+        { "q": "He ___ (want) a coffee right now.", "a": "wants — want — состояние, не is wanting." }
+      ]
+    }
+  },
+  "formula": "am / is / are + V-ing",
+  "structure": {
+    "positive": "He is sleeping. / They are sleeping.",
+    "negative": "He isn't sleeping. / They aren't sleeping.",
+    "question": "Is he sleeping? / Are they sleeping?"
+  },
+  "markers": ["now", "right now", "at the moment", "today", "this week", "these days", "currently", "Look!", "Listen!"],
+  "uses": [
+    "Действие в момент речи: She is reading now.",
+    "Временная ситуация вокруг настоящего: I'm living with friends this month.",
+    "Запланированное будущее (договорённость): We're meeting tomorrow.",
+    "Развивающийся тренд: Prices are rising."
+  ],
+  "rules": [
+    { "title": "Правописание -ing", "text": "make → making (немая -e уходит); run → running (удвоение согласной в коротком слоге); lie → lying (-ie → -ying)." },
+    { "title": "Глаголы состояния", "text": "know, want, like, need, understand, believe обычно не принимают -ing: I understand (не I am understanding)." }
+  ],
+  "examples": [
+    {
+      "group": "Прямо сейчас",
+      "items": [
+        { "en": "I'm learning English.", "ru": "Я учу английский (в этот период).", "highlight": ["'m learning"] },
+        { "en": "What are you doing?", "ru": "Что ты делаешь?", "highlight": ["are", "doing"] },
+        { "en": "Look! The bus is coming.", "ru": "Смотри! Автобус едет.", "highlight": ["is coming"] }
+      ]
+    },
+    {
+      "group": "Временно вокруг настоящего",
+      "items": [
+        { "en": "I'm living with friends this month.", "ru": "Я живу у друзей в этом месяце (временно).", "highlight": ["'m living"] },
+        { "en": "She's reading a great book these days.", "ru": "Она на днях читает отличную книгу.", "highlight": ["'s reading"] }
+      ]
+    },
+    {
+      "group": "Запланированное будущее (договорённость)",
+      "items": [
+        { "en": "We're flying to Rome tomorrow.", "ru": "Завтра мы летим в Рим.", "highlight": ["'re flying"] },
+        { "en": "Are you coming tonight?", "ru": "Ты придёшь сегодня вечером?", "highlight": ["Are", "coming"] }
+      ]
+    },
+    {
+      "group": "Тренды",
+      "items": [
+        { "en": "Prices are rising.", "ru": "Цены растут.", "highlight": ["are rising"] },
+        { "en": "The climate is getting warmer.", "ru": "Климат теплеет.", "highlight": ["is getting"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I am want a coffee.", "right": "I want a coffee.", "note": "Состояние без Continuous." },
+    { "wrong": "She is study now.", "right": "She is studying now.", "note": "Нужна форма V‑ing." },
+    { "wrong": "She studying.", "right": "She is studying.", "note": "Потеря be." },
+    { "wrong": "I am knowing the answer.", "right": "I know the answer.", "note": "know — состояние." },
+    { "wrong": "What you are doing?", "right": "What are you doing?", "note": "Инверсия в вопросе." }
+  ],
+  "compare": {
+    "title": "Present Simple vs Present Continuous",
+    "leftLabel": "Present Simple",
+    "rightLabel": "Present Continuous",
+    "rows": [
+      { "left": "I read every night. (постоянно)", "right": "I'm reading a great book now. (в процессе)" },
+      { "left": "Факты, рутина, расписания", "right": "Сейчас, временно, договорённости" }
+    ]
+  },
+  "tips": [
+    "«Look!» / «Listen!» — почти всегда Continuous. Услышал «Смотри!/Слушай!» — рисуй в голове am/is/are + ‑ing. Это самый надёжный маркер из всех.",
+    "Правописание ‑ing — считалка из трёх правил: немая ‑e уходит (make→making), короткий слог удваивает согласную (run→running, sit→sitting), ‑ie переходит в ‑ying (lie→lying, die→dying).",
+    "Состояния «чувствуются» сейчас, но всё равно Simple. I love this! (не I'm loving), I don't understand. Рекламное I'm lovin' it — намеренное нарушение ради «кайфую прямо сейчас»; в обычной речи так не говорят.",
+    "Continuous для планов звучит естественнее will. «I'm meeting Tom at 6», «We're having dinner together» — личные договорённости нейтив выразит Continuous, а не will.",
+    "«I'm thinking» vs «I think». I think it's good = мнение (статив), I'm thinking about moving = процесс размышления. Одна пара — и речь становится точной.",
+    "«I'm having» vs «I have». I have a car (владение → Simple), но I'm having lunch / a great time (процесс → Continuous). have меняет поведение в зависимости от смысла.",
+    "am/is/are редуцируются в беглой речи. I'm working = /aɪm ˈwɜːkɪŋ/, She's coming = /ʃiːz ˈkʌmɪŋ/. Сокращение — норма; полное She is coming звучит только для эмфазы."
+  ],
+  "related": ["a1-present-simple", "a1-verb-to-be", "a1-past-simple"],
+  "quiz": []
+}

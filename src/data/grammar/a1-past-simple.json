@@ -1,0 +1,129 @@
+{
+  "slug": "a1-past-simple",
+  "title": "Past Simple",
+  "level": "A1",
+  "category": "Tenses",
+  "readingTime": 8,
+  "summary": "Простое прошедшее: завершённое действие в прошлом, «фотография» события, которое случилось и закончилось.",
+  "idea": [
+    "Past Simple — это время завершённых действий в прошлом, «фотография» события, которое случилось и закончилось. Ключевая идея — отрезанность от настоящего: действие произошло в конкретный момент прошлого и осталось там, у него нет живой связи с «сейчас». Этим Past Simple принципиально отличается от Present Perfect, который всегда про след в настоящем. Сравни: I lost my keys yesterday — это кадр из прошлого альбома, рассказ о факте (когда? — вчера); а I've lost my keys — это про то, что ключей у тебя нет прямо сейчас, про результат. Если видишь в предложении конкретное время — yesterday, last week, in 2010, two days ago — это почти наверняка Past Simple: время названо, действие «закрыто».",
+    "Past Simple — это ещё и язык последовательных событий в рассказе: He came in, sat down and smiled — цепочка кадров, каждый из которых сменяет предыдущий. Для русскоговорящих главная трудность здесь двойная. Во‑первых, в русском прошедшее время одно («я видел»), а в английском правильные глаголы образуют форму через ‑ed (worked), а неправильные нужно запоминать отдельно (go → went, see → saw, buy → bought) — и неправильных боятся больше всего, хотя частотных из них всего около пятидесяти. Во‑вторых, русское «я видел» покрывает и «вчера» (I saw), и «когда‑то в жизни» (I've seen), поэтому мозг по привычке лепит Past Simple туда, где нужен Perfect, и наоборот.",
+    "Есть и механическая ловушка: в вопросах и отрицаниях появляется вспомогательный did, который «забирает» прошедшее время себе, и основной глагол после него стоит в начальной форме — Did you go? (не Did you went), I didn't go (не I didn't went). Если унести одну мысль: Past Simple = «было и закончилось, и я знаю когда»; маркеры yesterday/ago/last/in 20XX; в вопросе и отрицании did + голый глагол."
+  ],
+  "why": [
+    "Рассказать, что делал вчера, на выходных, в отпуске: I went to the mountains. We watched a film.",
+    "Пересказать последовательность событий: He came in, sat down and smiled.",
+    "Сказать, когда что‑то случилось: I bought this in 2019. She called yesterday.",
+    "Задать вопросы о прошлом: Did you see him? Where did you go?"
+  ],
+  "context": {
+    "lines": [
+      { "en": "How was your weekend?", "ru": "Как прошли выходные?" },
+      { "en": "Great! I went to the mountains with friends. We drove there on Saturday and stayed in a small hotel.", "ru": "Отлично! Я ездил в горы с друзьями. Мы поехали туда в субботу и остановились в маленьком отеле." },
+      { "en": "Did you hike?", "ru": "Ходили в поход?" },
+      { "en": "Yes, we hiked all day on Sunday. I was exhausted, but it was amazing. What about you?", "ru": "Да, мы весь воскресенье ходили пешком. Я вымотался, но было потрясающе. А у тебя?" },
+      { "en": "I just stayed home and watched films. I didn't do much.", "ru": "Я просто сидел дома и смотрел фильмы. Ничего особенного не делал." }
+    ],
+    "note": "Всё — завершённые действия в прошлом (выходные закончились), с привязкой ко времени (в субботу, в воскресенье). Поэтому везде Past Simple."
+  },
+  "russianAngle": [
+    "🇷🇺 Русское «я видел» покрывает и «вчера» (I saw), и «когда‑то / к настоящему моменту» (I've seen). 🇬🇧 Английский разводит: назвал когда (yesterday) → Past Simple (I saw him yesterday); не назвал, важен результат → Perfect (I've seen this film).",
+    "🇷🇺 В русском прошедшее одно: «сделал». 🇬🇧 В английском правильный (worked) и неправильный (went) — разные формы. Неправильные глаголы — главная боль, их надо учить.",
+    "🇷🇺 Вопрос «Ты ходил?» — интонацией, глагол не меняется. 🇬🇧 Did you go? — did + голый глагол. Обрати внимание: в вопросе go, а в ответе went (Did you go? — I went).",
+    "🇷🇺 «Я не ходил» — частица «не». 🇬🇧 I didn't go — didn't + голый глагол (не I didn't went)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: Past Simple = «было и закончилось, знаю когда».",
+      "Выучи топ‑50 неправильных глаголов (be, have, do, go, get, see, come, take, make, know, think, say, give, tell, find, buy, bring, leave, feel, put…).",
+      "Запомни скелет: утверждение — V2 (правильные = V‑ed); вопрос/отрицание — did/didn't + V1.",
+      "Лови маркеры: yesterday, ago, last week, in 2010, the other day, when I was young.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — раскрой скобки в Past Simple:",
+      "items": [
+        { "q": "I ___ (go) to Paris last summer.", "a": "went — go — неправильный." },
+        { "q": "___ you ___ (see) the match yesterday?", "a": "Did … see — вопрос → did + V1." },
+        { "q": "She ___ (not / call) me.", "a": "didn't call — отрицание → didn't + V1." },
+        { "q": "We ___ (buy) a new car in 2020.", "a": "bought — buy — неправильный." },
+        { "q": "He ___ (be) tired after the trip.", "a": "was — be → was/were." }
+      ]
+    }
+  },
+  "formula": "S + V2 (правильные: V + ed)",
+  "structure": {
+    "positive": "I worked. / She went home.",
+    "negative": "I didn't work. / She didn't go.",
+    "question": "Did you work? / Did she go?"
+  },
+  "markers": ["yesterday", "last week", "ago", "in 2010", "the other day", "when I was young"],
+  "uses": [
+    "Завершённое действие с указанием времени: I called him yesterday.",
+    "Последовательность действий в прошлом: He came in, sat down and smiled.",
+    "Прошлые состояния, которых больше нет: She lived in Paris for five years."
+  ],
+  "rules": [
+    { "title": "Правильные глаголы", "text": "Окончание -ed: work → worked. После -e только -d: live → lived. Согласная + y → -ied: try → tried. Удвоение: stop → stopped." },
+    { "title": "Неправильные глаголы", "text": "Форму V2 нужно запоминать: go → went, see → saw, buy → bought. Таблица неправильных глаголов — обязательный справочник." },
+    { "title": "did для вопросов/отрицаний", "text": "Вспомогательный did для всех лиц; основной глагол после него в начальной форме: Did you go? (не went)." }
+  ],
+  "examples": [
+    {
+      "group": "Завершённое действие с указанием времени",
+      "items": [
+        { "en": "I called him yesterday.", "ru": "Я позвонил ему вчера.", "highlight": ["called"] },
+        { "en": "She bought this book in 2019.", "ru": "Она купила эту книгу в 2019‑м.", "highlight": ["bought"] }
+      ]
+    },
+    {
+      "group": "Последовательность событий (рассказ)",
+      "items": [
+        { "en": "He came in, sat down and smiled.", "ru": "Он вошёл, сел и улыбнулся.", "highlight": ["came", "sat", "smiled"] },
+        { "en": "I woke up, had breakfast and left.", "ru": "Я проснулся, позавтракал и ушёл.", "highlight": ["woke", "had", "left"] }
+      ]
+    },
+    {
+      "group": "Прошлые состояния, которых больше нет",
+      "items": [
+        { "en": "She lived in Paris for five years.", "ru": "Она жила в Париже пять лет (теперь нет).", "highlight": ["lived"] },
+        { "en": "I was shy as a child.", "ru": "В детстве я был стеснительным.", "highlight": ["was"] }
+      ]
+    },
+    {
+      "group": "Вопросы и отрицания",
+      "items": [
+        { "en": "Did you see him?", "ru": "Ты его видел?", "highlight": ["Did", "see"] },
+        { "en": "I didn't go to the party.", "ru": "Я не пошёл на вечеринку.", "highlight": ["didn't go"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Did you saw him?", "right": "Did you see him?", "note": "После did — V1." },
+    { "wrong": "I didn't went.", "right": "I didn't go.", "note": "После didn't — V1." },
+    { "wrong": "I go there yesterday.", "right": "I went there yesterday.", "note": "Нужна форма V2." },
+    { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "note": "Есть yesterday → Past Simple, не Perfect." },
+    { "wrong": "She buyed a car.", "right": "She bought a car.", "note": "buy — неправильный." },
+    { "wrong": "I was agree.", "right": "I agreed.", "note": "agree — глагол; ср. с I was happy." }
+  ],
+  "compare": {
+    "title": "Past Simple vs Present Perfect",
+    "leftLabel": "Past Simple",
+    "rightLabel": "Present Perfect",
+    "rows": [
+      { "left": "I saw him yesterday. (время названо)", "right": "I've seen him. (время не важно)" },
+      { "left": "Действие «закрыто» в прошлом", "right": "Связь с настоящим / опыт" }
+    ]
+  },
+  "tips": [
+    "Топ‑50 неправильных глаголов покрывают ~80% живой речи. Учи их группами по типу (go‑went‑gone, see‑saw‑seen, buy‑bought‑bought) или песенкой, а не списком по алфавиту. Частотность решает всё.",
+    "did «съедает» прошедшее время — поэтому после него глагол голый: Did you GO? I didn't GO. Мысленно: один маркер прошлого на предложение — либо did, либо V‑ed, никогда оба.",
+    "Маркеры‑флажки (yesterday, ago, last…, in 20XX, the other day) — самый быстрый способ не ошибиться: увидел любой из них → время закрыто, Past Simple, не Perfect.",
+    "У окончания ‑ed три звука, как у ‑s в Present Simple: /t/ после глухих (worked /wɜːkt/), /d/ после звонких (played /pleɪd/), /ɪd/ после t/d (wanted /ˈwɒntɪd/, needed). Об этом молчат, а это ключ к естественному звучанию.",
+    "«The other day» = «на днях» (прошлое!), а не «другой день». Живой маркер Past Simple: I saw her the other day.",
+    "В разговорном рассказе нейтивы включают «историческое настоящее» — So I'm like… / And he goes… — для живости. Это сленг; понимай на слух, но в своей речи и на письме держи Past Simple.",
+    "«used to» vs Past Simple. I used to play tennis (раньше играл вообще, теперь нет) против I played tennis yesterday (разово, вчера). Не путай «раньше как привычка» и «один раз в прошлом»."
+  ],
+  "related": ["a1-present-simple", "a1-verb-to-be", "a1-present-continuous"],
+  "quiz": []
+}

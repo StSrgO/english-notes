@@ -1,0 +1,129 @@
+{
+  "slug": "a1-there-is-there-are",
+  "title": "There is / There are",
+  "level": "A1",
+  "category": "Verb to be",
+  "readingTime": 7,
+  "summary": "Конструкция «имеется / есть / существуют» — способ сказать, что где‑то что‑то есть.",
+  "idea": [
+    "Конструкция there is / there are — это способ сказать, что где‑то что‑то есть, имеется, существует. Это одно из тех мест, где английский мыслит иначе, чем русский, и где русскоговорящие спотыкаются чаще всего, потому что в русском «есть / имеется» — одно слово, а в английском за ним стоят две разные конструкции, которые нельзя путать. There is / there are выражает наличие в пространстве: «где‑то существует некий объект». А have выражает владение: «у кого‑то что‑то есть». Почувствуй разницу: «В комнате есть стол» — это про наличие стола в пространстве, по‑английски There is a table in the room; а «У меня есть машина» — это про владение, I have a car.",
+    "Удобный образ: there is/are — это как камера, которая показывает, что находится в кадре: на столе книга, в углу лампа, у окна стул — ты не владеешь этими вещами, ты просто констатируешь, что они здесь. По форме there is/are — это всё тот же глагол be (is/are), просто с частицей there впереди: единственное число и неисчисляемые существительные берут there is (there is a book, there is some water), множественное — there are (there are two books). Отсюда и согласование: смотри на то, что стоит после is/are, — если множественное, ставь are. Конструкция дружит с some/any: в утверждениях обычно some (there is some milk), в вопросах и отрицаниях — any (is there any milk? / there isn't any milk).",
+    "Главная ошибка русскоговорящих — перевести «имеется / есть» через have или it: «It has a cat in the room» или «It is a cat in the room» — обе неверны, наличие в месте выражается только через there is. Есть и разговорная тонкость: в живой речи нейтивы постоянно лепят there's к множественному — «There's two cats outside» — хотя формально положено there are; понимать это на слух нужно, но на письме и экзамене держи норму. Если унести одну мысль: «где‑то что‑то есть / имеется» = there is / there are (не have и не it); единственное и неисчисляемое → is, множественное → are."
+  ],
+  "why": [
+    "Сказать, что где находится / имеется: There's a bank on the corner. There are two chairs.",
+    "Описать комнату, город, местность: There's a park near my house.",
+    "Спросить о наличии: Is there a supermarket here? Are there any messages?",
+    "Сказать о количестве: There are three books on the table."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Is there a supermarket near here?", "ru": "Здесь рядом есть супермаркет?" },
+      { "en": "Yes, there's one on King Street. And there's a good café next to it.", "ru": "Да, один есть на Кинг‑стрит. И рядом с ним хорошее кафе." },
+      { "en": "Great. Are there any banks?", "ru": "Отлично. А банки есть?" },
+      { "en": "Hmm, there aren't any banks on this street, but there's one across the square.", "ru": "Хм, на этой улице банков нет, но один есть через площадь." },
+      { "en": "Perfect. Oh, and is there a bus stop?", "ru": "Идеально. Ой, а автобусная остановка есть?" },
+      { "en": "Yes, there's one right outside.", "ru": "Да, одна прямо у выхода." }
+    ],
+    "note": "Герой всё время спрашивает о наличии объектов в пространстве и получает ответ через there is/there are — это и есть естественная среда этой конструкции."
+  },
+  "russianAngle": [
+    "🇷🇺 Русское «есть / имеется» одно. 🇬🇧 Английский разводит: наличие в месте = there is/there are; владение = have. «В комнате есть стол» = There is a table in the room (не It is a table).",
+    "🇷🇺 «У меня есть собака» (владение). 🇬🇧 I have a dog. НО «Во дворе есть собака» (наличие) = There is a dog in the yard. Владеешь vs констатируешь наличие.",
+    "🇷🇺 «Есть ли здесь магазин?» 🇬🇧 Is there a shop here? (инверсия is/there), не «Is it a shop?».",
+    "🇷🇺 Русское безличное «в книге есть ошибки», «здесь много людей». 🇬🇧 Почти всегда = there is/are: There are many mistakes in this book. There are a lot of people here."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: there is/are = «где‑то что‑то есть» (наличие), а не владение.",
+      "Запомни согласование: ед.ч./неисчисл. → there is; мн.ч. → there are.",
+      "some/any: утверждение — some; вопрос/отрицание — any.",
+      "Вопрос = вынеси is/are вперёд: Is there…? Are there…?",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — вставь there is / there are / is there / are there:",
+      "items": [
+        { "q": "___ a bank on the corner.", "a": "There's (There is) — ед.ч." },
+        { "q": "___ any messages for me?", "a": "Are there — вопрос, мн.ч." },
+        { "q": "___ two chairs in the kitchen.", "a": "There are — мн.ч." },
+        { "q": "___ some milk in the fridge.", "a": "There's (There is) — milk неисчисляемое." },
+        { "q": "___ a supermarket near here?", "a": "Is there — вопрос, ед.ч." }
+      ]
+    }
+  },
+  "formula": "there is + ед.ч./неисчисл. · there are + мн.ч.",
+  "structure": {
+    "positive": "There is a park. / There are parks.",
+    "negative": "There isn't a park. / There aren't parks.",
+    "question": "Is there a park? / Are there parks?"
+  },
+  "markers": ["there is", "there are", "there's", "is there", "are there"],
+  "uses": [
+    "Наличие единичного объекта: There is a cat.",
+    "Множественное: There are three books.",
+    "Неисчисляемое: There is some water.",
+    "Вопрос и отрицание: Is there…? / There isn't…"
+  ],
+  "rules": [
+    { "title": "is/are по первому слову", "text": "Ориентируйся на первое существительное после is/are: There is a book and two pens. В живой речи there's часто лепят и ко множественному, но в учёбе держи there are." },
+    { "title": "some / any", "text": "Утверждение — some (there is some milk); отрицание и вопрос — any (is there any milk? / there isn't any milk)." }
+  ],
+  "examples": [
+    {
+      "group": "Наличие единичного объекта",
+      "items": [
+        { "en": "There's a problem.", "ru": "Есть проблема.", "highlight": ["There's"] },
+        { "en": "There's a cat in the garden.", "ru": "В саду есть кот.", "highlight": ["There's"] }
+      ]
+    },
+    {
+      "group": "Множественное",
+      "items": [
+        { "en": "There are two chairs in the kitchen.", "ru": "На кухне два стула.", "highlight": ["There are"] },
+        { "en": "There are many people here.", "ru": "Здесь много людей.", "highlight": ["There are"] }
+      ]
+    },
+    {
+      "group": "Неисчисляемое",
+      "items": [
+        { "en": "There's some water in the bottle.", "ru": "В бутылке есть вода.", "highlight": ["some"] },
+        { "en": "There isn't any coffee left.", "ru": "Кофе не осталось.", "highlight": ["isn't any"] }
+      ]
+    },
+    {
+      "group": "Вопросы и описание места",
+      "items": [
+        { "en": "Is there a bus stop near here?", "ru": "Здесь рядом есть остановка?", "highlight": ["Is there"] },
+        { "en": "There's a park near my house, and there's a river behind it.", "ru": "Около моего дома парк, а за ним река.", "highlight": ["There's"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "It has a cat in the room.", "right": "There is a cat in the room.", "note": "Наличие = there is, не have." },
+    { "wrong": "It is a shop near here.", "right": "There is a shop near here.", "note": "Не it is." },
+    { "wrong": "There is three apples.", "right": "There are three apples.", "note": "Мн.ч. → are." },
+    { "wrong": "Is there any shops?", "right": "Are there any shops?", "note": "shops — мн.ч. → are." },
+    { "wrong": "There is some books.", "right": "There are some books.", "note": "books — мн.ч. → are." }
+  ],
+  "compare": {
+    "title": "there is/are vs have",
+    "leftLabel": "there is / there are",
+    "rightLabel": "have",
+    "rows": [
+      { "left": "There is a table in the room. (наличие в месте)", "right": "I have a table. (владение)" },
+      { "left": "«где‑то что‑то есть»", "right": "«у кого‑то что‑то есть»" }
+    ]
+  },
+  "tips": [
+    "«There's» лепят к множественному. There's two cats outside, There's a lot of people — формально «ошибка» (надо there are), но нейтивы говорят так постоянно. Понимай на слух, но на письме и экзамене держи there are.",
+    "Тест «владею vs имеется». Подставляется «у меня/у него есть» (владелец) → have. Подставляется «где‑то есть / имеется» (место) → there is. «У меня есть идея» = I have an idea; «В книге есть ошибка» = There is a mistake in the book.",
+    "«There's no…» — короткий способ сказать «нет». There's no time = There isn't any time. Вариант с no короче и живее — используй его.",
+    "some/any держи парой: утверждение — some (there's some milk), вопрос и отрицание — any (is there any milk? / there isn't any milk). Исключение — просьбы, когда ждёшь «да»: Is there some…?",
+    "Скелет «there + be» постоянен, меняется только be. Прошлое: there was/were. Будущее: there will be. Perfect: there has been. Выучи один каркас — времена приложатся сами.",
+    "«There you are!» / «Here you are» — устойчивые. «Вот ты где!» и «Вот, пожалуйста» (когда что‑то подаёшь). Не путай их с наличием — это готовые фразы.",
+    "Описание фото — тренажёр №1 для there is/are. «In the picture, there's a house. There are two trees. There's a river…» Это классика A1 и на экзаменах, и в жизни: тренируй конструкцию, описывая любые картинки."
+  ],
+  "related": ["a1-verb-to-be", "a1-articles-a-an", "a1-plural-nouns", "a1-present-simple"],
+  "quiz": []
+}
