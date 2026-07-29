@@ -1,0 +1,135 @@
+{
+  "slug": "a2-comparatives-superlatives",
+  "title": "Comparatives & superlatives",
+  "level": "A2",
+  "category": "Adjectives",
+  "readingTime": 9,
+  "summary": "Сравнение: -er / the -est для коротких прилагательных, more / the most для длинных, плюс равенство as … as и исключения.",
+  "idea": [
+    "Степени сравнения — это способ сказать, что один предмет больше, меньше, лучше или хуже другого, либо что он самый-самый в группе. Английский строит это двумя параллельными системами в зависимости от длины прилагательного, и это первое, что надо уложить в голове. Короткие прилагательные (один слог, а также двусложные на -y) получают окончания: tall → taller → the tallest, happy → happier → the happiest. Длинные (два и более слога, кроме -y) берут more и the most: beautiful → more beautiful → the most beautiful. Плюс горстка исключений, которые не подчиняются ни одному правилу и которые просто зубрят: good → better → the best, bad → worse → the worst, far → farther/further → the farthest/furthest.",
+    "К сравнительной степени привязана связка than («чем»): taller than, more expensive than. К превосходной — обязательный артикль the: the tallest, the most popular (без the — ошибка). Есть и третья конструкция, про равенство: as … as («такой же … как»): as tall as, as good as; отрицание — not as … as («не такой … как»). Русскоговорящим здесь мешает то, что русское «более» универсально («более высокий», «более красивый»), а английский жёстко делит по слогам, и мозг по привычке лепит more tall вместо taller. Вторая боль — двойное сравнение: more better, most tallest — так нельзя, better и tallest уже сами по себе сравнительная/превосходная.",
+    "Но есть слой, о котором на A2 почти не говорят, а он делает речь живой: усиление и ослабление сравнения. much / a lot / far делают сравнительную сильнее (much bigger, a lot cheaper, far more interesting), а a bit / a little / slightly — слабее (a bit taller, slightly more expensive). Есть конструкция «the … the …» для взаимной зависимости: the more, the better («чем больше, тем лучше»), the sooner, the better. Есть удвоение сравнительной для нарастания: bigger and bigger, more and more expensive («всё больше и больше»). И тонкость «the + сравнительная из двух»: the taller of the two («более высокий из двоих») — когда сравниваем ровно двоих, в формальном стиле ставят the. Если унести одну мысль: считай слоги вслух — это решает выбор между -er и more; than для сравнения, the для превосходной, as … as для равенства."
+  ],
+  "why": [
+    "Сравнивать два предмета или человека: taller than, more expensive than, as old as.",
+    "Называть лучший/худший в группе: the tallest, the most interesting, the worst.",
+    "Усиливать и ослаблять сравнение: much bigger, a bit cheaper.",
+    "Строить конструкции «чем … тем …» и «всё больше и больше»: the more the better, bigger and bigger."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Which flat did you like more?", "ru": "Какая квартира тебе больше понравилась?" },
+      { "en": "The second one. It's bigger and much cheaper than the first.", "ru": "Вторая. Она больше и намного дешевле первой." },
+      { "en": "True, but the first is the closest to the metro.", "ru": "Верно, но первая — ближе всего к метро." },
+      { "en": "Hmm. The second is a bit further, but it's the most comfortable of all.", "ru": "Хм. Вторая чуть дальше, но она самая удобная из всех." },
+      { "en": "Then the second it is. The sooner we decide, the better.", "ru": "Тогда вторая. Чем скорее решим, тем лучше." }
+    ],
+    "note": "bigger / cheaper / closer / further — сравнительная (-er); the most comfortable — превосходная длинного слова; the closest / the most comfortable — с обязательным the; a bit / much — усиление и ослабление; the sooner … the better — конструкция взаимной зависимости."
+  },
+  "russianAngle": [
+    "🇷🇺 Русское «более» универсально: «более высокий», «более красивый». 🇬🇧 Английский делит по слогам: высокий (короткое) → taller; красивый (длинное) → more beautiful. more tall — ошибка.",
+    "🇷🇺 «Самый» = the most / the -est. 🇬🇧 Не забывай the в превосходной: the best, the most popular. Без the — ошибка.",
+    "🇷🇺 «Такой же … как» / «не такой … как». 🇬🇧 as … as / not as … as: as tall as, not as big as. than — только для неравенства («чем»).",
+    "🇷🇺 «Гораздо больше» / «чуть выше». 🇬 much / a lot / far + сравнительная (much bigger); a bit / a little + сравнительная (a bit taller). Русское «гораздо/чуть» ложится прямо."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: считай слоги — короткие → -er/-est, длинные → more/the most, -y → -ier/-iest.",
+      "Запомни связки: than для сравнения, the для превосходной, as … as для равенства.",
+      "Выучи исключения: good-better-best, bad-worse-worst, far-farther-furthest.",
+      "Освой усиление/ослабление: much/a lot/far и a bit/a little + сравнительная.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — поставь прилагательное в нужную степень:",
+      "items": [
+        { "q": "Moscow is ___ (big) than Kazan.", "a": "bigger — короткое, сравнительная + than." },
+        { "q": "This is ___ (interesting) book I've read.", "a": "the most interesting — длинное, превосходная + the." },
+        { "q": "She is as ___ (old) as me.", "a": "old — равенство as … as, исходная форма." },
+        { "q": "Today is ___ (bad) than yesterday.", "a": "worse — исключение bad → worse." },
+        { "q": "It's ___ (much / expensive) than I thought.", "a": "much more expensive — усиление + длинное сравнительное." }
+      ]
+    }
+  },
+  "formula": "tall → taller → the tallest · interesting → more interesting → the most interesting",
+  "structure": {
+    "positive": "A is bigger than B. / A is the biggest.",
+    "negative": "A isn't as big as B.",
+    "question": "Which is bigger?"
+  },
+  "markers": ["than", "the … in/of", "as … as", "-er", "more", "the most", "much", "a bit"],
+  "uses": [
+    "Сравнение двух: taller than, more expensive than.",
+    "Превосходная степень в группе: the tallest in the class.",
+    "Равенство: as tall as, not as big as."
+  ],
+  "rules": [
+    { "title": "Считаем слоги", "text": "1 слог → -er/-est (tall→taller→the tallest). 2 слога на -y → -ier/-iest (happy→happier→the happiest). 2+ слога → more/the most (beautiful→more beautiful→the most beautiful)." },
+    { "title": "Исключения-зубрёжка", "text": "good→better→the best; bad→worse→the worst; far→farther/further→the farthest/furthest; much/many→more→the most." },
+    { "title": "Правописание", "text": "Удвоение согласной в коротком слоге: big→bigger; немая -e: nice→nicer; -y→-i: easy→easier." }
+  ],
+  "examples": [
+    {
+      "group": "Сравнение двух (-er / more … than)",
+      "items": [
+        { "en": "Moscow is bigger than Kazan.", "ru": "Москва больше Казани.", "highlight": ["bigger than"] },
+        { "en": "This car is more expensive than that one.", "ru": "Эта машина дороже той.", "highlight": ["more expensive than"] }
+      ]
+    },
+    {
+      "group": "Превосходная (the -est / the most)",
+      "items": [
+        { "en": "This is the most interesting book.", "ru": "Это самая интересная книга.", "highlight": ["the most interesting"] },
+        { "en": "He's the tallest in the team.", "ru": "Он самый высокий в команде.", "highlight": ["the tallest"] }
+      ]
+    },
+    {
+      "group": "Равенство (as … as)",
+      "items": [
+        { "en": "She is as old as me.", "ru": "Она того же возраста, что и я.", "highlight": ["as old as"] },
+        { "en": "It's not as big as I thought.", "ru": "Это не такое большое, как я думал.", "highlight": ["not as big as"] }
+      ]
+    },
+    {
+      "group": "Усиление и ослабление сравнения",
+      "items": [
+        { "en": "It's much cheaper than before.", "ru": "Это намного дешевле, чем раньше.", "highlight": ["much cheaper"] },
+        { "en": "She's a bit taller than her sister.", "ru": "Она чуть выше сестры.", "highlight": ["a bit taller"] }
+      ]
+    },
+    {
+      "group": "Исключения",
+      "items": [
+        { "en": "Today is worse than yesterday.", "ru": "Сегодня хуже, чем вчера.", "highlight": ["worse than"] },
+        { "en": "That was the best day of my life.", "ru": "Это был лучший день в моей жизни.", "highlight": ["the best"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "more better", "right": "better", "note": "better уже сравнительная — more не нужен (двойное сравнение)." },
+    { "wrong": "the most tall", "right": "the tallest", "note": "tall короткий → -est, не the most." },
+    { "wrong": "as tall than me", "right": "as tall as me", "note": "Равенство — as … as, не than." },
+    { "wrong": "She is most popular girl.", "right": "She is the most popular girl.", "note": "В превосходной the обязателен." },
+    { "wrong": "more cheap", "right": "cheaper", "note": "cheap короткий → -er." }
+  ],
+  "compare": {
+    "title": "comparative vs superlative",
+    "leftLabel": "сравнение двух (-er / more … than)",
+    "rightLabel": "лучший в группе (the -est / the most)",
+    "rows": [
+      { "left": "Tom is taller than Ben.", "right": "Tom is the tallest in the team." },
+      { "left": "связка than", "right": "артикль the обязателен" }
+    ]
+  },
+  "tips": [
+    "Сначала считай слоги вслух — это решает 90% выбора между -er и more. Двусложные на -y ведут себя как короткие (happy→happier, easy→easier). Сомневаешься? Произнеси и посчитай хлопки.",
+    "the в превосходной степени не забывай: the best, the most popular, the tallest. Без the — одна из самых частых ошибок. Запомни как «the самый».",
+    "Усиление/ослабление — то, что делает речь живой и о чём молчат на A2: much / a lot / far + сравнительная (much bigger, far more interesting) для «гораздо»; a bit / a little / slightly + сравнительная (a bit taller) для «чуть». Русское «намного/чуть» ложится прямо.",
+    "«the … the …» для взаимной зависимости: the more, the better; the sooner, the better; the older I get, the wiser I feel. Конструкция «чем … тем …» — выучи как шаблон.",
+    "Удвоение сравнительной для нарастания: bigger and bigger, more and more expensive, worse and worse («всё больше/хуже и больше/хуже»). Живой приём для описания тренда.",
+    "«one of the most + мн.ч.»: one of the most interesting books (не book!). После one of — всегда множественное, потому что «один из многих».",
+    "Два слога — серая зона: clever, quiet, simple, narrow могут идти и так, и так (cleverer / more clever). Оба варианта нормальны — не паникуй, если встретил «не свой»."
+  ],
+  "related": ["a1-present-simple", "a2-articles", "a2-prepositions-in-on-at"],
+  "quiz": []
+}

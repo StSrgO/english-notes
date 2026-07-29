@@ -1,0 +1,128 @@
+{
+  "slug": "a2-be-going-to",
+  "title": "be going to (планы и признаки)",
+  "level": "A2",
+  "category": "Tenses",
+  "readingTime": 8,
+  "summary": "Конструкция be going to — про намерение, принятое заранее, и про прогноз, который видно глазами.",
+  "idea": [
+    "be going to — это второй главный способ говорить о будущем в английском, и он обслуживает то, что will не покрывает: планы и намерения, принятые ЗАРАНЕЕ, до момента речи, а также прогнозы, основанные на видимых признаках. «Я собираюсь выучить испанский» (I'm going to learn Spanish) — решение уже принято, это намерение, а не спонтанная мысль. «Посмотри на тучи — будет дождь» (Look at the clouds — it's going to rain) — прогноз по очевидному признаку, который ты видишь глазами. В обоих случаях будущее уже как‑то «запущено» в настоящем: есть план или есть признак. Этим going to принципиально отличается от will, где будущее рождается в момент речи.",
+    "Форма — am/is/are + going to + V1. Меняется только be по лицам (I am going to, she is going to, they are going to), сама конструкция going to фиксирована. После to — голый инфинитив. В разговорной речи going to почти всегда сливается в gonna (/ˈɡɒnə/): I'm gonna do it. Понимать gonna на слух обязательно — это норма живой речи, но на письме и в учёбе держи going to. Отрицание — через be: I'm not going to sell it. Вопрос — вынос be: Are you going to apply?",
+    "Для русскоговорящих здесь есть и хорошая новость, и ловушка. Хорошая новость: русское «я собираюсь / я буду (по плану)» часто точно соответствует going to, а «Мы летим в Рим завтра» (план/договорённость) = We're flying to Rome tomorrow — здесь вообще Present Continuous, и русский совпадает. Ловушка — в выборе между will и going to, которого русский не делает. «Я куплю машину» может быть и спонтанным (I'll buy a car — решил в салоне), и выношенным планом (I'm going to buy a car — коплю месяцами). Вторая частая ошибка — потерять be: «I going to call you» вместо «I am going to call you», или смешать с will: «It will to rain». Если унести одну мысль: be going to = план/намерение, принятое заранее, или прогноз по видимому признаку; форма am/is/are + going to + V1."
+  ],
+  "why": [
+    "Говорить о планах и намерениях: I'm going to learn Spanish. We're going to move.",
+    "Делать прогнозы по видимым признакам: Look at those clouds — it's going to rain.",
+    "Говорить о том, что вот-вот случится: Watch out, you're going to fall!",
+    "Различать «решил сейчас» (will) и «решил заранее» (going to)."
+  ],
+  "context": {
+    "lines": [
+      { "en": "What are your plans for the summer?", "ru": "Какие планы на лето?" },
+      { "en": "I'm going to travel around Italy. I've already booked the flights.", "ru": "Собираюсь поездить по Италии. Я уже забронировал билеты." },
+      { "en": "Nice! And are you going to work before that?", "ru": "Класс! А будешь работать до этого?" },
+      { "en": "Yes, I'm going to save up some money first.", "ru": "Да, сначала хочу поднакопить денег." },
+      { "en": "Look at the sky — it's going to rain. Maybe we should go inside.", "ru": "Посмотри на небо — будет дождь. Может, зайдём внутрь." },
+      { "en": "Good idea. I'm going to make some tea.", "ru": "Хорошая идея. Я сделаю чай." }
+    ],
+    "note": "travel / save up / make tea — планы и намерения, принятые заранее; «it's going to rain» — прогноз по видимому признаку (тучи). Поэтому going to, а не will."
+  },
+  "russianAngle": [
+    "🇷🇺 «Я собираюсь / я буду (по плану)». 🇬🇧 Часто точно = be going to: I'm going to learn Spanish. Решение принято заранее.",
+    "🇷🇺 «Мы летим в Рим завтра» (настоящее в значении будущего). 🇬🇧 We're flying to Rome tomorrow — здесь Present Continuous для договорённостей (тема A1), по смыслу близко к going to. Русский совпадает — пользуйся.",
+    "🇷🇺 «Будет дождь» (прогноз). 🇬🇧 Если по признаку (тучи) — it's going to rain; если мнение (I think) — it will rain. Русский не различает.",
+    "Ошибки: «I going to call» (потеря be) → I am going to call; «It will to rain» (смешение) → It's going to rain / It will rain."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: going to = план/намерение заранее ИЛИ прогноз по видимому признаку.",
+      "Запомни форму: am/is/are + going to + V1; меняется только be.",
+      "Лови маркеры: plan / intend, Look at… (признак), already booked / decided.",
+      "Различай: решил сейчас → will; решил заранее / видно признак → going to.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — раскрой скобки с be going to:",
+      "items": [
+        { "q": "I ___ (learn) Spanish next year. I've already bought the books.", "a": "am going to learn — план заранее." },
+        { "q": "Look at those clouds! It ___ (rain).", "a": "is going to rain — прогноз по признаку." },
+        { "q": "Watch out! You ___ (fall)!", "a": "are going to fall — вот-вот случится." },
+        { "q": "We ___ (not / sell) the house. We've decided to stay.", "a": "aren't going to sell — решение заранее." },
+        { "q": "___ you ___ (apply) for the job?", "a": "Are you going to apply — план." }
+      ]
+    }
+  },
+  "formula": "am / is / are + going to + V1",
+  "structure": {
+    "positive": "I'm going to travel. / She's going to travel.",
+    "negative": "I'm not going to sell it. / They aren't going to come.",
+    "question": "Are you going to apply? / Is he going to stay?"
+  },
+  "markers": ["going to", "gonna (речь)", "Look at…", "plan", "intend", "already booked / decided"],
+  "uses": [
+    "Намерение/план, принятый до момента речи: I'm going to learn Spanish.",
+    "Прогноз по очевидному признаку: Look at those clouds — it's going to rain.",
+    "То, что вот-вот случится: Watch out, you're going to fall!"
+  ],
+  "rules": [
+    { "title": "Меняется be, не going to", "text": "Форма going to фиксирована; по лицам гуляет только be: I am / he is / we are going to. После to — голый инфинитив." },
+    { "title": "going to vs will", "text": "going to — план есть заранее или признак налицо; will — решение родилось в момент речи или голое мнение. I'm going to buy a car (коплю месяцами) vs I'll take this one (решил в салоне)." }
+  ],
+  "examples": [
+    {
+      "group": "Планы и намерения (принятые заранее)",
+      "items": [
+        { "en": "We're going to move to Berlin.", "ru": "Мы собираемся переехать в Берлин.", "highlight": ["'re going to move"] },
+        { "en": "I'm going to study medicine.", "ru": "Я собираюсь учиться на врача.", "highlight": ["'m going to study"] }
+      ]
+    },
+    {
+      "group": "Прогноз по видимому признаку",
+      "items": [
+        { "en": "Look at the sky — it's going to snow.", "ru": "Посмотри на небо — сейчас пойдёт снег.", "highlight": ["'s going to snow"] },
+        { "en": "He's going to faint!", "ru": "Он сейчас упадёт в обморок! (видно по лицу)", "highlight": ["'s going to faint"] }
+      ]
+    },
+    {
+      "group": "Вот-вот случится",
+      "items": [
+        { "en": "Watch out, you're going to fall!", "ru": "Осторожно, ты сейчас упадёшь!", "highlight": ["'re going to fall"] },
+        { "en": "The glass is going to break!", "ru": "Стакан сейчас разобьётся!", "highlight": ["is going to break"] }
+      ]
+    },
+    {
+      "group": "Вопросы и отрицания",
+      "items": [
+        { "en": "Are you going to cook tonight?", "ru": "Ты будешь готовить сегодня вечером?", "highlight": ["Are", "going to cook"] },
+        { "en": "She isn't going to accept the offer.", "ru": "Она не собирается принимать предложение.", "highlight": ["isn't going to accept"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I going to call you.", "right": "I am going to call you.", "note": "Не теряй be — без него конструкции нет." },
+    { "wrong": "It will to rain.", "right": "It's going to rain. / It will rain.", "note": "will без to; going to требует be." },
+    { "wrong": "I'm going to going.", "right": "I'm going to go.", "note": "После to — V1." },
+    { "wrong": "She going to comes.", "right": "She's going to come.", "note": "be + going to + V1 без -s." },
+    { "wrong": "The phone's ringing — I'm going to get it.", "right": "The phone's ringing — I'll get it.", "note": "Спонтанное решение → will, не going to." }
+  ],
+  "compare": {
+    "title": "be going to vs will",
+    "leftLabel": "be going to",
+    "rightLabel": "will",
+    "rows": [
+      { "left": "I'm going to visit grandma. (план)", "right": "I'll visit you later. (решил сейчас)" },
+      { "left": "He's going to faint! (видно по лицу)", "right": "I think he'll win. (мнение)" }
+    ]
+  },
+  "tips": [
+    "Тест «чемодан у двери»: действие подготовлено, есть план или виден признак → going to. Ты просто потянулся за чайником в момент разговора → will. «I'm going to buy a car» (коплю месяцами) vs «I'll take this one» (решил в салоне).",
+    "В речи going to = gonna: I'm gonna do it, What are you gonna do? Понимать обязательно — это норма. Писать в учёбе и формально — going to.",
+    "Прогноз по признаку vs по мнению: видно глазами (тучи, бледное лицо) → going to (It's going to rain); думаешь/предполагаешь (I think) → will (I think it'll rain). Один и тот же дождь — разный выбор.",
+    "going to + be для планов на роль/состояние: She's going to be a doctor. It's going to be a great party. Не путай с «есть сейчас».",
+    "«Be going to go» звучит громоздко, и нейтивы часто упрощают: вместо I'm going to go home говорят I'm going home (Present Continuous) или просто I'll go home. Не бойся упрощать.",
+    "Отрицание и вопрос — через be, не через do: I'm not going to (не I don't going to), Are you going to…? (не Do you going to). be здесь главный.",
+    "«Was/were going to» — план, который не состоялся: I was going to call you, but I forgot. (собирался, но не сделал). Живая конструкция для извинений и объяснений."
+  ],
+  "related": ["a2-future-simple", "a1-present-continuous", "a1-present-simple"],
+  "quiz": []
+}
