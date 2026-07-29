@@ -1,5 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
+import Icon from '../../components/Icon.astro';
 
 export function getStaticPaths() {
   const modules = import.meta.glob('../../data/grammar/*.json', { eager: true, import: 'default' });
@@ -42,26 +43,25 @@ const related = topics.filter((t) => topic.related && topic.related.includes(t.s
       <p class="muted" style="max-width:60ch;font-size:18px">{topic.summary}</p>
 
       <div class="topic__actions">
-        <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false">✓ Отметить изученным</button>
-        <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false">★ В избранное</button>
+        <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false"><Icon name="check" accent={false} size={17} /> Отметить изученным</button>
+        <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false"><Icon name="star" accent={false} size={17} /> В избранное</button>
       </div>
 
-      {/* ===== УЧИМ ===== */}
       <div class="lesson">
         <section class="lesson__block idea" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico">📘</span>Суть явления</h2>
+          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="book" size={30} /></span>Суть явления</h2>
           {topic.idea.map((p) => <p class="idea__p">{p}</p>)}
         </section>
 
         <section class="lesson__block" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico">🎯</span>Зачем это нужно</h2>
+          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="target" size={30} /></span>Зачем это нужно</h2>
           <ul class="why-list">
-            {topic.why.map((w) => <li>{w}</li>)}
+            {topic.why.map((w) => <li><Icon name="check" size={18} />{w}</li>)}
           </ul>
         </section>
 
         <section class="lesson__block" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico">💬</span>Живой контекст</h2>
+          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="chat" size={30} /></span>Живой контекст</h2>
           <div class="dialog">
             {topic.context.lines.map((l) => (
               <div class="dialog__line">
@@ -74,14 +74,14 @@ const related = topics.filter((t) => topic.related && topic.related.includes(t.s
         </section>
 
         <section class="lesson__block ru-angle" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico">🔀</span>Взгляд через русский</h2>
+          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="arrows" size={30} /></span>Взгляд через русский</h2>
           <ul class="ru-list">
-            {topic.russianAngle.map((r) => <li>{r}</li>)}
+            {topic.russianAngle.map((r) => <li><Icon name="arrows" size={18} />{r}</li>)}
           </ul>
         </section>
 
         <section class="lesson__block" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico">🛠️</span>Как освоить</h2>
+          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="pencil" size={30} /></span>Как освоить</h2>
           <ol class="howto">
             {topic.howToLearn.steps.map((s) => <li>{s}</li>)}
           </ol>
@@ -102,7 +102,6 @@ const related = topics.filter((t) => topic.related && topic.related.includes(t.s
         </section>
       </div>
 
-      {/* ===== СПРАВОЧНИК (сворачиваемый) ===== */}
       <details class="ref" open>
         <summary class="ref__sum">Повторяю / справочник</summary>
         <div class="ref__body">
@@ -119,7 +118,7 @@ const related = topics.filter((t) => topic.related && topic.related.includes(t.s
           <div class="block">
             <h2>Когда используется</h2>
             <ul class="use-list">
-              {topic.uses.map((u) => <li>{u}</li>)}
+              {topic.uses.map((u) => <li><Icon name="arrow" size={18} />{u}</li>)}
             </ul>
           </div>
 
@@ -176,9 +175,9 @@ const related = topics.filter((t) => topic.related && topic.related.includes(t.s
 
           {topic.tips && topic.tips.length > 0 && (
             <div class="block tips-block">
-              <h2>💡 Лайфхаки преподавателя</h2>
+              <h2 class="lesson__h"><span class="lesson__ico"><Icon name="bulb" size={30} /></span>Лайфхаки преподавателя</h2>
               <ul class="tips">
-                {topic.tips.map((t) => <li class="tip-card">{t}</li>)}
+                {topic.tips.map((t) => <li class="tip-card"><Icon name="bulb" size={18} />{t}</li>)}
               </ul>
             </div>
           )}

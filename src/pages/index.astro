@@ -1,14 +1,15 @@
 ---
 import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
 import phrases from '../data/phrases.json';
 import recs from '../data/recommendations.json';
 
 const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const sections = [
-  { ico: '📖', title: 'Грамматика', href: '/grammar', soon: false },
-  { ico: '🗂️', title: 'Словарь', href: '/grammar', soon: true },
-  { ico: '🎧', title: 'Аудирование', href: '/grammar', soon: true },
-  { ico: '🎤', title: 'Говорение', href: '/grammar', soon: true },
+  { ico: 'book', title: 'Грамматика', href: '/grammar', soon: false },
+  { ico: 'cards', title: 'Словарь', href: '/grammar', soon: true },
+  { ico: 'headphones', title: 'Аудирование', href: '/grammar', soon: true },
+  { ico: 'mic', title: 'Говорение', href: '/grammar', soon: true },
 ];
 
 const now = new Date();
@@ -18,25 +19,18 @@ const seed = Math.floor((now.getTime() - start.getTime()) / 86400000);
 const phrase = phrases[seed % phrases.length];
 
 const typeOrder = ['podcast', 'video', 'book', 'series', 'song'];
+const typeIcon = { podcast: 'eq', video: 'play', book: 'book', series: 'film', song: 'note' };
 const picks = typeOrder.map((t, i) => {
   const pool = recs.filter((r) => r.type === t);
   return pool[(seed + i) % pool.length];
 });
-
-const glyph = (type) => {
-  if (type === 'podcast') return '<span class="eq"><i></i><i></i><i></i></span>';
-  if (type === 'video') return '<svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>';
-  if (type === 'book') return '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6.5C10.5 5 8 4.5 4 4.5V18c4 0 6.5.5 8 2 1.5-1.5 4-2 8-2V4.5c-4 0-6.5.5-8 2z"/><path d="M12 6.5V20"/></svg>';
-  if (type === 'series') return '<svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 4v16M17 4v16M3 9h4M3 15h4M17 9h4M17 15h4"/></svg>';
-  return '<svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12 3v10.55A4 4 0 1 0 14 17V7h4V3h-6z"/></svg>';
-};
 ---
 <Base title="EnglishNotes — учим английский по-настоящему">
   <section class="hero wrap">
     <div class="hero__grid">
       <div class="hero__lead" data-reveal>
         <p class="eyebrow">language · skill · a1–c2</p>
-        <h1>Учи английский,<br><span class="hl-mark">по‑настоящему.</span></h1>
+        <h1>Учи английский,<br><span class="hl-mark">по-настоящему.</span></h1>
         <p class="muted hero__sub">Грамматика, разложенная по уровням CEFR — от A1 до C2. Читай правила, разбирай примеры и отмечай пройденное. Без воды и регистрации.</p>
         <div class="levels">
           {levels.map((l) => <a href={'/grammar#' + l} class="level-dot" title={'Уровень ' + l}>{l}</a>)}
@@ -62,7 +56,9 @@ const glyph = (type) => {
           <div class="picks">
             {picks.map((r) => (
               <a href={r.href} target="_blank" rel="noopener noreferrer" class="pick">
-                <span class={'pick__cover pick__cover--' + r.type} set:html={glyph(r.type)}></span>
+                <span class={'pick__cover pick__cover--' + r.type}>
+                  <Icon name={typeIcon[r.type]} accent={false} size={28} />
+                </span>
                 <span class="pick__body">
                   <span class="pick__type">{r.typeLabel} · {r.level}</span>
                   <span class="pick__title">{r.title}</span>
@@ -82,7 +78,7 @@ const glyph = (type) => {
     <div class="cards">
       {sections.map((s) => (
         <a href={s.href} class={'card' + (s.soon ? ' is-soon' : '')} data-reveal>
-          <div class="ico">{s.ico}</div>
+          <div class="ico"><Icon name={s.ico} size={46} /></div>
           <h3>{s.title}</h3>
           <span class="muted" style="font-size:14px">{s.soon ? 'скоро' : 'перейти'}</span>
         </a>

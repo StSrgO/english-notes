@@ -5,40 +5,53 @@ const modules = import.meta.glob('../../data/grammar/*.json', { eager: true, imp
 const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
 const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const byLevel = (lvl) => topics.filter((t) => t.level === lvl);
+const usedLevels = levels.filter((lvl) => byLevel(lvl).length);
 ---
 <Base title="Грамматика по уровням — EnglishNotes">
   <section class="section wrap">
-    <div class="section__head" data-reveal>
-      <div>
-        <p class="eyebrow">grammar · CEFR</p>
-        <h2>Грамматика по уровням</h2>
-      </div>
-      <span class="chip">Тем: <b style="margin-left:6px">{topics.length}</b></span>
-    </div>
+    <div class="catalog">
+      <aside class="catalog__nav" aria-label="Уровни">
+        <span class="catalog__nav-t">Уровни</span>
+        <a href="#top" class="level-link is-active" data-level-link data-level="all">
+          <span>Все</span>
+          <span class="level-link__n">{topics.length}</span>
+        </a>
+        {usedLevels.map((lvl) => (
+          <a href={'#' + lvl} class="level-link" data-level-link data-level={lvl}>
+            <span class="level-link__lvl">{lvl}</span>
+            <span class="level-link__n">{byLevel(lvl).length}</span>
+          </a>
+        ))}
+      </aside>
 
-    <div class="filters" data-reveal>
-      <button class="chip is-active" data-filter="all">Все</button>
-      {levels.map((l) => <button class="chip" data-filter={l}>{l}</button>)}
-    </div>
-
-    {levels.map((lvl) => {
-      const list = byLevel(lvl);
-      if (!list.length) return null;
-      return (
-        <div class="level-block" id={lvl} data-reveal>
-          <div class="level-block__title">{lvl} <small>{list.length} тем</small></div>
-          <div class="topic-grid">
-            {list.map((t) => (
-              <a href={'/grammar/' + t.slug} class="topic-card" data-card-level={t.level}>
-                <div class="meta"><span class="tag tag--lvl">{t.level}</span><span class="tag">{t.category}</span></div>
-                <h3>{t.title}</h3>
-                <p class="muted" style="font-size:14px;margin:0">{t.summary}</p>
-                <span class="muted" style="font-size:13px;margin-top:auto">≈ {t.readingTime} мин · читать →</span>
-              </a>
-            ))}
+      <div class="catalog__body" id="top">
+        <div class="section__head" data-reveal>
+          <div>
+            <p class="eyebrow">grammar · CEFR</p>
+            <h2>Грамматика по уровням</h2>
           </div>
+          <span class="chip">Тем: <b style="margin-left:6px">{topics.length}</b></span>
         </div>
-      );
-    })}
+
+        {usedLevels.map((lvl) => {
+          const list = byLevel(lvl);
+          return (
+            <div class="level-block" id={lvl} data-level-block data-reveal>
+              <div class="level-block__title">{lvl} <small>{list.length} тем</small></div>
+              <div class="topic-grid">
+                {list.map((t) => (
+                  <a href={'/grammar/' + t.slug} class="topic-card">
+                    <div class="meta"><span class="tag tag--lvl">{t.level}</span><span class="tag">{t.category}</span></div>
+                    <h3>{t.title}</h3>
+                    <p class="muted" style="font-size:14px;margin:0">{t.summary}</p>
+                    <span class="muted" style="font-size:13px;margin-top:auto">≈ {t.readingTime} мин · читать →</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </div>
   </section>
 </Base>
