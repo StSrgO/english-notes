@@ -65,7 +65,7 @@ const picks = typeOrder.map((t, i) => {
             {picks.map((r) => (
               <a href={r.href} target="_blank" rel="noopener noreferrer" class="pick">
                 <span class={'pick__cover pick__cover--' + r.type}>
-                  <Icon name={typeIcon[r.type]} accent={false} size={28} />
+                  <img src={'/picks/' + r.type + '.png'} alt="" class="pick__ico" loading="lazy" />
                 </span>
                 <span class="pick__body">
                   <span class="pick__type">{r.typeLabel} · {r.level}</span>

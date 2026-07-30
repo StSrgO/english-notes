@@ -134,12 +134,8 @@ mark.hl { background: var(--marker); color: var(--ink); padding: 0 3px; border-r
 .picks { display: grid; gap: 8px; }
 .pick { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; padding: 8px 12px; box-shadow: var(--shadow-sm); transition: transform 0.2s ease, box-shadow 0.2s ease; }
 .pick:hover { transform: translateX(5px); box-shadow: var(--shadow); }
-.pick__cover { flex: 0 0 auto; width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; }
-.pick__cover--podcast { background: var(--coral); color: #fff; }
-.pick__cover--video { background: var(--ink); color: var(--marker); }
-.pick__cover--book { background: var(--mint-deep); color: var(--ink); }
-.pick__cover--series { background: var(--marker); color: var(--ink); }
-.pick__cover--song { background: var(--mint); color: var(--coral); }
+.pick__cover { flex: 0 0 auto; width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; }
+/* pick type-colors removed (update32): raster mint sticker replaces them */
 .pick__body { display: flex; flex-direction: column; min-width: 0; }
 .pick__type { font-family: var(--mono); font-size: 10px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; }
 .pick__title { font-family: var(--display); font-weight: 800; font-size: 14px; line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -441,4 +437,7 @@ mark.hl { background: var(--marker); color: var(--ink); padding: 0 3px; border-r
 }
 @media (max-width: 920px) {
   .hero::before { opacity: var(--tower-opacity, 0.14); height: var(--tower-height, clamp(320px, 70vw, 460px)); left: 8px; }
-}
+}/* picks raster stickers (update33) вЂ” transparent-bg mint chips, no halo */
+.pick__ico { display: block; width: 100%; height: 100%; object-fit: contain; transition: transform .35s cubic-bezier(.2,.7,.2,1); }
+.pick:hover .pick__ico { transform: scale(1.08) rotate(-2.5deg); }
+.pick__go { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--mint); font-size: 15px; }
