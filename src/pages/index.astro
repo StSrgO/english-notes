@@ -6,10 +6,10 @@ import recs from '../data/recommendations.json';
 
 const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const sections = [
-  { ico: 'book', title: 'Грамматика', href: '/grammar', soon: false },
-  { ico: 'cards', title: 'Словарь', href: '/grammar', soon: true },
-  { ico: 'headphones', title: 'Аудирование', href: '/grammar', soon: true },
-  { ico: 'mic', title: 'Говорение', href: '/grammar', soon: true },
+  { img: 'grammar',    title: 'Грамматика',   href: '/grammar' },
+  { img: 'vocabulary', title: 'Словарь',      href: '/grammar' },
+  { img: 'listening',  title: 'Аудирование',  href: '/grammar' },
+  { img: 'speaking',   title: 'Говорение',    href: '/grammar' },
 ];
 
 const now = new Date();
@@ -35,7 +35,15 @@ const picks = typeOrder.map((t, i) => {
         <div class="levels">
           {levels.map((l) => <a href={'/grammar#' + l} class="level-dot" title={'Уровень ' + l}>{l}</a>)}
         </div>
-        <a href="/grammar" class="btn btn--coral">Открыть грамматику →</a>
+
+        <div class="tiles">
+          {sections.map((s) => (
+            <a href={s.href} class="tile" data-reveal aria-label={s.title} title={s.title}>
+              <img src={'/sections/' + s.img + '.png'} alt={s.title} class="tile__img" loading="lazy" />
+              <span class="tile__go" aria-hidden="true">→</span>
+            </a>
+          ))}
+        </div>
       </div>
 
       <div class="hero__visual" data-reveal>
@@ -70,19 +78,6 @@ const picks = typeOrder.map((t, i) => {
           </div>
         </section>
       </div>
-    </div>
-  </section>
-
-  <section class="section wrap">
-    <h2 class="block-label"><span class="dot"></span>разделы</h2>
-    <div class="cards">
-      {sections.map((s) => (
-        <a href={s.href} class={'card' + (s.soon ? ' is-soon' : '')} data-reveal>
-          <div class="ico"><Icon name={s.ico} size={46} /></div>
-          <h3>{s.title}</h3>
-          <span class="muted" style="font-size:14px">{s.soon ? 'скоро' : 'перейти'}</span>
-        </a>
-      ))}
     </div>
   </section>
 </Base>
