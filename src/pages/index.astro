@@ -12,6 +12,11 @@ const sections = [
   { img: 'speaking',   title: 'Говорение',    href: '/grammar' },
 ];
 
+const topicMods = import.meta.glob('../data/grammar/*.json', { eager: true, import: 'default' });
+const allTopics = Object.values(topicMods);
+const firstSlug = {};
+levels.forEach((l) => { const t = allTopics.find((x) => x.level === l); if (t) firstSlug[l] = t.slug; });
+
 const now = new Date();
 const start = new Date(now.getFullYear(), 0, 0);
 const seed = Math.floor((now.getTime() - start.getTime()) / 86400000);
@@ -29,12 +34,19 @@ const picks = typeOrder.map((t, i) => {
   <section class="hero wrap">
     <div class="hero__grid">
       <div class="hero__lead" data-reveal>
-        <p class="eyebrow">lock · stock · grammar · a1–c2</p>
-        <h1>Tense, Mood and<br><span class="hl-mark">Two Smoking Voices.</span></h1>
-        <p class="muted hero__sub">Учи английский по-настоящему… Грамматика разложена по уровням CEFR — от A1 до C2. Читай правила, разбирай примеры и отмечай пройденное.</p>
-        <p class="hero__punch">Без воды<span class="sep">·</span>без регистрации<span class="sep">·</span>без <mark class="hl">лишних свидетелей</mark>.</p>
-        <div class="levels">
-          {levels.map((l) => <a href={'/grammar#' + l} class="level-dot" title={'Уровень ' + l}>{l}</a>)}
+        <div class="hero__copy">
+          <p class="eyebrow">lock · stock · grammar · a1–c2</p>
+          <h1>Tense, Mood and<br><span class="hero__invert">Two Fucking Voices</span></h1>
+          <p class="hero__sub">Учи английский по-настоящему… Грамматика разложена по уровням CEFR — от A1 до C2. Читай правила, разбирай примеры и отмечай пройденное.</p>
+          <p class="hero__punch">Без воды<span class="sep">·</span>без регистрации<span class="sep">·</span>без лишних свидетелей</p>
+          <div class="levels">
+            {levels.map((l, i) => (
+              <span class="lvl-cell">
+                {i > 0 && <span class="lvl-dot" aria-hidden="true"></span>}
+                <a href={firstSlug[l] ? '/grammar/' + firstSlug[l] : '/grammar'} class="level-link" title={'Уровень ' + l}>{l}</a>
+              </span>
+            ))}
+          </div>
         </div>
 
         <div class="tiles">
@@ -49,9 +61,8 @@ const picks = typeOrder.map((t, i) => {
 
       <div class="hero__visual" data-reveal>
         <section class="daily">
-          <h2 class="block-label"><span class="dot"></span>фраза дня</h2>
+          <h2 class="block-label">фраза дня</h2>
           <figure class="quote-card">
-            <span class="quote-card__mark" aria-hidden="true">&ldquo;</span>
             <blockquote class="quote-card__en">{phrase.en}</blockquote>
             <p class="quote-card__ru">{phrase.ru}</p>
             {phrase.author && (
@@ -61,7 +72,7 @@ const picks = typeOrder.map((t, i) => {
         </section>
 
         <section class="daily">
-          <h2 class="block-label"><span class="dot"></span>подборка дня</h2>
+          <h2 class="block-label">подборка дня</h2>
           <div class="picks">
             {picks.map((r) => (
               <a href={r.href} target="_blank" rel="noopener noreferrer" class="pick">
