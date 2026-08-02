@@ -124,5 +124,72 @@
     "«Do + команда» для эмфазы и вежливой настойчивости: Do sit down! Do be quiet! Звучит тепло и убедительно — узнаваемо в речи радушных хозяев и ведущих."
   ],
   "related": ["a1-present-simple", "a1-verb-to-be", "a1-present-continuous"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "___ touch that! It\u0027s hot.",
+        "options":  [
+                        "Don\u0027t",
+                        "Doesn\u0027t",
+                        "Not",
+                        "No"
+                    ],
+        "answer":  0,
+        "why":  "Запрет в повелительном наклонении строится как Don\u0027t + глагол без to: Don\u0027t touch. Формы Doesn\u0027t/Not/No здесь не годятся."
+    },
+    {
+        "q":  "I ___ drink coffee in the morning.",
+        "options":  [
+                        "drink always",
+                        "always drink",
+                        "always drinking",
+                        "do always drink"
+                    ],
+        "answer":  1,
+        "why":  "Наречие частотности стоит перед основным глаголом: I always drink coffee, не I drink always."
+    },
+    {
+        "q":  "She ___ late for work.",
+        "options":  [
+                        "always is",
+                        "is always",
+                        "always be",
+                        "does always"
+                    ],
+        "answer":  1,
+        "why":  "С глаголом be наречие частотности ставится после be: She is always late, не She always is."
+    },
+    {
+        "q":  "___ be quiet, please.",
+        "options":  [
+                        "Please",
+                        "Don\u0027t",
+                        "Not to",
+                        "No"
+                    ],
+        "answer":  0,
+        "why":  "Вежливая просьба — это Please + глагол: Please be quiet. Don\u0027t был бы запретом («не шумите»), а здесь просят тишины."
+    },
+    {
+        "q":  "Let\u0027s ___ to the cinema tonight.",
+        "options":  [
+                        "to go",
+                        "going",
+                        "go",
+                        "goes"
+                    ],
+        "answer":  2,
+        "why":  "После Let\u0027s идёт голый инфинитив без to: Let\u0027s go, не Let\u0027s to go."
+    },
+    {
+        "q":  "He ___ watches TV at night.",
+        "options":  [
+                        "never watch",
+                        "never watches",
+                        "doesn\u0027t never watch",
+                        "is never watch"
+                    ],
+        "answer":  1,
+        "why":  "С he глагол берёт -s, а never ставится перед глаголом: He never watches. Двойное отрицание doesn\u0027t never — ошибка."
+    }
+]
 }

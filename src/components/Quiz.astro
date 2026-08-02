@@ -1,0 +1,44 @@
+---
+const { questions, ui } = Astro.props;
+const payload = JSON.stringify({ questions: questions || [], ui: ui || {} });
+---
+{questions && questions.length > 0 && (
+  <section class="quiz" data-quiz={payload} aria-label={ui.title || 'Quiz'}>
+    <noscript><p class="quiz__noscript">{ui.noscript}</p></noscript>
+  </section>
+)}
+<script>
+  const root = document.querySelector('[data-quiz]');
+  if (root) {
+    const { questions, ui } = JSON.parse(root.dataset.quiz);
+    const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
+    const CHECK = '\u2713', CROSS = '\u2717', ARROW = '\u2192';
+    function shuffleIdx(n) { const a = []; for (let k = 0; k < n; k++) a.push(k); for (let k = a.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); const t = a[k]; a[k] = a[j]; a[j] = t; } return a; }
+    function buildOrder() { return questions.map((q) => shuffleIdx(q.options.length)); }
+    const state = { idx: 0, sel: new Array(questions.length).fill(null), order: buildOrder() };
+    function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+    function answered(i) { return state.sel[i] !== null; }
+    function score() { return state.sel.reduce((n, s, i) => n + (s === questions[i].answer ? 1 : 0), 0); }
+    function dots() { return questions.map((_, i) => { const cls = i === state.idx ? 'quiz__dot is-now' : (answered(i) ? 'quiz__dot is-done' : 'quiz__dot'); const mark = answered(i) ? (state.sel[i] === questions[i].answer ? CHECK : CROSS) : ''; return '<span class="' + cls + '" aria-hidden="true">' + mark + '</span>'; }).join(''); }
+    function step() {
+      const i = state.idx, q = questions[i], done = answered(i), order = state.order[i];
+      const opts = order.map((origIdx, pos) => { const opt = q.options[origIdx]; let cls = 'quiz__opt'; if (done) { cls += ' is-locked'; if (origIdx === q.answer) cls += (state.sel[i] === origIdx ? ' is-correct' : ' is-right'); else if (origIdx === state.sel[i]) cls += ' is-wrong'; } const mk = done ? (origIdx === q.answer ? CHECK : (origIdx === state.sel[i] ? CROSS : '')) : LETTERS[pos]; return '<button type="button" class="' + cls + '" data-opt="' + origIdx + '"' + (done ? ' disabled' : '') + ' aria-pressed="' + (state.sel[i] === origIdx) + '"><span class="quiz__opt-k">' + mk + '</span><span class="quiz__opt-t">' + esc(opt) + '</span></button>'; }).join('');
+      const why = done ? '<div class="quiz__why"><span class="quiz__why-ico" aria-hidden="true">!</span><p>' + esc(q.why) + '</p></div>' : '';
+      const next = done ? '<div class="quiz__foot"><button type="button" class="btn btn--coral quiz__next">' + esc(ui.next || 'Next') + ' ' + ARROW + '</button></div>' : '';
+      root.innerHTML = '<div class="quiz__head"><div><p class="quiz__eyebrow">' + esc(ui.eyebrow || '') + '</p><h2 class="quiz__title">' + esc(ui.title || '') + '</h2></div><span class="quiz__count">' + String(i + 1).padStart(2, '0') + ' / ' + String(questions.length).padStart(2, '0') + '</span></div><div class="quiz__dots" role="progressbar" aria-valuenow="' + (i + 1) + '" aria-valuemax="' + questions.length + '">' + dots() + '</div><p class="quiz__qlabel">' + esc(ui.qLabel || 'Question') + ' ' + (i + 1) + '</p><h3 class="quiz__q">' + esc(q.q) + '</h3><div class="quiz__opts">' + opts + '</div><div class="quiz__live" aria-live="polite">' + why + next + '</div>';
+      bindStep();
+    }
+    function bindStep() { root.querySelectorAll('.quiz__opt').forEach((b) => b.addEventListener('click', () => select(Number(b.dataset.opt)))); const nx = root.querySelector('.quiz__next'); if (nx) nx.addEventListener('click', () => { state.idx < questions.length - 1 ? (state.idx++, step()) : done(); }); }
+    function select(origIdx) { const i = state.idx; if (answered(i)) return; state.sel[i] = origIdx; step(); }
+    function verdictIndex() { const p = score() / questions.length; if (p >= 1) return 3; if (p >= 0.75) return 2; if (p >= 0.5) return 1; return 0; }
+    function done() {
+      const s = score(), t = questions.length, pct = Math.round((s / t) * 100);
+      const v = (ui.verdicts && ui.verdicts[verdictIndex()]) || '';
+      const wrong = questions.map((q, i) => ({ q, i })).filter((x) => state.sel[x.i] !== x.q.answer);
+      const review = wrong.length ? '<div class="quiz__review"><h3 class="quiz__review-t">' + esc(ui.reviewTitle || 'Review') + '</h3>' + wrong.map((x) => { const q = x.q, mine = state.sel[x.i]; return '<div class="quiz__rev"><p class="quiz__rev-q">' + esc(q.q) + '</p><p class="quiz__rev-wrong">' + CROSS + ' ' + esc(ui.yourAnswer || 'Your answer') + ': ' + esc(q.options[mine]) + '</p><p class="quiz__rev-right">' + CHECK + ' ' + esc(ui.correctAnswer || 'Correct') + ': ' + esc(q.options[q.answer]) + '</p><p class="quiz__rev-why">' + esc(q.why) + '</p></div>'; }).join('') + '</div>' : '';
+      root.innerHTML = '<div class="quiz__done"><p class="quiz__eyebrow">' + esc(ui.eyebrow || '') + '</p><div class="quiz__medal"><span class="quiz__medal-n">' + s + '</span><span class="quiz__medal-t">/ ' + t + '</span></div><p class="quiz__pct">' + pct + '%</p><p class="quiz__verdict">' + esc(v) + '</p>' + review + '<button type="button" class="btn btn--ghost quiz__again">' + esc(ui.again || 'Again') + '</button></div>';
+      root.querySelector('.quiz__again').addEventListener('click', () => { state.idx = 0; state.sel = new Array(questions.length).fill(null); state.order = buildOrder(); step(); });
+    }
+    step();
+  }
+</script>

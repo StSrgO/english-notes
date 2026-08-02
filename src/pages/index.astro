@@ -25,13 +25,14 @@ const picks = typeOrder.map((t, i) => {
   return pool[(seed + i) % pool.length];
 });
 ---
-<Base title="EnglishNotes — учи, повторяй, не забивай!">
+<Base title="EnglishNotes — учим английский по-настоящему">
   <section class="hero wrap">
     <div class="hero__grid">
       <div class="hero__lead" data-reveal>
-        <p class="eyebrow">language · skill · a1–c2</p>
-        <h1>Учи английский,<br><span class="hl-mark">по-настоящему.</span></h1>
-        <p class="muted hero__sub">Грамматика, разложенная по уровням CEFR — от A1 до C2. Читай правила, разбирай примеры и отмечай пройденное. Без воды и регистрации.</p>
+        <p class="eyebrow">lock · stock · grammar · a1–c2</p>
+        <h1>Tense, Mood and<br><span class="hl-mark">Two Smoking Voices.</span></h1>
+        <p class="muted hero__sub">Учи английский по-настоящему… Грамматика разложена по уровням CEFR — от A1 до C2. Читай правила, разбирай примеры и отмечай пройденное.</p>
+        <p class="hero__punch">Без воды<span class="sep">·</span>без регистрации<span class="sep">·</span>без <mark class="hl">лишних свидетелей</mark>.</p>
         <div class="levels">
           {levels.map((l) => <a href={'/grammar#' + l} class="level-dot" title={'Уровень ' + l}>{l}</a>)}
         </div>

@@ -113,7 +113,7 @@ mark.hl { background: var(--marker); color: var(--ink); padding: 0 3px; border-r
 .hero__grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 56px; align-items: stretch; }
 .hero__lead { display: flex; flex-direction: column; container-type: inline-size; }
 .eyebrow { font-family: var(--mono); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
-.hero h1 { font-size: clamp(40px, 6.4vw, 80px); font-weight: 900; margin: 14px 0 18px; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
+.hero h1 { font-size: clamp(34px, 5.6vw, 72px); font-weight: 900; margin: 14px 0 16px; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
 .hero__sub { max-width: 46ch; font-size: 18px; line-height: 1.7; color: var(--ink-mid); }
 .levels { display: flex; flex-wrap: wrap; gap: 10px; margin: 26px 0 0; }
 .level-dot { width: 52px; height: 52px; border-radius: 50%; display: grid; place-items: center; background: var(--mint-deep); font-family: var(--display); font-weight: 800; transition: transform 0.15s, background 0.2s; }
@@ -440,4 +440,73 @@ mark.hl { background: var(--marker); color: var(--ink); padding: 0 3px; border-r
 }/* picks raster stickers (update33) вЂ” transparent-bg mint chips, no halo */
 .pick__ico { display: block; width: 100%; height: 100%; object-fit: contain; transition: transform .35s cubic-bezier(.2,.7,.2,1); }
 .pick:hover .pick__ico { transform: scale(1.08) rotate(-2.5deg); }
-.pick__go { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--mint); font-size: 15px; }
+.pick__go { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--mint); font-size: 15px; }/* quiz component (update35) */
+.quiz { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 30px 30px 34px; box-shadow: var(--shadow); overflow: hidden; }
+.quiz::before { content: ""; position: absolute; inset: 0; pointer-events: none; background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 22px 22px; opacity: .5; mask-image: radial-gradient(120% 90% at 85% 0%, #000 0%, transparent 60%); }
+.quiz > * { position: relative; z-index: 1; }
+.quiz__noscript { margin: 0; color: var(--ink-mid); font-weight: 600; }
+.quiz__head { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.quiz__eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 6px; }
+.quiz__title { font-family: var(--display); font-weight: 900; font-size: clamp(26px, 3.4vw, 38px); letter-spacing: -0.02em; }
+.quiz__count { font-family: var(--mono); font-weight: 700; font-size: 15px; color: var(--ink-mid); white-space: nowrap; padding-top: 6px; }
+.quiz__dots { display: flex; gap: 7px; margin: 20px 0 26px; }
+.quiz__dot { width: 22px; height: 6px; border-radius: 999px; background: var(--line); display: grid; place-items: center; font-size: 0; color: transparent; transition: background .3s ease, transform .3s ease; }
+.quiz__dot.is-done { background: var(--ink); }
+.quiz__dot.is-now { background: var(--marker); transform: scaleY(1.5); animation: quizPulse 1.4s ease-in-out infinite; }
+@keyframes quizPulse { 0%, 100% { box-shadow: 0 0 0 0 rgba(255, 233, 92, .55); } 50% { box-shadow: 0 0 0 5px rgba(255, 233, 92, 0); } }
+.quiz__qlabel { font-family: var(--mono); font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 8px; }
+.quiz__q { font-family: var(--display); font-weight: 800; font-size: clamp(20px, 2.6vw, 30px); line-height: 1.2; letter-spacing: -0.01em; margin: 0 0 22px; }
+.quiz__opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+.quiz__opt { display: flex; align-items: center; gap: 12px; text-align: left; background: var(--paper); border: 1.5px solid var(--line); border-radius: 14px; padding: 14px 16px; cursor: pointer; font-family: var(--body); font-weight: 600; font-size: 16px; color: var(--ink); transition: transform .18s ease, box-shadow .2s ease, border-color .2s ease, background .2s ease; }
+.quiz__opt:hover:not(.is-locked) { transform: translateY(-3px); box-shadow: var(--shadow-sm); border-color: var(--mint-deep); }
+.quiz__opt:active:not(.is-locked) { transform: scale(.98); }
+.quiz__opt-k { flex: 0 0 auto; width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--mint-deep); color: var(--ink); font-family: var(--display); font-weight: 800; font-size: 14px; transition: background .2s ease, color .2s ease; }
+.quiz__opt:hover:not(.is-locked) .quiz__opt-k { background: var(--mint-deeper); }
+.quiz__opt.is-locked { cursor: default; }
+.quiz__opt.is-correct { background: var(--ink); border-color: var(--ink); color: var(--mint); }
+.quiz__opt.is-correct .quiz__opt-k { background: var(--mint); color: var(--ink); }
+.quiz__opt.is-right { border-color: var(--mint-deeper); background: var(--mint); }
+.quiz__opt.is-right .quiz__opt-k { background: var(--mint-deeper); }
+.quiz__opt.is-wrong { border-color: var(--coral); background: rgba(255, 107, 91, .10); }
+.quiz__opt.is-wrong .quiz__opt-k { background: var(--coral); color: #fff; }
+.quiz__opt.is-locked:not(.is-correct):not(.is-right):not(.is-wrong) { opacity: .45; }
+.quiz__why { display: flex; gap: 12px; margin-top: 20px; background: var(--mint); border: 1px solid var(--mint-deep); border-left: 4px solid var(--ink); border-radius: 14px; padding: 15px 18px; animation: fadeDown .35s ease; }
+.quiz__why-ico { flex: 0 0 auto; width: 24px; height: 24px; border-radius: 50%; background: var(--ink); color: var(--mint); display: grid; place-items: center; font-family: var(--display); font-weight: 800; font-size: 14px; }
+.quiz__why p { margin: 0; color: var(--ink); font-weight: 500; line-height: 1.6; font-size: 15.5px; }
+.quiz__foot { display: flex; justify-content: flex-end; margin-top: 18px; animation: fadeDown .3s ease; }
+.quiz__done { text-align: center; padding: 8px 0 4px; animation: fadeDown .4s ease; }
+.quiz__medal { width: 132px; height: 132px; margin: 18px auto 6px; border-radius: 50%; display: grid; place-content: center; place-items: center; background: var(--ink); color: var(--mint); box-shadow: var(--shadow); animation: medalIn .5s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes medalIn { from { transform: scale(.4) rotate(-12deg); opacity: 0; } to { transform: none; opacity: 1; } }
+.quiz__medal-n { font-family: var(--display); font-weight: 900; font-size: 52px; line-height: .9; }
+.quiz__medal-t { font-family: var(--mono); font-size: 15px; color: var(--mint-deep); }
+.quiz__pct { font-family: var(--mono); font-weight: 700; font-size: 18px; color: var(--ink-mid); margin: 4px 0 12px; }
+.quiz__verdict { max-width: 46ch; margin: 0 auto 8px; font-size: 17px; line-height: 1.6; color: var(--ink); font-weight: 500; }
+.quiz__review { text-align: left; margin: 26px 0 8px; display: grid; gap: 14px; }
+.quiz__review-t { font-family: var(--display); font-weight: 800; font-size: 19px; margin: 0 0 4px; }
+.quiz__rev { background: var(--paper); border: 1px solid var(--line); border-radius: 14px; padding: 15px 18px; }
+.quiz__rev-q { margin: 0 0 9px; font-weight: 700; color: var(--ink); line-height: 1.4; }
+.quiz__rev-wrong { margin: 0 0 4px; color: var(--coral); font-weight: 600; font-size: 15px; }
+.quiz__rev-right { margin: 0 0 8px; color: var(--ink); font-weight: 700; font-size: 15px; }
+.quiz__rev-why { margin: 0; color: var(--ink-mid); font-size: 14.5px; line-height: 1.55; font-weight: 500; }
+.quiz__again { margin: 22px auto 0; }
+@media (prefers-reduced-motion: reduce) {
+  .quiz__dot.is-now { animation: none; }
+  .quiz__medal { animation: none; }
+  .quiz__why, .quiz__foot, .quiz__done { animation: none; }
+  .quiz__opt { transition: none; }
+}/* practice cta at lesson end (update38) */
+.practice { position: relative; overflow: hidden; margin-top: 34px; padding: 32px 30px 34px; border: 1.5px dashed var(--mint-deep); border-radius: var(--r); text-align: center; background: linear-gradient(180deg, rgba(191, 230, 198, .16), rgba(191, 230, 198, 0) 72%); box-shadow: var(--shadow-sm); }
+.practice::before { content: ""; position: absolute; inset: 0; pointer-events: none; background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 22px 22px; opacity: .5; mask-image: radial-gradient(120% 95% at 50% 0%, #000 0%, transparent 66%); }
+.practice > * { position: relative; z-index: 1; }
+.practice__eye { font-family: var(--mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: var(--ink-soft); margin: 0 0 8px; }
+.practice__t { font-family: var(--display); font-weight: 900; font-size: clamp(22px, 2.8vw, 30px); letter-spacing: -0.02em; margin: 0 0 10px; }
+.practice__text { max-width: 52ch; margin: 0 auto 20px; color: var(--ink-mid); font-size: 16px; line-height: 1.66; font-weight: 500; }
+.practice__cta { margin-top: 2px; }
+.practice__also { margin: 18px 0 0; font-size: 13.5px; color: var(--ink-soft); font-weight: 500; }
+.practice__also-item { white-space: nowrap; }
+.practice__also a { color: var(--ink-mid); font-weight: 700; text-decoration: none; border-bottom: 1px solid transparent; transition: color .2s ease, border-color .2s ease; }
+.practice__also a:hover { color: var(--ink); border-bottom-color: var(--mint-deeper); }
+.practice__sep { margin: 0 9px; color: var(--mint-deeper); }/* hero ritchie punchline (update41) */
+.hero__punch { margin: 16px 0 0; font-family: var(--display); font-weight: 700; font-size: clamp(15px, 1.4vw, 18px); color: var(--ink-mid); letter-spacing: -0.01em; line-height: 1.5; }
+.hero__punch .sep { color: var(--mint-deeper); margin: 0 9px; font-weight: 800; }
+.hero__punch mark.hl { padding: 0 4px; }

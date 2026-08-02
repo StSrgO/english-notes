@@ -143,5 +143,72 @@
     "if only = wish с эмоцией, грамматика идентична. If only I'd listened звучит сильнее и драматичнее I wish I'd listened — как вздох, а не констатация. Используй if only там, где хочешь передать досаду или тоску, а не просто факт желания."
   ],
   "related": ["c2-mandative-subjunctive", "c2-mixed-conditionals", "c1-inversion-in-conditionals"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I wish I ___ French well enough to live in Paris (but I don\u0027t).",
+        "options":  [
+                        "speak",
+                        "spoke",
+                        "had spoken",
+                        "would speak"
+                    ],
+        "answer":  1,
+        "why":  "Желание про настоящее сдвигает форму назад: wish + Past Simple (spoke). Индикатив speak и Past Perfect had spoken сюда не подходят по времени."
+    },
+    {
+        "q":  "I wish I ___ harder before the exam (regret about the past).",
+        "options":  [
+                        "studied",
+                        "study",
+                        "had studied",
+                        "would study"
+                    ],
+        "answer":  2,
+        "why":  "Сожаление о прошлом — это wish + Past Perfect: I wish I had studied. Прошлая форма studied без had передавала бы настоящее, а не прошлое."
+    },
+    {
+        "q":  "If only she ___ here right now.",
+        "options":  [
+                        "was",
+                        "is",
+                        "be",
+                        "were"
+                    ],
+        "answer":  3,
+        "why":  "В нереальном настоящем для всех лиц стоит were: If only she were here. was допустимо разговорно, но were — норма C1 и то, что ждёт экзаменатор."
+    },
+    {
+        "q":  "It\u0027s high time we ___ home — we\u0027ll miss the last train.",
+        "options":  [
+                        "leave",
+                        "left",
+                        "have left",
+                        "will leave"
+                    ],
+        "answer":  1,
+        "why":  "После it\u0027s (high/about) time с подлежащим стоит Past Simple при смысле «пора сейчас / уже опоздали»: it\u0027s high time we left. Инфинитив leave здесь был бы другой, нейтральной рамкой (it\u0027s time to leave)."
+    },
+    {
+        "q":  "I\u0027d rather you ___ in the kitchen.",
+        "options":  [
+                        "don\u0027t smoke",
+                        "didn\u0027t smoke",
+                        "won\u0027t smoke",
+                        "not smoke"
+                    ],
+        "answer":  1,
+        "why":  "Предпочтение про другого человека на сейчас/вообще выражается Past Simple: I\u0027d rather you didn\u0027t smoke. don\u0027t/won\u0027t сюда не ставятся — это не индикатив и не будущее."
+    },
+    {
+        "q":  "I wish it ___ soon — the garden is dying.",
+        "options":  [
+                        "rained",
+                        "would rain",
+                        "rains",
+                        "will rain"
+                    ],
+        "answer":  1,
+        "why":  "Раздражение или «вот бы соизволило» про будущее — это wish + would: I wish it would rain. would здесь уместен, потому что погода «способна измениться»; для статичного качества про себя would нельзя (там were/had)."
+    }
+]
 }

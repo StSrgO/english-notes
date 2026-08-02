@@ -137,5 +137,72 @@
     "Команды: отрицание через not to (told me not to go), а не to don't. И глаголы-синонимы для оттенков: ordered (приказал), warned (предупредил not to), advised (посоветовал to), begged (умолял to) — все по той же схеме + to / not to."
   ],
   "related": ["a1-past-simple", "a1-questions", "b1-present-perfect", "b1-gerund-vs-infinitive", "b1-passive-voice-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "He said that he ___ tired.",
+        "options":  [
+                        "was",
+                        "is",
+                        "will be",
+                        "be"
+                    ],
+        "answer":  0,
+        "why":  "В косвенной речи времена сдвигаются назад: is → was. He said that he was tired."
+    },
+    {
+        "q":  "She asked me where I ___.",
+        "options":  [
+                        "do live",
+                        "lived",
+                        "live",
+                        "living"
+                    ],
+        "answer":  1,
+        "why":  "Косвенный вопрос — не вопрос по форме (без do), и время сдвигается: where I lived, не where do I live."
+    },
+    {
+        "q":  "He ___ me he was late.",
+        "options":  [
+                        "told",
+                        "said",
+                        "sayed",
+                        "telled"
+                    ],
+        "answer":  0,
+        "why":  "С адресатом (me) — told, не said: He told me. said me — ошибка; sayed/telled не существуют."
+    },
+    {
+        "q":  "She said she ___ the next day.",
+        "options":  [
+                        "will come",
+                        "would come",
+                        "comes",
+                        "came"
+                    ],
+        "answer":  1,
+        "why":  "will в прямой речи → would в косвенной: She said she would come. the next day — маркер сдвига."
+    },
+    {
+        "q":  "He asked if I ___ help him.",
+        "options":  [
+                        "could",
+                        "can",
+                        "will",
+                        "may"
+                    ],
+        "answer":  0,
+        "why":  "can в прямой речи → could в косвенной: He asked if I could help him."
+    },
+    {
+        "q":  "\u0027I like it,\u0027 she said. → She said she ___ it.",
+        "options":  [
+                        "liked",
+                        "likes",
+                        "like",
+                        "liking"
+                    ],
+        "answer":  0,
+        "why":  "Present Simple → Past Simple в косвенной речи: She said she liked it."
+    }
+]
 }

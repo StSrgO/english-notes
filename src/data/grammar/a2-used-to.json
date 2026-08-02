@@ -131,5 +131,72 @@
     "usedn't to (I usedn't to like it) — старая британская форма отрицания без did. Встретишь в старой литературе — не пугайся, но в современной речи и на экзамене пиши didn't use to."
   ],
   "related": ["a1-past-simple", "a2-modals-can-must-have-to", "a1-present-simple", "a2-past-continuous"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ play football as a child.",
+        "options":  [
+                        "used to",
+                        "use to",
+                        "using to",
+                        "am used to"
+                    ],
+        "answer":  0,
+        "why":  "Утверждение о прошлой привычке — used to (с d): I used to play. use to без d — ошибка в утверждении."
+    },
+    {
+        "q":  "Did you ___ live here?",
+        "options":  [
+                        "used to",
+                        "use to",
+                        "using to",
+                        "uses to"
+                    ],
+        "answer":  1,
+        "why":  "В вопросе did уже несёт прошедшее время, поэтому use to без d: Did you use to live?"
+    },
+    {
+        "q":  "She ___ smoke, but she quit.",
+        "options":  [
+                        "used to",
+                        "use to",
+                        "is used to",
+                        "uses to"
+                    ],
+        "answer":  0,
+        "why":  "Утверждение — used to: She used to smoke. is used to = «привыкла к» (другая конструкция)."
+    },
+    {
+        "q":  "I ___ walk to work now.",
+        "options":  [
+                        "used to",
+                        "use to",
+                        "usually",
+                        "am used to"
+                    ],
+        "answer":  2,
+        "why":  "used to — только про прошлое. Привычка сейчас — usually: I usually walk to work."
+    },
+    {
+        "q":  "He didn\u0027t ___ like coffee.",
+        "options":  [
+                        "used to",
+                        "use to",
+                        "using to",
+                        "uses to"
+                    ],
+        "answer":  1,
+        "why":  "В отрицании didn\u0027t уже несёт время → use to без d: He didn\u0027t use to like coffee."
+    },
+    {
+        "q":  "___ she ___ have long hair?",
+        "options":  [
+                        "Did / used to",
+                        "Did / use to",
+                        "Does / use to",
+                        "Was / use to"
+                    ],
+        "answer":  1,
+        "why":  "Вопрос в прошлом — Did … use to (без d после Did): Did she use to have long hair?"
+    }
+]
 }

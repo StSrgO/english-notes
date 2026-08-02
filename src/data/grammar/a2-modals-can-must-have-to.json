@@ -124,5 +124,72 @@
     "have to ведёт себя как обычный глагол: has to (he/she/it), don't have to, Do you have to? — здесь do/does нужны, в отличие от can/must. Это исключение внутри модальной темы, запомни отдельно."
   ],
   "related": ["a1-present-simple", "a2-used-to", "a2-future-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ speak three languages.",
+        "options":  [
+                        "can to",
+                        "can",
+                        "cans",
+                        "am can"
+                    ],
+        "answer":  1,
+        "why":  "После модального — голый инфинитив без to: I can speak. can to — ошибка."
+    },
+    {
+        "q":  "You ___ smoke here. It\u0027s forbidden.",
+        "options":  [
+                        "don\u0027t have to",
+                        "mustn\u0027t",
+                        "must not to",
+                        "haven\u0027t to"
+                    ],
+        "answer":  1,
+        "why":  "Запрет — mustn\u0027t: You mustn\u0027t smoke. don\u0027t have to = «не обязан» (можно, но не надо), это другой смысл."
+    },
+    {
+        "q":  "She ___ go now — it\u0027s the rule.",
+        "options":  [
+                        "must",
+                        "musts",
+                        "must to",
+                        "is must"
+                    ],
+        "answer":  0,
+        "why":  "must не меняется по лицам и не берёт to: She must go, не She musts."
+    },
+    {
+        "q":  "You ___ pay. It\u0027s free.",
+        "options":  [
+                        "don\u0027t have to",
+                        "mustn\u0027t",
+                        "haven\u0027t",
+                        "can\u0027t to"
+                    ],
+        "answer":  0,
+        "why":  "Отсутствие обязанности («не надо, но можно») — don\u0027t have to. mustn\u0027t было бы запретом, а тут просто бесплатно."
+    },
+    {
+        "q":  "___ you help me, please?",
+        "options":  [
+                        "Can",
+                        "Must",
+                        "Have",
+                        "Do can"
+                    ],
+        "answer":  0,
+        "why":  "Просьба о способности/разрешении — Can you…? Do can не существует."
+    },
+    {
+        "q":  "I ___ to wear a uniform at work.",
+        "options":  [
+                        "must",
+                        "have",
+                        "has",
+                        "can"
+                    ],
+        "answer":  1,
+        "why":  "Внешняя обязанность (правило) — have to: I have to wear. С I форма have, не has."
+    }
+]
 }

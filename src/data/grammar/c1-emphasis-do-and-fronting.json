@@ -144,5 +144,72 @@
     "Проверяй себя вопросом «а что я вынес в начало?». Если отрицание или условие — нужна инверсия (другие темы). Если объект/обстоятельство/предикатив ради контраста — это фронтинг, порядок S‑V не трогай. Этот вопрос снимает девяносто процентов путаницы между двумя приёмами «выноса в начало»."
   ],
   "related": ["c1-cleft-sentences", "c1-inversion-after-negative-adverbials", "c2-cohesion-and-register"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "Усильте утверждение: I like this song.",
+        "options":  [
+                        "I do liking this song.",
+                        "I DO like this song.",
+                        "I am do like this song.",
+                        "I does like this song."
+                    ],
+        "answer":  1,
+        "why":  "Эмфатический do в Present Simple ставится перед основным глаголом, ударение — на do: I DO like. do не сочетается с -ing и не подставляется рядом с be."
+    },
+    {
+        "q":  "Усильте в Past Simple: She finished on time.",
+        "options":  [
+                        "She DID finish on time.",
+                        "She DID finished on time.",
+                        "She DID finishes on time.",
+                        "She DO finish on time."
+                    ],
+        "answer":  0,
+        "why":  "did забирает время на себя, поэтому основной глагол оголяется до базовой формы: DID finish, а не finished. Это та же механика, что в вопросе и отрицании."
+    },
+    {
+        "q":  "Усильте: I am listening.",
+        "options":  [
+                        "I DO am listening.",
+                        "I do listening.",
+                        "I AM listening.",
+                        "I does listen."
+                    ],
+        "answer":  2,
+        "why":  "Вспомогательный be уже есть — усиливают ударением именно его: I AM listening. Подставлять do рядом с be (*I do am*) — ошибка, по которой читают непонимание, где do уместен."
+    },
+    {
+        "q":  "Сделайте приглашение радушнее: Sit down, please.",
+        "options":  [
+                        "DOES sit down, please.",
+                        "DID sit down, please.",
+                        "DO sitting down, please.",
+                        "DO sit down, please."
+                    ],
+        "answer":  3,
+        "why":  "Эмфатический do в императиве (DO sit down) звучит теплее и настойчивее голого повеления — это не грубость, а радушие. does/did в императиве не ставятся."
+    },
+    {
+        "q":  "Выберите корректный фронтинг (вынос объекта без инверсии).",
+        "options":  [
+                        "The budget can I stretch.",
+                        "The budget I can stretch.",
+                        "The budget I stretch can.",
+                        "Can the budget I stretch."
+                    ],
+        "answer":  1,
+        "why":  "Фронтинг выносит объект в начало, но порядок подлежащее-глагол остаётся прямым: The budget I can stretch. Инверсия (can I) здесь была бы ошибкой — это не отрицательный триггер."
+    },
+    {
+        "q":  "Найдите верное предложение.",
+        "options":  [
+                        "She does knows the answer.",
+                        "She do know the answer.",
+                        "She DOES know the answer.",
+                        "She does knowing the answer."
+                    ],
+        "answer":  2,
+        "why":  "После does основной глагол теряет -s: DOES know, а не knows. does забирает окончание третьего лица на себя."
+    }
+]
 }

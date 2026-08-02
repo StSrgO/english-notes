@@ -125,5 +125,72 @@
     "Не путай Zero-привычку с used to: If I don't sleep, I get angry — это закон про сейчас (всякий раз). I used to get angry — про прошлое, которого больше нет. Разные времена, разный смысл."
   ],
   "related": ["b1-first-conditional", "a1-present-simple", "a1-imperative-and-frequency"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "If you ___ ice, it melts.",
+        "options":  [
+                        "heat",
+                        "will heat",
+                        "heated",
+                        "heating"
+                    ],
+        "answer":  0,
+        "why":  "Zero Conditional — Present Simple в обеих частях (закон/общая истина): If you heat ice, it melts. will в if-части — ошибка."
+    },
+    {
+        "q":  "If it rains, the grass ___ wet.",
+        "options":  [
+                        "will get",
+                        "gets",
+                        "got",
+                        "getting"
+                    ],
+        "answer":  1,
+        "why":  "Как закон природы — Present Simple в обеих частях: the grass gets wet, не will get."
+    },
+    {
+        "q":  "When you ___ water to 100°C, it boils.",
+        "options":  [
+                        "heat",
+                        "will heat",
+                        "heated",
+                        "heating"
+                    ],
+        "answer":  0,
+        "why":  "when ≈ if в zero conditional, обе части в Present Simple: When you heat water, it boils."
+    },
+    {
+        "q":  "If you ___ red and blue, you get purple.",
+        "options":  [
+                        "mix",
+                        "will mix",
+                        "mixed",
+                        "mixing"
+                    ],
+        "answer":  0,
+        "why":  "Общая истина — Present Simple в обеих частях: If you mix red and blue, you get purple."
+    },
+    {
+        "q":  "Plants die if they ___ water.",
+        "options":  [
+                        "won\u0027t get",
+                        "don\u0027t get",
+                        "didn\u0027t get",
+                        "not get"
+                    ],
+        "answer":  1,
+        "why":  "Отрицание в zero conditional — don\u0027t/doesn\u0027t + Present Simple: if they don\u0027t get water."
+    },
+    {
+        "q":  "If I ___ late, my boss gets angry.",
+        "options":  [
+                        "am",
+                        "will be",
+                        "be",
+                        "being"
+                    ],
+        "answer":  0,
+        "why":  "Повторяющаяся ситуация — Present Simple в обеих частях: If I am late, my boss gets angry."
+    }
+]
 }

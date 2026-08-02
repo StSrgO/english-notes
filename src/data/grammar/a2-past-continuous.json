@@ -126,5 +126,72 @@
     "«Was/were always + -ing» для раздражения по поводу повторявшегося: He was always losing his keys! (вечно он терял ключи!). Эмоциональная конструкция, не путать с обычным Past Simple."
   ],
   "related": ["a1-past-simple", "a1-present-continuous", "a1-verb-to-be"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ all day yesterday.",
+        "options":  [
+                        "was study",
+                        "was studying",
+                        "studying",
+                        "studied"
+                    ],
+        "answer":  1,
+        "why":  "Процесс в прошлом — was/were + V-ing: I was studying. was study (без -ing) — ошибка."
+    },
+    {
+        "q":  "She ___ when I called.",
+        "options":  [
+                        "was cooking",
+                        "cooking",
+                        "was cook",
+                        "cooked"
+                    ],
+        "answer":  0,
+        "why":  "Фон-действие, прерванное звонком — Past Continuous: She was cooking."
+    },
+    {
+        "q":  "They ___ TV at 8 pm.",
+        "options":  [
+                        "were watching",
+                        "was watching",
+                        "watching",
+                        "watched"
+                    ],
+        "answer":  0,
+        "why":  "С they форма be в прошлом — were: They were watching."
+    },
+    {
+        "q":  "I ___ him for years.",
+        "options":  [
+                        "was knowing",
+                        "knew",
+                        "was know",
+                        "knowing"
+                    ],
+        "answer":  1,
+        "why":  "know — глагол состояния, в Continuous не используется: I knew him, не I was knowing."
+    },
+    {
+        "q":  "While he ___, the phone rang.",
+        "options":  [
+                        "was sleeping",
+                        "slept",
+                        "sleeping",
+                        "sleep"
+                    ],
+        "answer":  0,
+        "why":  "while + длительный процесс в прошлом — Past Continuous: While he was sleeping."
+    },
+    {
+        "q":  "___ you working at noon?",
+        "options":  [
+                        "Were",
+                        "Was",
+                        "Did",
+                        "Are"
+                    ],
+        "answer":  0,
+        "why":  "Вопрос в Past Continuous с you — Were you working? Was для I/he/she/it."
+    }
+]
 }

@@ -136,5 +136,72 @@
     "Модальные could / might / should подставляются в результат вместо would по смыслу: If I'd studied music, I could be performing now (возможность), If she weren't so cautious, she might have taken the risk (вероятность). Форма времени (be vs have + V3) при этом работает так же — меняется только оттенок модальности."
   ],
   "related": ["c1-inversion-in-conditionals", "c1-subjunctive-wish-regret", "c2-modals-past-deduction"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "If I\u0027d taken that job, I ___ abroad now.",
+        "options":  [
+                        "would have lived",
+                        "live",
+                        "would be living",
+                        "had lived"
+                    ],
+        "answer":  2,
+        "why":  "Прошлое условие (had taken) + настоящий результат (now) → would + инфинитив/continuous: I\u0027d be living now. would have lived перенесло бы результат в прошлое, исказив смысл."
+    },
+    {
+        "q":  "If she weren\u0027t so proud, she ___ for help years ago.",
+        "options":  [
+                        "wouldn\u0027t be asking",
+                        "would have asked",
+                        "would ask",
+                        "hadn\u0027t asked"
+                    ],
+        "answer":  1,
+        "why":  "Постоянная черта (weren\u0027t, Past Simple) + прошлый результат (years ago) → would have + причастие: she\u0027d have asked. Форма результата определяется маркером years ago."
+    },
+    {
+        "q":  "If you hadn\u0027t stayed up so late, you ___ so exhausted now.",
+        "options":  [
+                        "wouldn\u0027t have been",
+                        "aren\u0027t",
+                        "wouldn\u0027t be",
+                        "won\u0027t be"
+                    ],
+        "answer":  2,
+        "why":  "Прошлое условие (hadn\u0027t stayed up) + настоящий результат (now) → wouldn\u0027t be. wouldn\u0027t have been было бы верно без now (прошлый результат)."
+    },
+    {
+        "q":  "If he were more careful by nature, he ___ the car last month.",
+        "options":  [
+                        "wouldn\u0027t crash",
+                        "wouldn\u0027t have crashed",
+                        "hadn\u0027t crashed",
+                        "wasn\u0027t crashing"
+                    ],
+        "answer":  1,
+        "why":  "Постоянная черта (were, by nature) + прошлый результат (last month) → wouldn\u0027t have crashed. Маркер last month тянет результат в Past Perfect-форму результата."
+    },
+    {
+        "q":  "If I\u0027d studied English back then, I ___ fluent now.",
+        "options":  [
+                        "would have been",
+                        "am",
+                        "would be",
+                        "had been"
+                    ],
+        "answer":  2,
+        "why":  "Прошлое условие + настоящее следствие (now) → would be. Это и есть смешанное условие; чистый третий тип (would have been) сюда не подходит из-за now."
+    },
+    {
+        "q":  "Найдите верное предложение.",
+        "options":  [
+                        "If I would have known, I\u0027d help now.",
+                        "If I\u0027d known, I\u0027d be helping now.",
+                        "If I knew, I\u0027d have helped now.",
+                        "If I have known, I\u0027d help now."
+                    ],
+        "answer":  1,
+        "why":  "would не ставится в if-части; прошлое условие → Past Perfect (If I\u0027d known), настоящий результат → would + continuous (I\u0027d be helping now)."
+    }
+]
 }

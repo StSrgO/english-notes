@@ -127,5 +127,72 @@
     "Первое упоминание — a, повтор — the. Это базовый ритм текста: ввёл предмет с a, дальше говори о нём с the. Нарушение этого ритма — главный сигнал «не носитель»."
   ],
   "related": ["a1-articles-a-an", "a1-there-is-there-are", "a1-plural-nouns", "a2-comparatives-superlatives"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I play ___ football every weekend.",
+        "options":  [
+                        "— (ничего)",
+                        "the",
+                        "a",
+                        "an"
+                    ],
+        "answer":  0,
+        "why":  "Со спортом и играми артикль не ставится: I play football. the здесь был бы ошибкой (калька «играю в футбол»)."
+    },
+    {
+        "q":  "She is ___ engineer.",
+        "options":  [
+                        "a",
+                        "the",
+                        "— (ничего)",
+                        "an"
+                    ],
+        "answer":  3,
+        "why":  "engineer начинается с гласного звука /e/ → an. Профессия в единственном числе всегда с a/an."
+    },
+    {
+        "q":  "I saw a cat. ___ cat was black.",
+        "options":  [
+                        "A",
+                        "The",
+                        "An",
+                        "— (ничего)"
+                    ],
+        "answer":  1,
+        "why":  "При повторном упоминании предмет уже известен → the: The cat was black."
+    },
+    {
+        "q":  "I like ___ cats.",
+        "options":  [
+                        "the",
+                        "a",
+                        "— (ничего)",
+                        "an"
+                    ],
+        "answer":  2,
+        "why":  "Множественное число в общем смысле — нулевой артикль: I like cats. the означало бы конкретных кошек."
+    },
+    {
+        "q":  "___ sun is very bright today.",
+        "options":  [
+                        "The",
+                        "A",
+                        "An",
+                        "— (ничего)"
+                    ],
+        "answer":  0,
+        "why":  "Единственный в своём роде объект → the: The sun, The moon, The sky."
+    },
+    {
+        "q":  "She loves ___ music.",
+        "options":  [
+                        "the",
+                        "— (ничего)",
+                        "a",
+                        "an"
+                    ],
+        "answer":  1,
+        "why":  "Неисчисляемое в общем смысле — нулевой артикль: She loves music. the было бы про конкретную музыку."
+    }
+]
 }

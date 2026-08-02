@@ -133,5 +133,72 @@
     "Русская калька «у меня украли» — убийца. Запомни: объект вперёд — My bike was stolen, My wallet was taken. НЕ I was stolen my wallet. Это та ошибка, которая мгновенно выдаёт русскоговорящего."
   ],
   "related": ["a1-past-simple", "a1-present-simple", "b1-present-perfect", "b1-reported-speech"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "The house ___ in 1990.",
+        "options":  [
+                        "was built",
+                        "built",
+                        "was build",
+                        "is built"
+                    ],
+        "answer":  0,
+        "why":  "Пассив в прошлом — was/were + V3: The house was built. built без was и was build (не V3) — ошибки."
+    },
+    {
+        "q":  "English ___ all over the world.",
+        "options":  [
+                        "speaks",
+                        "is spoken",
+                        "is speak",
+                        "spoken"
+                    ],
+        "answer":  1,
+        "why":  "Пассив в настоящем — is/are + V3: English is spoken. speaks — актив (язык не «говорит»)."
+    },
+    {
+        "q":  "The book ___ by a famous author.",
+        "options":  [
+                        "was written",
+                        "was wrote",
+                        "wrote",
+                        "written"
+                    ],
+        "answer":  0,
+        "why":  "V3 от write — written, не wrote: The book was written. was wrote — ошибка формы."
+    },
+    {
+        "q":  "My bike ___ yesterday.",
+        "options":  [
+                        "was stolen",
+                        "stole",
+                        "was steal",
+                        "stolen"
+                    ],
+        "answer":  0,
+        "why":  "Пассив: My bike was stolen (меня не «украли», украли велосипед). I was stolen my bike — калька, ошибка."
+    },
+    {
+        "q":  "These cars ___ in Germany.",
+        "options":  [
+                        "make",
+                        "are made",
+                        "are make",
+                        "made"
+                    ],
+        "answer":  1,
+        "why":  "Пассив во множественном числе в настоящем — are + V3: These cars are made."
+    },
+    {
+        "q":  "The window ___ by the kids.",
+        "options":  [
+                        "was broken",
+                        "broke",
+                        "was broke",
+                        "broken"
+                    ],
+        "answer":  0,
+        "why":  "Пассив в прошлом — was + V3 (broken): The window was broken. was broke — ошибка формы."
+    }
+]
 }

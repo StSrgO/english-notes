@@ -137,5 +137,72 @@
     "Не путай с эмфазой без инверсии из C1. Там do усиливал утверждение без переворота (I DO like it); здесь so/such именно запускают переворот порядка. Два разных приёма усиления: один оставляет порядок прямым, другой ломает его ради степени. Держи их в голове раздельно, чтобы не получить гибрид вроде *So I do was tired*."
   ],
   "related": ["c1-inversion-after-negative-adverbials", "c1-inversion-in-conditionals", "c1-emphasis-do-and-fronting"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "Перестройте с инверсией степени: He was so tired that he collapsed.",
+        "options":  [
+                        "So tired he was that he collapsed.",
+                        "So tired was he that he collapsed.",
+                        "So tired did he be that he collapsed.",
+                        "So tired was him that he collapsed."
+                    ],
+        "answer":  1,
+        "why":  "so + прилагательное в начале инвертирует be и подлежащее: So tired was he. Прямой порядок (he was) после выноса so — ошибка; was him ломает падеж подлежащего."
+    },
+    {
+        "q":  "Перестройте: She ran so quickly that no one caught her.",
+        "options":  [
+                        "So quickly she ran that no one caught her.",
+                        "So quickly ran she that no one caught her.",
+                        "So quickly did she run that no one caught her.",
+                        "So quickly did she ran that no one caught her."
+                    ],
+        "answer":  2,
+        "why":  "so + наречие в начале требует вспомогательный do: So quickly did she run. Основной глагол после did — в базовой форме (run, не ran)."
+    },
+    {
+        "q":  "Перестройте: The noise was such that we left.",
+        "options":  [
+                        "Such the noise was that we left.",
+                        "Such noise was that we left.",
+                        "Such was noise that we left.",
+                        "Such was the noise that we left."
+                    ],
+        "answer":  3,
+        "why":  "В инверсии such идёт как such + be + подлежащее: Such was the noise. Подлежащее стоит после be, а не между such и be."
+    },
+    {
+        "q":  "Выберите верную редкую форму: It was so great a tragedy that the town mourned.",
+        "options":  [
+                        "So great tragedy was it that the town mourned.",
+                        "Such great a tragedy was it that the town mourned.",
+                        "So a great tragedy was it that the town mourned.",
+                        "So great a tragedy was it that the town mourned."
+                    ],
+        "answer":  3,
+        "why":  "Подветка so + прилагательное + a/an + существительное: So great a tragedy was it. Артикль зажат между прилагательным и существительным — это и есть маркер формы."
+    },
+    {
+        "q":  "Отметьте предложение БЕЗ ошибки.",
+        "options":  [
+                        "So the noise was loud that we left.",
+                        "Such loud was the noise that we left.",
+                        "So loud the noise was that we left.",
+                        "So loud was the noise that we left."
+                    ],
+        "answer":  3,
+        "why":  "so не ставится перед существительным напрямую и не разбивает порядок; выносить надо прилагательное: So loud was the noise (инверсия) либо The noise was so loud (прямой порядок)."
+    },
+    {
+        "q":  "Найдите верное предложение.",
+        "options":  [
+                        "So tired was he that did he fall asleep.",
+                        "So tired was he that he fell asleep.",
+                        "So tired was he that had he fallen asleep.",
+                        "So tired he was that he fell asleep."
+                    ],
+        "answer":  1,
+        "why":  "that-часть результата всегда прямая: that he fell asleep. Инверсия туда не заходит — она реакция на вынос степени, а степень стоит только в первой половине."
+    }
+]
 }

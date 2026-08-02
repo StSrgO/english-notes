@@ -135,5 +135,72 @@
     "Сокращения в речи: must've (/ˈmʌstəv/), should've (/ˈʃʊdəv/), can't've (/ˈkɑːntəv/), might've (/ˈmaɪtəv/). На слух они сливаются почти в одно слово — опознавай по модальному и по V3 в хвосте, а не по полному have."
   ],
   "related": ["b1-modals-should-might-may", "a2-modals-can-must-have-to", "b2-third-conditional", "b1-present-perfect"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "He ___ the train — he\u0027s never this late.",
+        "options":  [
+                        "must miss",
+                        "must have missed",
+                        "must have miss",
+                        "must had missed"
+                    ],
+        "answer":  1,
+        "why":  "Уверенная догадка о прошлом — must have + причастие: must have missed. must have miss (без -ed) и must had missed ломают форму."
+    },
+    {
+        "q":  "She ___ done it — it\u0027s completely out of character.",
+        "options":  [
+                        "mustn\u0027t have",
+                        "shouldn\u0027t have",
+                        "couldn\u0027t said",
+                        "can\u0027t have"
+                    ],
+        "answer":  3,
+        "why":  "Уверенное отрицательное умозаключение — can\u0027t have + причастие. mustn\u0027t have для догадки не используется (это запрет), couldn\u0027t said — битая форма."
+    },
+    {
+        "q":  "You ___ me about the change earlier!",
+        "options":  [
+                        "should have told",
+                        "should told",
+                        "must have tell",
+                        "should have telling"
+                    ],
+        "answer":  0,
+        "why":  "Упрёк о несделанном — should have + причастие: should have told. should told и should have telling ломают форму."
+    },
+    {
+        "q":  "He ___ at home — all the lights are off.",
+        "options":  [
+                        "can\u0027t have been",
+                        "might have been",
+                        "must have been",
+                        "must be"
+                    ],
+        "answer":  2,
+        "why":  "Уверенное положительное заключение из свидетельства — must have been. must be относится к настоящему, не к прошлому."
+    },
+    {
+        "q":  "They ___ the message — nobody replied.",
+        "options":  [
+                        "must have missed",
+                        "might have missed",
+                        "can\u0027t have missed",
+                        "should missed"
+                    ],
+        "answer":  1,
+        "why":  "Неуверенная догадка («возможно») — might have + причастие. must have было бы слишком уверенно, should missed — битая форма."
+    },
+    {
+        "q":  "You ___ so much food — we had plenty left over.",
+        "options":  [
+                        "didn\u0027t need to buy",
+                        "mustn\u0027t have bought",
+                        "shouldn\u0027t buy",
+                        "needn\u0027t have bought"
+                    ],
+        "answer":  3,
+        "why":  "Действие состоялось, но было лишним («зря») — needn\u0027t have + причастие. didn\u0027t need to подразумевает, что, скорее всего, не купил бы."
+    }
+]
 }

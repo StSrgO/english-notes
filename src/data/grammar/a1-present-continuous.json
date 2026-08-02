@@ -124,5 +124,72 @@
     "am/is/are редуцируются в беглой речи. I'm working = /aɪm ˈwɜːkɪŋ/, She's coming = /ʃiːz ˈkʌmɪŋ/. Сокращение — норма; полное She is coming звучит только для эмфазы."
   ],
   "related": ["a1-present-simple", "a1-verb-to-be", "a1-past-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "She ___ a book right now.",
+        "options":  [
+                        "reads",
+                        "is reading",
+                        "reading",
+                        "read"
+                    ],
+        "answer":  1,
+        "why":  "Маркер right now указывает на Present Continuous: is + V-ing — is reading."
+    },
+    {
+        "q":  "I ___ a coffee, please.",
+        "options":  [
+                        "am wanting",
+                        "want",
+                        "wanting",
+                        "wants"
+                    ],
+        "answer":  1,
+        "why":  "want — глагол состояния, в Continuous не используется: I want, не I am wanting."
+    },
+    {
+        "q":  "They ___ football at the moment.",
+        "options":  [
+                        "play",
+                        "are playing",
+                        "playing",
+                        "plays"
+                    ],
+        "answer":  1,
+        "why":  "at the moment → Present Continuous: are + V-ing — are playing."
+    },
+    {
+        "q":  "___ she studying now?",
+        "options":  [
+                        "Does",
+                        "Is",
+                        "Are",
+                        "Do"
+                    ],
+        "answer":  1,
+        "why":  "Вопрос в Continuous строится через Is/Are + подлежащее + V-ing: Is she studying."
+    },
+    {
+        "q":  "He ___ TV now.",
+        "options":  [
+                        "doesn\u0027t watch",
+                        "isn\u0027t watching",
+                        "not watching",
+                        "don\u0027t watch"
+                    ],
+        "answer":  1,
+        "why":  "Отрицание в Continuous — isn\u0027t/aren\u0027t + V-ing: He isn\u0027t watching."
+    },
+    {
+        "q":  "Look! It ___.",
+        "options":  [
+                        "rains",
+                        "is raining",
+                        "rain",
+                        "raining"
+                    ],
+        "answer":  1,
+        "why":  "Look! сигнализирует действие прямо сейчас → Present Continuous: It is raining."
+    }
+]
 }

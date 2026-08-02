@@ -126,5 +126,72 @@
     "Сокращение 'd на слух сливается с would (I'd finished / I'd finish звучат похоже в потоке). Опознавай Past Perfect по V3 в хвосте и по маркерам (already, before, by the time), а не по вспомогательному."
   ],
   "related": ["a1-past-simple", "b1-present-perfect", "b2-past-perfect-continuous", "b2-second-conditional"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "When I arrived, the train ___ .",
+        "options":  [
+                        "already left",
+                        "left",
+                        "had already left",
+                        "has left"
+                    ],
+        "answer":  2,
+        "why":  "Действие раньше другого в прошлом — Past Perfect: the train had already left. Простое left не показывает, что оно было до приезда."
+    },
+    {
+        "q":  "I ___ home before she called.",
+        "options":  [
+                        "had gone",
+                        "went",
+                        "have gone",
+                        "had went"
+                    ],
+        "answer":  0,
+        "why":  "had + V3 для всех лиц: had gone. V3 от go — gone, не went; had went — ошибка формы."
+    },
+    {
+        "q":  "She ___ her work by 5 pm.",
+        "options":  [
+                        "finish",
+                        "finished",
+                        "has finished",
+                        "had finished"
+                    ],
+        "answer":  3,
+        "why":  "К моменту в прошлом (by 5 pm) — Past Perfect: had finished. has finished — Present Perfect, не подходит к прошлому моменту."
+    },
+    {
+        "q":  "He realised he ___ his keys.",
+        "options":  [
+                        "loses",
+                        "had lost",
+                        "has lost",
+                        "lost"
+                    ],
+        "answer":  1,
+        "why":  "Потеря случилась до того, как он осознал → Past Perfect: he had lost his keys."
+    },
+    {
+        "q":  "After they ___ dinner, they went out.",
+        "options":  [
+                        "have eaten",
+                        "had eat",
+                        "had eaten",
+                        "have"
+                    ],
+        "answer":  2,
+        "why":  "Действие раньше went out — Past Perfect: had eaten. have eaten не согласуется с прошлым went out; had eat — битая форма."
+    },
+    {
+        "q":  "By the time we got there, the film ___ .",
+        "options":  [
+                        "had started",
+                        "started",
+                        "has started",
+                        "starts"
+                    ],
+        "answer":  0,
+        "why":  "К прошлому моменту (by the time we got there) — Past Perfect: the film had started."
+    }
+]
 }

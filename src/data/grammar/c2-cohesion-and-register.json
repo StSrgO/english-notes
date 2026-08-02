@@ -145,5 +145,72 @@
     "Тренируй переписыванием в обе стороны. Возьми разговорный абзац (из блога, письма) и перепиши его формально: номинализация + латинизмы + хеджирование + связки. Потом возьми канцелярский абзац и упрости до ясного. Это упражнение быстрее всего ставляет чувство регистра — а именно оно, а не знание отдельных слов, и есть C2."
   ],
   "related": ["c2-participle-clauses", "c2-mandative-subjunctive", "c1-emphasis-do-and-fronting"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "___ the cost, the upgrade is worthwhile.",
+        "options":  [
+                        "Notwithstanding it is costly",
+                        "Notwithstanding that costly",
+                        "Notwithstanding cost is high",
+                        "Notwithstanding the cost"
+                    ],
+        "answer":  3,
+        "why":  "notwithstanding требует существительное / герундий / the fact that, а не придаточное напрямую: Notwithstanding the cost. «Notwithstanding it is costly» — калька русского «несмотря на то что»."
+    },
+    {
+        "q":  "The plan, ___, was approved.",
+        "options":  [
+                        "albeit it was risky",
+                        "albeit risk",
+                        "although it risky",
+                        "albeit risky"
+                    ],
+        "answer":  3,
+        "why":  "albeit идёт с прилагательным / наречием / короткой фразой, а не с полным предложением: albeit risky. «albeit it was risky» ставит после albeit предложение — ошибка."
+    },
+    {
+        "q":  "The firm automated its billing, ___ processing time in half.",
+        "options":  [
+                        "thereby it cut",
+                        "thereby cut",
+                        "thereby to cut",
+                        "thereby cutting"
+                    ],
+        "answer":  3,
+        "why":  "thereby присоединяет герундий: thereby cutting. «thereby it cut» ставит после thereby предложение с подлежащим — неверно; to cut тоже не та конструкция."
+    },
+    {
+        "q":  "Перепишите формально через номинализацию: People are increasingly worried about rising prices.",
+        "options":  [
+                        "People are worrying a lot about prices.",
+                        "Lots of people worry about prices.",
+                        "People do worry about prices.",
+                        "There is growing concern about rising prices."
+                    ],
+        "answer":  3,
+        "why":  "Номинализация переводит глагол в понятие: worry → concern (There is growing concern). Текст становится плотнее и безличнее — это маркер формального стиля."
+    },
+    {
+        "q":  "Смягчите категоричное утверждение: It is obvious that social media harms attention.",
+        "options":  [
+                        "It is certain that social media harms attention.",
+                        "Clearly, social media harms attention.",
+                        "Undoubtedly, social media harms attention.",
+                        "It could be argued that social media may harm attention."
+                    ],
+        "answer":  3,
+        "why":  "Зрелый автор хеджирует: it could be argued that / may / tends to suggest. Категоричные obvious / certain / clearly / undoubtedly в академическом письме звучат наивно и самоуверенно."
+    },
+    {
+        "q":  "Выберите вариант в ровном ФОРМАЛЬНОМ регистре.",
+        "options":  [
+                        "The team looked into the issue and ascertained the cause.",
+                        "The team investigated the issue and ascertained the cause.",
+                        "The team looked into the issue and found out the cause.",
+                        "The team investigated the issue and found out the cause."
+                    ],
+        "answer":  1,
+        "why":  "Ровный формальный регистр держит латинизмы: investigated + ascertained. Смешение фразового глагола (looked into) с латинизмом (ascertained) в одном предложении — стилистический провал."
+    }
+]
 }

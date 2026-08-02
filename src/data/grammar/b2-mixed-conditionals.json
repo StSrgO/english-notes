@@ -127,5 +127,72 @@
     "would в главной сокращается в 'd: I'd be a doctor now, I'd have gone. На слух Mixed опознавай по маркеру времени и по форме главной части (would be vs would have been), а не по полному would."
   ],
   "related": ["b2-second-conditional", "b2-third-conditional", "b2-past-perfect", "b1-first-conditional"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "If I ___ medicine, I\u0027d be a doctor now.",
+        "options":  [
+                        "studied",
+                        "study",
+                        "had studied",
+                        "would study"
+                    ],
+        "answer":  2,
+        "why":  "Прошлое условие + настоящий результат (now) → if + Past Perfect: If I had studied. Простое studied здесь дало бы нереальное настоящее, а не прошлое."
+    },
+    {
+        "q":  "If she weren\u0027t so proud, she ___ for help years ago.",
+        "options":  [
+                        "would have asked",
+                        "wouldn\u0027t be asking",
+                        "would ask",
+                        "hadn\u0027t asked"
+                    ],
+        "answer":  0,
+        "why":  "Постоянная черта (weren\u0027t) + прошлый результат (years ago) → would have + причастие: she\u0027d have asked."
+    },
+    {
+        "q":  "If I had known French, I ___ the job last year.",
+        "options":  [
+                        "would get",
+                        "get",
+                        "got",
+                        "would have got"
+                    ],
+        "answer":  3,
+        "why":  "Прошлое условие + прошлый результат (last year) → would have + причастие: I\u0027d have got. would get перенесло бы результат в настоящее."
+    },
+    {
+        "q":  "If I ___ tired now, I would have gone to the party yesterday.",
+        "options":  [
+                        "hadn\u0027t been",
+                        "weren\u0027t",
+                        "am not",
+                        "wasn\u0027t being"
+                    ],
+        "answer":  1,
+        "why":  "Текущее состояние (now) + прошлый результат → if + Past Simple: If I weren\u0027t tired. had been было бы про прошлое условие."
+    },
+    {
+        "q":  "If he had taken the job, he ___ abroad now.",
+        "options":  [
+                        "would be living",
+                        "would have lived",
+                        "lives",
+                        "lived"
+                    ],
+        "answer":  0,
+        "why":  "Прошлое условие + настоящее следствие (now) → would + continuous: he\u0027d be living. would have lived исказило бы время результата."
+    },
+    {
+        "q":  "Отметьте верное предложение.",
+        "options":  [
+                        "If I would have known, I\u0027d help now.",
+                        "If I knew, I\u0027d have helped now.",
+                        "If I\u0027d known, I\u0027d be helping now.",
+                        "If I have known, I\u0027d help now."
+                    ],
+        "answer":  2,
+        "why":  "would не ставится в if-части; прошлое условие → Past Perfect (If I\u0027d known), настоящий результат → would + continuous (I\u0027d be helping now)."
+    }
+]
 }

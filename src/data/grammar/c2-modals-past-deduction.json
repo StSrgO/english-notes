@@ -145,5 +145,72 @@
     "Тренируй на двух ситуациях: «что произошло?» (дедукция по уликам — The window's broken, the dog looks guilty → The dog must have broken it) и «что надо было сделать?» (критика — You should have locked the door; You needn't have left it open). Эти два сценария покрывают девяносто процентов употреблений и быстро переводят форму в автоматизм."
   ],
   "related": ["c2-mixed-conditionals", "c1-subjunctive-wish-regret", "c2-mandative-subjunctive"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "He\u0027s never this late. He ___ the train.",
+        "options":  [
+                        "can\u0027t have missed",
+                        "might have missed",
+                        "must missed",
+                        "must have missed"
+                    ],
+        "answer":  3,
+        "why":  "Уверенное положительное заключение из свидетельства — must have + причастие: he must have missed. Форма must missed (без have) неверна; can\u0027t/might передают другую степень уверенности."
+    },
+    {
+        "q":  "It\u0027s completely out of character. She ___ that.",
+        "options":  [
+                        "mustn\u0027t have said",
+                        "shouldn\u0027t have said",
+                        "couldn\u0027t said",
+                        "can\u0027t have said"
+                    ],
+        "answer":  3,
+        "why":  "Уверенное отрицательное умозаключение — can\u0027t/couldn\u0027t have + причастие, а НЕ mustn\u0027t have. mustn\u0027t означает запрет в настоящем, а не догадку о прошлом."
+    },
+    {
+        "q":  "He\u0027s late, but I\u0027m not sure why. He ___ the meeting.",
+        "options":  [
+                        "must have forgotten",
+                        "can\u0027t have forgotten",
+                        "might have forgotten",
+                        "may forgot"
+                    ],
+        "answer":  2,
+        "why":  "Неуверенная догадка («возможно») — may/might/could have. must have было бы слишком уверенно для «I\u0027m not sure», а may forgot ломает форму (нужно have + причастие)."
+    },
+    {
+        "q":  "You ___ such a big dinner — we\u0027d already eaten. (ты готовил, но зря)",
+        "options":  [
+                        "didn\u0027t need to cook",
+                        "needn\u0027t cook",
+                        "mustn\u0027t have cooked",
+                        "needn\u0027t have cooked"
+                    ],
+        "answer":  3,
+        "why":  "Действие состоялось, но было лишним («зря») — needn\u0027t have + причастие. didn\u0027t need to подразумевает, что, скорее всего, не стал готовить; mustn\u0027t have для дедукции не используется."
+    },
+    {
+        "q":  "You ___ me the truth from the start! (упрёк: надо было, но не сказал)",
+        "options":  [
+                        "should tell",
+                        "should have telling",
+                        "must have told",
+                        "should have told"
+                    ],
+        "answer":  3,
+        "why":  "Упрёк о несделанном в прошлом — should have + причастие. Без have should относится к настоящему; should have telling ломает форму."
+    },
+    {
+        "q":  "Найдите верное предложение.",
+        "options":  [
+                        "She can\u0027t has done it alone.",
+                        "She can\u0027t have done it alone.",
+                        "She can\u0027t had done it alone.",
+                        "She can\u0027t having done it alone."
+                    ],
+        "answer":  1,
+        "why":  "После модального всегда have + причастие для всех лиц: can\u0027t have done, никогда has/had. Форма has выдаёт невнимание, а не незнание."
+    }
+]
 }

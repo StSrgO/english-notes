@@ -136,5 +136,72 @@
     "Little инвертируется только в значении «почти не / мало кто знал-думал-подозревал»: Little did she care, Little did I know. В значении «мало денег/времени» инверсии нет: He has little time — прямой порядок. Не путай наречное little с количественным."
   ],
   "related": ["c1-inversion-in-conditionals", "c2-inversion-so-such", "c1-emphasis-do-and-fronting"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "Выберите грамматически верное предложение.",
+        "options":  [
+                        "Never I have seen such a mess in this office.",
+                        "Never have I seen such a mess in this office.",
+                        "I never have seen such a mess in this office.",
+                        "Never seen I have such a mess in this office."
+                    ],
+        "answer":  1,
+        "why":  "При never в самом начале обязательна инверсия: вспомогательный have встаёт перед подлежащим I. Вариант «I never have» нарушает порядок (верно было бы I have never, с отрицанием в середине и без инверсии)."
+    },
+    {
+        "q":  "Rarely ___ about the workload, even under pressure.",
+        "options":  [
+                        "she complains",
+                        "does she complain",
+                        "she does complain",
+                        "complains she"
+                    ],
+        "answer":  1,
+        "why":  "rarely в начале запускает инверсию. В Present Simple вспомогательного в прямом порядке нет, поэтому он всплывает как does, а основной глагол теряет окончание -s: does she complain (не complains)."
+    },
+    {
+        "q":  "Hardly had we sat down ___ the lights went out.",
+        "options":  [
+                        "than",
+                        "when",
+                        "as",
+                        "after"
+                    ],
+        "answer":  1,
+        "why":  "С hardly и scarcely во второй части идёт when, а не than. Инверсия (had we) живёт в первой половине; вторая остаётся прямой и начинается с when."
+    },
+    {
+        "q":  "No sooner had she left the house ___ it started to rain.",
+        "options":  [
+                        "when",
+                        "as",
+                        "than",
+                        "after"
+                    ],
+        "answer":  2,
+        "why":  "Устойчивая пара: no sooner ... than. Запомни зеркально к предыдущему правилу — hardly/scarcely берут when, no sooner берёт than. Перепутать их — классическая ошибка C1."
+    },
+    {
+        "q":  "Отметьте предложение БЕЗ ошибки.",
+        "options":  [
+                        "Not only he came late, but he also forgot the documents.",
+                        "Not only did he come late, but he also forgot the documents.",
+                        "Not only he did come late, but also he forgot the documents.",
+                        "Not only did he came late, but he also forgot the documents."
+                    ],
+        "answer":  1,
+        "why":  "В первой части not only требует инверсии: did he come (всплывает did, основной глагол в базовой форме come, без -ed). Во второй части порядок прямой: but he also. Ошибка «did he came» ставит прошедшее окончание там, где его уже забрал did."
+    },
+    {
+        "q":  "Какой перевод верен для «Мало кто знал правду.»?",
+        "options":  [
+                        "Little anyone knew the truth.",
+                        "Little did anyone know the truth.",
+                        "Little knew anyone the truth.",
+                        "Did little anyone know the truth."
+                    ],
+        "answer":  1,
+        "why":  "little в значении «почти нет / мало кто» в начале предложения требует инверсию со всплывающим did: Little did anyone know. Без did порядок сломан; форма «Did little...» превращает фразу в вопрос."
+    }
+]
 }

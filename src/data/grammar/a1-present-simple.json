@@ -126,5 +126,72 @@
     "Топ‑10 глаголов покрывают половину бытовой речи: be, have, do, go, get, want, know, think, like, say. Выучи их формы в Present Simple в первую очередь — и ты уже понимаешь большинство простых разговоров."
   ],
   "related": ["a1-present-continuous", "a1-verb-to-be", "a1-past-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "She ___ in a bank.",
+        "options":  [
+                        "work",
+                        "works",
+                        "working",
+                        "is work"
+                    ],
+        "answer":  1,
+        "why":  "С he/she/it к глаголу добавляется -s: She works."
+    },
+    {
+        "q":  "___ she work here?",
+        "options":  [
+                        "Do",
+                        "Does",
+                        "Is",
+                        "Are"
+                    ],
+        "answer":  1,
+        "why":  "Вопрос с he/she/it в Present Simple строится через Does: Does she work."
+    },
+    {
+        "q":  "Does she ___ here?",
+        "options":  [
+                        "works",
+                        "work",
+                        "working",
+                        "worked"
+                    ],
+        "answer":  1,
+        "why":  "После Does основной глагол теряет -s: Does she work, не Does she works."
+    },
+    {
+        "q":  "— Do you like jazz? — Yes, I ___.",
+        "options":  [
+                        "like",
+                        "do",
+                        "am",
+                        "does"
+                    ],
+        "answer":  1,
+        "why":  "Короткий ответ повторяет вспомогательный глагол вопроса: Yes, I do, не Yes, I like."
+    },
+    {
+        "q":  "I ___ to work every day.",
+        "options":  [
+                        "go",
+                        "goes",
+                        "going",
+                        "am go"
+                    ],
+        "answer":  0,
+        "why":  "С I глагол стоит в базовой форме без изменений: I go. Маркер every day указывает на Present Simple."
+    },
+    {
+        "q":  "He ___ coffee.",
+        "options":  [
+                        "don\u0027t like",
+                        "doesn\u0027t like",
+                        "doesn\u0027t likes",
+                        "not like"
+                    ],
+        "answer":  1,
+        "why":  "Отрицание с he/she/it — doesn\u0027t + глагол без -s: He doesn\u0027t like."
+    }
+]
 }

@@ -137,5 +137,72 @@
     "plenty of = «хватит с запасом, полно», работает с обоими типами и звучит оптимистично: plenty of time, plenty of friends. enough = «достаточно» и стоит ПОСЛЕ прилагательного/наречия, но ПЕРЕД существительным: old enough, but enough money. Тонкость порядка, о которой молчат."
   ],
   "related": ["a1-plural-nouns", "a1-articles-a-an", "a1-there-is-there-are", "a2-articles"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I don\u0027t have ___ money.",
+        "options":  [
+                        "some",
+                        "a few",
+                        "any",
+                        "many"
+                    ],
+        "answer":  2,
+        "why":  "В отрицании — any: I don\u0027t have any money. some в отрицании — ошибка (some — для утверждений)."
+    },
+    {
+        "q":  "There isn\u0027t ___ milk left.",
+        "options":  [
+                        "some",
+                        "any",
+                        "many",
+                        "a few"
+                    ],
+        "answer":  1,
+        "why":  "Отрицание + неисчисляемое — any: There isn\u0027t any milk. many/a few — для исчисляемых."
+    },
+    {
+        "q":  "How ___ friends do you have?",
+        "options":  [
+                        "much",
+                        "many",
+                        "a little",
+                        "some"
+                    ],
+        "answer":  1,
+        "why":  "friends — исчисляемое → How many. much — для неисчисляемых."
+    },
+    {
+        "q":  "She has ___ patience.",
+        "options":  [
+                        "many",
+                        "a few",
+                        "some",
+                        "a lot"
+                    ],
+        "answer":  2,
+        "why":  "patience — неисчисляемое в утверждении → some. many/a few сюда не подходят."
+    },
+    {
+        "q":  "There are ___ people here.",
+        "options":  [
+                        "much",
+                        "a little",
+                        "any",
+                        "many"
+                    ],
+        "answer":  3,
+        "why":  "people — исчисляемое множественное → many. much/a little — для неисчисляемых."
+    },
+    {
+        "q":  "Can I have ___ water, please?",
+        "options":  [
+                        "any",
+                        "some",
+                        "many",
+                        "a few"
+                    ],
+        "answer":  1,
+        "why":  "В просьбах и предложениях, где ждём «да», — some: Can I have some water? any было бы в обычном вопросе."
+    }
+]
 }

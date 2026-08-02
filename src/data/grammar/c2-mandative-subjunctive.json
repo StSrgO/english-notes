@@ -144,5 +144,72 @@
     "Не путай с should в значении «следовало бы» из темы про модальные. It is vital that he should attend (should как часть mandative‑альтернативы, BrE) — это не то же самое, что He should attend (ему следует, совет). В первом should — регистровая замена subjunctive после триггера, во втором — обычный модальный совет. Контекст триггера решает."
   ],
   "related": ["c1-subjunctive-wish-regret", "c2-cohesion-and-register", "c2-modals-past-deduction"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "It is essential that every witness ___ interviewed separately.",
+        "options":  [
+                        "is",
+                        "be",
+                        "will be",
+                        "would be"
+                    ],
+        "answer":  1,
+        "why":  "После триггера необходимости в строгом регистре — голый инфинитив для всех лиц: that every witness be. Индикатив is допустим лишь разговорно; в формальном тексте — be."
+    },
+    {
+        "q":  "I insist that she ___ immediately.",
+        "options":  [
+                        "resigns",
+                        "resigned",
+                        "resign",
+                        "will resign"
+                    ],
+        "answer":  2,
+        "why":  "Третье лицо единственного числа в mandative subjunctive идёт без -s: that she resign. Окончание -s (resigns) было бы индикативом, а не сослагательным требования."
+    },
+    {
+        "q":  "It is important that he ___ disturbed.",
+        "options":  [
+                        "isn\u0027t",
+                        "doesn\u0027t be",
+                        "be not",
+                        "not be"
+                    ],
+        "answer":  3,
+        "why":  "Отрицание в subjunctive — not перед голым инфинитивом: that he not be disturbed. isn\u0027t/doesn\u0027t be тащат индикатив и вспомогательные туда, где их быть не должно."
+    },
+    {
+        "q":  "He suggested that she ___ lying (he believed it as a fact).",
+        "options":  [
+                        "be",
+                        "was",
+                        "is",
+                        "be being"
+                    ],
+        "answer":  1,
+        "why":  "suggest в значении констатации/предположения факта зовёт индикатив, а не subjunctive: he suggested that she was lying. Subjunctive be включается только в значении рекомендации/воли."
+    },
+    {
+        "q":  "The rules require that every applicant ___ a form.",
+        "options":  [
+                        "submits",
+                        "submitted",
+                        "submit",
+                        "will submit"
+                    ],
+        "answer":  2,
+        "why":  "Base form для всех лиц: that every applicant submit, без -s. submits было бы индикативом третьего лица, а не формальным subjunctive."
+    },
+    {
+        "q":  "Выберите верную застывшую форму.",
+        "options":  [
+                        "God saves the King.",
+                        "God saved the King.",
+                        "God will save the King.",
+                        "God save the King."
+                    ],
+        "answer":  3,
+        "why":  "Застывшие формулы хранят старое сослагательное без -s у третьего лица: God save the King, Heaven forbid, long live the King. saves сюда не ставится."
+    }
+]
 }

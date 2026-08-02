@@ -133,5 +133,72 @@
     "Предлоги в формальном стиле уезжают перед whom/which: the man to whom I spoke, the project on which I worked. В разговорной речи предлог остаётся в конце: the man who I spoke to. Оба верны — выбирай по регистру."
   ],
   "related": ["a1-questions", "a1-present-simple", "b1-reported-speech", "b1-gerund-vs-infinitive"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "My brother, ___ lives in Paris, is a doctor.",
+        "options":  [
+                        "that",
+                        "which",
+                        "who",
+                        "whom"
+                    ],
+        "answer":  2,
+        "why":  "Non-defining (с запятыми) про человека — who, не that. that в придаточных с запятыми не используется."
+    },
+    {
+        "q":  "The man ___ called you is here.",
+        "options":  [
+                        "who",
+                        "which",
+                        "what",
+                        "whom"
+                    ],
+        "answer":  0,
+        "why":  "Defining про человека-подлежащее — who: The man who called you. which — для вещей, what сюда не ставится."
+    },
+    {
+        "q":  "The students ___ passed the exam got a prize.",
+        "options":  [
+                        ", who passed",
+                        ", that passed",
+                        ", which passed",
+                        "who passed"
+                    ],
+        "answer":  3,
+        "why":  "Defining (без запятых) = только сдавшие. Запятая превратила бы в non-defining и поменяла смысл на «все студенты, которые кстати сдали»."
+    },
+    {
+        "q":  "The book ___ I bought is great.",
+        "options":  [
+                        "who",
+                        "which",
+                        "whom",
+                        "whose"
+                    ],
+        "answer":  1,
+        "why":  "Defining про вещь-объект — which (или that): The book which I bought. who/whom — для людей."
+    },
+    {
+        "q":  "That\u0027s the woman ___ son is famous.",
+        "options":  [
+                        "who",
+                        "which",
+                        "whose",
+                        "whom"
+                    ],
+        "answer":  2,
+        "why":  "Принадлежность («чей») — whose: the woman whose son. who/which принадлежность не передают."
+    },
+    {
+        "q":  "Paris, ___ I was born, is beautiful.",
+        "options":  [
+                        "where",
+                        "which",
+                        "that",
+                        "when"
+                    ],
+        "answer":  0,
+        "why":  "Non-defining про место — where: Paris, where I was born. which потребовало бы предлога (in which)."
+    }
+]
 }

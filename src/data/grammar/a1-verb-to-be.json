@@ -131,5 +131,72 @@
     "«I'm 20» без «years old». Нейтивы часто говорят просто I'm 20 / She's 30. Years old добавляют для ясности или говоря о детях. Не лепи years old каждый раз."
   ],
   "related": ["a1-there-is-there-are", "a1-present-simple", "a1-present-continuous", "a1-articles-a-an"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ a student.",
+        "options":  [
+                        "is",
+                        "am",
+                        "are",
+                        "be"
+                    ],
+        "answer":  1,
+        "why":  "С I используется am: I am a student. Пропускать глагол (I student) нельзя — в английском связка обязательна."
+    },
+    {
+        "q":  "She ___ at home now.",
+        "options":  [
+                        "am",
+                        "are",
+                        "is",
+                        "be"
+                    ],
+        "answer":  2,
+        "why":  "С she/he/it используется is: She is at home, не She at home."
+    },
+    {
+        "q":  "They ___ my friends.",
+        "options":  [
+                        "is",
+                        "am",
+                        "are",
+                        "be"
+                    ],
+        "answer":  2,
+        "why":  "С they/we/you используется are: They are my friends."
+    },
+    {
+        "q":  "I ___ 20 years old.",
+        "options":  [
+                        "have",
+                        "am",
+                        "is",
+                        "has"
+                    ],
+        "answer":  1,
+        "why":  "Возраст в английском передаётся через be, а не have: I\u0027m 20, не I have 20 (это калька с русского «мне 20»)."
+    },
+    {
+        "q":  "___ you a doctor?",
+        "options":  [
+                        "Is",
+                        "Am",
+                        "Are",
+                        "Do"
+                    ],
+        "answer":  2,
+        "why":  "Вопрос с you строится через Are: Are you a doctor? (do с be не используется)."
+    },
+    {
+        "q":  "He ___ tired.",
+        "options":  [
+                        "aren\u0027t",
+                        "isn\u0027t",
+                        "amn\u0027t",
+                        "don\u0027t"
+                    ],
+        "answer":  1,
+        "why":  "Отрицание с he/she/it — isn\u0027t: He isn\u0027t tired."
+    }
+]
 }

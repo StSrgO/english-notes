@@ -125,5 +125,72 @@
     "«used to» vs Past Simple. I used to play tennis (раньше играл вообще, теперь нет) против I played tennis yesterday (разово, вчера). Не путай «раньше как привычка» и «один раз в прошлом»."
   ],
   "related": ["a1-present-simple", "a1-verb-to-be", "a1-present-continuous"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ to Paris last year.",
+        "options":  [
+                        "go",
+                        "goed",
+                        "went",
+                        "gone"
+                    ],
+        "answer":  2,
+        "why":  "Маркер last year указывает на Past Simple; прошедшая форма глагола go — went (неправильный глагол, не goed)."
+    },
+    {
+        "q":  "___ you see him yesterday?",
+        "options":  [
+                        "Did",
+                        "Do",
+                        "Were",
+                        "Had"
+                    ],
+        "answer":  0,
+        "why":  "Вопрос в Past Simple строится через Did + подлежащее + глагол в базовой форме: Did you see."
+    },
+    {
+        "q":  "She ___ like the film.",
+        "options":  [
+                        "doesn\u0027t",
+                        "didn\u0027t",
+                        "wasn\u0027t",
+                        "don\u0027t"
+                    ],
+        "answer":  1,
+        "why":  "Отрицание в Past Simple — didn\u0027t + глагол в базовой форме: She didn\u0027t like."
+    },
+    {
+        "q":  "Did you ___ the match last night?",
+        "options":  [
+                        "watched",
+                        "watch",
+                        "watching",
+                        "watches"
+                    ],
+        "answer":  1,
+        "why":  "После Did основной глагол стоит в базовой форме, без -ed: Did you watch, не Did you watched."
+    },
+    {
+        "q":  "They ___ at home last night.",
+        "options":  [
+                        "was",
+                        "were",
+                        "are",
+                        "did"
+                    ],
+        "answer":  1,
+        "why":  "С they глагол be в Past Simple — were: They were at home."
+    },
+    {
+        "q":  "I ___ my keys yesterday.",
+        "options":  [
+                        "lose",
+                        "losed",
+                        "lost",
+                        "losing"
+                    ],
+        "answer":  2,
+        "why":  "lose — неправильный глагол, его Past Simple — lost (не losed)."
+    }
+]
 }

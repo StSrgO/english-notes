@@ -131,5 +131,72 @@
     "Два слога — серая зона: clever, quiet, simple, narrow могут идти и так, и так (cleverer / more clever). Оба варианта нормальны — не паникуй, если встретил «не свой»."
   ],
   "related": ["a1-present-simple", "a2-articles", "a2-prepositions-in-on-at"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "She is ___ than her sister.",
+        "options":  [
+                        "taller",
+                        "more tall",
+                        "tallest",
+                        "more taller"
+                    ],
+        "answer":  0,
+        "why":  "Короткое прилагательное → -er: taller. more tall и more taller — ошибки."
+    },
+    {
+        "q":  "This is ___ book I\u0027ve ever read.",
+        "options":  [
+                        "the goodest",
+                        "the most good",
+                        "the best",
+                        "better"
+                    ],
+        "answer":  2,
+        "why":  "good — исключение: good → better → the best. goodest/most good не существует."
+    },
+    {
+        "q":  "He is ___ as me.",
+        "options":  [
+                        "as old than",
+                        "as old as",
+                        "more old as",
+                        "older as"
+                    ],
+        "answer":  1,
+        "why":  "Равенство — as … as: as old as. than сюда не ставится (than — для сравнительной степени)."
+    },
+    {
+        "q":  "My car is ___ than yours.",
+        "options":  [
+                        "expensiver",
+                        "more expensive",
+                        "most expensive",
+                        "the more expensive"
+                    ],
+        "answer":  1,
+        "why":  "Длинное прилагательное → more: more expensive. expensiver — ошибка."
+    },
+    {
+        "q":  "That was ___ day of my life.",
+        "options":  [
+                        "the worst",
+                        "the baddest",
+                        "the most bad",
+                        "worse"
+                    ],
+        "answer":  0,
+        "why":  "bad — исключение: bad → worse → the worst. Превосходная степень с the."
+    },
+    {
+        "q":  "She runs ___ than before.",
+        "options":  [
+                        "more fast",
+                        "faster",
+                        "fastest",
+                        "the faster"
+                    ],
+        "answer":  1,
+        "why":  "fast — короткое → -er: faster. more fast — ошибка."
+    }
+]
 }

@@ -126,5 +126,72 @@
     "Интонация и сокращения: I'll = /aɪl/, we'll = /wiːl/, you'll = /juːl/. В беглой речи главная часть условия почти всегда сокращена. Полное will звучит только для эмфазы: «I WILL help you if you ask»."
   ],
   "related": ["b1-zero-conditional", "a2-future-simple", "a2-be-going-to", "b1-modals-should-might-may"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "If it ___, we\u0027ll stay home.",
+        "options":  [
+                        "rains",
+                        "will rain",
+                        "rained",
+                        "would rain"
+                    ],
+        "answer":  0,
+        "why":  "В if-части первого условия — Present Simple, не will: If it rains. will в if-части — частая ошибка."
+    },
+    {
+        "q":  "I\u0027ll call you when I ___.",
+        "options":  [
+                        "will arrive",
+                        "arrive",
+                        "arrived",
+                        "arriving"
+                    ],
+        "answer":  1,
+        "why":  "После союзов времени (when, as soon as, until) — Present Simple, не will: when I arrive."
+    },
+    {
+        "q":  "If she ___ hard, she\u0027ll pass the exam.",
+        "options":  [
+                        "studies",
+                        "will study",
+                        "study",
+                        "studied"
+                    ],
+        "answer":  0,
+        "why":  "if-часть — Present Simple с she → studies. will study сюда нельзя."
+    },
+    {
+        "q":  "Unless you ___ now, you\u0027ll be late.",
+        "options":  [
+                        "leave",
+                        "will leave",
+                        "left",
+                        "leaving"
+                    ],
+        "answer":  0,
+        "why":  "unless = if … not, и в этой части тоже Present Simple: Unless you leave (= if you don\u0027t leave)."
+    },
+    {
+        "q":  "If I ___ time, I\u0027ll help you.",
+        "options":  [
+                        "will have",
+                        "have",
+                        "had",
+                        "having"
+                    ],
+        "answer":  1,
+        "why":  "if-часть первого условия — Present Simple: If I have time. will have — ошибка."
+    },
+    {
+        "q":  "She won\u0027t come if you ___ her.",
+        "options":  [
+                        "don\u0027t invite",
+                        "won\u0027t invite",
+                        "didn\u0027t invite",
+                        "not invite"
+                    ],
+        "answer":  0,
+        "why":  "Отрицание в if-части Present Simple — don\u0027t/doesn\u0027t: if you don\u0027t invite her."
+    }
+]
 }

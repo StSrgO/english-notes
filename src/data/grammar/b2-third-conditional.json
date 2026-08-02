@@ -126,5 +126,72 @@
     "Сокращения в речи: would have = would've (/ˈwʊdəv/), often further редуцируется до /əd/ после местоимений (I'd've, you'd've). На слух Third Conditional звучит как «айдэв ноун» — опознавай по had + V3 и would've, а не по полному would have."
   ],
   "related": ["b2-second-conditional", "b2-past-perfect", "b2-mixed-conditionals", "b1-modals-should-might-may"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "If I ___, I\u0027d have come to the party.",
+        "options":  [
+                        "would have known",
+                        "will know",
+                        "had known",
+                        "know"
+                    ],
+        "answer":  2,
+        "why":  "Нереальное прошлое — if + Past Perfect: If I had known. would have known в if-части — ошибка."
+    },
+    {
+        "q":  "If she had studied, she ___ the exam.",
+        "options":  [
+                        "would have passed",
+                        "would pass",
+                        "passed",
+                        "passes"
+                    ],
+        "answer":  0,
+        "why":  "Главная часть третьего условия — would have + V3: she\u0027d have passed. would pass дало бы второе условие."
+    },
+    {
+        "q":  "I ___ if I\u0027d seen the warning sign.",
+        "options":  [
+                        "would stop",
+                        "would have stop",
+                        "stopped",
+                        "would have stopped"
+                    ],
+        "answer":  3,
+        "why":  "would have + V3: would have stopped. would have stop (без -ed) — битая форма; would stop — не про прошлое."
+    },
+    {
+        "q":  "If we ___ earlier, we wouldn\u0027t have missed it.",
+        "options":  [
+                        "leave",
+                        "had left",
+                        "would leave",
+                        "left"
+                    ],
+        "answer":  1,
+        "why":  "if-часть третьего условия — Past Perfect: If we had left. left дало бы второе условие."
+    },
+    {
+        "q":  "If he ___ the map, he wouldn\u0027t have got lost.",
+        "options":  [
+                        "reads",
+                        "read",
+                        "had read",
+                        "would read"
+                    ],
+        "answer":  2,
+        "why":  "Нереальное прошлое — if + Past Perfect: If he had read the map."
+    },
+    {
+        "q":  "They ___ differently if they\u0027d known the truth.",
+        "options":  [
+                        "would have acted",
+                        "would act",
+                        "acted",
+                        "act"
+                    ],
+        "answer":  0,
+        "why":  "Главная часть третьего условия — would have + V3: they\u0027d have acted."
+    }
+]
 }

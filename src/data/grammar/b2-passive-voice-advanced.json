@@ -139,5 +139,72 @@
     "Топ V3 для пассива зубри пачками: built, written, made, taken, sent, told, given, done, seen, broken, sold, spoken, grown, signed, announced, reported. Они покрывают большинство живых примеров — правильные (repaired, collected, finished) образуются через -ed."
   ],
   "related": ["b1-passive-voice-simple", "b1-present-perfect", "b2-past-perfect", "b1-present-perfect-continuous"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "The house ___ right now.",
+        "options":  [
+                        "is being built",
+                        "is build",
+                        "is built",
+                        "builds"
+                    ],
+        "answer":  0,
+        "why":  "Пассив в Present Continuous — is/are + being + V3: is being built. is build и is built не передают процесс прямо сейчас."
+    },
+    {
+        "q":  "It ___ that he is very rich.",
+        "options":  [
+                        "is saying",
+                        "says",
+                        "is said",
+                        "said"
+                    ],
+        "answer":  2,
+        "why":  "Безличный пассив — It is said that… (= говорят, что). is saying было бы активом в Continuous, а «оно» не «говорит»."
+    },
+    {
+        "q":  "The documents ___ yet.",
+        "options":  [
+                        "have been sign",
+                        "have been signed",
+                        "have signed",
+                        "been signed"
+                    ],
+        "answer":  1,
+        "why":  "Пассив в Present Perfect — have/has + been + V3: have been signed. V3 от sign — signed, не sign."
+    },
+    {
+        "q":  "English ___ in many countries.",
+        "options":  [
+                        "speaks",
+                        "is speak",
+                        "spoken",
+                        "is spoken"
+                    ],
+        "answer":  3,
+        "why":  "Пассив в Present Simple — is/are + V3: is spoken. speaks — актив (язык не «говорит» сам)."
+    },
+    {
+        "q":  "The bridge ___ in 1890.",
+        "options":  [
+                        "was built",
+                        "built",
+                        "was build",
+                        "has built"
+                    ],
+        "answer":  0,
+        "why":  "Пассив в Past Simple — was/were + V3: was built. built без was и was build (не V3) — ошибки."
+    },
+    {
+        "q":  "The new policy ___ next month.",
+        "options":  [
+                        "will announce",
+                        "is announced",
+                        "will be announced",
+                        "announces"
+                    ],
+        "answer":  2,
+        "why":  "Пассив в будущем — will be + V3: will be announced. will announce — актив, а политику не «объявляют себя»."
+    }
+]
 }

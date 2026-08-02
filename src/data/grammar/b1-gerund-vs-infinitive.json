@@ -138,5 +138,72 @@
     "like/love/hate принимают обе формы с нюансом: like doing = вообще, как удовольствие (I like cooking); like to do = осознанный выбор/привычка в конкретный раз (I like to check the locks at night). Тонко, но носители это чувствуют."
   ],
   "related": ["a1-present-continuous", "a1-present-simple", "a2-used-to", "b1-reported-speech"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I enjoy ___ books in the evening.",
+        "options":  [
+                        "reading",
+                        "to read",
+                        "read",
+                        "to reading"
+                    ],
+        "answer":  0,
+        "why":  "enjoy требует герундий (-ing): I enjoy reading. enjoy to read — ошибка."
+    },
+    {
+        "q":  "She wants ___ home early.",
+        "options":  [
+                        "going",
+                        "to go",
+                        "go",
+                        "to going"
+                    ],
+        "answer":  1,
+        "why":  "want требует инфинитив с to: She wants to go. want going — ошибка."
+    },
+    {
+        "q":  "I look forward to ___ you.",
+        "options":  [
+                        "meeting",
+                        "meet",
+                        "to meet",
+                        "met"
+                    ],
+        "answer":  0,
+        "why":  "to в look forward to — предлог, а после предлога всегда -ing: look forward to meeting. to meet — ловушка."
+    },
+    {
+        "q":  "He decided ___ a new job.",
+        "options":  [
+                        "to take",
+                        "taking",
+                        "take",
+                        "to taking"
+                    ],
+        "answer":  0,
+        "why":  "decide требует инфинитив с to: He decided to take."
+    },
+    {
+        "q":  "They finished ___ the house.",
+        "options":  [
+                        "to paint",
+                        "painting",
+                        "paint",
+                        "painted"
+                    ],
+        "answer":  1,
+        "why":  "finish требует герундий: They finished painting. finish to paint — ошибка."
+    },
+    {
+        "q":  "Would you mind ___ the window?",
+        "options":  [
+                        "to close",
+                        "closing",
+                        "close",
+                        "closed"
+                    ],
+        "answer":  1,
+        "why":  "mind требует герундий: Would you mind closing? mind to close — ошибка."
+    }
+]
 }

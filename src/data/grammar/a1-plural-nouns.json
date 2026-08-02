@@ -126,5 +126,72 @@
     "Произношение окончаний — как в Present Simple: /s/ (cats), /z/ (dogs), /ɪz/ после шипящих (boxes /ˈbɒksɪz/, watches). -es после шипящих добавляет целый слог /ɪz/ — это хорошо слышно."
   ],
   "related": ["a1-articles-a-an", "a1-there-is-there-are", "a1-questions"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I have two ___.",
+        "options":  [
+                        "childs",
+                        "childes",
+                        "children",
+                        "child"
+                    ],
+        "answer":  2,
+        "why":  "child — исключение: множественное число children, а не childs."
+    },
+    {
+        "q":  "There are three ___ on the table.",
+        "options":  [
+                        "boxs",
+                        "boxes",
+                        "box",
+                        "boxies"
+                    ],
+        "answer":  1,
+        "why":  "После x добавляется -es: boxes, не boxs."
+    },
+    {
+        "q":  "She has many ___.",
+        "options":  [
+                        "friend",
+                        "friends",
+                        "friendes",
+                        "friendses"
+                    ],
+        "answer":  1,
+        "why":  "friend — исчисляемое существительное, множественное число через -s: friends."
+    },
+    {
+        "q":  "I need some ___.",
+        "options":  [
+                        "informations",
+                        "information",
+                        "informations\u0027",
+                        "an information"
+                    ],
+        "answer":  1,
+        "why":  "information — неисчисляемое: без -s и без артикля a. many informations — ошибка, правильно much information."
+    },
+    {
+        "q":  "There are five ___ in the fridge.",
+        "options":  [
+                        "tomatos",
+                        "tomatoes",
+                        "tomato",
+                        "tomatoies"
+                    ],
+        "answer":  1,
+        "why":  "После o добавляется -es: tomatoes, не tomatos."
+    },
+    {
+        "q":  "The ___ are playing in the yard.",
+        "options":  [
+                        "babys",
+                        "babies",
+                        "baby",
+                        "babyes"
+                    ],
+        "answer":  1,
+        "why":  "y после согласной меняется на -ies: babies, не babys."
+    }
+]
 }

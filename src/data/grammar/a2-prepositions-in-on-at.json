@@ -137,5 +137,72 @@
     "Американский/британский раскол: on the weekend (US) vs at the weekend (UK). Оба верны — просто знай, что увидишь оба варианта и не считай ни один ошибкой."
   ],
   "related": ["a1-present-simple", "a1-past-simple", "a2-articles", "a2-future-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "The meeting is ___ Monday.",
+        "options":  [
+                        "in",
+                        "at",
+                        "on",
+                        "by"
+                    ],
+        "answer":  2,
+        "why":  "Дни недели — on: on Monday. in/at с днями — ошибка."
+    },
+    {
+        "q":  "My birthday is ___ July.",
+        "options":  [
+                        "at",
+                        "in",
+                        "on",
+                        "to"
+                    ],
+        "answer":  1,
+        "why":  "Месяцы (широкий период) — in: in July. at July — ошибка."
+    },
+    {
+        "q":  "I wake up early ___ the morning.",
+        "options":  [
+                        "in",
+                        "on",
+                        "at",
+                        "by"
+                    ],
+        "answer":  0,
+        "why":  "Устойчиво: in the morning / in the afternoon, но at night. on the morning — ошибка."
+    },
+    {
+        "q":  "The keys are ___ the table.",
+        "options":  [
+                        "in",
+                        "at",
+                        "by",
+                        "on"
+                    ],
+        "answer":  3,
+        "why":  "Поверхность — on: on the table. in было бы «внутри»."
+    },
+    {
+        "q":  "The train leaves ___ 5 pm.",
+        "options":  [
+                        "in",
+                        "at",
+                        "on",
+                        "by"
+                    ],
+        "answer":  1,
+        "why":  "Точное время — at: at 5 pm. in/on с часами — ошибка."
+    },
+    {
+        "q":  "She lives ___ London.",
+        "options":  [
+                        "at",
+                        "on",
+                        "in",
+                        "to"
+                    ],
+        "answer":  2,
+        "why":  "Города и страны (объём) — in: in London. at для точек/адресов."
+    }
+]
 }

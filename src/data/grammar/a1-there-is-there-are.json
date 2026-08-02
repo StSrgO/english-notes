@@ -125,5 +125,72 @@
     "Описание фото — тренажёр №1 для there is/are. «In the picture, there's a house. There are two trees. There's a river…» Это классика A1 и на экзаменах, и в жизни: тренируй конструкцию, описывая любые картинки."
   ],
   "related": ["a1-verb-to-be", "a1-articles-a-an", "a1-plural-nouns", "a1-present-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "___ a cat in the room.",
+        "options":  [
+                        "It has",
+                        "There is",
+                        "It is",
+                        "There are"
+                    ],
+        "answer":  1,
+        "why":  "«Имеется / есть» передаётся конструкцией there is + единственное число: There is a cat, не It has a cat."
+    },
+    {
+        "q":  "___ three apples on the table.",
+        "options":  [
+                        "There is",
+                        "There are",
+                        "It is",
+                        "They is"
+                    ],
+        "answer":  1,
+        "why":  "С множественным числом используется there are: There are three apples."
+    },
+    {
+        "q":  "___ a shop near here?",
+        "options":  [
+                        "Is there",
+                        "There is",
+                        "Are there",
+                        "It is"
+                    ],
+        "answer":  0,
+        "why":  "Вопрос строится перестановкой: Is there a shop near here?"
+    },
+    {
+        "q":  "___ any milk in the fridge?",
+        "options":  [
+                        "Are there",
+                        "Is there",
+                        "There is",
+                        "There are"
+                    ],
+        "answer":  1,
+        "why":  "milk — неисчисляемое, поэтому there is; в вопросе — Is there any milk?"
+    },
+    {
+        "q":  "___ many people at the party last night.",
+        "options":  [
+                        "There was",
+                        "There were",
+                        "There is",
+                        "It was"
+                    ],
+        "answer":  1,
+        "why":  "people — множественное число, а маркер last night указывает на прошлое: There were many people."
+    },
+    {
+        "q":  "___ a park near your house?",
+        "options":  [
+                        "Is there",
+                        "Are there",
+                        "There is",
+                        "It is"
+                    ],
+        "answer":  0,
+        "why":  "Единственное число (a park) → вопрос Is there a park near your house?"
+    }
+]
 }

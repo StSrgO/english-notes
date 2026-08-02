@@ -132,5 +132,72 @@
     "В разговорном вопросы часто «упрощают»: «You working today?» (пропуск Are), «Like it?» (пропуск Do you). Понимай на слух, но в своей речи и письме держи полную форму с вспомогательным."
   ],
   "related": ["a1-present-simple", "a1-verb-to-be", "a1-pronouns", "a1-past-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "___ you like coffee?",
+        "options":  [
+                        "Are",
+                        "Do",
+                        "Does",
+                        "Is"
+                    ],
+        "answer":  1,
+        "why":  "Yes/no вопрос в Present Simple с you строится через Do: Do you like coffee, не You like coffee?"
+    },
+    {
+        "q":  "Where ___ you live?",
+        "options":  [
+                        "are",
+                        "do",
+                        "does",
+                        "is"
+                    ],
+        "answer":  1,
+        "why":  "Wh-вопрос строится как wh-слово + do/does + подлежащее + глагол: Where do you live, не Where you live."
+    },
+    {
+        "q":  "Where does she ___?",
+        "options":  [
+                        "lives",
+                        "live",
+                        "living",
+                        "lived"
+                    ],
+        "answer":  1,
+        "why":  "После does глагол стоит без -s: Where does she live, не Where does she lives."
+    },
+    {
+        "q":  "___ is your name?",
+        "options":  [
+                        "Who",
+                        "What",
+                        "Where",
+                        "How"
+                    ],
+        "answer":  1,
+        "why":  "Когда спрашиваем о вещи или имени, используется What: What is your name?"
+    },
+    {
+        "q":  "___ she a teacher?",
+        "options":  [
+                        "Does",
+                        "Do",
+                        "Is",
+                        "Are"
+                    ],
+        "answer":  2,
+        "why":  "Вопрос с глаголом be строится без do — просто Is/Are + подлежащее: Is she a teacher?"
+    },
+    {
+        "q":  "— Is he at home? — No, he ___.",
+        "options":  [
+                        "doesn\u0027t",
+                        "isn\u0027t",
+                        "don\u0027t",
+                        "aren\u0027t"
+                    ],
+        "answer":  1,
+        "why":  "Короткий ответ повторяет глагол вопроса (be): No, he isn\u0027t."
+    }
+]
 }

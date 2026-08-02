@@ -144,5 +144,72 @@
     "Регистр: причастные обороты — письменный и формальный инструмент. В разговорной речи носитель чаще скажет полным придаточным (After I'd finished, I left). Не перенасыщай ими устную речь, но в эссе, статьях, отчётах и письмах они обязательны — именно их наличие отличает C2‑текст от B2."
   ],
   "related": ["c2-cohesion-and-register", "c1-emphasis-do-and-fronting", "c1-cleft-sentences"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "Сожмите: After she had finished the report, she left.",
+        "options":  [
+                        "Finishing the report, she left.",
+                        "Finished the report, she left.",
+                        "Having finished the report, she left.",
+                        "To finish the report, she left."
+                    ],
+        "answer":  2,
+        "why":  "Предшествование («сначала закончила, потом ушла») требует perfect participle: having + причастие. -ing передавало бы одновременность, а не «до этого»."
+    },
+    {
+        "q":  "Сожмите пассив: When it is seen from above, the city looks tiny.",
+        "options":  [
+                        "Seeing from above, the city looks tiny.",
+                        "Having seen from above, the city looks tiny.",
+                        "To see from above, the city looks tiny.",
+                        "Seen from above, the city looks tiny."
+                    ],
+        "answer":  3,
+        "why":  "Пассив в обороте — это причастие прошедшего времени само по себе: Seen from above (= when it is seen). Seeing/Having seen были бы активом, а город не «смотрит»."
+    },
+    {
+        "q":  "Исправьте dangling participle: Walking into the room, the lights were blinding.",
+        "options":  [
+                        "Walking into the room, the lights were blinding.",
+                        "Walking into the room, I was blinded by the lights.",
+                        "Walking into the room, it was blinding.",
+                        "Walking into the room, blinding lights were everywhere."
+                    ],
+        "answer":  1,
+        "why":  "Подлежащее оборота должно совпадать с подлежащим главного предложения. Света и «it» в комнату не входили — входил я. Поэтому Walking into the room, I was blinded."
+    },
+    {
+        "q":  "Сожмите с отрицанием: Because he didn\u0027t know what to say, he smiled.",
+        "options":  [
+                        "Knowing not what to say, he smiled.",
+                        "Not know what to say, he smiled.",
+                        "Don\u0027t knowing what to say, he smiled.",
+                        "Not knowing what to say, he smiled."
+                    ],
+        "answer":  3,
+        "why":  "Отрицание ставится частицей not прямо перед причастием: Not knowing. Порядок «knowing not» и формы с don\u0027t/do в обороте неверны."
+    },
+    {
+        "q":  "Перестройте через абсолютную конструкцию (разные субъекты): The weather was fine, so we had a picnic.",
+        "options":  [
+                        "The weather was fine, we had a picnic.",
+                        "Being fine the weather, we had a picnic.",
+                        "The weather being fine, we had a picnic.",
+                        "The weather fine being, we had a picnic."
+                    ],
+        "answer":  2,
+        "why":  "При разных действующих лицах (weather / we) нужна абсолютная конструкция со своим подлежащим перед причастием: The weather being fine. Вариант с запятой между двумя предложениями — comma splice, ошибка."
+    },
+    {
+        "q":  "___ about the storm, the crew stayed in port.",
+        "options":  [
+                        "Having warned",
+                        "Warning",
+                        "To warn",
+                        "Having been warned"
+                    ],
+        "answer":  3,
+        "why":  "Пассив с предшествованием — having been + причастие: Having been warned (= after they had been warned). Having warned/Warning были бы активом, а экипаж не предупреждал, его предупредили."
+    }
+]
 }

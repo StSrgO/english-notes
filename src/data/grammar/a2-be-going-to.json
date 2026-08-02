@@ -124,5 +124,72 @@
     "«Was/were going to» — план, который не состоялся: I was going to call you, but I forgot. (собирался, но не сделал). Живая конструкция для извинений и объяснений."
   ],
   "related": ["a2-future-simple", "a1-present-continuous", "a1-present-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ call you later, I promise.",
+        "options":  [
+                        "am going to",
+                        "going to",
+                        "will to",
+                        "am going"
+                    ],
+        "answer":  0,
+        "why":  "Конструкция требует форму be: I am going to call. Без am (I going to) — ошибка."
+    },
+    {
+        "q":  "Look at those clouds! It ___ rain.",
+        "options":  [
+                        "will to",
+                        "going to",
+                        "is going to",
+                        "goes to"
+                    ],
+        "answer":  2,
+        "why":  "Прогноз по видимым признакам — be going to: It is going to rain. will to не существует."
+    },
+    {
+        "q":  "We ___ to the cinema tonight (we booked tickets).",
+        "options":  [
+                        "are going to go",
+                        "are going",
+                        "going to",
+                        "go to"
+                    ],
+        "answer":  0,
+        "why":  "Заранее принятое намерение — be going to + инфинитив: We are going to go. are going без инфинитива здесь неполно."
+    },
+    {
+        "q":  "She ___ buy a new car next month.",
+        "options":  [
+                        "is going to",
+                        "going to",
+                        "is going",
+                        "wills to"
+                    ],
+        "answer":  0,
+        "why":  "С she форма be = is: She is going to buy. going to без is — ошибка."
+    },
+    {
+        "q":  "I\u0027m going to ___ home now.",
+        "options":  [
+                        "going",
+                        "go",
+                        "went",
+                        "goes"
+                    ],
+        "answer":  1,
+        "why":  "После going to — голый инфинитив: going to go. I\u0027m going to going — удвоение, ошибка."
+    },
+    {
+        "q":  "They ___ travel in summer.",
+        "options":  [
+                        "are going to",
+                        "going to",
+                        "is going to",
+                        "are going to going"
+                    ],
+        "answer":  0,
+        "why":  "С they форма be = are: They are going to travel."
+    }
+]
 }

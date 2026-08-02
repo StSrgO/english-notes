@@ -1,6 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
 import Icon from '../../components/Icon.astro';
+import Quiz from '../../components/Quiz.astro';
+import quizBank from '../../data/quiz-bank.json';
 
 export function getStaticPaths() {
   const modules = import.meta.glob('../../data/grammar/*.json', { eager: true, import: 'default' });
@@ -184,12 +186,36 @@ const related = topics.filter((t) => topic.related && topic.related.includes(t.s
         </div>
       </details>
 
+      {topic.quiz && topic.quiz.length > 0 && (
+        <div class="block quiz-wrap" data-reveal>
+          <Quiz questions={topic.quiz} ui={quizBank.__ui} />
+        </div>
+      )}
+
       {related.length > 0 && (
         <div class="block">
           <h2>Связанные темы</h2>
           <div class="related">
             {related.map((r) => <a href={'/grammar/' + r.slug} class="chip">{r.title}</a>)}
           </div>
+        </div>
+      )}
+      {quizBank.__ui && quizBank.__ui.morePracticeLead && (
+        <div class="practice" data-reveal>
+          <p class="practice__eye">{quizBank.__ui.morePractice}</p>
+          <h3 class="practice__t">{quizBank.__ui.morePracticeLead}</h3>
+          {quizBank.__ui.morePracticeText && <p class="practice__text">{quizBank.__ui.morePracticeText}</p>}
+          {quizBank.__ui.morePracticeHref && (
+            <a class="btn btn--coral practice__cta" href={quizBank.__ui.morePracticeHref} target="_blank" rel="noopener noreferrer">{quizBank.__ui.morePracticeCta} <span aria-hidden="true">&#8599;</span></a>
+          )}
+          {quizBank.__ui.morePracticeMore && quizBank.__ui.morePracticeMore.length > 0 && (
+            <p class="practice__also">
+              {quizBank.__ui.morePracticeAlsoLabel}{' '}
+              {quizBank.__ui.morePracticeMore.map((m, i) => (
+                <>{i > 0 && <span class="practice__sep">&#183;</span>}<a href={m.href} target="_blank" rel="noopener noreferrer">{m.label}</a></>
+              ))}
+            </p>
+          )}
         </div>
       )}
     </article>

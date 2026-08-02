@@ -134,5 +134,72 @@
     "maybe / perhaps / probably — наречия‑спутники вероятности, которые живут ВНЕ модального: Maybe it'll rain. He'll probably come. Не смешивай: may + V (may rain), но maybe + предложение (maybe it'll rain). Частая путаница may и maybe."
   ],
   "related": ["a2-modals-can-must-have-to", "b1-first-conditional", "b1-reported-speech", "a1-present-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "You ___ see a doctor about that cough.",
+        "options":  [
+                        "should go",
+                        "should",
+                        "ought",
+                        "must to"
+                    ],
+        "answer":  0,
+        "why":  "should + голый инфинитив: You should see. should go подставило бы лишний глагол; must to не существует."
+    },
+    {
+        "q":  "He ___ be late, but I\u0027m not sure.",
+        "options":  [
+                        "might to",
+                        "might",
+                        "mights",
+                        "is might"
+                    ],
+        "answer":  1,
+        "why":  "might + голый инфинитив: He might be. might to и mights — ошибки."
+    },
+    {
+        "q":  "You ___ come in. It\u0027s forbidden.",
+        "options":  [
+                        "mustn\u0027t",
+                        "may not",
+                        "might not",
+                        "don\u0027t may"
+                    ],
+        "answer":  0,
+        "why":  "Запрет — mustn\u0027t. may not = «возможно, не» (вероятность), а не запрет; don\u0027t may не существует."
+    },
+    {
+        "q":  "___ I use your phone, please?",
+        "options":  [
+                        "May",
+                        "Must",
+                        "Should",
+                        "Might to"
+                    ],
+        "answer":  0,
+        "why":  "Вежливая просьба разрешения — May I…? Must/Should сюда не подходят по смыслу."
+    },
+    {
+        "q":  "She ___ be at home — her car is here.",
+        "options":  [
+                        "might to",
+                        "might",
+                        "mights",
+                        "is might"
+                    ],
+        "answer":  1,
+        "why":  "Вероятность — might + инфинитив: She might be at home."
+    },
+    {
+        "q":  "You ___ eat more vegetables, it\u0027s healthier.",
+        "options":  [
+                        "should to",
+                        "should",
+                        "shoulds",
+                        "ought"
+                    ],
+        "answer":  1,
+        "why":  "Совет — should + голый инфинитив: You should eat. should to и shoulds — ошибки."
+    }
+]
 }

@@ -131,5 +131,72 @@
     "«a» в значении «один и тот же». They're of an age (одного возраста), birds of a feather (одного поля ягоды). Редко, но метко — и показывает, что a не всегда «просто один»."
   ],
   "related": ["a1-verb-to-be", "a1-there-is-there-are", "a1-plural-nouns"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I have ___ cat at home.",
+        "options":  [
+                        "a",
+                        "an",
+                        "— (ничего)",
+                        "the"
+                    ],
+        "answer":  0,
+        "why":  "cat — исчисляемое существительное в единственном числе, упоминается впервые, поэтому нужен a. Оставлять существительное «голым» (I have cat) — калька с русского."
+    },
+    {
+        "q":  "She is ___ engineer.",
+        "options":  [
+                        "a",
+                        "an",
+                        "— (ничего)",
+                        "the"
+                    ],
+        "answer":  1,
+        "why":  "engineer начинается с гласного звука /e/, поэтому an. Профессия в единственном числе всегда с a/an: She is an engineer, не She is engineer."
+    },
+    {
+        "q":  "He studies at ___ university.",
+        "options":  [
+                        "a",
+                        "an",
+                        "— (ничего)",
+                        "the"
+                    ],
+        "answer":  0,
+        "why":  "university начинается со звука /j/ (согласный), несмотря на букву u, поэтому a, а не an. Выбор a/an зависит от звука, а не от буквы."
+    },
+    {
+        "q":  "I need ___ water, please.",
+        "options":  [
+                        "a",
+                        "an",
+                        "— (ничего)",
+                        "the"
+                    ],
+        "answer":  2,
+        "why":  "water — неисчисляемое существительное, с ним a/an не ставится: I need water. (Но a coffee = чашку кофе — порция, это ок.)"
+    },
+    {
+        "q":  "The film is ___ hour long.",
+        "options":  [
+                        "a",
+                        "an",
+                        "— (ничего)",
+                        "the"
+                    ],
+        "answer":  1,
+        "why":  "В hour буква h немая, слово начинается с гласного звука, поэтому an hour."
+    },
+    {
+        "q":  "My sister is ___ doctor.",
+        "options":  [
+                        "a",
+                        "an",
+                        "— (ничего)",
+                        "the"
+                    ],
+        "answer":  0,
+        "why":  "Профессия в единственном числе требует a/an: a doctor. doctor начинается с согласного звука → a."
+    }
+]
 }

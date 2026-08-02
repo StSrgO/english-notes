@@ -129,5 +129,72 @@
     "Тренируй на переписывании. Возьми пять своих if-предложений из рабочих писем и перепиши их без if. Это быстрее всего переводит конструкцию из «знаю правило» в «чувствую регистр» — а на C1 ценится именно второе."
   ],
   "related": ["c1-inversion-after-negative-adverbials", "c2-inversion-so-such", "c2-mixed-conditionals"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "Перепишите условие без if: If I had known, I would have stayed.",
+        "options":  [
+                        "Did I known, I would have stayed.",
+                        "Had I knew, I would have stayed.",
+                        "Had I known, I would have stayed.",
+                        "If had I known, I would have stayed."
+                    ],
+        "answer":  2,
+        "why":  "Убрав if, условие открывают с had + подлежащее: Had I known. did сюда не годится (это не инверсия условия), а if и инверсия вместе не живут — либо if + прямой порядок, либо инверсия без if."
+    },
+    {
+        "q":  "Перепишите без if: If she were here, she would help.",
+        "options":  [
+                        "Was she here, she would help.",
+                        "Were she here, she would help.",
+                        "Were she be here, she would help.",
+                        "If were she here, she would help."
+                    ],
+        "answer":  1,
+        "why":  "Нереальное условие без if открывается с were для всех лиц: Were she here. was в инверсии недопустим — это отличает формальную конструкцию от разговорного if she was."
+    },
+    {
+        "q":  "Перепишите без if: If you should need anything, just call.",
+        "options":  [
+                        "Should you need anything, just call.",
+                        "Will you need anything, just call.",
+                        "Do you need anything, just call.",
+                        "Should you needed anything, just call."
+                    ],
+        "answer":  0,
+        "why":  "Маловероятное будущее без if открывается с should + подлежащее: Should you need. Это не «должен», а оттенок «вдруг понадобится». will и do инверсию условия не строят."
+    },
+    {
+        "q":  "Перепишите без if: If I were you, I would accept.",
+        "options":  [
+                        "Was I you, I would accept.",
+                        "Were I be you, I would accept.",
+                        "If was I you, I would accept.",
+                        "Were I you, I would accept."
+                    ],
+        "answer":  3,
+        "why":  "Для первого лица в инверсии нереального условия тоже стоит were: Were I you. was было бы ошибкой именно в перевёрнутой форме."
+    },
+    {
+        "q":  "Можно ли убрать if из «Unless you leave now, you\u0027ll miss the train»?",
+        "options":  [
+                        "Да, инвертировать: Unless had you left now...",
+                        "Да, но только с should: Unless should you leave...",
+                        "Да, инвертировать главную часть: Unless you leave, will you miss...",
+                        "Нет, unless не инвертируется — порядок остаётся прямым."
+                    ],
+        "answer":  3,
+        "why":  "unless — союз-исключение, его инвертировать нельзя. Инверсия без if работает только с had / were / should; с unless порядок всегда прямой."
+    },
+    {
+        "q":  "Найдите верное предложение.",
+        "options":  [
+                        "Had I known, would I have stayed?",
+                        "Had I known, I had stayed.",
+                        "Had I known, I would have stayed.",
+                        "Did I know, I would have stayed."
+                    ],
+        "answer":  2,
+        "why":  "Инверсия живёт только в половине бывшего if; главная часть (результат) всегда прямая: I would have stayed, а не would I have stayed. И в условии для прошлого — had, не did."
+    }
+]
 }

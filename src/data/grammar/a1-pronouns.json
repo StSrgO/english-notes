@@ -123,5 +123,72 @@
     "«Its» (его/её для предмета) пишется без апострофа, а «it's» = it is. Its color is red (цвет его), но It's red (оно красное). Одна из самых частых ошибок даже у продвинутых."
   ],
   "related": ["a1-verb-to-be", "a1-present-simple", "a1-questions"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "___ and Tom went out.",
+        "options":  [
+                        "Me",
+                        "I",
+                        "My",
+                        "Mine"
+                    ],
+        "answer":  1,
+        "why":  "В роли подлежащего используется I, и по-английски себя ставят вторым: Tom and I, не Me and Tom."
+    },
+    {
+        "q":  "This book is ___.",
+        "options":  [
+                        "my",
+                        "me",
+                        "mine",
+                        "I"
+                    ],
+        "answer":  2,
+        "why":  "Когда после нет существительного, используется абсолютная форма mine: This book is mine, не This book is my."
+    },
+    {
+        "q":  "This is ___ book.",
+        "options":  [
+                        "mine",
+                        "my",
+                        "me",
+                        "I"
+                    ],
+        "answer":  1,
+        "why":  "Перед существительным стоит притяжательное my: This is my book."
+    },
+    {
+        "q":  "This is a secret between you and ___.",
+        "options":  [
+                        "I",
+                        "me",
+                        "my",
+                        "mine"
+                    ],
+        "answer":  1,
+        "why":  "После предлога (between) используется объектная форма me: between you and me, не between you and I."
+    },
+    {
+        "q":  "Give ___ the pen, please.",
+        "options":  [
+                        "I",
+                        "my",
+                        "me",
+                        "mine"
+                    ],
+        "answer":  2,
+        "why":  "В роли объекта (кому?) используется me: Give me the pen."
+    },
+    {
+        "q":  "___ are students.",
+        "options":  [
+                        "Us",
+                        "Our",
+                        "We",
+                        "Ours"
+                    ],
+        "answer":  2,
+        "why":  "В роли подлежащего множественного числа используется We: We are students."
+    }
+]
 }

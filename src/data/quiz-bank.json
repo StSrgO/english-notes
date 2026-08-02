@@ -1,0 +1,102 @@
+{
+  "__ui": {
+    "eyebrow": "самопроверка",
+    "title": "Проверь себя",
+    "qLabel": "Вопрос",
+    "next": "Дальше",
+    "doneTitle": "Твой результат",
+    "again": "Пройти ещё раз",
+    "reviewTitle": "Разбор ошибок",
+    "yourAnswer": "Твой ответ",
+    "correctAnswer": "Правильный ответ",
+    "noscript": "Включите JavaScript, чтобы пройти проверку.",
+    "verdicts": [
+      "Есть над чем поработать: перечитай блок «Типичные ошибки» и пройди проверку ещё раз — повторение здесь решает.",
+      "Неплохо, но пара нюансов ускользнула — загляни в разбор ниже, там именно твои слабые места.",
+      "Отлично: суть темы ты уловил, а мелкие шероховатости видны в разборе ошибок.",
+      "Почти безупречно — ты владеешь темой на уверенном уровне."
+    ],
+    "morePractice": "больше практики",
+    "morePracticeLead": "Хочешь ещё больше практики?",
+    "morePracticeText": "Эти вопросы — только разминка. Переходи на бесплатный портал упражнений по грамматике: без регистрации, без подписки, с ответами.",
+    "morePracticeCta": "Перейти к упражнениям",
+    "morePracticeHref": "https://www.perfect-english-grammar.com/",
+    "morePracticeAlsoLabel": "также бесплатно:",
+    "morePracticeMore": [
+      { "label": "EnglishPage — времена и грамматика", "href": "https://www.englishpage.com/" },
+      { "label": "ego4u — упражнения по темам", "href": "https://www.ego4u.com/en/cram-up/grammar" }
+    ]
+  },
+  "b2-mixed-conditionals": [
+    { "q": "If I ___ medicine, I'd be a doctor now.", "options": ["studied", "study", "had studied", "would study"], "answer": 2, "why": "Прошлое условие + настоящий результат (now) → if + Past Perfect: If I had studied. Простое studied здесь дало бы нереальное настоящее, а не прошлое." },
+    { "q": "If she weren't so proud, she ___ for help years ago.", "options": ["would have asked", "wouldn't be asking", "would ask", "hadn't asked"], "answer": 0, "why": "Постоянная черта (weren't) + прошлый результат (years ago) → would have + причастие: she'd have asked." },
+    { "q": "If I had known French, I ___ the job last year.", "options": ["would get", "get", "got", "would have got"], "answer": 3, "why": "Прошлое условие + прошлый результат (last year) → would have + причастие: I'd have got. would get перенесло бы результат в настоящее." },
+    { "q": "If I ___ tired now, I would have gone to the party yesterday.", "options": ["hadn't been", "weren't", "am not", "wasn't being"], "answer": 1, "why": "Текущее состояние (now) + прошлый результат → if + Past Simple: If I weren't tired. had been было бы про прошлое условие." },
+    { "q": "If he had taken the job, he ___ abroad now.", "options": ["would be living", "would have lived", "lives", "lived"], "answer": 0, "why": "Прошлое условие + настоящее следствие (now) → would + continuous: he'd be living. would have lived исказило бы время результата." },
+    { "q": "Отметьте верное предложение.", "options": ["If I would have known, I'd help now.", "If I knew, I'd have helped now.", "If I'd known, I'd be helping now.", "If I have known, I'd help now."], "answer": 2, "why": "would не ставится в if-части; прошлое условие → Past Perfect (If I'd known), настоящий результат → would + continuous (I'd be helping now)." }
+  ],
+  "b2-modals-in-the-past": [
+    { "q": "He ___ the train — he's never this late.", "options": ["must miss", "must have missed", "must have miss", "must had missed"], "answer": 1, "why": "Уверенная догадка о прошлом — must have + причастие: must have missed. must have miss (без -ed) и must had missed ломают форму." },
+    { "q": "She ___ done it — it's completely out of character.", "options": ["mustn't have", "shouldn't have", "couldn't said", "can't have"], "answer": 3, "why": "Уверенное отрицательное умозаключение — can't have + причастие. mustn't have для догадки не используется (это запрет), couldn't said — битая форма." },
+    { "q": "You ___ me about the change earlier!", "options": ["should have told", "should told", "must have tell", "should have telling"], "answer": 0, "why": "Упрёк о несделанном — should have + причастие: should have told. should told и should have telling ломают форму." },
+    { "q": "He ___ at home — all the lights are off.", "options": ["can't have been", "might have been", "must have been", "must be"], "answer": 2, "why": "Уверенное положительное заключение из свидетельства — must have been. must be относится к настоящему, не к прошлому." },
+    { "q": "They ___ the message — nobody replied.", "options": ["must have missed", "might have missed", "can't have missed", "should missed"], "answer": 1, "why": "Неуверенная догадка («возможно») — might have + причастие. must have было бы слишком уверенно, should missed — битая форма." },
+    { "q": "You ___ so much food — we had plenty left over.", "options": ["didn't need to buy", "mustn't have bought", "shouldn't buy", "needn't have bought"], "answer": 3, "why": "Действие состоялось, но было лишним («зря») — needn't have + причастие. didn't need to подразумевает, что, скорее всего, не купил бы." }
+  ],
+  "b2-passive-voice-advanced": [
+    { "q": "The house ___ right now.", "options": ["is being built", "is build", "is built", "builds"], "answer": 0, "why": "Пассив в Present Continuous — is/are + being + V3: is being built. is build и is built не передают процесс прямо сейчас." },
+    { "q": "It ___ that he is very rich.", "options": ["is saying", "says", "is said", "said"], "answer": 2, "why": "Безличный пассив — It is said that… (= говорят, что). is saying было бы активом в Continuous, а «оно» не «говорит»." },
+    { "q": "The documents ___ yet.", "options": ["have been sign", "have been signed", "have signed", "been signed"], "answer": 1, "why": "Пассив в Present Perfect — have/has + been + V3: have been signed. V3 от sign — signed, не sign." },
+    { "q": "English ___ in many countries.", "options": ["speaks", "is speak", "spoken", "is spoken"], "answer": 3, "why": "Пассив в Present Simple — is/are + V3: is spoken. speaks — актив (язык не «говорит» сам)." },
+    { "q": "The bridge ___ in 1890.", "options": ["was built", "built", "was build", "has built"], "answer": 0, "why": "Пассив в Past Simple — was/were + V3: was built. built без was и was build (не V3) — ошибки." },
+    { "q": "The new policy ___ next month.", "options": ["will announce", "is announced", "will be announced", "announces"], "answer": 2, "why": "Пассив в будущем — will be + V3: will be announced. will announce — актив, а политику не «объявляют себя»." }
+  ],
+  "b2-past-perfect": [
+    { "q": "When I arrived, the train ___ .", "options": ["already left", "left", "had already left", "has left"], "answer": 2, "why": "Действие раньше другого в прошлом — Past Perfect: the train had already left. Простое left не показывает, что оно было до приезда." },
+    { "q": "I ___ home before she called.", "options": ["had gone", "went", "have gone", "had went"], "answer": 0, "why": "had + V3 для всех лиц: had gone. V3 от go — gone, не went; had went — ошибка формы." },
+    { "q": "She ___ her work by 5 pm.", "options": ["finish", "finished", "has finished", "had finished"], "answer": 3, "why": "К моменту в прошлом (by 5 pm) — Past Perfect: had finished. has finished — Present Perfect, не подходит к прошлому моменту." },
+    { "q": "He realised he ___ his keys.", "options": ["loses", "had lost", "has lost", "lost"], "answer": 1, "why": "Потеря случилась до того, как он осознал → Past Perfect: he had lost his keys." },
+    { "q": "After they ___ dinner, they went out.", "options": ["have eaten", "had eat", "had eaten", "have"], "answer": 2, "why": "Действие раньше went out — Past Perfect: had eaten. have eaten не согласуется с прошлым went out; had eat — битая форма." },
+    { "q": "By the time we got there, the film ___ .", "options": ["had started", "started", "has started", "starts"], "answer": 0, "why": "К прошлому моменту (by the time we got there) — Past Perfect: the film had started." }
+  ],
+  "b2-past-perfect-continuous": [
+    { "q": "I ___ him for years before we finally met.", "options": ["had been knowing", "had known", "have known", "knew"], "answer": 1, "why": "know — глагол состояния, в Continuous не используется даже в Perfect: I had known him, не had been knowing." },
+    { "q": "It ___ all night before the flood.", "options": ["had been rain", "had rain", "has been raining", "had been raining"], "answer": 3, "why": "Continuous требует -ing: had been raining. had been rain (без -ing) — ошибка; has been raining — не прошлое-в-прошлом." },
+    { "q": "She was exhausted because she ___ all day.", "options": ["had been working", "worked", "has worked", "was working"], "answer": 0, "why": "Длительный процесс до момента в прошлом, оставивший след (усталость) — Past Perfect Continuous: had been working." },
+    { "q": "They ___ there ___ five years when they moved.", "options": ["had lived / since", "had been living / since", "had been living / for", "lived / for"], "answer": 2, "why": "Акцент на длительности + период (five years) → for, не since; и Continuous: had been living for five years." },
+    { "q": "His eyes were red — he ___ .", "options": ["cried", "had been crying", "has cried", "was crying"], "answer": 1, "why": "Видимый след завершившегося процесса в прошлом — Past Perfect Continuous: he had been crying." },
+    { "q": "How long ___ you ___ before you quit?", "options": ["had / been waiting", "did / wait", "have / waited", "were / waiting"], "answer": 0, "why": "how long + процесс до момента в прошлом (quit) — Past Perfect Continuous: How long had you been waiting?" }
+  ],
+  "b2-relative-clauses": [
+    { "q": "My brother, ___ lives in Paris, is a doctor.", "options": ["that", "which", "who", "whom"], "answer": 2, "why": "Non-defining (с запятыми) про человека — who, не that. that в придаточных с запятыми не используется." },
+    { "q": "The man ___ called you is here.", "options": ["who", "which", "what", "whom"], "answer": 0, "why": "Defining про человека-подлежащее — who: The man who called you. which — для вещей, what сюда не ставится." },
+    { "q": "The students ___ passed the exam got a prize.", "options": [", who passed", ", that passed", ", which passed", "who passed"], "answer": 3, "why": "Defining (без запятых) = только сдавшие. Запятая превратила бы в non-defining и поменяла смысл на «все студенты, которые кстати сдали»." },
+    { "q": "The book ___ I bought is great.", "options": ["who", "which", "whom", "whose"], "answer": 1, "why": "Defining про вещь-объект — which (или that): The book which I bought. who/whom — для людей." },
+    { "q": "That's the woman ___ son is famous.", "options": ["who", "which", "whose", "whom"], "answer": 2, "why": "Принадлежность («чей») — whose: the woman whose son. who/which принадлежность не передают." },
+    { "q": "Paris, ___ I was born, is beautiful.", "options": ["where", "which", "that", "when"], "answer": 0, "why": "Non-defining про место — where: Paris, where I was born. which потребовало бы предлога (in which)." }
+  ],
+  "b2-second-conditional": [
+    { "q": "If I ___ rich, I'd buy a car.", "options": ["would be", "were", "am", "will be"], "answer": 1, "why": "Нереальное настоящее — if + Past Simple: If I were rich. would в if-части — ошибка; am/will не дают нереальности." },
+    { "q": "If I ___ you, I'd accept the offer.", "options": ["was", "am", "would be", "were"], "answer": 3, "why": "Формально were для всех лиц, включая I: If I were you. was допустимо разговорно, но were — норма." },
+    { "q": "If she ___ here, she'd help us.", "options": ["were", "would be", "is", "will be"], "answer": 0, "why": "Нереальное настоящее — if + Past Simple (were): If she were here. would be в if-части — ошибка." },
+    { "q": "If I ___ more time, I'd travel.", "options": ["would have", "will have", "had", "have"], "answer": 2, "why": "Нереальное настоящее — if + Past Simple: If I had more time. would have/will have в if-части — ошибки." },
+    { "q": "If they ___ earlier, they'd catch the train.", "options": ["leave", "left", "would leave", "leaving"], "answer": 1, "why": "Маловероятное будущее/настоящее — if + Past Simple: If they left. leave (Present) дало бы первое условие." },
+    { "q": "I ___ travel more if I had the money.", "options": ["will", "would to", "am", "would"], "answer": 3, "why": "Главная часть второго условия — would + инфинитив: I would travel. would to не существует; will — для первого условия." }
+  ],
+  "b2-third-conditional": [
+    { "q": "If I ___, I'd have come to the party.", "options": ["would have known", "will know", "had known", "know"], "answer": 2, "why": "Нереальное прошлое — if + Past Perfect: If I had known. would have known в if-части — ошибка." },
+    { "q": "If she had studied, she ___ the exam.", "options": ["would have passed", "would pass", "passed", "passes"], "answer": 0, "why": "Главная часть третьего условия — would have + V3: she'd have passed. would pass дало бы второе условие." },
+    { "q": "I ___ if I'd seen the warning sign.", "options": ["would stop", "would have stop", "stopped", "would have stopped"], "answer": 3, "why": "would have + V3: would have stopped. would have stop (без -ed) — битая форма; would stop — не про прошлое." },
+    { "q": "If we ___ earlier, we wouldn't have missed it.", "options": ["leave", "had left", "would leave", "left"], "answer": 1, "why": "if-часть третьего условия — Past Perfect: If we had left. left дало бы второе условие." },
+    { "q": "If he ___ the map, he wouldn't have got lost.", "options": ["reads", "read", "had read", "would read"], "answer": 2, "why": "Нереальное прошлое — if + Past Perfect: If he had read the map." },
+    { "q": "They ___ differently if they'd known the truth.", "options": ["would have acted", "would act", "acted", "act"], "answer": 0, "why": "Главная часть третьего условия — would have + V3: they'd have acted." }
+  ],
+  "b2-wish-if-only": [
+    { "q": "I wish I ___ rich (but I'm not).", "options": ["am", "were", "will be", "would be"], "answer": 1, "why": "Желание про настоящее — wish + Past Simple: I wish I were rich. am/will be не дают нереальности." },
+    { "q": "I wish I ___ harder before the exam (regret).", "options": ["studied", "study", "had studied", "would study"], "answer": 2, "why": "Сожаление о прошлом — wish + Past Perfect: I wish I had studied. Простое studied передало бы настоящее." },
+    { "q": "If only she ___ here right now.", "options": ["were", "is", "was being", "will be"], "answer": 0, "why": "Нереальное настоящее — if only + Past Simple, were для всех лиц: If only she were here." },
+    { "q": "I wish you ___ tapping the table like that.", "options": ["stop", "stopped", "will stop", "would stop"], "answer": 3, "why": "Раздражение чужим поведением — wish + would: I wish you would stop. stopped передало бы статичное желание, а не «перестань же»." },
+    { "q": "I wish I ___ swim — the pool looks great.", "options": ["can", "could", "will", "would"], "answer": 1, "why": "Способность в настоящем — wish + could: I wish I could swim. can не даёт нереальности." },
+    { "q": "I wish I ___ more patient (a quality about myself).", "options": ["would be", "am", "were", "will be"], "answer": 2, "why": "Статичное качество про себя — wish + were, не would be: I wish I were more patient. would про себя в статичном смысле нельзя." }
+  ]
+}

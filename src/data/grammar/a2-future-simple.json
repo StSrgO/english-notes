@@ -124,5 +124,72 @@
     "Не лепи will к расписаниям: «The train will leave at 9» поймут, но нейтив скажет The train leaves at 9 (Present Simple для графиков). will — для решений и мнений, не для расписаний."
   ],
   "related": ["a2-be-going-to", "a1-present-continuous", "a2-past-continuous", "a1-present-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I think it ___ tomorrow.",
+        "options":  [
+                        "rains",
+                        "will rain",
+                        "raining",
+                        "rain"
+                    ],
+        "answer":  1,
+        "why":  "Прогноз-мнение с I think — will: I think it will rain. Present Simple (rains) сюда не подходит."
+    },
+    {
+        "q":  "I ___ help you, I promise.",
+        "options":  [
+                        "will",
+                        "will to",
+                        "wills",
+                        "am will"
+                    ],
+        "answer":  0,
+        "why":  "Обещание — will + голый инфинитив: I will help. will to не существует."
+    },
+    {
+        "q":  "She ___ come to the party.",
+        "options":  [
+                        "will",
+                        "wills",
+                        "wills to",
+                        "is will"
+                    ],
+        "answer":  0,
+        "why":  "will не меняется по лицам: She will come, не She wills."
+    },
+    {
+        "q":  "___ you marry me?",
+        "options":  [
+                        "Will",
+                        "Do",
+                        "Are",
+                        "Does"
+                    ],
+        "answer":  0,
+        "why":  "Предложение/вопрос о будущем — Will you…? do/are с будущим смыслом здесь не работают."
+    },
+    {
+        "q":  "I ___ call you later.",
+        "options":  [
+                        "will to",
+                        "will",
+                        "am will",
+                        "wills"
+                    ],
+        "answer":  1,
+        "why":  "Спонтанное решение/обещание — will + инфинитив без to: I will call."
+    },
+    {
+        "q":  "They probably ___ late.",
+        "options":  [
+                        "are be",
+                        "will be",
+                        "be will",
+                        "will to be"
+                    ],
+        "answer":  1,
+        "why":  "Прогноз с probably — will be. Порядок be will и will to be неверны."
+    }
+]
 }

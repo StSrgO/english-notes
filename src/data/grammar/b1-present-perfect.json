@@ -133,5 +133,72 @@
     "Сокращения в речи сливаются: I've = /aɪv/, you've = /juːv/, they've = /ðeɪv/. has в she's/he's на слух почти не слышен — опознавай Perfect по V3 и по маркерам, а не по вспомогательному."
   ],
   "related": ["a1-past-simple", "a1-present-simple", "b1-present-perfect-continuous", "b1-reported-speech"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ him yesterday.",
+        "options":  [
+                        "have seen",
+                        "saw",
+                        "seen",
+                        "seeing"
+                    ],
+        "answer":  1,
+        "why":  "С конкретным временем в прошлом (yesterday) — Past Simple, не Present Perfect: I saw him yesterday."
+    },
+    {
+        "q":  "She ___ just finished her work.",
+        "options":  [
+                        "has",
+                        "have",
+                        "is",
+                        "had"
+                    ],
+        "answer":  0,
+        "why":  "С he/she/it в Present Perfect — has: She has just finished. have — для I/you/we/they."
+    },
+    {
+        "q":  "I ___ here for five years.",
+        "options":  [
+                        "live",
+                        "lived",
+                        "have lived",
+                        "am living"
+                    ],
+        "answer":  2,
+        "why":  "Действие началось в прошлом и длится до сих пор (for five years) — Present Perfect: I have lived."
+    },
+    {
+        "q":  "___ you ever ___ sushi?",
+        "options":  [
+                        "Did / eat",
+                        "Have / eaten",
+                        "Do / eat",
+                        "Has / eaten"
+                    ],
+        "answer":  1,
+        "why":  "Опыт к моменту речи (ever) — Present Perfect: Have you ever eaten? с you форма Have."
+    },
+    {
+        "q":  "They ___ already left.",
+        "options":  [
+                        "have",
+                        "has",
+                        "are",
+                        "had"
+                    ],
+        "answer":  0,
+        "why":  "С they в Present Perfect — have: They have already left."
+    },
+    {
+        "q":  "He ___ never been to Paris.",
+        "options":  [
+                        "has",
+                        "have",
+                        "is",
+                        "had"
+                    ],
+        "answer":  0,
+        "why":  "С he в Present Perfect — has: He has never been. never — маркер опыта."
+    }
+]
 }

@@ -134,5 +134,72 @@
     "I wish I could / I wish I were doing — живые расширения: I wish I could help (хотел бы я мочь), I wish I were lying on a beach (хотел бы я сейчас лежать на пляже — wish + Past Continuous для «прямо сейчас»). Делают речь выразительнее."
   ],
   "related": ["b2-second-conditional", "b2-third-conditional", "b2-mixed-conditionals", "b1-modals-should-might-may"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I wish I ___ rich (but I\u0027m not).",
+        "options":  [
+                        "am",
+                        "were",
+                        "will be",
+                        "would be"
+                    ],
+        "answer":  1,
+        "why":  "Желание про настоящее — wish + Past Simple: I wish I were rich. am/will be не дают нереальности."
+    },
+    {
+        "q":  "I wish I ___ harder before the exam (regret).",
+        "options":  [
+                        "studied",
+                        "study",
+                        "had studied",
+                        "would study"
+                    ],
+        "answer":  2,
+        "why":  "Сожаление о прошлом — wish + Past Perfect: I wish I had studied. Простое studied передало бы настоящее."
+    },
+    {
+        "q":  "If only she ___ here right now.",
+        "options":  [
+                        "were",
+                        "is",
+                        "was being",
+                        "will be"
+                    ],
+        "answer":  0,
+        "why":  "Нереальное настоящее — if only + Past Simple, were для всех лиц: If only she were here."
+    },
+    {
+        "q":  "I wish you ___ tapping the table like that.",
+        "options":  [
+                        "stop",
+                        "stopped",
+                        "will stop",
+                        "would stop"
+                    ],
+        "answer":  3,
+        "why":  "Раздражение чужим поведением — wish + would: I wish you would stop. stopped передало бы статичное желание, а не «перестань же»."
+    },
+    {
+        "q":  "I wish I ___ swim — the pool looks great.",
+        "options":  [
+                        "can",
+                        "could",
+                        "will",
+                        "would"
+                    ],
+        "answer":  1,
+        "why":  "Способность в настоящем — wish + could: I wish I could swim. can не даёт нереальности."
+    },
+    {
+        "q":  "I wish I ___ more patient (a quality about myself).",
+        "options":  [
+                        "would be",
+                        "am",
+                        "were",
+                        "will be"
+                    ],
+        "answer":  2,
+        "why":  "Статичное качество про себя — wish + were, не would be: I wish I were more patient. would про себя в статичном смысле нельзя."
+    }
+]
 }

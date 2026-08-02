@@ -136,5 +136,72 @@
     "Тренируй через «переключение прожектора». Возьми одно нейтральное предложение (The manager rejected the proposal in the meeting) и сделай четыре cleft: подсвети подлежащее, дополнение, место, время. Это упражнение лучше всего учит, что факт один, а фокус — твой выбор."
   ],
   "related": ["c1-emphasis-do-and-fronting", "c1-inversion-after-negative-adverbials", "c2-participle-clauses"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "Постройте it-cleft с прожектором на Tom: Tom broke the window.",
+        "options":  [
+                        "It was Tom that broke the window.",
+                        "It was Tom who broke the window.",
+                        "It was Tom which broke the window.",
+                        "Tom who broke the window."
+                    ],
+        "answer":  1,
+        "why":  "Подсвечиваешь человека как подлежащее — who: It was Tom who broke. that поймут, но who — чище; а «Tom who...» без It was — обрывок конструкции."
+    },
+    {
+        "q":  "What I need ___ new shoes.",
+        "options":  [
+                        "are",
+                        "is",
+                        "were",
+                        "be"
+                    ],
+        "answer":  1,
+        "why":  "В what-cleft глагол согласуется с what-частью (единственное число), поэтому is, даже если фокус множественный: What I need is new shoes. Согласование по «shoes» (are) — частая ошибка."
+    },
+    {
+        "q":  "All I did ___ a simple question.",
+        "options":  [
+                        "was to ask",
+                        "was asking",
+                        "was ask",
+                        "was asked"
+                    ],
+        "answer":  2,
+        "why":  "После all I did was идёт голый инфинитив без to: was ask. Добавить to или -ing — не идиома; носитель опускает to."
+    },
+    {
+        "q":  "Постройте it-cleft с прожектором на месте: I met her in Paris.",
+        "options":  [
+                        "It was Paris that I met her.",
+                        "It was where Paris I met her.",
+                        "It was in Paris that I met her.",
+                        "It was in Paris where I met her."
+                    ],
+        "answer":  2,
+        "why":  "Предлог из исходной фразы остаётся внутри подсвеченного обстоятельства: It was in Paris that I met her. Терять in или ставить where после in Paris — ошибка."
+    },
+    {
+        "q":  "It ___ yesterday that he called.",
+        "options":  [
+                        "is",
+                        "was",
+                        "has been",
+                        "were"
+                    ],
+        "answer":  1,
+        "why":  "Время be в it-cleft = время факта. Факт в прошлом (yesterday) → was, а не is. Это частая нестыковка: форма be должна совпадать со временем события."
+    },
+    {
+        "q":  "Отметьте корректный cleft с контрастом.",
+        "options":  [
+                        "It wasn\u0027t the price but the principle that I object to.",
+                        "It wasn\u0027t the price but the principle that I object.",
+                        "Wasn\u0027t the price but the principle that I object to.",
+                        "It wasn\u0027t the price but the principle which I object."
+                    ],
+        "answer":  0,
+        "why":  "Предлог object to обязан остаться (that I object to), а конструкция требует It в начале. Обрывок без It и потеря to ломают cleft."
+    }
+]
 }

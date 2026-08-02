@@ -126,5 +126,72 @@
     "Связь с wish: I wish I had more money = If I had more money, I would… — одно и то же нереальное настоящее с двух сторон. wish + Past Simple и Second Conditional — братья; выучи их вместе."
   ],
   "related": ["b1-first-conditional", "b1-zero-conditional", "a2-future-simple", "b2-third-conditional"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "If I ___ rich, I\u0027d buy a car.",
+        "options":  [
+                        "would be",
+                        "were",
+                        "am",
+                        "will be"
+                    ],
+        "answer":  1,
+        "why":  "Нереальное настоящее — if + Past Simple: If I were rich. would в if-части — ошибка; am/will не дают нереальности."
+    },
+    {
+        "q":  "If I ___ you, I\u0027d accept the offer.",
+        "options":  [
+                        "was",
+                        "am",
+                        "would be",
+                        "were"
+                    ],
+        "answer":  3,
+        "why":  "Формально were для всех лиц, включая I: If I were you. was допустимо разговорно, но were — норма."
+    },
+    {
+        "q":  "If she ___ here, she\u0027d help us.",
+        "options":  [
+                        "were",
+                        "would be",
+                        "is",
+                        "will be"
+                    ],
+        "answer":  0,
+        "why":  "Нереальное настоящее — if + Past Simple (were): If she were here. would be в if-части — ошибка."
+    },
+    {
+        "q":  "If I ___ more time, I\u0027d travel.",
+        "options":  [
+                        "would have",
+                        "will have",
+                        "had",
+                        "have"
+                    ],
+        "answer":  2,
+        "why":  "Нереальное настоящее — if + Past Simple: If I had more time. would have/will have в if-части — ошибки."
+    },
+    {
+        "q":  "If they ___ earlier, they\u0027d catch the train.",
+        "options":  [
+                        "leave",
+                        "left",
+                        "would leave",
+                        "leaving"
+                    ],
+        "answer":  1,
+        "why":  "Маловероятное будущее/настоящее — if + Past Simple: If they left. leave (Present) дало бы первое условие."
+    },
+    {
+        "q":  "I ___ travel more if I had the money.",
+        "options":  [
+                        "will",
+                        "would to",
+                        "am",
+                        "would"
+                    ],
+        "answer":  3,
+        "why":  "Главная часть второго условия — would + инфинитив: I would travel. would to не существует; will — для первого условия."
+    }
+]
 }

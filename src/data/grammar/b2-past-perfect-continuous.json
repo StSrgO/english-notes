@@ -126,5 +126,72 @@
     "В рассказах Past Perfect Continuous создаёт фон и атмосферу: The sun had been shining, birds had been singing — «декорации», которые тянулись до главного события. Живой приём для нарратива."
   ],
   "related": ["b2-past-perfect", "b1-present-perfect-continuous", "a2-past-continuous", "a1-past-simple"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ him for years before we finally met.",
+        "options":  [
+                        "had been knowing",
+                        "had known",
+                        "have known",
+                        "knew"
+                    ],
+        "answer":  1,
+        "why":  "know — глагол состояния, в Continuous не используется даже в Perfect: I had known him, не had been knowing."
+    },
+    {
+        "q":  "It ___ all night before the flood.",
+        "options":  [
+                        "had been rain",
+                        "had rain",
+                        "has been raining",
+                        "had been raining"
+                    ],
+        "answer":  3,
+        "why":  "Continuous требует -ing: had been raining. had been rain (без -ing) — ошибка; has been raining — не прошлое-в-прошлом."
+    },
+    {
+        "q":  "She was exhausted because she ___ all day.",
+        "options":  [
+                        "had been working",
+                        "worked",
+                        "has worked",
+                        "was working"
+                    ],
+        "answer":  0,
+        "why":  "Длительный процесс до момента в прошлом, оставивший след (усталость) — Past Perfect Continuous: had been working."
+    },
+    {
+        "q":  "They ___ there ___ five years when they moved.",
+        "options":  [
+                        "had lived / since",
+                        "had been living / since",
+                        "had been living / for",
+                        "lived / for"
+                    ],
+        "answer":  2,
+        "why":  "Акцент на длительности + период (five years) → for, не since; и Continuous: had been living for five years."
+    },
+    {
+        "q":  "His eyes were red — he ___ .",
+        "options":  [
+                        "cried",
+                        "had been crying",
+                        "has cried",
+                        "was crying"
+                    ],
+        "answer":  1,
+        "why":  "Видимый след завершившегося процесса в прошлом — Past Perfect Continuous: he had been crying."
+    },
+    {
+        "q":  "How long ___ you ___ before you quit?",
+        "options":  [
+                        "had / been waiting",
+                        "did / wait",
+                        "have / waited",
+                        "were / waiting"
+                    ],
+        "answer":  0,
+        "why":  "how long + процесс до момента в прошлом (quit) — Past Perfect Continuous: How long had you been waiting?"
+    }
+]
 }

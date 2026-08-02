@@ -125,5 +125,72 @@
     "Некоторые глаголы почти всегда Continuous в этом времени, потому что описывают тянущуюся деятельность: work, study, wait, live, rain, sleep, practise. I've been working here for years звучит естественнее, чем I've worked, когда хочешь подчеркнуть процесс."
   ],
   "related": ["b1-present-perfect", "a1-present-continuous", "a2-past-continuous"],
-  "quiz": []
+  "quiz": [
+    {
+        "q":  "I ___ him for ages.",
+        "options":  [
+                        "have been knowing",
+                        "have known",
+                        "know",
+                        "am knowing"
+                    ],
+        "answer":  1,
+        "why":  "know — глагол состояния, в Continuous не используется даже в Perfect: I have known him, не have been knowing."
+    },
+    {
+        "q":  "She ___ here since 2010.",
+        "options":  [
+                        "has been working",
+                        "has worked",
+                        "is working",
+                        "worked"
+                    ],
+        "answer":  0,
+        "why":  "Акцент на длительности процесса с since — Present Perfect Continuous: She has been working."
+    },
+    {
+        "q":  "It ___ all night.",
+        "options":  [
+                        "has been rain",
+                        "has been raining",
+                        "has rain continuous",
+                        "is raining"
+                    ],
+        "answer":  1,
+        "why":  "Continuous требует -ing: It has been raining. has been rain (без -ing) — ошибка."
+    },
+    {
+        "q":  "How long ___ you ___ English?",
+        "options":  [
+                        "have / been learning",
+                        "do / learn",
+                        "did / learn",
+                        "are / learning"
+                    ],
+        "answer":  0,
+        "why":  "how long + процесс до сих пор — Present Perfect Continuous: How long have you been learning?"
+    },
+    {
+        "q":  "They ___ in the garden all morning.",
+        "options":  [
+                        "have been working",
+                        "worked",
+                        "work",
+                        "are working"
+                    ],
+        "answer":  0,
+        "why":  "all morning + акцент на длительности — Present Perfect Continuous: They have been working."
+    },
+    {
+        "q":  "I ___ for you since 3 o\u0027clock!",
+        "options":  [
+                        "wait",
+                        "have waited",
+                        "have been waiting",
+                        "am waiting"
+                    ],
+        "answer":  2,
+        "why":  "Раздражение + длительность с since — Present Perfect Continuous: I have been waiting."
+    }
+]
 }
