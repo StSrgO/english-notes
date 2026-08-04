@@ -1,6 +1,5 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Icon from '../../components/Icon.astro';
 import Quiz from '../../components/Quiz.astro';
 import quizBank from '../../data/quiz-bank.json';
 
@@ -9,6 +8,7 @@ export function getStaticPaths() {
   const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
   return topics.map((t) => ({ params: { slug: t.slug }, props: { topic: t, topics } }));
 }
+
 const { topic, topics } = Astro.props;
 
 function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
@@ -18,188 +18,217 @@ function highlight(text, tokens) {
   return out;
 }
 
-const categories = [...new Set(topics.map((t) => t.category))];
-const sideTopics = (cat) => topics.filter((t) => t.category === cat);
 const related = topics.filter((t) => topic.related && topic.related.includes(t.slug));
+
+const levelTopics = topics.filter((t) => t.level === topic.level);
+const levelIdx = levelTopics.findIndex((t) => t.slug === topic.slug);
+const nextTopic = (levelIdx >= 0 && levelIdx < levelTopics.length - 1) ? levelTopics[levelIdx + 1] : null;
+const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
 ---
 <Base title={topic.title + ' — EnglishNotes'} currentSlug={topic.slug}>
-  <div class="wrap topic">
-    <aside class="side">
-      {categories.map((cat) => (
-        <div class="side__group">
-          <span>{cat}</span>
-          {sideTopics(cat).map((t) => (
-            <a href={'/grammar/' + t.slug} class:list={{ 'is-current': t.slug === topic.slug }}>{t.title}</a>
-          ))}
-        </div>
-      ))}
+  <div class="wrap topic topic--v2">
+    <aside class="side side--v3">
+      <div class="side3__pager">
+        {prevTopic ? (
+          <a href={'/grammar/' + prevTopic.slug} class="side3__pg side3__pg--prev">
+            <span class="side3__pg-eye">← предыдущий урок</span>
+            <span class="side3__pg-t">{prevTopic.title}</span>
+          </a>
+        ) : (
+          <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--prev">
+            <span class="side3__pg-eye">← к уровню</span>
+            <span class="side3__pg-t">Все темы {topic.level}</span>
+          </a>
+        )}
+        {nextTopic ? (
+          <a href={'/grammar/' + nextTopic.slug} class="side3__pg side3__pg--next">
+            <span class="side3__pg-eye">следующий урок →</span>
+            <span class="side3__pg-t">{nextTopic.title}</span>
+          </a>
+        ) : (
+          <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--next">
+            <span class="side3__pg-eye">уровень завершён →</span>
+            <span class="side3__pg-t">Все темы {topic.level}</span>
+          </a>
+        )}
+      </div>
+      <nav class="side3__nav" aria-label="Секции урока">
+        <a href="#idea" class="side3__link" data-spy="idea">Суть явления</a>
+        <a href="#why" class="side3__link" data-spy="why">Зачем это нужно</a>
+        <a href="#context" class="side3__link" data-spy="context">Живой контекст</a>
+        <a href="#russian" class="side3__link" data-spy="russian">Через русский</a>
+        <a href="#learn" class="side3__link" data-spy="learn">Как освоить</a>
+        <a href="#reference" class="side3__link" data-spy="reference">Справочник</a>
+        <a href="#quiz" class="side3__link" data-spy="quiz">Проверь себя</a>
+        {related.length > 0 && <a href="#related" class="side3__link" data-spy="related">Связанные темы</a>}
+      </nav>
     </aside>
 
-    <article>
-      <p class="eyebrow">{topic.category} · уровень {topic.level}</p>
-      <h1 class="topic__title"><span class="hl-mark">{topic.title}</span></h1>
-      <div class="topic__meta">
-        <span class="tag tag--lvl">Уровень {topic.level}</span>
-        <span class="tag">≈ {topic.readingTime} мин</span>
-      </div>
-      <p class="muted" style="max-width:60ch;font-size:18px">{topic.summary}</p>
+    <article class="lesson-v2">
+      <header class="lv2-head">
+        <p class="eyebrow">{topic.category} · уровень {topic.level}</p>
+        <h1 class="lv2-title"><span class="hl-mark">{topic.title}</span></h1>
+        <div class="topic__meta">
+          <span class="tag tag--lvl">Уровень {topic.level}</span>
+          <span class="tag">≈ {topic.readingTime} мин</span>
+        </div>
+        <p class="lv2-summary">{topic.summary}</p>
+        <div class="topic__actions">
+          <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
+          <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
+        </div>
+      </header>
 
-      <div class="topic__actions">
-        <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false"><Icon name="check" accent={false} size={17} /> Отметить изученным</button>
-        <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false"><Icon name="star" accent={false} size={17} /> В избранное</button>
-      </div>
+      <section id="idea" class="lv2-sec" data-reveal>
+        <h2 class="lv2-h">Суть явления</h2>
+        <div class="lv2-prose lv2-prose--drop">
+          {topic.idea.map((p) => <p>{p}</p>)}
+        </div>
+      </section>
 
-      <div class="lesson">
-        <section class="lesson__block idea" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="book" size={30} /></span>Суть явления</h2>
-          {topic.idea.map((p) => <p class="idea__p">{p}</p>)}
-        </section>
+      <section id="why" class="lv2-sec" data-reveal>
+        <h2 class="lv2-h">Зачем это нужно</h2>
+        <ul class="why-list--v2">
+          {topic.why.map((w) => <li>{w}</li>)}
+        </ul>
+      </section>
 
-        <section class="lesson__block" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="target" size={30} /></span>Зачем это нужно</h2>
-          <ul class="why-list">
-            {topic.why.map((w) => <li><Icon name="check" size={18} />{w}</li>)}
-          </ul>
-        </section>
+      <section id="context" class="lv2-sec" data-reveal>
+        <h2 class="lv2-h">Живой контекст</h2>
+        <div class="dialog">
+          {topic.context.lines.map((l) => (
+            <div class="dialog__line">
+              <div class="dialog__en">{l.en}</div>
+              <div class="dialog__ru">{l.ru}</div>
+            </div>
+          ))}
+          {topic.context.note && <p class="dialog__note">{topic.context.note}</p>}
+        </div>
+      </section>
 
-        <section class="lesson__block" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="chat" size={30} /></span>Живой контекст</h2>
-          <div class="dialog">
-            {topic.context.lines.map((l) => (
-              <div class="dialog__line">
-                <div class="dialog__en">{l.en}</div>
-                <div class="dialog__ru">{l.ru}</div>
-              </div>
-            ))}
-            {topic.context.note && <p class="dialog__note">{topic.context.note}</p>}
-          </div>
-        </section>
+      <section id="russian" class="lv2-sec lv2-sec--mint" data-reveal>
+        <h2 class="lv2-h">Взгляд через русский</h2>
+        <ul class="ru-list--v2">
+          {topic.russianAngle.map((r) => <li>{r}</li>)}
+        </ul>
+      </section>
 
-        <section class="lesson__block ru-angle" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="arrows" size={30} /></span>Взгляд через русский</h2>
-          <ul class="ru-list">
-            {topic.russianAngle.map((r) => <li><Icon name="arrows" size={18} />{r}</li>)}
-          </ul>
-        </section>
-
-        <section class="lesson__block" data-reveal>
-          <h2 class="lesson__h"><span class="lesson__ico"><Icon name="pencil" size={30} /></span>Как освоить</h2>
-          <ol class="howto">
-            {topic.howToLearn.steps.map((s) => <li>{s}</li>)}
-          </ol>
-          {topic.howToLearn.exercise && (
-            <div class="try">
-              {topic.howToLearn.exercise.prompt && <p class="try__prompt">{topic.howToLearn.exercise.prompt}</p>}
-              <ol class="try__q">
-                {topic.howToLearn.exercise.items.map((it) => <li set:html={highlight(it.q, [])}></li>)}
+      <section id="learn" class="lv2-sec" data-reveal>
+        <h2 class="lv2-h">Как освоить</h2>
+        <ol class="howto">
+          {topic.howToLearn.steps.map((s) => <li>{s}</li>)}
+        </ol>
+        {topic.howToLearn.exercise && (
+          <div class="try">
+            {topic.howToLearn.exercise.prompt && <p class="try__prompt">{topic.howToLearn.exercise.prompt}</p>}
+            <ol class="try__q">
+              {topic.howToLearn.exercise.items.map((it) => <li set:html={highlight(it.q, [])}></li>)}
+            </ol>
+            <details class="try__a">
+              <summary>Показать ответы</summary>
+              <ol>
+                {topic.howToLearn.exercise.items.map((it) => <li>{it.a}</li>)}
               </ol>
-              <details class="try__a">
-                <summary>Показать ответы</summary>
-                <ol>
-                  {topic.howToLearn.exercise.items.map((it) => <li>{it.a}</li>)}
-                </ol>
-              </details>
-            </div>
-          )}
-        </section>
-      </div>
-
-      <details class="ref" open>
-        <summary class="ref__sum">Повторяю / справочник</summary>
-        <div class="ref__body">
-          <div class="ruled">
-            <div class="formula">{topic.formula}</div>
-            <div class="struct"><b>+</b> {topic.structure.positive}</div>
-            <div class="struct"><b>−</b> {topic.structure.negative}</div>
-            <div class="struct"><b>?</b> {topic.structure.question}</div>
-            {topic.markers && topic.markers.length > 0 && (
-              <p class="muted" style="margin-top:12px;font-size:14px">Маркеры: {topic.markers.join(' · ')}</p>
-            )}
+            </details>
           </div>
+        )}
+      </section>
 
-          <div class="block">
-            <h2>Когда используется</h2>
-            <ul class="use-list">
-              {topic.uses.map((u) => <li><Icon name="arrow" size={18} />{u}</li>)}
-            </ul>
+      <section id="reference" class="lv2-sec" data-reveal>
+        <h2 class="lv2-h">Справочник</h2>
+        <div class="lv2-formula">{topic.formula}</div>
+        <div class="lv2-struct">
+          <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{topic.structure.positive}</span></div>
+          <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{topic.structure.negative}</span></div>
+          <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{topic.structure.question}</span></div>
+        </div>
+        {topic.markers && topic.markers.length > 0 && (
+          <div class="lv2-markers">
+            {topic.markers.map((m) => <span class="tag">{m}</span>)}
           </div>
+        )}
 
-          <div class="block">
-            <h2>Правила и нюансы</h2>
-            <ul class="rule-list">
-              {topic.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
-            </ul>
-          </div>
+        <h3 class="lv2-h3">Когда используется</h3>
+        <ul class="use-list--v2">
+          {topic.uses.map((u) => <li>{u}</li>)}
+        </ul>
 
-          <div class="block">
-            <h2>Примеры по ситуациям</h2>
-            {topic.examples.map((g) => (
-              <div class="ex-group">
-                <h3 class="ex-group__t">{g.group}</h3>
-                <div class="examples">
-                  {g.items.map((ex) => (
-                    <div class="ex">
-                      <div class="en" set:html={highlight(ex.en, ex.highlight)}></div>
-                      <div class="ru">{ex.ru}</div>
-                    </div>
-                  ))}
+        <h3 class="lv2-h3">Правила и нюансы</h3>
+        <ul class="lv2-rules">
+          {topic.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
+        </ul>
+
+        <h3 class="lv2-h3">Примеры по ситуациям</h3>
+        {topic.examples.map((g) => (
+          <div class="lv2-exgroup">
+            <h4 class="lv2-exgroup__t">{g.group}</h4>
+            <div>
+              {g.items.map((ex) => (
+                <div class="lv2-ex">
+                  <div class="en" set:html={highlight(ex.en, ex.highlight)}></div>
+                  <div class="ru">{ex.ru}</div>
                 </div>
-              </div>
-            ))}
-          </div>
-
-          {topic.mistakes && topic.mistakes.length > 0 && (
-            <div class="block">
-              <h2>Типичные ошибки</h2>
-              <div class="mistakes">
-                {topic.mistakes.map((m) => (
-                  <div class="mistake">
-                    <div class="wrong">✗ {m.wrong}</div>
-                    <div class="right">✓ {m.right}</div>
-                    <div class="note">{m.note}</div>
-                  </div>
-                ))}
-              </div>
+              ))}
             </div>
-          )}
+          </div>
+        ))}
 
-          {topic.compare && (
-            <div class="block compare">
-              <h2>{topic.compare.title}</h2>
+        {topic.mistakes && topic.mistakes.length > 0 && (
+          <div>
+            <h3 class="lv2-h3">Типичные ошибки</h3>
+            <div class="lv2-mistakes">
               <table>
-                <thead><tr><th>{topic.compare.leftLabel}</th><th>{topic.compare.rightLabel}</th></tr></thead>
+                <thead><tr><th>Так не говорят</th><th>Так говорят</th></tr></thead>
                 <tbody>
-                  {topic.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
+                  {topic.mistakes.map((m) => (
+                    <tr>
+                      <td><span class="w">✗ {m.wrong}</span><span class="n">{m.note}</span></td>
+                      <td class="r">✓ {m.right}</td>
+                    </tr>
+                  ))}
                 </tbody>
               </table>
             </div>
-          )}
+          </div>
+        )}
 
-          {topic.tips && topic.tips.length > 0 && (
-            <div class="block tips-block">
-              <h2 class="lesson__h"><span class="lesson__ico"><Icon name="bulb" size={30} /></span>Лайфхаки преподавателя</h2>
-              <ul class="tips">
-                {topic.tips.map((t) => <li class="tip-card"><Icon name="bulb" size={18} />{t}</li>)}
-              </ul>
-            </div>
-          )}
-        </div>
-      </details>
+        {topic.compare && (
+          <div class="compare">
+            <h3 class="lv2-h3">{topic.compare.title}</h3>
+            <table>
+              <thead><tr><th>{topic.compare.leftLabel}</th><th>{topic.compare.rightLabel}</th></tr></thead>
+              <tbody>
+                {topic.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
+              </tbody>
+            </table>
+          </div>
+        )}
+
+        {topic.tips && topic.tips.length > 0 && (
+          <div>
+            <h3 class="lv2-h3">Лайфхаки преподавателя</h3>
+            <ul class="lv2-tips">
+              {topic.tips.map((t) => <li>{t}</li>)}
+            </ul>
+          </div>
+        )}
+      </section>
 
       {topic.quiz && topic.quiz.length > 0 && (
-        <div class="block quiz-wrap" data-reveal>
+        <section id="quiz" class="lv2-sec" data-reveal>
           <Quiz questions={topic.quiz} ui={quizBank.__ui} />
-        </div>
+        </section>
       )}
 
       {related.length > 0 && (
-        <div class="block">
-          <h2>Связанные темы</h2>
+        <section id="related" class="lv2-sec">
+          <h2 class="lv2-h">Связанные темы</h2>
           <div class="related">
             {related.map((r) => <a href={'/grammar/' + r.slug} class="chip">{r.title}</a>)}
           </div>
-        </div>
+        </section>
       )}
+
       {quizBank.__ui && quizBank.__ui.morePracticeLead && (
         <div class="practice" data-reveal>
           <p class="practice__eye">{quizBank.__ui.morePractice}</p>
@@ -220,4 +249,17 @@ const related = topics.filter((t) => topic.related && topic.related.includes(t.s
       )}
     </article>
   </div>
+
+  <script>
+    const links = Array.from(document.querySelectorAll('.side3__link'));
+    if (links.length) {
+      const secs = links.map((l) => document.getElementById(l.dataset.spy)).filter(Boolean);
+      const setActive = (id) => links.forEach((l) => l.classList.toggle('is-active', l.dataset.spy === id));
+      const spy = new IntersectionObserver((entries) => {
+        entries.forEach((en) => { if (en.isIntersecting) setActive(en.target.id); });
+      }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
+      secs.forEach((s) => spy.observe(s));
+      setActive('idea');
+    }
+  </script>
 </Base>
