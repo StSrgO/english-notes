@@ -739,3 +739,58 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .level-link.is-active .level-link__n { opacity: .8; }
 .site-foot__inner .brand__word { font-family: var(--display); font-weight: 800; font-size: 15.5px; letter-spacing: -0.02em; color: var(--ink); }
 .site-foot__inner .brand__word b { color: var(--mint-ink); }
+
+/* ============================================
+   ТУМБЛЕР СТИЛЕЙ УРОКА (Джентльмен/Рок-н-рольщик)
+   ============================================ */
+.style-toggle {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 12px;
+}
+
+.style-toggle__btn {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  padding: 8px 14px;
+  background: transparent;
+  border: none;
+  color: var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.style-toggle__btn:hover {
+  color: var(--ink);
+}
+
+.style-toggle__btn.is-active {
+  background: var(--mint-deep);
+  color: var(--mint-ink);
+}
+
+/* Переключение контента стилей */
+.lesson-v2[data-lesson-style="rocknrolla"] [data-style-gentleman] {
+  display: none;
+}
+
+.lesson-v2[data-lesson-style="gentleman"] [data-style-rocknrolla] {
+  display: none;
+}
+
+/* ПАНЕЛИ СТИЛЕЙ УРОКА (Джентльмен / Рок-н-рольщик) */
+[data-style-pane] {
+  display: none;
+}
+
+.lesson-v2[data-lesson-style="gentleman"] [data-style-pane="gentleman"] {
+  display: block;
+}
+
+.lesson-v2[data-lesson-style="rocknrolla"] [data-style-pane="rocknrolla"] {
+  display: block;
+}

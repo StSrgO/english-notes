@@ -8,8 +8,7 @@ const payload = JSON.stringify({ questions: questions || [], ui: ui || {} });
   </section>
 )}
 <script>
-  const root = document.querySelector('[data-quiz]');
-  if (root) {
+  document.querySelectorAll('[data-quiz]').forEach((root) => {
     const { questions, ui } = JSON.parse(root.dataset.quiz);
     const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
     const CHECK = '\u2713', CROSS = '\u2717', ARROW = '\u2192';
@@ -28,7 +27,7 @@ const payload = JSON.stringify({ questions: questions || [], ui: ui || {} });
       root.innerHTML = '<div class="quiz__head"><div><p class="quiz__eyebrow">' + esc(ui.eyebrow || '') + '</p><h2 class="quiz__title">' + esc(ui.title || '') + '</h2></div><span class="quiz__count">' + String(i + 1).padStart(2, '0') + ' / ' + String(questions.length).padStart(2, '0') + '</span></div><div class="quiz__dots" role="progressbar" aria-valuenow="' + (i + 1) + '" aria-valuemax="' + questions.length + '">' + dots() + '</div><p class="quiz__qlabel">' + esc(ui.qLabel || 'Question') + ' ' + (i + 1) + '</p><h3 class="quiz__q">' + esc(q.q) + '</h3><div class="quiz__opts">' + opts + '</div><div class="quiz__live" aria-live="polite">' + why + next + '</div>';
       bindStep();
     }
-    function bindStep() { root.querySelectorAll('.quiz__opt').forEach((b) => b.addEventListener('click', () => select(Number(b.dataset.opt)))); const nx = root.querySelector('.quiz__next'); if (nx) nx.addEventListener('click', () => { state.idx < questions.length - 1 ? (state.idx++, step()) : done(); }); }
+    function bindStep() { root.querySelectorAll('.quiz__opt').forEach((b) => b.addEventListener('click', () => select(Number(b.dataset.opt)))); const nx = root.querySelector('.quiz__next'); if (nx) nx.addEventListener('click', () => { if (state.idx < questions.length - 1) { state.idx++; step(); } else { done(); } }); }
     function select(origIdx) { const i = state.idx; if (answered(i)) return; state.sel[i] = origIdx; step(); }
     function verdictIndex() { const p = score() / questions.length; if (p >= 1) return 3; if (p >= 0.75) return 2; if (p >= 0.5) return 1; return 0; }
     function done() {
@@ -40,5 +39,5 @@ const payload = JSON.stringify({ questions: questions || [], ui: ui || {} });
       root.querySelector('.quiz__again').addEventListener('click', () => { state.idx = 0; state.sel = new Array(questions.length).fill(null); state.order = buildOrder(); step(); });
     }
     step();
-  }
+  });
 </script>

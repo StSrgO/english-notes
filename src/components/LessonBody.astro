@@ -1,0 +1,164 @@
+---
+import Quiz from './Quiz.astro';
+
+const { T, suffix, related, quizUi } = Astro.props;
+const s = suffix || '';
+const reveal = s === '' ? { 'data-reveal': '' } : {};
+
+function esc(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function highlight(text, tokens) {
+  let out = esc(text);
+  (tokens || []).forEach((tok) => { out = out.replace(esc(tok), '<mark class="hl">' + esc(tok) + '</mark>'); });
+  return out;
+}
+---
+
+<section id={'idea' + s} class="lv2-sec" data-spybase="idea" {...reveal}>
+  <h2 class="lv2-h">Суть явления</h2>
+  <div class="lv2-prose lv2-prose--drop">
+    {T.idea.map((p) => <p>{p}</p>)}
+  </div>
+</section>
+
+<section id={'why' + s} class="lv2-sec" data-spybase="why" {...reveal}>
+  <h2 class="lv2-h">Зачем это нужно</h2>
+  <ul class="why-list--v2">
+    {T.why.map((w) => <li>{w}</li>)}
+  </ul>
+</section>
+
+<section id={'context' + s} class="lv2-sec" data-spybase="context" {...reveal}>
+  <h2 class="lv2-h">Живой контекст</h2>
+  <div class="dialog">
+    {T.context.lines.map((l) => (
+      <div class="dialog__line">
+        <div class="dialog__en">{l.en}</div>
+        <div class="dialog__ru">{l.ru}</div>
+      </div>
+    ))}
+    {T.context.note && <p class="dialog__note">{T.context.note}</p>}
+  </div>
+</section>
+
+<section id={'russian' + s} class="lv2-sec lv2-sec--mint" data-spybase="russian" {...reveal}>
+  <h2 class="lv2-h">Взгляд через русский</h2>
+  <ul class="ru-list--v2">
+    {T.russianAngle.map((r) => <li>{r}</li>)}
+  </ul>
+</section>
+
+<section id={'learn' + s} class="lv2-sec" data-spybase="learn" {...reveal}>
+  <h2 class="lv2-h">Как освоить</h2>
+  <ol class="howto">
+    {T.howToLearn.steps.map((st) => <li>{st}</li>)}
+  </ol>
+  {T.howToLearn.exercise && (
+    <div class="try">
+      {T.howToLearn.exercise.prompt && <p class="try__prompt">{T.howToLearn.exercise.prompt}</p>}
+      <ol class="try__q">
+        {T.howToLearn.exercise.items.map((it) => <li set:html={highlight(it.q, [])}></li>)}
+      </ol>
+      <details class="try__a">
+        <summary>Показать ответы</summary>
+        <ol>
+          {T.howToLearn.exercise.items.map((it) => <li>{it.a}</li>)}
+        </ol>
+      </details>
+    </div>
+  )}
+</section>
+
+<section id={'reference' + s} class="lv2-sec" data-spybase="reference" {...reveal}>
+  <h2 class="lv2-h">Справочник</h2>
+  <div class="lv2-formula">{T.formula}</div>
+  <div class="lv2-struct">
+    <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{T.structure.positive}</span></div>
+    <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{T.structure.negative}</span></div>
+    <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{T.structure.question}</span></div>
+  </div>
+  {T.markers && T.markers.length > 0 && (
+    <div class="lv2-markers">
+      {T.markers.map((m) => <span class="tag">{m}</span>)}
+    </div>
+  )}
+
+  <h3 class="lv2-h3">Когда используется</h3>
+  <ul class="use-list--v2">
+    {T.uses.map((u) => <li>{u}</li>)}
+  </ul>
+
+  <h3 class="lv2-h3">Правила и нюансы</h3>
+  <ul class="lv2-rules">
+    {T.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
+  </ul>
+
+  <h3 class="lv2-h3">Примеры по ситуациям</h3>
+  {T.examples.map((g) => (
+    <div class="lv2-exgroup">
+      <h4 class="lv2-exgroup__t">{g.group}</h4>
+      <div>
+        {g.items.map((ex) => (
+          <div class="lv2-ex">
+            <div class="en" set:html={highlight(ex.en, ex.highlight)}></div>
+            <div class="ru">{ex.ru}</div>
+          </div>
+        ))}
+      </div>
+    </div>
+  ))}
+
+  {T.mistakes && T.mistakes.length > 0 && (
+    <div>
+      <h3 class="lv2-h3">Типичные ошибки</h3>
+      <div class="lv2-mistakes">
+        <table>
+          <thead><tr><th>Так не говорят</th><th>Так говорят</th></tr></thead>
+          <tbody>
+            {T.mistakes.map((m) => (
+              <tr>
+                <td><span class="w">✗ {m.wrong}</span><span class="n">{m.note}</span></td>
+                <td class="r">✓ {m.right}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )}
+
+  {T.compare && (
+    <div class="compare">
+      <h3 class="lv2-h3">{T.compare.title}</h3>
+      <table>
+        <thead><tr><th>{T.compare.leftLabel}</th><th>{T.compare.rightLabel}</th></tr></thead>
+        <tbody>
+          {T.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
+        </tbody>
+      </table>
+    </div>
+  )}
+
+  {T.tips && T.tips.length > 0 && (
+    <div>
+      <h3 class="lv2-h3">Лайфхаки преподавателя</h3>
+      <ul class="lv2-tips">
+        {T.tips.map((t) => <li>{t}</li>)}
+      </ul>
+    </div>
+  )}
+</section>
+
+{T.quiz && T.quiz.length > 0 && (
+  <section id={'quiz' + s} class="lv2-sec" data-spybase="quiz" {...reveal}>
+    <Quiz questions={T.quiz} ui={quizUi} />
+  </section>
+)}
+
+{related && related.length > 0 && (
+  <section id={'related' + s} class="lv2-sec" data-spybase="related">
+    <h2 class="lv2-h">Связанные темы</h2>
+    <div class="related">
+      {related.map((r) => <a href={'/grammar/' + r.slug} class="chip">{r.title}</a>)}
+    </div>
+  </section>
+)}

@@ -1,0 +1,169 @@
+{
+  "slug": "present-simple",
+  "variant": "rocknrolla",
+  "title": "Present Simple",
+  "level": "A1",
+  "category": "Tenses",
+  "readingTime": 8,
+  "summary": "Время для фактов, привычек и дел, которые решаются «вообще, всегда, по-любому». База района. Кто не понял — тому объяснят.",
+  "idea": [
+    "Present Simple — это время фактов, привычек и всего, что верно «вообще, всегда, по-любому». Англичане фиксируют им не момент, а постоянство: то, что правда сегодня, завтра и дальше без разговоров. Считай, это настройки по умолчанию твоей жизни: где живёшь, кем работаешь, кому должен. То, что не меняется от часа к часу. Забудешь, как это работает, — будешь звучать как турист. А туриста в этом городе видно за милю.",
+    "Если Present Continuous — это прямая трансляция с места событий («что происходит прямо щас»), то Present Simple — портрет уважаемого человека: кто ты есть и как устроена твоя жизнь. Граница простая: «Я живу в Москве» (вообще, постоянно) — это I live in Moscow. «Я живу у друга на этой неделе» (временно, пока не уляжется) — уже I'm living with a friend. Даже будущее сюда пускают, если оно по расписанию: The train leaves at 9. А расписание, братан, и есть постоянство.",
+    "Сюда же, в Simple, «переезжают» глаголы состояния — like, know, want, need: чувства и знания длятся постоянно, а не случаются в одну секунду. Поэтому I want coffee, а не вот это всё «I'm wanting». Главная ловушка для наших — принять Present Simple за «то, что я делаю прямо сейчас». Нет. «Сейчас» — это Continuous, а Simple — про «так бывает, так устроено, так тут заведено». Если из всего урока унести одну мысль, пусть будет эта: Present Simple отвечает на вопрос «как обычно?», а не «что делаешь в эту секунду?». Унесёшь другую — ну, твоё дело. Я предупредил."
+  ],
+  "why": [
+    "Рассказать о себе и своей жизни: I work in a bank. I live in Moscow. I like jazz.",
+    "Аккуратно расспросить собеседника о его делах: Do you work? Does she live here? Вежливо, с уважением. Лишних вопросов не задаём.",
+    "Называть факты и расписания: Water boils at 100°C. The shop opens at 9.",
+    "Высказать мнение и чувства — по-человечески, без лишнего: I think it's great. I don't understand."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Hi, I'm Tommy. I work with dogs. Greyhounds, races. Legally. Almost.", "ru": "Здорово, я Томми. Работаю с собаками. Борзые, бега. Легально. Почти." },
+      { "en": "Oh, do you like it?", "ru": "О, и как тебе, нравится?" },
+      { "en": "Yes, I do. I start at 9 and finish at 6. And you, Big Baz?", "ru": "Да, втянулся. Начинаю в 9, заканчиваю в 6. А ты, Большой Баз?" },
+      { "en": "I don't work. I've got a stall on the market. Radios. Different ones.", "ru": "Я не работаю. У меня лоток на рынке. Радиоприёмники. Разные были." }
+    ],
+    "note": "Ни одно действие не происходит «прямо сейчас» — Томми и Баз рассказывают, как устроена их жизнь вообще. Поэтому везде Present Simple. И да: откуда у База приёмники — не спрашивай. Совсем. Просто не надо."
+  },
+  "russianAngle": [
+    "🇷🇺 В русском вопрос делается интонацией: «Ты работаешь?» — и всё. 🇬🇧 В английском вопрос без do/does не бывает вообще: Do you work? Это чужая механика. Её не обсуждают — её принимают. Как счёт в пабе.",
+    "🇷🇺 «Она работает» — окончание почти не слышно. 🇬🇧 В 3-м лице ед.ч. глагол получает хвостик -s: She works. Наши теряют его постоянно — это ошибка №1 всего района.",
+    "🇷🇺 Настоящее время покрывает и «сейчас», и «вообще». 🇬🇧 Английский разводит их по разным углам: I live in Moscow (вообще) против I'm living with a friend (сейчас, временно).",
+    "🇷🇺 «В банке работаю я» — порядок слов свободный, гуляй как хочешь. 🇬🇧 В английском он фиксированный: подлежащее → глагол → остальное. I work in a bank. И никак иначе."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Вбей себе идею: Present Simple = «вообще / обычно / всегда», а не «прямо щас».",
+      "Запомни скелет схемы: I/you/we/they + V1 · he/she/it + V1-s · отрицание don't/doesn't + V1 · вопрос Do/Does + герой + V1.",
+      "Лови маркеры: always, usually, often, sometimes, never, every day.",
+      "Гоняй 3-е лицо вслух: he works, she lives, it costs — и слушай звук /s/ на конце.",
+      "Сделай упражнение ниже и сверься с ответами. Без шулерства."
+    ],
+    "exercise": {
+      "prompt": "Карты на стол: раскрой скобки. Без подсказок, без шулерства.",
+      "items": [
+        { "q": "Big Baz ___ (fix) the dog races every Saturday.", "a": "fixes — 3-е лицо ед.ч. → -es после -x. И не спрашивай, какие именно бега он «фиксит». Меньше знаешь — крепче спишь." },
+        { "q": "___ you ___ (know) Tommy?", "a": "Do you know — вопрос → Do + V1." },
+        { "q": "Franky ___ (not / go) to the pub on Mondays.", "a": "doesn't go — 3-е лицо, отрицание → doesn't + V1 без -s." },
+        { "q": "The train ___ (leave) at 7 pm. That's our way out.", "a": "leaves — расписание → Present Simple, 3-е лицо → -s." },
+        { "q": "I ___ (know) the answer, officer.", "a": "know — глагол состояния → Present Simple. И ничего я не знаю." }
+      ]
+    }
+  },
+  "formula": "S + V1 (he/she/it → V1 + s/es)",
+  "structure": {
+    "positive": "Tommy works at the market. / They work at the market.",
+    "negative": "Tommy doesn't work at the bookmakers. / They don't work at the bookmakers.",
+    "question": "Does Tommy work at the market? / Do they work at the market?"
+  },
+  "markers": ["always", "usually", "often", "sometimes", "never", "every day", "on Mondays", "twice a week"],
+  "uses": [
+    "Регулярные действия и привычки: Tommy drinks his tea at six o'clock sharp.",
+    "Общие факты и истины: Water boils at 100°C. London rains. Always.",
+    "Расписания и графики (даже будущие): The train leaves at 9. Тот самый поезд, на который мы уходим. Не опаздывай.",
+    "Состояния и чувства с глаголами состояния: Franky likes tea. Tommy knows things."
+  ],
+  "rules": [
+    { "title": "Окончание -s/-es", "text": "В 3-м лице ед.ч. (he/she/it) к глаголу добавляется -s: works, plays. После шипящих и -o/-ss/-sh/-ch/-x → -es: goes, watches, fixes. Согласная + y → -ies: study → studies." },
+    { "title": "Вспомогательный do/does", "text": "В отрицаниях и вопросах работают do (I/you/we/they) и does (he/she/it). После does основной глагол БЕЗ -s: Does she work? (не works). Не жадничай, один хвост на предложение." },
+    { "title": "Глаголы состояния", "text": "like, love, know, want, need, believe обычно не лезут в Continuous — для них только Present Simple: I want water (не I am wanting). Чувства — это не действие, они просто есть." }
+  ],
+  "examples": [
+    {
+      "group": "Привычки и распорядок",
+      "items": [
+        { "en": "Tommy drinks his tea at six o'clock sharp.", "ru": "Томми пьёт чай ровно в шесть. Каждый день. Без разговоров.", "highlight": ["drinks"] },
+        { "en": "Franky goes to the gym twice a week.", "ru": "Фрэнки ходит в зал дважды в неделю. Форма сама себя не сделает.", "highlight": ["goes"] }
+      ]
+    },
+    {
+      "group": "Факты и непреложные истины",
+      "items": [
+        { "en": "Water boils at 100°C.", "ru": "Вода кипит при 100°C. Даже если очень не хочется.", "highlight": ["boils"] },
+        { "en": "In London it rains every day.", "ru": "В Лондоне дождь идёт каждый день. Это не жалоба, это факт.", "highlight": ["rains"] }
+      ]
+    },
+    {
+      "group": "Расписания — в том числе на завтра",
+      "items": [
+        { "en": "The train leaves at 9 tomorrow.", "ru": "Поезд уходит в 9 завтра. Наш поезд. Не опаздывай.", "highlight": ["leaves"] },
+        { "en": "What time does the match start?", "ru": "Во сколько начинается матч? Ставки уже горят.", "highlight": ["does", "start"] }
+      ]
+    },
+    {
+      "group": "Чувства, состояния и короткие ответы",
+      "items": [
+        { "en": "I don't understand.", "ru": "Я не понимаю. Честно, начальник.", "highlight": ["don't understand"] },
+        { "en": "Do you like tea? — Yes, I do.", "ru": "Чай любишь? — Ещё как.", "highlight": ["do"] },
+        { "en": "I DO like your dog!", "ru": "Мне НРАВИТСЯ твоя собака! Ну правда, красавица.", "highlight": ["DO like"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "She work in a bank.", "right": "She works in a bank.", "note": "Потерял -s в 3-м лице — потерял уважение." },
+    { "wrong": "Does she works here?", "right": "Does she work here?", "note": "После does глагол без -s. Один хвост на предложение, не жадничай." },
+    { "wrong": "— Do you like jazz? — Yes, I like.", "right": "— Yes, I do.", "note": "Короткий ответ — через do. Повторять глагол не надо, мы не попугаи." },
+    { "wrong": "I think he isn't right.", "right": "I don't think he's right.", "note": "Отрицание переезжает на «думаю». Англичанин не думает, что тот не прав, — он НЕ ДУМАЕТ, что тот прав. Тонкость." },
+    { "wrong": "How do you call this?", "right": "What do you call this?", "note": "Калька с русского. По-английски what, а не how. Так говорят только очень уверенные в себе люди. Обычно — недолго." },
+    { "wrong": "I am agree.", "right": "I agree.", "note": "agree — глагол, а не прилагательное. «Я есть согласен» — так говорят только те, кого потом не слушают." }
+  ],
+  "compare": {
+    "title": "Present Simple vs Present Continuous",
+    "leftLabel": "Present Simple",
+    "rightLabel": "Present Continuous",
+    "rows": [
+      { "left": "Tommy works every day. (вообще, всегда так)", "right": "Tommy is working right now. (прямо щас, вот в эту минуту)" },
+      { "left": "Факты, привычки, расписания", "right": "Временные ситуации: пока не уляжется" },
+      { "left": "Портрет: кто ты есть", "right": "Прямая трансляция: что творишь в эту секунду" }
+    ]
+  },
+  "tips": [
+    "У окончания -s три звука: /s/ после глухих (works, stops), /z/ после звонких и гласных (lives, plays), /ɪz/ после шипящих (watches, goes). В учебниках пишут «просто добавь -s», а на деле это ключ и к естественному произношению, и к пониманию на слух.",
+    "В быстрой речи -s часто «проглатывается»: носители опознают 3-е лицо по местоимению и контексту, а не по окончанию, поэтому на слух he work и he works могут звучать одинаково. Понимай — но в своей речи и на письме -s ставь всегда. Это вопрос репутации.",
+    "Короткие ответы выдают чужака мгновенно. «Do you like it? — Yes, I like» — так не говорят; только Yes, I do / No, I don't. Гоняй связку «вопрос → короткий ответ» парами, пока не отскочит от зубов.",
+    "Эмфатическое do — приём, о котором на A1 молчат. В утверждениях do добавляет «правда, зуб даю»: I DO believe you! / She DOES look tired. Самый простой способ зазвучать живо.",
+    "Расписания в будущем звучат по-взрослому: My flight arrives at 6. The meeting starts at 10. Новички пугаются и лепят will, а местный для транспорта и расписаний скажет Present Simple — и его сразу уважают.",
+    "Отрицание «переезжает» на глагол мышления: по-английски «я не думаю, что…» = I don't think it's true, а не I think it isn't true. Англичанин «не думает, что», а не «думает, что не».",
+    "Топ-10 глаголов закрывают половину бытового базара: be, have, do, go, get, want, know, think, like, say. Выучи их формы в первую очередь — и ты уже понимаешь большинство разговоров в пабе."
+  ],
+  "related": ["a1-present-continuous", "a1-verb-to-be", "a1-past-simple"],
+  "quiz": [
+    {
+      "q": "She ___ in a bank.",
+      "options": ["work", "works", "working", "is work"],
+      "answer": 1,
+      "why": "Она женщина самостоятельная, работает одна — ей положен -s: She works. Кто забыл — тому стыдно."
+    },
+    {
+      "q": "___ she work here?",
+      "options": ["Do", "Does", "Is", "Are"],
+      "answer": 1,
+      "why": "Вопрос про he/she/it в Present Simple без Does не бывает: Does she work."
+    },
+    {
+      "q": "Does she ___ here?",
+      "options": ["works", "work", "working", "worked"],
+      "answer": 1,
+      "why": "После Does глагол без -s: Does she work. Один хвост на предложение."
+    },
+    {
+      "q": "— Do you like jazz? — Yes, I ___.",
+      "options": ["like", "do", "am", "does"],
+      "answer": 1,
+      "why": "Короткий ответ повторяет вспомогательный глагол: Yes, I do. Не будь попугаем — попугаев в пабе не уважают."
+    },
+    {
+      "q": "I ___ to work every day.",
+      "options": ["go", "goes", "going", "am go"],
+      "answer": 0,
+      "why": "С I глагол стоит в базовой форме: I go. А every day — это наш человек, маркер Present Simple."
+    },
+    {
+      "q": "He ___ coffee.",
+      "options": ["don't like", "doesn't like", "doesn't likes", "not like"],
+      "answer": 1,
+      "why": "Отрицание с he/she/it — doesn't + глагол без -s: He doesn't like. И пусть пьёт чай. Чай — это святое."
+    }
+  ]
+}

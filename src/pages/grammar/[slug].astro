@@ -1,22 +1,18 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Quiz from '../../components/Quiz.astro';
+import LessonBody from '../../components/LessonBody.astro';
 import quizBank from '../../data/quiz-bank.json';
 
 export function getStaticPaths() {
-  const modules = import.meta.glob('../../data/grammar/*.json', { eager: true, import: 'default' });
+  const modules = import.meta.glob(['../../data/grammar/*.json', '!../../data/grammar/*.rocknrolla.json'], { eager: true, import: 'default' });
   const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
   return topics.map((t) => ({ params: { slug: t.slug }, props: { topic: t, topics } }));
 }
 
 const { topic, topics } = Astro.props;
 
-function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
-function highlight(text, tokens) {
-  let out = esc(text);
-  (tokens || []).forEach((t) => { out = out.replace(esc(t), '<mark class="hl">' + esc(t) + '</mark>'); });
-  return out;
-}
+const rockModules = import.meta.glob('../../data/grammar/*.rocknrolla.json', { eager: true, import: 'default' });
+const rocknrollaTopic = Object.values(rockModules).find((m) => m.slug === topic.slug) || null;
 
 const related = topics.filter((t) => topic.related && topic.related.includes(t.slug));
 
@@ -64,7 +60,7 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
       </nav>
     </aside>
 
-    <article class="lesson-v2">
+    <article class="lesson-v2" data-lesson-style="gentleman">
       <header class="lv2-head">
         <p class="eyebrow">{topic.category} · уровень {topic.level}</p>
         <h1 class="lv2-title"><span class="hl-mark">{topic.title}</span></h1>
@@ -72,161 +68,29 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
           <span class="tag tag--lvl">Уровень {topic.level}</span>
           <span class="tag">≈ {topic.readingTime} мин</span>
         </div>
-        <p class="lv2-summary">{topic.summary}</p>
+        <p class="lv2-summary" data-style-pane="gentleman">{topic.summary}</p>
+        {rocknrollaTopic && (
+          <p class="lv2-summary" data-style-pane="rocknrolla">{rocknrollaTopic.summary}</p>
+        )}
         <div class="topic__actions">
           <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
           <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
+          {rocknrollaTopic && (
+            <div class="style-toggle" data-style-toggle>
+              <button class="style-toggle__btn is-active" data-style-btn="gentleman" aria-pressed="true">ДЖЕНТЛЬМЕН</button>
+              <button class="style-toggle__btn" data-style-btn="rocknrolla" aria-pressed="false">РОК-Н-РОЛЬЩИК</button>
+            </div>
+          )}
         </div>
       </header>
 
-      <section id="idea" class="lv2-sec" data-reveal>
-        <h2 class="lv2-h">Суть явления</h2>
-        <div class="lv2-prose lv2-prose--drop">
-          {topic.idea.map((p) => <p>{p}</p>)}
+      <div data-style-pane="gentleman">
+        <LessonBody T={topic} suffix="" related={related} quizUi={quizBank.__ui} />
+      </div>
+      {rocknrollaTopic && (
+        <div data-style-pane="rocknrolla">
+          <LessonBody T={rocknrollaTopic} suffix="-r" related={related} quizUi={quizBank.__ui} />
         </div>
-      </section>
-
-      <section id="why" class="lv2-sec" data-reveal>
-        <h2 class="lv2-h">Зачем это нужно</h2>
-        <ul class="why-list--v2">
-          {topic.why.map((w) => <li>{w}</li>)}
-        </ul>
-      </section>
-
-      <section id="context" class="lv2-sec" data-reveal>
-        <h2 class="lv2-h">Живой контекст</h2>
-        <div class="dialog">
-          {topic.context.lines.map((l) => (
-            <div class="dialog__line">
-              <div class="dialog__en">{l.en}</div>
-              <div class="dialog__ru">{l.ru}</div>
-            </div>
-          ))}
-          {topic.context.note && <p class="dialog__note">{topic.context.note}</p>}
-        </div>
-      </section>
-
-      <section id="russian" class="lv2-sec lv2-sec--mint" data-reveal>
-        <h2 class="lv2-h">Взгляд через русский</h2>
-        <ul class="ru-list--v2">
-          {topic.russianAngle.map((r) => <li>{r}</li>)}
-        </ul>
-      </section>
-
-      <section id="learn" class="lv2-sec" data-reveal>
-        <h2 class="lv2-h">Как освоить</h2>
-        <ol class="howto">
-          {topic.howToLearn.steps.map((s) => <li>{s}</li>)}
-        </ol>
-        {topic.howToLearn.exercise && (
-          <div class="try">
-            {topic.howToLearn.exercise.prompt && <p class="try__prompt">{topic.howToLearn.exercise.prompt}</p>}
-            <ol class="try__q">
-              {topic.howToLearn.exercise.items.map((it) => <li set:html={highlight(it.q, [])}></li>)}
-            </ol>
-            <details class="try__a">
-              <summary>Показать ответы</summary>
-              <ol>
-                {topic.howToLearn.exercise.items.map((it) => <li>{it.a}</li>)}
-              </ol>
-            </details>
-          </div>
-        )}
-      </section>
-
-      <section id="reference" class="lv2-sec" data-reveal>
-        <h2 class="lv2-h">Справочник</h2>
-        <div class="lv2-formula">{topic.formula}</div>
-        <div class="lv2-struct">
-          <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{topic.structure.positive}</span></div>
-          <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{topic.structure.negative}</span></div>
-          <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{topic.structure.question}</span></div>
-        </div>
-        {topic.markers && topic.markers.length > 0 && (
-          <div class="lv2-markers">
-            {topic.markers.map((m) => <span class="tag">{m}</span>)}
-          </div>
-        )}
-
-        <h3 class="lv2-h3">Когда используется</h3>
-        <ul class="use-list--v2">
-          {topic.uses.map((u) => <li>{u}</li>)}
-        </ul>
-
-        <h3 class="lv2-h3">Правила и нюансы</h3>
-        <ul class="lv2-rules">
-          {topic.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
-        </ul>
-
-        <h3 class="lv2-h3">Примеры по ситуациям</h3>
-        {topic.examples.map((g) => (
-          <div class="lv2-exgroup">
-            <h4 class="lv2-exgroup__t">{g.group}</h4>
-            <div>
-              {g.items.map((ex) => (
-                <div class="lv2-ex">
-                  <div class="en" set:html={highlight(ex.en, ex.highlight)}></div>
-                  <div class="ru">{ex.ru}</div>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-
-        {topic.mistakes && topic.mistakes.length > 0 && (
-          <div>
-            <h3 class="lv2-h3">Типичные ошибки</h3>
-            <div class="lv2-mistakes">
-              <table>
-                <thead><tr><th>Так не говорят</th><th>Так говорят</th></tr></thead>
-                <tbody>
-                  {topic.mistakes.map((m) => (
-                    <tr>
-                      <td><span class="w">✗ {m.wrong}</span><span class="n">{m.note}</span></td>
-                      <td class="r">✓ {m.right}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        )}
-
-        {topic.compare && (
-          <div class="compare">
-            <h3 class="lv2-h3">{topic.compare.title}</h3>
-            <table>
-              <thead><tr><th>{topic.compare.leftLabel}</th><th>{topic.compare.rightLabel}</th></tr></thead>
-              <tbody>
-                {topic.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
-              </tbody>
-            </table>
-          </div>
-        )}
-
-        {topic.tips && topic.tips.length > 0 && (
-          <div>
-            <h3 class="lv2-h3">Лайфхаки преподавателя</h3>
-            <ul class="lv2-tips">
-              {topic.tips.map((t) => <li>{t}</li>)}
-            </ul>
-          </div>
-        )}
-      </section>
-
-      {topic.quiz && topic.quiz.length > 0 && (
-        <section id="quiz" class="lv2-sec" data-reveal>
-          <Quiz questions={topic.quiz} ui={quizBank.__ui} />
-        </section>
-      )}
-
-      {related.length > 0 && (
-        <section id="related" class="lv2-sec">
-          <h2 class="lv2-h">Связанные темы</h2>
-          <div class="related">
-            {related.map((r) => <a href={'/grammar/' + r.slug} class="chip">{r.title}</a>)}
-          </div>
-        </section>
       )}
 
       {quizBank.__ui && quizBank.__ui.morePracticeLead && (
@@ -252,14 +116,42 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
 
   <script>
     const links = Array.from(document.querySelectorAll('.side3__link'));
-    if (links.length) {
-      const secs = links.map((l) => document.getElementById(l.dataset.spy)).filter(Boolean);
-      const setActive = (id) => links.forEach((l) => l.classList.toggle('is-active', l.dataset.spy === id));
-      const spy = new IntersectionObserver((entries) => {
-        entries.forEach((en) => { if (en.isIntersecting) setActive(en.target.id); });
+    let spyObs = null;
+    function initSpy(suffix) {
+      if (spyObs) { spyObs.disconnect(); spyObs = null; }
+      if (!links.length) { return; }
+      const secs = links.map((l) => document.getElementById(l.dataset.spy + suffix)).filter(Boolean);
+      const setActive = (base) => links.forEach((l) => l.classList.toggle('is-active', l.dataset.spy === base));
+      spyObs = new IntersectionObserver((entries) => {
+        entries.forEach((en) => { if (en.isIntersecting) { setActive(en.target.getAttribute('data-spybase')); } });
       }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
-      secs.forEach((s) => spy.observe(s));
+      secs.forEach((sec) => spyObs.observe(sec));
       setActive('idea');
+    }
+
+    const toggleBtns = document.querySelectorAll('[data-style-btn]');
+    const lessonArticle = document.querySelector('[data-lesson-style]');
+    const STYLE_KEY = 'englishnotes.style.v1';
+
+    if (toggleBtns.length && lessonArticle) {
+      const applyStyle = (style) => {
+        lessonArticle.setAttribute('data-lesson-style', style);
+        toggleBtns.forEach((btn) => {
+          const isActive = btn.dataset.styleBtn === style;
+          btn.classList.toggle('is-active', isActive);
+          btn.setAttribute('aria-pressed', String(isActive));
+        });
+        const suffix = style === 'rocknrolla' ? '-r' : '';
+        links.forEach((l) => { l.setAttribute('href', '#' + l.dataset.spy + suffix); });
+        initSpy(suffix);
+        try { localStorage.setItem(STYLE_KEY, style); } catch (e) {}
+      };
+      let saved = 'gentleman';
+      try { saved = localStorage.getItem(STYLE_KEY) || 'gentleman'; } catch (e) {}
+      applyStyle(saved);
+      toggleBtns.forEach((btn) => btn.addEventListener('click', () => applyStyle(btn.dataset.styleBtn)));
+    } else {
+      initSpy('');
     }
   </script>
 </Base>
