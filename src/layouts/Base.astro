@@ -15,8 +15,23 @@ const total = topics.length;
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23bfe6c6'/%3E%3Cg fill='%23123430'%3E%3Cpath d='M16 3l2.4 4.2h-4.8z'/%3E%3Crect x='13.4' y='7.5' width='5.2' height='2'/%3E%3Crect x='12.6' y='9.8' width='6.8' height='6'/%3E%3Crect x='13' y='16.1' width='6' height='3.2'/%3E%3Crect x='12.3' y='19.6' width='7.4' height='8.8'/%3E%3Crect x='11.2' y='28.6' width='9.6' height='2.2'/%3E%3C/g%3E%3Cg fill='%23bfe6c6'%3E%3Ccircle cx='16' cy='12.8' r='2.1'/%3E%3Crect x='14' y='16.6' width='1' height='2.2'/%3E%3Crect x='15.5' y='16.6' width='1' height='2.2'/%3E%3Crect x='17' y='16.6' width='1' height='2.2'/%3E%3C/g%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&family=Lora:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="/src/styles/global.css" />
+      <script>
+      (function() {
+        var STYLE_KEY = 'englishnotes.style.v1';
+        var saved = 'classic';
+        try { saved = localStorage.getItem(STYLE_KEY) || 'classic'; } catch(e) {}
+        if (saved === 'rocknroll') {
+          document.documentElement.classList.add('is-rock-preload');
+        }
+      })();
+    </script>
+    <style>
+      html.is-rock-preload body { opacity: 0; }
+      html.is-rock-preload body.is-rock,
+      html.is-rock-preload body:not(.is-rock) { opacity: 1; transition: opacity 0.1s; }
+    </style>
   </head>
   <body data-topics-total={total} data-current-slug={currentSlug}>
         <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">

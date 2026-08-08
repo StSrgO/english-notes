@@ -4,15 +4,15 @@ import LessonBody from '../../components/LessonBody.astro';
 import quizBank from '../../data/quiz-bank.json';
 
 export function getStaticPaths() {
-  const modules = import.meta.glob(['../../data/grammar/*.json', '!../../data/grammar/*.rocknrolla.json'], { eager: true, import: 'default' });
+  const modules = import.meta.glob(['../../data/grammar/*.json', '!../../data/grammar/*.rocknroll.json'], { eager: true, import: 'default' });
   const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
   return topics.map((t) => ({ params: { slug: t.slug }, props: { topic: t, topics } }));
 }
 
 const { topic, topics } = Astro.props;
 
-const rockModules = import.meta.glob('../../data/grammar/*.rocknrolla.json', { eager: true, import: 'default' });
-const rocknrollaTopic = Object.values(rockModules).find((m) => m.slug === topic.slug) || null;
+const rockModules = import.meta.glob('../../data/grammar/*.rocknroll.json', { eager: true, import: 'default' });
+const rocknrollTopic = Object.values(rockModules).find((m) => m.slug === topic.slug) || null;
 
 const related = topics.filter((t) => topic.related && topic.related.includes(t.slug));
 
@@ -60,7 +60,7 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
       </nav>
     </aside>
 
-    <article class="lesson-v2" data-lesson-style="gentleman">
+    <article class="lesson-v2" data-lesson-style="classic">
       <header class="lv2-head">
         <p class="eyebrow">{topic.category} · уровень {topic.level}</p>
         <h1 class="lv2-title"><span class="hl-mark">{topic.title}</span></h1>
@@ -68,28 +68,31 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
           <span class="tag tag--lvl">Уровень {topic.level}</span>
           <span class="tag">≈ {topic.readingTime} мин</span>
         </div>
-        <p class="lv2-summary" data-style-pane="gentleman">{topic.summary}</p>
-        {rocknrollaTopic && (
-          <p class="lv2-summary" data-style-pane="rocknrolla">{rocknrollaTopic.summary}</p>
+        <p class="lv2-summary" data-style-pane="classic">{topic.summary}</p>
+        {rocknrollTopic && (
+          <p class="lv2-summary" data-style-pane="rocknroll">{rocknrollTopic.summary}</p>
         )}
         <div class="topic__actions">
           <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
           <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
-          {rocknrollaTopic && (
-            <div class="style-toggle" data-style-toggle>
-              <button class="style-toggle__btn is-active" data-style-btn="gentleman" aria-pressed="true">ДЖЕНТЛЬМЕН</button>
-              <button class="style-toggle__btn" data-style-btn="rocknrolla" aria-pressed="false">РОК-Н-РОЛЬЩИК</button>
+          {rocknrollTopic && (
+            <div class="style-switch" data-style-toggle>
+              <span class="style-switch__label is-active" data-style-label="classic">Классика</span>
+              <button type="button" class="style-switch__track" data-style-switch role="switch" aria-checked="false" aria-label="Переключить стиль урока">
+                <span class="style-switch__knob"></span>
+              </button>
+              <span class="style-switch__label" data-style-label="rocknroll">Рок-н-ролл</span>
             </div>
           )}
         </div>
       </header>
 
-      <div data-style-pane="gentleman">
+      <div data-style-pane="classic">
         <LessonBody T={topic} suffix="" related={related} quizUi={quizBank.__ui} />
       </div>
-      {rocknrollaTopic && (
-        <div data-style-pane="rocknrolla">
-          <LessonBody T={rocknrollaTopic} suffix="-r" related={related} quizUi={quizBank.__ui} />
+      {rocknrollTopic && (
+        <div data-style-pane="rocknroll">
+          <LessonBody T={rocknrollTopic} suffix="-r" related={related} quizUi={quizBank.__ui} />
         </div>
       )}
 
@@ -129,27 +132,35 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
       setActive('idea');
     }
 
-    const toggleBtns = document.querySelectorAll('[data-style-btn]');
+    const switchTrack = document.querySelector('[data-style-switch]');
+    const switchLabels = document.querySelectorAll('[data-style-label]');
     const lessonArticle = document.querySelector('[data-lesson-style]');
     const STYLE_KEY = 'englishnotes.style.v1';
 
-    if (toggleBtns.length && lessonArticle) {
+    if (switchTrack && lessonArticle) {
       const applyStyle = (style) => {
         lessonArticle.setAttribute('data-lesson-style', style);
-        toggleBtns.forEach((btn) => {
-          const isActive = btn.dataset.styleBtn === style;
-          btn.classList.toggle('is-active', isActive);
-          btn.setAttribute('aria-pressed', String(isActive));
-        });
-        const suffix = style === 'rocknrolla' ? '-r' : '';
+        const isRock = style === 'rocknroll';
+        switchTrack.classList.toggle('is-rock', isRock);
+        switchTrack.setAttribute('aria-checked', String(isRock));
+        switchLabels.forEach((lb) => lb.classList.toggle('is-active', lb.dataset.styleLabel === style));
+        const suffix = isRock ? '-r' : '';
         links.forEach((l) => { l.setAttribute('href', '#' + l.dataset.spy + suffix); });
         initSpy(suffix);
         try { localStorage.setItem(STYLE_KEY, style); } catch (e) {}
       };
-      let saved = 'gentleman';
-      try { saved = localStorage.getItem(STYLE_KEY) || 'gentleman'; } catch (e) {}
+      let saved = 'classic';
+      try { saved = localStorage.getItem(STYLE_KEY) || 'classic'; } catch (e) {}
+      if (saved !== 'rocknroll') { saved = 'classic'; }
       applyStyle(saved);
-      toggleBtns.forEach((btn) => btn.addEventListener('click', () => applyStyle(btn.dataset.styleBtn)));
+      if (saved === 'rocknroll') { document.body.classList.add('is-rock'); }
+      switchTrack.addEventListener('click', () => {
+        const now = lessonArticle.getAttribute('data-lesson-style');
+        const newStyle = now === 'rocknroll' ? 'classic' : 'rocknroll';
+        applyStyle(newStyle);
+        document.body.classList.toggle('is-rock', newStyle === 'rocknroll');
+      });
+      switchLabels.forEach((lb) => lb.addEventListener('click', () => applyStyle(lb.dataset.styleLabel)));
     } else {
       initSpy('');
     }
