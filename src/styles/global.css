@@ -852,33 +852,3 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
   margin: 18px 0;
 }
 .lv2-exgroup > h4.lv2-exgroup__t { margin-left: -18px; }
-/* ВИНИЛОВАЯ ТЕМА: МЯГКИЙ ГРАФИТ (рок-стиль урока)
-   Фон — мягкий графитовый серый, НО акценты живые:
-   мятный и корал в полной силе, текст графитовый.
-   Серый конверт пластинки + живые цвета бренда. */
-body.is-rock {
-  --paper: #dcdcd9;
-  --surface: #e7e7e5;
-  --ink: #1a1d1c;
-  --ink-mid: #3c423f;
-  --ink-soft: #575e5a;
-  --mint: #d9eddc;
-  --mint-deep: #bfe6c6;
-  --mint-deeper: #a6d6af;
-  --mint-ink: #257a52;
-  --coral: #ff6b5b;
-  --line: rgba(26, 29, 28, 0.18);
-}
-
-/* Винил на графите: тёмные дорожки + блик + потёртости */
-body.is-rock::before {
-  background:
-    /* потёртости */
-    url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='200'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.35' numOctaves='3' stitchTiles='stitch'/></filter><rect width='200' height='200' filter='url(%23n)' opacity='0.05'/></svg>"),
-    /* блик */
-    radial-gradient(ellipse at 70% 15%, rgba(255, 255, 255, 0.3), transparent 60%),
-    /* дорожки винила */
-    repeating-radial-gradient(circle at 50% 50%, transparent 0, transparent 3px, rgba(26, 29, 28, 0.035) 3px, rgba(26, 29, 28, 0.035) 4px);
-}
-
-body.is-rock .site-head { background: rgba(220, 220, 217, 0.86); backdrop-filter: blur(8px); }
