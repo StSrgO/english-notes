@@ -1,197 +1,187 @@
 {
- "slug": "a2-past-continuous",
- "title": "Past Continuous",
- "level": "A2",
- "category": "Tenses",
- "readingTime": 8,
- "summary": "Прошедшее длительное: действие было в процессе в какой-то момент прошлого — фон, на котором случаются события.",
- "idea": [
-  "Past Continuous — это прошедшее длительное, «видео» в прошлом: действие, которое было в процессе, длилось в какой‑то момент прошлого. Если Past Simple — это «фотография», законченный кадр (I cooked dinner — я приготовил), то Past Continuous — это развёрнутый план, процесс (I was cooking dinner — я готовил, был в процессе). Английский, как и в настоящем (Present Simple vs Present Continuous), разводит в прошлом факт/завершённость и процесс/длительность, и это различие критично для связного рассказа. Главное применение Past Continuous — создать фон, на котором происходят события.",
-  "Форма — was/were + V‑ing, по аналогии с Present Continuous, только be в прошедшем: I/he/she/it → was, we/you/they → were. I was working. They were sleeping. Отрицание wasn't/weren't, вопрос — вынос was/were: Were you working? Здесь работает то же правило правописания ‑ing, что и в Present Continuous (make→making, run→running, lie→lying), и тот же стоп‑лист глаголов состояния: know, want, need, believe не принимают ‑ing и в прошлом — I knew him, не I was knowing him. Классическая связка, которую надо освоить, — это when и while: while + длительное (пока длилось: while I was cooking), when + короткое прерывание в Past Simple (when the phone rang). «I was cooking when the phone rang» — я готовил (фон, процесс), когда зазвонил телефон (событие, кадр).",
-  "Для русскоговорящих здесь есть и совпадение, и ловушка. Совпадение: русское несовершенное вид («я читал», «шёл дождь») часто соответствует Past Continuous, а совершенное («я прочитал», «прозвенел звонок») — Past Simple, и это помогает чувствовать разницу. Ловушка — в том, что русское «я читал вчера» может быть и процессом в момент (I was reading at 8 pm — был в процессе в восемь), и просто фактом (I read a book yesterday — прочитал), и нужно выбирать по смыслу: важен процесс/фон/длительность → Past Continuous; важен факт/завершённость/последовательность → Past Simple. Частые ошибки: потерять be («She studying» → She was studying), забыть ‑ing («I was study» → I was studying) и поставить состояние в Continuous («I was knowing» → I knew). Если унести одну мысль: Past Continuous = процесс/фон в прошлом (was/were + V‑ing); работает в паре с Past Simple: фон — Continuous, событие — Simple."
- ],
- "why": [
-  "Описывать действие в процессе в момент прошлого: At 8 pm I was cooking.",
-  "Создавать фон/атмосферу в рассказе: The sun was shining, birds were singing.",
-  "Говорить о двух параллельных процессах: While I was reading, he was sleeping.",
-  "Говорить о прерванном действии: I was sleeping when the phone rang."
- ],
- "context": {
-  "lines": [
-   { "en": "What were you doing at 9 last night?", "ru": "Что ты делал вчера в девять?" },
-   { "en": "I was watching a film. My sister was reading on the sofa, and the rain was falling outside.", "ru": "Я смотрел фильм. Сестра читала на диване, а за окном шёл дождь." },
-   { "en": "And then what happened?", "ru": "И что потом случилось?" },
-   { "en": "Suddenly the lights went out. I was cooking dinner at the time, so everything went dark.", "ru": "Вдруг погас свет. Я как раз готовил ужин, и всё погрузилось во тьму." },
-   { "en": "That's scary! What did you do?", "ru": "Жутко! И что ты сделал?" },
-   { "en": "I just lit some candles. My sister was laughing — she thought it was fun.", "ru": "Я просто зажёг свечи. Сестра смеялась — ей казалось, что это весело." }
+  "slug": "a1-past-continuous",
+  "title": "Past Continuous",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Прошедшее длительное: was/were + глагол с -ing. Действие, которое длилось в прошлом. Пока Алиса падала в нору, Гек плыл по Миссисипи, а Ахав гнался за белым китом.",
+  "idea": [
+    "«Alice was falling down the rabbit hole — and falling, and falling». Кэрролл заставляет Алису падать целую вечность, и это чистый Past Continuous: действие, которое тянулось, длилось, не заканчивалось. Пока Алиса падала, Гек Финн плыл по Миссисипи — Huck was floating down the river. Капитан Ахав гнался за белым китом — Ahab was chasing the whale. Филеас Фогг объезжал свет за 80 дней — Phileas Fogg was travelling around the world. Все они были в пути, в процессе, в движении. Past Continuous — это язык того, что длилось.",
+    "Строится Past Continuous из двух частей: was/were + глагол с -ing. Was — для I, he, she, it. Were — для you, we, they. Tom was painting the fence. Scrooge was counting his money. The raven was tapping at the door. Отрицание — not после was/were: The Cheshire Cat wasn't answering. Вопрос — вынос was/were: Was the Mad Hatter pouring tea? У каждого героя в книге есть свой процесс, который длился, пока не случилось что-то другое. И вот это «пока не случилось» — самое интересное в Past Continuous.",
+    "Главное правило сочетания — while и when. While (пока) идёт с Past Continuous: while Tom was painting. When (когда) — с Past Simple, это момент, который прерывает: when his friends arrived. «Tom was painting the fence when his friends arrived» — Том красил забор (процесс), и тут пришли друзья (момент). Диккенс обожал такие моменты: пока Скрудж считал деньги, появился призрак. Пока длилось одно — грянуло другое, и сюжет перевернулся."
   ],
-  "note": "was watching / was reading / was falling / was cooking / was laughing — фон и процессы (Past Continuous); went out / went dark / lit / thought — события и факты (Past Simple). Контраст фона и событий."
- },
- "russianAngle": [
-  " Русское несовершенное «я читал» (процесс). Часто = Past Continuous: I was reading at 8 pm (был в процессе в восемь).",
-  " Русское совершенное «я прочитал» (факт). = Past Simple: I read a book yesterday. Выбирай по смыслу: процесс/фон → Continuous, факт → Simple.",
-  " «Я готовил, когда зазвонил телефон». I was cooking when the phone rang — фон (Continuous) + событие (Simple). while для «пока», when для «когда вдруг».",
-  "Ошибки: «She studying» (потеря was) → She was studying; «I was study» (нет -ing) → I was studying; «I was knowing him» (состояние) → I knew him."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: Past Continuous = процесс/фон в прошлом (was/were + V‑ing).",
-   "Запомни форму: I/he/she/it → was, we/you/they → were + V‑ing.",
-   "Освой связку while (пока, процесс) + when (когда вдруг, событие в Past Simple).",
-   "Помни стоп-лист состояний: knew, wanted, needed — без -ing.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Нарисовать долгий процесс: Alice was falling. Huck was floating. Ahab was chasing.",
+    "Рассказать, что происходило, когда что-то случилось: Tom was painting when his friends arrived.",
+    "Показать два действия одновременно: While Scrooge was sleeping, the ghosts were coming.",
+    "Спросить, что кто-то делал в тот момент: What was the Mad Hatter doing?"
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — раскрой скобки (Past Continuous или Past Simple):",
-   "items": [
-    { "q": "At 8 pm I ___ (watch) TV.", "a": "was watching — процесс в конкретный момент." },
-    { "q": "While she ___ (drive), it started to rain.", "a": "was driving — фон, процесс." },
-    { "q": "They ___ (not / listen) to me.", "a": "weren't listening." },
-    { "q": "What ___ you ___ (do) yesterday at 6?", "a": "were you doing." },
-    { "q": "I ___ (know) him for years. (состояние)", "a": "knew — know не бывает в Continuous." }
-   ]
-  }
- },
- "formula": "was / were + V-ing",
- "structure": {
-  "positive": "I was working. / They were working.",
-  "negative": "I wasn't working. / They weren't working.",
-  "question": "Was she working? / Were they working?"
- },
- "markers": ["while", "when", "at 5 pm yesterday", "all day", "at that moment", "this time last year"],
- "uses": [
-  "Процесс в конкретный момент прошлого: At 8 pm I was cooking.",
-  "Два параллельных процесса: While I was reading, he was sleeping.",
-  "Прерванное действие (when + Past Simple): I was sleeping when the phone rang.",
-  "Атмосфера/фон в рассказе: The sun was shining, birds were singing…"
- ],
- "rules": [
-  { "title": "was / were по лицам", "text": "I/he/she/it → was; we/you/they → were. Отрицание wasn't / weren't." },
-  { "title": "while vs when", "text": "while + длительное (пока длилось): while I was cooking. when + короткое прерывание в Simple: when the phone rang. Классическая связка: I was cooking WHEN the phone RANG." },
-  { "title": "Глаголы состояния", "text": "know, want, need, believe не принимают -ing и в прошлом: I knew him (не I was knowing him)." }
- ],
- "examples": [
-  {
-   "group": "Процесс в конкретный момент прошлого",
-   "items": [
-    { "en": "I was watching TV at 9.", "ru": "В девять я смотрел телевизор (был в процессе).", "highlight": ["was watching"] },
-    { "en": "What were you doing yesterday at 6?", "ru": "Что ты делал вчера в шесть?", "highlight": ["were", "doing"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "What was Alice doing in the garden?", "ru": "Что делала Алиса в саду?" },
+      { "en": "She was chasing the White Rabbit.", "ru": "Она гналась за Белым Кроликом." },
+      { "en": "And was the Rabbit waiting for her?", "ru": "А Кролик её ждал?" },
+      { "en": "No. He was running. He was always late.", "ru": "Нет. Он бежал. Он вечно опаздывал." }
+    ],
+    "note": "Процессы в прошлом на Past Continuous: was chasing, was waiting, was running. Всё длилось, тянулось, происходило — на was/were + -ing."
   },
-  {
-   "group": "Два параллельных процесса",
-   "items": [
-    { "en": "While I was reading, he was sleeping.", "ru": "Пока я читал, он спал.", "highlight": ["was reading", "was sleeping"] },
-    { "en": "She was cooking while he was cleaning.", "ru": "Она готовила, пока он убирал.", "highlight": ["was cooking", "was cleaning"] }
-   ]
+  "russianAngle": [
+    "В русском «Алиса падала» может быть и Past Simple, и Past Continuous. В английском важно, длилось действие или было моментом: Alice was falling (длилось) против Alice fell (упала).",
+    "«Пока» — это while, и с ним Past Continuous: while Tom was painting. «Когда» — when, и с ним обычно Past Simple: when his friends arrived.",
+    "Was — для I, he, she, it. Were — для you, we, they. Не путай: Tom was, the ghosts were.",
+    "Отрицание — not после was/were: The Cat wasn't answering. Вопрос — вынос: Was the Hatter pouring tea?"
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: was/were + глагол с -ing. Tom was painting. The ghosts were coming.",
+      "Was — для I/he/she/it, were — для you/we/they.",
+      "While + Past Continuous (пока). When + Past Simple (когда, момент).",
+      "Отрицание — wasn't/weren't. Вопрос — вынос was/were.",
+      "Сделай упражнение и сверься. Пока ты делал упражнение, Алиса уже упала в нору."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — раскрой скобки в Past Continuous:",
+      "items": [
+        { "q": "Alice ___ (fall) down the rabbit hole.", "a": "was falling — процесс, I/she + was." },
+        { "q": "Tom ___ (paint) the fence.", "a": "was painting — он + was." },
+        { "q": "The ghosts ___ (not / come).", "a": "weren't coming — они + were, отрицание." },
+        { "q": "___ the Hatter ___ (pour) tea?", "a": "Was the Hatter pouring — вопрос, вынос was." },
+        { "q": "While Scrooge ___ (sleep), the ghosts ___ (come).", "a": "was sleeping / were coming — два процесса с while." }
+      ]
+    }
   },
-  {
-   "group": "Прерванное действие (when + Past Simple)",
-   "items": [
-    { "en": "I was sleeping when the phone rang.", "ru": "Я спал, когда зазвонил телефон.", "highlight": ["was sleeping", "rang"] },
-    { "en": "While she was driving, it started to rain.", "ru": "Пока она вела машину, пошёл дождь.", "highlight": ["was driving", "started"] }
-   ]
+  "formula": "was/were + V-ing",
+  "structure": {
+    "positive": "Alice was falling. / The ghosts were coming.",
+    "negative": "Alice wasn't falling. / The ghosts weren't coming.",
+    "question": "Was she falling? / Were they coming?"
   },
-  {
-   "group": "Фон/атмосфера в рассказе",
-   "items": [
-    { "en": "The sun was shining, birds were singing.", "ru": "Солнце светило, птицы пели.", "highlight": ["was shining", "were singing"] },
-    { "en": "People were walking, cars were passing by.", "ru": "Люди гуляли, машины проезжали мимо.", "highlight": ["were walking", "were passing"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "I was study all day.", "right": "I was studying all day.", "note": "Нужна форма V‑ing." },
-  { "wrong": "She studying.", "right": "She was studying.", "note": "Потеря was." },
-  { "wrong": "I was knowing him.", "right": "I knew him.", "note": "know — глагол состояния." },
-  { "wrong": "While I cooked, the phone was ringing.", "right": "While I was cooking, the phone rang.", "note": "Фон — Continuous, событие — Simple." },
-  { "wrong": "What you were doing?", "right": "What were you doing?", "note": "Инверсия в вопросе." }
- ],
- "compare": {
-  "title": "Past Simple vs Past Continuous",
-  "leftLabel": "Past Simple",
-  "rightLabel": "Past Continuous",
-  "rows": [
-   { "left": "I cooked dinner. (факт, кадр)", "right": "I was cooking dinner. (процесс, фон)" },
-   { "left": "цепочка событий: came, sat, smiled", "right": "то, что длилось, пока случилось другое" }
+  "markers": ["while", "when", "at that moment", "all night", "all day", "at midnight"],
+  "uses": [
+    "Действие, длившееся в прошлом: Alice was falling at midnight.",
+    "Действие, прерванное другим: Tom was painting when his friends arrived.",
+    "Два параллельных действия: While Scrooge was sleeping, the ghosts were coming.",
+    "Атмосфера и фон: The wind was howling. The candle was burning low."
+  ],
+  "rules": [
+    { "title": "was/were + V-ing", "text": "Was для I/he/she/it, were для you/we/they. Tom was painting. The ghosts were coming." },
+    { "title": "while и when", "text": "While (пока) + Past Continuous: while Tom was painting. When (когда) + Past Simple: when his friends arrived." },
+    { "title": "вопрос / отрицание", "text": "Вопрос: Was the Hatter pouring tea? Отрицание: The Cat wasn't answering." }
+  ],
+  "examples": [
+    {
+      "group": "Долгий путь и падение",
+      "items": [
+        { "en": "Alice was falling down the rabbit hole.", "ru": "Алиса падала в кроличью нору. Кэрролл: падение длилось вечность.", "highlight": ["was falling"] },
+        { "en": "Huck was floating down the river.", "ru": "Гек плыл по реке. Твен: свобода в процессе.", "highlight": ["was floating"] },
+        { "en": "Ahab was chasing the white whale.", "ru": "Ахав гнался за белым китом. Мелвилл: одержимость в движении.", "highlight": ["was chasing"] },
+        { "en": "Phileas Fogg was travelling around the world.", "ru": "Филеас Фогг объезжал свет. Верн: 80 дней в пути.", "highlight": ["was travelling"] }
+      ]
+    },
+    {
+      "group": "Пока длилось — случилось",
+      "items": [
+        { "en": "Tom was painting the fence when his friends arrived.", "ru": "Том красил забор, когда пришли друзья. Твен.", "highlight": ["was painting"] },
+        { "en": "Scrooge was counting his money when the ghost appeared.", "ru": "Скрудж считал деньги, когда появился призрак. Диккенс.", "highlight": ["was counting"] },
+        { "en": "The raven was tapping when the door swung open.", "ru": "Ворон стучал, когда дверь распахнулась. По.", "highlight": ["was tapping"] },
+        { "en": "Jane was walking on the moors when she heard a cry.", "ru": "Джейн гуляла по пустошам, когда услышала крик. Бронте.", "highlight": ["was walking"] }
+      ]
+    },
+    {
+      "group": "Два параллельных (while)",
+      "items": [
+        { "en": "While Alice was falling, the White Rabbit was running.", "ru": "Пока Алиса падала, Белый Кролик бежал.", "highlight": ["was falling", "was running"] },
+        { "en": "While Tom was painting, Huck was fishing.", "ru": "Пока Том красил, Гек рыбачил.", "highlight": ["was painting", "was fishing"] },
+        { "en": "While Scrooge was sleeping, the ghosts were coming.", "ru": "Пока Скрудж спал, призраки приближались.", "highlight": ["was sleeping", "were coming"] }
+      ]
+    },
+    {
+      "group": "Атмосфера и фон",
+      "items": [
+        { "en": "The wind was howling on the moors.", "ru": "Ветер выл на пустошах. Так начинаются тайны.", "highlight": ["was howling"] },
+        { "en": "It was getting dark in the forest.", "ru": "В лесу темнело. Момент, который меняет настроение.", "highlight": ["was getting"] },
+        { "en": "The candle was burning low.", "ru": "Свеча догорала. Время тянулось.", "highlight": ["was burning"] }
+      ]
+    },
+    {
+      "group": "Отрицания и вопросы",
+      "items": [
+        { "en": "The Cheshire Cat wasn't answering.", "ru": "Чеширский Кот не отвечал. Он только улыбался.", "highlight": ["wasn't answering"] },
+        { "en": "Was the Mad Hatter pouring tea?", "ru": "Безумный Шляпник наливал чай?", "highlight": ["Was the Mad Hatter pouring"] },
+        { "en": "They weren't listening to the Queen.", "ru": "Они не слушали Королеву. Смелые.", "highlight": ["weren't listening"] }
+      ]
+    },
+    {
+      "group": "Литературные моменты",
+      "items": [
+        { "en": "The ship was sailing into the storm.", "ru": "Корабль входил в шторм. Напряжение нарастает.", "highlight": ["was sailing"] },
+        { "en": "Her heart was beating fast.", "ru": "Её сердце билось быстро. Момент истины.", "highlight": ["was beating"] },
+        { "en": "The mystery was deepening.", "ru": "Тайна углублялась. Так строится интрига.", "highlight": ["was deepening"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Alice was fall.", "right": "Alice was falling.", "note": "Нужен глагол с -ing: was falling." },
+    { "wrong": "Tom were painting.", "right": "Tom was painting.", "note": "Tom (he) — was, не were." },
+    { "wrong": "While Scrooge counted, the ghost appeared.", "right": "While Scrooge was counting, the ghost appeared.", "note": "While + Past Continuous: was counting." },
+    { "wrong": "The ghosts was coming.", "right": "The ghosts were coming.", "note": "Ghosts (they) — were, не was." },
+    { "wrong": "Was the Cat answered?", "right": "Was the Cat answering?", "note": "Нужен -ing: was answering." }
+  ],
+  "compare": {
+    "title": "Процесс vs Момент",
+    "leftLabel": "Past Continuous (процесс)",
+    "rightLabel": "Past Simple (момент)",
+    "rows": [
+      { "left": "Alice was falling. (длилось)", "right": "She landed. (момент)" },
+      { "left": "Tom was painting. (фон)", "right": "His friends arrived. (событие)" },
+      { "left": "While Scrooge was sleeping...", "right": "...the ghost appeared." }
+    ]
+  },
+  "tips": [
+    "Past Continuous — was/were + глагол с -ing. Was для I/he/she/it, were для you/we/they.",
+    "While + Past Continuous (пока что-то длилось). When + Past Simple (когда что-то случилось).",
+    "Past Continuous рисует фон и процесс, Past Simple — события на этом фоне.",
+    "Два процесса одновременно: While Alice was falling, the Rabbit was running.",
+    "В книгах Past Continuous создаёт атмосферу: туман наползал, свеча горела, ветер выл.",
+    "Чем больше фраз на Past Continuous ты увидишь, тем быстрее они станут твоими. Прочитай примеры вслух."
+  ],
+  "related": ["a1-past-simple", "a1-present-continuous", "a1-present-simple"],
+  "quiz": [
+    {
+      "q": "Alice ___ (fall) down the rabbit hole.",
+      "options": ["was falling", "were falling", "was fall", "fell"],
+      "answer": 0,
+      "why": "She + was + -ing: was falling."
+    },
+    {
+      "q": "Tom ___ (paint) the fence.",
+      "options": ["was painting", "were painting", "was paint", "painted"],
+      "answer": 0,
+      "why": "He + was + -ing: was painting."
+    },
+    {
+      "q": "The ghosts ___ (not / come).",
+      "options": ["weren't coming", "wasn't coming", "weren't come", "didn't coming"],
+      "answer": 0,
+      "why": "They + were + -ing, отрицание: weren't coming."
+    },
+    {
+      "q": "___ the Hatter pouring tea?",
+      "options": ["Was", "Were", "Did", "Is"],
+      "answer": 0,
+      "why": "Вопрос: вынос was. Was the Hatter pouring?"
+    },
+    {
+      "q": "While Scrooge ___, the ghosts were coming.",
+      "options": ["was sleeping", "were sleeping", "was sleep", "slept"],
+      "answer": 0,
+      "why": "While + Past Continuous: was sleeping."
+    },
+    {
+      "q": "Tom was painting when his friends ___.",
+      "options": ["arrived", "were arriving", "arriving", "arrive"],
+      "answer": 0,
+      "why": "When + Past Simple (момент): arrived."
+    }
   ]
- },
- "tips": [
-  "Представь кино: Past Continuous — длинный план‑фон («шёл дождь, играла музыка, люди гуляли»), Past Simple — короткие кадры‑события («вошёл, сел, сказал»). В рассказе фон рисуй Continuous, события — Simple.",
-  "while = «в это самое время» (длинное, процесс), when = «и вдруг» (короткое, событие). I was cooking WHEN the phone RANG. Эта связка — основа связного рассказа о прошлом.",
-  "Глаголы состояния не любят -ing даже в прошлом: I knew, I wanted, I needed, I believed — не I was knowing/wanting. Сомневаешься? Ставь Past Simple.",
-  "«At 8 pm yesterday» / «at that moment» / «this time last year» — маркеры процесса в конкретный момент → Past Continuous. В отличие от «yesterday» вообще (Past Simple).",
-  "Два параллельных процесса — оба Continuous: While I was reading, he was sleeping. Ни один не прерывает другой — оба длятся.",
-  "Past Continuous для вежливых/мягких просьб и «я подумывал»: I was wondering if you could help me. I was hoping to see you. Звучит мягче, чем I wonder / I hope.",
-  "«Was/were always + -ing» для раздражения по поводу повторявшегося: He was always losing his keys! (вечно он терял ключи!). Эмоциональная конструкция, не путать с обычным Past Simple."
- ],
- "related": ["a1-past-simple", "a1-present-continuous", "a1-verb-to-be"],
- "quiz": [
-  {
-    "q": "I ___ all day yesterday.",
-    "options": [
-            "was study",
-            "was studying",
-            "studying",
-            "studied"
-          ],
-    "answer": 1,
-    "why": "Процесс в прошлом — was/were + V-ing: I was studying. was study (без -ing) — ошибка."
-  },
-  {
-    "q": "She ___ when I called.",
-    "options": [
-            "was cooking",
-            "cooking",
-            "was cook",
-            "cooked"
-          ],
-    "answer": 0,
-    "why": "Фон-действие, прерванное звонком — Past Continuous: She was cooking."
-  },
-  {
-    "q": "They ___ TV at 8 pm.",
-    "options": [
-            "were watching",
-            "was watching",
-            "watching",
-            "watched"
-          ],
-    "answer": 0,
-    "why": "С they форма be в прошлом — were: They were watching."
-  },
-  {
-    "q": "I ___ him for years.",
-    "options": [
-            "was knowing",
-            "knew",
-            "was know",
-            "knowing"
-          ],
-    "answer": 1,
-    "why": "know — глагол состояния, в Continuous не используется: I knew him, не I was knowing."
-  },
-  {
-    "q": "While he ___, the phone rang.",
-    "options": [
-            "was sleeping",
-            "slept",
-            "sleeping",
-            "sleep"
-          ],
-    "answer": 0,
-    "why": "while + длительный процесс в прошлом — Past Continuous: While he was sleeping."
-  },
-  {
-    "q": "___ you working at noon?",
-    "options": [
-            "Were",
-            "Was",
-            "Did",
-            "Are"
-          ],
-    "answer": 0,
-    "why": "Вопрос в Past Continuous с you — Were you working? Was для I/he/she/it."
-  }
-]
 }
