@@ -1,0 +1,193 @@
+{
+  "slug": "a1-questions",
+  "variant": "rocknroll",
+  "title": "Questions (yes/no и wh-)",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Как строить вопросы: yes/no и wh-. The Cure поют «Why can't I be you?», Talking Heads — «Where does that highway go?», Eurythmics — «Would I lie to you?», Depeche Mode — «Do you really want me?». Вопросы держат песню.",
+  "idea": [
+    "«Why can't I be you?» — спрашивает Robert Smith из The Cure, и это идеальный wh-вопрос: why (почему) + can (модальный) + I (подлежащее) + be you. Рок-н-ролл наполовину состоит из вопросов — потому что рок всегда о чём-то спрашивает. «Do you really want to hurt me?» — Culture Club. «Would I lie to you?» — Eurythmics. «Where does that highway go to?» — Talking Heads. «Do you really want me?» — Depeche Mode. Вопросы в английском устроены принципиально иначе, чем в русском. В русском — интонация. В английском — порядок слов. Вспомогательный глагол (do/does/did/am/is/are) выходит вперёд: Do you work? Is she here? Did they come? Wh-слово встаёт в самое начало: What do you want? Where did you go? Why are you here?",
+    "Основных типов два. Yes/no-вопросы — те, на которые отвечают «да» или «нет»: Do you love me? Is it real? Did they come? Have you seen the rain? Can you feel it? Wh-вопросы — те, что требуют развёрнутого ответа: What do you want? Where do you live? When did you arrive? Who are you? Why are you crying? How did you do it? Sex Pistols задают самый панковский вопрос в истории: «Who are you?» — три слова, и это уже манифест. Buzzcocks поют «Ever fallen in love with someone you shouldn't've fallen in love with?» — длиннющий вопрос, но структура та же: ever (wh-наречие) + have (вспомогательный) + fallen (V3). Вся рок-поэзия держится на вопросах: кто ты, где ты, что ты чувствуешь, куда ты идёшь.",
+    "Есть две тонкости, которые важно знать. Первая: если в утверждении уже есть be или модальный глагол (can, must, should, will), они сами становятся вспомогательными — do не нужен. «She is beautiful» → «Is she beautiful?». «He can sing» → «Can he sing?». «You must go» → «Must you go?». Вторая тонкость — вопрос к подлежащему (кто? что?). Здесь do тоже не нужен: «Who killed the radio star?» (не «Who did kill the radio star?»), «What happened?» (не «What did happen?»). The Buggles спрашивают «Video killed the radio star?» — и это вопрос к подлежащему, без do. The Clash поют «Should I stay or should I go?» — модальный should, do не нужен. Рок-н-ролл не прощает плохой грамматики, но прощает хорошую."
+  ],
+  "why": [
+    "Узнать факт: Do you love me? Is it real?",
+    "Узнать детали: Where do you live? What time does the gig start?",
+    "Узнать причину: Why are you crying? Why can't I be you?",
+    "Узнать человека: Who are you? Who killed the radio star?"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Where were you last night?", "ru": "Где ты был прошлой ночью?" },
+      { "en": "I was at the gig.", "ru": "Я был на гиге." },
+      { "en": "Did anyone see you?", "ru": "Тебя кто-то видел?" },
+      { "en": "No, nobody did. I was alone.", "ru": "Нет, никто. Я был один." }
+    ],
+    "note": "Классический диалог за кулисами: where (wh-вопрос), did anyone see (yes/no), nobody did (короткий ответ). Рок-н-ролл работает через эти структуры."
+  },
+  "russianAngle": [
+    "В русском вопрос — это интонация. В английском — порядок слов: вспомогательный глагол выходит вперёд.",
+    "Вопрос «Ты работаешь?» — в английском «Do you work?», не «You work?». Без do не вопрос.",
+    "Wh-вопросы — wh-слово в самое начало: What do you want? Where did you go?",
+    "Вопрос к подлежащему — исключение, do не нужно: Who killed the radio star? (не Who did kill)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни yes/no: do/does/did/am/is/are/can/will + подлежащее + глагол.",
+      "Запомни wh-: wh-слово + do/does/did/am/is/are + подлежащее + глагол.",
+      "Если в утверждении есть be или модальный глагол, do не нужен: Is she here? Can you sing?",
+      "Вопрос к подлежащему (who/what как подлежащее) — без do: Who is he? What happened?",
+      "Сделай упражнение и сверься. The Cure одобряет."
+    ],
+    "exercise": {
+      "prompt": "Построй вопрос. Протокол должен сойтись.",
+      "items": [
+        { "q": "You love me. → ___?", "a": "Do you love me? — yes/no через do." },
+        { "q": "She is beautiful. → ___?", "a": "Is she beautiful? — be выходит вперёд." },
+        { "q": "He lives in Camden. → Where ___?", "a": "Where does he live? — wh + does + V1." },
+        { "q": "They came last night. → When ___?", "a": "When did they come? — wh + did + V1." },
+        { "q": "Someone killed the radio star. → Who ___?", "a": "Who killed the radio star? — вопрос к подлежащему, без do." }
+      ]
+    }
+  },
+  "formula": "yes/no: Aux + S + V; wh-: Wh + Aux + S + V",
+  "structure": {
+    "positive": "You love me. / She lives in Camden.",
+    "negative": "You don't love me. / She doesn't live in Camden.",
+    "question": "Do you love me? / Where does she live?"
+  },
+  "markers": ["who", "what", "where", "when", "why", "how", "do", "does", "did", "am", "is", "are", "can", "will"],
+  "uses": [
+    "Узнать факт (yes/no): Do you love me?",
+    "Узнать детали (wh-): Where do you live?",
+    "Узнать причину: Why are you crying?",
+    "Узнать человека: Who are you?"
+  ],
+  "rules": [
+    { "title": "yes/no через do/does/did", "text": "В обычных глаголах в вопросы ставится do/does/did: Do you love me? Does she live? Did they come?" },
+    { "title": "wh- в начало", "text": "Wh-слово + do/does/did + подлежащее + глагол: What do you want? Where did you go?" },
+    { "title": "be и модальные сами выходят вперёд", "text": "Если есть be или модальный (can, must, will), do не нужен: Is she beautiful? Can you sing? Will you come?" }
+  ],
+  "examples": [
+    {
+      "group": "The Cure и романтические вопросы",
+      "items": [
+        { "en": "Why can't I be you?", "ru": "Почему я не могу быть тобой? The Cure: why + can.", "highlight": ["Why can't I be"] },
+        { "en": "Do you love me?", "ru": "Ты меня любишь? Yes/no через do.", "highlight": ["Do you love"] },
+        { "en": "Where are you going?", "ru": "Куда ты идёшь? Wh + be.", "highlight": ["Where are you going"] },
+        { "en": "Who are you?", "ru": "Кто ты? Вопрос к подлежащему.", "highlight": ["Who are"] }
+      ]
+    },
+    {
+      "group": "Talking Heads и экзистенциальные вопросы",
+      "items": [
+        { "en": "Where does that highway go to?", "ru": "Куда ведёт это шоссе? Talking Heads.", "highlight": ["Where does that highway go"] },
+        { "en": "How did I get here?", "ru": "Как я сюда попал? Wh + did.", "highlight": ["How did I get"] },
+        { "en": "What is happening?", "ru": "Что происходит? Wh + be.", "highlight": ["What is happening"] },
+        { "en": "Who is this?", "ru": "Кто это? Вопрос к подлежащему.", "highlight": ["Who is"] }
+      ]
+    },
+    {
+      "group": "Depeche Mode и Eurythmics",
+      "items": [
+        { "en": "Do you really want me?", "ru": "Ты действительно меня хочешь? Depeche Mode.", "highlight": ["Do you really want"] },
+        { "en": "Would I lie to you?", "ru": "Я бы тебе солгал? Eurythmics: would как модальный.", "highlight": ["Would I lie"] },
+        { "en": "What are you doing?", "ru": "Что ты делаешь? Wh + be.", "highlight": ["What are you doing"] },
+        { "en": "Can you feel the love tonight?", "ru": "Ты чувствуешь любовь сегодня вечером? Модальный can.", "highlight": ["Can you feel"] }
+      ]
+    },
+    {
+      "group": "Culture Club и Sex Pistols",
+      "items": [
+        { "en": "Do you really want to hurt me?", "ru": "Ты действительно хочешь меня ранить? Culture Club.", "highlight": ["Do you really want"] },
+        { "en": "Who are you?", "ru": "Кто ты? Sex Pistols: три слова, манифест.", "highlight": ["Who are"] },
+        { "en": "Why are you crying?", "ru": "Почему ты плачешь? Wh + be.", "highlight": ["Why are you crying"] },
+        { "en": "What do you want?", "ru": "Что ты хочешь? Wh + do.", "highlight": ["What do you want"] }
+      ]
+    },
+    {
+      "group": "The Clash и Buzzcocks",
+      "items": [
+        { "en": "Should I stay or should I go?", "ru": "Мне остаться или уйти? The Clash: should как модальный.", "highlight": ["Should I stay", "should I go"] },
+        { "en": "Ever fallen in love?", "ru": "Влюблялся когда-нибудь? Buzzcocks: have выходит вперёд.", "highlight": ["Ever fallen"] },
+        { "en": "When did you come?", "ru": "Когда ты пришёл? Wh + did.", "highlight": ["When did you come"] },
+        { "en": "Where do you live?", "ru": "Где ты живёшь? Wh + do.", "highlight": ["Where do you live"] }
+      ]
+    },
+    {
+      "group": "The Buggles и короткие ответы",
+      "items": [
+        { "en": "Who killed the radio star?", "ru": "Кто убил радиозвезду? The Buggles: вопрос к подлежащему, без do.", "highlight": ["Who killed"] },
+        { "en": "Did you see it? — Yes, I did.", "ru": "Короткий ответ через did.", "highlight": ["I did"] },
+        { "en": "Can you feel it? — Yes, I can.", "ru": "Короткий ответ через can.", "highlight": ["I can"] },
+        { "en": "Is it real? — No, it isn't.", "ru": "Короткий ответ через be.", "highlight": ["it isn't"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "You love me?", "right": "Do you love me?", "note": "В yes/no-вопросе нужен do/does/did. Без do — не вопрос." },
+    { "wrong": "Where you live?", "right": "Where do you live?", "note": "В wh-вопросе нужен do/does/did после wh-слова." },
+    { "wrong": "Who did kill the radio star?", "right": "Who killed the radio star?", "note": "Вопрос к подлежащему — без do." },
+    { "wrong": "What did happen?", "right": "What happened?", "note": "What как подлежащее — без did." },
+    { "wrong": "Where you were?", "right": "Where were you?", "note": "Be выходит вперёд: were you, не you were." },
+    { "wrong": "Can you to sing?", "right": "Can you sing?", "note": "После модального can глагол без to." }
+  ],
+  "compare": {
+    "title": "Yes/No vs Wh- vs Вопрос к подлежащему",
+    "leftLabel": "Yes/No (do/does/did)",
+    "rightLabel": "Wh- (wh + do)",
+    "rows": [
+      { "left": "Do you love me?", "right": "Where do you live?" },
+      { "left": "Did they come?", "right": "When did they come?" },
+      { "left": "Is she beautiful?", "right": "Who is she?" }
+    ]
+  },
+  "tips": [
+    "Yes/no: do/does/did/am/is/are/can/will в начало. Wh-: wh-слово в начало, потом do/does/did.",
+    "Если в утверждении есть be или модальный глагол, do не нужен: Is she beautiful? Can you sing?",
+    "Вопрос к подлежащему (who/what как подлежащее) — без do: Who killed the radio star? What happened?",
+    "Короткие ответы: Yes, I do. / No, I don't. / Yes, she is. / No, she isn't.",
+    "Весь рок-н-ролл — это вопросы: The Cure, Talking Heads, Depeche Mode, Eurythmics, Culture Club, Sex Pistols, The Clash, Buzzcocks, The Buggles.",
+    "Чем больше вопросов ты увидишь, тем быстрее структура станет автоматической. Прочитай примеры вслух."
+  ],
+  "related": ["a1-present-simple", "a1-verb-to-be", "a1-pronouns", "a1-past-simple"],
+  "quiz": [
+    {
+      "q": "You love me. → ___?",
+      "options": ["Do you love me?", "You love me?", "Are you love me?", "Does you love me?"],
+      "answer": 0,
+      "why": "Yes/no через do: Do you love me?"
+    },
+    {
+      "q": "She is beautiful. → ___?",
+      "options": ["Is she beautiful?", "Does she beautiful?", "Do she beautiful?", "She is beautiful?"],
+      "answer": 0,
+      "why": "Be выходит вперёд: Is she?"
+    },
+    {
+      "q": "He lives in Camden. → Where ___?",
+      "options": ["does he live", "he lives", "does he lives", "he does live"],
+      "answer": 0,
+      "why": "Wh + does + V1: Where does he live?"
+    },
+    {
+      "q": "They came last night. → When ___?",
+      "options": ["did they come", "they came", "did they came", "they did come"],
+      "answer": 0,
+      "why": "Wh + did + V1: When did they come?"
+    },
+    {
+      "q": "Someone killed the radio star. → Who ___?",
+      "options": ["killed the radio star", "did kill the radio star", "did killed the radio star", "kill the radio star"],
+      "answer": 0,
+      "why": "Вопрос к подлежащему — без do: Who killed the radio star? The Buggles знают."
+    },
+    {
+      "q": "___ she beautiful?",
+      "options": ["Is", "Does", "Do", "Did"],
+      "answer": 0,
+      "why": "Be выходит вперёд: Is she beautiful?"
+    }
+  ]
+}

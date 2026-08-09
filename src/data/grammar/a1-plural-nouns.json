@@ -1,197 +1,192 @@
 {
- "slug": "a1-plural-nouns",
- "title": "Plural nouns",
- "level": "A1",
- "category": "Nouns",
- "readingTime": 8,
- "summary": "Множественное число существительных: правила окончаний, исключения и ключевое различие «исчисляемое / неисчисляемое».",
- "idea": [
-  "Множественное число — это способ превратить один предмет в много, и базовое правило здесь обманчиво простое: добавь -s (cat → cats, book → books). Но за этой простотой скрывается то, что отличает английское существительное от русского и на чём спотыкаются годами. Во‑первых, у окончаний есть чёткие правила правописания: после шипящих добавляется -es (box → boxes, watch → watches), согласная + y превращается в -ies (city → cities), а f/fe часто переходит в -ves (knife → knives). Во‑вторых, есть набор исключений, которые не подчиняются никаким правилам и которые нужно просто знать: man → men, child → children, foot → feet.",
-  "Но главная концептуальная вещь, которую английский навязывает, а русский почти не знает, — это различие исчисляемых и неисчисляемых существительных. Исчисляемое — то, что можно посчитать штуками: one apple, two apples, three apples. У таких слов есть множественное число, и с ними работают many / a few. Неисчисляемое — то, что штуками не посчитаешь: вода, время, информация, совет, мебель, деньги. У таких слов множественного числа НЕТ, и с ними работают much / a little. Для русскоговорящего это шок: по‑русски мы спокойно говорим «много информации», «много советов», «много мебели», но по‑английски information, advice, furniture — неисчисляемые, и «many informations» — грубая ошибка.",
-  "Есть и коварные слова‑обманки: news выглядит как множественное (оканчивается на -s), но на деле это неисчисляемое единственное число — The news is good, не are. Так же ведут себя mathematics, physics, economics. А некоторые существительные вообще не меняются во множественном числе: sheep → sheep, fish → fish. Если унести одну мысль: исчисляемое = можно посчитать штуками (есть -s, many/a few); неисчисляемое = посчитать нельзя (нет -s, much/a little) — и этот тест «можно ли сказать „три штуки“?» решает большинство случаев."
- ],
- "why": [
-  "Говорить о нескольких предметах: two cats, many books, three chairs.",
-  "Различать исчисляемое и неисчисляемое: many cars vs much traffic.",
-  "Правильно писать окончания: boxes, cities, knives.",
-  "Не ошибаться с исключениями: children, people, men, feet."
- ],
- "context": {
-  "lines": [
-   { "en": "How many chairs do we need?", "ru": "Сколько стульев нам нужно?" },
-   { "en": "We need six chairs and two tables.", "ru": "Нам нужно шесть стульев и два стола." },
-   { "en": "And how much water should I buy?", "ru": "А сколько воды купить?" },
-   { "en": "Just a few bottles. Oh, and we need some information about the prices.", "ru": "Пару бутылок. Ой, и нам нужна информация о ценах." },
-   { "en": "There's a list on the website. Let me check the details.", "ru": "На сайте есть список. Дай проверю детали." }
+  "slug": "a1-plural-nouns",
+  "title": "Plural Nouns",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Множественное число существительных: правила, исключения, неправильные формы. Астрид Линдгрен считает horses, Роальд Даль — tickets, Льюис — lions, Памела Трэверс — umbrellas, Дж. М. Барри — pirates. От одного ко многим.",
+  "idea": [
+    "«One horse, one monkey, one girl, and many, many adventures» — так можно описать мир Пеппи Длинныйчулок у Астрид Линдгрен. Одна лошадь, одна обезьяна, одна девочка — и множество приключений. Множественное число существительных — это способ сказать, что чего-то больше одного. Book → books (книги), cat → cats (кошки), horse → horses (лошади). Большинство существительных образуют множественное число добавлением -s или -es: после -s, -sh, -ch, -x, -o добавляется -es (box → boxes, watch → watches, hero → heroes). Согласная + y → -ies (city → cities, lady → ladies). Роальд Даль в «Чарли и шоколадной фабрике» даёт нам «one ticket, five tickets, many tickets» — и это всё через множественное число.",
+    "Есть неправильные формы, которые нужно выучить отдельно: man → men, woman → women, child → children, foot → feet, tooth → teeth, mouse → mice, person → people, goose → geese, ox → oxen. Клайв Стейплз Льюис в «Хрониках Нарнии» даёт нам «one lion, many lions» (правильное), но «one man, many men» (неправильное — men, не mans). Памела Трэверс в «Мэри Поппинс» пишет «one umbrella, many umbrellas» (правильное), но «one child, many children» (неправильное — children, не childs). Дж. М. Барри в «Питере Пэне» даёт нам «one pirate, many pirates» (правильное), но «one boy, many boys» (правильное) и «one man, many men» (неправильное). Неправильные формы — это исключения, которые нужно запомнить.",
+    "Есть существительные, которые не меняются во множественном числе: sheep → sheep, fish → fish, deer → deer, series → series, species → species. Астрид Линдгрен пишет «one sheep, many sheep» — и это правильно, потому что sheep не меняется. Есть существительные, которые всегда во множественном числе: scissors (ножницы), glasses (очки), trousers (брюки), jeans (джинсы), clothes (одежда). Памела Трэверс пишет «her glasses are on the table» — очки всегда во множественном числе. И есть существительные, которые всегда в единственном числе: news (новости), mathematics (математика), physics (физика). Множественное число — это целый мир правил и исключений, и английский роман держится на них."
   ],
-  "note": "chairs / tables / bottles — исчисляемые (many, a few, окончание -s); water, information — неисчисляемые (much, some, без -s)."
- },
- "russianAngle": [
-  " В русском почти всё «считается»: «много информации / советов / новостей / мебели». В английском information, advice, news, furniture, money, luggage — неисчисляемые: нет -s, нет a, с ними much / a little. «Many informations» — ошибка №1.",
-  " «двое детей», «люди» — свои формы. Исключения: child → children, person → people, man → men, woman → women. Не childs, не persons (в обычном смысле).",
-  " «много» — одно слово для всего. many + исчисляемые (many books), much + неисчисляемые (much time). Так же a few / a little — «немного» по тому же принципу.",
-  " «ножы», «городы» — пишем как слышим. Правописание окончаний по правилам: -es после шипящих, -ies после согласной + y, -ves после f/fe."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: исчисляемое = считается штуками (one/two apples); неисчисляемое = нет (water, advice).",
-   "Выучи базовое правило окончаний: -s; -es после s/x/sh/ch/o; согласная + y → -ies; f/fe → -ves.",
-   "Заучи топ исключений: man/men, woman/women, child/children, person/people, foot/feet, tooth/teeth, mouse/mice.",
-   "many / a few + исчисляемые; much / a little + неисчисляемые.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Сказать, что чего-то больше одного: one book → many books.",
+    "Говорить о группе: one child → many children.",
+    "Описать количество: one horse → two horses → many horses.",
+    "Использовать неправильные формы: man → men, child → children."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — множественное число или выбор слова:",
-   "items": [
-    { "q": "one child → two ___", "a": "children — исключение." },
-    { "q": "one box → three ___", "a": "boxes — -es после x." },
-    { "q": "one city → many ___", "a": "cities — согласная + y → -ies." },
-    { "q": "I don't have much ___ (time / times).", "a": "time — неисчисляемое, без -s." },
-    { "q": "There are many ___ (peoples / people) here.", "a": "people — множественное от person." }
-   ]
-  }
- },
- "formula": "cat → cats · box → boxes · baby → babies · man → men",
- "structure": {
-  "positive": "one cat → two cats",
-  "negative": "—",
-  "question": "—"
- },
- "markers": ["-s", "-es", "-ies", "-ves", "many", "much", "a few", "a little"],
- "uses": [
-  "Регулярное +s: cats, dogs.",
-  "После шипящих +es: boxes, buses.",
-  "Согласная + y → -ies: cities.",
-  "Исключения: man → men, child → children, foot → feet."
- ],
- "rules": [
-  { "title": "-es после s, x, sh, ch, o", "text": "bus → buses, box → boxes, dish → dishes, watch → watches, tomato → tomatoes. Без -es слово не выговорить." },
-  { "title": "y и f/fe", "text": "Согласная + y → -ies (city → cities), но гласная + y → +s (boy → boys). f/fe часто → -ves (knife → knives, leaf → leaves), но не всегда (roof → roofs)." },
-  { "title": "Исчисляемое / неисчисляемое", "text": "Исчисляемые имеют множественное число (books) и сочетаются с many/a few. Неисчисляемые (water, advice, news, information, furniture, money) множественного не имеют и сочетаются с much/a little." }
- ],
- "examples": [
-  {
-   "group": "Регулярное +s и -es",
-   "items": [
-    { "en": "I have two cats and three dogs.", "ru": "У меня две кошки и три собаки.", "highlight": ["cats", "dogs"] },
-    { "en": "She bought three boxes.", "ru": "Она купила три коробки.", "highlight": ["boxes"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "How many tickets do you have?", "ru": "Сколько у тебя билетов?" },
+      { "en": "I have five tickets.", "ru": "У меня пять билетов." },
+      { "en": "And how many chocolates?", "ru": "А сколько шоколадок?" },
+      { "en": "Many, many chocolates.", "ru": "Много, много шоколадок." }
+    ],
+    "note": "Всё через множественное число: tickets (правильное), chocolates (правильное). Роальд Даль считает через множественное число."
   },
-  {
-   "group": "Согласная + y → -ies",
-   "items": [
-    { "en": "There are many cities in Italy.", "ru": "В Италии много городов.", "highlight": ["cities"] },
-    { "en": "I read two stories.", "ru": "Я прочитал две истории.", "highlight": ["stories"] }
-   ]
+  "russianAngle": [
+    "В русском множественное число образуется по-разному: книга → книги, стул → стулья, ребёнок → дети. В английском тоже есть правила и исключения.",
+    "Большинство существительных: +s (book → books). После -s/-sh/-ch/-x/-o: +es (box → boxes).",
+    "Неправильные формы нужно выучить: man → men, child → children, foot → feet.",
+    "Некоторые существительные не меняются: sheep → sheep, fish → fish."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: большинство существительных → +s (book → books).",
+      "После -s/-sh/-ch/-x/-o → +es (box → boxes, watch → watches).",
+      "Согласная + y → -ies (city → cities, lady → ladies).",
+      "Неправильные формы: man → men, child → children, foot → feet.",
+      "Сделай упражнение и сверься. Линдгрен одобряет."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — образуй множественное число:",
+      "items": [
+        { "q": "book → ___", "a": "books — обычное правило: +s." },
+        { "q": "box → ___", "a": "boxes — после -x: +es." },
+        { "q": "city → ___", "a": "cities — согласная + y → -ies." },
+        { "q": "child → ___", "a": "children — неправильное." },
+        { "q": "sheep → ___", "a": "sheep — не меняется." }
+      ]
+    }
   },
-  {
-   "group": "Исключения",
-   "items": [
-    { "en": "The children are playing.", "ru": "Дети играют.", "highlight": ["children"] },
-    { "en": "Many people live here.", "ru": "Здесь живёт много людей.", "highlight": ["people"] }
-   ]
+  "formula": "+s; +es после -s/-sh/-ch/-x/-o; -ies после согласной + y; неправильные",
+  "structure": {
+    "positive": "One book, two books. / One child, two children.",
+    "negative": "No books. / No children.",
+    "question": "How many books? / How many children?"
   },
-  {
-   "group": "Исчисляемое vs неисчисляемое",
-   "items": [
-    { "en": "I don't have much time.", "ru": "У меня мало времени.", "highlight": ["much time"] },
-    { "en": "She gave me a lot of good advice.", "ru": "Она дала мне много хороших советов.", "highlight": ["advice"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "two childs", "right": "two children", "note": "child — исключение." },
-  { "wrong": "many informations", "right": "much information", "note": "information неисчисляемое → much, без -s." },
-  { "wrong": "three boxs", "right": "three boxes", "note": "-es после x." },
-  { "wrong": "a few water", "right": "a little water", "note": "water неисчисляемое → a little." },
-  { "wrong": "many furnitures", "right": "much furniture", "note": "furniture неисчисляемое." },
-  { "wrong": "two mouses", "right": "two mice", "note": "mouse — исключение." }
- ],
- "compare": {
-  "title": "исчисляемые vs неисчисляемые",
-  "leftLabel": "исчисляемые (есть мн.ч.)",
-  "rightLabel": "неисчисляемые (нет мн.ч.)",
-  "rows": [
-   { "left": "books, ideas, cars", "right": "water, advice, news, furniture" },
-   { "left": "many / a few", "right": "much / a little" }
+  "markers": ["many", "some", "a few", "a lot of", "two", "three", "five"],
+  "uses": [
+    "Сказать, что чего-то больше одного: one book → many books.",
+    "Говорить о группе: one child → many children.",
+    "Описать количество: two horses, five tickets.",
+    "Использовать неправильные формы: men, children, feet."
+  ],
+  "rules": [
+    { "title": "Обычное правило", "text": "Большинство существительных → +s: book → books, cat → cats, horse → horses." },
+    { "title": "+es после -s/-sh/-ch/-x/-o", "text": "Box → boxes, watch → watches, hero → heroes, bus → buses, church → churches." },
+    { "title": "Согласная + y → -ies", "text": "City → cities, lady → ladies, story → stories. Но гласная + y → +s: boy → boys, day → days." }
+  ],
+  "examples": [
+    {
+      "group": "Астрид Линдгрен и Пеппи",
+      "items": [
+        { "en": "One horse, many horses.", "ru": "Одна лошадь, много лошадей. Правильное множественное.", "highlight": ["horse", "horses"] },
+        { "en": "One monkey, many monkeys.", "ru": "Одна обезьяна, много обезьян.", "highlight": ["monkey", "monkeys"] },
+        { "en": "One girl, many girls.", "ru": "Одна девочка, много девочек.", "highlight": ["girl", "girls"] },
+        { "en": "One sheep, many sheep.", "ru": "Одна овца, много овец. Sheep не меняется.", "highlight": ["sheep"] }
+      ]
+    },
+    {
+      "group": "Роальд Даль и Чарли",
+      "items": [
+        { "en": "One ticket, five tickets.", "ru": "Один билет, пять билетов. Правильное множественное.", "highlight": ["ticket", "tickets"] },
+        { "en": "One chocolate, many chocolates.", "ru": "Одна шоколадка, много шоколадок.", "highlight": ["chocolate", "chocolates"] },
+        { "en": "One child, many children.", "ru": "Один ребёнок, много детей. Неправильное: children.", "highlight": ["child", "children"] },
+        { "en": "One factory, many factories.", "ru": "Одна фабрика, много фабрик. y → -ies.", "highlight": ["factory", "factories"] }
+      ]
+    },
+    {
+      "group": "Клайв Стейплз Льюис и Нарния",
+      "items": [
+        { "en": "One lion, many lions.", "ru": "Один лев, много львов. Правильное множественное.", "highlight": ["lion", "lions"] },
+        { "en": "One witch, many witches.", "ru": "Одна ведьма, много ведьм. После -ch: +es.", "highlight": ["witch", "witches"] },
+        { "en": "One man, many men.", "ru": "Один человек, много людей. Неправильное: men.", "highlight": ["man", "men"] },
+        { "en": "One woman, many women.", "ru": "Одна женщина, много женщин. Неправильное: women.", "highlight": ["woman", "women"] }
+      ]
+    },
+    {
+      "group": "Памела Трэверс и Мэри Поппинс",
+      "items": [
+        { "en": "One umbrella, many umbrellas.", "ru": "Один зонт, много зонтов. Правильное множественное.", "highlight": ["umbrella", "umbrellas"] },
+        { "en": "One child, many children.", "ru": "Один ребёнок, много детей. Неправильное: children.", "highlight": ["child", "children"] },
+        { "en": "Her glasses are on the table.", "ru": "Её очки на столе. Glasses всегда во множественном.", "highlight": ["glasses"] },
+        { "en": "One foot, two feet.", "ru": "Одна нога, две ноги. Неправильное: feet.", "highlight": ["foot", "feet"] }
+      ]
+    },
+    {
+      "group": "Дж. М. Барри и Питер Пэн",
+      "items": [
+        { "en": "One pirate, many pirates.", "ru": "Один пират, много пиратов. Правильное множественное.", "highlight": ["pirate", "pirates"] },
+        { "en": "One boy, many boys.", "ru": "Один мальчик, много мальчиков. Гласная + y: +s.", "highlight": ["boy", "boys"] },
+        { "en": "One man, many men.", "ru": "Один мужчина, много мужчин. Неправильное: men.", "highlight": ["man", "men"] },
+        { "en": "One fairy, many fairies.", "ru": "Одна фея, много фей. Согласная + y: -ies.", "highlight": ["fairy", "fairies"] }
+      ]
+    },
+    {
+      "group": "Неправильные формы",
+      "items": [
+        { "en": "One mouse, many mice.", "ru": "Одна мышь, много мышей. Неправильное: mice.", "highlight": ["mouse", "mice"] },
+        { "en": "One tooth, many teeth.", "ru": "Один зуб, много зубов. Неправильное: teeth.", "highlight": ["tooth", "teeth"] },
+        { "en": "One goose, many geese.", "ru": "Один гусь, много гусей. Неправильное: geese.", "highlight": ["goose", "geese"] },
+        { "en": "One person, many people.", "ru": "Один человек, много людей. Неправильное: people.", "highlight": ["person", "people"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "One child, many childs.", "right": "One child, many children.", "note": "Child — неправильное: children, не childs." },
+    { "wrong": "One man, many mans.", "right": "One man, many men.", "note": "Man — неправильное: men, не mans." },
+    { "wrong": "One foot, many foots.", "right": "One foot, many feet.", "note": "Foot — неправильное: feet, не foots." },
+    { "wrong": "One box, many boxs.", "right": "One box, many boxes.", "note": "После -x: +es, не +s." },
+    { "wrong": "One city, many citys.", "right": "One city, many cities.", "note": "Согласная + y → -ies: cities." },
+    { "wrong": "One sheep, many sheeps.", "right": "One sheep, many sheep.", "note": "Sheep не меняется во множественном числе." }
+  ],
+  "compare": {
+    "title": "Правильное vs Неправильное",
+    "leftLabel": "Правильное (+s/-es/-ies)",
+    "rightLabel": "Неправильное",
+    "rows": [
+      { "left": "book → books", "right": "child → children" },
+      { "left": "box → boxes", "right": "man → men" },
+      { "left": "city → cities", "right": "foot → feet" }
+    ]
+  },
+  "tips": [
+    "Большинство существительных → +s: book → books, cat → cats.",
+    "После -s/-sh/-ch/-x/-o → +es: box → boxes, watch → watches.",
+    "Согласная + y → -ies: city → cities. Но гласная + y → +s: boy → boys.",
+    "Неправильные формы нужно выучить: man → men, child → children, foot → feet, mouse → mice.",
+    "Некоторые существительные не меняются: sheep → sheep, fish → fish, deer → deer.",
+    "В детских книгах Линдгрен, Даля, Льюиса, Трэверс, Барри множественное число — основа сюжета."
+  ],
+  "related": ["a1-nouns", "a1-verb-to-be", "a1-there-is-there-are"],
+  "quiz": [
+    {
+      "q": "book → ___",
+      "options": ["books", "bookes", "bookies", "book"],
+      "answer": 0,
+      "why": "Обычное правило: +s."
+    },
+    {
+      "q": "box → ___",
+      "options": ["boxes", "boxs", "boxies", "box"],
+      "answer": 0,
+      "why": "После -x: +es."
+    },
+    {
+      "q": "city → ___",
+      "options": ["cities", "citys", "cityes", "city"],
+      "answer": 0,
+      "why": "Согласная + y → -ies."
+    },
+    {
+      "q": "child → ___",
+      "options": ["children", "childs", "childrens", "childes"],
+      "answer": 0,
+      "why": "Неправильное: children."
+    },
+    {
+      "q": "sheep → ___",
+      "options": ["sheep", "sheeps", "sheepes", "sheepies"],
+      "answer": 0,
+      "why": "Sheep не меняется."
+    },
+    {
+      "q": "man → ___",
+      "options": ["men", "mans", "mens", "manes"],
+      "answer": 0,
+      "why": "Неправильное: men. Льюис знает."
+    }
   ]
- },
- "tips": [
-  "Исключения учи десятками по частотности: man/men, woman/women, child/children, person/people, foot/feet, tooth/teeth, mouse/mice. Они всплывают постоянно — это 90% исключений в живой речи.",
-  "news выглядит множественным (оканчивается на -s), но это ед.ч. и неисчисл.: The news is good (не are). Так же mathematics, physics, economics — выглядят как мн.ч., но ед.ч.",
-  "furniture, luggage, advice, information, money, equipment — всегда ед.ч. Хочешь «один»? a piece of advice / an item of furniture / a piece of information. Не лепи -s.",
-  "people vs persons: people — обычное множественное от person; persons — только в официальных и юридических текстах (missing persons). В речи всегда people.",
-  "hair: «волосы» в английском обычно неисчисл. (She has long hair, не hairs), но отдельные волоски — hairs (a few grey hairs). Так же fruit (обычно неисчисл.) vs fruits (виды фруктов).",
-  "money неисчисл., но валюты и монеты считаются: much money, но many coins, many euros, many dollars. Не «many moneys».",
-  "Произношение окончаний — как в Present Simple: /s/ (cats), /z/ (dogs), /ɪz/ после шипящих (boxes /ˈbɒksɪz/, watches). -es после шипящих добавляет целый слог /ɪz/ — это хорошо слышно."
- ],
- "related": ["a1-articles-a-an", "a1-there-is-there-are", "a1-questions"],
- "quiz": [
-  {
-    "q": "I have two ___.",
-    "options": [
-            "childs",
-            "childes",
-            "children",
-            "child"
-          ],
-    "answer": 2,
-    "why": "child — исключение: множественное число children, а не childs."
-  },
-  {
-    "q": "There are three ___ on the table.",
-    "options": [
-            "boxs",
-            "boxes",
-            "box",
-            "boxies"
-          ],
-    "answer": 1,
-    "why": "После x добавляется -es: boxes, не boxs."
-  },
-  {
-    "q": "She has many ___.",
-    "options": [
-            "friend",
-            "friends",
-            "friendes",
-            "friendses"
-          ],
-    "answer": 1,
-    "why": "friend — исчисляемое существительное, множественное число через -s: friends."
-  },
-  {
-    "q": "I need some ___.",
-    "options": [
-            "informations",
-            "information",
-            "informations\u0027",
-            "an information"
-          ],
-    "answer": 1,
-    "why": "information — неисчисляемое: без -s и без артикля a. many informations — ошибка, правильно much information."
-  },
-  {
-    "q": "There are five ___ in the fridge.",
-    "options": [
-            "tomatos",
-            "tomatoes",
-            "tomato",
-            "tomatoies"
-          ],
-    "answer": 1,
-    "why": "После o добавляется -es: tomatoes, не tomatos."
-  },
-  {
-    "q": "The ___ are playing in the yard.",
-    "options": [
-            "babys",
-            "babies",
-            "baby",
-            "babyes"
-          ],
-    "answer": 1,
-    "why": "y после согласной меняется на -ies: babies, не babys."
-  }
-]
 }

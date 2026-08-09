@@ -1,195 +1,192 @@
 {
- "slug": "a1-imperative-and-frequency",
- "title": "Imperative + adverbs of frequency",
- "level": "A1",
- "category": "Other",
- "readingTime": 7,
- "summary": "Повелительное наклонение (команды, просьбы, советы) и наречия частотности (как часто) с их местом в предложении.",
- "idea": [
-  "Повелительное наклонение, или imperative, — это команды, просьбы, советы и инструкции, и по форме оно самое простое в английском: голый глагол без подлежащего и без окончаний. Open the door. Sit down. Be quiet. Подлежащее you подразумевается, но не произносится — именно поэтому команда выглядит как «обрезанный» глагол. Отрицание строится через Don't + глагол: Don't touch that. Don't be late. Это, кстати, единственная ситуация, где do появляется в начале утвердительной по форме фразы (в виде don't), и её проще всего запомнить как готовую конструкцию, а не выводить по правилу.",
-  "Наречия частотности — always, usually, often, sometimes, rarely, never — показывают, как часто что‑то происходит, и это неотъемлемая часть Present Simple. Главная тонкость здесь не значение, а место в предложении: наречие частотности стоит ПЕРЕД основным глаголом (I often read), но ПОСЛЕ глагола to be (She is always late), и между вспомогательным и основным глаголом (I have never been). Это правило места — то, на чём спотыкаются русскоговорящие, потому что в русском наречие гуляет свободно: «Я часто читаю», «Читаю часто», «Часто я читаю» — всё одинаково хорошо, а в английском позиция фиксирована и её нельзя менять по желанию.",
-  "Обе идеи связаны: и команды, и частотность — это про то, как устроена повседневная жизнь и взаимодействие с людьми. Команды — про «сделай / не делай», частотность — про «как обычно». Ловушек здесь несколько: «Don't to go» (лишнее to после don't), «I drink always coffee» (наречие поставлено не туда) и коварное never, которое уже само несёт отрицание, поэтому с don't не сочетается: I never eat meat, а не I don't never eat. Если унести одну мысль: команда = голый глагол (для запрета — Don't + глагол); наречие частотности = перед основным глаголом, но после be."
- ],
- "why": [
-  "Давать команды и инструкции: Open the window. Turn left.",
-  "Просить и советовать: Please help me. Be careful.",
-  "Говорить, как часто что‑то делаешь: I usually get up at 7. She never smokes.",
-  "Запрещать: Don't touch that. Don't be late."
- ],
- "context": {
-  "lines": [
-   { "en": "Hurry up! We're late.", "ru": "Поторапливайся! Мы опаздываем." },
-   { "en": "OK, OK. Don't shout. I'm almost ready.", "ru": "Ладно, ладно. Не кричи. Я почти готов." },
-   { "en": "Always the same story. You never get up on time.", "ru": "Вечно одно и то же. Ты никогда не встаёшь вовремя." },
-   { "en": "I usually do! Today is just an exception.", "ru": "Обычно встаю! Сегодня просто исключение." },
-   { "en": "Fine. Just be quick, please.", "ru": "Ладно. Только побыстрее, пожалуйста." }
+  "slug": "a1-imperative-and-frequency",
+  "title": "Imperative & Frequency",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Повелительное наклонение: команды, просьбы, советы, предупреждения. Бонд говорит «Shaken, not stirred», Дюма — «All for one, one for all!», Мелвилл — «Call me Ishmael». Плюс наречия частоты: always, usually, often, sometimes, never.",
+  "idea": [
+    "«Call me Ishmael» — так начинается «Моби Дик» Германа Мелвилла, и это императив в чистом виде: глагол в начальной форме, без подлежащего, без вспомогательных глаголов. Просто «Call» — и всё. Императив — это язык команд, просьб, советов и предупреждений. Он не спрашивает, не описывает, не рассказывает — он приказывает или просит. Ян Флеминг в романах о Джеймсе Бонде даёт нам идеальный императив: «Shaken, not stirred» (взболтать, не размешивать), «Don't call me Bond» (не называй меня Бондом), «Stay calm» (сохраняй спокойствие). Александр Дюма в «Трёх мушкетёрах» кричит: «All for one, one for all!» (все за одного, один за всех!). Джозеф Конрад в «Сердце тьмы» даёт команды на корабле: «Turn left. Stop the engine. Don't move». Весь английский приключенческий роман держится на императиве.",
+    "Строится императив просто: глагол в начальной форме (infinitive без to). Положительный императив: «Open the door», «Read this letter», «Call me later». Отрицательный императив — don't + глагол: «Don't open that door», «Don't call me Bond», «Don't move». Вопросительный императив (через let's): «Let's go», «Let's not wait». Джон Ле Карре в шпионских романах даёт самый тихий императив в литературе: «Don't move. Stay calm. Trust no one». Три предложения, три команды, и всё понятно без лишних слов. Бонд, мушкетёры, капитаны кораблей — все работают через императив.",
+    "Частотные наречия (always, usually, often, sometimes, rarely, never) показывают, как часто что-то происходит. Они ставятся перед основным глаголом, но после be: «I always drink tea», «She is never late», «They usually work on Sundays». Бонд всегда пьёт мартини взболтанным, но не размешанным — «He always drinks his martini shaken, not stirred». Мушкетёры всегда за одного — «They are always all for one». Мелвилл всегда начинает с императива — «He always calls himself Ishmael». Императив и частотные наречия — два кита английского повествования."
   ],
-  "note": "Don't shout / be quick — команды; always / never / usually — наречия частотности, каждое на своём месте: перед основным глаголом (never get up, usually do), но после подразумеваемого be в «Always the same»."
- },
- "russianAngle": [
-  " Команда «Открой!» — глагол в повелительном. Голый инфинитив без подлежащего: Open the door. (не You open). Отрицание: Don't + глагол — Don't open it.",
-  " «Не опаздывай» (be в русском не видно). Don't be late. Команды с be: Be careful! Be quiet! Just be yourself.",
-  " Наречие гуляет: «Я часто читаю / Часто читаю / Читаю часто». Место фиксировано: I often read (перед глаголом), но She is always late (после be).",
-  " «Я никогда не ем мясо» (не + никогда). I never eat meat — never уже отрицание, don't не нужен (не I don't never eat)."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: команда = голый глагол; запрет = Don't + глагол.",
-   "Запомни команды с be: Be careful! Don't be late! Be yourself.",
-   "Выучи лесенку частотности: always > usually > often > sometimes > rarely > never.",
-   "Запомни место наречия: ПЕРЕД основным глаголом, ПОСЛЕ be, между вспомогательным и основным.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Дать команду: Open the door. Turn left. Stop the engine.",
+    "Попросить: Please, call me later. Help me.",
+    "Дать совет: Don't worry. Stay calm. Trust no one.",
+    "Сказать частоту: I always drink tea. She is never late."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — переведи или вставь слово на правильное место:",
-   "items": [
-    { "q": "___ (Открой) the window, please.", "a": "Open — голый глагол." },
-    { "q": "___ (Не опаздывай)!", "a": "Don't be late — запрет с be." },
-    { "q": "I ___ (часто) read before bed. → расставь: I read often / I often read", "a": "I often read — наречие перед основным глаголом." },
-    { "q": "She is ___ (всегда) late. (always)", "a": "always — после be: She is always late." },
-    { "q": "He ___ (никогда) drinks coffee. (never)", "a": "never — He never drinks (без doesn't: never уже отрицание)." }
-   ]
-  }
- },
- "formula": "V1! / Don't + V1! · always/usually/often/sometimes/never + V1",
- "structure": {
-  "positive": "Sit down. / I usually walk.",
-  "negative": "Don't run. / I never smoke.",
-  "question": "—"
- },
- "markers": ["don't", "let's", "always", "usually", "often", "sometimes", "rarely", "never"],
- "uses": [
-  "Команда: Close the door.",
-  "Запрет: Don't touch that.",
-  "Предложение: Let's go.",
-  "Частота: I always drink coffee."
- ],
- "rules": [
-  { "title": "Место наречия частотности", "text": "ПЕРЕД основным глаголом (I often read), но ПОСЛЕ be (She is always late) и между вспомогательным и основным (I have never been)." },
-  { "title": "Повелительное без подлежащего", "text": "Команда начинается с голого глагола: Open the window. Отрицание — Don't + глагол. Let's = «давай»: Let's eat." }
- ],
- "examples": [
-  {
-   "group": "Команды",
-   "items": [
-    { "en": "Open the door. Sit down. Turn left.", "ru": "Открой дверь. Садись. Поверни налево.", "highlight": ["Open", "Sit", "Turn"] },
-    { "en": "Be quiet, please.", "ru": "Тихо, пожалуйста.", "highlight": ["Be"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Open the door.", "ru": "Открой дверь." },
+      { "en": "Don't move.", "ru": "Не двигайся." },
+      { "en": "Let's go.", "ru": "Пойдём." },
+      { "en": "Please, stay calm.", "ru": "Пожалуйста, сохраняй спокойствие." }
+    ],
+    "note": "Все типы императива: положительный (Open), отрицательный (Don't move), через let's (Let's go), с please (Please, stay calm). Бонд, Ле Карре, Дюма — все работают через эти структуры."
   },
-  {
-   "group": "Запреты",
-   "items": [
-    { "en": "Don't touch that.", "ru": "Не трогай это.", "highlight": ["Don't touch"] },
-    { "en": "Don't be late.", "ru": "Не опаздывай.", "highlight": ["Don't be"] }
-   ]
+  "russianAngle": [
+    "В русском императив — это «открой», «не двигайся», «пойдём». В английском — глагол в начальной форме: Open, Don't move, Let's go.",
+    "Отрицательный императив — don't + глагол: Don't open. Don't call. Don't move.",
+    "Частотные наречия ставятся перед основным глаголом, но после be: I always drink tea. She is never late.",
+    "Please в английском смягчает императив: Please, help me. Без please императив звучит как приказ."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: императив = глагол в начальной форме. Open. Read. Call.",
+      "Отрицательный императив — don't + глагол: Don't open. Don't call.",
+      "Через let's: Let's go. Let's not wait.",
+      "Частотные наречия: always, usually, often, sometimes, rarely, never — перед глаголом, после be.",
+      "Сделай упражнение и сверься. Бонд одобряет."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — построй императив или вставь частотное наречие:",
+      "items": [
+        { "q": "Open the door. (отрицательный) → ___", "a": "Don't open the door." },
+        { "q": "Call me later. (отрицательный) → ___", "a": "Don't call me later." },
+        { "q": "Go. (через let's) → ___", "a": "Let's go." },
+        { "q": "I drink tea every day. (вставь always) → ___", "a": "I always drink tea." },
+        { "q": "She is late. (вставь never) → ___", "a": "She is never late." }
+      ]
+    }
   },
-  {
-   "group": "Предложения (Let's)",
-   "items": [
-    { "en": "Let's go. Let's take a break.", "ru": "Пойдём. Давай сделаем перерыв.", "highlight": ["Let's"] },
-    { "en": "Let's not argue.", "ru": "Давай не будем спорить.", "highlight": ["Let's not"] }
-   ]
+  "formula": "V1 (infinitive без to); отрицание: don't + V1; let's + V1",
+  "structure": {
+    "positive": "Open the door. / Call me later.",
+    "negative": "Don't open the door. / Don't call me later.",
+    "question": "Let's go. / Let's not wait."
   },
-  {
-   "group": "Частота: перед глаголом и после be",
-   "items": [
-    { "en": "I always drink coffee. She often travels.", "ru": "Я всегда пью кофе. Она часто путешествует.", "highlight": ["always drink", "often travels"] },
-    { "en": "He is always on time. I'm never late.", "ru": "Он всегда вовремя. Я никогда не опаздываю.", "highlight": ["is always", "'m never"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "Don't to go.", "right": "Don't go.", "note": "После don't — голый глагол без to." },
-  { "wrong": "I drink always coffee.", "right": "I always drink coffee.", "note": "Наречие перед основным глаголом." },
-  { "wrong": "She always is late.", "right": "She is always late.", "note": "После be наречие идёт после be." },
-  { "wrong": "I don't never smoke.", "right": "I never smoke.", "note": "never уже отрицание, don't не нужен." },
-  { "wrong": "You open the door! (как команда)", "right": "Open the door!", "note": "Команда без подлежащего." }
- ],
- "compare": {
-  "title": "место наречия частотности",
-  "leftLabel": "перед основным глаголом",
-  "rightLabel": "после be",
-  "rows": [
-   { "left": "I often read.", "right": "She is always late." },
-   { "left": "They rarely complain.", "right": "I'm never tired." }
+  "markers": ["always", "usually", "often", "sometimes", "rarely", "never", "every day", "twice a week"],
+  "uses": [
+    "Дать команду: Open the door. Turn left.",
+    "Попросить: Please, help me. Call me later.",
+    "Дать совет: Don't worry. Stay calm.",
+    "Сказать частоту: I always drink tea."
+  ],
+  "rules": [
+    { "title": "Императив = V1", "text": "Глагол в начальной форме без to: Open. Read. Call. Don't + V1 для отрицания: Don't open. Don't call." },
+    { "title": "let's для предложения", "text": "Let's go. Let's not wait. Let's + V1 для предложения, let's not + V1 для отрицательного предложения." },
+    { "title": "Частотные наречия", "text": "always, usually, often, sometimes, rarely, never ставятся перед основным глаголом, но после be: I always drink tea. She is never late." }
+  ],
+  "examples": [
+    {
+      "group": "Ян Флеминг и Бонд",
+      "items": [
+        { "en": "Shaken, not stirred.", "ru": "Взболтать, не размешивать. Бонд о мартини.", "highlight": ["Shaken", "not stirred"] },
+        { "en": "Don't call me Bond.", "ru": "Не называй меня Бондом. Отрицательный императив.", "highlight": ["Don't call"] },
+        { "en": "Stay calm.", "ru": "Сохраняй спокойствие.", "highlight": ["Stay calm"] },
+        { "en": "Trust no one.", "ru": "Не доверяй никому.", "highlight": ["Trust no one"] }
+      ]
+    },
+    {
+      "group": "Джон Ле Карре и шпионы",
+      "items": [
+        { "en": "Don't move.", "ru": "Не двигайся. Ле Карре: тихий императив.", "highlight": ["Don't move"] },
+        { "en": "Stay calm.", "ru": "Сохраняй спокойствие.", "highlight": ["Stay calm"] },
+        { "en": "Trust no one.", "ru": "Не доверяй никому.", "highlight": ["Trust no one"] },
+        { "en": "Read this letter.", "ru": "Прочитай это письмо.", "highlight": ["Read this letter"] }
+      ]
+    },
+    {
+      "group": "Александр Дюма и мушкетёры",
+      "items": [
+        { "en": "All for one, one for all!", "ru": "Все за одного, один за всех! Дюма.", "highlight": ["All for one"] },
+        { "en": "Draw your sword.", "ru": "Обнажи меч.", "highlight": ["Draw your sword"] },
+        { "en": "Fight!", "ru": "Сражайся!", "highlight": ["Fight"] },
+        { "en": "Don't surrender.", "ru": "Не сдавайся.", "highlight": ["Don't surrender"] }
+      ]
+    },
+    {
+      "group": "Джозеф Конрад и корабельные команды",
+      "items": [
+        { "en": "Turn left.", "ru": "Поверни налево. Конрад: команды на корабле.", "highlight": ["Turn left"] },
+        { "en": "Stop the engine.", "ru": "Останови двигатель.", "highlight": ["Stop the engine"] },
+        { "en": "Don't move.", "ru": "Не двигайся.", "highlight": ["Don't move"] },
+        { "en": "Hold the line.", "ru": "Держи линию.", "highlight": ["Hold the line"] }
+      ]
+    },
+    {
+      "group": "Герман Мелвилл и Моби Дик",
+      "items": [
+        { "en": "Call me Ishmael.", "ru": "Называй меня Измаил. Мелвилл: императив как начало романа.", "highlight": ["Call me Ishmael"] },
+        { "en": "Follow the whale.", "ru": "Следуй за китом.", "highlight": ["Follow the whale"] },
+        { "en": "Don't give up.", "ru": "Не сдавайся.", "highlight": ["Don't give up"] },
+        { "en": "Stay on the ship.", "ru": "Оставайся на корабле.", "highlight": ["Stay on the ship"] }
+      ]
+    },
+    {
+      "group": "Частотные наречия",
+      "items": [
+        { "en": "I always drink tea.", "ru": "Я всегда пью чай. Always перед глаголом.", "highlight": ["always"] },
+        { "en": "She is never late.", "ru": "Она никогда не опаздывает. Never после be.", "highlight": ["never"] },
+        { "en": "They usually work on Sundays.", "ru": "Они обычно работают по воскресеньям.", "highlight": ["usually"] },
+        { "en": "He sometimes reads at night.", "ru": "Он иногда читает ночью.", "highlight": ["sometimes"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Open to the door.", "right": "Open the door.", "note": "Императив = V1 без to. Open, не Open to." },
+    { "wrong": "Don't to open the door.", "right": "Don't open the door.", "note": "Отрицательный императив — don't + V1 без to." },
+    { "wrong": "Let's to go.", "right": "Let's go.", "note": "Let's + V1 без to." },
+    { "wrong": "I drink always tea.", "right": "I always drink tea.", "note": "Частотное наречие перед основным глаголом." },
+    { "wrong": "She never is late.", "right": "She is never late.", "note": "Частотное наречие после be." },
+    { "wrong": "Please to help me.", "right": "Please, help me.", "note": "Please смягчает императив, но to не нужно." }
+  ],
+  "compare": {
+    "title": "Положительный vs Отрицательный императив",
+    "leftLabel": "Положительный",
+    "rightLabel": "Отрицательный",
+    "rows": [
+      { "left": "Open the door.", "right": "Don't open the door." },
+      { "left": "Call me later.", "right": "Don't call me later." },
+      { "left": "Let's go.", "right": "Let's not wait." }
+    ]
+  },
+  "tips": [
+    "Императив = глагол в начальной форме без to. Open. Read. Call.",
+    "Отрицательный императив — don't + V1: Don't open. Don't call.",
+    "Через let's: Let's go. Let's not wait. Для предложения и отрицательного предложения.",
+    "Частотные наречия: always, usually, often, sometimes, rarely, never — перед глаголом, после be.",
+    "Please смягчает императив: Please, help me. Без please — приказ.",
+    "В шпионских романах Ле Карре и Флеминга императив — основа стиля: Don't move. Stay calm. Trust no one."
+  ],
+  "related": ["a1-present-simple", "a1-verb-to-be", "a1-pronouns", "a1-questions"],
+  "quiz": [
+    {
+      "q": "Open the door. (отрицательный) → ___",
+      "options": ["Don't open the door.", "Don't to open the door.", "Not open the door.", "Open not the door."],
+      "answer": 0,
+      "why": "Отрицательный императив — don't + V1."
+    },
+    {
+      "q": "Call me later. (отрицательный) → ___",
+      "options": ["Don't call me later.", "Don't to call me later.", "Not call me later.", "Call not me later."],
+      "answer": 0,
+      "why": "Отрицательный императив — don't + V1."
+    },
+    {
+      "q": "Go. (через let's) → ___",
+      "options": ["Let's go.", "Let's to go.", "Let go.", "Go let's."],
+      "answer": 0,
+      "why": "Let's + V1 без to."
+    },
+    {
+      "q": "I drink tea every day. (вставь always) → ___",
+      "options": ["I always drink tea.", "I drink always tea.", "Always I drink tea.", "I drink tea always."],
+      "answer": 0,
+      "why": "Частотное наречие перед основным глаголом."
+    },
+    {
+      "q": "She is late. (вставь never) → ___",
+      "options": ["She is never late.", "She never is late.", "Never she is late.", "She is late never."],
+      "answer": 0,
+      "why": "Частотное наречие после be."
+    },
+    {
+      "q": "___ me Ishmael.",
+      "options": ["Call", "Calling", "To call", "Calls"],
+      "answer": 0,
+      "why": "Императив = V1: Call me Ishmael. Мелвилл знает."
+    }
   ]
- },
- "tips": [
-  "Лесенка частотности 100%→0%: always, usually, often, sometimes, rarely/seldom, never. Запомни порядок — спасает в тестах «вставь наречие» и помогает точно выразить частоту.",
-  "Место наречия — правило трёх позиций: ПЕРЕД основным глаголом (I often read), ПОСЛЕ be (She is always late), МЕЖДУ вспомогательным и основным (I have never been / I can always help). Позиция фиксирована, не как в русском.",
-  "never уже несёт отрицание, поэтому don't с ним не ставят: I never eat meat (не I don't never eat). Аналогично hardly и rarely — «почти не» без don't.",
-  "Let's + голый глагол для «давай вместе»: Let's go, Let's eat. Отрицание — Let's not argue (или разговорное Don't let's). Let's = let us, но пишется слитно с апострофом.",
-  "Вежливые команды — please в начале или в конце: Please sit down. / Sit down, please. Без please команда звучит резко, как приказ. Добавляй please по умолчанию.",
-  "Команды с be все забывают: Be careful! Be quiet! Be patient! Don't be silly! Don't be shy. Это команды про состояние — а студенты избегают be, потому что «не видят действия».",
-  "«Do + команда» для эмфазы и вежливой настойчивости: Do sit down! Do be quiet! Звучит тепло и убедительно — узнаваемо в речи радушных хозяев и ведущих."
- ],
- "related": ["a1-present-simple", "a1-verb-to-be", "a1-present-continuous"],
- "quiz": [
-  {
-    "q": "___ touch that! It\u0027s hot.",
-    "options": [
-            "Don\u0027t",
-            "Doesn\u0027t",
-            "Not",
-            "No"
-          ],
-    "answer": 0,
-    "why": "Запрет в повелительном наклонении строится как Don\u0027t + глагол без to: Don\u0027t touch. Формы Doesn\u0027t/Not/No здесь не годятся."
-  },
-  {
-    "q": "I ___ drink coffee in the morning.",
-    "options": [
-            "drink always",
-            "always drink",
-            "always drinking",
-            "do always drink"
-          ],
-    "answer": 1,
-    "why": "Наречие частотности стоит перед основным глаголом: I always drink coffee, не I drink always."
-  },
-  {
-    "q": "She ___ late for work.",
-    "options": [
-            "always is",
-            "is always",
-            "always be",
-            "does always"
-          ],
-    "answer": 1,
-    "why": "С глаголом be наречие частотности ставится после be: She is always late, не She always is."
-  },
-  {
-    "q": "___ be quiet, please.",
-    "options": [
-            "Please",
-            "Don\u0027t",
-            "Not to",
-            "No"
-          ],
-    "answer": 0,
-    "why": "Вежливая просьба — это Please + глагол: Please be quiet. Don\u0027t был бы запретом («не шумите»), а здесь просят тишины."
-  },
-  {
-    "q": "Let\u0027s ___ to the cinema tonight.",
-    "options": [
-            "to go",
-            "going",
-            "go",
-            "goes"
-          ],
-    "answer": 2,
-    "why": "После Let\u0027s идёт голый инфинитив без to: Let\u0027s go, не Let\u0027s to go."
-  },
-  {
-    "q": "He ___ watches TV at night.",
-    "options": [
-            "never watch",
-            "never watches",
-            "doesn\u0027t never watch",
-            "is never watch"
-          ],
-    "answer": 1,
-    "why": "С he глагол берёт -s, а never ставится перед глаголом: He never watches. Двойное отрицание doesn\u0027t never — ошибка."
-  }
-]
 }

@@ -1,0 +1,193 @@
+{
+  "slug": "a1-plural-nouns",
+  "variant": "rocknroll",
+  "title": "Plural Nouns",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Множественное число существительных: правила, исключения, неправильные формы. Iron Maiden поют «The Number of the Beast» (one beast, many beasts), Twisted Sister — «We're Not Gonna Take It» (one rule, many rules), Motörhead — «Ace of Spades» (one ace, many aces). От одного ко многим.",
+  "idea": [
+    "«The Number of the Beast» — поёт Iron Maiden, и это множественное число в чистом виде: one beast (один зверь), many beasts (много зверей). Beast → beasts, правильное множественное число через +s. Множественное число существительных — это способ сказать, что чего-то больше одного. Guitar → guitars (гитары), amp → amps (усилители), fan → fans (фанаты). Большинство существительных образуют множественное число добавлением -s или -es: после -s, -sh, -ch, -x, -o добавляется -es (box → boxes, watch → watches, hero → heroes). Согласная + y → -ies (city → cities, lady → ladies). Twisted Sister поют «We're not gonna take it» — one rule (одно правило), many rules (много правил). Rule → rules, правильное множественное.",
+    "Есть неправильные формы, которые нужно выучить отдельно: man → men, woman → women, child → children, foot → feet, tooth → teeth, mouse → mice, person → people, goose → geese, ox → oxen. Motörhead поют «Ace of Spades» — пиковый туз, символ удачи и риска. One ace (один туз), many aces (много тузов). Ace → aces, правильное множественное. Но если бы они пели про людей, было бы «one man, many men» — неправильное. Scorpions поют «Rock You Like a Hurricane» — устроить тебе ураган, пройтись по тебе как ураган. One hurricane (один ураган), many hurricanes (много ураганов). Hurricane → hurricanes, правильное множественное через +s. Whitesnake поют «Here I Go Again» — вот я снова за своё. One time (один раз), many times (много раз). Time → times, правильное множественное.",
+    "Есть существительные, которые не меняются во множественном числе: sheep → sheep, fish → fish, deer → deer, series → series, species → species. И есть существительные, которые всегда во множественном числе: scissors (ножницы), glasses (очки), trousers (брюки), jeans (джинсы), clothes (одежда). Весь рок-н-ролл держится на множественном числе: one gig (один концерт), many gigs (много концертов); one fan (один фанат), many fans (много фанатов); one song (одна песня), many songs (много песен). Iron Maiden, Twisted Sister, Motörhead, Scorpions, Whitesnake — все считают через множественное число."
+  ],
+  "why": [
+    "Сказать, что чего-то больше одного: one guitar → many guitars.",
+    "Говорить о группе: one fan → many fans.",
+    "Описать количество: one gig → many gigs.",
+    "Использовать неправильные формы: man → men, child → children."
+  ],
+  "context": {
+    "lines": [
+      { "en": "How many guitars do you have?", "ru": "Сколько у тебя гитар?" },
+      { "en": "I have three guitars.", "ru": "У меня три гитары." },
+      { "en": "And how many amps?", "ru": "А сколько усилителей?" },
+      { "en": "Many, many amps.", "ru": "Много, много усилителей." }
+    ],
+    "note": "Всё через множественное число: guitars (правильное), amps (правильное). Рок-н-ролл считает через множественное число."
+  },
+  "russianAngle": [
+    "В русском множественное число образуется по-разному: гитара → гитары, усилитель → усилители, человек → люди. В английском тоже есть правила и исключения.",
+    "Большинство существительных: +s (guitar → guitars). После -s/-sh/-ch/-x/-o: +es (box → boxes).",
+    "Неправильные формы нужно выучить: man → men, child → children, foot → feet.",
+    "Некоторые существительные не меняются: sheep → sheep, fish → fish."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: большинство существительных → +s (guitar → guitars).",
+      "После -s/-sh/-ch/-x/-o → +es (box → boxes, watch → watches).",
+      "Согласная + y → -ies (city → cities, lady → ladies).",
+      "Неправильные формы: man → men, child → children, foot → feet.",
+      "Сделай упражнение и сверься. Iron Maiden одобряет."
+    ],
+    "exercise": {
+      "prompt": "Образуй множественное число. Протокол должен сойтись.",
+      "items": [
+        { "q": "guitar → ___", "a": "guitars — обычное правило: +s." },
+        { "q": "box → ___", "a": "boxes — после -x: +es." },
+        { "q": "city → ___", "a": "cities — согласная + y → -ies." },
+        { "q": "child → ___", "a": "children — неправильное." },
+        { "q": "sheep → ___", "a": "sheep — не меняется." }
+      ]
+    }
+  },
+  "formula": "+s; +es после -s/-sh/-ch/-x/-o; -ies после согласной + y; неправильные",
+  "structure": {
+    "positive": "One guitar, two guitars. / One child, two children.",
+    "negative": "No guitars. / No children.",
+    "question": "How many guitars? / How many children?"
+  },
+  "markers": ["many", "some", "a few", "a lot of", "two", "three", "five"],
+  "uses": [
+    "Сказать, что чего-то больше одного: one guitar → many guitars.",
+    "Говорить о группе: one fan → many fans.",
+    "Описать количество: two gigs, five songs.",
+    "Использовать неправильные формы: men, children, feet."
+  ],
+  "rules": [
+    { "title": "Обычное правило", "text": "Большинство существительных → +s: guitar → guitars, fan → fans, song → songs." },
+    { "title": "+es после -s/-sh/-ch/-x/-o", "text": "Box → boxes, watch → watches, hero → heroes, bus → buses, church → churches." },
+    { "title": "Согласная + y → -ies", "text": "City → cities, lady → ladies, story → stories. Но гласная + y → +s: boy → boys, day → days." }
+  ],
+  "examples": [
+    {
+      "group": "Iron Maiden и Number of the Beast",
+      "items": [
+        { "en": "One beast, many beasts.", "ru": "Один зверь, много зверей. Правильное множественное.", "highlight": ["beast", "beasts"] },
+        { "en": "The number of the beast.", "ru": "Дьявольское число (666). Крылатая фраза.", "highlight": ["beast"] },
+        { "en": "One fan, many fans.", "ru": "Один фанат, много фанатов.", "highlight": ["fan", "fans"] },
+        { "en": "One song, many songs.", "ru": "Одна песня, много песен.", "highlight": ["song", "songs"] }
+      ]
+    },
+    {
+      "group": "Twisted Sister и правила",
+      "items": [
+        { "en": "One rule, many rules.", "ru": "Одно правило, много правил. Правильное множественное.", "highlight": ["rule", "rules"] },
+        { "en": "We're not gonna take it.", "ru": "Мы не будем это терпеть.", "highlight": [] },
+        { "en": "One fight, many fights.", "ru": "Одна драка, много драк.", "highlight": ["fight", "fights"] },
+        { "en": "One scream, many screams.", "ru": "Один крик, много криков.", "highlight": ["scream", "screams"] }
+      ]
+    },
+    {
+      "group": "Motörhead и Ace of Spades",
+      "items": [
+        { "en": "One ace, many aces.", "ru": "Один туз, много тузов. Правильное множественное.", "highlight": ["ace", "aces"] },
+        { "en": "Ace of Spades.", "ru": "Пиковый туз, символ удачи и риска.", "highlight": ["ace"] },
+        { "en": "One game, many games.", "ru": "Одна игра, много игр.", "highlight": ["game", "games"] },
+        { "en": "One bet, many bets.", "ru": "Одна ставка, много ставок.", "highlight": ["bet", "bets"] }
+      ]
+    },
+    {
+      "group": "Scorpions и ураган",
+      "items": [
+        { "en": "One hurricane, many hurricanes.", "ru": "Один ураган, много ураганов. Правильное множественное.", "highlight": ["hurricane", "hurricanes"] },
+        { "en": "Rock you like a hurricane.", "ru": "Устроить тебе ураган, пройтись как ураган.", "highlight": ["hurricane"] },
+        { "en": "One storm, many storms.", "ru": "Одна буря, много бурь.", "highlight": ["storm", "storms"] },
+        { "en": "One wind, many winds.", "ru": "Один ветер, много ветров.", "highlight": ["wind", "winds"] }
+      ]
+    },
+    {
+      "group": "Whitesnake и повторение",
+      "items": [
+        { "en": "One time, many times.", "ru": "Один раз, много раз. Правильное множественное.", "highlight": ["time", "times"] },
+        { "en": "Here I go again.", "ru": "Вот я снова за своё.", "highlight": [] },
+        { "en": "One road, many roads.", "ru": "Одна дорога, много дорог.", "highlight": ["road", "roads"] },
+        { "en": "One night, many nights.", "ru": "Одна ночь, много ночей.", "highlight": ["night", "nights"] }
+      ]
+    },
+    {
+      "group": "Неправильные формы",
+      "items": [
+        { "en": "One man, many men.", "ru": "Один мужчина, много мужчин. Неправильное: men.", "highlight": ["man", "men"] },
+        { "en": "One child, many children.", "ru": "Один ребёнок, много детей. Неправильное: children.", "highlight": ["child", "children"] },
+        { "en": "One foot, many feet.", "ru": "Одна нога, много ног. Неправильное: feet.", "highlight": ["foot", "feet"] },
+        { "en": "One mouse, many mice.", "ru": "Одна мышь, много мышей. Неправильное: mice.", "highlight": ["mouse", "mice"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "One child, many childs.", "right": "One child, many children.", "note": "Child — неправильное: children, не childs." },
+    { "wrong": "One man, many mans.", "right": "One man, many men.", "note": "Man — неправильное: men, не mans." },
+    { "wrong": "One foot, many foots.", "right": "One foot, many feet.", "note": "Foot — неправильное: feet, не foots." },
+    { "wrong": "One box, many boxs.", "right": "One box, many boxes.", "note": "После -x: +es, не +s." },
+    { "wrong": "One city, many citys.", "right": "One city, many cities.", "note": "Согласная + y → -ies: cities." },
+    { "wrong": "One sheep, many sheeps.", "right": "One sheep, many sheep.", "note": "Sheep не меняется во множественном числе." }
+  ],
+  "compare": {
+    "title": "Правильное vs Неправильное",
+    "leftLabel": "Правильное (+s/-es/-ies)",
+    "rightLabel": "Неправильное",
+    "rows": [
+      { "left": "guitar → guitars", "right": "child → children" },
+      { "left": "box → boxes", "right": "man → men" },
+      { "left": "city → cities", "right": "foot → feet" }
+    ]
+  },
+  "tips": [
+    "Большинство существительных → +s: guitar → guitars, fan → fans.",
+    "После -s/-sh/-ch/-x/-o → +es: box → boxes, watch → watches.",
+    "Согласная + y → -ies: city → cities. Но гласная + y → +s: boy → boys.",
+    "Неправильные формы нужно выучить: man → men, child → children, foot → feet, mouse → mice.",
+    "Некоторые существительные не меняются: sheep → sheep, fish → fish, deer → deer.",
+    "Весь рок-н-ролл считает через множественное число: Iron Maiden, Twisted Sister, Motörhead, Scorpions, Whitesnake."
+  ],
+  "related": ["a1-nouns", "a1-verb-to-be", "a1-there-is-there-are"],
+  "quiz": [
+    {
+      "q": "guitar → ___",
+      "options": ["guitars", "guitarres", "guitarries", "guitar"],
+      "answer": 0,
+      "why": "Обычное правило: +s."
+    },
+    {
+      "q": "box → ___",
+      "options": ["boxes", "boxs", "boxies", "box"],
+      "answer": 0,
+      "why": "После -x: +es."
+    },
+    {
+      "q": "city → ___",
+      "options": ["cities", "citys", "cityes", "city"],
+      "answer": 0,
+      "why": "Согласная + y → -ies."
+    },
+    {
+      "q": "child → ___",
+      "options": ["children", "childs", "childrens", "childes"],
+      "answer": 0,
+      "why": "Неправильное: children."
+    },
+    {
+      "q": "sheep → ___",
+      "options": ["sheep", "sheeps", "sheepes", "sheepies"],
+      "answer": 0,
+      "why": "Sheep не меняется."
+    },
+    {
+      "q": "beast → ___",
+      "options": ["beasts", "beastes", "beasties", "beast"],
+      "answer": 0,
+      "why": "Обычное правило: +s. Iron Maiden знают."
+    }
+  ]
+}
