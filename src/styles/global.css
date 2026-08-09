@@ -44,7 +44,7 @@ body {
 body::before {
   content: "";
   position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.05'/><rect width='300' height='300' filter='url(%23m)' opacity='0.08'/></svg>");
+  background-image: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>");
 }
 .wrap { width: min(1180px, 92vw); margin-inline: auto; }
 a { color: inherit; text-decoration: none; }
@@ -833,16 +833,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .hero__sub { font-size: clamp(15px, 1.3vw, 18px); line-height: 1.6; }
 .lv2-summary { font-size: 16.5px; line-height: 1.55; color: var(--ink-mid); }
 
-/* Тёплый sepia-подтон для бумаги (чтобы читалась «старой книгой») */
-body { position: relative; }
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  pointer-events: none;
-  z-index: 0;
-  background: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.035), transparent 70%);
-}
+/* sepia слит с зерном бумаги (update143) */ body { position: relative; }
 body > *:not(style):not(script) { position: relative; z-index: 1; }
 
 /* Рамка у подблока темы примеров, а не у каждого примера */
