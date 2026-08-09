@@ -3,45 +3,46 @@
   "variant": "rocknroll",
   "title": "Present Perfect",
   "level": "A1",
-  "category": "Tenses",
-  "readingTime": 8,
-  "summary": "Время опыта и результата: действие произошло, но когда — не важно, важен итог сейчас. Сет отыгран, но эхо ещё гудит в ушах. Johnny Cash был везде — и это не байка, это опыт.",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Настоящее совершённое: have/has + V3. Johnny Cash был везде, и это не алиби — это опыт. Сет-лист всего, что ты уже сыграл, записал, услышал.",
   "idea": [
-    "Знаешь, почему Johnny Cash — ходячий учебник Present Perfect? «I've been everywhere, man» — have been: опыт, когда именно — не важно, важен факт. Present Perfect — это не портрет, не прямая трансляция и не архив. Это концерт, который только что отыграли: зал ещё гудит, уши ещё звенят, а сет-лист уже в прошлом. CCR спрашивают «Have you ever seen the rain?» — ever = когда-нибудь, это Perfect. Carpenters «We've only just begun» — just = только что, тоже Perfect. Guns N' Roses «Welcome to the jungle» — а вот это Simple, потому что факт, а не опыт. Разница в одном слове — и вся грамматика времени.",
-    "Present Perfect обслуживает три ситуации. Первая — опыт: I've been to three Ramones gigs (сколько раз, когда — не важно). Вторая — результат сейчас: I've lost my backstage pass (и сейчас не могу войти). Третья — действие только что закончилось: I've just come off the stage (только что сошёл со сцены). Отсюда главная граница с Past Simple: Past называет когда (in 1979, last night), Perfect — нет. The Clash released London Calling in 1979 (Past, дата есть) против I have heard that album a hundred times (Perfect, дата не важна). Cash не называет, когда он был везде — поэтому have been. Если бы он назвал год, было бы was.",
-    "Самая частая ошибка — путать Perfect с Past Simple. Русское «я был» покрывает оба: «я был там вчера» (Past) и «я бывал там» (Perfect). Английский разводит: назвал когда — Past; не назвал, важен результат — Perfect. И ещё одна ошибка — ставить Perfect с yesterday/last week: I've seen him yesterday — так не говорят. Yesterday — маркер Past Simple. Если унести одну мысль: Present Perfect = «было, но когда — не важно, важен результат сейчас»; have/has + V3; маркеры just, already, yet, ever, never, since, for."
+    "Знаешь, почему Johnny Cash — ходячий учебник Present Perfect? «I've been everywhere, man» — have been: опыт, когда именно — не важно, важен факт. Он был в Рино, в Чикаго, в Fargo, в Winnemucca — и в каждом городе по разу, и даты не называет, потому что важен сет-лист опыта, а не расписание. Present Perfect — это бэк-каталог жизни: всё, что ты уже сыграл, записал, услышал. I have played a hundred gigs. We have recorded five albums. They have heard that song before. Дата не важна — важен опыт, который у тебя к настоящему моменту.",
+    "Строится Present Perfect из двух частей: have/has + V3 (третья форма глагола). Have — для I/you/we/they, has — для he/she/it. I have played. She has recorded. They have heard. Отрицание — haven't/hasn't: I haven't seen him. She hasn't called. Вопрос — вынос have/has: Have you played that gig? Has she released the album? CCR спрашивают «Have you ever seen the rain?» — идеальный Perfect-вопрос про опыт. Carpenters поют «We've only just begun» — just, маркер Perfect. U2 всю карьеру ищут: «I still haven't found what I'm looking for» — haven't found, результат к сейчас. Stones за 60 лет: «We have released 30 albums» — бэк-каталог.",
+    "Главное отличие от Past Simple — дата. Clash released London Calling in 1979 — дата есть, это Past Simple, закрытое дело. А Stones have released 30 albums — дата не важна, важен итог, это Perfect, открытое дело. Perfect нельзя ставить с yesterday/last week — это маркеры Past. «I've seen him yesterday» — ошибка. Perfect живёт без дат. И ещё: been vs gone. I have been to Camden = я бывал там (и вернулся). He has gone to Camden = он уехал (и ещё там). Для опыта используем been."
   ],
   "why": [
-    "Рассказать о концертном опыте: I've been to three Ramones gigs. I've played a hundred sets. — сколько раз, когда — не важно.",
-    "Сообщить о результате сейчас: I've lost my backstage pass. The band has finished the set. — и вот итог.",
-    "Сказать, что действие только что закончилось: I've just come off the stage. — только что.",
-    "Спросить об опыте: Have you ever seen the Ramones live? — бывал ли ты когда-нибудь?"
+    "Рассказать о концертном опыте: I've been to a hundred gigs. We've played three cities.",
+    "Сообщить о результате сейчас: I've lost my backstage pass. She's lost her voice.",
+    "Сказать, что только что закончилось: I've just come off the stage.",
+    "Спросить об опыте: Have you ever seen the rain? Have you ever been to a punk gig?"
   ],
   "context": {
     "lines": [
-      { "en": "Tommy, have you ever been to America?", "ru": "Томми, ты бывал в Америке?" },
+      { "en": "Have you ever been to America?", "ru": "Ты бывал в Америке?" },
       { "en": "I've been everywhere, man. Like Johnny Cash.", "ru": "Я был везде, чувак. Как Джонни Кэш." },
       { "en": "Have you ever played a real gig there?", "ru": "А настоящий концерт там играл?" },
-      { "en": "I've played three, actually. Seattle, Portland, and one in a bar nobody remembers.", "ru": "Играл три, вообще-то. Сиэтл, Портленд и один в баре, который никто не помнит." }
+      { "en": "I've played three. Seattle, Portland, and one bar nobody remembers.", "ru": "Играл три, вообще-то. Сиэтл, Портленд и один бар, который никто не помнит." }
     ],
     "note": "Всё — опыт: был везде, играл три концерта. Когда именно — не важно. Поэтому Present Perfect. И да, Кэш тоже не уточнял даты."
   },
   "russianAngle": [
-    "🇷 Русское «я был» покрывает и Past, и Perfect. 🇬 Английский разводит: назвал когда → Past (I was there yesterday); не назвал → Perfect (I've been there).",
-    "🇷 «Я бывал в Кэмдене» — одна форма. 🇬🇧 Разные: I've been to Camden (опыт, когда-то) против I was in Camden last week (Past, дата есть).",
-    "🇷🇺 «Я только что сошёл со сцены» — настоящее время. 🇬🇧 Present Perfect: I've just come off the stage. Действие закончилось, результат сейчас.",
-    "🇷 Вопрос «Ты бывал на панк-концерте?» — интонацией. 🇬 Have you ever been to a punk gig? — ever = «когда-нибудь»."
+    "В русском «я был» покрывает и Past, и Perfect. В английском разводят: I was there yesterday (Past, дата) против I have been there (Perfect, опыт).",
+    "«Я бывал в Кэмдене» — одна форма. В английском разные: I've been to Camden (опыт) против I was in Camden last week (Past, дата).",
+    "«Я только что сошёл со сцены» — настоящее. В английском Present Perfect: I've just come off the stage.",
+    "Вопрос «Ты бывал на панк-концерте?» — Have you ever been to a punk gig? Ever = когда-нибудь."
   ],
   "howToLearn": {
     "steps": [
-      "Вбей себе идею: Present Perfect = «было, но когда — не важно, важен результат». Зал ещё гудит.",
-      "Запомни скелет: have/has + V3 (третья форма глагола). Для правильных V3 = V-ed, для неправильных — учи таблицу.",
-      "Лови маркеры: just, already, yet, ever, never, since, for, recently, lately.",
-      "НЕ ставь Perfect с yesterday, last week, in 1979 — это маркеры Past Simple.",
-      "Сделай упражнение ниже и сверься с ответами. Без шулерства — зал ещё гудит."
+      "Запомни: have/has + V3 (третья форма). Правильные = V-ed, неправильные — учи кликухи.",
+      "Have для I/you/we/they, has для he/she/it.",
+      "Отрицание — haven't/hasn't + V3: I haven't played. She hasn't called.",
+      "Вопрос — вынос have/has: Have you played? Has she called?",
+      "НЕ ставь Perfect с yesterday/last week — это маркеры Past Simple.",
+      "Сделай упражнение и сверься. Без шулерства — сет-лист должен сойтись."
     ],
     "exercise": {
-      "prompt": "Раскрой скобки (Present Perfect или Past Simple). Сет-лист должен сойтись.",
+      "prompt": "Раскрой скобки (Present Perfect или Past Simple). Протокол должен сойтись.",
       "items": [
         { "q": "I ___ (play) this song a hundred times.", "a": "have played — опыт, сто раз, когда — не важно." },
         { "q": "She ___ (leave) the stage an hour ago.", "a": "left — an hour ago → Past Simple." },
@@ -57,45 +58,65 @@
     "negative": "I haven't played it. / She hasn't played it.",
     "question": "Have you played it? / Has she played it?"
   },
-  "markers": ["just", "already", "yet", "ever", "never", "since", "for", "recently", "lately"],
+  "markers": ["just", "already", "yet", "ever", "never", "since", "for", "recently", "lately", "so far"],
   "uses": [
     "Концертный опыт: I've been to Camden. She's played three gigs.",
     "Результат в настоящем: I've lost my backstage pass. (и сейчас не могу войти)",
     "Действие только что закончилось: I've just come off the stage.",
-    "Длится до сих пор (с since/for): I've lived in Hackney for ten years."
+    "Действие, которое длится до сих пор: I've lived in Hackney for ten years."
   ],
   "rules": [
-    { "title": "have/has + V3", "text": "have для I/you/we/they, has для he/she/it. V3 — третья форма глагола: для правильных = V-ed (played), для неправильных — учи таблицу (go → gone, see → seen, lose → lost)." },
-    { "title": "Маркеры Perfect", "text": "just (только что), already (уже), yet (ещё, в вопросах и отрицаниях), ever (когда-нибудь), never (никогда), since (с какого-то момента), for (в течение)." },
-    { "title": "НЕ с маркерами Past", "text": "yesterday, last week, in 1979, ago — это маркеры Past Simple. I've seen him yesterday — ошибка. Правильно: I saw him yesterday." }
+    { "title": "have/has + V3", "text": "have для I/you/we/they, has для he/she/it. V3 — третья форма: правильные = V-ed, неправильные — учи кликухи (go → gone, see → seen, lose → lost)." },
+    { "title": "маркеры Perfect", "text": "just (только что), already (уже), yet (ещё), ever (когда-нибудь), never (никогда), since (с какого-то момента), for (в течение)." },
+    { "title": "НЕ с маркерами Past", "text": "yesterday, last week, in 1979, ago — маркеры Past Simple. I've seen him yesterday — ошибка. Правильно: I saw him yesterday." }
   ],
   "examples": [
     {
-      "group": "Опыт (песни про «бывал»)",
+      "group": "Опыт Johnny Cash",
       "items": [
-        { "en": "I've been everywhere, man.", "ru": "Я был везде, чувак. Johnny Cash — Present Perfect: когда — не важно, важен факт.", "highlight": ["'ve been"] },
-        { "en": "Have you ever seen the rain?", "ru": "Ты когда-нибудь видел дождь? CCR — ever = когда-нибудь, это Perfect.", "highlight": ["Have", "ever seen"] }
+        { "en": "I've been everywhere, man.", "ru": "Я был везде, чувак. Johnny Cash — Perfect, потому что когда — не важно.", "highlight": ["'ve been"] },
+        { "en": "We've played a hundred cities.", "ru": "Мы сыграли в ста городах. Опыт, не расписание.", "highlight": ["'ve played"] },
+        { "en": "I've walked the line.", "ru": "Я шёл по линии. Ещё один гимн Кэша в Perfect.", "highlight": ["'ve walked"] }
+      ]
+    },
+    {
+      "group": "Вопросы про опыт (ever)",
+      "items": [
+        { "en": "Have you ever seen the rain?", "ru": "Ты когда-нибудь видел дождь? CCR — ever = когда-нибудь, это Perfect.", "highlight": ["Have", "ever seen"] },
+        { "en": "Have you ever been to a punk gig?", "ru": "Ты бывал на панк-концерте?", "highlight": ["Have", "ever been"] },
+        { "en": "I've never been to a Metallica show.", "ru": "Я никогда не был на шоу Metallica. Never = никогда.", "highlight": ["'ve never been"] }
       ]
     },
     {
       "group": "Только что и уже",
       "items": [
-        { "en": "We've only just begun.", "ru": "Мы только что начали. Carpenters — just = только что, маркер Perfect.", "highlight": ["'ve only just begun"] },
-        { "en": "Elvis has left the building.", "ru": "Элвис покинул здание. Знаменитая строка — и это Present Perfect: результат сейчас, Элвиса в зале нет.", "highlight": ["has left"] }
+        { "en": "We've only just begun.", "ru": "Мы только что начали. Carpenters — just = только что.", "highlight": ["'ve only just begun"] },
+        { "en": "She's already left the building.", "ru": "Она уже ушла из здания. Already = уже.", "highlight": ["'s already left"] },
+        { "en": "Have you finished yet?", "ru": "Ты уже закончил? Yet в вопросах.", "highlight": ["Have", "yet"] }
       ]
     },
     {
-      "group": "Никогда / когда-нибудь",
+      "group": "Результат сейчас",
       "items": [
-        { "en": "I've never been to a punk gig.", "ru": "Я никогда не был на панк-концерте. Never = никогда.", "highlight": ["'ve never been"] },
-        { "en": "Have you ever met a real rock star?", "ru": "Ты когда-нибудь встречал настоящего рокера? Ever = когда-нибудь.", "highlight": ["Have", "ever met"] }
+        { "en": "I've lost my backstage pass.", "ru": "Я потерял пропуск на бэкстейдж. И сейчас не могу войти.", "highlight": ["'ve lost"] },
+        { "en": "The singer has lost his voice.", "ru": "Певец потерял голос. Шоу под угрозой.", "highlight": ["has lost"] },
+        { "en": "Elvis has left the building.", "ru": "Элвис покинул здание. Результат сейчас — его в зале нет.", "highlight": ["has left"] }
       ]
     },
     {
-      "group": "Длится до сих пор (since / for)",
+      "group": "Бэк-каталог (длится до сих пор)",
       "items": [
-        { "en": "I've lived in Hackney for ten years.", "ru": "Я живу в Хакни десять лет (и до сих пор). For = в течение.", "highlight": ["'ve lived", "for"] },
-        { "en": "He's played in this band since 2005.", "ru": "Он играет в этой группе с 2005 года (и до сих пор). Since = с какого-то момента.", "highlight": ["'s played", "since"] }
+        { "en": "Stones have released 30 albums.", "ru": "Stones выпустили 30 альбомов. И это не всё.", "highlight": ["have released"] },
+        { "en": "U2 have been together since 1976.", "ru": "U2 вместе с 1976 года. Since = с какого-то момента.", "highlight": ["have been", "since"] },
+        { "en": "I've lived in Hackney for ten years.", "ru": "Я живу в Хакни десять лет. For = в течение.", "highlight": ["'ve lived", "for"] }
+      ]
+    },
+    {
+      "group": "Поиск и отсутствие",
+      "items": [
+        { "en": "I still haven't found what I'm looking for.", "ru": "Я до сих пор не нашёл того, что ищу. U2 — haven't found, результат.", "highlight": ["haven't found"] },
+        { "en": "We haven't seen them in years.", "ru": "Мы их не видели годами.", "highlight": ["haven't seen"] },
+        { "en": "He hasn't played since the injury.", "ru": "Он не играл с момента травмы.", "highlight": ["hasn't played"] }
       ]
     }
   ],
@@ -105,7 +126,7 @@
     { "wrong": "She's lose her keys.", "right": "She's lost her keys.", "note": "lose → lost, V3." },
     { "wrong": "I've played this gig last week.", "right": "I played this gig last week.", "note": "last week — Past Simple." },
     { "wrong": "Have you ever be to London?", "right": "Have you ever been to London?", "note": "be → been, V3." },
-    { "wrong": "I am agree with you.", "right": "I agree with you.", "note": "agree — глагол, не прилагательное. Это из другого урока, но повторяем." }
+    { "wrong": "I am agree with you.", "right": "I agree with you.", "note": "agree — глагол, не Perfect." }
   ],
   "compare": {
     "title": "Present Perfect vs Past Simple",
@@ -114,19 +135,18 @@
     "rows": [
       { "left": "I've heard that album. (когда — не важно)", "right": "I heard it in 1979. (дата есть)" },
       { "left": "Результат сейчас, время не названо", "right": "Действие в прошлом, время названо" },
-      { "left": "Сет отыгран, зал ещё гудит: have/has + V3", "right": "Тур закончился, даты подшиты: V2" },
+      { "left": "Открытое дело: have/has + V3", "right": "Дело закрыто: V2" },
       { "left": "I've been everywhere. (Cash, опыт)", "right": "I was in Seattle last year. (дата)" }
     ]
   },
   "tips": [
-    "Ever и never — маркеры опыта: Have you ever been to Camden? I've never been. Ever = когда-нибудь, never = никогда.",
-    "Just, already, yet — маркеры «только что / уже / ещё»: I've just come off the stage. The band has already left. Have you finished yet?",
-    "Since и for — маркеры длительности: I've lived here for ten years (в течение). He's played here since 2005 (с какого-то момента).",
-    "Been vs gone: I've been to Camden = я бывал там (и вернулся). He's gone to Camden = он уехал туда (и ещё там).",
-    "Present Perfect для недавних новостей: The band has announced a new tour. Газетный заголовок — это Perfect.",
-    "Не путай have been (опыт) и have gone (ушёл): Where's she gone? She's gone to the gig. She's been to the gig (and is back now).",
-    "В разговорной речи Perfect часто сокращается: I've seen, she's gone, they've left. Сокращения — норма.",
-    "Берега и тут разные: британец «I've just had lunch», американец «I just had lunch» (Past Simple вместо Perfect). Американцы чаще используют Past там, где британцы — Perfect."
+    "Ever и never — маркеры опыта: Have you ever been to Camden? I've never been.",
+    "Just, already, yet — маркеры «только что / уже / ещё»: I've just come off stage. She's already left.",
+    "Since и for — маркеры длительности: I've lived here for ten years. He's played here since 2005.",
+    "Been vs gone: I've been to Camden = я бывал (и вернулся). He's gone to Camden = уехал (и ещё там).",
+    "Present Perfect для недавних новостей: The band has announced a new tour.",
+    "В разговорной речи Perfect часто сокращается: I've seen, she's gone, they've left.",
+    "Чем больше фраз на Perfect ты увидишь, тем быстрее они станут твоими. Прочитай примеры вслух."
   ],
   "related": ["a1-present-simple", "a1-past-simple", "a1-present-continuous"],
   "quiz": [
@@ -134,7 +154,7 @@
       "q": "I ___ to Camden three times.",
       "options": ["was", "have been", "went", "have went"],
       "answer": 1,
-      "why": "Опыт, три раза, когда — не важно → Present Perfect: have been."
+      "why": "Опыт, три раза → Present Perfect: have been."
     },
     {
       "q": "She ___ the stage an hour ago.",
@@ -158,13 +178,13 @@
       "q": "I ___ my backstage pass. I can't get in.",
       "options": ["lost", "have lost", "lose", "am losing"],
       "answer": 1,
-      "why": "Результат сейчас (не могу войти) → Present Perfect: have lost."
+      "why": "Результат сейчас → Present Perfect: have lost."
     },
     {
       "q": "He ___ in this band since 2005.",
       "options": ["played", "has played", "plays", "is playing"],
       "answer": 1,
-      "why": "since 2005 → Present Perfect: has played (и до сих пор играет)."
+      "why": "since 2005 → Present Perfect: has played."
     }
   ]
 }

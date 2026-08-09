@@ -6,6 +6,15 @@ const s = suffix || '';
 const reveal = s === '' ? { 'data-reveal': '' } : {};
 
 function esc(t) { return String(t).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+function raHtml(s) {
+  let out = esc(String(s));
+  out = out.replace(/[A-Za-z][^а-яА-ЯёЁ\n<>]*/g, (m) => {
+    const core = m.replace(/[\s.,!?;:]+$/, '');
+    const tail = m.slice(core.length);
+    return core.length ? '<span class="ra-en">' + core + '</span>' + tail : m;
+  });
+  return out;
+}
 function highlight(text, tokens) {
   let out = esc(text);
   (tokens || []).forEach((tok) => { out = out.replace(esc(tok), '<mark class="hl">' + esc(tok) + '</mark>'); });
@@ -43,7 +52,7 @@ function highlight(text, tokens) {
 <section id={'russian' + s} class="lv2-sec lv2-sec--mint" data-spybase="russian" {...reveal}>
   <h2 class="lv2-h">Взгляд через русский</h2>
   <ul class="ru-list--v2">
-    {T.russianAngle.map((r) => <li>{r}</li>)}
+    {T.russianAngle.map((r) => <li set:html={raHtml(r)}></li>)}
   </ul>
 </section>
 

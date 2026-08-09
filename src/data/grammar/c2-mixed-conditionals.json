@@ -1,207 +1,207 @@
 {
-  "slug": "c2-mixed-conditionals",
-  "title": "Mixed conditionals: when times don't match",
-  "level": "C2",
-  "category": "Conditionals",
-  "readingTime": 14,
-  "summary": "Не всякое условие укладывается в один тип: прошлое решение может влиять на настоящее, а постоянная черта — определять прошлый результат. Тогда if‑часть и результат берут формы разных типов. Время каждой части определяй отдельно.",
-  "idea": [
-    "На C1 мы отработали чистые типы условий: второй — нереальное настоящее (If I were rich, I'd travel), третий — нереальное прошлое (If I'd studied, I'd have passed). Но реальная жизнь упрямее учебной сетки, и очень часто причина и следствие лежат в РАЗНЫХ временах: решение, принятое годы назад, определяет то, где ты сейчас; или черта характера, которая есть всегда, объясняет то, что случилось вчера. Для этого английский и держит смешанные условия — mixed conditionals, где if‑часть берёт форму одного типа, а главная часть — другого. Классических связок две. Первая — прошлое условие и настоящий результат: If I'd studied medicine, I'd be a doctor now (если бы я тогда, в прошлом, учился на медика — я бы сейчас был врачом). If‑часть в Past Perfect, как в третьем типе, потому что условие про прошлое; результат в would + инфинитив, как во втором типе, потому что он про сейчас. Вторая связка — настоящее или постоянное условие и прошлый результат: If she weren't so proud, she'd have asked for help (если бы она не была такой гордой — черта характера, она всегда такая — она бы тогда, в прошлом, попросила помощи). If‑часть в Past Simple, как во втором типе, потому что условие про постоянную реальность; результат в would have + причастие, как в третьем типе, потому что он про прошлое. Суть одна: не привязывайся к «типу» предложения целиком — смотри на время каждой половины отдельно.",
-    "Механика смешения держится на двух опорах: форма глагола и маркеры времени. Форма несёт время: Past Perfect в if‑части говорит «условие про прошлое», Past Simple (с were для be) говорит «условие про настоящее или постоянную черту»; would + инфинитив в главной говорит «результат про сейчас/вообще», would have + причастие говорит «результат про прошлое». А маркеры времени подсказывают, какую форму брать: now, today, these days, at the moment, currently тянут результат в настоящее (would + inf); then, yesterday, last year, at the time, in those days тянут результат в прошлое (would have + V3); а слова вроде generally, always, by nature, as a rule сигнализируют, что условие — постоянная черта, и в if‑части нужен Past Simple. Отсюда рабочий алгоритм: найди маркер времени в каждой части, определи, про какое время эта часть, и поставь соответствующую форму — независимо от того, что стоит в другой половине. Именно так смешанные условия перестают быть «исключением из типов» и становятся простой сборкой из двух половинок.",
-    "И три ловушки, на которых ловят даже сильных. Первая и главная — калька одного типа на всё предложение: русскоговорящий видит «если бы я тогда учился, я был бы сейчас врачом» и ставит would have been и в результат, потому что по‑русски «был бы» не различает настоящее и прошлое — время берётся из наречия «сейчас», а не из формы глагола. Английский различает: «был бы сейчас» = I'd be now (would + inf), а не I'd have been. Вторая — потерять маркер времени и не понять, про что результат: одно и то же If I'd taken that job читается по‑разному в зависимости от хвоста — …I'd be living abroad now (настоящее) против …I'd have earned more then (прошлое). Третья — смешать смешанное условие с обычным третьим типом: If I'd studied harder, I'd have passed — это чистый третий тип (прошлое→прошлое), и он верен, когда и условие, и результат в прошлом; смешанным он становится только когда результат выпадает в настоящее (…I'd be fluent now). Унеси одно: в смешанном условии времена if‑части и результата НЕ совпадают намеренно, и каждую половину ты собираешь по её собственному маркеру времени. Это не исключение, а точный инструмент для тех случаев, когда жизнь не укладывается в один тип."
+ "slug": "c2-mixed-conditionals",
+ "title": "Mixed conditionals: when times don't match",
+ "level": "C2",
+ "category": "Conditionals",
+ "readingTime": 14,
+ "summary": "Не всякое условие укладывается в один тип: прошлое решение может влиять на настоящее, а постоянная черта — определять прошлый результат. Тогда if‑часть и результат берут формы разных типов. Время каждой части определяй отдельно.",
+ "idea": [
+  "На C1 мы отработали чистые типы условий: второй — нереальное настоящее (If I were rich, I'd travel), третий — нереальное прошлое (If I'd studied, I'd have passed). Но реальная жизнь упрямее учебной сетки, и очень часто причина и следствие лежат в РАЗНЫХ временах: решение, принятое годы назад, определяет то, где ты сейчас; или черта характера, которая есть всегда, объясняет то, что случилось вчера. Для этого английский и держит смешанные условия — mixed conditionals, где if‑часть берёт форму одного типа, а главная часть — другого. Классических связок две. Первая — прошлое условие и настоящий результат: If I'd studied medicine, I'd be a doctor now (если бы я тогда, в прошлом, учился на медика — я бы сейчас был врачом). If‑часть в Past Perfect, как в третьем типе, потому что условие про прошлое; результат в would + инфинитив, как во втором типе, потому что он про сейчас. Вторая связка — настоящее или постоянное условие и прошлый результат: If she weren't so proud, she'd have asked for help (если бы она не была такой гордой — черта характера, она всегда такая — она бы тогда, в прошлом, попросила помощи). If‑часть в Past Simple, как во втором типе, потому что условие про постоянную реальность; результат в would have + причастие, как в третьем типе, потому что он про прошлое. Суть одна: не привязывайся к «типу» предложения целиком — смотри на время каждой половины отдельно.",
+  "Механика смешения держится на двух опорах: форма глагола и маркеры времени. Форма несёт время: Past Perfect в if‑части говорит «условие про прошлое», Past Simple (с were для be) говорит «условие про настоящее или постоянную черту»; would + инфинитив в главной говорит «результат про сейчас/вообще», would have + причастие говорит «результат про прошлое». А маркеры времени подсказывают, какую форму брать: now, today, these days, at the moment, currently тянут результат в настоящее (would + inf); then, yesterday, last year, at the time, in those days тянут результат в прошлое (would have + V3); а слова вроде generally, always, by nature, as a rule сигнализируют, что условие — постоянная черта, и в if‑части нужен Past Simple. Отсюда рабочий алгоритм: найди маркер времени в каждой части, определи, про какое время эта часть, и поставь соответствующую форму — независимо от того, что стоит в другой половине. Именно так смешанные условия перестают быть «исключением из типов» и становятся простой сборкой из двух половинок.",
+  "И три ловушки, на которых ловят даже сильных. Первая и главная — калька одного типа на всё предложение: русскоговорящий видит «если бы я тогда учился, я был бы сейчас врачом» и ставит would have been и в результат, потому что по‑русски «был бы» не различает настоящее и прошлое — время берётся из наречия «сейчас», а не из формы глагола. Английский различает: «был бы сейчас» = I'd be now (would + inf), а не I'd have been. Вторая — потерять маркер времени и не понять, про что результат: одно и то же If I'd taken that job читается по‑разному в зависимости от хвоста — …I'd be living abroad now (настоящее) против …I'd have earned more then (прошлое). Третья — смешать смешанное условие с обычным третьим типом: If I'd studied harder, I'd have passed — это чистый третий тип (прошлое→прошлое), и он верен, когда и условие, и результат в прошлом; смешанным он становится только когда результат выпадает в настоящее (…I'd be fluent now). Унеси одно: в смешанном условии времена if‑части и результата НЕ совпадают намеренно, и каждую половину ты собираешь по её собственному маркеру времени. Это не исключение, а точный инструмент для тех случаев, когда жизнь не укладывается в один тип."
+ ],
+ "why": [
+  "Говорить о том, как прошлые решения определяют настоящее: If I'd moved to London, I'd be working in finance now.",
+  "Объяснять прошлые события через постоянные черты: If he weren't so stubborn, he'd have apologised long ago.",
+  "Строить сложные гипотезы в эссе и аналитике: Had the policy not been introduced, the economy would be stronger today.",
+  "Звучать естественно и точно там, где чистый второй или третий тип искажает смысл по времени."
+ ],
+ "context": {
+  "lines": [
+   { "en": "Do you ever regret not studying law? — If I'd studied law, I'd be a partner at a firm by now, I suppose.", "ru": "Ты когда‑нибудь жалеешь, что не пошёл на юрфак? — Полагаю, учись я на юриста, я бы сейчас уже был партнёром в фирме." },
+   { "en": "She never asks for help, though. — Well, if she weren't so proud, she'd have asked for it years ago.", "ru": "Она ведь никогда не просит помощи. — Ну, не будь она такой гордой, она бы давно уже попросила." },
+   { "en": "If you hadn't stayed up so late, you wouldn't be so exhausted now.", "ru": "Не засидись ты так поздно, ты бы сейчас не был таким вымотанным." },
+   { "en": "True. And if I were more disciplined, I'd have finished the project on time last week.", "ru": "Верно. И будь я более дисциплинированным, я бы на прошлой неделе закончил проект вовремя." }
   ],
-  "why": [
-    "Говорить о том, как прошлые решения определяют настоящее: If I'd moved to London, I'd be working in finance now.",
-    "Объяснять прошлые события через постоянные черты: If he weren't so stubborn, he'd have apologised long ago.",
-    "Строить сложные гипотезы в эссе и аналитике: Had the policy not been introduced, the economy would be stronger today.",
-    "Звучать естественно и точно там, где чистый второй или третий тип искажает смысл по времени."
+  "note": "В каждой реплике времена if‑части и результата не совпадают. I'd studied law (прошлое условие) → I'd be a partner by now (настоящий результат); weren't so proud (постоянная черта) → would have asked years ago (прошлый результат); hadn't stayed up (прошлое) → wouldn't be exhausted now (настоящее); were more disciplined (постоянная черта) → would have finished last week (прошлое). Маркеры by now, years ago, now, last week подсказывают форму результата."
+ },
+ "russianAngle": [
+  " По‑русски «был бы» не различает настоящее и прошлое формой глагола: «я был бы сейчас врачом» и «я был бы там вчера» — глагол один и тот же, время берётся из наречия «сейчас/вчера». Английский несёт время в форме: «был бы сейчас» = I'd be now (would + инфинитив), «был бы там вчера» = I'd have been there (would have + причастие). Отсюда вечная ошибка *If I'd studied, I'd have been a doctor now* — калька русского «был бы», не различающего время.",
+  " «Если бы она не была такой гордой, она бы попросила» — «не была» читается как прошлое, но смысл про постоянную черту (она всегда гордая). Постоянная черта в if‑части — это Past Simple с were для be: If she weren't so proud, she'd have asked. Русскоговорящие часто ставят wasn't (разговорно допустимо) или путают, что условие здесь про «вообще», а не про «тогда».",
+  " «Не засидись ты так поздно, ты бы сейчас не уставал» — по‑русски обе части выглядят одинаково «бы», и только «сейчас» выдаёт настоящее. В английском результат про сейчас требует would + инфинитив: you wouldn't be so exhausted now, а не wouldn't have been. Маркер now — сигнал брать would + inf.",
+  " Мы легко смешиваем времена в одном «если бы» и не замечаем этого, потому что форма глагола не меняется. Английский требует явной сборки: past condition → Past Perfect в if (had done), present/permanent condition → Past Simple (did/were); present result → would + inf, past result → would have + V3. Каждую половину собираешь по её маркеру, не оглядываясь на другую.",
+  " «Если бы я тогда не переехал, сейчас бы жил в другом городе» — классическая русская смешанная конструкция, и мы строим её естественно. По‑английски это If I hadn't moved then, I'd be living in another city now — и это ровно тот случай, где смешанное условие необходимо, а чистый третий тип (I'd have lived) исказил бы смысл, перенеся результат в прошлое."
+ ],
+ "howToLearn": {
+  "steps": [
+   "Пойми идею: в смешанном условии времена if‑части и результата не совпадают — и это не ошибка, а точность.",
+   "Запомни две связки: past condition (Past Perfect) → present result (would + inf); present/permanent condition (Past Simple) → past result (would have + V3).",
+   "Определяй время каждой части отдельно по маркерам: now/today/currently → would + inf; then/yesterday/last year → would have + V3; always/by nature → Past Simple в if.",
+   "Для be в постоянном условии ставь were для всех лиц (If she were…); wasn't — разговорно, were — норма.",
+   "Не путай с чистым третьим типом: он весь в прошлом (had done → would have done); смешанный выпадает результатом в настоящее.",
+   "Сделай упражнение ниже и сверься — особенно с выбором would + inf против would have + V3 по маркеру."
   ],
-  "context": {
-    "lines": [
-      { "en": "Do you ever regret not studying law? — If I'd studied law, I'd be a partner at a firm by now, I suppose.", "ru": "Ты когда‑нибудь жалеешь, что не пошёл на юрфак? — Полагаю, учись я на юриста, я бы сейчас уже был партнёром в фирме." },
-      { "en": "She never asks for help, though. — Well, if she weren't so proud, she'd have asked for it years ago.", "ru": "Она ведь никогда не просит помощи. — Ну, не будь она такой гордой, она бы давно уже попросила." },
-      { "en": "If you hadn't stayed up so late, you wouldn't be so exhausted now.", "ru": "Не засидись ты так поздно, ты бы сейчас не был таким вымотанным." },
-      { "en": "True. And if I were more disciplined, I'd have finished the project on time last week.", "ru": "Верно. И будь я более дисциплинированным, я бы на прошлой неделе закончил проект вовремя." }
-    ],
-    "note": "В каждой реплике времена if‑части и результата не совпадают. I'd studied law (прошлое условие) → I'd be a partner by now (настоящий результат); weren't so proud (постоянная черта) → would have asked years ago (прошлый результат); hadn't stayed up (прошлое) → wouldn't be exhausted now (настоящее); were more disciplined (постоянная черта) → would have finished last week (прошлое). Маркеры by now, years ago, now, last week подсказывают форму результата."
+  "exercise": {
+   "prompt": "Попробуй сам — поставь верную форму, глядя на маркер времени (или переведи):",
+   "items": [
+    { "q": "If I ___ (take) that job in 2015, I ___ (live) in Berlin now.", "a": "had taken … would be living — условие про прошлое (2015 → Past Perfect), результат про сейчас (now → would + inf/continuous)." },
+    { "q": "If she ___ (not / be) so shy, she ___ (speak) up at the meeting yesterday.", "a": "weren't … would have spoken — постоянная черта (Past Simple, were), результат про прошлое (yesterday → would have + V3)." },
+    { "q": "If you ___ (not / eat) so much at dinner, you ___ (not / feel) sick now.", "a": "hadn't eaten … wouldn't feel — прошлое условие (за ужином → Past Perfect), настоящий результат (now → would + inf)." },
+    { "q": "If he ___ (be) more careful by nature, he ___ (not / crash) the car last month.", "a": "were … wouldn't have crashed — постоянная черта (by nature → Past Simple, were), прошлый результат (last month → would have + V3)." },
+    { "q": "Переведи: «Если бы я тогда выучил английский, сейчас бы работал за границей.»", "a": "If I'd learned English then, I'd be working abroad now. — Past Perfect в if (then), would + continuous в результате (now)." },
+    { "q": "Чем If I'd studied harder, I'd have passed отличается от If I'd studied harder, I'd be fluent now?", "a": "Первое — чистый третий тип (прошлое→прошлое: учился бы → сдал бы). Второе — смешанное (прошлое→настоящее: учился бы → сейчас был бы свободен). Разница в маркере и форме результата." }
+   ]
+  }
+ },
+ "formula": "past condition: If + Past Perfect → would + inf (now) · permanent condition: If + Past Simple → would have + V3 (then)",
+ "structure": {
+  "positive": "If I'd taken the job, I'd be abroad now. / If she were braver, she'd have spoken up.",
+  "negative": "If you hadn't stayed up, you wouldn't be tired now. / If he weren't so proud, he wouldn't have refused.",
+  "question": "Would you be happier now if you'd chosen differently? (инверсия would в главной части; if‑часть прямая)"
+ },
+ "markers": ["if", "if only", "were", "had", "would", "would have", "now", "today", "these days", "currently", "then", "yesterday", "last year", "at the time", "by nature", "always"],
+ "uses": [
+  "Сожаление о прошлом с настоящим следствием: If I'd saved more, I'd be financially secure now.",
+  "Объяснение прошлого через характер: If he weren't so impulsive, he'd have kept the job.",
+  "Гипотезы в аналитике и эссе: Had the reform not been delayed, inflation would be lower today.",
+  "Точная передача времени там, где чистый тип искажает смысл."
+ ],
+ "rules": [
+  { "title": "Время каждой части определяй отдельно по маркеру", "text": "Не привязывайся к «типу» предложения. If‑часть про прошлое → Past Perfect (had done); про настоящее/постоянную черту → Past Simple (did / were). Результат про сейчас → would + inf; про прошлое → would have + V3. Собирай половины независимо, по их маркерам времени (now/today vs then/last year vs always/by nature)." },
+  { "title": "Две классические связки: past→present и present→past", "text": "Past condition → present result: If I'd studied medicine, I'd be a doctor now (had done → would + inf). Present/permanent condition → past result: If she weren't so proud, she'd have asked for help (were → would have + V3). Это два зеркала одного принципа: причина и следствие в разных временах." },
+  { "title": "were для be в постоянном условии; не путай с чистым третьим типом", "text": "В if‑части про постоянную черту be стоит как were для всех лиц: If he were more careful. Чистый третий тип (had done → would have done) остаётся для случаев, когда и условие, и результат в прошлом; смешанным условие становится только когда результат выпадает в настоящее (…I'd be fluent now)." }
+ ],
+ "examples": [
+  {
+   "group": "past condition → present result",
+   "items": [
+    { "en": "If I'd taken that job, I'd be living abroad now.", "ru": "Примись я тогда за ту работу, я бы сейчас жил за границей.", "highlight": ["If I'd taken", "I'd be living", "now"] },
+    { "en": "If you hadn't missed the flight, you'd be on the beach right now.", "ru": "Не опоздай ты на рейс, ты бы сейчас был на пляже.", "highlight": ["hadn't missed", "you'd be", "right now"] }
+   ]
   },
-  "russianAngle": [
-    "🇷 По‑русски «был бы» не различает настоящее и прошлое формой глагола: «я был бы сейчас врачом» и «я был бы там вчера» — глагол один и тот же, время берётся из наречия «сейчас/вчера». 🇬 Английский несёт время в форме: «был бы сейчас» = I'd be now (would + инфинитив), «был бы там вчера» = I'd have been there (would have + причастие). Отсюда вечная ошибка *If I'd studied, I'd have been a doctor now* — калька русского «был бы», не различающего время.",
-    "🇷 «Если бы она не была такой гордой, она бы попросила» — «не была» читается как прошлое, но смысл про постоянную черту (она всегда гордая). 🇬🇧 Постоянная черта в if‑части — это Past Simple с were для be: If she weren't so proud, she'd have asked. Русскоговорящие часто ставят wasn't (разговорно допустимо) или путают, что условие здесь про «вообще», а не про «тогда».",
-    "🇷🇺 «Не засидись ты так поздно, ты бы сейчас не уставал» — по‑русски обе части выглядят одинаково «бы», и только «сейчас» выдаёт настоящее. 🇬🇧 В английском результат про сейчас требует would + инфинитив: you wouldn't be so exhausted now, а не wouldn't have been. Маркер now — сигнал брать would + inf.",
-    "🇷🇺 Мы легко смешиваем времена в одном «если бы» и не замечаем этого, потому что форма глагола не меняется. 🇬🇧 Английский требует явной сборки: past condition → Past Perfect в if (had done), present/permanent condition → Past Simple (did/were); present result → would + inf, past result → would have + V3. Каждую половину собираешь по её маркеру, не оглядываясь на другую.",
-    "🇷🇺 «Если бы я тогда не переехал, сейчас бы жил в другом городе» — классическая русская смешанная конструкция, и мы строим её естественно. 🇬🇧 По‑английски это If I hadn't moved then, I'd be living in another city now — и это ровно тот случай, где смешанное условие необходимо, а чистый третий тип (I'd have lived) исказил бы смысл, перенеся результат в прошлое."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Пойми идею: в смешанном условии времена if‑части и результата не совпадают — и это не ошибка, а точность.",
-      "Запомни две связки: past condition (Past Perfect) → present result (would + inf); present/permanent condition (Past Simple) → past result (would have + V3).",
-      "Определяй время каждой части отдельно по маркерам: now/today/currently → would + inf; then/yesterday/last year → would have + V3; always/by nature → Past Simple в if.",
-      "Для be в постоянном условии ставь were для всех лиц (If she were…); wasn't — разговорно, were — норма.",
-      "Не путай с чистым третьим типом: он весь в прошлом (had done → would have done); смешанный выпадает результатом в настоящее.",
-      "Сделай упражнение ниже и сверься — особенно с выбором would + inf против would have + V3 по маркеру."
-    ],
-    "exercise": {
-      "prompt": "Попробуй сам — поставь верную форму, глядя на маркер времени (или переведи):",
-      "items": [
-        { "q": "If I ___ (take) that job in 2015, I ___ (live) in Berlin now.", "a": "had taken … would be living — условие про прошлое (2015 → Past Perfect), результат про сейчас (now → would + inf/continuous)." },
-        { "q": "If she ___ (not / be) so shy, she ___ (speak) up at the meeting yesterday.", "a": "weren't … would have spoken — постоянная черта (Past Simple, were), результат про прошлое (yesterday → would have + V3)." },
-        { "q": "If you ___ (not / eat) so much at dinner, you ___ (not / feel) sick now.", "a": "hadn't eaten … wouldn't feel — прошлое условие (за ужином → Past Perfect), настоящий результат (now → would + inf)." },
-        { "q": "If he ___ (be) more careful by nature, he ___ (not / crash) the car last month.", "a": "were … wouldn't have crashed — постоянная черта (by nature → Past Simple, were), прошлый результат (last month → would have + V3)." },
-        { "q": "Переведи: «Если бы я тогда выучил английский, сейчас бы работал за границей.»", "a": "If I'd learned English then, I'd be working abroad now. — Past Perfect в if (then), would + continuous в результате (now)." },
-        { "q": "Чем If I'd studied harder, I'd have passed отличается от If I'd studied harder, I'd be fluent now?", "a": "Первое — чистый третий тип (прошлое→прошлое: учился бы → сдал бы). Второе — смешанное (прошлое→настоящее: учился бы → сейчас был бы свободен). Разница в маркере и форме результата." }
-      ]
-    }
+  {
+   "group": "permanent condition → past result",
+   "items": [
+    { "en": "If she weren't so proud, she'd have asked for help years ago.", "ru": "Не будь она такой гордой, она бы попросила помощи ещё годы назад.", "highlight": ["weren't", "she'd have asked", "years ago"] },
+    { "en": "If he were more organised, he wouldn't have missed the deadline.", "ru": "Будь он более организованным, он бы не сорвал срок.", "highlight": ["were", "wouldn't have missed"] }
+   ]
   },
-  "formula": "past condition: If + Past Perfect → would + inf (now)  ·  permanent condition: If + Past Simple → would have + V3 (then)",
-  "structure": {
-    "positive": "If I'd taken the job, I'd be abroad now. / If she were braver, she'd have spoken up.",
-    "negative": "If you hadn't stayed up, you wouldn't be tired now. / If he weren't so proud, he wouldn't have refused.",
-    "question": "Would you be happier now if you'd chosen differently? (инверсия would в главной части; if‑часть прямая)"
+  {
+   "group": "с модальными вместо would (could / might)",
+   "items": [
+    { "en": "If I'd studied music, I could be performing on stage today.", "ru": "Учись я музыке, я бы сегодня мог выступать на сцене.", "highlight": ["could be performing", "today"] },
+    { "en": "If she weren't so cautious, she might have taken the risk.", "ru": "Не будь она такой осторожной, она бы, возможно, пошла на риск.", "highlight": ["weren't", "might have taken"] }
+   ]
   },
-  "markers": ["if", "if only", "were", "had", "would", "would have", "now", "today", "these days", "currently", "then", "yesterday", "last year", "at the time", "by nature", "always"],
-  "uses": [
-    "Сожаление о прошлом с настоящим следствием: If I'd saved more, I'd be financially secure now.",
-    "Объяснение прошлого через характер: If he weren't so impulsive, he'd have kept the job.",
-    "Гипотезы в аналитике и эссе: Had the reform not been delayed, inflation would be lower today.",
-    "Точная передача времени там, где чистый тип искажает смысл."
-  ],
-  "rules": [
-    { "title": "Время каждой части определяй отдельно по маркеру", "text": "Не привязывайся к «типу» предложения. If‑часть про прошлое → Past Perfect (had done); про настоящее/постоянную черту → Past Simple (did / were). Результат про сейчас → would + inf; про прошлое → would have + V3. Собирай половины независимо, по их маркерам времени (now/today vs then/last year vs always/by nature)." },
-    { "title": "Две классические связки: past→present и present→past", "text": "Past condition → present result: If I'd studied medicine, I'd be a doctor now (had done → would + inf). Present/permanent condition → past result: If she weren't so proud, she'd have asked for help (were → would have + V3). Это два зеркала одного принципа: причина и следствие в разных временах." },
-    { "title": "were для be в постоянном условии; не путай с чистым третьим типом", "text": "В if‑части про постоянную черту be стоит как were для всех лиц: If he were more careful. Чистый третий тип (had done → would have done) остаётся для случаев, когда и условие, и результат в прошлом; смешанным условие становится только когда результат выпадает в настоящее (…I'd be fluent now)." }
-  ],
-  "examples": [
-    {
-      "group": "past condition → present result",
-      "items": [
-        { "en": "If I'd taken that job, I'd be living abroad now.", "ru": "Примись я тогда за ту работу, я бы сейчас жил за границей.", "highlight": ["If I'd taken", "I'd be living", "now"] },
-        { "en": "If you hadn't missed the flight, you'd be on the beach right now.", "ru": "Не опоздай ты на рейс, ты бы сейчас был на пляже.", "highlight": ["hadn't missed", "you'd be", "right now"] }
-      ]
-    },
-    {
-      "group": "permanent condition → past result",
-      "items": [
-        { "en": "If she weren't so proud, she'd have asked for help years ago.", "ru": "Не будь она такой гордой, она бы попросила помощи ещё годы назад.", "highlight": ["weren't", "she'd have asked", "years ago"] },
-        { "en": "If he were more organised, he wouldn't have missed the deadline.", "ru": "Будь он более организованным, он бы не сорвал срок.", "highlight": ["were", "wouldn't have missed"] }
-      ]
-    },
-    {
-      "group": "с модальными вместо would (could / might)",
-      "items": [
-        { "en": "If I'd studied music, I could be performing on stage today.", "ru": "Учись я музыке, я бы сегодня мог выступать на сцене.", "highlight": ["could be performing", "today"] },
-        { "en": "If she weren't so cautious, she might have taken the risk.", "ru": "Не будь она такой осторожной, она бы, возможно, пошла на риск.", "highlight": ["weren't", "might have taken"] }
-      ]
-    },
-    {
-      "group": "инверсия в if‑части (формально, связь с C1)",
-      "items": [
-        { "en": "Had I known the truth, I'd be telling you a very different story now.", "ru": "Знай я правду, я бы сейчас рассказывал тебе совсем другую историю.", "highlight": ["Had I known", "I'd be telling", "now"] },
-        { "en": "Were he less arrogant, he'd have lost the election long ago.", "ru": "Будь он менее высокомерен, он бы давно проиграл выборы.", "highlight": ["Were he", "he'd have lost", "long ago"] }
-      ]
-    },
-    {
-      "group": "отрицание в обеих частях",
-      "items": [
-        { "en": "If you hadn't stayed up so late, you wouldn't be so exhausted now.", "ru": "Не засидись ты так поздно, ты бы сейчас не был таким вымотанным.", "highlight": ["hadn't stayed up", "wouldn't be", "now"] },
-        { "en": "If I weren't so tired, I wouldn't have made that mistake yesterday.", "ru": "Не будь я таким уставшим, я бы вчера не сделал ту ошибку.", "highlight": ["weren't", "wouldn't have made", "yesterday"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "If I'd studied medicine, I'd have been a doctor now.", "right": "If I'd studied medicine, I'd be a doctor now.", "note": "Результат про сейчас (now) → would + inf, не would have + V3; «был бы сейчас» = I'd be." },
-    { "wrong": "If she wasn't so proud, she would ask for help years ago.", "right": "If she weren't so proud, she'd have asked for help years ago.", "note": "Постоянная черта → were (норма); результат про прошлое (years ago) → would have + V3." },
-    { "wrong": "If you didn't stay up late, you wouldn't be tired now.", "right": "If you hadn't stayed up late, you wouldn't be tired now.", "note": "Условие про прошлое (вчерашняя ночь) → Past Perfect, не Past Simple." },
-    { "wrong": "If he were careful, he wouldn't crash last month.", "right": "If he were careful, he wouldn't have crashed last month.", "note": "Результат про прошлое (last month) → would have + V3." },
-    { "wrong": "If I would have known, I would help now.", "right": "If I'd known, I'd be helping now.", "note": "would не ставится в if‑части; условие → Past Perfect, результат про сейчас → would + inf/continuous." },
-    { "wrong": "If I'd studied harder, I'd be passed the exam.", "right": "If I'd studied harder, I'd have passed the exam. (прошлое→прошлое) / …I'd be fluent now. (прошлое→настоящее)", "note": "Определи время результата: экзамен в прошлом → would have passed; навык сейчас → would be fluent." }
-  ],
-  "compare": {
-    "title": "Чистый тип vs смешанное условие",
-    "leftLabel": "чистый тип (времена совпадают)",
-    "rightLabel": "смешанное (времена не совпадают)",
-    "rows": [
-      { "left": "If I'd studied, I'd have passed. (прошлое→прошлое, 3-й тип)", "right": "If I'd studied, I'd be fluent now. (прошлое→настоящее)" },
-      { "left": "If she were rich, she'd travel. (настоящее→настоящее, 2-й тип)", "right": "If she were rich, she'd have bought it years ago. (настоящее→прошлое)" },
-      { "left": "Форма одного типа во всём предложении", "right": "if‑часть и результат собираются по своим маркерам" }
-    ]
+  {
+   "group": "инверсия в if‑части (формально, связь с C1)",
+   "items": [
+    { "en": "Had I known the truth, I'd be telling you a very different story now.", "ru": "Знай я правду, я бы сейчас рассказывал тебе совсем другую историю.", "highlight": ["Had I known", "I'd be telling", "now"] },
+    { "en": "Were he less arrogant, he'd have lost the election long ago.", "ru": "Будь он менее высокомерен, он бы давно проиграл выборы.", "highlight": ["Were he", "he'd have lost", "long ago"] }
+   ]
   },
-  "tips": [
-    "Алгоритм «две половинки»: прочитай предложение, найди маркер времени в if‑части (then/last year → past; always/by nature → permanent) и маркер в результате (now/today → present; then/yesterday → past), и поставь форму каждой половины отдельно. Смешанное условие перестаёт быть исключением и становится сборкой.",
-    "now и today в результате — главный сигнал брать would + инфинитив, а не would have + V3. Это та самая точка, где русскоговорящие ошибаются чаще всего, потому что «был бы» по‑русски не различает время. Видишь now → ставь I'd be / I'd have / I'd know, не I'd have been.",
-    "Постоянная черта в if‑части — это Past Simple, и для be — were для всех лиц. If he were kinder, If she were more patient. Это условие про «какой человек есть вообще», а не про «что было тогда», и результат при этом может быть прошлым: …he'd have made more friends at school.",
-    "Инверсия работает и в смешанных условиях, как на C1: Had I known, I'd be telling you now; Were he less arrogant, he'd have lost. Формальный регистр, связь с инверсией в условиях — держи в голове, что механика переворота та же, меняется только набор времён.",
-    "Не путай смешанное с чистым третьим типом. If I'd studied harder, I'd have passed — это не смешанное, это третий тип (оба в прошлом). Смешанным оно становится, только когда результат выпадает в настоящее: …I'd be fluent now. Вопрос «результат про сейчас или про тогда?» решает всё.",
-    "Тренируй на биографиях и «эффекте бабочки». Возьми реальную историю и строй цепочки: If he hadn't moved to Paris, he'd be an engineer now; If she were less shy, she'd have taken that role years ago. Это быстрее всего учит чувствовать, когда времена должны не совпадать.",
-    "Модальные could / might / should подставляются в результат вместо would по смыслу: If I'd studied music, I could be performing now (возможность), If she weren't so cautious, she might have taken the risk (вероятность). Форма времени (be vs have + V3) при этом работает так же — меняется только оттенок модальности."
-  ],
-  "related": ["c1-inversion-in-conditionals", "c1-subjunctive-wish-regret", "c2-modals-past-deduction"],
-  "quiz": [
-    {
-        "q":  "If I\u0027d taken that job, I ___ abroad now.",
-        "options":  [
-                        "would have lived",
-                        "live",
-                        "would be living",
-                        "had lived"
-                    ],
-        "answer":  2,
-        "why":  "Прошлое условие (had taken) + настоящий результат (now) → would + инфинитив/continuous: I\u0027d be living now. would have lived перенесло бы результат в прошлое, исказив смысл."
-    },
-    {
-        "q":  "If she weren\u0027t so proud, she ___ for help years ago.",
-        "options":  [
-                        "wouldn\u0027t be asking",
-                        "would have asked",
-                        "would ask",
-                        "hadn\u0027t asked"
-                    ],
-        "answer":  1,
-        "why":  "Постоянная черта (weren\u0027t, Past Simple) + прошлый результат (years ago) → would have + причастие: she\u0027d have asked. Форма результата определяется маркером years ago."
-    },
-    {
-        "q":  "If you hadn\u0027t stayed up so late, you ___ so exhausted now.",
-        "options":  [
-                        "wouldn\u0027t have been",
-                        "aren\u0027t",
-                        "wouldn\u0027t be",
-                        "won\u0027t be"
-                    ],
-        "answer":  2,
-        "why":  "Прошлое условие (hadn\u0027t stayed up) + настоящий результат (now) → wouldn\u0027t be. wouldn\u0027t have been было бы верно без now (прошлый результат)."
-    },
-    {
-        "q":  "If he were more careful by nature, he ___ the car last month.",
-        "options":  [
-                        "wouldn\u0027t crash",
-                        "wouldn\u0027t have crashed",
-                        "hadn\u0027t crashed",
-                        "wasn\u0027t crashing"
-                    ],
-        "answer":  1,
-        "why":  "Постоянная черта (were, by nature) + прошлый результат (last month) → wouldn\u0027t have crashed. Маркер last month тянет результат в Past Perfect-форму результата."
-    },
-    {
-        "q":  "If I\u0027d studied English back then, I ___ fluent now.",
-        "options":  [
-                        "would have been",
-                        "am",
-                        "would be",
-                        "had been"
-                    ],
-        "answer":  2,
-        "why":  "Прошлое условие + настоящее следствие (now) → would be. Это и есть смешанное условие; чистый третий тип (would have been) сюда не подходит из-за now."
-    },
-    {
-        "q":  "Найдите верное предложение.",
-        "options":  [
-                        "If I would have known, I\u0027d help now.",
-                        "If I\u0027d known, I\u0027d be helping now.",
-                        "If I knew, I\u0027d have helped now.",
-                        "If I have known, I\u0027d help now."
-                    ],
-        "answer":  1,
-        "why":  "would не ставится в if-части; прошлое условие → Past Perfect (If I\u0027d known), настоящий результат → would + continuous (I\u0027d be helping now)."
-    }
+  {
+   "group": "отрицание в обеих частях",
+   "items": [
+    { "en": "If you hadn't stayed up so late, you wouldn't be so exhausted now.", "ru": "Не засидись ты так поздно, ты бы сейчас не был таким вымотанным.", "highlight": ["hadn't stayed up", "wouldn't be", "now"] },
+    { "en": "If I weren't so tired, I wouldn't have made that mistake yesterday.", "ru": "Не будь я таким уставшим, я бы вчера не сделал ту ошибку.", "highlight": ["weren't", "wouldn't have made", "yesterday"] }
+   ]
+  }
+ ],
+ "mistakes": [
+  { "wrong": "If I'd studied medicine, I'd have been a doctor now.", "right": "If I'd studied medicine, I'd be a doctor now.", "note": "Результат про сейчас (now) → would + inf, не would have + V3; «был бы сейчас» = I'd be." },
+  { "wrong": "If she wasn't so proud, she would ask for help years ago.", "right": "If she weren't so proud, she'd have asked for help years ago.", "note": "Постоянная черта → were (норма); результат про прошлое (years ago) → would have + V3." },
+  { "wrong": "If you didn't stay up late, you wouldn't be tired now.", "right": "If you hadn't stayed up late, you wouldn't be tired now.", "note": "Условие про прошлое (вчерашняя ночь) → Past Perfect, не Past Simple." },
+  { "wrong": "If he were careful, he wouldn't crash last month.", "right": "If he were careful, he wouldn't have crashed last month.", "note": "Результат про прошлое (last month) → would have + V3." },
+  { "wrong": "If I would have known, I would help now.", "right": "If I'd known, I'd be helping now.", "note": "would не ставится в if‑части; условие → Past Perfect, результат про сейчас → would + inf/continuous." },
+  { "wrong": "If I'd studied harder, I'd be passed the exam.", "right": "If I'd studied harder, I'd have passed the exam. (прошлое→прошлое) / …I'd be fluent now. (прошлое→настоящее)", "note": "Определи время результата: экзамен в прошлом → would have passed; навык сейчас → would be fluent." }
+ ],
+ "compare": {
+  "title": "Чистый тип vs смешанное условие",
+  "leftLabel": "чистый тип (времена совпадают)",
+  "rightLabel": "смешанное (времена не совпадают)",
+  "rows": [
+   { "left": "If I'd studied, I'd have passed. (прошлое→прошлое, 3-й тип)", "right": "If I'd studied, I'd be fluent now. (прошлое→настоящее)" },
+   { "left": "If she were rich, she'd travel. (настоящее→настоящее, 2-й тип)", "right": "If she were rich, she'd have bought it years ago. (настоящее→прошлое)" },
+   { "left": "Форма одного типа во всём предложении", "right": "if‑часть и результат собираются по своим маркерам" }
+  ]
+ },
+ "tips": [
+  "Алгоритм «две половинки»: прочитай предложение, найди маркер времени в if‑части (then/last year → past; always/by nature → permanent) и маркер в результате (now/today → present; then/yesterday → past), и поставь форму каждой половины отдельно. Смешанное условие перестаёт быть исключением и становится сборкой.",
+  "now и today в результате — главный сигнал брать would + инфинитив, а не would have + V3. Это та самая точка, где русскоговорящие ошибаются чаще всего, потому что «был бы» по‑русски не различает время. Видишь now → ставь I'd be / I'd have / I'd know, не I'd have been.",
+  "Постоянная черта в if‑части — это Past Simple, и для be — were для всех лиц. If he were kinder, If she were more patient. Это условие про «какой человек есть вообще», а не про «что было тогда», и результат при этом может быть прошлым: …he'd have made more friends at school.",
+  "Инверсия работает и в смешанных условиях, как на C1: Had I known, I'd be telling you now; Were he less arrogant, he'd have lost. Формальный регистр, связь с инверсией в условиях — держи в голове, что механика переворота та же, меняется только набор времён.",
+  "Не путай смешанное с чистым третьим типом. If I'd studied harder, I'd have passed — это не смешанное, это третий тип (оба в прошлом). Смешанным оно становится, только когда результат выпадает в настоящее: …I'd be fluent now. Вопрос «результат про сейчас или про тогда?» решает всё.",
+  "Тренируй на биографиях и «эффекте бабочки». Возьми реальную историю и строй цепочки: If he hadn't moved to Paris, he'd be an engineer now; If she were less shy, she'd have taken that role years ago. Это быстрее всего учит чувствовать, когда времена должны не совпадать.",
+  "Модальные could / might / should подставляются в результат вместо would по смыслу: If I'd studied music, I could be performing now (возможность), If she weren't so cautious, she might have taken the risk (вероятность). Форма времени (be vs have + V3) при этом работает так же — меняется только оттенок модальности."
+ ],
+ "related": ["c1-inversion-in-conditionals", "c1-subjunctive-wish-regret", "c2-modals-past-deduction"],
+ "quiz": [
+  {
+    "q": "If I\u0027d taken that job, I ___ abroad now.",
+    "options": [
+            "would have lived",
+            "live",
+            "would be living",
+            "had lived"
+          ],
+    "answer": 2,
+    "why": "Прошлое условие (had taken) + настоящий результат (now) → would + инфинитив/continuous: I\u0027d be living now. would have lived перенесло бы результат в прошлое, исказив смысл."
+  },
+  {
+    "q": "If she weren\u0027t so proud, she ___ for help years ago.",
+    "options": [
+            "wouldn\u0027t be asking",
+            "would have asked",
+            "would ask",
+            "hadn\u0027t asked"
+          ],
+    "answer": 1,
+    "why": "Постоянная черта (weren\u0027t, Past Simple) + прошлый результат (years ago) → would have + причастие: she\u0027d have asked. Форма результата определяется маркером years ago."
+  },
+  {
+    "q": "If you hadn\u0027t stayed up so late, you ___ so exhausted now.",
+    "options": [
+            "wouldn\u0027t have been",
+            "aren\u0027t",
+            "wouldn\u0027t be",
+            "won\u0027t be"
+          ],
+    "answer": 2,
+    "why": "Прошлое условие (hadn\u0027t stayed up) + настоящий результат (now) → wouldn\u0027t be. wouldn\u0027t have been было бы верно без now (прошлый результат)."
+  },
+  {
+    "q": "If he were more careful by nature, he ___ the car last month.",
+    "options": [
+            "wouldn\u0027t crash",
+            "wouldn\u0027t have crashed",
+            "hadn\u0027t crashed",
+            "wasn\u0027t crashing"
+          ],
+    "answer": 1,
+    "why": "Постоянная черта (were, by nature) + прошлый результат (last month) → wouldn\u0027t have crashed. Маркер last month тянет результат в Past Perfect-форму результата."
+  },
+  {
+    "q": "If I\u0027d studied English back then, I ___ fluent now.",
+    "options": [
+            "would have been",
+            "am",
+            "would be",
+            "had been"
+          ],
+    "answer": 2,
+    "why": "Прошлое условие + настоящее следствие (now) → would be. Это и есть смешанное условие; чистый третий тип (would have been) сюда не подходит из-за now."
+  },
+  {
+    "q": "Найдите верное предложение.",
+    "options": [
+            "If I would have known, I\u0027d help now.",
+            "If I\u0027d known, I\u0027d be helping now.",
+            "If I knew, I\u0027d have helped now.",
+            "If I have known, I\u0027d help now."
+          ],
+    "answer": 1,
+    "why": "would не ставится в if-части; прошлое условие → Past Perfect (If I\u0027d known), настоящий результат → would + continuous (I\u0027d be helping now)."
+  }
 ]
 }

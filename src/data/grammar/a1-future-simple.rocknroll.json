@@ -1,0 +1,185 @@
+{
+  "slug": "a1-future-simple",
+  "variant": "rocknroll",
+  "title": "Future Simple",
+  "level": "A1",
+  "category": "Tenses",
+  "readingTime": 7,
+  "summary": "Простое будущее: will + глагол. Манифест со сцены. «We will, we will rock you» — не просьба и не план, а кулак, поднятый в воздух.",
+  "idea": [
+    "1977 год, тур Queen. Фредди Меркьюри смотрит в зал и не спрашивает: «Вы хотите, чтобы мы вас раскачали?» Он не обещает вежливо. Он заявляет: «We will, we will rock you». Мы тебя раскачаем. Это не вопрос и не план — это манифест, кулак, поднятый в воздух. А через год, в 1978-м, Глория Гейнор после развода записывает «I Will Survive» — я выживу. Песня становится гимном всех, кто не сдался. Will в роке — это обещание, угроза и вызов в одном слове. I will survive. I won't back down. We will fight.",
+    "Will — одно слово на всех, и это удобно, когда надо завести толпу: I will, you will, he will, we will, they will. Сокращение — 'll: I'll play, we'll rock. Отрицание — will not (won't): I won't stop. Tom Petty повторяет его дважды, потому что обещание надо вбить: «I won't back down, no I won't back down». Вопрос — выносом will: «Will you rock me?» Если унести одну мысль: will — это слово, которое смотрит вперёд и не извиняется.",
+    "Главные ошибки — ставить to после will («I will to play» — нет, так только в плохих каверах, будет «I will play») и менять will по лицам («she wills» — нет, всегда «she will»). И запомни границу: will — для обещаний и решений на лету, прямо на сцене, а «be going to» — для планов, которые уже приняты в гримёрке. Но это уже следующий урок."
+  ],
+  "why": [
+    "Заявить залу, без вопросов: We will rock you. Не спрашиваем — обещаем.",
+    "Бросить вызов: I won't back down. Tom Petty не просит — предупреждает.",
+    "Решить на ходу, прямо на сцене: «Ещё один трек!» — I'll play one more.",
+    "Предсказать, что сейчас грянет: It's gonna be loud. Готовься."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Will you play tonight?", "ru": "Играете сегодня?" },
+      { "en": "We will. And we will be loud.", "ru": "Играем. И будет громко." },
+      { "en": "Will the neighbours complain?", "ru": "Соседи будут жаловаться?" },
+      { "en": "They will. They always do. We don't care.", "ru": "Будут. Они всегда так делают. Нам всё равно." }
+    ],
+    "note": "Обещания и заявления на will: We will, It will be loud, They will complain. За кулисами перед концертом — никто не спрашивает, все заявляют."
+  },
+  "russianAngle": [
+    "В русском будущее строится через «буду + глагол»: «я буду играть». В английском will + глагол без to: I will play, не «I will to play». Со сцены так не говорят.",
+    "«Не буду» — это won't: I won't stop. «Will not» звучит торжественно, а won't — как обещание, которое держат.",
+    "Вопрос — выносом will: Will you rock me? Фредди спрашивает зал именно так.",
+    "«Сегодня» — tonight. С tonight часто стоит will: Tonight we will play till they shut us down. «Сегодня играем, пока не вырубят»."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: will + глагол (без to). I will play, she will sing, they will rock.",
+      "Отрицание — won't: I won't stop. They won't listen.",
+      "Вопрос — вынос will: Will you play? Will it be loud?",
+      "Сделай упражнение и сверься. Как сказал бы Фредди: we will rock you."
+    ],
+    "exercise": {
+      "prompt": "Раскрой скобки в Future Simple. Протокол должен сойтись.",
+      "items": [
+        { "q": "I ___ (survive).", "a": "will survive — обещание." },
+        { "q": "It ___ (be) loud.", "a": "will be — предсказание." },
+        { "q": "___ you ___ (rock) me?", "a": "Will you rock — вопрос, вынос will." },
+        { "q": "I ___ (not / back down).", "a": "won't back down — вызов, отрицание." },
+        { "q": "They ___ (love) it.", "a": "will love — предсказание." }
+      ]
+    }
+  },
+  "formula": "will + V1 (short: 'll / neg: won't)",
+  "structure": {
+    "positive": "I will play. / We will rock you.",
+    "negative": "I won't play. / We won't stop.",
+    "question": "Will you play? / Will we rock?"
+  },
+  "markers": ["tomorrow", "tonight", "soon", "next week", "I promise", "I warn you"],
+  "uses": [
+    "Обещание залу: We will rock you.",
+    "Вызов: I won't back down.",
+    "Решение на ходу: I'll play one more.",
+    "Предсказание: It will be loud."
+  ],
+  "rules": [
+    { "title": "will + V1", "text": "После will — глагол без to: I will play, she will sing. Не «I will to play» — так только в плохих каверах." },
+    { "title": "won't", "text": "Отрицание: will not = won't. I won't stop. «Will not» звучит торжественно, won't — как обещание, которое держат." },
+    { "title": "вопрос", "text": "Вынос will вперёд: Will you play? Will it be loud? Will they listen?" }
+  ],
+  "examples": [
+    {
+      "group": "Манифест со сцены",
+      "items": [
+        { "en": "We will, we will rock you.", "ru": "Мы тебя раскачаем. Queen не спрашивают — заявляют.", "highlight": ["will rock"] },
+        { "en": "I will survive.", "ru": "Я выживу. Глория Гейнор обещает себе — и всему залу.", "highlight": ["will survive"] },
+        { "en": "We will fight.", "ru": "Мы будем сражаться. Угар и бунт.", "highlight": ["will fight"] }
+      ]
+    },
+    {
+      "group": "Вызов и дерзость",
+      "items": [
+        { "en": "I won't back down, no I won't back down.", "ru": "Я не отступлю. Tom Petty повторяет won't, потому что обещание надо вбить.", "highlight": ["won't back down"] },
+        { "en": "We won't stop.", "ru": "Мы не остановимся. Обещание, которое держат.", "highlight": ["won't stop"] },
+        { "en": "They won't forget us.", "ru": "Они нас не забудут. Уверенность.", "highlight": ["won't forget"] }
+      ]
+    },
+    {
+      "group": "Предсказания",
+      "items": [
+        { "en": "It will be loud.", "ru": "Будет громко. Предсказание, от которого не уйти.", "highlight": ["will be"] },
+        { "en": "They will love it.", "ru": "Им понравится. Уверенное предсказание.", "highlight": ["will love"] },
+        { "en": "It's gonna be wild.", "ru": "Будет дико. Предсказание перед тем, как грянуть.", "highlight": ["gonna be"] }
+      ]
+    },
+    {
+      "group": "Решения на ходу",
+      "items": [
+        { "en": "I'll play one more song.", "ru": "Сыграю ещё одну. Фронтмен решает прямо на сцене.", "highlight": ["'ll play"] },
+        { "en": "I'll take the stage.", "ru": "Выйду на сцену. Решение принято в момент.", "highlight": ["'ll take"] },
+        { "en": "We'll rock till they shut us down.", "ru": "Будем играть, пока не вырубят. Обещание на весь сет.", "highlight": ["'ll rock"] }
+      ]
+    },
+    {
+      "group": "Вопросы залу",
+      "items": [
+        { "en": "Will you rock me?", "ru": "Ты меня раскачаешь? Фредди спрашивает зал.", "highlight": ["Will you rock"] },
+        { "en": "Will it be enough?", "ru": "Хватит ли этого? Вопрос перед шоу.", "highlight": ["Will it be"] },
+        { "en": "Will they remember us?", "ru": "Они нас запомнят? Вопрос о будущем.", "highlight": ["Will they remember"] }
+      ]
+    },
+    {
+      "group": "Клятва и отказ",
+      "items": [
+        { "en": "I will not forget.", "ru": "Я не забуду. Клятва, полная форма.", "highlight": ["will not forget"] },
+        { "en": "We won't give up.", "ru": "Мы не сдадимся. Обещание, сокращённая форма.", "highlight": ["won't give up"] },
+        { "en": "They will remember us.", "ru": "Они нас запомнят. Уверенность в будущем.", "highlight": ["will remember"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I will to play.", "right": "I will play.", "note": "После will — глагол без to. Так только в плохих каверах." },
+    { "wrong": "I will not stopping.", "right": "I won't stop.", "note": "Отрицание: won't + глагол в первой форме." },
+    { "wrong": "You will play?", "right": "Will you play?", "note": "Вопрос: вынос will вперёд." },
+    { "wrong": "She wills sing.", "right": "She will sing.", "note": "Will не меняется по лицам: she will, не she wills." },
+    { "wrong": "I will playing.", "right": "I will play.", "note": "После will — первая форма глагола, не -ing." }
+  ],
+  "compare": {
+    "title": "Обещание vs План",
+    "leftLabel": "will (обещание/вызов)",
+    "rightLabel": "be going to (план)",
+    "rows": [
+      { "left": "We will rock you. (заявление)", "right": "We are going to play tonight. (план)" },
+      { "left": "I'll take the stage. (решение на лету)", "right": "I am going to take it. (уже решил)" },
+      { "left": "It will be loud. (предсказание)", "right": "Look at the amps. It is going to be loud. (по признакам)" }
+    ]
+  },
+  "tips": [
+    "Will — одно слово на всех: I will, he will, they will. Удобно, когда надо завести толпу.",
+    "Сокращение 'll: I'll, you'll, we'll, they'll. Так звучит естественно со сцены.",
+    "После will — глагол без to: I will play, не «I will to play».",
+    "Won't — это will not. «We won't stop» звучит как обещание, которое держат.",
+    "Will vs be going to: will для обещаний и вызовов на лету, be going to для планов. Но это уже следующий урок.",
+    "«I Will Survive» Глории Гейнор и «We Will Rock You» Queen — два манифеста, два will, два гимна. Прочитай примеры вслух."
+  ],
+  "related": ["a1-present-simple", "a1-present-continuous", "a1-past-simple"],
+  "quiz": [
+    {
+      "q": "I ___ (survive).",
+      "options": ["will survive", "will to survive", "will surviving", "survive"],
+      "answer": 0,
+      "why": "Will + глагол без to: will survive."
+    },
+    {
+      "q": "It ___ (be) loud.",
+      "options": ["will be", "will to be", "will being", "be"],
+      "answer": 0,
+      "why": "Предсказание: will be."
+    },
+    {
+      "q": "___ you rock me?",
+      "options": ["Will", "Do", "Are", "Is"],
+      "answer": 0,
+      "why": "Вопрос о будущем: Will you rock me?"
+    },
+    {
+      "q": "I ___ back down. I promise.",
+      "options": ["won't", "will not to", "won't to", "not will"],
+      "answer": 0,
+      "why": "Вызов-обещание: won't back down."
+    },
+    {
+      "q": "She ___ love it.",
+      "options": ["will", "wills", "will to", "will be"],
+      "answer": 0,
+      "why": "Will не меняется по лицам: she will love."
+    },
+    {
+      "q": "We ___ rock you.",
+      "options": ["will", "will to", "am will", "will be"],
+      "answer": 0,
+      "why": "Обещание со сцены: We will rock you."
+    }
+  ]
+}

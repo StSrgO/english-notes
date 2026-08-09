@@ -1,0 +1,172 @@
+{
+  "slug": "a1-verb-to-be",
+  "variant": "rocknroll",
+  "title": "Verb to be",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 6,
+  "summary": "Глагол «быть»: кто ты в районе и что есть что. am/is/are сейчас, was/were вчера. «Is this the real life?» — да, и это вопрос с be.",
+  "idea": [
+    "Знаешь, как Queen открывают «Bohemian Rhapsody»? «Is this the real life? Is this just fantasy?» Два вопроса с is — и глагол be выходит на сцену с первой секунды. Это самый главный глагол английского: без него не сказать, кто ты, где ты и что есть что. I am, you are, he is; вчера — was/were. Русское «есть» опускается, английское — никогда: I am Tommy, а не «I Tommy».",
+    "Вся история рок-н-ролла спрягается глаголом be. Панки начинают с am: «I am an antichrist, I am an anarchist» — Sex Pistols. Doors закрывают сет: «This is the end, beautiful friend» — is. Элвис спрашивает зал: «Are you lonesome tonight?» — are, вопрос. Nirvana зовут без дресс-кода: «Come as you are». Stones оправдываются: «It's only rock'n'roll, but I like it» — it is. А прошлое у рока одно, и оно про клуб 27: Kurt was 27. Janis was 27. Jim was 27. Список, в который никто не покупал билеты, — и это was, а не is.",
+    "Главные ошибки — пропуск be в вопросах («You are on the list?» вместо Are you on the list?), путаница is/are и возраст через have: по-английски I am 25, officer, а не I have 25. Убери be — и останется не песня, а настройка инструмента. Если унести одну мысль: в английском предложении почти всегда есть глагол, и чаще всего это be."
+  ],
+  "why": [
+    "Сказать, кто ты: I am Tommy. We are the band. На входе этого хватает.",
+    "Описать состояние: Baz is loud. The van is full. The manager is nervous.",
+    "Сказать, где: We are in Camden. He is in the van. The radios are in the van too.",
+    "Назвать возраст: I am 25, officer. В клуб 27 я не спешу."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Who are you?", "ru": "Ты кто?" },
+      { "en": "I am Tommy. This is my dog.", "ru": "Я Томми. Это моя собака." },
+      { "en": "Are you on the list?", "ru": "Вы в списке?" },
+      { "en": "We are the band. Ask the manager.", "ru": "Мы и есть группа. Спроси менеджера." },
+      { "en": "Is Baz here? The van is full of radios again.", "ru": "Баз тут? Фургон опять полон приёмников." }
+    ],
+    "note": "be везде: am, is, are. Убери его — и останется не песня, а настройка инструмента. И «van is full» — это тоже be, без всякого do."
+  },
+  "russianAngle": [
+    "В русском «есть» опускается: «я Томми». В английском be обязателен: I am Tommy. Предложение без be — как гиг без усилителя.",
+    "Возраст: по-русски «мне 25», по-английски I am 25, officer. Не I have 25 — это калька, и офицер её не поймёт. В клуб 27, кстати, берут только по was.",
+    "Вопрос — перестановкой: Are you on the list? Русское «ты в списке?» с интонацией так не работает: в английском be сам выходит вперёд. Как Элвис: Are you lonesome tonight?",
+    "«Есть» в значении «существует» — это there is / there are: There is a gig tonight. There are three chords in this song. Единственное — is, множественное — are."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни три формы настоящего: am (I), is (he/she/it), are (остальные). Прошлое: was/were.",
+      "Вопрос = вынос be наружу: Are you experienced? Отрицание = be + not: isn't, aren't.",
+      "Запомни возраст: I am 25. «I have 25» — калька, и офицер её не поймёт.",
+      "Сделай упражнение и сверься. Без шулерства — be смотрит на тебя."
+    ],
+    "exercise": {
+      "prompt": "Вставь правильную форму be. Протокол должен сойтись.",
+      "items": [
+        { "q": "I ___ Tommy.", "a": "am — с I всегда am." },
+        { "q": "Baz ___ loud.", "a": "is — he/she/it получает is. Очень громко." },
+        { "q": "___ you on the list?", "a": "Are — вопрос выносит be вперёд." },
+        { "q": "Kurt ___ 27. Janis ___ 27.", "a": "was — прошлое, he/she/it: was. Клуб 27 — это was, а не is." },
+        { "q": "There ___ a gig tonight.", "a": "is — there is для единственного числа." }
+      ]
+    }
+  },
+  "formula": "am / is / are (past: was / were)",
+  "structure": {
+    "positive": "I am Tommy. / They are the band.",
+    "negative": "I am not on the list. / They aren't ready.",
+    "question": "Are you on the list? / Is Baz here?"
+  },
+  "markers": ["now", "today", "yesterday", "last night"],
+  "uses": [
+    "Кто есть кто: I am Tommy. We are the band.",
+    "Состояние: Baz is loud. The van is full.",
+    "Где: We are in Camden. He is in the van.",
+    "Возраст: I am 25, officer. В клуб 27 я не спешу."
+  ],
+  "rules": [
+    { "title": "am / is / are", "text": "am с I; is с he/she/it; are с you/we/they. Сокращения: I'm, he's, they're. В пабе сокращения — норма, полная форма — для эмфазы." },
+    { "title": "was / were", "text": "Прошедшее: was (I/he/she/it), were (you/we/they). I was born in London. The encore was longer than the set." },
+    { "title": "there is / there are", "text": "«Имеется»: There is a gig tonight (ед. число), There are three chords (мн. число). В прошлом: there was / there were." }
+  ],
+  "examples": [
+    {
+      "group": "Кто есть кто (LDN)",
+      "items": [
+        { "en": "I am an antichrist, I am an anarchist.", "ru": "Я — антихрист, я — анархист. Sex Pistols начинают с am — и с этого же начинается Present Simple.", "highlight": ["am"] },
+        { "en": "We are the champions.", "ru": "Мы — чемпионы. Фредди поставил are навсегда, и зал подпевает.", "highlight": ["are"] }
+      ]
+    },
+    {
+      "group": "Где и что",
+      "items": [
+        { "en": "It's only rock'n'roll, but I like it.", "ru": "Это всего лишь рок-н-ролл, но он мне нравится. Stones знают: it is — это тоже рок.", "highlight": ["It's"] },
+        { "en": "This is the end, beautiful friend.", "ru": "Это конец, прекрасный друг. Doors закрывают дверь на is.", "highlight": ["is"] }
+      ]
+    },
+    {
+      "group": "Вопросы и приглашения",
+      "items": [
+        { "en": "Are you lonesome tonight?", "ru": "Ты одинок сегодня вечером? Элвис спрашивает с be — и весь зал отвечает.", "highlight": ["Are"] },
+        { "en": "Come as you are.", "ru": "Приходи как есть. Nirvana зовут с are — без дресс-кода.", "highlight": ["are"] }
+      ]
+    },
+    {
+      "group": "Прошлое (was/were): клуб 27",
+      "items": [
+        { "en": "Kurt was 27. Janis was 27. Jim was 27.", "ru": "Курту было 27. Дженис было 27. Джиму было 27. Клуб, в который никто не покупал билеты.", "highlight": ["was"] },
+        { "en": "The encore was longer than the set.", "ru": "Бис был длиннее сета. Так бывает, когда зал не отпускает.", "highlight": ["was"] }
+      ]
+    },
+    {
+      "group": "there is / there are",
+      "items": [
+        { "en": "There is a gig tonight.", "ru": "Сегодня будет гиг. Вход для своих.", "highlight": ["There is"] },
+        { "en": "There are three chords in this song.", "ru": "В этой песне три аккорда. Больше и не надо.", "highlight": ["There are"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "You are on the list?", "right": "Are you on the list?", "note": "Вопрос выносит be вперёд. Интонация тут не помощник." },
+    { "wrong": "I have 25 years.", "right": "I am 25.", "note": "Возраст — через «я есть»: I am 25. «I have» офицер не поймёт." },
+    { "wrong": "He is rocker.", "right": "He is a rocker.", "note": "Нужен артикль a: he is a rocker." },
+    { "wrong": "I am agree.", "right": "I agree.", "note": "agree — глагол. Это мы хоронили уже в трёх уроках. Не откапывай." },
+    { "wrong": "Where you are?", "right": "Where are you?", "note": "В вопросе be идёт вперёд: Where are you?" }
+  ],
+  "compare": {
+    "title": "Present vs Past (be)",
+    "leftLabel": "am / is / are",
+    "rightLabel": "was / were",
+    "rows": [
+      { "left": "We are at the gig now.", "right": "We were at the gig last night." },
+      { "left": "Baz is loud.", "right": "Baz was loud." },
+      { "left": "There is a gig today.", "right": "There was a gig yesterday." }
+    ]
+  },
+  "tips": [
+    "Сокращения — норма: I'm, he's, we're, they're. Полная форма — для эмфазы: I AM the walrus.",
+    "Возраст — только через be: I am 25, officer. В клуб 27 никто не спешит.",
+    "«I was born» — это past от be: I was born in London. Каждая биография начинается с was.",
+    "there is/there are — это «имеется»: There is a gig = «гиг имеется». Не путай с here is.",
+    "Вопросы с be — без do: Are you lonesome tonight? Is this the real life? Be сам выходит вперёд, как фронтмен."
+  ],
+  "related": ["a1-present-simple", "a1-present-continuous", "a1-past-simple"],
+  "quiz": [
+    {
+      "q": "I ___ Tommy.",
+      "options": ["am", "is", "are", "be"],
+      "answer": 0,
+      "why": "С I — всегда am. Первое правило be."
+    },
+    {
+      "q": "Baz ___ loud.",
+      "options": ["am", "is", "are", "be"],
+      "answer": 1,
+      "why": "he/she/it получает is. Очень громко."
+    },
+    {
+      "q": "___ you on the list?",
+      "options": ["Am", "Is", "Are", "Be"],
+      "answer": 2,
+      "why": "Вопрос выносит be вперёд: Are you on the list?"
+    },
+    {
+      "q": "Kurt ___ 27.",
+      "options": ["was", "were", "is", "are"],
+      "answer": 0,
+      "why": "Прошедшее, he/she/it: was. Клуб 27 — это was, а не is."
+    },
+    {
+      "q": "There ___ a gig tonight.",
+      "options": ["is", "are", "was", "am"],
+      "answer": 0,
+      "why": "Единственное число, настоящее: there is."
+    },
+    {
+      "q": "I ___ 25, officer.",
+      "options": ["have", "am", "has", "is"],
+      "answer": 1,
+      "why": "Возраст — через be: I am 25. И это всё, что я скажу."
+    }
+  ]
+}

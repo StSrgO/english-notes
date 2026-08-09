@@ -44,7 +44,7 @@ body {
 body::before {
   content: "";
   position: fixed; inset: 0; z-index: -1; pointer-events: none;
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22200%22 height=%22200%22><filter id=%22n%22><feTurbulence type=%22fractalNoise%22 baseFrequency=%220.35%22 numOctaves=%223%22 stitchTiles=%22stitch%22/></filter><rect width=%22200%22 height=%22200%22 filter=%22url(%23n)%22 opacity=%220.07%22/></svg>");
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.05'/><rect width='300' height='300' filter='url(%23m)' opacity='0.08'/></svg>");
 }
 .wrap { width: min(1180px, 92vw); margin-inline: auto; }
 a { color: inherit; text-decoration: none; }
@@ -363,7 +363,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   pointer-events: none;
   opacity: var(--tower-opacity);
   mix-blend-mode: multiply;
-  background: no-repeat center / contain url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 340'><g fill='%23123430'><path d='M60 4 L71 42 L49 42 Z'/><rect x='55' y='42' width='10' height='9'/><path d='M43 51 L77 51 L81 71 L39 71 Z'/><rect x='37' y='71' width='46' height='56'/><rect x='33' y='127' width='54' height='10'/><rect x='39' y='137' width='42' height='92'/><rect x='31' y='229' width='58' height='12'/><rect x='37' y='241' width='46' height='26'/><rect x='44' y='267' width='5' height='34' rx='2.5'/><rect x='54' y='267' width='4' height='54' rx='2'/><rect x='63' y='267' width='6' height='24' rx='3'/><rect x='73' y='267' width='4' height='42' rx='2'/><circle cx='29' cy='250' r='3'/><circle cx='22' cy='263' r='2'/><circle cx='91' cy='247' r='2.6'/><circle cx='98' cy='259' r='1.8'/><circle cx='50' cy='324' r='2'/><circle cx='67' cy='320' r='1.6'/></g><g fill='%23ffffff'><circle cx='60' cy='99' r='15'/><rect x='46' y='143' width='3' height='80'/><rect x='54' y='143' width='3' height='80'/><rect x='63' y='143' width='3' height='80'/><rect x='71' y='143' width='3' height='80'/><rect x='43' y='77' width='4' height='11'/><rect x='73' y='77' width='4' height='11'/></g><g fill='%23123430' stroke='%23123430' stroke-width='2' stroke-linecap='round'><path d='M60 99 L60 89 M60 99 L68 102' fill='none'/><circle cx='60' cy='99' r='1.7' stroke='none'/></g></svg>");
+  background: no-repeat center / contain url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.05'/><rect width='300' height='300' filter='url(%23m)' opacity='0.08'/></svg>");
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 36%, transparent 95%), radial-gradient(125% 85% at 32% 28%, #000 58%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 36%, transparent 95%), radial-gradient(125% 85% at 32% 28%, #000 58%, transparent 100%);
   -webkit-mask-composite: source-in;
@@ -852,3 +852,14 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
   margin: 18px 0;
 }
 .lv2-exgroup > h4.lv2-exgroup__t { margin-left: -18px; }
+
+/* Английские фразы в «Взгляд через русский» — тёмно-зелёная плашка (update112) */
+.ru-list--v2 .ra-en, .ru-angle .ra-en {
+  background: #14532d;
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: #fafbf7;
+  font-weight: 700;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}

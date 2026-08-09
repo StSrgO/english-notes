@@ -1,0 +1,164 @@
+{
+  "slug": "a1-there-is-there-are",
+  "variant": "rocknroll",
+  "title": "There is / There are",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 6,
+  "summary": "Оборот «имеется» по-районному: there is — одна штука, there are — много. «There is a gig tonight» — и всё, район в курсе.",
+  "idea": [
+    "There + is/are — это «имеется». На районе так объявляют всё важное: There is a gig tonight. There are three chords in this song. There was a riot in 1977. Английское предложение не живёт без подлежащего и глагола, поэтому «на районе есть клуб» — это There is a club, а не «In the hood has a club».",
+    "Одно и неисчисляемое — is: There is a club downtown. There is some trouble. Много — are: There were four lads from Liverpool. Прошлое — was/were: There was a riot in 1977. There were sirens. Вопрос — Is there a backstage? Отрицание — There isn't a backstage. Of course not.",
+    "Главные ошибки — калька «там имеет» (There have a club — нет, нужен be) и путаница is/are: There are a club. Если унести одну мысль: одно или немного — there is; много — there are; было — there was/were. Район запомнит."
+  ],
+  "why": [
+    "Объявить, что есть: There is a gig tonight.",
+    "Спросить: Is there a backstage?",
+    "Отрицать: There isn't a free seat. Of course not.",
+    "Рассказать, что было: There was a riot in 1977."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Is there a gig tonight?", "ru": "Сегодня есть гиг?" },
+      { "en": "There is. In the club downtown.", "ru": "Есть. В клубе в центре." },
+      { "en": "Are there free tickets?", "ru": "Есть свободные билеты?" },
+      { "en": "There aren't. There are always no tickets when we want them.", "ru": "Нет. Билетов никогда нет, когда они нужны." }
+    ],
+    "note": "Всё через there + be. «Билетов никогда нет» — заодно и there aren't."
+  },
+  "russianAngle": [
+    "По-русски «есть» часто опускают: «на районе клуб». В английском оборот обязателен: There is a club.",
+    "«Там есть» — НЕ there have. There is/are. Have — про владение: I have a guitar, но есть клуб на районе — there is.",
+    "Много — are, одно — is: There were four lads, There is one club.",
+    "Было — was/were: There was a riot. There were sirens."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: there + is (одно/неисчисляемое), there + are (много), there + was/were (было).",
+      "Вопрос = вынос be: Is there...? / Are there...? Отрицание = there isn't / there aren't.",
+      "Неисчисляемое — is: music, rain, trouble. Не путай с many.",
+      "Сделай упражнение и сверься. Район смотрит."
+    ],
+    "exercise": {
+      "prompt": "Вставь is / are / was / were. Протокол должен сойтись.",
+      "items": [
+        { "q": "There ___ a gig tonight.", "a": "is — одно: is." },
+        { "q": "There ___ three chords in this song.", "a": "are — три: are." },
+        { "q": "___ there a backstage?", "a": "Is — одно + вопрос: Is there." },
+        { "q": "There ___ a riot in 1977.", "a": "was — прошлое + одно: was." },
+        { "q": "There ___ many sirens last night.", "a": "were — прошлое + много: were." }
+      ]
+    }
+  },
+  "formula": "there + is / are (past: was / were)",
+  "structure": {
+    "positive": "There is a gig. / There are three gigs.",
+    "negative": "There isn't a gig. / There aren't any gigs.",
+    "question": "Is there a gig? / Are there any gigs?"
+  },
+  "markers": ["there", "here", "tonight", "downtown", "in 1977"],
+  "uses": [
+    "Сказать, что есть: There is a gig tonight.",
+    "Спросить: Is there a backstage?",
+    "Отрицать: There isn't a free seat.",
+    "Сказать, что было: There was a riot in 1977."
+  ],
+  "rules": [
+    { "title": "is / are", "text": "Одно и неисчисляемое — is: There is a club, There is some trouble. Много — are: There were four lads." },
+    { "title": "was / were", "text": "Прошедшее: There was a riot, There were sirens." },
+    { "title": "вопрос / отрицание", "text": "Вопрос — выносом be: Is there a backstage? Отрицание — not: There isn't a backstage. There aren't any tickets." }
+  ],
+  "examples": [
+    {
+      "group": "На районе (сейчас)",
+      "items": [
+        { "en": "There is a gig tonight.", "ru": "Сегодня есть гиг. Вход для своих.", "highlight": ["There is"] },
+        { "en": "There are three chords in this song.", "ru": "В этой песне три аккорда. Больше и не надо.", "highlight": ["There are"] }
+      ]
+    },
+    {
+      "group": "Есть и нет",
+      "items": [
+        { "en": "Is there a backstage?", "ru": "Есть ли бэкстейдж?", "highlight": ["Is there"] },
+        { "en": "There isn't a backstage. There never is.", "ru": "Бэкстейджа нет. Его никогда нет.", "highlight": ["isn't"] }
+      ]
+    },
+    {
+      "group": "Было (was/were)",
+      "items": [
+        { "en": "There was a riot in 1977.", "ru": "В 1977 был бунт. Панки постарались.", "highlight": ["There was"] },
+        { "en": "There were four lads from Liverpool.", "ru": "Было четыре парня из Ливерпуля. Изменили всё.", "highlight": ["There were"] }
+      ]
+    },
+    {
+      "group": "Неисчисляемое",
+      "items": [
+        { "en": "There is a lot of music, and not enough seats.", "ru": "Музыки много, а мест мало. Жизнь.", "highlight": ["There is"] },
+        { "en": "There are a lot of people.", "ru": "Народу много. are, потому что people — это много.", "highlight": ["There are"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "There have a club.", "right": "There is a club.", "note": "«Там имеет» не работает. There + be." },
+    { "wrong": "There are a gig.", "right": "There is a gig.", "note": "Один гиг — is." },
+    { "wrong": "There is many tickets.", "right": "There are many tickets.", "note": "Many — are." },
+    { "wrong": "There was many sirens.", "right": "There were many sirens.", "note": "Сирен много — were." },
+    { "wrong": "Is there a ghosts?", "right": "Is there a ghost?", "note": "a — одно, is — одно." }
+  ],
+  "compare": {
+    "title": "Единственное vs Множественное",
+    "leftLabel": "there is",
+    "rightLabel": "there are",
+    "rows": [
+      { "left": "There is a gig.", "right": "There are three gigs." },
+      { "left": "There is some music.", "right": "There are many people." },
+      { "left": "There was a riot.", "right": "There were sirens." }
+    ]
+  },
+  "tips": [
+    "There + be, не there have. Никогда.",
+    "Неисчисляемое — is: There is a lot of music, There is some rain.",
+    "a lot of — хитрый: a lot of people (are), a lot of music (is). Смотри на слово после of.",
+    "Вопрос и отрицание: Is there...? / There isn't. «Бэкстейджа нет» — there isn't a backstage.",
+    "Прошлое — there was / there were. «There was a riot in 1977» — и ты уже рассказчик."
+  ],
+  "related": ["a1-verb-to-be", "a1-present-simple", "a1-present-continuous"],
+  "quiz": [
+    {
+      "q": "There ___ a gig tonight.",
+      "options": ["is", "are", "have", "be"],
+      "answer": 0,
+      "why": "Одно — is."
+    },
+    {
+      "q": "There ___ three chords in this song.",
+      "options": ["is", "are", "was", "have"],
+      "answer": 1,
+      "why": "Три — are."
+    },
+    {
+      "q": "___ there a backstage?",
+      "options": ["Is", "Are", "Do", "Have"],
+      "answer": 0,
+      "why": "Одно + вопрос: Is there."
+    },
+    {
+      "q": "There ___ a riot in 1977.",
+      "options": ["is", "was", "were", "are"],
+      "answer": 1,
+      "why": "Прошлое + одно: was."
+    },
+    {
+      "q": "There ___ many people.",
+      "options": ["is", "are", "was", "have"],
+      "answer": 1,
+      "why": "Many — are."
+    },
+    {
+      "q": "There ___ some music.",
+      "options": ["is", "are", "were", "have"],
+      "answer": 0,
+      "why": "Музыка неисчисляемая — is."
+    }
+  ]
+}

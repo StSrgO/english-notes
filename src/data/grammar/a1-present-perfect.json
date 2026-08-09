@@ -3,98 +3,120 @@
   "title": "Present Perfect",
   "level": "A1",
   "category": "Tenses",
-  "readingTime": 8,
-  "summary": "Настоящее совершённое: действие произошло, но время не названо — важен результат сейчас. Занавес ещё не опустился: всё, что случилось за сценой, уже в результате.",
+  "readingTime": 7,
+  "summary": "Настоящее совершённое: have/has + V3. Действие произошло, но время не названо — важен результат сейчас. Книга ещё не закрыта, дело ещё открыто. Гамлет потерял веселье — и до сих пор мрачен.",
   "idea": [
-    "«I have of late — but wherefore I know not — lost all my mirth» — Гамлет говорит в Present Perfect: have lost. Он потерял веселье недавно, «с некоторых пор», и результат стоит перед нами прямо сейчас: принц мрачен, спектакль идёт. В этом и есть суть времени: действие произошло, но когда именно — не важно, важен результат сейчас. Present Simple — это афиша, Present Continuous — сцена в эту минуту, Past Simple — закрытая глава. Present Perfect — это спектакль, который ещё идёт: сезон открыт, пьеса идёт десятый год, актёр сыграл роль трижды — и всё это уже часть результата.",
-    "Present Perfect обслуживает три ситуации. Первая — опыт: I have played Hamlet three times (сколько раз, когда — не важно). Вторая — результат в настоящем: The actor has lost his voice (и сегодня он не споёт). Третья — действие, которое только что закончилось: The curtain has just risen (занавес только что поднялся). Отсюда главная граница с Past Simple: Past называет когда (last night, in 1599), Perfect — нет. I saw the play last night (Past, дата есть) против I have seen the play (Perfect, дата не важна). Гамлет не называет дату — поэтому have lost. Если бы он сказал «вчера», было бы did lose.",
-    "Самая частая ошибка — путать Perfect с Past Simple. Русское «я видел» покрывает оба: «я видел его вчера» (Past) и «я видел этот спектакль» (Perfect). Английский разводит: назвал когда — Past; не назвал, важен результат — Perfect. И ещё одна ошибка — ставить Perfect с yesterday/last week: I have seen him yesterday — так не говорят. Yesterday — маркер Past Simple. Если унести одну мысль: Present Perfect = «было, но когда — не важно, важен результат сейчас»; have/has + V3; маркеры just, already, yet, ever, never, since, for."
+    "«I have of late — but wherefore I know not — lost all my mirth» — Гамлет произносит это в Present Perfect: have lost. Он потерял веселье недавно, «с некоторых пор», и результат стоит перед нами прямо сейчас: принц мрачен, его друзья обеспокоены, действие ещё длится. Present Perfect — это язык открытых дел, недочитанных книг, незакрытых глав. I have read this book three times. She has travelled the world. We have seen many winters. Всё это уже произошло, но дата не важна — важен опыт, который у нас есть к настоящему моменту. Это не архив, это библиотека.",
+    "Строится Present Perfect из двух частей: have/has + V3 (третья форма глагола). Have — для I/you/we/they, has — для he/she/it. Для правильных глаголов V3 = V-ed: I have worked, she has played. Для неправильных — отдельная форма: go → gone, see → seen, read → read, lose → lost, be → been. I have seen the play. She has lost her key. They have read the book. Отрицание — not после have/has: I haven't read it. She hasn't called. Вопрос — вынос have/has: Have you read it? Has she called? У По ворон отвечает на все вопросы «Nevermore» — никогда больше. I have never heard such a word. А у Толкина Фродо говорит: «I have walked many paths» — я исходил много дорог. Опыт всей жизни на have/has + V3.",
+    "Главное отличие от Past Simple — дата. Если ты назвал когда (yesterday, in 1899) — это Past Simple, закрытая глава. Если не назвал, а важен результат или опыт — Present Perfect, открытое дело. I saw him yesterday (Past, дата есть) против I have seen him (Perfect, дата не важна). И ещё: Perfect нельзя ставить с маркерами Past (yesterday, last week). «I have seen him yesterday» — ошибка. Perfect живёт без дат, он про результат, а не про календарь."
   ],
   "why": [
-    "Рассказать о сценическом опыте: I have played Hamlet three times. I have read War and Peace. — сколько раз, когда — не важно.",
-    "Сообщить о результате сейчас: The actor has lost his voice. The curtain has risen. — и вот итог.",
-    "Сказать, что действие только что закончилось: I have just come off the stage. — только что.",
-    "Спросить об опыте: Have you ever been to the Globe? — бывал ли ты когда-нибудь?"
+    "Рассказать о жизненном опыте: I have read War and Peace. She has been to Paris.",
+    "Сообщить о результате сейчас: I have lost my keys. She has finished the letter.",
+    "Сказать, что только что закончилось: I have just arrived. She has just called.",
+    "Спросить об опыте: Have you ever been to London? Have you ever seen such beauty?"
   ],
   "context": {
     "lines": [
-      { "en": "Jeeves, have you seen the new play?", "ru": "Дживс, ты видел новую пьесу?" },
-      { "en": "I have seen it twice, sir. The actor has died beautifully on both nights.", "ru": "Видел дважды, сэр. Актёр красиво умирал оба вечера." },
-      { "en": "Have you ever laughed at his death scene?", "ru": "А ты когда-нибудь смеялся на его сцене смерти?" },
-      { "en": "I have never laughed, sir. I am a butler.", "ru": "Я никогда не смеялся, сэр. Я дворецкий." }
+      { "en": "Have you read the new novel?", "ru": "Ты читал новый роман?" },
+      { "en": "I have read it twice. It is quite good.", "ru": "Я прочёл его дважды. Весьма неплохо." },
+      { "en": "Have you ever met the author?", "ru": "А ты когда-нибудь встречал автора?" },
+      { "en": "I have met him once. He was quite charming.", "ru": "Встречал однажды. Он был весьма обаятелен." }
     ],
-    "note": "Опыт и результат: видел дважды, никогда не смеялся. Когда — не важно. Поэтому Present Perfect. И да: «я никогда не смеялся» с never — это тоже Perfect."
+    "note": "Все действия — опыт или результат: прочёл дважды, встречал однажды. Когда именно — не важно. Поэтому Present Perfect."
   },
   "russianAngle": [
-    "🇷 Русское «я видел» покрывает и Past, и Perfect. 🇬 Английский разводит: назвал когда → Past (I saw the play last night); не назвал → Perfect (I have seen the play).",
-    "🇷 «Я был в Париже» — одна форма. 🇬🇧 Разные: I have been to Paris (опыт, когда-то) против I was in Paris last year (Past, дата есть).",
-    "🇷🇺 «Я только что вышел со сцены» — настоящее время. 🇬 Present Perfect: I have just come off the stage. Действие закончилось, результат сейчас.",
-    "🇷 Вопрос «Ты бывал в „Глобусе“?» — интонацией. 🇬🇧 Have you ever been to the Globe? — ever = «когда-нибудь»."
+    "В русском «я видел» покрывает и Past, и Perfect. В английском разводят: I saw him yesterday (Past, дата есть) против I have seen him (Perfect, дата не важна).",
+    "«Я был в Париже» — одна форма. В английском разные: I have been to Paris (опыт, когда-то) против I was in Paris last year (Past, дата есть).",
+    "«Я только что пришёл» — настоящее. В английском — Present Perfect: I have just arrived.",
+    "Вопрос «Ты бывал в Лондоне?» — Have you ever been to London? Ever = когда-нибудь."
   ],
   "howToLearn": {
     "steps": [
-      "Пойми идею: Present Perfect = «было, но когда — не важно, важен результат». Занавес ещё не опустился.",
-      "Запомни скелет: have/has + V3 (третья форма глагола). Для правильных V3 = V-ed, для неправильных — учи таблицу.",
-      "Лови маркеры: just, already, yet, ever, never, since, for, recently, lately.",
-      "НЕ ставь Perfect с yesterday, last week, in 2010 — это маркеры Past Simple.",
-      "Сделай упражнение ниже и сверься с ответами. Как писал Воннегут: «So it goes»."
+      "Запомни: have/has + V3 (третья форма). Правильные = V-ed, неправильные — учи таблицу.",
+      "Have для I/you/we/they, has для he/she/it.",
+      "Отрицание — haven't/hasn't + V3: I haven't read. She hasn't called.",
+      "Вопрос — вынос have/has: Have you read? Has she called?",
+      "НЕ ставь Perfect с yesterday/last week — это маркеры Past Simple.",
+      "Сделай упражнение и сверься. Как писал Воннегут: so it goes."
     ],
     "exercise": {
       "prompt": "Попробуй сам — раскрой скобки (Present Perfect или Past Simple):",
       "items": [
-        { "q": "I ___ (play) Hamlet three times.", "a": "have played — опыт, три раза, когда — не важно." },
-        { "q": "She ___ (finish) the rehearsal yesterday.", "a": "finished — yesterday → Past Simple." },
-        { "q": "___ you ever ___ (be) to the Globe?", "a": "Have … been — ever = когда-нибудь → Perfect." },
-        { "q": "The critics ___ (just / arrive).", "a": "have just arrived — just → Perfect." },
-        { "q": "The actor ___ (lose) his voice. He can't sing tonight.", "a": "has lost — результат сейчас: голоса нет." }
+        { "q": "I ___ (read) this book three times.", "a": "have read — опыт, три раза, когда — не важно." },
+        { "q": "She ___ (finish) the report yesterday.", "a": "finished — yesterday → Past Simple." },
+        { "q": "___ you ever ___ (be) to America?", "a": "Have … been — ever = когда-нибудь → Perfect." },
+        { "q": "They ___ (just / arrive).", "a": "have just arrived — just → Perfect." },
+        { "q": "I ___ (lose) my keys. I can't find them now.", "a": "have lost — результат сейчас: ключей нет." }
       ]
     }
   },
   "formula": "have/has + V3",
   "structure": {
-    "positive": "I have played it. / She has played it.",
-    "negative": "I haven't played it. / She hasn't played it.",
-    "question": "Have you played it? / Has she played it?"
+    "positive": "I have read it. / She has read it.",
+    "negative": "I haven't read it. / She hasn't read it.",
+    "question": "Have you read it? / Has she read it?"
   },
-  "markers": ["just", "already", "yet", "ever", "never", "since", "for", "recently", "lately"],
+  "markers": ["just", "already", "yet", "ever", "never", "since", "for", "recently", "lately", "so far"],
   "uses": [
-    "Сценический опыт: I have played Hamlet three times. She has read War and Peace.",
-    "Результат в настоящем: The curtain has risen. (спектакль идёт)",
-    "Действие только что закончилось: I have just come off the stage.",
-    "Длится до сих пор (с since/for): The play has run for ten years."
+    "Жизненный опыт: I have been to Paris. She has read War and Peace.",
+    "Результат в настоящем: I have lost my keys. (и сейчас их нет)",
+    "Действие только что закончилось: I have just finished.",
+    "Действие, которое длится до сих пор (с since/for): I have lived here for five years."
   ],
   "rules": [
-    { "title": "have/has + V3", "text": "have для I/you/we/they, has для he/she/it. V3 — третья форма глагола: для правильных = V-ed (played), для неправильных — учи таблицу (go → gone, see → seen, lose → lost)." },
-    { "title": "Маркеры Perfect", "text": "just (только что), already (уже), yet (ещё, в вопросах и отрицаниях), ever (когда-нибудь), never (никогда), since (с какого-то момента), for (в течение)." },
+    { "title": "have/has + V3", "text": "have для I/you/we/they, has для he/she/it. V3 — третья форма: правильные = V-ed, неправильные — учи таблицу (go → gone, see → seen, lose → lost)." },
+    { "title": "маркеры Perfect", "text": "just (только что), already (уже), yet (ещё, в вопросах и отрицаниях), ever (когда-нибудь), never (никогда), since (с какого-то момента), for (в течение)." },
     { "title": "НЕ с маркерами Past", "text": "yesterday, last week, in 2010, ago — это маркеры Past Simple. I have seen him yesterday — ошибка. Правильно: I saw him yesterday." }
   ],
   "examples": [
     {
-      "group": "Британская полка: опыт и результат",
+      "group": "Литературный опыт",
       "items": [
-        { "en": "I have of late lost all my mirth.", "ru": "Я с некоторых пор потерял всякое веселье. Гамлет — Present Perfect: потерял недавно, а мрачным стоит прямо сейчас.", "highlight": ["have", "lost"] },
-        { "en": "I have always depended on the kindness of strangers.", "ru": "Я всегда полагалась на доброту незнакомцев. Бланш Дюбуа, «Трамвай „Желание“» — Perfect: опыт всей жизни с результатом сейчас.", "highlight": ["have always depended"] }
+        { "en": "I have of late lost all my mirth.", "ru": "Я с некоторых пор потерял всякое веселье. Гамлет — Perfect с результатом сейчас.", "highlight": ["have", "lost"] },
+        { "en": "I have walked many paths.", "ru": "Я исходил много дорог. Толкин: опыт всей жизни.", "highlight": ["have walked"] },
+        { "en": "I have loved and been loved.", "ru": "Я любил и был любим. Опыт, который не закрыть.", "highlight": ["have loved", "been loved"] },
+        { "en": "I have seen things you wouldn't believe.", "ru": "Я видел то, во что ты не поверишь. Бегущий по лезвию, но в литературной традиции.", "highlight": ["have seen"] }
       ]
     },
     {
-      "group": "Американская полка: только что и уже",
+      "group": "Результат сейчас",
       "items": [
-        { "en": "The curtain has just risen.", "ru": "Занавес только что поднялся. Just = только что, спектакль идёт.", "highlight": ["has just risen"] },
-        { "en": "The critics have already left.", "ru": "Критики уже ушли. Already = уже, результат: зал аплодирует без них.", "highlight": ["have already left"] }
+        { "en": "I have lost my keys.", "ru": "Я потерял ключи. И сейчас их нет.", "highlight": ["have lost"] },
+        { "en": "She has finished the letter.", "ru": "Она закончила письмо. Оно готово.", "highlight": ["has finished"] },
+        { "en": "The tea has gone cold.", "ru": "Чай остыл. Результат сейчас.", "highlight": ["has gone"] }
+      ]
+    },
+    {
+      "group": "Только что и уже",
+      "items": [
+        { "en": "I have just arrived.", "ru": "Я только что пришёл. Just = только что.", "highlight": ["have just arrived"] },
+        { "en": "She has already left.", "ru": "Она уже ушла. Already = уже.", "highlight": ["has already left"] },
+        { "en": "Have you finished yet?", "ru": "Ты уже закончил? Yet в вопросах.", "highlight": ["Have", "yet"] }
       ]
     },
     {
       "group": "Опыт (когда-нибудь / никогда)",
       "items": [
-        { "en": "Have you ever been to the Globe?", "ru": "Ты бывал в «Глобусе»? Ever = когда-нибудь.", "highlight": ["Have", "ever been"] },
-        { "en": "I have never seen such a performance.", "ru": "Я никогда не видел такой игры. Never = никогда.", "highlight": ["have never seen"] }
+        { "en": "Have you ever been to New York?", "ru": "Ты бывал в Нью-Йорке? Ever = когда-нибудь.", "highlight": ["Have", "ever been"] },
+        { "en": "I have never seen such beauty.", "ru": "Я никогда не видел такой красоты. Never = никогда.", "highlight": ["have never seen"] },
+        { "en": "She has never lied to me.", "ru": "Она мне никогда не лгала.", "highlight": ["has never lied"] }
       ]
     },
     {
       "group": "Длится до сих пор (since / for)",
       "items": [
-        { "en": "The play has run for ten years.", "ru": "Пьеса идёт десять лет (и до сих пор). For = в течение.", "highlight": ["has run", "for"] },
-        { "en": "He has played Hamlet since 2015.", "ru": "Он играет Гамлета с 2015 года (и до сих пор). Since = с какого-то момента.", "highlight": ["has played", "since"] }
+        { "en": "I have lived here for five years.", "ru": "Я живу здесь пять лет (и до сих пор живу). For = в течение.", "highlight": ["have lived", "for"] },
+        { "en": "She has worked here since 2010.", "ru": "Она работает здесь с 2010 года. Since = с какого-то момента.", "highlight": ["has worked", "since"] },
+        { "en": "We have known each other for a long time.", "ru": "Мы знаем друг друга давно.", "highlight": ["have known", "for"] }
+      ]
+    },
+    {
+      "group": "Вопросы и отрицания",
+      "items": [
+        { "en": "Have you read this book?", "ru": "Ты читал эту книгу?", "highlight": ["Have you read"] },
+        { "en": "She hasn't called yet.", "ru": "Она ещё не позвонила.", "highlight": ["hasn't called"] },
+        { "en": "I haven't seen him since Monday.", "ru": "Я его не видел с понедельника.", "highlight": ["haven't seen"] }
       ]
     }
   ],
@@ -104,66 +126,64 @@
     { "wrong": "She has lose her keys.", "right": "She has lost her keys.", "note": "lose → lost, V3." },
     { "wrong": "I have read this book last week.", "right": "I read this book last week.", "note": "last week — Past Simple." },
     { "wrong": "Have you ever be to London?", "right": "Have you ever been to London?", "note": "be → been, V3." },
-    { "wrong": "I am agree with you.", "right": "I agree with you.", "note": "agree — глагол, не прилагательное. Это из другого урока, но повторяем." }
+    { "wrong": "I have am agree.", "right": "I agree.", "note": "agree — глагол, не Perfect." }
   ],
   "compare": {
     "title": "Present Perfect vs Past Simple",
     "leftLabel": "Present Perfect",
     "rightLabel": "Past Simple",
     "rows": [
-      { "left": "I have seen the play. (когда — не важно)", "right": "I saw the play last night. (дата есть)" },
+      { "left": "I have seen him. (когда — не важно)", "right": "I saw him yesterday. (дата есть)" },
       { "left": "Результат сейчас, время не названо", "right": "Действие в прошлом, время названо" },
-      { "left": "Спектакль ещё идёт: have/has + V3", "right": "Глава закрыта: V2" },
-      { "left": "I have played Hamlet three times. (опыт)", "right": "I played it last season. (дата)" }
+      { "left": "Открытое дело: have/has + V3", "right": "Закрытая глава: V2" },
+      { "left": "I have read War and Peace. (опыт)", "right": "I read it last summer. (дата)" }
     ]
   },
   "tips": [
-    "Ever и never — маркеры опыта: Have you ever been to the Globe? I have never been. Ever = когда-нибудь, never = никогда.",
-    "Just, already, yet — маркеры «только что / уже / ещё»: The curtain has just risen. The critics have already left. Has the play finished yet?",
-    "Since и for — маркеры длительности: The play has run for ten years (в течение). He has played Hamlet since 2015 (с какого-то момента).",
+    "Ever и never — маркеры опыта: Have you ever been to Paris? I have never been.",
+    "Just, already, yet — маркеры «только что / уже / ещё»: I have just arrived. She has already left.",
+    "Since и for — маркеры длительности: I have lived here for five years. She has worked here since 2010.",
     "Been vs gone: I have been to Paris = я бывал там (и вернулся). He has gone to Paris = он уехал туда (и ещё там).",
-    "Present Perfect для недавних новостей: The theatre has announced a new season. Газетный заголовок — это Perfect.",
-    "Не путай have been (опыт) и have gone (ушёл): Where has she gone? She has gone to the shop. She has been to the shop (and is back now).",
-    "В разговорной речи Perfect часто сокращается: I've seen, she's gone, they've left. Сокращения — норма.",
-    "Берега и тут разные: британец «I've just had lunch», американец «I just had lunch» (Past Simple вместо Perfect). Американцы чаще используют Past там, где британцы — Perfect."
+    "Present Perfect для недавних новостей: The president has announced new policies.",
+    "Чем больше фраз на Present Perfect ты увидишь, тем быстрее они станут твоими. Прочитай примеры вслух."
   ],
   "related": ["a1-present-simple", "a1-past-simple", "a1-present-continuous"],
   "quiz": [
     {
-      "q": "I ___ Hamlet three times.",
-      "options": ["played", "have played", "play", "am playing"],
+      "q": "I ___ to Paris three times.",
+      "options": ["was", "have been", "went", "have went"],
       "answer": 1,
-      "why": "Опыт, три раза, когда — не важно → Present Perfect: have played. Три сезона — три раза."
+      "why": "Опыт, три раза → Present Perfect: have been."
     },
     {
-      "q": "She ___ the rehearsal yesterday.",
+      "q": "She ___ the report yesterday.",
       "options": ["has finished", "finished", "have finished", "finishes"],
       "answer": 1,
       "why": "yesterday → Past Simple: finished."
     },
     {
-      "q": "___ you ever ___ to the Globe?",
-      "options": ["Did / go", "Have / been", "Do / go", "Are / going"],
+      "q": "___ you ever ___ this film?",
+      "options": ["Did / see", "Have / seen", "Do / see", "Are / seeing"],
       "answer": 1,
-      "why": "ever → Present Perfect: Have you been."
+      "why": "ever → Present Perfect: Have you seen."
     },
     {
-      "q": "The critics ___ just ___.",
+      "q": "They ___ just ___.",
       "options": ["have / arrived", "has / arrived", "did / arrive", "are / arriving"],
       "answer": 0,
       "why": "just → Present Perfect: have arrived."
     },
     {
-      "q": "The actor ___ his voice. He can't sing tonight.",
-      "options": ["lost", "has lost", "loses", "is losing"],
+      "q": "I ___ my keys. I can't find them.",
+      "options": ["lost", "have lost", "lose", "am losing"],
       "answer": 1,
-      "why": "Результат сейчас (голоса нет) → Present Perfect: has lost."
+      "why": "Результат сейчас → Present Perfect: have lost."
     },
     {
-      "q": "He ___ in this theatre since 2015.",
+      "q": "He ___ here since 2015.",
       "options": ["worked", "has worked", "works", "is working"],
       "answer": 1,
-      "why": "since 2015 → Present Perfect: has worked (и до сих пор играет)."
+      "why": "since 2015 → Present Perfect: has worked."
     }
   ]
 }

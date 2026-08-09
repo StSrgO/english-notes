@@ -1,195 +1,195 @@
 {
-  "slug": "a2-modals-can-must-have-to",
-  "title": "Modals: can / must / have to",
-  "level": "A2",
-  "category": "Modals",
-  "readingTime": 9,
-  "summary": "Модальные глаголы способности, разрешения, обязанности и запрета. После них — голый инфинитив, без to и без -s.",
-  "idea": [
-    "Модальные глаголы — это особый класс «помощников», которые не описывают действие само по себе, а добавляют к нему оттенок: способность, разрешение, обязанность, запрет. can говорит «могу / умею / мне можно», must — «я обязан / это необходимо / нельзя», have to — «мне приходится (по обстоятельствам или правилам)». Главная особенность модальных, которую надо принять сразу: после них глагол стоит в голом инфинитиве — без to и без окончания -s. I can swim (не can to swim), she must go (не musts go). Это резко отличается от обычных глаголов и от have to, который по форме ведёт себя как обычный (has to, don't have to, Do you have to?).",
-    "Вторая ключевая идея — модальные не меняются по лицам и не имеют привычных окончаний: can, must одинаковы для I, he, they. У них нет -s в третьем лице, нет -ing, нет форм прошедшего в обычном смысле (для прошлого must заменяют на had to). И у них свой способ строить вопросы и отрицания — без do/does: Can you swim? You mustn't smoke. Это делает модальные одновременно и простыми (нет окончаний), и коварными (своя механика вопросов).",
-    "Самая большая смысловая ловушка уровня — путаница между mustn't и don't have to, и она стоит отдельного разбора, потому что русский здесь прямо подставляет ногу. mustn't — это ЗАПРЕТ, «нельзя, запрещено»: You mustn't smoke here. А don't have to — это ОТСУТСТВИЕ необходимости, «не обязан, но если хочешь — можно»: You don't have to come (= можешь не приходить, но никто не запрещает). Русское «не надо» покрывает оба смысла, и мозг по привычке лепит mustn't туда, где нужно don't have to, получая запрет вместо «необязательно». Вторая тонкость — must против have to: must чаще про внутреннее чувство долга («я сам считаю, что должен»: I must call mum), а have to — про внешнее правило или обстоятельство («так требуют обстоятельства»: I have to wear a uniform at work). Если унести одну мысль: модальный + голый инфинитив; mustn't = нельзя, don't have to = необязательно — это две разные вещи."
+ "slug": "a2-modals-can-must-have-to",
+ "title": "Modals: can / must / have to",
+ "level": "A2",
+ "category": "Modals",
+ "readingTime": 9,
+ "summary": "Модальные глаголы способности, разрешения, обязанности и запрета. После них — голый инфинитив, без to и без -s.",
+ "idea": [
+  "Модальные глаголы — это особый класс «помощников», которые не описывают действие само по себе, а добавляют к нему оттенок: способность, разрешение, обязанность, запрет. can говорит «могу / умею / мне можно», must — «я обязан / это необходимо / нельзя», have to — «мне приходится (по обстоятельствам или правилам)». Главная особенность модальных, которую надо принять сразу: после них глагол стоит в голом инфинитиве — без to и без окончания -s. I can swim (не can to swim), she must go (не musts go). Это резко отличается от обычных глаголов и от have to, который по форме ведёт себя как обычный (has to, don't have to, Do you have to?).",
+  "Вторая ключевая идея — модальные не меняются по лицам и не имеют привычных окончаний: can, must одинаковы для I, he, they. У них нет -s в третьем лице, нет -ing, нет форм прошедшего в обычном смысле (для прошлого must заменяют на had to). И у них свой способ строить вопросы и отрицания — без do/does: Can you swim? You mustn't smoke. Это делает модальные одновременно и простыми (нет окончаний), и коварными (своя механика вопросов).",
+  "Самая большая смысловая ловушка уровня — путаница между mustn't и don't have to, и она стоит отдельного разбора, потому что русский здесь прямо подставляет ногу. mustn't — это ЗАПРЕТ, «нельзя, запрещено»: You mustn't smoke here. А don't have to — это ОТСУТСТВИЕ необходимости, «не обязан, но если хочешь — можно»: You don't have to come (= можешь не приходить, но никто не запрещает). Русское «не надо» покрывает оба смысла, и мозг по привычке лепит mustn't туда, где нужно don't have to, получая запрет вместо «необязательно». Вторая тонкость — must против have to: must чаще про внутреннее чувство долга («я сам считаю, что должен»: I must call mum), а have to — про внешнее правило или обстоятельство («так требуют обстоятельства»: I have to wear a uniform at work). Если унести одну мысль: модальный + голый инфинитив; mustn't = нельзя, don't have to = необязательно — это две разные вещи."
+ ],
+ "why": [
+  "Говорить о способности и умении: I can swim. She can speak three languages.",
+  "Просить и давать разрешение: Can I sit here? You can use my phone.",
+  "Выражать обязанность и запрет: I must finish this. You mustn't smoke here.",
+  "Говорить о внешней необходимости (правила): I have to wear a uniform. We don't have to pay."
+ ],
+ "context": {
+  "lines": [
+   { "en": "Can I borrow your pen, please?", "ru": "Можно одолжить твою ручку?" },
+   { "en": "Sure, you can. But I need it back in five minutes — I have to finish this report.", "ru": "Конечно, можно. Но верни через пять минут — мне надо доделать отчёт." },
+   { "en": "Right. By the way, you mustn't eat at your desk. It's the rule.", "ru": "Понял. Кстати, за своим столом есть нельзя. Такое правило." },
+   { "en": "Really? I didn't know. Do I have to eat in the kitchen, then?", "ru": "Правда? Не знал. Тогда мне придётся есть на кухне?" },
+   { "en": "You don't have to — the canteen is fine too. But you must keep the desk clean.", "ru": "Необязательно — столовая тоже подойдёт. Но стол должен быть чистым." }
   ],
-  "why": [
-    "Говорить о способности и умении: I can swim. She can speak three languages.",
-    "Просить и давать разрешение: Can I sit here? You can use my phone.",
-    "Выражать обязанность и запрет: I must finish this. You mustn't smoke here.",
-    "Говорить о внешней необходимости (правила): I have to wear a uniform. We don't have to pay."
+  "note": "can = разрешение/способность; must = запрет (mustn't) и внутренняя необходимость; have to = внешнее правило; don't have to = «необязательно». Все четыре оттенка — в одном коротком диалоге."
+ },
+ "russianAngle": [
+  " «Я умею плавать» и «мне можно войти» — разные глаголы по-русски (умею / можно). Оба = can: I can swim. Can I come in? can покрывает и способность, и разрешение.",
+  " «Я должен» — одно выражение. must (внутренний долг: I must call mum) vs have to (внешнее правило: I have to wear a uniform). Чувствуй источник обязанности.",
+  " «Не надо / нельзя» — часто одно «не надо». ДВЕ разные вещи: mustn't = нельзя/запрещено; don't have to = необязательно (но можно). Это главная пропасть уровня.",
+  " «Я должен был встать рано» (прошлое). I had to get up early — у must нет прошедшей формы, её заменяет had to."
+ ],
+ "howToLearn": {
+  "steps": [
+   "Пойми идею: модальный + голый инфинитив (без to, без -s); модальные не меняются по лицам.",
+   "Запомни оттенки: can = могу/умею/можно; must = обязан/нельзя; have to = приходится по правилам.",
+   "Выучи пропасть: mustn't = НЕЛЬЗЯ; don't have to = НЕОБЯЗАТЕЛЬНО.",
+   "Помни: must в прошлом = had to; вопросы/отрицания модальных — без do (кроме have to).",
+   "Сделай упражнение ниже и сверься с ответами."
   ],
-  "context": {
-    "lines": [
-      { "en": "Can I borrow your pen, please?", "ru": "Можно одолжить твою ручку?" },
-      { "en": "Sure, you can. But I need it back in five minutes — I have to finish this report.", "ru": "Конечно, можно. Но верни через пять минут — мне надо доделать отчёт." },
-      { "en": "Right. By the way, you mustn't eat at your desk. It's the rule.", "ru": "Понял. Кстати, за своим столом есть нельзя. Такое правило." },
-      { "en": "Really? I didn't know. Do I have to eat in the kitchen, then?", "ru": "Правда? Не знал. Тогда мне придётся есть на кухне?" },
-      { "en": "You don't have to — the canteen is fine too. But you must keep the desk clean.", "ru": "Необязательно — столовая тоже подойдёт. Но стол должен быть чистым." }
-    ],
-    "note": "can = разрешение/способность; must = запрет (mustn't) и внутренняя необходимость; have to = внешнее правило; don't have to = «необязательно». Все четыре оттенка — в одном коротком диалоге."
+  "exercise": {
+   "prompt": "Попробуй сам — вставь can / can't / must / mustn't / have to / don't have to:",
+   "items": [
+    { "q": "She ___ speak three languages.", "a": "can — способность." },
+    { "q": "You ___ smoke here. It's forbidden.", "a": "mustn't — запрет." },
+    { "q": "You ___ come if you're tired. (необязательно)", "a": "don't have to — отсутствие необходимости." },
+    { "q": "I ___ wear a uniform at work. It's the rule.", "a": "have to — внешнее правило." },
+    { "q": "___ I open the window? (разрешение)", "a": "Can — просьба разрешения." }
+   ]
+  }
+ },
+ "formula": "can / must / have to + V1",
+ "structure": {
+  "positive": "I can help. / She must go. / He has to work.",
+  "negative": "I can't hear. / You mustn't lie. / We don't have to pay.",
+  "question": "Can you come? / Must I stay? / Do they have to leave?"
+ },
+ "markers": ["can", "can't", "must", "mustn't", "have to", "don't have to", "has to"],
+ "uses": [
+  "can — способность и разрешение: I can swim. / You can sit here.",
+  "must — сильная внутренняя обязанность и запрет: I must finish. / You mustn't smoke.",
+  "have to — внешняя обязанность (правила, обстоятельства): I have to wear a uniform."
+ ],
+ "rules": [
+  { "title": "Голый инфинитив", "text": "После can/must — глагол без to и без -s: I can swim (не can to swim), she must go (не musts go). have to — исключение по форме: has to / don't have to / Do you have to?" },
+  { "title": "mustn't ≠ don't have to", "text": "mustn't = ЗАПРЕТ («нельзя»). don't have to = ОТСУТСТВИЕ необходимости («не обязан, но можно»). Главная ловушка уровня." },
+  { "title": "must не имеет прошедшего", "text": "В прошлом обязанность передают через had to: I had to get up early. (must в прошлом не склоняется.)" }
+ ],
+ "examples": [
+  {
+   "group": "Способность и умение (can)",
+   "items": [
+    { "en": "She can speak three languages.", "ru": "Она умеет говорить на трёх языках.", "highlight": ["can speak"] },
+    { "en": "I can't hear you — speak up!", "ru": "Я тебя не слышу — говори громче!", "highlight": ["can't hear"] }
+   ]
   },
-  "russianAngle": [
-    "🇷 «Я умею плавать» и «мне можно войти» — разные глаголы по-русски (умею / можно). 🇬 Оба = can: I can swim. Can I come in? can покрывает и способность, и разрешение.",
-    "🇷🇺 «Я должен» — одно выражение. 🇬🇧 must (внутренний долг: I must call mum) vs have to (внешнее правило: I have to wear a uniform). Чувствуй источник обязанности.",
-    "🇷🇺 «Не надо / нельзя» — часто одно «не надо». 🇬 ДВЕ разные вещи: mustn't = нельзя/запрещено; don't have to = необязательно (но можно). Это главная пропасть уровня.",
-    "🇷🇺 «Я должен был встать рано» (прошлое). 🇬🇧 I had to get up early — у must нет прошедшей формы, её заменяет had to."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Пойми идею: модальный + голый инфинитив (без to, без -s); модальные не меняются по лицам.",
-      "Запомни оттенки: can = могу/умею/можно; must = обязан/нельзя; have to = приходится по правилам.",
-      "Выучи пропасть: mustn't = НЕЛЬЗЯ; don't have to = НЕОБЯЗАТЕЛЬНО.",
-      "Помни: must в прошлом = had to; вопросы/отрицания модальных — без do (кроме have to).",
-      "Сделай упражнение ниже и сверься с ответами."
-    ],
-    "exercise": {
-      "prompt": "Попробуй сам — вставь can / can't / must / mustn't / have to / don't have to:",
-      "items": [
-        { "q": "She ___ speak three languages.", "a": "can — способность." },
-        { "q": "You ___ smoke here. It's forbidden.", "a": "mustn't — запрет." },
-        { "q": "You ___ come if you're tired. (необязательно)", "a": "don't have to — отсутствие необходимости." },
-        { "q": "I ___ wear a uniform at work. It's the rule.", "a": "have to — внешнее правило." },
-        { "q": "___ I open the window? (разрешение)", "a": "Can — просьба разрешения." }
-      ]
-    }
+  {
+   "group": "Разрешение (can)",
+   "items": [
+    { "en": "Can I sit here?", "ru": "Можно здесь сесть?", "highlight": ["Can", "sit"] },
+    { "en": "You can use my phone.", "ru": "Можешь воспользоваться моим телефоном.", "highlight": ["can use"] }
+   ]
   },
-  "formula": "can / must / have to + V1",
-  "structure": {
-    "positive": "I can help. / She must go. / He has to work.",
-    "negative": "I can't hear. / You mustn't lie. / We don't have to pay.",
-    "question": "Can you come? / Must I stay? / Do they have to leave?"
+  {
+   "group": "Обязанность и запрет (must / mustn't)",
+   "items": [
+    { "en": "I must finish this today.", "ru": "Я должен закончить это сегодня.", "highlight": ["must finish"] },
+    { "en": "You mustn't touch this.", "ru": "Это трогать нельзя (запрет).", "highlight": ["mustn't touch"] }
+   ]
   },
-  "markers": ["can", "can't", "must", "mustn't", "have to", "don't have to", "has to"],
-  "uses": [
-    "can — способность и разрешение: I can swim. / You can sit here.",
-    "must — сильная внутренняя обязанность и запрет: I must finish. / You mustn't smoke.",
-    "have to — внешняя обязанность (правила, обстоятельства): I have to wear a uniform."
-  ],
-  "rules": [
-    { "title": "Голый инфинитив", "text": "После can/must — глагол без to и без -s: I can swim (не can to swim), she must go (не musts go). have to — исключение по форме: has to / don't have to / Do you have to?" },
-    { "title": "mustn't ≠ don't have to", "text": "mustn't = ЗАПРЕТ («нельзя»). don't have to = ОТСУТСТВИЕ необходимости («не обязан, но можно»). Главная ловушка уровня." },
-    { "title": "must не имеет прошедшего", "text": "В прошлом обязанность передают через had to: I had to get up early. (must в прошлом не склоняется.)" }
-  ],
-  "examples": [
-    {
-      "group": "Способность и умение (can)",
-      "items": [
-        { "en": "She can speak three languages.", "ru": "Она умеет говорить на трёх языках.", "highlight": ["can speak"] },
-        { "en": "I can't hear you — speak up!", "ru": "Я тебя не слышу — говори громче!", "highlight": ["can't hear"] }
-      ]
-    },
-    {
-      "group": "Разрешение (can)",
-      "items": [
-        { "en": "Can I sit here?", "ru": "Можно здесь сесть?", "highlight": ["Can", "sit"] },
-        { "en": "You can use my phone.", "ru": "Можешь воспользоваться моим телефоном.", "highlight": ["can use"] }
-      ]
-    },
-    {
-      "group": "Обязанность и запрет (must / mustn't)",
-      "items": [
-        { "en": "I must finish this today.", "ru": "Я должен закончить это сегодня.", "highlight": ["must finish"] },
-        { "en": "You mustn't touch this.", "ru": "Это трогать нельзя (запрет).", "highlight": ["mustn't touch"] }
-      ]
-    },
-    {
-      "group": "Внешняя необходимость (have to / don't have to)",
-      "items": [
-        { "en": "I have to get up at 6.", "ru": "Мне приходится вставать в 6 (правило/работа).", "highlight": ["have to get up"] },
-        { "en": "You don't have to come.", "ru": "Тебе не обязательно приходить (но можешь).", "highlight": ["don't have to come"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "I can to drive.", "right": "I can drive.", "note": "После can — без to." },
-    { "wrong": "She musts go.", "right": "She must go.", "note": "must не получает -s." },
-    { "wrong": "You mustn't pay. (= it's free)", "right": "You don't have to pay.", "note": "«Не надо» (нет обязанности) — это don't have to, не запрет." },
-    { "wrong": "I musted get up early.", "right": "I had to get up early.", "note": "Прошлое must = had to." },
-    { "wrong": "Do you can swim?", "right": "Can you swim?", "note": "Вопрос с can — без do, выносом can." }
-  ],
-  "compare": {
-    "title": "mustn't vs don't have to",
-    "leftLabel": "mustn't (запрет)",
-    "rightLabel": "don't have to (не обязан)",
-    "rows": [
-      { "left": "You mustn't smoke here. (нельзя)", "right": "You don't have to smoke. (можешь не курить)" },
-      { "left": "действие запрещено", "right": "действие не требуется, но разрешено" }
-    ]
+  {
+   "group": "Внешняя необходимость (have to / don't have to)",
+   "items": [
+    { "en": "I have to get up at 6.", "ru": "Мне приходится вставать в 6 (правило/работа).", "highlight": ["have to get up"] },
+    { "en": "You don't have to come.", "ru": "Тебе не обязательно приходить (но можешь).", "highlight": ["don't have to come"] }
+   ]
+  }
+ ],
+ "mistakes": [
+  { "wrong": "I can to drive.", "right": "I can drive.", "note": "После can — без to." },
+  { "wrong": "She musts go.", "right": "She must go.", "note": "must не получает -s." },
+  { "wrong": "You mustn't pay. (= it's free)", "right": "You don't have to pay.", "note": "«Не надо» (нет обязанности) — это don't have to, не запрет." },
+  { "wrong": "I musted get up early.", "right": "I had to get up early.", "note": "Прошлое must = had to." },
+  { "wrong": "Do you can swim?", "right": "Can you swim?", "note": "Вопрос с can — без do, выносом can." }
+ ],
+ "compare": {
+  "title": "mustn't vs don't have to",
+  "leftLabel": "mustn't (запрет)",
+  "rightLabel": "don't have to (не обязан)",
+  "rows": [
+   { "left": "You mustn't smoke here. (нельзя)", "right": "You don't have to smoke. (можешь не курить)" },
+   { "left": "действие запрещено", "right": "действие не требуется, но разрешено" }
+  ]
+ },
+ "tips": [
+  "can и can't на слух различаются ударением и длиной: can в потоке речи редуцируется в слабое /kən/ («I kən swim»), а can't — полное и ударное /kɑːnt/ (брит.) или /kænt/ (амер.). Русскоговорящие часто не слышат разницы и путают «могу» с «не могу». Тренируй ухо именно на этой паре — это ключ к пониманию.",
+  "Золотое правило уровня: mustn't = «НЕЛЬЗЯ», don't have to = «НЕ ОБЯЗАН». Переводи на русский дословно, и ловушка исчезнет. «You don't have to pay» = «платить необязательно» (например, бесплатно), а не «платить запрещено».",
+  "must = «я сам так чувствую/решил», have to = «так требуют обстоятельства/правила». I must call mum (сам хочу, долг сердца) vs I have to call the bank (надо по делу, внешнее). Тонкий, но живой нюанс.",
+  "Модальные не любят to и -s. Видишь *can to* или *he musts* — это ошибка на автомате из обычных глаголов. Модальные — свой мир со своими правилами.",
+  "can для разрешения в речи — норма и вежливо достаточно: Can I come in? May I — формальнее и «светлее», но в быту can абсолютно нормально. Не думай, что can «невежливо».",
+  "could — вежливая/мягкая форма can для просьб: Could you help me? звучит мягче, чем Can you help me? Используй could, когда хочешь быть деликатнее.",
+  "have to ведёт себя как обычный глагол: has to (he/she/it), don't have to, Do you have to? — здесь do/does нужны, в отличие от can/must. Это исключение внутри модальной темы, запомни отдельно."
+ ],
+ "related": ["a1-present-simple", "a2-used-to", "a2-future-simple"],
+ "quiz": [
+  {
+    "q": "I ___ speak three languages.",
+    "options": [
+            "can to",
+            "can",
+            "cans",
+            "am can"
+          ],
+    "answer": 1,
+    "why": "После модального — голый инфинитив без to: I can speak. can to — ошибка."
   },
-  "tips": [
-    "can и can't на слух различаются ударением и длиной: can в потоке речи редуцируется в слабое /kən/ («I kən swim»), а can't — полное и ударное /kɑːnt/ (брит.) или /kænt/ (амер.). Русскоговорящие часто не слышат разницы и путают «могу» с «не могу». Тренируй ухо именно на этой паре — это ключ к пониманию.",
-    "Золотое правило уровня: mustn't = «НЕЛЬЗЯ», don't have to = «НЕ ОБЯЗАН». Переводи на русский дословно, и ловушка исчезнет. «You don't have to pay» = «платить необязательно» (например, бесплатно), а не «платить запрещено».",
-    "must = «я сам так чувствую/решил», have to = «так требуют обстоятельства/правила». I must call mum (сам хочу, долг сердца) vs I have to call the bank (надо по делу, внешнее). Тонкий, но живой нюанс.",
-    "Модальные не любят to и -s. Видишь *can to* или *he musts* — это ошибка на автомате из обычных глаголов. Модальные — свой мир со своими правилами.",
-    "can для разрешения в речи — норма и вежливо достаточно: Can I come in? May I — формальнее и «светлее», но в быту can абсолютно нормально. Не думай, что can «невежливо».",
-    "could — вежливая/мягкая форма can для просьб: Could you help me? звучит мягче, чем Can you help me? Используй could, когда хочешь быть деликатнее.",
-    "have to ведёт себя как обычный глагол: has to (he/she/it), don't have to, Do you have to? — здесь do/does нужны, в отличие от can/must. Это исключение внутри модальной темы, запомни отдельно."
-  ],
-  "related": ["a1-present-simple", "a2-used-to", "a2-future-simple"],
-  "quiz": [
-    {
-        "q":  "I ___ speak three languages.",
-        "options":  [
-                        "can to",
-                        "can",
-                        "cans",
-                        "am can"
-                    ],
-        "answer":  1,
-        "why":  "После модального — голый инфинитив без to: I can speak. can to — ошибка."
-    },
-    {
-        "q":  "You ___ smoke here. It\u0027s forbidden.",
-        "options":  [
-                        "don\u0027t have to",
-                        "mustn\u0027t",
-                        "must not to",
-                        "haven\u0027t to"
-                    ],
-        "answer":  1,
-        "why":  "Запрет — mustn\u0027t: You mustn\u0027t smoke. don\u0027t have to = «не обязан» (можно, но не надо), это другой смысл."
-    },
-    {
-        "q":  "She ___ go now — it\u0027s the rule.",
-        "options":  [
-                        "must",
-                        "musts",
-                        "must to",
-                        "is must"
-                    ],
-        "answer":  0,
-        "why":  "must не меняется по лицам и не берёт to: She must go, не She musts."
-    },
-    {
-        "q":  "You ___ pay. It\u0027s free.",
-        "options":  [
-                        "don\u0027t have to",
-                        "mustn\u0027t",
-                        "haven\u0027t",
-                        "can\u0027t to"
-                    ],
-        "answer":  0,
-        "why":  "Отсутствие обязанности («не надо, но можно») — don\u0027t have to. mustn\u0027t было бы запретом, а тут просто бесплатно."
-    },
-    {
-        "q":  "___ you help me, please?",
-        "options":  [
-                        "Can",
-                        "Must",
-                        "Have",
-                        "Do can"
-                    ],
-        "answer":  0,
-        "why":  "Просьба о способности/разрешении — Can you…? Do can не существует."
-    },
-    {
-        "q":  "I ___ to wear a uniform at work.",
-        "options":  [
-                        "must",
-                        "have",
-                        "has",
-                        "can"
-                    ],
-        "answer":  1,
-        "why":  "Внешняя обязанность (правило) — have to: I have to wear. С I форма have, не has."
-    }
+  {
+    "q": "You ___ smoke here. It\u0027s forbidden.",
+    "options": [
+            "don\u0027t have to",
+            "mustn\u0027t",
+            "must not to",
+            "haven\u0027t to"
+          ],
+    "answer": 1,
+    "why": "Запрет — mustn\u0027t: You mustn\u0027t smoke. don\u0027t have to = «не обязан» (можно, но не надо), это другой смысл."
+  },
+  {
+    "q": "She ___ go now — it\u0027s the rule.",
+    "options": [
+            "must",
+            "musts",
+            "must to",
+            "is must"
+          ],
+    "answer": 0,
+    "why": "must не меняется по лицам и не берёт to: She must go, не She musts."
+  },
+  {
+    "q": "You ___ pay. It\u0027s free.",
+    "options": [
+            "don\u0027t have to",
+            "mustn\u0027t",
+            "haven\u0027t",
+            "can\u0027t to"
+          ],
+    "answer": 0,
+    "why": "Отсутствие обязанности («не надо, но можно») — don\u0027t have to. mustn\u0027t было бы запретом, а тут просто бесплатно."
+  },
+  {
+    "q": "___ you help me, please?",
+    "options": [
+            "Can",
+            "Must",
+            "Have",
+            "Do can"
+          ],
+    "answer": 0,
+    "why": "Просьба о способности/разрешении — Can you…? Do can не существует."
+  },
+  {
+    "q": "I ___ to wear a uniform at work.",
+    "options": [
+            "must",
+            "have",
+            "has",
+            "can"
+          ],
+    "answer": 1,
+    "why": "Внешняя обязанность (правило) — have to: I have to wear. С I форма have, не has."
+  }
 ]
 }

@@ -1,194 +1,163 @@
 {
   "slug": "a1-pronouns",
-  "title": "Pronouns (I / me / my / mine)",
+  "title": "Pronouns",
   "level": "A1",
-  "category": "Pronouns",
+  "category": "Grammar",
   "readingTime": 7,
-  "summary": "Местоимения заменяют имена. Три роли: подлежащее (I), объект (me), притяжание (my / mine).",
+  "summary": "Местоимения — действующие лица предложения: I, you, he, she, it, we, they. Те, кто держит сюжет, пока глаголы делают работу.",
   "idea": [
-    "Местоимения — это слова‑заменители имён, и без них английская речь превратилась бы в бесконечное повторение имён собственных. У русского местоимения устроены похоже по смыслу, но английские жёстко различают роль слова в предложении, и именно это сбивает с толку. У каждого лица фактически три формы: подлежащее (кто делает — I, he, she, they), объект (над кем/с кем делают — me, him, her, them) и притяжательная (чей — my, his, her, their). I читает книгу. Ей дали книгу. Это её книга. Три разные формы одного «я/она»: I, her, her.",
-    "Главная идея, которую надо усвоить: форма местоимения зависит от его работы в предложении. Подлежащее стоит перед глаголом и само действует: She loves music. Объект стоит после глагола или предлога, действие направлено на него: Call me. This gift is for him. А притяжательная форма показывает принадлежность, и тут английский делает ещё одно различие, которого нет в русском одним словом: my стоит перед существительным (my car), а mine заменяет существительное целиком (the car is mine). «Моя машина» = my car, но «машина моя» = the car is mine.",
-    "Самая частая ошибка русскоговорящих — калька «Me and Tom went out» вместо «Tom and I went out»: в подлежащем нужна форма I, и по‑английски вежливо ставить себя на второе место. Вторая ловушка — предлоги: после предлога всегда объектная форма, поэтому between you and me (не between you and I), хотя «правильное» звучание так и подмывает сказать I. Если унести одну мысль: форма местоимения следует за его ролью — подлежащее (I), объект (me), притяжание (my / mine)."
+    "«You see, but you do not observe. The distinction is clear» — Холмс объясняет Ватсону разницу между смотреть и наблюдать. You — это «ты» или «вы», одно слово на всех. Местоимения — действующие лица английского предложения: они заменяют имена и дают глаголам кого-то, о ком говорить. I — я, you — ты/вы, he — он, she — она, it — оно (и животные, и предметы), we — мы, they — они.",
+    "В русском «ты» и «вы» — разные слова, в английском you — одно на всех. He и she — только для людей (и иногда для любимых кораблей и животных с именами), it — для всего остального: стола, погоды, времени. We — это мы с кем-то, they — это они, неважно кто. Если унести одну мысль: местоимения — это актёры, которые выходят на сцену вместо длинных имён. Без них предложение было бы «Шерлок Холмс видит, но Шерлок Холмс не наблюдает».",
+    "Главные ошибки — путаница he/she/it (по-русски «стол» — он, по-английски — it), you как «ты» и «вы» одновременно, и they для одного человека (в современном английском they = они И «человек, пол которого неизвестен или не важен»). Если унести вторую мысль: you — это всегда «ты» или «вы», контекст подскажет."
   ],
   "why": [
-    "Говорить о себе и других, не повторяя имён: She reads. Call him.",
-    "Показывать принадлежность: my book, the book is mine.",
-    "Строить предложения с предлогами: with us, for her, between you and me.",
-    "Заменять целые существительные: Mine is red. (= моя [вещь] красная)"
+    "Не повторять имена: Instead of «Mr. Holmes sees», say «He sees».",
+    "Обратиться к собеседнику: You see, but you do not observe.",
+    "Рассказать о группе: We are going to the ball.",
+    "Описать что-то без пола: It is raining. It is late."
   ],
   "context": {
     "lines": [
-      { "en": "Is this your phone?", "ru": "Это твой телефон?" },
-      { "en": "No, mine is black. This one isn't mine.", "ru": "Нет, мой чёрный. Этот не мой." },
-      { "en": "Oh, it's Sarah's. Give it to her, please.", "ru": "О, это Сарин. Отдай ей, пожалуйста." },
-      { "en": "Sure. I'll put it on her desk. She's sitting next to me.", "ru": "Конечно. Положу ей на стол. Она сидит рядом со мной." }
+      { "en": "Do you see the raven, sir?", "ru": "Вы видите ворона, сэр?" },
+      { "en": "I see it. It is black and it is loud.", "ru": "Я его вижу. Он чёрный и он громкий." },
+      { "en": "What does it say?", "ru": "Что он говорит?" },
+      { "en": "It says «Nevermore». It always says that.", "ru": "Он говорит «Nevermore». Он всегда это говорит." }
     ],
-    "note": "Обрати внимание на смену форм: your → mine → her → me. Одна и та же «принадлежность/лицо» выражается разными формами в зависимости от роли в предложении."
+    "note": "I, you, it — все на месте. Ворон — это it (животное без имени, хотя у По он почти персонаж)."
   },
   "russianAngle": [
-    "🇷🇺 «Я и Том пошли» — порядок свободный, форма одна. 🇬🇧 В подлежащем — I, и себя ставят вторым: Tom and I went out (не Me and Tom).",
-    "🇷🇺 «между тобой и мной» — форма не меняется. 🇬🇧 После предлога — объектная форма: between you and me (не between you and I), хотя «красивое» I так и просится.",
-    "🇷🇺 «мой / моя / моё / мои» — одно слово по смыслу. 🇬🇧 my перед словом (my car), mine вместо слова (the car is mine). «Моя [машина]» = mine.",
-    "🇷🇺 «Его книга» и «книга его» — одно. 🇬🇧 his book (перед словом) и the book is his (вместо слова) — у his форма одна, а у my/mine, her/hers, our/ours, their/theirs — разные."
+    "В русском «ты» и «вы» — разные слова. В английском you — одно на всех: You are my friend (ты), You are my friends (вы).",
+    "В русском стол — «он», книга — «она». В английском всё неодушевлённое — it: The table is big. It is brown. The book is good. It is interesting.",
+    "He и she — только для людей (и иногда для кораблей и любимых животных). Для погоды, времени, расстояния — it: It is raining. It is late.",
+    "They — это «они», но в современном английском they может быть и для одного человека, если пол неизвестен или неважен: Someone called. They didn't leave a name."
   ],
   "howToLearn": {
     "steps": [
-      "Пойми идею: форма местоимения зависит от роли — подлежащее (I), объект (me), притяжание (my / mine).",
-      "Выучи таблицу столбцами: I–me–my–mine, you–you–your–yours, he–him–his–his, she–her–her–hers, we–us–our–ours, they–them–their–theirs.",
-      "Запомни: подлежащее — перед глаголом; объект — после глагола/предлога.",
-      "my перед словом, mine вместо слова (так же your/yours, her/hers, our/ours, their/theirs).",
-      "Сделай упражнение ниже и сверься с ответами."
+      "Запомни: I (я), you (ты/вы), he (он), she (она), it (оно), we (мы), they (они).",
+      "He/she — люди, it — всё остальное (кроме кораблей и любимых питомцев).",
+      "You — это и «ты», и «вы». Контекст подскажет.",
+      "Сделай упражнение ниже и сверься с ответами. Как сказал бы Холмс: точность прежде всего."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — вставь нужную форму местоимения:",
+      "prompt": "Попробуй сам — замени выделенное слово на местоимение:",
       "items": [
-        { "q": "___ (я) love this song.", "a": "I — подлежащее." },
-        { "q": "Call ___ (я) later.", "a": "me — объект после глагола." },
-        { "q": "This is ___ (мой) bag, not ___ (твой).", "a": "my … yours — my перед словом, yours вместо слова." },
-        { "q": "The secret is between you and ___ (я).", "a": "me — после предлога объектная форма." },
-        { "q": "Tom and ___ (я) are friends.", "a": "I — подлежащее, себя ставим вторым." }
+        { "q": "Mr. Holmes is here. → ___ is here.", "a": "He — он." },
+        { "q": "The raven is loud. → ___ is loud.", "a": "It — ворон (животное) = it." },
+        { "q": "You and I are friends. → ___ are friends.", "a": "We — мы (я + ты)." },
+        { "q": "The guests are loud. → ___ are loud.", "a": "They — они." },
+        { "q": "Miss Watson is tired. → ___ is tired.", "a": "She — она." }
       ]
     }
   },
-  "formula": "I–me–my–mine · he–him–his–his · she–her–her–hers · we–us–our–ours · they–them–their–theirs",
+  "formula": "I, you, he, she, it, we, they",
   "structure": {
-    "positive": "I like him. / It's her bag. / The bag is hers.",
-    "negative": "—",
-    "question": "—"
+    "positive": "I see it. / She is here. / They are loud.",
+    "negative": "I don't see it. / She isn't here. / They aren't loud.",
+    "question": "Do you see it? / Is she here? / Are they loud?"
   },
-  "markers": ["I/me/my", "he/him/his", "she/her/hers", "we/us/our", "they/them/their"],
+  "markers": [],
   "uses": [
-    "Подлежащее: She reads.",
-    "Объект после глагола и предлога: Call me. / with us.",
-    "Притяжательное прилагательное: my book.",
-    "Притяжательное местоимение: It's mine."
+    "Заменить имя: Mr. Holmes → He.",
+    "Обратиться: You see.",
+    "Описать: It is raining.",
+    "Сказать о группе: We are friends."
   ],
   "rules": [
-    { "title": "Объект после предлога", "text": "После предлога всегда объектная форма: with me, for him, between you and me (не between you and I)." },
-    { "title": "my vs mine", "text": "my стоит перед словом (my car), mine — вместо слова (the car is mine). Так же your/yours, her/hers, our/ours, their/theirs." }
+    { "title": "he / she / it", "text": "He — мужчина, she — женщина, it — всё остальное (стол, книга, погода, время, животные без имени)." },
+    { "title": "you", "text": "You — это и «ты», и «вы». Одно слово на всех. You are my friend (ты). You are my friends (вы)." },
+    { "title": "they (singular)", "text": "They обычно «они», но может быть и для одного человека, если пол неизвестен: Someone called. They didn't leave a name." }
   ],
   "examples": [
     {
-      "group": "Подлежащее и объект",
+      "group": "Британская полка: действующие лица",
       "items": [
-        { "en": "She loves him.", "ru": "Она любит его.", "highlight": ["She", "him"] },
-        { "en": "Give it to us.", "ru": "Дай это нам.", "highlight": ["it", "us"] }
+        { "en": "You see, but you do not observe.", "ru": "Ты видишь, но не наблюдаешь. Холмс объясняет Ватсону — you на обоих.", "highlight": ["You"] },
+        { "en": "Quoth the Raven «Nevermore».", "ru": "Ворон промолвил «Nevermore». По дал ворону голос — но в современном английском ворон = it.", "highlight": ["the Raven"] }
       ]
     },
     {
-      "group": "Притяжание: перед словом vs вместо слова",
+      "group": "Американская полка",
       "items": [
-        { "en": "This is our house.", "ru": "Это наш дом.", "highlight": ["our"] },
-        { "en": "The phone is mine.", "ru": "Телефон мой.", "highlight": ["mine"] }
+        { "en": "I am an old man, but I am not tired.", "ru": "Я старик, но не устал. Хемингуэй: короткие фразы, I на первом месте.", "highlight": ["I"] },
+        { "en": "So it goes.", "ru": "Так бывает. Воннегут повторял это в «Бойне номер пять» — it про всё и сразу.", "highlight": ["it"] }
       ]
     },
     {
-      "group": "После предлога",
+      "group": "he / she / it",
       "items": [
-        { "en": "Come with me.", "ru": "Пойдём со мной.", "highlight": ["with me"] },
-        { "en": "It's between you and me.", "ru": "Это между тобой и мной.", "highlight": ["you and me"] }
+        { "en": "She is not yet fourteen.", "ru": "Ей ещё нет четырнадцати. Джульетта — she, не it.", "highlight": ["She"] },
+        { "en": "It is a truth universally acknowledged.", "ru": "Общеизвестная истина — it. Остин начинает роман с it.", "highlight": ["It"] }
       ]
     },
     {
-      "group": "Подлежащее со «мной» (себя — вторым)",
+      "group": "we / they",
       "items": [
-        { "en": "Tom and I are friends.", "ru": "Мы с Томом друзья.", "highlight": ["Tom and I"] },
-        { "en": "My sister and I live here.", "ru": "Мы с сестрой здесь живём.", "highlight": ["My sister and I"] }
+        { "en": "We are going to the ball.", "ru": "Мы едем на бал. We — я + кто-то ещё.", "highlight": ["We"] },
+        { "en": "They are loud, but they are happy.", "ru": "Они громкие, но счастливые. They — они, неважно кто.", "highlight": ["They"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Me and Tom went out.", "right": "Tom and I went out.", "note": "В подлежащем — I, себя ставят вторым." },
-    { "wrong": "This book is my.", "right": "This book is mine.", "note": "Без слова после — притяжательное местоимение mine." },
-    { "wrong": "between you and I", "right": "between you and me", "note": "После предлога — объектная форма." },
-    { "wrong": "Her and me are friends.", "right": "She and I are friends.", "note": "Подлежащее — She and I." },
-    { "wrong": "This is hers book.", "right": "This is her book.", "note": "Перед словом — her, не hers." }
+    { "wrong": "The book is good. He is interesting.", "right": "The book is good. It is interesting.", "note": "Книга — it, не he. He — только для людей." },
+    { "wrong": "You is my friend.", "right": "You are my friend.", "note": "You всегда с are, даже если это «ты» (один человек)." },
+    { "wrong": "He are tired.", "right": "He is tired.", "note": "He/she/it — is. You/we/they — are." },
+    { "wrong": "Miss Watson is tired. He is tired.", "right": "Miss Watson is tired. She is tired.", "note": "Miss — she, не he." },
+    { "wrong": "The raven is loud. He says «Nevermore».", "right": "The raven is loud. It says «Nevermore».", "note": "Ворон (животное) = it, не he. Хотя у По он почти персонаж." }
   ],
   "compare": {
-    "title": "my / mine, your / yours",
-    "leftLabel": "перед словом",
-    "rightLabel": "вместо слова",
+    "title": "he / she / it",
+    "leftLabel": "he / she (люди)",
+    "rightLabel": "it (всё остальное)",
     "rows": [
-      { "left": "my bag, your car", "right": "the bag is mine, the car is yours" },
-      { "left": "her name, our team", "right": "the name is hers, the team is ours" }
+      { "left": "He is a doctor.", "right": "It is a table." },
+      { "left": "She is tired.", "right": "It is raining." },
+      { "left": "Miss Watson is here.", "right": "The raven is loud." }
     ]
   },
   "tips": [
-    "Учи таблицу столбцами как стишок: I‑me‑my‑mine, you‑you‑your‑yours, he‑him‑his‑his, she‑her‑her‑hers… Через день отскакивает от зубов. Столбец = одно лицо во всех ролях.",
-    "Ловушка на between: всегда between you and ME. Хочется сказать I — остановись, это она и есть. После любого предлога (with, for, to, between, without) — объектная форма.",
-    "«Tom and I» vs «Tom and me». Простой тест: убери «Tom and» — останется I went out (верно) или me went out (неверно). Так проверяешь, какая форма нужна в подлежащем.",
-    "mine / yours / hers / ours / theirs стоят БЕЗ существительного: This phone is mine. А my / your / her / our / their — всегда С существительным: my phone. Не смешивай два ряда.",
-    "it для предметов и животных без имени; he/she — для людей и для питомцев с именем (по полу). «Where's the cat? — It's sleeping», но «Where's Barsik? — He's sleeping».",
-    "«You» не меняется: и «ты», и «вы», и подлежащее, и объект — всегда you. Число и роль понятны из контекста. Это упрощает жизнь — пользуйся.",
-    "«Its» (его/её для предмета) пишется без апострофа, а «it's» = it is. Its color is red (цвет его), но It's red (оно красное). Одна из самых частых ошибок даже у продвинутых."
+    "He/she — люди, it — всё остальное. Корабли и любимые питомцы — исключение (she/he).",
+    "You — это и «ты», и «вы». You are my friend (ты). You are my friends (вы). Контекст подскажет.",
+    "It — для погоды, времени, расстояния: It is raining. It is late. It is far.",
+    "They может быть для одного человека: Someone called. They didn't leave a name. Это современный английский.",
+    "We — это я + кто-то ещё. I and you = we. You and he = you (вы двое). They — они, неважно кто."
   ],
-  "related": ["a1-verb-to-be", "a1-present-simple", "a1-questions"],
+  "related": ["a1-verb-to-be", "a1-there-is-there-are", "a1-present-simple"],
   "quiz": [
     {
-        "q":  "___ and Tom went out.",
-        "options":  [
-                        "Me",
-                        "I",
-                        "My",
-                        "Mine"
-                    ],
-        "answer":  1,
-        "why":  "В роли подлежащего используется I, и по-английски себя ставят вторым: Tom and I, не Me and Tom."
+      "q": "Mr. Holmes is here. → ___ is here.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 0,
+      "why": "Мистер Холмс — он = he."
     },
     {
-        "q":  "This book is ___.",
-        "options":  [
-                        "my",
-                        "me",
-                        "mine",
-                        "I"
-                    ],
-        "answer":  2,
-        "why":  "Когда после нет существительного, используется абсолютная форма mine: This book is mine, не This book is my."
+      "q": "The raven is loud. → ___ is loud.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 2,
+      "why": "Ворон (животное) = it."
     },
     {
-        "q":  "This is ___ book.",
-        "options":  [
-                        "mine",
-                        "my",
-                        "me",
-                        "I"
-                    ],
-        "answer":  1,
-        "why":  "Перед существительным стоит притяжательное my: This is my book."
+      "q": "You and I are friends. → ___ are friends.",
+      "options": ["We", "They", "You", "He"],
+      "answer": 0,
+      "why": "Я + ты = мы = we."
     },
     {
-        "q":  "This is a secret between you and ___.",
-        "options":  [
-                        "I",
-                        "me",
-                        "my",
-                        "mine"
-                    ],
-        "answer":  1,
-        "why":  "После предлога (between) используется объектная форма me: between you and me, не between you and I."
+      "q": "The guests are loud. → ___ are loud.",
+      "options": ["We", "They", "He", "It"],
+      "answer": 1,
+      "why": "Гости (они) = they."
     },
     {
-        "q":  "Give ___ the pen, please.",
-        "options":  [
-                        "I",
-                        "my",
-                        "me",
-                        "mine"
-                    ],
-        "answer":  2,
-        "why":  "В роли объекта (кому?) используется me: Give me the pen."
+      "q": "Miss Watson is tired. → ___ is tired.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 1,
+      "why": "Мисс Уотсон — она = she."
     },
     {
-        "q":  "___ are students.",
-        "options":  [
-                        "Us",
-                        "Our",
-                        "We",
-                        "Ours"
-                    ],
-        "answer":  2,
-        "why":  "В роли подлежащего множественного числа используется We: We are students."
+      "q": "The book is good. → ___ is good.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 2,
+      "why": "Книга = it."
     }
-]
+  ]
 }

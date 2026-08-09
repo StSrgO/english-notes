@@ -1,202 +1,165 @@
 {
   "slug": "a1-verb-to-be",
-  "title": "Verb to be (am / is / are)",
+  "title": "Verb to be",
   "level": "A1",
-  "category": "Verb to be",
-  "readingTime": 7,
-  "summary": "Глагол-связка «быть / являться / находиться» — фундамент английского предложения.",
+  "category": "Grammar",
+  "readingTime": 6,
+  "summary": "Глагол «быть»: am/is/are сейчас, was/were в прошлом. Тот самый глагол из «To be, or not to be» — и из «wherefore art thou Romeo?».",
   "idea": [
-    "Глагол to be — это фундамент английского предложения, его «клей». В английском предложении всегда должен быть глагол — и когда никакого действия нет, на сцену выходит to be в значении «быть, являться, находиться». По‑русски мы легко обходимся без него: «Я студент», «Она дома», «Им холодно» — глагол подразумевается, но не произносится. По‑английски так нельзя: I am a student, She is at home, They are cold.",
-    "Проще всего думать о to be как о знаке равенства между человеком и его описанием: I = a teacher, She = happy, The keys = on the table. Это «есть / является / находится». Отсюда и его особая роль: to be сам себе вспомогательный глагол — вопрос строится простой перестановкой (Are you ready?), а отрицание — частицей not (I'm not), без всяких do/does. Сейчас мы говорим о to be как связке в настоящем времени (am/is/are); позже ты встретишь его в прошлом (was/were), в роли помощника для Continuous (I am working) и для пассива (It is made) — но это другие этажи того же здания.",
-    "Самая частая ошибка русскоговорящих на A1 — пропустить to be (I student, She at home), потому что в русском связка в настоящем нулевая. И ещё одна калька: возраст по‑английски выражается через to be, а не через «иметь»: I am 20, а не I have 20. Если унести одну мысль: нет в предложении другого глагола — ставь to be."
+    "«To be, or not to be — that is the question.» Самый цитируемый глагол мировой литературы — это наш глагол be. В английском он — каркас предложения: без него не сказать ни «я учитель», ни «она устала», ни «мы в Лондоне». Русское «есть» обычно опускается, английское — никогда: I am a teacher, а не «I teacher». В настоящем: am (I), is (he/she/it), are (you/we/they). В прошлом: was/were. Hamlet was a prince — и это уже Past.",
+    "Шекспир же дал литературе самый известный возраст: Джульетте «ещё нет четырнадцати» — She is not yet fourteen. А самая известная претензия к судьбе — вопрос с be: «O Romeo, Romeo! wherefore art thou Romeo?» — «зачем ты есть Ромео?» (art — старинное are для thou). Весь сюжет Вероны держится на глаголе «быть»: кто ты есть и можно ли быть кем-то другим. Вопросы строятся выносом be: Are you ready? Отрицания — через not: He is not here (isn't). А «there is / there are» — это тоже be: «в комнате есть камин» = There is a fireplace.",
+    "Главные ошибки — пропуск be в вопросах («You are ready?» вместо Are you ready?), путаница is/are и возраст через have: по-английски I am 25, а не I have 25. Убери be — и предложение рассыпается, как декорации после спектакля. Если унести одну мысль, пусть будет эта: в английском предложении почти всегда есть глагол, и чаще всего это be."
   ],
   "why": [
-    "Называть, кто ты и кто другие: I'm a doctor. She's my sister.",
-    "Говорить, где кто/что находится: We're at home. The keys are on the table.",
-    "Описывать состояние и качество: I'm tired. It's cold. They're happy.",
-    "Называть возраст: He's 25."
+    "Представиться: I am a butler. He is a doctor. В Англии до сих пор начинают с этого.",
+    "Описать состояние: She is tired. It is cold. The tea is excellent. — три факта, один глагол.",
+    "Сказать, где все: We are in London. He is at the Globe. Juliet is on the balcony.",
+    "Назвать возраст: Juliet is not yet fourteen. I am 25. Возраст в английском — это «есть», а не «иметь»."
   ],
   "context": {
     "lines": [
-      { "en": "Hello, I'm Marco. I'm Italian. I'm a chef.", "ru": "Здравствуйте, я Марко. Я итальянец. Я повар." },
-      { "en": "Nice to meet you! Are you new here?", "ru": "Приятно познакомиться! Вы здесь новенький?" },
-      { "en": "Yes, I am. I'm a bit nervous. Where's the kitchen?", "ru": "Да. Немного волнуюсь. Где кухня?" },
-      { "en": "It's on the second floor. The other chefs are very friendly.", "ru": "На втором этаже. Остальные повара очень дружелюбные." }
+      { "en": "Who are you, sir?", "ru": "Кто вы, сэр?" },
+      { "en": "I am a butler. And you are?", "ru": "Я дворецкий. А вы?" },
+      { "en": "I am an American writer. Where is the host?", "ru": "Я американский писатель. Где хозяин?" },
+      { "en": "He is in the hall. The guests are not ready yet.", "ru": "Он в холле. Гости ещё не готовы." },
+      { "en": "Are they ever ready, Jeeves? — They are not, sir. They are American.", "ru": "А они вообще бывают готовы, Дживс? — Нет, сэр. Они американцы." }
     ],
-    "note": "Здесь нет ни одного действия — только «кто есть кто», «где что» и «какой». Поэтому всюду to be."
+    "note": "Все предложения держатся на be: am, is, are. Убери его — и останутся слова, а не предложения. И «guests are not ready» — это тоже отрицание с be, без всякого do."
   },
   "russianAngle": [
-    "🇷🇺 В русском настоящем связка опускается: «Я врач», «Она красивая», «Они дома». 🇬🇧 В английском to be обязателен: I am a doctor, She is beautiful, They are at home. Пропуск to be — ошибка №1 у русскоговорящих.",
-    "🇷🇺 «Мне 20 лет» (дательный падеж + «лет»). 🇬🇧 По‑английски: I am 20 (years old). Не I have 20!",
-    "🇷🇺 Безличные «Мне холодно / скучно / страшно». 🇬🇧 Через to be + прилагательное: I am cold / bored / scared (не Me is cold).",
-    "🇷🇺 Вопрос интонацией: «Ты дома?» 🇬🇧 Вопрос перестановкой: Are you at home?"
+    "В русском «есть» опускается: «я учитель». В английском be обязателен: I am a teacher. Предложение без be — как сцена без актёров.",
+    "Возраст: по-русски «мне 25», по-английски I am 25. Джульетте «ещё нет четырнадцати» — She is not yet fourteen. Не I have — это калька, и очень упрямая.",
+    "Вопрос — перестановкой: Are you ready? Русское «ты готов?» с интонацией так не работает: в английском be сам выходит вперёд. Даже у Джульетты: wherefore art thou Romeo?",
+    "«Есть» в значении «существует» — это there is / there are: There is a cat in the house. There are two armchairs. Единственное — is, множественное — are."
   ],
   "howToLearn": {
     "steps": [
-      "Пойми идею: to be = «есть / является / находится»; обязателен, когда нет другого глагола.",
-      "Запомни тройку: I → am · he/she/it → is · we/you/they → are.",
-      "Выучи сокращения: I'm, he's, she's, it's, we're, they're · отрицания: I'm not, isn't, aren't.",
-      "Вопрос = вынеси to be вперёд: Are you…? Is she…? (без do).",
-      "Сделай упражнение ниже и сверься с ответами."
+      "Запомни три формы настоящего: am (I), is (he/she/it), are (остальные). И прошлое: was/were.",
+      "Вопрос = вынос be наружу: Are you ready? Отрицание = be + not: isn't, aren't.",
+      "Запомни возраст: I am 25, Juliet is not yet fourteen. «I have 25» — калька.",
+      "Сделай упражнение ниже и сверься с ответами. Как сказал бы Дживс: точность прежде всего, сэр."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — вставь am / is / are (или отрицание):",
+      "prompt": "Попробуй сам — вставь правильную форму be:",
       "items": [
-        { "q": "I ___ a student.", "a": "am — I → am." },
-        { "q": "She ___ (not) at home.", "a": "isn't — she → is, отрицание." },
-        { "q": "___ they happy?", "a": "Are — they → are, вопрос." },
-        { "q": "My parents ___ doctors.", "a": "are — parents = they → are." },
-        { "q": "How old ___ you? — I ___ 30.", "a": "are / am — How old are you? — I am 30." }
+        { "q": "I ___ a teacher.", "a": "am — с I всегда am." },
+        { "q": "Juliet ___ not yet fourteen.", "a": "is — he/she/it получает is. Даже в Вероне." },
+        { "q": "___ you ready?", "a": "Are — вопрос выносит be вперёд: Are you." },
+        { "q": "The guests ___ loud last night.", "a": "were — прошлое, множественное: were." },
+        { "q": "There ___ a fireplace in the room.", "a": "is — there is для единственного числа." }
       ]
     }
   },
-  "formula": "I am · he/she/it is · we/you/they are",
+  "formula": "am / is / are (past: was / were)",
   "structure": {
-    "positive": "I am / She is / They are",
-    "negative": "I'm not / She isn't / They aren't",
-    "question": "Am I…? / Is she…? / Are they…?"
+    "positive": "I am ready. / She is here. / They are here.",
+    "negative": "I am not ready. / She isn't here. / They aren't here.",
+    "question": "Am I ready? / Is she here? / Are they here?"
   },
-  "markers": ["am", "is", "are", "I'm", "he's", "they're"],
+  "markers": ["now", "today", "yesterday", "last night"],
   "uses": [
-    "Имя или роль: I am a student.",
-    "Возраст (не have!): She is 20.",
-    "Место: We are at home.",
-    "Состояние и описание: They are happy."
+    "Кто/что это: I am a butler. It is a great city.",
+    "Состояние: She is tired. The tea is excellent.",
+    "Где: We are in London. Juliet is on the balcony.",
+    "Возраст: I am 25. She is not yet fourteen."
   ],
   "rules": [
-    { "title": "Возраст через be", "text": "По‑английски возраст — это «быть», а не «иметь»: I am 25 (не I have 25). Одна из самых частых кальк с русского." },
-    { "title": "Сокращения и am not", "text": "I'm, you're, he's, she's, it's, we're, they're. В отрицании: I'm not, isn't, aren't. Формы amn't не существует — говори I'm not." }
+    { "title": "am / is / are", "text": "am с I; is с he/she/it; are с you/we/they. Сокращения: I'm, he's, they're. На письме полная форма вежливее, в речи сокращения естественнее." },
+    { "title": "was / were", "text": "Прошедшее: was (I/he/she/it), were (you/we/they). Hamlet was a prince. The guests were loud." },
+    { "title": "there is / there are", "text": "«Имеется»: There is a fireplace (ед. число), There are two armchairs (мн. число). В прошлом: there was / there were." }
   ],
   "examples": [
     {
-      "group": "Кто ты / кто другие",
+      "group": "Британская полка: кто есть кто",
       "items": [
-        { "en": "I'm a teacher.", "ru": "Я учитель.", "highlight": ["'m"] },
-        { "en": "She's my sister.", "ru": "Она моя сестра.", "highlight": ["'s"] }
+        { "en": "I am a butler.", "ru": "Я дворецкий. И этим всё сказано. Дживс одобряет.", "highlight": ["am"] },
+        { "en": "Juliet is not yet fourteen.", "ru": "Джульетте ещё нет четырнадцати. Самый известный возраст в литературе — и это be.", "highlight": ["is"] },
+        { "en": "O Romeo, Romeo! wherefore art thou Romeo?", "ru": "О Ромео, Ромео! Зачем ты Ромео? Джульетта спрашивает про be: art — старинное are для thou.", "highlight": ["art thou"] }
       ]
     },
     {
-      "group": "Где кто/что",
+      "group": "Американская полка: где и что",
       "items": [
-        { "en": "The keys are on the table.", "ru": "Ключи на столе.", "highlight": ["are"] },
-        { "en": "We're at home.", "ru": "Мы дома.", "highlight": ["'re"] }
+        { "en": "We are from New York.", "ru": "Мы из Нью-Йорка. И мы этим гордимся. Чай — не наш конёк.", "highlight": ["are"] },
+        { "en": "It is a great city. The tea is worse.", "ru": "Это великий город. Чай хуже. Оба факта — на is.", "highlight": ["is"] }
       ]
     },
     {
-      "group": "Состояние, качество, возраст",
+      "group": "Прошлое (was/were)",
       "items": [
-        { "en": "I'm tired. It's cold today.", "ru": "Я устал. Сегодня холодно.", "highlight": ["'m tired", "'s cold"] },
-        { "en": "He's 25.", "ru": "Ему 25.", "highlight": ["'s 25"] }
+        { "en": "Hamlet was a prince.", "ru": "Гамлет был принцем. И это факт, а не спойлер.", "highlight": ["was"] },
+        { "en": "The guests were loud. The neighbours were louder.", "ru": "Гости были громкими. Соседи — громче. Оба were.", "highlight": ["were"] }
       ]
     },
     {
-      "group": "Вопрос, короткий ответ, эмфаза",
+      "group": "there is / there are",
       "items": [
-        { "en": "Are you ready? — Yes, I am. / No, I'm not.", "ru": "Ты готов? — Да. / Нет.", "highlight": ["Are", "am", "'m not"] },
-        { "en": "Are you sure? — Yes, I AM!", "ru": "Ты уверен? — Да, правда!", "highlight": ["AM"] }
-      ]
-    },
-    {
-      "group": "Повелительное и живые фразы",
-      "items": [
-        { "en": "Be careful! Don't be silly! Just be yourself.", "ru": "Осторожно! Не дури! Просто будь собой.", "highlight": ["Be", "Don't be", "be"] },
-        { "en": "Who is it? — It's me.", "ru": "Кто там? — Это я.", "highlight": ["is", "'s me"] }
+        { "en": "There is a fireplace in the room.", "ru": "В комнате есть камин. Уютно, как у Диккенса.", "highlight": ["There is"] },
+        { "en": "There are two armchairs: one for me, one for Jeeves.", "ru": "Есть два кресла: одно для меня, одно для Дживса. Дживса, разумеется, удобнее.", "highlight": ["There are"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I student.", "right": "I'm a student.", "note": "Пропуск to be + артикль (калька с русского)." },
-    { "wrong": "She at home.", "right": "She's at home.", "note": "Пропуск to be." },
-    { "wrong": "I have 20 years.", "right": "I'm 20.", "note": "Возраст через be, не have." },
-    { "wrong": "Me is cold. / To me is cold.", "right": "I'm cold.", "note": "Калька с безличного «мне холодно»." },
-    { "wrong": "Yes, I'm. (в конце)", "right": "Yes, I am.", "note": "Сокращение в конце предложения невозможно." },
-    { "wrong": "They is happy.", "right": "They are happy.", "note": "Согласование по лицам: they → are." }
+    { "wrong": "You are ready?", "right": "Are you ready?", "note": "Вопрос выносит be вперёд. Интонация тут не помощник — она помощник в русском." },
+    { "wrong": "I have 25 years.", "right": "I am 25.", "note": "Возраст — через «я есть»: I am 25. «I have» — про имущество, не про годы." },
+    { "wrong": "He is doctor.", "right": "He is a doctor.", "note": "Профессия требует артикля a: he is a doctor. Дживс бы поправил молча." },
+    { "wrong": "I am agree.", "right": "I agree.", "note": "agree — глагол, а не прилагательное. Это мы хоронили уже в трёх уроках." },
+    { "wrong": "Where you are?", "right": "Where are you?", "note": "В вопросе be идёт вперёд: Where are you? Даже Джульетта сперва вынесла art." }
   ],
   "compare": {
-    "title": "be в настоящем и прошлом",
-    "leftLabel": "Present (am/is/are)",
-    "rightLabel": "Past (was/were)",
+    "title": "Present vs Past (be)",
+    "leftLabel": "am / is / are",
+    "rightLabel": "was / were",
     "rows": [
-      { "left": "I am / she is / they are", "right": "I was / she was / they were" },
-      { "left": "сейчас", "right": "вчера / тогда" }
+      { "left": "I am at the Globe now.", "right": "I was at the Globe last night." },
+      { "left": "The guests are loud.", "right": "The guests were loud." },
+      { "left": "There is a play today.", "right": "There was a play yesterday." }
     ]
   },
   "tips": [
-    "Сокращения — норма, а не «лень». I'm a teacher в беглой речи звучит как /aɪm ə ˈtiːtʃə/. Полные am/is/are без сокращения звучат роботом и используются только для эмфазы. Учись сразу с сокращениями — так ты звучишь как человек.",
-    "«There's» лепят к множественному. There's two cats outside — формально «ошибка» (надо there are), но нейтивы говорят так постоянно. Понимай на слух, но на письме и экзамене держи there are.",
-    "«It's me», а не «It is I». Формально верно It is I, но в жизни 100% говорят It's me. «Who's there? — It's me.» Попытка звучать «правильно» сделает тебя неестественным.",
-    "«I'm good» vs «I'm well». На How are you? разговорное I'm good абсолютно нормально; I'm well — скорее про здоровье. Не спорь с теми, кто говорит I'm good — это живая норма.",
-    "«Yes, I AM!» — эмфаза. В коротких ответах и в конце предложения сокращение невозможно, и полная форма даёт ударение: Are you coming? — Yes, I AM! (да, правда!).",
-    "Повелительное с be все забывают: Be careful! Be quiet! Don't be late! Just be yourself. Это команды про состояние, и они повсюду в быту — а студенты их избегают, потому что «не видят действия».",
-    "«I'm 20» без «years old». Нейтивы часто говорят просто I'm 20 / She's 30. Years old добавляют для ясности или говоря о детях. Не лепи years old каждый раз."
+    "Сокращения — норма речи: I'm, he's, she's, we're, they're. Полная форма am/is/are — для эмфазы и письма.",
+    "Возраст — только через be: I am 25, she is not yet fourteen. «I have 25» — калька, которая выдаёт мгновенно.",
+    "It is what it is — идиома с be: «это то, что есть». Целая философия в трёх словах.",
+    "there is/there are — это не «здесь», а «имеется». There is a cat = «кошка имеется». Не путай с here is.",
+    "Старинные формы тоже встречаются в книгах: art thou (ты есть), ye are (вы есть). Шекспир — это тоже грамматика, просто с костюмами."
   ],
-  "related": ["a1-there-is-there-are", "a1-present-simple", "a1-present-continuous", "a1-articles-a-an"],
+  "related": ["a1-present-simple", "a1-present-continuous", "a1-past-simple"],
   "quiz": [
     {
-        "q":  "I ___ a student.",
-        "options":  [
-                        "is",
-                        "am",
-                        "are",
-                        "be"
-                    ],
-        "answer":  1,
-        "why":  "С I используется am: I am a student. Пропускать глагол (I student) нельзя — в английском связка обязательна."
+      "q": "I ___ a teacher.",
+      "options": ["am", "is", "are", "be"],
+      "answer": 0,
+      "why": "С I — всегда am. Первое правило be."
     },
     {
-        "q":  "She ___ at home now.",
-        "options":  [
-                        "am",
-                        "are",
-                        "is",
-                        "be"
-                    ],
-        "answer":  2,
-        "why":  "С she/he/it используется is: She is at home, не She at home."
+      "q": "Juliet ___ not yet fourteen.",
+      "options": ["am", "is", "are", "be"],
+      "answer": 1,
+      "why": "he/she/it получает is. Даже в Вероне."
     },
     {
-        "q":  "They ___ my friends.",
-        "options":  [
-                        "is",
-                        "am",
-                        "are",
-                        "be"
-                    ],
-        "answer":  2,
-        "why":  "С they/we/you используется are: They are my friends."
+      "q": "___ you ready?",
+      "options": ["Am", "Is", "Are", "Be"],
+      "answer": 2,
+      "why": "Вопрос выносит be вперёд: Are you ready?"
     },
     {
-        "q":  "I ___ 20 years old.",
-        "options":  [
-                        "have",
-                        "am",
-                        "is",
-                        "has"
-                    ],
-        "answer":  1,
-        "why":  "Возраст в английском передаётся через be, а не have: I\u0027m 20, не I have 20 (это калька с русского «мне 20»)."
+      "q": "The guests ___ loud last night.",
+      "options": ["was", "were", "are", "is"],
+      "answer": 1,
+      "why": "Прошедшее, множественное: were."
     },
     {
-        "q":  "___ you a doctor?",
-        "options":  [
-                        "Is",
-                        "Am",
-                        "Are",
-                        "Do"
-                    ],
-        "answer":  2,
-        "why":  "Вопрос с you строится через Are: Are you a doctor? (do с be не используется)."
+      "q": "There ___ two armchairs in the room.",
+      "options": ["is", "are", "was", "am"],
+      "answer": 1,
+      "why": "Множественное число → there are."
     },
     {
-        "q":  "He ___ tired.",
-        "options":  [
-                        "aren\u0027t",
-                        "isn\u0027t",
-                        "amn\u0027t",
-                        "don\u0027t"
-                    ],
-        "answer":  1,
-        "why":  "Отрицание с he/she/it — isn\u0027t: He isn\u0027t tired."
+      "q": "I ___ 25 years old.",
+      "options": ["have", "am", "has", "is"],
+      "answer": 1,
+      "why": "Возраст — через be: I am 25."
     }
-]
+  ]
 }

@@ -1,0 +1,164 @@
+{
+  "slug": "a1-pronouns",
+  "variant": "rocknroll",
+  "title": "Pronouns",
+  "level": "A1",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Местоимения — каст группы: I (фронтмен), you (зал), he/she (гитарист/басист), we (группа), they (менеджеры/полиция). Те, кто держит сет.",
+  "idea": [
+    "«You can't always get what you want, but if you try sometime, you just might find you get what you need» — Stones поют про you, и you — это ты, зал, каждый. Местоимения — каст рок-н-ролла: они заменяют имена и дают песне кого-то, о ком петь. I — фронтмен, you — зал, he/she — гитарист и басист, it — гитара или усилитель, we — вся группа, they — менеджеры, полиция, соседи.",
+    "В английском you — одно слово на «ты» и «вы»: You are my friend (ты), You are my friends (вы). He и she — только для людей (и иногда для любимых гитар), it — для всего остального: стола, погоды, времени, гитары без имени. We — это мы (группа), they — они (не важно кто, но не мы). Если унести одну мысль: местоимения — это актёры, которые выходят на сцену вместо длинных имён. Без них песня была бы «Мик Джаггер поёт, но Кит Ричардс не слышит».",
+    "Главные ошибки — путаница he/she/it (по-русски «гитара» — она, по-английски — it), you как «ты» и «вы» одновременно, и they для одного человека (в современном английском they = они И «человек, пол которого неизвестен»). Если унести вторую мысль: you — это всегда «ты» или «вы», контекст подскажет."
+  ],
+  "why": [
+    "Не повторять имена: Instead of «Mick sings», say «He sings».",
+    "Обратиться к залу: You can't always get what you want.",
+    "Рассказать о группе: We are the champions.",
+    "Описать что-то без пола: It is loud. It is late."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Are you ready for the gig?", "ru": "Вы готовы к гига?" },
+      { "en": "We are ready. Is the sound guy here?", "ru": "Мы готовы. Звукорежиссёр тут?" },
+      { "en": "He is here. He is setting up.", "ru": "Он тут. Настраивает." },
+      { "en": "Good. It is late, but we are ready.", "ru": "Хорошо. Поздно, но мы готовы." }
+    ],
+    "note": "You, we, he, it — все на месте. Звукорежиссёр — he, время — it."
+  },
+  "russianAngle": [
+    "В русском «ты» и «вы» — разные слова. В английском you — одно на всех: You are my friend (ты), You are my friends (вы).",
+    "В русском гитара — «она», усилитель — «он». В английском всё неодушевлённое — it: The guitar is loud. It is expensive. The amp is old. It is broken.",
+    "He и she — только для людей (и иногда для любимых гитар). Для погоды, времени, расстояния — it: It is raining. It is late.",
+    "They — это «они», но в современном английском they может быть и для одного человека, если пол неизвестен: Someone called. They didn't leave a name."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: I (я), you (ты/вы), he (он), she (она), it (оно), we (мы), they (они).",
+      "He/she — люди, it — всё остальное (кроме кораблей и любимых гитар).",
+      "You — это и «ты», и «вы». Контекст подскажет.",
+      "Сделай упражнение и сверься. Зал смотрит."
+    ],
+    "exercise": {
+      "prompt": "Замени выделенное слово на местоимение:",
+      "items": [
+        { "q": "Mick is on stage. → ___ is on stage.", "a": "He — он." },
+        { "q": "The guitar is loud. → ___ is loud.", "a": "It — гитара = it." },
+        { "q": "Keith and I are friends. → ___ are friends.", "a": "We — мы (я + он)." },
+        { "q": "The fans are loud. → ___ are loud.", "a": "They — они." },
+        { "q": "Janis is tired. → ___ is tired.", "a": "She — она." }
+      ]
+    }
+  },
+  "formula": "I, you, he, she, it, we, they",
+  "structure": {
+    "positive": "I sing. / She plays. / They listen.",
+    "negative": "I don't sing. / She doesn't play. / They don't listen.",
+    "question": "Do you sing? / Does she play? / Do they listen?"
+  },
+  "markers": [],
+  "uses": [
+    "Заменить имя: Mick → He.",
+    "Обратиться: You can't always get what you want.",
+    "Описать: It is loud.",
+    "Сказать о группе: We are the champions."
+  ],
+  "rules": [
+    { "title": "he / she / it", "text": "He — мужчина, she — женщина, it — всё остальное (стол, гитара, погода, время, животные без имени)." },
+    { "title": "you", "text": "You — это и «ты», и «вы». Одно слово на всех. You are my friend (ты). You are my friends (вы)." },
+    { "title": "they (singular)", "text": "They обычно «они», но может быть и для одного человека, если пол неизвестен: Someone called. They didn't leave a name." }
+  ],
+  "examples": [
+    {
+      "group": "Фронтмен и зал",
+      "items": [
+        { "en": "I am the champion.", "ru": "Я — чемпион. Фредди поёт от первого лица — I.", "highlight": ["I"] },
+        { "en": "You can't always get what you want.", "ru": "Ты не всегда получаешь то, что хочешь. Stones поют про you — про зал.", "highlight": ["You"] }
+      ]
+    },
+    {
+      "group": "Группа и инструменты",
+      "items": [
+        { "en": "We are the champions.", "ru": "Мы — чемпионы. Queen: we — вся группа.", "highlight": ["We"] },
+        { "en": "It is only rock'n'roll, but I like it.", "ru": "Это всего лишь рок-н-ролл, но он мне нравится. Stones: it — рок, I — Мик.", "highlight": ["It", "I"] }
+      ]
+    },
+    {
+      "group": "he / she / it",
+      "items": [
+        { "en": "She is leaving on a jet plane.", "ru": "Она улетает на реактивном самолёте. Питер, Пол и Мэри: she — она.", "highlight": ["She"] },
+        { "en": "It is a beautiful day.", "ru": "Прекрасный день. U2 поют про it — про день.", "highlight": ["It"] }
+      ]
+    },
+    {
+      "group": "they",
+      "items": [
+        { "en": "They are the champions.", "ru": "Они — чемпионы. If we're not singing about ourselves.", "highlight": ["They"] },
+        { "en": "They don't care about us.", "ru": "Им плевать на нас. Майкл Джексон: they — они (власть, система).", "highlight": ["They"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "The guitar is loud. She is expensive.", "right": "The guitar is loud. It is expensive.", "note": "Гитара — it, не she. She — только для людей (и иногда для любимых гитар с именами)." },
+    { "wrong": "You is my friend.", "right": "You are my friend.", "note": "You всегда с are, даже если это «ты» (один человек)." },
+    { "wrong": "He are tired.", "right": "He is tired.", "note": "He/she/it — is. You/we/they — are." },
+    { "wrong": "Janis is tired. He is tired.", "right": "Janis is tired. She is tired.", "note": "Джанис — she, не he." },
+    { "wrong": "The amp is old. He is broken.", "right": "The amp is old. It is broken.", "note": "Усилитель — it, не he." }
+  ],
+  "compare": {
+    "title": "he / she / it",
+    "leftLabel": "he / she (люди)",
+    "rightLabel": "it (всё остальное)",
+    "rows": [
+      { "left": "He is the singer.", "right": "It is the guitar." },
+      { "left": "She is tired.", "right": "It is loud." },
+      { "left": "Janis is here.", "right": "The amp is broken." }
+    ]
+  },
+  "tips": [
+    "He/she — люди, it — всё остальное. Корабли и любимые гитары — исключение (she/he).",
+    "You — это и «ты», и «вы». You are my friend (ты). You are my friends (вы). Контекст подскажет.",
+    "It — для погоды, времени, расстояния: It is raining. It is late. It is far.",
+    "They может быть для одного человека: Someone called. They didn't leave a name. Это современный английский.",
+    "We — это я + кто-то ещё. I and you = we. You and he = you (вы двое). They — они, неважно кто."
+  ],
+  "related": ["a1-verb-to-be", "a1-there-is-there-are", "a1-present-simple"],
+  "quiz": [
+    {
+      "q": "Mick is on stage. → ___ is on stage.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 0,
+      "why": "Мик — он = he."
+    },
+    {
+      "q": "The guitar is loud. → ___ is loud.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 2,
+      "why": "Гитара = it."
+    },
+    {
+      "q": "Keith and I are friends. → ___ are friends.",
+      "options": ["We", "They", "You", "He"],
+      "answer": 0,
+      "why": "Я + он = мы = we."
+    },
+    {
+      "q": "The fans are loud. → ___ are loud.",
+      "options": ["We", "They", "He", "It"],
+      "answer": 1,
+      "why": "Фанаты (они) = they."
+    },
+    {
+      "q": "Janis is tired. → ___ is tired.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 1,
+      "why": "Джанис — она = she."
+    },
+    {
+      "q": "The amp is old. → ___ is old.",
+      "options": ["He", "She", "It", "They"],
+      "answer": 2,
+      "why": "Усилитель = it."
+    }
+  ]
+}
