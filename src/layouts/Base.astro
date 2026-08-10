@@ -13,7 +13,7 @@ const total = topics.length;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23bfe6c6'/%3E%3Cg fill='%23123430'%3E%3Cpath d='M16 3l2.4 4.2h-4.8z'/%3E%3Crect x='13.4' y='7.5' width='5.2' height='2'/%3E%3Crect x='12.6' y='9.8' width='6.8' height='6'/%3E%3Crect x='13' y='16.1' width='6' height='3.2'/%3E%3Crect x='12.3' y='19.6' width='7.4' height='8.8'/%3E%3Crect x='11.2' y='28.6' width='9.6' height='2.2'/%3E%3C/g%3E%3Cg fill='%23bfe6c6'%3E%3Ccircle cx='16' cy='12.8' r='2.1'/%3E%3Crect x='14' y='16.6' width='1' height='2.2'/%3E%3Crect x='15.5' y='16.6' width='1' height='2.2'/%3E%3Crect x='17' y='16.6' width='1' height='2.2'/%3E%3C/g%3E%3C/svg%3E" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23fafbf7'/%3E%3Ctext x='50%25' y='50%25' font-family='Manrope,sans-serif' font-weight='700' font-size='16' fill='%23123430' text-anchor='middle' dy='.35em'%3EEn%3C/text%3E%3Ccircle cx='24' cy='8' r='3' fill='%232f9d6e'/%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&family=Lora:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
@@ -32,6 +32,7 @@ const total = topics.length;
       html.is-rock-preload body.is-rock,
       html.is-rock-preload body:not(.is-rock) { opacity: 1; transition: opacity 0.1s; }
     </style>
+    <script defer src="/_vercel/insights/script.js"></script>
   </head>
   <body data-topics-total={total} data-current-slug={currentSlug}>
         <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -69,8 +70,8 @@ const total = topics.length;
 
     <footer class="site-foot">
       <div class="wrap site-foot__inner">
-        <span><span class="brand__word">English<b>Notes</b></span> — учи, повторяй, не забивай!</span>
-        <span class="muted">MVP · грамматика по уровням CEFR</span>
+        <span><span class="brand__word">English<b>Notes</b></span> — <b>Выбери уровень. Выбери стиль.</b></span>
+        <span class="muted"><b>Directed by St.S.</b></span>
       </div>
     </footer>
 

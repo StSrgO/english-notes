@@ -49,11 +49,9 @@ function highlight(text, tokens) {
   </div>
 </section>
 
-<section id={'russian' + s} class="lv2-sec lv2-sec--mint" data-spybase="russian" {...reveal}>
+<section id={'russian' + s} class="lv2-sec" data-spybase="russian" {...reveal}>
   <h2 class="lv2-h">Взгляд через русский</h2>
-  <ul class="ru-list--v2">
-    {T.russianAngle.map((r) => <li set:html={raHtml(r)}></li>)}
-  </ul>
+  <div class="lv2-prose">{T.russianAngle.map((r) => <p>{r}</p>)}</div>
 </section>
 
 <section id={'learn' + s} class="lv2-sec" data-spybase="learn" {...reveal}>
@@ -102,9 +100,9 @@ function highlight(text, tokens) {
   </ul>
 
   <h3 class="lv2-h3">Примеры по ситуациям</h3>
+<div class="lv2-examples">
   {T.examples.map((g) => (
     <div class="lv2-exgroup">
-      <h4 class="lv2-exgroup__t">{g.group}</h4>
       <div>
         {g.items.map((ex) => (
           <div class="lv2-ex">
@@ -116,7 +114,8 @@ function highlight(text, tokens) {
     </div>
   ))}
 
-  {T.mistakes && T.mistakes.length > 0 && (
+  </div>
+{T.mistakes && T.mistakes.length > 0 && (
     <div>
       <h3 class="lv2-h3">Типичные ошибки</h3>
       <div class="lv2-mistakes">

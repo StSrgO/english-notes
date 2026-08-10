@@ -577,7 +577,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .hero__sub { text-align: justify; text-align-last: justify; }
 .hero__punch { display: flex; justify-content: space-between; align-items: baseline; white-space: normal; gap: 12px; font-size: clamp(14px, 1.5vw, 18px); }
 .hero__punch .sep { margin: 0; }/* punchline single line (update54) */
-.hero__punch { flex-wrap: nowrap; font-size: clamp(13px, 1.4vw, 17px); }
+.hero__punch { flex-wrap: wrap; font-size: clamp(13px, 1.4vw, 17px); }
 .hero__punch > span { white-space: nowrap; }
 /* ============================================================
    lesson v2 (update58) — editorial redesign of the lesson page
@@ -854,3 +854,13 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+/* ============================================================
+   update152 — examples: solid vertical mint line, no group titles
+   ============================================================ */
+.lv2-examples { border-left: 4px solid var(--mint-deep); padding-left: 18px; margin-top: 12px; }
+.lv2-exgroup { margin-top: 0; }
+/* ============================================================
+   update153 — examples: ONLY ONE continuous vertical line
+   ============================================================ */
+.lv2-exgroup, .lv2-exgroup > div, .lv2-ex, .lv2-ex > div { border-left: none !important; }
+.lv2-exgroup { margin-top: 0; }
