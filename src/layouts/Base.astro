@@ -94,6 +94,8 @@ const total = topics.length;
           const on = set.has(slug);
           b.classList.toggle('is-on', on);
           b.setAttribute('aria-pressed', String(on));
+          if (b.dataset.action === 'complete') { b.textContent = on ? 'Изучено ✓' : 'Отметить изученным'; }
+          if (b.dataset.action === 'favorite') { b.textContent = on ? 'В избранном ★' : 'В избранное'; }
         });
       }
 
@@ -109,6 +111,15 @@ const total = topics.length;
         });
       });
       if (cur) paintButtons(cur, state);
+
+      const markCards = (s) => {
+        document.querySelectorAll('.topic-card[href]').forEach((c) => {
+          const sl = (c.getAttribute('href') || '').replace('/grammar/', '');
+          c.classList.toggle('is-done', s.completed.has(sl));
+          c.classList.toggle('is-fav', s.favorites.has(sl));
+        });
+      };
+      markCards(state);
 
       // level navigation: smooth scroll + scroll-spy (catalog only)
       const levelLinks = Array.from(document.querySelectorAll('[data-level-link]'));

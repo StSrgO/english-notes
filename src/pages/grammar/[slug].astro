@@ -24,6 +24,7 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
 <Base title={topic.title + ' — EnglishNotes'} currentSlug={topic.slug}>
   <div class="wrap topic topic--v2">
     <aside class="side side--v3">
+      <a href="/grammar" class="lesson-back" data-back>← назад</a>
       <div class="side3__pager">
         {prevTopic ? (
           <a href={'/grammar/' + prevTopic.slug} class="side3__pg side3__pg--prev">
@@ -114,10 +115,39 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
           )}
         </div>
       )}
-    </article>
+        </article>
+
+    <div class="pager-mobile">
+      {prevTopic ? (
+        <a href={'/grammar/' + prevTopic.slug} class="side3__pg side3__pg--prev">
+          <span class="side3__pg-eye">← предыдущий урок</span>
+          <span class="side3__pg-t">{prevTopic.title}</span>
+        </a>
+      ) : (
+        <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--prev">
+          <span class="side3__pg-eye">← к уровню</span>
+          <span class="side3__pg-t">Все темы {topic.level}</span>
+        </a>
+      )}
+      {nextTopic ? (
+        <a href={'/grammar/' + nextTopic.slug} class="side3__pg side3__pg--next">
+          <span class="side3__pg-eye">следующий урок →</span>
+          <span class="side3__pg-t">{nextTopic.title}</span>
+        </a>
+      ) : (
+        <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--next">
+          <span class="side3__pg-eye">уровень завершён →</span>
+          <span class="side3__pg-t">Все темы {topic.level}</span>
+        </a>
+      )}
+    </div>
   </div>
 
   <script>
+    document.querySelectorAll('[data-back]').forEach((a) => a.addEventListener('click', (e) => {
+      e.preventDefault();
+      if (history.length > 1) { history.back(); } else { location.href = '/grammar'; }
+    }));
     const links = Array.from(document.querySelectorAll('.side3__link'));
     let spyObs = null;
     function initSpy(suffix) {
