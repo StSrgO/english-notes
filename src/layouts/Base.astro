@@ -51,15 +51,19 @@ const total = topics.length;
           <nav class="nav">
             <a href="/">Главная</a>
             <a href="/grammar">Грамматика</a>
-            <a href="/grammar" class="is-soon">Слова · скоро</a>
-            <a href="/grammar" class="is-soon">Прогресс · скоро</a>
+            <a href="/soon">Слова</a>
+            <a href="/soon">Аудирование</a>
+            <a href="/soon">Говорение</a>
+            <a href="/soon">Прогресс</a>
           </nav>
         </details>
         <nav class="nav nav--desktop">
           <a href="/">Главная</a>
           <a href="/grammar">Грамматика</a>
-          <a href="/grammar" class="is-soon">Слова · скоро</a>
-          <a href="/grammar" class="is-soon">Прогресс · скоро</a>
+          <a href="/soon">Слова</a>
+          <a href="/soon">Аудирование</a>
+          <a href="/soon">Говорение</a>
+          <a href="/soon">Прогресс</a>
         </nav>
       </div>
     </header>
@@ -71,7 +75,7 @@ const total = topics.length;
     <footer class="site-foot">
       <div class="wrap site-foot__inner">
         <span><span class="brand__word">English<b>Notes</b></span> — <b>Выбери уровень. Выбери стиль.</b></span>
-        <span class="muted"><b>Directed by St.S.</b></span>
+        <span class="muted"><b>Directed by © St.S.&nbsp;&nbsp;&nbsp;<span id="foot-year"></span></b></span>
       </div>
     </footer>
 
@@ -166,6 +170,8 @@ const total = topics.length;
         entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); } });
       }, { threshold: 0.12 });
       document.querySelectorAll('[data-reveal]').forEach((el) => io.observe(el));
+      var fy = document.getElementById('foot-year');
+      if (fy) { fy.textContent = String(new Date().getFullYear()); }
     </script>
   </body>
 </html>

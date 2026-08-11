@@ -4,7 +4,7 @@ import Icon from '../components/Icon.astro';
 import phrases from '../data/phrases.json';
 import recs from '../data/recommendations.json';
 
-const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const levels = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const sections = [
   { img: 'grammar',    title: 'Грамматика',   href: '/grammar' },
   { img: 'vocabulary', title: 'Словарь',      href: '/grammar' },
@@ -33,15 +33,6 @@ const picks = typeOrder.map((t, i) => {
           <p class="eyebrow">classic · rock-n-roll · grammar · a1–c2</p>
           <h1>Tenses, Mood and<br><span class="hero__invert">Two Fucking Voices</span></h1>
           <p class="hero__sub">Выбери уровень. Выбери настроение. Выбери стиль. Но зачем тебе всё это? Какие могут быть "зачем?": ружья — для понта, английский — для дела. Грамматика разложенная по уровням CEFR — от A1 до C2. Hey ho, let's go!</p>
-          <p class="hero__punch" aria-hidden="true"></p>
-          <div class="levels">
-            {levels.map((l, i) => (
-              <span class="lvl-cell">
-                {i > 0 && <span class="lvl-dot" aria-hidden="true"></span>}
-                <a href={'/grammar#' + l} class="level-link" title={'Уровень ' + l}>{l}</a>
-              </span>
-            ))}
-          </div>
         </div>
 
         <div class="tiles">
@@ -50,6 +41,16 @@ const picks = typeOrder.map((t, i) => {
               <img src={'/sections/' + s.img + '.png'} alt={s.title} class="tile__img" loading="lazy" />
               <span class="tile__go" aria-hidden="true">→</span>
             </a>
+          ))}
+        </div>
+
+        <p class="hero__punch" aria-hidden="true"></p>
+        <div class="levels">
+          {levels.map((l, i) => (
+            <span class="lvl-cell">
+              {i > 0 && <span class="lvl-dot" aria-hidden="true"></span>}
+              <a href={'/grammar#' + l} class="level-link" title={'Уровень ' + l}>{l}</a>
+            </span>
           ))}
         </div>
       </div>
@@ -86,5 +87,7 @@ const picks = typeOrder.map((t, i) => {
         </section>
       </div>
     </div>
+  <div class="hero__tower hero__tower--left" aria-hidden="true"></div>
+  <div class="hero__tower hero__tower--right" aria-hidden="true"></div>
   </section>
 </Base>
