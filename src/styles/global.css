@@ -20,8 +20,7 @@
   --display: 'Onest', system-ui, sans-serif;
   --body: 'Manrope', system-ui, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, monospace;
-  --display-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --display-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --display-serif: 'Lora', Georgia, serif;
   --tower-opacity: 0.16;
   --tower-width: clamp(118px, 13vw, 210px);
   --tower-left: -6px;
@@ -748,7 +747,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 }
 
 .style-toggle__btn {
-  font-family: var(--font-display);
+  font-family: var(--display);
   font-weight: 800;
   font-size: 11px;
   letter-spacing: 0.08em;
@@ -952,3 +951,74 @@ body { overflow-x: clip; }
   .hero__tower { transform: none; }
   .hero__tower--left { display: none; }
 }
+/* ============================================================
+   update169 — зазор башен 35px, sticky-footer, мобильный hero,
+   уровни A0-C2 свайп-лентой (вариант A)
+   ============================================================ */
+.hero__tower--right { transform: translateX(calc(100% + 35px)); }
+.hero__tower--left { transform: translateX(calc(-100% - 35px)); }
+
+body { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; }
+main { flex: 1 0 auto; }
+.site-foot { flex-shrink: 0; }
+
+@media (max-width: 920px) {
+  .hero h1 { align-items: flex-start; }
+  .hero__tower--right { right: 8px; left: auto; transform: none; background: no-repeat center / cover url("/tower.png"); }
+}
+
+@media (max-width: 620px) {
+  .hero .levels { flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: 8px; margin-top: 14px; padding-bottom: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .hero .levels::-webkit-scrollbar { display: none; }
+  .hero .lvl-cell { flex: 0 0 auto; }
+  .hero .level-link { width: auto; font-size: 15px; padding: 10px 18px; white-space: nowrap; }
+}
+/* ============================================================
+   update170 — мобиль: плашка «Two Fucking Voices» к левому краю
+   (align-self ребёнка перебивает align-items родителя из 169)
+   ============================================================ */
+@media (max-width: 920px) {
+  .hero__invert { align-self: flex-start; }
+}
+/* ============================================================
+   update171 — мобильные чипы уровней на главной:
+   рамка --ink, фон --mint-deep, выделение = --mint-ink (цвет плашки)
+   ============================================================ */
+@media (max-width: 620px) {
+  .hero .level-link { background: var(--mint-deep); border: 2px solid var(--ink); color: var(--ink); }
+  .hero .level-link:hover, .hero .level-link:active { background: var(--mint-ink); border-color: var(--mint-ink); color: var(--paper); }
+  .hero .level-link:hover::before, .hero .level-link:active::before { color: var(--paper); }
+}
+/* ============================================================
+   update175 — шрифтовой пасс: Lora — единый сериф заголовков,
+   mono — машинный голос (навигация/лейблы/уровни/свитчер/сайд-меню)
+   ============================================================ */
+.hero h1, .lv2-title, .soon__title, .lv2-prose--drop p:first-child::first-letter { font-weight: 700; }
+
+.block-label { font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+.quote-card__en { font-family: var(--mono); font-weight: 600; font-size: clamp(16px, 1.4vw, 20px); line-height: 1.5; }
+.quote-card__ru { font-family: 'Lora', Georgia, serif; font-weight: 500; }
+.quote-card__by { font-family: var(--mono); font-style: normal; font-size: 12.5px; }
+
+.levels .level-link { font-family: var(--mono); font-weight: 700; }
+
+.nav a { font-family: var(--mono); font-weight: 600; font-size: 14px; letter-spacing: .02em; }
+.nav-toggle summary { font-family: var(--mono); font-weight: 700; }
+
+.style-switch__label { font-family: var(--mono); font-weight: 700; }
+
+.side--v3 .side3__link { font-family: var(--mono); font-weight: 600; font-size: 13.5px; }
+.side--v3 .side3__link.is-active { font-weight: 700; }
+.side3__pg-t { font-family: var(--mono); font-weight: 700; font-size: 14px; }
+.side__next-t { font-family: var(--mono); font-weight: 700; font-size: 14px; }
+
+/* фикс бага 172: клиппинг верхнего края чипа при выделении */
+@media (max-width: 620px) {
+  .hero .levels .level-link:hover, .hero .levels .level-link:active { transform: none; }
+}
+/* ============================================================
+   update176 — фраза дня: шрифты как в подборке дня
+   (en = Onest 800 как .pick__title, ru = Manrope 500 как .pick__meta)
+   ============================================================ */
+.quote-card__en { font-family: var(--display); font-weight: 800; font-size: clamp(18px, 1.5vw, 22px); line-height: 1.32; }
+.quote-card__ru { font-family: var(--body); font-weight: 500; font-size: 15.5px; }

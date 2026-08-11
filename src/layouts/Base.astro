@@ -16,7 +16,7 @@ const total = topics.length;
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23fafbf7'/%3E%3Ctext x='50%25' y='50%25' font-family='Manrope,sans-serif' font-weight='700' font-size='16' fill='%23123430' text-anchor='middle' dy='.35em'%3EEn%3C/text%3E%3Ccircle cx='24' cy='8' r='3' fill='%232f9d6e'/%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&family=Lora:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;600;800;900&family=Manrope:wght@400;500;600;700&family=Lora:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
           <script>
       (function() {
         var STYLE_KEY = 'englishnotes.style.v1';
@@ -115,8 +115,19 @@ const total = topics.length;
       if (levelLinks.length) {
         const blocks = Array.from(document.querySelectorAll('[data-level-block]'));
         const firstBlock = blocks[0];
-        const setActive = (lvl) => {
+        const setActive = (lvl, autoscroll) => {
           levelLinks.forEach((a) => a.classList.toggle('is-active', a.dataset.level === lvl));
+          if (autoscroll) {
+            const act = levelLinks.filter((a) => a.dataset.level === lvl)[0];
+            if (act) {
+              const nav = act.closest('.catalog__nav');
+              if (nav && nav.scrollWidth > nav.clientWidth) {
+                const nr = nav.getBoundingClientRect();
+                const ar = act.getBoundingClientRect();
+                nav.scrollTo({ left: nav.scrollLeft + (ar.left - nr.left) - (nav.clientWidth - ar.width) / 2, behavior: 'smooth' });
+              }
+            }
+          }
         };
         let ignoreSpy = false;
         levelLinks.forEach((a) => {
@@ -143,7 +154,7 @@ const total = topics.length;
           if (ignoreSpy) return;
           entries.forEach((en) => {
             if (en.isIntersecting && en.target.id) {
-              setActive(en.target.id);
+              setActive(en.target.id, true);
               history.replaceState(null, '', '#' + en.target.id);
             }
           });
@@ -156,7 +167,7 @@ const total = topics.length;
           requestAnimationFrame(() => {
             ticking = false;
             if (firstBlock && firstBlock.getBoundingClientRect().top > 200) {
-              setActive('all');
+              setActive('all', true);
               history.replaceState(null, '', location.pathname);
             }
           });
