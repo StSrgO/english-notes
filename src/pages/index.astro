@@ -51,12 +51,19 @@ const picks = typeOrder.map((t, i) => {
 
         <p class="hero__punch" aria-hidden="true"></p>
         <p class="cfr-note" data-reveal>A0–A2 — выживание и база · B1–B2 — уверенность и свобода · C1–C2 — мастерство и виртуоз</p>
-        <div class="levels">
+        <div class="levels levels--text">
           {levels.map((l, i) => (
             <span class="lvl-cell">
               {i > 0 && <span class="lvl-dot" aria-hidden="true"></span>}
               <a href={'/grammar#' + l} class="level-link" title={'Уровень ' + l}>{l}</a>
             </span>
+          ))}
+        </div>
+        <div class="levels levels--img">
+          {levels.map((l) => (
+            <a href={'/grammar#' + l} class="lvl-img" title={'Уровень ' + l} aria-label={'Уровень ' + l}>
+              <img src={'/levels/' + l.toLowerCase() + '.png'} alt={'Уровень ' + l} loading="lazy" />
+            </a>
           ))}
         </div>
       </div>

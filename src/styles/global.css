@@ -1077,3 +1077,57 @@ main { flex: 1 0 auto; }
 .how-step__n { font-family: var(--mono); font-weight: 700; font-size: 13px; color: var(--mint-ink); letter-spacing: .08em; flex: 0 0 auto; }
 .how-step p { margin: 0; font-family: 'Lora', Georgia, serif; font-size: 16.5px; line-height: 1.6; color: var(--ink); }
 .cfr-note { margin: 16px 0 10px; font-family: var(--mono); font-size: 11.5px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); }
+/* ============================================================
+   update184 — уровни-картинки (public/levels); текстовый вариант
+   скрыт, но жив: возврат = .levels--text{display:flex} + .levels--img{display:none}
+   ============================================================ */
+.levels--text { display: none; }
+.levels--img .lvl-img { flex: 0 0 auto; display: block; transition: transform .25s cubic-bezier(.2,.7,.2,1); }
+.levels--img .lvl-img img { display: block; height: clamp(60px, 7vw, 92px); width: auto; border-radius: 12px; filter: drop-shadow(0 8px 16px rgba(18,52,48,.22)); }
+.levels--img .lvl-img:hover { transform: translateY(-4px) rotate(-1.2deg); }
+@media (max-width: 620px) {
+  .levels--img .lvl-img img { height: 60px; }
+}
+/* ============================================================
+   update185 — кнопки уровней v2: full-bleed PNG (без белых полей),
+   размер вписан в прежнюю разметку ряда печатных букв;
+   скругления и плоский вид — через CSS
+   ============================================================ */
+.levels--img .lvl-img img { height: clamp(36px, 3.4vw, 48px); border-radius: 9px; filter: none; }
+.levels--img .lvl-img:hover { transform: translateY(-3px) rotate(-1.2deg); }
+@media (max-width: 620px) {
+  .levels--img .lvl-img img { height: 40px; }
+}
+/* ============================================================
+   update186 — плашки уровней = высота карточки подборки дня,
+   нижний ряд слева и справа читается одной линией
+   ============================================================ */
+.levels--img .lvl-img img { height: 88px; }
+@media (max-width: 620px) {
+  .levels--img .lvl-img img { height: 60px; }
+}
+/* ============================================================
+   update187 — плашки: 7 равных слотов на ширину левой колонки
+   (как прежний ряд), высота = карточка подборки (88px);
+   арт вписан contain поверх мятного фона ячейки (--mint-deep =
+   цвет канваса PNG, стыка нет); ряд не вылезает на правую колонку
+   ============================================================ */
+.levels--img { gap: 10px; }
+.levels--img .lvl-img { flex: 1 1 0; min-width: 0; background: var(--mint-deep); border-radius: 10px; }
+.levels--img .lvl-img img { width: 100%; height: 88px; object-fit: contain; border-radius: 10px; filter: none; }
+@media (max-width: 620px) {
+  .levels--img .lvl-img { flex: 0 0 auto; width: 118px; }
+  .levels--img .lvl-img img { height: 64px; }
+}
+/* ============================================================
+   update188 — REVERT к update185: компактные плашки (высота
+   clamp(36px,3.4vw,48px), ширина по пропорции PNG), ряд
+   space-between как прежний текстовый; эксперименты 186 (высота
+   88px -> раздув ширины) и 187 (равные слоты + contain) сняты
+   ============================================================ */
+.levels--img .lvl-img { flex: 0 0 auto; min-width: 0; background: none; }
+.levels--img .lvl-img img { width: auto; height: clamp(36px, 3.4vw, 48px); object-fit: initial; border-radius: 9px; }
+@media (max-width: 620px) {
+  .levels--img .lvl-img { width: auto; }
+  .levels--img .lvl-img img { height: 40px; }
+}
