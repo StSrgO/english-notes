@@ -1131,3 +1131,31 @@ main { flex: 1 0 auto; }
   .levels--img .lvl-img { width: auto; }
   .levels--img .lvl-img img { height: 40px; }
 }
+/* ============================================================
+   update190 — возврат печатных букв уровней; вместо кругов —
+   стрелки «→» отдельными flex-элементами: при space-between
+   стоят точно по центру промежутка между уровнями;
+   картинки скрыты, но ассеты сохранены в public/levels/
+   ============================================================ */
+.levels--img { display: none; }
+.levels--text { display: flex; }
+.lvl-arrow { font-family: var(--mono); font-weight: 700; font-size: 16px; color: var(--mint-ink); flex: 0 0 auto; }
+@media (max-width: 620px) {
+  .lvl-arrow { font-size: 14px; }
+}
+/* ============================================================
+   update191 — фраза дня: возврат исходных отступов карточки
+   (выравнивание по левому краю иконок из 182 не прижилось)
+   ============================================================ */
+.quote-card { padding: 22px 26px 24px; }
+/* ============================================================
+   update192 — подборка дня: иконки+текст по левому краю текста
+   карточки фразы (26px); выделение уровней на десктопе —
+   заливка --mint-ink с белым текстом, как плашка «Two Fucking Voices»
+   (мобильные чипы уже такие — не трогаем)
+   ============================================================ */
+.pick { padding: 8px 12px 8px 26px; }
+@media (min-width: 621px) {
+  .levels .level-link { padding: 6px 14px; border-radius: 10px; }
+  .levels .level-link:hover { background: var(--mint-ink); color: var(--paper); }
+}

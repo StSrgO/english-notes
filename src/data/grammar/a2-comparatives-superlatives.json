@@ -1,202 +1,470 @@
 {
- "slug": "a2-comparatives-superlatives",
- "title": "Comparatives & superlatives",
- "level": "A2",
- "category": "Adjectives",
- "readingTime": 9,
- "summary": "Сравнение: -er / the -est для коротких прилагательных, more / the most для длинных, плюс равенство as … as и исключения.",
- "idea": [
-  "Степени сравнения — это способ сказать, что один предмет больше, меньше, лучше или хуже другого, либо что он самый-самый в группе. Английский строит это двумя параллельными системами в зависимости от длины прилагательного, и это первое, что надо уложить в голове. Короткие прилагательные (один слог, а также двусложные на -y) получают окончания: tall → taller → the tallest, happy → happier → the happiest. Длинные (два и более слога, кроме -y) берут more и the most: beautiful → more beautiful → the most beautiful. Плюс горстка исключений, которые не подчиняются ни одному правилу и которые просто зубрят: good → better → the best, bad → worse → the worst, far → farther/further → the farthest/furthest.",
-  "К сравнительной степени привязана связка than («чем»): taller than, more expensive than. К превосходной — обязательный артикль the: the tallest, the most popular (без the — ошибка). Есть и третья конструкция, про равенство: as … as («такой же … как»): as tall as, as good as; отрицание — not as … as («не такой … как»). Русскоговорящим здесь мешает то, что русское «более» универсально («более высокий», «более красивый»), а английский жёстко делит по слогам, и мозг по привычке лепит more tall вместо taller. Вторая боль — двойное сравнение: more better, most tallest — так нельзя, better и tallest уже сами по себе сравнительная/превосходная.",
-  "Но есть слой, о котором на A2 почти не говорят, а он делает речь живой: усиление и ослабление сравнения. much / a lot / far делают сравнительную сильнее (much bigger, a lot cheaper, far more interesting), а a bit / a little / slightly — слабее (a bit taller, slightly more expensive). Есть конструкция «the … the …» для взаимной зависимости: the more, the better («чем больше, тем лучше»), the sooner, the better. Есть удвоение сравнительной для нарастания: bigger and bigger, more and more expensive («всё больше и больше»). И тонкость «the + сравнительная из двух»: the taller of the two («более высокий из двоих») — когда сравниваем ровно двоих, в формальном стиле ставят the. Если унести одну мысль: считай слоги вслух — это решает выбор между -er и more; than для сравнения, the для превосходной, as … as для равенства."
- ],
- "why": [
-  "Сравнивать два предмета или человека: taller than, more expensive than, as old as.",
-  "Называть лучший/худший в группе: the tallest, the most interesting, the worst.",
-  "Усиливать и ослаблять сравнение: much bigger, a bit cheaper.",
-  "Строить конструкции «чем … тем …» и «всё больше и больше»: the more the better, bigger and bigger."
- ],
- "context": {
-  "lines": [
-   { "en": "Which flat did you like more?", "ru": "Какая квартира тебе больше понравилась?" },
-   { "en": "The second one. It's bigger and much cheaper than the first.", "ru": "Вторая. Она больше и намного дешевле первой." },
-   { "en": "True, but the first is the closest to the metro.", "ru": "Верно, но первая — ближе всего к метро." },
-   { "en": "Hmm. The second is a bit further, but it's the most comfortable of all.", "ru": "Хм. Вторая чуть дальше, но она самая удобная из всех." },
-   { "en": "Then the second it is. The sooner we decide, the better.", "ru": "Тогда вторая. Чем скорее решим, тем лучше." }
-  ],
-  "note": "bigger / cheaper / closer / further — сравнительная (-er); the most comfortable — превосходная длинного слова; the closest / the most comfortable — с обязательным the; a bit / much — усиление и ослабление; the sooner … the better — конструкция взаимной зависимости."
- },
- "russianAngle": [
-  " Русское «более» универсально: «более высокий», «более красивый». Английский делит по слогам: высокий (короткое) → taller; красивый (длинное) → more beautiful. more tall — ошибка.",
-  " «Самый» = the most / the -est. Не забывай the в превосходной: the best, the most popular. Без the — ошибка.",
-  " «Такой же … как» / «не такой … как». as … as / not as … as: as tall as, not as big as. than — только для неравенства («чем»).",
-  " «Гораздо больше» / «чуть выше». much / a lot / far + сравнительная (much bigger); a bit / a little + сравнительная (a bit taller). Русское «гораздо/чуть» ложится прямо."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: считай слоги — короткие → -er/-est, длинные → more/the most, -y → -ier/-iest.",
-   "Запомни связки: than для сравнения, the для превосходной, as … as для равенства.",
-   "Выучи исключения: good-better-best, bad-worse-worst, far-farther-furthest.",
-   "Освой усиление/ослабление: much/a lot/far и a bit/a little + сравнительная.",
-   "Сделай упражнение ниже и сверься с ответами."
-  ],
-  "exercise": {
-   "prompt": "Попробуй сам — поставь прилагательное в нужную степень:",
-   "items": [
-    { "q": "Moscow is ___ (big) than Kazan.", "a": "bigger — короткое, сравнительная + than." },
-    { "q": "This is ___ (interesting) book I've read.", "a": "the most interesting — длинное, превосходная + the." },
-    { "q": "She is as ___ (old) as me.", "a": "old — равенство as … as, исходная форма." },
-    { "q": "Today is ___ (bad) than yesterday.", "a": "worse — исключение bad → worse." },
-    { "q": "It's ___ (much / expensive) than I thought.", "a": "much more expensive — усиление + длинное сравнительное." }
-   ]
-  }
- },
- "formula": "tall → taller → the tallest · interesting → more interesting → the most interesting",
- "structure": {
-  "positive": "A is bigger than B. / A is the biggest.",
-  "negative": "A isn't as big as B.",
-  "question": "Which is bigger?"
- },
- "markers": ["than", "the … in/of", "as … as", "-er", "more", "the most", "much", "a bit"],
- "uses": [
-  "Сравнение двух: taller than, more expensive than.",
-  "Превосходная степень в группе: the tallest in the class.",
-  "Равенство: as tall as, not as big as."
- ],
- "rules": [
-  { "title": "Считаем слоги", "text": "1 слог → -er/-est (tall→taller→the tallest). 2 слога на -y → -ier/-iest (happy→happier→the happiest). 2+ слога → more/the most (beautiful→more beautiful→the most beautiful)." },
-  { "title": "Исключения-зубрёжка", "text": "good→better→the best; bad→worse→the worst; far→farther/further→the farthest/furthest; much/many→more→the most." },
-  { "title": "Правописание", "text": "Удвоение согласной в коротком слоге: big→bigger; немая -e: nice→nicer; -y→-i: easy→easier." }
- ],
- "examples": [
-  {
-   "group": "Сравнение двух (-er / more … than)",
-   "items": [
-    { "en": "Moscow is bigger than Kazan.", "ru": "Москва больше Казани.", "highlight": ["bigger than"] },
-    { "en": "This car is more expensive than that one.", "ru": "Эта машина дороже той.", "highlight": ["more expensive than"] }
-   ]
-  },
-  {
-   "group": "Превосходная (the -est / the most)",
-   "items": [
-    { "en": "This is the most interesting book.", "ru": "Это самая интересная книга.", "highlight": ["the most interesting"] },
-    { "en": "He's the tallest in the team.", "ru": "Он самый высокий в команде.", "highlight": ["the tallest"] }
-   ]
-  },
-  {
-   "group": "Равенство (as … as)",
-   "items": [
-    { "en": "She is as old as me.", "ru": "Она того же возраста, что и я.", "highlight": ["as old as"] },
-    { "en": "It's not as big as I thought.", "ru": "Это не такое большое, как я думал.", "highlight": ["not as big as"] }
-   ]
-  },
-  {
-   "group": "Усиление и ослабление сравнения",
-   "items": [
-    { "en": "It's much cheaper than before.", "ru": "Это намного дешевле, чем раньше.", "highlight": ["much cheaper"] },
-    { "en": "She's a bit taller than her sister.", "ru": "Она чуть выше сестры.", "highlight": ["a bit taller"] }
-   ]
-  },
-  {
-   "group": "Исключения",
-   "items": [
-    { "en": "Today is worse than yesterday.", "ru": "Сегодня хуже, чем вчера.", "highlight": ["worse than"] },
-    { "en": "That was the best day of my life.", "ru": "Это был лучший день в моей жизни.", "highlight": ["the best"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "more better", "right": "better", "note": "better уже сравнительная — more не нужен (двойное сравнение)." },
-  { "wrong": "the most tall", "right": "the tallest", "note": "tall короткий → -est, не the most." },
-  { "wrong": "as tall than me", "right": "as tall as me", "note": "Равенство — as … as, не than." },
-  { "wrong": "She is most popular girl.", "right": "She is the most popular girl.", "note": "В превосходной the обязателен." },
-  { "wrong": "more cheap", "right": "cheaper", "note": "cheap короткий → -er." }
- ],
- "compare": {
-  "title": "comparative vs superlative",
-  "leftLabel": "сравнение двух (-er / more … than)",
-  "rightLabel": "лучший в группе (the -est / the most)",
-  "rows": [
-   { "left": "Tom is taller than Ben.", "right": "Tom is the tallest in the team." },
-   { "left": "связка than", "right": "артикль the обязателен" }
-  ]
- },
- "tips": [
-  "Сначала считай слоги вслух — это решает 90% выбора между -er и more. Двусложные на -y ведут себя как короткие (happy→happier, easy→easier). Сомневаешься? Произнеси и посчитай хлопки.",
-  "the в превосходной степени не забывай: the best, the most popular, the tallest. Без the — одна из самых частых ошибок. Запомни как «the самый».",
-  "Усиление/ослабление — то, что делает речь живой и о чём молчат на A2: much / a lot / far + сравнительная (much bigger, far more interesting) для «гораздо»; a bit / a little / slightly + сравнительная (a bit taller) для «чуть». Русское «намного/чуть» ложится прямо.",
-  "«the … the …» для взаимной зависимости: the more, the better; the sooner, the better; the older I get, the wiser I feel. Конструкция «чем … тем …» — выучи как шаблон.",
-  "Удвоение сравнительной для нарастания: bigger and bigger, more and more expensive, worse and worse («всё больше/хуже и больше/хуже»). Живой приём для описания тренда.",
-  "«one of the most + мн.ч.»: one of the most interesting books (не book!). После one of — всегда множественное, потому что «один из многих».",
-  "Два слога — серая зона: clever, quiet, simple, narrow могут идти и так, и так (cleverer / more clever). Оба варианта нормальны — не паникуй, если встретил «не свой»."
- ],
- "related": ["a1-present-simple", "a2-articles", "a2-prepositions-in-on-at"],
- "quiz": [
-  {
-    "q": "She is ___ than her sister.",
-    "options": [
-            "taller",
-            "more tall",
-            "tallest",
-            "more taller"
-          ],
-    "answer": 0,
-    "why": "Короткое прилагательное → -er: taller. more tall и more taller — ошибки."
-  },
-  {
-    "q": "This is ___ book I\u0027ve ever read.",
-    "options": [
-            "the goodest",
-            "the most good",
-            "the best",
-            "better"
-          ],
-    "answer": 2,
-    "why": "good — исключение: good → better → the best. goodest/most good не существует."
-  },
-  {
-    "q": "He is ___ as me.",
-    "options": [
-            "as old than",
-            "as old as",
-            "more old as",
-            "older as"
-          ],
-    "answer": 1,
-    "why": "Равенство — as … as: as old as. than сюда не ставится (than — для сравнительной степени)."
-  },
-  {
-    "q": "My car is ___ than yours.",
-    "options": [
-            "expensiver",
-            "more expensive",
-            "most expensive",
-            "the more expensive"
-          ],
-    "answer": 1,
-    "why": "Длинное прилагательное → more: more expensive. expensiver — ошибка."
-  },
-  {
-    "q": "That was ___ day of my life.",
-    "options": [
-            "the worst",
-            "the baddest",
-            "the most bad",
-            "worse"
-          ],
-    "answer": 0,
-    "why": "bad — исключение: bad → worse → the worst. Превосходная степень с the."
-  },
-  {
-    "q": "She runs ___ than before.",
-    "options": [
-            "more fast",
-            "faster",
-            "fastest",
-            "the faster"
-          ],
-    "answer": 1,
-    "why": "fast — короткое → -er: faster. more fast — ошибка."
-  }
-]
+    "slug":  "a2-comparatives-superlatives",
+    "title":  "Comparatives \u0026 Superlatives",
+    "level":  "A2",
+    "category":  "grammar",
+    "readingTime":  "12 min",
+    "summary":  "Сравнение: -er / the -est для коротких прилагательных, more / the most для длинных, плюс равенство as … as и исключения.",
+    "idea":  [
+                 "Comparative — это дуэль. Два претендента выходят на поле: кто быстрее, кто умнее, кто опаснее? Джек Лондон знает: в Клондайке выживает не сильнейший вообще, а тот, кто сильнее соперника рядом. Белый Клык быстрее волков, но Бэк хитрее. Формула проста: короткое прилагательное получает -er (faster, stronger), длинное берёт more (more dangerous, more ambitious). А между ними — than. Than — это граница дуэли: всё, что до него, — первый боец; всё, что после, — второй.",
+                 "Superlative — это пьедестал. Дуэль закончена, и остался один. The fastest. The most ambitious. The worst. Перед ним — the, потому что он единственный в своём роде: the best, the most beautiful, the most terrible. Шарлотта Бронте поставила Джейн Эйр на пьедестал: the most independent woman in Victorian England. Но помни: пьедестал — это всегда сравнение со всеми. Нельзя быть the best из двух. Для двух — дуэль. Для троих и больше — пьедестал.",
+                 "Есть слова, которые не подчиняются правилам. Good не становится gooder — он становится better, а потом the best. Bad превращается в worse и the worst. Стендаль знал это: Жюльен Сорель хотел быть better than все, но его амбиции привели к the worst финалу. А если хочешь усилить удар? Добавь much, far или a lot перед comparative: much faster, far more dangerous, a lot more ambitious. Это как если бы в дуэли один боец пришёл с мечом, а другой — с пушкой."
+             ],
+    "why":  [
+                "Сравнение — основа любого описания: без него ты не сможешь объяснить, почему один ресторан лучше другого.",
+                "Comparative и superlative встречаются в каждом тексте: рецензии, отзывы, новости, разговоры — всё построено на сравнениях.",
+                "Исключения (good/better/best, bad/worse/worst) — самые частые слова в английском. Их нельзя выучить по правилу, только запомнить.",
+                "На экзаменах A2 сравнения — обязательная тема: без них не сдашь Speaking и Writing."
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Which dog is the best leader for the team?",
+                                      "ru":  "Какой пёс — лучший вожак для упряжки?"
+                                  },
+                                  {
+                                      "en":  "Spitz is stronger than Dave, but Buck is faster than both.",
+                                      "ru":  "Шпитц сильнее Дэйва, но Бэк быстрее обоих."
+                                  },
+                                  {
+                                      "en":  "So Buck is the strongest?",
+                                      "ru":  "Значит, Бэк — самый сильный?"
+                                  },
+                                  {
+                                      "en":  "No. He is not the strongest, but he is the smartest. And that is what matters in the Yukon.",
+                                      "ru":  "Нет. Он не самый сильный, но самый умный. А на Юконе это главное."
+                                  }
+                              ],
+                    "note":  "Джек Лондон, «Зов предков». Собачья упряжка в Клондайке — идеальная дуэль: кто сильнее, кто быстрее, кто выживет."
+                },
+    "russianAngle":  [
+                         "В русском мы говорим «быстрее» и «самый быстрый» — и не думаем о длине слова. В английском длина решает всё: fast → faster → the fastest, но beautiful → more beautiful → the most beautiful. Одно слово меняет всю конструкцию.",
+                         "Русский не требует артикля перед «самый». Английский требует the перед superlative: the fastest. Без the фраза рассыпается, как упряжка без вожака.",
+                         "В русском «лучше» и «хуже» — это просто слова. В английском good → better → the best и bad → worse → the worst — три формы, которые нужно запомнить как таблицу умножения. Gooder не существует. Никогда не существовало.",
+                         "Русский использует «чем» для сравнения: «быстрее, чем». Английский использует than: faster than. Than — это граница дуэли. Всё, что до него, — первый боец; всё, что после, — второй."
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Возьми 5 коротких прилагательных (fast, strong, cold, hot, big) и 5 длинных (beautiful, dangerous, intelligent, expensive, comfortable). Запиши comparative и superlative для каждого.",
+                                     "Составь по одному предложению с каждым: дуэль (два объекта) и пьедестал (один из группы).",
+                                     "Выучи три исключения: good–better–best, bad–worse–worst, far–farther–farthest. Напиши по три предложения с каждым.",
+                                     "Открой любую рецензию на книгу или фильм и найди 5 сравнений. Определи: это comparative, superlative или as…as?",
+                                     "Прочитай отрывок из «Зова предков» или «Джейн Эйр» в оригинале и найди все сравнения. Они там на каждой странице."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Переведи, используя comparatives или superlatives:",
+                                        "items":  [
+                                                      {
+                                                          "q":  "Этот роман длиннее, чем тот.",
+                                                          "a":  "This novel is longer than that one."
+                                                      },
+                                                      {
+                                                          "q":  "Она самая независимая героиня в английской литературе.",
+                                                          "a":  "She is the most independent heroine in English literature."
+                                                      },
+                                                      {
+                                                          "q":  "Зима на Клондайке такая же холодная, как в Сибири.",
+                                                          "a":  "The winter in the Klondike is as cold as in Siberia."
+                                                      },
+                                                      {
+                                                          "q":  "Это худший выбор из всех возможных.",
+                                                          "a":  "This is the worst choice of all."
+                                                      },
+                                                      {
+                                                          "q":  "Чем больше ты читаешь, тем лучше пишешь.",
+                                                          "a":  "The more you read, the better you write."
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "formula":  "short adj + -er / the + short adj + -est | more + long adj / the most + long adj | as + adj + as",
+    "structure":  {
+                      "positive":  "The wolf is stronger than the dog. | The wolf is the strongest animal in the pack.",
+                      "negative":  "This path is not safer than the other. | This is not the most dangerous trail.",
+                      "question":  "Is the Yukon colder than Alaska? | Which river is the longest?"
+                  },
+    "markers":  [
+                    "than",
+                    "the + -est",
+                    "the most",
+                    "as … as",
+                    "much / a lot + -er",
+                    "by far the best"
+                ],
+    "uses":  [
+                 "Сравнение двух объектов: faster than, more interesting than",
+                 "Превосходство в группе: the fastest, the most interesting",
+                 "Равенство: as fast as, as interesting as",
+                 "Усиление разницы: much better, a lot more, far more dangerous",
+                 "Рейтинги и рецензии: the best novel, the most compelling character",
+                 "Погода и природа: colder than, the hottest summer"
+             ],
+    "rules":  [
+                  {
+                      "title":  "Короткие прилагательные (1-2 слога): -er / the -est",
+                      "text":  "fast → faster → the fastest; cold → colder → the coldest; happy → happier → the happiest (y → i). Если прилагательное заканчивается на -e, добавляем только -r/-st: large → larger → the largest."
+                  },
+                  {
+                      "title":  "Длинные прилагательные (3+ слога): more / the most",
+                      "text":  "beautiful → more beautiful → the most beautiful; dangerous → more dangerous → the most dangerous. Не говори beautifuller. Это звучит как ошибка, потому что это ошибка."
+                  },
+                  {
+                      "title":  "Равенство: as + adj + as",
+                      "text":  "as strong as a bear, as cold as ice. В отрицании: not as/so … as. He is not as brave as his brother."
+                  },
+                  {
+                      "title":  "Исключения: good, bad, far",
+                      "text":  "good → better → the best; bad → worse → the worst; far → farther/further → the farthest/furthest. Три бунтаря. Запомни их как неправильные глаголы."
+                  },
+                  {
+                      "title":  "Усилители",
+                      "text":  "much / a lot / far + comparative: much better, a lot more interesting, far more dangerous. By far + superlative: by far the best, by far the most talented."
+                  },
+                  {
+                      "title":  "Удвоение согласной",
+                      "text":  "big → bigger → the biggest; hot → hotter → the hottest. Короткое слово с одной гласной + согласной на конце — удваиваем последнюю согласную."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Короткие прилагательные: дуэль -er",
+                         "items":  [
+                                       {
+                                           "en":  "The wolf is wilder than the dog.",
+                                           "ru":  "Волк диче собаки. Джек Лондон знал это ещё до того, как это стало мемом.",
+                                           "highlight":  [
+                                                             "wilder"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The Yukon winter is colder than any Russian frost.",
+                                           "ru":  "Зима на Юконе холоднее любого русского мороза. Харди бы не поверил, но Лондон видел.",
+                                           "highlight":  [
+                                                             "colder"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Rochester is rougher than St. John, but far more honest.",
+                                           "ru":  "Рочестер грубее Сент-Джона, но куда честнее. Шарлотта Бронте не выбирает — она показывает.",
+                                           "highlight":  [
+                                                             "rougher"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The jungle at night is louder than the city.",
+                                           "ru":  "Джунгли ночью громче города. Киплинг слышал это каждым ухом.",
+                                           "highlight":  [
+                                                             "louder"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Длинные прилагательные: дуэль more",
+                         "items":  [
+                                       {
+                                           "en":  "Julien Sorel is more ambitious than any aristocrat in the novel.",
+                                           "ru":  "Жюльен Сорель амбициознее любого аристократа в романе. Стендаль знает: амбиции не знают сословий.",
+                                           "highlight":  [
+                                                             "more ambitious"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Sister Carrie\u0027s city is more dangerous than the countryside she left.",
+                                           "ru":  "Город сестры Керри опаснее деревни, которую она покинула. Драйзер не предупреждает — он констатирует.",
+                                           "highlight":  [
+                                                             "more dangerous"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Jane Eyre is more independent than any Victorian heroine.",
+                                           "ru":  "Джейн Эйр независимее любой викторианской героини. Шарлотта Бронте это знала и гордилась.",
+                                           "highlight":  [
+                                                             "more independent"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The Sea-Wolf is more compelling than any villain London ever created.",
+                                           "ru":  "Морской волк интереснее любого злодея, которого Лондон когда-либо создавал. И это говорит о многом.",
+                                           "highlight":  [
+                                                             "more compelling"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Исключения: good → better → the best",
+                         "items":  [
+                                       {
+                                           "en":  "A good book is better than a hundred bad reviews.",
+                                           "ru":  "Хорошая книга лучше сотни плохих рецензий. Джек Лондон не читал рецензий. Он писал книги.",
+                                           "highlight":  [
+                                                             "better"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The worst storm on the trail is better than the best lie in town.",
+                                           "ru":  "Худший шторм на тропе лучше лучшей лжи в городе. Клондайк честнее цивилизации.",
+                                           "highlight":  [
+                                                             "worst",
+                                                             "better"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Stendhal went further than any novelist before him.",
+                                           "ru":  "Стендаль зашёл дальше любого романиста до него. Психология как скальпель.",
+                                           "highlight":  [
+                                                             "further"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The farthest corner of the jungle has its own law.",
+                                           "ru":  "У самого дальнего угла джунглей свой закон. Киплинг знал: закон не знает расстояний.",
+                                           "highlight":  [
+                                                             "farthest"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Равенство: as…as",
+                         "items":  [
+                                       {
+                                           "en":  "White Fang is as wild as the forest that raised him.",
+                                           "ru":  "Белый Клык так же дик, как лес, который его вырастил. Джек Лондон не сравнивает — он констатирует.",
+                                           "highlight":  [
+                                                             "as wild as"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Jane is as plain as Rochester is dark.",
+                                           "ru":  "Джейн так же проста, как Рочестер мрачен. Шарлотта Бронте играет на контрастах.",
+                                           "highlight":  [
+                                                             "as plain as"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The jungle law is as old as the jungle itself.",
+                                           "ru":  "Закон джунглей так же древен, как сами джунгли. Киплинг не придумал — он записал.",
+                                           "highlight":  [
+                                                             "as old as"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Clyde Griffiths is as weak as his ambition is strong.",
+                                           "ru":  "Клайд Гриффитс так же слаб, как сильны его амбиции. Драйзер показывает трагедию в одном предложении.",
+                                           "highlight":  [
+                                                             "as weak as"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Неравенство: not as…as",
+                         "items":  [
+                                       {
+                                           "en":  "Dave is not as strong as Spitz, but he is more loyal.",
+                                           "ru":  "Дэйв не так силён, как Шпитц, но вернее. «Зов предков» — это не только про силу.",
+                                           "highlight":  [
+                                                             "not as strong as"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "St. John is not as passionate as Rochester.",
+                                           "ru":  "Сент-Джон не так страстен, как Рочестер. Шарлотта Бронте знает: страсть не в словах.",
+                                           "highlight":  [
+                                                             "not as passionate as"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The city is not as free as the wild.",
+                                           "ru":  "Город не так свободен, как дикая природа. Джек Лондон выбрал бы дикую природу. Каждый раз.",
+                                           "highlight":  [
+                                                             "not as free as"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Julien is not as rich as the aristocrats, but he is more dangerous.",
+                                           "ru":  "Жюльен не так богат, как аристократы, но опаснее. Стендаль знает: бедность с амбициями — взрывчатка.",
+                                           "highlight":  [
+                                                             "not as rich as"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Усиление: much / far / a lot",
+                         "items":  [
+                                       {
+                                           "en":  "The Sea-Wolf is much more dangerous than any storm.",
+                                           "ru":  "Морской волк куда опаснее любого шторма. Лондон знает: человек страшнее природы.",
+                                           "highlight":  [
+                                                             "much more dangerous"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Tess\u0027s fate is by far the saddest in English literature.",
+                                           "ru":  "Судьба Тэсс — безусловно самая печальная в английской литературе. Харди не жалеет читателя.",
+                                           "highlight":  [
+                                                             "by far the saddest"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Julien Sorel is a lot more ambitious than his father ever was.",
+                                           "ru":  "Жюльен Сорель куда амбициознее своего отца. Стендаль показывает: амбиции не наследуются — они взрываются.",
+                                           "highlight":  [
+                                                             "a lot more ambitious"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The jungle is far wilder than any garden could ever be.",
+                                           "ru":  "Джунгли куда диче любого сада. Киплинг знает: сад — это иллюзия контроля.",
+                                           "highlight":  [
+                                                             "far wilder"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "more fast",
+                         "right":  "faster",
+                         "note":  "Короткое слово — короткий суффикс. More fast звучит как будто ты забыл правило на середине фразы."
+                     },
+                     {
+                         "wrong":  "the most strong",
+                         "right":  "the strongest",
+                         "note":  "Strong — один слог. The most strong — это как надеть смокинг на волка. Не надо."
+                     },
+                     {
+                         "wrong":  "more better",
+                         "right":  "better",
+                         "note":  "Better уже comparative. More better — двойное сравнение, как двойной капюшон. Лишнее."
+                     },
+                     {
+                         "wrong":  "as stronger as",
+                         "right":  "as strong as",
+                         "note":  "В конструкции as…as прилагательное стоит в обычной форме. Без -er, без more. Просто as strong as."
+                     },
+                     {
+                         "wrong":  "the most best",
+                         "right":  "the best",
+                         "note":  "Best уже superlative. The most best — пьедестал на пьедестале. Бессмыслица."
+                     },
+                     {
+                         "wrong":  "gooder / goodest",
+                         "right":  "better / the best",
+                         "note":  "Good — бунтарь. У него свои формы. Gooder не существует. Никогда не существовало."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Comparative vs Superlative",
+                    "leftLabel":  "Comparative (дуэль)",
+                    "rightLabel":  "Superlative (пьедестал)",
+                    "rows":  [
+                                 {
+                                     "left":  "fast → faster",
+                                     "right":  "fast → the fastest"
+                                 },
+                                 {
+                                     "left":  "more dangerous",
+                                     "right":  "the most dangerous"
+                                 },
+                                 {
+                                     "left":  "better / worse",
+                                     "right":  "the best / the worst"
+                                 },
+                                 {
+                                     "left":  "Два объекта: A is …er than B",
+                                     "right":  "Один из группы: A is the …est of all"
+                                 },
+                                 {
+                                     "left":  "than",
+                                     "right":  "the + -est / the most"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "Один слог — суффикс. Три слога — more. Два слога? Смотри на окончание: -y → -ier (happy → happier), -er/-le/-ow → -er (clever → cleverer). Остальные — more.",
+                 "The перед superlative — НЕ опционально. The fastest, the most dangerous. Без the пьедестал пуст.",
+                 "Запомни три исключения как три формы глагола: good–better–best, bad–worse–worst, far–farther–farthest. Напиши их 10 раз. Работает.",
+                 "As…as — это мир. Никаких -er, никаких more. As cold as ice, as brave as a lion. Просто прилагательное между двумя as.",
+                 "Much, a lot, far + comparative = усилитель. Much better, far more dangerous. Разница огромная — скажи это усилителем.",
+                 "By far + superlative = абсолютный чемпион. By far the best. Не просто лучший, а на голову выше всех.",
+                 "Если сомневаешься: короткий — суффикс, длинный — more. Лучше сказать more happy (допустимо), чем happifuler (не существует)."
+             ],
+    "related":  [
+                    "a2-articles",
+                    "a2-prepositions-in-on-at",
+                    "a1-present-simple"
+                ],
+    "quiz":  [
+                 {
+                     "q":  "The wolf is ___ than the dog.",
+                     "options":  [
+                                     "more wild",
+                                     "wilder",
+                                     "wildest",
+                                     "the wildest"
+                                 ],
+                     "answer":  "wilder",
+                     "why":  "Wild — короткий (1 слог). Дуэль двух объектов → суффикс -er + than."
+                 },
+                 {
+                     "q":  "Jane Eyre is ___ heroine of the Victorian age.",
+                     "options":  [
+                                     "more independent",
+                                     "the most independent",
+                                     "independenter",
+                                     "the more independent"
+                                 ],
+                     "answer":  "the most independent",
+                     "why":  "Independent — длинное (5 слогов). Пьедестал → the most + adj."
+                 },
+                 {
+                     "q":  "White Fang is ___ wild ___ the forest.",
+                     "options":  [
+                                     "as … as",
+                                     "more … than",
+                                     "the … of",
+                                     "so … that"
+                                 ],
+                     "answer":  "as … as",
+                     "why":  "Равенство: Белый Клык такой же дикий, как лес. As + adj + as."
+                 },
+                 {
+                     "q":  "This is ___ book I have ever read.",
+                     "options":  [
+                                     "the better",
+                                     "the best",
+                                     "the most good",
+                                     "better"
+                                 ],
+                     "answer":  "the best",
+                     "why":  "Good → better → the best. Пьедестал из всех книг. The best."
+                 },
+                 {
+                     "q":  "The Yukon is ___ than any English winter.",
+                     "options":  [
+                                     "much colder",
+                                     "much more cold",
+                                     "the coldest",
+                                     "as cold"
+                                 ],
+                     "answer":  "much colder",
+                     "why":  "Дуэль + усилитель. Cold → colder, much усиливает разницу."
+                 },
+                 {
+                     "q":  "Stendhal\u0027s hero went ___ than any man before him.",
+                     "options":  [
+                                     "farther",
+                                     "further more",
+                                     "the farthest",
+                                     "more far"
+                                 ],
+                     "answer":  "farther",
+                     "why":  "Far → farther/further. Исключение. Дуэль с предшественниками."
+                 }
+             ]
 }
