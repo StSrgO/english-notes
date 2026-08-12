@@ -23,34 +23,24 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
 ---
 <Base title={topic.title + ' — EnglishNotes'} currentSlug={topic.slug}>
   <div class="wrap topic topic--v2">
+    <nav class="lesson-bar">
+      <a href="/grammar" class="bar-item" data-back>← назад</a>
+      {rocknrollTopic && (
+        <>
+          <button type="button" class="bar-item style-pick" data-style-label="classic">Классика</button>
+          <button type="button" class="bar-item style-pick" data-style-label="rocknroll">Рок-н-ролл</button>
+        </>
+      )}
+      <button class="act-link" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
+      <button class="act-link" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
+      {nextTopic ? (
+        <a href={'/grammar/' + nextTopic.slug} class="bar-item">следующий урок →</a>
+      ) : (
+        <a href={'/grammar#' + topic.level} class="bar-item">уровень завершён →</a>
+      )}
+    </nav>
     <aside class="side side--v3">
-      <a href="/grammar" class="lesson-back" data-back>← назад</a>
-      <div class="side3__pager">
-        {prevTopic ? (
-          <a href={'/grammar/' + prevTopic.slug} class="side3__pg side3__pg--prev">
-            <span class="side3__pg-eye">← предыдущий урок</span>
-            <span class="side3__pg-t">{prevTopic.title}</span>
-          </a>
-        ) : (
-          <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--prev">
-            <span class="side3__pg-eye">← к уровню</span>
-            <span class="side3__pg-t">Все темы {topic.level}</span>
-          </a>
-        )}
-        {nextTopic ? (
-          <a href={'/grammar/' + nextTopic.slug} class="side3__pg side3__pg--next">
-            <span class="side3__pg-eye">следующий урок →</span>
-            <span class="side3__pg-t">{nextTopic.title}</span>
-          </a>
-        ) : (
-          <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--next">
-            <span class="side3__pg-eye">уровень завершён →</span>
-            <span class="side3__pg-t">Все темы {topic.level}</span>
-          </a>
-        )}
-      </div>
-      <nav class="side3__nav" aria-label="Секции урока">
-        <a href="#idea" class="side3__link" data-spy="idea">Суть явления</a>
+    <nav class="side3__nav" aria-label="Секции урока">      <a href="#idea" class="side3__link" data-spy="idea">Суть явления</a>
         <a href="#why" class="side3__link" data-spy="why">Зачем это нужно</a>
         <a href="#context" class="side3__link" data-spy="context">Живой контекст</a>
         <a href="#russian" class="side3__link" data-spy="russian">Через русский</a>
@@ -73,20 +63,7 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
         {rocknrollTopic && (
           <p class="lv2-summary" data-style-pane="rocknroll">{rocknrollTopic.summary}</p>
         )}
-        <div class="topic__actions">
-          <button class="btn btn--ghost" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
-          <button class="btn btn--ghost" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
-          {rocknrollTopic && (
-            <div class="style-switch" data-style-toggle>
-              <span class="style-switch__label is-active" data-style-label="classic">Классика</span>
-              <button type="button" class="style-switch__track" data-style-switch role="switch" aria-checked="false" aria-label="Переключить стиль урока">
-                <span class="style-switch__knob"></span>
-              </button>
-              <span class="style-switch__label" data-style-label="rocknroll">Рок-н-ролл</span>
-            </div>
-          )}
-        </div>
-      </header>
+</header>
 
       <div data-style-pane="classic">
         <LessonBody T={topic} suffix="" related={related} quizUi={quizBank.__ui} />
@@ -116,31 +93,6 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
         </div>
       )}
         </article>
-
-    <div class="pager-mobile">
-      {prevTopic ? (
-        <a href={'/grammar/' + prevTopic.slug} class="side3__pg side3__pg--prev">
-          <span class="side3__pg-eye">← предыдущий урок</span>
-          <span class="side3__pg-t">{prevTopic.title}</span>
-        </a>
-      ) : (
-        <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--prev">
-          <span class="side3__pg-eye">← к уровню</span>
-          <span class="side3__pg-t">Все темы {topic.level}</span>
-        </a>
-      )}
-      {nextTopic ? (
-        <a href={'/grammar/' + nextTopic.slug} class="side3__pg side3__pg--next">
-          <span class="side3__pg-eye">следующий урок →</span>
-          <span class="side3__pg-t">{nextTopic.title}</span>
-        </a>
-      ) : (
-        <a href={'/grammar#' + topic.level} class="side3__pg side3__pg--next">
-          <span class="side3__pg-eye">уровень завершён →</span>
-          <span class="side3__pg-t">Все темы {topic.level}</span>
-        </a>
-      )}
-    </div>
   </div>
 
   <script>
@@ -167,12 +119,12 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
     const lessonArticle = document.querySelector('[data-lesson-style]');
     const STYLE_KEY = 'englishnotes.style.v1';
 
-    if (switchTrack && lessonArticle) {
+    if (lessonArticle) {
       const applyStyle = (style) => {
         lessonArticle.setAttribute('data-lesson-style', style);
         const isRock = style === 'rocknroll';
-        switchTrack.classList.toggle('is-rock', isRock);
-        switchTrack.setAttribute('aria-checked', String(isRock));
+        if (switchTrack) switchTrack.classList.toggle('is-rock', isRock);
+        if (switchTrack) switchTrack.setAttribute('aria-checked', String(isRock));
         switchLabels.forEach((lb) => lb.classList.toggle('is-active', lb.dataset.styleLabel === style));
         const suffix = isRock ? '-r' : '';
         links.forEach((l) => { l.setAttribute('href', '#' + l.dataset.spy + suffix); });
@@ -184,7 +136,7 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
       if (saved !== 'rocknroll') { saved = 'classic'; }
       applyStyle(saved);
       if (saved === 'rocknroll') { document.body.classList.add('is-rock'); }
-      switchTrack.addEventListener('click', () => {
+      if (switchTrack) switchTrack.addEventListener('click', () => {
         const now = lessonArticle.getAttribute('data-lesson-style');
         const newStyle = now === 'rocknroll' ? 'classic' : 'rocknroll';
         applyStyle(newStyle);

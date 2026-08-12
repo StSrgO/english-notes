@@ -1159,3 +1159,132 @@ main { flex: 1 0 auto; }
   .levels .level-link { padding: 6px 14px; border-radius: 10px; }
   .levels .level-link:hover { background: var(--mint-ink); color: var(--paper); }
 }
+/* ============================================================
+   update204 — ДС кнопок v1 + мобильные уровни = буквы
+   Форма: пилюля 999px; рамки только solid; пунктира НЕТ;
+   роли: PRIMARY (ink/paper, hover mint-ink/paper),
+   SECONDARY (mint + 1.5px mint-deeper, hover mint-deep, active mint-ink/paper),
+   GHOST (transparent, hover mint/ink); active ВСЕГДА mint-ink + paper
+   ============================================================ */
+
+/* мобиль: уровни — просто буквы, выделение как на десктопе */
+@media (max-width: 620px) {
+  .hero .levels .level-link { background: none; border: none; width: auto; padding: 6px 10px; border-radius: 10px; font-size: 19px; color: var(--ink); }
+  .hero .levels .level-link::before { content: none; }
+  .hero .levels .level-link:hover, .hero .levels .level-link:active { background: var(--mint-ink); color: var(--paper); }
+}
+
+/* SECONDARY: контентные и прогресс-кнопки */
+.btn { border-radius: 999px; }
+.btn--coral { background: var(--ink); color: var(--paper); box-shadow: none; }
+.btn--coral:hover { background: var(--mint-ink); color: var(--paper); }
+.btn--ghost { background: var(--mint); border: 1.5px solid var(--mint-deeper); }
+.btn--ghost:hover { background: var(--mint-deep); }
+.btn--ghost.is-on { background: var(--mint-ink); border-color: var(--mint-ink); color: var(--paper); }
+.try__a summary { border-radius: 999px; }
+.try__a summary:hover { background: var(--mint-ink); }
+.soon__back { background: var(--mint); border: 1.5px solid var(--mint-deeper); color: var(--ink); }
+.soon__back:hover { background: var(--mint-deep); }
+
+/* SECONDARY: следующий урок (без пунктира, без раздувания в адаптиве) */
+.side--v3 .side3__pg--next { background: var(--mint); border: 1.5px solid var(--mint-deeper); }
+.side--v3 .side3__pg--next:hover { background: var(--mint-deep); border-color: var(--mint-deeper); }
+.side--v3 .side3__pg { max-width: 250px; }
+.side3__pager { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+@media (max-width: 920px) {
+  .side--v3 .side3__pg { max-width: 100%; width: auto; align-self: stretch; }
+  .pager-mobile { display: flex; flex-direction: column; gap: 8px; }
+  .pager-mobile .side3__pg { width: auto; align-self: stretch; max-width: 100%; }
+}
+
+/* GHOST: навигация, назад, prev, чипы */
+.lesson-back { background: transparent; border: none; color: var(--ink-soft); }
+.lesson-back:hover { background: var(--mint); color: var(--ink); }
+.side--v3 .side3__pg--prev { background: transparent; border: none; }
+.side--v3 .side3__pg--prev:hover { background: var(--mint); border-color: transparent; }
+.lv2-chip { border: none; background: transparent; color: var(--ink-soft); }
+.lv2-chip:hover { background: var(--mint); color: var(--ink); }
+
+/* active каталога — единый mint-ink + белый */
+.level-link.is-active { background: var(--mint-ink); color: var(--paper); }
+.side--v3 .side3__link.is-active { background: var(--mint-ink); color: var(--paper); box-shadow: none; }
+@media (max-width: 920px) {
+  .side--v3 .side3__link.is-active { background: var(--mint-ink); color: var(--paper); }
+}
+/* ============================================================
+   update205 — «отметить изученным»/«в избранное» = текстовые
+   ссылки в одну линию со свитчером: mono uppercase, ink;
+   hover = mint как верхнее меню; on = жирнее + значок (✓/★
+   подставляет JS), без заливки — минус два зелёных пятна
+   ============================================================ */
+.act-link { background: none; border: none; padding: 8px 12px; border-radius: 10px; font-family: var(--mono); font-weight: 500; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); cursor: pointer; transition: background .18s ease; }
+.act-link:hover { background: var(--mint); }
+.act-link.is-on { font-weight: 700; }
+/* ============================================================
+   update206 — урок без левой колонки (вариант B):
+   секции — sticky горизонтальная mono-линия под шапкой
+   (active = mint-ink + 2px линия снизу, без заливки);
+   пейджер prev/next — внизу (desktop: две колонки, mobile: столбик);
+   проза — во всю ширину; зелёный остаётся только в underline
+   ============================================================ */
+.topic--v2 { grid-template-columns: 1fr; }
+.side3__bar { position: sticky; top: 60px; z-index: 20; display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 2px; padding: 10px 2px; margin: 0 0 26px; background: var(--paper); border-bottom: 1px solid var(--line); border-left: none; margin-left: 0; scrollbar-width: none; }
+.side3__bar::-webkit-scrollbar { display: none; }
+.side3__bar .side3__link { position: static; display: inline-block; padding: 8px 12px; margin: 0; border-radius: 10px; font-family: var(--mono); font-weight: 600; font-size: 12.5px; letter-spacing: .04em; color: var(--ink-soft); white-space: nowrap; background: none; box-shadow: none; }
+.side3__bar .side3__link:hover { background: var(--mint); color: var(--ink); transform: none; }
+.side3__bar .side3__link.is-active { background: none; color: var(--mint-ink); font-weight: 700; box-shadow: inset 0 -2px 0 0 var(--mint-ink); }
+.pager-mobile { display: grid; gap: 8px; margin: 34px 0 10px; }
+@media (min-width: 921px) {
+  .pager-mobile { grid-template-columns: 1fr 1fr; }
+}
+/* ============================================================
+   update207 — финальная схема урока:
+   верхняя sticky-лента действий (полупрозрачная бумага + blur):
+   назад | классика/рок | изучить | избранное | следующий урок;
+   всё mono 700 uppercase, разделители — вертикальные линии 60%;
+   левое меню возвращено (active-черновик: mint + ink + 2px mint-ink);
+   «предыдущий урок» и нижний пейджер убраны; мобиль — свайп-лента
+   ============================================================ */
+.topic--v2 { grid-template-columns: 240px minmax(0, 1fr); }
+.lesson-bar { position: sticky; top: 60px; z-index: 30; display: flex; align-items: center; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; padding: 8px 0; margin: 0 0 26px; background: rgba(250, 251, 247, 0.75); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); }
+.lesson-bar::-webkit-scrollbar { display: none; }
+.lesson-bar .bar-item { flex: 0 0 auto; font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); text-decoration: none; background: none; border: none; cursor: pointer; padding: 8px 14px; border-radius: 10px; white-space: nowrap; }
+.lesson-bar .bar-item:hover { background: var(--mint); }
+.lesson-bar .act-link { font-size: 13px; padding: 8px 14px; }
+.lesson-bar .style-switch { margin-left: 0; }
+.lesson-bar > * + * { position: relative; }
+.lesson-bar > * + *::before { content: ""; position: absolute; left: 0; top: 50%; transform: translateY(-50%); height: 60%; width: 1px; background: var(--line); }
+.side--v3 .side3__link.is-active { background: var(--mint); color: var(--ink); font-weight: 700; box-shadow: inset 2px 0 0 var(--mint-ink); }
+/* ============================================================
+   update208 — фикс раскладки урока: бар-лента растягивается на
+   обе колонки грида (grid-column 1/-1), aside+article ниже;
+   мобиль — одна колонка
+   ============================================================ */
+.lesson-bar { grid-column: 1 / -1; width: 100%; }
+@media (max-width: 920px) {
+  .topic--v2 { grid-template-columns: 1fr; }
+}
+/* ============================================================
+   update209 — бар-лента = ширина правого блока (grid-column 2),
+   левое меню при скролле не теряется под баром; пункты ленты
+   шире (padding 18px + column-gap) — разделители с воздухом
+   ============================================================ */
+.lesson-bar { grid-column: 2; grid-row: 1; column-gap: 6px; }
+.side--v3 { grid-column: 1; grid-row: 1 / span 2; }
+.lesson-v2 { grid-column: 2; grid-row: 2; }
+.lesson-bar .bar-item { padding: 8px 18px; }
+.lesson-bar .act-link { padding: 8px 18px; }
+.lesson-bar .style-switch { margin: 0 6px; }
+@media (max-width: 920px) {
+  .lesson-bar, .side--v3, .lesson-v2 { grid-column: auto; grid-row: auto; }
+}
+/* ============================================================
+   update211 — лента полностью прозрачная (background: none,
+   blur остаётся); весь текст ленты mono 700 чёрный (--ink),
+   включая РОК-Н-РОЛЛ; выбранный стиль и on-состояния —
+   мягкая мятная подложка --mint (текст чёрный)
+   ============================================================ */
+.lesson-bar { background: none; }
+.lesson-bar .bar-item, .lesson-bar .act-link { font-weight: 700; color: var(--ink); }
+.lesson-bar .style-pick.is-active { background: var(--mint); }
+.lesson-bar .act-link.is-on { background: var(--mint); }
