@@ -1,4 +1,4 @@
----
+﻿---
 import Quiz from './Quiz.astro';
 
 const { T, suffix, related, quizUi } = Astro.props;
@@ -100,7 +100,23 @@ function highlight(text, tokens) {
   </ul>
 
   <h3 class="lv2-h3">Примеры по ситуациям</h3>
-<div class="lv2-examples">
+  {T.alphabet && T.alphabet.length > 0 && (
+    <div class="alphabet-table">
+      <h3 class="lv2-h3">Алфавит</h3>
+      <div class="alphabet-grid">
+        {T.alphabet.map((letter) => (
+          <div class="alphabet-item">
+            <span class="alphabet-letter">{letter.letter}</span>
+            <span class="alphabet-ipa">{letter.ipa}</span>
+            <span class="alphabet-example">{letter.example}</span>
+            <span class="alphabet-example-ru">{letter.exampleRu}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+
+  <div class="lv2-examples">
   {T.examples.map((g) => (
     <div class="lv2-exgroup">
       <div>

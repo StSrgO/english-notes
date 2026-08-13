@@ -1,0 +1,145 @@
+{
+  "slug": "alphabet-pronunciation",
+  "title": "Alphabet and Pronunciation",
+  "level": "A0",
+  "category": "grammar",
+  "variant": "classic",
+  "readingTime": 10,
+  "summary": "Буквы английского алфавита, их произношение и основные звуки. С чего начинается путь в английский.",
+  "idea": [
+    "Английский алфавит — это 26 букв, которые звучат не так, как в русском. C, например, — это «си», а не «цэ». W — это «дабл-ю», а не «вэ».",
+    "Алфавит — это ключ к чтению. Когда вы знаете, как буква звучит в слове, вы можете прочитать его даже без перевода.",
+    "Миссис Хадсон, экономка Шерлока Холмса, говорила: «В Лондоне, если вы не знаете алфавита, вы не прочитаете ни одной вывески»."
+  ],
+  "why": [
+    "Чтобы читать слова вслух",
+    "Чтобы понимать звуки букв",
+    "Чтобы пользоваться словарём",
+    "Чтобы говорить по буквам (spell)"
+  ],
+  "context": {
+    "lines": [
+      { "en": "How do you pronounce this word?", "ru": "Как вы произносите это слово?" },
+      { "en": "It is 'thorough', Mr Holmes. T-H-O-R-O-U-G-H.", "ru": "Это 'thorough', мистер Холмс. Т-Эйч-Оу-Ар-Оу-Ю-Джи-Эйч." }
+    ],
+    "note": "Диалог из 221B Бейкер-стрит."
+  },
+  "russianAngle": [
+    "В русском алфавите 33 буквы, в английском 26.",
+    "Буква 'R' — это не 'эр', а 'ар'. 'W' — это 'дабл-ю'.",
+    "Сложные звуки: 'th', 'w', 'r'."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Послушайте буквы в британском или американском варианте.",
+      "Повторяйте за диктором: буква → транскрипция → пример.",
+      "Тренируйте сложные звуки: 'th', 'w', 'r'.",
+      "Попробуйте прочитать по буквам (spell) своё имя."
+    ],
+    "exercise": {
+      "prompt": "Прочитайте по буквам: 'Baker Street', 'Sherlock Holmes', 'London'.",
+      "items": [
+        { "q": "Baker Street", "a": "Bee-ay-kay-ee-arr / Ess-tee-arr-ee-ee-tee" },
+        { "q": "Sherlock Holmes", "a": "Ess-aitch-ee-arr-ell-oh-see-kay / Aitch-oh-ell-em-ee-ess" },
+        { "q": "London", "a": "Ell-oh-en-dee-oh-en" }
+      ]
+    }
+  },
+  "formula": "Буква → Транскрипция → Пример слова",
+  "structure": {
+    "positive": "Гласные (A, E, I, O, U) + Согласные (остальные 21)",
+    "negative": "Нет букв 'Ё', 'Ы', 'Й'",
+    "question": "Как произносится 'W'? — 'Double U'."
+  },
+  "alphabet": [
+    { "letter": "A", "ipa": "/eɪ/", "example": "apple", "exampleRu": "яблоко" },
+    { "letter": "B", "ipa": "/biː/", "example": "book", "exampleRu": "книга" },
+    { "letter": "C", "ipa": "/siː/", "example": "cat", "exampleRu": "кот" },
+    { "letter": "D", "ipa": "/diː/", "example": "door", "exampleRu": "дверь" },
+    { "letter": "E", "ipa": "/iː/", "example": "egg", "exampleRu": "яйцо" },
+    { "letter": "F", "ipa": "/ɛf/", "example": "fish", "exampleRu": "рыба" },
+    { "letter": "G", "ipa": "/dʒiː/", "example": "girl", "exampleRu": "девочка" },
+    { "letter": "H", "ipa": "/eɪtʃ/", "example": "hat", "exampleRu": "шляпа" },
+    { "letter": "I", "ipa": "/aɪ/", "example": "ice", "exampleRu": "лёд" },
+    { "letter": "J", "ipa": "/dʒeɪ/", "example": "jump", "exampleRu": "прыгать" },
+    { "letter": "K", "ipa": "/keɪ/", "example": "king", "exampleRu": "король" },
+    { "letter": "L", "ipa": "/ɛl/", "example": "lion", "exampleRu": "лев" },
+    { "letter": "M", "ipa": "/ɛm/", "example": "moon", "exampleRu": "луна" },
+    { "letter": "N", "ipa": "/ɛn/", "example": "night", "exampleRu": "ночь" },
+    { "letter": "O", "ipa": "/oʊ/", "example": "orange", "exampleRu": "апельсин" },
+    { "letter": "P", "ipa": "/piː/", "example": "pen", "exampleRu": "ручка" },
+    { "letter": "Q", "ipa": "/kjuː/", "example": "queen", "exampleRu": "королева" },
+    { "letter": "R", "ipa": "/ɑːr/", "example": "rabbit", "exampleRu": "кролик" },
+    { "letter": "S", "ipa": "/ɛs/", "example": "sun", "exampleRu": "солнце" },
+    { "letter": "T", "ipa": "/tiː/", "example": "tree", "exampleRu": "дерево" },
+    { "letter": "U", "ipa": "/juː/", "example": "umbrella", "exampleRu": "зонт" },
+    { "letter": "V", "ipa": "/viː/", "example": "violin", "exampleRu": "скрипка" },
+    { "letter": "W", "ipa": "/ˈdʌbəljuː/", "example": "water", "exampleRu": "вода" },
+    { "letter": "X", "ipa": "/ɛks/", "example": "fox", "exampleRu": "лиса" },
+    { "letter": "Y", "ipa": "/waɪ/", "example": "yellow", "exampleRu": "жёлтый" },
+    { "letter": "Z", "ipa": "/ziː/", "example": "zebra", "exampleRu": "зебра" }
+  ],
+  "markers": [
+    "Vowels: A /eɪ/, E /iː/, I /aɪ/, O /oʊ/, U /juː/",
+    "Consonants: B /biː/, C /siː/, D /diː/, F /ɛf/, G /dʒiː/"
+  ],
+  "uses": [
+    "Диктовать имя по телефону",
+    "Пользоваться словарём",
+    "Читать вслух"
+  ],
+  "rules": [
+    {
+      "title": "Открытый слог",
+      "text": "Гласная читается как в алфавите: 'go' /goʊ/, 'me' /miː/."
+    },
+    {
+      "title": "Закрытый слог",
+      "text": "Гласная читается коротко: 'cat' /kæt/, 'bed' /bɛd/."
+    }
+  ],
+  "examples": [
+    {
+      "group": "Гласные звуки",
+      "items": [
+        { "en": "A — 'apple' /ˈæpl/", "ru": "Буква A — яблоко", "highlight": ["A", "apple"] },
+        { "en": "E — 'bed' /bɛd/", "ru": "Буква E — кровать", "highlight": ["E", "bed"] },
+        { "en": "I — 'sit' /sɪt/", "ru": "Буква I — сидеть", "highlight": ["I", "sit"] },
+        { "en": "O — 'dog' /dɒɡ/", "ru": "Буква O — собака", "highlight": ["O", "dog"] },
+        { "en": "U — 'cup' /kʌp/", "ru": "Буква U — чашка", "highlight": ["U", "cup"] }
+      ]
+    },
+    {
+      "group": "Согласные звуки",
+      "items": [
+        { "en": "B — 'book' /bʊk/", "ru": "Буква B — книга", "highlight": ["B", "book"] },
+        { "en": "D — 'door' /dɔːr/", "ru": "Буква D — дверь", "highlight": ["D", "door"] },
+        { "en": "F — 'fish' /fɪʃ/", "ru": "Буква F — рыба", "highlight": ["F", "fish"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "C как 'цэ'", "right": "/siː/ (си)", "note": "Нет мягкого 'ц'." },
+    { "wrong": "W как 'вэ'", "right": "/ˈdʌbəljuː/ (дабл-ю)", "note": "W — это две U." },
+    { "wrong": "R как русская 'р'", "right": "/ɑːr/", "note": "Английская R — плавная, не дрожащая." }
+  ],
+  "compare": {
+    "title": "BrE vs AmE",
+    "leftLabel": "British",
+    "rightLabel": "American",
+    "rows": [
+      { "left": "Z — /zɛd/", "right": "Z — /ziː/" }
+    ]
+  },
+  "tips": [
+    "Повторяйте буквы вслух каждый день.",
+    "Используйте транскрипцию в словаре.",
+    "Записывайте своё произношение на диктофон.",
+    "Не бойтесь ошибаться."
+  ],
+  "quiz": [
+    { "q": "Как произносится буква 'W'?", "options": ["вэ", "дабл-ю", "дубль-вэ"], "answer": 1 },
+    { "q": "Какой звук даёт буква 'A' в слове 'apple'?", "options": ["/eɪ/", "/æ/", "/ɑː/"], "answer": 1 },
+    { "q": "Сколько букв в английском алфавите?", "options": ["26", "33", "28"], "answer": 0 }
+  ]
+}

@@ -1,4 +1,4 @@
----
+﻿---
 import '../styles/global.css';
 export interface Props { title?: string; currentSlug?: string; }
 const { title = 'EnglishNotes', currentSlug = '' } = Astro.props;
@@ -51,7 +51,7 @@ const total = topics.length;
           <nav class="nav">
             <a href="/">Главная</a>
             <a href="/grammar">Грамматика</a>
-            <a href="/soon">Слова</a>
+            <a href="/vocabulary" class="nav__link">Слова</a>
             <a href="/soon">Аудирование</a>
             <a href="/soon">Говорение</a>
             <a href="/soon">Прогресс</a>
@@ -60,7 +60,7 @@ const total = topics.length;
         <nav class="nav nav--desktop">
           <a href="/">Главная</a>
           <a href="/grammar">Грамматика</a>
-          <a href="/soon">Слова</a>
+          <a href="/vocabulary" class="nav__link">Слова</a>
           <a href="/soon">Аудирование</a>
           <a href="/soon">Говорение</a>
           <a href="/soon">Прогресс</a>
@@ -203,3 +203,4 @@ const total = topics.length;
     </script>
   </body>
 </html>
+

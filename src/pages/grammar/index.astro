@@ -1,9 +1,9 @@
----
+﻿---
 import Base from '../../layouts/Base.astro';
 
 const modules = import.meta.glob(['../../data/grammar/*.json', '!../../data/grammar/*.rocknroll.json'], { eager: true, import: 'default' });
 const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
-const levels = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+const levels = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const byLevel = (lvl) => topics.filter((t) => t.level === lvl);
 const usedLevels = levels.filter((lvl) => byLevel(lvl).length);
 ---
@@ -54,3 +54,4 @@ const usedLevels = levels.filter((lvl) => byLevel(lvl).length);
     </div>
   </section>
 </Base>
+

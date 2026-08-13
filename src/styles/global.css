@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
+﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
 :root {
   --paper: #fafbf7;
@@ -1346,3 +1346,74 @@ main { flex: 1 0 auto; }
    линия опущена, наложение устранено (повтор бага-наложения)
    ============================================================ */
 .lesson-v2 .practice { margin-bottom: 44px; }
+
+/* Alphabet table styles */
+.alphabet-table {
+  margin-top: 32px;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.alphabet-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  font-size: 14px;
+  transition: background 0.15s;
+}
+
+.alphabet-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.alphabet-letter {
+  font-family: 'Onest', system-ui, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  min-width: 28px;
+}
+
+.alphabet-ipa {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  color: var(--ink-soft);
+  min-width: 50px;
+}
+
+.alphabet-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink);
+  flex: 1;
+}
+
+.alphabet-example-ru {
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 600px) {
+  .alphabet-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .alphabet-item {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+  .alphabet-letter {
+    font-size: 15px;
+    min-width: 20px;
+  }
+}

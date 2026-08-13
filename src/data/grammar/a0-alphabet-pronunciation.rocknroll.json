@@ -1,0 +1,142 @@
+{
+  "slug": "alphabet-pronunciation",
+  "title": "Alphabet and Pronunciation",
+  "level": "A0",
+  "category": "grammar",
+  "variant": "rocknroll",
+  "readingTime": 10,
+  "summary": "Буквы как ноты. Знаешь ноты — сыграешь любую песню. Знаешь буквы — прочитаешь любое слово.",
+  "idea": [
+    "Английский алфавит — это твой первый аккорд. 26 букв — 26 нот. Если знаешь, как звучит каждая, ты можешь сыграть любую песню.",
+    "Роджер Долтри из The Who говорил: «Слушай и повторяй». С алфавитом так же. Слушай, повторяй, привыкай к звукам.",
+    "В Лондоне, братан, без алфавита не прочитаешь ни одной вывески. А вывески там — сплошной рок-н-ролл."
+  ],
+  "why": [
+    "Чтобы читать вывески в Лондоне",
+    "Чтобы диктовать имя по телефону",
+    "Чтобы понимать песни",
+    "Чтобы пользоваться словарём"
+  ],
+  "context": {
+    "lines": [
+      { "en": "How d'you spell 'thorough'?", "ru": "Как по буквам 'thorough'?" },
+      { "en": "T-H-O-R-O-U-G-H, mate. But we say 'thuh-ruh'.", "ru": "Т-Эйч-Оу-Ар-Оу-Ю-Джи-Эйч, братан. А говорим 'слэш-рэ'." }
+    ],
+    "note": "Диалог из лондонского паба."
+  },
+  "russianAngle": [
+    "В русском 33 буквы, в английском 26. Меньше букв — больше звуков.",
+    "Буква 'R' — не 'эр', а 'ар'. 'W' — 'дабл-ю'.",
+    "Сложные звуки: 'th', 'w', 'r'."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Послушай буквы в британском варианте.",
+      "Повторяй: буква → транскрипция → пример.",
+      "Тренируй сложные звуки: 'th', 'w', 'r'.",
+      "Попробуй прочитать по буквам название любимой группы."
+    ],
+    "exercise": {
+      "prompt": "Прочитай по буквам: 'The Who', 'Abbey Road', 'London'.",
+      "items": [
+        { "q": "The Who", "a": "Tee-aitch-ee / Double-u-aitch-oh" },
+        { "q": "Abbey Road", "a": "Ay-bee-bee-ee-why / Ar-oh-ay-dee" },
+        { "q": "London", "a": "Ell-oh-en-dee-oh-en" }
+      ]
+    }
+  },
+  "formula": "Буква → Звук → Пример из музыки",
+  "structure": {
+    "positive": "Гласные + Согласные",
+    "negative": "Нет 'Ё', 'Ы', 'Й'",
+    "question": "Как произносится 'W'? — 'Double U'."
+  },
+  "alphabet": [
+    { "letter": "A", "ipa": "/eɪ/", "example": "AC/DC", "exampleRu": "Эй-Си-Ди-Си" },
+    { "letter": "B", "ipa": "/biː/", "example": "The Beatles", "exampleRu": "Битлз" },
+    { "letter": "C", "ipa": "/siː/", "example": "The Clash", "exampleRu": "Клэш" },
+    { "letter": "D", "ipa": "/diː/", "example": "Deep Purple", "exampleRu": "Дип Пёрпл" },
+    { "letter": "E", "ipa": "/iː/", "example": "Eagles", "exampleRu": "Иглз" },
+    { "letter": "F", "ipa": "/ɛf/", "example": "Foo Fighters", "exampleRu": "Фу Файтерз" },
+    { "letter": "G", "ipa": "/dʒiː/", "example": "Guns N' Roses", "exampleRu": "Ганз Н' Роузиз" },
+    { "letter": "H", "ipa": "/eɪtʃ/", "example": "The Who", "exampleRu": "Зэ Ху" },
+    { "letter": "I", "ipa": "/aɪ/", "example": "Iron Maiden", "exampleRu": "Айрон Мэйден" },
+    { "letter": "J", "ipa": "/dʒeɪ/", "example": "Jimi Hendrix", "exampleRu": "Джими Хендрикс" },
+    { "letter": "K", "ipa": "/keɪ/", "example": "KISS", "exampleRu": "Кисс" },
+    { "letter": "L", "ipa": "/ɛl/", "example": "Led Zeppelin", "exampleRu": "Лед Зеппелин" },
+    { "letter": "M", "ipa": "/ɛm/", "example": "Metallica", "exampleRu": "Металлика" },
+    { "letter": "N", "ipa": "/ɛn/", "example": "Nirvana", "exampleRu": "Нирвана" },
+    { "letter": "O", "ipa": "/oʊ/", "example": "Oasis", "exampleRu": "Оэйсис" },
+    { "letter": "P", "ipa": "/piː/", "example": "Pink Floyd", "exampleRu": "Пинк Флойд" },
+    { "letter": "Q", "ipa": "/kjuː/", "example": "Queen", "exampleRu": "Куин" },
+    { "letter": "R", "ipa": "/ɑːr/", "example": "Ramones", "exampleRu": "Рамонз" },
+    { "letter": "S", "ipa": "/ɛs/", "example": "Sex Pistols", "exampleRu": "Секс Пистолз" },
+    { "letter": "T", "ipa": "/tiː/", "example": "The Stones", "exampleRu": "Зэ Стоунз" },
+    { "letter": "U", "ipa": "/juː/", "example": "U2", "exampleRu": "Ю-Ту" },
+    { "letter": "V", "ipa": "/viː/", "example": "Van Halen", "exampleRu": "Ван Хален" },
+    { "letter": "W", "ipa": "/ˈdʌbəljuː/", "example": "The Who", "exampleRu": "Зэ Ху" },
+    { "letter": "X", "ipa": "/ɛks/", "example": "XTC", "exampleRu": "Экс-Ти-Си" },
+    { "letter": "Y", "ipa": "/waɪ/", "example": "Yes", "exampleRu": "Йес" },
+    { "letter": "Z", "ipa": "/ziː/", "example": "ZZ Top", "exampleRu": "Зи-Зи Топ" }
+  ],
+  "markers": [
+    "Vowels: A /eɪ/, E /iː/, I /aɪ/, O /oʊ/, U /juː/",
+    "Consonants: B /biː/, C /siː/, D /diː/, F /ɛf/, G /dʒiː/"
+  ],
+  "uses": [
+    "Диктовать имя",
+    "Пользоваться словарём",
+    "Читать вслух"
+  ],
+  "rules": [
+    {
+      "title": "Открытый слог",
+      "text": "Гласная как в алфавите: 'go' /goʊ/, 'me' /miː/."
+    },
+    {
+      "title": "Закрытый слог",
+      "text": "Гласная короткая: 'cat' /kæt/, 'bed' /bɛd/."
+    }
+  ],
+  "examples": [
+    {
+      "group": "Гласные в роке",
+      "items": [
+        { "en": "A — 'AC/DC' /eɪ siː diː siː/", "ru": "Буква A — AC/DC", "highlight": ["A", "AC/DC"] },
+        { "en": "E — 'The Beatles' /ðə biːtlz/", "ru": "Буква E — The Beatles", "highlight": ["E", "Beatles"] },
+        { "en": "I — 'Iron Maiden' /aɪən meɪdən/", "ru": "Буква I — Iron Maiden", "highlight": ["I", "Iron"] }
+      ]
+    },
+    {
+      "group": "Согласные в роке",
+      "items": [
+        { "en": "B — 'Black Sabbath' /blæk sæbəθ/", "ru": "Буква B — Black Sabbath", "highlight": ["B", "Black"] },
+        { "en": "D — 'Deep Purple' /diːp pɜːpl/", "ru": "Буква D — Deep Purple", "highlight": ["D", "Deep"] },
+        { "en": "F — 'Foo Fighters' /fuː faɪtəz/", "ru": "Буква F — Foo Fighters", "highlight": ["F", "Foo"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "C как 'цэ'", "right": "/siː/ (си)", "note": "Нет мягкого 'ц'." },
+    { "wrong": "W как 'вэ'", "right": "/ˈdʌbəljuː/ (дабл-ю)", "note": "W — это две U." },
+    { "wrong": "R как русская 'р'", "right": "/ɑːr/", "note": "Английская R — плавная." }
+  ],
+  "compare": {
+    "title": "BrE vs AmE",
+    "leftLabel": "British Rock",
+    "rightLabel": "American Rock",
+    "rows": [
+      { "left": "Z — /zɛd/", "right": "Z — /ziː/" }
+    ]
+  },
+  "tips": [
+    "Повторяй буквы под музыку.",
+    "Слушай британские группы.",
+    "Записывай себя."
+  ],
+  "quiz": [
+    { "q": "Как произносится 'W' в британском?", "options": ["вэ", "дабл-ю", "дубль-вэ"], "answer": 1 },
+    { "q": "Сколько букв в английском алфавите?", "options": ["26", "33", "28"], "answer": 0 },
+    { "q": "Как звучит буква 'A' в слове 'apple'?", "options": ["/eɪ/", "/æ/", "/ɑː/"], "answer": 1 }
+  ]
+}
