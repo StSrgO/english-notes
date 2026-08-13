@@ -162,7 +162,26 @@ function highlight(text, tokens) {
   </section>
 )}
 
-{related && related.length > 0 && (
+{quizUi && quizUi.morePracticeLead && (
+    <div class="practice" data-reveal>
+      <p class="practice__eye">{quizUi.morePractice}</p>
+      <h3 class="practice__t">{quizUi.morePracticeLead}</h3>
+      {quizUi.morePracticeText && <p class="practice__text">{quizUi.morePracticeText}</p>}
+      {quizUi.morePracticeHref && (
+        <a class="btn btn--coral practice__cta" href={quizUi.morePracticeHref} target="_blank" rel="noopener noreferrer">{quizUi.morePracticeCta} <span aria-hidden="true">&#8599;</span></a>
+      )}
+      {quizUi.morePracticeMore && quizUi.morePracticeMore.length > 0 && (
+        <p class="practice__also">
+          {quizUi.morePracticeAlsoLabel}{' '}
+          {quizUi.morePracticeMore.map((m, i) => (
+            <>{i > 0 && <span class="practice__sep">&#183;</span>}<a href={m.href} target="_blank" rel="noopener noreferrer">{m.label}</a></>
+          ))}
+        </p>
+      )}
+    </div>
+  )}
+
+  {related && related.length > 0 && (
   <section id={'related' + s} class="lv2-sec" data-spybase="related">
     <h2 class="lv2-h">Связанные темы</h2>
     <div class="related">

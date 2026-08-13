@@ -121,6 +121,12 @@ const total = topics.length;
       };
       markCards(state);
 
+      window.addEventListener('pageshow', () => {
+        const s = load();
+        markCards(s);
+        if (cur) paintButtons(cur, s);
+      });
+
       // level navigation: smooth scroll + scroll-spy (catalog only)
       const levelLinks = Array.from(document.querySelectorAll('[data-level-link]'));
       if (levelLinks.length) {

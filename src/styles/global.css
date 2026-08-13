@@ -1319,3 +1319,30 @@ main { flex: 1 0 auto; }
    чтобы ::before не вылезал за границы бара
    ============================================================ */
 .lesson-bar { position: sticky; isolation: isolate; }
+/* ============================================================
+   update219 — мобиль: левое меню секций скрыто (бесполезно,
+   уезжает вверх); зерно бара — в background-image самого бара
+   (красится на всю скролл-ширину, белого при свайпе нет);
+   h1 Conditions — мобильный кегль подстроен
+   ============================================================ */
+@media (max-width: 920px) {
+  .side--v3 { display: none; }
+}
+.lesson-bar::before { display: none; }
+.lesson-bar { background-color: var(--paper); background-image: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>"); }
+@media (max-width: 620px) {
+  .hero h1 { font-size: clamp(23px, 6.2vw, 36px); }
+}
+/* ============================================================
+   update220 — фиксы 219: act-link в баре — одна строка
+   (white-space: nowrap; на мобильном «отметить изученным»
+   и «в избранное» больше не переносятся)
+   ============================================================ */
+.lesson-bar .act-link { white-space: nowrap; }
+/* ============================================================
+   update222 — у .practice не было margin-bottom (блок раньше
+   стоял последним); после переноса «Связанных тем» вниз линия
+   секции наезжала на его нижнюю кромку/тень — добавлен отступ,
+   линия опущена, наложение устранено (повтор бага-наложения)
+   ============================================================ */
+.lesson-v2 .practice { margin-bottom: 44px; }

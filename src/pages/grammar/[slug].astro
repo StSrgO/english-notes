@@ -26,10 +26,7 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
     <nav class="lesson-bar">
       <a href="/grammar" class="bar-item" data-back>← назад</a>
       {rocknrollTopic && (
-        <>
-          <button type="button" class="bar-item style-pick" data-style-label="classic">Классика</button>
-          <button type="button" class="bar-item style-pick" data-style-label="rocknroll">Рок-н-ролл</button>
-        </>
+        <button type="button" class="bar-item style-pick" data-style-label="rocknroll">Рок-н-ролл</button>
       )}
       <button class="act-link" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
       <button class="act-link" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
@@ -71,25 +68,6 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
       {rocknrollTopic && (
         <div data-style-pane="rocknroll">
           <LessonBody T={rocknrollTopic} suffix="-r" related={related} quizUi={quizBank.__ui} />
-        </div>
-      )}
-
-      {quizBank.__ui && quizBank.__ui.morePracticeLead && (
-        <div class="practice" data-reveal>
-          <p class="practice__eye">{quizBank.__ui.morePractice}</p>
-          <h3 class="practice__t">{quizBank.__ui.morePracticeLead}</h3>
-          {quizBank.__ui.morePracticeText && <p class="practice__text">{quizBank.__ui.morePracticeText}</p>}
-          {quizBank.__ui.morePracticeHref && (
-            <a class="btn btn--coral practice__cta" href={quizBank.__ui.morePracticeHref} target="_blank" rel="noopener noreferrer">{quizBank.__ui.morePracticeCta} <span aria-hidden="true">&#8599;</span></a>
-          )}
-          {quizBank.__ui.morePracticeMore && quizBank.__ui.morePracticeMore.length > 0 && (
-            <p class="practice__also">
-              {quizBank.__ui.morePracticeAlsoLabel}{' '}
-              {quizBank.__ui.morePracticeMore.map((m, i) => (
-                <>{i > 0 && <span class="practice__sep">&#183;</span>}<a href={m.href} target="_blank" rel="noopener noreferrer">{m.label}</a></>
-              ))}
-            </p>
-          )}
         </div>
       )}
         </article>
@@ -142,7 +120,7 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
         applyStyle(newStyle);
         document.body.classList.toggle('is-rock', newStyle === 'rocknroll');
       });
-      switchLabels.forEach((lb) => lb.addEventListener('click', () => applyStyle(lb.dataset.styleLabel)));
+      switchLabels.forEach((lb) => lb.addEventListener('click', () => { const now = lessonArticle.getAttribute('data-lesson-style'); applyStyle(now === 'rocknroll' ? 'classic' : 'rocknroll'); }));
     } else {
       initSpy('');
     }
