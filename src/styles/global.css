@@ -1288,3 +1288,34 @@ main { flex: 1 0 auto; }
 .lesson-bar .bar-item, .lesson-bar .act-link { font-weight: 700; color: var(--ink); }
 .lesson-bar .style-pick.is-active { background: var(--mint); }
 .lesson-bar .act-link.is-on { background: var(--mint); }
+/* ============================================================
+   update212 — бар-хамелеон: фон бара = точная копия фона сайта
+   (бумага+зерно+sepia) с background-attachment: fixed — бар
+   неотличим от страницы, урок не проходит под ним; blur УБРАН;
+   sticky остаётся на десктопе И мобильном (важные кнопки видны)
+   ============================================================ */
+.lesson-bar { background: var(--paper); background-attachment: fixed; backdrop-filter: none; -webkit-backdrop-filter: none; }
+/* ============================================================
+   update213 — хамелеон v2: бар копирует РЕАЛЬНЫЙ слой зерна+sepia
+   (найден по feTurbulence, селектор напечатан при запуске)
+   с background-attachment: fixed — бар сливается с фоном сайта,
+   белая полоса устранена; blur по-прежнему нет
+   ============================================================ */
+.lesson-bar { background: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>"); background-attachment: fixed; }
+/* ============================================================
+   update215 — хамелеон v3: бар НЕПРОЗРАЧНЫЙ (background: var(--paper))
+   + свой слой зерна через ::before (точная копия из body::before) —
+   зерно рисуется поверх фона бара, бар сливается с бумагой;
+   blur не нужен, контент не проходит под баром;
+   sticky на десктопе и мобильном
+   ============================================================ */
+.lesson-bar { background: var(--paper); position: relative; }
+.lesson-bar::before { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; background-image: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>"); }
+.lesson-bar > * { position: relative; z-index: 1; }
+/* ============================================================
+   update216 — фикс хамелеона v3: возвращаем position: sticky
+   (в 215 было position: relative, что убрало прилипание);
+   isolation: isolate создаёт локальный stacking context,
+   чтобы ::before не вылезал за границы бара
+   ============================================================ */
+.lesson-bar { position: sticky; isolation: isolate; }
