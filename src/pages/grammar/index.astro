@@ -1,12 +1,110 @@
-﻿---
+---
 import Base from '../../layouts/Base.astro';
 
-const modules = import.meta.glob(['../../data/grammar/*.json', '!../../data/grammar/*.rocknroll.json'], { eager: true, import: 'default' });
-const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
+// ЯВНЫЙ ПОРЯДОК ДЛЯ УРОВНЕЙ
+const levelOrder = {
+  'A0': [
+    'alphabet-pronunciation',
+    'symbols-abbreviations',
+    'numbers-dates-time',
+    'introductions-greetings',
+    'colours-clothes',
+    'family-house'
+  ],
+  'A1': [
+    'a1-verb-to-be',
+    'a1-pronouns',
+    'a1-nouns',
+    'a1-plural-nouns',
+    'a1-articles-a-an',
+    'a1-there-is-there-are',
+    'a1-present-simple',
+    'a1-present-continuous',
+    'a1-past-simple',
+    'a1-questions',
+    'a1-imperative-and-frequency'
+  ],
+  'A2': [
+    'a2-articles',
+    'a2-be-going-to',
+    'a2-future-simple',
+    'a2-past-continuous',
+    'a2-comparatives-superlatives',
+    'a2-modals-can-must-have-to',
+    'a2-prepositions-in-on-at',
+    'a2-some-any-much-many',
+    'a2-used-to'
+  ],
+  'B1': [
+    'b1-zero-conditional',
+    'b1-first-conditional',
+    'b1-passive-voice-simple',
+    'b1-modals-should-might-may',
+    'b1-present-perfect',
+    'b1-present-perfect-continuous',
+    'b1-gerund-vs-infinitive',
+    'b1-reported-speech'
+  ],
+  'B2': [
+    'b2-second-conditional',
+    'b2-third-conditional',
+    'b2-mixed-conditional',
+    'b2-wish-if-only',
+    'b2-passive-voice-advanced',
+    'b2-modals-in-the-past',
+    'b2-past-perfect',
+    'b2-past-perfect-continuous',
+    'b2-relative-clauses'
+  ],
+  'C1': [
+    'c1-cleft-sentences',
+    'c1-emphasis-do-and-fronting',
+    'c1-inversion-after-negative-adverbials',
+    'c1-inversion-in-conditional',
+    'c1-subjunctive-wish-regret'
+  ],
+  'C2': [
+    'c2-inversion-so-such',
+    'c2-mixed-conditional',
+    'c2-modals-past-deduction',
+    'c2-mandative-subjunctive',
+    'c2-participle-clauses',
+    'c2-cohesion-and-register'
+  ]
+};;
+
+// Функция сортировки по уровню и порядку
+function sortLessons(a, b) {
+  const levelA = a.level || '';
+  const levelB = b.level || '';
+  const levels = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+  
+  if (levelA !== levelB) {
+    return levels.indexOf(levelA) - levels.indexOf(levelB);
+  }
+  
+  const order = levelOrder[levelA] || [];
+  const indexA = order.indexOf(a.slug);
+  const indexB = order.indexOf(b.slug);
+  
+  if (indexA !== -1 && indexB !== -1) {
+    return indexA - indexB;
+  }
+  
+  return a.slug.localeCompare(b.slug);
+}
+
+const modules = import.meta.glob(
+  ['../../data/grammar/*.json', '!../../data/grammar/*.rocknroll.json'],
+  { eager: true, import: 'default' }
+);
+
+const topics = Object.values(modules).sort(sortLessons);
 const levels = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 const byLevel = (lvl) => topics.filter((t) => t.level === lvl);
-const usedLevels = levels.filter((lvl) => byLevel(lvl).length);
+const usedLevels = levels.filter((lvl) => byLevel(lvl).length > 0);
 ---
+
 <Base title="Грамматика по уровням — EnglishNotes">
   <section class="section wrap">
     <div class="catalog">
@@ -40,7 +138,10 @@ const usedLevels = levels.filter((lvl) => byLevel(lvl).length);
               <div class="topic-grid">
                 {list.map((t) => (
                   <a href={'/grammar/' + t.slug} class="topic-card">
-                    <div class="meta"><span class="tag tag--lvl">{t.level}</span><span class="tag">{t.category}</span></div>
+                    <div class="meta">
+                      <span class="tag tag--lvl">{t.level}</span>
+                      <span class="tag">{t.category}</span>
+                    </div>
                     <h3>{t.title}</h3>
                     <p class="muted" style="font-size:14px;margin:0">{t.summary}</p>
                     <span class="muted" style="font-size:13px;margin-top:auto">≈ {t.readingTime} мин · читать →</span>
@@ -54,4 +155,3 @@ const usedLevels = levels.filter((lvl) => byLevel(lvl).length);
     </div>
   </section>
 </Base>
-

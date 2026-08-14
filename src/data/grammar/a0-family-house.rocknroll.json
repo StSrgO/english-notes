@@ -1,0 +1,193 @@
+{
+  "variant": "rocknroll",
+  "slug": "family-house",
+  "level": "A0",
+  "title": "Семья и дом",
+  "category": "Basics",
+  "readingTime": 10,
+  "summary": "Как назвать родственников, описать свой дом и не потеряться в семейных хитросплетениях — от возвращения домой к семье до наших матерей и отцов.",
+  "idea": [
+    "Семья в роке — это не просто слова, это целые песни. Lynyrd Skynyrd написали 'Skynyrd Family' — песню о возвращении домой к семье на Рождество, о том, как важно быть вместе, когда всё остальное рушится. 'It's a Skynyrd family Christmas', поют они — и это не просто слова, это обещание, что семья всегда будет рядом. В роке семья — это опора, и когда ты в туре, ты всегда знаешь, что есть дом, куда можно вернуться.",
+    "Dave Barnes написал 'Family Tree' — рок-балладу о семейных традициях, о том, как мы связаны с теми, кто был до нас. 'I'm just a branch on the family tree', поёт он — и это напоминание о том, что каждый из нас — часть чего-то большего. В каждой семье есть свои истории, свои традиции, свои корни. И в роке есть место и для таких песен — тёплых, искренних, идущих от сердца.",
+    "Shatterglass Scallywags в песне 'What's It Gonna Take?' поют о прощении в семье после долгой разлуки. 'What's it gonna take to bring us back together?' — спрашивают они. Семья может быть сложной, но она остаётся семьёй. В роке нет места для притворства: если ты поёшь о семье, ты поёшь о самом важном.",
+    "Названия членов семьи — это основа. 'Brother' — брат, 'sister' — сестра, 'mother' — мать, 'father' — отец. В роке мы часто поём о семье: 'Hey, brother, let's go!' — 'Эй, брат, пошли!' Или 'This is my mother, she is my inspiration' — 'Это моя мать, она мой вдохновитель'. Знание этих слов — это ключ к пониманию рок-лирики и общению за кулисами."
+  ],
+  "why": [
+    "Семья и дом — это темы, которые важны в рок-песнях и в жизни",
+    "Названия членов семьи помогают понимать тексты песен и общаться с другими фанатами",
+    "В английском есть много слов для семьи, которые отличаются от русских",
+    "Знание этих слов помогает рассказывать о своей семье и доме"
+  ],
+  "context": {
+    "lines": [
+      { "en": "The singer looked at the crowd: 'This song is for my family, my brothers and sisters, my mother and father. They are my home. And you, the fans, you are my family too.'",
+        "ru": "Вокалист посмотрел на толпу: 'Эта песня для моей семьи, моих братьев и сестёр, моей матери и отца. Они — мой дом. И вы, фанаты, вы тоже моя семья.'" },
+      { "en": "The roadie said: 'I miss my family when I'm on tour. My wife, my children, my dog. But when I come home, it's the best feeling in the world.'",
+        "ru": "Роуди сказал: 'Я скучаю по семье, когда в туре. Моя жена, мои дети, моя собака. Но когда я возвращаюсь домой, это лучшее чувство в мире.'" }
+    ],
+    "note": "В роке семья — это не только кровные родственники, но и команда, с которой ты в туре, и фанаты, которые поддерживают тебя."
+  },
+  "russianAngle": [
+    "В русском роке тоже есть песни о семье, но в английском названия родственников звучат короче: 'brother', 'sister'",
+    "В русском 'дом' — это и здание, и семья. В английском 'house' — здание, 'home' — место, где живёт семья",
+    "В русском 'брат' может быть и 'brother', и 'cousin' — но в английском это разные слова",
+    "В русском 'квартира' — 'квартира'. В английском 'flat' (BrE) и 'apartment' (AmE)"
+  ],
+  "howToLearn": {
+    "steps": [
+      "Выучите названия членов семьи: father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousin",
+      "Выучите части дома: living room, kitchen, bedroom, bathroom, garden, garage, attic, basement",
+      "Потренируйтесь описывать свою семью: 'I have a father, a mother and two brothers'",
+      "Потренируйтесь описывать дом: 'We live in a house with a garden'",
+      "Послушайте песни о семье: 'Skynyrd Family' от Lynyrd Skynyrd, 'Family Tree' от Dave Barnes",
+      "Попробуйте описать дом и семью любимых рок-звёзд"
+    ],
+    "exercise": {
+      "prompt": "Опишите свою семью и дом по-английски как рок-звезда:",
+      "items": [
+        { "q": "Сколько человек в вашей семье?", "a": "There are [number] people in my family. We are a rock band of life!" },
+        { "q": "У вас есть братья или сёстры?", "a": "Yes, I have [number] brothers/sisters. They are my bandmates!" },
+        { "q": "Где вы живёте?", "a": "I live in a house/flat with my family. It's our home!" },
+        { "q": "У вас есть сад?", "a": "Yes, we have a garden. It's where we play music and relax." }
+      ]
+    }
+  },
+  "rules": [
+    { "title": "Семья в роке",
+      "text": "father (отец), mother (мать), brother (брат), sister (сестра), son (сын), daughter (дочь), grandfather (дедушка), grandmother (бабушка), uncle (дядя), aunt (тётя), cousin (двоюродный брат/сестра)." },
+    { "title": "Дом в роке",
+      "text": "house (дом), flat (квартира, BrE), apartment (квартира, AmE), living room (гостиная), kitchen (кухня), bedroom (спальня), bathroom (ванная), garden (сад)." },
+    { "title": "'House' vs 'Home' в роке",
+      "text": "House — здание. Home — место, где семья, где тебя ждут, где ты возвращаешься после тура." }
+  ],
+  "examples": [
+    {
+      "group": "Семья в роке",
+      "items": [
+        { "en": "My brother plays guitar, my sister sings", "ru": "Мой брат играет на гитаре, моя сестра поёт — мы целая группа", "highlight": ["brother", "sister"] },
+        { "en": "My mother is my biggest fan", "ru": "Моя мать — моя самая большая поклонница", "highlight": ["mother"] },
+        { "en": "My father taught me how to play the guitar", "ru": "Мой отец научил меня играть на гитаре", "highlight": ["father"] },
+        { "en": "My grandfather was a musician too", "ru": "Мой дедушка тоже был музыкантом", "highlight": ["grandfather"] },
+        { "en": "My grandmother always comes to our concerts", "ru": "Моя бабушка всегда приходит на наши концерты", "highlight": ["grandmother"] }
+      ]
+    },
+    {
+      "group": "Дом и комнаты",
+      "items": [
+        { "en": "Our living room is where we write songs", "ru": "В гостиной мы пишем песни", "highlight": ["living room"] },
+        { "en": "The kitchen is where we make coffee before a gig", "ru": "На кухне мы делаем кофе перед концертом", "highlight": ["kitchen"] },
+        { "en": "My bedroom is full of guitars", "ru": "Моя спальня полна гитар", "highlight": ["bedroom"] },
+        { "en": "We have a garden where we play music in summer", "ru": "У нас есть сад, где мы играем музыку летом", "highlight": ["garden"] },
+        { "en": "The bathroom is where I sing in the shower", "ru": "В ванной я пою в душе", "highlight": ["bathroom"] }
+      ]
+    },
+    {
+      "group": "House vs Home в роке",
+      "items": [
+        { "en": "This is my house, but home is where my family is", "ru": "Это мой дом, но дом там, где моя семья", "highlight": ["house", "home"] },
+        { "en": "I'm on tour, but I miss my home", "ru": "Я в туре, но скучаю по дому", "highlight": ["home"] },
+        { "en": "We bought a new house for our family", "ru": "Мы купили новый дом для нашей семьи", "highlight": ["house"] },
+        { "en": "When I come home, I feel like myself again", "ru": "Когда я возвращаюсь домой, я снова чувствую себя собой", "highlight": ["home"] },
+        { "en": "Our home is a small flat in London, but it's ours", "ru": "Наш дом — маленькая квартира в Лондоне, но она наша", "highlight": ["home", "flat"] }
+      ]
+    },
+    {
+      "group": "Семейные традиции в роке",
+      "items": [
+        { "en": "We have a family dinner every Sunday", "ru": "По воскресеньям у нас семейный ужин", "highlight": ["family dinner"] },
+        { "en": "My sister and I write songs together", "ru": "Мы с сестрой пишем песни вместе", "highlight": ["sister"] },
+        { "en": "My father comes to every show", "ru": "Мой отец приходит на каждое наше выступление", "highlight": ["father"] },
+        { "en": "My mother made my first guitar strap", "ru": "Моя мать сшила мой первый ремень для гитары", "highlight": ["mother"] },
+        { "en": "My uncle is our sound engineer", "ru": "Мой дядя — наш звукорежиссёр", "highlight": ["uncle"] }
+      ]
+    },
+    {
+      "group": "Британские vs американские названия дома",
+      "items": [
+        { "en": "BrE: flat — AmE: apartment", "ru": "Британия: flat — Америка: apartment (квартира)", "highlight": ["flat", "apartment"] },
+        { "en": "BrE: garden — AmE: yard", "ru": "Британия: garden — Америка: yard (сад/двор)", "highlight": ["garden", "yard"] },
+        { "en": "BrE: lift — AmE: elevator", "ru": "Британия: lift — Америка: elevator (лифт)", "highlight": ["lift", "elevator"] },
+        { "en": "BrE: ground floor — AmE: first floor", "ru": "Британия: ground floor — Америка: first floor (первый этаж)", "highlight": ["ground floor", "first floor"] },
+        { "en": "BrE: holiday — AmE: vacation", "ru": "Британия: holiday — Америка: vacation (отпуск/каникулы)", "highlight": ["holiday", "vacation"] }
+      ]
+    },
+    {
+      "group": "Описание дома для рок-звезды",
+      "items": [
+        { "en": "My house is big and has a recording studio", "ru": "Мой дом большой и в нём есть студия звукозаписи", "highlight": ["big", "recording studio"] },
+        { "en": "The living room has a red sofa and a piano", "ru": "В гостиной есть красный диван и пианино", "highlight": ["red sofa", "piano"] },
+        { "en": "There is a garden with a stage in the backyard", "ru": "За домом есть сад со сценой", "highlight": ["garden", "backyard"] },
+        { "en": "My bedroom is where I write lyrics", "ru": "В спальне я пишу тексты песен", "highlight": ["bedroom"] },
+        { "en": "We have a beautiful view of the city from our kitchen", "ru": "Из кухни у нас красивый вид на город", "highlight": ["view", "kitchen"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Путать 'house' и 'home'", "right": "'House' — здание, 'home' — место, где семья", "note": "Вы можете жить в house, но home — это чувство." },
+    { "wrong": "Говорить 'I have a brother and sister' без артиклей", "right": "'I have a brother and a sister' — с артиклями", "note": "В единственном числе нужен артикль 'a'." },
+    { "wrong": "Путать 'garden' и 'yard'", "right": "В BrE 'garden' — сад с цветами, в AmE — 'yard'", "note": "Если вы в Лондоне — говорите garden, в Нью-Йорке — yard." },
+    { "wrong": "Путать 'flat' и 'apartment'", "right": "В BrE — flat, в AmE — apartment", "note": "В британском английском 'flat' — это квартира." },
+    { "wrong": "Говорить 'My parents is' вместо 'My parents are'", "right": "'My parents are' — во множественном числе", "note": "Parents — это двое, значит, глагол во множественном числе." },
+    { "wrong": "Путать 'brother' и 'cousin'", "right": "'Brother' — родной брат, 'cousin' — двоюродный", "note": "Это разные родственники, нельзя путать." }
+  ],
+  "compare": {
+    "title": "Британские vs американские названия дома",
+    "leftLabel": "Британский (BrE)",
+    "rightLabel": "Американский (AmE)",
+    "rows": [
+      { "left": "flat", "right": "apartment" },
+      { "left": "garden", "right": "yard" },
+      { "left": "lift", "right": "elevator" },
+      { "left": "ground floor", "right": "first floor" },
+      { "left": "holiday", "right": "vacation" }
+    ]
+  },
+  "tips": [
+    "В роке 'brother' и 'sister' — это не только родственники, но и друзья по группе",
+    "'Home' — это место, куда ты возвращаешься после тура. Это всегда важно",
+    "В британском английском 'flat' — квартира, в американском — 'apartment'",
+    "'Garden' в BrE — это сад с цветами. В AmE говорят 'yard'",
+    "Всегда используйте 'are' для 'parents' (родители) — потому что их двое",
+    "Если вы описываете дом, не бойтесь использовать прилагательные: big, small, cosy, beautiful",
+    "Семья — это тема для песен, и знание этих слов поможет вам понять тексты"
+  ],
+  "related": [],
+  "quiz": [
+    {
+      "q": "Кто такой 'brother' по-русски?",
+      "options": ["Сестра", "Брат", "Двоюродный брат", "Отец"],
+      "answer": "Брат",
+      "why": "'Brother' — это брат. В роке это часто обращение к другу по группе."
+    },
+    {
+      "q": "В чём разница между 'house' и 'home'?",
+      "options": ["Это одно и то же", "House — здание, home — место семьи", "House — место семьи, home — здание", "Разницы нет"],
+      "answer": "House — здание, home — место семьи",
+      "why": "'House' — это строение, 'home' — это место, где живёт семья и чувствуешь себя своим. Для рок-звезды home — это место после тура."
+    },
+    {
+      "q": "Как называется гостиная по-английски?",
+      "options": ["Bedroom", "Kitchen", "Living room", "Bathroom"],
+      "answer": "Living room",
+      "why": "'Living room' — гостиная, где пишут песни и проводят время с семьёй."
+    },
+    {
+      "q": "Как называются родители в английском языке?",
+      "options": ["Father and mother", "Parents", "Mum and dad", "All of the above"],
+      "answer": "All of the above",
+      "why": "'Parents' — общее название, 'father and mother' — формально, 'mum and dad' — неформально."
+    },
+    {
+      "q": "Как сказать 'квартира' в британском английском?",
+      "options": ["Apartment", "Flat", "House", "Home"],
+      "answer": "Flat",
+      "why": "В британском английском 'flat' — квартира. В американском — 'apartment'."
+    },
+    {
+      "q": "Как будет 'двоюродный брат' по-английски?",
+      "options": ["Brother", "Cousin", "Uncle", "Nephew"],
+      "answer": "Cousin",
+      "why": "'Cousin' — это двоюродный брат или сестра (не родные брат/сестра)."
+    }
+  ]
+}
