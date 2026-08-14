@@ -1,4 +1,4 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,700&display=swap');
 :root {
   --paper: #fafbf7;
@@ -315,7 +315,81 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .site-foot { border-top: 1px solid var(--line); margin-top: 40px; }
 .site-foot__inner { display: flex; justify-content: space-between; gap: 16px; padding: 26px 0; flex-wrap: wrap; font-size: 14px; color: var(--ink-mid); font-weight: 500; }
 
-/* responsive */
+/* responsive */
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .hero { padding: 40px 0 24px; }
   .hero__grid { grid-template-columns: minmax(0, 1fr); gap: 32px; align-items: start; }
@@ -337,12 +411,160 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .side a { background: var(--mint); }
   .nav--desktop { display: none; }
   .nav-toggle { display: block; }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (max-width: 560px) {
   .mistake { grid-template-columns: 1fr; }
   .idea__p, .idea__p:first-child { font-size: 17px; }
   .tiles { gap: 10px; }
   .tile__img { height: clamp(84px, 40vw, 132px); }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .hl-mark { animation: none; background-size: 100% 0.45em; }
@@ -372,9 +594,157 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 @keyframes towerIn {
   from { opacity: 0; transform: translateY(16px) scale(0.97); }
   to   { opacity: var(--tower-opacity); transform: none; }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .hero::before { animation: none; opacity: var(--tower-opacity); transform: none; }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (max-width: 920px) {
   .hero::before { --tower-opacity: 0.1; --tower-width: clamp(96px, 30vw, 150px); top: 8px; }
@@ -402,9 +772,157 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 @keyframes towerIn {
   from { opacity: 0; transform: translateY(16px) scale(0.97); }
   to   { opacity: var(--tower-opacity, 0.2); transform: none; }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .hero::before { animation: none; opacity: var(--tower-opacity, 0.2); transform: none; }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (max-width: 920px) {
   .hero::before { opacity: var(--tower-opacity, 0.12); width: var(--tower-width, clamp(92px, 28vw, 142px)); top: 8px; }
@@ -430,9 +948,157 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 @keyframes towerIn {
   from { opacity: 0; transform: translateY(18px) scale(0.98); }
   to   { opacity: var(--tower-opacity, 0.26); transform: none; }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (prefers-reduced-motion: reduce) {
   .hero::before { animation: none; opacity: var(--tower-opacity, 0.26); transform: none; }
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (max-width: 920px) {
   .hero::before { opacity: var(--tower-opacity, 0.14); height: var(--tower-height, clamp(320px, 70vw, 460px)); left: 8px; }
@@ -487,7 +1153,81 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .quiz__rev-wrong { margin: 0 0 4px; color: var(--coral); font-weight: 600; font-size: 15px; }
 .quiz__rev-right { margin: 0 0 8px; color: var(--ink); font-weight: 700; font-size: 15px; }
 .quiz__rev-why { margin: 0; color: var(--ink-mid); font-size: 14.5px; line-height: 1.55; font-weight: 500; }
-.quiz__again { margin: 22px auto 0; }
+.quiz__again { margin: 22px auto 0; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   .quiz__dot.is-now { animation: none; }
   .quiz__medal { animation: none; }
@@ -534,6 +1274,80 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   -webkit-mask-composite: source-in;
   mask-composite: intersect;
   animation: towerIn 1.2s 0.15s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (max-width: 920px) {
   .hero__copy { max-width: 100%; }
@@ -542,7 +1356,81 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .lvl-cell { display: inline-flex; align-items: center; }
 .lvl-dot { width: 11px; height: 11px; border-radius: 50%; background: var(--mint-ink); margin: 0 16px; flex: 0 0 auto; }
 .level-link { font-family: var(--display); font-weight: 800; font-size: 19px; color: var(--ink); letter-spacing: -0.01em; transition: color .2s ease; }
-.level-link:hover { color: var(--mint-ink); }
+.level-link:hover { color: var(--mint-ink); }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .hero__punch { white-space: normal; display: block; }
   .levels { gap: 2px; }
@@ -556,7 +1444,81 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .levels .lvl-cell { display: inline-flex; align-items: center; }
 .levels .lvl-dot { display: inline-block; width: 12px; height: 12px; border-radius: 50%; background: var(--mint-ink); margin: 0 8px; flex: 0 0 auto; box-shadow: 0 0 0 4px rgba(47, 157, 110, 0.14); }
 .levels .level-link { font-family: var(--display); font-weight: 800; font-size: clamp(20px, 2.1vw, 27px); color: var(--ink); letter-spacing: -0.01em; line-height: 1; transition: color .2s ease, transform .2s ease; }
-.levels .level-link:hover { color: var(--mint-ink); transform: translateY(-2px); }
+.levels .level-link:hover { color: var(--mint-ink); transform: translateY(-2px); }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 900px) {
   .hero__copy { width: 100%; }
   .hero__sub, .hero__punch, .levels { width: auto; min-width: 0; }
@@ -568,7 +1530,81 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .hero__visual { display: flex; flex-direction: column; }
 .hero__visual > .daily { display: flex; flex-direction: column; }
 .hero__visual > .daily:last-child { flex: 1; }
-.hero__visual .picks { flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 10px; }
+.hero__visual .picks { flex: 1; display: flex; flex-direction: column; justify-content: space-between; gap: 10px; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 1100px) {
   .hero__punch { white-space: normal; }
 }/* hero face-of-site polish (update53) */
@@ -666,7 +1702,81 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .lv2-tips { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
 .lv2-tips li { background: var(--mint); border: 1px solid var(--mint-deep); border-radius: 14px; padding: 14px 18px; font-size: 16px; line-height: 1.7; color: var(--ink); font-weight: 500; }
 
-/* responsive */
+/* responsive */
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .topic--v2 { grid-template-columns: minmax(0, 1fr); gap: 20px; }
   .side--v2 { position: static; display: grid; grid-template-columns: 1fr; max-height: none; overflow: visible; padding-right: 0; }
@@ -718,7 +1828,81 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .lesson-v2 .quiz__q { font-size: clamp(19px, 2.2vw, 24px); font-weight: 800; }
 .lesson-v2 .quiz__qlabel { font-size: 11px; }
 
-/* responsive v3 */
+/* responsive v3 */
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .side--v3 { position: static; max-height: none; overflow: visible; padding-right: 0; }
   .side3__nav { display: flex; flex-wrap: wrap; gap: 6px; border-left: none; margin-left: 0; }
@@ -879,7 +2063,81 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
 .hero h1 { display: flex; flex-direction: column; align-items: stretch; }
 .hero__invert { align-self: flex-end; }
 
-/* мобильные уровни: овальные пилюли "уровень A0" */
+/* мобильные уровни: овальные пилюли "уровень A0" */
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .hero .levels { flex-direction: column; gap: 8px; }
   .hero .lvl-dot { display: none; }
@@ -919,6 +2177,80 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
   background: no-repeat center / cover url("/tower.png");
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 96%), radial-gradient(120% 80% at 50% 30%, #000 60%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 96%), radial-gradient(120% 80% at 50% 30%, #000 60%, transparent 100%);
+}
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
 }
 @media (max-width: 920px) {
   .hero__tower { right: auto; left: 8px; width: clamp(92px, 26vw, 140px); height: clamp(320px, 70vw, 460px); opacity: 0.12; }
@@ -946,7 +2278,81 @@ body { overflow-x: clip; }
    ============================================================ */
 .hero__tower--right { right: 0; transform: translateX(100%); }
 .hero__tower--left { left: 0; right: auto; transform: translateX(-100%); }
-.hero__punch { border-bottom-color: var(--mint-ink); }
+.hero__punch { border-bottom-color: var(--mint-ink); }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .hero__tower { transform: none; }
   .hero__tower--left { display: none; }
@@ -961,12 +2367,160 @@ body { overflow-x: clip; }
 body { min-height: 100vh; min-height: 100dvh; display: flex; flex-direction: column; }
 main { flex: 1 0 auto; }
 .site-foot { flex-shrink: 0; }
+
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
 
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .hero h1 { align-items: flex-start; }
   .hero__tower--right { right: 8px; left: auto; transform: none; background: no-repeat center / cover url("/tower.png"); }
 }
+
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
 
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .hero .levels { flex-direction: row; flex-wrap: nowrap; overflow-x: auto; gap: 8px; margin-top: 14px; padding-bottom: 4px; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
   .hero .levels::-webkit-scrollbar { display: none; }
@@ -976,14 +2530,162 @@ main { flex: 1 0 auto; }
 /* ============================================================
    update170 — мобиль: плашка «Two Fucking Voices» к левому краю
    (align-self ребёнка перебивает align-items родителя из 169)
+   ============================================================ */
+/* ============================================================
+   СИМВОЛЫ (A0)
    ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .hero__invert { align-self: flex-start; }
 }
 /* ============================================================
    update171 — мобильные чипы уровней на главной:
    рамка --ink, фон --mint-deep, выделение = --mint-ink (цвет плашки)
+   ============================================================ */
+/* ============================================================
+   СИМВОЛЫ (A0)
    ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .hero .level-link { background: var(--mint-deep); border: 2px solid var(--ink); color: var(--ink); }
   .hero .level-link:hover, .hero .level-link:active { background: var(--mint-ink); border-color: var(--mint-ink); color: var(--paper); }
@@ -1012,7 +2714,81 @@ main { flex: 1 0 auto; }
 .side3__pg-t { font-family: var(--mono); font-weight: 700; font-size: 14px; }
 .side__next-t { font-family: var(--mono); font-weight: 700; font-size: 14px; }
 
-/* фикс бага 172: клиппинг верхнего края чипа при выделении */
+/* фикс бага 172: клиппинг верхнего края чипа при выделении */
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .hero .levels .level-link:hover, .hero .levels .level-link:active { transform: none; }
 }
@@ -1033,7 +2809,81 @@ main { flex: 1 0 auto; }
 .topic-card.is-fav::before { content: "★ в избранном"; position: absolute; top: 44px; right: 14px; z-index: 1; font-family: var(--mono); font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: var(--mint-deep); background: var(--ink); padding: 4px 10px; border-radius: 999px; }
 
 .lesson-back { display: none; }
-.pager-mobile { display: none; }
+.pager-mobile { display: none; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .lesson-back { display: inline-flex; align-items: center; gap: 6px; margin: 0 0 10px; padding: 8px 14px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); font-family: var(--mono); font-weight: 700; font-size: 13px; color: var(--ink); }
   .side--v3 .side3__pager { display: none; }
@@ -1046,7 +2896,81 @@ main { flex: 1 0 auto; }
    ============================================================ */
 .topic-card.is-done::after { content: "✓"; top: 14px; right: 14px; width: 26px; height: 26px; padding: 0; display: grid; place-items: center; border-radius: 50%; background: var(--mint-ink); color: var(--paper); font-size: 13px; font-weight: 700; letter-spacing: 0; text-transform: none; }
 .topic-card.is-fav::before { content: "★"; top: 14px; right: 48px; z-index: 1; width: 26px; height: 26px; padding: 0; display: grid; place-items: center; border-radius: 50%; background: var(--ink); color: var(--mint-deep); font-size: 13px; font-weight: 700; letter-spacing: 0; text-transform: none; }
+
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
 
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .pager-mobile .side3__pg { display: flex; align-items: center; justify-content: space-between; gap: 10px; width: 100%; box-sizing: border-box; padding: 12px 18px; border-radius: 999px; border: 1px solid var(--line); background: var(--surface); }
   .pager-mobile .side3__pg-eye { font-size: 12px; letter-spacing: .06em; white-space: nowrap; }
@@ -1084,7 +3008,81 @@ main { flex: 1 0 auto; }
 .levels--text { display: none; }
 .levels--img .lvl-img { flex: 0 0 auto; display: block; transition: transform .25s cubic-bezier(.2,.7,.2,1); }
 .levels--img .lvl-img img { display: block; height: clamp(60px, 7vw, 92px); width: auto; border-radius: 12px; filter: drop-shadow(0 8px 16px rgba(18,52,48,.22)); }
-.levels--img .lvl-img:hover { transform: translateY(-4px) rotate(-1.2deg); }
+.levels--img .lvl-img:hover { transform: translateY(-4px) rotate(-1.2deg); }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .levels--img .lvl-img img { height: 60px; }
 }
@@ -1094,7 +3092,81 @@ main { flex: 1 0 auto; }
    скругления и плоский вид — через CSS
    ============================================================ */
 .levels--img .lvl-img img { height: clamp(36px, 3.4vw, 48px); border-radius: 9px; filter: none; }
-.levels--img .lvl-img:hover { transform: translateY(-3px) rotate(-1.2deg); }
+.levels--img .lvl-img:hover { transform: translateY(-3px) rotate(-1.2deg); }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .levels--img .lvl-img img { height: 40px; }
 }
@@ -1102,7 +3174,81 @@ main { flex: 1 0 auto; }
    update186 — плашки уровней = высота карточки подборки дня,
    нижний ряд слева и справа читается одной линией
    ============================================================ */
-.levels--img .lvl-img img { height: 88px; }
+.levels--img .lvl-img img { height: 88px; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .levels--img .lvl-img img { height: 60px; }
 }
@@ -1114,7 +3260,81 @@ main { flex: 1 0 auto; }
    ============================================================ */
 .levels--img { gap: 10px; }
 .levels--img .lvl-img { flex: 1 1 0; min-width: 0; background: var(--mint-deep); border-radius: 10px; }
-.levels--img .lvl-img img { width: 100%; height: 88px; object-fit: contain; border-radius: 10px; filter: none; }
+.levels--img .lvl-img img { width: 100%; height: 88px; object-fit: contain; border-radius: 10px; filter: none; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .levels--img .lvl-img { flex: 0 0 auto; width: 118px; }
   .levels--img .lvl-img img { height: 64px; }
@@ -1126,7 +3346,81 @@ main { flex: 1 0 auto; }
    88px -> раздув ширины) и 187 (равные слоты + contain) сняты
    ============================================================ */
 .levels--img .lvl-img { flex: 0 0 auto; min-width: 0; background: none; }
-.levels--img .lvl-img img { width: auto; height: clamp(36px, 3.4vw, 48px); object-fit: initial; border-radius: 9px; }
+.levels--img .lvl-img img { width: auto; height: clamp(36px, 3.4vw, 48px); object-fit: initial; border-radius: 9px; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .levels--img .lvl-img { width: auto; }
   .levels--img .lvl-img img { height: 40px; }
@@ -1139,7 +3433,81 @@ main { flex: 1 0 auto; }
    ============================================================ */
 .levels--img { display: none; }
 .levels--text { display: flex; }
-.lvl-arrow { font-family: var(--mono); font-weight: 700; font-size: 16px; color: var(--mint-ink); flex: 0 0 auto; }
+.lvl-arrow { font-family: var(--mono); font-weight: 700; font-size: 16px; color: var(--mint-ink); flex: 0 0 auto; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .lvl-arrow { font-size: 14px; }
 }
@@ -1154,7 +3522,81 @@ main { flex: 1 0 auto; }
    заливка --mint-ink с белым текстом, как плашка «Two Fucking Voices»
    (мобильные чипы уже такие — не трогаем)
    ============================================================ */
-.pick { padding: 8px 12px 8px 26px; }
+.pick { padding: 8px 12px 8px 26px; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (min-width: 621px) {
   .levels .level-link { padding: 6px 14px; border-radius: 10px; }
   .levels .level-link:hover { background: var(--mint-ink); color: var(--paper); }
@@ -1167,7 +3609,81 @@ main { flex: 1 0 auto; }
    GHOST (transparent, hover mint/ink); active ВСЕГДА mint-ink + paper
    ============================================================ */
 
-/* мобиль: уровни — просто буквы, выделение как на десктопе */
+/* мобиль: уровни — просто буквы, выделение как на десктопе */
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .hero .levels .level-link { background: none; border: none; width: auto; padding: 6px 10px; border-radius: 10px; font-size: 19px; color: var(--ink); }
   .hero .levels .level-link::before { content: none; }
@@ -1190,7 +3706,81 @@ main { flex: 1 0 auto; }
 .side--v3 .side3__pg--next { background: var(--mint); border: 1.5px solid var(--mint-deeper); }
 .side--v3 .side3__pg--next:hover { background: var(--mint-deep); border-color: var(--mint-deeper); }
 .side--v3 .side3__pg { max-width: 250px; }
-.side3__pager { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.side3__pager { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .side--v3 .side3__pg { max-width: 100%; width: auto; align-self: stretch; }
   .pager-mobile { display: flex; flex-direction: column; gap: 8px; }
@@ -1207,7 +3797,81 @@ main { flex: 1 0 auto; }
 
 /* active каталога — единый mint-ink + белый */
 .level-link.is-active { background: var(--mint-ink); color: var(--paper); }
-.side--v3 .side3__link.is-active { background: var(--mint-ink); color: var(--paper); box-shadow: none; }
+.side--v3 .side3__link.is-active { background: var(--mint-ink); color: var(--paper); box-shadow: none; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .side--v3 .side3__link.is-active { background: var(--mint-ink); color: var(--paper); }
 }
@@ -1233,7 +3897,81 @@ main { flex: 1 0 auto; }
 .side3__bar .side3__link { position: static; display: inline-block; padding: 8px 12px; margin: 0; border-radius: 10px; font-family: var(--mono); font-weight: 600; font-size: 12.5px; letter-spacing: .04em; color: var(--ink-soft); white-space: nowrap; background: none; box-shadow: none; }
 .side3__bar .side3__link:hover { background: var(--mint); color: var(--ink); transform: none; }
 .side3__bar .side3__link.is-active { background: none; color: var(--mint-ink); font-weight: 700; box-shadow: inset 0 -2px 0 0 var(--mint-ink); }
-.pager-mobile { display: grid; gap: 8px; margin: 34px 0 10px; }
+.pager-mobile { display: grid; gap: 8px; margin: 34px 0 10px; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (min-width: 921px) {
   .pager-mobile { grid-template-columns: 1fr 1fr; }
 }
@@ -1260,7 +3998,81 @@ main { flex: 1 0 auto; }
    обе колонки грида (grid-column 1/-1), aside+article ниже;
    мобиль — одна колонка
    ============================================================ */
-.lesson-bar { grid-column: 1 / -1; width: 100%; }
+.lesson-bar { grid-column: 1 / -1; width: 100%; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .topic--v2 { grid-template-columns: 1fr; }
 }
@@ -1274,7 +4086,81 @@ main { flex: 1 0 auto; }
 .lesson-v2 { grid-column: 2; grid-row: 2; }
 .lesson-bar .bar-item { padding: 8px 18px; }
 .lesson-bar .act-link { padding: 8px 18px; }
-.lesson-bar .style-switch { margin: 0 6px; }
+.lesson-bar .style-switch { margin: 0 6px; }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .lesson-bar, .side--v3, .lesson-v2 { grid-column: auto; grid-row: auto; }
 }
@@ -1324,12 +4210,160 @@ main { flex: 1 0 auto; }
    уезжает вверх); зерно бара — в background-image самого бара
    (красится на всю скролл-ширину, белого при свайпе нет);
    h1 Conditions — мобильный кегль подстроен
+   ============================================================ */
+/* ============================================================
+   СИМВОЛЫ (A0)
    ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 920px) {
   .side--v3 { display: none; }
 }
 .lesson-bar::before { display: none; }
-.lesson-bar { background-color: var(--paper); background-image: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>"); }
+.lesson-bar { background-color: var(--paper); background-image: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>"); }
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
+
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 620px) {
   .hero h1 { font-size: clamp(23px, 6.2vw, 36px); }
 }
@@ -1403,7 +4437,81 @@ main { flex: 1 0 auto; }
   font-size: 12px;
   color: var(--ink-soft);
 }
+
+/* ============================================================
+   СИМВОЛЫ (A0)
+   ============================================================ */
 
+.symbols-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.symbol-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px 12px;
+  background: var(--surface);
+  border-radius: 12px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+}
+
+.symbol-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.symbol-char {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.symbol-reading {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  margin-top: 4px;
+}
+
+.symbol-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  text-align: center;
+  margin-top: 8px;
+}
+
+.symbol-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+  margin-top: 4px;
+}
+
+/* Мобильная адаптация */
+@media (max-width: 600px) {
+  .symbols-grid {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 8px;
+  }
+  
+  .symbol-item {
+    padding: 12px 8px;
+  }
+  
+  .symbol-char {
+    font-size: 22px;
+  }
+}
 @media (max-width: 600px) {
   .alphabet-grid {
     grid-template-columns: 1fr 1fr;
@@ -1415,5 +4523,339 @@ main { flex: 1 0 auto; }
   .alphabet-letter {
     font-size: 15px;
     min-width: 20px;
+  }
+}
+
+
+/* ============================================================
+   АЛФАВИТ — A0
+   ============================================================ */
+
+.alphabet-table {
+  margin: 24px 0 32px;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 8px 16px;
+  margin-top: 12px;
+}
+
+.alphabet-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.alphabet-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.alphabet-letter {
+  font-family: 'Onest', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  min-width: 28px;
+  text-align: center;
+}
+
+.alphabet-ipa {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  min-width: 44px;
+  text-align: center;
+}
+
+.alphabet-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  flex: 1;
+}
+
+.alphabet-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Мобильная версия — одна буква в ряд, всё в строку */
+@media (max-width: 600px) {
+  .alphabet-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  
+  .alphabet-item {
+    padding: 6px 10px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  
+  .alphabet-letter {
+    font-size: 16px;
+    min-width: 22px;
+  }
+  
+  .alphabet-ipa {
+    font-size: 12px;
+    min-width: 36px;
+  }
+  
+  .alphabet-example {
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .alphabet-example-ru {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+}
+
+/* Планшетная версия */
+@media (min-width: 601px) and (max-width: 920px) {
+  .alphabet-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+/* ============================================================
+   АЛФАВИТ — A0
+   ============================================================ */
+
+.alphabet-table {
+  margin: 24px 0 32px;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 8px 16px;
+  margin-top: 12px;
+}
+
+.alphabet-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  background: var(--surface);
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.alphabet-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.alphabet-letter {
+  font-family: 'Onest', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  min-width: 28px;
+  text-align: center;
+}
+
+.alphabet-ipa {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  min-width: 44px;
+  text-align: center;
+}
+
+.alphabet-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  flex: 1;
+}
+
+.alphabet-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* Мобильная версия — одна буква в ряд, всё в строку */
+@media (max-width: 600px) {
+  .alphabet-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  
+  .alphabet-item {
+    padding: 6px 10px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+  }
+  
+  .alphabet-letter {
+    font-size: 16px;
+    min-width: 22px;
+  }
+  
+  .alphabet-ipa {
+    font-size: 12px;
+    min-width: 36px;
+  }
+  
+  .alphabet-example {
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .alphabet-example-ru {
+    font-size: 11px;
+    white-space: nowrap;
+  }
+}
+
+/* Планшетная версия */
+@media (min-width: 601px) and (max-width: 920px) {
+  .alphabet-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  }
+}
+
+/* ============================================================
+   АЛФАВИТ — A0
+   ============================================================ */
+
+.alphabet-table {
+  margin: 16px 0 24px;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.alphabet-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+  background: var(--surface);
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  transition: all 0.2s;
+  min-height: 70px;
+  overflow: hidden;
+}
+
+.alphabet-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.alphabet-row {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.alphabet-letter {
+  font-family: 'Onest', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.alphabet-ipa {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  line-height: 1.2;
+}
+
+.alphabet-example {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+  color: var(--ink-mid);
+  line-height: 1.3;
+  margin-top: 2px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+.alphabet-example-ru {
+  font-family: 'Manrope', sans-serif;
+  font-size: 12px;
+  color: var(--ink-soft);
+  line-height: 1.3;
+  margin-top: 1px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Мобильная версия — одна карточка в ряд */
+@media (max-width: 600px) {
+  .alphabet-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  
+  .alphabet-item {
+    padding: 8px 12px;
+    min-height: 60px;
+  }
+  
+  .alphabet-letter {
+    font-size: 18px;
+  }
+  
+  .alphabet-ipa {
+    font-size: 13px;
+  }
+  
+  .alphabet-example {
+    font-size: 13px;
+  }
+  
+  .alphabet-example-ru {
+    font-size: 11px;
+  }
+}
+
+/* Планшет */
+@media (min-width: 601px) and (max-width: 920px) {
+  .alphabet-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }

@@ -1,4 +1,4 @@
-﻿---
+---
 import Quiz from './Quiz.astro';
 
 const { T, suffix, related, quizUi } = Astro.props;
@@ -27,6 +27,7 @@ function highlight(text, tokens) {
   <div class="lv2-prose lv2-prose--drop">
     {T.idea.map((p) => <p>{p}</p>)}
   </div>
+
 </section>
 
 <section id={'why' + s} class="lv2-sec" data-spybase="why" {...reveal}>
@@ -34,6 +35,7 @@ function highlight(text, tokens) {
   <ul class="why-list--v2">
     {T.why.map((w) => <li>{w}</li>)}
   </ul>
+
 </section>
 
 <section id={'context' + s} class="lv2-sec" data-spybase="context" {...reveal}>
@@ -47,11 +49,13 @@ function highlight(text, tokens) {
     ))}
     {T.context.note && <p class="dialog__note">{T.context.note}</p>}
   </div>
+
 </section>
 
 <section id={'russian' + s} class="lv2-sec" data-spybase="russian" {...reveal}>
   <h2 class="lv2-h">Взгляд через русский</h2>
   <div class="lv2-prose">{T.russianAngle.map((r) => <p>{r}</p>)}</div>
+
 </section>
 
 <section id={'learn' + s} class="lv2-sec" data-spybase="learn" {...reveal}>
@@ -73,16 +77,19 @@ function highlight(text, tokens) {
       </details>
     </div>
   )}
+
 </section>
 
 <section id={'reference' + s} class="lv2-sec" data-spybase="reference" {...reveal}>
   <h2 class="lv2-h">Справочник</h2>
-  <div class="lv2-formula">{T.formula}</div>
-  <div class="lv2-struct">
-    <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{T.structure.positive}</span></div>
-    <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{T.structure.negative}</span></div>
-    <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{T.structure.question}</span></div>
-  </div>
+  {T?.formula && <div class="lv2-formula">{T.formula}</div>}
+  {T?.structure && (
+    <div class="lv2-struct">
+      <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{T.structure.positive}</span></div>
+      <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{T.structure.negative}</span></div>
+      <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{T.structure.question}</span></div>
+    </div>
+  )}
   {T.markers && T.markers.length > 0 && (
     <div class="lv2-markers">
       {T.markers.map((m) => <span class="tag">{m}</span>)}
@@ -90,19 +97,22 @@ function highlight(text, tokens) {
   )}
 
   <h3 class="lv2-h3">Когда используется</h3>
-  <ul class="use-list--v2">
-    {T.uses.map((u) => <li>{u}</li>)}
-  </ul>
+  {T?.uses && T.uses.length > 0 && (
+    <ul class="use-list--v2">
+      {T.uses.map((u) => <li>{u}</li>)}
+    </ul>
+  )}
 
   <h3 class="lv2-h3">Правила и нюансы</h3>
   <ul class="lv2-rules">
     {T.rules.map((r) => <li><b>{r.title}.</b> {r.text}</li>)}
   </ul>
 
-  <h3 class="lv2-h3">Примеры по ситуациям</h3>
-  {T.alphabet && T.alphabet.length > 0 && (
+  <!-- АЛФАВИТ (отдельная секция) -->
+{T.alphabet && T.alphabet.length > 0 && (
+  <section id="alphabet" class="lv2-sec" data-spybase="alphabet">
+    <h2 class="lv2-h">Алфавит</h2>
     <div class="alphabet-table">
-      <h3 class="lv2-h3">Алфавит</h3>
       <div class="alphabet-grid">
         {T.alphabet.map((letter) => (
           <div class="alphabet-item">
@@ -114,9 +124,13 @@ function highlight(text, tokens) {
         ))}
       </div>
     </div>
-  )}
+  </section>
+)}
 
-  <div class="lv2-examples">
+  
+
+
+  <h3 class="lv2-h3">Примеры по ситуациям</h3><div class="lv2-examples">
   {T.examples.map((g) => (
     <div class="lv2-exgroup">
       <div>
@@ -170,12 +184,14 @@ function highlight(text, tokens) {
       </ul>
     </div>
   )}
+
 </section>
 
 {T.quiz && T.quiz.length > 0 && (
   <section id={'quiz' + s} class="lv2-sec" data-spybase="quiz" {...reveal}>
     <Quiz questions={T.quiz} ui={quizUi} />
-  </section>
+  
+</section>
 )}
 
 {quizUi && quizUi.morePracticeLead && (
@@ -203,5 +219,6 @@ function highlight(text, tokens) {
     <div class="related">
       {related.map((r) => <a href={'/grammar/' + r.slug} class="chip">{r.title}</a>)}
     </div>
-  </section>
+  
+</section>
 )}
