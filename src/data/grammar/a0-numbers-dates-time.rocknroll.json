@@ -1,0 +1,164 @@
+{
+  "slug": "numbers-dates-time",
+  "title": "Numbers, Dates and Time",
+  "level": "A0",
+  "category": "grammar",
+  "variant": "rocknroll",
+  "readingTime": 14,
+  "summary": "Цифры, время и даты — без этого не заказать пиво в пабе, не договориться о концерте и не понять, когда твой рейс. Считаем по-рок-н-ролльному.",
+  "idea": [
+    "Цифры — это твой счётчик. Без них ты не скажешь, сколько стоят билеты, когда начинается концерт и сколько тебе лет. В английском счёт строится иначе: 75 — это seventy-five, а не 'семьдесят-пять'. Привыкай — это как новый ритм.",
+    "Время — это то, чего вечно не хватает. Британцы скажут 'quarter to eleven' вместо '10:45' — и это звучит как название песни. Американцы скажут 'ten forty-five' — как рок-балладу. Оба варианта правильные. Выбирай свой звук.",
+    "Томми из лондонского паба знает: 'Если ты не знаешь времени, ты опоздаешь на рейс. Если не знаешь дат — пропустишь тур. Если не знаешь цифр — тебя обманут сдачей. Считай, братан, и будь в теме'."
+  ],
+  "why": [
+    "Чтобы называть время — на рейс, на встречу, на концерт",
+    "Чтобы понимать даты — билеты, контракты, туры",
+    "Чтобы считать деньги — цены, сдачу, гонорары",
+    "Чтобы говорить о возрасте — своём и чужом",
+    "Чтобы понимать исторические даты — рок-легенды, альбомы, туры"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Tommy, what time's the gig?", "ru": "Томми, во сколько концерт?" },
+      { "en": "Half past eight, mate. The soundcheck's at six, doors at seven, we hit the stage at half past eight. Don't be late.", "ru": "В половине девятого, братан. Саундчек в шесть, двери в семь, мы на сцене в половине девятого. Не опаздывай." },
+      { "en": "And what date's the next show?", "ru": "А какого числа следующий концерт?" },
+      { "en": "The 15th of June. That's a Thursday. Don't confuse it with the 15th of July — you'd miss the whole tour.", "ru": "Пятнадцатого июня. Это четверг. Не перепутай с пятнадцатым июля — пропустишь весь тур." }
+    ],
+    "note": "Диалог из лондонского паба. Томми объясняет, как не опоздать на концерт и не перепутать даты. Классика для рок-музыканта — точность в цифрах."
+  },
+  "russianAngle": [
+    "В русском 'двадцать пять минут шестого', в английском — 'twenty-five past five'. Порядок другой: сначала минуты, потом час.",
+    "В русском 'половина шестого' — 17:30. В английском — 'half past five'. Совпадает. А вот 'без пятнадцати шесть' — 'quarter to six'. Разницу нужно просто выучить.",
+    "Даты: в русском 'пятое июня две тысячи двадцать четвёртого'. В английском — 'the fifth of June, twenty twenty-four' или 'June the fifth, twenty twenty-four'.",
+    "Счёт: 'three hundred and fifty-seven' — обязательно 'and' между сотнями и десятками. Без 'and' — по-американски, но по-британски так не говорят."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Выучи счёт от 1 до 100 — база, без неё никуда.",
+      "Порядковые: first, second, third... Они нужны для дат.",
+      "Тренируй время: 'past' до получаса, 'to' после получаса.",
+      "Назови дату своего рождения по-английски. И год — правильно.",
+      "Считай всё: цены, сдачу, номера домов."
+    ],
+    "exercise": {
+      "prompt": "Скажи по-английски: 7:15, 8:45, 10:30, 12:00. Назови дату: 5 июня 1995 и год своего рождения.",
+      "items": [
+        { "q": "7:15", "a": "quarter past seven" },
+        { "q": "8:45", "a": "quarter to nine" },
+        { "q": "10:30", "a": "half past ten" },
+        { "q": "12:00", "a": "twelve o'clock" }
+      ]
+    }
+  },
+  "formula": "Число → время → дата → год. Всё по порядку, как рифф в песне.",
+  "structure": {
+    "positive": "Количественные: one, two... Порядковые: first, second... Время: minutes + past/to + hour. Даты: the + порядковое + of + месяц + год.",
+    "negative": "Не путай 'past' и 'to'. Не путай британские и американские даты. Не читай год как четыре цифры подряд.",
+    "question": "Как сказать '3:45'? — 'quarter to four'. Запомни — и будешь как рок-звезда."
+  },
+  "uses": [
+    "Говорить о времени — рейсы, туры, саундчеки",
+    "Говорить о датах — билеты, релизы, юбилеи",
+    "Говорить о возрасте — своём, чужом",
+    "Считать деньги — цены, сдачу, гонорары",
+    "Говорить о годах — рок-история, альбомы"
+  ],
+  "rules": [
+    {
+      "title": "Счёт от 1 до 100",
+      "text": "13-19 — '-teen': thirteen (13), fourteen (14). 20-90 — '-ty': twenty (20), thirty (30), forty (40) — запомни, без 'u'. Исключения: 11 — eleven, 12 — twelve."
+    },
+    {
+      "title": "Порядковые числительные",
+      "text": "1st — first, 2nd — second, 3rd — third. 4th — fourth, 5th — fifth, 6th — sixth. 21st — twenty-first, 22nd — twenty-second."
+    },
+    {
+      "title": "Время — как не опоздать на концерт",
+      "text": "До 30 минут: minutes + past + hour (ten past six — 6:10). 30 минут: half past. 15 минут: quarter past. После 30: minutes + to + next hour (twenty to seven — 6:40). Ровно час: o'clock."
+    },
+    {
+      "title": "Даты — не перепутай тур",
+      "text": "Британцы: the + порядковое + of + месяц + год (the 12th of June, 1996). Американцы: месяц + порядковое + год (June 12th, 1996). Год — как два числа: 1996 = nineteen ninety-six."
+    }
+  ],
+  "examples": [
+    {
+      "group": "Счёт — как считать биты",
+      "items": [
+        { "en": "1 — one, 2 — two, 3 — three, 4 — four, 5 — five", "ru": "Базовые числа — как первые пять нот", "highlight": ["one", "two", "three", "four", "five"] },
+        { "en": "10 — ten, 11 — eleven, 12 — twelve, 13 — thirteen", "ru": "Десятки: от 10 до 13", "highlight": ["ten", "eleven", "twelve", "thirteen"] },
+        { "en": "20 — twenty, 30 — thirty, 40 — forty, 50 — fifty", "ru": "Десятки: 20-50", "highlight": ["twenty", "thirty", "forty", "fifty"] },
+        { "en": "75 — seventy-five, 96 — ninety-six, 100 — one hundred", "ru": "Сложные числа: 75, 96, 100", "highlight": ["seventy-five", "ninety-six", "hundred"] }
+      ]
+    },
+    {
+      "group": "Порядковые — как считать плейлист",
+      "items": [
+        { "en": "1st — first, 2nd — second, 3rd — third, 4th — fourth", "ru": "Первые четыре порядковых", "highlight": ["first", "second", "third", "fourth"] },
+        { "en": "the 5th of June — the fifth of June", "ru": "Пятое июня", "highlight": ["fifth", "June"] },
+        { "en": "the 21st of December — the twenty-first of December", "ru": "Двадцать первое декабря", "highlight": ["twenty-first", "December"] }
+      ]
+    },
+    {
+      "group": "Время — для концертов и встреч",
+      "items": [
+        { "en": "It's ten past six — 6:10", "ru": "Десять минут седьмого", "highlight": ["ten past six"] },
+        { "en": "It's quarter past seven — 7:15", "ru": "Четверть восьмого", "highlight": ["quarter past seven"] },
+        { "en": "It's half past eight — 8:30", "ru": "Половина девятого", "highlight": ["half past eight"] },
+        { "en": "It's quarter to ten — 9:45", "ru": "Без четверти десять", "highlight": ["quarter to ten"] },
+        { "en": "It's twenty to eleven — 10:40", "ru": "Без двадцати одиннадцать", "highlight": ["twenty to eleven"] }
+      ]
+    },
+    {
+      "group": "Даты и годы — история рока",
+      "items": [
+        { "en": "the 5th of June, 1996 — the fifth of June, nineteen ninety-six", "ru": "Пятое июня 1996 — год выхода альбома", "highlight": ["fifth", "June", "nineteen ninety-six"] },
+        { "en": "July 4th, 1776 — July the fourth, seventeen seventy-six", "ru": "Четвёртое июля 1776 — День независимости", "highlight": ["fourth", "July", "seventeen seventy-six"] },
+        { "en": "the 1st of January, 2000 — the first of January, two thousand", "ru": "Первое января 2000 — начало века", "highlight": ["first", "January", "two thousand"] }
+      ]
+    },
+    {
+      "group": "Дроби и проценты — считаем как рок-звезды",
+      "items": [
+        { "en": "1/2 — a half, 1/3 — a third, 1/4 — a quarter", "ru": "Половина, треть, четверть", "highlight": ["half", "third", "quarter"] },
+        { "en": "2/3 — two thirds, 3/4 — three quarters", "ru": "Две трети, три четверти", "highlight": ["two thirds", "three quarters"] },
+        { "en": "25% — twenty-five per cent, 50% — fifty per cent", "ru": "Двадцать пять процентов, пятьдесят", "highlight": ["twenty-five per cent", "fifty per cent"] },
+        { "en": "75% — seventy-five per cent, 100% — one hundred per cent", "ru": "Семьдесят пять, сто", "highlight": ["seventy-five per cent", "one hundred per cent"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "It's thirty-five past eight (8:35)", "right": "It's twenty-five to nine", "note": "После получаса — 'to'. 8:35 = без двадцати пять минут девять." },
+    { "wrong": "I was born in 1996 — nineteen ninety six", "right": "I was born in 1996 — nineteen ninety-six", "note": "Год читается как два числа. 1996 = nineteen + ninety-six." },
+    { "wrong": "Today is 12 June", "right": "Today is the 12th of June", "note": "В датах нужен порядковый числительный. Британцы говорят the twelfth of June." },
+    { "wrong": "Two thousand twenty four (2024)", "right": "Twenty twenty-four", "note": "Сейчас говорят 'twenty twenty-four', а не 'two thousand twenty-four'." },
+    { "wrong": "It's two and fifty (£2.50)", "right": "It's two pounds fifty", "note": "Сначала валюта, потом мелочь: 'two pounds fifty'." }
+  ],
+  "compare": {
+    "title": "BrE vs AmE — считаем по-разному",
+    "leftLabel": "British Rock",
+    "rightLabel": "American Rock",
+    "rows": [
+      { "left": "12 June 1996 — the twelfth of June", "right": "June 12, 1996 — June twelfth" },
+      { "left": "half past six (6:30)", "right": "half past six / six thirty" },
+      { "left": "quarter to seven (6:45)", "right": "quarter to seven / six forty-five" },
+      { "left": "three hundred and fifty-seven", "right": "three hundred fifty-seven" }
+    ]
+  },
+  "tips": [
+    "Тренируй время каждый раз, когда смотришь на часы.",
+    "Даты в календаре — отличный тренажёр.",
+    "Считай всё: ступеньки, страницы, деньги.",
+    "Запомни: 11 — eleven, 12 — twelve, 40 — forty (без 'u').",
+    "В годах: 2000 — two thousand, 2010 — twenty ten.",
+    "Если сомневаешься — спроси: 'What time is it?'"
+  ],
+  "quiz": [
+    { "q": "Как сказать 7:15 по-английски?", "options": ["fifteen past seven", "quarter past seven", "seven fifteen"], "answer": 1 },
+    { "q": "Как сказать 8:45 по-английски?", "options": ["quarter to nine", "quarter past eight", "forty-five past eight"], "answer": 0 },
+    { "q": "Как сказать дату '5 июня 1995' по-британски?", "options": ["the fifth of June, nineteen ninety-five", "June the fifth, 1995", "fifth June, 1995"], "answer": 0 },
+    { "q": "Сколько будет 75% на английском?", "options": ["seventy five per cent", "seventy-five per cent", "seven five per cent"], "answer": 1 },
+    { "q": "Как сказать 'две трети'?", "options": ["two third", "two thirds", "two of three"], "answer": 1 }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "slug": "numbers-dates-time",
+  "title": "Numbers, Dates and Time",
+  "level": "A0",
+  "category": "grammar",
+  "variant": "classic",
+  "readingTime": 14,
+  "summary": "Цифры и время в английском. Как сказать, который час, назвать дату, посчитать деньги и не запутаться в годах. История точности от Гринвича до наших дней.",
+  "idea": [
+    "Цифры — это первый язык, который мы учим после родного. В английском они почти такие же, как в русском, но с одним важным отличием: порядок слов, десятки и сотни строятся иначе. Семьдесят пять — это seventy-five, а не «семьдесят и пять». Привыкнуть к этому — первый шаг к свободному счёту.",
+    "Даты в английском — это отдельная история. Британцы говорят сначала день, потом месяц: 12 June. Американцы — сначала месяц, потом день: June 12. Это не просто формальность — от этого зависит, поймут ли вас. И да, годы читаются не как четыре цифры, а как два двузначных числа: 1995 — nineteen ninety-five.",
+    "Мистер Беннет из «Гордости и предубеждения» часто сетовал: «Миссис Беннет уже двадцать лет твердит мне о времени — но часы показывают одно, а она говорит другое». Время — это не просто цифры на циферблате. Это культура. Британцы скажут «quarter to eleven», а не «10:45». И в этом есть свой шарм."
+  ],
+  "why": [
+    "Чтобы называть время в любой ситуации — поезда, встречи, расписания",
+    "Чтобы понимать даты в письмах, контрактах и билетах",
+    "Чтобы считать деньги, сдачу, проценты и скидки",
+    "Чтобы говорить о своём возрасте и возрасте других людей",
+    "Чтобы понимать, о каком годе идёт речь в книге или фильме"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Mr Bennet, what time is the carriage?", "ru": "Мистер Беннет, в котором часу подают карету?" },
+      { "en": "The carriage, my dear, will arrive at half past ten. Not at ten, not at eleven — at half past ten. I have checked the schedule.", "ru": "Карета, моя дорогая, прибудет в половине одиннадцатого. Не в десять, не в одиннадцать — в половине одиннадцатого. Я проверил расписание." },
+      { "en": "And what day is Mr Collins expected?", "ru": "А в какой день ожидают мистера Коллинза?" },
+      { "en": "The 15th of June. That is a Thursday. Do not confuse it with the 15th of July — he would arrive a month early, and I would never hear the end of it.", "ru": "Пятнадцатого июня. Это четверг. Не перепутайте с пятнадцатым июля — он приехал бы на месяц раньше, и я бы никогда не услышал конца этому." }
+    ],
+    "note": "Диалог из Лонгборна. Мистер Беннет, человек точный и ироничный, объясняет миссис Беннет разницу между датами и временем. Она, как обычно, не слушает."
+  },
+  "russianAngle": [
+    "В русском мы говорим «двадцать пять минут шестого», в английском — «twenty-five minutes past five». Сначала минуты, потом час. Это важно запомнить.",
+    "В русском «половина шестого» — это 17:30. В английском «half past five» — это 17:30. Совпадает! Но «четверть шестого» — это «quarter past five» (17:15), а «без четверти шесть» — это «quarter to six» (17:45). Разницу нужно просто выучить.",
+    "Даты в русском: «пятое июня две тысячи двадцать четвёртого года». В английском: «the fifth of June, twenty twenty-four» — или «June the fifth, twenty twenty-four». Год читается как два числа.",
+    "Счёт: в русском «триста пятьдесят семь», в английском — «three hundred and fifty-seven». Обязательно добавляем 'and' между сотнями и десятками. Это правило действует только в Британии — в Америке часто опускают."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Выучите количественные числительные от 1 до 100. Это база, без которой ничего не работает.",
+      "Затем порядковые: first, second, third... — они нужны для дат и этажей.",
+      "Тренируйте время: сначала «past» (до получаса), потом «to» (после получаса).",
+      "Попробуйте назвать дату своего рождения по-английски. И год — правильно, с разбивкой на два числа.",
+      "Считайте в уме всё, что видите: ценники, номера домов, страницы в книге."
+    ],
+    "exercise": {
+      "prompt": "Переведите на английский: 7:15, 8:45, 10:30, 12:00. Назовите дату 5 июня 1995 года и свой год рождения.",
+      "items": [
+        { "q": "7:15", "a": "quarter past seven" },
+        { "q": "8:45", "a": "quarter to nine" },
+        { "q": "10:30", "a": "half past ten" },
+        { "q": "12:00", "a": "twelve o'clock (noon/midnight)" }
+      ]
+    }
+  },
+  "formula": "Число → название числа → правильный порядок слов в дате и времени",
+  "structure": {
+    "positive": "Количественные: one, two, three... Порядковые: first, second, third... Время: minutes + past/to + hour. Даты: the + порядковое + of + месяц + год.",
+    "negative": "Ошибки: путать 'past' и 'to', путать британский и американский формат дат, читать год как четыре цифры подряд.",
+    "question": "Как сказать '3:45'? — 'quarter to four'. Почему не 'forty-five past three'? Потому что так говорят носители, и так учили мистера Беннета."
+  },
+  "uses": [
+    "Говорить о времени: встречи, расписания, поезда, самолёты",
+    "Говорить о датах: дни рождения, юбилеи, исторические события",
+    "Говорить о возрасте: свой, чужой, возраст вещей",
+    "Считать деньги, сдачу, проценты и скидки",
+    "Говорить о годе рождения и годах в истории"
+  ],
+  "rules": [
+    {
+      "title": "Количественные числительные 1-100",
+      "text": "13-19 заканчиваются на '-teen': thirteen (13), fourteen (14), fifteen (15). 20-90 заканчиваются на '-ty': twenty (20), thirty (30), forty (40). Исключения: 11 — eleven, 12 — twelve."
+    },
+    {
+      "title": "Порядковые числительные",
+      "text": "1st — first, 2nd — second, 3rd — third. Остальные: 4th — fourth, 5th — fifth, 6th — sixth. Для больших чисел: 21st — twenty-first, 22nd — twenty-second, 23rd — twenty-third."
+    },
+    {
+      "title": "Как говорить время",
+      "text": "До 30 минут: minutes + past + hour (например, ten past six — 6:10). Ровно 30 минут: half past. 15 минут: quarter past. После 30 минут: minutes + to + next hour (например, twenty to seven — 6:40). Ровно час: o'clock."
+    },
+    {
+      "title": "Как говорить даты",
+      "text": "Британский вариант: the + порядковое + of + месяц + год (the 12th of June, 1996). Американский: месяц + порядковое + год (June 12th, 1996). Год читается как два числа: 1996 = nineteen ninety-six."
+    },
+    {
+      "title": "Дроби и проценты",
+      "text": "1/2 = a half, 1/3 = a third, 1/4 = a quarter, 3/4 = three quarters. Проценты: 75% = seventy-five per cent. Дроби читаются с числителем количественным и знаменателем порядковым."
+    }
+  ],
+  "examples": [
+    {
+      "group": "Количественные числительные от 1 до 100",
+      "items": [
+        { "en": "1 — one, 2 — two, 3 — three, 4 — four, 5 — five", "ru": "Базовые числа: 1-5", "highlight": ["one", "two", "three", "four", "five"] },
+        { "en": "10 — ten, 11 — eleven, 12 — twelve, 13 — thirteen, 14 — fourteen", "ru": "Десятки: 10-14", "highlight": ["ten", "eleven", "twelve", "thirteen", "fourteen"] },
+        { "en": "20 — twenty, 30 — thirty, 40 — forty, 50 — fifty, 60 — sixty", "ru": "Десятки: 20-60", "highlight": ["twenty", "thirty", "forty", "fifty", "sixty"] },
+        { "en": "70 — seventy, 80 — eighty, 90 — ninety, 100 — one hundred", "ru": "Десятки: 70-100", "highlight": ["seventy", "eighty", "ninety", "hundred"] },
+        { "en": "25 — twenty-five, 38 — thirty-eight, 57 — fifty-seven, 93 — ninety-three", "ru": "Сложные числа: десятки + единицы", "highlight": ["twenty-five", "thirty-eight", "fifty-seven", "ninety-three"] }
+      ]
+    },
+    {
+      "group": "Порядковые числительные — даты и этажи",
+      "items": [
+        { "en": "1st — first, 2nd — second, 3rd — third, 4th — fourth, 5th — fifth", "ru": "Первые пять порядковых", "highlight": ["first", "second", "third", "fourth", "fifth"] },
+        { "en": "12th — twelfth, 20th — twentieth, 21st — twenty-first, 22nd — twenty-second", "ru": "Исключения и составные", "highlight": ["twelfth", "twentieth", "twenty-first", "twenty-second"] },
+        { "en": "the 5th of June — the fifth of June", "ru": "Дата: пятое июня", "highlight": ["fifth", "June"] },
+        { "en": "the 21st of December — the twenty-first of December", "ru": "Дата: двадцать первое декабря", "highlight": ["twenty-first", "December"] },
+        { "en": "the 1st of January — the first of January", "ru": "Дата: первое января", "highlight": ["first", "January"] }
+      ]
+    },
+    {
+      "group": "Как говорить время — классические примеры",
+      "items": [
+        { "en": "It's ten past six — 6:10", "ru": "Десять минут седьмого", "highlight": ["ten past six"] },
+        { "en": "It's quarter past seven — 7:15", "ru": "Четверть восьмого", "highlight": ["quarter past seven"] },
+        { "en": "It's half past eight — 8:30", "ru": "Половина девятого", "highlight": ["half past eight"] },
+        { "en": "It's quarter to ten — 9:45", "ru": "Без четверти десять", "highlight": ["quarter to ten"] },
+        { "en": "It's twenty to eleven — 10:40", "ru": "Без двадцати одиннадцать", "highlight": ["twenty to eleven"] },
+        { "en": "It's twelve o'clock — 12:00", "ru": "Ровно двенадцать", "highlight": ["twelve o'clock"] }
+      ]
+    },
+    {
+      "group": "Даты и годы — как говорят носители",
+      "items": [
+        { "en": "the 5th of June, 1996 — the fifth of June, nineteen ninety-six", "ru": "Пятое июня тысяча девятьсот девяносто шестого", "highlight": ["fifth", "June", "nineteen ninety-six"] },
+        { "en": "July 4th, 1776 — July the fourth, seventeen seventy-six", "ru": "Четвёртое июля тысяча семьсот семьдесят шестого (День независимости США)", "highlight": ["fourth", "July", "seventeen seventy-six"] },
+        { "en": "the 21st of December, 2012 — the twenty-first of December, twenty twelve", "ru": "Двадцать первое декабря две тысячи двенадцатого", "highlight": ["twenty-first", "December", "twenty twelve"] },
+        { "en": "the 1st of January, 2000 — the first of January, two thousand", "ru": "Первое января две тысячи", "highlight": ["first", "January", "two thousand"] }
+      ]
+    },
+    {
+      "group": "Дроби и проценты — считаем точно",
+      "items": [
+        { "en": "1/2 — a half, 1/3 — a third, 1/4 — a quarter", "ru": "Половина, треть, четверть", "highlight": ["half", "third", "quarter"] },
+        { "en": "2/3 — two thirds, 3/4 — three quarters", "ru": "Две трети, три четверти", "highlight": ["two thirds", "three quarters"] },
+        { "en": "25% — twenty-five per cent, 50% — fifty per cent", "ru": "Двадцать пять процентов, пятьдесят процентов", "highlight": ["twenty-five per cent", "fifty per cent"] },
+        { "en": "75% — seventy-five per cent, 100% — one hundred per cent", "ru": "Семьдесят пять процентов, сто процентов", "highlight": ["seventy-five per cent", "one hundred per cent"] }
+      ]
+    },
+    {
+      "group": "Возраст и порядок в предложении",
+      "items": [
+        { "en": "He is twenty-five years old — He is 25 years old.", "ru": "Ему двадцать пять лет", "highlight": ["twenty-five"] },
+        { "en": "She was born on the 12th of May, 1990 — She was born on May 12th, 1990.", "ru": "Она родилась двенадцатого мая тысяча девятьсот девяностого", "highlight": ["12th", "May", "1990"] },
+        { "en": "I get up at half past seven every day.", "ru": "Я встаю в половине восьмого каждый день", "highlight": ["half past seven"] },
+        { "en": "The train leaves at quarter to eight in the morning.", "ru": "Поезд отправляется без четверти восемь утра", "highlight": ["quarter to eight"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "It's thirty-five past eight (для 8:35)", "right": "It's twenty-five to nine", "note": "После получаса мы считаем не 'минуты после', а 'минуты до'. 8:35 = без двадцати пять минут девять." },
+    { "wrong": "I was born in 1996 — nineteen ninety six", "right": "I was born in 1996 — nineteen ninety-six", "note": "Год читается как два числа: 1996 = nineteen + ninety-six. Но 2000 — two thousand, 2001 — two thousand and one." },
+    { "wrong": "Today is 12 June (без the)", "right": "Today is the 12th of June", "note": "В датах нужен порядковый числительный и артикль 'the'. Британцы пишут 12 June, но говорят the twelfth of June." },
+    { "wrong": "Fifteen hundred (для 1500 года)", "right": "Fifteen hundred или one thousand five hundred", "note": "Для годов 1500 можно сказать 'fifteen hundred', но для 1995 — только 'nineteen ninety-five'." },
+    { "wrong": "Two thousand twenty four (для 2024)", "right": "Twenty twenty-four", "note": "Сейчас принято говорить 'twenty twenty-four', а не 'two thousand twenty-four'." },
+    { "wrong": "It's two and fifty (для 2.50 £)", "right": "It's two pounds fifty", "note": "В английском сначала говорят валюту, потом мелочь: 'two pounds fifty' или 'two fifty' (в разговорной речи)." }
+  ],
+  "compare": {
+    "title": "BrE vs AmE — даты, время, счёт",
+    "leftLabel": "British English",
+    "rightLabel": "American English",
+    "rows": [
+      { "left": "12 June 1996 — the twelfth of June, nineteen ninety-six", "right": "June 12, 1996 — June twelfth, nineteen ninety-six" },
+      { "left": "half past six (6:30)", "right": "half past six или six thirty" },
+      { "left": "quarter to seven (6:45)", "right": "a quarter to seven или six forty-five" },
+      { "left": "three hundred and fifty-seven (357)", "right": "three hundred fifty-seven (без and)" },
+      { "left": "one thousand nine hundred and ninety-five (1995 год)", "right": "nineteen ninety-five" }
+    ]
+  },
+  "tips": [
+    "Тренируйте время каждый раз, когда смотрите на часы. Называйте их по-английски: 'It's ten past nine'.",
+    "Даты в календаре — отличный тренажёр. Каждый день называйте дату по-английски.",
+    "Считайте всё вокруг: ступеньки, страницы, деньги. Привычка считать по-английски — это половина успеха.",
+    "Не пытайтесь переводить с русского дословно. 'Without fifteen nine' — так не говорят. Говорят 'quarter to nine'.",
+    "Запомните исключения: 11 — eleven, 12 — twelve, 20 — twenty, 30 — thirty, 40 — forty (без 'u'!).",
+    "В годах: 2000 — two thousand, 2001 — two thousand and one, а 2010 — twenty ten или two thousand and ten.",
+    "Если сомневаетесь — спросите: 'What time is it?' или 'What's the date today?' Носители всегда поймут." 
+  ],
+  "quiz": [
+    { "q": "Как сказать 7:15 по-английски?", "options": ["fifteen past seven", "quarter past seven", "seven fifteen"], "answer": 1 },
+    { "q": "Как сказать 8:45 по-английски?", "options": ["quarter to nine", "quarter past eight", "forty-five past eight"], "answer": 0 },
+    { "q": "Как сказать дату '5 июня 1995' по-британски?", "options": ["the fifth of June, nineteen ninety-five", "June the fifth, 1995", "fifth June, 1995"], "answer": 0 },
+    { "q": "Сколько будет 75% на английском?", "options": ["seventy five per cent", "seventy-five per cent", "seven five per cent"], "answer": 1 },
+    { "q": "Как сказать 'две трети' по-английски?", "options": ["two third", "two thirds", "two of three"], "answer": 1 },
+    { "q": "Как сказать 'двадцать один' по-английски?", "options": ["twenty one", "twenty-one", "twentyone"], "answer": 1 }
+  ]
+}
