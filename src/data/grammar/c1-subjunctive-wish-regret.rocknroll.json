@@ -1,0 +1,200 @@
+{
+  "variant": "rocknroll",
+  "slug": "c1-subjunctive-wish-regret",
+  "level": "C1",
+  "title": "Subjunctive / Wish / Regret",
+  "category": "Verb forms",
+  "readingTime": 11,
+  "summary": "Сослагательное наклонение, wish, regret — выражение желаний и сожалений. История о том, как R.E.M. записали «Losing My Religion».",
+  "idea": [
+    "R.E.M. выпустили «Losing My Religion» в 1991 году. Это была одна из самых успешных песен группы. Майкл Стайп использовал сослагательное наклонение, чтобы выразить сожаления и желания. «I wish I hadn't said that» — хотел бы я не говорить этого. «If only I could take it back» — если бы только я мог вернуть это. «It's time I moved on» — мне пора двигаться дальше. «I would rather be alone than be with you» — я бы лучше был один, чем с тобой.",
+    "Название песни происходит от южного выражения, означающего «потерять самообладание». Песня стала неожиданным хитом. Майкл Стайп говорил: «If only I had known it would be so popular, I would have written more songs like it». Это была их самая успешная песня в чартах. Группа использовала сослагательное наклонение, чтобы выразить эмоции и сомнения.",
+    "Subjunctive / Wish / Regret — это способы выразить желания, сожаления и нереальные ситуации. Wish + Past Simple (I wish I were). Wish + Past Perfect (I wish I had known). If only (If only I could). It's time + Past Simple (It's time I moved on). Would rather + Past Simple (I would rather be alone)."
+  ],
+  "why": [
+    "Выражать желания: I wish I were free.",
+    "Выражать сожаления: I wish I hadn't said that.",
+    "Говорить о том, что пора что-то сделать: It's time I moved on.",
+    "Выражать предпочтения: I would rather be alone."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Michael Stipe: 'I wish I hadn't said that. If only I could take it back. It's time I moved on. I would rather be alone than be with you.'",
+        "ru": "Майкл Стайп: «Хотел бы я не говорить этого. Если бы только я мог вернуть это. Мне пора двигаться дальше. Я бы лучше был один, чем с тобой»." },
+      { "en": "Producer: 'I suggest that you release it as a single. It is important that people hear this song.'",
+        "ru": "Продюсер: «Я предлагаю, чтобы вы выпустили это как сингл. Важно, чтобы люди услышали эту песню»." }
+    ],
+    "note": "wish + Past Perfect (прошлое); if only + Past Simple / Past Perfect; it's time + Past Simple; would rather + V1."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим: «хотел бы я...», «если бы только...», «пора...», «я бы лучше...». В английском — wish, if only, it's time, would rather.",
+    "wish + Past Simple = желание изменить настоящее (I wish I were).",
+    "wish + Past Perfect = сожаление о прошлом (I wish I had known).",
+    "Субстантивное наклонение: I suggest that he go (без -s)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: wish + Past Simple = желание изменить настоящее.",
+      "wish + Past Perfect = сожаление о прошлом.",
+      "wish + would = недовольство.",
+      "if only = более эмоциональный wish.",
+      "it's time + Past Simple = пора сделать.",
+      "would rather + V1 = предпочтение.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Закончи предложения, используя правильную форму (wish, if only, it's time, would rather):",
+      "items": [
+        { "q": "I wish I ___ (not / say) that.", "a": "hadn't said" },
+        { "q": "If only I ___ (can) take it back.", "a": "could" },
+        { "q": "It's time I ___ (move) on.", "a": "moved" },
+        { "q": "I would rather ___ (be) alone.", "a": "be" },
+        { "q": "I suggest that we ___ (release) it as a single.", "a": "release" }
+      ]
+    }
+  },
+  "formula": "wish + Past Simple / Past Perfect / would · if only + Past Simple / Past Perfect / would · it's time + Past Simple · would rather + Past Simple",
+  "structure": {
+    "positive": "I wish I hadn't said that.",
+    "negative": "I wish I had said that.",
+    "question": "Do you wish you hadn't said that?"
+  },
+  "markers": ["wish", "if only", "it's time", "would rather", "suggest", "insist", "demand", "require", "recommend"],
+  "uses": [
+    "wish + Past Simple: желание изменить настоящее.",
+    "wish + Past Perfect: сожаление о прошлом.",
+    "wish + would: недовольство.",
+    "it's time + Past Simple: пора сделать.",
+    "would rather + V1: предпочтение."
+  ],
+  "rules": [
+    { "title": "wish + Past Simple",
+      "text": "Используется для выражения желания изменить настоящее. I wish I were free." },
+    { "title": "wish + Past Perfect",
+      "text": "Используется для выражения сожаления о прошлом. I wish I hadn't said that." },
+    { "title": "wish + would",
+      "text": "Используется для выражения недовольства. I wish you would understand." },
+    { "title": "it's time + Past Simple",
+      "text": "Используется для выражения, что пора что-то сделать. It's time I moved on." },
+    { "title": "would rather + V1",
+      "text": "Используется для выражения предпочтения. I would rather be alone." },
+    { "title": "Субстантивное наклонение",
+      "text": "После suggest, insist, demand, require, recommend + that + subject + V1 (без -s). I suggest that we release it." }
+  ],
+  "examples": [
+    {
+      "group": "wish + Past Simple — желание изменить настоящее",
+      "items": [
+        { "en": "I wish I were free.", "ru": "Хотел бы я быть свободным.", "highlight": ["wish", "were"] },
+        { "en": "I wish I were a better person.", "ru": "Хотел бы я быть лучшим человеком.", "highlight": ["wish", "were"] },
+        { "en": "I wish I were there right now.", "ru": "Хотел бы я быть там прямо сейчас.", "highlight": ["wish", "were"] }
+      ]
+    },
+    {
+      "group": "wish + Past Perfect — сожаление о прошлом",
+      "items": [
+        { "en": "I wish I hadn't said that.", "ru": "Хотел бы я не говорить этого.", "highlight": ["wish", "hadn't said"] },
+        { "en": "If only I could take it back.", "ru": "Если бы только я мог вернуть это.", "highlight": ["If only", "could take"] },
+        { "en": "I wish I had written more songs.", "ru": "Хотел бы я написать больше песен.", "highlight": ["wish", "had written"] }
+      ]
+    },
+    {
+      "group": "wish + would — недовольство",
+      "items": [
+        { "en": "I wish you would listen.", "ru": "Хотел бы я, чтобы ты слушал.", "highlight": ["wish", "would listen"] },
+        { "en": "I wish they would understand.", "ru": "Хотел бы я, чтобы они поняли.", "highlight": ["wish", "would understand"] },
+        { "en": "I wish people would stop judging.", "ru": "Хотел бы я, чтобы люди перестали судить.", "highlight": ["wish", "would stop"] }
+      ]
+    },
+    {
+      "group": "it's time + Past Simple — пора сделать",
+      "items": [
+        { "en": "It's time I moved on.", "ru": "Мне пора двигаться дальше.", "highlight": ["It's time", "moved"] },
+        { "en": "It's time we made a decision.", "ru": "Нам пора принять решение.", "highlight": ["It's time", "made"] },
+        { "en": "It's time you left.", "ru": "Тебе пора уходить.", "highlight": ["It's time", "left"] }
+      ]
+    },
+    {
+      "group": "would rather + V1 — предпочтение",
+      "items": [
+        { "en": "I would rather be alone.", "ru": "Я бы лучше был один.", "highlight": ["would rather be"] },
+        { "en": "I would rather die than give up.", "ru": "Я бы лучше умер, чем сдался.", "highlight": ["would rather die"] },
+        { "en": "I would rather you didn't go.", "ru": "Я бы предпочёл, чтобы ты не уходил.", "highlight": ["would rather", "didn't go"] }
+      ]
+    },
+    {
+      "group": "Субстантивное наклонение (formal subjunctive)",
+      "items": [
+        { "en": "I suggest that we release it as a single.", "ru": "Я предлагаю, чтобы мы выпустили это как сингл.", "highlight": ["suggest", "release"] },
+        { "en": "It is important that people hear this song.", "ru": "Важно, чтобы люди услышали эту песню.", "highlight": ["is important", "hear"] },
+        { "en": "I demand that he apologize.", "ru": "Я требую, чтобы он извинился.", "highlight": ["demand", "apologize"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I wish I didn't say that.", "right": "I wish I hadn't said that.", "note": "О прошлом — wish + Past Perfect." },
+    { "wrong": "I wish I would be free.", "right": "I wish I were free.", "note": "После wish — Past Simple (were)." },
+    { "wrong": "It's time I move on.", "right": "It's time I moved on.", "note": "it's time + Past Simple." },
+    { "wrong": "I would rather to be alone.", "right": "I would rather be alone.", "note": "После would rather — V1 (без to)." },
+    { "wrong": "I suggest that he releases it.", "right": "I suggest that he release it.", "note": "Субстантивное наклонение — V1 (без -s)." },
+    { "wrong": "It is important that he is here.", "right": "It is important that he be here.", "note": "Субстантивное наклонение — be." }
+  ],
+  "compare": {
+    "title": "Wish / If only / It's time / Would rather",
+    "leftLabel": "wish / if only",
+    "rightLabel": "it's time / would rather",
+    "rows": [
+      { "left": "I wish I were free. (желание)", "right": "It's time I moved on. (пора)" },
+      { "left": "If only I could take it back. (сожаление)", "right": "I would rather be alone. (предпочтение)" },
+      { "left": "wish + Past Simple / Past Perfect", "right": "it's time + Past Simple / would rather + V1" }
+    ]
+  },
+  "tips": [
+    "wish + Past Simple = желание изменить настоящее.",
+    "wish + Past Perfect = сожаление о прошлом.",
+    "wish + would = недовольство.",
+    "if only = более эмоциональный wish.",
+    "it's time + Past Simple = пора сделать.",
+    "would rather + V1 = предпочтение (для себя).",
+    "would rather + Past Simple = предпочтение (для других)."
+  ],
+  "related": ["c1-cleft-sentences", "c1-emphasis-do-and-fronting", "c1-inversion-after-negative-adverbials", "c1-inversion-in-conditionals"],
+  "quiz": [
+    {
+      "q": "I wish I ___ that.",
+      "options": ["hadn't said", "didn't say", "wouldn't say", "haven't said"],
+      "answer": 0,
+      "why": "wish + Past Perfect для сожаления о прошлом."
+    },
+    {
+      "q": "If only I ___ take it back.",
+      "options": ["could", "can", "would", "will"],
+      "answer": 0,
+      "why": "if only + could для желания."
+    },
+    {
+      "q": "It's time I ___ on.",
+      "options": ["moved", "move", "have moved", "had moved"],
+      "answer": 0,
+      "why": "it's time + Past Simple."
+    },
+    {
+      "q": "I would rather ___ alone.",
+      "options": ["be", "to be", "being", "been"],
+      "answer": 0,
+      "why": "would rather + V1 (без to)."
+    },
+    {
+      "q": "I suggest that we ___ it as a single.",
+      "options": ["release", "releases", "released", "had released"],
+      "answer": 0,
+      "why": "Субстантивное наклонение — V1 (без -s)."
+    },
+    {
+      "q": "I wish you ___ understand me.",
+      "options": ["would", "will", "should", "had"],
+      "answer": 0,
+      "why": "wish + would для недовольства."
+    }
+  ]
+}

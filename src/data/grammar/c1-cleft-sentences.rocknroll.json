@@ -1,0 +1,194 @@
+{
+  "variant": "rocknroll",
+  "slug": "c1-cleft-sentences",
+  "level": "C1",
+  "title": "Cleft sentences",
+  "category": "Emphasis",
+  "readingTime": 11,
+  "summary": "Cleft sentences — конструкции для выделения информации. История о том, как Nirvana записали «Nevermind» и изменили историю музыки.",
+  "idea": [
+    "Nirvana выпустили «Nevermind» в 1991 году. Это был альбом, который изменил историю музыки. Именно песня «Smells Like Teen Spirit» сделала группу знаменитой. Что Курт хотел создать, так это что-то честное и сырое. Не слава имела значение, а музыка. Именно гранж, а не поп-музыка, стал голосом поколения.",
+    "Курт Кобейн говорил: «It was the song 'Smells Like Teen Spirit' that made us famous». «What I wanted to create was something honest and raw». «It was not the fame that mattered, it was the music». Эти конструкции помогали ему делать акцент на главном.",
+    "Cleft sentences — это конструкции, которые выделяют информацию. It is/was + выделяемая часть + that/who + остальное. What + глагол + is/was + выделяемая часть. Они используются для акцента и эмфазы в письменной и устной речи."
+  ],
+  "why": [
+    "Выделять информацию: It was the song that made them famous.",
+    "Делать акцент: What he wanted to create was something honest.",
+    "Создавать контраст: It was not the fame that mattered, but the music.",
+    "Делать речь более выразительной."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Kurt Cobain: 'It was the song 'Smells Like Teen Spirit' that made us famous. What I wanted to create was something honest and raw. It was not the fame that mattered, it was the music.'",
+        "ru": "Курт Кобейн: «Именно песня «Smells Like Teen Spirit» сделала нас знаменитыми. Что я хотел создать, так это что-то честное и сырое. Не слава имела значение, а музыка»." },
+      { "en": "Producer: 'It was the album that changed everything. What the world needed was something real.'",
+        "ru": "Продюсер: «Именно альбом изменил всё. Что миру было нужно, так это что-то настоящее»." }
+    ],
+    "note": "It was the song that... What I wanted to create was... It was not... that... but..."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим: «именно эта песня сделала нас знаменитыми». В английском — It was this song that made us famous.",
+    "Cleft sentences = выделение информации.",
+    "It is/was + выделяемая часть + that/who.",
+    "What + глагол + is/was + выделяемая часть."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: Cleft sentences выделяют информацию.",
+      "It is/was + выделяемая часть + that/who + остальное.",
+      "What + глагол + is/was + выделяемая часть.",
+      "It is not... but... — для контраста.",
+      "Используй для акцента в речи.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте обычные предложения в cleft sentences:",
+      "items": [
+        { "q": "The song made them famous. → It ___ the song ___ made them famous.", "a": "was, that" },
+        { "q": "Kurt wanted to create something honest. → What Kurt ___ ___ create was something honest.", "a": "wanted to" },
+        { "q": "The album changed everything. → It ___ the album ___ changed everything.", "a": "was, that" },
+        { "q": "The fame didn't matter. The music mattered. → It was ___ the fame ___ mattered, ___ the music.", "a": "not, that, but" },
+        { "q": "The world needed something real. → What the world ___ was something real.", "a": "needed" }
+      ]
+    }
+  },
+  "formula": "It is/was + X + that/who + Y · What + Z + is/was + X",
+  "structure": {
+    "positive": "It was the song that made them famous.",
+    "negative": "It wasn't the song that made them famous.",
+    "question": "Was it the song that made them famous?"
+  },
+  "markers": ["it is", "it was", "what", "that", "who", "which", "not... but..."],
+  "uses": [
+    "It was the song that made them famous. (выделение объекта)",
+    "What I wanted to create was something honest. (выделение желания)",
+    "It was not the fame that mattered, but the music. (контраст)",
+    "What the world needed was something real. (выделение потребности)"
+  ],
+  "rules": [
+    { "title": "It is/was... that/who...",
+      "text": "It was the song that made them famous. It was Kurt who wrote the song." },
+    { "title": "What... is/was...",
+      "text": "What I wanted to create was something honest." },
+    { "title": "It is not... but...",
+      "text": "It was not the fame that mattered, but the music." },
+    { "title": "Выделение информации",
+      "text": "Cleft sentences используются для выделения ключевой информации." }
+  ],
+  "examples": [
+    {
+      "group": "It is/was... that/who... — выделение объекта или человека",
+      "items": [
+        { "en": "It was the song 'Smells Like Teen Spirit' that made them famous.", "ru": "Именно песня «Smells Like Teen Spirit» сделала их знаменитыми.", "highlight": ["It was", "that"] },
+        { "en": "It was Kurt Cobain who wrote the song.", "ru": "Именно Курт Кобейн написал песню.", "highlight": ["It was", "who"] },
+        { "en": "It was the album that changed everything.", "ru": "Именно альбом изменил всё.", "highlight": ["It was", "that"] }
+      ]
+    },
+    {
+      "group": "What... is/was... — выделение желания, действия",
+      "items": [
+        { "en": "What I wanted to create was something honest and raw.", "ru": "Что я хотел создать, так это что-то честное и сырое.", "highlight": ["What", "was"] },
+        { "en": "What the world needed was something real.", "ru": "Что миру было нужно, так это что-то настоящее.", "highlight": ["What", "was"] },
+        { "en": "What matters is the music, not the fame.", "ru": "Что важно, так это музыка, а не слава.", "highlight": ["What", "is"] }
+      ]
+    },
+    {
+      "group": "It is not... that... but... — контраст",
+      "items": [
+        { "en": "It was not the fame that mattered, but the music.", "ru": "Не слава имела значение, а музыка.", "highlight": ["not", "that", "but"] },
+        { "en": "It is not the money that drives them, but the passion.", "ru": "Не деньги движут ими, а страсть.", "highlight": ["not", "that", "but"] },
+        { "en": "It was not the success that he wanted, but the freedom.", "ru": "Не успех он хотел, а свободу.", "highlight": ["not", "that", "but"] }
+      ]
+    },
+    {
+      "group": "What... is/was... — выделение неожиданности",
+      "items": [
+        { "en": "What surprised everyone was the success of the album.", "ru": "Что удивило всех, так это успех альбома.", "highlight": ["What", "was"] },
+        { "en": "What I remember most is the first time I heard the song.", "ru": "Что я помню больше всего, так это первый раз, когда я услышал песню.", "highlight": ["What", "is"] },
+        { "en": "What changed everything was the release of Nevermind.", "ru": "Что изменило всё, так это выход Nevermind.", "highlight": ["What", "was"] }
+      ]
+    },
+    {
+      "group": "It was... that... — выделение времени",
+      "items": [
+        { "en": "It was in 1991 that Nevermind was released.", "ru": "Именно в 1991 году Nevermind был выпущен.", "highlight": ["It was", "that"] },
+        { "en": "It was after the song became a hit that the album took off.", "ru": "Именно после того, как песня стала хитом, альбом взлетел.", "highlight": ["It was", "that"] },
+        { "en": "It was at that moment that they knew they had changed music.", "ru": "Именно в тот момент они поняли, что изменили музыку.", "highlight": ["It was", "that"] }
+      ]
+    },
+    {
+      "group": "Сравнение с обычным предложением",
+      "items": [
+        { "en": "The song made them famous. → It was the song that made them famous.", "ru": "Песня сделала их знаменитыми. → Именно песня сделала их знаменитыми.", "highlight": ["that"] },
+        { "en": "Kurt wanted to create something honest. → What Kurt wanted to create was something honest.", "ru": "Курт хотел создать что-то честное. → Что Курт хотел создать, так это что-то честное.", "highlight": ["What", "was"] },
+        { "en": "The album changed everything. → It was the album that changed everything.", "ru": "Альбом изменил всё. → Именно альбом изменил всё.", "highlight": ["It was", "that"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "It was the song which made them famous.", "right": "It was the song that made them famous.", "note": "В cleft sentences после выделяемой части обычно that, но which тоже допустимо." },
+    { "wrong": "It was the song that made them famous. (правильно)", "right": "It was the song that made them famous.", "note": "Правильно!" },
+    { "wrong": "What I wanted to create it was something honest.", "right": "What I wanted to create was something honest.", "note": "Не нужно it после глагола." },
+    { "wrong": "What I wanted to create was something honest. (правильно)", "right": "What I wanted to create was something honest.", "note": "Правильно!" },
+    { "wrong": "It was not the fame that mattered, it is the music.", "right": "It was not the fame that mattered, but the music.", "note": "Для контраста — not... but..." },
+    { "wrong": "It was the song what made them famous.", "right": "It was the song that made them famous.", "note": "После it is/was — that, не what." }
+  ],
+  "compare": {
+    "title": "Обычное предложение vs Cleft sentence",
+    "leftLabel": "Обычное предложение",
+    "rightLabel": "Cleft sentence",
+    "rows": [
+      { "left": "The song made them famous.", "right": "It was the song that made them famous." },
+      { "left": "Kurt wanted to create something honest.", "right": "What Kurt wanted to create was something honest." },
+      { "left": "The fame didn't matter.", "right": "It was not the fame that mattered." }
+    ]
+  },
+  "tips": [
+    "It is/was + X + that/who + Y — для выделения.",
+    "What + Z + is/was + X — для выделения действия.",
+    "It is not... but... — для контраста.",
+    "Cleft sentences делают речь более выразительной.",
+    "Используй в интервью, рассказах, статьях.",
+    "Не перегружай текст cleft sentences — используй умеренно.",
+    "Проверяй, что выделяешь именно то, что хочешь подчеркнуть."
+  ],
+  "related": ["c1-emphasis-do-and-fronting", "c1-inversion-after-negative-adverbials", "c1-subjunctive-wish-regret"],
+  "quiz": [
+    {
+      "q": "It ___ the song ___ made them famous.",
+      "options": ["was, that", "is, which", "was, what", "is, that"],
+      "answer": 0,
+      "why": "It is/was + X + that/who + Y."
+    },
+    {
+      "q": "What Kurt wanted ___ create ___ something honest.",
+      "options": ["to, was", "to, is", "for, was", "for, is"],
+      "answer": 0,
+      "why": "What + глагол + is/was + X."
+    },
+    {
+      "q": "It was not the fame ___ mattered, ___ the music.",
+      "options": ["that, but", "what, and", "which, but", "that, and"],
+      "answer": 0,
+      "why": "It is not... that... but..."
+    },
+    {
+      "q": "___ the world needed was something real.",
+      "options": ["What", "That", "Which", "It"],
+      "answer": 0,
+      "why": "What + глагол + is/was + X."
+    },
+    {
+      "q": "It ___ the album ___ changed everything.",
+      "options": ["was, that", "is, which", "was, what", "is, that"],
+      "answer": 0,
+      "why": "It is/was + X + that/who + Y."
+    },
+    {
+      "q": "___ matters is the music, not the fame.",
+      "options": ["What", "That", "Which", "It"],
+      "answer": 0,
+      "why": "What + глагол + is/was + X."
+    }
+  ]
+}

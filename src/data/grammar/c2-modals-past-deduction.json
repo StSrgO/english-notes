@@ -1,216 +1,210 @@
 {
- "slug": "c2-modals-past-deduction",
- "title": "Modals of past deduction & criticism",
- "level": "C2",
- "category": "Modal verbs",
- "readingTime": 14,
- "summary": "Модальный + have + причастие — это умозаключение и упрёк о прошлом: He must have missed the train (наверняка), She can't have said that (не может быть), You should have told me (надо было), You needn't have bought milk (зря купил). Шкала уверенности и тонкие различия.",
- "idea": [
-  "Модальные глаголы в английском умеют смотреть в прошлое, и для этого к ним добавляется связка have + причастие прошедшего времени: must have done, can't have done, should have done. Этот механизм покрывает две большие задачи, которые по‑русски звучат совсем разными словами. Первая — дедукция, умозаключение о том, что произошло: глядя на пустую тарелку, ты заключаешь He must have been hungry (должно быть, он был голоден); услышав нелепую историю — She can't have meant that (не может быть, чтобы она это имела в виду). Вторая — критика и сожаление о несделанном или сделанном зря: You should have told me (надо было мне сказать — но не сказал); You shouldn't have said that (не надо было этого говорить — но сказал); You needn't have bought milk (не надо было покупать молоко — но купил, зря). По‑русски это разбросано по частицам и вводным словам — «наверное», «должно быть», «не может быть», «надо было», «зря» — а английский упаковывает всё в одну аккуратную формулу: модальный + have + V3. Освоить её — значит получить точный инструмент для догадок и упрёков, без которого речь звучит неуверенно и по‑детски.",
-  "Разберём дедукцию как шкалу уверенности, потому что именно здесь выбирается модальный. На верхнем полюсе положительной уверенности — must have: He must have missed the train означает «я почти уверен, что он опоздал на поезд», вывод из свидетельств, около 95% уверенности. На верхнем полюсе отрицательной уверенности — can't have (или couldn't have): She can't have left already — «не может быть, чтобы она уже ушла», тоже около 95%, но в минус. Обрати внимание: для отрицательной дедукции берётся именно can't have, а НЕ mustn't have — это одна из самых частых ошибок, потому что по‑русски «не должен был» так и просится как mustn't, но mustn't означает запрет в настоящем, а не умозаключение о прошлом. Посередине шкалы, в зоне неуверенности, живут may have, might have и could have: He might have forgotten, She may have taken the earlier bus, It could have been worse — «возможно, может быть», примерно 50% и ниже, без сильного обязательства. Запомни ось: must have (уверен, что да) → may/might/could have (возможно) → can't have (уверен, что нет).",
-  "Теперь критика и сожаление, где модальный несёт не догадку, а оценку. should have и ought to have + V3 — это «надо было, но не сделал», упрёк или запоздалое сожаление: You should have told me; I ought to have checked the map. shouldn't have — зеркально, «не надо было, но сделал»: You shouldn't have lied. Отдельная жемчужина C2 — needn't have done против didn't need to do, пара, на которой ловят всех. needn't have + V3 означает «не надо было делать — но ты сделал, зря»: You needn't have cooked — we'd already eaten (ты готовил, но напрасно). didn't need to do означает «не было необходимости делать — и, как правило, не сделал»: I didn't need to bring food, so I didn't (не нужно было — и я не принёс). Разница в том, состоялось ли действие: needn't have — действие было, но лишнее; didn't need to — действия, скорее всего, не было. И ещё could have + V3 в значении «мог бы, но не сделал», с оттенком упрёка или упущенной возможности: You could have helped! (Мог бы и помочь!); She could have been killed! (Её ведь могли убить! — могло случиться, но не случилось). Унеси три вещи: дедукция — это шкала уверенности must have / might have / can't have, и для отрицательной догадки только can't have, никогда mustn't have; критика — should/ought to have и shouldn't have; needn't have = сделал зря, didn't need to = не нужно было и не сделал. Всё это — одна формула modal + have + V3, и форма never меняется: не has, не had, всегда have + причастие."
- ],
- "why": [
-  "Делать обоснованные догадки о прошлом: The lights are off — they must have gone to bed.",
-  "Выражать упрёк и сожаление точно и по‑взрослому: You should have warned me; I ought to have listened.",
-  "Различать «зря сделал» и «не нужно было делать»: You needn't have worried vs You didn't need to worry.",
-  "Звучать естественно в спорах, расследованиях, пересказах — везде, где мы умозаключаем и оцениваем прошлое."
- ],
- "context": {
-  "lines": [
-   { "en": "Tom's not answering his phone. — He must have left the office already; his coat's gone.", "ru": "Том не берёт трубку. — Должно быть, он уже ушёл из офиса; его пальто нет." },
-   { "en": "He can't have driven home — his car's still in the parking lot.", "ru": "Не может быть, чтобы он уехал домой — его машина всё ещё на парковке." },
-   { "en": "Maybe he took the bus. He might have missed the last train, you know.", "ru": "Может, он поехал на автобусе. Он ведь мог опоздать на последнюю электричку." },
-   { "en": "You should have called me! I needn't have waited up for you — I was worried sick.", "ru": "Надо было позвонить мне! Мне не нужно было ждать тебя — я с ума сходила от волнения (и зря ждала)." }
+  "variant": "classic",
+  "slug": "c2-modals-past-deduction",
+  "level": "C2",
+  "title": "Modals of past deduction",
+  "category": "Modal verbs",
+  "readingTime": 12,
+  "summary": "Modals of past deduction — предположения, выводы и критика о прошлом. История о том, как Джек Керуак написал «В дороге» на одном рулонном свитке за три недели.",
+  "idea": [
+    "Джек Керуак написал «В дороге» в 1951 году. Он написал его за три недели на одном рулонном свитке бумаги длиной 37 метров. Он должен был годами собирать материал для этого романа. Он не мог написать его без подготовки. Он мог бы переписать его в более традиционной форме, но он выбрал спонтанный стиль. Он, должно быть, пытался передать ритм джаза. Он не мог написать это трезвым. Возможно, на него повлиял его друг Нил Кэссиди. Ему следовало отредактировать это более тщательно. Он мог бы стать ещё более известным, если бы прожил дольше. Ему не нужно было так переживать из-за критиков.",
+    "Керуак умер в 1969 году в возрасте 47 лет от алкоголизма. Он всегда говорил, что его лучшая книга — «В дороге», но критики часто считали его «одноразовым» писателем. Только после смерти его признали классиком. Почему он не смог повторить свой успех? Он, должно быть, потерял вдохновение. Он не мог найти новую тему. Возможно, он слишком много пил. Ему следовало больше заботиться о своём здоровье. Он мог бы жить дольше, если бы изменил свой образ жизни.",
+    "Modals of past deduction — это модальные глаголы для предположений и выводов о прошлом. must have + V3 — уверенность. can't have / couldn't have + V3 — уверенное отрицание. may have / might have + V3 — возможность. should have + V3 — критика или сожаление. could have + V3 — теоретическая возможность. needn't have + V3 — ненужное действие."
   ],
-  "note": "Весь диалог — умозаключения и упрёк о прошлом. must have left — уверенная положительная догадка (пальто нет); can't have driven — уверенная отрицательная (машина на месте), именно can't, не mustn't; might have missed — неуверенная догадка; should have called — упрёк «надо было, но не позвонил»; needn't have waited — «ждала зря» (действие было, но лишнее)."
- },
- "russianAngle": [
-  " По‑русски догадка о прошлом передаётся вводными словами: «должно быть, он ушёл», «наверное, опоздал», «не может быть, чтобы она сказала». Английский ставит модальный + have + V3: He must have left, He must have missed the train, She can't have said that. Форма одна, меняется только модальный по степени уверенности — и русскоговорящему нужно научиться выбирать модальный, а не переводить «наверное» одним словом.",
-  " «Не должен был он прийти» / «Не может быть, чтобы он пришёл» — по‑русски «не должен» и «не может быть» близки, и мы тянем mustn't. Для отрицательной догадки о прошлом — только can't have / couldn't have: He can't have come (не может быть, чтобы он пришёл). *He mustn't have come* — ошибка: mustn't = запрет в настоящем (You mustn't smoke here), а не умозаключение о прошлом.",
-  " «Надо было тебе сказать» / «Не надо было врать» — упрёк о несделанном или сделанном зря. should have + V3 / shouldn't have + V3: You should have told me; You shouldn't have lied. Ошибка *You should tell me yesterday* — пропущено have, а без него should относится к настоящему, не к прошлому.",
-  " «Не надо было тебе беспокоиться» — по‑русски непонятно, беспокоился человек или нет. Английский различает чётко: You needn't have worried = ты беспокоился, но зря (действие было, лишнее); You didn't need to worry = не нужно было беспокоиться (и, скорее всего, ты не стал). Разница в том, состоялось ли действие, — и это классическая ловушка C2.",
-  " «Мог бы и помочь!» / «Ведь могло всё кончиться плохо!» — упрёк об упущенной возможности или о несбывшейся угрозе. could have + V3: You could have helped!; She could have been killed! (могло случиться, но не случилось). Русское «мог бы» в прошлом = could have done, не can have и не was able to в этом значении."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: модальный + have + V3 смотрит в прошлое — для догадки или для упрёка.",
-   "Запомни шкалу дедукции: must have (уверен, да) → may/might/could have (возможно) → can't have (уверен, нет).",
-   "Для отрицательной догадки бери только can't have / couldn't have — никогда mustn't have.",
-   "Критика: should have / ought to have (надо было), shouldn't have (не надо было).",
-   "Различи needn't have (сделал зря) и didn't need to (не нужно было и не сделал).",
-   "could have = мог бы, но не сделал / могло случиться, но не случилось.",
-   "Держи форму неизменной: всегда have + V3, не has, не had.",
-   "Сделай упражнение ниже и сверься — особенно с can't have против mustn't have и с needn't have против didn't need to."
+  "why": [
+    "Выражать уверенность о прошлом: He must have been collecting material for years.",
+    "Выражать уверенное отрицание: He can't have written it without preparation.",
+    "Выражать возможность: He might have been influenced by Neal Cassady.",
+    "Выражать критику или сожаление: He should have edited it more carefully.",
+    "Выражать теоретическую возможность: He could have become even more famous.",
+    "Выражать ненужное действие: He needn't have worried so much."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — поставь верный модальный + have + V3 (или переведи):",
-   "items": [
-    { "q": "The ground is wet. It ___ (must / rain) last night. (уверенная догадка)", "a": "must have rained — уверенное положительное заключение из свидетельства (мокрая земля)." },
-    { "q": "She ___ (can't / know) about the party — nobody told her. (уверенная отрицательная)", "a": "can't have known — не может быть, чтобы знала; именно can't, не mustn't." },
-    { "q": "He's late again. He ___ (might / miss) the bus. (неуверенная догадка)", "a": "might have missed (или may/could have missed) — возможно, опоздал; около 50% уверенности." },
-    { "q": "You ___ (should / tell) me you were coming! I ___ (needn't / cook) such a big dinner. (упрёк + «зря»)", "a": "should have told (надо было сказать, но не сказал); needn't have cooked (готовила зря — действие было, но лишнее)." },
-    { "q": "В чём разница: You needn't have brought wine и You didn't need to bring wine?", "a": "needn't have brought = ты принёс вино, но зря (оно было не нужно); didn't need to bring = не нужно было приносить (и, вероятно, ты не принёс). Первое — действие состоялось и было лишним, второе — необходимости не было." },
-    { "q": "Переведи: «Он не должен был так поступать — он мог бы просто извиниться.»", "a": "He shouldn't have done that — he could have just apologised. — shouldn't have (не надо было, но сделал) + could have (мог бы, но не сделал)." }
-   ]
-  }
- },
- "formula": "deduction: must / might / can't + have + V3 · criticism: should / shouldn't / needn't + have + V3",
- "structure": {
-  "positive": "He must have left. / She might have forgotten. / You should have called.",
-  "negative": "She can't have meant it. / You shouldn't have lied. / You needn't have worried.",
-  "question": "Must he have known? / Could she have seen us? (инверсия модального; редко, в формальном/риторическом ключе)"
- },
- "markers": ["must have", "can't have", "couldn't have", "may have", "might have", "could have", "should have", "ought to have", "shouldn't have", "needn't have", "didn't need to"],
- "uses": [
-  "Умозаключение по свидетельствам: The door's locked — they must have gone out.",
-  "Упрёк и запоздалое сожаление: I should have studied harder; You shouldn't have spent so much.",
-  "Разграничение «зря» и «не нужно было»: You needn't have waited vs You didn't need to wait.",
-  "Оценка упущенной возможности или несбывшейся угрозы: You could have been seriously hurt."
- ],
- "rules": [
-  { "title": "Дедукция — шкала уверенности; отрицание только через can't have", "text": "must have + V3 = уверенное положительное заключение (He must have left, ~95%); may/might/could have + V3 = неуверенное «возможно» (~50% и ниже); can't/couldn't have + V3 = уверенное отрицательное «не может быть» (She can't have said that). Для отрицательной догадки — только can't/couldn't have; mustn't have для дедукции не используется (mustn't = запрет в настоящем)." },
-  { "title": "Критика и сожаление — should / ought to / shouldn't have", "text": "should have / ought to have + V3 = «надо было, но не сделал» (You should have told me; I ought to have checked). shouldn't have + V3 = «не надо было, но сделал» (You shouldn't have lied). Форма всегда have + V3, независимо от лица: she should have, he ought to have — не has." },
-  { "title": "needn't have vs didn't need to: состоялось ли действие", "text": "needn't have + V3 = действие произошло, но было лишним, «зря» (You needn't have cooked — we'd already eaten). didn't need to + V3 = необходимости не было, и действие, как правило, не состоялось (I didn't need to cook, so I didn't). could have + V3 = «мог бы, но не сделал» или «могло случиться, но не случилось» (You could have helped; She could have been killed)." }
- ],
- "examples": [
-  {
-   "group": "дедукция — уверенное положительное (must have)",
-   "items": [
-    { "en": "He must have missed the train — he's never this late.", "ru": "Должно быть, он опоздал на поезд — он никогда так не опаздывает.", "highlight": ["must have missed"] },
-    { "en": "They must have been exhausted after the marathon.", "ru": "Наверное, они были вымотаны после марафона.", "highlight": ["must have been"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Kerouac: 'I must have been collecting material for years. I can't have written it without preparation. I might have been influenced by Neal Cassady. I should have edited it more carefully.'",
+        "ru": "Керуак: «Я, должно быть, собирал материал годами. Я не мог написать это без подготовки. Возможно, на меня повлиял Нил Кэссиди. Мне следовало отредактировать это более тщательно»." },
+      { "en": "Friend: 'You could have become even more famous if you had lived longer. You needn't have worried so much about critics.'",
+        "ru": "Друг: «Ты мог бы стать ещё более известным, если бы прожил дольше. Тебе не нужно было так переживать из-за критиков»." }
+    ],
+    "note": "must have — уверенность; can't have — уверенное отрицание; might have — возможность; should have — критика; could have — теоретическая возможность; needn't have — ненужное действие."
   },
-  {
-   "group": "дедукция — уверенное отрицательное (can't / couldn't have)",
-   "items": [
-    { "en": "She can't have said that — it's completely out of character.", "ru": "Не может быть, чтобы она это сказала — это совсем на неё не похоже.", "highlight": ["can't have said"] },
-    { "en": "He couldn't have finished already — it takes hours.", "ru": "Не может быть, чтобы он уже закончил — это занимает часы.", "highlight": ["couldn't have finished"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы говорим: «он, должно быть, собирал материал годами». В английском — He must have been collecting material for years.",
+    "must have + V3 = уверенность (95%).",
+    "can't have + V3 = уверенное отрицание (95%).",
+    "may have / might have + V3 = возможность (50%).",
+    "should have + V3 = критика или сожаление.",
+    "could have + V3 = теоретическая возможность.",
+    "needn't have + V3 = ненужное действие."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: must have + V3 = уверенность.",
+      "can't have / couldn't have + V3 = уверенное отрицание.",
+      "may have / might have + V3 = возможность.",
+      "should have + V3 = критика или сожаление.",
+      "could have + V3 = теоретическая возможность.",
+      "needn't have + V3 = ненужное действие.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильный модальный глагол в прошлом:",
+      "items": [
+        { "q": "He ___ been collecting material for years. (уверенность)", "a": "must have" },
+        { "q": "He ___ written it without preparation. (уверенное отрицание)", "a": "can't have" },
+        { "q": "He ___ been influenced by Neal Cassady. (возможность)", "a": "might have" },
+        { "q": "He ___ edited it more carefully. (сожаление)", "a": "should have" },
+        { "q": "He ___ become even more famous. (теоретическая возможность)", "a": "could have" },
+        { "q": "He ___ worried so much. (ненужное действие)", "a": "needn't have" }
+      ]
+    }
   },
-  {
-   "group": "дедукция — неуверенное (may / might / could have)",
-   "items": [
-    { "en": "He might have forgotten about the meeting.", "ru": "Возможно, он забыл о встрече.", "highlight": ["might have forgotten"] },
-    { "en": "She may have taken the earlier bus — I'm not sure.", "ru": "Может, она села на более ранний автобус — не уверен.", "highlight": ["may have taken"] }
-   ]
+  "formula": "modal + have + V3",
+  "structure": {
+    "positive": "He must have been collecting material.",
+    "negative": "He can't have written it without preparation.",
+    "question": "Could he have become more famous?"
   },
-  {
-   "group": "критика и сожаление (should / shouldn't / ought to have)",
-   "items": [
-    { "en": "You should have told me the truth from the start.", "ru": "Надо было тебе с самого начала сказать мне правду.", "highlight": ["should have told"] },
-    { "en": "I ought to have read the contract more carefully.", "ru": "Мне следовало внимательнее прочитать договор.", "highlight": ["ought to have read"] }
-   ]
+  "markers": ["must have", "can't have", "couldn't have", "may have", "might have", "could have", "should have", "ought to have", "needn't have"],
+  "uses": [
+    "must have + V3: He must have been collecting material.",
+    "can't have + V3: He can't have written it without preparation.",
+    "might have + V3: He might have been influenced by Neal Cassady.",
+    "should have + V3: He should have edited it more carefully.",
+    "could have + V3: He could have become even more famous.",
+    "needn't have + V3: He needn't have worried so much."
+  ],
+  "rules": [
+    { "title": "must have + V3",
+      "text": "Выражает уверенность (95%), что что-то произошло. He must have been collecting material." },
+    { "title": "can't have / couldn't have + V3",
+      "text": "Выражает уверенность (95%), что что-то НЕ произошло. He can't have written it without preparation." },
+    { "title": "may have / might have + V3",
+      "text": "Выражает возможность (50%). He might have been influenced by Neal Cassady." },
+    { "title": "should have + V3",
+      "text": "Выражает критику или сожаление о том, что не сделали. He should have edited it more carefully." },
+    { "title": "could have + V3",
+      "text": "Выражает теоретическую возможность. He could have become even more famous." },
+    { "title": "needn't have + V3",
+      "text": "Выражает ненужное действие. He needn't have worried so much." }
+  ],
+  "examples": [
+    {
+      "group": "must have — уверенность",
+      "items": [
+        { "en": "He must have been collecting material for years before he wrote the book.", "ru": "Он, должно быть, собирал материал годами, прежде чем написал книгу.", "highlight": ["must have been collecting"] },
+        { "en": "He must have been influenced by the Beat Generation.", "ru": "Он, должно быть, был под влиянием бит-поколения.", "highlight": ["must have been"] },
+        { "en": "He must have been in a creative frenzy when he wrote it.", "ru": "Он, должно быть, был в творческом угаре, когда писал это.", "highlight": ["must have been"] }
+      ]
+    },
+    {
+      "group": "can't have — уверенное отрицание",
+      "items": [
+        { "en": "He can't have written it without any preparation.", "ru": "Он не мог написать это без подготовки.", "highlight": ["can't have written"] },
+        { "en": "He can't have been completely sober when he wrote it.", "ru": "Он не мог быть полностью трезвым, когда писал это.", "highlight": ["can't have been"] },
+        { "en": "He can't have expected it to be so successful.", "ru": "Он не мог ожидать, что это будет так успешно.", "highlight": ["can't have expected"] }
+      ]
+    },
+    {
+      "group": "might have — возможность",
+      "items": [
+        { "en": "He might have been influenced by Neal Cassady's letters.", "ru": "Возможно, на него повлияли письма Нила Кэссиди.", "highlight": ["might have been"] },
+        { "en": "He might have been trying to capture the rhythm of jazz.", "ru": "Возможно, он пытался передать ритм джаза.", "highlight": ["might have been trying"] },
+        { "en": "He might have written it as a spontaneous act of creativity.", "ru": "Возможно, он написал это как спонтанный творческий акт.", "highlight": ["might have written"] }
+      ]
+    },
+    {
+      "group": "should have — критика или сожаление",
+      "items": [
+        { "en": "He should have edited it more carefully before publishing.", "ru": "Ему следовало отредактировать это более тщательно перед публикацией.", "highlight": ["should have edited"] },
+        { "en": "He should have taken better care of his health.", "ru": "Ему следовало лучше заботиться о своём здоровье.", "highlight": ["should have taken"] },
+        { "en": "He should have listened to his editor's advice.", "ru": "Ему следовало прислушаться к совету своего редактора.", "highlight": ["should have listened"] }
+      ]
+    },
+    {
+      "group": "could have — теоретическая возможность",
+      "items": [
+        { "en": "He could have become even more famous if he had lived longer.", "ru": "Он мог бы стать ещё более известным, если бы прожил дольше.", "highlight": ["could have become"] },
+        { "en": "He could have written more books if he had stopped drinking.", "ru": "Он мог бы написать больше книг, если бы бросил пить.", "highlight": ["could have written"] },
+        { "en": "He could have been a Nobel Prize winner.", "ru": "Он мог бы стать лауреатом Нобелевской премии.", "highlight": ["could have been"] }
+      ]
+    },
+    {
+      "group": "needn't have — ненужное действие",
+      "items": [
+        { "en": "He needn't have worried so much about the critics.", "ru": "Ему не нужно было так переживать из-за критиков.", "highlight": ["needn't have worried"] },
+        { "en": "He needn't have rushed to publish it.", "ru": "Ему не нужно было спешить с публикацией.", "highlight": ["needn't have rushed"] },
+        { "en": "He needn't have been so hard on himself.", "ru": "Ему не нужно было быть таким строгим к себе.", "highlight": ["needn't have been"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "He must have collect material for years.", "right": "He must have been collecting material for years.", "note": "Нужна V3: collect → collected." },
+    { "wrong": "He can't have write it without preparation.", "right": "He can't have written it without preparation.", "note": "Нужна V3: write → written." },
+    { "wrong": "He might have been influence by Neal Cassady.", "right": "He might have been influenced by Neal Cassady.", "note": "Нужна V3: influence → influenced." },
+    { "wrong": "He should have edit it more carefully.", "right": "He should have edited it more carefully.", "note": "Нужна V3: edit → edited." },
+    { "wrong": "He could have become more famous. (правильно)", "right": "He could have become more famous.", "note": "Правильно!" },
+    { "wrong": "He needn't have worry so much.", "right": "He needn't have worried so much.", "note": "Нужна V3: worry → worried." }
+  ],
+  "compare": {
+    "title": "Modals of past deduction — сравнение",
+    "leftLabel": "Модальный глагол",
+    "rightLabel": "Значение",
+    "rows": [
+      { "left": "must have + V3", "right": "уверенность (95%)" },
+      { "left": "can't have / couldn't have + V3", "right": "уверенное отрицание (95%)" },
+      { "left": "may have / might have + V3", "right": "возможность (50%)" },
+      { "left": "should have + V3", "right": "критика / сожаление" },
+      { "left": "could have + V3", "right": "теоретическая возможность" },
+      { "left": "needn't have + V3", "right": "ненужное действие" }
+    ]
   },
-  {
-   "group": "needn't have vs didn't need to",
-   "items": [
-    { "en": "You needn't have bought milk — we had plenty in the fridge.", "ru": "Не надо было покупать молоко — у нас в холодильнике было полно.", "highlight": ["needn't have bought"] },
-    { "en": "I didn't need to print the tickets, so I showed them on my phone.", "ru": "Мне не нужно было распечатывать билеты, так что я показал их с телефона.", "highlight": ["didn't need to print"] }
-   ]
-  },
-  {
-   "group": "could have — упущенная возможность / несбывшаяся угроза",
-   "items": [
-    { "en": "You could have helped instead of just watching!", "ru": "Мог бы и помочь, а не просто смотреть!", "highlight": ["could have helped"] },
-    { "en": "She could have been killed if the car had been faster.", "ru": "Её могли убить, будь машина быстрее.", "highlight": ["could have been killed"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "He mustn't have come to the party.", "right": "He can't have come to the party.", "note": "Для отрицательной догадки о прошлом — can't have, не mustn't have (mustn't = запрет в настоящем)." },
-  { "wrong": "You should tell me yesterday.", "right": "You should have told me yesterday.", "note": "Упрёк о прошлом требует should have + V3; без have should относится к настоящему." },
-  { "wrong": "She can't has done it alone.", "right": "She can't have done it alone.", "note": "После модального всегда have + V3, не has, для всех лиц." },
-  { "wrong": "You needn't worry — I already did it. (о сделанном зря)", "right": "You needn't have worried — I already did it.", "note": "«Зря беспокоился» (действие было) → needn't have + V3, не needn't + inf." },
-  { "wrong": "He must have not known about it.", "right": "He can't have known about it. / He must not have known about it. (AmE)", "note": "Отрицательная догадка чище через can't have; must not have возможно в AmE, но can't have — универсальная норма." },
-  { "wrong": "I didn't need to cook, but I did — what a waste. (о зря сделанном)", "right": "I needn't have cooked — what a waste.", "note": "Если действие состоялось и было лишним — needn't have cooked; didn't need to подразумевает, что, скорее всего, не стал бы." }
- ],
- "compare": {
-  "title": "Шкала уверенности и «зря» vs «не нужно было»",
-  "leftLabel": "форма",
-  "rightLabel": "значение",
-  "rows": [
-   { "left": "must have done / can't have done", "right": "уверен, что да / уверен, что нет (~95%)" },
-   { "left": "may / might / could have done", "right": "возможно (~50% и ниже)" },
-   { "left": "needn't have done vs didn't need to do", "right": "сделал зря (действие было) vs не нужно было (и, вероятно, не сделал)" }
+  "tips": [
+    "must have + V3 = уверен (95%).",
+    "can't have / couldn't have + V3 = уверен, что не произошло (95%).",
+    "may have / might have + V3 = возможно (50%).",
+    "should have + V3 = сожаление или критика.",
+    "could have + V3 = теоретически могло, но не случилось.",
+    "needn't have + V3 = действие было ненужным.",
+    "Всегда have + V3, не had."
+  ],
+  "related": ["b2-modals-in-the-past", "c2-modals-past-deduction", "c2-mixed-conditionals"],
+  "quiz": [
+    {
+      "q": "He ___ been collecting material for years.",
+      "options": ["must have", "might have", "should have", "could have"],
+      "answer": 0,
+      "why": "must have — уверенность (95%)."
+    },
+    {
+      "q": "He ___ written it without preparation.",
+      "options": ["can't have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "can't have — уверенное отрицание."
+    },
+    {
+      "q": "He ___ been influenced by Neal Cassady.",
+      "options": ["might have", "must have", "can't have", "should have"],
+      "answer": 0,
+      "why": "might have — возможность (50%)."
+    },
+    {
+      "q": "He ___ edited it more carefully.",
+      "options": ["should have", "must have", "might have", "could have"],
+      "answer": 0,
+      "why": "should have — сожаление."
+    },
+    {
+      "q": "He ___ become even more famous if he had lived longer.",
+      "options": ["could have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "could have — теоретическая возможность."
+    },
+    {
+      "q": "He ___ worried so much.",
+      "options": ["needn't have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "needn't have — ненужное действие."
+    }
   ]
- },
- "tips": [
-  "Дедукцию держи как шкалу уверенности, а не как набор слов. must have = «я почти уверен, что да», can't have = «я почти уверен, что нет», might/may/could have = «возможно, не уверен». Когда делаешь догадку, сначала оцени свою уверенность — и только потом выбирай модальный. Это снимает хаотичный перевод «наверное/может быть».",
-  "mustn't have — красная тряпка. Для умозаключения о прошлом в отрицании существует только can't have / couldn't have. mustn't всегда про запрет в настоящем/будущем (You mustn't tell anyone). Как только хочется написать mustn't have в значении «не может быть, чтобы» — меняй на can't have не раздумывая.",
-  "needn't have против didn't need to проверяй вопросом «действие состоялось?». Состоялось и было лишним → needn't have (You needn't have come — and you did, unnecessarily). Не было необходимости, и действие, вероятно, не состоялось → didn't need to (I didn't need to come, so I stayed home). Эта одна проверка различает пару, на которой сыплются даже сильные студенты.",
-  "Форма never меняется по лицам: she must have, he should have, it can't have — всегда have + V3, никогда has или had. Это проще, чем времена, и ошибка *she must has / he should had* выдаёт невнимание, а незнание. Проверяй: после модального — ровно have.",
-  "should have и ought to have почти взаимозаменяемы в значении «надо было», но ought to чуть формальнее и чаще в письменной оценке; в разговорном упрёке should have естественнее. Отрицание ought to — ought not to have (формально) или shouldn't have (нейтрально); *oughtn't have* возможно в BrE, но shouldn't have безопаснее.",
-  "could have носит два оттенка, не путай: «мог бы, но не сделал» с упрёком (You could have helped!) и «могло случиться, но обошлось» (You could have died!). Оба про нереализованное прошлое, но первый — об упущенном действии субъекта, второй — о несбывшемся событии. Контекст подсказывает, какой читается.",
-  "Тренируй на двух ситуациях: «что произошло?» (дедукция по уликам — The window's broken, the dog looks guilty → The dog must have broken it) и «что надо было сделать?» (критика — You should have locked the door; You needn't have left it open). Эти два сценария покрывают девяносто процентов употреблений и быстро переводят форму в автоматизм."
- ],
- "related": ["c2-mixed-conditionals", "c1-subjunctive-wish-regret", "c2-mandative-subjunctive"],
- "quiz": [
-  {
-    "q": "He\u0027s never this late. He ___ the train.",
-    "options": [
-            "can\u0027t have missed",
-            "might have missed",
-            "must missed",
-            "must have missed"
-          ],
-    "answer": 3,
-    "why": "Уверенное положительное заключение из свидетельства — must have + причастие: he must have missed. Форма must missed (без have) неверна; can\u0027t/might передают другую степень уверенности."
-  },
-  {
-    "q": "It\u0027s completely out of character. She ___ that.",
-    "options": [
-            "mustn\u0027t have said",
-            "shouldn\u0027t have said",
-            "couldn\u0027t said",
-            "can\u0027t have said"
-          ],
-    "answer": 3,
-    "why": "Уверенное отрицательное умозаключение — can\u0027t/couldn\u0027t have + причастие, а НЕ mustn\u0027t have. mustn\u0027t означает запрет в настоящем, а не догадку о прошлом."
-  },
-  {
-    "q": "He\u0027s late, but I\u0027m not sure why. He ___ the meeting.",
-    "options": [
-            "must have forgotten",
-            "can\u0027t have forgotten",
-            "might have forgotten",
-            "may forgot"
-          ],
-    "answer": 2,
-    "why": "Неуверенная догадка («возможно») — may/might/could have. must have было бы слишком уверенно для «I\u0027m not sure», а may forgot ломает форму (нужно have + причастие)."
-  },
-  {
-    "q": "You ___ such a big dinner — we\u0027d already eaten. (ты готовил, но зря)",
-    "options": [
-            "didn\u0027t need to cook",
-            "needn\u0027t cook",
-            "mustn\u0027t have cooked",
-            "needn\u0027t have cooked"
-          ],
-    "answer": 3,
-    "why": "Действие состоялось, но было лишним («зря») — needn\u0027t have + причастие. didn\u0027t need to подразумевает, что, скорее всего, не стал готовить; mustn\u0027t have для дедукции не используется."
-  },
-  {
-    "q": "You ___ me the truth from the start! (упрёк: надо было, но не сказал)",
-    "options": [
-            "should tell",
-            "should have telling",
-            "must have told",
-            "should have told"
-          ],
-    "answer": 3,
-    "why": "Упрёк о несделанном в прошлом — should have + причастие. Без have should относится к настоящему; should have telling ломает форму."
-  },
-  {
-    "q": "Найдите верное предложение.",
-    "options": [
-            "She can\u0027t has done it alone.",
-            "She can\u0027t have done it alone.",
-            "She can\u0027t had done it alone.",
-            "She can\u0027t having done it alone."
-          ],
-    "answer": 1,
-    "why": "После модального всегда have + причастие для всех лиц: can\u0027t have done, никогда has/had. Форма has выдаёт невнимание, а не незнание."
-  }
-]
 }

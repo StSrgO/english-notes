@@ -1,0 +1,195 @@
+{
+  "variant": "rocknroll",
+  "slug": "c2-mandative-subjunctive",
+  "level": "C2",
+  "title": "Mandative subjunctive",
+  "category": "Verb forms",
+  "readingTime": 12,
+  "summary": "Mandative subjunctive — формальное сослагательное наклонение для требований, предложений и рекомендаций. История о том, как Red Hot Chili Peppers использовали его в песне «Under the Bridge».",
+  "idea": [
+    "Red Hot Chili Peppers написали «Under the Bridge» в 1992 году. Энтони Кидис написал песню о своей наркозависимости и одиночестве. Песня стала гимном для тех, кто борется с зависимостью. Кидис использовал mandative subjunctive, чтобы выразить свои требования и рекомендации.",
+    "Он требовал от себя: «I demanded that I get clean» — я требовал от себя, чтобы я очистился. Он советовал другим: «I recommend that you seek help» — я рекомендую вам обратиться за помощью. Он настаивал: «We insist that our friends be there for us» — мы настаиваем, чтобы наши друзья были рядом. Группа использовала mandative subjunctive в интервью, чтобы выразить свои убеждения.",
+    "Mandative subjunctive — это формальное сослагательное наклонение. Verb + that + subject + V1 (без -s). Используется после глаголов suggest, insist, demand, recommend, propose, require, urge, advise. В британском английском часто используют should (I suggest that he should go). В американском — без should (I suggest that he go)."
+  ],
+  "why": [
+    "Выражать требования: I demanded that I get clean.",
+    "Выражать рекомендации: I recommend that you seek help.",
+    "Выражать настойчивость: We insist that our friends be there for us.",
+    "Выражать предложения: I suggest that we all take care of each other."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Anthony Kiedis: 'I demanded that I get clean. I recommend that you seek help. We insist that our friends be there for us.'",
+        "ru": "Энтони Кидис: «Я требовал от себя, чтобы я очистился. Я рекомендую вам обратиться за помощью. Мы настаиваем, чтобы наши друзья были рядом»." },
+      { "en": "Friend: 'I suggest that we all take care of each other. The label required that we record a new album.'",
+        "ru": "Друг: «Я предлагаю, чтобы мы все заботились друг о друге. Лейбл требовал, чтобы мы записали новый альбом»." }
+    ],
+    "note": "suggest/insist/demand/require/recommend + that + subject + V1 (без -s)."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим: «я предлагаю, чтобы мы все заботились друг о друге». В английском — I suggest that we all take care of each other.",
+    "Mandative subjunctive = V1 (без -s) после that.",
+    "В американском английском — без should.",
+    "В британском английском — с should (I suggest that he should go)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: verb + that + subject + V1 (без -s).",
+      "Глаголы: suggest, insist, demand, recommend, propose, require, urge, advise.",
+      "В американском английском — без should.",
+      "В британском английском — с should.",
+      "Используется в формальных и официальных текстах.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильную форму глагола в mandative subjunctive:",
+      "items": [
+        { "q": "I demanded that I ___ (get) clean.", "a": "get" },
+        { "q": "I recommend that you ___ (seek) help.", "a": "seek" },
+        { "q": "We insist that our friends ___ (be) there for us.", "a": "be" },
+        { "q": "I suggest that we all ___ (take) care of each other.", "a": "take" },
+        { "q": "The label required that we ___ (record) a new album.", "a": "record" }
+      ]
+    }
+  },
+  "formula": "verb + that + subject + V1 (без -s)",
+  "structure": {
+    "positive": "I demanded that I get clean.",
+    "negative": "I demanded that I not get clean.",
+    "question": "Did you demand that you get clean?"
+  },
+  "markers": ["suggest", "insist", "demand", "recommend", "propose", "require", "urge", "advise"],
+  "uses": [
+    "demand: I demanded that I get clean.",
+    "recommend: I recommend that you seek help.",
+    "insist: We insist that our friends be there for us.",
+    "suggest: I suggest that we all take care of each other.",
+    "require: The label required that we record a new album."
+  ],
+  "rules": [
+    { "title": "Формула",
+      "text": "verb + that + subject + V1 (без -s). I demanded that I get clean." },
+    { "title": "Глаголы",
+      "text": "suggest, insist, demand, recommend, propose, require, urge, advise." },
+    { "title": "Американский vs британский",
+      "text": "В американском — без should. В британском — с should." },
+    { "title": "Отрицание",
+      "text": "not ставится перед глаголом. I demanded that I not get clean." }
+  ],
+  "examples": [
+    {
+      "group": "demand — требование",
+      "items": [
+        { "en": "I demanded that I get clean and start a new life.", "ru": "Я требовал от себя, чтобы я очистился и начал новую жизнь.", "highlight": ["demanded", "get"] },
+        { "en": "He demanded that she stay with him.", "ru": "Он требовал, чтобы она осталась с ним.", "highlight": ["demanded", "stay"] },
+        { "en": "They demanded that we play the song live.", "ru": "Они требовали, чтобы мы сыграли эту песню вживую.", "highlight": ["demanded", "play"] }
+      ]
+    },
+    {
+      "group": "recommend — рекомендация",
+      "items": [
+        { "en": "I recommend that you seek help if you need it.", "ru": "Я рекомендую вам обратиться за помощью, если она вам нужна.", "highlight": ["recommend", "seek"] },
+        { "en": "The doctor recommended that I take a break.", "ru": "Врач рекомендовал, чтобы я сделал перерыв.", "highlight": ["recommended", "take"] },
+        { "en": "I recommend that you listen to this song.", "ru": "Я рекомендую вам послушать эту песню.", "highlight": ["recommend", "listen"] }
+      ]
+    },
+    {
+      "group": "insist — настойчивость",
+      "items": [
+        { "en": "We insist that our friends be there for us in difficult times.", "ru": "Мы настаиваем, чтобы наши друзья были рядом в трудные времена.", "highlight": ["insist", "be"] },
+        { "en": "She insisted that I stay with her.", "ru": "Она настаивала, чтобы я остался с ней.", "highlight": ["insisted", "stay"] },
+        { "en": "He insisted that we play the song again.", "ru": "Он настаивал, чтобы мы сыграли песню снова.", "highlight": ["insisted", "play"] }
+      ]
+    },
+    {
+      "group": "suggest — предложение",
+      "items": [
+        { "en": "I suggest that we all take care of each other.", "ru": "Я предлагаю, чтобы мы все заботились друг о друге.", "highlight": ["suggest", "take"] },
+        { "en": "I suggest that you write a song about it.", "ru": "Я предлагаю вам написать песню об этом.", "highlight": ["suggest", "write"] },
+        { "en": "I suggest that we meet after the show.", "ru": "Я предлагаю, чтобы мы встретились после шоу.", "highlight": ["suggest", "meet"] }
+      ]
+    },
+    {
+      "group": "require — требование правил",
+      "items": [
+        { "en": "The label required that we record a new album.", "ru": "Лейбл требовал, чтобы мы записали новый альбом.", "highlight": ["required", "record"] },
+        { "en": "The contract requires that we play at least 50 shows.", "ru": "Контракт требует, чтобы мы сыграли как минимум 50 концертов.", "highlight": ["requires", "play"] },
+        { "en": "The tour requires that we be in good shape.", "ru": "Тур требует, чтобы мы были в хорошей форме.", "highlight": ["requires", "be"] }
+      ]
+    },
+    {
+      "group": "propose — предложение",
+      "items": [
+        { "en": "I propose that we play this song live.", "ru": "Я предлагаю, чтобы мы сыграли эту песню вживую.", "highlight": ["propose", "play"] },
+        { "en": "He proposed that they start a new project.", "ru": "Он предложил, чтобы они начали новый проект.", "highlight": ["proposed", "start"] },
+        { "en": "I propose that we meet next week.", "ru": "Я предлагаю, чтобы мы встретились на следующей неделе.", "highlight": ["propose", "meet"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I demanded that I gets clean.", "right": "I demanded that I get clean.", "note": "Mandative subjunctive — V1 (без -s)." },
+    { "wrong": "I recommend that you seeks help.", "right": "I recommend that you seek help.", "note": "Mandative subjunctive — V1 (без -s)." },
+    { "wrong": "We insist that our friends are there for us.", "right": "We insist that our friends be there for us.", "note": "Mandative subjunctive — be, не are." },
+    { "wrong": "I suggest that we all takes care of each other.", "right": "I suggest that we all take care of each other.", "note": "Mandative subjunctive — V1 (без -s)." },
+    { "wrong": "The label required that we recorded a new album.", "right": "The label required that we record a new album.", "note": "Mandative subjunctive — V1 (без -s)." },
+    { "wrong": "I propose that we played this song live.", "right": "I propose that we play this song live.", "note": "Mandative subjunctive — V1 (без -s)." }
+  ],
+  "compare": {
+    "title": "Mandative vs Indicative",
+    "leftLabel": "Mandative subjunctive (формальный)",
+    "rightLabel": "Indicative (обычный)",
+    "rows": [
+      { "left": "I demanded that I get clean.", "right": "I demanded that I got clean. (неправильно для mandative)" },
+      { "left": "I recommend that you seek help.", "right": "I recommend that you seek help." },
+      { "left": "We insist that they be there.", "right": "We insist that they be there." }
+    ]
+  },
+  "tips": [
+    "verb + that + subject + V1 (без -s).",
+    "Глаголы: suggest, insist, demand, recommend, propose, require, urge, advise.",
+    "В американском — без should.",
+    "В британском — с should.",
+    "Используется в формальных и официальных текстах.",
+    "Отрицание: not перед глаголом.",
+    "Не путай с индикативом."
+  ],
+  "related": ["c2-mandative-subjunctive", "c2-subjunctive-wish-regret", "c2-inversion-so-such", "c2-cohesion-and-register"],
+  "quiz": [
+    {
+      "q": "I demanded that I ___ clean.",
+      "options": ["get", "gets", "got", "getting"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    },
+    {
+      "q": "I recommend that you ___ help.",
+      "options": ["seek", "seeks", "sought", "seeking"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    },
+    {
+      "q": "We insist that our friends ___ there for us.",
+      "options": ["be", "are", "were", "being"],
+      "answer": 0,
+      "why": "Mandative subjunctive — be, не are."
+    },
+    {
+      "q": "I suggest that we all ___ care of each other.",
+      "options": ["take", "takes", "took", "taking"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    },
+    {
+      "q": "The label required that we ___ a new album.",
+      "options": ["record", "records", "recorded", "recording"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    },
+    {
+      "q": "I propose that we ___ this song live.",
+      "options": ["play", "plays", "played", "playing"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    }
+  ]
+}

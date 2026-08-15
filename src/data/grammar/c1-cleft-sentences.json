@@ -1,207 +1,194 @@
 {
- "slug": "c1-cleft-sentences",
- "title": "Cleft sentences: moving the spotlight",
- "level": "C1",
- "category": "Emphasis",
- "readingTime": 14,
- "summary": "Cleft-предложения не меняют факт — они двигают прожектор: it-cleft выхватывает один элемент на фоне, wh-cleft (what/all) ставит фокус как развязку. Инструмент режиссуры смысла.",
- "idea": [
-  "Обычное предложение нейтрально: Tom broke the window. Факт передан, но все элементы равны — никто не подсвечен. А теперь представь, что тебе важно не просто сообщить факт, а ткнуть пальцем в один его кусок: не окно разбили, а именно ТОМ; не вчера, а ИМЕННО ВЧЕРА; не разбили, а РАЗБИЛ (а не поцарапал). По‑русски ты делаешь это интонацией и свободным порядком слов — «ТОМ разбил окно», «Разбил окно ТОМ» — и всё понятно. Английский так не умеет: порядок слов у него жёсткий, интонация на письме не видна. Поэтому под задачу «выделить один элемент» он строит специальную конструкцию — cleft, буквально «расщеплённое» предложение: один факт раскалывается на две части, и в одну из них кладётся то, что ты хочешь подсветить. Это не про правильность — нейтральное предложение грамматически верно. Это про управление вниманием слушателя, про режиссуру смысла.",
-  "Самая частая форма — it-cleft: It + be + подсвеченный элемент + who/that/which (или when/where для обстоятельств). It was Tom who broke the window — прожектор на Томе. It was the window that Tom broke — прожектор на окне. It was yesterday that he did it — прожектор на времени. Механика простая: берёшь нейтральное предложение, выбираешь, какой кусок подсветить, выносишь его сразу после it was / it is, а остальное заворачиваешь в придаточное с who (для людей) или that (для всего остального). Время be задаёт время факта: It is Tom who… (сейчас/вообще), It was Tom who… (тогда). Подсветить можно почти что угодно — подлежащее, дополнение, обстоятельство места и времени, даже предложную группу: It was to his mother that he apologised, It was because of the rain that we stayed. Именно эта всеядность и делает it-cleft мощным: ты можешь направить прожектор куда угодно, не меняя сам факт.",
-  "Вторая семья — wh-cleft, он же pseudo-cleft, и он работает иначе: фокус здесь не выносится вперёд, а приходит в конце как развязка, либо стоит в начале через what/all. Схема: What + clause + be + фокус. What I need is a long sleep — «то, что мне нужно, это долгий сон»; фокус (a long sleep) падает в конец и звучит как ответ, как точка. Есть вариант с фокусом в начале: A long sleep is what I need. И особая, очень живая форма с all: All I did was ask — «всё, что я сделал, это спросил»; после was в таких конструкциях с do идёт инфинитив без to (was ask, не was to ask) — это тонкость, на которой сыплются. Wh-cleft особенно хорош, когда ты отвечаешь на неявный вопрос или оправдываешься: What happened was that nobody showed up; What I'm saying is that we should wait. Унеси суть: cleft не меняет факт, он меняет фокус; it-cleft выхватывает элемент в начале, wh-cleft подводит к нему как к развязке; и обе формы — это то, чем по‑русски занимается интонация."
- ],
- "why": [
-  "Отвечать на неявный вопрос и снимать недоумение: No — it was Tom who broke it, not me.",
-  "Подчёркивать причину, время или место, когда именно это важно: It was because of you that we won.",
-  "Строить развязку и контраст в речи и эссе: What I object to is the tone, not the idea.",
-  "Звучать естественно в споре и оправдании: All I did was tell the truth."
- ],
- "context": {
-  "lines": [
-   { "en": "Wait, so who actually sent the email? — It was Sarah who sent it, not the intern.", "ru": "Погоди, так кто реально отправил письмо? — Это Сара отправила, не стажёр." },
-   { "en": "But the file was on her desk! — It was on her desk that I found it, yes.", "ru": "Но файл был у неё на столе! — Да, именно на её столе я его и нашёл." },
-   { "en": "So what's the real problem then? — What I'm worried about is the deadline, not the budget.", "ru": "Так в чём тогда реальная проблема? — Меня беспокоит срок, а не бюджет." },
-   { "en": "You shouted at them! — All I did was raise my voice a little.", "ru": "Ты на них орал! — Всё, что я сделал, это чуть повысил голос." }
+  "variant": "classic",
+  "slug": "c1-cleft-sentences",
+  "level": "C1",
+  "title": "Cleft sentences",
+  "category": "Emphasis",
+  "readingTime": 11,
+  "summary": "Cleft sentences — конструкции для выделения информации. История о том, как Чак Паланик написал «Бойцовский клуб» и изменил свою жизнь.",
+  "idea": [
+    "Чак Паланик написал «Бойцовский клуб» в 1996 году. Это была книга, которая изменила его жизнь. Именно эта книга, а не какая-то другая, сделала его знаменитым. Что он хотел написать, так это роман о современной мужественности. Не насилие важно, а послание. Именно фильм сделал книгу известной. Если бы не фильм, книга могла бы остаться незамеченной.",
+    "Паланик использовал cleft sentences, чтобы выделить ключевые идеи. Он говорил: «It was the book that changed my life». «What I wanted to write was a novel about modern masculinity». «It is not the violence that matters, it is the message». Эти конструкции помогали ему делать акцент на главном.",
+    "Cleft sentences — это конструкции, которые выделяют информацию. It is/was + выделяемая часть + that/who + остальное. What + глагол + is/was + выделяемая часть. Они используются для акцента и эмфазы в письменной и устной речи."
   ],
-  "note": "Каждая реплика подсвечивает разный элемент: it was Sarah (подлежащее), it was on her desk (место), what I'm worried about is the deadline (wh-cleft с фокусом в конце), all I did was raise (wh-cleft с all + инфинитив без to). Факты те же, что и в нейтральных фразах, — меняется только прожектор."
- },
- "russianAngle": [
-  " По‑русски фокус — это интонация и порядок слов: «ТОМ разбил окно», «Разбил окно ТОМ», «Вчера он это сделал». Никакой особой конструкции не нужно. Английский порядок жёсткий, интонация на письме не видна — поэтому под выделение строится cleft: It was Tom who broke the window. Отсюда непонимание, «зачем вообще это нужно», и кальки вроде Tom who broke the window без It was — обрывок конструкции.",
-  " «Это из‑за дождя мы остались» — «это» указывает на причину. it-cleft подсветит обстоятельство целиком, с предлогом: It was because of the rain that we stayed. Предлог и союз уходят в подсвеченную часть — не теряй их: It was to his mother that he apologised, а не It was his mother that he apologised to (так тоже скажут, но формальный cleft держит предлог внутри фокуса).",
-  " «То, что мне нужно, это сон» — по‑русски «то, что» + «это». wh-cleft: What I need is a long sleep. Обрати внимание на is: глагол обычно в единственном числе, даже если фокус множественный — What I need is new shoes, а не are new shoes. Это частая ошибка: русскоговорящие согласуют по «new shoes» и ставят are.",
-  " «Всё, что я сделал, это спросил» — после «это» стоит глагол в прошедшем. В конструкции All I did was … после was идёт инфинитив без to: All I did was ask, All she did was laugh. Поставить was to ask — не ошибка смысла, но носитель так не говорит; без to — идиома.",
-  " Мы легко выделяем элемент просто ударением и не чувствуем, что делаем «особую конструкцию». Носитель, наоборот, чуть ли не автоматически строит cleft, когда хочет подсветить: в споре, в уточнении, в оправдании. Поэтому cleft — это не «продвинутая экзотика», а рабочий инструмент живой речи, и его надо чувствовать, а не только знать формулу."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: cleft не меняет факт, он двигает прожектор на один элемент.",
-   "Освой it-cleft: It + be + фокус + who (люди) / that (остальное); время be = время факта.",
-   "Потренируй подсветку разных ролей: подлежащее, дополнение, время, место, причина, предложная группа.",
-   "Освой wh-cleft: What + clause + be + фокус; фокус в конце как развязка.",
-   "Запомни две тонкости: в what-cleft глагол обычно ед.ч. (is/was); после all I did was — инфинитив без to.",
-   "Сделай упражнение ниже и сверься — особенно с согласованием be и с to/без to."
+  "why": [
+    "Выделять информацию: It was the book that changed his life.",
+    "Делать акцент: What he wanted to write was a novel about masculinity.",
+    "Создавать контраст: It is not the violence that matters, but the message.",
+    "Делать речь более выразительной."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — построй cleft с прожектором на выделенном элементе (или переведи):",
-   "items": [
-    { "q": "Tom broke the window. (подсвети Tom, it-cleft)", "a": "It was Tom who broke the window. — человек → who; was, потому что факт в прошлом." },
-    { "q": "I met her in Paris. (подсвети in Paris, it-cleft)", "a": "It was in Paris that I met her. — обстоятельство места → that, предлог внутри фокуса." },
-    { "q": "I need a long holiday. (wh-cleft, фокус в конце)", "a": "What I need is a long holiday. — is в ед.ч., несмотря на смысл." },
-    { "q": "She just smiled. (wh-cleft с all: «всё, что она сделала…»)", "a": "All she did was smile. — после was инфинитив без to." },
-    { "q": "We cancelled the trip because of the storm. (подсвети причину, it-cleft)", "a": "It was because of the storm that we cancelled the trip. — причина целиком, с because of, уходит в фокус." },
-    { "q": "Переведи: «Меня раздражает не цена, а тон.»", "a": "What annoys me is not the price but the tone. / It's the tone, not the price, that annoys me. — оба варианта работают; wh-cleft подводит к контрасту, it-cleft выхватывает тон." }
-   ]
-  }
- },
- "formula": "it-cleft: It + be + FOCUS + who/that … · wh-cleft: What/All + clause + be + FOCUS",
- "structure": {
-  "positive": "It was Tom who… / What I want is… / All I did was…",
-  "negative": "It wasn't Tom who… / What I don't like is… / It's not the cost that…",
-  "question": "Was it Tom who…? / Is that what you mean? (вопрос строится инверсией be в it/wh-части)"
- },
- "markers": ["it is", "it was", "it isn't", "what", "all", "the thing", "the reason", "who", "that"],
- "uses": [
-  "Уточнение и снятие вины в споре: It wasn't me who changed the file.",
-  "Подсветка причины или обстоятельства: It was only later that I understood.",
-  "Формулировка позиции в эссе: What the data shows is a clear trend.",
-  "Оправдание и преуменьшение: All I said was that we should think twice."
- ],
- "rules": [
-  { "title": "it-cleft: who для людей, that для остального", "text": "Подсвечиваешь человека как подлежащее — who: It was Tom who called. Всё остальное (вещи, обстоятельства, причины) — that: It was the book that I lost, It was yesterday that he called. Which в it-cleft возможен для вещей, но that — нейтральная норма." },
-  { "title": "wh-cleft: be обычно в единственном числе", "text": "В what-cleft глагол согласуется с what-частью, а она ед.ч., поэтому is/was, даже если фокус множественный: What I need is new shoes; What we saw were… встречается, но is/was — безопасная норма и то, что ждёт экзаменатор." },
-  { "title": "All I did was + инфинитив без to", "text": "Когда в what/all-части стоит форма do, после was/to be идёт голый инфинитив: All I did was ask; What she did was leave. Добавить to (was to ask) — не идиома; носитель опускает to." }
- ],
- "examples": [
-  {
-   "group": "it-cleft — подсветка подлежащего",
-   "items": [
-    { "en": "It was Sarah who sent the email, not the intern.", "ru": "Это Сара отправила письмо, а не стажёр.", "highlight": ["It was Sarah who"] },
-    { "en": "It's the children who suffer most in a divorce.", "ru": "Именно дети страдают при разводе больше всех.", "highlight": ["It's the children who"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Palahniuk: 'It was the book that changed my life. What I wanted to write was a novel about modern masculinity. It is not the violence that matters, it is the message.'",
+        "ru": "Паланик: «Именно эта книга изменила мою жизнь. Что я хотел написать, так это роман о современной мужественности. Не насилие важно, а послание»." },
+      { "en": "Publisher: 'It was the film that made the book famous. What I didn't expect was the success.'",
+        "ru": "Издатель: «Именно фильм сделал книгу известной. Чего я не ожидал, так это успеха»." }
+    ],
+    "note": "It was the book that... What I wanted to write was... It is not... that... but..."
   },
-  {
-   "group": "it-cleft — подсветка обстоятельства и причины",
-   "items": [
-    { "en": "It was in Paris that they first met.", "ru": "Именно в Париже они впервые встретились.", "highlight": ["It was in Paris that"] },
-    { "en": "It was because of the storm that the flight was cancelled.", "ru": "Именно из‑за шторма рейс отменили.", "highlight": ["It was because of the storm that"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы говорим: «именно эта книга изменила мою жизнь». В английском — It was this book that changed my life.",
+    "Cleft sentences = выделение информации.",
+    "It is/was + выделяемая часть + that/who.",
+    "What + глагол + is/was + выделяемая часть."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: Cleft sentences выделяют информацию.",
+      "It is/was + выделяемая часть + that/who + остальное.",
+      "What + глагол + is/was + выделяемая часть.",
+      "It is not... but... — для контраста.",
+      "Используй для акцента в речи.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте обычные предложения в cleft sentences:",
+      "items": [
+        { "q": "The book changed my life. → It ___ the book ___ changed my life.", "a": "was, that" },
+        { "q": "I wanted to write a novel about masculinity. → What I ___ ___ write was a novel about masculinity.", "a": "wanted to" },
+        { "q": "The film made the book famous. → It ___ the film ___ made the book famous.", "a": "was, that" },
+        { "q": "The violence doesn't matter. The message matters. → It is ___ the violence ___ matters, ___ the message.", "a": "not, that, but" },
+        { "q": "I didn't expect the success. → What I ___ ___ was the success.", "a": "didn't expect" }
+      ]
+    }
   },
-  {
-   "group": "wh-cleft — фокус в конце как развязка",
-   "items": [
-    { "en": "What I need is a long, uninterrupted sleep.", "ru": "То, что мне нужно, это долгий непрерывный сон.", "highlight": ["What I need is"] },
-    { "en": "What happened was that nobody showed up on time.", "ru": "Произошло вот что: никто не явился вовремя.", "highlight": ["What happened was that"] }
-   ]
+  "formula": "It is/was + X + that/who + Y · What + Z + is/was + X",
+  "structure": {
+    "positive": "It was the book that changed his life.",
+    "negative": "It wasn't the book that changed his life.",
+    "question": "Was it the book that changed his life?"
   },
-  {
-   "group": "wh-cleft с all — «всё, что…» + инфинитив без to",
-   "items": [
-    { "en": "All I did was ask a simple question.", "ru": "Всё, что я сделал, это задал простой вопрос.", "highlight": ["All I did was ask"] },
-    { "en": "All she wants is to be left alone.", "ru": "Всё, чего она хочет, это чтобы её оставили в покое.", "highlight": ["All she wants is"] }
-   ]
+  "markers": ["it is", "it was", "what", "that", "who", "which", "not... but..."],
+  "uses": [
+    "It was the book that changed his life. (выделение объекта)",
+    "What I wanted to write was a novel about masculinity. (выделение желания)",
+    "It is not the violence that matters, but the message. (контраст)",
+    "What I didn't expect was the success. (выделение неожиданности)"
+  ],
+  "rules": [
+    { "title": "It is/was... that/who...",
+      "text": "It was the book that changed his life. It was Palahniuk who wrote the book." },
+    { "title": "What... is/was...",
+      "text": "What I wanted to write was a novel about masculinity." },
+    { "title": "It is not... but...",
+      "text": "It is not the violence that matters, but the message." },
+    { "title": "Выделение информации",
+      "text": "Cleft sentences используются для выделения ключевой информации." }
+  ],
+  "examples": [
+    {
+      "group": "It is/was... that/who... — выделение объекта или человека",
+      "items": [
+        { "en": "It was the book that changed his life.", "ru": "Именно эта книга изменила его жизнь.", "highlight": ["It was", "that"] },
+        { "en": "It was Palahniuk who wrote the novel.", "ru": "Именно Паланик написал роман.", "highlight": ["It was", "who"] },
+        { "en": "It was the film that made the book famous.", "ru": "Именно фильм сделал книгу известной.", "highlight": ["It was", "that"] }
+      ]
+    },
+    {
+      "group": "What... is/was... — выделение желания, действия",
+      "items": [
+        { "en": "What I wanted to write was a novel about modern masculinity.", "ru": "Что я хотел написать, так это роман о современной мужественности.", "highlight": ["What", "was"] },
+        { "en": "What I didn't expect was the success.", "ru": "Чего я не ожидал, так это успеха.", "highlight": ["What", "was"] },
+        { "en": "What matters is the message, not the violence.", "ru": "Что важно, так это послание, а не насилие.", "highlight": ["What", "is"] }
+      ]
+    },
+    {
+      "group": "It is not... that... but... — контраст",
+      "items": [
+        { "en": "It is not the violence that matters, but the message.", "ru": "Не насилие важно, а послание.", "highlight": ["not", "that", "but"] },
+        { "en": "It is not the fame that he wanted, but the freedom.", "ru": "Не славу он хотел, а свободу.", "highlight": ["not", "that", "but"] },
+        { "en": "It is not the money that drives him, but the passion.", "ru": "Не деньги движут им, а страсть.", "highlight": ["not", "that", "but"] }
+      ]
+    },
+    {
+      "group": "What... is/was... — выделение неожиданности",
+      "items": [
+        { "en": "What I didn't expect was the success.", "ru": "Чего я не ожидал, так это успеха.", "highlight": ["What", "was"] },
+        { "en": "What surprised me was the reaction of the readers.", "ru": "Что удивило меня, так это реакция читателей.", "highlight": ["What", "was"] },
+        { "en": "What I remember most is the first review.", "ru": "Что я помню больше всего, так это первую рецензию.", "highlight": ["What", "is"] }
+      ]
+    },
+    {
+      "group": "It was... that... — выделение времени",
+      "items": [
+        { "en": "It was in 1996 that the book was published.", "ru": "Именно в 1996 году книга была опубликована.", "highlight": ["It was", "that"] },
+        { "en": "It was after the film that the book became famous.", "ru": "Именно после фильма книга стала известной.", "highlight": ["It was", "that"] },
+        { "en": "It was at that moment that he realised he was famous.", "ru": "Именно в тот момент он понял, что он знаменит.", "highlight": ["It was", "that"] }
+      ]
+    },
+    {
+      "group": "Сравнение с обычным предложением",
+      "items": [
+        { "en": "The book changed his life. → It was the book that changed his life.", "ru": "Книга изменила его жизнь. → Именно книга изменила его жизнь.", "highlight": ["that"] },
+        { "en": "He wanted to write a novel. → What he wanted to write was a novel.", "ru": "Он хотел написать роман. → Что он хотел написать, так это роман.", "highlight": ["What", "was"] },
+        { "en": "The film made the book famous. → It was the film that made the book famous.", "ru": "Фильм сделал книгу известной. → Именно фильм сделал книгу известной.", "highlight": ["It was", "that"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "It was the book which changed his life.", "right": "It was the book that changed his life.", "note": "В cleft sentences после выделяемой части usually that, но which тоже допустимо." },
+    { "wrong": "It was the book that changed his life. (правильно)", "right": "It was the book that changed his life.", "note": "Правильно!" },
+    { "wrong": "What I wanted to write it was a novel.", "right": "What I wanted to write was a novel.", "note": "Не нужно it после глагола." },
+    { "wrong": "What I wanted to write was a novel. (правильно)", "right": "What I wanted to write was a novel.", "note": "Правильно!" },
+    { "wrong": "It was not the violence that matters, it is the message.", "right": "It is not the violence that matters, but the message.", "note": "Для контраста — not... but..." },
+    { "wrong": "It was the book what changed his life.", "right": "It was the book that changed his life.", "note": "После it is/was — that, не what." }
+  ],
+  "compare": {
+    "title": "Обычное предложение vs Cleft sentence",
+    "leftLabel": "Обычное предложение",
+    "rightLabel": "Cleft sentence",
+    "rows": [
+      { "left": "The book changed his life.", "right": "It was the book that changed his life." },
+      { "left": "He wanted to write a novel.", "right": "What he wanted to write was a novel." },
+      { "left": "The violence doesn't matter.", "right": "It is not the violence that matters." }
+    ]
   },
-  {
-   "group": "отрицание и контраст в cleft",
-   "items": [
-    { "en": "It's not the price that I object to — it's the principle.", "ru": "Я возражаю не против цены — против принципа.", "highlight": ["It's not the price that", "it's the principle"] },
-    { "en": "What I'm saying is not that we should stop, but that we should slow down.", "ru": "Я говорю не то, что надо остановиться, а то, что надо сбавить темп.", "highlight": ["What I'm saying is not that"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "Tom who broke the window.", "right": "It was Tom who broke the window.", "note": "Обрывок cleft без It was — калька; конструкция требует it + be в начале." },
-  { "wrong": "It was Tom that broke the window.", "right": "It was Tom who broke the window.", "note": "Для человека-подлежащего естественно who; that поймут, но who — чище." },
-  { "wrong": "What I need are new shoes.", "right": "What I need is new shoes.", "note": "В what-cleft be обычно ед.ч. (согласуется с what), даже при множественном фокусе." },
-  { "wrong": "All I did was to ask.", "right": "All I did was ask.", "note": "После all I did was — голый инфинитив без to." },
-  { "wrong": "It was his mother that he apologised.", "right": "It was to his mother that he apologised.", "note": "Предлог из исходной фразы (apologised to) должен остаться — либо внутри фокуса, либо в конце; не теряй его." },
-  { "wrong": "It is yesterday that he called.", "right": "It was yesterday that he called.", "note": "Время be = время факта; факт в прошлом → was, не is." }
- ],
- "compare": {
-  "title": "it-cleft vs wh-cleft — куда падает прожектор",
-  "leftLabel": "it-cleft (фокус в начале)",
-  "rightLabel": "wh-cleft (фокус как развязка)",
-  "rows": [
-   { "left": "It's the deadline that worries me.", "right": "What worries me is the deadline." },
-   { "left": "It was Tom who paid.", "right": "The one who paid was Tom. / What happened was that Tom paid." },
-   { "left": "Фокус выхвачен сразу, на фоне остального", "right": "Слушателя ведут по what-части к фокусу в конце" }
+  "tips": [
+    "It is/was + X + that/who + Y — для выделения.",
+    "What + Z + is/was + X — для выделения действия.",
+    "It is not... but... — для контраста.",
+    "Cleft sentences делают речь более выразительной.",
+    "Используй в интервью, рассказах, статьях.",
+    "Не перегружай текст cleft sentences — используй умеренно.",
+    "Проверяй, что выделяешь именно то, что хочешь подчеркнуть."
+  ],
+  "related": ["c1-emphasis-do-and-fronting", "c1-inversion-after-negative-adverbials", "c1-subjunctive-wish-regret"],
+  "quiz": [
+    {
+      "q": "It ___ the book ___ changed his life.",
+      "options": ["was, that", "is, which", "was, what", "is, that"],
+      "answer": 0,
+      "why": "It is/was + X + that/who + Y."
+    },
+    {
+      "q": "What I wanted ___ write ___ a novel.",
+      "options": ["to, was", "to, is", "for, was", "for, is"],
+      "answer": 0,
+      "why": "What + глагол + is/was + X."
+    },
+    {
+      "q": "It is not the violence ___ matters, ___ the message.",
+      "options": ["that, but", "what, and", "which, but", "that, and"],
+      "answer": 0,
+      "why": "It is not... that... but..."
+    },
+    {
+      "q": "___ I didn't expect was the success.",
+      "options": ["What", "That", "Which", "It"],
+      "answer": 0,
+      "why": "What + глагол + is/was + X."
+    },
+    {
+      "q": "It ___ the film ___ made the book famous.",
+      "options": ["was, that", "is, which", "was, what", "is, that"],
+      "answer": 0,
+      "why": "It is/was + X + that/who + Y."
+    },
+    {
+      "q": "___ matters is the message.",
+      "options": ["What", "That", "Which", "It"],
+      "answer": 0,
+      "why": "What + глагол + is/was + X."
+    }
   ]
- },
- "tips": [
-  "Cleft — это ответ на невысказанный вопрос. Прежде чем строить it-cleft, спроси себя: «а на какой вопрос я отвечаю?» It was Tom who… отвечает на «кто?»; It was yesterday that… — на «когда?». Если вопроса-подсветки нет — cleft не нужен, и нейтральное предложение будет естественнее.",
-  "who vs that держи по одушевлённости подлежащего-фокуса: человек → who, всё остальное → that. Да, в разговорной речи that проскакивает и для людей, но на письме и на экзамене who для человека — то, что ждёт проверяющий.",
-  "What-clause тянет ед.ч. Заучи как ритм: What I need IS, What we saw WAS, What matters IS. Даже когда дальше new shoes, more people, three reasons — глагол в what-cleft по умолчанию ед.ч. Это снимает девяносто процентов ошибок согласования.",
-  "All I did was … — выучи как готовую оправдательную рамку. All I did was ask / tell / try / mention. После was — голый инфинитив, без to. Это одна из самых живых разговорных форм cleft, и она почти всегда про «я не виноват, я всего лишь…».",
-  "Предлоги не теряются. Исходное he apologised to his mother в it-cleft даёт It was to his mother that he apologised (предлог в фокусе) — формально и аккуратно. Разговорный вариант It was his mother that he apologised to тоже жив, но предлог обязан остаться хоть где-то; проглотить его — ошибка.",
-  "Не строй cleft ради cleft. В нейтральном описании (The report was submitted on Friday) подсветка не нужна и будет звучать надуманно. Cleft включается там, где есть контраст, уточнение, спор или снятие недоумения — то есть там, где ты реально хочешь ткнуть пальцем. Чувствуй этот момент — это и есть C1.",
-  "Тренируй через «переключение прожектора». Возьми одно нейтральное предложение (The manager rejected the proposal in the meeting) и сделай четыре cleft: подсвети подлежащее, дополнение, место, время. Это упражнение лучше всего учит, что факт один, а фокус — твой выбор."
- ],
- "related": ["c1-emphasis-do-and-fronting", "c1-inversion-after-negative-adverbials", "c2-participle-clauses"],
- "quiz": [
-  {
-    "q": "Постройте it-cleft с прожектором на Tom: Tom broke the window.",
-    "options": [
-            "It was Tom that broke the window.",
-            "It was Tom who broke the window.",
-            "It was Tom which broke the window.",
-            "Tom who broke the window."
-          ],
-    "answer": 1,
-    "why": "Подсвечиваешь человека как подлежащее — who: It was Tom who broke. that поймут, но who — чище; а «Tom who...» без It was — обрывок конструкции."
-  },
-  {
-    "q": "What I need ___ new shoes.",
-    "options": [
-            "are",
-            "is",
-            "were",
-            "be"
-          ],
-    "answer": 1,
-    "why": "В what-cleft глагол согласуется с what-частью (единственное число), поэтому is, даже если фокус множественный: What I need is new shoes. Согласование по «shoes» (are) — частая ошибка."
-  },
-  {
-    "q": "All I did ___ a simple question.",
-    "options": [
-            "was to ask",
-            "was asking",
-            "was ask",
-            "was asked"
-          ],
-    "answer": 2,
-    "why": "После all I did was идёт голый инфинитив без to: was ask. Добавить to или -ing — не идиома; носитель опускает to."
-  },
-  {
-    "q": "Постройте it-cleft с прожектором на месте: I met her in Paris.",
-    "options": [
-            "It was Paris that I met her.",
-            "It was where Paris I met her.",
-            "It was in Paris that I met her.",
-            "It was in Paris where I met her."
-          ],
-    "answer": 2,
-    "why": "Предлог из исходной фразы остаётся внутри подсвеченного обстоятельства: It was in Paris that I met her. Терять in или ставить where после in Paris — ошибка."
-  },
-  {
-    "q": "It ___ yesterday that he called.",
-    "options": [
-            "is",
-            "was",
-            "has been",
-            "were"
-          ],
-    "answer": 1,
-    "why": "Время be в it-cleft = время факта. Факт в прошлом (yesterday) → was, а не is. Это частая нестыковка: форма be должна совпадать со временем события."
-  },
-  {
-    "q": "Отметьте корректный cleft с контрастом.",
-    "options": [
-            "It wasn\u0027t the price but the principle that I object to.",
-            "It wasn\u0027t the price but the principle that I object.",
-            "Wasn\u0027t the price but the principle that I object to.",
-            "It wasn\u0027t the price but the principle which I object."
-          ],
-    "answer": 0,
-    "why": "Предлог object to обязан остаться (that I object to), а конструкция требует It в начале. Обрывок без It и потеря to ломают cleft."
-  }
-]
 }

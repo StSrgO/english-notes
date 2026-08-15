@@ -1,0 +1,210 @@
+{
+  "variant": "rocknroll",
+  "slug": "c2-modals-past-deduction",
+  "level": "C2",
+  "title": "Modals of past deduction",
+  "category": "Modal verbs",
+  "readingTime": 12,
+  "summary": "Modals of past deduction — предположения, выводы и критика о прошлом. История о том, как Pearl Jam написали песню «Jeremy» о реальной трагедии.",
+  "idea": [
+    "Pearl Jam написали песню «Jeremy» в 1991 году. Она основана на реальной истории. В 1991 году 16-летний школьник Джереми Уэйд Делл из Техаса покончил с собой в классе на глазах у одноклассников. Эдди Веддер написал песню об этом. Он думал о том, что могло привести к этой трагедии.",
+    "Он, должно быть, так сильно страдал. Он не мог видеть другого выхода. Ему должны были помочь. Он мог быть спасён, если бы кто-то прислушался. Он не должен был быть один в тот момент. Он мог бы выжить, если бы получил помощь. Песня стала гимном для многих, кто чувствовал себя одиноким. Клип был спорным. Он был ограничен в показе на MTV.",
+    "Modals of past deduction — это модальные глаголы для предположений и выводов о прошлом. must have + V3 — уверенность. can't have / couldn't have + V3 — уверенное отрицание. may have / might have + V3 — возможность. should have + V3 — критика или сожаление. could have + V3 — теоретическая возможность. needn't have + V3 — ненужное действие."
+  ],
+  "why": [
+    "Выражать уверенность о прошлом: He must have been suffering.",
+    "Выражать уверенное отрицание: He can't have seen any other way.",
+    "Выражать возможность: He might have been saved.",
+    "Выражать критику или сожаление: He should have been helped.",
+    "Выражать теоретическую возможность: He could have survived.",
+    "Выражать ненужное действие: He needn't have been alone."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Eddie Vedder: 'He must have been suffering so much. He can't have seen any other way out. He should have been helped. He might have been saved if someone had listened.'",
+        "ru": "Эдди Веддер: «Он, должно быть, так сильно страдал. Он не мог видеть другого выхода. Ему должны были помочь. Он мог быть спасён, если бы кто-то прислушался»." },
+      { "en": "Producer: 'He could have survived if he had received help. He needn't have been alone in that moment.'",
+        "ru": "Продюсер: «Он мог бы выжить, если бы получил помощь. Ему не нужно было быть одному в тот момент»." }
+    ],
+    "note": "must have — уверенность; can't have — уверенное отрицание; might have — возможность; should have — критика; could have — теоретическая возможность; needn't have — ненужное действие."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим: «он, должно быть, так сильно страдал». В английском — He must have been suffering so much.",
+    "must have + V3 = уверенность (95%).",
+    "can't have + V3 = уверенное отрицание (95%).",
+    "may have / might have + V3 = возможность (50%).",
+    "should have + V3 = критика или сожаление.",
+    "could have + V3 = теоретическая возможность.",
+    "needn't have + V3 = ненужное действие."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: must have + V3 = уверенность.",
+      "can't have / couldn't have + V3 = уверенное отрицание.",
+      "may have / might have + V3 = возможность.",
+      "should have + V3 = критика или сожаление.",
+      "could have + V3 = теоретическая возможность.",
+      "needn't have + V3 = ненужное действие.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильный модальный глагол в прошлом:",
+      "items": [
+        { "q": "He ___ been suffering so much. (уверенность)", "a": "must have" },
+        { "q": "He ___ seen any other way out. (уверенное отрицание)", "a": "can't have" },
+        { "q": "He ___ been saved. (возможность)", "a": "might have" },
+        { "q": "He ___ been helped. (сожаление)", "a": "should have" },
+        { "q": "He ___ survived. (теоретическая возможность)", "a": "could have" },
+        { "q": "He ___ been alone. (ненужное действие)", "a": "needn't have" }
+      ]
+    }
+  },
+  "formula": "modal + have + V3",
+  "structure": {
+    "positive": "He must have been suffering.",
+    "negative": "He can't have seen any other way.",
+    "question": "Could he have survived?"
+  },
+  "markers": ["must have", "can't have", "couldn't have", "may have", "might have", "could have", "should have", "ought to have", "needn't have"],
+  "uses": [
+    "must have + V3: He must have been suffering.",
+    "can't have + V3: He can't have seen any other way.",
+    "might have + V3: He might have been saved.",
+    "should have + V3: He should have been helped.",
+    "could have + V3: He could have survived.",
+    "needn't have + V3: He needn't have been alone."
+  ],
+  "rules": [
+    { "title": "must have + V3",
+      "text": "Выражает уверенность (95%), что что-то произошло. He must have been suffering." },
+    { "title": "can't have / couldn't have + V3",
+      "text": "Выражает уверенность (95%), что что-то НЕ произошло. He can't have seen any other way." },
+    { "title": "may have / might have + V3",
+      "text": "Выражает возможность (50%). He might have been saved." },
+    { "title": "should have + V3",
+      "text": "Выражает критику или сожаление о том, что не сделали. He should have been helped." },
+    { "title": "could have + V3",
+      "text": "Выражает теоретическую возможность. He could have survived." },
+    { "title": "needn't have + V3",
+      "text": "Выражает ненужное действие. He needn't have been alone." }
+  ],
+  "examples": [
+    {
+      "group": "must have — уверенность",
+      "items": [
+        { "en": "He must have been suffering so much before he did it.", "ru": "Он, должно быть, так сильно страдал, прежде чем сделал это.", "highlight": ["must have been suffering"] },
+        { "en": "He must have felt completely alone.", "ru": "Он, должно быть, чувствовал себя совершенно одиноким.", "highlight": ["must have felt"] },
+        { "en": "He must have been crying for help in his own way.", "ru": "Он, должно быть, звал на помощь по-своему.", "highlight": ["must have been crying"] }
+      ]
+    },
+    {
+      "group": "can't have — уверенное отрицание",
+      "items": [
+        { "en": "He can't have seen any other way out of his situation.", "ru": "Он не мог видеть другого выхода из своей ситуации.", "highlight": ["can't have seen"] },
+        { "en": "He can't have been understood by anyone around him.", "ru": "Он не мог быть понят никем из его окружения.", "highlight": ["can't have been understood"] },
+        { "en": "He can't have received the help he needed.", "ru": "Он не мог получить ту помощь, которая ему была нужна.", "highlight": ["can't have received"] }
+      ]
+    },
+    {
+      "group": "might have — возможность",
+      "items": [
+        { "en": "He might have been saved if someone had listened to him.", "ru": "Возможно, он был бы спасён, если бы кто-то прислушался к нему.", "highlight": ["might have been saved"] },
+        { "en": "He might have been crying out for help in his own way.", "ru": "Возможно, он звал на помощь по-своему.", "highlight": ["might have been crying"] },
+        { "en": "He might have been a victim of bullying.", "ru": "Возможно, он был жертвой издевательств.", "highlight": ["might have been"] }
+      ]
+    },
+    {
+      "group": "should have — критика или сожаление",
+      "items": [
+        { "en": "He should have been helped by someone who cared.", "ru": "Ему должны были помочь те, кому он был небезразличен.", "highlight": ["should have been helped"] },
+        { "en": "He should have been listened to when he needed it.", "ru": "Его должны были выслушать, когда ему это было нужно.", "highlight": ["should have been listened to"] },
+        { "en": "He should have been given more support.", "ru": "Ему должны были дать больше поддержки.", "highlight": ["should have been given"] }
+      ]
+    },
+    {
+      "group": "could have — теоретическая возможность",
+      "items": [
+        { "en": "He could have survived if he had received help.", "ru": "Он мог бы выжить, если бы получил помощь.", "highlight": ["could have survived"] },
+        { "en": "He could have lived a different life if he had been heard.", "ru": "Он мог бы жить другой жизнью, если бы его услышали.", "highlight": ["could have lived"] },
+        { "en": "He could have been a happy person with the right support.", "ru": "Он мог бы быть счастливым человеком с правильной поддержкой.", "highlight": ["could have been"] }
+      ]
+    },
+    {
+      "group": "needn't have — ненужное действие",
+      "items": [
+        { "en": "He needn't have been alone in that moment.", "ru": "Ему не нужно было быть одному в тот момент.", "highlight": ["needn't have been"] },
+        { "en": "He needn't have felt so isolated.", "ru": "Ему не нужно было чувствовать себя таким изолированным.", "highlight": ["needn't have felt"] },
+        { "en": "He needn't have suffered in silence.", "ru": "Ему не нужно было страдать в тишине.", "highlight": ["needn't have suffered"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "He must have suffering so much.", "right": "He must have been suffering so much.", "note": "Нужна V3: suffer → suffered или been + suffering." },
+    { "wrong": "He can't have see any other way.", "right": "He can't have seen any other way.", "note": "Нужна V3: see → seen." },
+    { "wrong": "He might have been save if someone had listened.", "right": "He might have been saved if someone had listened.", "note": "Нужна V3: save → saved." },
+    { "wrong": "He should have been help.", "right": "He should have been helped.", "note": "Нужна V3: help → helped." },
+    { "wrong": "He could have survive.", "right": "He could have survived.", "note": "Нужна V3: survive → survived." },
+    { "wrong": "He needn't have be alone.", "right": "He needn't have been alone.", "note": "Нужна V3: be → been." }
+  ],
+  "compare": {
+    "title": "Modals of past deduction — сравнение",
+    "leftLabel": "Модальный глагол",
+    "rightLabel": "Значение",
+    "rows": [
+      { "left": "must have + V3", "right": "уверенность (95%)" },
+      { "left": "can't have / couldn't have + V3", "right": "уверенное отрицание (95%)" },
+      { "left": "may have / might have + V3", "right": "возможность (50%)" },
+      { "left": "should have + V3", "right": "критика / сожаление" },
+      { "left": "could have + V3", "right": "теоретическая возможность" },
+      { "left": "needn't have + V3", "right": "ненужное действие" }
+    ]
+  },
+  "tips": [
+    "must have + V3 = уверен (95%).",
+    "can't have / couldn't have + V3 = уверен, что не произошло (95%).",
+    "may have / might have + V3 = возможно (50%).",
+    "should have + V3 = сожаление или критика.",
+    "could have + V3 = теоретически могло, но не случилось.",
+    "needn't have + V3 = действие было ненужным.",
+    "Всегда have + V3, не had."
+  ],
+  "related": ["b2-modals-in-the-past", "c2-modals-past-deduction", "c2-mixed-conditionals"],
+  "quiz": [
+    {
+      "q": "He ___ been suffering so much.",
+      "options": ["must have", "might have", "should have", "could have"],
+      "answer": 0,
+      "why": "must have — уверенность (95%)."
+    },
+    {
+      "q": "He ___ seen any other way out.",
+      "options": ["can't have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "can't have — уверенное отрицание."
+    },
+    {
+      "q": "He ___ been saved if someone had listened.",
+      "options": ["might have", "must have", "can't have", "should have"],
+      "answer": 0,
+      "why": "might have — возможность (50%)."
+    },
+    {
+      "q": "He ___ been helped.",
+      "options": ["should have", "must have", "might have", "could have"],
+      "answer": 0,
+      "why": "should have — сожаление."
+    },
+    {
+      "q": "He ___ survived if he had received help.",
+      "options": ["could have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "could have — теоретическая возможность."
+    },
+    {
+      "q": "He ___ been alone in that moment.",
+      "options": ["needn't have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "needn't have — ненужное действие."
+    }
+  ]
+}

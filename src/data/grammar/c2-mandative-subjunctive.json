@@ -1,215 +1,196 @@
 {
- "slug": "c2-mandative-subjunctive",
- "title": "Mandative subjunctive: it is vital that he be",
- "level": "C2",
- "category": "Verb forms",
- "readingTime": 14,
- "summary": "После слов требования и необходимости (essential, insist, demand, recommend) в формальном английском стоит особая форма — голый инфинитив для всех лиц: that he be, that she go. Сослагательное без сдвига времени, вершина формального регистра.",
- "idea": [
-  "На C1 мы познакомились с сослагательным, которое сдвигает время назад: I wish I knew, it's high time we left, I'd rather you didn't. Там форма «стареет» на шаг, чтобы показать нереальность желания. Но у английского есть и другое сослагательное — mandative subjunctive, «сослагательное требования», — и оно работает совсем иначе: время здесь не сдвигается вообще, а форма у глагола одна и та же для всех лиц и всех времён. Это голый инфинитив, base form, без окончаний и без to: It is essential that he BE present (не is); I insist that she GO at once (не goes); They demanded that the report REMAIN confidential (не remains). Выглядит непривычно, потому что в обычном английском третье лицо единственного числа тянет -s, а здесь его нет — he be, she go, it remain. Живёт эта форма после слов, выражающих требование, необходимость, рекомендацию или предложение: прилагательных essential, vital, crucial, important, necessary, imperative и глаголов insist, demand, require, request, recommend, suggest, propose, urge. Суть у неё одна: говорящий не описывает факт, а выражает волю — чтобы что‑то было так. И именно эта «волевая», не‑фактическая природа и держит глагол в особой, неизменяемой форме.",
-  "Разберём механику и варианты, потому что вокруг mandative subjunctive много регистровой путаницы. Чистая форма — голый инфинитив для всех лиц: It is vital that she attend the meeting; I recommend that he see a specialist; The rules require that every applicant submit a form. Отрицание строится частицей not перед этим голым инфинитивом: It is essential that he NOT be disturbed; I insist that they NOT leave. Но это не единственный способ выразить ту же мысль, и здесь важно чувствовать регистр. В британском английском очень часта альтернатива с should: It is vital that she should attend; I recommend that he should see a specialist — и это не ошибка, а норма BrE. В разговорной речи, особенно британской, часто проскакивает и обычный индикатив: It's important that he IS on time; I suggest that she IS the right person. А вот в американском английском и в формальном письме mandative subjunctive (that he be) — стандарт и ожидание. На C2 и на экзамене нужно знать все три варианта и понимать, что чистый subjunctive — самый формальный и «правильный» в строгом регистре, should — британская норма, индикатив — разговорное послабление. Запомни каркас: после слов требования/необходимости в строгом регистре — голый инфинитив для всех лиц; в BrE допустим should; в речи — индикатив.",
-  "И три тонкости, которые отличают уверенное владение от механического. Первая: не путай mandative subjunctive с wish‑сослагательным из C1. Там форма сдвигалась назад во времени (I wish I were, it's time we left); здесь сдвига нет — форма просто неизменяемая, he be сегодня и he be завтра, в настоящем и в будущем alike. Это сослагательное воли, а не нереальности. Вторая — коварная: глаголы suggest и insist имеют по два значения, и subjunctive включается только в «волевом». I suggest that she BE appointed (я рекомендую назначить её — воля, subjunctive) против He suggested that she WAS lying (он предположил, что она лжёт — констатация факта, индикатив). I insist that he GO (требую, чтобы ушёл — воля) против He insists that he IS innocent (он настаивает, что невиновен — утверждение факта, индикатив). Видишь разницу: требование/рекомендация зовёт subjunctive, констатация/предположение — индикатив. Третья: есть застывшие формулы, где это старое сослагательное выжило вне всяких правил — God SAVE the King (не saves), Heaven FORBID, be that as it MAY, so BE it, come what MAY, long LIVE the King. Их учат целиком, и они показывают, откуда форма вообще взялась. Унеси одно: mandative subjunctive — это голый инфинитив для всех лиц после слов требования и необходимости, без сдвига времени; в строгом регистре он обязателен, в BrE соседствует с should, а suggest/insist включают его только в значении воли, а не констатации."
- ],
- "why": [
-  "Писать формальные документы, инструкции и регламенты: It is essential that all staff complete the training.",
-  "Формулировать требования и рекомендации в деловой переписке: I recommend that the clause be removed.",
-  "Звучать строго и «по‑взрослому» в эссе и официальной речи: The committee urged that the decision be reconsidered.",
-  "Понимать юридические и академические тексты, где mandative subjunctive — норма, а не украшение."
- ],
- "context": {
-  "lines": [
-   { "en": "The contract requires that every page be signed and dated.", "ru": "Договор требует, чтобы каждая страница была подписана и датирована." },
-   { "en": "Understood. I also insist that the payment be made in full by Friday.", "ru": "Понял. Я также настаиваю, чтобы оплата была произведена полностью к пятнице." },
-   { "en": "The lawyer recommended that we not sign anything until Monday.", "ru": "Юрист рекомендовал нам не подписывать ничего до понедельника." },
-   { "en": "Agreed. It's vital that this remain between us, of course.", "ru": "Договорились. Разумеется, жизненно важно, чтобы это осталось между нами." }
+  "variant": "classic",
+  "slug": "c2-mandative-subjunctive",
+  "level": "C2",
+  "title": "Mandative subjunctive",
+  "category": "Verb forms",
+  "readingTime": 12,
+  "summary": "Mandative subjunctive — формальное сослагательное наклонение для требований, предложений и рекомендаций. История о том, как Джон Стейнбек использовал его в «Гроздьях гнева».",
+  "idea": [
+    "Джон Стейнбек написал «Гроздья гнева» в 1939 году. Это роман о семье Джоудов, которая теряет свою ферму во время Великой депрессии и отправляется в Калифорнию в поисках работы. Герои требуют справедливости. «We demand that the government help the poor» — мы требуем, чтобы правительство помогало бедным. «I suggest that we organise a protest» — я предлагаю, чтобы мы организовали протест. «He insisted that they be treated fairly» — он настаивал, чтобы с ними обращались справедливо. «The law requires that everyone be treated equally» — закон требует, чтобы ко всем относились одинаково.",
+    "Стейнбек использовал mandative subjunctive, чтобы показать борьбу героев за свои права. Он был социальным активистом. Его книги часто запрещали. Он рекомендовал читать их всем: «I recommend that everyone read this book». «Гроздья гнева» получила Пулитцеровскую премию и стала символом борьбы за права человека.",
+    "Mandative subjunctive — это формальное сослагательное наклонение. Verb + that + subject + V1 (без -s). Используется после глаголов suggest, insist, demand, recommend, propose, require, urge, advise. В британском английском часто используют should (I suggest that he should go). В американском — без should (I suggest that he go)."
   ],
-  "note": "Во всех репликах — слова требования/необходимости (requires, insist, recommended, vital), и после них голый инфинитив для всех лиц: be signed, be made, not sign, remain. Заметь: не is signed / is made / remains — окончаний нет, форма неизменяема. Отрицание — not перед инфинитивом (that we not sign)."
- },
- "russianAngle": [
-  " По‑русски после «важно, чтобы / требую, чтобы / настаиваю, чтобы» глагол стоит в настоящем времени или с «бы», и форма согласуется с лицом как обычно: «важно, чтобы он БЫЛ вовремя», «требую, чтобы она УШЛА». Никакой особой неизменяемой формы нет. Английский в строгом регистре ставит голый инфинитив для всех лиц: It is vital that he BE on time; I demand that she LEAVE. Отсюда ошибка *It is essential that he is on time* — русское согласование «он есть», перенесённое в английский формальный регистр.",
-  " «Настаиваю, чтобы она пришла» / «Рекомендую, чтобы он обратился к врачу» — по‑русски глагол в придаточном меняется по лицам (пришла, обратился). В mandative subjunctive форма одна: I insist that she COME; I recommend that he SEE a doctor. Третье лицо единственного числа без -s — это и есть маркер формы, и русскоговорящий рефлекторно лепит -s (*she comes, *he sees).",
-  " «Важно, чтобы его не беспокоили» — отрицание «не» стоит перед глаголом естественно. В subjunctive отрицание — not перед голым инфинитивом: It is essential that he NOT be disturbed; I insist that they NOT leave. Не *that he doesn't be disturbed* и не *that he isn't disturbed* в строгой форме — именно not + base form.",
-  " Глагол «предложить/предположить» и «настоять/утверждать» по‑русски близки, и мы не чувствуем, что одно выражает волю, а другое — факт. Английский различает: I suggest that she BE appointed (рекомендация, воля → subjunctive) против He suggested that she WAS lying (предположение, факт → индикатив). I insist that he GO (требование) против He insists that he IS innocent (утверждение). Это тонкость, на которой ловят на C2.",
-  " «Боже, храни короля», «Не дай бог», «Будь что будет» — по‑русски это архаичные или устойчивые формы, которые мы не разбираем грамматически. В английском то же самое: God SAVE the King, Heaven FORBID, be that as it MAY, so BE it, come what MAY — застывшие осколки того самого сослагательного, без -s у третьего лица. Учи их целиком как формулы; они показывают, откуда форма взялась."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: после слов требования/необходимости в строгом регистре — голый инфинитив для всех лиц (he be, she go, it remain).",
-   "Запомни триггеры: essential, vital, crucial, important, necessary, imperative; insist, demand, require, request, recommend, suggest, propose, urge.",
-   "Отрицание — not перед инфинитивом: that he not be, that she not go.",
-   "Знай варианты: BrE часто should (that he should be), разговорная речь — индикатив (that he is); чистый subjunctive — самый формальный.",
-   "Различай suggest/insist: воля/рекомендация → subjunctive; констатация/предположение → индикатив.",
-   "Выучи застывшие формулы: God save, Heaven forbid, be that as it may, so be it, come what may.",
-   "Сделай упражнение ниже и сверься — особенно с отсутствием -s у третьего лица и с not перед инфинитивом."
+  "why": [
+    "Выражать требования: We demand that the government help the poor.",
+    "Выражать предложения: I suggest that we organise a protest.",
+    "Выражать настойчивость: He insisted that they be treated fairly.",
+    "Выражать рекомендации: I recommend that everyone read this book."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — поставь верную форму глагола (или переведи):",
-   "items": [
-    { "q": "It is essential that every employee ___ (complete) the safety course.", "a": "complete — голый инфинитив для всех лиц, без -s (не completes)." },
-    { "q": "I insist that she ___ (be) told the truth immediately.", "a": "be — subjunctive после insist в значении требования; не is." },
-    { "q": "The rules require that no information ___ (be) disclosed.", "a": "be — голый инфинитив; no information be disclosed." },
-    { "q": "The doctor recommended that he ___ (not / smoke) for a month.", "a": "not smoke — отрицание not перед инфинитивом; не doesn't smoke." },
-    { "q": "He suggested that she ___ (be) the best candidate — he'd checked her record. (констатация или воля?)", "a": "was — здесь констатация/предположение (он предположил по фактам), а не рекомендация, поэтому индикатив was, не subjunctive be." },
-    { "q": "Переведи формально: «Жизненно важно, чтобы решение было пересмотрено.»", "a": "It is vital that the decision be reconsidered. — пассивный subjunctive: be + V3, без is." }
-   ]
-  }
- },
- "formula": "trigger + that + subject + base form (be / go / remain …) · negative: that + S + not + base form",
- "structure": {
-  "positive": "It is vital that he be present. / I insist that she go. / They demanded that it remain secret.",
-  "negative": "It is essential that he not be disturbed. / I recommend that they not sign yet.",
-  "question": "Is it necessary that he attend in person? (инверсия be в главной части; that‑часть в subjunctive)"
- },
- "markers": ["that", "be", "essential", "vital", "crucial", "important", "necessary", "imperative", "insist", "demand", "require", "request", "recommend", "suggest", "propose", "urge", "lest", "God save", "Heaven forbid", "so be it"],
- "uses": [
-  "Формальные документы и инструкции: It is required that all applicants submit identification.",
-  "Деловые требования и рекомендации: We recommend that the meeting be postponed.",
-  "Официальные резолюции и решения: The board proposed that the CEO resign.",
-  "Застывшие формулы и пожелания: God save the King. Heaven forbid. Be that as it may."
- ],
- "rules": [
-  { "title": "Голый инфинитив для всех лиц — без -s, без to, без времени", "text": "После триггера требования/необходимости в строгом регистре глагол стоит в base form для всех лиц: that he be, that she go, that it remain, that they submit. Окончания -s нет (не he is / she goes), to нет, форма не меняется по временам. Отрицание — not перед инфинитивом: that he not be disturbed." },
-  { "title": "Три регистра: subjunctive / should / индикатив", "text": "Чистый mandative subjunctive (that he be) — самый формальный, стандарт AmE и строгого письма. BrE часто использует should (that he should be) — это норма, не ошибка. Разговорная речь, особенно BrE, допускает индикатив (that he is). На C2 нужно знать все три и выбирать по регистру; в формальном тексте — subjunctive." },
-  { "title": "suggest / insist: воля → subjunctive, факт → индикатив", "text": "Эти глаголы двузначны. В значении рекомендации/требования — subjunctive: I suggest that she be appointed; I insist that he leave. В значении предположения/утверждения факта — индикатив: He suggested that she was lying; He insists that he is innocent. Различай по смыслу: воля зовёт base form, констатация — обычное время." }
- ],
- "examples": [
-  {
-   "group": "прилагательные необходимости (essential / vital / crucial / important)",
-   "items": [
-    { "en": "It is essential that every witness be interviewed separately.", "ru": "Существенно важно, чтобы каждый свидетель был допрошен отдельно.", "highlight": ["essential that every witness be"] },
-    { "en": "It is crucial that the data remain confidential.", "ru": "Критически важно, чтобы данные оставались конфиденциальными.", "highlight": ["crucial that the data remain"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Tom Joad: 'We demand that the government help the poor. I suggest that we organise a protest. He insisted that they be treated fairly.'",
+        "ru": "Том Джоуд: «Мы требуем, чтобы правительство помогало бедным. Я предлагаю, чтобы мы организовали протест. Он настаивал, чтобы с ними обращались справедливо»." },
+      { "en": "Steinbeck: 'The law requires that everyone be treated equally. I recommend that everyone read this book.'",
+        "ru": "Стейнбек: «Закон требует, чтобы ко всем относились одинаково. Я рекомендую всем прочитать эту книгу»." }
+    ],
+    "note": "suggest/insist/demand/require/recommend + that + subject + V1 (без -s)."
   },
-  {
-   "group": "глаголы требования и рекомендации (insist / demand / recommend / require)",
-   "items": [
-    { "en": "I insist that she apologise publicly.", "ru": "Я настаиваю, чтобы она публично извинилась.", "highlight": ["insist that she apologise"] },
-    { "en": "The doctor recommended that he rest for a week.", "ru": "Врач рекомендовал, чтобы он отдыхал неделю.", "highlight": ["recommended that he rest"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы говорим: «я предлагаю, чтобы мы организовали протест». В английском — I suggest that we organise a protest.",
+    "Mandative subjunctive = V1 (без -s) после that.",
+    "В американском английском — без should.",
+    "В британском английском — с should (I suggest that he should go)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: verb + that + subject + V1 (без -s).",
+      "Глаголы: suggest, insist, demand, recommend, propose, require, urge, advise.",
+      "В американском английском — без should.",
+      "В британском английском — с should.",
+      "Используется в формальных и официальных текстах.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильную форму глагола в mandative subjunctive:",
+      "items": [
+        { "q": "We demand that the government ___ (help) the poor.", "a": "help" },
+        { "q": "I suggest that we ___ (organise) a protest.", "a": "organise" },
+        { "q": "He insisted that they ___ (be) treated fairly.", "a": "be" },
+        { "q": "The law requires that everyone ___ (be) treated equally.", "a": "be" },
+        { "q": "I recommend that everyone ___ (read) this book.", "a": "read" }
+      ]
+    }
   },
-  {
-   "group": "отрицание — not перед инфинитивом",
-   "items": [
-    { "en": "It is important that he not be told yet.", "ru": "Важно, чтобы ему пока не говорили.", "highlight": ["that he not be told"] },
-    { "en": "I urge that the committee not rush the decision.", "ru": "Я призываю, чтобы комитет не торопил решение.", "highlight": ["that the committee not rush"] }
-   ]
+  "formula": "verb + that + subject + V1 (без -s)",
+  "structure": {
+    "positive": "We demand that the government help the poor.",
+    "negative": "We demand that the government not help the poor.",
+    "question": "Do you suggest that we organise a protest?"
   },
-  {
-   "group": "should‑альтернатива (BrE) и индикатив (разговорный)",
-   "items": [
-    { "en": "It is vital that she should attend the hearing. (BrE, формально)", "ru": "Жизненно важно, чтобы она присутствовала на слушании.", "highlight": ["that she should attend"] },
-    { "en": "It's important that he is on time. (разговорный индикатив)", "ru": "Важно, чтобы он был вовремя.", "highlight": ["that he is on time"] }
-   ]
+  "markers": ["suggest", "insist", "demand", "recommend", "propose", "require", "urge", "advise"],
+  "uses": [
+    "suggest: I suggest that we organise a protest.",
+    "insist: He insisted that they be treated fairly.",
+    "demand: We demand that the government help the poor.",
+    "require: The law requires that everyone be treated equally.",
+    "recommend: I recommend that everyone read this book.",
+    "propose: I propose that we fight for our rights."
+  ],
+  "rules": [
+    { "title": "Формула",
+      "text": "verb + that + subject + V1 (без -s). We demand that the government help the poor." },
+    { "title": "Глаголы",
+      "text": "suggest, insist, demand, recommend, propose, require, urge, advise." },
+    { "title": "Американский vs британский",
+      "text": "В американском — без should. В британском — с should (I suggest that he should go)." },
+    { "title": "Отрицание",
+      "text": "not ставится перед глаголом. We demand that the government not ignore the poor." }
+  ],
+  "examples": [
+    {
+      "group": "suggest — предложение",
+      "items": [
+        { "en": "I suggest that we organise a protest against injustice.", "ru": "Я предлагаю, чтобы мы организовали протест против несправедливости.", "highlight": ["suggest", "organise"] },
+        { "en": "I suggest that everyone read this book.", "ru": "Я предлагаю, чтобы все прочитали эту книгу.", "highlight": ["suggest", "read"] },
+        { "en": "I suggest that we leave now.", "ru": "Я предлагаю, чтобы мы ушли сейчас.", "highlight": ["suggest", "leave"] }
+      ]
+    },
+    {
+      "group": "insist — настойчивость",
+      "items": [
+        { "en": "He insisted that they be treated fairly.", "ru": "Он настаивал, чтобы с ними обращались справедливо.", "highlight": ["insisted", "be"] },
+        { "en": "She insisted that he apologise.", "ru": "Она настаивала, чтобы он извинился.", "highlight": ["insisted", "apologise"] },
+        { "en": "They insisted that we stay for dinner.", "ru": "Они настаивали, чтобы мы остались на ужин.", "highlight": ["insisted", "stay"] }
+      ]
+    },
+    {
+      "group": "demand — требование",
+      "items": [
+        { "en": "We demand that the government help the poor.", "ru": "Мы требуем, чтобы правительство помогало бедным.", "highlight": ["demand", "help"] },
+        { "en": "The workers demanded that their salaries be increased.", "ru": "Рабочие требовали, чтобы их зарплаты были увеличены.", "highlight": ["demanded", "be increased"] },
+        { "en": "We demand that you listen to our voices.", "ru": "Мы требуем, чтобы вы слушали наши голоса.", "highlight": ["demand", "listen"] }
+      ]
+    },
+    {
+      "group": "require — требование закона/правил",
+      "items": [
+        { "en": "The law requires that everyone be treated equally.", "ru": "Закон требует, чтобы ко всем относились одинаково.", "highlight": ["requires", "be"] },
+        { "en": "The school requires that students wear uniforms.", "ru": "Школа требует, чтобы ученики носили форму.", "highlight": ["requires", "wear"] },
+        { "en": "The contract requires that we deliver the goods on time.", "ru": "Контракт требует, чтобы мы доставили товары вовремя.", "highlight": ["requires", "deliver"] }
+      ]
+    },
+    {
+      "group": "recommend — рекомендация",
+      "items": [
+        { "en": "I recommend that everyone read this book.", "ru": "Я рекомендую всем прочитать эту книгу.", "highlight": ["recommend", "read"] },
+        { "en": "The doctor recommended that I take a rest.", "ru": "Врач рекомендовал, чтобы я отдохнул.", "highlight": ["recommended", "take"] },
+        { "en": "I recommend that you see a specialist.", "ru": "Я рекомендую вам обратиться к специалисту.", "highlight": ["recommend", "see"] }
+      ]
+    },
+    {
+      "group": "propose — предложение",
+      "items": [
+        { "en": "I propose that we fight for our rights.", "ru": "Я предлагаю, чтобы мы боролись за наши права.", "highlight": ["propose", "fight"] },
+        { "en": "He proposed that they start a new project.", "ru": "Он предложил, чтобы они начали новый проект.", "highlight": ["proposed", "start"] },
+        { "en": "I propose that we meet next week.", "ru": "Я предлагаю, чтобы мы встретились на следующей неделе.", "highlight": ["propose", "meet"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I suggest that we organises a protest.", "right": "I suggest that we organise a protest.", "note": "Mandative subjunctive — V1 (без -s)." },
+    { "wrong": "He insisted that they were treated fairly.", "right": "He insisted that they be treated fairly.", "note": "Mandative subjunctive — be, не were." },
+    { "wrong": "We demand that the government helps the poor.", "right": "We demand that the government help the poor.", "note": "Mandative subjunctive — V1 (без -s)." },
+    { "wrong": "The law requires that everyone is treated equally.", "right": "The law requires that everyone be treated equally.", "note": "Mandative subjunctive — be, не is." },
+    { "wrong": "I recommend that everyone reads this book.", "right": "I recommend that everyone read this book.", "note": "Mandative subjunctive — V1 (без -s)." },
+    { "wrong": "I propose that we fought for our rights.", "right": "I propose that we fight for our rights.", "note": "Mandative subjunctive — V1 (без -s)." }
+  ],
+  "compare": {
+    "title": "Mandative vs Indicative",
+    "leftLabel": "Mandative subjunctive (формальный)",
+    "rightLabel": "Indicative (обычный)",
+    "rows": [
+      { "left": "I suggest that he go.", "right": "I suggest that he goes. (неправильно для mandative)" },
+      { "left": "He insisted that she be there.", "right": "He insisted that she was there. (неправильно для mandative)" },
+      { "left": "We demand that they help.", "right": "We demand that they help. (правильно)" }
+    ]
   },
-  {
-   "group": "застывшие формулы",
-   "items": [
-    { "en": "God save the King. Heaven forbid!", "ru": "Боже, храни короля. Не дай бог!", "highlight": ["God save", "Heaven forbid"] },
-    { "en": "Be that as it may, we proceed. So be it.", "ru": "Будь что будет, мы продолжаем. Да будет так.", "highlight": ["Be that as it may", "So be it"] }
-   ]
-  },
-  {
-   "group": "suggest / insist: воля vs факт",
-   "items": [
-    { "en": "I suggest that the meeting be held online. (рекомендация)", "ru": "Предлагаю провести встречу онлайн.", "highlight": ["suggest that the meeting be"] },
-    { "en": "He suggested that the meeting was a waste of time. (предположение)", "ru": "Он предположил, что встреча — пустая трата времени.", "highlight": ["suggested that the meeting was"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "It is essential that he is present.", "right": "It is essential that he be present.", "note": "В строгом регистре — голый инфинитив be, не индикатив is (индикатив допустим лишь разговорно, особенно в BrE)." },
-  { "wrong": "I insist that she resigns immediately.", "right": "I insist that she resign immediately.", "note": "Третье лицо единственного числа без -s в subjunctive." },
-  { "wrong": "The rules require that every applicant submits a form.", "right": "The rules require that every applicant submit a form.", "note": "Base form для всех лиц: submit, не submits." },
-  { "wrong": "I recommend that he doesn't drive for a week.", "right": "I recommend that he not drive for a week.", "note": "Отрицание в subjunctive — not перед инфинитивом, не doesn't." },
-  { "wrong": "He insisted that he be innocent.", "right": "He insisted that he was innocent.", "note": "Здесь insist = утверждать факт, не требовать → индикатив was, не subjunctive be." },
-  { "wrong": "God saves the King. / Long lives the King.", "right": "God save the King. / Long live the King.", "note": "Застывшие формулы хранят subjunctive без -s у третьего лица." }
- ],
- "compare": {
-  "title": "Mandative subjunctive vs wish‑сослагательное (C1)",
-  "leftLabel": "mandative (воля, без сдвига)",
-  "rightLabel": "wish / it's time (нереальность, сдвиг назад)",
-  "rows": [
-   { "left": "It is vital that he be here. (base form, все лица)", "right": "I wish he were here. (сдвиг: were)" },
-   { "left": "I insist that she go now. (требование)", "right": "It's time she went. (сдвиг: went)" },
-   { "left": "Форма неизменяема, время не сдвигается", "right": "Форма «стареет» на шаг, чтобы показать нереальность" }
+  "tips": [
+    "verb + that + subject + V1 (без -s).",
+    "Глаголы: suggest, insist, demand, recommend, propose, require, urge, advise.",
+    "В американском — без should.",
+    "В британском — с should.",
+    "Используется в формальных и официальных текстах.",
+    "Отрицание: not перед глаголом.",
+    "Не путай с индикативом."
+  ],
+  "related": ["c2-mandative-subjunctive", "c2-subjunctive-wish-regret", "c2-inversion-so-such", "c2-cohesion-and-register"],
+  "quiz": [
+    {
+      "q": "We demand that the government ___ the poor.",
+      "options": ["help", "helps", "helped", "helping"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    },
+    {
+      "q": "He insisted that they ___ treated fairly.",
+      "options": ["be", "were", "are", "being"],
+      "answer": 0,
+      "why": "Mandative subjunctive — be, не were."
+    },
+    {
+      "q": "The law requires that everyone ___ treated equally.",
+      "options": ["be", "is", "was", "being"],
+      "answer": 0,
+      "why": "Mandative subjunctive — be, не is."
+    },
+    {
+      "q": "I suggest that we ___ a protest.",
+      "options": ["organise", "organises", "organised", "organising"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    },
+    {
+      "q": "I recommend that everyone ___ this book.",
+      "options": ["read", "reads", "reading", "readed"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    },
+    {
+      "q": "I propose that we ___ for our rights.",
+      "options": ["fight", "fights", "fought", "fighting"],
+      "answer": 0,
+      "why": "Mandative subjunctive — V1 (без -s)."
+    }
   ]
- },
- "tips": [
-  "Главный маркер формы — отсутствие -s у третьего лица. He be, she go, it remain, every applicant submit. Как только видишь триггер требования в формальном тексте — ставь base form и мысленно проверяй: нет ли -s? Это единственное, что реально отличает subjunctive от индикатива на письме.",
-  "Держи в голове три регистра и не воюй с ними. Чистый subjunctive (that he be) — формальный и американский; should (that he should be) — британская норма; индикатив (that he is) — разговорное послабление. Все три «правильны» в своём регистре; на экзамене и в строгом письме выбирай subjunctive, но не помечай should как ошибку.",
-  "suggest и insist — хамелеоны. Прежде чем ставить форму, спроси: это воля (рекомендация/требование) или констатация (предположение/утверждение)? Воля → subjunctive (I suggest that she be appointed); факт → индикатив (He suggested that she was tired). Эта одна проверка снимает самую частую C2‑ловушку темы.",
-  "Отрицание строй как not + base form, без вспомогательных: that he not be, that she not go, that they not sign. Не тащи doesn't / isn't в формальный subjunctive. В разговорном индикативе, конечно, he isn't / she doesn't допустимы — но это уже не subjunctive.",
-  "Пассив в subjunctive — это be + V3, и он очень част в документах: It is required that the form be signed; I recommend that the clause be removed; It is essential that the data be kept secure. Be здесь — тот самый голый инфинитив, не is/are. Тренируй на канцелярских фразах.",
-  "Застывшие формулы учи как неделимые chunks: God save the King, Heaven forbid, be that as it may, so be it, come what may, long live…, suffice it to say. Они не выводятся по правилу и показывают историческое ядро формы. Suffice it to say, кстати, отличный формальный вводный оборот для эссе.",
-  "Не путай с should в значении «следовало бы» из темы про модальные. It is vital that he should attend (should как часть mandative‑альтернативы, BrE) — это не то же самое, что He should attend (ему следует, совет). В первом should — регистровая замена subjunctive после триггера, во втором — обычный модальный совет. Контекст триггера решает."
- ],
- "related": ["c1-subjunctive-wish-regret", "c2-cohesion-and-register", "c2-modals-past-deduction"],
- "quiz": [
-  {
-    "q": "It is essential that every witness ___ interviewed separately.",
-    "options": [
-            "is",
-            "be",
-            "will be",
-            "would be"
-          ],
-    "answer": 1,
-    "why": "После триггера необходимости в строгом регистре — голый инфинитив для всех лиц: that every witness be. Индикатив is допустим лишь разговорно; в формальном тексте — be."
-  },
-  {
-    "q": "I insist that she ___ immediately.",
-    "options": [
-            "resigns",
-            "resigned",
-            "resign",
-            "will resign"
-          ],
-    "answer": 2,
-    "why": "Третье лицо единственного числа в mandative subjunctive идёт без -s: that she resign. Окончание -s (resigns) было бы индикативом, а не сослагательным требования."
-  },
-  {
-    "q": "It is important that he ___ disturbed.",
-    "options": [
-            "isn\u0027t",
-            "doesn\u0027t be",
-            "be not",
-            "not be"
-          ],
-    "answer": 3,
-    "why": "Отрицание в subjunctive — not перед голым инфинитивом: that he not be disturbed. isn\u0027t/doesn\u0027t be тащат индикатив и вспомогательные туда, где их быть не должно."
-  },
-  {
-    "q": "He suggested that she ___ lying (he believed it as a fact).",
-    "options": [
-            "be",
-            "was",
-            "is",
-            "be being"
-          ],
-    "answer": 1,
-    "why": "suggest в значении констатации/предположения факта зовёт индикатив, а не subjunctive: he suggested that she was lying. Subjunctive be включается только в значении рекомендации/воли."
-  },
-  {
-    "q": "The rules require that every applicant ___ a form.",
-    "options": [
-            "submits",
-            "submitted",
-            "submit",
-            "will submit"
-          ],
-    "answer": 2,
-    "why": "Base form для всех лиц: that every applicant submit, без -s. submits было бы индикативом третьего лица, а не формальным subjunctive."
-  },
-  {
-    "q": "Выберите верную застывшую форму.",
-    "options": [
-            "God saves the King.",
-            "God saved the King.",
-            "God will save the King.",
-            "God save the King."
-          ],
-    "answer": 3,
-    "why": "Застывшие формулы хранят старое сослагательное без -s у третьего лица: God save the King, Heaven forbid, long live the King. saves сюда не ставится."
-  }
-]
 }

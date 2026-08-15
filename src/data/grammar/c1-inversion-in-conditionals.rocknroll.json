@@ -1,0 +1,194 @@
+{
+  "variant": "rocknroll",
+  "slug": "c1-inversion-in-conditionals",
+  "level": "C1",
+  "title": "Inversion in conditionals",
+  "category": "Inversion",
+  "readingTime": 11,
+  "summary": "Инверсия в условных предложениях — формальный способ выразить условие без if. История о том, как Joy Division использовали инверсию в текстах песен.",
+  "idea": [
+    "Joy Division записали «Unknown Pleasures» в 1979 году. Это был мрачный и мощный альбом, который изменил музыку. Иэн Кертис писал тексты о депрессии, одиночестве и отчаянии. Он использовал инверсию в условных предложениях в своих текстах. «Were I to die, would you remember me?» — если бы я умер, ты бы меня помнила? «Had I known the end, I would have written more» — знай я конец, я бы написал больше. «Should I try to escape, it would be too late» — если бы я попытался сбежать, было бы слишком поздно.",
+    "Инверсия добавляет его текстам формальности и трагизма. Иэн Кертис покончил с собой в 1980 году, за день до того, как группа должна была отправиться в тур. Если бы он прожил дольше, Joy Division могли бы стать самой большой группой в мире. Инверсия: «Had he lived longer, Joy Division would have been the biggest band in the world».",
+    "Инверсия в условных предложениях — это формальный способ выразить условие без if. Had + subject + V3 (третье условие). Were + subject + to + V1 (второе условие). Should + subject + V1 (первое условие). Используется в литературе и официальных текстах."
+  ],
+  "why": [
+    "Формальный способ выражения условия: Had I known the end...",
+    "Литературный эффект: Were I to die, would you remember me?",
+    "Драматическое усиление: Should I try to escape, it would be too late.",
+    "Использование в официальных текстах: Had he lived longer..."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Ian Curtis: 'Were I to die, would you remember me? Had I known the end, I would have written more. Should I try to escape, it would be too late.'",
+        "ru": "Иэн Кертис: «Если бы я умер, ты бы меня помнила? Знай я конец, я бы написал больше. Если бы я попытался сбежать, было бы слишком поздно»." },
+      { "en": "Producer: 'Had he lived longer, Joy Division would have been the biggest band in the world. Were he here today, he would be a legend.'",
+        "ru": "Продюсер: «Если бы он прожил дольше, Joy Division стали бы самой большой группой в мире. Если бы он был здесь сегодня, он был бы легендой»." }
+    ],
+    "note": "Had + subject + V3 (прошлое); Were + subject + to + V1 (настоящее); Should + subject + V1 (будущее)."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим: «знай я...» вместо «если бы я знал...». В английском — инверсия.",
+    "Had + subject + V3 = третье условие (прошлое).",
+    "Were + subject + to + V1 = второе условие (настоящее).",
+    "Should + subject + V1 = первое условие (будущее) — формально."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: инверсия в conditionals = без if.",
+      "Had + subject + V3 (прошлое).",
+      "Were + subject + to + V1 (настоящее).",
+      "Should + subject + V1 (будущее) — формально.",
+      "Используется в литературе и официальных текстах.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте предложения с if в инверсию:",
+      "items": [
+        { "q": "If I had known the end, I would have written more. → ___ I known the end, I would have written more.", "a": "Had" },
+        { "q": "If I were to die, would you remember me? → ___ I to die, would you remember me?", "a": "Were" },
+        { "q": "If I should try to escape, it would be too late. → ___ I try to escape, it would be too late.", "a": "Should" },
+        { "q": "If he had lived longer, Joy Division would have been the biggest band. → ___ he lived longer, Joy Division would have been the biggest band.", "a": "Had" },
+        { "q": "If he had not been so depressed, he would have written happier songs. → ___ he not been so depressed, he would have written happier songs.", "a": "Had" }
+      ]
+    }
+  },
+  "formula": "Had + subject + V3 · Were + subject + to + V1 · Should + subject + V1",
+  "structure": {
+    "positive": "Had I known the end, I would have written more.",
+    "negative": "Had I not known the end, I wouldn't have written more.",
+    "question": "Had I known the end, would I have written more?"
+  },
+  "markers": ["had", "were", "should", "if"],
+  "uses": [
+    "Had + subject + V3: Had I known the end... (прошлое)",
+    "Were + subject + to + V1: Were I to die, would you remember me? (настоящее)",
+    "Should + subject + V1: Should I try to escape, it would be too late. (будущее)",
+    "Используется в литературе и официальных текстах."
+  ],
+  "rules": [
+    { "title": "Had + subject + V3",
+      "text": "Замена if + Past Perfect. Had I known the end, I would have written more." },
+    { "title": "Were + subject + to + V1",
+      "text": "Замена if + Past Simple. Were I to die, would you remember me?" },
+    { "title": "Should + subject + V1",
+      "text": "Замена if + Present Simple (формально). Should I try to escape, it would be too late." },
+    { "title": "Отрицание",
+      "text": "Had I not been so depressed... Were I not to write..." }
+  ],
+  "examples": [
+    {
+      "group": "Had + subject + V3 — третье условие (прошлое)",
+      "items": [
+        { "en": "Had I known the end, I would have written more.", "ru": "Знай я конец, я бы написал больше.", "highlight": ["Had I known"] },
+        { "en": "Had he not been so depressed, he would have written happier songs.", "ru": "Не будь он таким подавленным, он бы написал более счастливые песни.", "highlight": ["Had he not been"] },
+        { "en": "Had he lived longer, Joy Division would have been the biggest band.", "ru": "Если бы он прожил дольше, Joy Division стали бы самой большой группой.", "highlight": ["Had he lived"] }
+      ]
+    },
+    {
+      "group": "Were + subject + to + V1 — второе условие (настоящее)",
+      "items": [
+        { "en": "Were I to die, would you remember me?", "ru": "Если бы я умер, ты бы меня помнила?", "highlight": ["Were I to die"] },
+        { "en": "Were he here today, he would be a legend.", "ru": "Если бы он был здесь сегодня, он был бы легендой.", "highlight": ["Were he here"] },
+        { "en": "Were they to tour again, they would sell out every show.", "ru": "Если бы они снова гастролировали, они бы продали все билеты.", "highlight": ["Were they to tour"] }
+      ]
+    },
+    {
+      "group": "Should + subject + V1 — первое условие (будущее, формально)",
+      "items": [
+        { "en": "Should I try to escape, it would be too late.", "ru": "Если бы я попытался сбежать, было бы слишком поздно.", "highlight": ["Should I try"] },
+        { "en": "Should you need help, I'll be there.", "ru": "Если тебе понадобится помощь, я буду рядом.", "highlight": ["Should you need"] },
+        { "en": "Should they call, tell them I'm busy.", "ru": "Если они позвонят, скажи, что я занят.", "highlight": ["Should they call"] }
+      ]
+    },
+    {
+      "group": "Отрицание в инверсии",
+      "items": [
+        { "en": "Had I not been so isolated, I would have been happier.", "ru": "Не будь я таким изолированным, я был бы счастливее.", "highlight": ["Had I not been"] },
+        { "en": "Were I not to sing, I would die.", "ru": "Если бы я не пел, я бы умер.", "highlight": ["Were I not to sing"] },
+        { "en": "Should they not arrive on time, we'll start without them.", "ru": "Если они не приедут вовремя, мы начнём без них.", "highlight": ["Should they not arrive"] }
+      ]
+    },
+    {
+      "group": "Сравнение if и инверсии",
+      "items": [
+        { "en": "If I had known... → Had I known...", "ru": "Если бы я знал... → Знай я...", "highlight": ["Had I known"] },
+        { "en": "If I were to die... → Were I to die...", "ru": "Если бы я умер... → Если бы я умер... (инверсия)", "highlight": ["Were I to die"] },
+        { "en": "If I should try... → Should I try...", "ru": "Если бы я попытался... → Попытайся я...", "highlight": ["Should I try"] }
+      ]
+    },
+    {
+      "group": "Смешанные примеры",
+      "items": [
+        { "en": "Had I known the truth, I would have acted differently. Were I to do it again, I would make the same choice.", "ru": "Знай я правду, я бы поступил иначе. Если бы я сделал это снова, я бы сделал тот же выбор.", "highlight": ["Had I known", "Were I to do"] },
+        { "en": "Had I not been so afraid, I would have performed better. Should I get another chance, I will prove myself.", "ru": "Не будь я таким напуганным, я бы выступил лучше. Если у меня будет ещё один шанс, я докажу себя.", "highlight": ["Had I not been", "Should I get"] },
+        { "en": "Were I to write a song, it would be about isolation. Had I known the future, I would have written differently.", "ru": "Если бы я написал песню, она была бы об изоляции. Знай я будущее, я бы писал иначе.", "highlight": ["Were I to write", "Had I known"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "If I had known... (обычное)", "right": "Had I known... (инверсия)", "note": "Инверсия: Had + subject + V3." },
+    { "wrong": "Had I known the end, I would have written more. (правильно)", "right": "Had I known the end, I would have written more.", "note": "Правильно!" },
+    { "wrong": "Were I to die, would you remember me? (правильно)", "right": "Were I to die, would you remember me?", "note": "Правильно!" },
+    { "wrong": "Should I try to escape, it would be too late. (правильно)", "right": "Should I try to escape, it would be too late.", "note": "Правильно!" },
+    { "wrong": "Had I not been so depressed, I would have written happier songs. (правильно)", "right": "Had I not been so depressed, I would have written happier songs.", "note": "Правильно!" },
+    { "wrong": "Were I not to sing, I would die. (правильно)", "right": "Were I not to sing, I would die.", "note": "Правильно!" }
+  ],
+  "compare": {
+    "title": "If vs Inversion in conditionals",
+    "leftLabel": "If (обычный порядок)",
+    "rightLabel": "Inversion (формальный)",
+    "rows": [
+      { "left": "If I had known, I would have written more.", "right": "Had I known, I would have written more." },
+      { "left": "If I were to die, would you remember me?", "right": "Were I to die, would you remember me?" },
+      { "left": "If I should try, it would be too late.", "right": "Should I try, it would be too late." }
+    ]
+  },
+  "tips": [
+    "Had + subject + V3 = третье условие (прошлое).",
+    "Were + subject + to + V1 = второе условие (настоящее).",
+    "Should + subject + V1 = первое условие (будущее) — формально.",
+    "Инверсия без if.",
+    "Используется в литературе и официальных текстах.",
+    "Не злоупотребляй в обычной речи.",
+    "Проверяй, что это формальный контекст."
+  ],
+  "related": ["c1-inversion-after-negative-adverbials", "c1-cleft-sentences", "c1-subjunctive-wish-regret"],
+  "quiz": [
+    {
+      "q": "___ I known the end, I would have written more.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answer": 0,
+      "why": "Had + subject + V3 для третьего условия."
+    },
+    {
+      "q": "___ I to die, would you remember me?",
+      "options": ["Had", "Were", "Should", "If"],
+      "answer": 1,
+      "why": "Were + subject + to + V1 для второго условия."
+    },
+    {
+      "q": "___ I try to escape, it would be too late.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answer": 2,
+      "why": "Should + subject + V1 для первого условия (формально)."
+    },
+    {
+      "q": "___ he lived longer, Joy Division would have been the biggest band.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answer": 0,
+      "why": "Had + subject + V3 для третьего условия."
+    },
+    {
+      "q": "___ he not been so depressed, he would have written happier songs.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answer": 0,
+      "why": "Отрицание в третьем условии: Had he not been..."
+    },
+    {
+      "q": "___ they not arrive on time, we'll start without them.",
+      "options": ["Had", "Were", "Should", "If"],
+      "answer": 2,
+      "why": "Should + subject + V1 для первого условия (отрицание)."
+    }
+  ]
+}

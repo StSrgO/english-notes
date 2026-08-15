@@ -1,0 +1,194 @@
+{
+  "variant": "rocknroll",
+  "slug": "c2-inversion-so-such",
+  "level": "C2",
+  "title": "Inversion with so / such",
+  "category": "Inversion",
+  "readingTime": 12,
+  "summary": "Инверсия с so / such — для драматического эффекта и эмфазы. История о том, как The Velvet Underground использовали её в песне «Heroin».",
+  "idea": [
+    "The Velvet Underground записали «Heroin» в 1967 году. Это песня о наркозависимости. Лу Рид использовал инверсию с so / such для драматического эффекта. «So intense was the music that it felt like a drug» — настолько интенсивной была музыка, что она чувствовалась как наркотик. «Such was the power of the song that it shocked the world» — такова была сила песни, что она шокировала мир. «So raw were the lyrics that they were banned from radio» — настолько сырыми были тексты, что их запретили на радио.",
+    "The Velvet Underground не продали много альбомов, но изменили музыку навсегда. Лу Рид написал «Heroin» о своём опыте. Песня была запрещена на радио из-за текстов. Группа продала всего 30 000 копий первого альбома, но каждый, кто купил его, основал свою группу. Инверсия с so / such делает тексты более выразительными и драматичными.",
+    "Инверсия с so / such — это приём для эмфазы. So + adjective + auxiliary + subject + that. So intense was the music that... So + adverb + auxiliary + subject + that. So raw were the lyrics that... Such + noun + auxiliary + subject + that. Such was the power of the song that..."
+  ],
+  "why": [
+    "Создавать драматический эффект: So intense was the music that it felt like a drug.",
+    "Выделять качество: So raw were the lyrics that they were banned.",
+    "Подчёркивать силу: Such was the power of the song that it shocked the world.",
+    "Использовать в литературе и формальных текстах."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Lou Reed: 'So intense was the music that it felt like a drug. Such was the power of the song that it shocked the world. So raw were the lyrics that they were banned from radio.'",
+        "ru": "Лу Рид: «Настолько интенсивной была музыка, что она чувствовалась как наркотик. Такова была сила песни, что она шокировала мир. Настолько сырыми были тексты, что их запретили на радио»." },
+      { "en": "Producer: 'So powerful were the songs that everyone who heard them started a band. Such was your influence that you changed music forever.'",
+        "ru": "Продюсер: «Настолько мощными были песни, что каждый, кто их слышал, создавал свою группу. Такова была ваша влияние, что вы изменили музыку навсегда»." }
+    ],
+    "note": "So + adjective + auxiliary + subject + that; Such + noun + auxiliary + subject + that."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим: «настолько интенсивной была музыка, что...». В английском — So intense was the music that...",
+    "Инверсия = So + adjective + auxiliary + subject + that.",
+    "Such + noun + auxiliary + subject + that.",
+    "Используется для драматического эффекта."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: So + adjective/adv + auxiliary + subject + that.",
+      "Such + noun + auxiliary + subject + that.",
+      "Auxiliary — was/were, did, have/had.",
+      "Используется для эмфазы.",
+      "В литературе и формальных текстах.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте предложения, используя инверсию с so / such:",
+      "items": [
+        { "q": "The music was so intense that it felt like a drug. → So intense was the music that it felt like a drug.", "a": "So intense was" },
+        { "q": "The lyrics were so raw that they were banned. → So raw were the lyrics that they were banned.", "a": "So raw were" },
+        { "q": "The power of the song was such that it shocked the world. → Such was the power of the song that it shocked the world.", "a": "Such was" },
+        { "q": "The songs were so powerful that everyone started a band. → So powerful were the songs that everyone started a band.", "a": "So powerful were" },
+        { "q": "Your influence was such that you changed music forever. → Such was your influence that you changed music forever.", "a": "Such was" }
+      ]
+    }
+  },
+  "formula": "So + adjective/adv + auxiliary + subject + that ... · Such + noun + auxiliary + subject + that ...",
+  "structure": {
+    "positive": "So intense was the music that it felt like a drug.",
+    "negative": "So intense was the music that it didn't feel like a drug.",
+    "question": "So intense was the music that it felt like a drug?"
+  },
+  "markers": ["so", "such", "that", "so + adjective", "so + adverb", "such + noun"],
+  "uses": [
+    "So + adjective + auxiliary + subject + that: So intense was the music that it felt like a drug.",
+    "So + adverb + auxiliary + subject + that: So raw were the lyrics that they were banned.",
+    "Such + noun + auxiliary + subject + that: Such was the power of the song that it shocked the world.",
+    "So + adjective + were (мн.ч.): So powerful were the songs that everyone started a band."
+  ],
+  "rules": [
+    { "title": "So + adjective + auxiliary + subject + that",
+      "text": "So intense was the music that it felt like a drug." },
+    { "title": "So + adverb + auxiliary + subject + that",
+      "text": "So raw were the lyrics that they were banned from radio." },
+    { "title": "Such + noun + auxiliary + subject + that",
+      "text": "Such was the power of the song that it shocked the world." },
+    { "title": "Auxiliary",
+      "text": "was/were для to be; did для Past Simple; have/had для Perfect." }
+  ],
+  "examples": [
+    {
+      "group": "So + adjective + was/were — эмфаза качества",
+      "items": [
+        { "en": "So intense was the music that it felt like a drug.", "ru": "Настолько интенсивной была музыка, что она чувствовалась как наркотик.", "highlight": ["So intense was"] },
+        { "en": "So raw were the lyrics that they were banned from radio.", "ru": "Настолько сырыми были тексты, что их запретили на радио.", "highlight": ["So raw were"] },
+        { "en": "So powerful was the song that everyone remembered it.", "ru": "Настолько мощной была песня, что все её запомнили.", "highlight": ["So powerful was"] }
+      ]
+    },
+    {
+      "group": "So + adverb + auxiliary — эмфаза действия",
+      "items": [
+        { "en": "So intensely did they play that the crowd was speechless.", "ru": "Настолько интенсивно они играли, что толпа онемела.", "highlight": ["So intensely did"] },
+        { "en": "So passionately did he sing that everyone cried.", "ru": "Настолько страстно он пел, что все плакали.", "highlight": ["So passionately did"] },
+        { "en": "So powerfully did the music hit that it changed everything.", "ru": "Настолько мощно музыка ударила, что изменила всё.", "highlight": ["So powerfully did"] }
+      ]
+    },
+    {
+      "group": "Such + noun + was/were — эмфаза существительного",
+      "items": [
+        { "en": "Such was the power of the song that it shocked the world.", "ru": "Такова была сила песни, что она шокировала мир.", "highlight": ["Such was"] },
+        { "en": "Such was the influence of the band that they changed music forever.", "ru": "Такова было влияние группы, что они изменили музыку навсегда.", "highlight": ["Such was"] },
+        { "en": "Such was the impact of the album that it became a classic.", "ru": "Такова было влияние альбома, что он стал классикой.", "highlight": ["Such was"] }
+      ]
+    },
+    {
+      "group": "So + adjective + were (множественное число)",
+      "items": [
+        { "en": "So powerful were the songs that everyone who heard them started a band.", "ru": "Настолько мощными были песни, что каждый, кто их слышал, создавал свою группу.", "highlight": ["So powerful were"] },
+        { "en": "So raw were the performances that they felt dangerous.", "ru": "Настолько сырыми были выступления, что они казались опасными.", "highlight": ["So raw were"] },
+        { "en": "So honest were the lyrics that they spoke to a generation.", "ru": "Настолько честными были тексты, что они говорили с целым поколением.", "highlight": ["So honest were"] }
+      ]
+    },
+    {
+      "group": "So + adverb + did (Past Simple)",
+      "items": [
+        { "en": "So passionately did they play that the crowd went wild.", "ru": "Настолько страстно они играли, что толпа обезумела.", "highlight": ["So passionately did"] },
+        { "en": "So intensely did he sing that he lost his voice.", "ru": "Настолько интенсивно он пел, что потерял голос.", "highlight": ["So intensely did"] },
+        { "en": "So loudly did they play that the neighbours complained.", "ru": "Настолько громко они играли, что соседи жаловались.", "highlight": ["So loudly did"] }
+      ]
+    },
+    {
+      "group": "Сравнение обычного порядка и инверсии",
+      "items": [
+        { "en": "The music was so intense that it felt like a drug. → So intense was the music that it felt like a drug.", "ru": "Музыка была настолько интенсивной, что чувствовалась как наркотик. → Настолько интенсивной была музыка, что она чувствовалась как наркотик.", "highlight": ["So intense was"] },
+        { "en": "The lyrics were so raw that they were banned. → So raw were the lyrics that they were banned.", "ru": "Тексты были настолько сырыми, что их запретили. → Настолько сырыми были тексты, что их запретили.", "highlight": ["So raw were"] },
+        { "en": "The power of the song was such that it shocked the world. → Such was the power of the song that it shocked the world.", "ru": "Сила песни была такова, что она шокировала мир. → Такова была сила песни, что она шокировала мир.", "highlight": ["Such was"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "So intense was the music that it felt like a drug. (правильно)", "right": "So intense was the music that it felt like a drug.", "note": "Правильно!" },
+    { "wrong": "So intense the music was that it felt like a drug.", "right": "So intense was the music that it felt like a drug.", "note": "Инверсия — was перед подлежащим." },
+    { "wrong": "So raw they were the lyrics that they were banned.", "right": "So raw were the lyrics that they were banned.", "note": "So + adjective + were + subject." },
+    { "wrong": "Such the power of the song was that it shocked the world.", "right": "Such was the power of the song that it shocked the world.", "note": "Such + was + noun." },
+    { "wrong": "So powerful was the songs that everyone started a band.", "right": "So powerful were the songs that everyone started a band.", "note": "Множественное число — were." },
+    { "wrong": "So passionately they played that the crowd went wild.", "right": "So passionately did they play that the crowd went wild.", "note": "So + adverb + did + subject + V1." }
+  ],
+  "compare": {
+    "title": "Обычный порядок vs Инверсия с so / such",
+    "leftLabel": "Обычный порядок",
+    "rightLabel": "Инверсия с so / such",
+    "rows": [
+      { "left": "The music was so intense that it felt like a drug.", "right": "So intense was the music that it felt like a drug." },
+      { "left": "The lyrics were so raw that they were banned.", "right": "So raw were the lyrics that they were banned." },
+      { "left": "The power of the song was such that it shocked the world.", "right": "Such was the power of the song that it shocked the world." }
+    ]
+  },
+  "tips": [
+    "So + adjective + auxiliary + subject + that.",
+    "So + adverb + auxiliary + subject + that.",
+    "Such + noun + auxiliary + subject + that.",
+    "Auxiliary — was/were, did, have/had.",
+    "Используется для драматического эффекта.",
+    "В литературе и формальных текстах.",
+    "That обязателен."
+  ],
+  "related": ["c2-inversion-after-negative-adverbials", "c2-inversion-in-conditionals", "c2-cohesion-and-register"],
+  "quiz": [
+    {
+      "q": "___ intense was the music that it felt like a drug.",
+      "options": ["So", "Such", "Very", "Too"],
+      "answer": 0,
+      "why": "So + adjective + auxiliary + subject + that."
+    },
+    {
+      "q": "___ was the power of the song that it shocked the world.",
+      "options": ["So", "Such", "Very", "Too"],
+      "answer": 1,
+      "why": "Such + noun + auxiliary + subject + that."
+    },
+    {
+      "q": "So raw ___ the lyrics that they were banned.",
+      "options": ["were", "was", "did", "had"],
+      "answer": 0,
+      "why": "Множественное число — were."
+    },
+    {
+      "q": "So powerfully ___ they play that the crowd went wild.",
+      "options": ["did", "were", "was", "had"],
+      "answer": 0,
+      "why": "So + adverb + did + subject + V1."
+    },
+    {
+      "q": "So powerful were the songs that everyone who heard them ___ a band.",
+      "options": ["started", "starts", "have started", "had started"],
+      "answer": 0,
+      "why": "Главное предложение в Past Simple."
+    },
+    {
+      "q": "Such ___ your influence that you changed music forever.",
+      "options": ["was", "were", "did", "had"],
+      "answer": 0,
+      "why": "Such + was + subject (ед.ч.)."
+    }
+  ]
+}

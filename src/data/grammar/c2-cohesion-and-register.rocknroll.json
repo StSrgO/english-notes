@@ -1,0 +1,198 @@
+{
+  "variant": "rocknroll",
+  "slug": "c2-cohesion-and-register",
+  "level": "C2",
+  "title": "Cohesion and Register",
+  "category": "Discourse & style",
+  "readingTime": 12,
+  "summary": "Cohesion and Register — связность текста и выбор стиля. История о том, как Social Distortion использовали разные регистры в песне «Story of My Life».",
+  "idea": [
+    "Social Distortion записали «Story of My Life» в 1990 году. Это песня о жизни, ошибках, тюрьме, наркотиках и искуплении. Майк Несс использовал разные регистры: от разговорных, уличных фраз до более формальных, рефлексивных моментов. Связность песни создаётся через повторяющиеся темы и эллипсис.",
+    "«I spent my time at the county jail, I spent my time at the county jail» — повторение и эллипсис создают эффект навязчивости. «The story of my life, the story of my life» — рефрен связывает всё вместе. Песня использует маркеры дискурса: «Well, I've been living in the darkness» — разговорное начало, затем переход к более формальному: «I've been living in the darkness, just waiting for the light».",
+    "Cohesion and Register — это связность текста и выбор стиля. Эллипсис — пропуск слов. Ссылки — использование местоимений. Замены — синонимы. Маркеры дискурса — and, but, so, because. Формальный регистр — официальные тексты. Неформальный регистр — разговоры, письма."
+  ],
+  "why": [
+    "Создавать связный текст: I spent my time at the county jail. Wasted my days away.",
+    "Использовать ссылки: The story of my life — refers to everything that came before.",
+    "Использовать замены: I've been living in the darkness — waiting for the light.",
+    "Выбирать регистр: формальный vs неформальный."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Mike Ness: 'I spent my time at the county jail. Wasted my days away. The story of my life. Well, I've been living in the darkness, just waiting for the light.'",
+        "ru": "Майк Несс: «Я провёл время в окружной тюрьме. Потратил дни впустую. История моей жизни. Что ж, я жил во тьме, просто ожидая света»." },
+      { "en": "Friend: 'I've been searching for a reason. And I've been trying to find a way.'",
+        "ru": "Друг: «Я искал причину. И я пытался найти путь»." }
+    ],
+    "note": "Ellipsis, reference, substitution, discourse markers, formal vs informal register."
+  },
+  "russianAngle": [
+    "В русском языке мы используем эллипсис: «провёл время в тюрьме — потратил дни впустую». В английском — то же самое.",
+    "Ссылки: местоимения, артикли.",
+    "Замены: синонимы.",
+    "Регистр: формальный vs неформальный."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: эллипсис = пропуск слов.",
+      "Ссылки = местоимения, артикли.",
+      "Замены = синонимы.",
+      "Маркеры дискурса = and, but, so, because.",
+      "Регистр = выбор стиля.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Определите, какой приём использован: эллипсис, ссылка, замена, маркер дискурса:",
+      "items": [
+        { "q": "I spent my time at the county jail. Wasted my days away.", "a": "Ellipsis" },
+        { "q": "The story of my life — refers to everything that came before.", "a": "Reference" },
+        { "q": "I've been living in the darkness — waiting for the light.", "a": "Substitution" },
+        { "q": "Well, I've been living in the darkness.", "a": "Discourse marker" },
+        { "q": "I've been searching for a reason.", "a": "Formal register" }
+      ]
+    }
+  },
+  "formula": "Ellipsis / Reference / Substitution / Discourse markers / Register",
+  "structure": {
+    "positive": "I spent my time at the county jail. Wasted my days away.",
+    "negative": "I didn't spend my time at the county jail. Didn't waste my days away.",
+    "question": "Did you spend your time at the county jail?"
+  },
+  "markers": ["well", "and", "but", "so", "because", "however", "therefore"],
+  "uses": [
+    "Ellipsis: I spent my time at the county jail. Wasted my days away.",
+    "Reference: The story of my life — refers to everything that came before.",
+    "Substitution: I've been living in the darkness — waiting for the light.",
+    "Discourse markers: Well, I've been living in the darkness.",
+    "Formal register: I've been searching for a reason.",
+    "Informal register: Well, I've been living in the darkness."
+  ],
+  "rules": [
+    { "title": "Ellipsis",
+      "text": "Пропуск слов, которые понятны из контекста. I spent my time at the county jail. Wasted my days away." },
+    { "title": "Reference",
+      "text": "Использование местоимений, артиклей. The story of my life — refers to everything that came before." },
+    { "title": "Substitution",
+      "text": "Использование синонимов. I've been living in the darkness — waiting for the light." },
+    { "title": "Discourse markers",
+      "text": "Слова, которые связывают текст. Well, and, but, so, because." },
+    { "title": "Register",
+      "text": "Выбор стиля в зависимости от контекста. Формальный vs неформальный." }
+  ],
+  "examples": [
+    {
+      "group": "Ellipsis — пропуск слов",
+      "items": [
+        { "en": "I spent my time at the county jail. Wasted my days away.", "ru": "Я провёл время в окружной тюрьме. Потратил дни впустую.", "highlight": ["Wasted"] },
+        { "en": "I've been living in the darkness. Waiting for the light.", "ru": "Я жил во тьме. Ожидая света.", "highlight": ["Waiting"] },
+        { "en": "I've been searching for a reason. Trying to find a way.", "ru": "Я искал причину. Пытаясь найти путь.", "highlight": ["Trying"] }
+      ]
+    },
+    {
+      "group": "Reference — ссылки",
+      "items": [
+        { "en": "The story of my life — refers to everything that came before.", "ru": "История моей жизни — относится ко всему, что было раньше.", "highlight": ["The story"] },
+        { "en": "I spent my time at the county jail. That was a mistake.", "ru": "Я провёл время в окружной тюрьме. Это было ошибкой.", "highlight": ["That"] },
+        { "en": "I've been living in the darkness. The darkness is all I know.", "ru": "Я жил во тьме. Тьма — это всё, что я знаю.", "highlight": ["The darkness"] }
+      ]
+    },
+    {
+      "group": "Substitution — замены",
+      "items": [
+        { "en": "I've been living in the darkness — waiting for the light.", "ru": "Я жил во тьме — ожидая света.", "highlight": ["the light"] },
+        { "en": "I spent my time at the county jail. The prison was a nightmare.", "ru": "Я провёл время в окружной тюрьме. Тюрьма была кошмаром.", "highlight": ["The prison"] },
+        { "en": "I've been searching for a reason. The answer is still unknown.", "ru": "Я искал причину. Ответ до сих пор неизвестен.", "highlight": ["The answer"] }
+      ]
+    },
+    {
+      "group": "Discourse markers — маркеры дискурса",
+      "items": [
+        { "en": "Well, I've been living in the darkness.", "ru": "Что ж, я жил во тьме.", "highlight": ["Well"] },
+        { "en": "And I've been trying to find a way.", "ru": "И я пытался найти путь.", "highlight": ["And"] },
+        { "en": "But I'm still searching for a reason.", "ru": "Но я всё ещё ищу причину.", "highlight": ["But"] }
+      ]
+    },
+    {
+      "group": "Formal register — формальный стиль",
+      "items": [
+        { "en": "I've been searching for a reason for my actions.", "ru": "Я искал причину для своих действий.", "highlight": ["searching for a reason"] },
+        { "en": "One must always consider the consequences of one's choices.", "ru": "Нужно всегда учитывать последствия своих решений.", "highlight": ["One must"] },
+        { "en": "It is with great regret that I reflect on my past.", "ru": "С большим сожалением я размышляю о своём прошлом.", "highlight": ["great regret"] }
+      ]
+    },
+    {
+      "group": "Informal register — неформальный стиль",
+      "items": [
+        { "en": "Well, I've been living in the darkness.", "ru": "Что ж, я жил во тьме.", "highlight": ["Well"] },
+        { "en": "I wasted my days away.", "ru": "Я потратил дни впустую.", "highlight": ["wasted"] },
+        { "en": "It was a nightmare, man.", "ru": "Это был кошмар, чувак.", "highlight": ["man"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I spent my time at the county jail and I wasted my days away. (слишком длинно)", "right": "I spent my time at the county jail. Wasted my days away. (эллипсис)", "note": "Эллипсис делает текст более связным." },
+    { "wrong": "I was in prison. The prison was a nightmare. (повтор)", "right": "I was in prison. It was a nightmare. (ссылка)", "note": "Используй ссылки, чтобы избежать повторов." },
+    { "wrong": "I've been living in the darkness. I've been waiting for the light. (повтор)", "right": "I've been living in the darkness — waiting for the light. (замена)", "note": "Используй синонимы." },
+    { "wrong": "Well, I've been living in the darkness. (правильно)", "right": "Well, I've been living in the darkness.", "note": "Правильно!" },
+    { "wrong": "One must always consider the consequences. (правильно)", "right": "One must always consider the consequences.", "note": "Формальный регистр." },
+    { "wrong": "It was a nightmare, man. (правильно)", "right": "It was a nightmare, man.", "note": "Неформальный регистр." }
+  ],
+  "compare": {
+    "title": "Formal vs Informal register",
+    "leftLabel": "Formal (формальный)",
+    "rightLabel": "Informal (неформальный)",
+    "rows": [
+      { "left": "I've been searching for a reason for my actions.", "right": "Well, I've been living in the darkness." },
+      { "left": "One must always consider the consequences.", "right": "I wasted my days away." },
+      { "left": "It is with great regret that I reflect on my past.", "right": "It was a nightmare, man." }
+    ]
+  },
+  "tips": [
+    "Ellipsis = пропуск слов, понятных из контекста.",
+    "Reference = местоимения, артикли.",
+    "Substitution = синонимы.",
+    "Discourse markers = and, but, so, because.",
+    "Formal register = официальные тексты.",
+    "Informal register = разговоры, письма.",
+    "Выбирай регистр в зависимости от контекста."
+  ],
+  "related": ["c2-cohesion-and-register", "c2-participle-clauses", "c2-inversion-so-such"],
+  "quiz": [
+    {
+      "q": "I spent my time at the county jail. ___ my days away.",
+      "options": ["Wasted", "I wasted", "Waste", "Wasting"],
+      "answer": 0,
+      "why": "Ellipsis — пропуск I."
+    },
+    {
+      "q": "The story of my life — refers to everything that came before. Это ___.",
+      "options": ["Ellipsis", "Reference", "Substitution", "Discourse marker"],
+      "answer": 1,
+      "why": "Reference — ссылка на предыдущее."
+    },
+    {
+      "q": "I've been living in the darkness — waiting for the light. Это ___.",
+      "options": ["Ellipsis", "Reference", "Substitution", "Discourse marker"],
+      "answer": 2,
+      "why": "Substitution — замена."
+    },
+    {
+      "q": "Well, I've been living in the darkness. Это ___.",
+      "options": ["Ellipsis", "Reference", "Substitution", "Discourse marker"],
+      "answer": 3,
+      "why": "Discourse marker — Well."
+    },
+    {
+      "q": "One must always consider the consequences. Это ___ регистр.",
+      "options": ["Formal", "Informal", "Neutral", "Technical"],
+      "answer": 0,
+      "why": "Formal register — формальный стиль."
+    },
+    {
+      "q": "It was a nightmare, man. Это ___ регистр.",
+      "options": ["Formal", "Informal", "Neutral", "Technical"],
+      "answer": 1,
+      "why": "Informal register — неформальный стиль."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "variant": "rocknroll",
+  "slug": "c1-inversion-after-negative-adverbials",
+  "level": "C1",
+  "title": "Inversion after negative adverbials",
+  "category": "Inversion",
+  "readingTime": 11,
+  "summary": "Инверсия после отрицательных наречий — для драматического эффекта. История о том, как The Cure записали «Disintegration» и использовали инверсию в текстах.",
+  "idea": [
+    "The Cure записали «Disintegration» в 1989 году. Это был самый мрачный и личный альбом группы. Роберт Смит писал его в состоянии депрессии. Он использовал инверсию, чтобы подчеркнуть эмоции: «Never had I felt so alone» — никогда я не чувствовал себя таким одиноким. «Rarely did I sleep» — редко я спал. «Not only did I write the songs, but I also produced the album» — не только я написал песни, но и спродюсировал альбом.",
+    "Инверсия делает его тексты более выразительными. Роберт Смит говорил: «Hardly had I started recording when I knew it was special» — едва я начал запись, как понял, что это особенное. «No sooner had I finished the album than I started touring» — не успел я закончить альбом, как начал гастролировать. Альбом стал классикой готик-рока.",
+    "Инверсия после отрицательных наречий — это приём, который используется в формальном и литературном стиле. Negative adverbial + auxiliary + subject + V1. Never had I felt so alone. Rarely did I sleep. Not only did I write the songs, but I also produced the album."
+  ],
+  "why": [
+    "Создавать драматический эффект: Never had I felt so alone.",
+    "Выделять отрицание: Rarely did I sleep.",
+    "Подчёркивать важный момент: Not only did I write the songs, but I also produced the album.",
+    "Использовать в формальном и литературном стиле."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Robert Smith: 'Never had I felt so alone. Rarely did I sleep. Not only did I write the songs, but I also produced the album.'",
+        "ru": "Роберт Смит: «Никогда я не чувствовал себя таким одиноким. Редко я спал. Не только я написал песни, но и спродюсировал альбом»." },
+      { "en": "Producer: 'Hardly had you started recording when you knew it was special. No sooner had you finished the album than you started touring.'",
+        "ru": "Продюсер: «Едва вы начали запись, как поняли, что это особенное. Не успели вы закончить альбом, как начали гастролировать»." }
+    ],
+    "note": "Never had... Rarely did... Not only did... Hardly had... No sooner... than..."
+  },
+  "russianAngle": [
+    "В русском языке мы используем инверсию в литературе: «Никогда я не чувствовал себя таким одиноким». В английском — то же самое.",
+    "Инверсия = вспомогательный глагол перед подлежащим.",
+    "Используется после отрицательных наречий: never, rarely, seldom, hardly, scarcely.",
+    "Not only... but also — не только... но и..."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: инверсия = вспомогательный глагол + подлежащее.",
+      "Используется после отрицательных наречий.",
+      "never, rarely, seldom, hardly, scarcely.",
+      "No sooner... than... — как только... как...",
+      "Not only... but also... — не только... но и...",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте предложения, используя инверсию после отрицательных наречий:",
+      "items": [
+        { "q": "I had never felt so alone. → Never ___ I felt so alone.", "a": "had" },
+        { "q": "I rarely slept. → Rarely ___ I sleep.", "a": "did" },
+        { "q": "I not only wrote the songs, but I also produced the album. → Not only ___ I write the songs, but I also produced the album.", "a": "did" },
+        { "q": "I had hardly started recording when I knew it was special. → Hardly ___ I started recording when I knew it was special.", "a": "had" },
+        { "q": "I had no sooner finished the album than I started touring. → No sooner ___ I finished the album than I started touring.", "a": "had" }
+      ]
+    }
+  },
+  "formula": "Negative adverbial + auxiliary + subject + V1",
+  "structure": {
+    "positive": "Never had I felt so alone.",
+    "negative": "Never had I not felt so alone.",
+    "question": "Had I ever felt so alone?"
+  },
+  "markers": ["never", "rarely", "seldom", "hardly", "scarcely", "no sooner... than", "not only... but also"],
+  "uses": [
+    "Never had I felt so alone. (никогда)",
+    "Rarely did I sleep. (редко)",
+    "Not only did I write the songs, but I also produced the album. (не только... но и)",
+    "Hardly had I started recording when I knew it was special. (едва... как)"
+  ],
+  "rules": [
+    { "title": "never",
+      "text": "Never + auxiliary + subject + V1. Never had I felt so alone." },
+    { "title": "rarely / seldom",
+      "text": "Rarely / Seldom + auxiliary + subject + V1. Rarely did I sleep." },
+    { "title": "not only... but also",
+      "text": "Not only + auxiliary + subject + V1 + but also. Not only did I write the songs, but I also produced the album." },
+    { "title": "hardly / scarcely / no sooner... than",
+      "text": "Hardly had + subject + V3 + when. No sooner had I finished than I started touring." }
+  ],
+  "examples": [
+    {
+      "group": "never — никогда",
+      "items": [
+        { "en": "Never had I felt so alone.", "ru": "Никогда я не чувствовал себя таким одиноким.", "highlight": ["Never had"] },
+        { "en": "Never had I been so depressed.", "ru": "Никогда я не был так подавлен.", "highlight": ["Never had"] },
+        { "en": "Never had I written such personal songs.", "ru": "Никогда я не писал таких личных песен.", "highlight": ["Never had"] }
+      ]
+    },
+    {
+      "group": "rarely / seldom — редко",
+      "items": [
+        { "en": "Rarely did I sleep.", "ru": "Редко я спал.", "highlight": ["Rarely did"] },
+        { "en": "Seldom did I leave the studio.", "ru": "Редко я выходил из студии.", "highlight": ["Seldom did"] },
+        { "en": "Rarely did I feel happy.", "ru": "Редко я чувствовал себя счастливым.", "highlight": ["Rarely did"] }
+      ]
+    },
+    {
+      "group": "not only... but also — не только... но и",
+      "items": [
+        { "en": "Not only did I write the songs, but I also produced the album.", "ru": "Не только я написал песни, но и спродюсировал альбом.", "highlight": ["Not only did"] },
+        { "en": "Not only did I record the album, but I also mixed it.", "ru": "Не только я записал альбом, но и свел его.", "highlight": ["Not only did"] },
+        { "en": "Not only did I play the guitar, but I also sang.", "ru": "Не только я играл на гитаре, но и пел.", "highlight": ["Not only did"] }
+      ]
+    },
+    {
+      "group": "hardly — едва",
+      "items": [
+        { "en": "Hardly had I started recording when I knew it was special.", "ru": "Едва я начал запись, как понял, что это особенное.", "highlight": ["Hardly had"] },
+        { "en": "Hardly had I finished the song when I played it to the band.", "ru": "Едва я закончил песню, как сыграл её группе.", "highlight": ["Hardly had"] },
+        { "en": "Hardly had I left the studio when I started writing again.", "ru": "Едва я вышел из студии, как начал писать снова.", "highlight": ["Hardly had"] }
+      ]
+    },
+    {
+      "group": "no sooner... than — как только... как",
+      "items": [
+        { "en": "No sooner had I finished the album than I started touring.", "ru": "Не успел я закончить альбом, как начал гастролировать.", "highlight": ["No sooner had"] },
+        { "en": "No sooner had I released the album than it became a classic.", "ru": "Не успел я выпустить альбом, как он стал классикой.", "highlight": ["No sooner had"] },
+        { "en": "No sooner had I left the stage than the crowd cheered.", "ru": "Не успел я покинуть сцену, как толпа зааплодировала.", "highlight": ["No sooner had"] }
+      ]
+    },
+    {
+      "group": "Сравнение обычного порядка и инверсии",
+      "items": [
+        { "en": "I had never felt so alone. → Never had I felt so alone.", "ru": "Я никогда не чувствовал себя таким одиноким. → Никогда я не чувствовал себя таким одиноким.", "highlight": ["Never had"] },
+        { "en": "I rarely slept. → Rarely did I sleep.", "ru": "Я редко спал. → Редко я спал.", "highlight": ["Rarely did"] },
+        { "en": "I not only wrote the songs, but I also produced the album. → Not only did I write the songs, but I also produced the album.", "ru": "Я не только написал песни, но и спродюсировал альбом. → Не только я написал песни, но и спродюсировал альбом.", "highlight": ["Not only did"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Never I had felt so alone.", "right": "Never had I felt so alone.", "note": "Инверсия: вспомогательный глагол перед подлежащим." },
+    { "wrong": "Rarely I slept.", "right": "Rarely did I sleep.", "note": "С rarely — did + подлежащее + V1." },
+    { "wrong": "Not only I wrote the songs, but also produced the album.", "right": "Not only did I write the songs, but I also produced the album.", "note": "Not only + вспомогательный глагол + подлежащее." },
+    { "wrong": "Hardly I had started when I knew.", "right": "Hardly had I started when I knew.", "note": "Hardly had + подлежащее + V3." },
+    { "wrong": "No sooner I had finished than I started touring.", "right": "No sooner had I finished than I started touring.", "note": "No sooner had + подлежащее + V3." },
+    { "wrong": "Never had I felt so alone. (правильно)", "right": "Never had I felt so alone.", "note": "Правильно!" }
+  ],
+  "compare": {
+    "title": "Обычный порядок vs Инверсия",
+    "leftLabel": "Обычный порядок",
+    "rightLabel": "Инверсия",
+    "rows": [
+      { "left": "I had never felt so alone.", "right": "Never had I felt so alone." },
+      { "left": "I rarely slept.", "right": "Rarely did I sleep." },
+      { "left": "I not only wrote the songs, but I also produced the album.", "right": "Not only did I write the songs, but I also produced the album." }
+    ]
+  },
+  "tips": [
+    "Инверсия = вспомогательный глагол + подлежащее.",
+    "Используется после отрицательных наречий.",
+    "never, rarely, seldom, hardly, scarcely.",
+    "No sooner... than... — как только... как...",
+    "Not only... but also... — не только... но и...",
+    "Используется в формальном и литературном стиле.",
+    "Не злоупотребляй в обычной речи."
+  ],
+  "related": ["c1-inversion-in-conditionals", "c1-cleft-sentences", "c1-emphasis-do-and-fronting"],
+  "quiz": [
+    {
+      "q": "Never ___ I felt so alone.",
+      "options": ["had", "did", "has", "was"],
+      "answer": 0,
+      "why": "Never + had + подлежащее + V3."
+    },
+    {
+      "q": "Rarely ___ I sleep.",
+      "options": ["did", "had", "does", "was"],
+      "answer": 0,
+      "why": "Rarely + did + подлежащее + V1."
+    },
+    {
+      "q": "Not only ___ I write the songs, but I also produced the album.",
+      "options": ["did", "had", "does", "was"],
+      "answer": 0,
+      "why": "Not only + did + подлежащее + V1."
+    },
+    {
+      "q": "Hardly ___ I started recording when I knew it was special.",
+      "options": ["had", "did", "has", "was"],
+      "answer": 0,
+      "why": "Hardly + had + подлежащее + V3."
+    },
+    {
+      "q": "No sooner ___ I finished than I started touring.",
+      "options": ["had", "did", "has", "was"],
+      "answer": 0,
+      "why": "No sooner + had + подлежащее + V3."
+    },
+    {
+      "q": "Seldom ___ I leave the studio.",
+      "options": ["did", "had", "does", "was"],
+      "answer": 0,
+      "why": "Seldom + did + подлежащее + V1."
+    }
+  ]
+}

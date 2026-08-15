@@ -1,215 +1,194 @@
 {
- "slug": "c2-participle-clauses",
- "title": "Participle clauses: packing a sentence tight",
- "level": "C2",
- "category": "Clause structure",
- "readingTime": 15,
- "summary": "Причастный оборот сжимает целое придаточное в короткую фразу: Having finished the report, she left. Seen from above, the city looked unreal. Русский деепричастный оборот — почти полный аналог, включая ошибку «подъезжая к станции, у меня слетела шляпа».",
- "idea": [
-  "Есть приём, по которому в английском тексте мгновенно узнаётся взрослый автор: причастный оборот, participle clause. Вместо того чтобы разворачивать полное придаточное с союзом и подлежащим (After she had finished the report, she left; When it is seen from above, the city looks unreal), говорящий сжимает его в короткую причастную фразу: Having finished the report, she left; Seen from above, the city looks unreal. Смысл тот же, но предложение становится плотнее, ритм — быстрее, регистр — выше. Это не украшательство и не «продвинутая экзотика» — это базовый инструмент письменного английского, без которого эссе, статьи и отчёты звучат по‑школьному, склеенными из одинаковых When… / Because… / After…. На C2 владение причастными оборотами проверяют прямо, и именно они отличают «строит предложения» от «пишет текст». Хорошая новость для русскоговорящих: у нас есть почти полный аналог — деепричастный оборот. «Закончив отчёт, она ушла», «Увидев полицию, он побежал» — это и есть participle clause, перенесённый один в один. Так что механика тебе уже знакома из родного языка; остаётся освоить английские формы и одну коварную ловушку.",
-  "Форм у причастного оборота несколько, и каждая несёт своё значение времени и залога. Present participle на -ing показывает одновременность или причину: Seeing the police, he ran (= When he saw the police); Feeling tired, she went to bed early (= Because she felt tired). Perfect participle, having + причастие прошедшего времени, показывает предшествование — действие ДО главного: Having finished the report, she left (= After she had finished it); Never having travelled before, she was nervous at the airport. Passive participle, причастие прошедшего времени само по себе или having been + V3, показывает пассив: Built in 1890, the bridge still stands (= Because it was built…); Seen from above, the city looked like a circuit board (= When it is seen…); Having been warned about the storm, they stayed home. Отрицание ставится частицей not или never перед причастием: Not knowing what to say, he smiled; Never having been abroad, she clutched her passport. Запомни логику: -ing = одновременно/причина, having + V3 = до этого, V3 / having been + V3 = пассив, not/never — впереди.",
-  "И главная ловушка, которую обожают на экзаменах и которая по‑русски знакома каждому со школы: dangling participle, «болтающийся» причастный оборот. Правило жёсткое: подлежащее причастного оборота должно совпадать с подлежащим главного предложения, потому что сам оборот своего подлежащего не имеет. Классическая ошибка: Walking down the street, the trees looked beautiful — получается, что деревья гуляли по улице. По‑русски та же беда: «Подъезжая к станции, у меня слетела шляпа» — шляпа подъезжала? Чеховский пример, который нам приводят в школе, и есть dangling participle. Правильно: Walking down the street, I saw beautiful trees (гулял я). Если же у оборота и у главного предложения разные действующие лица, нужна абсолютная конструкция, absolute construction, со своим подлежащим: The weather being fine, we had a picnic; There being no alternative, we agreed; With the work done, we relaxed. Есть и застывшие абсолютные обороты, которые учатся целиком: All things considered, it went well; Weather permitting, we'll launch on Friday; That said, I still disagree. Унеси три вещи: форма оборота несёт время и залог (-ing / having + V3 / V3); подлежащее оборота = подлежащее главного предложения, иначе dangling; при разных субъектах — абсолютная конструкция. И помни про мост: деепричастный оборот по‑русски = participle clause по‑английски, со всеми его правилами и той же чеховской ошибкой."
- ],
- "why": [
-  "Писать плотные, взрослые тексты без вереницы When/Because/After: Having reviewed the data, we revised the forecast.",
-  "Сжимать фон и контекст в начало предложения: Built on a hill, the town commands a stunning view.",
-  "Показывать контроль синтаксиса на CPE и в академическом письме, где причастные обороты — ожидаемая норма.",
-  "Задавать ритм и регистр: текст с оборотами читается как написанный носителем, а не собранный из шаблонов."
- ],
- "context": {
-  "lines": [
-   { "en": "Having read the reviews, I decided not to see the film.", "ru": "Прочитав отзывы, я решил не смотреть фильм." },
-   { "en": "Smart move. Seen without expectations, it might have been enjoyable, though.", "ru": "Разумно. Впрочем, смотри его без ожиданий — он мог бы понравиться." },
-   { "en": "The critics being largely negative, the box office suffered.", "ru": "Поскольку критики были в основном негативны, касса пострадала." },
-   { "en": "All things considered, it's still a better film than most this year.", "ru": "При всём при том, это всё равно фильм лучше большинства в этом году." }
+  "variant": "classic",
+  "slug": "c2-participle-clauses",
+  "level": "C2",
+  "title": "Participle clauses",
+  "category": "Clause structure",
+  "readingTime": 12,
+  "summary": "Причастные обороты — замена придаточных предложений. История о том, как Джордж Оруэлл использовал их в «1984».",
+  "idea": [
+    "Джордж Оруэлл написал «1984» в 1948 году. Роман был опубликован в 1949 году, за год до его смерти. Это история о тоталитарном обществе, где государство контролирует всё. Оруэлл использовал причастные обороты для создания лаконичного и мощного стиля. «Shaken by the news, he sat down» — потрясённый новостью, он сел. «Walking through the streets, he noticed the posters» — проходя по улицам, он заметил плакаты. «Having read the book, he understood the system» — прочитав книгу, он понял систему.",
+    "Причастные обороты делают текст более динамичным и выразительным. Оруэлл был болен, когда писал книгу. Он боролся с туберкулёзом. «Having finished the book, he died a year later» — закончив книгу, он умер через год. «Not knowing the truth, he was confused» — не зная правды, он был смущён. Оруэлл использовал причастные обороты, чтобы передать напряжение и безысходность мира «1984».",
+    "Participle clauses — это причастные обороты, которые заменяют придаточные предложения. Present participle (V-ing) — активное действие. Past participle (V3) — пассивное действие. Perfect participle (Having + V3) — действие перед главным. Они используются в формальном и литературном стиле."
   ],
-  "note": "Четыре разных механизма в четырёх репликах. Having read — perfect participle (предшествование: сначала прочитал, потом решил); Seen without expectations — passive participle (пассив: «если бы его смотрели»); The critics being negative — абсолютная конструкция со своим подлежащим (подлежащее оборота the critics ≠ подлежащее главного the box office); All things considered — застывший абсолютный оборот."
- },
- "russianAngle": [
-  " По‑русски деепричастный оборот — почти полный аналог: «Закончив отчёт, она ушла», «Увидев полицию, он побежал», «Не зная, что сказать, он улыбнулся». Это и есть participle clause: Having finished the report, she left; Seeing the police, he ran; Not knowing what to say, he smiled. Механика тебе знакома из родного языка — используй это как мост, а не учи с нуля.",
-  " «Сделав» (сов. вид) vs «делая» (несов. вид) — по‑русски вид деепричастия показывает предшествование или одновременность. В английском то же самое делают разные формы: having + V3 = предшествование («сделав», Having finished), -ing = одновременность/причина («делая/увидев», Seeing, Feeling). Не путай: Having finished (до этого) ≠ Finishing (в процессе).",
-  " Знаменитое «Подъезжая к станции, у меня слетела шляпа» — ошибка, которую нам ставят в школе: шляпа не подъезжала, подлежащее оборота и главного предложения не совпали. По‑английски это dangling participle, и ловят его так же: *Walking down the street, the trees looked beautiful* (деревья гуляли?). Верно: Walking down the street, I saw beautiful trees. Подлежащее оборота = подлежащее главного.",
-  " Когда действующие лица разные, по‑русски мы просто ставим два подлежащих: «Погода была хорошая, и мы устроили пикник». Английский может сжать это в абсолютную конструкцию со своим подлежащим: The weather being fine, we had a picnic; There being no alternative, we agreed. Подлежащее оборота (the weather, there) стоит перед причастием — это и есть маркер absolute.",
-  " Мы не ставим «поэтому/и» сразу после деепричастного оборота — «Прочитав отзывы, поэтому я решил» звучит коряво. По‑английски так же: причастный оборот не соединяется с so / but / and в начале главной части. *Having read the reviews, so I decided* — ошибка; верно просто Having read the reviews, I decided. Оборот сам по себе несёт связь причины/времени."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: причастный оборот сжимает придаточное (When/After/Because…) в короткую фразу.",
-   "Запомни формы: -ing = одновременно/причина; having + V3 = до этого; V3 / having been + V3 = пассив; not/never — перед причастием.",
-   "Используй русский деепричастный оборот как мост: «сделав» = having done, «делая/увидев» = doing/seeing.",
-   "Жёсткое правило: подлежащее оборота = подлежащее главного предложения; иначе — dangling participle.",
-   "При разных субъектах строй абсолютную конструкцию: The weather being fine…; There being no alternative…; With the work done…",
-   "Не ставь so/but/and сразу после оборота; выучи застывшие absolute: All things considered, Weather permitting, That said.",
-   "Сделай упражнение ниже и сверься — особенно с dangling и с выбором having done против doing."
+  "why": [
+    "Заменять придаточные предложения: Walking through the streets, he noticed the posters.",
+    "Делать текст более лаконичным: Shaken by the news, he sat down.",
+    "Создавать литературный эффект: Having read the book, he understood the system.",
+    "Использовать в формальных текстах: Not knowing the truth, he was confused."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — сожми придаточное в причастный оборот (или найди и исправь ошибку):",
-   "items": [
-    { "q": "After she had finished the report, she went home. (сожми)", "a": "Having finished the report, she went home. — предшествование → having + V3; подлежащее одно (she)." },
-    { "q": "Because he felt ill, he left early. (сожми)", "a": "Feeling ill, he left early. — причина и одновременность → -ing." },
-    { "q": "When it is seen from the hill, the village looks tiny. (сожми, пассив)", "a": "Seen from the hill, the village looks tiny. — пассив → V3 (seen); подлежащее the village." },
-    { "q": "Найди ошибку: Walking into the room, the lights were blinding.", "a": "Dangling participle: «света» не входили в комнату. Верно: Walking into the room, I was blinded by the lights. (подлежащее оборота = I)." },
-    { "q": "The road was icy, so we drove slowly. (перестрой через абсолютную конструкцию)", "a": "The road being icy, we drove slowly. / With the road icy, we drove slowly. — разные субъекты (road / we) → absolute." },
-    { "q": "Переведи: «Никогда раньше не летав, она нервничала в аэропорту.»", "a": "Never having flown before, she was nervous at the airport. — never + having + V3 (предшествование с отрицанием); подлежащее she." }
-   ]
-  }
- },
- "formula": "-ing (simultaneous/cause) · having + V3 (before) · V3 / having been + V3 (passive) · [subject] + being/V3 (absolute)",
- "structure": {
-  "positive": "Seeing the police, he ran. / Having finished, she left. / Built in 1890, it stands.",
-  "negative": "Not knowing what to do, he called. / Never having travelled, she was nervous.",
-  "question": "— (причастный оборот не строит вопрос; вопрос формируется в главной части: Having seen it, would you go again?)"
- },
- "markers": ["-ing", "having + V3", "V3 (passive)", "having been + V3", "not / never + participle", "there being", "weather permitting", "all things considered", "that said", "with + object + participle"],
- "uses": [
-  "Сжатие времени и причины в эссе и репортаже: Having analysed the results, the team drew three conclusions.",
-  "Пассивный фон и описание: Founded in 1902, the company remains family-owned.",
-  "Абсолютные конструкции при разных субъектах: There being no further questions, the meeting closed.",
-  "Застывшие вводные обороты для связности: All things considered…; Weather permitting…; That said…"
- ],
- "rules": [
-  { "title": "Форма оборота несёт время и залог", "text": "-ing = одновременность или причина (Seeing the police, he ran; Feeling tired, she rested). having + V3 = действие до главного (Having finished, she left). V3 или having been + V3 = пассив (Built in 1890…; Having been warned, they stayed). Отрицание — not/never перед причастием (Not knowing…; Never having been…)." },
-  { "title": "Подлежащее оборота = подлежащее главного предложения", "text": "Причастный оборот не имеет своего подлежащего, поэтому его действие относится к подлежащему главного предложения. Если они не совпадают, получается dangling participle: *Walking down the street, the trees looked beautiful* (деревья гуляли). Правильно: Walking down the street, I saw beautiful trees. Это английская версия чеховской «шляпы»." },
-  { "title": "Разные субъекты → абсолютная конструкция; оборот не дружит с so/but/and", "text": "Когда у оборота и главного предложения разные действующие лица, ставь абсолютную конструкцию со своим подлежащим: The weather being fine, we picnicked; There being no alternative, we agreed; With the work done, we relaxed. И не соединяй оборот с so/but/and в начале главной части: *Having read it, so I decided* — ошибка; верно Having read it, I decided." }
- ],
- "examples": [
-  {
-   "group": "present participle (-ing) — время и причина",
-   "items": [
-    { "en": "Seeing the police, he turned and ran.", "ru": "Увидев полицию, он развернулся и побежал.", "highlight": ["Seeing the police"] },
-    { "en": "Feeling unwell, she decided to stay home.", "ru": "Почувствовав себя нехорошо, она решила остаться дома.", "highlight": ["Feeling unwell"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Orwell: 'Shaken by the news, he sat down. Walking through the streets, he noticed the posters. Having read the book, he understood the system.'",
+        "ru": "Оруэлл: «Потрясённый новостью, он сел. Проходя по улицам, он заметил плакаты. Прочитав книгу, он понял систему»." },
+      { "en": "Editor: 'Having finished the book, you will die a year later. Not knowing the truth, you will be confused.'",
+        "ru": "Издатель: «Закончив книгу, вы умрёте через год. Не зная правды, вы будете смущены»." }
+    ],
+    "note": "V-ing (активное), V3 (пассивное), Having + V3 (действие перед главным)."
   },
-  {
-   "group": "perfect participle (having + V3) — предшествование",
-   "items": [
-    { "en": "Having finished the report, she switched off her laptop.", "ru": "Закончив отчёт, она выключила ноутбук.", "highlight": ["Having finished the report"] },
-    { "en": "Never having been abroad, she clutched her passport tightly.", "ru": "Никогда раньше не бывав за границей, она крепко сжимала паспорт.", "highlight": ["Never having been abroad"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы говорим: «проходя по улицам, он заметил...». В английском — Walking through the streets, he noticed...",
+    "Present participle (V-ing) = активное действие.",
+    "Past participle (V3) = пассивное действие.",
+    "Perfect participle (Having + V3) = действие перед главным."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: причастный оборот = замена придаточного предложения.",
+      "V-ing — активное действие, одновременно с главным.",
+      "V3 — пассивное действие, результат.",
+      "Having + V3 — действие перед главным.",
+      "Отрицание: Not + V-ing / V3 / Having + V3.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте придаточные предложения в причастные обороты:",
+      "items": [
+        { "q": "He sat down because he was shaken by the news. → Shaken by the news, he sat down.", "a": "Shaken" },
+        { "q": "While he was walking through the streets, he noticed the posters. → Walking through the streets, he noticed the posters.", "a": "Walking" },
+        { "q": "After he had read the book, he understood the system. → Having read the book, he understood the system.", "a": "Having read" },
+        { "q": "Because he didn't know the truth, he was confused. → Not knowing the truth, he was confused.", "a": "Not knowing" },
+        { "q": "After he had finished the book, he died. → Having finished the book, he died.", "a": "Having finished" }
+      ]
+    }
   },
-  {
-   "group": "passive participle (V3 / having been + V3)",
-   "items": [
-    { "en": "Seen from above, the city looked like a circuit board.", "ru": "Если смотреть сверху, город походил на печатную плату.", "highlight": ["Seen from above"] },
-    { "en": "Having been warned about the storm, the crew stayed in port.", "ru": "Будучи предупреждённым о шторме, экипаж остался в порту.", "highlight": ["Having been warned"] }
-   ]
+  "formula": "V-ing · V3 · Having + V3",
+  "structure": {
+    "positive": "Walking through the streets, he noticed the posters.",
+    "negative": "Not knowing the truth, he was confused.",
+    "question": "Walking through the streets, did he notice the posters?"
   },
-  {
-   "group": "отрицание — not / never перед причастием",
-   "items": [
-    { "en": "Not knowing what to say, he simply smiled.", "ru": "Не зная, что сказать, он просто улыбнулся.", "highlight": ["Not knowing"] },
-    { "en": "Not having read the book, I can't judge the adaptation.", "ru": "Не читав книги, я не могу судить об экранизации.", "highlight": ["Not having read"] }
-   ]
+  "markers": ["-ing", "-ed", "having", "not", "while", "when", "before", "after"],
+  "uses": [
+    "V-ing: Walking through the streets, he noticed the posters.",
+    "V3: Shaken by the news, he sat down.",
+    "Having + V3: Having read the book, he understood the system.",
+    "Отрицание: Not knowing the truth, he was confused."
+  ],
+  "rules": [
+    { "title": "Present participle (V-ing)",
+      "text": "Используется для активного действия, которое происходит одновременно с главным. Walking through the streets, he noticed the posters." },
+    { "title": "Past participle (V3)",
+      "text": "Используется для пассивного действия, которое является результатом. Shaken by the news, he sat down." },
+    { "title": "Perfect participle (Having + V3)",
+      "text": "Используется для действия, которое произошло перед главным. Having read the book, he understood the system." },
+    { "title": "Отрицание",
+      "text": "Not ставится перед причастием. Not knowing the truth, he was confused." }
+  ],
+  "examples": [
+    {
+      "group": "Present participle (V-ing) — активное действие",
+      "items": [
+        { "en": "Walking through the streets, he noticed the posters.", "ru": "Проходя по улицам, он заметил плакаты.", "highlight": ["Walking"] },
+        { "en": "Sitting at his desk, he wrote the novel.", "ru": "Сидя за своим столом, он писал роман.", "highlight": ["Sitting"] },
+        { "en": "Looking out the window, he saw the city.", "ru": "Глядя в окно, он видел город.", "highlight": ["Looking"] }
+      ]
+    },
+    {
+      "group": "Past participle (V3) — пассивное действие",
+      "items": [
+        { "en": "Shaken by the news, he sat down.", "ru": "Потрясённый новостью, он сел.", "highlight": ["Shaken"] },
+        { "en": "Lost in the city, he wandered aimlessly.", "ru": "Потерянный в городе, он бродил бесцельно.", "highlight": ["Lost"] },
+        { "en": "Surrounded by books, he felt at home.", "ru": "Окружённый книгами, он чувствовал себя как дома.", "highlight": ["Surrounded"] }
+      ]
+    },
+    {
+      "group": "Perfect participle (Having + V3) — действие перед главным",
+      "items": [
+        { "en": "Having read the book, he understood the system.", "ru": "Прочитав книгу, он понял систему.", "highlight": ["Having read"] },
+        { "en": "Having finished the novel, he died a year later.", "ru": "Закончив роман, он умер через год.", "highlight": ["Having finished"] },
+        { "en": "Having written the manuscript, he sent it to the publisher.", "ru": "Написав рукопись, он отправил её издателю.", "highlight": ["Having written"] }
+      ]
+    },
+    {
+      "group": "Отрицание",
+      "items": [
+        { "en": "Not knowing the truth, he was confused.", "ru": "Не зная правды, он был смущён.", "highlight": ["Not knowing"] },
+        { "en": "Not wanting to be seen, he hid.", "ru": "Не желая быть замеченным, он спрятался.", "highlight": ["Not wanting"] },
+        { "en": "Not having read the book, he didn't understand the reference.", "ru": "Не прочитав книгу, он не понял отсылку.", "highlight": ["Not having read"] }
+      ]
+    },
+    {
+      "group": "With while / when + V-ing",
+      "items": [
+        { "en": "While writing the book, he was ill.", "ru": "Во время написания книги он был болен.", "highlight": ["While writing"] },
+        { "en": "When reading the manuscript, he cried.", "ru": "Когда он читал рукопись, он плакал.", "highlight": ["When reading"] },
+        { "en": "While walking through the city, he felt watched.", "ru": "Проходя по городу, он чувствовал, что за ним наблюдают.", "highlight": ["While walking"] }
+      ]
+    },
+    {
+      "group": "Сравнение придаточного и причастного оборота",
+      "items": [
+        { "en": "Because he was shaken by the news, he sat down. → Shaken by the news, he sat down.", "ru": "Потрясённый новостью, он сел.", "highlight": ["Shaken"] },
+        { "en": "After he had read the book, he understood. → Having read the book, he understood.", "ru": "Прочитав книгу, он понял.", "highlight": ["Having read"] },
+        { "en": "While he was walking through the streets, he noticed the posters. → Walking through the streets, he noticed the posters.", "ru": "Проходя по улицам, он заметил плакаты.", "highlight": ["Walking"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Walked through the streets, he noticed the posters.", "right": "Walking through the streets, he noticed the posters.", "note": "Активное действие — V-ing." },
+    { "wrong": "Shaking by the news, he sat down.", "right": "Shaken by the news, he sat down.", "note": "Пассивное действие — V3." },
+    { "wrong": "Have read the book, he understood.", "right": "Having read the book, he understood.", "note": "Having + V3 для действия перед главным." },
+    { "wrong": "Not knowing the truth, he was confused. (правильно)", "right": "Not knowing the truth, he was confused.", "note": "Правильно!" },
+    { "wrong": "Writing the book, he was ill.", "right": "While writing the book, he was ill.", "note": "While + V-ing для одновременности." },
+    { "wrong": "Having finished the book, he dies.", "right": "Having finished the book, he died.", "note": "Главное действие в прошедшем времени." }
+  ],
+  "compare": {
+    "title": "Придаточное предложение vs Причастный оборот",
+    "leftLabel": "Придаточное предложение",
+    "rightLabel": "Причастный оборот",
+    "rows": [
+      { "left": "Because he was shaken, he sat down.", "right": "Shaken, he sat down." },
+      { "left": "After he had read the book, he understood.", "right": "Having read the book, he understood." },
+      { "left": "While he was walking, he noticed the posters.", "right": "Walking, he noticed the posters." }
+    ]
   },
-  {
-   "group": "абсолютные конструкции и застывшие обороты",
-   "items": [
-    { "en": "The weather being fine, we had lunch in the garden.", "ru": "Поскольку погода была хорошая, мы пообедали в саду.", "highlight": ["The weather being fine"] },
-    { "en": "All things considered, the project was a success.", "ru": "При всём при том, проект оказался успешным.", "highlight": ["All things considered"] }
-   ]
-  },
-  {
-   "group": "with + объект + причастие",
-   "items": [
-    { "en": "With the work done, we went out for a drink.", "ru": "Когда работа была сделана, мы вышли выпить.", "highlight": ["With the work done"] },
-    { "en": "With prices rising so fast, families are cutting back.", "ru": "При таком быстром росте цен семьи сокращают расходы.", "highlight": ["With prices rising"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "Walking into the room, the lights were blinding.", "right": "Walking into the room, I was blinded by the lights.", "note": "Dangling participle: света не входили в комнату; подлежащее оборота должно совпадать с подлежащим главного (I)." },
-  { "wrong": "Having read the book, the film was disappointing.", "right": "Having read the book, I found the film disappointing.", "note": "Фильм не читал книгу; действительное лицо (I) должно быть подлежащим главного предложения." },
-  { "wrong": "Finishing the report, she had already left the office.", "right": "Having finished the report, she left the office.", "note": "Предшествование («закончив до того») требует having + V3, не -ing." },
-  { "wrong": "Having read the reviews, so I decided to skip it.", "right": "Having read the reviews, I decided to skip it.", "note": "Причастный оборот не соединяется с so/but/and в начале главной части." },
-  { "wrong": "Being ill, so he stayed in bed.", "right": "Being ill, he stayed in bed.", "note": "Лишнее so после оборота; связь причины оборот несёт сам." },
-  { "wrong": "The rain started, walking to work.", "right": "Walking to work, I got caught in the rain.", "note": "Оборот должен относиться к подлежащему; «дождь шёл на работу» — dangling. Перестрой с верным субъектом." }
- ],
- "compare": {
-  "title": "Причастный оборот vs полное придаточное",
-  "leftLabel": "причастный оборот (плотно)",
-  "rightLabel": "полное придаточное (развёрнуто)",
-  "rows": [
-   { "left": "Having finished the report, she left.", "right": "After she had finished the report, she left." },
-   { "left": "Seen from above, the city looks tiny.", "right": "When it is seen from above, the city looks tiny." },
-   { "left": "Feeling tired, he went to bed early.", "right": "Because he felt tired, he went to bed early." }
+  "tips": [
+    "V-ing = активное действие, одновременно с главным.",
+    "V3 = пассивное действие, результат.",
+    "Having + V3 = действие перед главным.",
+    "Not + V-ing / V3 / Having + V3 = отрицание.",
+    "Используется в литературе и официальных текстах.",
+    "Делает текст более лаконичным и элегантным.",
+    "Проверяй: кто выполняет действие? Актив или пассив?"
+  ],
+  "related": ["c2-participle-clauses", "c2-mixed-conditionals", "c2-modals-past-deduction", "c2-mandative-subjunctive", "c2-inversion-so-such", "c2-cohesion-and-register"],
+  "quiz": [
+    {
+      "q": "___ through the streets, he noticed the posters.",
+      "options": ["Walking", "Walked", "Having walked", "Walk"],
+      "answer": 0,
+      "why": "Активное действие — V-ing."
+    },
+    {
+      "q": "___ by the news, he sat down.",
+      "options": ["Shaking", "Shaken", "Having shaken", "Shake"],
+      "answer": 1,
+      "why": "Пассивное действие — V3."
+    },
+    {
+      "q": "___ the book, he understood the system.",
+      "options": ["Read", "Having read", "Reading", "Being read"],
+      "answer": 1,
+      "why": "Действие перед главным — Having + V3."
+    },
+    {
+      "q": "___ the truth, he was confused.",
+      "options": ["Not knowing", "Not known", "Not having known", "Not know"],
+      "answer": 0,
+      "why": "Отрицание — Not + V-ing."
+    },
+    {
+      "q": "___ the book, he died a year later.",
+      "options": ["Finishing", "Having finished", "Finished", "Being finished"],
+      "answer": 1,
+      "why": "Действие перед главным — Having + V3."
+    },
+    {
+      "q": "___ by books, he felt at home.",
+      "options": ["Surrounding", "Surrounded", "Having surrounded", "Being surround"],
+      "answer": 1,
+      "why": "Пассивное действие — V3."
+    }
   ]
- },
- "tips": [
-  "Русский деепричастный оборот — твой главный мост. «Сделав» = having done, «делая/увидев» = doing/seeing, «не зная» = not knowing. Переводи свои же русские деепричастные конструкции на английский — это быстрее всего ставит форму, потому что логика тебе уже родная.",
-  "Проверка на dangling в одно действие: прочитай оборот и сразу спроси «кто это делал?» — ответ должен быть подлежащим главного предложения. Walking into the room, … — кто входил? Если дальше the lights — ошибка. Эта секундная проверка снимает главную экзаменационную ловушку.",
-  "having + V3 против -ing держи по предшествованию. Если действие оборота случилось ДО главного — having done (Having eaten, we left = сначала поели, потом ушли). Если одновременно или как причина — -ing (Feeling hungry, we ate). Русское «сделав» (сов. вид) почти всегда = having done.",
-  "Пассив в обороте — это V3 само по себе или having been + V3. Seen from above… (= when it is seen), Built in 1890… (= because it was built), Having been told the news, she fainted (= after she had been told). Не добавляй be: *Being seen from above* возможно для одновременного пассива, но чаще нужен просто V3.",
-  "Абсолютная конструкция — спасение при разных субъектах. The weather being fine, we picnicked; There being no alternative, we agreed; With the work done, we relaxed. Подлежащее оборота (the weather, there, the work) стоит перед причастием — это и отличает absolute от dangling: там субъект свой и назван явно.",
-  "Застывшие absolute учи целиком как вводные: All things considered, Weather permitting, That said, This done, God willing. Они не разбираются по правилу каждый раз и делают речь идиоматичной. That said — отличный связующий оборот для эссе (= «при этом / тем не менее»).",
-  "Регистр: причастные обороты — письменный и формальный инструмент. В разговорной речи носитель чаще скажет полным придаточным (After I'd finished, I left). Не перенасыщай ими устную речь, но в эссе, статьях, отчётах и письмах они обязательны — именно их наличие отличает C2‑текст от B2."
- ],
- "related": ["c2-cohesion-and-register", "c1-emphasis-do-and-fronting", "c1-cleft-sentences"],
- "quiz": [
-  {
-    "q": "Сожмите: After she had finished the report, she left.",
-    "options": [
-            "Finishing the report, she left.",
-            "Finished the report, she left.",
-            "Having finished the report, she left.",
-            "To finish the report, she left."
-          ],
-    "answer": 2,
-    "why": "Предшествование («сначала закончила, потом ушла») требует perfect participle: having + причастие. -ing передавало бы одновременность, а не «до этого»."
-  },
-  {
-    "q": "Сожмите пассив: When it is seen from above, the city looks tiny.",
-    "options": [
-            "Seeing from above, the city looks tiny.",
-            "Having seen from above, the city looks tiny.",
-            "To see from above, the city looks tiny.",
-            "Seen from above, the city looks tiny."
-          ],
-    "answer": 3,
-    "why": "Пассив в обороте — это причастие прошедшего времени само по себе: Seen from above (= when it is seen). Seeing/Having seen были бы активом, а город не «смотрит»."
-  },
-  {
-    "q": "Исправьте dangling participle: Walking into the room, the lights were blinding.",
-    "options": [
-            "Walking into the room, the lights were blinding.",
-            "Walking into the room, I was blinded by the lights.",
-            "Walking into the room, it was blinding.",
-            "Walking into the room, blinding lights were everywhere."
-          ],
-    "answer": 1,
-    "why": "Подлежащее оборота должно совпадать с подлежащим главного предложения. Света и «it» в комнату не входили — входил я. Поэтому Walking into the room, I was blinded."
-  },
-  {
-    "q": "Сожмите с отрицанием: Because he didn\u0027t know what to say, he smiled.",
-    "options": [
-            "Knowing not what to say, he smiled.",
-            "Not know what to say, he smiled.",
-            "Don\u0027t knowing what to say, he smiled.",
-            "Not knowing what to say, he smiled."
-          ],
-    "answer": 3,
-    "why": "Отрицание ставится частицей not прямо перед причастием: Not knowing. Порядок «knowing not» и формы с don\u0027t/do в обороте неверны."
-  },
-  {
-    "q": "Перестройте через абсолютную конструкцию (разные субъекты): The weather was fine, so we had a picnic.",
-    "options": [
-            "The weather was fine, we had a picnic.",
-            "Being fine the weather, we had a picnic.",
-            "The weather being fine, we had a picnic.",
-            "The weather fine being, we had a picnic."
-          ],
-    "answer": 2,
-    "why": "При разных действующих лицах (weather / we) нужна абсолютная конструкция со своим подлежащим перед причастием: The weather being fine. Вариант с запятой между двумя предложениями — comma splice, ошибка."
-  },
-  {
-    "q": "___ about the storm, the crew stayed in port.",
-    "options": [
-            "Having warned",
-            "Warning",
-            "To warn",
-            "Having been warned"
-          ],
-    "answer": 3,
-    "why": "Пассив с предшествованием — having been + причастие: Having been warned (= after they had been warned). Having warned/Warning были бы активом, а экипаж не предупреждал, его предупредили."
-  }
-]
 }
