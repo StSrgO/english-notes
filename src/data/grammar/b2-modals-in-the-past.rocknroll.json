@@ -1,0 +1,197 @@
+{
+  "variant": "rocknroll",
+  "slug": "b2-modals-in-the-past",
+  "level": "B2",
+  "title": "Modals in the past",
+  "category": "Modals",
+  "readingTime": 11,
+  "summary": "Modals in the past — предположения, сожаления и критика о прошлом. История о том, как Sex Pistols выпустили «God Save the Queen» и вызвали скандал в 1977 году.",
+  "idea": [
+    "Лондон, 1977 год. Серебряный юбилей королевы Елизаветы II. Sex Pistols выпускают сингл «God Save the Queen». Песня должна была стать шоком для британского общества. Она не могла быть одобрена королевой. Группа должна была ожидать негативной реакции.",
+    "Сингл мог быть запрещён, но он стал №2 в чартах (хотя некоторые говорят, что он должен был стать №1, если бы не цензура). Группа могла бы избежать скандала, если бы не выпустила сингл. Но они сделали это. Лейбл A&M разорвал контракт через неделю. Группа получила 50 000 фунтов аванса и потратила их на алкоголь и вечеринки.",
+    "Что они должны были сделать по-другому? Они могли бы сохранить песню в секрете. Они должны были ожидать реакции. Но они сделали это. И скандал сделал их легендами."
+  ],
+  "why": [
+    "Выражать уверенное предположение о прошлом: The song must have shocked the nation.",
+    "Выражать уверенное отрицание: It can't have been approved by the Queen.",
+    "Выражать возможное предположение: They might have avoided the scandal.",
+    "Выражать сожаление о том, что не сделали: They should have expected the backlash."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Manager: 'The song must have shocked the nation. It can't have been approved by the Queen. They should have expected the backlash.'",
+        "ru": "Менеджер: «Песня, должно быть, шокировала нацию. Она не могла быть одобрена королевой. Они должны были ожидать негативной реакции»." },
+      { "en": "Band member: 'We might have avoided the scandal. We could have kept it secret. But we didn't.'",
+        "ru": "Участник группы: «Мы могли бы избежать скандала. Мы могли бы сохранить это в секрете. Но мы этого не сделали»." }
+    ],
+    "note": "must have — уверенность; can't have — уверенное отрицание; might have — возможность; should have — сожаление."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим: «песня, должно быть, шокировала нацию». В английском — must have shocked.",
+    "must have + V3 = уверенность (95%).",
+    "can't have + V3 = уверенное отрицание (95%).",
+    "might have / may have + V3 = возможность (50%)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: must have + V3 = уверен, что произошло.",
+      "can't have + V3 = уверен, что не произошло.",
+      "might have / may have + V3 = возможно, произошло.",
+      "could have + V3 = теоретически могло произойти.",
+      "should have + V3 = сожаление о том, что не сделали.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильный модальный глагол в прошлом (must have, can't have, might have, should have, could have):",
+      "items": [
+        { "q": "The song ___ shocked the nation. (уверенность)", "a": "must have" },
+        { "q": "It ___ been approved by the Queen. (уверенное отрицание)", "a": "can't have" },
+        { "q": "They ___ avoided the scandal. (возможность)", "a": "might have" },
+        { "q": "They ___ expected the backlash. (сожаление)", "a": "should have" },
+        { "q": "They ___ kept the song secret. (теоретическая возможность)", "a": "could have" }
+      ]
+    }
+  },
+  "formula": "modal + have + V3",
+  "structure": {
+    "positive": "The song must have shocked the nation.",
+    "negative": "The song can't have shocked the nation.",
+    "question": "Could the song have shocked the nation?"
+  },
+  "markers": ["must have", "can't have", "may have", "might have", "could have", "should have"],
+  "uses": [
+    "must have + V3: уверенное предположение о прошлом.",
+    "can't have + V3: уверенное отрицание о прошлом.",
+    "may have / might have + V3: возможное предположение.",
+    "should have + V3: сожаление или критика."
+  ],
+  "rules": [
+    { "title": "must have + V3",
+      "text": "Выражает уверенность (95%), что что-то произошло. The song must have shocked the nation." },
+    { "title": "can't have + V3",
+      "text": "Выражает уверенность (95%), что что-то НЕ произошло. It can't have been approved by the Queen." },
+    { "title": "may have / might have + V3",
+      "text": "Выражает возможное предположение (50%). They might have avoided the scandal." },
+    { "title": "should have + V3",
+      "text": "Выражает сожаление о том, что не сделали (или сделали). They should have expected the backlash." }
+  ],
+  "examples": [
+    {
+      "group": "must have — уверенное предположение",
+      "items": [
+        { "en": "The song must have shocked the nation. It was so controversial.", "ru": "Песня, должно быть, шокировала нацию. Она была такой скандальной.", "highlight": ["must have shocked"] },
+        { "en": "They must have known it would cause a scandal.", "ru": "Они, должно быть, знали, что это вызовет скандал.", "highlight": ["must have known"] },
+        { "en": "The label must have been furious.", "ru": "Лейбл, должно быть, был в ярости.", "highlight": ["must have been"] }
+      ]
+    },
+    {
+      "group": "can't have — уверенное отрицание",
+      "items": [
+        { "en": "It can't have been approved by the Queen.", "ru": "Это не могло быть одобрено королевой.", "highlight": ["can't have been"] },
+        { "en": "They can't have expected a positive response.", "ru": "Они не могли ожидать положительной реакции.", "highlight": ["can't have expected"] },
+        { "en": "The record label can't have known what they were doing.", "ru": "Лейбл не мог знать, что они делают.", "highlight": ["can't have known"] }
+      ]
+    },
+    {
+      "group": "might have — возможное предположение",
+      "items": [
+        { "en": "They might have avoided the scandal if they hadn't released it.", "ru": "Возможно, они избежали бы скандала, если бы не выпустили её.", "highlight": ["might have avoided"] },
+        { "en": "They might have been surprised by the reaction.", "ru": "Возможно, они были удивлены реакцией.", "highlight": ["might have been"] },
+        { "en": "The song might have been banned in some countries.", "ru": "Возможно, песня была запрещена в некоторых странах.", "highlight": ["might have been"] }
+      ]
+    },
+    {
+      "group": "should have — сожаление",
+      "items": [
+        { "en": "They should have expected the backlash.", "ru": "Им следовало ожидать негативной реакции.", "highlight": ["should have expected"] },
+        { "en": "They should have been more careful.", "ru": "Им следовало быть более осторожными.", "highlight": ["should have been"] },
+        { "en": "They should have kept the song a secret.", "ru": "Им следовало сохранить песню в секрете.", "highlight": ["should have kept"] }
+      ]
+    },
+    {
+      "group": "could have — теоретическая возможность",
+      "items": [
+        { "en": "They could have avoided the scandal if they had been smarter.", "ru": "Они могли бы избежать скандала, если бы были умнее.", "highlight": ["could have avoided"] },
+        { "en": "They could have made even more money if they had kept the contract.", "ru": "Они могли бы заработать ещё больше денег, если бы сохранили контракт.", "highlight": ["could have made"] },
+        { "en": "They could have been even more famous.", "ru": "Они могли бы быть ещё более известными.", "highlight": ["could have been"] }
+      ]
+    },
+    {
+      "group": "Сравнение всех модальных глаголов в прошлом",
+      "items": [
+        { "en": "The song must have shocked the nation. (уверенность)", "ru": "Песня, должно быть, шокировала нацию.", "highlight": ["must have"] },
+        { "en": "It can't have been approved. (уверенное отрицание)", "ru": "Это не могло быть одобрено.", "highlight": ["can't have"] },
+        { "en": "They might have avoided the scandal. (возможность)", "ru": "Возможно, они избежали бы скандала.", "highlight": ["might have"] },
+        { "en": "They should have expected it. (сожаление)", "ru": "Им следовало ожидать этого.", "highlight": ["should have"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "The song must have shocked the nation.", "right": "The song must have shocked the nation.", "note": "Правильно!" },
+    { "wrong": "It can't have been approve.", "right": "It can't have been approved.", "note": "Нужна V3: approve → approved." },
+    { "wrong": "They might have avoid the scandal.", "right": "They might have avoided the scandal.", "note": "Нужна V3: avoid → avoided." },
+    { "wrong": "They should have expect the backlash.", "right": "They should have expected the backlash.", "note": "Нужна V3: expect → expected." },
+    { "wrong": "They could have keep the secret.", "right": "They could have kept the secret.", "note": "Нужна V3: keep → kept." },
+    { "wrong": "They must had been crazy.", "right": "They must have been crazy.", "note": "Всегда have, не had." }
+  ],
+  "compare": {
+    "title": "Modals in the past — сравнение",
+    "leftLabel": "Модальный глагол",
+    "rightLabel": "Значение",
+    "rows": [
+      { "left": "must have + V3", "right": "уверенность (95%)" },
+      { "left": "can't have + V3", "right": "уверенное отрицание (95%)" },
+      { "left": "might have / may have + V3", "right": "возможность (50%)" },
+      { "left": "could have + V3", "right": "теоретическая возможность" },
+      { "left": "should have + V3", "right": "сожаление / критика" }
+    ]
+  },
+  "tips": [
+    "must have + V3 = уверен (95%).",
+    "can't have + V3 = уверен, что не произошло (95%).",
+    "might have / may have + V3 = возможно (50%).",
+    "could have + V3 = теоретически могло, но не случилось.",
+    "should have + V3 = сожаление о том, что не сделали.",
+    "Всегда have + V3, не had.",
+    "Проверяй себя: насколько я уверен? 95% → must have / can't have. 50% → might have / may have."
+  ],
+  "related": ["b1-modals-should-might-may", "b2-mixed-conditionals", "b2-wish-if-only"],
+  "quiz": [
+    {
+      "q": "The song ___ shocked the nation. It was so controversial.",
+      "options": ["must have", "might have", "should have", "could have"],
+      "answer": 0,
+      "why": "must have — уверенность (95%)."
+    },
+    {
+      "q": "It ___ been approved by the Queen.",
+      "options": ["can't have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "can't have — уверенное отрицание."
+    },
+    {
+      "q": "They ___ avoided the scandal if they hadn't released it.",
+      "options": ["might have", "must have", "can't have", "should have"],
+      "answer": 0,
+      "why": "might have — возможность (50%)."
+    },
+    {
+      "q": "They ___ expected the backlash.",
+      "options": ["should have", "must have", "might have", "could have"],
+      "answer": 0,
+      "why": "should have — сожаление."
+    },
+    {
+      "q": "They ___ kept the song a secret.",
+      "options": ["could have", "must have", "might have", "should have"],
+      "answer": 0,
+      "why": "could have — теоретическая возможность."
+    },
+    {
+      "q": "They ___ been surprised by the reaction.",
+      "options": ["might have", "must have", "can't have", "should have"],
+      "answer": 0,
+      "why": "might have — возможность (50%)."
+    }
+  ]
+}

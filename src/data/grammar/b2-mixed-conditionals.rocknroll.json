@@ -1,0 +1,195 @@
+{
+  "variant": "rocknroll",
+  "slug": "b2-mixed-conditionals",
+  "level": "B2",
+  "title": "Mixed Conditionals",
+  "category": "Conditionals",
+  "readingTime": 11,
+  "summary": "Mixed Conditionals — когда прошлое влияет на настоящее, а настоящее — на прошлое. История о том, как Pink Floyd записали «Wish You Were Here» и вспомнили о своём друге.",
+  "idea": [
+    "Лондон, 1975 год. Pink Floyd записывают новый альбом «Wish You Were Here». Роджер Уотерс сидит в студии и смотрит на старую фотографию Сида Барретта — основателя группы, который ушёл в 1968 году. Если бы Сид остался в группе, он был бы легендой сегодня. Если бы они знали, что с ним произойдёт, они бы сделали больше. Если бы они не записали этот альбом, они бы не вспоминали его сегодня. Но они записали его. И альбом стал одним из величайших в истории рока.",
+    "В 1975 году, во время записи, Сид неожиданно появился в студии. Он был лысым, потолстевшим, с пустым взглядом. Никто не узнал его сначала. Роджер Уотерс заплакал. Если бы он был лучшим другом, он бы заметил проблемы раньше. Если бы они не были так заняты музыкой, они бы больше помогли ему. Но они были молодыми и эгоистичными. Они вспоминали его в песнях. И это было лучшее, что они могли сделать.",
+    "Mixed Conditionals — это смешение времён. Формула 1: if + Past Perfect (прошлое), would + V1 (настоящее). Если бы Сид остался в группе, он был бы легендой сегодня. Формула 2: if + Past Simple (настоящее), would have + V3 (прошлое). Если бы я был лучшим другом, я бы заметил раньше. Pink Floyd могли бы быть другой группой. Но они стали легендой. И их музыка живёт до сих пор."
+  ],
+  "why": [
+    "Говорить о прошлом, которое влияет на настоящее: If Syd had stayed, he would be a legend today.",
+    "Говорить о настоящем, которое изменило бы прошлое: If I were a better friend, I would have noticed.",
+    "Связывать прошлое и настоящее в одном предложении.",
+    "Выражать сожаления о прошлом, которые актуальны сегодня."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Roger Waters: 'If Syd had stayed in the band, he would be a legend today. If we had known, we would have done more for him.'",
+        "ru": "Роджер Уотерс: «Если бы Сид остался в группе, он был бы легендой сегодня. Если бы мы знали, мы бы сделали для него больше»." },
+      { "en": "Nick Mason: 'If I weren't so selfish, I would have helped him. If we hadn't written this album, we wouldn't be talking about him today.'",
+        "ru": "Ник Мэйсон: «Если бы я не был таким эгоистичным, я бы помог ему. Если бы мы не записали этот альбом, мы бы не говорили о нём сегодня»." }
+    ],
+    "note": "Past → Present: if + Past Perfect, would + V1. Present → Past: if + Past Simple, would have + V3."
+  },
+  "russianAngle": [
+    "В русском языке мы смешиваем времена в условных предложениях естественно: «если бы он остался, он был бы легендой». В английском нужно использовать правильные формы.",
+    "Past → Present: if + had + V3, would + V1.",
+    "Present → Past: if + V2 (или were), would have + V3.",
+    "Ошибка: If Syd had stayed, he is a legend. — неправильно! Нужно: If Syd had stayed, he would be a legend."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: Mixed Conditional — это связь прошлого и настоящего.",
+      "Формула 1 (Past → Present): if + Past Perfect, would + V1.",
+      "Формула 2 (Present → Past): if + Past Simple (were), would have + V3.",
+      "Проверяй: какое время в условии? Какое время в результате?",
+      "Сравни с Third Conditional: там оба времени в прошлом.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Раскрой скобки, используя Mixed Conditionals (Past → Present или Present → Past):",
+      "items": [
+        { "q": "If Syd ___ (stay) in the band, he ___ (be) a legend today.", "a": "had stayed, would be" },
+        { "q": "If we ___ (know), we ___ (do) more for him.", "a": "had known, would have done" },
+        { "q": "If I ___ (be) a better friend, I ___ (notice) earlier.", "a": "were, would have noticed" },
+        { "q": "If I ___ (not / be) so selfish, I ___ (help) him.", "a": "weren't, would have helped" },
+        { "q": "If we ___ (not / write) this album, we ___ (not / talk) about him today.", "a": "hadn't written, wouldn't be talking" }
+      ]
+    }
+  },
+  "formula": "if + Past Perfect, would + V1 · if + Past Simple, would have + V3",
+  "structure": {
+    "positive": "If Syd had stayed, he would be a legend today.",
+    "negative": "If Syd hadn't stayed, he wouldn't be a legend today.",
+    "question": "Would he be a legend if he had stayed?"
+  },
+  "markers": ["if", "would", "wouldn't", "had", "hadn't", "were", "weren't"],
+  "uses": [
+    "Past → Present: If Syd had stayed, he would be a legend.",
+    "Past → Present: If we had known, we would have done more.",
+    "Present → Past: If I were a better friend, I would have noticed.",
+    "Present → Past: If I weren't so selfish, I would have helped."
+  ],
+  "rules": [
+    { "title": "Past → Present",
+      "text": "if + Past Perfect (had + V3) → would + V1 (настоящее). Пример: If Syd had stayed, he would be a legend." },
+    { "title": "Present → Past",
+      "text": "if + Past Simple (were для всех лиц) → would have + V3 (прошлое). Пример: If I were a better friend, I would have noticed." },
+    { "title": "Смешение",
+      "text": "Mixed Conditional связывает прошлое и настоящее. Это не Third Conditional (где оба времени в прошлом)." },
+    { "title": "were для всех лиц",
+      "text": "В сослагательном наклонении (Present → Past) используется were для всех лиц: I were, he were, she were." }
+  ],
+  "examples": [
+    {
+      "group": "Past → Present — прошлое влияет на настоящее",
+      "items": [
+        { "en": "If Syd had stayed in the band, he would be a legend today.", "ru": "Если бы Сид остался в группе, он был бы легендой сегодня.", "highlight": ["had stayed", "would be"] },
+        { "en": "If we had known, we would have done more for him.", "ru": "Если бы мы знали, мы бы сделали для него больше.", "highlight": ["had known", "would have done"] },
+        { "en": "If we hadn't written this album, we wouldn't be talking about him today.", "ru": "Если бы мы не написали этот альбом, мы бы не говорили о нём сегодня.", "highlight": ["hadn't written", "wouldn't be talking"] }
+      ]
+    },
+    {
+      "group": "Present → Past — настоящее объясняет прошлое",
+      "items": [
+        { "en": "If I were a better friend, I would have noticed earlier.", "ru": "Если бы я был лучшим другом, я бы заметил раньше.", "highlight": ["were", "would have noticed"] },
+        { "en": "If I weren't so selfish, I would have helped him.", "ru": "Если бы я не был таким эгоистичным, я бы помог ему.", "highlight": ["weren't", "would have helped"] },
+        { "en": "If I weren't so busy, I would have spent more time with him.", "ru": "Если бы я не был таким занятым, я бы провёл с ним больше времени.", "highlight": ["weren't", "would have spent"] }
+      ]
+    },
+    {
+      "group": "Past → Present — сожаления о прошлом, актуальные сейчас",
+      "items": [
+        { "en": "If I had known about his problems, I would be a different person now.", "ru": "Если бы я знал о его проблемах, я бы сейчас был другим человеком.", "highlight": ["had known", "would be"] },
+        { "en": "If we had supported him, we would still be friends today.", "ru": "Если бы мы поддержали его, мы бы до сих пор были друзьями.", "highlight": ["had supported", "would still be"] },
+        { "en": "If he had stayed, the band would sound different today.", "ru": "Если бы он остался, группа бы сейчас звучала иначе.", "highlight": ["had stayed", "would sound"] }
+      ]
+    },
+    {
+      "group": "Present → Past — настоящие факты, объясняющие прошлое",
+      "items": [
+        { "en": "If I weren't a musician, I wouldn't have met him.", "ru": "Если бы я не был музыкантом, я бы не встретил его.", "highlight": ["weren't", "wouldn't have met"] },
+        { "en": "If she weren't so talented, she wouldn't have joined the band.", "ru": "Если бы она не была такой талантливой, она бы не присоединилась к группе.", "highlight": ["weren't", "wouldn't have joined"] },
+        { "en": "If they weren't so crazy, they wouldn't have become famous.", "ru": "Если бы они не были такими безумными, они бы не стали знаменитыми.", "highlight": ["weren't", "wouldn't have become"] }
+      ]
+    },
+    {
+      "group": "Past → Present — известные личности",
+      "items": [
+        { "en": "If Syd hadn't left Pink Floyd, he would be one of the greatest guitarists today.", "ru": "Если бы Сид не ушёл из Pink Floyd, он был бы одним из величайших гитаристов сегодня.", "highlight": ["hadn't left", "would be"] },
+        { "en": "If Pink Floyd hadn't recorded 'Wish You Were Here', they wouldn't be as famous.", "ru": "Если бы Pink Floyd не записали «Wish You Were Here», они бы не были так знамениты.", "highlight": ["hadn't recorded", "wouldn't be"] },
+        { "en": "If he hadn't been so talented, he wouldn't be remembered today.", "ru": "Если бы он не был таким талантливым, его бы сегодня не помнили.", "highlight": ["hadn't been", "wouldn't be remembered"] }
+      ]
+    },
+    {
+      "group": "Present → Past — альтернативные реальности",
+      "items": [
+        { "en": "If I weren't a musician, I would have become a teacher.", "ru": "Если бы я не был музыкантом, я бы стал учителем.", "highlight": ["weren't", "would have become"] },
+        { "en": "If she weren't so shy, she would have said something.", "ru": "Если бы она не была такой застенчивой, она бы что-то сказала.", "highlight": ["weren't", "would have said"] },
+        { "en": "If they weren't so stubborn, they would have agreed.", "ru": "Если бы они не были такими упрямыми, они бы согласились.", "highlight": ["weren't", "would have agreed"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "If Syd had stayed, he is a legend.", "right": "If Syd had stayed, he would be a legend.", "note": "Past → Present: would + V1." },
+    { "wrong": "If I was a better friend, I noticed earlier.", "right": "If I were a better friend, I would have noticed earlier.", "note": "Present → Past: would have + V3." },
+    { "wrong": "If we knew, we helped him.", "right": "If we had known, we would have helped him.", "note": "Past → Past: had known, would have helped." },
+    { "wrong": "If I were a better friend, I noticed earlier.", "right": "If I were a better friend, I would have noticed earlier.", "note": "Present → Past: would have + V3." },
+    { "wrong": "If Syd hadn't left, he will be a legend.", "right": "If Syd hadn't left, he would be a legend.", "note": "Past → Present: would + V1." },
+    { "wrong": "If I am not a musician, I didn't meet him.", "right": "If I weren't a musician, I wouldn't have met him.", "note": "Present → Past: if + Past Simple, would have + V3." }
+  ],
+  "compare": {
+    "title": "Zero vs First vs Second vs Third vs Mixed",
+    "leftLabel": "Zero / First / Second / Third",
+    "rightLabel": "Mixed",
+    "rows": [
+      { "left": "Zero: If you play, you improve. (всегда)", "right": "Mixed: If he had stayed, he would be a legend. (прошлое→настоящее)" },
+      { "left": "First: If you come, you will see. (будущее)", "right": "Mixed: If I were rich, I would have bought it. (настоящее→прошлое)" },
+      { "left": "Second: If I were you, I would go. (нереальное настоящее)", "right": "Mixed: If we had known, we would have helped. (прошлое→прошлое)" },
+      { "left": "Third: If I had known, I would have helped. (прошлое)", "right": "Mixed: If I weren't lazy, I would have finished. (настоящее→прошлое)" }
+    ]
+  },
+  "tips": [
+    "Past → Present: if + Past Perfect → would + V1.",
+    "Present → Past: if + Past Simple (were) → would have + V3.",
+    "Всегда проверяй: что в условии? что в результате?",
+    "Сравни с Third Conditional: там оба времени в прошлом.",
+    "Используй were для всех лиц в сослагательном наклонении.",
+    "Mixed Conditional — это не ошибка, а осознанное смешение.",
+    "Спрашивай себя: это сожаление о прошлом, влияющее на настоящее? Тогда Past → Present."
+  ],
+  "related": ["b1-zero-conditional", "b1-first-conditional", "b2-second-conditional", "b2-third-conditional"],
+  "quiz": [
+    {
+      "q": "If Syd ___ in the band, he ___ a legend today.",
+      "options": ["had stayed, would be", "stayed, would have been", "had stayed, would have been", "stayed, would be"],
+      "answer": 0,
+      "why": "Past → Present: if + Past Perfect, would + V1."
+    },
+    {
+      "q": "If we ___ known, we ___ more for him.",
+      "options": ["had, would have done", "have, would do", "had, would do", "have, would have done"],
+      "answer": 0,
+      "why": "Past → Past: if + Past Perfect, would have + V3 (Third Conditional)."
+    },
+    {
+      "q": "If I ___ a better friend, I ___ earlier.",
+      "options": ["were, would have noticed", "am, noticed", "had been, would notice", "were, noticed"],
+      "answer": 0,
+      "why": "Present → Past: if + Past Simple, would have + V3."
+    },
+    {
+      "q": "If I ___ so selfish, I ___ him.",
+      "options": ["weren't, would have helped", "am not, helped", "hadn't been, would help", "weren't, would help"],
+      "answer": 0,
+      "why": "Present → Past: if + Past Simple, would have + V3."
+    },
+    {
+      "q": "If we ___ this album, we ___ about him today.",
+      "options": ["hadn't written, wouldn't be talking", "didn't write, won't talk", "hadn't written, won't talk", "haven't written, wouldn't be talking"],
+      "answer": 0,
+      "why": "Past → Present: if + Past Perfect, would + V1."
+    },
+    {
+      "q": "If I ___ a musician, I ___ him.",
+      "options": ["weren't, wouldn't have met", "am not, didn't meet", "hadn't been, wouldn't meet", "weren't, wouldn't meet"],
+      "answer": 0,
+      "why": "Present → Past: if + Past Simple, would have + V3."
+    }
+  ]
+}

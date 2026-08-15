@@ -1,210 +1,203 @@
 {
- "slug": "b2-passive-voice-advanced",
- "title": "Passive Voice (все времена + безличный)",
- "level": "B2",
- "category": "Voice",
- "readingTime": 12,
- "summary": "Пассив во всех временах, безличный пассив (It is said that…) и разговорный get-пассив. Один скелет be + V3: время прячется в be, V3 стоит константой.",
- "idea": [
-  "На B1 мы познакомились с пассивом в двух временах — Present и Past Simple. На B2 идея расширяется до главного инсайта всей темы: пассив строится из ОДНОГО скелета, который работает во всех временах без исключения, — be + V3, где be берёт на себя время, а основной глагол ВСЕГДА стоит в третьей форме и не меняется. Пойми этот каркас один раз — и тебе больше не нужно учить «пассив в Present Perfect» и «пассив в Future» как отдельные правила; нужно просто уметь двигать be. Present Simple — is/are built. Past Simple — was/were built. Future — will be built. Present Continuous — is/are being built (Continuous добавляет being). Present Perfect — has/have been built (Perfect добавляет been). Past Perfect — had been built. Всё это один и тот же скелет be + V3, только be принимает нужную форму времени. Время прячется в be, V3 — константа.",
-  "Разберём, как скелет растягивается на Continuous и Perfect, потому что здесь появляются два новых «кирпичика». Continuous в пассиве добавляет being между be и V3: The house is being built right now (дом строится прямо сейчас — процесс в развитии). The road was being repaired when I passed (дорогу ремонтировали, когда я проезжал). Perfect добавляет been: The documents have been signed (документы подписаны — результат к настоящему). The work had been finished by noon (работа была закончена к полудню). То есть формула расширяется предсказуемо: be + (being для Continuous) + (been для Perfect) + V3. Если видишь being — это процесс, если been — это результат к какому‑то моменту. И помни: V3 в конце всегда один и тот же — built, written, made, sent — он не реагирует ни на время, ни на лицо.",
-  "Теперь два продвинутых пласта, которые отличают B2. Первый — безличный пассив для «говорят / считают / известно / сообщают», когда источник информации общий или не важен. Строится через It is said / believed / thought / reported / known / expected + that…: It is said that he is rich (говорят, что он богат). It is believed that the painting is a fake (считается, что картина — подделка). Есть и второй, более элегантный вариант — подлежащее + is said + to…: He is said to be rich (о нём говорят, что он богат). Это любимый приём новостей и академического письма, и он звучит очень «по‑английски». Второй пласт — get‑пассив, разговорный брат be‑пассива для того, что «случилось с кем‑то», часто неожиданного или неприятного: get married, get fired, get lost, get paid, get arrested, get hurt, get elected. He got fired last week (его уволили). They're getting married in June. get‑пассив живее и неформальнее be‑пассива, и в речи нейтивы часто предпочитают именно его для личных событий. Для русскоговорящих здесь две боли: «говорят, что» хочется перевести как «people say that» (можно, но It is said that звучит формальнее и идиоматичнее), и «меня уволили / его арестовали» — безличное, которое по‑английски естественно ложится в I got fired / He was arrested. Если унести одну мысль: пассив = be + V3 во всех временах (время в be, V3 константа, Continuous добавляет being, Perfect добавляет been); для «говорят» — It is said that; для «случилось с кем‑то» — get + V3."
- ],
- "why": [
-  "Строить пассив в любом времени: is made / was made / will be made / is being made / has been made.",
-  "Говорить «говорят / считают / известно» формально: It is said that he is rich. He is said to be rich.",
-  "Использовать разговорный get-пассив: get married, get fired, get lost, get paid.",
-  "Писать формально и по-научному, смещая фокус с деятеля на действие и результат."
- ],
- "context": {
-  "lines": [
-   { "en": "Have you heard about the new bridge? It's being built right now.", "ru": "Слышал про новый мост? Его сейчас строят." },
-   { "en": "Yes. It's expected to be finished by December, I think.", "ru": "Да. Кажется, его планируют закончить к декабрю." },
-   { "en": "Apparently the old one was built in the 1960s. They say it was designed by a famous engineer.", "ru": "Говорят, старый построили в 1960-х. Говорят, его спроектировал известный инженер." },
-   { "en": "Really? I've always been told it was just a local project.", "ru": "Правда? Мне всегда говорили, что это просто местный проект." },
-   { "en": "Well, the documents have only just been made public. By the way, did you hear Tom got fired?", "ru": "Ну, документы только что обнародовали. Кстати, слышал, Тома уволили?" },
-   { "en": "No! He'd been working there for years. He must be devastated.", "ru": "Нет! Он же работал там годами. Должно быть, он убит." }
+  "variant": "classic",
+  "slug": "b2-passive-voice-advanced",
+  "level": "B2",
+  "title": "Passive Voice (Advanced)",
+  "category": "Voice",
+  "readingTime": 12,
+  "summary": "Advanced Passive Voice — пассивный залог во всех временах. История о том, как была написана, издана и экранизирована книга «Унесённые ветром».",
+  "idea": [
+    "Атланта, 1926 год. Маргарет Митчелл начинает писать книгу, которая изменит её жизнь. Но она делает это в тайне. Рукопись была спрятана в шкафу в течение 10 лет. Она была написана для удовольствия, а не для славы. В 1936 году книга была издана. Она была продана миллионами копий. Фильм был снят в 1939 году и получил 8 премий «Оскар». Книга считается классикой американской литературы.",
+    "Митчелл не написала больше ни одной книги. Она была удивлена успехом. Она сказала: «Эта книга была написана для удовольствия, а не для славы». Единственный роман Митчелл был прочитан людьми по всему миру. Он никогда не будет забыт. История «Унесённых ветром» — это история о том, как книга была создана, была издана, была экранизирована и была обожаема миллионами.",
+    "Passive Voice (Advanced) — это пассивный залог во всех временах. Формула: to be + V3. The book is considered a classic. The book was published in 1936. The book will be made into a film. The book has been read by millions. The manuscript had been hidden for years. The film is being shown on TV now. It is said that she wrote only one book."
   ],
-  "note": "is being built (Continuous, процесс сейчас), is expected to be finished (безличный пассив + to), was built / was designed (Past Simple), they say / I've been told (безличные конструкции), have been made public (Perfect), got fired (get-пассив, «случилось с кем-то»), had been working (Past Perfect Continuous в активе для контраста). Пассив во всех ипостасях в одном разговоре-новости."
- },
- "russianAngle": [
-  " «Дом строится» (сейчас, процесс). The house is being built — Continuous пассив с being. Русское «строится» в процессе = is being built.",
-  " «Документы подписаны» (к сейчас, результат). The documents have been signed — Perfect пассив с been.",
-  " «Говорят, что он богат» / «считается, что...». It is said that he is rich / He is said to be rich. Русское безличное «говорят/считают» = It is said/believed/thought that.",
-  " «Меня уволили» / «его арестовали» (безличное, случилось). I got fired / He was arrested. get-пассив для «случилось с кем-то», живой и неформальный."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: один скелет be + V3 во всех временах; время в be, V3 константа.",
-   "Запомни кирпичики: Continuous добавляет being (is being built), Perfect добавляет been (has been built).",
-   "Выучи безличный пассив: It is said/believed/reported that… и подлежащее + is said + to…",
-   "Освой get-пассив для «случилось с кем-то»: get married/fired/lost/paid/arrested.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Когда действие важнее исполнителя: The book was written in 1936.",
+    "Когда исполнитель неизвестен или не важен: The manuscript was hidden.",
+    "В официальных и научных текстах: The book is considered a classic.",
+    "Безличные конструкции: It is said that she wrote only one book."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — поставь глагол в пассив в нужном времени:",
-   "items": [
-    { "q": "A new bridge ___ (build) in the city right now.", "a": "is being built — Present Continuous Passive (процесс сейчас)." },
-    { "q": "The documents ___ (sign) already.", "a": "have been signed — Present Perfect Passive (результат к сейчас)." },
-    { "q": "It ___ (say) that the painting is a fake.", "a": "is said — безличный пассив." },
-    { "q": "He ___ (fire) last week.", "a": "got fired / was fired — Past Simple, get-пассив живой." },
-    { "q": "The results ___ (announce) tomorrow.", "a": "will be announced — Future Simple Passive." }
-   ]
-  }
- },
- "formula": "be + V3 · Continuous: be + being + V3 · Perfect: have + been + V3",
- "structure": {
-  "positive": "The house is being built. / The report has been written.",
-  "negative": "The problem hasn't been solved. / It isn't being discussed.",
-  "question": "Has it been done? / Is it being repaired?"
- },
- "markers": ["by", "is being built", "has been done", "it is said/believed/known", "get + V3", "was told"],
- "uses": [
-  "Все времена пассива: is made / was made / will be made / is being made / has been made / had been made.",
-  "Безличный пассив: It is said that he is rich. / He is said to be rich.",
-  "get-пассив в речи: get married, get fired, get lost, get paid.",
-  "Формальный/научный и новостной стиль: The results are believed to be accurate."
- ],
- "rules": [
-  { "title": "Скелет be + V3, время в be", "text": "Время прячется в be, а Continuous добавляет being, Perfect добавляет been: is built (сейчас), was built (тогда), will be built (потом), is being built (прямо сейчас), has been built (к сейчас), had been built (к моменту в прошлом)." },
-  { "title": "Безличный пассив", "text": "Для «говорят/считают/известно»: It is said / believed / thought / reported / known + that… Или подлежащее + is said + to…: It is said that he is rich = He is said to be rich." },
-  { "title": "get-пассив", "text": "get + V3 для неформальных, часто неожиданных событий: get married, get fired, get lost, get paid, get arrested. Это разговорный пассив про «с кем-то случилось»." }
- ],
- "examples": [
-  {
-   "group": "Пассив по временам (один скелет)",
-   "items": [
-    { "en": "Coffee is grown in Brazil. (Present Simple)", "ru": "Кофе выращивают в Бразилии.", "highlight": ["is grown"] },
-    { "en": "The house was built in 1990. (Past Simple)", "ru": "Дом построили в 1990 году.", "highlight": ["was built"] },
-    { "en": "The results will be announced tomorrow. (Future)", "ru": "Результаты объявят завтра.", "highlight": ["will be announced"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Mitchell: 'The book was written for pleasure, not for fame. It has been read by millions, and I am surprised by its success.'",
+        "ru": "Митчелл: «Книга была написана для удовольствия, а не для славы. Она была прочитана миллионами, и я удивлена её успехом»." },
+      { "en": "Publisher: 'The book was published in 1936. It has been sold all over the world. It is considered a classic today.'",
+        "ru": "Издатель: «Книга была издана в 1936 году. Она была продана по всему миру. Сегодня она считается классикой»." }
+    ],
+    "note": "was written, was hidden, was published, has been read, is considered — пассивный залог в разных временах."
   },
-  {
-   "group": "Continuous пассив (being — процесс)",
-   "items": [
-    { "en": "A new bridge is being built in the city.", "ru": "В городе строится новый мост (прямо сейчас).", "highlight": ["is being built"] },
-    { "en": "The road was being repaired when I passed.", "ru": "Дорогу ремонтировали, когда я проезжал.", "highlight": ["was being repaired"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы часто используем активный залог: «книгу написали», «книгу издали». В английском пассивный залог — норма.",
+    "Пассивный залог: to be + V3. Время показывает to be.",
+    "Безличный пассив: It is said that... = Говорят, что...",
+    "Ошибка: The book was wrote — неправильно! Нужно: The book was written."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни формулу: to be + V3 (третья форма глагола).",
+      "Время показывает to be: is, was, has been, will be, etc.",
+      "Present Simple Passive: am/is/are + V3.",
+      "Past Simple Passive: was/were + V3.",
+      "Future Simple Passive: will be + V3.",
+      "Present Perfect Passive: have/has been + V3.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте активный залог в пассивный (в разных временах):",
+      "items": [
+        { "q": "She wrote the book in 1936. → The book ___ in 1936.", "a": "was written" },
+        { "q": "Millions of people have read the book. → The book ___ by millions.", "a": "has been read" },
+        { "q": "They will make a film about it. → A film ___ about it.", "a": "will be made" },
+        { "q": "People consider it a classic. → It ___ a classic.", "a": "is considered" },
+        { "q": "She had hidden the manuscript. → The manuscript ___ .", "a": "had been hidden" }
+      ]
+    }
   },
-  {
-   "group": "Perfect пассив (been — результат)",
-   "items": [
-    { "en": "The documents have been signed.", "ru": "Документы подписаны (к настоящему моменту).", "highlight": ["have been signed"] },
-    { "en": "The work had been finished by noon.", "ru": "Работа была закончена к полудню.", "highlight": ["had been finished"] }
-   ]
+  "formula": "to be + V3 (в разных временах)",
+  "structure": {
+    "positive": "The book was written in 1936.",
+    "negative": "The book wasn't written in 1936.",
+    "question": "Was the book written in 1936?"
   },
-  {
-   "group": "Безличный пассив (говорят / считают)",
-   "items": [
-    { "en": "It is said that he is rich.", "ru": "Говорят, что он богат.", "highlight": ["It is said"] },
-    { "en": "He is believed to be the best player.", "ru": "Считается, что он лучший игрок.", "highlight": ["is believed to be"] },
-    { "en": "It is reported that the storm is coming.", "ru": "Сообщают, что приближается шторм.", "highlight": ["It is reported"] }
-   ]
+  "markers": ["was", "were", "is", "are", "am", "has been", "have been", "had been", "will be", "is being", "are being"],
+  "uses": [
+    "Когда действие важнее исполнителя: The book was written in 1936.",
+    "Когда исполнитель неизвестен: The manuscript was hidden.",
+    "В официальных текстах: It is considered a classic.",
+    "Безличные конструкции: It is said that she wrote only one book."
+  ],
+  "rules": [
+    { "title": "Present Simple Passive",
+      "text": "am/is/are + V3. The book is considered a classic." },
+    { "title": "Past Simple Passive",
+      "text": "was/were + V3. The book was published in 1936." },
+    { "title": "Future Simple Passive",
+      "text": "will be + V3. The film will be made in 1939." },
+    { "title": "Present Perfect Passive",
+      "text": "have/has been + V3. The book has been read by millions." },
+    { "title": "Past Perfect Passive",
+      "text": "had been + V3. The manuscript had been hidden." },
+    { "title": "Present Continuous Passive",
+      "text": "am/is/are being + V3. The film is being shown now." },
+    { "title": "Безличный пассив",
+      "text": "It is said that... / She is said to have written..." }
+  ],
+  "examples": [
+    {
+      "group": "Present Simple Passive — книга считается классикой",
+      "items": [
+        { "en": "The book is considered a classic of American literature.", "ru": "Книга считается классикой американской литературы.", "highlight": ["is considered"] },
+        { "en": "Gone with the Wind is known all over the world.", "ru": "«Унесённые ветром» известна во всём мире.", "highlight": ["is known"] },
+        { "en": "Margaret Mitchell is remembered for only one novel.", "ru": "Маргарет Митчелл помнят только по одному роману.", "highlight": ["is remembered"] }
+      ]
+    },
+    {
+      "group": "Past Simple Passive — книга была издана",
+      "items": [
+        { "en": "The book was published in 1936.", "ru": "Книга была издана в 1936 году.", "highlight": ["was published"] },
+        { "en": "The manuscript was hidden in a cupboard for 10 years.", "ru": "Рукопись была спрятана в шкафу в течение 10 лет.", "highlight": ["was hidden"] },
+        { "en": "The film was made in 1939.", "ru": "Фильм был снят в 1939 году.", "highlight": ["was made"] }
+      ]
+    },
+    {
+      "group": "Future Simple Passive — фильм будет снят",
+      "items": [
+        { "en": "The film will be made in 1939.", "ru": "Фильм будет снят в 1939 году.", "highlight": ["will be made"] },
+        { "en": "The book will never be forgotten.", "ru": "Книга никогда не будет забыта.", "highlight": ["will never be forgotten"] },
+        { "en": "A new edition will be published next year.", "ru": "Новое издание будет опубликовано в следующем году.", "highlight": ["will be published"] }
+      ]
+    },
+    {
+      "group": "Present Perfect Passive — книга была прочитана",
+      "items": [
+        { "en": "The book has been read by millions of people.", "ru": "Книга была прочитана миллионами людей.", "highlight": ["has been read"] },
+        { "en": "The novel has been translated into many languages.", "ru": "Роман был переведён на многие языки.", "highlight": ["has been translated"] },
+        { "en": "Several films have been made based on the book.", "ru": "По книге было снято несколько фильмов.", "highlight": ["have been made"] }
+      ]
+    },
+    {
+      "group": "Past Perfect Passive — рукопись была спрятана",
+      "items": [
+        { "en": "The manuscript had been hidden for 10 years.", "ru": "Рукопись была спрятана в течение 10 лет.", "highlight": ["had been hidden"] },
+        { "en": "The book had been written before it was published.", "ru": "Книга была написана до того, как была издана.", "highlight": ["had been written"] },
+        { "en": "The film had been completed before the war started.", "ru": "Фильм был завершён до начала войны.", "highlight": ["had been completed"] }
+      ]
+    },
+    {
+      "group": "Безличный пассив — говорят, что...",
+      "items": [
+        { "en": "It is said that she wrote only one book.", "ru": "Говорят, что она написала только одну книгу.", "highlight": ["It is said"] },
+        { "en": "She is said to have written only one book.", "ru": "Говорят, что она написала только одну книгу.", "highlight": ["is said to have written"] },
+        { "en": "It is believed that the book was inspired by her life.", "ru": "Считается, что книга была вдохновлена её жизнью.", "highlight": ["It is believed"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "The book was wrote in 1936.", "right": "The book was written in 1936.", "note": "write → wrote (Past Simple) → written (V3). В пассиве нужна V3." },
+    { "wrong": "The book is consider a classic.", "right": "The book is considered a classic.", "note": "consider → considered (V3)." },
+    { "wrong": "The film will made in 1939.", "right": "The film will be made in 1939.", "note": "will be + V3." },
+    { "wrong": "The book has been read by millions.", "right": "The book has been read by millions.", "note": "has been read — правильно!" },
+    { "wrong": "The manuscript had been hide.", "right": "The manuscript had been hidden.", "note": "hide → hidden (V3)." },
+    { "wrong": "The film is being show now.", "right": "The film is being shown now.", "note": "show → shown (V3)." }
+  ],
+  "compare": {
+    "title": "Active vs Passive (все времена)",
+    "leftLabel": "Active Voice",
+    "rightLabel": "Passive Voice",
+    "rows": [
+      { "left": "She wrote the book. (Past Simple)", "right": "The book was written. (Past Simple Passive)" },
+      { "left": "She has written the book. (Present Perfect)", "right": "The book has been written. (Present Perfect Passive)" },
+      { "left": "She will write the book. (Future Simple)", "right": "The book will be written. (Future Simple Passive)" },
+      { "left": "She had written the book. (Past Perfect)", "right": "The book had been written. (Past Perfect Passive)" },
+      { "left": "She is writing the book. (Present Continuous)", "right": "The book is being written. (Present Continuous Passive)" }
+    ]
   },
-  {
-   "group": "get-пассив (случилось с кем-то)",
-   "items": [
-    { "en": "He got fired last week.", "ru": "Его уволили на прошлой неделе.", "highlight": ["got fired"] },
-    { "en": "They're getting married in June.", "ru": "Они женятся в июне.", "highlight": ["getting married"] },
-    { "en": "I got lost in the old town.", "ru": "Я заблудился в старом городе.", "highlight": ["got lost"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "The house is build right now.", "right": "The house is being built right now.", "note": "Continuous пассив = is being + V3." },
-  { "wrong": "It is saying that he is rich.", "right": "It is said that he is rich.", "note": "Безличный пассив — is said (V3), не is saying." },
-  { "wrong": "The documents have been sign.", "right": "The documents have been signed.", "note": "После been — V3 (signed)." },
-  { "wrong": "He is said being rich.", "right": "He is said to be rich.", "note": "Подлежащее + is said + to + V." },
-  { "wrong": "The bridge will being built.", "right": "The bridge will be built. / is being built.", "note": "Future = will be + V3; Continuous = is being + V3." }
- ],
- "compare": {
-  "title": "пассив по временам (build)",
-  "leftLabel": "время",
-  "rightLabel": "форма пассива",
-  "rows": [
-   { "left": "Present Simple", "right": "is/are built" },
-   { "left": "Present Continuous", "right": "is/are being built" },
-   { "left": "Present Perfect", "right": "has/have been built" },
-   { "left": "Past Simple", "right": "was/were built" },
-   { "left": "Future Simple", "right": "will be built" }
+  "tips": [
+    "to be + V3 — формула пассива для всех времён.",
+    "Время показывает to be: is, was, has been, will be, etc.",
+    "Present Simple Passive: am/is/are + V3.",
+    "Past Simple Passive: was/were + V3.",
+    "Future Simple Passive: will be + V3.",
+    "Present Perfect Passive: have/has been + V3.",
+    "Безличный пассив: It is said that... / She is said to have written..."
+  ],
+  "related": ["b1-passive-voice-simple", "b2-past-perfect", "b2-present-perfect"],
+  "quiz": [
+    {
+      "q": "The book ___ in 1936.",
+      "options": ["was published", "were published", "is published", "has been published"],
+      "answer": 0,
+      "why": "Past Simple Passive: was + V3."
+    },
+    {
+      "q": "The book ___ a classic today.",
+      "options": ["is considered", "was considered", "has been considered", "will be considered"],
+      "answer": 0,
+      "why": "Present Simple Passive: is + V3."
+    },
+    {
+      "q": "The film ___ in 1939.",
+      "options": ["was made", "were made", "is made", "has been made"],
+      "answer": 0,
+      "why": "Past Simple Passive: was + V3."
+    },
+    {
+      "q": "The book ___ by millions.",
+      "options": ["has been read", "was read", "is read", "will be read"],
+      "answer": 0,
+      "why": "Present Perfect Passive: has been + V3."
+    },
+    {
+      "q": "It ___ that she wrote only one book.",
+      "options": ["is said", "was said", "has been said", "will be said"],
+      "answer": 0,
+      "why": "Безличный пассив: It is said that..."
+    },
+    {
+      "q": "The manuscript ___ for 10 years.",
+      "options": ["had been hidden", "was hidden", "has been hidden", "is hidden"],
+      "answer": 0,
+      "why": "Past Perfect Passive: had been + V3."
+    }
   ]
- },
- "tips": [
-  "Один скелет — be + V3. Время живёт только в be, V3 — константа: is/was/will be/has been/is being + одна и та же форма V3. Выучи каркас один раз — и все времена пассива приложатся сами, нужно только двигать be.",
-  "Два кирпичика расширения: being = процесс (Continuous), been = результат (Perfect). Видишь being — действие в развитии (is being built); видишь been — готово к моменту (has been built). Не путай их.",
-  "Безличный пассив — трюк для эссе, новостей и формальной речи: It is said / believed / reported / known / expected that… = People say that…. Убирает «люди говорят» и звучит по‑английски. Второй вариант — He is said to be rich — ещё элегантнее.",
-  "get‑пассив для живой речи про «случилось с кем‑то»: get married, get fired, get lost, get paid, get arrested, get hurt, get elected. Неформальнее be‑пассива, идеален для личных и неожиданных событий. В формальном письме держи be‑пассив.",
-  "by добавляй только если деятель реально важен: Hamlet was written by Shakespeare. В безличных и «случилось»‑конструкциях деятель опускают — и это норма, не ошибка.",
-  "«have something done» — каузативный пассив, задел на будущее: I had my hair cut (мне подстригли волосы — кто‑то сделал для меня), I'm getting my car repaired. Отличается от обычного пассива тем, что действие делает кто‑то другой по твоей инициативе.",
-  "Топ V3 для пассива зубри пачками: built, written, made, taken, sent, told, given, done, seen, broken, sold, spoken, grown, signed, announced, reported. Они покрывают большинство живых примеров — правильные (repaired, collected, finished) образуются через -ed."
- ],
- "related": ["b1-passive-voice-simple", "b1-present-perfect", "b2-past-perfect", "b1-present-perfect-continuous"],
- "quiz": [
-  {
-    "q": "The house ___ right now.",
-    "options": [
-            "is being built",
-            "is build",
-            "is built",
-            "builds"
-          ],
-    "answer": 0,
-    "why": "Пассив в Present Continuous — is/are + being + V3: is being built. is build и is built не передают процесс прямо сейчас."
-  },
-  {
-    "q": "It ___ that he is very rich.",
-    "options": [
-            "is saying",
-            "says",
-            "is said",
-            "said"
-          ],
-    "answer": 2,
-    "why": "Безличный пассив — It is said that… (= говорят, что). is saying было бы активом в Continuous, а «оно» не «говорит»."
-  },
-  {
-    "q": "The documents ___ yet.",
-    "options": [
-            "have been sign",
-            "have been signed",
-            "have signed",
-            "been signed"
-          ],
-    "answer": 1,
-    "why": "Пассив в Present Perfect — have/has + been + V3: have been signed. V3 от sign — signed, не sign."
-  },
-  {
-    "q": "English ___ in many countries.",
-    "options": [
-            "speaks",
-            "is speak",
-            "spoken",
-            "is spoken"
-          ],
-    "answer": 3,
-    "why": "Пассив в Present Simple — is/are + V3: is spoken. speaks — актив (язык не «говорит» сам)."
-  },
-  {
-    "q": "The bridge ___ in 1890.",
-    "options": [
-            "was built",
-            "built",
-            "was build",
-            "has built"
-          ],
-    "answer": 0,
-    "why": "Пассив в Past Simple — was/were + V3: was built. built без was и was build (не V3) — ошибки."
-  },
-  {
-    "q": "The new policy ___ next month.",
-    "options": [
-            "will announce",
-            "is announced",
-            "will be announced",
-            "announces"
-          ],
-    "answer": 2,
-    "why": "Пассив в будущем — will be + V3: will be announced. will announce — актив, а политику не «объявляют себя»."
-  }
-]
 }

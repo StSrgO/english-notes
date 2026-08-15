@@ -1,0 +1,194 @@
+{
+  "variant": "rocknroll",
+  "slug": "b2-past-perfect",
+  "level": "B2",
+  "title": "Past Perfect",
+  "category": "Tenses",
+  "readingTime": 11,
+  "summary": "Past Perfect — действие, которое произошло до другого действия в прошлом. История о том, как The Clash записали «London Calling» после трудного периода.",
+  "idea": [
+    "Лондон, 1979 год. The Clash готовятся к записи нового альбома. Но до этого они пережили много трудностей. Их менеджер уволился. У них не было денег. Они были на грани распада. Но они решили записать «London Calling».",
+    "К тому времени, как альбом был выпущен, группа уже стала легендой. Но они не знали, что этот альбом изменит их жизнь навсегда. До того как они записали альбом, они уже играли сотни концертов. После того как они выпустили альбом, они отправились в тур. И мир узнал о них.",
+    "Past Perfect — это время, которое показывает, что одно действие произошло до другого действия в прошлом. Формула: had + V3. Before they released the album, they had experienced many difficulties. After they had recorded the album, they went on tour. By the time they released the album, they had already become legends."
+  ],
+  "why": [
+    "Показывать, что одно действие произошло раньше другого в прошлом.",
+    "Создавать последовательность событий в рассказах.",
+    "Выражать опыт до определённого момента в прошлом.",
+    "Использовать с before, after, already, never, by the time."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Joe Strummer: 'Before we released the album, we had experienced many difficulties. We had never expected such success. After we had released it, everything changed.'",
+        "ru": "Джо Страммер: «До того как мы выпустили альбом, мы пережили много трудностей. Мы никогда не ожидали такого успеха. После того как мы выпустили его, всё изменилось»." },
+      { "en": "Manager: 'By the time you released London Calling, you had already become legends. But you didn't know it yet.'",
+        "ru": "Менеджер: «К тому времени, как вы выпустили London Calling, вы уже стали легендами. Но вы ещё не знали этого»." }
+    ],
+    "note": "Past Perfect: had experienced (пережили), had never expected (никогда не ожидали), had already become (уже стали)."
+  },
+  "russianAngle": [
+    "В русском языке мы используем прошедшее время для обоих действий: «выпустили альбом, стали легендами». В английском — Past Perfect для более раннего действия.",
+    "Past Perfect = had + V3.",
+    "Before + Past Simple, Past Perfect.",
+    "After + Past Perfect, Past Simple."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: Past Perfect = действие до другого действия в прошлом.",
+      "Формула: had + V3.",
+      "before + Past Simple, Past Perfect.",
+      "after + Past Perfect, Past Simple.",
+      "already + Past Perfect.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Раскрой скобки, используя Past Perfect или Past Simple:",
+      "items": [
+        { "q": "Before they ___ (release) the album, they ___ (experience) many difficulties.", "a": "released, had experienced" },
+        { "q": "After they ___ (record) the album, they ___ (go) on tour.", "a": "had recorded, went" },
+        { "q": "By the time they ___ (release) the album, they ___ (already / become) legends.", "a": "released, had already become" },
+        { "q": "They ___ (never / expect) such success.", "a": "had never expected" },
+        { "q": "When they ___ (become) famous, they ___ (already / play) hundreds of shows.", "a": "became, had already played" }
+      ]
+    }
+  },
+  "formula": "had + V3",
+  "structure": {
+    "positive": "They had experienced many difficulties.",
+    "negative": "They hadn't experienced many difficulties.",
+    "question": "Had they experienced many difficulties?"
+  },
+  "markers": ["before", "after", "already", "never", "by the time", "when"],
+  "uses": [
+    "Действие до другого действия в прошлом: Before they released the album, they had experienced many difficulties.",
+    "После того как: After they had recorded the album, they went on tour.",
+    "Уже к определённому моменту: By the time they released the album, they had already become legends.",
+    "Никогда до того: They had never expected such success."
+  ],
+  "rules": [
+    { "title": "Формула",
+      "text": "had + V3 (третья форма глагола)." },
+    { "title": "before",
+      "text": "Перед before: Past Simple. После before: Past Perfect. Before they released the album, they had experienced many difficulties." },
+    { "title": "after",
+      "text": "После after: Past Perfect. Затем Past Simple. After they had recorded the album, they went on tour." },
+    { "title": "already / never / by the time",
+      "text": "already, never, by the time часто используются с Past Perfect. By the time they released the album, they had already become legends." }
+  ],
+  "examples": [
+    {
+      "group": "before — действие до другого действия",
+      "items": [
+        { "en": "Before they released the album, they had experienced many difficulties.", "ru": "До того как они выпустили альбом, они пережили много трудностей.", "highlight": ["released", "had experienced"] },
+        { "en": "Before they became famous, they had played in small clubs.", "ru": "До того как они стали знаменитыми, они играли в маленьких клубах.", "highlight": ["became", "had played"] },
+        { "en": "Before they recorded London Calling, they had almost broken up.", "ru": "До того как они записали London Calling, они почти распались.", "highlight": ["recorded", "had almost broken"] }
+      ]
+    },
+    {
+      "group": "after — действие после другого действия",
+      "items": [
+        { "en": "After they had recorded the album, they went on tour.", "ru": "После того как они записали альбом, они отправились в тур.", "highlight": ["had recorded", "went"] },
+        { "en": "After they had released the album, everything changed.", "ru": "После того как они выпустили альбом, всё изменилось.", "highlight": ["had released", "changed"] },
+        { "en": "After they had become legends, they still played small venues.", "ru": "После того как они стали легендами, они всё ещё играли на маленьких площадках.", "highlight": ["had become", "played"] }
+      ]
+    },
+    {
+      "group": "already — уже к определённому моменту",
+      "items": [
+        { "en": "By the time they released the album, they had already become legends.", "ru": "К тому времени, как они выпустили альбом, они уже стали легендами.", "highlight": ["had already become"] },
+        { "en": "By the time they were 25, they had already played hundreds of shows.", "ru": "К 25 годам они уже сыграли сотни концертов.", "highlight": ["had already played"] },
+        { "en": "By the time they recorded London Calling, they had already written dozens of songs.", "ru": "К тому времени, как они записали London Calling, они уже написали десятки песен.", "highlight": ["had already written"] }
+      ]
+    },
+    {
+      "group": "never — никогда до того",
+      "items": [
+        { "en": "They had never expected such success.", "ru": "Они никогда не ожидали такого успеха.", "highlight": ["had never expected"] },
+        { "en": "They had never played in such a big venue before.", "ru": "Они никогда раньше не играли на такой большой площадке.", "highlight": ["had never played"] },
+        { "en": "They had never experienced such pressure before.", "ru": "Они никогда раньше не испытывали такого давления.", "highlight": ["had never experienced"] }
+      ]
+    },
+    {
+      "group": "when — когда случилось другое действие",
+      "items": [
+        { "en": "When they became famous, they had already played hundreds of shows.", "ru": "Когда они стали знаменитыми, они уже сыграли сотни концертов.", "highlight": ["became", "had already played"] },
+        { "en": "When they released the album, they had already been together for years.", "ru": "Когда они выпустили альбом, они уже были вместе несколько лет.", "highlight": ["released", "had already been"] },
+        { "en": "When they went on tour, they had already recorded the album.", "ru": "Когда они отправились в тур, они уже записали альбом.", "highlight": ["went", "had already recorded"] }
+      ]
+    },
+    {
+      "group": "by the time — к тому времени, как",
+      "items": [
+        { "en": "By the time they released London Calling, they had already become legends.", "ru": "К тому времени, как они выпустили London Calling, они уже стали легендами.", "highlight": ["had already become"] },
+        { "en": "By the time they broke up, they had sold millions of records.", "ru": "К тому времени, как они распались, они продали миллионы пластинок.", "highlight": ["had sold"] },
+        { "en": "By the time they went on tour, they had already finished the album.", "ru": "К тому времени, как они отправились в тур, они уже закончили альбом.", "highlight": ["had already finished"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Before they released the album, they experienced many difficulties.", "right": "Before they released the album, they had experienced many difficulties.", "note": "До того как они выпустили альбом, они уже пережили трудности — Past Perfect." },
+    { "wrong": "After they had recorded the album, they had gone on tour.", "right": "After they had recorded the album, they went on tour.", "note": "После того как записали — Past Perfect, затем тур — Past Simple." },
+    { "wrong": "By the time they released the album, they already became legends.", "right": "By the time they released the album, they had already become legends.", "note": "К тому времени они уже стали легендами — Past Perfect + already." },
+    { "wrong": "They never expected such success.", "right": "They had never expected such success.", "note": "Они никогда не ожидали (до этого) — Past Perfect." },
+    { "wrong": "When they became famous, they played hundreds of shows.", "right": "When they became famous, they had already played hundreds of shows.", "note": "К тому времени, как они стали знаменитыми, они уже сыграли сотни концертов." },
+    { "wrong": "After they released the album, they went on tour.", "right": "After they had released the album, they went on tour.", "note": "После того как выпустили — Past Perfect сначала." }
+  ],
+  "compare": {
+    "title": "Past Simple vs Past Perfect",
+    "leftLabel": "Past Simple (действие в прошлом)",
+    "rightLabel": "Past Perfect (действие до другого)",
+    "rows": [
+      { "left": "They released the album. (факт)", "right": "They had released the album before they went on tour." },
+      { "left": "They went on tour. (факт)", "right": "They went on tour after they had released the album." },
+      { "left": "They became legends. (факт)", "right": "They had become legends by the time they released the album." }
+    ]
+  },
+  "tips": [
+    "had + V3 = Past Perfect.",
+    "before + Past Simple, Past Perfect.",
+    "after + Past Perfect, Past Simple.",
+    "already + Past Perfect.",
+    "never + Past Perfect.",
+    "by the time + Past Simple, Past Perfect.",
+    "Всегда спрашивай: какое действие случилось первым? Оно в Past Perfect."
+  ],
+  "related": ["b1-past-simple", "b2-past-perfect-continuous", "b2-present-perfect"],
+  "quiz": [
+    {
+      "q": "Before they ___ the album, they ___ many difficulties.",
+      "options": ["released, had experienced", "had released, experienced", "released, experienced", "had released, had experienced"],
+      "answer": 0,
+      "why": "before + Past Simple, Past Perfect."
+    },
+    {
+      "q": "After they ___ the album, they ___ on tour.",
+      "options": ["had recorded, went", "recorded, had gone", "had recorded, had gone", "recorded, went"],
+      "answer": 0,
+      "why": "after + Past Perfect, Past Simple."
+    },
+    {
+      "q": "By the time they ___ the album, they ___ already ___ legends.",
+      "options": ["released, had, become", "had released, had, become", "released, have, become", "had released, have, become"],
+      "answer": 0,
+      "why": "by the time + Past Simple, уже + Past Perfect."
+    },
+    {
+      "q": "They ___ never ___ such success.",
+      "options": ["had, expected", "have, expected", "had, expect", "have, expect"],
+      "answer": 0,
+      "why": "never + Past Perfect."
+    },
+    {
+      "q": "When they ___ famous, they ___ already ___ hundreds of shows.",
+      "options": ["became, had, played", "had become, had, played", "became, have, played", "had become, have, played"],
+      "answer": 0,
+      "why": "when + Past Simple, уже + Past Perfect."
+    },
+    {
+      "q": "By the time they ___ London Calling, they ___ already ___ legends.",
+      "options": ["released, had, become", "had released, had, become", "released, have, become", "had released, have, become"],
+      "answer": 0,
+      "why": "by the time + Past Simple, уже + Past Perfect."
+    }
+  ]
+}

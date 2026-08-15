@@ -1,204 +1,203 @@
 {
- "slug": "b2-relative-clauses",
- "title": "Relative Clauses (defining / non-defining)",
- "level": "B2",
- "category": "Other",
- "readingTime": 12,
- "summary": "Придаточные определительные описывают существительное. Defining — без запятых, необходимо для смысла, можно that. Non-defining — с запятыми, бонус-инфо, that нельзя. who / which / that / whose / where / when.",
- "idea": [
-  "«Женщина, которая живёт по соседству, — врач. Мой брат, который живёт в Париже, приезжает на выходные. Город, где я родился, сильно изменился». Все эти «который / которая / чей / где / когда» по‑английски строятся придаточными определительными — relative clauses, — и это один из главных инструментов, который делает речь связной и взрослой: вместо коротких рубленых фраз ты нанизываешь описания на существительные. Но в английском, в отличие от русского, есть принципиальное разделение на два типа таких придаточных, и запятая между ними меняет СМЫСЛ. Первый тип — defining, «опознавательное» придаточное: оно необходимо, чтобы понять, о ком или о чём вообще речь, и без него предложение ломается. The woman who lives next door is a doctor — какая именно женщина? та, что живёт по соседству; убери придаточное, и останется «женщина — врач», непонятно какая. Второй тип — non‑defining, «бонусное» придаточное: оно добавляет дополнительную информацию о предмете, который и так уже опознан, и его можно убрать без потери основного смысла. My brother, who lives in Paris, is visiting — брат и так один, мой; «который живёт в Париже» — просто бонус‑факт.",
-  "Это разделение видно в трёх вещах: запятых, слове that и возможности опустить союз. Defining — без запятых, можно использовать that вместо who/which, и союз можно опустить, если он не подлежащее (the man (who) I saw — «кого я видел», who можно выбросить). Non‑defining — всегда в запятых, that использовать НЕЛЬЗЯ (только who/which), и опускать союз нельзя. Вот здесь и прячется главная ошибка: студент пишет My brother, that lives in Paris — а в non‑defining that запрещено, только who. Или ставит запятые там, где они меняют смысл. Классический пример: The students who passed got a prize (студенты, которые сдали, получили приз — только сдавшие, defining, без запятых) против The students, who had studied hard, passed (студенты — а их, например, вся группа — которые хорошо учились, сдали — все студенты, non‑defining, с запятыми). Одна запятая — и речь уже про разных людей.",
-  "Теперь слова‑союзы, которые нужно знать как таблицу. who — для людей (the woman who lives here); which — для вещей и животных (the book which I read); that — для обоих, но только в defining (the man that called / the book that I bought); whose — «чей», принадлежность, для людей и вещей (the girl whose bike was stolen); where — место (the town where I was born); when — время (the day when we met); whom — объект для людей, формально (the man whom I met). Для русскоговорящих главная боль двойная. Первая — запятые: по‑русски перед «который» запятая ставится почти всегда, и мозг автоматически лепит запятые в английском, превращая defining в non‑defining и меняя смысл. Вторая — «чей»: по‑русски «чей/чья/чьё» склоняется естественно, а по‑английски это застывшее whose для всех родов и чисел (the man whose car, the woman whose bag, the people whose house). И ещё одна тонкость — предлоги в формальном стиле уезжают перед whom/which: the man to whom I spoke (вместо разговорного the man who I spoke to). Если унести одну мысль: defining = опознаватель, без запятых, можно that, можно опустить союз‑объект; non‑defining = бонус, с запятыми, that нельзя, опускать нельзя; who — люди, which — вещи, that — оба (только defining), whose — чей, where — место, when — время."
- ],
- "why": [
-  "Описывать людей и предметы связно: The woman who lives next door is a doctor.",
-  "Добавлять бонус-информацию: My brother, who lives in Paris, is visiting.",
-  "Показывать принадлежность через whose: the girl whose bike was stolen.",
-  "Говорить о местах и моментах: the town where I was born, the day when we met."
- ],
- "context": {
-  "lines": [
-   { "en": "Do you know the woman who lives next door?", "ru": "Ты знаешь женщину, которая живёт по соседству?" },
-   { "en": "The one whose dog barks all night? Yes — she's a doctor, actually.", "ru": "Ту, чья собака лает всю ночь? Да — она, кстати, врач." },
-   { "en": "Really? My sister, who's also a doctor, says the hours are terrible.", "ru": "Правда? Моя сестра, которая тоже врач, говорит, что график ужасный." },
-   { "en": "I remember the day when we first moved here. The street where we lived was so quiet.", "ru": "Помню день, когда мы сюда переехали. Улица, где мы жили, была такой тихой." },
-   { "en": "And the café that was on the corner — the one which sold amazing cakes — is gone now.", "ru": "А кафе, которое было на углу, — то, что продавало потрясающие пирожные, — теперь закрылось." }
+  "variant": "classic",
+  "slug": "b2-relative-clauses",
+  "level": "B2",
+  "title": "Relative Clauses",
+  "category": "Other",
+  "readingTime": 11,
+  "summary": "Relative Clauses — придаточные определительные. Связываем предложения с помощью who, which, that, whose, where, when. История о Харпер Ли и её единственном романе.",
+  "idea": [
+    "Харпер Ли написала «Убить пересмешника» в 1960 году. Это книга, которая стала классикой американской литературы. Главный герой — Аттикус Финч, адвокат, который защищает невиновного чернокожего мужчину. Книга написана от лица его дочери Джин Луизы, которой было 6 лет. История происходит в городе Мейкомб, где живут герои.",
+    "Харпер Ли была частным человеком, который не любил давать интервью. Она никогда не ожидала успеха, который пришёл к ней. Второй роман «Пойди, поставь сторожа» был опубликован в 2015 году, когда ей было 89 лет. Это был роман, который она написала до «Убить пересмешника», но который не публиковала.",
+    "Relative Clauses — это придаточные определительные предложения. Они связывают два предложения с помощью относительных местоимений. who — для людей, which — для вещей, that — для людей и вещей (определяющие), whose — для принадлежности, where — для мест, when — для времени."
   ],
-  "note": "the woman who lives next door / the day when we moved / the street where we lived / the café that was on the corner — defining (опознаватели, без запятых, можно that); my sister, who's also a doctor / the one, which sold amazing cakes — non-defining (бонус-инфо, с запятыми, that нельзя); whose dog — принадлежность. Оба типа в одном ностальгическом разговоре."
- },
- "russianAngle": [
-  " «Который/которая/которые» — одно слово. who (люди), which (вещи), that (оба, только defining). «Женщина, которая...» = the woman who…; «книга, которую...» = the book which/that…",
-  " Перед «который» запятая почти всегда. В английском запятые = non-defining (бонус), без запятых = defining (опознаватель). Запятая МЕНЯЕТ смысл — не лепи её автоматически.",
-  " «Чей/чья/чьё» склоняется. whose — застывшее для всех: the man whose car, the woman whose bag, the people whose house.",
-  " «Город, где я родился» / «день, когда мы встретились». the town where I was born / the day when we met — where для места, when для времени."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: defining = опознаватель (нужно для смысла), non-defining = бонус (можно убрать).",
-   "Выучи тест «убери придаточное»: смысл сломался → defining (без запятых, можно that); остался → non-defining (запятые, that нельзя).",
-   "Запомни союзы: who — люди, which — вещи, that — оба (только defining), whose — чей, where — место, when — время.",
-   "Помни: в defining союз-объект можно опустить (the man I saw); в non-defining — нельзя.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Связывать предложения: The book, which was published in 1960, became a classic.",
+    "Определять людей и вещи: Atticus Finch, who is a lawyer, defends a black man.",
+    "Уточнять информацию: Maycomb, where the story takes place, is a small town.",
+    "Использовать разные местоимения: who, which, that, whose, where, when."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — вставь who / which / that / whose / where / when и реши, нужны ли запятые:",
-   "items": [
-    { "q": "The woman ___ lives next door is a doctor.", "a": "who (или that) — defining, люди, без запятых." },
-    { "q": "My brother, ___ lives in Paris, is visiting.", "a": "who — non-defining (запятые есть), that нельзя." },
-    { "q": "The girl ___ bike was stolen is crying.", "a": "whose — принадлежность («чья»)." },
-    { "q": "I remember the town ___ I was born.", "a": "where — место." },
-    { "q": "The book ___ I read was great.", "a": "that / which (или опустить) — defining, объект, можно без союза." }
-   ]
-  }
- },
- "formula": "who / which / that / whose / where / when + предложение",
- "structure": {
-  "positive": "The book that I read was great. / My car, which is red, is fast.",
-  "negative": "People who don't vote shouldn't complain.",
-  "question": "Do you know the man who called?"
- },
- "markers": ["who", "which", "that", "whose", "where", "when", "whom"],
- "uses": [
-  "Defining (без него не понять, о ком): The man who called you is my boss.",
-  "Non-defining (доп. инфо, можно убрать): My brother, who lives in Paris, is a doctor.",
-  "whose = чей: The girl whose bike was stolen is crying.",
-  "where = место, when = время: The town where I was born. / The day when we met."
- ],
- "rules": [
-  { "title": "Defining — без запятых", "text": "Придаточное необходимо для смысла, без него непонятно о ком/чём. Запятых нет. that можно вместо who/which: The man (who/that) called you is my boss." },
-  { "title": "Non-defining — с запятыми", "text": "Придаточное — бонус-инфо, его можно убрать без потери основного смысла. Выделяется запятыми. that НЕЛЬЗЯ: My brother, who lives in Paris, is a doctor. (не that)" },
-  { "title": "who / which / that / whose", "text": "who — люди, which — вещи, that — оба (только в defining), whose — чей (принадлежность), where — место, when — время, whom — объект (формально)." }
- ],
- "examples": [
-  {
-   "group": "Defining (без запятых, можно that)",
-   "items": [
-    { "en": "The woman who lives next door is a nurse.", "ru": "Женщина, которая живёт по соседству, — медсестра.", "highlight": ["who lives"] },
-    { "en": "The book that I read was great.", "ru": "Книга, которую я прочитал, была отличной.", "highlight": ["that I read"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Lee: 'This is the book that I wrote. It's about a man who defends justice. The town where I grew up inspired the setting.'",
+        "ru": "Ли: «Это книга, которую я написала. Она о человеке, который защищает справедливость. Город, где я выросла, вдохновил место действия»." },
+      { "en": "Editor: 'The book, which was published in 1960, became a classic. The author, who was a private person, never expected the success.'",
+        "ru": "Издатель: «Книга, которая была опубликована в 1960 году, стала классикой. Автор, который был частным человеком, никогда не ожидал успеха»." }
+    ],
+    "note": "who — для людей; which — для вещей; that — для людей и вещей; where — для мест."
   },
-  {
-   "group": "Non-defining (с запятыми, that нельзя)",
-   "items": [
-    { "en": "My laptop, which I bought last year, is already slow.", "ru": "Мой ноутбук, который я купил в прошлом году, уже тормозит.", "highlight": [", which I bought last year,"] },
-    { "en": "Paris, which is the capital of France, is beautiful.", "ru": "Париж, столица Франции, прекрасен.", "highlight": [", which is the capital of France,"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы используем «который» для всего. В английском — разные местоимения.",
+    "who — для людей (кто).",
+    "which — для вещей (который).",
+    "whose — для принадлежности (чей).",
+    "where — для мест (где).",
+    "when — для времени (когда)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: who — для людей.",
+      "which — для вещей, животных, идей.",
+      "that — для людей и вещей (определяющие).",
+      "whose — для принадлежности.",
+      "where — для мест.",
+      "when — для времени.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильное относительное местоимение (who, which, that, whose, where, when):",
+      "items": [
+        { "q": "The book ___ was published in 1960 became a classic.", "a": "which / that" },
+        { "q": "Harper Lee, ___ was a private person, never gave interviews.", "a": "who" },
+        { "q": "Scout, ___ father is a lawyer, tells the story.", "a": "whose" },
+        { "q": "Maycomb, ___ the story takes place, is a small town.", "a": "where" },
+        { "q": "1960, ___ the book was published, was a turning point.", "a": "when" }
+      ]
+    }
   },
-  {
-   "group": "whose = чей",
-   "items": [
-    { "en": "That's the boy whose dog bit me.", "ru": "Это тот мальчик, чья собака меня укусила.", "highlight": ["whose dog"] },
-    { "en": "I met a woman whose husband works here.", "ru": "Я встретил женщину, чей муж здесь работает.", "highlight": ["whose husband"] }
-   ]
+  "formula": "who / which / that / whose / whom / where / when + придаточное предложение",
+  "structure": {
+    "positive": "The book, which was published in 1960, became a classic.",
+    "negative": "The book, which wasn't published in 1960, didn't become a classic.",
+    "question": "What is the book that became a classic?"
   },
-  {
-   "group": "where = место / when = время",
-   "items": [
-    { "en": "I remember the day when we first met.", "ru": "Я помню день, когда мы впервые встретились.", "highlight": ["when we first met"] },
-    { "en": "This is the town where I was born.", "ru": "Это город, где я родился.", "highlight": ["where I was born"] }
-   ]
+  "markers": ["who", "which", "that", "whose", "whom", "where", "when"],
+  "uses": [
+    "who — для людей: Atticus Finch, who is a lawyer, defends a black man.",
+    "which — для вещей: The book, which was published in 1960, became a classic.",
+    "that — для людей и вещей: The book that she wrote is famous.",
+    "whose — для принадлежности: Scout, whose father is a lawyer, tells the story.",
+    "where — для мест: Maycomb, where the story takes place, is a small town.",
+    "when — для времени: 1960, when the book was published, was a turning point."
+  ],
+  "rules": [
+    { "title": "who — для людей",
+      "text": "Используется для людей. Atticus Finch, who is a lawyer, defends a black man." },
+    { "title": "which — для вещей",
+      "text": "Используется для вещей, животных, идей. The book, which was published in 1960, became a classic." },
+    { "title": "that — для людей и вещей",
+      "text": "Используется в определяющих придаточных (без запятых). The book that she wrote is famous." },
+    { "title": "whose — для принадлежности",
+      "text": "Используется для принадлежности (чей/чья/чьё). Scout, whose father is a lawyer, tells the story." },
+    { "title": "where — для мест",
+      "text": "Используется для мест. Maycomb, where the story takes place, is a small town." },
+    { "title": "when — для времени",
+      "text": "Используется для времени. 1960, when the book was published, was a turning point." }
+  ],
+  "examples": [
+    {
+      "group": "who — для людей",
+      "items": [
+        { "en": "Harper Lee, who was a private person, never gave interviews.", "ru": "Харпер Ли, которая была частным человеком, никогда не давала интервью.", "highlight": ["who"] },
+        { "en": "Atticus Finch, who is a lawyer, defends a black man.", "ru": "Аттикус Финч, который является адвокатом, защищает чернокожего мужчину.", "highlight": ["who"] },
+        { "en": "The man, who was innocent, was wrongly accused.", "ru": "Мужчина, который был невиновен, был ложно обвинён.", "highlight": ["who"] }
+      ]
+    },
+    {
+      "group": "which — для вещей",
+      "items": [
+        { "en": "The book, which was published in 1960, became a classic.", "ru": "Книга, которая была опубликована в 1960 году, стала классикой.", "highlight": ["which"] },
+        { "en": "The novel, which is about racism, is still relevant today.", "ru": "Роман, который о расизме, до сих пор актуален.", "highlight": ["which"] },
+        { "en": "The film, which was made in 1962, won three Oscars.", "ru": "Фильм, который был снят в 1962 году, получил три «Оскара».", "highlight": ["which"] }
+      ]
+    },
+    {
+      "group": "that — для людей и вещей (определяющие)",
+      "items": [
+        { "en": "The book that she wrote is famous.", "ru": "Книга, которую она написала, известна.", "highlight": ["that"] },
+        { "en": "The author that wrote this book is Harper Lee.", "ru": "Автор, который написал эту книгу, — Харпер Ли.", "highlight": ["that"] },
+        { "en": "The story that she told is based on her childhood.", "ru": "История, которую она рассказала, основана на её детстве.", "highlight": ["that"] }
+      ]
+    },
+    {
+      "group": "whose — для принадлежности",
+      "items": [
+        { "en": "Scout, whose father is a lawyer, tells the story.", "ru": "Скаут, чей отец является адвокатом, рассказывает историю.", "highlight": ["whose"] },
+        { "en": "The author, whose book became a classic, was surprised.", "ru": "Автор, чья книга стала классикой, был удивлён.", "highlight": ["whose"] },
+        { "en": "The man, whose life was changed by the trial, was innocent.", "ru": "Мужчина, чья жизнь была изменена судом, был невиновен.", "highlight": ["whose"] }
+      ]
+    },
+    {
+      "group": "where — для мест",
+      "items": [
+        { "en": "Maycomb, where the story takes place, is a small town.", "ru": "Мейкомб, где происходит история, — маленький город.", "highlight": ["where"] },
+        { "en": "The courthouse, where the trial took place, is a historic building.", "ru": "Здание суда, где проходил суд, — историческое здание.", "highlight": ["where"] },
+        { "en": "The town, where Lee grew up, inspired the setting.", "ru": "Город, где выросла Ли, вдохновил место действия.", "highlight": ["where"] }
+      ]
+    },
+    {
+      "group": "when — для времени",
+      "items": [
+        { "en": "1960, when the book was published, was a turning point.", "ru": "1960 год, когда книга была опубликована, стал поворотным моментом.", "highlight": ["when"] },
+        { "en": "The year, when Lee became famous, was 1960.", "ru": "Год, когда Ли стала знаменитой, был 1960.", "highlight": ["when"] },
+        { "en": "The time, when the book was written, was a period of change.", "ru": "Время, когда книга была написана, было периодом перемен.", "highlight": ["when"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Harper Lee, which was a private person, never gave interviews.", "right": "Harper Lee, who was a private person, never gave interviews.", "note": "who — для людей." },
+    { "wrong": "The book, who was published in 1960, became a classic.", "right": "The book, which was published in 1960, became a classic.", "note": "which — для вещей." },
+    { "wrong": "The book that she wrote is famous. (правильно)", "right": "The book that she wrote is famous.", "note": "that — правильно для определяющих придаточных." },
+    { "wrong": "Scout, his father is a lawyer, tells the story.", "right": "Scout, whose father is a lawyer, tells the story.", "note": "whose — для принадлежности." },
+    { "wrong": "Maycomb, which the story takes place, is a small town.", "right": "Maycomb, where the story takes place, is a small town.", "note": "where — для мест." },
+    { "wrong": "1960, which the book was published, was a turning point.", "right": "1960, when the book was published, was a turning point.", "note": "when — для времени." }
+  ],
+  "compare": {
+    "title": "Defining vs Non-defining Relative Clauses",
+    "leftLabel": "Defining (определяющие)",
+    "rightLabel": "Non-defining (неопределяющие)",
+    "rows": [
+      { "left": "The book that she wrote is famous. (важно, какая)", "right": "The book, which she wrote, is famous. (дополнительно)" },
+      { "left": "The author who wrote this book is Harper Lee.", "right": "Harper Lee, who wrote this book, is famous." },
+      { "left": "No commas. That можно использовать.", "right": "Commas. That НЕ используется." }
+    ]
   },
-  {
-   "group": "Опускание союза-объекта (defining)",
-   "items": [
-    { "en": "The man (who) I saw was tall.", "ru": "Мужчина, которого я видел, был высоким.", "highlight": ["(who) I saw"] },
-    { "en": "Is this the book (that) you wanted?", "ru": "Это та книга, которую ты хотел?", "highlight": ["(that) you wanted"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "My brother, that lives in Paris, is a doctor.", "right": "My brother, who lives in Paris, is a doctor.", "note": "В non-defining that нельзя — только who/which." },
-  { "wrong": "The man which called you is here.", "right": "The man who called you is here.", "note": "who для людей, which для вещей." },
-  { "wrong": "The students, who passed, got a prize. (= только сдавшие)", "right": "The students who passed got a prize.", "note": "Defining (только сдавшие) — без запятых; запятые меняют смысл на «все студенты»." },
-  { "wrong": "The girl who's bike was stolen.", "right": "The girl whose bike was stolen.", "note": "«Чья» = whose, не who's (= who is)." },
-  { "wrong": "The city where I live in is big.", "right": "The city where I live is big.", "note": "После where предлог in лишний (where уже включает «в котором»)." }
- ],
- "compare": {
-  "title": "defining vs non-defining",
-  "leftLabel": "defining (essential)",
-  "rightLabel": "non-defining (extra info)",
-  "rows": [
-   { "left": "The students who passed got a prize.", "right": "The students, who had studied hard, passed." },
-   { "left": "без запятых, that можно", "right": "с запятыми, that нельзя" },
-   { "left": "уберёшь — смысл сломается", "right": "уберёшь — смысл останется" }
+  "tips": [
+    "who — для людей.",
+    "which — для вещей.",
+    "that — для людей и вещей (определяющие).",
+    "whose — для принадлежности.",
+    "where — для мест.",
+    "when — для времени.",
+    "Определяющие (defining) — без запятых, That можно. Неопределяющие — с запятыми, That нельзя."
+  ],
+  "related": ["b1-relative-clauses", "b2-relative-clauses", "b2-grammar"],
+  "quiz": [
+    {
+      "q": "Harper Lee, ___ was a private person, never gave interviews.",
+      "options": ["who", "which", "that", "whose"],
+      "answer": 0,
+      "why": "who — для людей."
+    },
+    {
+      "q": "The book, ___ was published in 1960, became a classic.",
+      "options": ["who", "which", "that", "whose"],
+      "answer": 1,
+      "why": "which — для вещей."
+    },
+    {
+      "q": "The book ___ she wrote is famous.",
+      "options": ["who", "which", "that", "whose"],
+      "answer": 2,
+      "why": "that — для людей и вещей (определяющие)."
+    },
+    {
+      "q": "Scout, ___ father is a lawyer, tells the story.",
+      "options": ["who", "which", "that", "whose"],
+      "answer": 3,
+      "why": "whose — для принадлежности."
+    },
+    {
+      "q": "Maycomb, ___ the story takes place, is a small town.",
+      "options": ["who", "which", "where", "when"],
+      "answer": 2,
+      "why": "where — для мест."
+    },
+    {
+      "q": "1960, ___ the book was published, was a turning point.",
+      "options": ["who", "which", "where", "when"],
+      "answer": 3,
+      "why": "when — для времени."
+    }
   ]
- },
- "tips": [
-  "Тест «убери придаточное» — главный инструмент: убери придаточное и посмотри на смысл. Сломалось, непонятно о ком → defining (без запятых, можно that). Смысл остался, придаточное было бонусом → non‑defining (запятые, that нельзя). Применяй каждый раз.",
-  "who — люди, which — вещи, that — оба (но только в defining), whose — чей, where — место, when — время. Держи эту шестёрку как таблицу. whom — объект для людей в формальном стиле (the man whom I met), в речи заменяется who или опускается.",
-  "Non‑defining всегда в запятых и никогда с that: My car, which is red, is fast. Запятые + which — неразлучная пара. Ошибка My car, that is red — мгновенно выдаёт.",
-  "Запятая меняет смысл — это не пунктуационная придирка, а семантика. The students who passed (только сдавшие) против The students, who had studied hard, passed (все студенты). По‑русски запятая перед «который» почти обязательна — не переноси эту привычку.",
-  "В defining союз‑объект можно опустить: The man (who) I saw, the book (that) I read, the place (where) we met. Это делает речь естественнее. Но союз‑подлежащее опускать нельзя: The man who called (не The man called — будет другое meaning).",
-  "whose — застывшее «чей» для всех родов и чисел: the man whose car, the woman whose bag, the children whose parents. Не путай с who's (= who is / who has). The girl whose bike — чья; the girl who's here — которая есть.",
-  "Предлоги в формальном стиле уезжают перед whom/which: the man to whom I spoke, the project on which I worked. В разговорной речи предлог остаётся в конце: the man who I spoke to. Оба верны — выбирай по регистру."
- ],
- "related": ["a1-questions", "a1-present-simple", "b1-reported-speech", "b1-gerund-vs-infinitive"],
- "quiz": [
-  {
-    "q": "My brother, ___ lives in Paris, is a doctor.",
-    "options": [
-            "that",
-            "which",
-            "who",
-            "whom"
-          ],
-    "answer": 2,
-    "why": "Non-defining (с запятыми) про человека — who, не that. that в придаточных с запятыми не используется."
-  },
-  {
-    "q": "The man ___ called you is here.",
-    "options": [
-            "who",
-            "which",
-            "what",
-            "whom"
-          ],
-    "answer": 0,
-    "why": "Defining про человека-подлежащее — who: The man who called you. which — для вещей, what сюда не ставится."
-  },
-  {
-    "q": "The students ___ passed the exam got a prize.",
-    "options": [
-            ", who passed",
-            ", that passed",
-            ", which passed",
-            "who passed"
-          ],
-    "answer": 3,
-    "why": "Defining (без запятых) = только сдавшие. Запятая превратила бы в non-defining и поменяла смысл на «все студенты, которые кстати сдали»."
-  },
-  {
-    "q": "The book ___ I bought is great.",
-    "options": [
-            "who",
-            "which",
-            "whom",
-            "whose"
-          ],
-    "answer": 1,
-    "why": "Defining про вещь-объект — which (или that): The book which I bought. who/whom — для людей."
-  },
-  {
-    "q": "That\u0027s the woman ___ son is famous.",
-    "options": [
-            "who",
-            "which",
-            "whose",
-            "whom"
-          ],
-    "answer": 2,
-    "why": "Принадлежность («чей») — whose: the woman whose son. who/which принадлежность не передают."
-  },
-  {
-    "q": "Paris, ___ I was born, is beautiful.",
-    "options": [
-            "where",
-            "which",
-            "that",
-            "when"
-          ],
-    "answer": 0,
-    "why": "Non-defining про место — where: Paris, where I was born. which потребовало бы предлога (in which)."
-  }
-]
 }

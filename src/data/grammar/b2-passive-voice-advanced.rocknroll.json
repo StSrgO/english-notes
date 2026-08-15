@@ -1,0 +1,203 @@
+{
+  "variant": "rocknroll",
+  "slug": "b2-passive-voice-advanced",
+  "level": "B2",
+  "title": "Passive Voice (Advanced)",
+  "category": "Voice",
+  "readingTime": 12,
+  "summary": "Advanced Passive Voice — пассивный залог во всех временах. История о том, как Iron Maiden записали, выпустили и прославили альбом «The Number of the Beast».",
+  "idea": [
+    "Лондон, 1982 год. Iron Maiden записывают альбом, который станет легендой. «The Number of the Beast» был записан в студии в Лондоне. Альбом был выпущен в 1982 году. Песня была написана под влиянием фильма «Омен». Альбом был запрещён в некоторых странах из-за сатанинских обвинений. Но миллионы копий были проданы по всему миру. Альбом был признан одним из величайших метал-альбомов всех времён.",
+    "Группа была сформирована в 1975 году Стивом Харрисом. Вокалист Брюс Дикинсон был приглашён в группу в 1981 году. С тех пор было выпущено множество альбомов. Группа считается легендой хэви-метала. Их музыка будет слушаться ещё долгие годы. История Iron Maiden — это история о том, как музыка была создана, была запрещена, была продана и была обожаема миллионами фанатов.",
+    "Passive Voice (Advanced) — это пассивный залог во всех временах. Формула: to be + V3. Iron Maiden are considered legends. The album was released in 1982. The song was written by Steve Harris. The album has been played live many times. The band had been formed in 1975. A new album is being recorded."
+  ],
+  "why": [
+    "Когда действие важнее исполнителя: The album was released in 1982.",
+    "Когда исполнитель неизвестен или не важен: The song was banned.",
+    "В официальных текстах: Iron Maiden are considered legends.",
+    "Безличные конструкции: It is said that they are the best metal band."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Steve Harris: 'The album was released in 1982. It was recorded in London. It has been played live many times. It is considered a classic.'",
+        "ru": "Стив Харрис: «Альбом был выпущен в 1982 году. Он был записан в Лондоне. Он был сыгран вживую много раз. Он считается классикой»." },
+      { "en": "Bruce Dickinson: 'I was invited to join the band in 1981. Since then, many albums have been released. We are known all over the world.'",
+        "ru": "Брюс Дикинсон: «Я был приглашён в группу в 1981 году. С тех пор было выпущено много альбомов. Мы известны во всём мире»." }
+    ],
+    "note": "was released, was recorded, has been played, is considered, was invited, have been released — пассивный залог в разных временах."
+  },
+  "russianAngle": [
+    "В русском языке мы часто используем активный залог: «альбом выпустили», «песню запретили». В английском пассивный залог — норма.",
+    "Пассивный залог: to be + V3. Время показывает to be.",
+    "Безличный пассив: It is said that... = Говорят, что...",
+    "Ошибка: The album was release — неправильно! Нужно: The album was released."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни формулу: to be + V3 (третья форма глагола).",
+      "Время показывает to be: is, was, has been, will be, etc.",
+      "Present Simple Passive: am/is/are + V3.",
+      "Past Simple Passive: was/were + V3.",
+      "Future Simple Passive: will be + V3.",
+      "Present Perfect Passive: have/has been + V3.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте активный залог в пассивный (в разных временах):",
+      "items": [
+        { "q": "They released the album in 1982. → The album ___ in 1982.", "a": "was released" },
+        { "q": "Fans have played the song live many times. → The song ___ live many times.", "a": "has been played" },
+        { "q": "They will stream the concert online. → The concert ___ online.", "a": "will be streamed" },
+        { "q": "People consider them legends. → They ___ legends.", "a": "are considered" },
+        { "q": "Steve Harris had formed the band. → The band ___ .", "a": "had been formed" }
+      ]
+    }
+  },
+  "formula": "to be + V3 (в разных временах)",
+  "structure": {
+    "positive": "The album was released in 1982.",
+    "negative": "The album wasn't released in 1982.",
+    "question": "Was the album released in 1982?"
+  },
+  "markers": ["was", "were", "is", "are", "am", "has been", "have been", "had been", "will be", "is being", "are being"],
+  "uses": [
+    "Когда действие важнее исполнителя: The album was released in 1982.",
+    "Когда исполнитель неизвестен: The song was banned.",
+    "В официальных текстах: They are considered legends.",
+    "Безличные конструкции: It is said that they are the best."
+  ],
+  "rules": [
+    { "title": "Present Simple Passive",
+      "text": "am/is/are + V3. Iron Maiden are considered legends." },
+    { "title": "Past Simple Passive",
+      "text": "was/were + V3. The album was released in 1982." },
+    { "title": "Future Simple Passive",
+      "text": "will be + V3. The concert will be streamed." },
+    { "title": "Present Perfect Passive",
+      "text": "have/has been + V3. The song has been played live." },
+    { "title": "Past Perfect Passive",
+      "text": "had been + V3. The band had been formed in 1975." },
+    { "title": "Present Continuous Passive",
+      "text": "am/is/are being + V3. A new album is being recorded." },
+    { "title": "Безличный пассив",
+      "text": "It is said that... / They are said to be..." }
+  ],
+  "examples": [
+    {
+      "group": "Present Simple Passive — группа считается легендой",
+      "items": [
+        { "en": "Iron Maiden are considered legends of heavy metal.", "ru": "Iron Maiden считаются легендами хэви-метала.", "highlight": ["are considered"] },
+        { "en": "The band is known all over the world.", "ru": "Группа известна во всём мире.", "highlight": ["is known"] },
+        { "en": "Their music is loved by millions of fans.", "ru": "Их музыка любима миллионами фанатов.", "highlight": ["is loved"] }
+      ]
+    },
+    {
+      "group": "Past Simple Passive — альбом был выпущен",
+      "items": [
+        { "en": "The album was released in 1982.", "ru": "Альбом был выпущен в 1982 году.", "highlight": ["was released"] },
+        { "en": "The song was written by Steve Harris.", "ru": "Песня была написана Стивом Харрисом.", "highlight": ["was written"] },
+        { "en": "The album was recorded in London.", "ru": "Альбом был записан в Лондоне.", "highlight": ["was recorded"] }
+      ]
+    },
+    {
+      "group": "Future Simple Passive — концерт будет транслироваться",
+      "items": [
+        { "en": "The concert will be streamed online.", "ru": "Концерт будет транслироваться онлайн.", "highlight": ["will be streamed"] },
+        { "en": "A new album will be released next year.", "ru": "Новый альбом будет выпущен в следующем году.", "highlight": ["will be released"] },
+        { "en": "The show will be remembered for years.", "ru": "Это шоу будет помниться годами.", "highlight": ["will be remembered"] }
+      ]
+    },
+    {
+      "group": "Present Perfect Passive — песня была сыграна",
+      "items": [
+        { "en": "The song has been played live many times.", "ru": "Песня была сыграна вживую много раз.", "highlight": ["has been played"] },
+        { "en": "The album has been sold in millions of copies.", "ru": "Альбом был продан миллионами копий.", "highlight": ["has been sold"] },
+        { "en": "The band has been interviewed many times.", "ru": "Группа была интервьюирована много раз.", "highlight": ["has been interviewed"] }
+      ]
+    },
+    {
+      "group": "Past Perfect Passive — группа была сформирована",
+      "items": [
+        { "en": "The band had been formed in 1975 before the album was released.", "ru": "Группа была сформирована в 1975 году до того, как альбом был выпущен.", "highlight": ["had been formed"] },
+        { "en": "The song had been written before the album was recorded.", "ru": "Песня была написана до того, как альбом был записан.", "highlight": ["had been written"] },
+        { "en": "The tour had been planned before the album was released.", "ru": "Тур был спланирован до того, как альбом был выпущен.", "highlight": ["had been planned"] }
+      ]
+    },
+    {
+      "group": "Безличный пассив — говорят, что...",
+      "items": [
+        { "en": "It is said that Iron Maiden are the best metal band.", "ru": "Говорят, что Iron Maiden — лучшая метал-группа.", "highlight": ["It is said"] },
+        { "en": "They are said to be the best metal band.", "ru": "Говорят, что они лучшая метал-группа.", "highlight": ["are said to be"] },
+        { "en": "It is believed that they will continue to tour.", "ru": "Считается, что они продолжат гастролировать.", "highlight": ["It is believed"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "The album was release in 1982.", "right": "The album was released in 1982.", "note": "release → released (V3)." },
+    { "wrong": "The band is consider legends.", "right": "The band is considered legends.", "note": "consider → considered (V3)." },
+    { "wrong": "The concert will stream online.", "right": "The concert will be streamed online.", "note": "will be + V3." },
+    { "wrong": "The song has been play live.", "right": "The song has been played live.", "note": "play → played (V3)." },
+    { "wrong": "The band had been form in 1975.", "right": "The band had been formed in 1975.", "note": "form → formed (V3)." },
+    { "wrong": "The album is being record now.", "right": "The album is being recorded now.", "note": "record → recorded (V3)." }
+  ],
+  "compare": {
+    "title": "Active vs Passive (все времена)",
+    "leftLabel": "Active Voice",
+    "rightLabel": "Passive Voice",
+    "rows": [
+      { "left": "They released the album. (Past Simple)", "right": "The album was released. (Past Simple Passive)" },
+      { "left": "They have sold the album. (Present Perfect)", "right": "The album has been sold. (Present Perfect Passive)" },
+      { "left": "They will release the album. (Future Simple)", "right": "The album will be released. (Future Simple Passive)" },
+      { "left": "They had formed the band. (Past Perfect)", "right": "The band had been formed. (Past Perfect Passive)" },
+      { "left": "They are recording the album. (Present Continuous)", "right": "The album is being recorded. (Present Continuous Passive)" }
+    ]
+  },
+  "tips": [
+    "to be + V3 — формула пассива для всех времён.",
+    "Время показывает to be: is, was, has been, will be, etc.",
+    "Present Simple Passive: am/is/are + V3.",
+    "Past Simple Passive: was/were + V3.",
+    "Future Simple Passive: will be + V3.",
+    "Present Perfect Passive: have/has been + V3.",
+    "Безличный пассив: It is said that... / They are said to be..."
+  ],
+  "related": ["b1-passive-voice-simple", "b2-past-perfect", "b2-present-perfect"],
+  "quiz": [
+    {
+      "q": "The album ___ in 1982.",
+      "options": ["was released", "were released", "is released", "has been released"],
+      "answer": 0,
+      "why": "Past Simple Passive: was + V3."
+    },
+    {
+      "q": "The band ___ legends today.",
+      "options": ["are considered", "were considered", "have been considered", "will be considered"],
+      "answer": 0,
+      "why": "Present Simple Passive: are + V3."
+    },
+    {
+      "q": "The song ___ by Steve Harris.",
+      "options": ["was written", "were written", "is written", "has been written"],
+      "answer": 0,
+      "why": "Past Simple Passive: was + V3."
+    },
+    {
+      "q": "The song ___ live many times.",
+      "options": ["has been played", "was played", "is played", "will be played"],
+      "answer": 0,
+      "why": "Present Perfect Passive: has been + V3."
+    },
+    {
+      "q": "It ___ that they are the best metal band.",
+      "options": ["is said", "was said", "has been said", "will be said"],
+      "answer": 0,
+      "why": "Безличный пассив: It is said that..."
+    },
+    {
+      "q": "The band ___ in 1975.",
+      "options": ["had been formed", "was formed", "has been formed", "is formed"],
+      "answer": 0,
+      "why": "Past Perfect Passive: had been + V3."
+    }
+  ]
+}
