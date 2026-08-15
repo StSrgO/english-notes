@@ -1,0 +1,203 @@
+{
+  "variant": "rocknroll",
+  "slug": "b1-reported-speech",
+  "level": "B1",
+  "title": "Reported Speech (intro)",
+  "category": "Grammar",
+  "readingTime": 11,
+  "summary": "Косвенная речь — передача чужих слов. История о том, как слухи о распаде Nirvana распространялись через интервью и искажали слова Курта Кобейна.",
+  "idea": [
+    "1993 год, Сиэтл. Nirvana — самая популярная группа в мире. Курт Кобейн даёт интервью журналу «Rolling Stone». Он говорит: «I am tired of touring. I feel like we need a break». Журналист пишет: «Кобейн сказал, что он хочет распустить группу». Новость разлетается. Кристи Новоселич читает интервью и говорит: «He didn't say that. He said he needed a rest».",
+    "Дэйв Грол говорит: «Курт сказал мне, что он устал, но он не сказал, что хочет уйти». Менеджер группы говорит: «Он сказал, что если он не возьмёт паузу, он не сможет продолжать». Слухи искажают смысл. Фанаты начинают паниковать: «Nirvana распадаются!» Курт говорит: «I didn't say that. I said we need a break». В 1994 году Курт Кобейн умирает, и эти слова начинают звучать как пророчество.",
+    "Reported Speech — это передача чужих слов. Прямая речь: «I am tired», — сказал Кобейн. Косвенная речь: He said that he was tired. Времена сдвигаются назад: am → was, will → would, have done → had done. Местоимения меняются: I → he, my → his. Вопросы становятся с if/whether: «Are you tired?» → He asked if he was tired. Просьбы становятся с to: «Please, don't quote me» → He asked me not to quote him."
+  ],
+  "why": [
+    "Передавать чужие слова: He said that...",
+    "Пересказывать интервью и истории: She told me...",
+    "Сообщать новости: The magazine reported that...",
+    "Передавать просьбы и приказы: He asked me to..."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Kurt: 'I am tired of touring. I feel like we need a break.'",
+        "ru": "Курт: «Я устал от гастролей. Я чувствую, что нам нужен перерыв»." },
+      { "en": "Journalist: 'Kurt said that he was tired of touring. He felt that they needed a break.'",
+        "ru": "Журналист: «Курт сказал, что он устал от гастролей. Он чувствовал, что им нужен перерыв»." },
+      { "en": "Krist: 'He didn't say that. He said he needed a rest. He didn't say he wanted to quit.'",
+        "ru": "Крист: «Он этого не говорил. Он сказал, что ему нужен отдых. Он не сказал, что хочет уйти»." }
+    ],
+    "note": "Direct: 'I am tired...' → Reported: He said that he was tired... (время сдвигается: am → was)."
+  },
+  "russianAngle": [
+    "В русском языке мы меняем время в косвенной речи только если это необходимо. В английском — всегда сдвигаем время назад.",
+    "Прямая речь: «Я устал», — сказал Курт. Косвенная: Он сказал, что устал. В английском: He said that he was tired.",
+    "Ошибка: He said that he is tired — неправильно! Нужно: He said that he was tired.",
+    "Запомни: сказал (said / told) + that + предложение с сдвигом времени назад."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: сказал (said / told) + that + предложение.",
+      "Запомни сдвиг времён: Present → Past, Past → Past Perfect, will → would, can → could.",
+      "Запомни сдвиг местоимений: I → he/she, my → his/her, we → they.",
+      "Для вопросов: прямой вопрос → He asked if...",
+      "Для просьб: прямую просьбу → He asked me to...",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте прямую речь в косвенную (как в истории с Nirvana):",
+      "items": [
+        { "q": "'I am tired,' he said.", "a": "He said that he was tired." },
+        { "q": "'We need a break,' he said.", "a": "He said that they needed a break." },
+        { "q": "'I will take a rest,' he said.", "a": "He said that he would take a rest." },
+        { "q": "'Are you tired?' he asked.", "a": "He asked if I was tired." },
+        { "q": "'Don't believe everything you read,' he told me.", "a": "He told me not to believe everything I read." }
+      ]
+    }
+  },
+  "formula": "said / told + that + сдвиг времён",
+  "structure": {
+    "positive": "He said that he was tired.",
+    "negative": "He said that he wasn't tired.",
+    "question": "He asked if I was tired."
+  },
+  "markers": ["said", "told", "asked", "that", "if", "whether", "to"],
+  "uses": [
+    "Передача утверждений: He said that he was tired.",
+    "Передача вопросов: He asked if I was tired.",
+    "Передача просьб и приказов: He asked me to rest.",
+    "Передача отрицаний: He said that he wasn't tired."
+  ],
+  "rules": [
+    { "title": "Сдвиг времён",
+      "text": "Present → Past (am → was, go → went), Past → Past Perfect (went → had gone), will → would, can → could." },
+    { "title": "Сдвиг местоимений",
+      "text": "I → he/she, my → his/her, we → they, our → their." },
+    { "title": "Вопросы",
+      "text": "Общие вопросы: 'Are you...?' → He asked if I was... Специальные вопросы: 'What are you...?' → He asked what I was..." },
+    { "title": "Просьбы и приказы",
+      "text": "'Write this' → He told me to write this. 'Don't write this' → He told me not to write this." }
+  ],
+  "examples": [
+    {
+      "group": "Передача слов — Кобейн говорит",
+      "items": [
+        { "en": "He said, 'I am tired of touring.'", "ru": "Он сказал: «Я устал от гастролей».", "highlight": ["I am"] },
+        { "en": "He said that he was tired of touring.", "ru": "Он сказал, что устал от гастролей.", "highlight": ["was"] },
+        { "en": "He said, 'We need a break.'", "ru": "Он сказал: «Нам нужен перерыв».", "highlight": ["We need"] },
+        { "en": "He said that they needed a break.", "ru": "Он сказал, что им нужен перерыв.", "highlight": ["needed"] }
+      ]
+    },
+    {
+      "group": "Смена времён — сдвиг назад",
+      "items": [
+        { "en": "Direct: 'I am tired,' he said.", "ru": "Прямая речь: «Я устал», — сказал он.", "highlight": ["am"] },
+        { "en": "Reported: He said that he was tired.", "ru": "Косвенная речь: Он сказал, что устал.", "highlight": ["was"] },
+        { "en": "Direct: 'I will take a break,' he said.", "ru": "Прямая речь: «Я возьму перерыв», — сказал он.", "highlight": ["will take"] },
+        { "en": "Reported: He said that he would take a break.", "ru": "Косвенная речь: Он сказал, что возьмёт перерыв.", "highlight": ["would take"] }
+      ]
+    },
+    {
+      "group": "Передача вопросов",
+      "items": [
+        { "en": "Direct: 'Are you tired?' he asked.", "ru": "Прямая речь: «Ты устал?» — спросил он.", "highlight": ["Are you"] },
+        { "en": "Reported: He asked if I was tired.", "ru": "Косвенная речь: Он спросил, устал ли я.", "highlight": ["if I was"] },
+        { "en": "Direct: 'What are you thinking?' he asked.", "ru": "Прямая речь: «О чём ты думаешь?» — спросил он.", "highlight": ["What are"] },
+        { "en": "Reported: He asked what I was thinking.", "ru": "Косвенная речь: Он спросил, о чём я думаю.", "highlight": ["what I was"] }
+      ]
+    },
+    {
+      "group": "Передача просьб и приказов",
+      "items": [
+        { "en": "Direct: 'Please, don't believe everything you read,' he said.", "ru": "Прямая речь: «Пожалуйста, не верьте всему, что читаете», — сказал он.", "highlight": ["don't believe"] },
+        { "en": "Reported: He asked me not to believe everything I read.", "ru": "Косвенная речь: Он попросил меня не верить всему, что я читаю.", "highlight": ["not to believe"] },
+        { "en": "Direct: 'Write this down,' he told me.", "ru": "Прямая речь: «Запиши это», — сказал он мне.", "highlight": ["Write"] },
+        { "en": "Reported: He told me to write it down.", "ru": "Косвенная речь: Он сказал мне записать это.", "highlight": ["to write"] }
+      ]
+    },
+    {
+      "group": "Искажение смысла — слухи о распаде",
+      "items": [
+        { "en": "Direct: 'I need a rest,' he said.", "ru": "Прямая речь: «Мне нужен отдых», — сказал он.", "highlight": ["I need"] },
+        { "en": "Reported: He said that he wanted to quit.", "ru": "Косвенная речь: Он сказал, что хочет уйти.", "highlight": ["wanted"] },
+        { "en": "Direct: 'We might stop for a while,' he said.", "ru": "Прямая речь: «Возможно, мы остановимся на время», — сказал он.", "highlight": ["might stop"] },
+        { "en": "Reported: He said that they were breaking up.", "ru": "Косвенная речь: Он сказал, что они распадаются.", "highlight": ["were breaking up"] }
+      ]
+    },
+    {
+      "group": "Сравнение Direct vs Reported",
+      "items": [
+        { "en": "Direct: 'I am tired,' he said.", "ru": "Прямая: «Я устал», — сказал он.", "highlight": ["I am"] },
+        { "en": "Reported: He said that he was tired.", "ru": "Косвенная: Он сказал, что устал.", "highlight": ["he was"] },
+        { "en": "Direct: 'We will take a break,' he said.", "ru": "Прямая: «Мы возьмём перерыв», — сказал он.", "highlight": ["We will"] },
+        { "en": "Reported: He said that they would take a break.", "ru": "Косвенная: Он сказал, что они возьмут перерыв.", "highlight": ["they would"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "He said that he is tired.", "right": "He said that he was tired.", "note": "В косвенной речи время сдвигается назад: is → was." },
+    { "wrong": "He said that he will take a break.", "right": "He said that he would take a break.", "note": "will → would." },
+    { "wrong": "He said me that...", "right": "He told me that...", "note": "said — без объекта, told — с объектом (me, him, her)." },
+    { "wrong": "He asked that I was tired.", "right": "He asked if I was tired.", "note": "Вопросы — if/whether, не that." },
+    { "wrong": "He told me to not believe everything.", "right": "He told me not to believe everything.", "note": "Отрицание в просьбе: not to (а не to not)." },
+    { "wrong": "He said me to write it.", "right": "He told me to write it.", "note": "Просьба — told me to, не said me to." }
+  ],
+  "compare": {
+    "title": "Direct Speech vs Reported Speech",
+    "leftLabel": "Direct Speech (прямая речь)",
+    "rightLabel": "Reported Speech (косвенная речь)",
+    "rows": [
+      { "left": "He said: 'I am tired.'", "right": "He said that he was tired." },
+      { "left": "He said: 'We will take a break.'", "right": "He said that they would take a break." },
+      { "left": "He asked: 'Are you tired?'", "right": "He asked if I was tired." },
+      { "left": "He said: 'Don't believe everything.'", "right": "He asked me not to believe everything." }
+    ]
+  },
+  "tips": [
+    "said — без объекта: He said that...",
+    "told — с объектом: He told me that...",
+    "Времена всегда сдвигаются назад в косвенной речи.",
+    "Вопросы становятся с if или whether.",
+    "Просьбы и приказы становятся с to + инфинитив.",
+    "Отрицание в просьбах: told me not to...",
+    "Запомни ключевые сдвиги: am → was, will → would, can → could, have done → had done."
+  ],
+  "related": ["b1-present-simple", "b1-past-simple", "b1-present-perfect"],
+  "quiz": [
+    {
+      "q": "He said that he ___ tired of touring.",
+      "options": ["was", "is", "will be", "has been"],
+      "answer": 0,
+      "why": "В косвенной речи am → was."
+    },
+    {
+      "q": "He said that they ___ take a break.",
+      "options": ["would", "will", "are going to", "were going to"],
+      "answer": 0,
+      "why": "В косвенной речи will → would."
+    },
+    {
+      "q": "He asked ___ I was tired.",
+      "options": ["if", "that", "what", "which"],
+      "answer": 0,
+      "why": "Вопросы в косвенной речи — if или whether."
+    },
+    {
+      "q": "He told me ___ believe everything I read.",
+      "options": ["not to", "to not", "not", "to"],
+      "answer": 0,
+      "why": "Отрицание в просьбе: told me not to."
+    },
+    {
+      "q": "He said: 'I am tired.' → He said that he ___ tired.",
+      "options": ["was", "is", "were", "has been"],
+      "answer": 0,
+      "why": "am → was в косвенной речи."
+    },
+    {
+      "q": "He said: 'Don't quote me.' → He told me ___ quote him.",
+      "options": ["not to", "to not", "don't", "not"],
+      "answer": 0,
+      "why": "Отрицание в просьбе: told me not to."
+    }
+  ]
+}

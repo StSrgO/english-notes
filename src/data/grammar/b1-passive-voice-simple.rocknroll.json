@@ -1,0 +1,196 @@
+{
+  "variant": "rocknroll",
+  "slug": "b1-passive-voice-simple",
+  "level": "B1",
+  "title": "Passive Voice (Present & Past Simple)",
+  "category": "Grammar",
+  "readingTime": 11,
+  "summary": "Пассивный залог — когда действие важнее того, кто его совершил. История о том, как альбом The Beach Boys «Smile» исчез на 40 лет и был найден в архиве.",
+  "idea": [
+    "1966 год, Лос-Анджелес. Брайан Уилсон из The Beach Boys работал над альбомом, который должен был стать величайшим в истории рока. Альбом «Smile» был записан в 1966-1967 годах, но никогда не был выпущен. Мастер-ленты были помещены в архив студии Capitol Records и были забыты на 40 лет. «Альбом был отложен из-за творческих разногласий, — говорили инженеры, — и был спрятан в коробке, подписанной 'Smile Sessions'».",
+    "В 2004 году мастер-ленты были найдены в архиве Capitol Records. «Они были обнаружены случайно, — рассказывал звукорежиссёр, — и были использованы для ремастеринга». Альбом был выпущен в 2011 году и стал классикой. Он был оценён критиками как шедевр. Вся история — это пассивный залог: ленты были записаны, были помещены, были забыты, были найдены, были выпущены. Это история не о том, кто их потерял, а о том, что случилось с легендарным альбомом.",
+    "Пассивный залог (Passive Voice) используется, когда действие важнее того, кто его совершил. Формула простая: to be + V3 (третья форма глагола). В настоящем времени — am/is/are + V3. В прошедшем — was/were + V3. The tapes were found in 2004 — ленты были найдены в 2004 году. The album is considered a masterpiece — альбом считается шедевром. В роке пассивный залог используется постоянно: в новостях о группах, в биографиях, в историях о потерянных записях. Как в истории с Smile: важно не то, кто забыл ленты, а то, что они были найдены и выпущены."
+  ],
+  "why": [
+    "Когда неизвестно, кто совершил действие: The tapes were stolen.",
+    "Когда действие важнее исполнителя: The album was released in 2011.",
+    "В новостях и официальных текстах: The band was formed in 1961.",
+    "Чтобы избежать активного субъекта: A mistake was made.",
+    "Когда исполнитель очевиден: The album was recorded by Brian Wilson."
+  ],
+  "context": {
+    "lines": [
+      { "en": "The tapes were recorded in 1966. They were placed in the Capitol Records archive. They were forgotten for 40 years. In 2004, they were found and remastered.",
+        "ru": "Ленты были записаны в 1966 году. Они были помещены в архив Capitol Records. Они были забыты на 40 лет. В 2004 году они были найдены и ремастерированы." },
+      { "en": "Brian Wilson said: 'The album was never finished. It was put away. But it was remembered by everyone who heard it.'",
+        "ru": "Брайан Уилсон сказал: 'Альбом никогда не был закончен. Он был отложен. Но он помнился всеми, кто его слышал.'" }
+    ],
+    "note": "Passive Voice: was recorded (прошедшее), were placed (прошедшее), were forgotten (прошедшее), were found (прошедшее), was released (прошедшее)."
+  },
+  "russianAngle": [
+    "В русском языке мы часто используем активный залог вместо пассивного: «ленты нашли», а не «ленты были найдены».",
+    "В английском пассивный залог — это норма, особенно в официальных текстах и новостях.",
+    "Формула пассивного залога в русском: «быть» + причастие прошедшего времени. В английском: to be + V3.",
+    "Ошибка: The tapes were find — неправильно. Нужно: The tapes were found (V3)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни формулу: to be + V3 (третья форма глагола).",
+      "В настоящем времени: am/is/are + V3. The album is considered a classic.",
+      "В прошедшем времени: was/were + V3. The tapes were found in 2004.",
+      "Сравни активный и пассивный: Brian recorded the album (актив) / The album was recorded by Brian (пассив).",
+      "Запомни: исполнитель в пассиве вводится предлогом by: by Brian Wilson.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте активный залог в пассивный (как в истории с альбомом Smile):",
+      "items": [
+        { "q": "Brian Wilson recorded the album in 1966.", "a": "The album was recorded by Brian Wilson in 1966." },
+        { "q": "Someone placed the tapes in the archive.", "a": "The tapes were placed in the archive." },
+        { "q": "They found the tapes in 2004.", "a": "The tapes were found in 2004." },
+        { "q": "People remember the album today.", "a": "The album is remembered today." },
+        { "q": "A record label released the album in 2011.", "a": "The album was released by a record label in 2011." }
+      ]
+    }
+  },
+  "formula": "to be (в нужном времени) + V3 (третья форма глагола)",
+  "structure": {
+    "positive": "The album was recorded in 1966.",
+    "negative": "The album wasn't recorded in 1966.",
+    "question": "Was the album recorded in 1966?"
+  },
+  "markers": ["was", "were", "is", "am", "are", "by", "V3", "past participle"],
+  "uses": [
+    "Когда неизвестно или неважно, кто совершил действие: The tapes were stolen.",
+    "В новостях и официальных текстах: The album was released in 2011.",
+    "Чтобы избежать активного субъекта: Mistakes were made.",
+    "В научных и исторических текстах: The band was formed in 1961."
+  ],
+  "rules": [
+    { "title": "Формула",
+      "text": "Passive Voice = to be (в нужном времени) + V3 (третья форма глагола)." },
+    { "title": "Настоящее время",
+      "text": "am/is/are + V3: The album is considered a classic. The songs are played on the radio." },
+    { "title": "Прошедшее время",
+      "text": "was/were + V3: The album was recorded in 1966. The tapes were found in 2004." },
+    { "title": "Исполнитель",
+      "text": "Исполнитель в пассиве вводится предлогом by: The album was recorded by Brian Wilson." }
+  ],
+  "examples": [
+    {
+      "group": "Альбом был записан — введение",
+      "items": [
+        { "en": "The album Smile was recorded by The Beach Boys in 1966.", "ru": "Альбом Smile был записан The Beach Boys в 1966 году.", "highlight": ["was recorded"] },
+        { "en": "The songs were written by Brian Wilson.", "ru": "Песни были написаны Брайаном Уилсоном.", "highlight": ["were written"] },
+        { "en": "The music was influenced by classical and rock.", "ru": "Музыка была вдохновлена классикой и роком.", "highlight": ["was influenced"] }
+      ]
+    },
+    {
+      "group": "Альбом был помещён в архив — исчезновение",
+      "items": [
+        { "en": "The tapes were placed in the Capitol Records archive.", "ru": "Ленты были помещены в архив Capitol Records.", "highlight": ["were placed"] },
+        { "en": "They were left in a box labelled 'Smile Sessions'.", "ru": "Они были оставлены в коробке с подписью 'Smile Sessions'.", "highlight": ["were left"] },
+        { "en": "The album was hidden from the public for decades.", "ru": "Альбом был скрыт от публики десятилетиями.", "highlight": ["was hidden"] }
+      ]
+    },
+    {
+      "group": "Альбом был забыт — время проходит",
+      "items": [
+        { "en": "The tapes were forgotten for 40 years.", "ru": "Ленты были забыты на 40 лет.", "highlight": ["were forgotten"] },
+        { "en": "The album was not released during that time.", "ru": "Альбом не был выпущен в то время.", "highlight": ["was not released"] },
+        { "en": "The project was considered unfinished.", "ru": "Проект считался незавершённым.", "highlight": ["was considered"] }
+      ]
+    },
+    {
+      "group": "Альбом был найден — открытие",
+      "items": [
+        { "en": "The tapes were found in the archive in 2004.", "ru": "Ленты были найдены в архиве в 2004 году.", "highlight": ["were found"] },
+        { "en": "They were discovered by a sound engineer.", "ru": "Они были обнаружены звукорежиссёром.", "highlight": ["were discovered"] },
+        { "en": "The recordings were remastered and restored.", "ru": "Записи были ремастерированы и восстановлены.", "highlight": ["were remastered", "were restored"] }
+      ]
+    },
+    {
+      "group": "Альбом был выпущен — релиз",
+      "items": [
+        { "en": "The album was finally released in 2011.", "ru": "Альбом был наконец выпущен в 2011 году.", "highlight": ["was released"] },
+        { "en": "It was praised by critics and fans alike.", "ru": "Он был высоко оценён и критиками, и фанатами.", "highlight": ["was praised"] },
+        { "en": "The music is still played on the radio today.", "ru": "Музыка до сих пор играет по радио.", "highlight": ["is played"] }
+      ]
+    },
+    {
+      "group": "Активный vs пассивный",
+      "items": [
+        { "en": "Brian Wilson recorded the album. / The album was recorded by Brian Wilson.", "ru": "Брайан Уилсон записал альбом. / Альбом был записан Брайаном Уилсоном.", "highlight": ["recorded", "was recorded"] },
+        { "en": "He released it in 2011. / It was released in 2011.", "ru": "Он выпустил его в 2011. / Он был выпущен в 2011.", "highlight": ["released", "was released"] },
+        { "en": "People love the album today. / The album is loved today.", "ru": "Люди любят альбом сегодня. / Альбом любим сегодня.", "highlight": ["love", "is loved"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "The tapes were find in 2004.", "right": "The tapes were found in 2004.", "note": "В пассиве нужна третья форма глагола (V3): find → found." },
+    { "wrong": "The album was recorded by Brian Wilson.", "right": "The album was recorded by Brian Wilson.", "note": "record → recorded (V3)." },
+    { "wrong": "The tapes are keep in the archive.", "right": "The tapes are kept in the archive.", "note": "keep → kept (V3)." },
+    { "wrong": "The album was been released.", "right": "The album was released.", "note": "В пассиве не нужно been, достаточно was + V3." },
+    { "wrong": "The music is play on the radio.", "right": "The music is played on the radio.", "note": "play → played (V3)." },
+    { "wrong": "The tapes was found in 2004.", "right": "The tapes were found in 2004.", "note": "tapes — мн. число, поэтому were, а не was." }
+  ],
+  "compare": {
+    "title": "Active Voice vs Passive Voice",
+    "leftLabel": "Active Voice (действие от исполнителя)",
+    "rightLabel": "Passive Voice (действие над объектом)",
+    "rows": [
+      { "left": "Brian Wilson recorded the album.", "right": "The album was recorded by Brian Wilson." },
+      { "left": "He placed the tapes in the archive.", "right": "The tapes were placed in the archive." },
+      { "left": "Someone found them in 2004.", "right": "They were found in 2004." },
+      { "left": "A label released the album in 2011.", "right": "The album was released in 2011." }
+    ]
+  },
+  "tips": [
+    "Мантра пассивного залога: to be + V3. Запомни как рифф.",
+    "В настоящем времени: am/is/are + V3. The album is considered a classic.",
+    "В прошедшем времени: was/were + V3. The tapes were found in 2004.",
+    "Исполнитель вводится предлогом by: by Brian Wilson. Если не важно — опускай.",
+    "В пассиве всегда третья форма глагола (V3): record → recorded, find → found.",
+    "Пассивный залог часто используется в новостях и официальных текстах.",
+    "Если сомневаешься — спроси себя: 'Действие важнее исполнителя?' Если да — используй пассив."
+  ],
+  "related": ["b1-present-simple", "b1-past-simple", "b2-passive-voice-advanced"],
+  "quiz": [
+    {
+      "q": "The album Smile ___ by The Beach Boys in 1966.",
+      "options": ["was recorded", "is recorded", "were recorded", "was record"],
+      "answer": 0,
+      "why": "was recorded — прошедшее время, V3 от record."
+    },
+    {
+      "q": "The tapes ___ in the Capitol archive.",
+      "options": ["were placed", "was placed", "are placed", "were place"],
+      "answer": 0,
+      "why": "were placed — прошедшее время, V3 от place."
+    },
+    {
+      "q": "The tapes ___ for 40 years.",
+      "options": ["were forgotten", "was forgotten", "are forgotten", "were forgot"],
+      "answer": 0,
+      "why": "were forgotten — прошедшее время, V3 от forget."
+    },
+    {
+      "q": "The album ___ in 2011.",
+      "options": ["was released", "is released", "were released", "was release"],
+      "answer": 0,
+      "why": "was released — прошедшее время, V3 от release."
+    },
+    {
+      "q": "The music ___ by fans all over the world.",
+      "options": ["is loved", "was loved", "are loved", "is love"],
+      "answer": 0,
+      "why": "is loved — настоящее время, V3 от love."
+    },
+    {
+      "q": "The tapes ___ by a sound engineer in 2004.",
+      "options": ["were found", "was found", "are found", "were find"],
+      "answer": 0,
+      "why": "were found — прошедшее время, V3 от find."
+    }
+  ]
+}

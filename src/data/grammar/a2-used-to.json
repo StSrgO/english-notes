@@ -1,202 +1,193 @@
 {
- "slug": "a2-used-to",
- "title": "used to\n (прошлые привычки и состояния)",
- "level": "A2",
- "category": "Other",
- "readingTime": 9,
- "summary": "used to + V1 — привычка или состояние в прошлом, которых больше нет. Настоящего у этой формы нет — и в этом её суть.",
- "idea": [
-  "used to — это маленькая, но очень выразительная конструкция, которая говорит о прошлом, которого больше нет: о привычках, которые ты бросил, и о состояниях, которые изменились. «Раньше я курил, а теперь нет», «раньше мы жили в Риме», «раньше я не любил кофе» — всё это used to. Главная идея, которую надо вбить в голову сразу: у used to НЕТ настоящего времени. Оно живёт только в прошлом и всегда несёт в себе оттенок контраста с «сейчас». Поэтому «я обычно хожу пешком» (настоящая привычка) — это НЕ used to, а Present Simple с usually/often: I usually walk. used to было бы ошибкой, потому что привычка никуда не делась.",
-  "Форма проста в утверждении: used to + голый инфинитив, для всех лиц одинаково: I used to smoke, she used to live in Rome, they used to play tennis. Но вопросы и отрицания — это место, где сыплются все, и вот почему. В утверждении стоит used с буквой d. А в вопросе и отрицании появляется did / didn't, который «забирает» прошедшее время себе — и хвостик d у use уходит: Did you use to live here? I didn't use to like coffee. То есть в утверждении used, в вопросе/отрицании use без d. Это зеркало того же правила, что с Past Simple (did + голый глагол): один маркер прошлого на предложение, и раз did уже его несёт, второй не нужен.",
-  "Самая коварная вещь темы — то, что рядом живут две совершенно другие конструкции с похожими словами, и студенты их сливают в одну кашу. be used to + V‑ing означает «привык к чему‑то» как состояние сейчас: I'm used to getting up early (мне не в новинку, я привык). get used to + V‑ing означает «привыкаю / привыкнуть» как процесс: I can't get used to the cold (никак не привыкну к холоду). Обе требуют после себя герундий (‑ing), а не инфинитив, и обе про настоящее/процесс, а не про «раньше было». То есть used to + инфинитив = «раньше делал, теперь нет»; be used to + ‑ing = «привык сейчас»; get used to + ‑ing = «привыкаю». Три разных смысла, три разных формы. Ещё одна тонкость — произношение: в used to буква d сливается с t слова to, и на слух это /ˈjuːst tə/ («юста»), без отдельного d, — поэтому на слух утверждение и отрицание часто звучат почти одинаково, и ориентироваться надо на контекст и на didn't. Если унести одну мысль: used to + инфинитив = прошлая привычка/состояние, которых больше нет; в утверждении used, в вопросе/отрицании use без d; не путай с be/get used to + ‑ing."
- ],
- "why": [
-  "Говорить о прошлых привычках, которых больше нет: I used to play tennis.",
-  "Описывать прошлые состояния, которые изменились: She used to live in Rome.",
-  "Противопоставлять «раньше» и «сейчас»: I didn't use to like coffee, but now I do.",
-  "Не путать used to с be used to / get used to + ‑ing."
- ],
- "context": {
-  "lines": [
-   { "en": "You're so fit now! Did you use to exercise?", "ru": "Ты сейчас такой подтянутый! Ты раньше занимался спортом?" },
-   { "en": "Not at all. I used to be really lazy. I used to sit on the sofa all evening.", "ru": "Вообще нет. Раньше я был ужасно ленивым. Вечно сидел на диване по вечерам." },
-   { "en": "Really? You didn't use to like running, did you?", "ru": "Правда? Ты же раньше не любил бегать, верно?" },
-   { "en": "No, I hated it. But I got used to it, and now I love it.", "ru": "Нет, терпеть не мог. Но привык — и теперь обожаю." },
-   { "en": "I'm still trying to get used to getting up at 6, though.", "ru": "Хотя вставать в 6 я всё ещё пытаюсь привыкнуть." }
+  "variant": "classic",
+  "slug": "a2-used-to",
+  "level": "A2",
+  "title": "used to (прошлые привычки и состояния)",
+  "category": "Grammar",
+  "readingTime": 10,
+  "summary": "used to + V1 — привычка или состояние в прошлом, которых больше нет. Настоящего у этой формы нет — и в этом её суть, как в романах Джордж Элиот, где прошлое всегда с нами, но его уже не вернуть.",
+  "idea": [
+    "used to — это маленькая, но очень выразительная конструкция, которая говорит о прошлом, которого больше нет: о привычках, которые ты бросил, и о состояниях, которые изменились. «Раньше я курил, а теперь нет», «раньше мы жили в Риме», «раньше я не любил кофе» — всё это used to. Главная идея, которую надо вбить в голову сразу: у used to НЕТ настоящего времени. Оно живёт только в прошлом и всегда несёт в себе оттенок контраста с «сейчас». В романах Джордж Элиот герои постоянно оглядываются на прошлое: 'I used to believe in love' — раньше я верил в любовь, а теперь нет. И это не просто факт, это целая история.",
+    "Форма проста в утверждении: used to + голый инфинитив, для всех лиц одинаково: I used to smoke, she used to live in Rome, they used to play tennis. Но вопросы и отрицания — это место, где сыплются все, и вот почему. В утверждении стоит used с буквой d. А в вопросе и отрицании появляется did / didn't, который «забирает» прошедшее время себе — и хвостик d у use уходит: Did you use to live here? I didn't use to like coffee. То есть в утверждении used, в вопросе/отрицании use без d. Это зеркало того же правила, что с Past Simple (did + голый глагол): один маркер прошлого на предложение, и раз did уже его несёт, второй не нужен. В романах Уилки Коллинза герои часто спрашивали: 'Did you use to know him?' — и это звучало как вопрос о целой эпохе.",
+    "Самая коварная вещь темы — то, что рядом живут две совершенно другие конструкции с похожими словами, и студенты их сливают в одну кашу. be used to + V‑ing означает «привык к чему‑то» как состояние сейчас: I'm used to getting up early (мне не в новинку, я привык). get used to + V‑ing означает «привыкаю / привыкнуть» как процесс: I can't get used to the cold (никак не привыкну к холоду). Обе требуют после себя герундий (‑ing), а не инфинитив, и обе про настоящее/процесс, а не про «раньше было». То есть used to + инфинитив = «раньше делал, теперь нет»; be used to + ‑ing = «привык сейчас»; get used to + ‑ing = «привыкаю». Три разных смысла, три разные формы. В романах Чарльза Диккенса герои всегда 'used to live' в прошлом и 'got used to' своему настоящему положению — и эта разница была для них судьбой."
   ],
-  "note": "used to be / used to sit / didn't use to like — прошлые привычки и состояния, которых больше нет; got used to it / get used to getting up — «привык / привыкаю» (be/get used to + ‑ing), это уже про сейчас и процесс."
- },
- "russianAngle": [
-  " «Раньше я курил / раньше мы жили в Риме». used to + инфинитив: I used to smoke. We used to live in Rome. Русское «раньше» — главный сигнал конструкции.",
-  " «Я обычно хожу пешком» (привычка сейчас). Present Simple + usually: I usually walk. НЕ used to — привычка никуда не делась.",
-  " «Я привык к холоду» / «никак не привыкну». be used to + ‑ing (I'm used to the cold / to getting up early) и get used to + ‑ing (I can't get used to it). Это НЕ про «раньше».",
-  " В вопросе/отрицании «раньше» по-русски не меняет форму. Did you use to…? / I didn't use to… — без d у use, потому что did уже забрал прошедшее."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: used to = прошлая привычка/состояние, которых больше нет; настоящего нет.",
-   "Запомни форму: утверждение — used to + V1; вопрос/отрицание — did/didn't + use to + V1 (без d).",
-   "Разведи три конструкции: used to + V1 (раньше), be used to + ‑ing (привык), get used to + ‑ing (привыкаю).",
-   "Лови сигнал «раньше / когда‑то / больше не» — это used to.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Говорить о прошлых привычках, которых больше нет: I used to play tennis.",
+    "Описывать прошлые состояния, которые изменились: She used to live in Rome.",
+    "Противопоставлять «раньше» и «сейчас»: I didn't use to like coffee, but now I do.",
+    "Не путать used to с be used to / get used to + ‑ing."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — раскрой скобки (used to / didn't use to / be/get used to):",
-   "items": [
-    { "q": "I ___ (hate) mornings, but now I love them.", "a": "used to hate — прошлое состояние, которого больше нет." },
-    { "q": "He ___ (not / wear) glasses as a child.", "a": "didn't use to wear — отрицание, без d у use." },
-    { "q": "___ you ___ (live) here before?", "a": "Did you use to live — вопрос, без d у use." },
-    { "q": "I'm ___ (get) used to ___ (work) from home.", "a": "getting … working — процесс «привыкаю» + герундий." },
-    { "q": "She ___ (usually / walk) to work. (привычка сейчас)", "a": "usually walks — Present Simple, НЕ used to." }
-   ]
-  }
- },
- "formula": "used to + V1 · didn't use to + V1 · Did … use to + V1?",
- "structure": {
-  "positive": "I used to smoke.",
-  "negative": "I didn't use to smoke.",
-  "question": "Did you use to smoke?"
- },
- "markers": ["used to", "didn't use to", "Did … use to", "but now", "as a child", "before"],
- "uses": [
-  "Прошлая привычка: I used to play tennis (теперь не играю).",
-  "Прошлое состояние: She used to live in Rome.",
-  "Контраст «раньше vs сейчас»: I didn't use to like coffee, but now I do."
- ],
- "rules": [
-  { "title": "Только прошлое", "text": "used to говорит о том, чего сейчас нет. Для настоящей привычки — Present Simple + usually/often: I usually walk (не I use to walk)." },
-  { "title": "d в утверждении, без d в вопросе/отрицании", "text": "Утверждение: used to (с d). После did / didn't хвостик -d уходит: Did you USE to…? / I didn't USE to… — did уже забрал прошедшее." },
-  { "title": "Не путай с be/get used to", "text": "be used to + V‑ing = «привык к» (сейчас); get used to + V‑ing = «привыкаю» (процесс). Обе требуют герундий, а не инфинитив." }
- ],
- "examples": [
-  {
-   "group": "Прошлые привычки",
-   "items": [
-    { "en": "I used to play tennis every weekend.", "ru": "Раньше я играл в теннис каждые выходные.", "highlight": ["used to play"] },
-    { "en": "We used to go to the sea in summer.", "ru": "Раньше летом мы ездили на море.", "highlight": ["used to go"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "You're so different now! Did you use to be so serious? — I used to be very serious, yes. But I didn't use to enjoy life. Now I do.",
+        "ru": "Ты так изменился! Ты раньше был таким серьёзным? — Да, раньше я был очень серьёзным. Но раньше я не умел радоваться жизни. Теперь умею." },
+      { "en": "I used to live in a small village, but I got used to the city. Now I can't imagine living anywhere else.",
+        "ru": "Раньше я жил в маленькой деревне, но я привык к городу. Теперь не представляю жизни где-либо ещё." },
+      { "en": "Did you use to read a lot as a child? — Yes, I used to read every evening. I didn't use to watch TV at all.",
+        "ru": "Ты раньше много читал в детстве? — Да, я читал каждый вечер. Раньше я вообще не смотрел телевизор." }
+    ],
+    "note": "used to be / used to live / didn't use to enjoy — прошлые привычки и состояния, которых больше нет; got used to — «привык» (be/get used to + ‑ing)."
   },
-  {
-   "group": "Прошлые состояния",
-   "items": [
-    { "en": "She used to live in Rome.", "ru": "Раньше она жила в Риме.", "highlight": ["used to live"] },
-    { "en": "There used to be a cinema here.", "ru": "Раньше здесь был кинотеатр.", "highlight": ["used to be"] }
-   ]
+  "russianAngle": [
+    "«Раньше я курил / раньше мы жили в Риме». used to + инфинитив: I used to smoke. We used to live in Rome. Русское «раньше» — главный сигнал конструкции.",
+    "«Я обычно хожу пешком» (привычка сейчас). Present Simple + usually: I usually walk. НЕ used to — привычка никуда не делась.",
+    "«Я привык к холоду» / «никак не привыкну». be used to + ‑ing (I'm used to the cold / to getting up early) и get used to + ‑ing (I can't get used to it). Это НЕ про «раньше».",
+    "В вопросе/отрицании «раньше» по-русски не меняет форму. Did you use to…? / I didn't use to… — без d у use, потому что did уже забрал прошедшее."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Пойми идею: used to = прошлая привычка/состояние, которых больше нет; настоящего нет.",
+      "Запомни форму: утверждение — used to + V1; вопрос/отрицание — did/didn't + use to + V1 (без d).",
+      "Разведи три конструкции: used to + V1 (раньше), be used to + ‑ing (привык), get used to + ‑ing (привыкаю).",
+      "Лови сигнал «раньше / когда‑то / больше не» — это used to.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Попробуй сам — раскрой скобки (used to / didn't use to / be/get used to):",
+      "items": [
+        { "q": "I ___ (hate) mornings, but now I love them.", "a": "used to hate — прошлое состояние, которого больше нет." },
+        { "q": "He ___ (not / wear) glasses as a child.", "a": "didn't use to wear — отрицание, без d у use." },
+        { "q": "___ you ___ (live) here before?", "a": "Did you use to live — вопрос, без d у use." },
+        { "q": "I'm ___ (get) used to ___ (work) from home.", "a": "getting … working — процесс «привыкаю» + герундий." },
+        { "q": "She ___ (usually / walk) to work. (привычка сейчас)", "a": "usually walks — Present Simple, НЕ used to." }
+      ]
+    }
   },
-  {
-   "group": "Отрицание и вопрос (без d)",
-   "items": [
-    { "en": "He didn't use to wear glasses.", "ru": "Раньше он не носил очки.", "highlight": ["didn't use to wear"] },
-    { "en": "Did you use to live here?", "ru": "Ты раньше здесь жил?", "highlight": ["Did", "use to live"] }
-   ]
+  "formula": "used to + V1 · didn't use to + V1 · Did … use to + V1?",
+  "structure": {
+    "positive": "I used to smoke.",
+    "negative": "I didn't use to smoke.",
+    "question": "Did you use to smoke?"
   },
-  {
-   "group": "Контраст с «сейчас»",
-   "items": [
-    { "en": "I didn't use to like coffee, but now I do.", "ru": "Раньше я не любил кофе, а теперь люблю.", "highlight": ["didn't use to like"] },
-    { "en": "I used to hate mornings — now I love them.", "ru": "Раньше я ненавидел утро — теперь обожаю.", "highlight": ["used to hate"] }
-   ]
+  "markers": ["used to", "didn't use to", "Did … use to", "but now", "as a child", "before"],
+  "uses": [
+    "Прошлая привычка: I used to play tennis (теперь не играю).",
+    "Прошлое состояние: She used to live in Rome.",
+    "Контраст «раньше vs сейчас»: I didn't use to like coffee, but now I do."
+  ],
+  "rules": [
+    { "title": "Только прошлое",
+      "text": "used to говорит о том, чего сейчас нет. Для настоящей привычки — Present Simple + usually/often: I usually walk (не I use to walk)." },
+    { "title": "d в утверждении, без d в вопросе/отрицании",
+      "text": "Утверждение: used to (с d). После did / didn't хвостик -d уходит: Did you USE to…? / I didn't USE to… — did уже забрал прошедшее." },
+    { "title": "Не путай с be/get used to",
+      "text": "be used to + V‑ing = «привык к» (сейчас); get used to + V‑ing = «привыкаю» (процесс). Обе требуют герундий, а не инфинитив." }
+  ],
+  "examples": [
+    {
+      "group": "Прошлые привычки",
+      "items": [
+        { "en": "I used to play tennis every weekend, but now I don't have time.", "ru": "Раньше я играл в теннис каждые выходные, а теперь у меня нет времени.", "highlight": ["used to play"] },
+        { "en": "We used to go to the sea every summer when we were children.", "ru": "Раньше мы ездили на море каждое лето, когда были детьми.", "highlight": ["used to go"] },
+        { "en": "He used to smoke a pack a day, but he quit five years ago.", "ru": "Раньше он выкуривал пачку в день, но бросил пять лет назад.", "highlight": ["used to smoke"] }
+      ]
+    },
+    {
+      "group": "Прошлые состояния",
+      "items": [
+        { "en": "She used to live in a small flat in the city centre.", "ru": "Раньше она жила в маленькой квартире в центре города.", "highlight": ["used to live"] },
+        { "en": "There used to be a cinema on this street.", "ru": "Раньше на этой улице был кинотеатр.", "highlight": ["used to be"] },
+        { "en": "I used to be very shy when I was a teenager.", "ru": "Раньше я был очень застенчивым, когда был подростком.", "highlight": ["used to be"] }
+      ]
+    },
+    {
+      "group": "Отрицание и вопрос (без d)",
+      "items": [
+        { "en": "He didn't use to wear glasses, but now he does.", "ru": "Раньше он не носил очки, а теперь носит.", "highlight": ["didn't use to wear"] },
+        { "en": "Did you use to live in London before moving here?", "ru": "Ты раньше жил в Лондоне до переезда сюда?", "highlight": ["Did", "use to live"] },
+        { "en": "I didn't use to like this song, but now it's my favourite.", "ru": "Раньше мне не нравилась эта песня, а теперь она моя любимая.", "highlight": ["didn't use to like"] }
+      ]
+    },
+    {
+      "group": "Контраст с «сейчас»",
+      "items": [
+        { "en": "I didn't use to enjoy reading, but now I read every day.", "ru": "Раньше я не любил читать, а теперь читаю каждый день.", "highlight": ["didn't use to enjoy"] },
+        { "en": "I used to hate getting up early — now I love it.", "ru": "Раньше я ненавидел вставать рано — теперь я это обожаю.", "highlight": ["used to hate"] },
+        { "en": "She used to be a teacher, but now she's a writer.", "ru": "Раньше она была учителем, а теперь она писатель.", "highlight": ["used to be"] }
+      ]
+    },
+    {
+      "group": "be / get used to + ‑ing (не путать!)",
+      "items": [
+        { "en": "I'm used to getting up early now. It's not a problem anymore.", "ru": "Я уже привык рано вставать. Это больше не проблема.", "highlight": ["'m used to getting"] },
+        { "en": "She's not used to living in a big city. She finds it difficult.", "ru": "Она не привыкла жить в большом городе. Ей трудно.", "highlight": ["'s used to living"] },
+        { "en": "I can't get used to the cold weather here.", "ru": "Никак не привыкну к холодной погоде здесь.", "highlight": ["get used to"] },
+        { "en": "He's getting used to his new job slowly.", "ru": "Он потихоньку привыкает к новой работе.", "highlight": ["getting used to"] }
+      ]
+    },
+    {
+      "group": "Вопросы и отрицания в прошлом",
+      "items": [
+        { "en": "Did you use to visit your grandmother often?", "ru": "Ты раньше часто навещал свою бабушку?", "highlight": ["Did", "use to visit"] },
+        { "en": "We didn't use to have a car, so we walked everywhere.", "ru": "Раньше у нас не было машины, поэтому мы везде ходили пешком.", "highlight": ["didn't use to have"] },
+        { "en": "Didn't they use to live in that old house?", "ru": "Разве они раньше не жили в том старом доме?", "highlight": ["Didn't", "use to live"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I use to play football.", "right": "I used to play football.", "note": "В утверждении обязательно used (с d)." },
+    { "wrong": "Did you used to go?", "right": "Did you use to go?", "note": "После did — use без d." },
+    { "wrong": "I use to walk to work. (привычка сейчас)", "right": "I usually walk to work.", "note": "Настоящая привычка — Present Simple + usually." },
+    { "wrong": "I'm used to get up early.", "right": "I'm used to getting up early.", "note": "be used to требует герундий ‑ing." },
+    { "wrong": "I used to having a car.", "right": "I used to have a car.", "note": "used to (прошлое) — инфинитив, не ‑ing." },
+    { "wrong": "I didn't used to like coffee.", "right": "I didn't use to like coffee.", "note": "После didn't — use без d." }
+  ],
+  "compare": {
+    "title": "used to vs usually / be used to",
+    "leftLabel": "used to (прошлое, больше нет)",
+    "rightLabel": "usually / be used to",
+    "rows": [
+      { "left": "I used to run. (раньше, сейчас нет)", "right": "I usually run. (сейчас, по привычке)" },
+      { "left": "used to + инфинитив", "right": "be used to + ‑ing (привык сейчас)" },
+      { "left": "I used to live here. (раньше, сейчас нет)", "right": "I'm used to living here. (привык сейчас)" }
+    ]
   },
-  {
-   "group": "be / get used to + ‑ing (не путать!)",
-   "items": [
-    { "en": "I'm used to getting up early.", "ru": "Я привык рано вставать.", "highlight": ["'m used to getting"] },
-    { "en": "I can't get used to the cold.", "ru": "Никак не привыкну к холоду.", "highlight": ["get used to"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "I use to play football.", "right": "I used to play football.", "note": "В утверждении обязательно used (с d)." },
-  { "wrong": "Did you used to go?", "right": "Did you use to go?", "note": "После did — use без d." },
-  { "wrong": "I use to walk to work. (привычка сейчас)", "right": "I usually walk to work.", "note": "Настоящая привычка — Present Simple + usually." },
-  { "wrong": "I'm used to get up early.", "right": "I'm used to getting up early.", "note": "be used to требует герундий ‑ing." },
-  { "wrong": "I used to having a car.", "right": "I used to have a car.", "note": "used to (прошлое) — инфинитив, не ‑ing." }
- ],
- "compare": {
-  "title": "used to vs usually / be used to",
-  "leftLabel": "used to (прошлое, больше нет)",
-  "rightLabel": "usually / be used to",
-  "rows": [
-   { "left": "I used to run. (раньше, сейчас нет)", "right": "I usually run. (сейчас, по привычке)" },
-   { "left": "used to + инфинитив", "right": "be used to + ‑ing (привык сейчас)" }
+  "tips": [
+    "Мантра формы: утверждение — used (с d), вопрос/отрицание — use (без d). did уже «съел» прошедшее, второй маркер не нужен. Проверяй себя: видишь did/didn't — пиши use.",
+    "used to = «раньше да, сейчас нет». Если сейчас тоже правда — это НЕ used to, а usually/often + Present Simple. Спроси себя: привычка жива? Если да — used to не подходит.",
+    "Три конструкции держи как три полки: used to + инфинитив (прошлое), be used to + ‑ing (привык, состояние), get used to + ‑ing (привыкаю, процесс). Герундий ‑ing — маркер двух «привык»-конструкций; инфинитив — маркер «раньше».",
+    "Произношение снимает путаницу на слух: в used to буква d сливается с t, получается /ˈjuːst tə/ («юста»). Поэтому I used to и I didn't use to на слух почти одинаковы в хвосте — слушай didn't в начале, оно и есть ключ.",
+    "there used to be — живой способ сказать «раньше здесь было»: There used to be a shop here. Идеально для описаний изменившихся мест и ностальгии.",
+    "used to не имеет настоящего, но имеет «привык»-близнецов в настоящем — этим и коварно. Студент слышит used и лепит прошлое туда, где человек говорит «я привык» (I'm used to). Всегда смотри на be/get перед used.",
+    "usedn't to (I usedn't to like it) — старая британская форма отрицания без did. Встретишь в старой литературе — не пугайся, но в современной речи и на экзамене пиши didn't use to."
+  ],
+  "related": ["a1-past-simple", "a1-present-simple", "a2-modals-can-must-have-to", "a2-past-continuous"],
+  "quiz": [
+    {
+      "q": "I ___ play football as a child.",
+      "options": ["used to", "use to", "using to", "am used to"],
+      "answer": 0,
+      "why": "Утверждение о прошлой привычке — used to (с d): I used to play. use to без d — ошибка в утверждении."
+    },
+    {
+      "q": "Did you ___ live here?",
+      "options": ["used to", "use to", "using to", "uses to"],
+      "answer": 1,
+      "why": "В вопросе did уже несёт прошедшее время, поэтому use to без d: Did you use to live?"
+    },
+    {
+      "q": "She ___ smoke, but she quit.",
+      "options": ["used to", "use to", "is used to", "uses to"],
+      "answer": 0,
+      "why": "Утверждение — used to: She used to smoke. is used to = «привыкла к» (другая конструкция)."
+    },
+    {
+      "q": "I ___ walk to work now.",
+      "options": ["used to", "use to", "usually", "am used to"],
+      "answer": 2,
+      "why": "used to — только про прошлое. Привычка сейчас — usually: I usually walk to work."
+    },
+    {
+      "q": "He didn't ___ like coffee.",
+      "options": ["used to", "use to", "using to", "uses to"],
+      "answer": 1,
+      "why": "В отрицании didn't уже несёт время → use to без d: He didn't use to like coffee."
+    },
+    {
+      "q": "___ she ___ have long hair?",
+      "options": ["Did / used to", "Did / use to", "Does / use to", "Was / use to"],
+      "answer": 1,
+      "why": "Вопрос в прошлом — Did … use to (без d после Did): Did she use to have long hair?"
+    }
   ]
- },
- "tips": [
-  "Мантра формы: утверждение — used (с d), вопрос/отрицание — use (без d). did уже «съел» прошедшее, второй маркер не нужен. Проверяй себя: видишь did/didn't — пиши use.",
-  "used to = «раньше да, сейчас нет». Если сейчас тоже правда — это НЕ used to, а usually/often + Present Simple. Спроси себя: привычка жива? Если да — used to не подходит.",
-  "Три конструкции держи как три полки: used to + инфинитив (прошлое), be used to + ‑ing (привык, состояние), get used to + ‑ing (привыкаю, процесс). Герундий ‑ing — маркер двух «привык»-конструкций; инфинитив — маркер «раньше».",
-  "Произношение снимает путаницу на слух: в used to буква d сливается с t, получается /ˈjuːst tə/ («юста»). Поэтому I used to и I didn't use to на слух почти одинаковы в хвосте — слушай didn't в начале, оно и есть ключ.",
-  "there used to be — живой способ сказать «раньше здесь было»: There used to be a shop here. Идеально для описаний изменившихся мест и ностальгии.",
-  "used to не имеет настоящего, но имеет «привык»-близнецов в настоящем — этим и коварно. Студент слышит used и лепит прошлое туда, где человек говорит «я привык» (I'm used to). Всегда смотри на be/get перед used.",
-  "usedn't to (I usedn't to like it) — старая британская форма отрицания без did. Встретишь в старой литературе — не пугайся, но в современной речи и на экзамене пиши didn't use to."
- ],
- "related": ["a1-past-simple", "a2-modals-can-must-have-to", "a1-present-simple", "a2-past-continuous"],
- "quiz": [
-  {
-    "q": "I ___ play football as a child.",
-    "options": [
-            "used to",
-            "use to",
-            "using to",
-            "am used to"
-          ],
-    "answer": 0,
-    "why": "Утверждение о прошлой привычке — used to (с d): I used to play. use to без d — ошибка в утверждении."
-  },
-  {
-    "q": "Did you ___ live here?",
-    "options": [
-            "used to",
-            "use to",
-            "using to",
-            "uses to"
-          ],
-    "answer": 1,
-    "why": "В вопросе did уже несёт прошедшее время, поэтому use to без d: Did you use to live?"
-  },
-  {
-    "q": "She ___ smoke, but she quit.",
-    "options": [
-            "used to",
-            "use to",
-            "is used to",
-            "uses to"
-          ],
-    "answer": 0,
-    "why": "Утверждение — used to: She used to smoke. is used to = «привыкла к» (другая конструкция)."
-  },
-  {
-    "q": "I ___ walk to work now.",
-    "options": [
-            "used to",
-            "use to",
-            "usually",
-            "am used to"
-          ],
-    "answer": 2,
-    "why": "used to — только про прошлое. Привычка сейчас — usually: I usually walk to work."
-  },
-  {
-    "q": "He didn\u0027t ___ like coffee.",
-    "options": [
-            "used to",
-            "use to",
-            "using to",
-            "uses to"
-          ],
-    "answer": 1,
-    "why": "В отрицании didn\u0027t уже несёт время → use to без d: He didn\u0027t use to like coffee."
-  },
-  {
-    "q": "___ she ___ have long hair?",
-    "options": [
-            "Did / used to",
-            "Did / use to",
-            "Does / use to",
-            "Was / use to"
-          ],
-    "answer": 1,
-    "why": "Вопрос в прошлом — Did … use to (без d после Did): Did she use to have long hair?"
-  }
-]
 }

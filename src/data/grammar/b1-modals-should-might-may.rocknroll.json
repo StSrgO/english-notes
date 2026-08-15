@@ -1,0 +1,198 @@
+{
+  "variant": "rocknroll",
+  "slug": "b1-modals-should-might-may",
+  "level": "B1",
+  "title": "Modals: should / might / may",
+  "category": "Grammar",
+  "readingTime": 11,
+  "summary": "should — совет, might — возможность 30-50%, may — вероятность 50-70%. История о том, как The Rolling Stones рисковали всем ради одного концерта.",
+  "idea": [
+    "Алабама, 1969 год. The Rolling Stones планируют концерт перед 100 000 человек. Это тур, который должен сделать их величайшей группой мира. Но есть проблема: местные власти не хотят пускать группу. Адвокат группы говорит: «Вы должны получить разрешение от властей. Если вы этого не сделаете, полиция может остановить концерт». Мик Джаггер смотрит на менеджера: «Мы должны играть! Это самый важный концерт в нашей карьере. Если мы отменим, мы можем потерять всё».",
+    "Но есть и другая проблема: фанаты. Если группа не выступит, фанаты могут устроить беспорядки. Если полиция остановит концерт, всё может закончиться плохо. Мик говорит: «Мы могли бы отменить тур и уехать в Европу. Или мы могли бы сыграть и рискнуть всем». Менеджер отвечает: «Мик, ты не должен рисковать жизнью группы. Это может уничтожить нас». Но Мик решает играть. И концерт становится легендарным. Полиция не остановила их, фанаты были счастливы, и группа стала ещё больше.",
+    "Эта история — про модальные глаголы should, might и may. should — это совет или рекомендация. You should get permission from the authorities — вам следует получить разрешение от властей. might — это возможность (30-50%). The police might stop the concert — полиция может остановить концерт. may — это более высокая вероятность (50-70%). The fans may riot if we cancel — фанаты могут устроить беспорядки, если мы отменим. Разница в степени уверенности: should — совет, might — возможно, may — вероятно. Rolling Stones должны были рискнуть. Они могли бы потерять всё, если бы не сыграли. И они, возможно, стали легендами именно благодаря этому решению."
+  ],
+  "why": [
+    "Давать советы и рекомендации: You should play the concert.",
+    "Говорить о возможностях: The police might stop the show.",
+    "Выражать вероятность: The fans may riot.",
+    "Обсуждать варианты и альтернативы: We could cancel the tour."
+  ],
+  "context": {
+    "lines": [
+      { "en": "Mick: 'We should play the concert. It's the most important show of our career. If we cancel, we might lose everything.'",
+        "ru": "Мик: «Мы должны сыграть концерт. Это самое важное шоу в нашей карьере. Если мы отменим, мы можем потерять всё»." },
+      { "en": "Manager: 'You should get permission from the authorities. If you don't, the police may stop the concert.'",
+        "ru": "Менеджер: «Вам следует получить разрешение от властей. Если вы этого не сделаете, полиция может остановить концерт»." },
+      { "en": "Mick: 'We might cancel the tour and go to Europe. Or we might play and risk everything.'",
+        "ru": "Мик: «Мы могли бы отменить тур и уехать в Европу. Или мы могли бы сыграть и рискнуть всем»." }
+    ],
+    "note": "should — совет (should play). might — возможность (might lose). may — вероятность (may stop)."
+  },
+  "russianAngle": [
+    "В русском языке мы используем 'следует', 'можно', 'может быть'. В английском — should, might, may.",
+    "should = 'следует' (совет): You should play the concert.",
+    "might = 'может быть' (возможность 30-50%): He might come.",
+    "may = 'может' (вероятность 50-70%): She may be at home.",
+    "Ошибка: I should to go — неправильно. Нужно: I should go (без to)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни should = совет: You should do it.",
+      "Запомни might = возможно: He might come.",
+      "Запомни may = вероятно: She may be at home.",
+      "Запомни формулу: should/might/may + V1 (без to).",
+      "В отрицании: shouldn't, might not, may not.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте should, might или may (как в истории с Rolling Stones):",
+      "items": [
+        { "q": "You ___ play the concert. It's the most important show.", "a": "should" },
+        { "q": "The police ___ stop the show if we don't have permission.", "a": "might" },
+        { "q": "The fans ___ riot if we cancel the concert.", "a": "may" },
+        { "q": "You ___ not risk the band's future.", "a": "should" },
+        { "q": "We ___ cancel the tour if things get too dangerous.", "a": "might" }
+      ]
+    }
+  },
+  "formula": "should / might / may + V1 (инфинитив без to)",
+  "structure": {
+    "positive": "You should play the concert. He might come. She may be at home.",
+    "negative": "You shouldn't play the concert. He might not come. She may not be at home.",
+    "question": "Should I play the concert? Might he come? May she be at home?"
+  },
+  "markers": ["should", "shouldn't", "might", "might not", "may", "may not"],
+  "uses": [
+    "should — совет: You should play the concert.",
+    "might — возможность: He might not come.",
+    "may — вероятность: She may be at home.",
+    "should/ might/ may — все требуют V1 (без to)."
+  ],
+  "rules": [
+    { "title": "should — совет",
+      "text": "should используется для советов и рекомендаций. You should play the concert." },
+    { "title": "might — возможность",
+      "text": "might используется для выражения возможностей (30-50%). He might come." },
+    { "title": "may — вероятность",
+      "text": "may используется для выражения вероятности (50-70%). She may be at home." },
+    { "title": "Форма",
+      "text": "Все три глагола требуют инфинитив без to: should + V1, might + V1, may + V1." }
+  ],
+  "examples": [
+    {
+      "group": "should — советы",
+      "items": [
+        { "en": "You should play the concert. It's the most important show.", "ru": "Вам следует сыграть концерт. Это самое важное шоу.", "highlight": ["should play"] },
+        { "en": "We should get permission from the authorities.", "ru": "Нам следует получить разрешение от властей.", "highlight": ["should get"] },
+        { "en": "The band shouldn't take unnecessary risks.", "ru": "Группе не следует рисковать без необходимости.", "highlight": ["shouldn't take"] }
+      ]
+    },
+    {
+      "group": "might — возможности",
+      "items": [
+        { "en": "The police might stop the concert if we don't have permission.", "ru": "Полиция может остановить концерт, если у нас нет разрешения.", "highlight": ["might stop"] },
+        { "en": "We might lose everything if we cancel.", "ru": "Мы можем потерять всё, если отменим.", "highlight": ["might lose"] },
+        { "en": "He might not agree to the tour conditions.", "ru": "Он может не согласиться на условия тура.", "highlight": ["might not agree"] }
+      ]
+    },
+    {
+      "group": "may — вероятность",
+      "items": [
+        { "en": "The fans may riot if we don't play.", "ru": "Фанаты могут устроить беспорядки, если мы не сыграем.", "highlight": ["may riot"] },
+        { "en": "This may be the most important decision we make.", "ru": "Это может быть самое важное решение, которое мы примем.", "highlight": ["may be"] },
+        { "en": "The concert may become legendary if we pull it off.", "ru": "Концерт может стать легендарным, если мы вытянем.", "highlight": ["may become"] }
+      ]
+    },
+    {
+      "group": "should — отрицание",
+      "items": [
+        { "en": "You shouldn't cancel the concert without trying.", "ru": "Вам не следует отменять концерт, не попытавшись.", "highlight": ["shouldn't cancel"] },
+        { "en": "They shouldn't ignore the fans' wishes.", "ru": "Им не следует игнорировать желания фанатов.", "highlight": ["shouldn't ignore"] },
+        { "en": "We shouldn't risk the band's future on one show.", "ru": "Нам не следует рисковать будущим группы ради одного шоу.", "highlight": ["shouldn't risk"] }
+      ]
+    },
+    {
+      "group": "might/may — в прошлом",
+      "items": [
+        { "en": "They might have lost everything if the police had stopped it.", "ru": "Они могли бы потерять всё, если бы полиция остановила это.", "highlight": ["might have lost"] },
+        { "en": "The concert may have been the highlight of their career.", "ru": "Концерт мог быть главным событием их карьеры.", "highlight": ["may have been"] },
+        { "en": "He might have made a different decision if he had known.", "ru": "Он мог бы принять другое решение, если бы знал.", "highlight": ["might have made"] }
+      ]
+    },
+    {
+      "group": "Сравнение should / might / may",
+      "items": [
+        { "en": "Should: You should play the concert. (совет)", "ru": "Should: Тебе следует сыграть концерт.", "highlight": ["should"] },
+        { "en": "Might: We might play the concert. (возможно, 30-50%)", "ru": "Might: Мы, возможно, сыграем концерт.", "highlight": ["might"] },
+        { "en": "May: We may play the concert. (вероятно, 50-70%)", "ru": "May: Мы, вероятно, сыграем концерт.", "highlight": ["may"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I should to go.", "right": "I should go.", "note": "После should не нужен to." },
+    { "wrong": "He mights come.", "right": "He might come.", "note": "might не меняется по лицам." },
+    { "wrong": "She mayes be at home.", "right": "She may be at home.", "note": "may не меняется по лицам." },
+    { "wrong": "I shouldn't to drink.", "right": "I shouldn't drink.", "note": "После shouldn't не нужен to." },
+    { "wrong": "He might to come.", "right": "He might come.", "note": "После might не нужен to." },
+    { "wrong": "She may to be late.", "right": "She may be late.", "note": "После may не нужен to." }
+  ],
+  "compare": {
+    "title": "should vs might vs may",
+    "leftLabel": "should (совет)",
+    "centerLabel": "might (возможность 30-50%)",
+    "rightLabel": "may (вероятность 50-70%)",
+    "rows": [
+      { "left": "You should play.", "center": "We might play.", "right": "We may play." },
+      { "left": "Совет", "center": "Возможно", "right": "Вероятно" },
+      { "left": "You should risk it.", "center": "We might risk it.", "right": "We may risk it." }
+    ]
+  },
+  "tips": [
+    "should = совет: You should do it.",
+    "might = возможно (30-50%): He might come.",
+    "may = вероятно (50-70%): She may be at home.",
+    "Запомни формулу: should/might/may + V1 (без to).",
+    "В отрицании: shouldn't, might not, may not.",
+    "might/may можно использовать в прошлом: might have + V3.",
+    "should не имеет формы прошедшего времени — используется should have + V3."
+  ],
+  "related": ["b1-modals-can-must-have-to", "b1-first-conditional", "b1-passive-voice-simple"],
+  "quiz": [
+    {
+      "q": "You ___ play the concert. It's the most important show.",
+      "options": ["should", "might", "may", "should to"],
+      "answer": 0,
+      "why": "should — совет. You should play the concert."
+    },
+    {
+      "q": "The police ___ stop the concert if we don't have permission.",
+      "options": ["should", "might", "may", "should to"],
+      "answer": 1,
+      "why": "might — возможность (не уверен). The police might stop the concert."
+    },
+    {
+      "q": "The fans ___ riot if we cancel the concert.",
+      "options": ["should", "might", "may", "should to"],
+      "answer": 2,
+      "why": "may — вероятность (уверен, но не на 100%). The fans may riot."
+    },
+    {
+      "q": "You ___ cancel the concert without trying.",
+      "options": ["should", "shouldn't", "might", "may"],
+      "answer": 1,
+      "why": "shouldn't — отрицание should. You shouldn't cancel."
+    },
+    {
+      "q": "We ___ cancel the tour if things get too dangerous.",
+      "options": ["should", "might", "may", "should to"],
+      "answer": 1,
+      "why": "might — возможность (ещё не решили). We might cancel."
+    },
+    {
+      "q": "This ___ be the most important decision we make.",
+      "options": ["should", "might", "may", "should to"],
+      "answer": 2,
+      "why": "may — вероятность (уверен, но не на 100%). This may be the most important decision."
+    }
+  ]
+}

@@ -1,208 +1,203 @@
 {
- "slug": "b1-reported-speech",
- "title": "Reported Speech (вводно)",
- "level": "B1",
- "category": "Other",
- "readingTime": 12,
- "summary": "Передаём чужие слова от своего лица: времена сдвигаются на шаг назад, местоимения и маркеры времени меняются, вопросы становятся утверждениями по форме, команды — через told + to.",
- "idea": [
-  "Косвенная речь — это искусство пересказать чужие слова от своего лица, и главная идея здесь одна, но мощная: когда ты передаёшь сказанное позже, ты как бы смотришь на него из настоящего в прошлое, и поэтому все времена внутри цитаты сдвигаются на один шаг назад. Это и есть «стрелка назад», которая управляет всей темой. Present Simple уходит в Past Simple: 'I like jazz' → He said he liked jazz. Present Continuous — в Past Continuous: 'I'm working' → She said she was working. Present Perfect и Past Simple оба уходят в Past Perfect: 'I've finished' / 'I finished' → He said he had finished. will превращается в would, can в could, а must — в had to, потому что у must нет прошедшей формы. Нарисуй один раз эту стрелку и применяй её ко всему глаголу в цитате — и сдвиг сделан механически, без зубрёжки каждого случая.",
-  "Но времена — только половина работы. Вторая половина — это местоимения и маркеры времени и места, которые тоже надо пересобрать под новую точку зрения, потому что «я», «здесь» и «завтра» прямой речи становятся «он/она», «там» и «на следующий день» в пересказе. I → he/she, my → his/her, we → they; today → that day, yesterday → the day before, tomorrow → the next day или the following day, now → then, here → there, this → that, ago → before, last week → the week before. Русскоговорящий часто забывает этот слой, потому что по‑русски мы тоже меняем местоимения, но маркеры времени в косвенной речи по‑русски часто оставляем как есть — а английский требует сдвига, и «он сказал, что приедёт завтра» в учёбе ждут как he said he would come the next day.",
-  "Третья и самая болезненная часть — косвенные вопросы, и именно здесь ломается большинство. Прямой вопрос 'Where do you live?' в косвенной речи теряет всю свою вопросительную форму: уходит do, уходит инверсия, порядок слов становится прямым, как в утверждении, и время сдвигается — She asked where I lived (не where do I live и не where did I live). Вопросы да/нет передаются через if или whether: 'Are you ready?' → He asked if I was ready. Запомни как закон: после asked в косвенном вопросе порядок утверждения, без do/does/did, без знака вопроса в интонации. И наконец команды и просьбы: повелительное наклонение передаётся через told / asked / ordered + объект + (not) to + V: 'Sit down' → He told me to sit down; 'Don't be late' → She asked me not to be late. Отдельно держи пару say/tell: tell всегда требует адресата (told me, told us), say — без дополнения‑кому (said that… или просто said). Если унести одну мысль: косвенная речь = стрелка времён назад + пересборка местоимений и маркеров + вопросы в форме утверждения + команды через told/asked + to."
- ],
- "why": [
-  "Пересказывать чужие утверждения: He said he was tired. She told me she had finished.",
-  "Передавать чужие вопросы: She asked where I lived. He asked if I was ready.",
-  "Передавать команды и просьбы: He told me to wait. She asked me not to shout.",
-  "Понимать, когда сдвиг времён не нужен (факты, всё ещё актуальное)."
- ],
- "context": {
-  "lines": [
-   { "en": "So what did Mark say about the trip?", "ru": "Ну и что Марк сказал про поездку?" },
-   { "en": "He said he was really excited, but he was worried about the cost.", "ru": "Сказал, что очень рад, но переживает из-за стоимости." },
-   { "en": "Did he ask if we were coming?", "ru": "Он спросил, едем ли мы?" },
-   { "en": "Yes — he asked whether we had booked anything yet.", "ru": "Да — спросил, забронировали ли мы уже что-нибудь." },
-   { "en": "And he told us to decide by Friday, didn't he?", "ru": "И велел нам решить до пятницы, верно?" },
-   { "en": "Right. He also said the Earth is round, just in case we forgot — ha!", "ru": "Верно. А ещё сказал, что Земля круглая, на случай если мы забыли — ха!" }
+  "variant": "classic",
+  "slug": "b1-reported-speech",
+  "level": "B1",
+  "title": "Reported Speech (intro)",
+  "category": "Grammar",
+  "readingTime": 11,
+  "summary": "Косвенная речь — передача чужих слов. История о том, как Трумен Капоте дал интервью, которое изменило мнение о нём в литературном мире.",
+  "idea": [
+    "1966 год, Нью-Йорк. Трумен Капоте, автор «Хладнокровного убийства», даёт интервью журналу «Playboy». Журналист спрашивает его о современной литературе. Капоте говорит: «I consider some of my colleagues to be mediocre writers. I think literary criticism is a waste of time». Интервью выходит, и литературный мир взрывается. Другие писатели читают интервью и говорят: «Капоте сказал, что мы посредственные писатели». На самом деле он сказал не это.",
+    "Журналист пересказывает слова Капоте. Он пишет: «Капоте сказал, что считает большинство современных писателей посредственными». Капоте говорит своей подруге: «I didn't say that. I said I find some writers overrated, not mediocre». Его адвокат говорит: «He told me he was misquoted. He said he would sue the magazine». История о том, как слова одного человека передаются, искажаются и меняют смысл. Это и есть косвенная речь.",
+    "Reported Speech — это передача чужих слов. Прямая речь: «I am a writer», — сказал Капоте. Косвенная речь: He said that he was a writer. Времена сдвигаются назад: am → was, will → would, have done → had done. Местоимения меняются: I → he, my → his. Вопросы становятся с if/whether: «Are you a writer?» → He asked if he was a writer. Просьбы становятся с to: «Please, don't quote me» → He asked me not to quote him."
   ],
-  "note": "he said he was / he was worried — сдвиг Present→Past; he asked if we were coming / whether we had booked — косвенные вопросы в форме утверждения (if/whether, без do, порядок прямой, время сдвинуто); he told us to decide — команда через told + to; he said the Earth is round — общий факт, сдвиг НЕ нужен (осталось Present)."
- },
- "russianAngle": [
-  " В русской косвенной речи времена часто не меняются: «он сказал, что любит джаз» (настоящее остаётся). В английском учёба ждёт сдвига: He said he liked jazz. Русское «не меняю время» — частая ошибка.",
-  " «Она спросила, где я живу» — порядок слов как в вопросе по-русски возможен. She asked where I lived — порядок УТВЕРЖДЕНИЯ, без do, без инверсии, время сдвинуто.",
-  " «Он велел мне подождать». He told me to wait — команда через told + объект + to + V; запрет — told me not to be late.",
-  " say и tell по-русски оба «сказать». tell + КОМУ (told me), say + that / без кому (said that…). Команды — только через tell/ask + to."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: стрелка времён на шаг назад + пересборка местоимений/маркеров + вопросы как утверждения + команды через told + to.",
-   "Выучи стрелку: Present→Past, Past→Past Perfect, will→would, can→could, must→had to.",
-   "Запомни маркеры: today→that day, yesterday→the day before, tomorrow→the next day, now→then, here→there.",
-   "Косвенный вопрос = порядок утверждения, без do/does/did; да/нет → if/whether.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Передавать чужие слова: He said that...",
+    "Пересказывать интервью и истории: She told me...",
+    "Сообщать новости: The journalist reported that...",
+    "Передавать просьбы и приказы: He asked me to..."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — передай в косвенной речи:",
-   "items": [
-    { "q": "'I like jazz,' he said. → He said he ___ (like) jazz.", "a": "liked — Present Simple → Past Simple." },
-    { "q": "'Where do you live?' she asked. → She asked where I ___.", "a": "lived — косвенный вопрос: порядок утверждения, без do, Past Simple." },
-    { "q": "'Have you finished?' he asked. → He asked if I ___.", "a": "had finished — Present Perfect → Past Perfect, да/нет → if." },
-    { "q": "'Wait here,' she told me. → She told me ___ there.", "a": "to wait — команда через told + to; here → there." },
-    { "q": "'The Earth is round,' he said. → He said the Earth ___ round.", "a": "is — общий факт, сдвиг не нужен." }
-   ]
-  }
- },
- "formula": "He said (that) + предложение со сдвигом времён",
- "structure": {
-  "positive": "He said (that) he was tired.",
-  "negative": "She said she didn't know.",
-  "question": "He asked if I was ready."
- },
- "markers": ["said (that)", "told me (that)", "asked", "wanted to know", "if / whether", "the next day", "the day before"],
- "uses": [
-  "Чужое утверждение: 'I like coffee' → He said he liked coffee.",
-  "Чужой вопрос: 'Where do you live?' → She asked where I lived.",
-  "Чужая команда: 'Sit down' → He told me to sit down.",
-  "Мысли и обещания: 'I will help' → She promised she would help."
- ],
- "rules": [
-  { "title": "Сдвиг времён на шаг назад", "text": "Present Simple → Past Simple; Present Continuous → Past Continuous; Past Simple → Past Perfect; will → would; can → could; must → had to; am/is/are going to → was/were going to." },
-  { "title": "Местоимения и маркеры", "text": "I → he/she, my → his/her; today → that day, yesterday → the day before, tomorrow → the next day, now → then, here → there, this → that." },
-  { "title": "Косвенный вопрос — не вопрос по форме", "text": "Никаких do/does/did и никакой инверсии: порядок как в утверждении. She asked where I lived. Вопросы да/нет — через if/whether: He asked if I was ready." },
-  { "title": "say vs tell", "text": "tell всегда с адресатом (told me, told us); say — без дополнения-кому (said that…). Команды: told me to sit down / told me not to go." }
- ],
- "examples": [
-  {
-   "group": "Утверждения со сдвигом времён",
-   "items": [
-    { "en": "He said he liked jazz. (прямо: 'I like jazz')", "ru": "Он сказал, что любит джаз.", "highlight": ["said", "liked"] },
-    { "en": "She said she was working. (прямо: 'I'm working')", "ru": "Она сказала, что работает.", "highlight": ["said", "was working"] },
-    { "en": "He said he had seen it. (прямо: 'I saw it' / 'I've seen it')", "ru": "Он сказал, что видел это.", "highlight": ["had seen"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "Capote: 'I consider some of my colleagues to be mediocre writers. I think literary criticism is a waste of time.'",
+        "ru": "Капоте: «Я считаю некоторых своих коллег посредственными писателями. Я считаю литературную критику пустой тратой времени»." },
+      { "en": "Journalist: 'He said that he considered some of his colleagues to be mediocre writers. He said that literary criticism was a waste of time.'",
+        "ru": "Журналист: «Он сказал, что считает некоторых своих коллег посредственными писателями. Он сказал, что литературная критика — пустая трата времени»." },
+      { "en": "Capote's friend: 'He told me he was misquoted. He said he would sue the magazine if they didn't correct it.'",
+        "ru": "Друг Капоте: «Он сказал мне, что его неправильно процитировали. Он сказал, что подаст в суд на журнал, если они не исправят это»." }
+    ],
+    "note": "Direct: 'I consider...' → Reported: He said that he considered... (время сдвигается: present → past)."
   },
-  {
-   "group": "Косвенные вопросы (порядок утверждения)",
-   "items": [
-    { "en": "She asked where I worked. (прямо: 'Where do you work?')", "ru": "Она спросила, где я работаю.", "highlight": ["asked", "worked"] },
-    { "en": "He asked if I was ready. (прямо: 'Are you ready?')", "ru": "Он спросил, готов ли я.", "highlight": ["asked if", "was"] },
-    { "en": "They asked whether we had booked. (прямо: 'Have you booked?')", "ru": "Они спросили, забронировали ли мы.", "highlight": ["asked whether", "had booked"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы меняем время в косвенной речи только если это необходимо. В английском — всегда сдвигаем время назад.",
+    "Прямая речь: «Я иду», — сказал он. Косвенная: Он сказал, что идёт. В английском: He said that he was going.",
+    "Ошибка: He said that he is a writer — неправильно! Нужно: He said that he was a writer.",
+    "Запомни: сказал (said), что (that), затем предложение с сдвигом времени назад."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: сказал (said / told) + that + предложение.",
+      "Запомни сдвиг времён: Present → Past, Past → Past Perfect, will → would, can → could.",
+      "Запомни сдвиг местоимений: I → he/she, my → his/her, we → they.",
+      "Для вопросов: прямой вопрос → He asked if...",
+      "Для просьб: прямую просьбу → He asked me to...",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте прямую речь в косвенную (как в истории с Капоте):",
+      "items": [
+        { "q": "'I am a writer,' he said.", "a": "He said that he was a writer." },
+        { "q": "'I consider my colleagues mediocre,' he said.", "a": "He said that he considered his colleagues mediocre." },
+        { "q": "'I will sue the magazine,' he said.", "a": "He said that he would sue the magazine." },
+        { "q": "'Are you a writer?' he asked.", "a": "He asked if I was a writer." },
+        { "q": "'Don't quote me,' he told me.", "a": "He told me not to quote him." }
+      ]
+    }
   },
-  {
-   "group": "Команды и просьбы (told / asked + to)",
-   "items": [
-    { "en": "He told me to wait. (прямо: 'Wait!')", "ru": "Он велел мне подождать.", "highlight": ["told", "to wait"] },
-    { "en": "She asked me not to be late. (прямо: 'Don't be late!')", "ru": "Она попросила меня не опаздывать.", "highlight": ["asked", "not to be"] }
-   ]
+  "formula": "said / told + that + сдвиг времён",
+  "structure": {
+    "positive": "He said that he was a writer.",
+    "negative": "He said that he wasn't a writer.",
+    "question": "He asked if I was a writer."
   },
-  {
-   "group": "Когда сдвиг НЕ нужен (факт / актуально)",
-   "items": [
-    { "en": "He said the Earth is round.", "ru": "Он сказал, что Земля круглая (факт).", "highlight": ["is round"] },
-    { "en": "She said she lives in London. (и всё ещё живёт)", "ru": "Она сказала, что живёт в Лондоне (актуально).", "highlight": ["lives"] }
-   ]
+  "markers": ["said", "told", "asked", "that", "if", "whether", "to"],
+  "uses": [
+    "Передача утверждений: He said that he was a writer.",
+    "Передача вопросов: He asked if I was a writer.",
+    "Передача просьб и приказов: He asked me to write.",
+    "Передача отрицаний: He said that he wasn't a writer."
+  ],
+  "rules": [
+    { "title": "Сдвиг времён",
+      "text": "Present → Past (am → was, go → went), Past → Past Perfect (went → had gone), will → would, can → could." },
+    { "title": "Сдвиг местоимений",
+      "text": "I → he/she, my → his/her, we → they, our → their." },
+    { "title": "Вопросы",
+      "text": "Общие вопросы: 'Are you...?' → He asked if I was... Специальные вопросы: 'What are you...?' → He asked what I was..." },
+    { "title": "Просьбы и приказы",
+      "text": "'Write this' → He told me to write this. 'Don't write this' → He told me not to write this." }
+  ],
+  "examples": [
+    {
+      "group": "Передача слов — Капоте говорит",
+      "items": [
+        { "en": "He said, 'I am a writer.'", "ru": "Он сказал: «Я писатель».", "highlight": ["I am"] },
+        { "en": "He said that he was a writer.", "ru": "Он сказал, что он писатель.", "highlight": ["was"] },
+        { "en": "He said, 'I consider literary criticism a waste of time.'", "ru": "Он сказал: «Я считаю литературную критику пустой тратой времени».", "highlight": ["I consider"] },
+        { "en": "He said that he considered literary criticism a waste of time.", "ru": "Он сказал, что считает литературную критику пустой тратой времени.", "highlight": ["considered"] }
+      ]
+    },
+    {
+      "group": "Смена времён — сдвиг назад",
+      "items": [
+        { "en": "Direct: 'I am tired,' he said.", "ru": "Прямая речь: «Я устал», — сказал он.", "highlight": ["am"] },
+        { "en": "Reported: He said that he was tired.", "ru": "Косвенная речь: Он сказал, что устал.", "highlight": ["was"] },
+        { "en": "Direct: 'I will write a novel,' he said.", "ru": "Прямая речь: «Я напишу роман», — сказал он.", "highlight": ["will write"] },
+        { "en": "Reported: He said that he would write a novel.", "ru": "Косвенная речь: Он сказал, что напишет роман.", "highlight": ["would write"] }
+      ]
+    },
+    {
+      "group": "Передача вопросов",
+      "items": [
+        { "en": "Direct: 'Are you a writer?' he asked.", "ru": "Прямая речь: «Вы писатель?» — спросил он.", "highlight": ["Are you"] },
+        { "en": "Reported: He asked if I was a writer.", "ru": "Косвенная речь: Он спросил, писатель ли я.", "highlight": ["if I was"] },
+        { "en": "Direct: 'What are you writing?' he asked.", "ru": "Прямая речь: «Что вы пишете?» — спросил он.", "highlight": ["What are"] },
+        { "en": "Reported: He asked what I was writing.", "ru": "Косвенная речь: Он спросил, что я пишу.", "highlight": ["what I was"] }
+      ]
+    },
+    {
+      "group": "Передача просьб и приказов",
+      "items": [
+        { "en": "Direct: 'Please, don't quote me,' he said.", "ru": "Прямая речь: «Пожалуйста, не цитируйте меня», — сказал он.", "highlight": ["don't quote"] },
+        { "en": "Reported: He asked me not to quote him.", "ru": "Косвенная речь: Он попросил меня не цитировать его.", "highlight": ["not to quote"] },
+        { "en": "Direct: 'Write this down,' he told me.", "ru": "Прямая речь: «Запишите это», — сказал он мне.", "highlight": ["Write"] },
+        { "en": "Reported: He told me to write it down.", "ru": "Косвенная речь: Он сказал мне записать это.", "highlight": ["to write"] }
+      ]
+    },
+    {
+      "group": "Искажение смысла — слухи и сплетни",
+      "items": [
+        { "en": "Direct: 'I find some writers overrated,' he said.", "ru": "Прямая речь: «Я считаю некоторых писателей переоценёнными», — сказал он.", "highlight": ["I find"] },
+        { "en": "Reported: He said that he found some writers mediocre.", "ru": "Косвенная речь: Он сказал, что считает некоторых писателей посредственными.", "highlight": ["found"] },
+        { "en": "Direct: 'I don't like Hemingway's style,' he said.", "ru": "Прямая речь: «Мне не нравится стиль Хемингуэя», — сказал он.", "highlight": ["don't like"] },
+        { "en": "Reported: He said that he hated Hemingway's style.", "ru": "Косвенная речь: Он сказал, что ненавидит стиль Хемингуэя.", "highlight": ["hated"] }
+      ]
+    },
+    {
+      "group": "Сравнение Direct vs Reported",
+      "items": [
+        { "en": "Direct: 'I am a writer,' he said.", "ru": "Прямая: «Я писатель», — сказал он.", "highlight": ["I am"] },
+        { "en": "Reported: He said that he was a writer.", "ru": "Косвенная: Он сказал, что он писатель.", "highlight": ["he was"] },
+        { "en": "Direct: 'I will write a book,' she said.", "ru": "Прямая: «Я напишу книгу», — сказала она.", "highlight": ["I will"] },
+        { "en": "Reported: She said that she would write a book.", "ru": "Косвенная: Она сказала, что напишет книгу.", "highlight": ["she would"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "He said that he is a writer.", "right": "He said that he was a writer.", "note": "В косвенной речи время сдвигается назад: is → was." },
+    { "wrong": "He said that he will write a book.", "right": "He said that he would write a book.", "note": "will → would." },
+    { "wrong": "He said me that...", "right": "He told me that...", "note": "said — без объекта, told — с объектом (me, him, her)." },
+    { "wrong": "He asked that I was a writer.", "right": "He asked if I was a writer.", "note": "Вопросы — if/whether, не that." },
+    { "wrong": "He told me to not quote him.", "right": "He told me not to quote him.", "note": "Отрицание в просьбе: not to (а не to not)." },
+    { "wrong": "He said me to write it.", "right": "He told me to write it.", "note": "Просьба — told me to, не said me to." }
+  ],
+  "compare": {
+    "title": "Direct Speech vs Reported Speech",
+    "leftLabel": "Direct Speech (прямая речь)",
+    "rightLabel": "Reported Speech (косвенная речь)",
+    "rows": [
+      { "left": "He said: 'I am a writer.'", "right": "He said that he was a writer." },
+      { "left": "He said: 'I will write.'", "right": "He said that he would write." },
+      { "left": "He asked: 'Are you ready?'", "right": "He asked if I was ready." },
+      { "left": "He said: 'Don't quote me.'", "right": "He asked me not to quote him." }
+    ]
   },
-  {
-   "group": "say vs tell",
-   "items": [
-    { "en": "He told me he was tired.", "ru": "Он сказал мне, что устал.", "highlight": ["told me"] },
-    { "en": "He said that he was tired.", "ru": "Он сказал, что устал.", "highlight": ["said that"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "She asked where do I live.", "right": "She asked where I lived.", "note": "Косвенный вопрос — порядок утверждения, без do, со сдвигом." },
-  { "wrong": "He said that he will come.", "right": "He said that he would come.", "note": "will сдвигается в would при передаче позже." },
-  { "wrong": "He said me he was tired.", "right": "He told me he was tired.", "note": "say не берёт адресат без to; с адресатом — told." },
-  { "wrong": "She told me to don't be late.", "right": "She told me not to be late.", "note": "Отрицание команды — not to, не to don't." },
-  { "wrong": "He asked me if was I ready.", "right": "He asked me if I was ready.", "note": "Никакой инверсии в косвенном вопросе." }
- ],
- "compare": {
-  "title": "Direct vs Reported",
-  "leftLabel": "прямая речь",
-  "rightLabel": "косвенная речь",
-  "rows": [
-   { "left": "'I am tired,' he said.", "right": "He said he was tired." },
-   { "left": "'Where are you going?'", "right": "She asked where I was going." },
-   { "left": "'Wait!'", "right": "He told me to wait." }
+  "tips": [
+    "said — без объекта: He said that...",
+    "told — с объектом: He told me that...",
+    "Времена всегда сдвигаются назад в косвенной речи.",
+    "Вопросы становятся с if или whether.",
+    "Просьбы и приказы становятся с to + инфинитив.",
+    "Отрицание в просьбах: told me not to...",
+    "Запомни ключевые сдвиги: am → was, will → would, can → could, have done → had done."
+  ],
+  "related": ["b1-present-simple", "b1-past-simple", "b1-present-perfect"],
+  "quiz": [
+    {
+      "q": "He said that he ___ a writer.",
+      "options": ["was", "is", "will be", "has been"],
+      "answer": 0,
+      "why": "В косвенной речи is → was."
+    },
+    {
+      "q": "He said that he ___ write a novel.",
+      "options": ["would", "will", "is going to", "was going to"],
+      "answer": 0,
+      "why": "В косвенной речи will → would."
+    },
+    {
+      "q": "He asked ___ I was a writer.",
+      "options": ["if", "that", "what", "which"],
+      "answer": 0,
+      "why": "Вопросы в косвенной речи — if или whether."
+    },
+    {
+      "q": "He told me ___ quote him.",
+      "options": ["not to", "to not", "not", "to"],
+      "answer": 0,
+      "why": "Отрицание в просьбе: told me not to."
+    },
+    {
+      "q": "He said: 'I am tired.' → He said that he ___ tired.",
+      "options": ["was", "is", "were", "has been"],
+      "answer": 0,
+      "why": "am → was в косвенной речи."
+    },
+    {
+      "q": "He said: 'Don't quote me.' → He told me ___ quote him.",
+      "options": ["not to", "to not", "don't", "not"],
+      "answer": 0,
+      "why": "Отрицание в просьбе: told me not to."
+    }
   ]
- },
- "tips": [
-  "Нарисуй стрелку «одно время назад» и держи перед глазами: Present→Past→Past Perfect, will→would, can→could, must→had to. Применяй ко ВСЕМУ глаголу в цитате — и сдвиг сделан. Past Simple и Present Perfect оба падают в Past Perfect — не пугайся, это нормально.",
-  "Ошибка №1 — косвенный вопрос в форме вопроса. Запомни намертво: после asked порядок как в утверждении и без do/does/did. She asked what time it was (не what time was it); He asked if I had gone (не did I go).",
-  "say/tell держи парой: tell + КОМУ (told me, told us), say + that / без кому (said that…). Команды всегда через tell/ask + to: He told me to wait. Ошибка said me — мгновенно выдаёт.",
-  "Когда сдвиг НЕ нужен — и это важно знать, чтобы не переусердствовать: общие истины и факты (He said the Earth is round), и ситуации, которые всё ещё актуальны в момент пересказа (She said she lives in London — и всё ещё живёт). Здесь Present можно оставить.",
-  "Модальные без прошлого не сдвигаются дальше: could, would, should, might, ought to, had better, used to остаются как есть. He said I should go — should не меняется. Не пытайся сдвинуть то, что уже «в прошлом» по форме.",
-  "Маркеры времени — отдельный чек-лист, который забывают: yesterday→the day before, tomorrow→the next day, now→then, here→there, today→that day, ago→before. Прогоняй их по цитате так же внимательно, как времена.",
-  "Команды: отрицание через not to (told me not to go), а не to don't. И глаголы-синонимы для оттенков: ordered (приказал), warned (предупредил not to), advised (посоветовал to), begged (умолял to) — все по той же схеме + to / not to."
- ],
- "related": ["a1-past-simple", "a1-questions", "b1-present-perfect", "b1-gerund-vs-infinitive", "b1-passive-voice-simple"],
- "quiz": [
-  {
-    "q": "He said that he ___ tired.",
-    "options": [
-            "was",
-            "is",
-            "will be",
-            "be"
-          ],
-    "answer": 0,
-    "why": "В косвенной речи времена сдвигаются назад: is → was. He said that he was tired."
-  },
-  {
-    "q": "She asked me where I ___.",
-    "options": [
-            "do live",
-            "lived",
-            "live",
-            "living"
-          ],
-    "answer": 1,
-    "why": "Косвенный вопрос — не вопрос по форме (без do), и время сдвигается: where I lived, не where do I live."
-  },
-  {
-    "q": "He ___ me he was late.",
-    "options": [
-            "told",
-            "said",
-            "sayed",
-            "telled"
-          ],
-    "answer": 0,
-    "why": "С адресатом (me) — told, не said: He told me. said me — ошибка; sayed/telled не существуют."
-  },
-  {
-    "q": "She said she ___ the next day.",
-    "options": [
-            "will come",
-            "would come",
-            "comes",
-            "came"
-          ],
-    "answer": 1,
-    "why": "will в прямой речи → would в косвенной: She said she would come. the next day — маркер сдвига."
-  },
-  {
-    "q": "He asked if I ___ help him.",
-    "options": [
-            "could",
-            "can",
-            "will",
-            "may"
-          ],
-    "answer": 0,
-    "why": "can в прямой речи → could в косвенной: He asked if I could help him."
-  },
-  {
-    "q": "\u0027I like it,\u0027 she said. → She said she ___ it.",
-    "options": [
-            "liked",
-            "likes",
-            "like",
-            "liking"
-          ],
-    "answer": 0,
-    "why": "Present Simple → Past Simple в косвенной речи: She said she liked it."
-  }
-]
 }

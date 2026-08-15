@@ -1,189 +1,198 @@
 {
+  "variant": "classic",
   "slug": "b1-present-perfect",
-  "title": "Present Perfect",
   "level": "B1",
-  "category": "Tenses",
-  "readingTime": 7,
-  "summary": "Настоящее совершённое: have/has + V3. Действие произошло, но время не названо — важен результат сейчас. Книга ещё не закрыта, дело ещё открыто. Гамлет потерял веселье — и до сих пор мрачен.",
+  "title": "Present Perfect",
+  "category": "Grammar",
+  "readingTime": 11,
+  "summary": "Present Perfect — связь прошлого с настоящим. История о том, как Эрнест Хемингуэй написал «Старика и море» и изменил свою жизнь.",
   "idea": [
-    "«I have of late — but wherefore I know not — lost all my mirth» — Гамлет произносит это в Present Perfect: have lost. Он потерял веселье недавно, «с некоторых пор», и результат стоит перед нами прямо сейчас: принц мрачен, его друзья обеспокоены, действие ещё длится. Present Perfect — это язык открытых дел, недочитанных книг, незакрытых глав. I have read this book three times. She has travelled the world. We have seen many winters. Всё это уже произошло, но дата не важна — важен опыт, который у нас есть к настоящему моменту. Это не архив, это библиотека.",
-    "Строится Present Perfect из двух частей: have/has + V3 (третья форма глагола). Have — для I/you/we/they, has — для he/she/it. Для правильных глаголов V3 = V-ed: I have worked, she has played. Для неправильных — отдельная форма: go → gone, see → seen, read → read, lose → lost, be → been. I have seen the play. She has lost her key. They have read the book. Отрицание — not после have/has: I haven't read it. She hasn't called. Вопрос — вынос have/has: Have you read it? Has she called? У По ворон отвечает на все вопросы «Nevermore» — никогда больше. I have never heard such a word. А у Толкина Фродо говорит: «I have walked many paths» — я исходил много дорог. Опыт всей жизни на have/has + V3.",
-    "Главное отличие от Past Simple — дата. Если ты назвал когда (yesterday, in 1899) — это Past Simple, закрытая глава. Если не назвал, а важен результат или опыт — Present Perfect, открытое дело. I saw him yesterday (Past, дата есть) против I have seen him (Perfect, дата не важна). И ещё: Perfect нельзя ставить с маркерами Past (yesterday, last week). «I have seen him yesterday» — ошибка. Perfect живёт без дат, он про результат, а не про календарь."
+    "1952 год, Куба. Эрнест Хемингуэй, один из величайших писателей XX века, заканчивает свою новую книгу «Старик и море». Он смотрит на рукопись и говорит своей жене Мэри: «I have written the best book of my life». Он всегда мечтал о такой истории: о старом рыбаке, который борется с гигантской рыбой в открытом океане. Хемингуэй сказал: «I have always wanted to write about a real hero. I have finally done it». Он взял свою старую печатную машинку и написал книгу за несколько недель.",
+    "Книга принесла ему Пулитцеровскую премию в 1953 году и Нобелевскую премию по литературе в 1954 году. Хемингуэй говорил: «За всю свою жизнь I have never been so happy. I have written something that will be remembered forever». Он сказал Мэри: «I have never written anything like this. It's the best thing I have ever done». Книга была опубликована и стала бестселлером. Её читали миллионы людей по всему миру.",
+    "Present Perfect — это именно об этом: результат сейчас, связь прошлого с настоящим, опыт и важность того, что случилось. Формула: have/has + V3 (третья форма глагола). I have written the best book of my life. I have always wanted to write about a real hero. I have never been so happy. Это не просто прошлое — это прошлое, которое имеет значение сейчас. Как в истории с Хемингуэем: он написал книгу, и она изменила его жизнь. Результат сейчас — он счастлив, он известен, он сделал то, о чём мечтал."
   ],
   "why": [
-    "Рассказать о жизненном опыте: I have read War and Peace. She has been to Paris.",
-    "Сообщить о результате сейчас: I have lost my keys. She has finished the letter.",
-    "Сказать, что только что закончилось: I have just arrived. She has just called.",
-    "Спросить об опыте: Have you ever been to London? Have you ever seen such beauty?"
+    "Говорить о результате сейчас: I have written a book.",
+    "Делиться опытом: I have always wanted to be a writer.",
+    "Говорить о том, что произошло когда-то, но важно сейчас: I have never been so happy.",
+    "Связывать прошлое с настоящим: I have worked on this for 20 years."
   ],
   "context": {
     "lines": [
-      { "en": "Have you read the new novel?", "ru": "Ты читал новый роман?" },
-      { "en": "I have read it twice. It is quite good.", "ru": "Я прочёл его дважды. Весьма неплохо." },
-      { "en": "Have you ever met the author?", "ru": "А ты когда-нибудь встречал автора?" },
-      { "en": "I have met him once. He was quite charming.", "ru": "Встречал однажды. Он был весьма обаятелен." }
+      { "en": "Hemingway: 'Mary, I have written the best book of my life. I have never written anything like this. I have always wanted to tell this story.'",
+        "ru": "Хемингуэй: «Мэри, я написал лучшую книгу в своей жизни. Я никогда не писал ничего подобного. Я всегда хотел рассказать эту историю»." },
+      { "en": "Mary: 'Have you finished it already? I have never seen you so excited about a book.'",
+        "ru": "Мэри: «Ты уже закончил? Я никогда не видела тебя таким взволнованным из-за книги»." },
+      { "en": "Hemingway: 'I have finally done it. I have written something that people will remember forever.'",
+        "ru": "Хемингуэй: «Я наконец сделал это. Я написал то, что люди будут помнить вечно»." }
     ],
-    "note": "Все действия — опыт или результат: прочёл дважды, встречал однажды. Когда именно — не важно. Поэтому Present Perfect."
+    "note": "have written — результат сейчас; have always wanted — опыт; have never been — опыт; have finally done — результат."
   },
   "russianAngle": [
-    "В русском «я видел» покрывает и Past, и Perfect. В английском разводят: I saw him yesterday (Past, дата есть) против I have seen him (Perfect, дата не важна).",
-    "«Я был в Париже» — одна форма. В английском разные: I have been to Paris (опыт, когда-то) против I was in Paris last year (Past, дата есть).",
-    "«Я только что пришёл» — настоящее. В английском — Present Perfect: I have just arrived.",
-    "Вопрос «Ты бывал в Лондоне?» — Have you ever been to London? Ever = когда-нибудь."
+    "В русском языке мы используем прошедшее время: 'я написал книгу'. В английском Present Perfect — 'I have written a book' — когда результат важен сейчас.",
+    "Разница: I wrote a book last year (Past Simple) vs I have written a book (Present Perfect, результат важен).",
+    "Ошибка: I have written a book last year — неправильно! С указанием времени (last year) используем Past Simple.",
+    "Запомни: have/has + V3 — это Present Perfect. Без 'have/has' — это Past Simple."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: have/has + V3 (третья форма). Правильные = V-ed, неправильные — учи таблицу.",
-      "Have для I/you/we/they, has для he/she/it.",
-      "Отрицание — haven't/hasn't + V3: I haven't read. She hasn't called.",
-      "Вопрос — вынос have/has: Have you read? Has she called?",
-      "НЕ ставь Perfect с yesterday/last week — это маркеры Past Simple.",
-      "Сделай упражнение и сверься. Как писал Воннегут: so it goes."
+      "Запомни формулу: have/has + V3 (третья форма глагола).",
+      "Пойми: Present Perfect — это прошлое с результатом сейчас.",
+      "Запомни маркеры: ever, never, already, just, yet, for, since.",
+      "Сравни с Past Simple: есть время? Past Simple. Нет времени? Present Perfect.",
+      "Запомни неправильные глаголы: write → written, be → been.",
+      "Сделай упражнение ниже и сверься с ответами."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — раскрой скобки (Present Perfect или Past Simple):",
+      "prompt": "Раскрой скобки, используя Present Perfect (как в истории с Хемингуэем):",
       "items": [
-        { "q": "I ___ (read) this book three times.", "a": "have read — опыт, три раза, когда — не важно." },
-        { "q": "She ___ (finish) the report yesterday.", "a": "finished — yesterday → Past Simple." },
-        { "q": "___ you ever ___ (be) to America?", "a": "Have … been — ever = когда-нибудь → Perfect." },
-        { "q": "They ___ (just / arrive).", "a": "have just arrived — just → Perfect." },
-        { "q": "I ___ (lose) my keys. I can't find them now.", "a": "have lost — результат сейчас: ключей нет." }
+        { "q": "I ___ (write) the best book of my life.", "a": "have written" },
+        { "q": "I ___ (always / want) to tell this story.", "a": "have always wanted" },
+        { "q": "I ___ (never / be) so happy.", "a": "have never been" },
+        { "q": "___ you ___ (finish) the book already?", "a": "Have you finished" },
+        { "q": "I ___ (finally / do) what I wanted.", "a": "have finally done" }
       ]
     }
   },
-  "formula": "have/has + V3",
+  "formula": "have / has + V3 (третья форма глагола)",
   "structure": {
-    "positive": "I have read it. / She has read it.",
-    "negative": "I haven't read it. / She hasn't read it.",
-    "question": "Have you read it? / Has she read it?"
+    "positive": "I have written the book.",
+    "negative": "I haven't written the book.",
+    "question": "Have you written the book?"
   },
-  "markers": ["just", "already", "yet", "ever", "never", "since", "for", "recently", "lately", "so far"],
+  "markers": ["ever", "never", "already", "just", "yet", "for", "since", "always"],
   "uses": [
-    "Жизненный опыт: I have been to Paris. She has read War and Peace.",
-    "Результат в настоящем: I have lost my keys. (и сейчас их нет)",
-    "Действие только что закончилось: I have just finished.",
-    "Действие, которое длится до сих пор (с since/for): I have lived here for five years."
+    "Результат сейчас: I have written the book.",
+    "Опыт: I have never been so happy.",
+    "Неизвестное время: I have always wanted to tell this story.",
+    "Связь прошлого с настоящим: I have worked on this for 20 years."
   ],
   "rules": [
-    { "title": "have/has + V3", "text": "have для I/you/we/they, has для he/she/it. V3 — третья форма: правильные = V-ed, неправильные — учи таблицу (go → gone, see → seen, lose → lost)." },
-    { "title": "маркеры Perfect", "text": "just (только что), already (уже), yet (ещё, в вопросах и отрицаниях), ever (когда-нибудь), never (никогда), since (с какого-то момента), for (в течение)." },
-    { "title": "НЕ с маркерами Past", "text": "yesterday, last week, in 2010, ago — это маркеры Past Simple. I have seen him yesterday — ошибка. Правильно: I saw him yesterday." }
+    { "title": "have/has + V3",
+      "text": "С I, you, we, they — have. С he, she, it — has. V3 — третья форма глагола (неправильные глаголы нужно учить)." },
+    { "title": "Результат сейчас",
+      "text": "Present Perfect используется, когда результат действия важен сейчас, а не когда оно произошло. I have written a book." },
+    { "title": "Опыт",
+      "text": "Когда мы говорим о жизненном опыте: I have never been to Paris." },
+    { "title": "Связь с настоящим",
+      "text": "Когда действие в прошлом имеет значение сейчас: I have lost my keys (ключи всё ещё потеряны)." }
   ],
   "examples": [
     {
-      "group": "Литературный опыт",
+      "group": "Результат сейчас — я написал лучшую книгу",
       "items": [
-        { "en": "I have of late lost all my mirth.", "ru": "Я с некоторых пор потерял всякое веселье. Гамлет — Perfect с результатом сейчас.", "highlight": ["have", "lost"] },
-        { "en": "I have walked many paths.", "ru": "Я исходил много дорог. Толкин: опыт всей жизни.", "highlight": ["have walked"] },
-        { "en": "I have loved and been loved.", "ru": "Я любил и был любим. Опыт, который не закрыть.", "highlight": ["have loved", "been loved"] },
-        { "en": "I have seen things you wouldn't believe.", "ru": "Я видел то, во что ты не поверишь. Бегущий по лезвию, но в литературной традиции.", "highlight": ["have seen"] }
+        { "en": "I have written the best book of my life.", "ru": "Я написал лучшую книгу в своей жизни.", "highlight": ["have written"] },
+        { "en": "I have finally done what I always wanted.", "ru": "Я наконец сделал то, что всегда хотел.", "highlight": ["have done"] },
+        { "en": "I have created something that will last forever.", "ru": "Я создал что-то, что будет жить вечно.", "highlight": ["have created"] }
       ]
     },
     {
-      "group": "Результат сейчас",
+      "group": "Опыт — я всегда хотел рассказать эту историю",
       "items": [
-        { "en": "I have lost my keys.", "ru": "Я потерял ключи. И сейчас их нет.", "highlight": ["have lost"] },
-        { "en": "She has finished the letter.", "ru": "Она закончила письмо. Оно готово.", "highlight": ["has finished"] },
-        { "en": "The tea has gone cold.", "ru": "Чай остыл. Результат сейчас.", "highlight": ["has gone"] }
+        { "en": "I have always wanted to write about a real hero.", "ru": "Я всегда хотел написать о настоящем герое.", "highlight": ["have always wanted"] },
+        { "en": "I have never written anything like this.", "ru": "Я никогда не писал ничего подобного.", "highlight": ["have never written"] },
+        { "en": "I have dreamed of this story for years.", "ru": "Я мечтал об этой истории годами.", "highlight": ["have dreamed"] }
       ]
     },
     {
-      "group": "Только что и уже",
+      "group": "Неизвестное время — я никогда не был так счастлив",
       "items": [
-        { "en": "I have just arrived.", "ru": "Я только что пришёл. Just = только что.", "highlight": ["have just arrived"] },
-        { "en": "She has already left.", "ru": "Она уже ушла. Already = уже.", "highlight": ["has already left"] },
-        { "en": "Have you finished yet?", "ru": "Ты уже закончил? Yet в вопросах.", "highlight": ["Have", "yet"] }
+        { "en": "I have never been so happy.", "ru": "Я никогда не был так счастлив.", "highlight": ["have never been"] },
+        { "en": "I have never felt this way before.", "ru": "Я никогда раньше не чувствовал себя так.", "highlight": ["have never felt"] },
+        { "en": "I have seen nothing like this in my life.", "ru": "Я не видел ничего подобного в своей жизни.", "highlight": ["have seen"] }
       ]
     },
     {
-      "group": "Опыт (когда-нибудь / никогда)",
+      "group": "Уже/только что — я уже закончил",
       "items": [
-        { "en": "Have you ever been to New York?", "ru": "Ты бывал в Нью-Йорке? Ever = когда-нибудь.", "highlight": ["Have", "ever been"] },
-        { "en": "I have never seen such beauty.", "ru": "Я никогда не видел такой красоты. Never = никогда.", "highlight": ["have never seen"] },
-        { "en": "She has never lied to me.", "ru": "Она мне никогда не лгала.", "highlight": ["has never lied"] }
+        { "en": "I have already finished the final chapter.", "ru": "Я уже закончил последнюю главу.", "highlight": ["have already finished"] },
+        { "en": "I have just read the whole manuscript.", "ru": "Я только что прочитал всю рукопись.", "highlight": ["have just read"] },
+        { "en": "I haven't finished the corrections yet.", "ru": "Я ещё не закончил правки.", "highlight": ["haven't finished"] }
       ]
     },
     {
-      "group": "Длится до сих пор (since / for)",
+      "group": "for / since — я работал над этим 20 лет",
       "items": [
-        { "en": "I have lived here for five years.", "ru": "Я живу здесь пять лет (и до сих пор живу). For = в течение.", "highlight": ["have lived", "for"] },
-        { "en": "She has worked here since 2010.", "ru": "Она работает здесь с 2010 года. Since = с какого-то момента.", "highlight": ["has worked", "since"] },
-        { "en": "We have known each other for a long time.", "ru": "Мы знаем друг друга давно.", "highlight": ["have known", "for"] }
+        { "en": "I have wanted to tell this story for 20 years.", "ru": "Я хотел рассказать эту историю 20 лет.", "highlight": ["have wanted", "for"] },
+        { "en": "I have worked on this book since 1951.", "ru": "Я работал над этой книгой с 1951 года.", "highlight": ["have worked", "since"] },
+        { "en": "I have known Mary for a long time.", "ru": "Я знаю Мэри уже давно.", "highlight": ["have known", "for"] }
       ]
     },
     {
-      "group": "Вопросы и отрицания",
+      "group": "Сравнение Present Perfect vs Past Simple",
       "items": [
-        { "en": "Have you read this book?", "ru": "Ты читал эту книгу?", "highlight": ["Have you read"] },
-        { "en": "She hasn't called yet.", "ru": "Она ещё не позвонила.", "highlight": ["hasn't called"] },
-        { "en": "I haven't seen him since Monday.", "ru": "Я его не видел с понедельника.", "highlight": ["haven't seen"] }
+        { "en": "I have written the book. (результат сейчас)", "ru": "Я написал книгу. (результат сейчас)", "highlight": ["have written"] },
+        { "en": "I wrote the book last year. (конкретное время)", "ru": "Я написал книгу в прошлом году. (конкретное время)", "highlight": ["wrote"] },
+        { "en": "I have always wanted to be a writer. (опыт)", "ru": "Я всегда хотел быть писателем. (опыт)", "highlight": ["have always wanted"] },
+        { "en": "I wanted to be a writer when I was young. (конкретное прошлое)", "ru": "Я хотел быть писателем, когда был молодым. (конкретное прошлое)", "highlight": ["wanted"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "note": "yesterday — маркер Past Simple, не Perfect." },
-    { "wrong": "I have went to Paris.", "right": "I have been to Paris.", "note": "go → gone (или been для опыта), не went." },
-    { "wrong": "She has lose her keys.", "right": "She has lost her keys.", "note": "lose → lost, V3." },
-    { "wrong": "I have read this book last week.", "right": "I read this book last week.", "note": "last week — Past Simple." },
-    { "wrong": "Have you ever be to London?", "right": "Have you ever been to London?", "note": "be → been, V3." },
-    { "wrong": "I have am agree.", "right": "I agree.", "note": "agree — глагол, не Perfect." }
+    { "wrong": "I have written a book last year.", "right": "I wrote a book last year.", "note": "С указанием времени (last year) используем Past Simple." },
+    { "wrong": "I have wrote the book.", "right": "I have written the book.", "note": "write → wrote (Past Simple) → written (V3). В Present Perfect нужна V3." },
+    { "wrong": "I has written the book.", "right": "I have written the book.", "note": "С I — have, не has." },
+    { "wrong": "I have be happy.", "right": "I have been happy.", "note": "be → been (V3)." },
+    { "wrong": "I never have been so happy.", "right": "I have never been so happy.", "note": "never ставится между have/has и V3." },
+    { "wrong": "She have written a book.", "right": "She has written a book.", "note": "С she — has, не have." }
   ],
   "compare": {
     "title": "Present Perfect vs Past Simple",
-    "leftLabel": "Present Perfect",
-    "rightLabel": "Past Simple",
+    "leftLabel": "Present Perfect (результат сейчас)",
+    "rightLabel": "Past Simple (конкретное прошлое)",
     "rows": [
-      { "left": "I have seen him. (когда — не важно)", "right": "I saw him yesterday. (дата есть)" },
-      { "left": "Результат сейчас, время не названо", "right": "Действие в прошлом, время названо" },
-      { "left": "Открытое дело: have/has + V3", "right": "Закрытая глава: V2" },
-      { "left": "I have read War and Peace. (опыт)", "right": "I read it last summer. (дата)" }
+      { "left": "I have written the book. (важен результат)", "right": "I wrote the book last year. (важно время)" },
+      { "left": "I have been happy. (опыт)", "right": "I was happy when I finished. (конкретный момент)" },
+      { "left": "I have always wanted to be a writer. (опыт)", "right": "I wanted to be a writer when I was young. (конкретное прошлое)" },
+      { "left": "have/has + V3", "right": "V2 (вторая форма)" }
     ]
   },
   "tips": [
-    "Ever и never — маркеры опыта: Have you ever been to Paris? I have never been.",
-    "Just, already, yet — маркеры «только что / уже / ещё»: I have just arrived. She has already left.",
-    "Since и for — маркеры длительности: I have lived here for five years. She has worked here since 2010.",
-    "Been vs gone: I have been to Paris = я бывал там (и вернулся). He has gone to Paris = он уехал туда (и ещё там).",
-    "Present Perfect для недавних новостей: The president has announced new policies.",
-    "Чем больше фраз на Present Perfect ты увидишь, тем быстрее они станут твоими. Прочитай примеры вслух."
+    "have/has + V3 — запомни как мантру.",
+    "С указанием времени (yesterday, last year, in 1952) — Past Simple.",
+    "Без указания времени, но результат важен сейчас — Present Perfect.",
+    "ever — в вопросах: Have you ever read this book?",
+    "never — в отрицаниях: I have never read this book.",
+    "already — в утверждениях: I have already read it.",
+    "yet — в вопросах и отрицаниях: Have you read it yet? I haven't read it yet."
   ],
-  "related": ["a1-present-simple", "a1-past-simple", "a1-present-continuous"],
+  "related": ["b1-past-simple", "b1-present-perfect-continuous", "b1-present-simple"],
   "quiz": [
     {
-      "q": "I ___ to Paris three times.",
-      "options": ["was", "have been", "went", "have went"],
-      "answer": 1,
-      "why": "Опыт, три раза → Present Perfect: have been."
-    },
-    {
-      "q": "She ___ the report yesterday.",
-      "options": ["has finished", "finished", "have finished", "finishes"],
-      "answer": 1,
-      "why": "yesterday → Past Simple: finished."
-    },
-    {
-      "q": "___ you ever ___ this film?",
-      "options": ["Did / see", "Have / seen", "Do / see", "Are / seeing"],
-      "answer": 1,
-      "why": "ever → Present Perfect: Have you seen."
-    },
-    {
-      "q": "They ___ just ___.",
-      "options": ["have / arrived", "has / arrived", "did / arrive", "are / arriving"],
+      "q": "I ___ the best book of my life.",
+      "options": ["have written", "wrote", "have wrote", "am writing"],
       "answer": 0,
-      "why": "just → Present Perfect: have arrived."
+      "why": "have written — Present Perfect, результат сейчас."
     },
     {
-      "q": "I ___ my keys. I can't find them.",
-      "options": ["lost", "have lost", "lose", "am losing"],
-      "answer": 1,
-      "why": "Результат сейчас → Present Perfect: have lost."
+      "q": "I ___ always wanted to tell this story.",
+      "options": ["have", "has", "had", "am"],
+      "answer": 0,
+      "why": "С I — have. have always wanted — опыт."
     },
     {
-      "q": "He ___ here since 2015.",
-      "options": ["worked", "has worked", "works", "is working"],
+      "q": "I ___ never been so happy.",
+      "options": ["have", "has", "had", "am"],
+      "answer": 0,
+      "why": "С I — have. have never been — опыт."
+    },
+    {
+      "q": "___ you ___ the book already?",
+      "options": ["Have, finished", "Did, finish", "Have, finish", "Did, finished"],
+      "answer": 0,
+      "why": "Present Perfect вопрос: Have you finished?"
+    },
+    {
+      "q": "I ___ the book last year.",
+      "options": ["have written", "wrote", "have wrote", "am writing"],
       "answer": 1,
-      "why": "since 2015 → Present Perfect: has worked."
+      "why": "С указанием времени (last year) — Past Simple: wrote."
+    },
+    {
+      "q": "She ___ written a new book.",
+      "options": ["have", "has", "had", "is"],
+      "answer": 1,
+      "why": "С she — has: She has written a new book."
     }
   ]
 }

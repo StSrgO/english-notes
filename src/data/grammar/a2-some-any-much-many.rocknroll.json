@@ -1,0 +1,201 @@
+{
+  "variant": "rocknroll",
+  "slug": "a2-some-any-much-many",
+  "level": "A2",
+  "title": "some / any / much / many / a lot of",
+  "category": "Grammar",
+  "readingTime": 10,
+  "summary": "Сколько? Сколько-то или сколько угодно? Количество, которое меняет смысл — как в роке, где денег всегда мало, а фанатов всегда много.",
+  "idea": [
+    "some, any, much, many, a lot of — это слова, которые говорят о количестве. В рок-жизни всё зависит от количества: 'How much time do we have?' (сколько времени?), 'How many songs do we play?' (сколько песен?), 'Do you have any fans?' (есть ли фанаты?). Разница между 'some fans' (сколько-то фанатов есть) и 'any fans' (есть ли вообще фанаты?) — это разница между уверенностью и сомнением. И каждая группа знает это: The Ramones знали, что у них 'some fans' — фанаты были, и это было их топливо. Aerosmith знали, что 'a lot of people' приходят на их концерты. И когда группы спрашивают 'Do we have any fans?' — это вопрос выживания.",
+    "Система простая: some — в утверждениях, any — в вопросах и отрицаниях, much — с неисчисляемыми (much time), many — с исчисляемыми (many songs), a lot of — универсально. В текстах песен Black Sabbath всегда есть 'some darkness' (какая-то тьма), 'any light' (никакого света) — и разница между этими фразами — это разница между хэви-металом и поп-музыкой. Оззи Осборн знал: 'I have some demons' (есть демоны), 'I don't have any peace' (нет покоя) — и это была его правда.",
+    "Нюансы с some и any важны. Some может использоваться в вопросах, если мы ожидаем утвердительный ответ. 'Would you like some whisky?' — мы думаем, что человек хочет виски. Any — всегда в отрицаниях. 'I don't have any money' — ни копейки. 'Do you have any questions?' — просто вопрос, не знаем, есть ли. И когда фронтмен спрашивает 'Are there any questions?' — он не знает, есть ли вопросы. А когда он спрашивает 'Are there some questions?' — он знает, что вопросы есть. Эту разницу чувствуют все рок-звёзды — от Боно до Курта Кобейна."
+  ],
+  "why": [
+    "some/any/much/many/a lot of — одни из самых частотных слов в английском языке",
+    "Правильный выбор меняет смысл предложения",
+    "В русском языке нет такой системы, поэтому это сложно для носителей русского",
+    "Эти слова помогают точно выражать количество"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Do you have any money? — I have some money, but not much. I need a lot of money for the tour.",
+        "ru": "У тебя есть деньги? — У меня есть немного денег, но не много. Мне нужно много денег для тура." },
+      { "en": "How many songs do you know? — I know many songs, but I don't have any time to practice.",
+        "ru": "Сколько песен ты знаешь? — Я знаю много песен, но у меня нет времени репетировать." },
+      { "en": "Would you like some whisky? — Yes, please. I don't have any beer. And I need a lot of ice.",
+        "ru": "Хотите виски? — Да, пожалуйста. У меня нет пива. И мне нужно много льда." }
+    ],
+    "note": "some — в утверждении, any — в вопросе/отрицании, much — с неисчисляемым, many — с исчисляемым, a lot of — универсально."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим 'сколько-то' или 'немного' для всего. В английском — строгое распределение.",
+    "Русское 'немного денег' — это 'some money' (утверждение), 'any money' (вопрос/отрицание) или 'much money' (количество).",
+    "Русское 'много песен' — это 'many songs' (исчисляемые) или 'a lot of songs' (любые).",
+    "Путать some и any — одна из самых частых ошибок русскоговорящих. Но есть чёткие правила."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: some — в утверждениях, any — в вопросах и отрицаниях.",
+      "Запомни: much — с неисчисляемыми (water, love), many — с исчисляемыми (books, days).",
+      "Запомни: a lot of — универсально, для всего.",
+      "Практикуйся с парами: some money / any money / much money / many songs.",
+      "Читай вслух тексты песен и обращай внимание на выбор слова.",
+      "Делай упражнения на вставку — это закрепляет автоматизм."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильное слово: some, any, much, many, a lot of",
+      "items": [
+        { "q": "I have ___ money, but not ___ time.", "a": "some, much" },
+        { "q": "Do you have ___ questions? — No, I don't have ___ questions.", "a": "any, any" },
+        { "q": "She has ___ records. She needs ___ record shelves.", "a": "many, a lot of" },
+        { "q": "I don't have ___ sugar. Do you have ___ sugar?", "a": "any, any" },
+        { "q": "Would you like ___ beer? — Yes, please. And ___ ice.", "a": "some, some" }
+      ]
+    }
+  },
+  "formula": "some + N · any + N · much + U · many + C · a lot of + N",
+  "structure": {
+    "positive": "I have some money. I have a lot of guitars.",
+    "negative": "I don't have any money. I don't have many guitars.",
+    "question": "Do you have any money? How much money do you have?"
+  },
+  "markers": ["some", "any", "much", "many", "a lot of"],
+  "uses": [
+    "some — утверждение (есть немного, сколько-то).",
+    "any — вопрос/отрицание (есть ли? нет нисколько).",
+    "much — неисчисляемое (сколько много).",
+    "many — исчисляемое (сколько много).",
+    "a lot of — универсально (много)."
+  ],
+  "rules": [
+    { "title": "some — утверждение",
+      "text": "some используется в утвердительных предложениях, когда мы говорим о неопределённом количестве: I have some money, I need some help." },
+    { "title": "any — вопросы и отрицания",
+      "text": "any используется в вопросах (Do you have any money?) и отрицаниях (I don't have any money)." },
+    { "title": "some в вопросах",
+      "text": "some может использоваться в вопросах, если мы ожидаем положительный ответ: Would you like some tea? (ожидаем, что человек хочет чай)." },
+    { "title": "much — неисчисляемое",
+      "text": "much используется с неисчисляемыми существительными: much time, much money, much love. В основном в вопросах и отрицаниях." },
+    { "title": "many — исчисляемое",
+      "text": "many используется с исчисляемыми существительными во множественном числе: many songs, many people, many days." },
+    { "title": "a lot of — универсально",
+      "text": "a lot of используется с любыми существительными: a lot of money, a lot of songs. В утверждениях, вопросах и отрицаниях." }
+  ],
+  "examples": [
+    {
+      "group": "some — утверждение",
+      "items": [
+        { "en": "I have some money in my wallet, but not much for the tour.", "ru": "У меня есть немного денег в бумажнике, но не много на тур.", "highlight": ["some"] },
+        { "en": "She needs some help with the soundcheck.", "ru": "Ей нужна помощь с саундчеком.", "highlight": ["some"] },
+        { "en": "There is some beer in the fridge backstage.", "ru": "В холодильнике за кулисами есть пиво.", "highlight": ["some"] }
+      ]
+    },
+    {
+      "group": "any — вопросы и отрицания",
+      "items": [
+        { "en": "Do you have any tickets for the show? — No, I don't have any tickets.", "ru": "У тебя есть билеты на концерт? — Нет, у меня нет билетов.", "highlight": ["any"] },
+        { "en": "Is there any water left? — There isn't any water.", "ru": "Осталась вода? — Воды нет.", "highlight": ["any"] },
+        { "en": "I don't have any time to rehearse.", "ru": "У меня нет времени репетировать.", "highlight": ["any"] }
+      ]
+    },
+    {
+      "group": "some в вопросах (ожидаем 'да')",
+      "items": [
+        { "en": "Would you like some whisky? — Yes, I'd love some.", "ru": "Хотите виски? — Да, с удовольствием.", "highlight": ["some"] },
+        { "en": "Could I have some ice, please? — Of course, here you are.", "ru": "Можно мне льда? — Конечно, пожалуйста.", "highlight": ["some"] },
+        { "en": "Shall I bring some more speakers? — Yes, please.", "ru": "Принести ещё колонок? — Да, пожалуйста.", "highlight": ["some"] }
+      ]
+    },
+    {
+      "group": "much — неисчисляемое",
+      "items": [
+        { "en": "How much time do we have before the show?", "ru": "Сколько времени у нас есть до концерта?", "highlight": ["much"] },
+        { "en": "I don't have much energy after the concert.", "ru": "После концерта у меня мало энергии.", "highlight": ["much"] },
+        { "en": "We don't need much water for the tour.", "ru": "Нам не нужно много воды для тура.", "highlight": ["much"] }
+      ]
+    },
+    {
+      "group": "many — исчисляемое",
+      "items": [
+        { "en": "How many songs do you know?", "ru": "Сколько песен ты знаешь?", "highlight": ["many"] },
+        { "en": "There are many bands in London, but not many in the countryside.", "ru": "В Лондоне много групп, а в деревне не много.", "highlight": ["many"] },
+        { "en": "She has many friends in the music scene.", "ru": "У неё много друзей в музыкальной тусовке.", "highlight": ["many"] }
+      ]
+    },
+    {
+      "group": "a lot of — универсально",
+      "items": [
+        { "en": "I have a lot of work to do before the gig.", "ru": "У меня много работы перед концертом.", "highlight": ["a lot of"] },
+        { "en": "There are a lot of people in the audience.", "ru": "В зале много людей.", "highlight": ["a lot of"] },
+        { "en": "She has a lot of passion for music.", "ru": "У неё много страсти к музыке.", "highlight": ["a lot of"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I have any money. (утверждение)", "right": "I have some money.", "note": "В утверждениях используется some, а не any." },
+    { "wrong": "Do you have some questions? (нейтральный вопрос)", "right": "Do you have any questions?", "note": "В нейтральных вопросах используется any, а не some." },
+    { "wrong": "I don't have some money.", "right": "I don't have any money.", "note": "В отрицаниях используется any, а не some." },
+    { "wrong": "How many time do we have?", "right": "How much time do we have?", "note": "time — неисчисляемое, поэтому much, а не many." },
+    { "wrong": "How much songs do you know?", "right": "How many songs do you know?", "note": "songs — исчисляемое, поэтому many, а не much." },
+    { "wrong": "She has much friends.", "right": "She has many friends или a lot of friends.", "note": "С исчисляемыми во множественном числе — many или a lot of." }
+  ],
+  "compare": {
+    "title": "some / any / much / many / a lot of",
+    "leftLabel": "some / any",
+    "rightLabel": "much / many / a lot of",
+    "rows": [
+      { "left": "some — утверждение (some money)", "right": "much — неисчисляемое (much time)" },
+      { "left": "any — вопрос/отрицание (any money)", "right": "many — исчисляемое (many songs)" },
+      { "left": "some — вопрос с ожиданием 'да'", "right": "a lot of — универсально (a lot of songs)" }
+    ]
+  },
+  "tips": [
+    "some — в утверждении, any — в вопросе/отрицании. Это главное правило.",
+    "some можно в вопросе, если ожидаешь 'да': Would you like some beer?",
+    "much — с неисчисляемыми, many — с исчисляемыми.",
+    "a lot of — всегда работает, с чем угодно.",
+    "В отрицаниях всегда any, даже если кажется, что должно быть some.",
+    "В вопросах всегда any, если не ожидаешь 'да'.",
+    "Проверяй себя: считаемое или несчитаемое? Утверждение или вопрос/отрицание?"
+  ],
+  "related": ["a2-articles", "a1-nouns", "a1-plural-nouns"],
+  "quiz": [
+    {
+      "q": "I have ___ money in my pocket.",
+      "options": ["some", "any", "much", "many"],
+      "answer": 0,
+      "why": "утверждение → some."
+    },
+    {
+      "q": "Do you have ___ questions?",
+      "options": ["some", "any", "much", "many"],
+      "answer": 1,
+      "why": "нейтральный вопрос → any."
+    },
+    {
+      "q": "I don't have ___ time for this.",
+      "options": ["some", "any", "much", "many"],
+      "answer": 1,
+      "why": "отрицание → any."
+    },
+    {
+      "q": "How ___ water do you drink?",
+      "options": ["much", "many", "some", "any"],
+      "answer": 0,
+      "why": "water — неисчисляемое → much."
+    },
+    {
+      "q": "How ___ songs do you know?",
+      "options": ["much", "many", "some", "any"],
+      "answer": 1,
+      "why": "songs — исчисляемое → many."
+    },
+    {
+      "q": "Would you like ___ beer?",
+      "options": ["some", "any", "much", "many"],
+      "answer": 0,
+      "why": "вопрос с ожиданием 'да' → some."
+    }
+  ]
+}

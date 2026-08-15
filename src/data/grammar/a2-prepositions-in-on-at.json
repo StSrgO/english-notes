@@ -1,208 +1,199 @@
 {
- "slug": "a2-prepositions-in-on-at",
- "title": "Prepositions: in / on / at",
- "level": "A2",
- "category": "Prepositions",
- "readingTime": 10,
- "summary": "Три предлога времени и места. Одна логика на всё — воронка от общего к точке: in (широко) → on (уже) → at (точка).",
- "idea": [
-  "Предлоги in, on, at — одна из тех тем, которые выглядят мелочью, а на деле съедают больше всего баллов и уверенности, потому что в русском предлоги времени и места расставлены иначе, и прямой кальки почти нигде нет. Хорошая новость: за этой тройкой стоит одна красивая логика, и если её увидеть, девяносто процентов случаев перестают быть зубрёжкой. Это логика воронки, сужения от общего к конкретному. in — самый широкий уровень, on — уже, at — самая узкая точка. И эта воронка работает одинаково и для времени, и для места, что и делает систему запоминаемой.",
-  "Смотри на время. at — это точка на часах, самый узкий момент: at 5 o'clock, at noon, at midnight, at night. on — это день, дата, конкретный кусок календаря, уровень уже: on Monday, on 5 May, on my birthday, on Christmas Day. in — самый широкий период: in July, in 2024, in summer, in the 21st century, а также части дня как «объём времени»: in the morning, in the afternoon, in the evening. То есть по времени воронка выглядит так: in 2024 (год, широко) → in July (месяц) → on 5 July (день) → at 5 pm (точка). Чем точнее момент — тем уже предлог. Теперь место — та же воронка. at — точка на карте, адрес, конкретное место как точка: at home, at school, at the bus stop, at 10 Park Street, at the door. on — поверхность, улица, линия: on the table, on the wall, on Oxford Street, on the bus, on the second floor. in — объём, закрытое пространство, территория: in the room, in London, in Russia, in a car, in a box.",
-  "Именно здесь русскоговорящий и сыплется, потому что русский предлог выбирает по падежу и по привычке, а не по «размеру» понятия. «В понедельник» — в, а по‑английски on Monday; «в 5 часов» — в, а по‑английски at 5; «на столе» — на, и тут on совпадает, но «в автобусе» по‑русски в, а по‑английски on the bus. Отдельный пласт — устойчивые пары, которые не выводятся воронкой, а запоминаются как есть, и они дают самые обидные ошибки: in time (вовремя, с запасом) против on time (точно по расписанию); in the end (в конечном счёте) против at the end (в конце чего‑то конкретного — of); at night, но in the morning; on the phone, on the internet, on TV (всё, что «на линии» или «на экране» — on). Если унести одну мысль: рисуй воронку in → on → at и раскладывай любое слово по «размеру» — от самого общего к точке — и предлог почти всегда найдётся сам, а исключения держи пакетами."
- ],
- "why": [
-  "Называть время точно: at 5 pm, on Monday, in July, in 2024.",
-  "Говорить, где что находится: at home, on the table, in London.",
-  "Не путать in time / on time и in the end / at the end.",
-  "Правильно ставить предлоги с транспортом, экранами и частями дня."
- ],
- "context": {
-  "lines": [
-   { "en": "What time are we meeting on Friday?", "ru": "Во сколько встречаемся в пятницу?" },
-   { "en": "At 7 in the evening, at the new café on King Street.", "ru": "В 7 вечера, в новом кафе на Кинг‑стрит." },
-   { "en": "Got it. I'll be there on time — I don't want to be late again.", "ru": "Понял. Буду вовремя — не хочу снова опоздать." },
-   { "en": "Don't worry, we have plenty of time. Just don't come at night, the street is dark.", "ru": "Не переживай, времени много. Только не приходи ночью — улица тёмная." },
-   { "en": "OK. I'll be there in the afternoon instead. See you at 7!", "ru": "Ладно. Приду тогда после обеда. До встречи в 7!" }
+  "variant": "classic",
+  "slug": "a2-prepositions-in-on-at",
+  "level": "A2",
+  "title": "Prepositions: in / on / at",
+  "category": "Grammar",
+  "readingTime": 10,
+  "summary": "Три маленьких слова, которые решают всё: где ты, когда ты и как ты. Навигатор по пространству и времени от Грэма Грина до Агаты Кристи.",
+  "idea": [
+    "in, on, at — это три крошечных слова, которые в английском языке управляют пространством и временем. В русском мы говорим «в Москве», «на улице», «в 5 часов» — и предлоги почти не меняются. В английском же выбор предлога зависит от того, что мы описываем: страну или город (in Moscow), улицу (on the street), или конкретную точку (at the corner). Грэм Грин в «Тихом американце» пишет 'in Saigon' — потому что город, 'on the river' — потому что река, 'at the hotel' — потому что конкретное здание. Разница неуловима, но она есть.",
+    "Время тоже подчиняется тем же правилам. 'in the morning' — в утрé, 'on Monday' — в понедельник, 'at 5 o'clock' — в 5 часов. Агата Кристи в «Убийстве в «Восточном экспрессе»» пишет 'at 11:40 p.m.' — точное время, 'on the 14th of December' — конкретный день, 'in the winter' — сезон. Каждый предлог занимает свою нишу, и путать их — значит путать время. Для русскоговорящего это одна из самых сложных тем, потому что в русском языке эта система отсутствует.",
+    "Пространство: in — внутри (внутри здания, страны, города), on — на поверхности (на стене, на улице), at — в точке (в определённом месте). 'in the room' — внутри комнаты, 'on the wall' — на стене, 'at the door' — у двери. В романах Джона Ле Карре шпионы всегда встречаются 'at the station' — у станции, 'on the platform' — на платформе, 'in the train' — в поезде. И каждый предлог меняет картину мира. Выучить их — значит научиться точно описывать пространство и время, как настоящий географ или детектив."
   ],
-  "note": "on Friday (день), at 7 (точка), in the evening / in the afternoon (часть дня как объём), at the café (место‑точка), on King Street (улица‑линия), on time (по расписанию), at night (исключение-флажок)."
- },
- "russianAngle": [
-  " «В понедельник / в мае / в 2024 / в 5 часов» — везде «в». Три разных предлога по воронке: on Monday, in May, in 2024, at 5. Русское «в» не подсказывает английский предлог — смотри на «размер».",
-  " «В автобусе / в машине» — оба «в». on the bus / on the train (можно ходить по салону), но in a car / in a taxi (сидишь, не встанешь). Ловушка транспорта.",
-  " «Вовремя» — одно слово. in time = с запасом (успел), on time = точно по расписанию (в 9 ровно). Разные смыслы.",
-  " «В конце» — одно. at the end of the film (конкретный конец чего‑то), но in the end = в конечном счёте, в итоге (без of)."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: воронка in (широко) → on (уже) → at (точка), одинаково для времени и места.",
-   "Время: at = часы/точка, on = день/дата, in = месяц/год/сезон/часть дня.",
-   "Место: at = точка/адрес, on = поверхность/улица/этаж, in = объём/город/страна.",
-   "Заучи пакеты исключений: at night, in the morning, on the phone, in time / on time.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Предлоги in/on/at — одни из самых частотных слов в английском языке",
+    "Правильный выбор предлога меняет смысл предложения",
+    "В русском языке нет такой системы, поэтому это сложно для носителей русского",
+    "Знание предлогов делает речь естественной и грамотной"
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — вставь in / on / at:",
-   "items": [
-    { "q": "The meeting is ___ 3 pm.", "a": "at — точка на часах." },
-    { "q": "We met ___ Sunday.", "a": "on — день недели." },
-    { "q": "She was born ___ March.", "a": "in — месяц." },
-    { "q": "The keys are ___ the table.", "a": "on — поверхность." },
-    { "q": "I'll see you ___ the evening.", "a": "in — часть дня (но: at night)." }
-   ]
-  }
- },
- "formula": "in (объём/период) · on (поверхность/день) · at (точка)",
- "structure": {
-  "positive": "at 7 / on Friday / in 2024 / on the wall / in London / at the door",
-  "negative": "—",
-  "question": "—"
- },
- "markers": ["in July", "on Monday", "at 5 pm", "in the morning", "on the table", "at home"],
- "uses": [
-  "Время: at + час, on + день/дата, in + месяц/год/сезон/часть дня.",
-  "Место: at + точка/адрес, on + улица/поверхность/этаж, in + город/страна/помещение.",
-  "Устойчивые сочетания: at night, on time, in time, on the phone."
- ],
- "rules": [
-  { "title": "Время по воронке", "text": "at — точка (at 9 o'clock, at noon, at night); on — день и дата (on Monday, on 5 May, on my birthday); in — крупный период (in July, in 2024, in summer) и части дня (in the morning/afternoon/evening)." },
-  { "title": "Место по воронке", "text": "at — точка на карте/адрес (at home, at school, at the bus stop, at 10 Park St); on — поверхность и улица/линия/этаж (on the table, on the wall, on Oxford Street, on the bus, on the 2nd floor); in — объём/территория (in the room, in London, in Russia, in a car)." },
-  { "title": "Исключения-флажки", "text": "at night (но in the morning); on the weekend (US) / at the weekend (UK); in time = «вовремя, с запасом», on time = «точно по расписанию»." }
- ],
- "examples": [
-  {
-   "group": "Время — точка / день / период",
-   "items": [
-    { "en": "The meeting is at 3 pm.", "ru": "Встреча в 3 часа.", "highlight": ["at 3 pm"] },
-    { "en": "We met on Sunday.", "ru": "Мы встретились в воскресенье.", "highlight": ["on Sunday"] },
-    { "en": "She was born in March.", "ru": "Она родилась в марте.", "highlight": ["in March"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "I arrived in London on a cold winter morning at 8:30. I met my friend in a café on Oxford Street at the corner of the street.",
+        "ru": "Я прибыл в Лондон холодным зимним утром в 8:30. Я встретил друга в кафе на Оксфорд-стрит на углу улицы." },
+      { "en": "The book is in the bag on the table at the window. I read it in the evening on Saturdays at home.",
+        "ru": "Книга в сумке на столе у окна. Я читаю её вечером по субботам дома." },
+      { "en": "We met at the station in the city centre on the platform at 6:15.",
+        "ru": "Мы встретились у вокзала в центре города на платформе в 6:15." }
+    ],
+    "note": "Запомни: in London (город), on Oxford Street (улица), at the corner (точка), in the morning (время), on Saturday (день), at 8:30 (время)."
   },
-  {
-   "group": "Место — точка / поверхность / объём",
-   "items": [
-    { "en": "I'll wait for you at the bus stop.", "ru": "Я подожду тебя на остановке.", "highlight": ["at the bus stop"] },
-    { "en": "The keys are on the table.", "ru": "Ключи на столе.", "highlight": ["on the table"] },
-    { "en": "They live in a small flat in Madrid.", "ru": "Они живут в маленькой квартире в Мадриде.", "highlight": ["in a small flat", "in Madrid"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы используем предлоги «в», «на», «у» примерно одинаково. В английском — строгое распределение.",
+    "Русское «в Москве» — это 'in Moscow', потому что город. «На улице» — 'on the street', потому что поверхность.",
+    "Русское «в 5 часов» — 'at 5 o'clock', потому что точное время. «В понедельник» — 'on Monday', потому что день.",
+    "Путать in/on/at — одна из самых частых ошибок русскоговорящих. Но есть чёткие правила, которые работают в 90% случаев."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни правило для пространства: in = внутри, on = на поверхности, at = в точке.",
+      "Запомни правило для времени: in = периоды (месяцы, годы, сезоны), on = дни и даты, at = точное время.",
+      "Практикуйся с таблицей: in the morning, on Monday, at 5 o'clock.",
+      "Сравни пары: in the car (внутри), on the bus (на поверхности), at the bus stop (в точке).",
+      "Читай вслух предложения с предлогами и обращай внимание на выбор.",
+      "Делай упражнения на вставку предлогов — это закрепляет автоматизм."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильный предлог: in, on, at",
+      "items": [
+        { "q": "I live ___ London ___ a small street ___ the corner of the square.", "a": "in, on, at" },
+        { "q": "We met ___ the morning ___ Monday ___ 9:30.", "a": "in, on, at" },
+        { "q": "The picture is ___ the wall ___ the living room ___ the fireplace.", "a": "on, in, at" },
+        { "q": "She works ___ the hospital ___ the city centre ___ the weekend.", "a": "in, in, at" },
+        { "q": "I usually read books ___ the evening ___ bed ___ home.", "a": "in, in, at" }
+      ]
+    }
   },
-  {
-   "group": "Части дня и ночь",
-   "items": [
-    { "en": "I work in the morning and study in the evening.", "ru": "Утром я работаю, а вечером учусь.", "highlight": ["in the morning", "in the evening"] },
-    { "en": "I can't sleep at night.", "ru": "Я не могу спать по ночам.", "highlight": ["at night"] }
-   ]
+  "formula": "in + N (пространство/время) · on + N (поверхность/день) · at + N (точка/время)",
+  "structure": {
+    "positive": "I am in the room. The book is on the table. She is at the door.",
+    "negative": "I am not in the room. The book is not on the table. She is not at the door.",
+    "question": "Are you in the room? Is the book on the table? Is she at the door?"
   },
-  {
-   "group": "in time / on time и in the end / at the end",
-   "items": [
-    { "en": "We arrived just in time.", "ru": "Мы приехали как раз вовремя (успели).", "highlight": ["in time"] },
-    { "en": "The train left on time.", "ru": "Поезд ушёл точно по расписанию.", "highlight": ["on time"] },
-    { "en": "At the end of the film, everyone cried.", "ru": "В конце фильма все плакали.", "highlight": ["At the end of"] }
-   ]
+  "markers": ["in", "on", "at"],
+  "uses": [
+    "in — внутри (здание, город, страна), в периоды времени (месяц, год, сезон).",
+    "on — на поверхности (стена, стол, улица), в дни и даты.",
+    "at — в точке (дверь, станция, угол), в точное время."
+  ],
+  "rules": [
+    { "title": "in — пространство",
+      "text": "in + страна (in Russia), город (in London), здание (in the building), комната (in the room), машина (in the car)." },
+    { "title": "on — пространство",
+      "text": "on + поверхность (on the table, on the wall), улица (on the street), транспорт (on the bus, on the train)." },
+    { "title": "at — пространство",
+      "text": "at + точка (at the door, at the station, at the corner, at work, at home)." },
+    { "title": "in — время",
+      "text": "in + месяцы (in May), годы (in 2024), сезоны (in winter), части дня (in the morning)." },
+    { "title": "on — время",
+      "text": "on + дни (on Monday), даты (on May 1st), части дня с днём (on Monday morning)." },
+    { "title": "at — время",
+      "text": "at + точное время (at 5 o'clock, at 10:30), праздники (at Christmas), at night." }
+  ],
+  "examples": [
+    {
+      "group": "Пространство: in — внутри",
+      "items": [
+        { "en": "I live in London, in a small flat in the city centre.", "ru": "Я живу в Лондоне, в маленькой квартире в центре города.", "highlight": ["in"] },
+        { "en": "The cat is in the garden, in the shadow of the tree.", "ru": "Кошка в саду, в тени дерева.", "highlight": ["in"] },
+        { "en": "She works in a hospital in the north of the city.", "ru": "Она работает в больнице на севере города.", "highlight": ["in"] }
+      ]
+    },
+    {
+      "group": "Пространство: on — поверхность",
+      "items": [
+        { "en": "The book is on the table, on the left side.", "ru": "Книга на столе, с левой стороны.", "highlight": ["on"] },
+        { "en": "The picture is on the wall, on the right of the window.", "ru": "Картина на стене, справа от окна.", "highlight": ["on"] },
+        { "en": "He lives on Oxford Street, on the second floor.", "ru": "Он живёт на Оксфорд-стрит, на втором этаже.", "highlight": ["on"] }
+      ]
+    },
+    {
+      "group": "Пространство: at — точка",
+      "items": [
+        { "en": "We met at the station, at the entrance.", "ru": "Мы встретились у вокзала, у входа.", "highlight": ["at"] },
+        { "en": "She is at the door, waiting for me.", "ru": "Она у двери, ждёт меня.", "highlight": ["at"] },
+        { "en": "I work at the hospital, at the reception desk.", "ru": "Я работаю в больнице, на ресепшене.", "highlight": ["at"] }
+      ]
+    },
+    {
+      "group": "Время: in — периоды",
+      "items": [
+        { "en": "I was born in May, in 1990.", "ru": "Я родился в мае, в 1990 году.", "highlight": ["in"] },
+        { "en": "We usually go on holiday in summer, in July.", "ru": "Мы обычно ездим в отпуск летом, в июле.", "highlight": ["in"] },
+        { "en": "I like reading in the evening, in bed.", "ru": "Я люблю читать вечером, в кровати.", "highlight": ["in"] }
+      ]
+    },
+    {
+      "group": "Время: on — дни",
+      "items": [
+        { "en": "We have a meeting on Monday, on May 15th.", "ru": "У нас встреча в понедельник, 15 мая.", "highlight": ["on"] },
+        { "en": "I usually go to the gym on Wednesdays.", "ru": "Я обычно хожу в спортзал по средам.", "highlight": ["on"] },
+        { "en": "She arrived on Christmas Day, on a cold morning.", "ru": "Она прибыла в Рождество, холодным утром.", "highlight": ["on"] }
+      ]
+    },
+    {
+      "group": "Время: at — точное время",
+      "items": [
+        { "en": "The train arrives at 5:30, at the platform 4.", "ru": "Поезд прибывает в 5:30, на платформу 4.", "highlight": ["at"] },
+        { "en": "We usually have dinner at 7 o'clock in the evening.", "ru": "Мы обычно ужинаем в 7 часов вечера.", "highlight": ["at"] },
+        { "en": "I get up at 6:15 on weekdays, at the same time every day.", "ru": "Я встаю в 6:15 по будням, в одно и то же время каждый день.", "highlight": ["at"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I live at London.", "right": "I live in London.", "note": "Для городов и стран всегда in. at — для точки (at the station)." },
+    { "wrong": "The book is in the table.", "right": "The book is on the table.", "note": "on — для поверхностей (стол, стена). in — для внутреннего пространства." },
+    { "wrong": "I work on the hospital.", "right": "I work in the hospital или at the hospital.", "note": "in — внутри здания, at — в месте как точке." },
+    { "wrong": "We met in Monday.", "right": "We met on Monday.", "note": "Для дней всегда on." },
+    { "wrong": "I get up in 7 o'clock.", "right": "I get up at 7 o'clock.", "note": "Для точного времени всегда at." },
+    { "wrong": "I go to work in the morning at Monday.", "right": "I go to work in the morning on Monday.", "note": "in the morning + on Monday — если день указан, то on." }
+  ],
+  "compare": {
+    "title": "in / on / at — пространство и время",
+    "leftLabel": "Пространство",
+    "rightLabel": "Время",
+    "rows": [
+      { "left": "in + город/страна (in London)", "right": "in + месяц/год/сезон (in May)" },
+      { "left": "on + поверхность/улица (on the table)", "right": "on + день/дата (on Monday)" },
+      { "left": "at + точка (at the station)", "right": "at + точное время (at 5 o'clock)" }
+    ]
   },
-  {
-   "group": "Экраны, линии, транспорт",
-   "items": [
-    { "en": "She's on the phone right now.", "ru": "Она сейчас разговаривает по телефону.", "highlight": ["on the phone"] },
-    { "en": "I saw it on the internet / on TV.", "ru": "Я видел это в интернете / по телевизору.", "highlight": ["on the internet", "on TV"] },
-    { "en": "We were stuck on the bus for an hour.", "ru": "Мы застряли в автобусе на час.", "highlight": ["on the bus"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "in Monday", "right": "on Monday", "note": "Дни недели — on." },
-  { "wrong": "at July", "right": "in July", "note": "Месяцы — in." },
-  { "wrong": "on the morning", "right": "in the morning", "note": "Части дня — in (но at night)." },
-  { "wrong": "in the bus / in the train", "right": "on the bus / on the train", "note": "Общественный транспорт, где ходят — on." },
-  { "wrong": "We arrived on time. (= успели до закрытия)", "right": "We arrived in time.", "note": "«Успели, с запасом» = in time; on time = по расписанию." },
-  { "wrong": "in the end of the book", "right": "at the end of the book", "note": "Конкретный конец чего‑то — at the end of." }
- ],
- "compare": {
-  "title": "in / on / at — воронка",
-  "leftLabel": "широко → узко",
-  "rightLabel": "примеры",
-  "rows": [
-   { "left": "in (самое общее)", "right": "in 2024, in summer, in London, in the morning" },
-   { "left": "on (уже)", "right": "on Monday, on 5 May, on the table, on the bus" },
-   { "left": "at (точка)", "right": "at 5 pm, at noon, at the door, at home" }
+  "tips": [
+    "in — внутри, on — на поверхности, at — в точке. Это три кита для пространства.",
+    "in — месяцы/годы/сезоны, on — дни, at — точное время. Это три кита для времени.",
+    "Исключения: at night (ночью), at the weekend (на выходных).",
+    "in the morning, in the afternoon, in the evening — но at night.",
+    "on Monday morning — если день указан, то on.",
+    "at home, at work, at school — устойчивые выражения с at.",
+    "Проверяй себя: если сомневаешься — представь, где находится предмет или когда происходит действие."
+  ],
+  "related": ["a1-prepositions-place", "a1-questions", "a1-present-simple"],
+  "quiz": [
+    {
+      "q": "I live ___ London, ___ Oxford Street.",
+      "options": ["in, on", "on, in", "at, on", "in, at"],
+      "answer": 0,
+      "why": "in London — город, on Oxford Street — улица (поверхность)."
+    },
+    {
+      "q": "The book is ___ the table, ___ the living room.",
+      "options": ["in, in", "on, in", "at, on", "on, at"],
+      "answer": 1,
+      "why": "on the table — поверхность, in the living room — внутри комнаты."
+    },
+    {
+      "q": "We met ___ the station ___ 6:30.",
+      "options": ["in, at", "at, at", "on, at", "at, in"],
+      "answer": 1,
+      "why": "at the station — точка, at 6:30 — точное время."
+    },
+    {
+      "q": "I was born ___ May ___ 1990.",
+      "options": ["in, in", "on, in", "at, in", "in, on"],
+      "answer": 0,
+      "why": "in May — месяц, in 1990 — год."
+    },
+    {
+      "q": "I usually read ___ the evening ___ Monday.",
+      "options": ["in, in", "in, on", "at, on", "on, in"],
+      "answer": 1,
+      "why": "in the evening — часть дня, on Monday — день."
+    },
+    {
+      "q": "She is ___ the door, waiting ___ me.",
+      "options": ["at, for", "in, for", "on, to", "at, to"],
+      "answer": 0,
+      "why": "at the door — точка, waiting for me — ждёт меня."
+    }
   ]
- },
- "tips": [
-  "Нарисуй воронку один раз и держи в голове: in сверху (широко), on посередине, at на острие (точка). Раскладывай любое слово по «размеру» понятия — и предлог найдётся сам. Эта картинка заменяет таблицы.",
-  "Транспорт‑ловушка по принципу «можно ли встать и пройтись»: in a car / in a taxi / in a truck (сидишь пристёгнутый), но on a bus / on a train / on a plane / on a ship (есть проход, ходишь). На велосипеде и лошади — on (on a bike, on a horse), потому что сидишь сверху.",
-  "Части дня держи пакетом: in the morning / in the afternoon / in the evening — но AT night. Почему night «точка», а morning «объём» — никто толком не объяснит, это просто исторический флажок. Запомни стишком.",
-  "in time vs on time — разводи по смыслу: in time = «успел, с запасом до дедлайна» (We got to the station in time), on time = «ровно в назначенный час, по расписанию» (The class starts on time). Русское «вовремя» покрывает оба — отсюда путаница.",
-  "Экраны и линии — всегда on: on the phone, on the internet, on TV, on the radio, on a website, on Facebook. Логика «на поверхности сигнала/экрана». Но in a photo / in a picture / in a film (внутри кадра) — in. Тонко, но стабильно.",
-  "at home, но in the house / in my flat. at home — «дома» как точка/состояние (без артикля); in the house — «в здании дома» как в объёме. At work / at school (по назначению) — at; in the office / in the classroom (в помещении) — in.",
-  "Американский/британский раскол: on the weekend (US) vs at the weekend (UK). Оба верны — просто знай, что увидишь оба варианта и не считай ни один ошибкой."
- ],
- "related": ["a1-present-simple", "a1-past-simple", "a2-articles", "a2-future-simple"],
- "quiz": [
-  {
-    "q": "The meeting is ___ Monday.",
-    "options": [
-            "in",
-            "at",
-            "on",
-            "by"
-          ],
-    "answer": 2,
-    "why": "Дни недели — on: on Monday. in/at с днями — ошибка."
-  },
-  {
-    "q": "My birthday is ___ July.",
-    "options": [
-            "at",
-            "in",
-            "on",
-            "to"
-          ],
-    "answer": 1,
-    "why": "Месяцы (широкий период) — in: in July. at July — ошибка."
-  },
-  {
-    "q": "I wake up early ___ the morning.",
-    "options": [
-            "in",
-            "on",
-            "at",
-            "by"
-          ],
-    "answer": 0,
-    "why": "Устойчиво: in the morning / in the afternoon, но at night. on the morning — ошибка."
-  },
-  {
-    "q": "The keys are ___ the table.",
-    "options": [
-            "in",
-            "at",
-            "by",
-            "on"
-          ],
-    "answer": 3,
-    "why": "Поверхность — on: on the table. in было бы «внутри»."
-  },
-  {
-    "q": "The train leaves ___ 5 pm.",
-    "options": [
-            "in",
-            "at",
-            "on",
-            "by"
-          ],
-    "answer": 1,
-    "why": "Точное время — at: at 5 pm. in/on с часами — ошибка."
-  },
-  {
-    "q": "She lives ___ London.",
-    "options": [
-            "at",
-            "on",
-            "in",
-            "to"
-          ],
-    "answer": 2,
-    "why": "Города и страны (объём) — in: in London. at для точек/адресов."
-  }
-]
 }

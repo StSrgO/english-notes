@@ -1,188 +1,195 @@
 {
-  "slug": "a2-articles",
   "variant": "rocknroll",
-  "title": "Articles: a / an / the / ∅ (система)",
+  "slug": "a2-articles",
   "level": "A2",
-  "category": "Articles",
-  "readingTime": 9,
-  "summary": "Полная система артиклей: a/an для нового и одного, the для известного и единственного, ∅ для явлений вообще. The Who видят miles, The Kinks ждут Waterloo Sunset, The Doors зовут light my fire, Bowie ищет Starman, Pink Floyd желают you were here.",
+  "title": "Articles: a / an / the / zero article",
+  "category": "Grammar",
+  "readingTime": 10,
+  "summary": "Три артикля и один нулевой — как не запутаться в системе, где всё зависит от контекста, а не от русского 'какой-то'.",
   "idea": [
-    "Знак ∅ в этом уроке — нулевой артикль, то есть артикля нет вообще. «I can see for miles and miles and miles» — поют The Who, и это чистый ∅: не a miles, не the miles, а просто miles — расстояние вообще, явление. Артикли в английском — это система, которая отвечает на один вопрос: собеседник уже знает, о чём речь? Если нет — a/an (новый, один из многих). Если да — the (тот самый, единственный, уточнённый). Если речь о явлении вообще — артикля нет. В русском артиклей нет вообще, поэтому русскоговорящие путаются чаще всего: «I saw cat», «I bought car», «The life is beautiful». Все три — ошибки. The Who знают: miles — это не конкретные мили, это расстояние вообще, а вот the road, по которой они едут, — та самая дорога, которая ведёт к горизонту.",
-    "Первый вопрос — исчисляемое ли слово и в каком числе. a/an ставится только к исчисляемому в единственном числе: a record, an amp. К неисчисляемому и множественному a/an не ставится вообще: music, fans, noise. Дальше — вопрос о конкретности. «У меня есть пластинка» — I have a record (одна из многих). «Пластинка, которая у меня есть, заиграна» — The record is scratched (та самая, о которой мы уже говорили). «Я люблю музыку вообще» — I love music (никакого артикля, потому что речь о явлении). The Kinks в «Waterloo Sunset» поют: «Every day I look at the world from my window» — и тут the world (тот самый мир, который виден из окна), но a window (какое-то окно, одно из многих). Один мир — the world. Какое-то окно — a window. Три артикля — три истории.",
-    "Отдельный пласт — устойчивые случаи, которые не выводятся по логике, а запоминаются пакетами, и именно они дают самые частые ошибки. Играем на музыкальных инструментах — the drums, the piano, the bass (с инструментами всегда the). Еда — breakfast, lunch, dinner (без артикля). Едем в тур — go on tour (без артикля), но идём на площадку — go to the venue (the). Ложимся спать — go to bed (∅), но спим на конкретной кровати — sit on the bed (the). The Doors в «Light My Fire» зовут: light my fire (зажги мой огонь, без артикля, потому что это состояние, а не предмет), но the fire внутри песни — тот самый огонь, который горит. Pink Floyd в «Wish You Were Here» желают: wish you were here (жаль, что тебя здесь нет, без артикля, потому что here — это состояние). Артикль — это не грамматика, это взгляд на мир."
+    "Артикли в роке — это как ударные в песне: незаметно, но без них всё звучит пусто. Когда Билли Айдол поёт 'a rebel' — это один из многих бунтарей. А когда он поёт 'the rebel' — это он сам, единственный и неповторимый. Разница между 'a band' (какая-то группа) и 'the band' (та самая группа) — это разница между случайным концертом и тем, на который ты купил билет за месяц. В рок-лирике артикли создают напряжение и смысл.",
+    "Система простая: a/an для чего-то нового, the для уже знакомого, и нулевой артикль для обобщений. 'Music is my life' — без артикля, потому что речь о музыке вообще. 'The music of The Beatles' — с the, потому что конкретная музыка конкретной группы. 'I saw a band last night' — какая-то группа, первый раз. 'The band was amazing' — та самая группа, которую ты уже упомянул. В этом вся логика.",
+    "Нулевой артикль — самый крутой. 'Rock is dead' — это заявление о жанре вообще. 'Love is a battlefield' — любовь вообще, как абстракция. 'She plays guitar' — без артикля, потому что инструмент как понятие. В роке нулевой артикль звучит как аксиома: 'Life is hard' — это не про конкретную жизнь, это про жизнь вообще. И это звучит мощно, как гитарный рифф."
   ],
   "why": [
-    "Различать новое и известное: a record (какая-то пластинка) vs the record (та самая пластинка).",
-    "Различать одно и явление: a song (одна песня) vs music (музыка вообще).",
-    "Понимать, когда артикль не нужен вообще: music, noise, love — явления вообще.",
-    "Не делать классических ошибок русскоговорящих: I saw a show, не I saw show."
+    "Артикли — это ключ к пониманию: определённое или неопределённое имеется в виду",
+    "Без артикля предложение теряет смысл или звучит неестественно",
+    "Нулевой артикль — это не ошибка, а полноценный элемент системы",
+    "Правильное использование артиклей делает речь естественной и грамотной"
   ],
   "context": {
     "lines": [
-      { "en": "I went to a show last night.", "ru": "Я вчера ходил на шоу." },
-      { "en": "What show?", "ru": "Какое шоу?" },
-      { "en": "The one at the pub on Camden High Street.", "ru": "Тот, в пабе на Камден-Хай-Стрит." },
-      { "en": "Ah, I love live music.", "ru": "А, я обожаю живую музыку." }
+      { "en": "I saw a band last night. The band was amazing. The music was loud. Music is my life.",
+        "ru": "Я видел какую-то группу вчера. Та группа была потрясающей. Музыка была громкой. Музыка — моя жизнь." },
+      { "en": "She is a singer. She sings with the band on tour. She loves the stage. Stage is her home.",
+        "ru": "Она певица. Она поёт с той группой в туре. Она любит сцену. Сцена — её дом." },
+      { "en": "I need a guitar. Is there a guitar in the studio? The guitar in the studio is a Fender. Guitars are essential.",
+        "ru": "Мне нужна гитара. В студии есть какая-то гитара? Та гитара в студии — Fender. Гитары необходимы." }
     ],
-    "note": "Смотри, как работает система: a show (впервые, какое-то) → the show (то самое, о котором спрашивают) → live music (музыка вообще, без артикля). Три артикля — три функции."
+    "note": "Сравни: a band (какая-то), the band (та самая), bands (вообще, любые группы)."
   },
   "russianAngle": [
-    "В русском артиклей нет вообще, поэтому русскоговорящие часто их пропускают: «I saw cat», «I bought car». В английском артикль обязателен перед исчисляемым в единственном числе.",
-    "«Один» и «какой-то» в русском — разные слова, в английском одно: a. A record = одна пластинка = какая-то пластинка. «Я хочу одну пластинку» и «Я хочу какую-то пластинку» — по-английски одинаково: I want a record.",
-    "«Тот самый» в русском — указательное местоимение, в английском — артикль the. The record = та самая пластинка. «Дай мне ту книгу» и «Дай мне книгу, которую я просил» — оба the: Give me the book.",
-    "Явление вообще — без артикля в обоих языках: «Я люблю музыку» = I love music (не the music). «Музыка прекрасна» = Music is beautiful (не The music)."
+    "В русском языке мы говорим 'я вижу группу', не различая 'какую-то' и 'ту самую'. В английском это важно.",
+    "Русское 'это' часто соответствует английскому 'the', но не всегда: 'это группа' — 'it is a band', а не 'the band'.",
+    "В русском мы опускаем артикль везде. В английском это называется нулевой артикль — и это полноценная часть системы.",
+    "Ошибки с артиклями — одна из самых заметных черт русского акцента. Но их легко исправить, поняв логику."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни систему: a/an = новый/один, the = известный/единственный, ∅ = явление вообще.",
-      "Проверь: исчисляемое ли слово? В каком числе? Если неисчисляемое или множественное — a/an не ставится.",
-      "Проверь: собеседник уже знает, о чём речь? Если нет — a/an, если да — the.",
-      "Выучи устойчивые случаи пакетами: the drums, go on tour, go to bed, breakfast, love.",
-      "Сделай упражнение и сверься. Как сказал бы The Who: the road знает ответы."
+      "Пойми разницу: a/an = неопределённый (впервые), the = определённый (уже знаем), нулевой = обобщение.",
+      "Запомни: a → перед согласным звуком, an → перед гласным звуком.",
+      "Нулевой артикль: с неисчисляемыми существительными (water, music), с абстракциями (love, life), с языками (English).",
+      "Сравни пары: I love a song (какую-то песню) vs I love the song (ту самую) vs I love songs (песни вообще).",
+      "Практикуйся на текстах песен: вычеркивай артикли и вставляй обратно.",
+      "Читай вслух тексты песен и обращай внимание на артикли."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — выбери a/an, the или ∅:",
+      "prompt": "Вставьте артикль (a/an/the) или ничего (∅):",
       "items": [
-        { "q": "I bought ___ record yesterday.", "a": "a — пластинка впервые, одна из многих." },
-        { "q": "___ record is scratched.", "a": "The — та самая пластинка, о которой уже говорили." },
-        { "q": "I love ___ music.", "a": "∅ — музыка вообще, явление." },
-        { "q": "She plays ___ piano.", "a": "the — музыкальный инструмент, всегда the." },
-        { "q": "He goes to ___ school.", "a": "∅ — школа как институт, а не здание." }
+        { "q": "I saw ___ band in ___ club. ___ band was playing rock.", "a": "a, the, The" },
+        { "q": "She is ___ best singer in ___ band.", "a": "the, the" },
+        { "q": "___ music is ___ most important thing in ___ life.", "a": "∅, the, ∅" },
+        { "q": "I need ___ guitar and ___ amplifier.", "a": "a, an" },
+        { "q": "He plays ___ guitar and sings ___ rock.", "a": "∅, ∅" }
       ]
     }
   },
-  "formula": "a/an = новый/один; the = известный/единственный; ∅ (нулевой артикль) = явление вообще",
+  "formula": "a/an + N (неопределённый) · the + N (определённый) · N (нулевой) · a/an — перед согласным, an — перед гласным",
   "structure": {
-    "positive": "I have a record. / The record is scratched. / Records are loud.",
-    "negative": "I don't have a record. / The record isn't scratched. / Records aren't quiet.",
-    "question": "Do you have a record? / Is the record scratched? / Are records loud?"
+    "positive": "I saw a band. The band was great.",
+    "negative": "I don't have a guitar. I don't like the music.",
+    "question": "Do you have a ticket? Is the ticket for the show?"
   },
-  "markers": [],
+  "markers": ["a", "an", "the", "zero article"],
   "uses": [
-    "Новый предмет: a record, an amp, a song.",
-    "Известный предмет: the record, the sun, the song on the radio.",
-    "Явление вообще: music, life, fans, breakfast.",
-    "Устойчивые случаи: the piano, football, go to school, go to bed."
+    "Неопределённый (a/an): что-то впервые, один из многих.",
+    "Определённый (the): что-то уже известное, единственное в своём роде.",
+    "Нулевой: обобщения, абстракции, языки, неисчисляемые."
   ],
   "rules": [
-    { "title": "a/an — исчисляемое ед.ч.", "text": "a/an ставится только к исчисляемому в единственном числе: a record, an amp. К неисчисляемому и множественному a/an не ставится: music, fans, noise." },
-    { "title": "the — известный / единственный", "text": "the ставится, когда собеседник уже знает, о чём речь, или когда предмет единственный в своём роде: the record we bought, the sun, the moon, the song on the radio." },
-    { "title": "∅ — явление вообще", "text": "Артикль не ставится, когда речь о явлении вообще: I love music, Rock is dead, Fans are crazy, Breakfast is ready." },
-    { "title": "Устойчивые случаи", "text": "Инструменты: the drums, the piano. Спорт: football, tennis. Школа как институт: go to school. Кровать как действие: go to bed. Еда: breakfast, lunch, dinner. Абстракции: love, life, music." }
+    { "title": "a/an — неопределённый артикль",
+      "text": "Используется с существительным в единственном числе, когда мы говорим о чём-то впервые или о чём-то одном из многих. a — перед согласным звуком (a guitar), an — перед гласным (an amplifier)." },
+    { "title": "the — определённый артикль",
+      "text": "Используется, когда мы уже знаем о чём идёт речь, или когда предмет единственный в своём роде (the stage, the crowd)." },
+    { "title": "Нулевой артикль",
+      "text": "Используется с неисчисляемыми существительными (music, water), с абстракциями (love, life), с языками (English), с названиями стран (USA, UK)." }
   ],
   "examples": [
     {
-      "group": "The Who и ∅ (явление)",
+      "group": "Неопределённый артикль a/an",
       "items": [
-        { "en": "I can see for miles and miles.", "ru": "Я вижу на мили и мили. Расстояние вообще, без артикля.", "highlight": ["miles"] },
-        { "en": "The road is long.", "ru": "Дорога длинная. Та самая, по которой едем.", "highlight": ["The road"] },
-        { "en": "A boy was playing pinball.", "ru": "Мальчик играл в пинбол. Какой-то, один из многих.", "highlight": ["A boy"] }
+        { "en": "I saw a band in the club. It was a great rock band.", "ru": "Я увидел какую-то группу в клубе. Это была отличная рок-группа.", "highlight": ["a"] },
+        { "en": "She is an artist. She paints album covers.", "ru": "Она художница. Она рисует обложки для альбомов.", "highlight": ["an"] },
+        { "en": "I need a guitar to play this song.", "ru": "Мне нужна гитара, чтобы сыграть эту песню.", "highlight": ["a"] }
       ]
     },
     {
-      "group": "The Kinks и the world",
+      "group": "Определённый артикль the",
       "items": [
-        { "en": "Every day I look at the world.", "ru": "Каждый день я смотрю на мир. Тот самый мир, который виден.", "highlight": ["the world"] },
-        { "en": "From a window.", "ru": "Из окна. Какого-то, одного из многих.", "highlight": ["a window"] },
-        { "en": "Waterloo Sunset is beautiful.", "ru": "Закат над Ватерлоо прекрасен. Тот самый закат, конкретное место.", "highlight": ["Waterloo Sunset"] }
+        { "en": "The band in the club was amazing. I love the band.", "ru": "Та группа в клубе была потрясающей. Я люблю ту группу.", "highlight": ["the"] },
+        { "en": "The stage was huge. The crowd was loud.", "ru": "Сцена была огромной. Толпа была громкой.", "highlight": ["the"] },
+        { "en": "I have a guitar and a bass. The guitar is mine.", "ru": "У меня есть гитара и бас. Та гитара моя.", "highlight": ["the"] }
       ]
     },
     {
-      "group": "The Doors и fire",
+      "group": "Нулевой артикль — обобщения",
       "items": [
-        { "en": "Light my fire.", "ru": "Зажги мой огонь. Состояние, без артикля.", "highlight": ["fire"] },
-        { "en": "The fire is burning.", "ru": "Огонь горит. Тот самый, о котором речь.", "highlight": ["The fire"] },
-        { "en": "A rider came in.", "ru": "Всадник вошёл. Какой-то, впервые.", "highlight": ["A rider"] }
+        { "en": "I love music. Music is everything.", "ru": "Я люблю музыку. Музыка — это всё.", "highlight": ["music", "Music"] },
+        { "en": "She plays guitar and sings rock.", "ru": "Она играет на гитаре и поёт рок.", "highlight": ["guitar", "rock"] },
+        { "en": "Life is hard, but music helps.", "ru": "Жизнь трудна, но музыка помогает.", "highlight": ["Life", "music"] }
       ]
     },
     {
-      "group": "David Bowie и a starman",
+      "group": "Нулевой артикль — неисчисляемые",
       "items": [
-        { "en": "There's a starman waiting in the sky.", "ru": "Есть звёздный человек, ждущий в небе. Какой-то, один из многих.", "highlight": ["a starman"] },
-        { "en": "The stars look very different today.", "ru": "Звёзды выглядят совсем иначе сегодня. Те самые, конкретные.", "highlight": ["The stars"] },
-        { "en": "Space is dark.", "ru": "Космос тёмный. Явление вообще, без артикля.", "highlight": ["Space"] }
+        { "en": "I drink coffee before every show. Coffee keeps me awake.", "ru": "Я пью кофе перед каждым шоу. Кофе помогает мне не спать.", "highlight": ["coffee", "Coffee"] },
+        { "en": "We need water and food for the tour.", "ru": "Нам нужны вода и еда для тура.", "highlight": ["water", "food"] },
+        { "en": "Time is precious on stage. We use time wisely.", "ru": "Время на сцене драгоценно. Мы используем время с умом.", "highlight": ["Time", "time"] }
       ]
     },
     {
-      "group": "Pink Floyd и ∅ (состояния)",
+      "group": "Сравнение: a/an vs the vs нулевой",
       "items": [
-        { "en": "Wish you were here.", "ru": "Жаль, что тебя здесь нет. Состояние, без артикля.", "highlight": ["here"] },
-        { "en": "I'm a man.", "ru": "Я человек. Один из многих — a.", "highlight": ["a man"] },
-        { "en": "The man I used to know.", "ru": "Тот человек, которого я знал. Тот самый — the.", "highlight": ["The man"] }
+        { "en": "I saw a band. The band was great. I love bands.", "ru": "Я увидел какую-то группу. Та группа была отличной. Я люблю группы.", "highlight": ["a", "The", "bands"] },
+        { "en": "She is a singer. The singer saved the show. Singers are heroes.", "ru": "Она певица. Та певица спасла шоу. Певицы — герои.", "highlight": ["a", "The", "Singers"] },
+        { "en": "I need a guitar. The guitar is red. Guitars are essential.", "ru": "Мне нужна гитара. Та гитара красная. Гитары необходимы.", "highlight": ["a", "The", "Guitars"] }
       ]
     },
     {
-      "group": "Устойчивые случаи",
+      "group": "Специальные случаи в роке",
       "items": [
-        { "en": "He plays the drums.", "ru": "Он играет на барабанах. Инструмент — всегда the.", "highlight": ["the drums"] },
-        { "en": "They play football.", "ru": "Они играют в футбол. Спорт — всегда ∅.", "highlight": ["football"] },
-        { "en": "She goes to school by bus.", "ru": "Она ездит в школу на автобусе. Школа как институт — ∅.", "highlight": ["school"] }
+        { "en": "He goes to the studio. The studio is old.", "ru": "Он ходит в ту студию. Та студия старая.", "highlight": ["the studio", "The studio"] },
+        { "en": "I have a riff. I need an idea for the song.", "ru": "У меня есть рифф. Мне нужна идея для песни.", "highlight": ["a", "an"] },
+        { "en": "She plays the piano. It is a beautiful instrument.", "ru": "Она играет на фортепиано. Это красивый инструмент.", "highlight": ["the", "a"] },
+        { "en": "The United States has a great rock scene.", "ru": "В Соединённых Штатах отличная рок-сцена.", "highlight": ["The", "a"] },
+        { "en": "I enjoy reading about rock history. History is fascinating.", "ru": "Мне нравится читать об истории рока. История увлекательна.", "highlight": ["rock history", "History"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I saw cat.", "right": "I saw a cat.", "note": "Исчисляемое ед.ч. требует артикля: a cat." },
-    { "wrong": "I bought record.", "right": "I bought a record.", "note": "Исчисляемое ед.ч. требует артикля: a record." },
-    { "wrong": "The life is beautiful.", "right": "Life is beautiful.", "note": "Жизнь как явление — без артикля." },
-    { "wrong": "I love the music.", "right": "I love music.", "note": "Музыка вообще — без артикля." },
-    { "wrong": "She plays a violin.", "right": "She plays the violin.", "note": "Музыкальный инструмент — всегда the." },
-    { "wrong": "He plays the football.", "right": "He plays football.", "note": "Спорт — всегда без артикля." }
+    { "wrong": "I saw band in club.", "right": "I saw a band in the club.", "note": "С существительным в единственном числе нужен артикль: a band, the club." },
+    { "wrong": "She is singer.", "right": "She is a singer.", "note": "Для профессий всегда нужен a/an: a singer, a guitarist." },
+    { "wrong": "I love the rock. (если имеется в виду рок вообще)", "right": "I love rock. (без артикля)", "note": "Для обобщений (рок вообще) — нулевой артикль." },
+    { "wrong": "She plays the guitar (если имеется в виду игра на гитаре как деятельность)", "right": "She plays guitar. (без артикля)", "note": "С музыкальными инструментами в значении деятельности — нулевой артикль." },
+    { "wrong": "The water is important. (если имеется в виду вода вообще)", "right": "Water is important.", "note": "Неисчисляемые в общем смысле — без артикля." },
+    { "wrong": "I have a guitar and a bass. The guitar is red and bass is black.", "right": "I have a guitar and a bass. The guitar is red and the bass is black.", "note": "Если о предмете уже упоминали — нужен the." }
   ],
   "compare": {
-    "title": "Новое vs Известное vs Явление",
-    "leftLabel": "a/an",
-    "rightLabel": "the",
+    "title": "Три артикля + нулевой в роке",
+    "leftLabel": "a/an (неопределённый)",
+    "rightLabel": "the (определённый)",
     "rows": [
-      { "left": "I saw a show. (какое-то шоу)", "right": "The show was wild. (то самое шоу)" },
-      { "left": "I bought a record. (какая-то пластинка)", "right": "The record is scratched. (та самая пластинка)" },
-      { "left": "I need a pen. (какая-то ручка)", "right": "The pen on the table is mine. (та самая ручка)" }
+      { "left": "I saw a band (какую-то)", "right": "I saw the band (ту самую)" },
+      { "left": "She is a singer (одна из)", "right": "She is the singer (та самая)" },
+      { "left": "I need a guitar (какую-то)", "right": "I need the guitar (ту самую)" }
     ]
   },
   "tips": [
-    "Система артиклей — это вопрос: собеседник уже знает, о чём речь? Если нет — a/an, если да — the, если явление вообще — ∅.",
-    "a/an ставится только к исчисляемому в единственном числе: a record, an amp. К неисчисляемому и множественному a/an не ставится.",
-    "the ставится к единственному в своём роде: the sun, the moon, the sky, the internet.",
-    "Устойчивые случаи запоминай пакетами: the drums, football, go to school, go to bed, breakfast, love.",
-    "The Who знают: miles — это расстояние вообще, а the road — та самая дорога, которая ведёт к горизонту.",
-    "Чем больше фраз с артиклями ты увидишь, тем быстрее система станет автоматической. Прочитай примеры вслух."
+    "a/an = впервые, один из многих. the = уже знаем, единственный.",
+    "Нулевой артикль = обобщение, абстракция, неисчисляемое.",
+    "Запомни: a + согласный (a guitar), an + гласный (an amplifier).",
+    "С профессиями и ролями в группе всегда a/an: a singer, a guitarist.",
+    "С музыкальными жанрами и языками — нулевой артикль: rock, English.",
+    "С неисчисляемыми в общем смысле — нулевой артикль: music, water, love.",
+    "Если сомневаешься — спроси себя: 'Это впервые? Это один из многих?' — если да, то a/an. Если нет — the."
   ],
-  "related": ["a1-articles-a-an", "a1-there-is-there-are", "a1-plural-nouns", "a2-comparatives-superlatives"],
+  "related": ["a1-articles-a-an", "a2-nouns", "a1-plural-nouns"],
   "quiz": [
     {
-      "q": "I bought ___ record yesterday.",
-      "options": ["a", "the", "∅", "an"],
+      "q": "I saw ___ band in ___ club.",
+      "options": ["a, the", "the, a", "a, a", "the, the"],
       "answer": 0,
-      "why": "Пластинка впервые, одна из многих: a record."
+      "why": "a band — впервые, the club — конкретный клуб (мы знаем, о каком)."
     },
     {
-      "q": "___ record is scratched.",
-      "options": ["The", "A", "∅", "An"],
-      "answer": 0,
-      "why": "Та самая пластинка, о которой уже говорили: the record."
+      "q": "She is ___ singer. She sings with ___ band.",
+      "options": ["a, a", "the, the", "a, the", "the, a"],
+      "answer": 2,
+      "why": "a singer — профессия (одна из), the band — конкретная группа."
     },
     {
-      "q": "I love ___ music.",
-      "options": ["∅", "the", "a", "an"],
-      "answer": 0,
-      "why": "Музыка вообще, явление: ∅."
+      "q": "I love ___ rock. It makes me happy.",
+      "options": ["the", "a", "an", "nothing (zero article)"],
+      "answer": 3,
+      "why": "Рок вообще — обобщение, нулевой артикль."
     },
     {
-      "q": "She plays ___ piano.",
-      "options": ["the", "a", "∅", "an"],
-      "answer": 0,
-      "why": "Музыкальный инструмент — всегда the."
+      "q": "She plays ___ guitar in ___ rock band.",
+      "options": ["the, the", "a, a", "nothing, a", "the, a"],
+      "answer": 2,
+      "why": "play guitar — деятельность (без артикля), a rock band — одна из многих."
     },
     {
-      "q": "He goes to ___ school.",
-      "options": ["∅", "the", "a", "an"],
+      "q": "I have ___ guitar and ___ bass. ___ guitar is red.",
+      "options": ["a, a, The", "the, the, A", "a, a, A", "the, the, The"],
       "answer": 0,
-      "why": "Школа как институт, а не здание: ∅."
+      "why": "a guitar, a bass — впервые; The guitar — уже знаем, о какой гитаре речь."
     },
     {
-      "q": "___ sun is shining.",
-      "options": ["The", "A", "∅", "An"],
-      "answer": 0,
-      "why": "Солнце — единственное в своём роде: the sun. The Kinks знают."
+      "q": "___ music is ___ most important thing in ___ life.",
+      "options": ["The, a, the", "Nothing, the, nothing", "A, the, a", "The, the, the"],
+      "answer": 1,
+      "why": "Music — обобщение (нулевой), the most important — превосходная степень (the), life — обобщение (нулевой)."
     }
   ]
 }

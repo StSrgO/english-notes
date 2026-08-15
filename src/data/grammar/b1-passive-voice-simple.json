@@ -1,204 +1,196 @@
 {
- "slug": "b1-passive-voice-simple",
- "title": "Passive Voice (Present & Past Simple)",
- "level": "B1",
- "category": "Voice",
- "readingTime": 11,
- "summary": "Когда важен объект и само действие, а не кто его сделал. Скелет be + V3, где be несёт время, а V3 стоит константой.",
- "idea": [
-  "Начать понимать пассив лучше всего с одной очень русской ситуации: у тебя украли велосипед. По‑русски ты скажешь именно так — «у меня украли велосипед», безлично, без деятеля, потому что кто украл — ты не знаешь, и это не важно; важно, что велосипеда больше нет. И вот английский для этой мысли использует пассив: My bike was stolen. Не «somebody stole my bike» (кто‑то украл — деятель на первом месте), а именно «велосипед был украден» — объект выведен вперёд, деятель убран за ненадобностью. В этом и есть вся суть пассива: он нужен, когда важен объект, результат или само действие, а не тот, кто его совершил. Пассив смещает фокус с «кто сделал» на «что сделано».",
-  "Хорошая новость — форма пассива строится из одного скелета, который работает во всех временах: be + V3, где be берёт на себя время, а основной глагол ВСЕГДА стоит в третьей форме (Past Participle) и не меняется. На B1 нам нужны два этажа. Present Simple Passive — am/is/are + V3: Coffee is grown in Brazil (кофе выращивают в Бразилии — кто именно, не важно, это общий факт). Past Simple Passive — was/were + V3: The window was broken yesterday (окно разбили вчера). Посмотри, как это работает: время прячется в be (is — сейчас, was — тогда, will be — потом), а V3 (grown, broken, written, made) стоит константой. Выучи один каркас be + V3 — и времена приложатся сами, нужно только двигать be.",
-  "Механика превращения актива в пассив проста, но её надо увидеть. Берём актив: They build houses. Дополнение (houses) переезжает в начало и становится подлежащим пассива, be согласуется уже с ним (houses — множественное, значит are), основной глагол уходит в V3 (built): Houses are built. He wrote the book → The book was written. Если деятель всё‑таки важен или интересен, его добавляют через by: Hamlet was written by Shakespeare. Но если деятель — это «кто‑то / люди / они» и не несёт информации, его просто опускают, и это самый частый случай: My car was repaired (кем‑то, не суть). Есть ещё живой разговорный брат пассива — get + V3, который описывает то, что «случилось с кем‑то», часто неожиданное или неприятное: get married, get fired, get lost, get paid, get arrested — He got fired last week (его уволили). И задел на будущее: безличный пассив для «говорят / считают» — It is said that…, о котором мы поговорим на B2. Для русскоговорящих главная боль — калька: хочется либо оставить актив (Somebody stole my bike), либо перевести безличное буквально (I was stolen my bike — грубая ошибка, «меня украли»). Правильно — объект вперёд: My bike was stolen. Если унести одну мысль: пассив = be + V3, время в be, V3 константа; используй, когда важен объект/результат, а деятель неизвестен или не важен."
- ],
- "why": [
-  "Говорить о действии, когда деятель неизвестен или не важен: My phone was stolen.",
-  "Подчёркивать объект или результат: The house was built in 1990.",
-  "Звучать формально и по‑научному: English is spoken here. The data are collected weekly.",
-  "Описывать общие процессы и правила: Rice is grown in many countries."
- ],
- "context": {
-  "lines": [
-   { "en": "Bad news — my bike was stolen last night.", "ru": "Плохие новости — вчера ночью у меня украли велосипед." },
-   { "en": "Oh no! Was it locked?", "ru": "О нет! Он был пристёгнут?" },
-   { "en": "Yes, but the lock was broken. These things are made so cheaply nowadays.", "ru": "Да, но замок сломали. Сейчас такие вещи делают так дёшево." },
-   { "en": "Did you report it? Bikes like that are often found by the police.", "ru": "Заявил? Такие велосипеды полиция часто находит." },
-   { "en": "I did. I was told to wait a few days.", "ru": "Да. Мне сказали подождать пару дней." },
-   { "en": "Well, my old one isn't used much — you can have it. It was given to me years ago.", "ru": "Ну, мой старый почти не используется — бери. Мне его подарили много лет назад." }
+  "variant": "classic",
+  "slug": "b1-passive-voice-simple",
+  "level": "B1",
+  "title": "Passive Voice (Present & Past Simple)",
+  "category": "Grammar",
+  "readingTime": 11,
+  "summary": "Пассивный залог — когда действие важнее того, кто его совершил. История о том, как рукопись Джека Керуака исчезла на 44 года и была найдена в коробке из-под обуви.",
+  "idea": [
+    "1957 год, Нью-Йорк. Джек Керуак, писатель бит-поколения, только что закончил свой главный роман «В дороге». Рукопись была напечатана на одном рулонном свитке бумаги длиной 37 метров — Керуак не хотел прерываться на смену страниц. Свиток был помещён в рюкзак и взят писателем в бар, где он праздновал завершение работы. И там, после нескольких виски, рюкзак был забыт. Свиток был оставлен под столом, и никто не заметил его исчезновения. «Рукопись была потеряна, — писал Керуак в дневнике, — и, вероятно, никогда не будет найдена». На протяжении 44 лет рукопись считалась утерянной. Её искали, но безуспешно.",
+    "В 2001 году рукопись была найдена в доме друга Керуака — человека, который взял рюкзак из бара, чтобы вернуть его писателю, но так и не сделал этого. Свиток был сохранён в коробке из-под обуви вместе с другими бумагами. Когда коробка была открыта, рукопись была обнаружена. «Она была найдена случайно, — рассказывал коллекционер, — и была продана за 2,4 миллиона долларов». Сейчас свиток хранится в музее в Лас-Вегасе. Вся история — это пассивный залог: рукопись была написана, была оставлена, была забыта, была найдена, была продана. Это история не о том, кто её потерял, а о том, что случилось с легендарной рукописью.",
+    "Пассивный залог (Passive Voice) используется, когда действие важнее того, кто его совершил. Формула простая: to be + V3 (третья форма глагола). В настоящем времени — am/is/are + V3. В прошедшем — was/were + V3. The manuscript was found in 2001 — рукопись была найдена в 2001 году. The manuscript is kept in a museum — рукопись хранится в музее. В русском языке мы тоже используем пассивный залог, но часто заменяем его на активный: «рукопись нашли», а не «рукопись была найдена». В английском пассивный залог — это норма, особенно в новостях, документах и официальных текстах. Как в истории с Керуаком: важно не то, кто забыл свиток, а то, что он был потерян и найден."
   ],
-  "note": "was stolen / was broken / are made / are often found / was told / was given — везде важен объект и результат (велосипед, замок, вещи), а не кто сделал; деятель либо неизвестен, либо не важен. was told — пассив с двумя дополнениями (мне сказали → I was told). Живой, естественный пассив в бытовом разговоре."
- },
- "russianAngle": [
-  " «У меня украли велосипед» (безлично). Объект вперёд: My bike was stolen. НЕ I was stolen my bike (грубая калька «меня украли») и не обязательно Somebody stole my bike.",
-  " «Здесь говорят по-английски» (безличное «говорят»). English is spoken here — пассив, деятель «люди» опущен. Русское безличное часто = пассив.",
-  " «Дом построили в 1990» (безлично). The house was built in 1990 — объект вперёд, время в was, built константой.",
-  " «Мне сказали подождать». I was told to wait — пассив с двумя дополнениями: «мне» становится подлежащим. Русское «мне сказали» ложится прямо."
- ],
- "howToLearn": {
-  "steps": [
-   "Пойми идею: пассив = важен объект/результат, а не кто сделал; тест «кем‑то?».",
-   "Запомни скелет: be + V3; время в be (is/was/will be), V3 константа.",
-   "Выучи два этажа B1: am/is/are + V3 (сейчас), was/were + V3 (тогда).",
-   "Тренируй превращение: дополнение актива → подлежащее пассива, be согласуется с ним.",
-   "Сделай упражнение ниже и сверься с ответами."
+  "why": [
+    "Когда неизвестно, кто совершил действие: The manuscript was stolen.",
+    "Когда действие важнее исполнителя: The book was published in 1957.",
+    "В новостях и официальных текстах: The museum was opened in 2020.",
+    "Чтобы избежать активного субъекта: Mistakes were made.",
+    "Когда исполнитель очевиден: The manuscript was written by Kerouac."
   ],
-  "exercise": {
-   "prompt": "Попробуй сам — поставь глагол в пассив (Present или Past Simple):",
-   "items": [
-    { "q": "Coffee ___ (grow) in Brazil.", "a": "is grown — Present Simple Passive, общий факт." },
-    { "q": "The window ___ (break) yesterday.", "a": "was broken — Past Simple Passive." },
-    { "q": "These cars ___ (not / make) here.", "a": "aren't made — отрицание, мн.ч." },
-    { "q": "The email ___ (send) an hour ago.", "a": "was sent — Past Simple Passive." },
-    { "q": "English ___ (speak) all over the world.", "a": "is spoken — Present Simple Passive, общий факт." }
-   ]
-  }
- },
- "formula": "am/is/are + V3 (Present) · was/were + V3 (Past)",
- "structure": {
-  "positive": "The letter is written. / The letter was written.",
-  "negative": "The letter isn't signed. / The letter wasn't sent.",
-  "question": "Is it made here? / Was it built in 1990?"
- },
- "markers": ["by", "is/are made", "was/were built", "get + V3 (речь)", "is spoken", "was told"],
- "uses": [
-  "Деятель неизвестен или не важен: My phone was stolen.",
-  "Важен объект или результат: The house was built in 1990.",
-  "Формальный и научный стиль: English is spoken here. / The data are collected weekly.",
-  "Общие правила и процессы: Rice is grown in many countries."
- ],
- "rules": [
-  { "title": "be берёт время, V3 не двигается", "text": "Время активного глагола прячется в be: is built (сейчас), was built (тогда), will be built (потом). Основной глагол ВСЕГДА стоит в V3 и не меняется." },
-  { "title": "Согласование с новым подлежащим", "text": "Подлежащим пассива становится дополнение актива, и be согласуется с ним: They build houses → Houses are built. He wrote the book → The book was written." },
-  { "title": "by только когда нужен", "text": "by + деятель добавляем, только если он важен: Hamlet was written by Shakespeare. Если деятель «кем‑то/людьми» и не важен — опускаем: My car was repaired." }
- ],
- "examples": [
-  {
-   "group": "Present Simple Passive (общие факты, процессы)",
-   "items": [
-    { "en": "Coffee is grown in Brazil.", "ru": "Кофе выращивают в Бразилии.", "highlight": ["is grown"] },
-    { "en": "English is spoken all over the world.", "ru": "По‑английски говорят во всём мире.", "highlight": ["is spoken"] }
-   ]
+  "context": {
+    "lines": [
+      { "en": "The manuscript was left in a bar in 1957. It was forgotten for 44 years. In 2001, it was found in a shoebox. It was sold for 2.4 million dollars.",
+        "ru": "Рукопись была оставлена в баре в 1957 году. Она была забыта на 44 года. В 2001 году она была найдена в коробке из-под обуви. Она была продана за 2,4 миллиона долларов." },
+      { "en": "Kerouac wrote in his diary: 'The manuscript is lost. It will never be found. But it is remembered by everyone who read it.'",
+        "ru": "Керуак писал в дневнике: 'Рукопись потеряна. Она никогда не будет найдена. Но она помнится всеми, кто её читал.'" }
+    ],
+    "note": "Passive Voice: is lost (настоящее), was left (прошедшее), was forgotten (прошедшее), was found (прошедшее), was sold (прошедшее)."
   },
-  {
-   "group": "Past Simple Passive (события в прошлом)",
-   "items": [
-    { "en": "The window was broken yesterday.", "ru": "Окно разбили вчера.", "highlight": ["was broken"] },
-    { "en": "This house was built in 1990.", "ru": "Этот дом построили в 1990 году.", "highlight": ["was built"] }
-   ]
+  "russianAngle": [
+    "В русском языке мы часто используем активный залог вместо пассивного: «рукопись нашли», а не «рукопись была найдена».",
+    "В английском пассивный залог — это норма, особенно в официальных текстах и новостях.",
+    "Формула пассивного залога в русском: «быть» + причастие прошедшего времени. В английском: to be + V3.",
+    "Ошибка: The manuscript was find — неправильно. Нужно: The manuscript was found (V3)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни формулу: to be + V3 (третья форма глагола).",
+      "В настоящем времени: am/is/are + V3. The manuscript is kept in a museum.",
+      "В прошедшем времени: was/were + V3. The manuscript was found in 2001.",
+      "Сравни активный и пассивный: Jack wrote the book (актив) / The book was written by Jack (пассив).",
+      "Запомни: исполнитель в пассиве вводится предлогом by: by Kerouac.",
+      "Сделай упражнение ниже и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Преобразуйте активный залог в пассивный (как в истории с рукописью):",
+      "items": [
+        { "q": "Jack Kerouac wrote the manuscript in 1957.", "a": "The manuscript was written by Jack Kerouac in 1957." },
+        { "q": "Someone left the manuscript in a bar.", "a": "The manuscript was left in a bar." },
+        { "q": "They found the manuscript in 2001.", "a": "The manuscript was found in 2001." },
+        { "q": "People remember the book today.", "a": "The book is remembered today." },
+        { "q": "A collector bought the manuscript for 2.4 million.", "a": "The manuscript was bought by a collector for 2.4 million." }
+      ]
+    }
   },
-  {
-   "group": "Отрицание и вопрос",
-   "items": [
-    { "en": "These cars aren't made here.", "ru": "Эти машины здесь не производят.", "highlight": ["aren't made"] },
-    { "en": "Was the email sent?", "ru": "Письмо отправили?", "highlight": ["Was", "sent"] }
-   ]
+  "formula": "to be (в нужном времени) + V3 (третья форма глагола)",
+  "structure": {
+    "positive": "The manuscript was found in 2001.",
+    "negative": "The manuscript wasn't found in 2001.",
+    "question": "Was the manuscript found in 2001?"
   },
-  {
-   "group": "Деятель через by (когда важен)",
-   "items": [
-    { "en": "Hamlet was written by Shakespeare.", "ru": "«Гамлет» написан Шекспиром.", "highlight": ["was written by"] },
-    { "en": "The picture was painted by my grandmother.", "ru": "Картину написала моя бабушка.", "highlight": ["was painted by"] }
-   ]
+  "markers": ["was", "were", "is", "am", "are", "by", "V3", "past participle"],
+  "uses": [
+    "Когда неизвестно или неважно, кто совершил действие: The book was stolen.",
+    "В новостях и официальных текстах: The museum was opened in 2020.",
+    "Чтобы избежать активного субъекта: Mistakes were made.",
+    "В научных текстах: The experiment was conducted."
+  ],
+  "rules": [
+    { "title": "Формула",
+      "text": "Passive Voice = to be (в нужном времени) + V3 (третья форма глагола)." },
+    { "title": "Настоящее время",
+      "text": "am/is/are + V3: The manuscript is kept in a museum. The books are read by many people." },
+    { "title": "Прошедшее время",
+      "text": "was/were + V3: The manuscript was found in 2001. The books were written in the 20th century." },
+    { "title": "Исполнитель",
+      "text": "Исполнитель в пассиве вводится предлогом by: The manuscript was written by Kerouac. Если исполнитель не важен, он опускается." }
+  ],
+  "examples": [
+    {
+      "group": "Рукопись была написана — введение",
+      "items": [
+        { "en": "The manuscript was written by Jack Kerouac in 1957.", "ru": "Рукопись была написана Джеком Керуаком в 1957 году.", "highlight": ["was written"] },
+        { "en": "On the Road was written on a single scroll of paper.", "ru": "«В дороге» был написан на одном рулонном свитке бумаги.", "highlight": ["was written"] },
+        { "en": "The scroll was made of 37 metres of paper.", "ru": "Свиток был сделан из 37 метров бумаги.", "highlight": ["was made"] }
+      ]
+    },
+    {
+      "group": "Рукопись была оставлена — исчезновение",
+      "items": [
+        { "en": "The manuscript was left in a bar in New York.", "ru": "Рукопись была оставлена в баре в Нью-Йорке.", "highlight": ["was left"] },
+        { "en": "The scroll was forgotten under a table for 44 years.", "ru": "Свиток был забыт под столом на 44 года.", "highlight": ["was forgotten"] },
+        { "en": "The bag was taken by a friend who never returned it.", "ru": "Сумка была взята другом, который так и не вернул её.", "highlight": ["was taken"] }
+      ]
+    },
+    {
+      "group": "Рукопись была забыта — время проходит",
+      "items": [
+        { "en": "The manuscript was considered lost for decades.", "ru": "Рукопись считалась потерянной десятилетиями.", "highlight": ["was considered"] },
+        { "en": "It was not looked for by anyone until 2001.", "ru": "Она не искалась никем до 2001 года.", "highlight": ["was not looked for"] },
+        { "en": "The book was published without the original scroll.", "ru": "Книга была опубликована без оригинального свитка.", "highlight": ["was published"] }
+      ]
+    },
+    {
+      "group": "Рукопись была найдена — открытие",
+      "items": [
+        { "en": "The manuscript was found in a shoebox in 2001.", "ru": "Рукопись была найдена в коробке из-под обуви в 2001 году.", "highlight": ["was found"] },
+        { "en": "It was discovered by accident when the box was opened.", "ru": "Она была обнаружена случайно, когда коробка была открыта.", "highlight": ["was discovered", "was opened"] },
+        { "en": "The scroll was examined by experts and declared authentic.", "ru": "Свиток был изучен экспертами и признан подлинным.", "highlight": ["was examined", "was declared"] }
+      ]
+    },
+    {
+      "group": "Рукопись была продана — аукцион",
+      "items": [
+        { "en": "The manuscript was sold for 2.4 million dollars.", "ru": "Рукопись была продана за 2,4 миллиона долларов.", "highlight": ["was sold"] },
+        { "en": "It was bought by a collector who knew its value.", "ru": "Она была куплена коллекционером, который знал её ценность.", "highlight": ["was bought"] },
+        { "en": "The scroll is now kept in a museum in Las Vegas.", "ru": "Свиток сейчас хранится в музее в Лас-Вегасе.", "highlight": ["is kept"] }
+      ]
+    },
+    {
+      "group": "Активный vs пассивный",
+      "items": [
+        { "en": "Kerouac wrote the manuscript. / The manuscript was written by Kerouac.", "ru": "Керуак написал рукопись. / Рукопись была написана Керуаком.", "highlight": ["wrote", "was written"] },
+        { "en": "He published the book in 1957. / The book was published in 1957.", "ru": "Он опубликовал книгу в 1957. / Книга была опубликована в 1957.", "highlight": ["published", "was published"] },
+        { "en": "People read the book today. / The book is read today.", "ru": "Люди читают книгу сегодня. / Книга читается сегодня.", "highlight": ["read", "is read"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "The manuscript was find in 2001.", "right": "The manuscript was found in 2001.", "note": "В пассиве нужна третья форма глагола (V3): find → found." },
+    { "wrong": "The book was wrote by Kerouac.", "right": "The book was written by Kerouac.", "note": "write → written (не wrote)." },
+    { "wrong": "The manuscript is keeps in a museum.", "right": "The manuscript is kept in a museum.", "note": "keep → kept (V3)." },
+    { "wrong": "The manuscript was been found.", "right": "The manuscript was found.", "note": "В пассиве не нужно been, достаточно was + V3." },
+    { "wrong": "The book is readed by many.", "right": "The book is read by many.", "note": "read → read (V3, произносится /rɛd/)." },
+    { "wrong": "The manuscript were found.", "right": "The manuscript was found.", "note": "manuscript — ед. число, поэтому was, а не were." }
+  ],
+  "compare": {
+    "title": "Active Voice vs Passive Voice",
+    "leftLabel": "Active Voice (действие от исполнителя)",
+    "rightLabel": "Passive Voice (действие над объектом)",
+    "rows": [
+      { "left": "Kerouac wrote the manuscript.", "right": "The manuscript was written by Kerouac." },
+      { "left": "He left it in a bar.", "right": "It was left in a bar." },
+      { "left": "Someone found it in 2001.", "right": "It was found in 2001." },
+      { "left": "A collector bought it.", "right": "It was bought by a collector." }
+    ]
   },
-  {
-   "group": "get-пассив (случилось с кем‑то)",
-   "items": [
-    { "en": "He got fired last week.", "ru": "Его уволили на прошлой неделе.", "highlight": ["got fired"] },
-    { "en": "They're getting married in June.", "ru": "Они женятся в июне.", "highlight": ["getting married"] }
-   ]
-  }
- ],
- "mistakes": [
-  { "wrong": "The house built in 1990.", "right": "The house was built in 1990.", "note": "Пропущено be — без него это не пассив." },
-  { "wrong": "The book was wrote by him.", "right": "The book was written by him.", "note": "Нужна форма V3 (written), а не V2 (wrote)." },
-  { "wrong": "I was stolen my bike.", "right": "My bike was stolen.", "note": "Калька «у меня украли» — объект вперёд, не «меня украли»." },
-  { "wrong": "The cars is made here.", "right": "The cars are made here.", "note": "be согласуется с подлежащим: cars → are." },
-  { "wrong": "It was build by them.", "right": "It was built by them.", "note": "build → built (V3)." }
- ],
- "compare": {
-  "title": "Active vs Passive",
-  "leftLabel": "Active (важен деятель)",
-  "rightLabel": "Passive (важен объект/результат)",
-  "rows": [
-   { "left": "Shakespeare wrote Hamlet.", "right": "Hamlet was written by Shakespeare." },
-   { "left": "Somebody stole my bike.", "right": "My bike was stolen." }
+  "tips": [
+    "Мантра пассивного залога: to be + V3. Запомни как рифф.",
+    "В настоящем времени: am/is/are + V3. The book is read today.",
+    "В прошедшем времени: was/were + V3. The book was written in 1957.",
+    "Исполнитель вводится предлогом by: by Kerouac. Если не важно — опускай.",
+    "В пассиве всегда третья форма глагола (V3): write → written, find → found.",
+    "Пассивный залог часто используется в новостях и официальных текстах.",
+    "Если сомневаешься — спроси себя: 'Действие важнее исполнителя?' Если да — используй пассив."
+  ],
+  "related": ["b1-present-simple", "b1-past-simple", "b1-passive-voice-advanced"],
+  "quiz": [
+    {
+      "q": "The manuscript ___ by Jack Kerouac in 1957.",
+      "options": ["was written", "is written", "were written", "was wrote"],
+      "answer": 0,
+      "why": "was written — прошедшее время, V3 от write."
+    },
+    {
+      "q": "The manuscript ___ in a bar in New York.",
+      "options": ["was left", "was leave", "were left", "is left"],
+      "answer": 0,
+      "why": "was left — прошедшее время, V3 от leave."
+    },
+    {
+      "q": "The scroll ___ in a shoebox in 2001.",
+      "options": ["was found", "was find", "were found", "is found"],
+      "answer": 0,
+      "why": "was found — прошедшее время, V3 от find."
+    },
+    {
+      "q": "The book ___ by many people today.",
+      "options": ["is read", "is readed", "was read", "are read"],
+      "answer": 0,
+      "why": "is read — настоящее время, V3 от read."
+    },
+    {
+      "q": "The manuscript ___ for 44 years.",
+      "options": ["was forgotten", "was forgot", "were forgotten", "is forgotten"],
+      "answer": 0,
+      "why": "was forgotten — прошедшее время, V3 от forget."
+    },
+    {
+      "q": "The scroll ___ by a collector in 2001.",
+      "options": ["was bought", "was buy", "were bought", "is bought"],
+      "answer": 0,
+      "why": "was bought — прошедшее время, V3 от buy."
+    }
   ]
- },
- "tips": [
-  "Скелет один — be + V3. Время живёт только в be, V3 — константа: is/was/will be + одна и та же форма V3. Выучи каркас один раз, и все времена пассива приложатся сами — нужно только двигать be.",
-  "Тест «кем‑то?»: если хочется добавить «кем‑то», но ты не знаешь кем или это не важно — ставь пассив и опускай деятеля. My phone was repaired (кем‑то, не суть). Пассив — это способ не выдумывать «somebody».",
-  "Топ V3 для пассива зубри пачками: written, built, stolen, made, taken, sent, told, given, done, seen, broken, sold, spoken, grown. Они покрывают большинство учебных и живых примеров — правильные (repaired, collected) образуются сами через -ed.",
-  "get‑пассив — разговорный брат be‑пассива для «случилось с кем‑то», часто неожиданного: get married, get fired, get lost, get paid, get arrested, get hurt. He got fired звучит живее, чем He was fired. Используй в речи, но в формальном письме держи be‑пассив.",
-  "by добавляй только если деятель реально важен или интересен: Hamlet was written by Shakespeare. Если деятель — «люди/кто‑то», его опускают, и это самый частый случай. Не лепи by автоматически.",
-  "Пассив с двумя дополнениями — красивая конструкция: They told me → I was told (мне сказали), They gave her a gift → She was given a gift (ей подарили). «Мне/ей» становится подлежащим — русское «мне сказали» ложится идеально.",
-  "Русская калька «у меня украли» — убийца. Запомни: объект вперёд — My bike was stolen, My wallet was taken. НЕ I was stolen my wallet. Это та ошибка, которая мгновенно выдаёт русскоговорящего."
- ],
- "related": ["a1-past-simple", "a1-present-simple", "b1-present-perfect", "b1-reported-speech"],
- "quiz": [
-  {
-    "q": "The house ___ in 1990.",
-    "options": [
-            "was built",
-            "built",
-            "was build",
-            "is built"
-          ],
-    "answer": 0,
-    "why": "Пассив в прошлом — was/were + V3: The house was built. built без was и was build (не V3) — ошибки."
-  },
-  {
-    "q": "English ___ all over the world.",
-    "options": [
-            "speaks",
-            "is spoken",
-            "is speak",
-            "spoken"
-          ],
-    "answer": 1,
-    "why": "Пассив в настоящем — is/are + V3: English is spoken. speaks — актив (язык не «говорит»)."
-  },
-  {
-    "q": "The book ___ by a famous author.",
-    "options": [
-            "was written",
-            "was wrote",
-            "wrote",
-            "written"
-          ],
-    "answer": 0,
-    "why": "V3 от write — written, не wrote: The book was written. was wrote — ошибка формы."
-  },
-  {
-    "q": "My bike ___ yesterday.",
-    "options": [
-            "was stolen",
-            "stole",
-            "was steal",
-            "stolen"
-          ],
-    "answer": 0,
-    "why": "Пассив: My bike was stolen (меня не «украли», украли велосипед). I was stolen my bike — калька, ошибка."
-  },
-  {
-    "q": "These cars ___ in Germany.",
-    "options": [
-            "make",
-            "are made",
-            "are make",
-            "made"
-          ],
-    "answer": 1,
-    "why": "Пассив во множественном числе в настоящем — are + V3: These cars are made."
-  },
-  {
-    "q": "The window ___ by the kids.",
-    "options": [
-            "was broken",
-            "broke",
-            "was broke",
-            "broken"
-          ],
-    "answer": 0,
-    "why": "Пассив в прошлом — was + V3 (broken): The window was broken. was broke — ошибка формы."
-  }
-]
 }
