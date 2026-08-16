@@ -1,186 +1,454 @@
-{
-  "slug": "a1-present-continuous",
-  "title": "Present Continuous",
-  "level": "A1",
-  "category": "Tenses",
-  "readingTime": 7,
-  "summary": "Настоящее длительное: am/is/are + глагол с -ing. Действие, которое происходит прямо сейчас, в эту минуту. Вирджиния Вулф отправляет миссис Дэллоуэй за цветами — и всё начинается.",
-  "idea": [
-    "«Mrs. Dalloway said she would buy the flowers herself» — так Вирджиния Вулф открывает роман, и дальше весь день миссис Дэллоуэй разворачивается в Present Continuous: she is walking through London, she is buying flowers, she is thinking about the past. Спектакль идёт прямо сейчас, на наших глазах. Present Continuous — это язык процесса в настоящем, прямой трансляции. I am writing. She is reading. They are talking. Пока ты читаешь эти строки, мир продолжает двигаться: где-то идёт дождь (it is raining), кто-то готовит ужин (someone is cooking), а по радио играет песня (a song is playing). Всё происходит сейчас.",
-    "Строится Present Continuous из двух частей: am/is/are + глагол с -ing. Am — для I, is — для he/she/it, are — для you/we/they. I am reading. She is walking. They are talking. Отрицание — not после am/is/are: I am not listening. She isn't coming. They aren't paying attention. Вопрос — вынос am/is/are: Are you listening? Is she coming? Уайльд парадоксален: «I am so clever that sometimes I don't understand a single word of what I am saying» — я так умён, что иногда не понимаю ни слова из того, что говорю. Чехов настроенчески: it is raining, the samovar is boiling, someone is playing the piano. Всё происходит одновременно, создавая настроение.",
-    "Главное отличие от Simple — момент vs постоянно. I live in London (вообще) против I am living with friends this week (временно). I read (вообще) против I am reading this book now (прямо сейчас). И запомни: глаголы состояния не идут в Continuous — like, love, know, want, need, understand. I want coffee (не I am wanting). I know the answer (не I am knowing). Это не процессы, это состояния."
-  ],
-  "why": [
-    "Сказать, что происходит прямо сейчас: I am reading. It is raining. She is walking.",
-    "Описать временную ситуацию: I am living with friends this week.",
-    "Рассказать о планах-договорённостях: We are meeting Anna at 8 pm.",
-    "Описать меняющийся тренд: Prices are rising. The city is growing."
-  ],
-  "context": {
-    "lines": [
-      { "en": "What are you doing right now?", "ru": "Что ты делаешь прямо сейчас?" },
-      { "en": "I am reading a book. It is getting interesting.", "ru": "Читаю книгу. Становится интересно." },
-      { "en": "And what is it raining outside?", "ru": "А на улице идёт дождь?" },
-      { "en": "Yes. It is pouring. I am staying in.", "ru": "Да. Льёт как из ведра. Я остаюсь дома." }
-    ],
-    "note": "Всё происходит прямо сейчас на Present Continuous: am reading, is getting, is pouring, am staying. Спектакль идёт."
-  },
-  "russianAngle": [
-    "В русском «я читаю» может быть и Simple, и Continuous. В английском важно: I read (вообще, привычка) против I am reading (прямо сейчас, в эту минуту).",
-    "«Я живу у друзей эту неделю» — временно, Present Continuous: I am living with friends. «Я живу в Лондоне» — постоянно, Simple: I live in London.",
-    "Am/is/are + глагол с -ing. Не забывай be: «I reading» — ошибка, нужно «I am reading».",
-    "Глаголы состояния не идут в Continuous: I want coffee (не I am wanting). I know the answer (не I am knowing)."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Запомни: am/is/are + глагол с -ing. I am reading. She is walking. They are talking.",
-      "Am для I, is для he/she/it, are для you/we/they.",
-      "Отрицание — not после be: I am not listening. She isn't coming.",
-      "Вопрос — вынос be: Are you listening? Is she coming?",
-      "Сделай упражнение и сверься. Пока ты делал упражнение, мир продолжал двигаться."
-    ],
-    "exercise": {
-      "prompt": "Попробуй сам — раскрой скобки в Present Continuous:",
-      "items": [
-        { "q": "I ___ (read) a book right now.", "a": "am reading — сейчас, I + am." },
-        { "q": "She ___ (walk) in the park.", "a": "is walking — она + is." },
-        { "q": "They ___ (not / listen).", "a": "aren't listening — они + are, отрицание." },
-        { "q": "___ you ___ (come) to the party?", "a": "Are you coming — вопрос, вынос are." },
-        { "q": "It ___ (rain) outside.", "a": "is raining — оно + is." }
-      ]
-    }
-  },
-  "formula": "am/is/are + V-ing",
-  "structure": {
-    "positive": "I am reading. / She is walking.",
-    "negative": "I am not reading. / She isn't walking.",
-    "question": "Am I reading? / Is she walking?"
-  },
-  "markers": ["now", "right now", "at the moment", "today", "this week", "these days", "Look!", "Listen!"],
-  "uses": [
-    "Действие прямо сейчас: I am reading. It is raining.",
-    "Временная ситуация: I am living with friends this week.",
-    "Планы-договорённости: We are meeting Anna at 8 pm.",
-    "Меняющийся тренд: Prices are rising."
-  ],
-  "rules": [
-    { "title": "am/is/are + V-ing", "text": "Am для I, is для he/she/it, are для you/we/they. I am reading. She is walking. They are talking." },
-    { "title": "глаголы состояния", "text": "like, love, know, want, need, understand не идут в Continuous. I want coffee (не I am wanting). I know (не I am knowing)." },
-    { "title": "вопрос / отрицание", "text": "Вопрос: Are you listening? Отрицание: I am not listening (I'm not listening)." }
-  ],
-  "examples": [
-    {
-      "group": "Прямо сейчас",
-      "items": [
-        { "en": "I am reading a book.", "ru": "Я читаю книгу. Прямо сейчас.", "highlight": ["am reading"] },
-        { "en": "She is walking in the park.", "ru": "Она гуляет в парке. В эту минуту.", "highlight": ["is walking"] },
-        { "en": "They are talking quietly.", "ru": "Они тихо разговаривают.", "highlight": ["are talking"] },
-        { "en": "It is raining outside.", "ru": "На улице идёт дождь. Чеховское настроение.", "highlight": ["is raining"] }
-      ]
-    },
-    {
-      "group": "Временные ситуации",
-      "items": [
-        { "en": "I am living with friends this week.", "ru": "Я живу у друзей эту неделю. Временно.", "highlight": ["am living"] },
-        { "en": "She is staying at a hotel.", "ru": "Она остановилась в отеле. На время.", "highlight": ["is staying"] },
-        { "en": "We are working on a new project.", "ru": "Мы работаем над новым проектом. Сейчас.", "highlight": ["are working"] }
-      ]
-    },
-    {
-      "group": "Планы-договорённости",
-      "items": [
-        { "en": "We are meeting Anna at 8 pm.", "ru": "Встречаемся с Анной в 8. Договорились.", "highlight": ["are meeting"] },
-        { "en": "I am flying to Rome tomorrow.", "ru": "Завтра лечу в Рим. Билеты куплены.", "highlight": ["am flying"] },
-        { "en": "They are having dinner together.", "ru": "Они ужинают вместе. Запланировано.", "highlight": ["are having"] }
-      ]
-    },
-    {
-      "group": "Литературный момент",
-      "items": [
-        { "en": "Mrs. Dalloway is buying the flowers herself.", "ru": "Миссис Дэллоуэй сама покупает цветы. Вулф: день разворачивается.", "highlight": ["is buying"] },
-        { "en": "The samovar is boiling.", "ru": "Самовар кипит. Чеховское настроение.", "highlight": ["is boiling"] },
-        { "en": "Someone is playing the piano.", "ru": "Кто-то играет на пианино. Атмосфера.", "highlight": ["is playing"] }
-      ]
-    },
-    {
-      "group": "Тренды и изменения",
-      "items": [
-        { "en": "Prices are rising.", "ru": "Цены растут. Тренд.", "highlight": ["are rising"] },
-        { "en": "The city is growing.", "ru": "Город растёт. Изменение.", "highlight": ["is growing"] },
-        { "en": "It is getting dark.", "ru": "Темнеет. Процесс.", "highlight": ["is getting"] }
-      ]
-    },
-    {
-      "group": "Отрицания и вопросы",
-      "items": [
-        { "en": "I am not listening.", "ru": "Я не слушаю.", "highlight": ["am not listening"] },
-        { "en": "Are you coming to the party?", "ru": "Придёшь на вечеринку?", "highlight": ["Are you coming"] },
-        { "en": "She isn't coming tonight.", "ru": "Она сегодня не придёт.", "highlight": ["isn't coming"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "I reading a book.", "right": "I am reading a book.", "note": "Не забывай be: am reading." },
-    { "wrong": "She are walking.", "right": "She is walking.", "note": "She — is, не are." },
-    { "wrong": "I am wanting coffee.", "right": "I want coffee.", "note": "Want — глагол состояния, не Continuous." },
-    { "wrong": "They is talking.", "right": "They are talking.", "note": "They — are, не is." },
-    { "wrong": "I am knowing the answer.", "right": "I know the answer.", "note": "Know — состояние, не Continuous." }
-  ],
-  "compare": {
-    "title": "Процесс vs Постоянное",
-    "leftLabel": "Present Continuous (сейчас)",
-    "rightLabel": "Present Simple (вообще)",
-    "rows": [
-      { "left": "I am reading. (сейчас)", "right": "I read every day. (вообще)" },
-      { "left": "I am living with friends. (временно)", "right": "I live in London. (постоянно)" },
-      { "left": "She is working on a project. (сейчас)", "right": "She works in a bank. (работа вообще)" }
-    ]
-  },
-  "tips": [
-    "Present Continuous — am/is/are + глагол с -ing. Am для I, is для he/she/it, are для you/we/they.",
-    "Глаголы состояния не идут в Continuous: want, know, like, love, understand, need.",
-    "Look! / Listen! — маркеры Continuous: Look! It is raining. Listen! Someone is playing.",
-    "Continuous для планов-договорённостей звучит естественно: We are meeting at 8.",
-    "Временная ситуация vs постоянная: I am living with friends (временно) vs I live in London (постоянно).",
-    "Чем больше фраз на Present Continuous ты увидишь, тем быстрее они станут твоими. Прочитай примеры вслух."
-  ],
-  "related": ["a1-present-simple", "a2-past-continuous", "a2-future-simple"],
-  "quiz": [
-    {
-      "q": "I ___ (read) a book right now.",
-      "options": ["am reading", "is reading", "are reading", "reading"],
-      "answer": 0,
-      "why": "I + am + -ing: am reading."
-    },
-    {
-      "q": "She ___ (walk) in the park.",
-      "options": ["is walking", "am walking", "are walking", "walks"],
-      "answer": 0,
-      "why": "She + is + -ing: is walking."
-    },
-    {
-      "q": "They ___ (not / listen).",
-      "options": ["aren't listening", "isn't listening", "amn't listening", "don't listening"],
-      "answer": 0,
-      "why": "They + are + -ing, отрицание: aren't listening."
-    },
-    {
-      "q": "___ you coming to the party?",
-      "options": ["Are", "Is", "Am", "Do"],
-      "answer": 0,
-      "why": "Вопрос: вынос are. Are you coming?"
-    },
-    {
-      "q": "It ___ (rain) outside.",
-      "options": ["is raining", "are raining", "am raining", "rains"],
-      "answer": 0,
-      "why": "It + is + -ing: is raining."
-    },
-    {
-      "q": "We ___ (meet) Anna at 8 pm.",
-      "options": ["are meeting", "is meeting", "am meeting", "meet"],
-      "answer": 0,
-      "why": "We + are + -ing, план: are meeting."
-    }
-  ]
+﻿{
+    "slug":  "a1-present-continuous",
+    "level":  "A1",
+    "title":  "Present Continuous — поток сознания",
+    "category":  "Tenses",
+    "readingTime":  7,
+    "summary":  "Present Continuous показывает жизнь прямо сейчас. В этом уроке — Вирджиния Вулф, Кларисса Дэллоуэй и Лондон 1923 года.",
+    "variant":  "classic",
+    "idea":  [
+                 "Июнь 1923 года. Лондон. Кларисса Дэллоуэй выходит из дома. Она идёт по Вестминстеру, покупает цветы, думает о прошлом. Время течёт сквозь неё. Каждый момент — это сейчас. Настоящее продолженное время — это язык самой жизни. Язык того, что происходит прямо в эту секунду.",
+                 "В парке сидит Септимус Смит. Он слышит голоса. Он видит мёртвых друзей с войны. Его сознание плывёт. Два мира — два потока. Один и тот же Лондон, одно и то же время, но разные реальности. Present Continuous соединяет их. Потому что всё происходит сейчас.",
+                 "Вирджиния Вулф пишет роман. Она наблюдает за людьми, записывает их движения, их мысли. Она чувствует ритм города. Дождь идёт. Солнце выглядывает. Жизнь продолжается. Вечеринка приближается. Кларисса готовится. Всё движется. Всё меняется. Каждый глагол в Continuous — это удар сердца города."
+             ],
+    "why":  [
+                "Говорить о том, что происходит прямо сейчас: «She is walking down the street.»",
+                "Описывать временные действия: «He is staying in London this week.»",
+                "Передавать изменение и развитие: «The city is changing.»",
+                "Выражать эмоции и ощущения в моменте: «I am feeling happy.»"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Clarissa: I am walking through London. The sun is shining.",
+                                      "ru":  "Я иду по Лондону. Солнце светит."
+                                  },
+                                  {
+                                      "en":  "Peter: Are you still thinking about the past?",
+                                      "ru":  "Ты всё ещё думаешь о прошлом?"
+                                  },
+                                  {
+                                      "en":  "Clarissa: I am remembering our summer in Bourton.",
+                                      "ru":  "Я вспоминаю наше лето в Бортоне."
+                                  },
+                                  {
+                                      "en":  "Peter: I am not living in the past. I am moving forward.",
+                                      "ru":  "Я не живу прошлым. Я двигаюсь вперёд."
+                                  },
+                                  {
+                                      "en":  "Clarissa: But I am feeling everything right now. Every moment.",
+                                      "ru":  "Но я чувствую всё прямо сейчас. Каждый момент."
+                                  }
+                              ],
+                    "note":  "Кларисса и Питер Уолш встречаются после многих лет. Настоящее продолженное время помогает передать эмоции и ощущения прямо сейчас."
+                },
+    "russianAngle":  [
+                         "Русские говорят: «Я иду» — и это может быть и сейчас, и вообще. По-английски есть два варианта: «I walk» (вообще, всегда) и «I am walking» (прямо сейчас, в этот момент). Не путай!",
+                         "«Я читаю книгу» — если это действие прямо сейчас, в эту секунду, то «I am reading a book». Если это просто хобби — «I read books».",
+                         "В русском мы часто используем настоящее время для будущего: «Завтра я уезжаю». В английском — тоже можно: «I am leaving tomorrow». Present Continuous для запланированных действий в будущем.",
+                         "Осторожно с глаголами состояния: «Я понимаю» — это не процесс. «I understand», а не «I am understanding». Чувства, мысли, ощущения — обычно Simple. Действия — Continuous."
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Спроси себя: это происходит прямо сейчас? Если да — Present Continuous.",
+                                     "Используй формулу: am/is/are + глагол + -ing.",
+                                     "Не забывай про исключения: глаголы состояния (know, understand, want) не используются в Continuous."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Опиши, что происходит на улице Лондона в 1923 году прямо сейчас. Используй Present Continuous.",
+                                        "items":  [
+                                                      {
+                                                          "q":  "Clarissa (walk) down the street.",
+                                                          "a":  "is walking"
+                                                      },
+                                                      {
+                                                          "q":  "The sun (shine) over London.",
+                                                          "a":  "is shining"
+                                                      },
+                                                      {
+                                                          "q":  "People (rush) to work.",
+                                                          "a":  "are rushing"
+                                                      },
+                                                      {
+                                                          "q":  "Septimus (sit) in the park.",
+                                                          "a":  "is sitting"
+                                                      },
+                                                      {
+                                                          "q":  "He (hear) voices in his head.",
+                                                          "a":  "is hearing"
+                                                      },
+                                                      {
+                                                          "q":  "The city (change) around them.",
+                                                          "a":  "is changing"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "formula":  "S + am/is/are + V-ing",
+    "structure":  {
+                      "positive":  "I am + V-ing\nHe/She/It is + V-ing\nWe/You/They are + V-ing",
+                      "negative":  "I am not + V-ing\nHe/She/It is not + V-ing\nWe/You/They are not + V-ing",
+                      "question":  "Am I + V-ing?\nIs he/she/it + V-ing?\nAre we/you/they + V-ing?"
+                  },
+    "markers":  [
+                    "now",
+                    "right now",
+                    "at the moment",
+                    "at present",
+                    "currently",
+                    "this week / month / year",
+                    "today",
+                    "tonight",
+                    "still"
+                ],
+    "uses":  [
+                 "Действие прямо сейчас: «She is walking down the street.»",
+                 "Временные действия: «He is staying in London this month.»",
+                 "Изменения и развитие: «The city is becoming busier.»",
+                 "Запланированные действия в будущем: «She is having a party tonight.»"
+             ],
+    "rules":  [
+                  {
+                      "text":  "К глаголу добавляй -ing: walk → walking, read → reading, write → writing.",
+                      "title":  "Добавляй -ing"
+                  },
+                  {
+                      "text":  "У глаголов на -e убирай -e: write → writing, make → making.",
+                      "title":  "Глаголы на -e"
+                  },
+                  {
+                      "text":  "Глаголы состояния (know, understand, want, love, hate) не используются в Continuous.",
+                      "title":  "Глаголы состояния — исключение"
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Кларисса идёт по Лондону",
+                         "items":  [
+                                       {
+                                           "en":  "Clarissa is walking through Westminster.",
+                                           "ru":  "Кларисса идёт через Вестминстер.",
+                                           "highlight":  [
+                                                             "is walking"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "She is buying flowers for her party.",
+                                           "ru":  "Она покупает цветы для вечеринки.",
+                                           "highlight":  [
+                                                             "is buying"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The sun is shining on the streets.",
+                                           "ru":  "Солнце светит на улицах.",
+                                           "highlight":  [
+                                                             "is shining"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "She is feeling the spring air.",
+                                           "ru":  "Она чувствует весенний воздух.",
+                                           "highlight":  [
+                                                             "is feeling"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Лондон 1923 года",
+                         "items":  [
+                                       {
+                                           "en":  "The city is waking up slowly.",
+                                           "ru":  "Город медленно просыпается.",
+                                           "highlight":  [
+                                                             "is waking"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "People are rushing to their offices.",
+                                           "ru":  "Люди спешат в офисы.",
+                                           "highlight":  [
+                                                             "are rushing"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Trams are moving along the streets.",
+                                           "ru":  "Трамваи движутся по улицам.",
+                                           "highlight":  [
+                                                             "are moving"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The Thames is flowing under the bridges.",
+                                           "ru":  "Темза течёт под мостами.",
+                                           "highlight":  [
+                                                             "is flowing"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Септимус в парке",
+                         "items":  [
+                                       {
+                                           "en":  "Septimus is sitting on a bench.",
+                                           "ru":  "Септимус сидит на скамейке.",
+                                           "highlight":  [
+                                                             "is sitting"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He is hearing voices from the war.",
+                                           "ru":  "Он слышит голоса с войны.",
+                                           "highlight":  [
+                                                             "is hearing"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "His friend Evans is speaking to him.",
+                                           "ru":  "Его друг Эванс говорит с ним.",
+                                           "highlight":  [
+                                                             "is speaking"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The world is spinning around him.",
+                                           "ru":  "Мир кружится вокруг него.",
+                                           "highlight":  [
+                                                             "is spinning"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Изменения в городе",
+                         "items":  [
+                                       {
+                                           "en":  "London is growing every year.",
+                                           "ru":  "Лондон растёт каждый год.",
+                                           "highlight":  [
+                                                             "is growing"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "New buildings are appearing everywhere.",
+                                           "ru":  "Новые здания появляются повсюду.",
+                                           "highlight":  [
+                                                             "are appearing"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The old streets are disappearing.",
+                                           "ru":  "Старые улицы исчезают.",
+                                           "highlight":  [
+                                                             "are disappearing"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Modern cars are replacing horse carriages.",
+                                           "ru":  "Современные машины заменяют конные экипажи.",
+                                           "highlight":  [
+                                                             "are replacing"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Отрицания и вопросы",
+                         "items":  [
+                                       {
+                                           "en":  "She is not thinking about her guests.",
+                                           "ru":  "Она не думает о своих гостях.",
+                                           "highlight":  [
+                                                             "is not thinking"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Septimus is not sleeping.",
+                                           "ru":  "Септимус не спит.",
+                                           "highlight":  [
+                                                             "is not sleeping"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Is she remembering Bourton?",
+                                           "ru":  "Она вспоминает Бортон?",
+                                           "highlight":  [
+                                                             "Is"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Are you listening to me?",
+                                           "ru":  "Ты слушаешь меня?",
+                                           "highlight":  [
+                                                             "Are"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вечеринка приближается",
+                         "items":  [
+                                       {
+                                           "en":  "Clarissa is preparing for the evening.",
+                                           "ru":  "Кларисса готовится к вечеру.",
+                                           "highlight":  [
+                                                             "is preparing"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Her guests are arriving soon.",
+                                           "ru":  "Её гости скоро приезжают.",
+                                           "highlight":  [
+                                                             "are arriving"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The music is playing in the hall.",
+                                           "ru":  "Музыка играет в зале.",
+                                           "highlight":  [
+                                                             "is playing"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Everything is coming together.",
+                                           "ru":  "Всё собирается воедино.",
+                                           "highlight":  [
+                                                             "is coming"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "I am understanding the book.",
+                         "right":  "I understand the book.",
+                         "note":  "Understand — глагол состояния. Не используется в Continuous."
+                     },
+                     {
+                         "wrong":  "She walk down the street now.",
+                         "right":  "She is walking down the street now.",
+                         "note":  "Сейчас — нужно am/is/are + -ing."
+                     },
+                     {
+                         "wrong":  "They are read books at the moment.",
+                         "right":  "They are reading books at the moment.",
+                         "note":  "Не забывай -ing."
+                     },
+                     {
+                         "wrong":  "I am knowing the answer.",
+                         "right":  "I know the answer.",
+                         "note":  "Know — глагол состояния."
+                     },
+                     {
+                         "wrong":  "He is having a car.",
+                         "right":  "He has a car.",
+                         "note":  "Have в значении «обладать» — глагол состояния."
+                     },
+                     {
+                         "wrong":  "She is wanting to leave.",
+                         "right":  "She wants to leave.",
+                         "note":  "Want — глагол состояния."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Present Simple vs Present Continuous",
+                    "leftLabel":  "Present Simple",
+                    "rightLabel":  "Present Continuous",
+                    "rows":  [
+                                 {
+                                     "left":  "She walks to work every day.",
+                                     "right":  "She is walking to work now."
+                                 },
+                                 {
+                                     "left":  "He lives in London.",
+                                     "right":  "He is living in London this month."
+                                 },
+                                 {
+                                     "left":  "The Thames flows through London.",
+                                     "right":  "The Thames is flowing fast today."
+                                 },
+                                 {
+                                     "left":  "She loves flowers.",
+                                     "right":  "She is smelling the flowers now."
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "Прямо сейчас = Present Continuous. Используй now, right now, at the moment.",
+                 "Временные действия = Present Continuous. «I am staying with my aunt this week.»",
+                 "Глаголы состояния (know, understand, want, love, hate, like) — всегда Simple.",
+                 "Если действие происходит в момент речи — Continuous. Если всегда — Simple.",
+                 "Не путай: «I read books» (хобби) и «I am reading a book» (прямо сейчас).",
+                 "Present Continuous — это кино. Present Simple — это фотография. Смотри на время."
+             ],
+    "quiz":  [
+                 {
+                     "q":  "Which sentence describes an action right now?",
+                     "options":  [
+                                     "She walks to work.",
+                                     "She is walking to work.",
+                                     "She walked to work."
+                                 ],
+                     "answer":  "She is walking to work.",
+                     "why":  "Прямо сейчас — Present Continuous."
+                 },
+                 {
+                     "q":  "What\u0027s the correct form for \u0027I ... (read) a book now\u0027?",
+                     "options":  [
+                                     "read",
+                                     "am reading",
+                                     "reading"
+                                 ],
+                     "answer":  "am reading",
+                     "why":  "Сейчас + I → am + -ing."
+                 },
+                 {
+                     "q":  "Which verb CANNOT be used in Continuous?",
+                     "options":  [
+                                     "walk",
+                                     "know",
+                                     "talk"
+                                 ],
+                     "answer":  "know",
+                     "why":  "Know — глагол состояния."
+                 },
+                 {
+                     "q":  "What does \u0027She is staying in London this week\u0027 mean?",
+                     "options":  [
+                                     "She lives there always.",
+                                     "She is there temporarily this week.",
+                                     "She will go there tomorrow."
+                                 ],
+                     "answer":  "She is there temporarily this week.",
+                     "why":  "Временное действие — Present Continuous."
+                 },
+                 {
+                     "q":  "Which sentence is correct?",
+                     "options":  [
+                                     "She doesn\u0027t work now.",
+                                     "She isn\u0027t working now.",
+                                     "She don\u0027t work now."
+                                 ],
+                     "answer":  "She isn\u0027t working now.",
+                     "why":  "Отрицание в Continuous: am/is/are + not + -ing."
+                 },
+                 {
+                     "q":  "\"The sun ... (shine) today.\" — fill in the blank.",
+                     "options":  [
+                                     "shines",
+                                     "is shining",
+                                     "shine"
+                                 ],
+                     "answer":  "is shining",
+                     "why":  "Сегодня солнце светит прямо сейчас."
+                 }
+             ],
+    "related":  [
+                    "a1-present-simple",
+                    "a1-verb-to-be",
+                    "a1-pronouns"
+                ]
 }

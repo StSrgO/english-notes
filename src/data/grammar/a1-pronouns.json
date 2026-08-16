@@ -1,192 +1,204 @@
 {
+  "variant": "classic",
   "slug": "a1-pronouns",
-  "title": "Pronouns",
   "level": "A1",
+  "title": "Местоимения",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Местоимения — действующие лица предложения: I, you, he, she, it, we, they. Алиса падает в нору и говорит «I am falling», Раскольников в своих мыслях — «he is thinking», Джейн Эйр заявляет «I am no bird».",
+  "readingTime": 9,
+  "summary": "Местоимения — слова, которые заменяют существительные. История о том, как Маугли учился различать «я», «ты», «мы» и «они» в джунглях.",
   "idea": [
-    "«I am no bird, and no net ensnares me» — так Джейн Эйр заявляет Рочестеру, и это одно из самых сильных мест в романе Шарлотты Бронте. I — это она, её «я», её голос, её свобода. Местоимения — действующие лица предложения: они заменяют имена и дают глаголам кого-то, о ком говорить. I — я, you — ты/вы, he — он, she — она, it — оно (и животные, и предметы), we — мы, they — они. В каждом романе есть свои действующие лица: Алиса Кэрролла говорит «I am falling», Раскольников Достоевского в своих мыслях — «he is thinking, he is guilty», Чичиков Гоголя заявляет «I am buying dead souls».",
-    "В русском «ты» и «вы» — разные слова, в английском you — одно на всех. He и she — только для людей (и иногда для кораблей и любимых животных), it — для всего остального: стола, погоды, времени, кролика, который ведёт Алису в нору. We — это мы с кем-то, they — это они, неважно кто. У Марка Твена Том Сойер и Гек Финн — разные «я»: Tom says «I want to paint the fence», Huck says «I want to float down the river». Два «я», два голоса, две Америки. У Достоевского Раскольников разговаривает с собой в третьем лице: «He is a murderer, he is guilty» — и это местоимение he становится его приговором.",
-    "Главные ошибки — путаница he/she/it (по-русски «стол» — он, по-английски — it), you как «ты» и «вы» одновременно, и they для одного человека (в современном английском they = они И «человек, пол которого неизвестен или не важен»). И запомни: местоимения меняются в зависимости от падежа. В английском есть субъектные (I, he, she, we, they) и объектные (me, him, her, us, them). I see him — я вижу его (I — субъект, him — объект). He sees me — он видит меня (he — субъект, me — объект). В романах это критично: «She loves him» — она любит его, не «she loves he»."
+    "В «Книге джунглей» Маугли — мальчик, который вырос среди волков. Он говорит: «I am Mowgli. You are my brothers. They are my enemies.» Местоимения помогают ему понять, кто есть кто в джунглях. Он учится различать «I» (я) и «you» (ты), «we» (мы) и «they» (они). В джунглях каждый знает своё место, и местоимения помогают это показать.",
+    "В английском языке есть личные местоимения: I, you, he, she, it, we, they. Они заменяют имена. Есть притяжательные местоимения: my, your, his, her, its, our, their. Они показывают, кому что принадлежит. Есть указательные: this, that, these, those. Они указывают на предметы.",
+    "Без местоимений мы бы повторяли имена снова и снова. Местоимения делают речь быстрее и проще. Маугли знал это. Он говорил: «This is my home. These are my brothers. That is my enemy.» Местоимения — это ключ к пониманию отношений."
   ],
   "why": [
-    "Не повторять имена: Instead of «Alice falls», say «She falls».",
-    "Обратиться к собеседнику: You see, but you do not observe.",
-    "Рассказать о группе: We are going to the ball.",
-    "Описать что-то без пола: It is raining. It is late."
+    "Местоимения заменяют существительные, делая речь быстрее и проще",
+    "Они помогают понять, кто есть кто в разговоре",
+    "Притяжательные местоимения показывают, кому что принадлежит",
+    "Указательные местоимения указывают на предметы"
   ],
   "context": {
     "lines": [
-      { "en": "Who is falling down the rabbit hole?", "ru": "Кто падает в кроличью нору?" },
-      { "en": "She is. She is Alice.", "ru": "Она. Она — Алиса." },
-      { "en": "And who is running away?", "ru": "А кто убегает?" },
-      { "en": "He is. He is the White Rabbit.", "ru": "Он. Он — Белый Кролик." }
+      { "en": "Mowgli: 'I am Mowgli. You are my brothers. They are my enemies. This is my home. These are my friends.'",
+        "ru": "Маугли: «Я Маугли. Вы мои братья. Они мои враги. Это мой дом. Это мои друзья»." },
+      { "en": "Baloo: 'I am a bear. You are a boy. We are friends. They are not our friends.'",
+        "ru": "Балу: «Я медведь. Ты мальчик. Мы друзья. Они не наши друзья»." }
     ],
-    "note": "Местоимения всех типов: she, he, I, you. Кэрролл строит мир через действующих лиц."
+    "note": "Местоимения помогают Маугли понять, кто есть кто в джунглях."
   },
   "russianAngle": [
-    "В русском «ты» и «вы» — разные слова. В английском you — одно на всех: You are my friend (ты), You are my friends (вы).",
-    "В русском стол — «он», книга — «она». В английском всё неодушевлённое — it: The table is big. It is brown.",
-    "He и she — только для людей (и иногда для кораблей и любимых животных). Для погоды, времени, расстояния — it.",
-    "They — это «они», но в современном английском they может быть и для одного человека, если пол неизвестен."
+    "В русском языке местоимения тоже есть: 'я', 'ты', 'он', 'она', 'мы', 'вы', 'они'",
+    "В русском языке притяжательные местоимения: 'мой', 'твой', 'его', 'её', 'наш', 'ваш', 'их'",
+    "В английском 'my' — мой, 'your' — твой/ваш, 'his' — его, 'her' — её, 'its' — его/её (для вещей), 'our' — наш, 'their' — их",
+    "Ошибка: I am student — неправильно! Нужно: I am a student."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: I (я), you (ты/вы), he (он), she (она), it (оно), we (мы), they (они).",
-      "He/she — люди, it — всё остальное (кроме кораблей и любимых питомцев).",
-      "You — это и «ты», и «вы». Контекст подскажет.",
-      "Объектные формы: me, him, her, us, them. I see him. He sees me.",
-      "Сделай упражнение и сверься. Как сказал бы Раскольников: he is thinking."
+      "Запомни личные местоимения: I, you, he, she, it, we, they.",
+      "Запомни притяжательные: my, your, his, her, its, our, their.",
+      "Запомни указательные: this, that, these, those.",
+      "Потренируйся описывать себя: I am Mowgli. This is my home.",
+      "Потренируйся описывать других: He is Baloo. She is Kaa. They are wolves.",
+      "Сделай упражнение и сверься с ответами."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — замени выделенное слово на местоимение:",
+      "prompt": "Вставьте правильное местоимение (I, you, he, she, it, we, they, my, your, his, her, our, their):",
       "items": [
-        { "q": "Alice is falling. → ___ is falling.", "a": "She — она." },
-        { "q": "The White Rabbit is running. → ___ is running.", "a": "It — кролик (животное) = it." },
-        { "q": "Tom and Huck are friends. → ___ are friends.", "a": "They — они." },
-        { "q": "Jane Eyre is strong. → ___ is strong.", "a": "She — она." },
-        { "q": "Raskolnikov is thinking. → ___ is thinking.", "a": "He — он." }
+        { "q": "___ am Mowgli.", "a": "I" },
+        { "q": "___ are my brothers.", "a": "You" },
+        { "q": "___ is Baloo. ___ is a bear.", "a": "He" },
+        { "q": "___ is Kaa. ___ is a snake.", "a": "She" },
+        { "q": "___ are wolves. This is ___ home.", "a": "They, their" }
       ]
     }
   },
-  "formula": "I, you, he, she, it, we, they (subject) / me, him, her, us, them (object)",
+  "formula": "I / you / he / she / it / we / they · my / your / his / her / its / our / their",
   "structure": {
-    "positive": "I see her. / She sees him.",
-    "negative": "I don't see her. / She doesn't see him.",
-    "question": "Do you see her? / Does she see him?"
+    "positive": "I am Mowgli. This is my home.",
+    "negative": "I am not Mowgli. This is not my home.",
+    "question": "Are you Mowgli? Is this your home?"
   },
-  "markers": [],
+  "markers": ["I", "you", "he", "she", "it", "we", "they", "my", "your", "his", "her", "its", "our", "their", "this", "that", "these", "those"],
   "uses": [
-    "Заменить имя: Alice → She. The White Rabbit → It.",
-    "Обратиться: You see.",
-    "Описать: It is raining.",
-    "Сказать о группе: We are friends."
+    "Личные: I am Mowgli. You are my brother.",
+    "Притяжательные: This is my home. These are our friends.",
+    "Указательные: This is a wolf. These are trees.",
+    "В вопросах: Are you Mowgli? Is this your home?"
   ],
   "rules": [
-    { "title": "he / she / it", "text": "He — мужчина, she — женщина, it — всё остальное (стол, книга, погода, время, животные без имени)." },
-    { "title": "you", "text": "You — это и «ты», и «вы». Одно слово на всех. You are my friend (ты). You are my friends (вы)." },
-    { "title": "they (singular)", "text": "They обычно «они», но может быть и для одного человека, если пол неизвестен: Someone called. They didn't leave a name." },
-    { "title": "объектные формы", "text": "I see him (не I see he). She loves him (не she loves he). Объект — me, him, her, us, them." }
+    { "title": "Личные местоимения",
+      "text": "I (я), you (ты/вы), he (он), she (она), it (оно), we (мы), they (они)." },
+    { "title": "Притяжательные местоимения",
+      "text": "my (мой), your (твой/ваш), his (его), her (её), its (его/её), our (наш), their (их)." },
+    { "title": "Указательные местоимения",
+      "text": "this (этот/эта), that (тот/та), these (эти), those (те)." }
   ],
   "examples": [
     {
-      "group": "Алиса Кэрролла",
+      "group": "Личные местоимения",
       "items": [
-        { "en": "I am falling down the rabbit hole.", "ru": "Я падаю в кроличью нору. Алиса — I.", "highlight": ["I"] },
-        { "en": "She is chasing the White Rabbit.", "ru": "Она гонится за Белым Кроликом. She — Алиса.", "highlight": ["She"] },
-        { "en": "It is very deep.", "ru": "Она очень глубокая. Нора — it.", "highlight": ["It"] },
-        { "en": "They are all mad here.", "ru": "Здесь все сумасшедшие. They — все персонажи.", "highlight": ["They"] }
+        { "en": "I am Mowgli. I live in the jungle.", "ru": "Я Маугли. Я живу в джунглях.", "highlight": ["I"] },
+        { "en": "You are my brother. You are a wolf.", "ru": "Ты мой брат. Ты волк.", "highlight": ["You"] },
+        { "en": "He is Baloo. He is a bear.", "ru": "Он Балу. Он медведь.", "highlight": ["He"] },
+        { "en": "She is Kaa. She is a snake.", "ru": "Она Каа. Она змея.", "highlight": ["She"] },
+        { "en": "It is a tree. It is very big.", "ru": "Это дерево. Оно очень большое.", "highlight": ["It"] },
+        { "en": "We are friends. We live in the jungle.", "ru": "Мы друзья. Мы живём в джунглях.", "highlight": ["We"] },
+        { "en": "They are wolves. They are my brothers.", "ru": "Они волки. Они мои братья.", "highlight": ["They"] }
       ]
     },
     {
-      "group": "Том и Гек Марка Твена",
+      "group": "Притяжательные местоимения",
       "items": [
-        { "en": "I want to paint the fence.", "ru": "Я хочу покрасить забор. Том — I.", "highlight": ["I"] },
-        { "en": "I want to float down the river.", "ru": "Я хочу плыть по реке. Гек — другое I.", "highlight": ["I"] },
-        { "en": "We are going on an adventure.", "ru": "Мы отправляемся в приключение. We — Том и Гек.", "highlight": ["We"] },
-        { "en": "They are different, but they are friends.", "ru": "Они разные, но они друзья.", "highlight": ["They"] }
+        { "en": "This is my home. I live here.", "ru": "Это мой дом. Я живу здесь.", "highlight": ["my"] },
+        { "en": "This is your home. You live here.", "ru": "Это твой дом. Ты живёшь здесь.", "highlight": ["your"] },
+        { "en": "This is his home. Baloo lives here.", "ru": "Это его дом. Балу живёт здесь.", "highlight": ["his"] },
+        { "en": "This is her home. Kaa lives here.", "ru": "Это её дом. Каа живёт здесь.", "highlight": ["her"] },
+        { "en": "This is our home. We live here.", "ru": "Это наш дом. Мы живём здесь.", "highlight": ["our"] },
+        { "en": "This is their home. The wolves live here.", "ru": "Это их дом. Волки живут здесь.", "highlight": ["their"] }
       ]
     },
     {
-      "group": "Джейн Эйр Шарлотты Бронте",
+      "group": "Указательные местоимения",
       "items": [
-        { "en": "I am no bird, and no net ensnares me.", "ru": "Я не птица, и никакая сеть не поймает меня. Джейн — I.", "highlight": ["I", "me"] },
-        { "en": "He is Mr. Rochester.", "ru": "Он — мистер Рочестер. He — он.", "highlight": ["He"] },
-        { "en": "She loves him, but she is strong.", "ru": "Она любит его, но она сильна. She loves him — объектная форма.", "highlight": ["She", "him"] },
-        { "en": "I am free.", "ru": "Я свободна.", "highlight": ["I"] }
+        { "en": "This is a wolf. This is my friend.", "ru": "Это волк. Это мой друг.", "highlight": ["This"] },
+        { "en": "That is a tiger. That is my enemy.", "ru": "То тигр. То мой враг.", "highlight": ["That"] },
+        { "en": "These are my brothers. These are wolves.", "ru": "Это мои братья. Это волки.", "highlight": ["These"] },
+        { "en": "Those are trees. Those are very big.", "ru": "Те деревья. Те очень большие.", "highlight": ["Those"] }
       ]
     },
     {
-      "group": "Раскольников Достоевского",
+      "group": "Местоимения в диалоге",
       "items": [
-        { "en": "He is thinking, he is guilty.", "ru": "Он думает, он виновен. Раскольников говорит о себе в третьем лице.", "highlight": ["He"] },
-        { "en": "I did it. I am a murderer.", "ru": "Я сделал это. Я убийца. Первое лицо — признание.", "highlight": ["I"] },
-        { "en": "They will catch me.", "ru": "Они поймают меня. They — полиция, me — объектная форма.", "highlight": ["They", "me"] },
-        { "en": "It is over.", "ru": "Всё кончено. It — ситуация.", "highlight": ["It"] }
+        { "en": "Mowgli: 'I am Mowgli. What is your name?'", "ru": "Маугли: «Я Маугли. Как тебя зовут?»", "highlight": ["I", "your"] },
+        { "en": "Baloo: 'I am Baloo. This is my home.'", "ru": "Балу: «Я Балу. Это мой дом».", "highlight": ["I", "my"] },
+        { "en": "Kaa: 'I am Kaa. These are my trees.'", "ru": "Каа: «Я Каа. Это мои деревья».", "highlight": ["I", "my"] }
       ]
     },
     {
-      "group": "Чичиков Гоголя",
+      "group": "Личные и притяжательные вместе",
       "items": [
-        { "en": "I am buying dead souls.", "ru": "Я покупаю мёртвые души. Чичиков — I.", "highlight": ["I"] },
-        { "en": "He is very polite.", "ru": "Он очень вежлив. He — Чичиков.", "highlight": ["He"] },
-        { "en": "They are suspicious.", "ru": "Они подозрительны. They — помещики.", "highlight": ["They"] },
-        { "en": "It is a strange business.", "ru": "Это странный бизнес. It — дело.", "highlight": ["It"] }
+        { "en": "I am Mowgli. This is my home.", "ru": "Я Маугли. Это мой дом.", "highlight": ["I", "my"] },
+        { "en": "You are a wolf. This is your home.", "ru": "Ты волк. Это твой дом.", "highlight": ["You", "your"] },
+        { "en": "He is Baloo. This is his home.", "ru": "Он Балу. Это его дом.", "highlight": ["He", "his"] },
+        { "en": "She is Kaa. This is her home.", "ru": "Она Каа. Это её дом.", "highlight": ["She", "her"] }
       ]
     },
     {
-      "group": "Объектные формы",
+      "group": "Вопросы с местоимениями",
       "items": [
-        { "en": "I see him.", "ru": "Я вижу его. Him — объектная форма от he.", "highlight": ["him"] },
-        { "en": "She loves him.", "ru": "Она любит его. Не she loves he.", "highlight": ["him"] },
-        { "en": "They see us.", "ru": "Они видят нас. Us — объектная форма от we.", "highlight": ["us"] },
-        { "en": "Give it to me.", "ru": "Дай это мне. Me — объектная форма от I.", "highlight": ["me"] }
+        { "en": "Are you Mowgli? — Yes, I am.", "ru": "Ты Маугли? — Да.", "highlight": ["you", "I"] },
+        { "en": "Is this your home? — Yes, this is my home.", "ru": "Это твой дом? — Да, это мой дом.", "highlight": ["your", "my"] },
+        { "en": "Are they your brothers? — Yes, they are my brothers.", "ru": "Они твои братья? — Да, они мои братья.", "highlight": ["they", "my"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "The book is good. He is interesting.", "right": "The book is good. It is interesting.", "note": "Книга — it, не he. He — только для людей." },
-    { "wrong": "You is my friend.", "right": "You are my friend.", "note": "You всегда с are, даже если это «ты» (один человек)." },
-    { "wrong": "She loves he.", "right": "She loves him.", "note": "Объект — him, не he. She loves him." },
-    { "wrong": "Me and Tom are friends.", "right": "Tom and I are friends.", "note": "Субъект — I, не me. Tom and I." },
-    { "wrong": "Give it to I.", "right": "Give it to me.", "note": "Объект — me, не I. Give it to me." }
+    { "wrong": "I is Mowgli.", "right": "I am Mowgli.", "note": "С I используется am, а не is." },
+    { "wrong": "He am a bear.", "right": "He is a bear.", "note": "С he используется is, а не am." },
+    { "wrong": "This is mine home.", "right": "This is my home.", "note": "Перед существительным используется my, а не mine." },
+    { "wrong": "This is I home.", "right": "This is my home.", "note": "Притяжательное местоимение — my, а не I." },
+    { "wrong": "They is wolves.", "right": "They are wolves.", "note": "С they используются are, а не is." },
+    { "wrong": "Her is a snake.", "right": "She is a snake.", "note": "Личное местоимение — she, а не her." }
   ],
   "compare": {
-    "title": "Субъект vs Объект",
-    "leftLabel": "Субъект (I, he, she)",
-    "rightLabel": "Объект (me, him, her)",
+    "title": "Личные vs притяжательные местоимения",
+    "leftLabel": "Личные (кто)",
+    "rightLabel": "Притяжательные (чей)",
     "rows": [
-      { "left": "I see him.", "right": "He sees me." },
-      { "left": "She loves him.", "right": "He loves her." },
-      { "left": "We see them.", "right": "They see us." }
+      { "left": "I am Mowgli.", "right": "This is my home." },
+      { "left": "You are a wolf.", "right": "This is your home." },
+      { "left": "He is Baloo.", "right": "This is his home." },
+      { "left": "She is Kaa.", "right": "This is her home." },
+      { "left": "We are friends.", "right": "This is our home." },
+      { "left": "They are wolves.", "right": "This is their home." }
     ]
   },
   "tips": [
-    "He/she — люди, it — всё остальное. Корабли и любимые питомцы — исключение (she/he).",
-    "You — это и «ты», и «вы». You are my friend (ты). You are my friends (вы). Контекст подскажет.",
-    "It — для погоды, времени, расстояния: It is raining. It is late. It is far.",
-    "They может быть для одного человека: Someone called. They didn't leave a name. Это современный английский.",
-    "Объектные формы: me, him, her, us, them. I see him. She loves him. Give it to me.",
-    "Чем больше фраз на местоимения ты увидишь, тем быстрее они станут твоими. Прочитай примеры вслух."
+    "I, you, he, she, it, we, they — кто?",
+    "my, your, his, her, its, our, their — чей?",
+    "this — для близких предметов, that — для далёких.",
+    "these — для близких предметов во множественном числе, those — для далёких.",
+    "Перед существительным всегда притяжательное местоимение: my home, not mine home.",
+    "В вопросах местоимение ставится после глагола: Are you Mowgli?",
+    "Запомни: I am, you are, he is, she is, it is, we are, they are."
   ],
-  "related": ["a1-nouns", "a1-verb-to-be", "a1-there-is-there-are"],
+  "related": ["a1-verb-to-be", "a1-nouns", "a1-questions"],
   "quiz": [
     {
-      "q": "Alice is falling. → ___ is falling.",
-      "options": ["She", "He", "It", "They"],
+      "q": "___ am Mowgli.",
+      "options": ["I", "You", "He", "She"],
       "answer": 0,
-      "why": "Alice — она = she."
+      "why": "С I используется am."
     },
     {
-      "q": "The White Rabbit is running. → ___ is running.",
-      "options": ["It", "He", "She", "They"],
+      "q": "___ is Baloo. ___ is a bear.",
+      "options": ["He, He", "She, She", "I, I", "You, You"],
       "answer": 0,
-      "why": "Кролик (животное) = it."
+      "why": "Baloo — мужской персонаж, поэтому he."
     },
     {
-      "q": "Tom and Huck are friends. → ___ are friends.",
-      "options": ["They", "We", "You", "He"],
+      "q": "This is ___ home.",
+      "options": ["my", "mine", "I", "me"],
       "answer": 0,
-      "why": "Tom and Huck (они) = they."
+      "why": "Перед существительным my, а не mine."
     },
     {
-      "q": "Jane Eyre is strong. → ___ is strong.",
-      "options": ["She", "He", "It", "They"],
+      "q": "___ are wolves. This is ___ home.",
+      "options": ["They, their", "They, they", "Their, they", "Their, their"],
       "answer": 0,
-      "why": "Jane — она = she."
+      "why": "Личные — they, притяжательные — their."
     },
     {
-      "q": "She loves ___ (he/him).",
-      "options": ["him", "he", "his", "himself"],
-      "answer": 0,
-      "why": "Объект — him, не he. She loves him."
+      "q": "___ you Mowgli?",
+      "options": ["Am", "Is", "Are", "Be"],
+      "answer": 2,
+      "why": "С you используется are."
     },
     {
-      "q": "Give it to ___ (I/me).",
-      "options": ["me", "I", "my", "mine"],
-      "answer": 0,
-      "why": "Объект — me, не I. Give it to me."
+      "q": "___ is Kaa. ___ is a snake.",
+      "options": ["He, He", "She, She", "I, I", "You, You"],
+      "answer": 1,
+      "why": "Kaa — женский персонаж в книге, поэтому she."
     }
   ]
 }

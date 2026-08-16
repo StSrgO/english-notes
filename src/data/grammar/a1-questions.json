@@ -1,192 +1,187 @@
 {
   "slug": "a1-questions",
-  "title": "Questions (yes/no и wh-)",
   "level": "A1",
+  "title": "Questions — допрос по-английски",
   "category": "Grammar",
   "readingTime": 7,
-  "summary": "Как строить вопросы: yes/no и wh-. Пуаро спрашивает «Did you kill him?», Шерлок — «What do you see?», Мегрэ — «Where were you last night?», Филип Марлоу — «Do you really want to know?». Вопросы держат детектив.",
+  "summary": "Вопросы — это инструмент расследования. В этом уроке — Эркюль Пуаро и загадка Восточного экспресса.",
+  "variant": "classic",
   "idea": [
-    "«What do you see when you look out the window?» — спрашивает Шерлок Холмс у Ватсона, и это один из самых знаменитых вопросов в литературе. Вопросы в английском устроены принципиально иначе, чем в русском. В русском мы спрашиваем интонацией: «Ты видел его?» — и всё понятно. В английском интонации мало — нужен специальный порядок слов. Для yes/no-вопросов вспомогательный глагол (do/does/did/am/is/are) выходит вперёд: «Did you see him?», «Is she here?», «Do you work?». Для wh-вопросов wh-слово (what, where, when, who, why, how) встаёт в самое начало, за ним вспомогательный глагол, за ним подлежащее: «Where were you last night?», «What did you see?», «Why did you do it?». Весь английский детектив держится на вопросах: Пуаро, Шерлок, Мегрэ, Марлоу, Спейд — все они задают вопросы, потому что без вопросов нет расследования.",
-    "Основных типов два. Yes/no-вопросы — те, на которые отвечают «да» или «нет»: Do you work? Is she here? Did they come? Have you seen him? Can you help? Wh-вопросы — те, что требуют развёрнутого ответа: What do you want? Where do you live? When did you arrive? Who are you? Why are you late? How did you do it? Мегрэ в романах Сименона задаёт самые тихие вопросы в истории детектива: «Where were you last night?», «Did you know the victim?», «Why did you lie?». Он никогда не повышает голос, но вопросы его прибивают к месту крепче крика. Шерлок задаёт вопросы стремительно, Пуаро — с бельгийской обстоятельностью. Оба работают через одну и ту же структуру: wh-слово + do/does/did + подлежащее + глагол.",
-    "Есть две тонкости, которые важно знать. Первая: если в утверждении уже есть be или модальный глагол (can, must, should, will), они сами становятся вспомогательными — do не нужен. «She is here» → «Is she here?». «He can swim» → «Can he swim?». «You must go» → «Must you go?». Вторая тонкость — вопрос к подлежащему (кто? что?). Здесь do тоже не нужен, потому что wh-слово само является подлежащим: «Who killed him?» (не «Who did kill him?»), «What happened?» (не «What did happen?»). Филип Марлоу у Чандлера любит такие вопросы: «Who killed him?», «What happened that night?». Сэм Спейд у Хэммета идёт ещё дальше: «Who are you?» — и этого хватает на всю книгу."
+    "1934 год. Поезд «Восточный экспресс» застрял в снегах. В купе находят мёртвого человека. Эркюль Пуаро начинает расследование. Он задаёт вопросы. «Who killed him?» — Кто убил его? «Did you see anything?» — Вы что-нибудь видели? «Where were you at midnight?» — Где вы были в полночь? Вопросы — его главное оружие.",
+    "Каждый пассажир что-то скрывает. Пуаро слушает, наблюдает, задаёт вопросы. «What is your name?» — Как вас зовут? «Why are you travelling?» — Почему вы путешествуете? «Do you know the victim?» — Вы знаете жертву? Постепенно картина проясняется. Вопросы раскрывают правду.",
+    "Агата Кристи знала: правильный вопрос — половина ответа. В английском есть разные типы вопросов: общие (да/нет), специальные (who/what/where), вопросы к подлежащему. Каждый из них — как инструмент детектива. Вопросы помогают нам узнавать новое. Они открывают двери. Даже если за ними — убийство."
   ],
   "why": [
-    "Узнать факт: Do you work here? Is she your sister?",
-    "Узнать детали: Where do you live? What time does the train leave?",
-    "Узнать причину: Why are you late? Why did you do it?",
-    "Узнать человека: Who are you? Who is she?"
+    "Спрашивать информацию: «What is your name?»",
+    "Уточнять детали: «Where were you at midnight?»",
+    "Подтверждать факты: «Did you see the killer?»",
+    "Общаться в повседневной жизни: «Do you speak English?»"
   ],
   "context": {
     "lines": [
-      { "en": "Where were you last night?", "ru": "Где вы были прошлой ночью?" },
-      { "en": "I was at home.", "ru": "Я был дома." },
-      { "en": "Did anyone see you?", "ru": "Вас кто-то видел?" },
-      { "en": "No, nobody did. I was alone.", "ru": "Нет, никто. Я был один." }
+      { "en": "Poirot: Who are you? What is your name?", "ru": "Кто вы? Как вас зовут?" },
+      { "en": "Passenger: My name is Mary Debenham.", "ru": "Меня зовут Мэри Дебенхэм." },
+      { "en": "Poirot: Did you know the victim? Where were you at midnight?", "ru": "Вы знали жертву? Где вы были в полночь?" },
+      { "en": "Mary: I didn't know him. I was in my cabin.", "ru": "Я не знала его. Я была в своём купе." },
+      { "en": "Poirot: Do you have any evidence? Can you prove it?", "ru": "У вас есть доказательства? Можете доказать?" }
     ],
-    "note": "Классический допрос: where (wh-вопрос), did anyone see (yes/no), nobody did (короткий ответ). Мегрэ, Пуаро, Марлоу — все работают через эти структуры."
+    "note": "Пуаро допрашивает пассажиров. Вопросы разных типов помогают собрать информацию."
   },
   "russianAngle": [
-    "В русском вопрос — это интонация. В английском — порядок слов: вспомогательный глагол выходит вперёд.",
-    "Вопрос «Ты работаешь?» — в английском «Do you work?», не «You work?». Без do не вопрос.",
-    "Wh-вопросы — wh-слово в самое начало: What do you want? Where did you go?",
-    "Вопрос к подлежащему — исключение, do не нужно: Who killed him? (не Who did kill him?)."
+    "В русском мы меняем интонацию для вопроса: «Вы видели убийцу?» В английском меняем порядок слов: «Did you see the killer?»",
+    "В вопросах с глаголом to be — просто меняем местами: «You are» → «Are you?»",
+    "В вопросах с другими глаголами — используем do/does (настоящее) или did (прошлое): «Do you know?», «Did you see?»",
+    "В специальных вопросах — слово-вопрос (who, what, where, when, why, how) + вопрос: «Who killed him?»"
   ],
   "howToLearn": {
     "steps": [
-      "Запомни yes/no: do/does/did/am/is/are/can/will + подлежащее + глагол.",
-      "Запомни wh-: wh-слово + do/does/did/am/is/are + подлежащее + глагол.",
-      "Если в утверждении есть be или модальный глагол, do не нужен: Is she here? Can you swim?",
-      "Вопрос к подлежащему (who/what как подлежащее) — без do: Who is he? What happened?",
-      "Сделай упражнение и сверься. Шерлок одобряет."
+      "Запомни: в английском вопросе порядок слов меняется.",
+      "С глаголом to be: Are you? Was he?",
+      "С другими глаголами: Do you...? Does he...? Did they...?",
+      "Специальные вопросы: Who, What, Where, When, Why, How.",
+      "Вопросы к подлежащему: Who killed him? (без did).",
+      "Потренируйся: задай вопросы детективу Пуаро."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — построй вопрос:",
+      "prompt": "Сделай предложения вопросительными:",
       "items": [
-        { "q": "You work here. → ___?", "a": "Do you work here? — yes/no через do." },
-        { "q": "She is your sister. → ___?", "a": "Is she your sister? — be выходит вперёд." },
-        { "q": "He lives in London. → Where ___?", "a": "Where does he live? — wh + does + V1." },
-        { "q": "They came yesterday. → When ___?", "a": "When did they come? — wh + did + V1." },
-        { "q": "Someone killed him. → Who ___?", "a": "Who killed him? — вопрос к подлежащему, без do." }
+        { "q": "You are a detective.", "a": "Are you a detective?" },
+        { "q": "He knows the victim.", "a": "Does he know the victim?" },
+        { "q": "They saw the killer.", "a": "Did they see the killer?" },
+        { "q": "She was in her cabin.", "a": "Was she in her cabin?" },
+        { "q": "The train stopped in the snow.", "a": "Did the train stop in the snow?" }
       ]
     }
   },
-  "formula": "yes/no: Aux + S + V; wh-: Wh + Aux + S + V",
+  "formula": "Question word (optional) + auxiliary (do/does/did/am/is/are/was/were) + subject + main verb?",
   "structure": {
-    "positive": "You work. / She lives in London.",
-    "negative": "You don't work. / She doesn't live in London.",
-    "question": "Do you work? / Where does she live?"
+    "positive": "Утверждение: You are a detective.",
+    "negative": "Отрицание: You aren't a detective.",
+    "question": "Вопрос: Are you a detective?"
   },
-  "markers": ["who", "what", "where", "when", "why", "how", "do", "does", "did", "am", "is", "are", "can", "will"],
+  "markers": [
+    "who",
+    "what",
+    "where",
+    "when",
+    "why",
+    "how",
+    "how many",
+    "how much",
+    "how often",
+    "do",
+    "does",
+    "did",
+    "am",
+    "is",
+    "are",
+    "was",
+    "were",
+    "can",
+    "will"
+  ],
   "uses": [
-    "Узнать факт (yes/no): Do you work here?",
-    "Узнать детали (wh-): Where do you live?",
-    "Узнать причину: Why are you late?",
-    "Узнать человека: Who are you?"
+    "Общие вопросы (Yes/No): «Did you see the killer?»",
+    "Специальные вопросы (Wh-): «Who killed him?»",
+    "Вопросы к подлежащему: «Who was in the train?»",
+    "Альтернативные вопросы: «Was it the butler or the driver?»"
   ],
   "rules": [
-    { "title": "yes/no через do/does/did", "text": "В обычных глаголах (не be, не модальные) в вопросы ставится do/does/did: Do you work? Does she live? Did they come?" },
-    { "title": "wh- в начало", "text": "Wh-слово (who, what, where, when, why, how) + do/does/did + подлежащее + глагол: What do you want? Where did you go?" },
-    { "title": "be и модальные сами выходят вперёд", "text": "Если есть be или модальный (can, must, will), do не нужен: Is she here? Can you swim? Will you come?" }
+    { "title": "Вопросы с глаголом to be", "text": "Просто меняй местами подлежащее и глагол: You are → Are you? He was → Was he?" },
+    { "title": "Вопросы с другими глаголами", "text": "Используй do/does (настоящее) или did (прошлое): Do you know? Did he see?" },
+    { "title": "Специальные вопросы", "text": "Вопросительное слово + вспомогательный глагол + подлежащее + основной глагол: Where did you go?" },
+    { "title": "Вопрос к подлежащему", "text": "Вопросительное слово (who/what) + глагол (без do/does/did): Who killed him?" }
   ],
   "examples": [
     {
-      "group": "Пуаро и бельгийская обстоятельность",
+      "group": "Общие вопросы (Yes/No)",
       "items": [
-        { "en": "Did you kill him?", "ru": "Вы его убили? Yes/no через did.", "highlight": ["Did you kill"] },
-        { "en": "Where were you last night?", "ru": "Где вы были прошлой ночью? Wh + be.", "highlight": ["Where were"] },
-        { "en": "Why did you lie?", "ru": "Почему вы солгали? Wh + did.", "highlight": ["Why did you lie"] },
-        { "en": "Who is your accomplice?", "ru": "Кто ваш сообщник? Вопрос к подлежащему.", "highlight": ["Who is"] }
+        { "en": "Did you see the killer?", "ru": "Вы видели убийцу?", "highlight": ["Did"] },
+        { "en": "Are you a detective?", "ru": "Вы детектив?", "highlight": ["Are"] },
+        { "en": "Was she in her cabin?", "ru": "Она была в своём купе?", "highlight": ["Was"] },
+        { "en": "Do you know the victim?", "ru": "Вы знаете жертву?", "highlight": ["Do"] }
       ]
     },
     {
-      "group": "Шерлок и стремительные вопросы",
+      "group": "Специальные вопросы (Wh-)",
       "items": [
-        { "en": "What do you see?", "ru": "Что вы видите? Wh + do.", "highlight": ["What do you see"] },
-        { "en": "Do you observe?", "ru": "Вы наблюдаете? Yes/no через do.", "highlight": ["Do you observe"] },
-        { "en": "When did it happen?", "ru": "Когда это случилось? Wh + did.", "highlight": ["When did it happen"] },
-        { "en": "How did he do it?", "ru": "Как он это сделал? Wh + did.", "highlight": ["How did he do"] }
+        { "en": "Who are you?", "ru": "Кто вы?", "highlight": ["Who"] },
+        { "en": "What is your name?", "ru": "Как вас зовут?", "highlight": ["What"] },
+        { "en": "Where were you at midnight?", "ru": "Где вы были в полночь?", "highlight": ["Where"] },
+        { "en": "Why are you travelling?", "ru": "Почему вы путешествуете?", "highlight": ["Why"] }
       ]
     },
     {
-      "group": "Мегрэ и тихие вопросы",
+      "group": "Вопросы к подлежащему",
       "items": [
-        { "en": "Did you know the victim?", "ru": "Вы знали жертву? Yes/no через did.", "highlight": ["Did you know"] },
-        { "en": "Where were you at 10 pm?", "ru": "Где вы были в 10 вечера? Wh + be.", "highlight": ["Where were"] },
-        { "en": "Why did you say that?", "ru": "Почему вы это сказали? Wh + did.", "highlight": ["Why did you say"] },
-        { "en": "Who called you?", "ru": "Кто вам позвонил? Вопрос к подлежащему, без do.", "highlight": ["Who called"] }
+        { "en": "Who killed the victim?", "ru": "Кто убил жертву?", "highlight": ["Who"] },
+        { "en": "What happened in the train?", "ru": "Что произошло в поезде?", "highlight": ["What"] },
+        { "en": "Who was in the cabin?", "ru": "Кто был в купе?", "highlight": ["Who"] },
+        { "en": "What stopped the train?", "ru": "Что остановило поезд?", "highlight": ["What"] }
       ]
     },
     {
-      "group": "Филип Марлоу и циничные вопросы",
+      "group": "Альтернативные вопросы",
       "items": [
-        { "en": "Do you really want to know?", "ru": "Ты действительно хочешь знать? Марлоу у Чандлера.", "highlight": ["Do you really want"] },
-        { "en": "What's your name?", "ru": "Как тебя зовут? Короткий wh-вопрос.", "highlight": ["What's"] },
-        { "en": "Why are you lying?", "ru": "Почему ты лжёшь? Wh + be.", "highlight": ["Why are you lying"] },
-        { "en": "Who hired you?", "ru": "Кто тебя нанял? Вопрос к подлежащему.", "highlight": ["Who hired"] }
+        { "en": "Was it the butler or the driver?", "ru": "Это был дворецкий или водитель?", "highlight": ["Was"] },
+        { "en": "Did he go left or right?", "ru": "Он пошёл налево или направо?", "highlight": ["Did"] },
+        { "en": "Are you a passenger or a detective?", "ru": "Вы пассажир или детектив?", "highlight": ["Are"] },
+        { "en": "Was the train moving or stopped?", "ru": "Поезд двигался или стоял?", "highlight": ["Was"] }
       ]
     },
     {
-      "group": "Сэм Спейд и минимализм",
+      "group": "Вопросы с разными временами",
       "items": [
-        { "en": "Who are you?", "ru": "Кто ты? Спейд у Хэммета: три слова, весь вопрос.", "highlight": ["Who are"] },
-        { "en": "What do you want?", "ru": "Что ты хочешь? Wh + do.", "highlight": ["What do you want"] },
-        { "en": "Can I help you?", "ru": "Могу ли я помочь? Модальный can.", "highlight": ["Can I help"] },
-        { "en": "Where is she?", "ru": "Где она? Be выходит вперёд.", "highlight": ["Where is"] }
+        { "en": "Do you travel often?", "ru": "Вы часто путешествуете?", "highlight": ["Do"] },
+        { "en": "Did you see anything suspicious?", "ru": "Вы видели что-то подозрительное?", "highlight": ["Did"] },
+        { "en": "Were you sleeping at midnight?", "ru": "Вы спали в полночь?", "highlight": ["Were"] },
+        { "en": "Can you describe the man?", "ru": "Вы можете описать мужчину?", "highlight": ["Can"] }
       ]
     },
     {
-      "group": "Короткие ответы",
+      "group": "Вопросы в расследовании",
       "items": [
-        { "en": "Do you work here? — Yes, I do. / No, I don't.", "ru": "Короткий ответ через do.", "highlight": ["I do", "I don't"] },
-        { "en": "Is she your sister? — Yes, she is. / No, she isn't.", "ru": "Короткий ответ через be.", "highlight": ["she is", "she isn't"] },
-        { "en": "Can you swim? — Yes, I can. / No, I can't.", "ru": "Короткий ответ через модальный.", "highlight": ["I can", "I can't"] },
-        { "en": "Did they come? — Yes, they did. / No, they didn't.", "ru": "Короткий ответ через did.", "highlight": ["they did", "they didn't"] }
+        { "en": "Did you hear any noise?", "ru": "Вы слышали какой-нибудь шум?", "highlight": ["Did"] },
+        { "en": "What did you see?", "ru": "Что вы видели?", "highlight": ["What"] },
+        { "en": "Why did you leave your cabin?", "ru": "Почему вы вышли из своего купе?", "highlight": ["Why"] },
+        { "en": "How did the killer escape?", "ru": "Как убийца сбежал?", "highlight": ["How"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "You work here?", "right": "Do you work here?", "note": "В yes/no-вопросе нужен do/does/did. Без do — не вопрос." },
-    { "wrong": "Where you live?", "right": "Where do you live?", "note": "В wh-вопросе нужен do/does/did после wh-слова." },
-    { "wrong": "Who did kill him?", "right": "Who killed him?", "note": "Вопрос к подлежащему — без do. Who/what как подлежащее." },
-    { "wrong": "What did happen?", "right": "What happened?", "note": "What как подлежащее — без did." },
-    { "wrong": "Where you were?", "right": "Where were you?", "note": "Be выходит вперёд: were you, не you were." },
-    { "wrong": "Can you to swim?", "right": "Can you swim?", "note": "После модального can глагол без to." }
+    { "wrong": "You are detective?", "right": "Are you a detective?", "note": "В вопросах с to be меняем порядок слов." },
+    { "wrong": "He knows the answer?", "right": "Does he know the answer?", "note": "В вопросах с глаголом используем do/does." },
+    { "wrong": "She saw the killer?", "right": "Did she see the killer?", "note": "В прошлом используем did." },
+    { "wrong": "Did he saw the killer?", "right": "Did he see the killer?", "note": "После did — базовая форма, не saw." },
+    { "wrong": "Who did killed him?", "right": "Who killed him?", "note": "Вопрос к подлежащему — без did." },
+    { "wrong": "Where you are going?", "right": "Where are you going?", "note": "Правильный порядок: Where + are + you?" }
   ],
   "compare": {
-    "title": "Yes/No vs Wh- vs Вопрос к подлежащему",
-    "leftLabel": "Yes/No (do/does/did)",
-    "rightLabel": "Wh- (wh + do)",
+    "title": "Типы вопросов",
+    "leftLabel": "Общий (Yes/No)",
+    "rightLabel": "Специальный (Wh-)",
     "rows": [
-      { "left": "Do you work here?", "right": "Where do you live?" },
-      { "left": "Did they come?", "right": "When did they come?" },
-      { "left": "Is she here?", "right": "Who is she?" }
+      { "left": "Did you see him?", "right": "Who did you see?" },
+      { "left": "Are you a detective?", "right": "What are you?" },
+      { "left": "Was she in the cabin?", "right": "Where was she?" },
+      { "left": "Do you know her?", "right": "Why do you know her?" }
     ]
   },
   "tips": [
-    "Yes/no: do/does/did/am/is/are/can/will в начало. Wh-: wh-слово в начало, потом do/does/did.",
-    "Если в утверждении есть be или модальный глагол, do не нужен: Is she here? Can you swim?",
-    "Вопрос к подлежащему (who/what как подлежащее) — без do: Who killed him? What happened?",
-    "Короткие ответы: Yes, I do. / No, I don't. / Yes, she is. / No, she isn't.",
-    "В детективах вопросы — это всё: Пуаро, Шерлок, Мегрэ, Марлоу, Спейд работают через do/does/did и wh-.",
-    "Чем больше вопросов ты увидишь, тем быстрее структура станет автоматической. Прочитай примеры вслух."
+    "С глаголом to be — меняй местами: You are → Are you?",
+    "С другими глаголами — используй do/does (настоящее) или did (прошлое).",
+    "После do/does/did — всегда базовая форма глагола.",
+    "Вопрос к подлежащему (кто/что сделал?) — без do/does/did.",
+    "Специальные вопросы начинаются с вопросительного слова.",
+    "Практикуйся: задавай вопросы в повседневной жизни."
   ],
-  "related": ["a1-present-simple", "a1-verb-to-be", "a1-pronouns", "a1-past-simple"],
   "quiz": [
-    {
-      "q": "You work here. → ___?",
-      "options": ["Do you work here?", "You work here?", "Are you work here?", "Does you work here?"],
-      "answer": 0,
-      "why": "Yes/no через do: Do you work here?"
-    },
-    {
-      "q": "She is your sister. → ___?",
-      "options": ["Is she your sister?", "Does she your sister?", "Do she your sister?", "She is your sister?"],
-      "answer": 0,
-      "why": "Be выходит вперёд: Is she?"
-    },
-    {
-      "q": "He lives in London. → Where ___?",
-      "options": ["does he live", "he lives", "does he lives", "he does live"],
-      "answer": 0,
-      "why": "Wh + does + V1: Where does he live?"
-    },
-    {
-      "q": "They came yesterday. → When ___?",
-      "options": ["did they come", "they came", "did they came", "they did come"],
-      "answer": 0,
-      "why": "Wh + did + V1: When did they come?"
-    },
-    {
-      "q": "Someone killed him. → Who ___?",
-      "options": ["killed him", "did kill him", "did killed him", "kill him"],
-      "answer": 0,
-      "why": "Вопрос к подлежащему — без do: Who killed him?"
-    },
-    {
-      "q": "___ she here?",
-      "options": ["Is", "Does", "Do", "Did"],
-      "answer": 0,
-      "why": "Be выходит вперёд: Is she here?"
-    }
-  ]
+    { "q": "Which is correct?", "options": ["You are a detective?", "Are you a detective?", "Do you are a detective?"], "answer": "Are you a detective?", "why": "С to be меняем местами." },
+    { "q": "How do you ask 'Он знает ответ'?", "options": ["He knows the answer?", "Does he know the answer?", "Does he knows the answer?"], "answer": "Does he know the answer?", "why": "С глаголом — do/does + базовая форма." },
+    { "q": "Which is correct for past?", "options": ["Did she saw him?", "Did she see him?", "Does she see him?"], "answer": "Did she see him?", "why": "В прошлом — did + базовая форма." },
+    { "q": "\"___ killed the victim?\"", "options": ["Who", "Who did", "What"], "answer": "Who", "why": "Вопрос к подлежащему — без did." },
+    { "q": "\"Where ___ going?\"", "options": ["you are", "are you", "you"], "answer": "are you", "why": "Правильный порядок: Where + are + you?" },
+    { "q": "Which is a special question?", "options": ["Are you a detective?", "Who are you?", "Did you see him?"], "answer": "Who are you?", "why": "Who — вопросительное слово." }
+  ],
+  "related": ["a1-past-simple", "a1-present-simple", "a1-verb-to-be"]
 }

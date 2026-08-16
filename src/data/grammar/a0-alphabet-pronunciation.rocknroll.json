@@ -4,151 +4,151 @@
   "level": "A0",
   "title": "Алфавит и произношение",
   "category": "Basics",
-  "readingTime": 10,
-  "summary": "Двадцать шесть букв, которые построили рок-н-ролл. От AC/DC до Заппы — за каждой буквой стоит свой рифф.",
+  "readingTime": 8,
+  "summary": "Двадцать шесть букв, которые поют The Beatles. От «All You Need Is Love» до «Yellow Submarine» — каждая буква звучит в их песнях.",
   "idea": [
-    "Английский алфавит — это пропуск за кулисы рок-истории. Двадцать шесть букв — и с ними AC/DC построили стену звука, The Beatles построили революцию, а Элвис построил миф. У каждой буквы есть свой характер. A — это AC/DC, которые играют громко и гордо; B — это The Beatles, которые изменили всё; C — это The Clash, которые вели борьбу; D — это Дилан, который писал стихи с гитарой; E — это Элвис, который потряс мир; F — это Foo Fighters, которые сохранили дух рока; G — это Green Day, которые принесли панк массам; H — это Хендрикс, который поджёг свою гитару; I — это Iron Maiden, которые сделали метал эпическим; J — это Дженис Джоплин, которая пела душой; K — это KISS, которые устраивали шоу; L — это Led Zeppelin, которые определили хэви-рок; M — это Metallica, которые сделали трэш религией; N — это Nirvana, которые изменили 90-е; O — это Oasis, которые принесли брит-поп в мир; P — это Pink Floyd, которые построили стену; Q — это Queen, которые писали гимны для всех времён; R — это Ramones, которые изобрели панк; S — это Sex Pistols, которые всё сломали; T — это Тина Тёрнер, которая была просто лучшей; U — это U2, которые заполняли стадионы; V — это Van Halen, которые шредили; W — это The Who, которые разбивали гитары; X — это XTC, которые были гениальны и странны; Y — это Yes, которые сделали прог эпическим; Z — это Фрэнк Заппа, который умел всё.",
-    "Но алфавит — это не только группы. Это то, как вы произносите их названия. Произносите 'The Beatles' с британским 'r' или американским? Произносите 'Nirvana' с мягким 'r' или твёрдым? Произносите 'Metallica' с коротким 'e' или долгим? Эти различия — не ошибки, это звук рока по разные стороны Атлантики.",
-    "Произношение — это где алфавит оживает. Буква 'a' может быть /æ/ в 'band', /ɑː/ в 'father', /eɪ/ в 'name'. Буква 'c' может быть /k/ в 'rock' и /s/ в 'city'. Буква 'g' может быть /g/ в 'guitar' и /dʒ/ в 'giant'. У каждой буквы есть правила — и исключения. Но в этом и красота рока: он нарушает правила. Выучить алфавит — значит выучить язык рока. А выучить язык рока — значит понять, что двадцать шесть букв могут вместить всё — от трёхаккордной панк-песни до пятнадцатиминутного прог-эпика."
+    "The Beatles не писали азбуку, но их песни стали азбукой для миллионов людей по всему миру. «All You Need Is Love» — это A, «Back in the U.S.S.R.» — это B, «Can't Buy Me Love» — это C. Каждая песня — это буква, каждый звук — это эмоция. Ребёнок, который поёт «Yellow Submarine», уже знает букву Y. Тот, кто напевает «Hey Jude», запоминает H и J.",
+    "Изучая алфавит с The Beatles, мы учимся не просто говорить по-английски, а чувствовать его ритм и мелодию. A — это «All You Need Is Love», песня, которая стала гимном любви. B — «Back in the U.S.S.R.», песня о возвращении. C — «Can't Buy Me Love», песня о том, что любовь не продаётся. D — «Don't Let Me Down», песня о поддержке. E — «Eleanor Rigby», песня об одиночестве.",
+    "У каждой буквы есть имя: A — /eɪ/ (эй), B — /biː/ (би), C — /siː/ (си). The Beatles помогли миллионам людей выучить английский язык через свои песни. Их музыка — это мост между языками и культурами. Изучайте алфавит вместе с The Beatles, и вы запомните его навсегда."
   ],
-  "alphabet": [
-    { "letter": "A", "ipa": "/eɪ/", "example": "AC/DC — «Back in Black»", "exampleRu": "AC/DC — «Back in Black»" },
-    { "letter": "B", "ipa": "/biː/", "example": "The Beatles — «Sgt. Pepper's»", "exampleRu": "The Beatles — «Sgt. Pepper's»" },
-    { "letter": "C", "ipa": "/siː/", "example": "The Clash — «London Calling»", "exampleRu": "The Clash — «London Calling»" },
-    { "letter": "D", "ipa": "/diː/", "example": "Bob Dylan — «Highway 61 Revisited»", "exampleRu": "Боб Дилан — «Highway 61 Revisited»" },
-    { "letter": "E", "ipa": "/iː/", "example": "Elvis Presley — «That's All Right»", "exampleRu": "Элвис Пресли — «That's All Right»" },
-    { "letter": "F", "ipa": "/ɛf/", "example": "Foo Fighters — «The Colour and the Shape»", "exampleRu": "Foo Fighters — «The Colour and the Shape»" },
-    { "letter": "G", "ipa": "/dʒiː/", "example": "Green Day — «Dookie»", "exampleRu": "Green Day — «Dookie»" },
-    { "letter": "H", "ipa": "/eɪtʃ/", "example": "Jimi Hendrix — «Are You Experienced?»", "exampleRu": "Джими Хендрикс — «Are You Experienced?»" },
-    { "letter": "I", "ipa": "/aɪ/", "example": "Iron Maiden — «The Number of the Beast»", "exampleRu": "Iron Maiden — «The Number of the Beast»" },
-    { "letter": "J", "ipa": "/dʒeɪ/", "example": "Janis Joplin — «Pearl»", "exampleRu": "Дженис Джоплин — «Pearl»" },
-    { "letter": "K", "ipa": "/keɪ/", "example": "KISS — «Alive!»", "exampleRu": "KISS — «Alive!»" },
-    { "letter": "L", "ipa": "/ɛl/", "example": "Led Zeppelin — «IV»", "exampleRu": "Led Zeppelin — «IV»" },
-    { "letter": "M", "ipa": "/ɛm/", "example": "Metallica — «Master of Puppets»", "exampleRu": "Metallica — «Master of Puppets»" },
-    { "letter": "N", "ipa": "/ɛn/", "example": "Nirvana — «Nevermind»", "exampleRu": "Nirvana — «Nevermind»" },
-    { "letter": "O", "ipa": "/oʊ/", "example": "Oasis — «(What's the Story) Morning Glory?»", "exampleRu": "Oasis — «(What's the Story) Morning Glory?»" },
-    { "letter": "P", "ipa": "/piː/", "example": "Pink Floyd — «The Dark Side of the Moon»", "exampleRu": "Pink Floyd — «The Dark Side of the Moon»" },
-    { "letter": "Q", "ipa": "/kjuː/", "example": "Queen — «A Night at the Opera»", "exampleRu": "Queen — «A Night at the Opera»" },
-    { "letter": "R", "ipa": "/ɑːr/", "example": "Ramones — «Ramones»", "exampleRu": "Ramones — «Ramones»" },
-    { "letter": "S", "ipa": "/ɛs/", "example": "Sex Pistols — «Never Mind the Bollocks»", "exampleRu": "Sex Pistols — «Never Mind the Bollocks»" },
-    { "letter": "T", "ipa": "/tiː/", "example": "Tina Turner — «Simply the Best»", "exampleRu": "Тина Тёрнер — «Simply the Best»" },
-    { "letter": "U", "ipa": "/juː/", "example": "U2 — «The Joshua Tree»", "exampleRu": "U2 — «The Joshua Tree»" },
-    { "letter": "V", "ipa": "/viː/", "example": "Van Halen — «1984»", "exampleRu": "Van Halen — «1984»" },
-    { "letter": "W", "ipa": "/ˈdʌbəljuː/", "example": "The Who — «Who's Next»", "exampleRu": "The Who — «Who's Next»" },
-    { "letter": "X", "ipa": "/ɛks/", "example": "XTC — «Drums and Wires»", "exampleRu": "XTC — «Drums and Wires»" },
-    { "letter": "Y", "ipa": "/waɪ/", "example": "Yes — «Fragile»", "exampleRu": "Yes — «Fragile»" },
-    { "letter": "Z", "ipa": "/ziː/ /zɛd/", "example": "Frank Zappa — «Hot Rats»", "exampleRu": "Фрэнк Заппа — «Hot Rats»" }
+    "alphabet": [
+    { "letter": "A", "ipa": "/eɪ/" },
+    { "letter": "B", "ipa": "/biː/" },
+    { "letter": "C", "ipa": "/siː/" },
+    { "letter": "D", "ipa": "/diː/" },
+    { "letter": "E", "ipa": "/iː/" },
+    { "letter": "F", "ipa": "/ɛf/" },
+    { "letter": "G", "ipa": "/dʒiː/" },
+    { "letter": "H", "ipa": "/eɪtʃ/" },
+    { "letter": "I", "ipa": "/aɪ/" },
+    { "letter": "J", "ipa": "/dʒeɪ/" },
+    { "letter": "K", "ipa": "/keɪ/" },
+    { "letter": "L", "ipa": "/ɛl/" },
+    { "letter": "M", "ipa": "/ɛm/" },
+    { "letter": "N", "ipa": "/ɛn/" },
+    { "letter": "O", "ipa": "/oʊ/" },
+    { "letter": "P", "ipa": "/piː/" },
+    { "letter": "Q", "ipa": "/kjuː/" },
+    { "letter": "R", "ipa": "/ɑːr/" },
+    { "letter": "S", "ipa": "/ɛs/" },
+    { "letter": "T", "ipa": "/tiː/" },
+    { "letter": "U", "ipa": "/juː/" },
+    { "letter": "V", "ipa": "/viː/" },
+    { "letter": "W", "ipa": "/ˈdʌbəljuː/" },
+    { "letter": "X", "ipa": "/ɛks/" },
+    { "letter": "Y", "ipa": "/waɪ/" },
+    { "letter": "Z", "ipa": "/zɛd/ /ziː/" }
   ],
   "why": [
-    "Алфавит — это основа рока — он нужен, чтобы написать название группы на постере",
-    "Знание алфавита помогает произносить названия групп правильно, особенно если они не из вашего языка",
-    "Разница между британским и американским произношением — это разница между The Beatles и Элвисом: оба велики, но звучат по-разному",
-    "У каждой буквы есть свой рифф — знание названий букв это первый шаг к пониманию языка рока"
+    "Алфавит — это основа чтения, письма и речи — без него вы не сможете написать даже своё имя",
+    "Знание алфавита помогает произносить слова правильно, особенно когда вы слышите их в песнях",
+    "Разница между британским и американским произношением начинается с алфавита",
+    "У каждой буквы есть своё имя, и знание имён букв — первый шаг к пониманию языка"
   ],
   "context": {
     "lines": [
-      { "en": "The promoter called: 'The band's name is A-C/ D-C — all caps. Don't mess it up. And the show starts at 8 p.m. sharp. If you're late, you're out.'",
-        "ru": "Промоутер позвонил: 'Название группы — A-C/ D-C — заглавными буквами. Не напутай. И шоу начинается в 8 вечера ровно. Если опоздаешь — вылетаешь.'" },
-      { "en": "The roadie wrote on the setlist: 'S-T-A-I-R-W-A-Y — T-O — H-E-A-V-E-N — Check the spelling! P.S. Don't forget the encore.'",
-        "ru": "Роуди написал на сет-листе: 'С-Т-Э-И-Р-В-Э-Й — Т-О — Х-Э-В-Э-Н — Проверь написание! P.S. Не забудь бис.'" }
+      { "en": "John Lennon: 'A is for All You Need Is Love. B is for Back in the U.S.S.R. C is for Can't Buy Me Love. The alphabet is like music — every letter has its own sound.'",
+        "ru": "Джон Леннон: «A — это All You Need Is Love. B — это Back in the U.S.S.R. C — это Can't Buy Me Love. Алфавит — как музыка: у каждой буквы свой звук»." },
+      { "en": "Paul McCartney: 'Kids learn the alphabet with our songs. It's amazing. They sing along and learn without even realising it.'",
+        "ru": "Пол Маккартни: «Дети учат алфавит с нашими песнями. Это удивительно. Они поют и учатся, даже не замечая этого»." }
     ],
-    "note": "В роке алфавит везде — на постерах, на билетах, на сет-листах. Одна неправильная буква — и название написано неверно, шоу испорчено, легенда утеряна."
+    "note": "Каждая буква алфавита может звучать в песнях The Beatles. Учите буквы вместе с их музыкой."
   },
   "russianAngle": [
-    "В русском роке можно писать названия на кириллице, но в международном роке используется английский алфавит — одна неверная буква, и вы уже другая группа",
-    "Разница между 'The Beatles' и 'The Beattles' — это разница между легендой и группой-трибьютом",
-    "Британское и американское произношение 'R' — как разница между чистым гитарным звуком и перегруженным: оба рок, но звучат по-разному",
-    "В русском языке нет различия между 'b' и 'v' в некоторых диалектах, но в английском это меняет смысл: 'berry' vs 'very' — и в роке это может быть 'Berry' (гитарист) или 'Very' (название группы)"
+    "В русском языке мы читаем буквы так, как они пишутся. В английском одна и та же буква может звучать по-разному: 'a' в 'cat' и 'name' — это два разных звука",
+    "В русском алфавите 33 буквы, в английском — 26. Но в английском больше звуков — около 44 — так что изучение алфавита это только начало",
+    "Британское и американское произношение 'r' — постоянный источник путаницы. Британцы часто его опускают, американцы раскатывают",
+    "В русском языке нет различия между 'b' и 'v' в некоторых диалектах, но в английском это меняет смысл: 'berry' и 'very' — разные слова"
   ],
   "howToLearn": {
     "steps": [
-      "Послушайте песенку про алфавит — но с рок-битом: 'A, B, C, D, E, F, G — панк-рок песня для тебя и меня'",
+      "Послушайте песенку про алфавит — это по-детски, но помогает запомнить порядок букв",
       "Прочитайте таблицу алфавита вслух, повторяя каждую букву и её произношение",
       "Напишите каждую букву от руки — это помогает запомнить её форму и звук",
-      "Потренируйтесь произносить по буквам название вашей любимой группы — это самый личный способ запомнить буквы",
+      "Потренируйтесь произносить по буквам своё имя по-английски",
       "Прочитайте короткий текст вслух, сосредоточившись на произношении каждой буквы",
-      "Посмотрите британское и американское видео об алфавите — послушайте разницу, как слушаете The Beatles vs Элвиса"
+      "Послушайте песни The Beatles и найдите в них буквы алфавита"
     ],
     "exercise": {
-      "prompt": "Произнесите эти названия групп по буквам на английском:",
+      "prompt": "Произнесите эти имена и слова по буквам на английском:",
       "items": [
-        { "q": "AC/DC", "a": "A-C-slash-D-C — 'slash' — это название знака /" },
-        { "q": "The Beatles", "a": "T-H-E — B-E-A-T-L-E-S — 'The' произносится как /ðə/ в британском" },
-        { "q": "Nirvana", "a": "N-I-R-V-A-N-A — с мягким 'r' в британском, твёрдым 'r' в американском" }
+        { "q": "John", "a": "J-O-H-N — 'J' как /dʒeɪ/, 'O' как /oʊ/, 'H' как /eɪtʃ/, 'N' как /ɛn/" },
+        { "q": "Paul", "a": "P-A-U-L — 'P' как /piː/, 'A' как /eɪ/, 'U' как /juː/, 'L' как /ɛl/" },
+        { "q": "London", "a": "L-O-N-D-O-N — 'L' как /ɛl/, 'O' как /oʊ/, 'N' как /ɛn/, 'D' как /diː/" }
       ]
     }
   },
   "rules": [
-    { "title": "Названия букв в роке",
-      "text": "У каждой буквы есть название: A — /eɪ/, B — /biː/, C — /siː/. Учите названия, а не только звуки — они нужны, чтобы написать название группы на постере." },
+    { "title": "Названия букв",
+      "text": "У каждой буквы есть имя: A — /eɪ/, B — /biː/, C — /siː/. Учите названия, а не только звуки." },
     { "title": "Британское vs американское произношение",
-      "text": "Некоторые буквы произносятся по-разному: Z — /zɛd/ в британском, /ziː/ в американском. R — в британском конце слов не произносится, в американском — произносится. Это разница между The Beatles (BrE) и Элвисом (AmE)." },
+      "text": "Некоторые буквы произносятся по-разному: Z — /zɛd/ в британском, /ziː/ в американском. R — в британском конце слов не произносится." },
     { "title": "Алфавит на практике",
-      "text": "Когда произносите слово по буквам, используйте названия букв: 'Моя группа — N-I-R-V-A-N-A — Nirvana'." }
+      "text": "Когда произносите слово по буквам, используйте названия букв: 'Меня зовут John — J-O-H-N'." }
   ],
   "examples": [
     {
-      "group": "Гласные — звук рока",
+      "group": "Гласные — дыхание английского языка",
       "items": [
-        { "en": "A /eɪ/ — AC/DC played Back in Black", "ru": "AC/DC сыграли «Back in Black» — и буква A звучит как напряжение перед взрывом", "highlight": ["A"] },
-        { "en": "E /iː/ — Elvis shook the world", "ru": "Элвис потряс мир — и E звучит как крик", "highlight": ["E"] },
-        { "en": "I /aɪ/ — Iron Maiden made metal epic", "ru": "Iron Maiden сделали метал эпическим — и I звучит как удар", "highlight": ["I"] },
-        { "en": "O /oʊ/ — Oasis brought Britpop to the world", "ru": "Oasis принесли брит-поп в мир — и O звучит как вздох", "highlight": ["O"] },
-        { "en": "U /juː/ — U2 filled stadiums", "ru": "U2 заполняли стадионы — и U звучит как вопрос", "highlight": ["U"] }
+        { "en": "A /eɪ/ — All You Need Is Love", "ru": "A — All You Need Is Love", "highlight": ["A"] },
+        { "en": "E /iː/ — Eleanor Rigby", "ru": "E — Eleanor Rigby", "highlight": ["E"] },
+        { "en": "I /aɪ/ — I Want to Hold Your Hand", "ru": "I — I Want to Hold Your Hand", "highlight": ["I"] },
+        { "en": "O /oʊ/ — Ob-La-Di, Ob-La-Da", "ru": "O — Ob-La-Di, Ob-La-Da", "highlight": ["O"] },
+        { "en": "U /juː/ — The Fool on the Hill", "ru": "U — The Fool on the Hill", "highlight": ["U"] }
       ]
     },
     {
-      "group": "Согласные — риффы рока",
+      "group": "Согласные — архитектура слов",
       "items": [
-        { "en": "B /biː/ — The Beatles changed everything", "ru": "The Beatles изменили всё — и B звучит как биение сердца", "highlight": ["B"] },
-        { "en": "C /siː/ — The Clash fought the good fight", "ru": "The Clash вели борьбу — и C звучит как шипение", "highlight": ["C"] },
-        { "en": "D /diː/ — Bob Dylan wrote poetry with a guitar", "ru": "Боб Дилан писал стихи с гитарой — и D звучит как удар", "highlight": ["D"] },
-        { "en": "F /ɛf/ — Foo Fighters kept the spirit alive", "ru": "Foo Fighters сохранили дух рока — и F звучит как ветер", "highlight": ["F"] },
-        { "en": "G /dʒiː/ — Green Day brought punk to the masses", "ru": "Green Day принесли панк массам — и G звучит как скрип", "highlight": ["G"] }
+        { "en": "B /biː/ — Back in the U.S.S.R.", "ru": "B — Back in the U.S.S.R.", "highlight": ["B"] },
+        { "en": "C /siː/ — Can't Buy Me Love", "ru": "C — Can't Buy Me Love", "highlight": ["C"] },
+        { "en": "D /diː/ — Don't Let Me Down", "ru": "D — Don't Let Me Down", "highlight": ["D"] },
+        { "en": "F /ɛf/ — For No One", "ru": "F — For No One", "highlight": ["F"] },
+        { "en": "G /dʒiː/ — Get Back", "ru": "G — Get Back", "highlight": ["G"] }
       ]
     },
     {
-      "group": "Самые хитрые буквы в роке",
+      "group": "Самые хитрые буквы",
       "items": [
-        { "en": "H /eɪtʃ/ — Jimi Hendrix set his guitar on fire", "ru": "Джими Хендрикс поджёг гитару — и H звучит как выдох перед соло", "highlight": ["H"] },
-        { "en": "J /dʒeɪ/ — Janis Joplin sang with her soul", "ru": "Дженис Джоплин пела душой — и J звучит как рык", "highlight": ["J"] },
-        { "en": "Q /kjuː/ — Queen wrote anthems for the ages", "ru": "Queen писали гимны для всех времён — и Q звучит как ключ к величию", "highlight": ["Q"] },
-        { "en": "R /ɑːr/ — Ramones invented punk", "ru": "Ramones изобрели панк — и R звучит как рычание", "highlight": ["R"] },
-        { "en": "X /ɛks/ — XTC were brilliant and weird", "ru": "XTC были гениальны и странны — и X звучит как поцелуй", "highlight": ["X"] }
+        { "en": "H /eɪtʃ/ — Hey Jude", "ru": "H — Hey Jude", "highlight": ["H"] },
+        { "en": "J /dʒeɪ/ — Let It Be", "ru": "J — Let It Be", "highlight": ["J"] },
+        { "en": "Q /kjuː/ — A Hard Day's Night", "ru": "Q — A Hard Day's Night", "highlight": ["Q"] },
+        { "en": "R /ɑːr/ — Revolution", "ru": "R — Revolution", "highlight": ["R"] },
+        { "en": "X /ɛks/ — eXtra... (the sound in 'Taxman')", "ru": "X — звук в песне Taxman", "highlight": ["X"] }
       ]
     },
     {
-      "group": "Британское vs американское произношение в роке",
+      "group": "Британское vs американское произношение",
       "items": [
-        { "en": "Z — /zɛd/ (BrE) vs /ziː/ (AmE) — Frank Zappa", "ru": "Z — /zɛd/ в британском vs /ziː/ в американском — Фрэнк Заппа", "highlight": ["Z"] },
-        { "en": "R — silent in BrE, rolled in AmE — 'hard rock' sounds different", "ru": "R — тихое в BrE, раскатистое в AmE — 'hard rock' звучит по-разному", "highlight": ["R"] },
-        { "en": "A — /ɑː/ in BrE, /æ/ in AmE — 'dance' and 'bath' are different", "ru": "A — /ɑː/ в BrE, /æ/ в AmE — 'dance' и 'bath' звучат по-разному", "highlight": ["A"] }
+        { "en": "Z — /zɛd/ (BrE) vs /ziː/ (AmE)", "ru": "Z — /zɛd/ в Британии, /ziː/ в Америке", "highlight": ["Z"] },
+        { "en": "R — silent in BrE, rolled in AmE", "ru": "R — тихое в BrE, раскатистое в AmE", "highlight": ["R"] },
+        { "en": "A — /ɑː/ in BrE, /æ/ in AmE", "ru": "A — /ɑː/ в BrE, /æ/ в AmE", "highlight": ["A"] }
       ]
     },
     {
-      "group": "Алфавит в рок-жизни",
+      "group": "Алфавит в повседневной жизни",
       "items": [
-        { "en": "Spell your band's name — 'N-I-R-V-A-N-A' — and the promoter will understand", "ru": "Произнесите название группы по буквам — 'N-I-R-V-A-N-A' — и промоутер поймёт", "highlight": ["N", "I", "R", "V", "A"] },
-        { "en": "Spell 'London' — 'L-O-N-D-O-N' — and you will find the best rock venue", "ru": "Произнесите 'London' по буквам — 'L-O-N-D-O-N' — и вы найдёте лучшую рок-площадку", "highlight": ["L", "O", "N", "D"] },
-        { "en": "Spell 'Festival' — 'F-E-S-T-I-V-A-L' — and you'll be on the right stage", "ru": "Произнесите 'Festival' по буквам — 'F-E-S-T-I-V-A-L' — и вы окажетесь на нужной сцене", "highlight": ["F", "E", "S", "T", "I", "V", "A", "L"] }
+        { "en": "Spell your name — 'J-O-H-N' — and people will understand", "ru": "Произнесите своё имя по буквам — 'J-O-H-N' — и вас поймут", "highlight": ["J", "O", "H", "N"] },
+        { "en": "Spell 'London' — 'L-O-N-D-O-N'", "ru": "Произнесите 'London' по буквам — 'L-O-N-D-O-N'", "highlight": ["L", "O", "N", "D"] },
+        { "en": "Spell 'Oxford' — 'O-X-F-O-R-D'", "ru": "Произнесите 'Oxford' по буквам — 'O-X-F-O-R-D'", "highlight": ["O", "X", "F", "R", "D"] }
       ]
     },
     {
-      "group": "Немые буквы — призраки рока",
+      "group": "Немые буквы — призраки английского",
       "items": [
-        { "en": "'Knight' — the 'K' is silent, but the armour is loud on stage", "ru": "'Knight' — 'K' молчит, но доспехи звенят на сцене", "highlight": ["K"] },
-        { "en": "'Psalm' — the 'P' is silent, but the song is sacred in rock", "ru": "'Psalm' — 'P' молчит, но песня священна в роке", "highlight": ["P"] },
-        { "en": "'Ghost' — the 'H' is silent, but the spirit is real backstage", "ru": "'Ghost' — 'H' молчит, но дух реален за кулисами", "highlight": ["H"] },
-        { "en": "'Knight' — the 'K' and 'GH' are silent, but the power is loud", "ru": "'Knight' — 'K' и 'GH' молчат, но мощь слышна", "highlight": ["K", "G", "H"] }
+        { "en": "'Knife' — the 'K' is silent", "ru": "'Knife' — 'K' молчит", "highlight": ["K"] },
+        { "en": "'Psalm' — the 'P' is silent", "ru": "'Psalm' — 'P' молчит", "highlight": ["P"] },
+        { "en": "'Ghost' — the 'H' is silent", "ru": "'Ghost' — 'H' молчит", "highlight": ["H"] },
+        { "en": "'Knight' — the 'K' and 'GH' are silent", "ru": "'Knight' — 'K' и 'GH' молчат", "highlight": ["K", "G", "H"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Произносить 'z' как /zɛt/", "right": "Правильно — /zɛd/ в британском, /ziː/ в американском", "note": "Z — это не 'зет'. В роке это может быть разницей между названием группы и ошибкой." },
-    { "wrong": "Произносить 'r' в слове 'guitar' в британском английском", "right": "В британском 'r' в конце слов молчит", "note": "Британцы говорят 'гитах' вместо 'гитар'. Американцы говорят 'гитар' с раскатистым 'r'." },
-    { "wrong": "Произносить 'w' как 'дабл-в'", "right": "W — /ˈdʌbəljuː/ — 'дабл-ю'", "note": "Буква называется 'двойное u' — потому что выглядит как две 'u', а не две 'v'." },
-    { "wrong": "Произносить 'x' как 'экс' без /s/", "right": "'X' — это /ɛks/ — 'экс' с чётким 'с'", "note": "X звучит как 'экс' в слове 'example' — не 'эк' без 'с'." },
-    { "wrong": "Произносить 'y' как 'уай' с русским 'у'", "right": "'Y' — /waɪ/ — как 'уай' с лёгким 'у'", "note": "Y — это согласная, которая звучит как гласная. Тренируйтесь." },
+    { "wrong": "Произносить 'z' как /zɛt/", "right": "Правильно — /zɛd/ в британском, /ziː/ в американском", "note": "Z — это не 'зет'. В британском — 'зед', в американском — 'зи'." },
+    { "wrong": "Произносить 'r' в конце слова в британском английском", "right": "В британском 'r' в конце слов молчит", "note": "Британцы говорят 'ка' вместо 'car'. Американцы говорят 'кар'." },
+    { "wrong": "Произносить 'w' как 'дабл-в'", "right": "W — /ˈdʌbəljuː/ — 'дабл-ю'", "note": "Это буква называется 'двойное u'." },
+    { "wrong": "Произносить 'x' как /eks/ без /s/", "right": "'X' — это /ɛks/ — 'экс' с чётким 'с'", "note": "X звучит как 'экс' в слове 'example'." },
+    { "wrong": "Произносить 'y' как 'уай' с русским 'у'", "right": "'Y' — /waɪ/ — как 'уай' с лёгким 'у'", "note": "Y — это согласная, которая звучит как гласная." },
     { "wrong": "Путать 'b' и 'v' в произношении", "right": "'B' — /biː/, 'V' — /viː/ — это разные звуки", "note": "В русском в некоторых диалектах нет различия между 'б' и 'в', но в английском это меняет смысл: 'berry' vs 'very'." }
   ],
   "compare": {
@@ -164,13 +164,13 @@
     ]
   },
   "tips": [
-    "Выучите песенку про алфавит с рок-битом — это по-детски, но работает",
-    "Тренируйтесь произносить по буквам название вашей любимой группы — это самый личный способ запомнить буквы",
-    "Посмотрите британское видео и американское видео об алфавите — послушайте разницу",
+    "Выучите песенку про алфавит — это по-детски, но работает",
+    "Тренируйтесь произносить своё имя по буквам на английском",
+    "Посмотрите британское видео и американское видео об алфавите",
     "Прочитайте короткий текст вслух, сосредоточившись на произношении каждой буквы",
-    "Когда видите незнакомое слово, произнесите его по буквам — это помогает запомнить его форму",
-    "Буква 'w' произносится как 'дабл-ю', а не 'дабл-в' — даже если в некоторых шрифтах выглядит как две 'v'",
-    "Буква 'h' произносится как /eɪtʃ/ — не 'эйч' без звука 'h' в начале"
+    "Когда видите незнакомое слово, произнесите его по буквам",
+    "Буква 'w' произносится как 'дабл-ю', а не 'дабл-в'",
+    "Буква 'h' произносится как /eɪtʃ/ — не 'эйч' без звука 'h'"
   ],
   "related": [],
   "quiz": [
@@ -178,37 +178,37 @@
       "q": "Как называется буква 'A' в английском языке?",
       "options": ["/æ/", "/eɪ/", "/ɑː/", "/a/"],
       "answer": "/eɪ/",
-      "why": "Буква A произносится как /eɪ/ — как 'эй'. Это первая буква AC/DC."
+      "why": "Буква A в английском произносится как /eɪ/ — как 'эй' в 'say'."
     },
     {
       "q": "Как произносится буква 'Z' в британском английском?",
       "options": ["/zɛd/", "/ziː/", "/zɛt/", "/zə/"],
       "answer": "/zɛd/",
-      "why": "В британском английском Z — это /zɛd/, а не /ziː/ (американский). Фрэнк Заппа был бы Фрэнком Зедом в Британии."
+      "why": "В британском английском Z — это /zɛd/, а не /ziː/ (американский)."
     },
     {
-      "q": "Произносится ли 'R' в слове 'guitar' в британском английском?",
+      "q": "Произносится ли буква 'R' в конце слова в британском английском?",
       "options": ["Да, всегда", "Нет, никогда", "Иногда", "Зависит от слова"],
       "answer": "Нет, никогда",
-      "why": "В британском 'r' в конце слова 'guitar' не произносится — 'гитах'. Это звук The Beatles."
+      "why": "В британском английском 'r' в конце слова не произносится — 'car' читается как 'ка'."
     },
     {
       "q": "Как называется буква 'W' в английском языке?",
       "options": ["Дабл-в", "Дабл-ю", "Дабл-у", "Ю-дабл"],
       "answer": "Дабл-ю",
-      "why": "W называется 'дабл-ю' — это W в The Who."
+      "why": "Буква W называется 'дабл-ю' — даже если в некоторых шрифтах выглядит как две 'v'."
     },
     {
       "q": "Какая буква не произносится в слове 'knife'?",
       "options": ["K", "N", "I", "E"],
       "answer": "K",
-      "why": "В слове 'knife' первая буква 'K' молчит — произносится /naɪf/. Это K в 'knight' на сцене."
+      "why": "В слове 'knife' первая буква 'K' молчит — слово произносится /naɪf/."
     },
     {
       "q": "В чём разница между 'b' и 'v' в английском языке?",
       "options": ["Это одно и то же", "B — /biː/, V — /viː/", "V — /biː/, B — /viː/", "Разницы нет"],
       "answer": "B — /biː/, V — /viː/",
-      "why": "B — /biː/, V — /viː/ — это разные звуки. В роке это разница между 'Berry' и 'Very'."
+      "why": "B — /biː/, V — /viː/ — это разные звуки в английском языке."
     }
   ]
 }

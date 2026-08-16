@@ -1,190 +1,181 @@
 {
-  "slug": "a1-nouns",
   "variant": "rocknroll",
-  "title": "Nouns",
+  "slug": "a1-nouns",
   "level": "A1",
+  "title": "Существительные",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Существительные — имена вещей, людей, идей. Eddie, маскот Iron Maiden, появлялся на каждой обложке с 1980 года. Имя, ставшее символом целого жанра.",
+  "readingTime": 9,
+  "summary": "Существительные — слова, которые называют людей, места, вещи и идеи. История о том, как Оззи Осборн откусил голову летучей мыши.",
   "idea": [
-    "Eddie appeared on every Iron Maiden album cover since 1980. Эдди — это существительное, имя собственное, маскот группы. Он был солдатом, мумией, киборгом, фараоном, лётчиком, пиратом — и везде Eddie, одно имя на десятки обликов. Iron Maiden сделали из имени нарицательного (eddy — водоворот) символ, и теперь, когда говорят «Eddie» в рок-кругах, все понимают, о ком речь. Существительные — это имена, которые держат язык: band, guitar, amp, gig, roadie, fan, encore. Без них песня не про кого и не про что.",
-    "Существительные делятся на две большие группы. Proper (собственные) — с заглавной: Eddie, Iron Maiden, London, Madison Square Garden. Они уникальны. Common (нарицательные) — с маленькой: band, singer, stage, guitar. А ещё countable (исчисляемые) — можно посчитать: one guitar, two guitars, three encores. И uncountable (неисчисляемые) — нельзя: music, noise, rain, feedback. Нельзя сказать «two musics» — музыка неисчисляемая. Ramones сделали трюк: все взяли одну фамилию. Joey Ramone, Johnny Ramone, Dee Dee Ramone, Tommy Ramone — одно существительное-фамилия на четырёх человек. Proper noun, ставшее общим именем для всей группы.",
-    "Множественное число — обычно +s: guitars, amps, fans, sirens. После -s/-sh/-ch/-x/-o → +es: boxes, churches, heroes. Согласная + y → -ies: cities → cities. Неправильные: men, women, children, feet. AC/DC — название из двух существительных: alternating current / direct current, электрические термины, ставшие именем группы. Black Sabbath — чёрный шабаш, два существительных, одно имя. У Sabbath на обложке — ведьма, у Iron Maiden — Эдди, у Ramones — четыре одинаковых силуэта. У каждой группы свой набор существительных, свой словарь, свой мир."
+    "В 1982 году Оззи Осборн совершил один из самых известных поступков в истории рока. Он откусил голову летучей мыши. Он думал, что мышь резиновая. Мышь была настоящей. Эта история стала легендой. Существительные в этой истории: «bat» (летучая мышь), «stage» (сцена), «hospital» (больница), «rabies shots» (уколы от бешенства). Без них мы не могли бы рассказать эту историю.",
+    "Существительные — это основа языка. Они называют людей (Ozzy), места (stage), вещи (bat) и идеи (rock 'n' roll). Без них мы не могли бы сказать ни одного предложения. В английском языке существительные могут быть исчисляемыми (bat, stage, hospital) и неисчисляемыми (blood, music, information). Они могут быть в единственном числе (a bat) и во множественном (bats).",
+    "Black Sabbath знали силу слов. Их название — это существительное, которое стало символом. «Black Sabbath» — это не просто название, это культура. Существительные — это ключи к пониманию мира."
   ],
   "why": [
-    "Назвать, о ком или о чём песня: Eddie, guitar, the road, the crowd.",
-    "Различать уникальное и общее: Iron Maiden (имя группы) vs band (нарицательное).",
-    "Считать или не считать: one guitar (исчисляемое) vs music (неисчисляемое).",
-    "Образовать множественное число: guitar → guitars, city → cities."
+    "Существительные — это основа языка, без них невозможно сказать ни одного предложения",
+    "Они называют людей, места, вещи и идеи",
+    "Исчисляемые и неисчисляемые существительные имеют разные правила",
+    "Знание существительных помогает строить предложения и понимать текст"
   ],
   "context": {
     "lines": [
-      { "en": "Who is on the album cover?", "ru": "Кто на обложке альбома?" },
-      { "en": "Eddie. He is on every Iron Maiden cover.", "ru": "Эдди. Он на каждой обложке Iron Maiden." },
-      { "en": "Is he a real person?", "ru": "Он настоящий человек?" },
-      { "en": "No. Eddie is a mascot — a character, not a man.", "ru": "Нет. Эдди — маскот, персонаж, не человек." }
+      { "en": "Ozzy: 'I bit the head off a bat. I thought it was a rubber toy. But it was a real bat. I went to the hospital for rabies shots.'",
+        "ru": "Оззи: «Я откусил голову летучей мыши. Я думал, это резиновая игрушка. Но это была настоящая летучая мышь. Я поехал в больницу на уколы от бешенства»." },
+      { "en": "Manager: 'Ozzy, you are a legend! A bat on the stage? This is rock 'n' roll!'",
+        "ru": "Менеджер: «Оззи, ты легенда! Летучая мышь на сцене? Это рок-н-ролл!»" }
     ],
-    "note": "Существительные всех видов: Eddie (Proper), cover (Common), person (Countable), mascot (Countable). Iron Maiden сделали из имени символ."
+    "note": "Существительные — это ключи к истории. Каждое слово — часть легенды."
   },
   "russianAngle": [
-    "В русском род существительного важен: «мой гитар», нет — «моя гитара». В английском рода нет — только местоимения he/she/it.",
-    "Множественное число: обычно +s (guitar → guitars), но есть правила для -es, -ies и неправильных.",
-    "Исчисляемые vs неисчисляемые: music, noise, rain — нельзя посчитать, как и в русском.",
-    "Артикль a/an — только для исчисляемых в ед.ч.: a guitar, an amp. Для неисчисляемых a не ставят."
+    "В русском языке существительные тоже есть. Они называют людей, места, вещи и идеи.",
+    "В русском языке есть исчисляемые и неисчисляемые существительные, но в английском правила другие.",
+    "В русском языке множественное число образуется с помощью окончаний. В английском — обычно с помощью -s или -es.",
+    "Ошибка: I have a blood — неправильно! Кровь — неисчисляемое, поэтому I have blood."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: существительные — имена людей, мест, вещей, идей.",
-      "Proper (с заглавной): Eddie, Iron Maiden, London. Common (с маленькой): band, guitar.",
-      "Countable — можно посчитать. Uncountable — нельзя: music, noise.",
-      "Множественное: обычно +s, после -s/-sh/-ch/-x/-o → +es, y → -ies.",
-      "Сделай упражнение и сверься. Эдди смотрит с обложки."
+      "Запомни: существительные называют людей, места, вещи и идеи.",
+      "Исчисляемые можно посчитать: a bat, two bats.",
+      "Неисчисляемые нельзя посчитать: blood, music, information.",
+      "Множественное число обычно образуется с -s: a bat → bats.",
+      "Исключения: a man → men, a woman → women, a child → children.",
+      "Сделай упражнение и сверься с ответами."
     ],
     "exercise": {
-      "prompt": "Определи тип существительного и множественное число:",
+      "prompt": "Вставьте правильную форму существительного (единственное или множественное число):",
       "items": [
-        { "q": "guitar → ___", "a": "guitars — исчисляемое, +s." },
-        { "q": "city → ___", "a": "cities — y → -ies." },
-        { "q": "foot → ___", "a": "feet — неправильное." },
-        { "q": "music — исчисляемое или неисчисляемое?", "a": "неисчисляемое — нельзя two musics." },
-        { "q": "Eddie — собственное или нарицательное?", "a": "собственное — имя маскота, с заглавной." }
+        { "q": "Ozzy bit a ___ (bat).", "a": "bat" },
+        { "q": "There were many ___ (bat) on the stage.", "a": "bats" },
+        { "q": "He went to a ___ (hospital).", "a": "hospital" },
+        { "q": "He needed ___ (rabies shots).", "a": "rabies shots" },
+        { "q": "He had ___ (blood) on his mouth.", "a": "blood" }
       ]
     }
   },
-  "formula": "Singular / Plural; Countable / Uncountable; Proper / Common",
-  "structure": {
-    "positive": "A guitar is on stage. / Guitars are on stage.",
-    "negative": "There is no music. / There are no amps.",
-    "question": "Is there a guitar? / Are there guitars?"
-  },
-  "markers": ["a/an", "the", "some", "many", "much", "a few", "a little"],
-  "uses": [
-    "Назвать: Eddie, guitar, the band, the road.",
-    "Считать: one gig, two gigs, three encores.",
-    "Говорить о неисчисляемом: music, noise, feedback.",
-    "Использовать имена собственные: Iron Maiden, Eddie, Madison Square Garden."
-  ],
   "rules": [
-    { "title": "Proper vs Common", "text": "Proper — с заглавной: Eddie, Iron Maiden, London. Common — с маленькой: band, singer, guitar." },
-    { "title": "Countable vs Uncountable", "text": "Countable — можно посчитать: one guitar, two guitars. Uncountable — нельзя: music, noise, feedback." },
-    { "title": "Множественное число", "text": "+s: guitar → guitars. +es после -s/-sh/-ch/-x/-o: box → boxes, hero → heroes. y → -ies: city → cities. Неправильные: man → men, foot → feet, child → children." }
+    { "title": "Что такое существительное",
+      "text": "Существительные называют людей (Ozzy), места (stage), вещи (bat) и идеи (rock 'n' roll)." },
+    { "title": "Исчисляемые и неисчисляемые",
+      "text": "Исчисляемые можно посчитать: a bat, two bats. Неисчисляемые нельзя: blood, music, information." },
+    { "title": "Множественное число",
+      "text": "Обычно +s: a bat → bats. Исключения: a man → men, a woman → women, a child → children." }
   ],
   "examples": [
     {
-      "group": "Эдди — имя, ставшее символом",
+      "group": "Люди",
       "items": [
-        { "en": "Eddie is on every Iron Maiden cover.", "ru": "Эдди на каждой обложке Iron Maiden. С 1980 года.", "highlight": ["Eddie"] },
-        { "en": "Eddie was a soldier, a mummy, a cyborg.", "ru": "Эдди был солдатом, мумией, киборгом. Одно имя, десятки обликов.", "highlight": ["Eddie"] },
-        { "en": "Fans love Eddie.", "ru": "Фанаты любят Эдди. Имя стало нарицательным для маскота.", "highlight": ["Eddie"] }
+        { "en": "Ozzy is a singer. He is the voice of Black Sabbath.", "ru": "Оззи — певец. Он голос Black Sabbath.", "highlight": ["singer", "voice"] },
+        { "en": "Tony Iommi is a guitarist. He plays heavy riffs.", "ru": "Тони Айомми — гитарист. Он играет тяжёлые риффы.", "highlight": ["guitarist", "riffs"] },
+        { "en": "Geezer Butler is a bassist. He plays bass.", "ru": "Гизер Батлер — басист. Он играет на басу.", "highlight": ["bassist", "bass"] }
       ]
     },
     {
-      "group": "Proper nouns — имена групп",
+      "group": "Места",
       "items": [
-        { "en": "Iron Maiden is a British band.", "ru": "Iron Maiden — британская группа. Имя собственное.", "highlight": ["Iron Maiden"] },
-        { "en": "AC/DC is from Australia.", "ru": "AC/DC из Австралии. Название — два электрических термина.", "highlight": ["AC/DC"] },
-        { "en": "Black Sabbath started in Birmingham.", "ru": "Black Sabbath началась в Бирмингеме. Чёрный шабаш.", "highlight": ["Black Sabbath"] },
-        { "en": "All the Ramones took the same last name.", "ru": "Все Ramones взяли одну фамилию. Proper noun на четверых.", "highlight": ["Ramones"] }
+        { "en": "The stage is a place for rock concerts. Ozzy was on the stage.", "ru": "Сцена — это место для рок-концертов. Оззи был на сцене.", "highlight": ["stage", "place"] },
+        { "en": "The hospital is a place for sick people. Ozzy went to the hospital.", "ru": "Больница — это место для больных. Оззи поехал в больницу.", "highlight": ["hospital"] },
+        { "en": "The studio is a place for recording music. Black Sabbath recorded albums.", "ru": "Студия — это место для записи музыки. Black Sabbath записывали альбомы.", "highlight": ["studio", "albums"] }
       ]
     },
     {
-      "group": "Countable — что можно посчитать",
+      "group": "Вещи",
       "items": [
-        { "en": "One guitar, two guitars, three guitars.", "ru": "Одна гитара, две, три. Можно посчитать.", "highlight": ["guitar", "guitars"] },
-        { "en": "The band played three encores.", "ru": "Группа сыграла три биса. Три — счёт.", "highlight": ["encores"] },
-        { "en": "There are four roadies.", "ru": "Четыре роуди. Четыре — число.", "highlight": ["roadies"] }
+        { "en": "A bat is a flying animal. Ozzy bit a bat.", "ru": "Летучая мышь — это летающее животное. Оззи откусил летучую мышь.", "highlight": ["bat", "animal"] },
+        { "en": "A guitar is a musical instrument. Tony plays a guitar.", "ru": "Гитара — это музыкальный инструмент. Тони играет на гитаре.", "highlight": ["guitar", "instrument"] },
+        { "en": "A microphone is a tool for singers. Ozzy uses a microphone.", "ru": "Микрофон — это инструмент для певцов. Оззи использует микрофон.", "highlight": ["microphone", "tool"] }
       ]
     },
     {
-      "group": "Uncountable — что нельзя",
+      "group": "Идеи",
       "items": [
-        { "en": "The music is loud.", "ru": "Музыка громкая. Не musics.", "highlight": ["music"] },
-        { "en": "There is feedback from the amps.", "ru": "Фидбек от усилителей. Feedback неисчисляемое.", "highlight": ["feedback"] },
-        { "en": "The noise was crazy.", "ru": "Шум был сумасшедший. Noise неисчисляемое.", "highlight": ["noise"] }
+        { "en": "Rock 'n' roll is a music genre. Black Sabbath plays rock 'n' roll.", "ru": "Рок-н-ролл — это музыкальный жанр. Black Sabbath играют рок-н-ролл.", "highlight": ["genre"] },
+        { "en": "Heavy metal is a style. Black Sabbath invented heavy metal.", "ru": "Хэви-метал — это стиль. Black Sabbath изобрели хэви-метал.", "highlight": ["style"] },
+        { "en": "Legend is a story. Ozzy is a legend.", "ru": "Легенда — это история. Оззи — легенда.", "highlight": ["legend"] }
       ]
     },
     {
-      "group": "Множественное число",
+      "group": "Исчисляемые vs неисчисляемые",
       "items": [
-        { "en": "The men smashed the drums.", "ru": "Парни разнесли барабаны. man → men.", "highlight": ["men"] },
-        { "en": "The feet were stomping.", "ru": "Ноги топали. foot → feet.", "highlight": ["feet"] },
-        { "en": "The boxes of vinyl.", "ru": "Коробки с винилом. box → boxes, +es.", "highlight": ["boxes"] },
-        { "en": "The heroes of rock.", "ru": "Герои рока. hero → heroes, +es.", "highlight": ["heroes"] }
+        { "en": "I have a bat. (countable, singular)", "ru": "У меня есть летучая мышь. (исчисляемое, ед.ч.)", "highlight": ["bat"] },
+        { "en": "I have two bats. (countable, plural)", "ru": "У меня есть две летучие мыши. (исчисляемое, мн.ч.)", "highlight": ["bats"] },
+        { "en": "I have blood on my mouth. (uncountable, no plural)", "ru": "У меня кровь на губах. (неисчисляемое, нет мн.ч.)", "highlight": ["blood"] },
+        { "en": "I have music in my soul. (uncountable, no plural)", "ru": "У меня музыка в душе. (неисчисляемое, нет мн.ч.)", "highlight": ["music"] }
       ]
     },
     {
-      "group": "Рок-лексикон",
+      "group": "Множественное число — исключения",
       "items": [
-        { "en": "The gig was wild.", "ru": "Гиг был дикий. Gig = концерт, сленг.", "highlight": ["gig"] },
-        { "en": "The encore lasted ten minutes.", "ru": "Бис длился десять минут. Encore = вызов на бис.", "highlight": ["encore"] },
-        { "en": "The crowd was singing along.", "ru": "Толпа подпевала. Crowd — неисчисляемое.", "highlight": ["crowd"] },
-        { "en": "A roadie fixed the amp.", "ru": "Роуди починил усилитель. Roadie = помощник группы.", "highlight": ["roadie"] }
+        { "en": "One man → two men. One woman → two women.", "ru": "Один мужчина → два мужчины. Одна женщина → две женщины.", "highlight": ["man", "men", "woman", "women"] },
+        { "en": "One child → two children. One person → two people.", "ru": "Один ребёнок → два ребёнка. Один человек → два человека.", "highlight": ["child", "children", "person", "people"] },
+        { "en": "One bat → two bats. (regular)", "ru": "Одна летучая мышь → две летучие мыши. (правильно)", "highlight": ["bat", "bats"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Two musics, please.", "right": "Two songs, please.", "note": "music — неисчисляемое, считаем песнями." },
-    { "wrong": "The mens are here.", "right": "The men are here.", "note": "men уже множественное, не нужен -s." },
-    { "wrong": "A feedback.", "right": "Some feedback.", "note": "feedback — неисчисляемое, без артикля a." },
-    { "wrong": "Many informations.", "right": "Much information.", "note": "information — неисчисляемое, much, не many." },
-    { "wrong": "iron maiden is a band.", "right": "Iron Maiden is a band.", "note": "Proper nouns с заглавной." },
-    { "wrong": "The childrens played.", "right": "The children played.", "note": "children — уже мн.ч., без -s." }
+    { "wrong": "I have a blood.", "right": "I have blood.", "note": "Blood — неисчисляемое, артикль a не нужен." },
+    { "wrong": "I have a music.", "right": "I have music.", "note": "Music — неисчисляемое, артикль a не нужен." },
+    { "wrong": "I have two bat.", "right": "I have two bats.", "note": "Во множественном числе — bats." },
+    { "wrong": "She has a bats.", "right": "She has a bat.", "note": "С a — единственное число: a bat." },
+    { "wrong": "He have a bat.", "right": "He has a bat.", "note": "С he — has, а не have." },
+    { "wrong": "I has a bat.", "right": "I have a bat.", "note": "С I — have, а не has." }
   ],
   "compare": {
-    "title": "Countable vs Uncountable",
-    "leftLabel": "Countable",
-    "rightLabel": "Uncountable",
+    "title": "Исчисляемые vs неисчисляемые",
+    "leftLabel": "Исчисляемые (можно посчитать)",
+    "rightLabel": "Неисчисляемые (нельзя посчитать)",
     "rows": [
-      { "left": "a guitar, two guitars", "right": "music (не musics)" },
-      { "left": "an encore, three encores", "right": "noise (не noises)" },
-      { "left": "a roadie, four roadies", "right": "feedback (не a feedback)" }
+      { "left": "a bat, two bats", "right": "blood" },
+      { "left": "a guitar, three guitars", "right": "music" },
+      { "left": "a stage, many stages", "right": "information" },
+      { "left": "a singer, four singers", "right": "rock 'n' roll" }
     ]
   },
   "tips": [
-    "Proper nouns — с заглавной: Eddie, Iron Maiden, London. Common — с маленькой.",
-    "Countable — можно посчитать: one guitar. Uncountable — нельзя: music, noise, feedback.",
-    "Артикль a/an — только для countable в ед.ч.: a guitar, an amp. Music — без a.",
-    "Множественное: обычно +s, после -s/-sh/-ch/-x/-o → +es, y → -ies. Неправильные: men, feet, children.",
-    "Имена групп часто состоят из существительных: Iron Maiden, Black Sabbath, AC/DC. Каждое слово — имя.",
-    "Чем больше существительных ты увидишь, тем богаче будет твой словарь. Прочитай примеры вслух."
+    "Существительные называют людей, места, вещи и идеи.",
+    "Исчисляемые можно посчитать: a bat, two bats.",
+    "Неисчисляемые нельзя: blood, music, information.",
+    "Множественное число обычно +s: a bat → bats.",
+    "Исключения: man → men, woman → women, child → children.",
+    "С неисчисляемыми не используется a/an.",
+    "Запомни: I have blood (не a blood)."
   ],
-  "related": ["a1-verb-to-be", "a1-there-is-there-are", "a1-pronouns"],
+  "related": ["a1-verb-to-be", "a1-pronouns", "a1-plural-nouns"],
   "quiz": [
     {
-      "q": "Множественное от «guitar»:",
-      "options": ["guitars", "guitares", "guitarries", "guitar"],
+      "q": "Ozzy is a ___.",
+      "options": ["singer", "singers", "singer's", "singing"],
       "answer": 0,
-      "why": "Обычное правило: +s."
+      "why": "Единственное число — a singer."
     },
     {
-      "q": "Множественное от «man»:",
-      "options": ["men", "mans", "mens", "manes"],
-      "answer": 0,
-      "why": "Неправильное: man → men."
+      "q": "He bit two ___.",
+      "options": ["bat", "bats", "bat's", "bating"],
+      "answer": 1,
+      "why": "Множественное число — bats."
     },
     {
-      "q": "Какое существительное неисчисляемое?",
-      "options": ["music", "guitar", "encore", "roadie"],
-      "answer": 0,
-      "why": "music — неисчисляемое, нельзя two musics."
+      "q": "He had ___ on his mouth.",
+      "options": ["a blood", "blood", "bloods", "the blood"],
+      "answer": 1,
+      "why": "Blood — неисчисляемое, артикль не нужен."
     },
     {
-      "q": "Множественное от «city»:",
-      "options": ["cities", "cityes", "citys", "cityies"],
-      "answer": 0,
-      "why": "y → -ies: city → cities."
+      "q": "One man → two ___.",
+      "options": ["mans", "men", "man's", "mens"],
+      "answer": 1,
+      "why": "Исключение: man → men."
     },
     {
-      "q": "Какое существительное собственное?",
-      "options": ["Eddie", "band", "guitar", "roadie"],
-      "answer": 0,
-      "why": "Eddie — имя маскота Iron Maiden, Proper noun."
+      "q": "She has a ___.",
+      "options": ["bats", "bat", "bat's", "bating"],
+      "answer": 1,
+      "why": "С a — единственное число: a bat."
     },
     {
-      "q": "Что не так: «a feedback»?",
-      "options": ["feedback неисчисляемое, без a", "всё верно", "надо feedbacks", "надо the feedbacks"],
-      "answer": 0,
-      "why": "feedback — неисчисляемое, не ставится с артиклем a."
+      "q": "I have ___ music.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": 3,
+      "why": "Music — неисчисляемое, артикль не нужен."
     }
   ]
 }

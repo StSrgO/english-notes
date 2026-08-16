@@ -4859,3 +4859,151 @@ main { flex: 1 0 auto; }
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
+
+/* ============================================================
+   АЛФАВИТ — A0 (компактная сетка)
+   ============================================================ */
+
+.alphabet-table {
+  margin: 16px 0 20px;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.alphabet-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 4px;
+  background: var(--surface);
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  transition: all 0.15s;
+  min-height: 48px;
+}
+
+.alphabet-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.alphabet-letter {
+  font-family: 'Onest', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.alphabet-ipa {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  line-height: 1.2;
+}
+
+/* Мобильная версия — чуть шире */
+@media (max-width: 600px) {
+  .alphabet-grid {
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+    gap: 4px;
+  }
+  .alphabet-item {
+    min-height: 40px;
+    padding: 4px 2px;
+  }
+  .alphabet-letter {
+    font-size: 14px;
+  }
+  .alphabet-ipa {
+    font-size: 9px;
+  }
+}
+
+/* Планшет */
+@media (min-width: 601px) and (max-width: 920px) {
+  .alphabet-grid {
+    grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
+  }
+}
+
+/* ============================================================
+   АЛФАВИТ — A0 (3 ряда, компактно)
+   ============================================================ */
+
+.alphabet-table {
+  margin: 16px 0 20px;
+}
+
+.alphabet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.alphabet-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 6px;
+  background: var(--surface);
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  transition: all 0.15s;
+  min-height: 56px;
+}
+
+.alphabet-item:hover {
+  background: var(--mint);
+  border-color: var(--mint-deep);
+}
+
+.alphabet-letter {
+  font-family: 'Onest', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.alphabet-ipa {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-soft);
+  line-height: 1.2;
+}
+
+/* Мобильная версия */
+@media (max-width: 600px) {
+  .alphabet-grid {
+    grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
+    gap: 5px;
+  }
+  .alphabet-item {
+    min-height: 44px;
+    padding: 5px 3px;
+  }
+  .alphabet-letter {
+    font-size: 15px;
+  }
+  .alphabet-ipa {
+    font-size: 10px;
+  }
+}
+
+/* Планшет */
+@media (min-width: 601px) and (max-width: 920px) {
+  .alphabet-grid {
+    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  }
+}

@@ -1,188 +1,181 @@
 {
+  "variant": "classic",
   "slug": "a1-nouns",
-  "title": "Nouns",
   "level": "A1",
+  "title": "Существительные",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Существительные — имена вещей, людей, идей. То, что держит предложение, пока глаголы делают работу. Дон Кихот сражался с ветряными мельницами, и оба — существительные.",
+  "readingTime": 9,
+  "summary": "Существительные — слова, которые называют людей, места, вещи и идеи. История о том, как Джоан Роулинг придумала мир Гарри Поттера.",
   "idea": [
-    "«Don Quixote fought windmills». Дон Кихот сражался с ветряными мельницами. Don Quixote — существительное, имя собственное, герой. Windmills — существительное во множественном числе, вещи, с которыми он сражался. Без существительных в предложении нет ни о ком и ни о чём говорить. Существительные — это имена: людей (teacher, doctor, Juliet), мест (London, kitchen, moors), вещей (book, sword, letter), идей (love, freedom, mystery). Глагол говорит, что происходит, а существительное говорит, кто и что в этом участвует.",
-    "Существительные делятся на две большие группы. Собственные (Proper nouns) — имена с заглавной буквы: London, Sherlock Holmes, Jane Eyre, the Thames. Они уникальны. Нарицательные (Common nouns) — с маленькой: city, detective, girl, river. Их много. А ещё есть исчисляемые (countable) — можно посчитать: one book, two books, three windmills. И неисчисляемые (uncountable) — нельзя посчитать штуками: water, music, information, advice. Нельзя сказать «two waters» в обычном смысле, только «two glasses of water». Сервантес писал о Дон Кихоте — исчисляемое, один человек. А о справедливости (justice) — неисчисляемое, её нельзя взвесить.",
-    "Множественное число строится правилом: обычно + s (books, cats, girls), после -s/-sh/-ch/-x/-o → + es (boxes, churches, heroes), согласная + y → -ies (cities, ladies), неправильные (men, women, children, mice, feet). У Оруэлла в «1984» есть Big Brother — существительное, которое стало символом. У Хаксли в «О дивный новый мир» — soma, неисчисляемое вещество, которое нельзя посчитать. У Сэлинджера Холден Колфилд боится стать «phonies» — существительное во множественном, фальшивки, которых он не выносил. Существительные — это кости языка, и без них нет скелета."
+    "В мире Гарри Поттера существительные создают магию. «Wand» (волшебная палочка), «spell» (заклинание), «potions» (зелья), «Hogwarts» (Хогвартс) — каждое слово — это дверь в новый мир. Джоан Роулинг придумала сотни существительных, которые стали частью нашей культуры. «Muggle» (маггл), «Quidditch» (квиддич), «Horcrux» (крестраж) — это не просто слова, это целые миры.",
+    "Существительные — это основа языка. Они называют людей (Harry Potter), места (Hogwarts), вещи (wand) и идеи (magic). Без них мы не могли бы сказать ни одного предложения. В английском языке существительные могут быть исчисляемыми (book, wand, spell) и неисчисляемыми (water, magic, information). Они могут быть в единственном числе (a wizard) и во множественном (wizards).",
+    "Роулинг знала силу слов. Она создала существительные, которые стали символами. «Hogwarts» — это не просто школа, это дом. «Voldemort» — это не просто имя, это страх. «Dementors» — это не просто существа, это депрессия. Существительные — это ключи к пониманию мира."
   ],
   "why": [
-    "Назвать, о ком или о чём речь: book, detective, London, mystery.",
-    "Различать уникальное и общее: London (имя) vs city (нарицательное).",
-    "Считать или не считать: one book (исчисляемое) vs music (неисчисляемое).",
-    "Образовать множественное число: book → books, city → cities, child → children."
+    "Существительные — это основа языка, без них невозможно сказать ни одного предложения",
+    "Они называют людей, места, вещи и идеи",
+    "Исчисляемые и неисчисляемые существительные имеют разные правила",
+    "Знание существительных помогает строить предложения и понимать текст"
   ],
   "context": {
     "lines": [
-      { "en": "Is there a ghost in the castle?", "ru": "В замке есть привидение?" },
-      { "en": "There is one ghost and many stories about it.", "ru": "Одно привидение и много историй о нём." },
-      { "en": "And what about the windmills?", "ru": "А что насчёт ветряных мельниц?" },
-      { "en": "They are just windmills, not giants.", "ru": "Это просто мельницы, не великаны." }
+      { "en": "Hagrid: 'Harry, you are a wizard. You have a wand, a spell book, and a letter from Hogwarts. This is the world of magic.'",
+        "ru": "Хагрид: «Гарри, ты волшебник. У тебя есть волшебная палочка, книга заклинаний и письмо из Хогвартса. Это мир магии»." },
+      { "en": "Harry: 'A wand? A spell book? I have never had a wand or a spell book. This is a dream.'",
+        "ru": "Гарри: «Волшебная палочка? Книга заклинаний? У меня никогда не было волшебной палочки или книги заклинаний. Это сон»." }
     ],
-    "note": "Существительные всех видов: ghost (нариц., ед.ч.), stories (нариц., мн.ч.), windmills (мн.ч.), giants (мн.ч.). Дон Кихот бы поспорил."
+    "note": "Существительные — это ключи к миру магии. Каждое слово открывает дверь."
   },
   "russianAngle": [
-    "В русском род существительного важен: «мой стол», «моя книга». В английском рода нет — только местоимения he/she/it для людей.",
-    "Множественное число: обычно +s (book → books), но есть правила для -es, -ies и неправильных.",
-    "Исчисляемые vs неисчисляемые: по-русски мы тоже говорим «много воды», а не «две воды». В английском тоже: much water, a glass of water.",
-    "Артикль a/an — только для исчисляемых в ед.ч.: a book, an apple. Для неисчисляемых a не ставят: I need water (не a water)."
+    "В русском языке существительные тоже есть. Они называют людей, места, вещи и идеи.",
+    "В русском языке есть исчисляемые и неисчисляемые существительные, но в английском правила другие.",
+    "В русском языке множественное число образуется с помощью окончаний. В английском — обычно с помощью -s или -es.",
+    "Ошибка: I have a water — неправильно! Вода — неисчисляемое, поэтому I have water."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: существительные — имена людей, мест, вещей, идей.",
-      "Различай собственные (London) и нарицательные (city).",
-      "Помни про исчисляемые (one book) и неисчисляемые (water).",
-      "Множественное число: обычно +s, после -s/-sh/-ch/-x/-o → +es, y → -ies.",
-      "Сделай упражнение и сверься. Как сказал бы Дон Кихот: мельницы — это мельницы."
+      "Запомни: существительные называют людей, места, вещи и идеи.",
+      "Исчисляемые можно посчитать: a wand, two wands.",
+      "Неисчисляемые нельзя посчитать: magic, water, information.",
+      "Множественное число обычно образуется с -s: a wand → wands.",
+      "Исключения: a man → men, a woman → women, a child → children.",
+      "Сделай упражнение и сверься с ответами."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — определи тип существительного и множественное число:",
+      "prompt": "Вставьте правильную форму существительного (единственное или множественное число):",
       "items": [
-        { "q": "book → ___", "a": "books — исчисляемое, мн.ч. +s." },
-        { "q": "city → ___", "a": "cities — y → -ies." },
-        { "q": "child → ___", "a": "children — неправильное." },
-        { "q": "water — исчисляемое или неисчисляемое?", "a": "неисчисляемое — нельзя сказать two waters." },
-        { "q": "London — собственное или нарицательное?", "a": "собственное — имя города, с заглавной." }
+        { "q": "I have a ___ (wand).", "a": "wand" },
+        { "q": "I have two ___ (wand).", "a": "wands" },
+        { "q": "She has a ___ (book).", "a": "book" },
+        { "q": "They have three ___ (book).", "a": "books" },
+        { "q": "He needs ___ (water).", "a": "water" }
       ]
     }
   },
-  "formula": "Singular / Plural; Countable / Uncountable; Proper / Common",
-  "structure": {
-    "positive": "A book is on the table. / Books are on the table.",
-    "negative": "There is no water. / There are no books.",
-    "question": "Is there a book? / Are there books?"
-  },
-  "markers": ["a/an", "the", "some", "many", "much", "a few", "a little"],
-  "uses": [
-    "Назвать: book, detective, London, mystery.",
-    "Считать: one book, two books, three windmills.",
-    "Говорить о неисчисляемом: water, music, love.",
-    "Использовать имена собственные: Sherlock, Jane Eyre, the Thames."
-  ],
   "rules": [
-    { "title": "Proper vs Common", "text": "Proper (собственные) — с заглавной: London, Sherlock, Jane Eyre. Common (нарицательные) — с маленькой: city, detective, girl." },
-    { "title": "Countable vs Uncountable", "text": "Countable (исчисляемые) — можно посчитать: one book, two books. Uncountable (неисчисляемые) — нельзя: water, music, love." },
-    { "title": "Множественное число", "text": "+s: book → books. +es после -s/-sh/-ch/-x/-o: box → boxes, hero → heroes. y → -ies: city → cities. Неправильные: child → children, man → men, foot → feet, mouse → mice." }
+    { "title": "Что такое существительное",
+      "text": "Существительные называют людей (Harry), места (Hogwarts), вещи (wand) и идеи (magic)." },
+    { "title": "Исчисляемые и неисчисляемые",
+      "text": "Исчисляемые можно посчитать: a wand, two wands. Неисчисляемые нельзя: water, magic, information." },
+    { "title": "Множественное число",
+      "text": "Обычно +s: a wand → wands. Исключения: a man → men, a woman → women, a child → children." }
   ],
   "examples": [
     {
-      "group": "Имена, ставшие нарицательными",
+      "group": "Люди",
       "items": [
-        { "en": "Don Quixote fought windmills.", "ru": "Дон Кихот сражался с мельницами. Сервантес.", "highlight": ["Don Quixote", "windmills"] },
-        { "en": "A quixotic plan.", "ru": "Донкихотский план. Имя стало прилагательным.", "highlight": ["quixotic"] },
-        { "en": "Big Brother is watching you.", "ru": "Большой Брат следит за тобой. Оруэлл — имя стало символом.", "highlight": ["Big Brother"] }
+        { "en": "Harry is a wizard. Harry is a student at Hogwarts.", "ru": "Гарри — волшебник. Гарри — ученик Хогвартса.", "highlight": ["wizard", "student"] },
+        { "en": "Hermione is a witch. Hermione is very clever.", "ru": "Гермиона — ведьма. Гермиона очень умная.", "highlight": ["witch"] },
+        { "en": "Ron is a wizard. Ron is Harry's friend.", "ru": "Рон — волшебник. Рон — друг Гарри.", "highlight": ["wizard", "friend"] }
       ]
     },
     {
-      "group": "Собственные vs нарицательные",
+      "group": "Места",
       "items": [
-        { "en": "London is a big city.", "ru": "Лондон — большой город. London — имя, city — нарицательное.", "highlight": ["London", "city"] },
-        { "en": "Sherlock Holmes is a famous detective.", "ru": "Шерлок Холмс — знаменитый детектив.", "highlight": ["Sherlock Holmes", "detective"] },
-        { "en": "The Thames is a river.", "ru": "Темза — это река. Thames — имя, river — нарицательное.", "highlight": ["Thames", "river"] }
+        { "en": "Hogwarts is a school. It is a castle.", "ru": "Хогвартс — школа. Это замок.", "highlight": ["school", "castle"] },
+        { "en": "The Forbidden Forest is a forest. It is dangerous.", "ru": "Запретный лес — это лес. Он опасен.", "highlight": ["forest"] },
+        { "en": "The Great Hall is a room. It is very big.", "ru": "Большой зал — это комната. Он очень большой.", "highlight": ["room"] }
       ]
     },
     {
-      "group": "Исчисляемые",
+      "group": "Вещи",
       "items": [
-        { "en": "One book, two books, three books.", "ru": "Одна книга, две, три. Можно посчитать.", "highlight": ["book", "books"] },
-        { "en": "A letter arrived yesterday.", "ru": "Письмо пришло вчера. Одно письмо.", "highlight": ["letter"] },
-        { "en": "There are three windmills.", "ru": "Три мельницы. Дон Кихот насчитал бы больше.", "highlight": ["windmills"] }
+        { "en": "A wand is a magic object. Wizards use a wand.", "ru": "Волшебная палочка — это магический предмет. Волшебники используют палочку.", "highlight": ["wand", "object"] },
+        { "en": "A spell book is a book. It has spells.", "ru": "Книга заклинаний — это книга. В ней есть заклинания.", "highlight": ["book", "spells"] },
+        { "en": "A broomstick is a flying object. Witches use a broomstick.", "ru": "Метла — это летающий предмет. Ведьмы используют метлу.", "highlight": ["broomstick", "object"] }
       ]
     },
     {
-      "group": "Неисчисляемые",
+      "group": "Идеи",
       "items": [
-        { "en": "I need water.", "ru": "Мне нужна вода. Не a water.", "highlight": ["water"] },
-        { "en": "She loves music.", "ru": "Она любит музыку. Не musics.", "highlight": ["music"] },
-        { "en": "Give me advice.", "ru": "Дай совет. Не an advice — совет неисчисляемый.", "highlight": ["advice"] }
+        { "en": "Magic is a power. It is very strong.", "ru": "Магия — это сила. Она очень сильная.", "highlight": ["power"] },
+        { "en": "Friendship is important. Harry needs friendship.", "ru": "Дружба важна. Гарри нужна дружба.", "highlight": ["friendship"] },
+        { "en": "Courage is a quality. Harry has courage.", "ru": "Храбрость — это качество. У Гарри есть храбрость.", "highlight": ["courage", "quality"] }
       ]
     },
     {
-      "group": "Множественное число",
+      "group": "Исчисляемые vs неисчисляемые",
       "items": [
-        { "en": "The children played.", "ru": "Дети играли. child → children, неправильное.", "highlight": ["children"] },
-        { "en": "The cities were loud.", "ru": "Города были шумными. city → cities, y → -ies.", "highlight": ["cities"] },
-        { "en": "The mice ran away.", "ru": "Мыши убежали. mouse → mice.", "highlight": ["mice"] },
-        { "en": "The heroes of the story.", "ru": "Герои истории. hero → heroes, +es после -o.", "highlight": ["heroes"] }
+        { "en": "I have a wand. (countable, singular)", "ru": "У меня есть волшебная палочка. (исчисляемое, ед.ч.)", "highlight": ["wand"] },
+        { "en": "I have two wands. (countable, plural)", "ru": "У меня есть две волшебные палочки. (исчисляемое, мн.ч.)", "highlight": ["wands"] },
+        { "en": "I have magic. (uncountable, no plural)", "ru": "У меня есть магия. (неисчисляемое, нет мн.ч.)", "highlight": ["magic"] },
+        { "en": "I have water. (uncountable, no plural)", "ru": "У меня есть вода. (неисчисляемое, нет мн.ч.)", "highlight": ["water"] }
       ]
     },
     {
-      "group": "Литературные существительные",
+      "group": "Множественное число — исключения",
       "items": [
-        { "en": "He hated phonies.", "ru": "Он ненавидел фальшивок. Сэлинджер про Холдена.", "highlight": ["phonies"] },
-        { "en": "They gave him soma.", "ru": "Они дали ему сому. Хаксли — неисчисляемое вещество.", "highlight": ["soma"] },
-        { "en": "The moors were silent.", "ru": "Пустоши молчали. Бронте.", "highlight": ["moors"] },
-        { "en": "A letter from London.", "ru": "Письмо из Лондона. Одно письмо, один город.", "highlight": ["letter", "London"] }
+        { "en": "One man → two men. One woman → two women.", "ru": "Один мужчина → два мужчины. Одна женщина → две женщины.", "highlight": ["man", "men", "woman", "women"] },
+        { "en": "One child → two children. One person → two people.", "ru": "Один ребёнок → два ребёнка. Один человек → два человека.", "highlight": ["child", "children", "person", "people"] },
+        { "en": "One wizard → two wizards. (regular)", "ru": "Один волшебник → два волшебника. (правильно)", "highlight": ["wizard", "wizards"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I need an advice.", "right": "I need advice.", "note": "advice — неисчисляемое, без артикля a/an." },
-    { "wrong": "Two waters, please.", "right": "Two glasses of water, please.", "note": "water — неисчисляемое, считаем стаканами." },
-    { "wrong": "The childrens are here.", "right": "The children are here.", "note": "children уже множественное, не нужен -s." },
-    { "wrong": "I saw a news.", "right": "I saw the news.", "note": "news — неисчисляемое, не a news." },
-    { "wrong": "The informations.", "right": "The information.", "note": "information — неисчисляемое, без -s." },
-    { "wrong": "london is a city.", "right": "London is a city.", "note": "Proper nouns с заглавной." }
+    { "wrong": "I have a water.", "right": "I have water.", "note": "Water — неисчисляемое, артикль a не нужен." },
+    { "wrong": "I have a magic.", "right": "I have magic.", "note": "Magic — неисчисляемое, артикль a не нужен." },
+    { "wrong": "I have two book.", "right": "I have two books.", "note": "Во множественном числе — books." },
+    { "wrong": "She has a wands.", "right": "She has a wand.", "note": "С a — единственное число: a wand." },
+    { "wrong": "He have a wand.", "right": "He has a wand.", "note": "С he — has, а не have." },
+    { "wrong": "I has a wand.", "right": "I have a wand.", "note": "С I — have, а не has." }
   ],
   "compare": {
-    "title": "Countable vs Uncountable",
-    "leftLabel": "Countable",
-    "rightLabel": "Uncountable",
+    "title": "Исчисляемые vs неисчисляемые",
+    "leftLabel": "Исчисляемые (можно посчитать)",
+    "rightLabel": "Неисчисляемые (нельзя посчитать)",
     "rows": [
-      { "left": "a book, two books", "right": "water (не a water)" },
-      { "left": "a letter, many letters", "right": "music (не musics)" },
-      { "left": "a child, three children", "right": "advice (не an advice)" }
+      { "left": "a wand, two wands", "right": "magic" },
+      { "left": "a book, three books", "right": "water" },
+      { "left": "a spell, many spells", "right": "information" },
+      { "left": "a student, four students", "right": "friendship" }
     ]
   },
   "tips": [
-    "Proper nouns — с заглавной: London, Sherlock, Jane. Common — с маленькой.",
-    "Countable — можно посчитать: one book. Uncountable — нельзя: water, music, advice.",
-    "Артикль a/an — только для countable в ед.ч.: a book, an apple. Water — без a.",
-    "Множественное: обычно +s, после -s/-sh/-ch/-x/-o → +es, y → -ies. Неправильные: children, men, feet, mice.",
-    "Some имена стали нарицательными: quixotic (донкихотский), Orwellian (оруэлловский).",
-    "Чем больше существительных ты увидишь, тем богаче будет твой словарь. Прочитай примеры вслух."
+    "Существительные называют людей, места, вещи и идеи.",
+    "Исчисляемые можно посчитать: a wand, two wands.",
+    "Неисчисляемые нельзя: magic, water, information.",
+    "Множественное число обычно +s: a wand → wands.",
+    "Исключения: man → men, woman → women, child → children.",
+    "С неисчисляемыми не используется a/an.",
+    "Запомни: I have water (не a water)."
   ],
-  "related": ["a1-verb-to-be", "a1-there-is-there-are", "a1-pronouns"],
+  "related": ["a1-verb-to-be", "a1-pronouns", "a1-plural-nouns"],
   "quiz": [
     {
-      "q": "Множественное от «book»:",
-      "options": ["books", "bookes", "bookies", "book"],
+      "q": "Harry is a ___.",
+      "options": ["wizard", "wizards", "wizard's", "wizarding"],
       "answer": 0,
-      "why": "Обычное правило: +s."
+      "why": "Единственное число — a wizard."
     },
     {
-      "q": "Множественное от «child»:",
-      "options": ["children", "childs", "childrens", "childes"],
-      "answer": 0,
-      "why": "Неправильное: child → children."
+      "q": "I have two ___.",
+      "options": ["wand", "wands", "wand's", "wanding"],
+      "answer": 1,
+      "why": "Множественное число — wands."
     },
     {
-      "q": "Какое существительное неисчисляемое?",
-      "options": ["water", "book", "city", "letter"],
-      "answer": 0,
-      "why": "water — неисчисляемое, нельзя two waters."
+      "q": "I have ___.",
+      "options": ["a water", "water", "waters", "the water"],
+      "answer": 1,
+      "why": "Water — неисчисляемое, артикль не нужен."
     },
     {
-      "q": "Множественное от «city»:",
-      "options": ["cities", "cityes", "citys", "cityies"],
-      "answer": 0,
-      "why": "y → -ies: city → cities."
+      "q": "One man → two ___.",
+      "options": ["mans", "men", "man's", "mens"],
+      "answer": 1,
+      "why": "Исключение: man → men."
     },
     {
-      "q": "Какое существительное собственное?",
-      "options": ["London", "city", "river", "detective"],
-      "answer": 0,
-      "why": "London — имя города, Proper noun."
+      "q": "She has a ___.",
+      "options": ["wands", "wand", "wand's", "wanding"],
+      "answer": 1,
+      "why": "С a — единственное число: a wand."
     },
     {
-      "q": "Что не так: «I need an advice»?",
-      "options": ["advice неисчисляемое, без an", "всё верно", "надо advice's", "надо advices"],
-      "answer": 0,
-      "why": "advice — неисчисляемое, не ставится с артиклем an."
+      "q": "I have ___ magic.",
+      "options": ["a", "an", "the", "no article"],
+      "answer": 3,
+      "why": "Magic — неисчисляемое, артикль не нужен."
     }
   ]
 }
