@@ -1,464 +1,185 @@
-﻿{
-    "variant":  "classic",
-    "slug":  "a2-articles",
-    "level":  "A2",
-    "title":  "Articles: A/An, The, and Zero Article",
-    "category":  "Grammar",
-    "readingTime":  7,
-    "summary":  "A2-версия артиклей: a/an, the и нулевой артикль. Генри Джеймс и призраки в старом доме.",
-    "idea":  [
-                 "1898 год. Генри Джеймс пишет повесть «Поворот винта». Молодая гувернантка приезжает в старый загородный дом. Она встречает детей — Майлза и Флору. Она видит призраков. Она слышит голоса. Но она не знает: это реальность или её воображение? Артикли помогают ей разобраться в мире. «A ghost» — какой-то призрак. «The ghost» — тот самый, которого она уже видела. «A house» — дом, который она не знает. «The house» — дом, в котором она живёт. Артикли — это ключи к пониманию.",
-                 "Гувернантка пытается защитить детей. Она говорит: «The children are in danger» — дети, которых я знаю, в опасности. Она не знает, кто такие призраки. Она видит мужчину и женщину. «A man» и «a woman» — она не знает их имён. Но потом она узнаёт: это Питер Квинт и мисс Джессел. Теперь они «the man» и «the woman» — те самые, о которых она слышала. Артикль меняется, когда появляется знание.",
-                 "Джеймс знал: тайна живёт в деталях. Артикль — это деталь, которая меняет всё. «I saw a ghost» — я видел какой-то призрак. «I saw the ghost» — я видел того самого призрака. Первый раз — «a». Второй раз — «the». Как в жизни. Как в книгах. Артикли — это не просто слова. Это ключи к пониманию мира."
-             ],
-    "why":  [
-                "Показывать, что предмет известен: «The house is old.»",
-                "Показывать, что предмет новый: «I bought a car.»",
-                "Говорить о единственном в своём роде: «The sun is bright.»",
-                "Обобщать: «Cats are animals.» (без артикля)"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Governess: I saw a ghost in the house last night. The ghost was tall and pale.",
-                                      "ru":  "Я увидела призрака в доме прошлой ночью. Призрак был высоким и бледным."
-                                  },
-                                  {
-                                      "en":  "Miles: Was it the man or the woman?",
-                                      "ru":  "Это был мужчина или женщина?"
-                                  },
-                                  {
-                                      "en":  "Governess: It was a man. I think it was Peter Quint.",
-                                      "ru":  "Это был мужчина. Я думаю, это был Питер Квинт."
-                                  },
-                                  {
-                                      "en":  "Flora: Do you see a ghost every night?",
-                                      "ru":  "Вы видите призрака каждую ночь?"
-                                  },
-                                  {
-                                      "en":  "Governess: Sometimes. The ghost comes when the moon is full.",
-                                      "ru":  "Иногда. Призрак приходит, когда луна полная."
-                                  }
-                              ],
-                    "note":  "Гувернантка рассказывает детям о призраках. Артикли помогают понять, о ком именно она говорит."
-                },
-    "russianAngle":  [
-                         "В русском языке нет артиклей. Мы просто говорим «дом», «призрак», «книга». В английском нужно выбрать a, an или the.",
-                         "Первый раз — a/an. Второй раз — the. Это простое правило поможет в 80% случаев.",
-                         "Не используй артикль с именами собственными: James, not the James.",
-                         "С обобщениями — без артикля: Ghosts are not real. (не the ghosts)."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Первый раз — a/an. Второй раз — the.",
-                                     "Запомни: a перед согласными, an перед гласными.",
-                                     "С уникальными вещами — the: the sun, the moon.",
-                                     "С именами и городами — без артикля.",
-                                     "С обобщениями — без артикля.",
-                                     "Потренируйся на примерах из урока."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Вставь правильный артикль: a/an/the/∅ (без артикля):",
-                                        "items":  [
-                                                      {
-                                                          "q":  "I saw ___ ghost.",
-                                                          "a":  "a"
-                                                      },
-                                                      {
-                                                          "q":  "___ sun is bright.",
-                                                          "a":  "The"
-                                                      },
-                                                      {
-                                                          "q":  "___ dogs are friendly.",
-                                                          "a":  "∅"
-                                                      },
-                                                      {
-                                                          "q":  "She is ___ teacher.",
-                                                          "a":  "a"
-                                                      },
-                                                      {
-                                                          "q":  "I live in ___ Moscow.",
-                                                          "a":  "∅"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "a / an / the / ∅ (zero article)",
-    "structure":  {
-                      "positive":  "a/an + существительное (новый предмет)\nthe + существительное (известный предмет)\n∅ + существительное (обобщение)",
-                      "negative":  "not + a/an\nnot + the\nno + существительное",
-                      "question":  "Is there a/an...?\nDo you have a/an...?"
-                  },
-    "markers":  [
-                    "a",
-                    "an",
-                    "the",
-                    "no article"
-                ],
-    "uses":  [
-                 "a/an — новый предмет: «I saw a ghost.»",
-                 "the — известный предмет: «The ghost was tall.»",
-                 "∅ — обобщения: «Ghosts are not real.»",
-                 "∅ — имена: «James wrote a book.»"
-             ],
-    "rules":  [
-                  {
-                      "title":  "Неопределённый артикль a/an",
-                      "text":  "Используй a перед согласными (a house), an перед гласными (an apple). Показывает новый предмет."
-                  },
-                  {
-                      "title":  "Определённый артикль the",
-                      "text":  "Используй the, когда предмет уже известен или единственный: the sun, the same ghost."
-                  },
-                  {
-                      "title":  "Нулевой артикль ∅",
-                      "text":  "С обобщениями: Dogs are animals. С именами: James wrote a book. С городами: Moscow is big."
-                  },
-                  {
-                      "title":  "Артикль с призраками",
-                      "text":  "A ghost — какой-то. The ghost — тот самый. Артикль показывает, знаешь ли ты его."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Первый раз — a / an",
-                         "items":  [
-                                       {
-                                           "en":  "I saw a ghost in the house.",
-                                           "ru":  "Я увидела призрака в доме.",
-                                           "highlight":  [
-                                                             "a"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She heard a strange voice.",
-                                           "ru":  "Она услышала странный голос.",
-                                           "highlight":  [
-                                                             "a"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There was an old portrait on the wall.",
-                                           "ru":  "На стене был старый портрет.",
-                                           "highlight":  [
-                                                             "an"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I found a letter in the drawer.",
-                                           "ru":  "Я нашла письмо в ящике.",
-                                           "highlight":  [
-                                                             "a"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Второй раз — the",
-                         "items":  [
-                                       {
-                                           "en":  "The ghost was tall and pale.",
-                                           "ru":  "Призрак был высоким и бледным.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The voice belonged to a woman.",
-                                           "ru":  "Голос принадлежал женщине.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The portrait looked like someone I knew.",
-                                           "ru":  "Портрет был похож на кого-то, кого я знала.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The letter explained everything.",
-                                           "ru":  "Письмо объясняло всё.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Единственный в своём роде",
-                         "items":  [
-                                       {
-                                           "en":  "The sun was setting behind the trees.",
-                                           "ru":  "Солнце садилось за деревьями.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The moon lit up the garden.",
-                                           "ru":  "Луна освещала сад.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The sky was dark and stormy.",
-                                           "ru":  "Небо было тёмным и грозовым.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The world seemed dangerous.",
-                                           "ru":  "Мир казался опасным.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Обобщения — без артикля",
-                         "items":  [
-                                       {
-                                           "en":  "Ghosts are not real.",
-                                           "ru":  "Призраки не настоящие.",
-                                           "highlight":  [
-                                                             "Ghosts"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Children need protection.",
-                                           "ru":  "Детям нужна защита.",
-                                           "highlight":  [
-                                                             "Children"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Books can be scary.",
-                                           "ru":  "Книги могут быть страшными.",
-                                           "highlight":  [
-                                                             "Books"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "People believe in many things.",
-                                           "ru":  "Люди верят во многое.",
-                                           "highlight":  [
-                                                             "People"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "A/an vs the — сравнение",
-                         "items":  [
-                                       {
-                                           "en":  "I saw a woman. The woman was beautiful.",
-                                           "ru":  "Я увидела женщину. Женщина была красивой.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He heard a voice. The voice was familiar.",
-                                           "ru":  "Он услышал голос. Голос был знакомым.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She found a key. The key opened the door.",
-                                           "ru":  "Она нашла ключ. Ключ открыл дверь.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I saw a boy. The boy was crying.",
-                                           "ru":  "Я увидела мальчика. Мальчик плакал.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Артикли в описании дома",
-                         "items":  [
-                                       {
-                                           "en":  "The house was old and dark.",
-                                           "ru":  "Дом был старым и тёмным.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There was a garden behind the house.",
-                                           "ru":  "За домом был сад.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "the"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "A tree stood near the window.",
-                                           "ru":  "У окна стояло дерево.",
-                                           "highlight":  [
-                                                             "A",
-                                                             "the"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The children played in the garden every day.",
-                                           "ru":  "Дети играли в саду каждый день.",
-                                           "highlight":  [
-                                                             "The",
-                                                             "the"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "I saw ghost.",
-                         "right":  "I saw a ghost.",
-                         "note":  "Первый раз — неопределённый артикль."
-                     },
-                     {
-                         "wrong":  "She is the teacher in school.",
-                         "right":  "She is a teacher at a school.",
-                         "note":  "Первый раз — неопределённый артикль."
-                     },
-                     {
-                         "wrong":  "I have the book. It is good.",
-                         "right":  "I have a book. The book is good.",
-                         "note":  "Первый раз — a, второй — the."
-                     },
-                     {
-                         "wrong":  "The water is cold. (общее высказывание)",
-                         "right":  "Water is cold.",
-                         "note":  "Обобщения — без артикля."
-                     },
-                     {
-                         "wrong":  "The James wrote a book.",
-                         "right":  "James wrote a book.",
-                         "note":  "С именами — без артикля."
-                     },
-                     {
-                         "wrong":  "I live in the Moscow.",
-                         "right":  "I live in Moscow.",
-                         "note":  "С городами — без артикля."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "A/an vs The vs Zero Article",
-                    "leftLabel":  "Первый раз (a/an)",
-                    "centerLabel":  "Второй раз (the)",
-                    "rightLabel":  "Обобщение (∅)",
-                    "rows":  [
-                                 {
-                                     "left":  "I saw a ghost.",
-                                     "right":  "The ghost was tall.",
-                                     "center":  "Ghosts are scary."
-                                 },
-                                 {
-                                     "left":  "She heard a voice.",
-                                     "right":  "The voice was loud.",
-                                     "center":  "Voices echo."
-                                 },
-                                 {
-                                     "left":  "He found a book.",
-                                     "right":  "The book was old.",
-                                     "center":  "Books are fun."
-                                 },
-                                 {
-                                     "left":  "I met a woman.",
-                                     "right":  "The woman smiled.",
-                                     "center":  "Women are strong."
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Первый раз — a/an. Второй раз — the.",
-                 "С именами и городами — без артикля.",
-                 "С обобщениями — без артикля: Dogs are nice.",
-                 "С уникальными вещами — the: the sun, the moon.",
-                 "С числительными — без артикля: I have two cats.",
-                 "Артикль — это ключ. Он показывает, знаешь ли ты предмет."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Which article is correct: \u0027I saw ___ ghost.\u0027",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "∅"
-                                 ],
-                     "answer":  "a",
-                     "why":  "Первый раз — неопределённый артикль."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027___ sun is bright.\u0027",
-                     "options":  [
-                                     "A",
-                                     "The",
-                                     "∅"
-                                 ],
-                     "answer":  "The",
-                     "why":  "Солнце — единственное в своём роде."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027___ dogs are friendly.\u0027",
-                     "options":  [
-                                     "A",
-                                     "The",
-                                     "∅"
-                                 ],
-                     "answer":  "∅",
-                     "why":  "Обобщение — без артикля."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027She is ___ teacher.\u0027",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the"
-                                 ],
-                     "answer":  "a",
-                     "why":  "Профессия — a или an."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027I live in ___ Moscow.\u0027",
-                     "options":  [
-                                     "a",
-                                     "the",
-                                     "∅"
-                                 ],
-                     "answer":  "∅",
-                     "why":  "С городами — без артикля."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027I saw ___ book. ___ book was red.\u0027",
-                     "options":  [
-                                     "a, The",
-                                     "the, A",
-                                     "an, The"
-                                 ],
-                     "answer":  "a, The",
-                     "why":  "Первый раз — a, второй — the."
-                 }
-             ],
-    "related":  [
-                    "a1-articles-a-an",
-                    "a1-nouns"
-                ]
+{
+  "variant": "classic",
+  "slug": "a2-articles",
+  "level": "A2",
+  "title": "Articles: A/An, The, and Zero Article",
+  "category": "Grammar",
+  "readingTime": 8,
+  "summary": "Артикли a/an, the и нулевой артикль. Генри Джеймс и «Поворот винта».",
+  "idea": [
+    "Гувернантка входит в старый дом. Она не знает, что её ждёт. Она видит комнату, слышит шум, чувствует чьё-то присутствие. «I saw a ghost» — она говорит в первый раз. «The ghost was tall and pale» — во второй раз. Артикль «a» показывает, что предмет новый, неизвестный. Артикль «the» показывает, что предмет уже знаком. «A ghost» — какой-то призрак. «The ghost» — тот самый призрак.",
+    "В доме есть призраки. Много призраков. «Ghosts are not real» — говорит она себе. «Children need protection» — говорит она другим. «Books can be scary» — думает она. Это нулевой артикль. Он используется для обобщений. «Ghosts» — все призраки вообще. «Children» — все дети вообще. «Books» — все книги вообще.",
+    "Гувернантка пытается понять мир вокруг себя. «I saw a man. The man was tall.» — сначала незнакомец, потом знакомый. «I saw a woman. The woman was dressed in black.» — сначала неизвестная, потом известная. «I found a letter. The letter explained everything.» — сначала находка, потом ключ. Каждый раз артикль меняет смысл. «A» — новое. «The» — известное. Нулевой артикль — обобщение."
+  ],
+  "why": [
+    "Показывать, что предмет известен: «The house is old.»",
+    "Показывать, что предмет новый: «I bought a car.»",
+    "Говорить о единственном в своём роде: «The sun is bright.»",
+    "Обобщать: «Cats are animals.» (без артикля)"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Governess: I saw a ghost in the house last night. The ghost was tall and pale.", "ru": "Я увидела призрака в доме прошлой ночью. Призрак был высоким и бледным." },
+      { "en": "Miles: Was it the man or the woman?", "ru": "Это был мужчина или женщина?" },
+      { "en": "Governess: It was a man. I think it was Peter Quint.", "ru": "Это был мужчина. Я думаю, это был Питер Квинт." },
+      { "en": "Flora: Do you see a ghost every night?", "ru": "Вы видите призрака каждую ночь?" },
+      { "en": "Governess: Sometimes. The ghost comes when the moon is full.", "ru": "Иногда. Призрак приходит, когда луна полная." }
+    ],
+    "note": "Гувернантка рассказывает детям о призраках. Артикли помогают понять, о ком именно она говорит."
+  },
+  "russianAngle": [
+    "В русском языке нет артиклей. Мы просто говорим «дом», «призрак», «книга». В английском нужно выбрать a, an или the.",
+    "Первый раз — a/an. Второй раз — the. Это простое правило поможет в 80% случаев.",
+    "Не используй артикль с именами собственными: James, not the James.",
+    "С обобщениями — без артикля: Ghosts are not real. (не the ghosts)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Первый раз — a/an. Второй раз — the.",
+      "Запомни: a перед согласными, an перед гласными.",
+      "С уникальными вещами — the: the sun, the moon.",
+      "С именами и городами — без артикля.",
+      "С обобщениями — без артикля.",
+      "Потренируйся на примерах из урока."
+    ],
+    "exercise": {
+      "prompt": "Вставь правильный артикль: a/an/the/нулевой артикль (без артикля):",
+      "items": [
+        { "q": "I saw ___ ghost.", "a": "a" },
+        { "q": "___ sun is bright.", "a": "The" },
+        { "q": "___ dogs are friendly.", "a": "нулевой артикль" },
+        { "q": "She is ___ teacher.", "a": "a" },
+        { "q": "I live in ___ Moscow.", "a": "нулевой артикль" }
+      ]
+    }
+  },
+  "formula": "a / an / the / нулевой артикль (zero article)",
+  "structure": {
+    "positive": "a/an + существительное (новый предмет)\nthe + существительное (известный предмет)\nнулевой артикль + существительное (обобщение)",
+    "negative": "not + a/an\nnot + the\nno + существительное",
+    "question": "Is there a/an...?\nDo you have a/an...?"
+  },
+  "markers": [
+    "a",
+    "an",
+    "the",
+    "no article"
+  ],
+  "uses": [
+    "a/an — новый предмет: «I saw a ghost.»",
+    "the — известный предмет: «The ghost was tall.»",
+    "нулевой артикль — обобщения: «Ghosts are not real.»",
+    "нулевой артикль — имена: «James wrote a book.»"
+  ],
+  "rules": [
+    { "title": "Неопределённый артикль a/an", "text": "Используй a перед согласными (a house), an перед гласными (an apple). Показывает новый предмет." },
+    { "title": "Определённый артикль the", "text": "Используй the, когда предмет уже известен или единственный: the sun, the same ghost." },
+    { "title": "Нулевой артикль", "text": "С обобщениями: Dogs are animals. С именами: James wrote a book. С городами: Moscow is big." },
+    { "title": "Артикль с призраками", "text": "A ghost — какой-то. The ghost — тот самый. Нулевой артикль показывает тип явления: Ghosts are not real." }
+  ],
+  "examples": [
+    {
+      "group": "Первый раз — a / an",
+      "items": [
+        { "en": "I saw a ghost in the house.", "ru": "Я увидела призрака в доме.", "highlight": ["a"] },
+        { "en": "She heard a strange voice.", "ru": "Она услышала странный голос.", "highlight": ["a"] },
+        { "en": "There was an old portrait on the wall.", "ru": "На стене был старый портрет.", "highlight": ["an"] },
+        { "en": "I found a letter in the drawer.", "ru": "Я нашла письмо в ящике.", "highlight": ["a"] },
+        { "en": "He saw a man in the garden.", "ru": "Он увидел мужчину в саду.", "highlight": ["a"] },
+        { "en": "She bought an umbrella for the rain.", "ru": "Она купила зонт от дождя.", "highlight": ["an"] }
+      ]
+    },
+    {
+      "group": "Второй раз — the",
+      "items": [
+        { "en": "The ghost was tall and pale.", "ru": "Призрак был высоким и бледным.", "highlight": ["The"] },
+        { "en": "The voice belonged to a woman.", "ru": "Голос принадлежал женщине.", "highlight": ["The"] },
+        { "en": "The portrait looked like someone I knew.", "ru": "Портрет был похож на кого-то, кого я знала.", "highlight": ["The"] },
+        { "en": "The letter explained everything.", "ru": "Письмо объясняло всё.", "highlight": ["The"] },
+        { "en": "The man was tall and dark.", "ru": "Мужчина был высоким и тёмным.", "highlight": ["The"] },
+        { "en": "The umbrella was broken.", "ru": "Зонт был сломан.", "highlight": ["The"] }
+      ]
+    },
+    {
+      "group": "Единственный в своём роде",
+      "items": [
+        { "en": "The sun was setting behind the trees.", "ru": "Солнце садилось за деревьями.", "highlight": ["The"] },
+        { "en": "The moon lit up the garden.", "ru": "Луна освещала сад.", "highlight": ["The"] },
+        { "en": "The sky was dark and stormy.", "ru": "Небо было тёмным и грозовым.", "highlight": ["The"] },
+        { "en": "The world seemed dangerous.", "ru": "Мир казался опасным.", "highlight": ["The"] },
+        { "en": "The earth is round.", "ru": "Земля круглая.", "highlight": ["The"] },
+        { "en": "The universe is vast.", "ru": "Вселенная огромна.", "highlight": ["The"] }
+      ]
+    },
+    {
+      "group": "Обобщения — нулевой артикль",
+      "items": [
+        { "en": "Ghosts are not real.", "ru": "Призраки не настоящие.", "highlight": ["Ghosts"] },
+        { "en": "Children need protection.", "ru": "Детям нужна защита.", "highlight": ["Children"] },
+        { "en": "Books can be scary.", "ru": "Книги могут быть страшными.", "highlight": ["Books"] },
+        { "en": "People believe in many things.", "ru": "Люди верят во многое.", "highlight": ["People"] },
+        { "en": "Cats are independent animals.", "ru": "Кошки — независимые животные.", "highlight": ["Cats"] },
+        { "en": "Dogs are loyal friends.", "ru": "Собаки — верные друзья.", "highlight": ["Dogs"] }
+      ]
+    },
+    {
+      "group": "A/an vs the — сравнение",
+      "items": [
+        { "en": "I saw a woman. The woman was beautiful.", "ru": "Я увидела женщину. Женщина была красивой.", "highlight": ["a", "The"] },
+        { "en": "He heard a voice. The voice was familiar.", "ru": "Он услышал голос. Голос был знакомым.", "highlight": ["a", "The"] },
+        { "en": "She found a key. The key opened the door.", "ru": "Она нашла ключ. Ключ открыл дверь.", "highlight": ["a", "The"] },
+        { "en": "I saw a boy. The boy was crying.", "ru": "Я увидела мальчика. Мальчик плакал.", "highlight": ["a", "The"] },
+        { "en": "He bought a car. The car was red.", "ru": "Он купил машину. Машина была красной.", "highlight": ["a", "The"] },
+        { "en": "She wrote a letter. The letter was long.", "ru": "Она написала письмо. Письмо было длинным.", "highlight": ["a", "The"] }
+      ]
+    },
+    {
+      "group": "Артикли в описании дома",
+      "items": [
+        { "en": "The house was old and dark.", "ru": "Дом был старым и тёмным.", "highlight": ["The"] },
+        { "en": "There was a garden behind the house.", "ru": "За домом был сад.", "highlight": ["a", "the"] },
+        { "en": "A tree stood near the window.", "ru": "У окна стояло дерево.", "highlight": ["A", "the"] },
+        { "en": "The children played in the garden every day.", "ru": "Дети играли в саду каждый день.", "highlight": ["The", "the"] },
+        { "en": "There was a cat on the roof.", "ru": "На крыше была кошка.", "highlight": ["a", "the"] },
+        { "en": "The cat was watching the birds.", "ru": "Кошка смотрела на птиц.", "highlight": ["The", "the"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I saw ghost.", "right": "I saw a ghost.", "note": "Первый раз — неопределённый артикль." },
+    { "wrong": "She is the teacher in school.", "right": "She is a teacher at a school.", "note": "Первый раз — неопределённый артикль." },
+    { "wrong": "I have the book. It is good.", "right": "I have a book. The book is good.", "note": "Первый раз — a, второй — the." },
+    { "wrong": "The water is cold. (общее высказывание)", "right": "Water is cold.", "note": "Обобщения — нулевой артикль." },
+    { "wrong": "The James wrote a book.", "right": "James wrote a book.", "note": "С именами — нулевой артикль." },
+    { "wrong": "I live in the Moscow.", "right": "I live in Moscow.", "note": "С городами — нулевой артикль." }
+  ],
+  "compare": {
+    "title": "A/an vs The vs Zero Article",
+    "leftLabel": "a/an (новый)",
+    "centerLabel": "the (известный)",
+    "rightLabel": "нулевой артикль (обобщение)",
+    "rows": [
+      { "left": "I saw a ghost.", "right": "The ghost was tall.", "center": "Ghosts are scary." },
+      { "left": "She heard a voice.", "right": "The voice was loud.", "center": "Voices echo." },
+      { "left": "He found a book.", "right": "The book was old.", "center": "Books are fun." },
+      { "left": "I met a woman.", "right": "The woman smiled.", "center": "Women are strong." }
+    ]
+  },
+  "tips": [
+    "Первый раз — a/an. Второй раз — the.",
+    "С именами и городами — нулевой артикль.",
+    "С обобщениями — нулевой артикль: Dogs are nice.",
+    "С уникальными вещами — the: the sun, the moon.",
+    "С числительными — без артикля: I have two cats.",
+    "Артикль показывает, знаешь ли ты предмет или нет."
+  ],
+  "quiz": [
+    { "q": "Which article is correct: 'I saw ___ ghost.'", "options": ["a", "an", "the", "нулевой артикль"], "answer": "a", "why": "Первый раз — неопределённый артикль." },
+    { "q": "Which is correct: '___ sun is bright.'", "options": ["A", "The", "нулевой артикль"], "answer": "The", "why": "Солнце — единственное в своём роде." },
+    { "q": "Which is correct: '___ dogs are friendly.'", "options": ["A", "The", "нулевой артикль"], "answer": "нулевой артикль", "why": "Обобщение — нулевой артикль." },
+    { "q": "Which is correct: 'She is ___ teacher.'", "options": ["a", "an", "the"], "answer": "a", "why": "Профессия — a или an." },
+    { "q": "Which is correct: 'I live in ___ Moscow.'", "options": ["a", "the", "нулевой артикль"], "answer": "нулевой артикль", "why": "С городами — нулевой артикль." },
+    { "q": "Which is correct: 'I saw ___ book. ___ book was red.'", "options": ["a, The", "the, A", "an, The"], "answer": "a, The", "why": "Первый раз — a, второй — the." }
+  ],
+  "related": ["a1-articles-a-an", "a1-nouns"]
 }

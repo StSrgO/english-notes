@@ -1,29 +1,27 @@
 {
-  "variant": "classic",
   "slug": "a2-comparatives-superlatives",
   "level": "A2",
-  "title": "Comparatives and Superlatives",
+  "title": "Comparatives and Superlatives — язык сравнения",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Сравнительная и превосходная степень прилагательных. В этом уроке — Эдмон Ростан и его герой Сирано де Бержерак.",
+  "readingTime": 8,
+  "summary": "Сирано де Бержерак живёт в мире сравнений. Он сравнивает свой нос с чужими, свою храбрость с трусостью, свою любовь с ненавистью. Comparatives и superlatives — это не просто грамматика. Это язык самооценки. Язык того, как мы видим себя и других.",
+  "variant": "classic",
   "idea": [
-    "1897 год. Эдмон Ростан пишет пьесу «Сирано де Бержерак». Сирано — поэт, дуэлянт, философ. Он считает себя уродливым. Он сравнивает себя с другими: «Christian is more handsome than me. Roxane is more beautiful than the sun. My nose is larger than anyone else's.» Он использует сравнительную и превосходную степень. Он живёт в мире сравнений.",
-    "Comparatives и superlatives — это способ сравнивать людей, вещи и идеи. «Christian is taller than Cyrano» — Кристиан выше Сирано (сравнительная степень). «Roxane is the most beautiful woman in the world» — Роксана самая красивая женщина в мире (превосходная степень). Они помогают нам описывать мир.",
-    "Ростан знал: сравнения — это драма. Сирано сравнивает себя с Кристианом и проигрывает. Но он выигрывает в поэзии. Его слова — самые остроумные, самые красивые, самые честные. Сравнения помогают понять героев. Как в жизни. Как в театре."
-  ],
+    "Эдмон Ростан пишет пьесу. Главный герой — Сирано. Он поэт, дуэлянт, философ. Он считает себя уродливым. Нос — слишком большой. Он живёт в мире сравнений. «Christian is more handsome than me» — Кристиан красивее. «Roxane is more beautiful than the sun» — Роксана прекраснее солнца. «My nose is larger than anyone else's» — мой нос больше, чем у кого-либо.",
+    "Сравнения — это не просто описание. Это трагедия Сирано. Он видит, что проигрывает. Кристиан красивее, моложе, выше. Но Сирано умнее. «I am more intelligent than Christian» — я умнее. Его слова сильнее. «My words are more powerful than his sword» — мои слова сильнее его шпаги. Но что важнее? Красота или ум? Ростан показывает: сравнения — это всегда выбор. И Сирано выбирает поэзию.",
+    "Comparatives помогают нам сравнивать двух людей или вещи. «Siranot is more talented than Christian» — Сирано талантливее. Superlatives показывают превосходство над всеми. «Siranot is the most honourable man in France» — Сирано — самый честный человек во Франции. Это не просто грамматика. Это способ сказать: «Я лучше в этом, но хуже в том»."
+    ],
   "why": [
-    "Сравнивать людей: «Christian is taller than Cyrano.»",
-    "Сравнивать вещи: «My nose is larger than yours.»",
-    "Говорить о превосходстве: «Roxane is the most beautiful.»",
-    "Описывать мир: «This is the best play.»"
+    "Сравнивать людей и вещи: «Christian is more handsome than Cyrano.»",
+    "Говорить о превосходстве: «Roxane is the most beautiful woman in Paris.»",
+    "Описывать качества: «Cyrano is more intelligent than Christian.»",
+    "Выражать выбор: «I am better with words than with a sword.»"
   ],
   "context": {
     "lines": [
-      { "en": "Cyrano: Christian is more handsome than me. Roxane is more beautiful than the sun.", "ru": "Кристиан красивее меня. Роксана прекраснее солнца." },
-      { "en": "Christian: But you are more intelligent than me. Your words are the most powerful.", "ru": "Но ты умнее меня. Твои слова самые сильные." },
-      { "en": "Cyrano: My nose is the largest in Paris. It's uglier than anyone's.", "ru": "Мой нос самый большой в Париже. Он уродливее всех." },
-      { "en": "Christian: And your soul is the most beautiful. That's what matters.", "ru": "А твоя душа самая красивая. Вот что важно." },
-      { "en": "Cyrano: You are kinder than me, Christian. You are a better man.", "ru": "Ты добрее меня, Кристиан. Ты лучший человек." }
+      { "en": "Cyrano: Christian is more handsome than me. Roxane is more beautiful than the sun. But my words are more powerful than his sword.", "ru": "Сирано: Кристиан красивее меня. Роксана прекраснее солнца. Но мои слова сильнее его шпаги." },
+      { "en": "Christian: You are more intelligent than me. Your soul is the most beautiful thing I know.", "ru": "Кристиан: Ты умнее меня. Твоя душа — самое красивое, что я знаю." },
+      { "en": "Cyrano: My nose is larger than anyone's. But my heart is larger too.", "ru": "Сирано: Мой нос больше, чем у кого-либо. Но моё сердце тоже больше." }
     ],
     "note": "Сирано и Кристиан сравнивают себя друг с другом. Comparatives и superlatives в действии."
   },
@@ -43,7 +41,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму:",
+      "prompt": "Вставь правильную форму (как в истории с Сирано):",
       "items": [
         { "q": "Christian is (tall) than Cyrano.", "a": "taller" },
         { "q": "Roxane is (beautiful) woman in the world.", "a": "the most beautiful" },
@@ -56,8 +54,8 @@
   "formula": "Comparative: adjective + -er / more + adjective\nSuperlative: the + adjective + -est / the most + adjective",
   "structure": {
     "positive": "Tall, beautiful, good",
-    "comparative": "Taller, more beautiful, better",
-    "superlative": "The tallest, the most beautiful, the best"
+    "negative": "",
+    "question": ""
   },
   "markers": [
     "than",
@@ -70,7 +68,7 @@
   ],
   "uses": [
     "Сравнение двух: «Christian is taller than Cyrano.»",
-    "Сравнение трёх и более: «Roxane is the most beautiful.»",
+    "Сравнение трёх и более: «Roxane is the most beautiful woman.»",
     "Превосходство: «This is the best play.»",
     "Сравнение качеств: «Cyrano is more intelligent than Christian.»"
   ],
@@ -84,55 +82,55 @@
     {
       "group": "Сравнение внешности",
       "items": [
-        { "en": "Christian is taller than Cyrano.", "ru": "Кристиан выше Сирано.", "highlight": ["taller than"] },
-        { "en": "Roxane is more beautiful than the sun.", "ru": "Роксана прекраснее солнца.", "highlight": ["more beautiful than"] },
-        { "en": "Cyrano's nose is larger than anyone's.", "ru": "Нос Сирано больше, чем у кого-либо.", "highlight": ["larger than"] },
-        { "en": "Christian is more handsome than Cyrano.", "ru": "Кристиан красивее Сирано.", "highlight": ["more handsome than"] }
+        { "en": "Christian is taller than Cyrano.", "ru": "Кристиан выше Сирано — и это видно всем.", "highlight": ["taller than"] },
+        { "en": "Roxane is more beautiful than the sun.", "ru": "Роксана прекраснее солнца — и она этого не знает.", "highlight": ["more beautiful than"] },
+        { "en": "Cyrano's nose is larger than anyone's.", "ru": "Нос Сирано больше, чем у кого-либо — и он это знает.", "highlight": ["larger than"] },
+        { "en": "Christian is more handsome than Cyrano.", "ru": "Кристиан красивее Сирано — но не умнее.", "highlight": ["more handsome than"] }
       ]
     },
     {
       "group": "Сравнение характеров",
       "items": [
-        { "en": "Cyrano is more intelligent than Christian.", "ru": "Сирано умнее Кристиана.", "highlight": ["more intelligent than"] },
-        { "en": "Christian is kinder than Cyrano.", "ru": "Кристиан добрее Сирано.", "highlight": ["kinder than"] },
-        { "en": "Cyrano's words are more powerful than his sword.", "ru": "Слова Сирано сильнее его шпаги.", "highlight": ["more powerful than"] },
-        { "en": "Cyrano is braver than anyone in Paris.", "ru": "Сирано храбрее всех в Париже.", "highlight": ["braver than"] }
+        { "en": "Cyrano is more intelligent than Christian.", "ru": "Сирано умнее Кристиана — и его слова это доказывают.", "highlight": ["more intelligent than"] },
+        { "en": "Christian is kinder than Cyrano.", "ru": "Кристиан добрее Сирано — но не честнее.", "highlight": ["kinder than"] },
+        { "en": "Cyrano's words are more powerful than his sword.", "ru": "Слова Сирано сильнее его шпаги — и он это доказывает.", "highlight": ["more powerful than"] },
+        { "en": "Cyrano is braver than anyone in Paris.", "ru": "Сирано храбрее всех в Париже — и он это показывает.", "highlight": ["braver than"] }
       ]
     },
     {
       "group": "Превосходная степень",
       "items": [
-        { "en": "Roxane is the most beautiful woman in Paris.", "ru": "Роксана — самая красивая женщина в Париже.", "highlight": ["the most beautiful"] },
-        { "en": "Cyrano is the most intelligent man in France.", "ru": "Сирано — самый умный человек во Франции.", "highlight": ["the most intelligent"] },
-        { "en": "His nose is the largest in the city.", "ru": "Его нос — самый большой в городе.", "highlight": ["the largest"] },
-        { "en": "This is the best play I've ever read.", "ru": "Это лучшая пьеса, которую я когда-либо читал.", "highlight": ["the best"] }
+        { "en": "Roxane is the most beautiful woman in Paris.", "ru": "Роксана — самая красивая женщина в Париже — и все это знают.", "highlight": ["the most beautiful"] },
+        { "en": "Cyrano is the most intelligent man in France.", "ru": "Сирано — самый умный человек во Франции — но он этого не ценит.", "highlight": ["the most intelligent"] },
+        { "en": "His nose is the largest in the city.", "ru": "Его нос — самый большой в городе — и он с этим живёт.", "highlight": ["the largest"] },
+        { "en": "This is the best play I've ever read.", "ru": "Это лучшая пьеса, которую я когда-либо читал — и я не вру.", "highlight": ["the best"] }
       ]
     },
     {
       "group": "Исключения",
       "items": [
-        { "en": "Cyrano is a good poet. Christian is better. But Cyrano is the best.", "ru": "Сирано хороший поэт. Кристиан лучше. Но Сирано — лучший.", "highlight": ["good", "better", "the best"] },
-        { "en": "The situation is bad. It's worse than yesterday. It's the worst day.", "ru": "Ситуация плохая. Она хуже, чем вчера. Это самый плохой день.", "highlight": ["bad", "worse", "the worst"] },
-        { "en": "He is far from Paris. It's farther than I thought.", "ru": "Он далеко от Парижа. Это дальше, чем я думал.", "highlight": ["far", "farther"] },
-        { "en": "This is the worst thing that could happen.", "ru": "Это худшее, что могло случиться.", "highlight": ["the worst"] }
+        { "en": "Cyrano is a good poet. Christian is better. But Cyrano is the best.", "ru": "Сирано хороший поэт. Кристиан лучше. Но Сирано — лучший.", "highlight": ["good, better, the best"] },
+        { "en": "The situation is bad. It's worse than yesterday. It's the worst day.", "ru": "Ситуация плохая. Она хуже, чем вчера. Это самый плохой день.", "highlight": ["bad, worse, the worst"] },
+        { "en": "He is far from Paris. It's farther than I thought.", "ru": "Он далеко от Парижа. Это дальше, чем я думал.", "highlight": ["far, farther"] },
+        { "en": "This is the worst thing that could happen.", "ru": "Это худшее, что могло случиться — и оно случилось.", "highlight": ["the worst"] }
       ]
     },
     {
       "group": "Отрицательные сравнения",
       "items": [
-        { "en": "Cyrano is less handsome than Christian.", "ru": "Сирано менее красив, чем Кристиан.", "highlight": ["less handsome than"] },
-        { "en": "Christian is less intelligent than Cyrano.", "ru": "Кристиан менее умён, чем Сирано.", "highlight": ["less intelligent than"] },
-        { "en": "Roxane is less powerful than Cyrano's words.", "ru": "Роксана менее сильна, чем слова Сирано.", "highlight": ["less powerful than"] },
-        { "en": "His sword is less important than his words.", "ru": "Его шпага менее важна, чем его слова.", "highlight": ["less important than"] }
+        { "en": "Cyrano is less handsome than Christian.", "ru": "Сирано менее красив, чем Кристиан — но это не главное.", "highlight": ["less handsome than"] },
+        { "en": "Christian is less intelligent than Cyrano.", "ru": "Кристиан менее умён, чем Сирано — и он это знает.", "highlight": ["less intelligent than"] },
+        { "en": "Roxane is less powerful than Cyrano's words.", "ru": "Роксана менее сильна, чем слова Сирано — но она этого не видит.", "highlight": ["less powerful than"] },
+        { "en": "His sword is less important than his words.", "ru": "Его шпага менее важна, чем его слова — и он это доказывает.", "highlight": ["less important than"] }
       ]
     },
     {
       "group": "Сравнение в действии",
       "items": [
-        { "en": "Cyrano fights better than anyone in Paris.", "ru": "Сирано дерётся лучше всех в Париже.", "highlight": ["better than"] },
-        { "en": "He writes poetry more beautifully than anyone.", "ru": "Он пишет стихи красивее всех.", "highlight": ["more beautifully than"] },
-        { "en": "He loves Roxane more than his own life.", "ru": "Он любит Роксану больше собственной жизни.", "highlight": ["more than"] },
-        { "en": "He is the most honourable man I know.", "ru": "Он — самый честный человек, которого я знаю.", "highlight": ["the most honourable"] }
+        { "en": "Cyrano fights better than anyone in Paris.", "ru": "Сирано дерётся лучше всех в Париже — но его сердце нежнее.", "highlight": ["better than"] },
+        { "en": "He writes poetry more beautifully than anyone.", "ru": "Он пишет стихи красивее всех — и это его оружие.", "highlight": ["more beautifully than"] },
+        { "en": "He loves Roxane more than his own life.", "ru": "Он любит Роксану больше собственной жизни — и готов умереть.", "highlight": ["more than"] },
+        { "en": "He is the most honourable man I know.", "ru": "Он — самый честный человек, которого я знаю — и я не ошибаюсь.", "highlight": ["the most honourable"] }
       ]
     }
   ],

@@ -1,29 +1,27 @@
 {
-  "variant": "rocknroll",
   "slug": "a2-modals-can-must-have-to",
   "level": "A2",
-  "title": "Modals: Can, Must, Have To",
+  "title": "Modals: Can, Must, Have To — язык возможностей и обязанностей",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Модальные глаголы can, must, have to для выражения возможности, необходимости и обязанности. В этом уроке — Twisted Sister и их хит «We're Not Gonna Take It».",
+  "readingTime": 8,
+  "summary": "Twisted Sister записали 'We're Not Gonna Take It' в 1984 году. Ди Снайдер поёт: «We're not gonna take it. No, we ain't gonna take it. We're not gonna take it anymore.» Модальные глаголы — это язык бунта. Язык протеста. Язык свободы.",
+  "variant": "rocknroll",
   "idea": [
-    "1984 год. Twisted Sister записывают «We're Not Gonna Take It». Ди Снайдер поёт: «We're not gonna take it. No, we ain't gonna take it. We're not gonna take it anymore.» Модальные глаголы — в каждом припеве. «We're not gonna take it» — мы не собираемся это терпеть. Это песня о протесте, о правилах, о том, что можно и нельзя делать.",
-    "Модальные глаголы — это способ говорить о возможностях, обязанностях и правилах. «Can you hear the music?» — Ты слышишь музыку? (возможность). «I must be myself» — Я должен быть собой (необходимость). «I don't have to follow the rules» — Я не обязан следовать правилам (отсутствие обязанности). Они помогают нам выразить отношение к действию.",
-    "Twisted Sister стали символом бунта. Они пели о том, что ты не обязан подчиняться. Ты можешь бороться. Ты должен быть собой. Модальные глаголы — их язык. «I can be myself. I must be myself. I don't have to follow the rules.» Идеально для урока о can/must/have to!"
-  ],
+    "Twisted Sister записывают «We're Not Gonna Take It». Ди Снайдер поёт: «We're not gonna take it. No, we ain't gonna take it. We're not gonna take it anymore.» Песня о протесте. О том, что можно и нельзя. О том, что ты должен делать — и чего не должен.",
+    "«We can't follow the rules» — мы не можем следовать правилам. «We must be ourselves» — мы должны быть собой. «We don't have to obey» — мы не обязаны подчиняться. Модальные глаголы — это язык бунта. Can, must, have to — они определяют, что возможно, что необходимо, что обязательно.",
+    "Ди Снайдер знал: песня станет гимном для миллионов. Потому что каждый из нас когда-то хотел сказать: «I can't take it anymore. I must fight. I don't have to follow the rules.» Модальные глаголы — это язык выбора. Мы выбираем, что можем. Мы выбираем, что должны. Мы выбираем, что нам не обязательно."
+    ],
   "why": [
-    "Говорить о возможности: «Can you hear the music?»",
+    "Говорить о возможности: «Can you feel the rebellion?»",
     "Говорить о необходимости: «I must be myself.»",
     "Говорить об обязанности: «I have to follow my heart.»",
-    "Говорить об отсутствии обязанности: «I don't have to follow the rules.»"
+    "Говорить об отсутствии необходимости: «I don't have to follow the rules.»"
   ],
   "context": {
     "lines": [
-      { "en": "Dee: I must write a song about rebellion. We can't follow the rules anymore.", "ru": "Я должен написать песню о бунте. Мы больше не можем следовать правилам." },
-      { "en": "Band: Must we play it loud?", "ru": "Мы должны играть её громко?" },
-      { "en": "Dee: Yes! We have to make people feel the energy. They must understand the message.", "ru": "Да! Мы должны заставить людей чувствовать энергию. Они должны понять послание." },
-      { "en": "Band: Can they handle it?", "ru": "Они смогут это выдержать?" },
-      { "en": "Dee: They don't have to like it. But they have to hear it. We're not gonna take it!", "ru": "Им не обязательно это нравиться. Но они должны это услышать. Мы не собираемся это терпеть!" }
+      { "en": "Dee: We can't follow the rules anymore. We must be ourselves. We don't have to obey.", "ru": "Ди: Мы больше не можем следовать правилам. Мы должны быть собой. Мы не обязаны подчиняться." },
+      { "en": "Band: Can we really do this?", "ru": "Группа: Мы действительно можем это сделать?" },
+      { "en": "Dee: We must. We have to fight. We're not gonna take it.", "ru": "Ди: Мы должны. Мы обязаны бороться. Мы не собираемся это терпеть." }
     ],
     "note": "Ди Снайдер обсуждает песню с группой. Модальные глаголы в действии."
   },
@@ -43,7 +41,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильный модальный глагол: can, must, have to:",
+      "prompt": "Вставь правильный модальный глагол (как в песне 'We're Not Gonna Take It'):",
       "items": [
         { "q": "I ___ be myself.", "a": "must" },
         { "q": "You ___ hear the music.", "a": "can" },
@@ -70,7 +68,7 @@
     "do I have to"
   ],
   "uses": [
-    "Возможность: «Can you hear the music?»",
+    "Возможность: «Can you feel the music?»",
     "Необходимость: «I must be myself.»",
     "Обязанность: «I have to follow my heart.»",
     "Отсутствие обязанности: «I don't have to follow the rules.»"
@@ -85,55 +83,55 @@
     {
       "group": "Возможность (can)",
       "items": [
-        { "en": "Can you hear the music?", "ru": "Ты слышишь музыку?", "highlight": ["Can"] },
-        { "en": "I can play this song on guitar.", "ru": "Я могу сыграть эту песню на гитаре.", "highlight": ["can"] },
-        { "en": "We can change the world with music.", "ru": "Мы можем изменить мир с помощью музыки.", "highlight": ["can"] },
-        { "en": "The band can make you feel the rebellion.", "ru": "Группа может заставить тебя почувствовать бунт.", "highlight": ["can"] }
+        { "en": "Can you hear the music?", "ru": "Ты слышишь музыку? — Или это только в моей голове?", "highlight": ["Can"] },
+        { "en": "I can play this song on guitar.", "ru": "Я могу сыграть эту песню на гитаре — она в моей крови.", "highlight": ["can"] },
+        { "en": "We can change the world with music.", "ru": "Мы можем изменить мир с помощью музыки — и мы это сделаем.", "highlight": ["can"] },
+        { "en": "The band can make you feel the rebellion.", "ru": "Группа может заставить тебя почувствовать бунт — и ты его почувствуешь.", "highlight": ["can"] }
       ]
     },
     {
       "group": "Необходимость (must)",
       "items": [
-        { "en": "I must be myself.", "ru": "Я должен быть собой.", "highlight": ["must"] },
-        { "en": "You must fight for your rights.", "ru": "Ты должен бороться за свои права.", "highlight": ["must"] },
-        { "en": "We must stand up for ourselves.", "ru": "Мы должны постоять за себя.", "highlight": ["must"] },
-        { "en": "You must not give up.", "ru": "Ты не должен сдаваться.", "highlight": ["must not"] }
+        { "en": "I must be myself.", "ru": "Я должен быть собой — и никто не изменит меня.", "highlight": ["must"] },
+        { "en": "You must fight for your rights.", "ru": "Ты должен бороться за свои права — иначе ты их потеряешь.", "highlight": ["must"] },
+        { "en": "We must stand up for ourselves.", "ru": "Мы должны постоять за себя — иначе нас сломят.", "highlight": ["must"] },
+        { "en": "You must not give up.", "ru": "Ты не должен сдаваться — это будет твоей победой.", "highlight": ["must not"] }
       ]
     },
     {
       "group": "Обязанность (have to)",
       "items": [
-        { "en": "I have to follow my heart.", "ru": "Я должен следовать своему сердцу.", "highlight": ["have to"] },
-        { "en": "We have to make people feel the energy.", "ru": "Мы должны заставить людей чувствовать энергию.", "highlight": ["have to"] },
-        { "en": "You have to listen to the message.", "ru": "Ты должен услышать послание.", "highlight": ["have to"] },
-        { "en": "They don't have to like it.", "ru": "Им не обязательно это нравиться.", "highlight": ["don't have to"] }
+        { "en": "I have to follow my heart.", "ru": "Я должен следовать своему сердцу — и я это сделаю.", "highlight": ["have to"] },
+        { "en": "We have to make people feel the energy.", "ru": "Мы должны заставить людей чувствовать энергию — и они её почувствуют.", "highlight": ["have to"] },
+        { "en": "You have to listen to the message.", "ru": "Ты должен услышать послание — и оно изменит тебя.", "highlight": ["have to"] },
+        { "en": "They don't have to like it.", "ru": "Им не обязательно это нравиться — это их проблема.", "highlight": ["don't have to"] }
       ]
     },
     {
       "group": "Отрицания",
       "items": [
-        { "en": "We can't follow the rules anymore.", "ru": "Мы больше не можем следовать правилам.", "highlight": ["can't"] },
-        { "en": "We mustn't forget the message.", "ru": "Мы не должны забывать послание.", "highlight": ["mustn't"] },
-        { "en": "You don't have to believe me.", "ru": "Ты не обязан верить мне.", "highlight": ["don't have to"] },
-        { "en": "They can't stop us.", "ru": "Они не могут остановить нас.", "highlight": ["can't"] }
+        { "en": "We can't follow the rules anymore.", "ru": "Мы больше не можем следовать правилам — мы устали.", "highlight": ["can't"] },
+        { "en": "We mustn't forget the message.", "ru": "Мы не должны забывать послание — это наша сила.", "highlight": ["mustn't"] },
+        { "en": "You don't have to believe me.", "ru": "Ты не обязан верить мне — но я прав.", "highlight": ["don't have to"] },
+        { "en": "They can't stop us.", "ru": "Они не могут остановить нас — мы слишком сильны.", "highlight": ["can't"] }
       ]
     },
     {
       "group": "Вопросы",
       "items": [
-        { "en": "Can I join the band?", "ru": "Могу я присоединиться к группе?", "highlight": ["Can"] },
-        { "en": "Must I sing louder?", "ru": "Я должен петь громче?", "highlight": ["Must"] },
-        { "en": "Do I have to follow the rules?", "ru": "Должен ли я следовать правилам?", "highlight": ["Do I have to"] },
-        { "en": "Can you feel the rebellion?", "ru": "Ты чувствуешь бунт?", "highlight": ["Can"] }
+        { "en": "Can I join the band?", "ru": "Могу я присоединиться к группе? — Ты уже в ней.", "highlight": ["Can"] },
+        { "en": "Must I sing louder?", "ru": "Я должен петь громче? — Да, разорви их!", "highlight": ["Must"] },
+        { "en": "Do I have to follow the rules?", "ru": "Должен ли я следовать правилам? — Нет, это твоя жизнь.", "highlight": ["Do I have to"] },
+        { "en": "Can you feel the rebellion?", "ru": "Ты чувствуешь бунт? — Я чувствую его в каждой ноте.", "highlight": ["Can"] }
       ]
     },
     {
       "group": "Сравнение must и have to",
       "items": [
-        { "en": "I must be myself. (I need it)", "ru": "Я должен быть собой. (мне нужно)", "highlight": ["must"] },
-        { "en": "I have to be myself. (the world wants me to)", "ru": "Я должен быть собой. (мир хочет)", "highlight": ["have to"] },
-        { "en": "We must fight for our rights. (we believe it)", "ru": "Мы должны бороться за свои права. (мы верим)", "highlight": ["must"] },
-        { "en": "We have to fight for our rights. (it's necessary)", "ru": "Мы должны бороться за свои права. (это необходимо)", "highlight": ["have to"] }
+        { "en": "I must be myself. (I need it)", "ru": "Я должен быть собой — я так хочу.", "highlight": ["must"] },
+        { "en": "I have to be myself. (the world wants me to)", "ru": "Я должен быть собой — мир так хочет.", "highlight": ["have to"] },
+        { "en": "We must fight for our rights. (we believe it)", "ru": "Мы должны бороться за свои права — мы верим в это.", "highlight": ["must"] },
+        { "en": "We have to fight for our rights. (it's necessary)", "ru": "Мы должны бороться за свои права — это необходимо.", "highlight": ["have to"] }
       ]
     }
   ],
@@ -148,13 +146,12 @@
   "compare": {
     "title": "Can vs Must vs Have To",
     "leftLabel": "Can (возможность)",
-    "centerLabel": "Must (необходимость)",
     "rightLabel": "Have To (обязанность)",
     "rows": [
-      { "left": "I can be myself.", "right": "I must be myself.", "center": "I have to be myself." },
-      { "left": "I can play loud.", "right": "I must play loud.", "center": "I have to play loud." },
-      { "left": "I can fight for my rights.", "right": "I must fight for my rights.", "center": "I have to fight for my rights." },
-      { "left": "I can change the world.", "right": "I must change the world.", "center": "I have to change the world." }
+      { "left": "I can be myself.", "right": "I must be myself." },
+      { "left": "I can play loud.", "right": "I must play loud." },
+      { "left": "I can fight for my rights.", "right": "I must fight for my rights." },
+      { "left": "I can change the world.", "right": "I must change the world." }
     ]
   },
   "tips": [

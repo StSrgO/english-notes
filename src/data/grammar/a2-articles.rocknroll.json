@@ -1,463 +1,185 @@
-﻿{
-    "variant":  "rocknroll",
-    "slug":  "a2-articles",
-    "level":  "A2",
-    "title":  "Articles: A/An, The, and Zero Article",
-    "category":  "Grammar",
-    "readingTime":  7,
-    "summary":  "A2-версия артиклей: a/an, the и нулевой артикль. Rancid и волки, выходящие из темноты.",
-    "idea":  [
-                 "1995 год. Rancid записывают альбом «...And Out Come the Wolves». Они — панк-группа из Беркли, Калифорния. У них есть гитары, бас и барабаны. У них есть слова. Название альбома — «...And Out Come the Wolves» («...И выходят волки»). В нём есть артикль the перед Wolves. Почему? Потому что это конкретные волки — те, что приходят из темноты. Те, что символизируют хаос. Те, что выходят на свободу. Артикль — это указатель. Он говорит: вы знаете этих волков? Тогда слушайте.",
-                 "Альбом становится классикой. В нём есть песни «Roots Radicals», «Time Bomb», «Ruby Soho». В текстах — артикли везде. «The time bomb is ticking» — бомба, которую мы знаем. «A song for the broken» — песня для сломленных. «The wolves are coming» — волки, о которых мы уже говорили. Тим Армстронг пишет песни быстро. Он не думает о грамматике. Но артикли приходят сами. Они делают песню понятной. Они показывают, о чём поёшь.",
-                 "Rancid знали: артикли — это не просто слова. Это указатели. Они говорят слушателю: «Ты знаешь это?» или «Ты не знаешь?» Как в жизни. Как в панк-роке. Артикль — это твой гид по миру. Без него ты потеряешься. Особенно если волки уже выходят из темноты."
-             ],
-    "why":  [
-                "Показывать, что предмет известен: «The song is fast.»",
-                "Показывать, что предмет новый: «I heard a new band.»",
-                "Говорить о единственном в своём роде: «The guitar is broken.»",
-                "Обобщать: «Punk bands are loud.» (без артикля)"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Tim: I wrote a song about wolves. The wolves are coming out.",
-                                      "ru":  "Я написал песню о волках. Волки выходят."
-                                  },
-                                  {
-                                      "en":  "Lars: Are they the same wolves from the last album?",
-                                      "ru":  "Это те же волки, что и на прошлом альбоме?"
-                                  },
-                                  {
-                                      "en":  "Tim: No, these are new wolves. A different kind of wolf.",
-                                      "ru":  "Нет, это новые волки. Другой вид волков."
-                                  },
-                                  {
-                                      "en":  "Matt: Then we need a new album for them.",
-                                      "ru":  "Тогда нам нужен новый альбом для них."
-                                  },
-                                  {
-                                      "en":  "Tim: Exactly. \u0027And Out Come the Wolves\u0027. That\u0027s the title.",
-                                      "ru":  "Именно. \u0027И выходят волки\u0027. Это название."
-                                  }
-                              ],
-                    "note":  "Тим Армстронг обсуждает название альбома с группой. Артикли в названии показывают, о каких волках идёт речь."
-                },
-    "russianAngle":  [
-                         "В русском языке нет артиклей. Мы просто говорим «волки», «песня», «альбом». В английском нужно выбрать a, an или the.",
-                         "Первый раз — a/an. Второй раз — the. Как в названии альбома: \u0027Out Come the Wolves\u0027 — волки уже известны? Да, потому что мы о них уже говорили.",
-                         "С именами музыкантов — без артикля: Tim, not the Tim.",
-                         "С обобщениями — без артикля: Punk bands are loud. (не the punk bands)."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Первый раз — a/an. Второй раз — the.",
-                                     "Запомни: a перед согласными, an перед гласными.",
-                                     "С уникальными вещами — the: the sun, the moon.",
-                                     "С именами и городами — без артикля.",
-                                     "С обобщениями — без артикля.",
-                                     "Потренируйся на примерах из урока."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Вставь правильный артикль: a/an/the/∅ (без артикля):",
-                                        "items":  [
-                                                      {
-                                                          "q":  "I heard ___ new band.",
-                                                          "a":  "a"
-                                                      },
-                                                      {
-                                                          "q":  "___ guitar sounds heavy.",
-                                                          "a":  "The"
-                                                      },
-                                                      {
-                                                          "q":  "___ bands are loud.",
-                                                          "a":  "∅"
-                                                      },
-                                                      {
-                                                          "q":  "He is ___ musician.",
-                                                          "a":  "a"
-                                                      },
-                                                      {
-                                                          "q":  "I love ___ Rancid.",
-                                                          "a":  "∅"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "a / an / the / ∅ (zero article)",
-    "structure":  {
-                      "positive":  "a/an + существительное (новый предмет)\nthe + существительное (известный предмет)\n∅ + существительное (обобщение)",
-                      "negative":  "not + a/an\nnot + the\nno + существительное",
-                      "question":  "Is there a/an...?\nDo you have a/an...?"
-                  },
-    "markers":  [
-                    "a",
-                    "an",
-                    "the",
-                    "no article"
-                ],
-    "uses":  [
-                 "a/an — новый предмет: «I heard a song.»",
-                 "the — известный предмет: «The song was cool.»",
-                 "∅ — обобщения: «Bands are fun.»",
-                 "∅ — имена: «Tim plays guitar.»"
-             ],
-    "rules":  [
-                  {
-                      "title":  "Неопределённый артикль a/an",
-                      "text":  "Используй a перед согласными (a band), an перед гласными (an album). Показывает новый предмет."
-                  },
-                  {
-                      "title":  "Определённый артикль the",
-                      "text":  "Используй the, когда предмет уже известен или единственный: the guitar, the same song."
-                  },
-                  {
-                      "title":  "Нулевой артикль ∅",
-                      "text":  "С обобщениями: Bands are fun. С именами: Tim plays guitar. С городами: Berlin is cool."
-                  },
-                  {
-                      "title":  "Артикль с волками",
-                      "text":  "A wolf — какой-то волк. The wolf — тот самый. Артикль показывает, знаешь ли ты его."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Первый раз — a / an",
-                         "items":  [
-                                       {
-                                           "en":  "I heard a new band today.",
-                                           "ru":  "Я услышал новую группу сегодня.",
-                                           "highlight":  [
-                                                             "a"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She bought an old guitar.",
-                                           "ru":  "Она купила старую гитару.",
-                                           "highlight":  [
-                                                             "an"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There was a song on the radio.",
-                                           "ru":  "По радио была песня.",
-                                           "highlight":  [
-                                                             "a"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He played an amazing riff.",
-                                           "ru":  "Он сыграл потрясающий рифф.",
-                                           "highlight":  [
-                                                             "an"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Второй раз — the",
-                         "items":  [
-                                       {
-                                           "en":  "The song was called \u0027Time Bomb\u0027.",
-                                           "ru":  "Песня называлась \u0027Time Bomb\u0027.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The guitar sounded heavy.",
-                                           "ru":  "Гитара звучала тяжело.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The riff was simple but perfect.",
-                                           "ru":  "Рифф был простым, но идеальным.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The album became a classic.",
-                                           "ru":  "Альбом стал классикой.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Единственный в своём роде",
-                         "items":  [
-                                       {
-                                           "en":  "The band was on tour.",
-                                           "ru":  "Группа была в туре.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The show was sold out.",
-                                           "ru":  "Концерт был распродан.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The crowd was crazy.",
-                                           "ru":  "Толпа была безумной.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The stage was covered in smoke.",
-                                           "ru":  "Сцена была в дыму.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Обобщения — без артикля",
-                         "items":  [
-                                       {
-                                           "en":  "Punk bands are loud.",
-                                           "ru":  "Панк-группы громкие.",
-                                           "highlight":  [
-                                                             "bands"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Guitars sound better with distortion.",
-                                           "ru":  "Гитары звучат лучше с дисторшеном.",
-                                           "highlight":  [
-                                                             "Guitars"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Albums tell stories.",
-                                           "ru":  "Альбомы рассказывают истории.",
-                                           "highlight":  [
-                                                             "Albums"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Concerts are the best place to hear music.",
-                                           "ru":  "Концерты — лучшее место, чтобы слышать музыку.",
-                                           "highlight":  [
-                                                             "Concerts"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "A/an vs the — сравнение",
-                         "items":  [
-                                       {
-                                           "en":  "I heard a song. The song was called \u0027Ruby Soho\u0027.",
-                                           "ru":  "Я услышал песню. Песня называлась \u0027Ruby Soho\u0027.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He played a riff. The riff was legendary.",
-                                           "ru":  "Он сыграл рифф. Рифф был легендарным.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She saw a show. The show was amazing.",
-                                           "ru":  "Она посмотрела концерт. Концерт был потрясающим.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I met a fan. The fan knew every song.",
-                                           "ru":  "Я встретил фаната. Фанат знал каждую песню.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Артикли в названии альбома",
-                         "items":  [
-                                       {
-                                           "en":  "The wolves are coming out.",
-                                           "ru":  "Волки выходят.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "A wolf howls in the distance.",
-                                           "ru":  "Волк воет вдалеке.",
-                                           "highlight":  [
-                                                             "A",
-                                                             "the"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The wolves are coming tonight.",
-                                           "ru":  "Волки приходят сегодня.",
-                                           "highlight":  [
-                                                             "The"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I saw a wolf once. The wolf was wild.",
-                                           "ru":  "Я видел волка однажды. Волк был диким.",
-                                           "highlight":  [
-                                                             "a",
-                                                             "The"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "I saw wolf.",
-                         "right":  "I saw a wolf.",
-                         "note":  "Первый раз — неопределённый артикль."
-                     },
-                     {
-                         "wrong":  "She is the musician in a band.",
-                         "right":  "She is a musician in a band.",
-                         "note":  "Профессия — неопределённый артикль."
-                     },
-                     {
-                         "wrong":  "I have the album. It\u0027s good.",
-                         "right":  "I have an album. The album is good.",
-                         "note":  "Первый раз — a, второй — the."
-                     },
-                     {
-                         "wrong":  "The punk music is loud. (общее высказывание)",
-                         "right":  "Punk music is loud.",
-                         "note":  "Обобщения — без артикля."
-                     },
-                     {
-                         "wrong":  "The Tim wrote a song.",
-                         "right":  "Tim wrote a song.",
-                         "note":  "С именами — без артикля."
-                     },
-                     {
-                         "wrong":  "I bought the album yesterday.",
-                         "right":  "I bought an album yesterday.",
-                         "note":  "Первый раз — неопределённый артикль."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "A/an vs The vs Zero Article",
-                    "leftLabel":  "Первый раз (a/an)",
-                    "centerLabel":  "Второй раз (the)",
-                    "rightLabel":  "Обобщение (∅)",
-                    "rows":  [
-                                 {
-                                     "left":  "I heard a song.",
-                                     "right":  "The song was cool.",
-                                     "center":  "Songs are fun."
-                                 },
-                                 {
-                                     "left":  "He played a riff.",
-                                     "right":  "The riff was heavy.",
-                                     "center":  "Riffs are great."
-                                 },
-                                 {
-                                     "left":  "She saw a show.",
-                                     "right":  "The show was loud.",
-                                     "center":  "Shows are loud."
-                                 },
-                                 {
-                                     "left":  "I met a fan.",
-                                     "right":  "The fan was crazy.",
-                                     "center":  "Fans are loyal."
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Первый раз — a/an. Второй раз — the.",
-                 "С именами музыкантов — без артикля.",
-                 "С обобщениями — без артикля: Bands are fun.",
-                 "С уникальными вещами — the: the sun, the moon.",
-                 "С названиями альбомов — артикль может быть частью названия.",
-                 "Артикль — как рифф. Он или есть, или нет."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Which article is correct: \u0027I heard ___ song.\u0027",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "∅"
-                                 ],
-                     "answer":  "a",
-                     "why":  "Первый раз — неопределённый артикль."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027___ sun is bright.\u0027",
-                     "options":  [
-                                     "A",
-                                     "The",
-                                     "∅"
-                                 ],
-                     "answer":  "The",
-                     "why":  "Солнце — единственное в своём роде."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027___ bands are loud.\u0027",
-                     "options":  [
-                                     "A",
-                                     "The",
-                                     "∅"
-                                 ],
-                     "answer":  "∅",
-                     "why":  "Обобщение — без артикля."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027She is ___ musician.\u0027",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the"
-                                 ],
-                     "answer":  "a",
-                     "why":  "Профессия — a или an."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027I saw ___ wolf. ___ wolf was wild.\u0027",
-                     "options":  [
-                                     "a, The",
-                                     "the, A",
-                                     "an, The"
-                                 ],
-                     "answer":  "a, The",
-                     "why":  "Первый раз — a, второй — the."
-                 },
-                 {
-                     "q":  "Which is correct: \u0027I love ___ Rancid.\u0027",
-                     "options":  [
-                                     "a",
-                                     "the",
-                                     "∅"
-                                 ],
-                     "answer":  "∅",
-                     "why":  "С названиями групп — без артикля (хотя в названии может быть The)."
-                 }
-             ],
-    "related":  [
-                    "a1-articles-a-an",
-                    "a1-nouns"
-                ]
+{
+  "variant": "rocknroll",
+  "slug": "a2-articles",
+  "level": "A2",
+  "title": "Articles: A/An, The, and Zero Article",
+  "category": "Grammar",
+  "readingTime": 8,
+  "summary": "Артикли a/an, the и нулевой артикль. Rancid и альбом «...And Out Come the Wolves».",
+  "idea": [
+    "Название альбома Rancid — «...And Out Come the Wolves». В нём есть артикль the перед Wolves. Почему? Потому что это конкретные волки. Те, что приходят из темноты. Те, что символизируют хаос. «A wolf» — какой-то волк. «The wolf» — тот самый. «Wolves» — волки вообще. Три варианта. Три смысла.",
+    "В песне «Time Bomb» Тим Армстронг поёт: «Black coat, white shoes, black hat, Cadillac, yeah, the boy's a time bomb». Здесь a time bomb — какой-то взрывоопасный тип, неопределённый. В «Roots Radicals» — «Give 'em the boot, the roots, the radicals». Здесь the — определённый, он указывает на известные вещи: ботинок, корни, радикалы. «Destination unknown» — в «Ruby Soho» название города без артикля.",
+    "Артикли — это не просто слова. Это указатели. Они говорят слушателю: «Ты знаешь это?» или «Ты не знаешь?» Если знаешь — the. Если нет — a/an. Если говоришь о типе явления — нулевой артикль."
+  ],
+  "why": [
+    "Показывать, что предмет известен: «The song is fast.»",
+    "Показывать, что предмет новый: «I heard a new band.»",
+    "Говорить о единственном в своём роде: «The guitar is broken.»",
+    "Обобщать: «Punk bands are loud.» (без артикля)"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Tim: I wrote a song about wolves. The wolves are coming out.", "ru": "Я написал песню о волках. Волки выходят." },
+      { "en": "Lars: Are they the same wolves from the last album?", "ru": "Это те же волки, что и на прошлом альбоме?" },
+      { "en": "Tim: No, these are new wolves. A different kind of wolf.", "ru": "Нет, это новые волки. Другой вид волков." },
+      { "en": "Matt: Then we need a new album for them.", "ru": "Тогда нам нужен новый альбом для них." },
+      { "en": "Tim: Exactly. 'And Out Come the Wolves'. That's the title.", "ru": "Именно. 'И выходят волки'. Это название." }
+    ],
+    "note": "Тим Армстронг обсуждает название альбома с группой. Артикли в названии показывают, о каких волках идёт речь."
+  },
+  "russianAngle": [
+    "В русском языке нет артиклей. Мы просто говорим «волки», «песня», «альбом». В английском нужно выбрать a, an или the.",
+    "Первый раз — a/an. Второй раз — the. Как в названии альбома: 'Out Come the Wolves' — волки уже известны? Да, потому что мы о них уже говорили.",
+    "С именами музыкантов — без артикля: Tim, not the Tim.",
+    "С обобщениями — без артикля: Punk bands are loud. (не the punk bands)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Первый раз — a/an. Второй раз — the.",
+      "Запомни: a перед согласными, an перед гласными.",
+      "С уникальными вещами — the: the sun, the moon.",
+      "С именами и городами — без артикля.",
+      "С обобщениями — без артикля.",
+      "Потренируйся на примерах из урока."
+    ],
+    "exercise": {
+      "prompt": "Вставь правильный артикль: a/an/the/нулевой артикль (без артикля):",
+      "items": [
+        { "q": "I heard ___ new band.", "a": "a" },
+        { "q": "___ guitar sounds heavy.", "a": "The" },
+        { "q": "___ bands are loud.", "a": "нулевой артикль" },
+        { "q": "He is ___ musician.", "a": "a" },
+        { "q": "I love ___ Rancid.", "a": "нулевой артикль" }
+      ]
+    }
+  },
+  "formula": "a / an / the / нулевой артикль (zero article)",
+  "structure": {
+    "positive": "a/an + существительное (новый предмет)\nthe + существительное (известный предмет)\nнулевой артикль + существительное (обобщение)",
+    "negative": "not + a/an\nnot + the\nno + существительное",
+    "question": "Is there a/an...?\nDo you have a/an...?"
+  },
+  "markers": [
+    "a",
+    "an",
+    "the",
+    "no article"
+  ],
+  "uses": [
+    "a/an — новый предмет: «I heard a song.»",
+    "the — известный предмет: «The song was cool.»",
+    "нулевой артикль — обобщения: «Bands are fun.»",
+    "нулевой артикль — имена: «Tim plays guitar.»"
+  ],
+  "rules": [
+    { "title": "Неопределённый артикль a/an", "text": "Используй a перед согласными (a band), an перед гласными (an album). Показывает новый предмет." },
+    { "title": "Определённый артикль the", "text": "Используй the, когда предмет уже известен или единственный: the guitar, the same song." },
+    { "title": "Нулевой артикль", "text": "С обобщениями: Bands are fun. С именами: Tim plays guitar. С городами: Berlin is cool." },
+    { "title": "Артикль с волками", "text": "A wolf — какой-то волк. The wolf — тот самый. Нулевой артикль показывает тип: Wolves are dangerous." }
+  ],
+  "examples": [
+    {
+      "group": "Первый раз — a / an",
+      "items": [
+        { "en": "I heard a new band today.", "ru": "Я услышал новую группу сегодня.", "highlight": ["a"] },
+        { "en": "She bought an old guitar.", "ru": "Она купила старую гитару.", "highlight": ["an"] },
+        { "en": "There was a song on the radio.", "ru": "По радио была песня.", "highlight": ["a"] },
+        { "en": "He played an amazing riff.", "ru": "Он сыграл потрясающий рифф.", "highlight": ["an"] },
+        { "en": "I saw a show last night.", "ru": "Я видел шоу прошлой ночью.", "highlight": ["a"] },
+        { "en": "She wrote an article about punk.", "ru": "Она написала статью о панке.", "highlight": ["an"] }
+      ]
+    },
+    {
+      "group": "Второй раз — the",
+      "items": [
+        { "en": "The song was called 'Time Bomb'.", "ru": "Песня называлась 'Time Bomb'.", "highlight": ["The"] },
+        { "en": "The guitar sounded heavy.", "ru": "Гитара звучала тяжело.", "highlight": ["The"] },
+        { "en": "The riff was simple but perfect.", "ru": "Рифф был простым, но идеальным.", "highlight": ["The"] },
+        { "en": "The album became a classic.", "ru": "Альбом стал классикой.", "highlight": ["The"] },
+        { "en": "The show was sold out.", "ru": "Концерт был распродан.", "highlight": ["The"] },
+        { "en": "The article was about punk music.", "ru": "Статья была о панк-музыке.", "highlight": ["The"] }
+      ]
+    },
+    {
+      "group": "Единственный в своём роде",
+      "items": [
+        { "en": "The band was on tour.", "ru": "Группа была в туре.", "highlight": ["The"] },
+        { "en": "The show was sold out.", "ru": "Концерт был распродан.", "highlight": ["The"] },
+        { "en": "The crowd was crazy.", "ru": "Толпа была безумной.", "highlight": ["The"] },
+        { "en": "The stage was covered in smoke.", "ru": "Сцена была в дыму.", "highlight": ["The"] },
+        { "en": "The guitar was broken.", "ru": "Гитара была сломана.", "highlight": ["The"] },
+        { "en": "The microphone was buzzing.", "ru": "Микрофон гудел.", "highlight": ["The"] }
+      ]
+    },
+    {
+      "group": "Обобщения — нулевой артикль",
+      "items": [
+        { "en": "Punk bands are loud.", "ru": "Панк-группы громкие.", "highlight": ["bands"] },
+        { "en": "Guitars sound better with distortion.", "ru": "Гитары звучат лучше с дисторшеном.", "highlight": ["Guitars"] },
+        { "en": "Albums tell stories.", "ru": "Альбомы рассказывают истории.", "highlight": ["Albums"] },
+        { "en": "Concerts are the best place to hear music.", "ru": "Концерты — лучшее место, чтобы слышать музыку.", "highlight": ["Concerts"] },
+        { "en": "Songs are about life.", "ru": "Песни о жизни.", "highlight": ["Songs"] },
+        { "en": "Music is powerful.", "ru": "Музыка — это сила.", "highlight": ["Music"] }
+      ]
+    },
+    {
+      "group": "A/an vs the — сравнение",
+      "items": [
+        { "en": "I heard a song. The song was called 'Ruby Soho'.", "ru": "Я услышал песню. Песня называлась 'Ruby Soho'.", "highlight": ["a", "The"] },
+        { "en": "He played a riff. The riff was legendary.", "ru": "Он сыграл рифф. Рифф был легендарным.", "highlight": ["a", "The"] },
+        { "en": "She saw a show. The show was amazing.", "ru": "Она посмотрела концерт. Концерт был потрясающим.", "highlight": ["a", "The"] },
+        { "en": "I met a fan. The fan knew every song.", "ru": "Я встретил фаната. Фанат знал каждую песню.", "highlight": ["a", "The"] },
+        { "en": "He bought a guitar. The guitar was vintage.", "ru": "Он купил гитару. Гитара была винтажной.", "highlight": ["a", "The"] },
+        { "en": "She wrote a song. The song was a hit.", "ru": "Она написала песню. Песня стала хитом.", "highlight": ["a", "The"] }
+      ]
+    },
+    {
+      "group": "Артикли в названии альбома",
+      "items": [
+        { "en": "The wolves are coming out.", "ru": "Волки выходят.", "highlight": ["The"] },
+        { "en": "A wolf howls in the distance.", "ru": "Волк воет вдалеке.", "highlight": ["A", "the"] },
+        { "en": "The wolves are coming tonight.", "ru": "Волки приходят сегодня.", "highlight": ["The"] },
+        { "en": "I saw a wolf once. The wolf was wild.", "ru": "Я видел волка однажды. Волк был диким.", "highlight": ["a", "The"] },
+        { "en": "Wolves are dangerous animals.", "ru": "Волки — опасные животные.", "highlight": ["Wolves"] },
+        { "en": "The wolves in this song are real.", "ru": "Волки в этой песне — настоящие.", "highlight": ["The"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I saw wolf.", "right": "I saw a wolf.", "note": "Первый раз — неопределённый артикль." },
+    { "wrong": "She is the musician in a band.", "right": "She is a musician in a band.", "note": "Профессия — неопределённый артикль." },
+    { "wrong": "I have the album. It's good.", "right": "I have an album. The album is good.", "note": "Первый раз — a, второй — the." },
+    { "wrong": "The punk music is loud. (общее высказывание)", "right": "Punk music is loud.", "note": "Обобщения — нулевой артикль." },
+    { "wrong": "The Tim wrote a song.", "right": "Tim wrote a song.", "note": "С именами — нулевой артикль." },
+    { "wrong": "I bought the album yesterday.", "right": "I bought an album yesterday.", "note": "Первый раз — неопределённый артикль." }
+  ],
+  "compare": {
+    "title": "A/an vs The vs Zero Article",
+    "leftLabel": "a/an (новый)",
+    "centerLabel": "the (известный)",
+    "rightLabel": "нулевой артикль (обобщение)",
+    "rows": [
+      { "left": "I heard a song.", "right": "The song was cool.", "center": "Songs are fun." },
+      { "left": "He played a riff.", "right": "The riff was heavy.", "center": "Riffs are great." },
+      { "left": "She saw a show.", "right": "The show was loud.", "center": "Shows are loud." },
+      { "left": "I met a fan.", "right": "The fan was crazy.", "center": "Fans are loyal." }
+    ]
+  },
+  "tips": [
+    "Первый раз — a/an. Второй раз — the.",
+    "С именами музыкантов — нулевой артикль.",
+    "С обобщениями — нулевой артикль: Bands are fun.",
+    "С уникальными вещами — the: the sun, the moon.",
+    "С названиями альбомов — артикль может быть частью названия.",
+    "Артикль показывает, знаешь ли ты этот предмет или нет."
+  ],
+  "quiz": [
+    { "q": "Which article is correct: 'I heard ___ song.'", "options": ["a", "an", "the", "нулевой артикль"], "answer": "a", "why": "Первый раз — неопределённый артикль." },
+    { "q": "Which is correct: '___ sun is bright.'", "options": ["A", "The", "нулевой артикль"], "answer": "The", "why": "Солнце — единственное в своём роде." },
+    { "q": "Which is correct: '___ bands are loud.'", "options": ["A", "The", "нулевой артикль"], "answer": "нулевой артикль", "why": "Обобщение — нулевой артикль." },
+    { "q": "Which is correct: 'She is ___ musician.'", "options": ["a", "an", "the"], "answer": "a", "why": "Профессия — a или an." },
+    { "q": "Which is correct: 'I saw ___ wolf. ___ wolf was wild.'", "options": ["a, The", "the, A", "an, The"], "answer": "a, The", "why": "Первый раз — a, второй — the." },
+    { "q": "Which is correct: 'I love ___ Rancid.'", "options": ["a", "the", "нулевой артикль"], "answer": "нулевой артикль", "why": "С названиями групп — без артикля (хотя в названии может быть The)." }
+  ],
+  "related": ["a1-articles-a-an", "a1-nouns"]
 }

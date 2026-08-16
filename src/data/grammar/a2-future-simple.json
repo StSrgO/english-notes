@@ -5,11 +5,11 @@
   "title": "Future Simple",
   "category": "Tenses",
   "readingTime": 7,
-  "summary": "Future Simple (will) — для предсказаний, обещаний и спонтанных решений. В этом уроке — Рэй Брэдбери и его роман-предупреждение.",
+  "summary": "Future Simple (will) — для предсказаний, обещаний и спонтанных решений. Рэй Брэдбери и «451° по Фаренгейту».",
   "idea": [
-    "1953 год. Рэй Брэдбери пишет «451° по Фаренгейту». Он смотрит в будущее и видит: пожарные будут жечь книги. Мир будет полон экранов. Люди перестанут читать. Он использует will для предсказаний. Это не план — это видение. «Will» показывает, что автор верит в это будущее. Брэдбери предупреждает мир. Он знает, что это случится, если люди не изменятся.",
-    "Future Simple — это время для предсказаний, обещаний и спонтанных решений. «I will write a book» — я напишу книгу (обещание). «It will be a classic» — это станет классикой (предсказание). «I will help you» — я помогу тебе (спонтанное решение). В отличие от be going to, will не требует плана. Это просто уверенность. Это вера в будущее.",
-    "Брэдбери предсказал будущее. «You will not like this future. You will try to stop it. But it will happen.» Роман стал классикой. Мир изменился. Will сработал. Как у Брэдбери. Как в нашей жизни."
+    "1953 год. Рэй Брэдбери пишет «451° по Фаренгейту». Он не знает будущее. Он его предсказывает. «Firemen will burn books.» — пожарные будут жечь книги. «People will stop reading.» — люди перестанут читать. «The world will be full of screens.» — мир будет полон экранов. Это предсказания. Will используется для того, что, по мнению автора, случится.",
+    "«I will write a warning.» — я напишу предупреждение. «I will tell the truth.» — я скажу правду. «They will not listen.» — они не будут слушать. Это обещания. Will используется, когда ты обещаешь что-то сделать.",
+    "«The book will be banned.» — книгу запретят. «It will be read.» — её будут читать. «It will be remembered.» — её запомнят. Will используется, когда ты уверен в результате, даже если ещё ничего не произошло. В Future Simple нет плана. Есть только уверенность. Предсказание. Обещание. Вера в то, что случится."
   ],
   "why": [
     "Предсказывать будущее: «People will stop reading.»",
@@ -85,7 +85,9 @@
         { "en": "Firemen will burn books.", "ru": "Пожарные будут жечь книги.", "highlight": ["will burn"] },
         { "en": "People will stop reading.", "ru": "Люди перестанут читать.", "highlight": ["will stop"] },
         { "en": "The world will be full of screens.", "ru": "Мир будет полон экранов.", "highlight": ["will be"] },
-        { "en": "Nobody will remember the past.", "ru": "Никто не будет помнить прошлое.", "highlight": ["will remember"] }
+        { "en": "Nobody will remember the past.", "ru": "Никто не будет помнить прошлое.", "highlight": ["will remember"] },
+        { "en": "Technology will replace human contact.", "ru": "Технологии заменят живое общение.", "highlight": ["will replace"] },
+        { "en": "People will talk less and less.", "ru": "Люди будут говорить всё меньше и меньше.", "highlight": ["will talk"] }
       ]
     },
     {
@@ -94,7 +96,9 @@
         { "en": "I will write a book about the future.", "ru": "Я напишу книгу о будущем.", "highlight": ["will write"] },
         { "en": "I will tell the truth.", "ru": "Я скажу правду.", "highlight": ["will tell"] },
         { "en": "I will warn people about the dangers.", "ru": "Я предупрежу людей об опасностях.", "highlight": ["will warn"] },
-        { "en": "I will never give up.", "ru": "Я никогда не сдамся.", "highlight": ["will never give"] }
+        { "en": "I will never give up.", "ru": "Я никогда не сдамся.", "highlight": ["will never give"] },
+        { "en": "I will try to change people's minds.", "ru": "Я попытаюсь изменить мнение людей.", "highlight": ["will try"] },
+        { "en": "I will not stay silent.", "ru": "Я не буду молчать.", "highlight": ["will not stay"] }
       ]
     },
     {
@@ -103,7 +107,9 @@
         { "en": "People will not listen to me.", "ru": "Люди не будут слушать меня.", "highlight": ["will not listen"] },
         { "en": "The world won't change easily.", "ru": "Мир не изменится легко.", "highlight": ["won't change"] },
         { "en": "You won't like this future.", "ru": "Вам не понравится это будущее.", "highlight": ["won't like"] },
-        { "en": "They won't stop the fire.", "ru": "Они не остановят огонь.", "highlight": ["won't stop"] }
+        { "en": "They won't stop the fire.", "ru": "Они не остановят огонь.", "highlight": ["won't stop"] },
+        { "en": "The government will not allow it.", "ru": "Правительство не позволит этого.", "highlight": ["will not allow"] },
+        { "en": "People will not understand the warning.", "ru": "Люди не поймут предупреждение.", "highlight": ["will not understand"] }
       ]
     },
     {
@@ -112,7 +118,9 @@
         { "en": "Will people read books in the future?", "ru": "Будут ли люди читать книги в будущем?", "highlight": ["Will"] },
         { "en": "Will the world become better?", "ru": "Мир станет лучше?", "highlight": ["Will"] },
         { "en": "Will they remember this warning?", "ru": "Они запомнят это предупреждение?", "highlight": ["Will"] },
-        { "en": "Will you help me?", "ru": "Ты поможешь мне?", "highlight": ["Will"] }
+        { "en": "Will you help me?", "ru": "Ты поможешь мне?", "highlight": ["Will"] },
+        { "en": "Will the government ban the book?", "ru": "Правительство запретит книгу?", "highlight": ["Will"] },
+        { "en": "Will people listen to the truth?", "ru": "Люди будут слушать правду?", "highlight": ["Will"] }
       ]
     },
     {
@@ -121,7 +129,9 @@
         { "en": "I'll help you with the book.", "ru": "Я помогу тебе с книгой.", "highlight": ["I'll"] },
         { "en": "I'll read this novel tonight.", "ru": "Я прочитаю этот роман сегодня.", "highlight": ["I'll"] },
         { "en": "I'll call you tomorrow.", "ru": "Я позвоню тебе завтра.", "highlight": ["I'll"] },
-        { "en": "I'll explain everything.", "ru": "Я всё объясню.", "highlight": ["I'll"] }
+        { "en": "I'll explain everything.", "ru": "Я всё объясню.", "highlight": ["I'll"] },
+        { "en": "I'll buy the book for you.", "ru": "Я куплю тебе книгу.", "highlight": ["I'll"] },
+        { "en": "I'll write the letter now.", "ru": "Я напишу письмо сейчас.", "highlight": ["I'll"] }
       ]
     },
     {
@@ -130,7 +140,9 @@
         { "en": "The book will become a classic.", "ru": "Книга станет классикой.", "highlight": ["will become"] },
         { "en": "People will remember this day.", "ru": "Люди запомнят этот день.", "highlight": ["will remember"] },
         { "en": "The future will be different.", "ru": "Будущее будет другим.", "highlight": ["will be"] },
-        { "en": "You will see the truth.", "ru": "Ты увидишь правду.", "highlight": ["will see"] }
+        { "en": "You will see the truth.", "ru": "Ты увидишь правду.", "highlight": ["will see"] },
+        { "en": "The warning will be heard.", "ru": "Предупреждение будет услышано.", "highlight": ["will be heard"] },
+        { "en": "The book will survive.", "ru": "Книга выживет.", "highlight": ["will survive"] }
       ]
     }
   ],

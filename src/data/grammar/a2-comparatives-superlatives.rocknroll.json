@@ -1,29 +1,27 @@
 {
-  "variant": "rocknroll",
   "slug": "a2-comparatives-superlatives",
   "level": "A2",
-  "title": "Comparatives and Superlatives",
+  "title": "Comparatives and Superlatives — язык сравнения",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Сравнительная и превосходная степень прилагательных. В этом уроке — The Cure и их альбом «Disintegration».",
+  "readingTime": 8,
+  "summary": "The Cure записали 'Disintegration' в 1989 году. Роберт Смит сравнивает альбомы, сравнивает себя, сравнивает свою жизнь. Comparatives и superlatives — это не просто грамматика. Это язык саморефлексии. Язык того, как мы видим себя и свою музыку.",
+  "variant": "rocknroll",
   "idea": [
-    "1989 год. The Cure записывают «Disintegration». Роберт Смит сравнивает альбомы: «Disintegration is darker than The Head on the Door. It's the most emotional album we've ever made.» Сравнения помогают описать звук. «This song is slower than the last one. That riff is heavier than anything we've done.» Сравнительная и превосходная степень — язык музыкантов.",
-    "Comparatives и superlatives — это способ сравнивать музыку, альбомы и эпохи. «This album is more atmospheric than the last one» — этот альбом более атмосферный, чем предыдущий. «It's the most intense record we've ever made» — это самая интенсивная запись, которую мы когда-либо делали. Они помогают нам описывать звук.",
-    "The Cure знали: сравнения — это язык музыки. «Disintegration» сравнивали с другими альбомами. Его называли самым мрачным, самым красивым, самым эмоциональным. Сравнения помогают понять музыку. Как в жизни. Как в роке."
-  ],
+    "«Disintegration». Роберт Смит в депрессии. Он не спит. Он не ест. Он только пишет. Он сравнивает альбомы, сравнивает себя, сравнивает свою жизнь. «Disintegration is darker than The Head on the Door» — он мрачнее. «It's more atmospheric than anything we've done» — он более атмосферный. «It's the most emotional album we've ever made» — это самый эмоциональный альбом.",
+    "Comparatives и superlatives — это язык Роберта Смита. Он сравнивает, чтобы понять. Чтобы найти место. «This song is slower than the last one» — эта песня медленнее. «That riff is heavier than anything we've played» — тот рифф тяжелее. Он не просто описывает музыку. Он описывает себя.",
+    "Comparatives помогают сравнивать музыку, эпохи, настроения. «The 80s were darker than the 90s for The Cure» — 80-е были мрачнее. Superlatives показывают лучшее или худшее. «Disintegration is the most important album of their career» — это самый важный альбом."
+    ],
   "why": [
-    "Сравнивать музыку: «This album is darker than the last one.»",
-    "Сравнивать звук: «This song is slower than that one.»",
-    "Говорить о превосходстве: «It's the most emotional album.»",
-    "Описывать эпохи: «The 80s were better than the 90s.»"
+    "Сравнивать музыку и альбомы: «Disintegration is darker than The Head on the Door.»",
+    "Сравнивать настроения: «This song is slower than the last one.»",
+    "Говорить о превосходстве: «It's the most emotional album they've ever made.»",
+    "Выражать личные чувства: «It's more personal than anything they've done.»"
   ],
   "context": {
     "lines": [
-      { "en": "Robert: Disintegration is darker than The Head on the Door. It's more atmospheric.", "ru": "Disintegration мрачнее, чем The Head on the Door. Он более атмосферный." },
-      { "en": "Producer: Is it the most emotional album you've made?", "ru": "Это самый эмоциональный альбом, который вы сделали?" },
-      { "en": "Robert: Yes. It's the most intense record we've ever made. It's slower than the last one.", "ru": "Да. Это самая интенсивная запись, которую мы когда-либо делали. Она медленнее, чем предыдущая." },
-      { "en": "Producer: Is it better than the other albums?", "ru": "Он лучше других альбомов?" },
-      { "en": "Robert: I don't know. It's different. It's more personal than anything we've done.", "ru": "Не знаю. Он другой. Он более личный, чем всё, что мы делали." }
+      { "en": "Robert: Disintegration is darker than The Head on the Door. It's the most emotional album we've ever made.", "ru": "Роберт: Disintegration мрачнее, чем The Head on the Door. Это самый эмоциональный альбом." },
+      { "en": "Producer: Is it better than the other albums?", "ru": "Продюсер: Он лучше других альбомов?" },
+      { "en": "Robert: I don't know. It's more personal. It's the saddest thing I've ever written.", "ru": "Роберт: Не знаю. Он более личный. Это самое грустное, что я писал." }
     ],
     "note": "Роберт Смит сравнивает альбомы. Comparatives и superlatives в действии."
   },
@@ -43,7 +41,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму:",
+      "prompt": "Вставь правильную форму (как в истории с The Cure):",
       "items": [
         { "q": "Disintegration is (dark) than The Head on the Door.", "a": "darker" },
         { "q": "It's the (emotional) album they've ever made.", "a": "most emotional" },
@@ -56,8 +54,8 @@
   "formula": "Comparative: adjective + -er / more + adjective\nSuperlative: the + adjective + -est / the most + adjective",
   "structure": {
     "positive": "Dark, atmospheric, good",
-    "comparative": "Darker, more atmospheric, better",
-    "superlative": "The darkest, the most atmospheric, the best"
+    "negative": "",
+    "question": ""
   },
   "markers": [
     "than",
@@ -69,7 +67,7 @@
     "least"
   ],
   "uses": [
-    "Сравнение двух: «This album is darker than the last one.»",
+    "Сравнение двух: «Disintegration is darker than The Head on the Door.»",
     "Сравнение трёх и более: «It's the most emotional album.»",
     "Превосходство: «This is the best Cure album.»",
     "Сравнение качества: «It's more atmospheric than anything.»"
@@ -84,55 +82,55 @@
     {
       "group": "Сравнение альбомов",
       "items": [
-        { "en": "Disintegration is darker than The Head on the Door.", "ru": "Disintegration мрачнее, чем The Head on the Door.", "highlight": ["darker than"] },
-        { "en": "It's more atmospheric than the last album.", "ru": "Он более атмосферный, чем прошлый альбом.", "highlight": ["more atmospheric than"] },
-        { "en": "It's slower than the previous record.", "ru": "Он медленнее, чем предыдущая запись.", "highlight": ["slower than"] },
-        { "en": "It's more intense than anything they've done.", "ru": "Он более интенсивный, чем всё, что они делали.", "highlight": ["more intense than"] }
+        { "en": "Disintegration is darker than The Head on the Door.", "ru": "Disintegration мрачнее, чем The Head on the Door — и это чувствуется.", "highlight": ["darker than"] },
+        { "en": "It's more atmospheric than the last album.", "ru": "Он более атмосферный, чем прошлый альбом — и это слышно.", "highlight": ["more atmospheric than"] },
+        { "en": "It's slower than the previous record.", "ru": "Он медленнее, чем предыдущая запись — и это ощущается.", "highlight": ["slower than"] },
+        { "en": "It's more intense than anything they've done.", "ru": "Он более интенсивный, чем всё, что они делали — и это чувствуется.", "highlight": ["more intense than"] }
       ]
     },
     {
       "group": "Превосходная степень",
       "items": [
-        { "en": "Disintegration is the most emotional album.", "ru": "Disintegration — самый эмоциональный альбом.", "highlight": ["the most emotional"] },
-        { "en": "It's the best Cure album.", "ru": "Это лучший альбом The Cure.", "highlight": ["the best"] },
-        { "en": "It's the darkest record they've made.", "ru": "Это самая мрачная запись, которую они сделали.", "highlight": ["the darkest"] },
-        { "en": "It's the most personal album of all.", "ru": "Это самый личный альбом из всех.", "highlight": ["the most personal"] }
+        { "en": "Disintegration is the most emotional album.", "ru": "Disintegration — самый эмоциональный альбом — и он пронизывает до костей.", "highlight": ["the most emotional"] },
+        { "en": "It's the best Cure album.", "ru": "Это лучший альбом The Cure — и я не один так думаю.", "highlight": ["the best"] },
+        { "en": "It's the darkest record they've made.", "ru": "Это самая мрачная запись, которую они сделали — и она пугает.", "highlight": ["the darkest"] },
+        { "en": "It's the most personal album of all.", "ru": "Это самый личный альбом из всех — и он ранит.", "highlight": ["the most personal"] }
       ]
     },
     {
       "group": "Сравнение песен",
       "items": [
-        { "en": "This song is slower than the last one.", "ru": "Эта песня медленнее, чем предыдущая.", "highlight": ["slower than"] },
-        { "en": "The lyrics are more poetic than the last album.", "ru": "Тексты более поэтичны, чем на прошлом альбоме.", "highlight": ["more poetic than"] },
-        { "en": "The guitar is more atmospheric than ever.", "ru": "Гитара более атмосферна, чем когда-либо.", "highlight": ["more atmospheric than"] },
-        { "en": "The vocals are louder than before.", "ru": "Вокал громче, чем раньше.", "highlight": ["louder than"] }
+        { "en": "This song is slower than the last one.", "ru": "Эта песня медленнее, чем предыдущая — и она гипнотизирует.", "highlight": ["slower than"] },
+        { "en": "The lyrics are more poetic than the last album.", "ru": "Тексты более поэтичны, чем на прошлом альбоме — и они режут.", "highlight": ["more poetic than"] },
+        { "en": "The guitar is more atmospheric than ever.", "ru": "Гитара более атмосферна, чем когда-либо — и она пронизывает.", "highlight": ["more atmospheric than"] },
+        { "en": "The vocals are louder than before.", "ru": "Вокал громче, чем раньше — и он захватывает.", "highlight": ["louder than"] }
       ]
     },
     {
       "group": "Исключения",
       "items": [
-        { "en": "This is a good song. The next one is better. The last one is the best.", "ru": "Это хорошая песня. Следующая лучше. Последняя — лучшая.", "highlight": ["good", "better", "the best"] },
-        { "en": "The production is bad. It's worse than the last album. It's the worst.", "ru": "Продакшн плохой. Он хуже прошлого альбома. Он самый плохой.", "highlight": ["bad", "worse", "the worst"] },
-        { "en": "The sound is further away than before.", "ru": "Звук дальше, чем раньше.", "highlight": ["further"] },
-        { "en": "This is the worst song they've ever written.", "ru": "Это худшая песня, которую они когда-либо писали.", "highlight": ["the worst"] }
+        { "en": "This is a good song. The next one is better. The last one is the best.", "ru": "Это хорошая песня. Следующая лучше. Последняя — лучшая.", "highlight": ["good, better, the best"] },
+        { "en": "The production is bad. It's worse than the last album. It's the worst.", "ru": "Продакшн плохой. Он хуже прошлого альбома. Он самый плохой.", "highlight": ["bad, worse, the worst"] },
+        { "en": "The sound is further away than before.", "ru": "Звук дальше, чем раньше — и он отдаляется.", "highlight": ["further"] },
+        { "en": "This is the worst song they've ever written.", "ru": "Это худшая песня, которую они когда-либо писали — но она всё равно хороша.", "highlight": ["the worst"] }
       ]
     },
     {
       "group": "Отрицательные сравнения",
       "items": [
-        { "en": "The Head on the Door is less dark than Disintegration.", "ru": "The Head on the Door менее мрачен, чем Disintegration.", "highlight": ["less dark than"] },
-        { "en": "The last album is less intense than this one.", "ru": "Прошлый альбом менее интенсивный, чем этот.", "highlight": ["less intense than"] },
-        { "en": "This song is less atmospheric than the previous one.", "ru": "Эта песня менее атмосферна, чем предыдущая.", "highlight": ["less atmospheric than"] },
-        { "en": "The production is less clear than on the last album.", "ru": "Продакшн менее чёткий, чем на прошлом альбоме.", "highlight": ["less clear than"] }
+        { "en": "The Head on the Door is less dark than Disintegration.", "ru": "The Head on the Door менее мрачен, чем Disintegration — и это заметно.", "highlight": ["less dark than"] },
+        { "en": "The last album is less intense than this one.", "ru": "Прошлый альбом менее интенсивный, чем этот — и это очевидно.", "highlight": ["less intense than"] },
+        { "en": "This song is less atmospheric than the previous one.", "ru": "Эта песня менее атмосферна, чем предыдущая — но она всё равно цепляет.", "highlight": ["less atmospheric than"] },
+        { "en": "The production is less clear than on the last album.", "ru": "Продакшн менее чёткий, чем на прошлом альбоме — и это раздражает.", "highlight": ["less clear than"] }
       ]
     },
     {
       "group": "Сравнение эпох",
       "items": [
-        { "en": "The 80s were better than the 90s for The Cure.", "ru": "80-е были лучше для The Cure, чем 90-е.", "highlight": ["better than"] },
-        { "en": "Disintegration is more successful than Wish.", "ru": "Disintegration более успешный, чем Wish.", "highlight": ["more successful than"] },
-        { "en": "It's the most important album of their career.", "ru": "Это самый важный альбом в их карьере.", "highlight": ["the most important"] },
-        { "en": "It's more influential than anything they've done.", "ru": "Он более влиятельный, чем всё, что они делали.", "highlight": ["more influential than"] }
+        { "en": "The 80s were better than the 90s for The Cure.", "ru": "80-е были лучше для The Cure, чем 90-е — и это факт.", "highlight": ["better than"] },
+        { "en": "Disintegration is more successful than Wish.", "ru": "Disintegration более успешный, чем Wish — и это статистика.", "highlight": ["more successful than"] },
+        { "en": "It's the most important album of their career.", "ru": "Это самый важный альбом в их карьере — и это неоспоримо.", "highlight": ["the most important"] },
+        { "en": "It's more influential than anything they've done.", "ru": "Он более влиятельный, чем всё, что они делали — и это наследие.", "highlight": ["more influential than"] }
       ]
     }
   ],

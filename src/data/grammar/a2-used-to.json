@@ -1,16 +1,16 @@
 {
-  "variant": "classic",
   "slug": "a2-used-to",
   "level": "A2",
-  "title": "Used To",
+  "title": "Used to — язык памяти и перемен",
   "category": "Grammar",
   "readingTime": 7,
-  "summary": "Used to — для выражения прошлых привычек и состояний. В этом уроке — Джордж Элиот и её роман «Миддлмарч».",
+  "summary": "Джордж Элиот написала «Миддлмарч» в 1871 году. Доротея Брук живёт в маленьком городке. Она привыкла к тихой жизни. Она привыкла к правилам. Но всё меняется. Used to — это не просто грамматика. Это язык перемен. Язык того, что было, но прошло.",
+  "variant": "classic",
   "idea": [
-    "1871 год. Джордж Элиот пишет «Миддлмарч». Доротея Брук живёт в маленьком городке. Она привыкла к тихой жизни. Она привыкла к правилам. Но всё меняется. «I used to live in a quiet town. I used to believe in simple things. I didn't use to think about change.» Used to — язык привычек и перемен. Как в жизни. Как в литературе.",
-    "Used to — это способ говорить о прошлых привычках и состояниях. «I used to live in London» — я раньше жил в Лондоне (сейчас нет). «She used to be a teacher» — она раньше была учительницей (сейчас нет). «We didn't use to have much money» — раньше у нас не было много денег (сейчас есть). Used to показывает, что изменилось.",
-    "Элиот знала: перемены — это драма. Доротея привыкла к одному, но жизнь изменилась. Used to помогает показать это. Как в жизни. Как в литературе."
-  ],
+    "1871 год. Джордж Элиот пишет «Миддлмарч». Доротея Брук — молодая женщина. Она живёт в маленьком городке. Она привыкла к тихой жизни. Она привыкла к правилам. «I used to live in a quiet town» — я раньше жила в тихом городке. «I used to believe in simple things» — я раньше верила в простые вещи. «I didn't use to think about change» — я раньше не думала о переменах.",
+    "Used to — это не просто грамматика. Это язык перемен. Доротея меняется. Она выходит замуж. Она разочаровывается. Она понимает, что жизнь не такая, как она привыкла. «I used to be naive» — я раньше была наивной. «Now I am wise» — теперь я мудра.",
+    "Элиот показывает: used to — это контраст между прошлом и настоящим. «She used to believe in love» — она раньше верила в любовь. «She used to trust people» — она раньше доверяла людям. Но всё изменилось. Used to — это память о том, что было. И напоминание о том, что есть сейчас."
+    ],
   "why": [
     "Говорить о прошлых привычках: «I used to live in London.»",
     "Говорить о прошлых состояниях: «She used to be a teacher.»",
@@ -19,11 +19,11 @@
   ],
   "context": {
     "lines": [
-      { "en": "Dorothea: I used to live in a quiet town. I used to believe in simple things.", "ru": "Я раньше жила в тихом городке. Я раньше верила в простые вещи." },
-      { "en": "Friend: Did you use to dream about a different life?", "ru": "Ты раньше мечтала о другой жизни?" },
-      { "en": "Dorothea: Yes. I used to dream about adventure. But I didn't use to think about change.", "ru": "Да. Я раньше мечтала о приключениях. Но я не думала о переменах." },
-      { "en": "Friend: And now? Do you still dream?", "ru": "А сейчас? Ты всё ещё мечтаешь?" },
-      { "en": "Dorothea: Now I know that life changes. I used to be naive. Now I am wise.", "ru": "Теперь я знаю, что жизнь меняется. Я раньше была наивной. Теперь я мудра." }
+      { "en": "Dorothea: I used to live in a quiet town. I used to believe in simple things.", "ru": "Доротея: Я раньше жила в тихом городке. Я раньше верила в простые вещи." },
+      { "en": "Friend: Did you use to dream about a different life?", "ru": "Подруга: Ты раньше мечтала о другой жизни?" },
+      { "en": "Dorothea: Yes. I used to dream about adventure. Now I know life changes.", "ru": "Доротея: Да. Я раньше мечтала о приключениях. Теперь я знаю, что жизнь меняется." },
+      { "en": "Friend: And now? Do you still dream?", "ru": "Подруга: А сейчас? Ты всё ещё мечтаешь?" },
+      { "en": "Dorothea: Now I am wise. I used to be naive. But I don't regret it.", "ru": "Доротея: Теперь я мудра. Я раньше была наивной. Но я не жалею об этом." }
     ],
     "note": "Доротея говорит о своей жизни. Used to в действии."
   },
@@ -42,7 +42,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму used to:",
+      "prompt": "Вставь правильную форму used to (как в истории с «Миддлмарчем»):",
       "items": [
         { "q": "I ___ (live) in a quiet town.", "a": "used to live" },
         { "q": "She ___ (be) a teacher.", "a": "used to be" },
@@ -82,55 +82,55 @@
     {
       "group": "Прошлые привычки",
       "items": [
-        { "en": "I used to live in a quiet town.", "ru": "Я раньше жил в тихом городке.", "highlight": ["used to live"] },
-        { "en": "She used to walk in the fields every day.", "ru": "Она раньше гуляла по полям каждый день.", "highlight": ["used to walk"] },
-        { "en": "They used to have dinner at 6 o'clock.", "ru": "Они раньше ужинали в 6 часов.", "highlight": ["used to have"] },
-        { "en": "We used to read books in the garden.", "ru": "Мы раньше читали книги в саду.", "highlight": ["used to read"] }
+        { "en": "I used to live in a quiet town.", "ru": "Я раньше жил в тихом городке — и это было спокойно.", "highlight": ["used to live"] },
+        { "en": "She used to walk in the fields every day.", "ru": "Она раньше гуляла по полям каждый день — и это было её счастье.", "highlight": ["used to walk"] },
+        { "en": "They used to have dinner at 6 o'clock.", "ru": "Они раньше ужинали в 6 часов — и это было традицией.", "highlight": ["used to have"] },
+        { "en": "We used to read books in the garden.", "ru": "Мы раньше читали книги в саду — и это было наше время.", "highlight": ["used to read"] }
       ]
     },
     {
       "group": "Прошлые состояния",
       "items": [
-        { "en": "I used to be naive.", "ru": "Я раньше был наивным.", "highlight": ["used to be"] },
-        { "en": "She used to be a teacher.", "ru": "Она раньше была учительницей.", "highlight": ["used to be"] },
-        { "en": "They used to be happy.", "ru": "Они раньше были счастливы.", "highlight": ["used to be"] },
-        { "en": "He used to believe in simple things.", "ru": "Он раньше верил в простые вещи.", "highlight": ["used to believe"] }
+        { "en": "I used to be naive.", "ru": "Я раньше был наивным — и я об этом не жалею.", "highlight": ["used to be"] },
+        { "en": "She used to be a teacher.", "ru": "Она раньше была учительницей — и она была хорошей.", "highlight": ["used to be"] },
+        { "en": "They used to be happy.", "ru": "Они раньше были счастливы — и они это помнят.", "highlight": ["used to be"] },
+        { "en": "He used to believe in simple things.", "ru": "Он раньше верил в простые вещи — и это было прекрасно.", "highlight": ["used to believe"] }
       ]
     },
     {
       "group": "Отрицания",
       "items": [
-        { "en": "I didn't use to think about change.", "ru": "Я раньше не думал о переменах.", "highlight": ["didn't use to think"] },
-        { "en": "She didn't use to have many friends.", "ru": "У неё раньше не было много друзей.", "highlight": ["didn't use to have"] },
-        { "en": "They didn't use to live in the city.", "ru": "Они раньше не жили в городе.", "highlight": ["didn't use to live"] },
-        { "en": "We didn't use to have much money.", "ru": "У нас раньше не было много денег.", "highlight": ["didn't use to have"] }
+        { "en": "I didn't use to think about change.", "ru": "Я раньше не думал о переменах — и они пришли.", "highlight": ["didn't use to think"] },
+        { "en": "She didn't use to have many friends.", "ru": "У неё раньше не было много друзей — и она страдала.", "highlight": ["didn't use to have"] },
+        { "en": "They didn't use to live in the city.", "ru": "Они раньше не жили в городе — и они его не любили.", "highlight": ["didn't use to live"] },
+        { "en": "We didn't use to have much money.", "ru": "У нас раньше не было много денег — и мы были счастливы.", "highlight": ["didn't use to have"] }
       ]
     },
     {
       "group": "Вопросы",
       "items": [
-        { "en": "Did you use to live in London?", "ru": "Ты раньше жил в Лондоне?", "highlight": ["Did you use to"] },
-        { "en": "Did she use to be a teacher?", "ru": "Она раньше была учительницей?", "highlight": ["Did she use to"] },
-        { "en": "Did they use to have dinner at 6?", "ru": "Они раньше ужинали в 6?", "highlight": ["Did they use to"] },
-        { "en": "Did you use to believe in simple things?", "ru": "Ты раньше верил в простые вещи?", "highlight": ["Did you use to"] }
+        { "en": "Did you use to live in London?", "ru": "Ты раньше жил в Лондоне? — Я хочу знать.", "highlight": ["Did you use to"] },
+        { "en": "Did she use to be a teacher?", "ru": "Она раньше была учительницей? — Она была замечательной.", "highlight": ["Did she use to"] },
+        { "en": "Did they use to have dinner at 6?", "ru": "Они раньше ужинали в 6? — Это был их ритуал.", "highlight": ["Did they use to"] },
+        { "en": "Did you use to believe in simple things?", "ru": "Ты раньше верил в простые вещи? — И я тоже.", "highlight": ["Did you use to"] }
       ]
     },
     {
       "group": "Изменения в жизни",
       "items": [
-        { "en": "I used to smoke, but I quit.", "ru": "Я раньше курил, но бросил.", "highlight": ["used to"] },
-        { "en": "She used to be shy, but now she's confident.", "ru": "Она раньше была застенчивой, но теперь уверена.", "highlight": ["used to"] },
-        { "en": "We used to live in a small house, but now we have a big one.", "ru": "Мы раньше жили в маленьком доме, но теперь у нас большой.", "highlight": ["used to"] },
-        { "en": "He used to work in a factory, but now he's a writer.", "ru": "Он раньше работал на фабрике, но теперь он писатель.", "highlight": ["used to"] }
+        { "en": "I used to smoke, but I quit.", "ru": "Я раньше курил, но бросил — и это было трудно.", "highlight": ["used to"] },
+        { "en": "She used to be shy, but now she's confident.", "ru": "Она раньше была застенчивой, но теперь уверена — и это видно.", "highlight": ["used to"] },
+        { "en": "We used to live in a small house, but now we have a big one.", "ru": "Мы раньше жили в маленьком доме, но теперь у нас большой — и мы счастливы.", "highlight": ["used to"] },
+        { "en": "He used to work in a factory, but now he's a writer.", "ru": "Он раньше работал на фабрике, но теперь он писатель — и он счастлив.", "highlight": ["used to"] }
       ]
     },
     {
       "group": "То, чего не было раньше",
       "items": [
-        { "en": "We didn't use to have a car.", "ru": "У нас раньше не было машины.", "highlight": ["didn't use to have"] },
-        { "en": "She didn't use to like reading.", "ru": "Она раньше не любила читать.", "highlight": ["didn't use to like"] },
-        { "en": "They didn't use to travel.", "ru": "Они раньше не путешествовали.", "highlight": ["didn't use to travel"] },
-        { "en": "I didn't use to think about the future.", "ru": "Я раньше не думал о будущем.", "highlight": ["didn't use to think"] }
+        { "en": "We didn't use to have a car.", "ru": "У нас раньше не было машины — и мы ходили пешком.", "highlight": ["didn't use to have"] },
+        { "en": "She didn't use to like reading.", "ru": "Она раньше не любила читать — но теперь не оторваться.", "highlight": ["didn't use to like"] },
+        { "en": "They didn't use to travel.", "ru": "Они раньше не путешествовали — но теперь они везде.", "highlight": ["didn't use to travel"] },
+        { "en": "I didn't use to think about the future.", "ru": "Я раньше не думал о будущем — но теперь я планирую.", "highlight": ["didn't use to think"] }
       ]
     }
   ],

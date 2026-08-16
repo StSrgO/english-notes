@@ -1,16 +1,16 @@
 {
-  "variant": "rocknroll",
   "slug": "a2-some-any-much-many",
   "level": "A2",
-  "title": "Some, Any, Much, Many",
+  "title": "Some, Any, Much, Many — язык количества",
   "category": "Grammar",
   "readingTime": 7,
-  "summary": "Some, any, much, many — слова для выражения количества. В этом уроке — The Kinks и их хит «You Really Got Me».",
+  "summary": "The Kinks записали 'You Really Got Me' в 1964 году. Рэй Дэвис — молодой, голодный, злой. У группы нет денег. Нет фанатов. Нет будущего. Some, any, much, many — это язык выживания. Язык того, как мы считаем свои шансы.",
+  "variant": "rocknroll",
   "idea": [
-    "1964 год. The Kinks записывают «You Really Got Me». Рэй Дэвис поёт: «You really got me. You got me so I don't know what I'm doing.» У них есть энергия. У них есть фанаты. У них есть песни. «We have some fans. Do we have any new songs? How much energy do we have? How many shows will we play?» Some, any, much, many — язык количества. Как у Фаулза. Как в роке.",
-    "Some, any, much, many — это способ говорить о количестве. «We have some fans» — у нас есть немного фанатов (утверждение). «Do you have any new songs?» — у вас есть новые песни? (вопрос). «I don't have any energy» — у меня нет энергии (отрицание). «How much energy do we have?» — сколько у нас энергии? (неисчисляемое). «How many shows?» — сколько концертов? (исчисляемое).",
-    "The Kinks знали: количество — это энергия. У группы есть некоторое количество фанатов, но они хотят больше. У них есть песни, но они хотят новых. Some, any, much, many помогают показать это. Как в жизни. Как в музыке."
-  ],
+    "Рэй Дэвис — молодой, голодный, злой. У группы нет денег. Нет фанатов. Нет будущего. «We have some fans» — у нас есть немного фанатов. «Do we have any new songs?» — у нас есть новые песни? «How much energy do we have?» — сколько у нас энергии? «How many shows will we play?» — сколько концертов мы сыграем?",
+    "Some, any, much, many — это язык выживания. The Kinks считают всё: деньги, билеты, фанатов, песни. «We need some hits» — нам нужны хиты. «We don't have any money» — у нас нет денег. «How much time do we have?» — сколько у нас времени? «How many chances?» — сколько шансов?",
+    "Рэй Дэвис знал: если ты не считаешь, ты проигрываешь. «We have some songs. Do we have any hits? How much energy? How many shows?» Это не просто вопросы. Это стратегия. Это выживание."
+    ],
   "why": [
     "Говорить о количестве: «We have some fans.»",
     "Спрашивать о количестве: «Do you have any new songs?»",
@@ -20,11 +20,11 @@
   ],
   "context": {
     "lines": [
-      { "en": "Ray: We have some fans. But do we have any new songs?", "ru": "У нас есть немного фанатов. Но у нас есть новые песни?" },
-      { "en": "Band: We have some ideas. How much energy do we have?", "ru": "У нас есть немного идей. Сколько у нас энергии?" },
-      { "en": "Ray: A lot! We can play many shows. How many shows will we play?", "ru": "Много! Мы можем сыграть много концертов. Сколько концертов мы сыграем?" },
-      { "en": "Band: We don't have any doubts. We have some hits.", "ru": "У нас нет сомнений. У нас есть немного хитов." },
-      { "en": "Ray: And we have many fans. Let's play!", "ru": "И у нас много фанатов. Давайте играть!" }
+      { "en": "Ray: We have some fans. Do we have any new songs?", "ru": "Рэй: У нас есть немного фанатов. У нас есть новые песни?" },
+      { "en": "Band: We have some ideas. How much energy do we have?", "ru": "Группа: У нас есть идеи. Сколько у нас энергии?" },
+      { "en": "Ray: A lot! How many shows will we play?", "ru": "Рэй: Много! Сколько концертов мы сыграем?" },
+      { "en": "Band: We don't have any doubts. We have some hits.", "ru": "Группа: У нас нет сомнений. У нас есть хиты." },
+      { "en": "Ray: How many fans? How much time? We need to know.", "ru": "Рэй: Сколько фанатов? Сколько времени? Нам нужно знать." }
     ],
     "note": "Группа обсуждает планы. Some/any/much/many в действии."
   },
@@ -46,7 +46,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильное слово: some, any, much, many:",
+      "prompt": "Вставь правильное слово (как в истории с The Kinks):",
       "items": [
         { "q": "We have ___ fans.", "a": "some" },
         { "q": "Do you have ___ new songs?", "a": "any" },
@@ -87,55 +87,55 @@
     {
       "group": "Some — утверждения",
       "items": [
-        { "en": "We have some fans.", "ru": "У нас есть немного фанатов.", "highlight": ["some"] },
-        { "en": "They have some new songs.", "ru": "У них есть новые песни.", "highlight": ["some"] },
-        { "en": "We have some energy left.", "ru": "У нас осталось немного энергии.", "highlight": ["some"] },
-        { "en": "I need some time to write.", "ru": "Мне нужно время, чтобы написать.", "highlight": ["some"] }
+        { "en": "We have some fans.", "ru": "У нас есть немного фанатов — и это только начало.", "highlight": ["some"] },
+        { "en": "They have some new songs.", "ru": "У них есть новые песни — и они звучат отлично.", "highlight": ["some"] },
+        { "en": "We have some energy left.", "ru": "У нас осталось немного энергии — мы почти на месте.", "highlight": ["some"] },
+        { "en": "I need some time to write.", "ru": "Мне нужно время, чтобы написать — и я его найду.", "highlight": ["some"] }
       ]
     },
     {
       "group": "Any — вопросы",
       "items": [
-        { "en": "Do you have any new songs?", "ru": "У вас есть новые песни?", "highlight": ["any"] },
-        { "en": "Does she have any fans?", "ru": "У неё есть фанаты?", "highlight": ["any"] },
-        { "en": "Do they have any energy?", "ru": "У них есть энергия?", "highlight": ["any"] },
-        { "en": "Do you have any questions?", "ru": "У вас есть вопросы?", "highlight": ["any"] }
+        { "en": "Do you have any new songs?", "ru": "У вас есть новые песни? — Я хочу их услышать.", "highlight": ["any"] },
+        { "en": "Does she have any fans?", "ru": "У неё есть фанаты? — Она их заслуживает.", "highlight": ["any"] },
+        { "en": "Do they have any energy?", "ru": "У них есть энергия? — Они её тратят на музыку.", "highlight": ["any"] },
+        { "en": "Do you have any questions?", "ru": "У вас есть вопросы? — Я готов ответить.", "highlight": ["any"] }
       ]
     },
     {
       "group": "Any — отрицания",
       "items": [
-        { "en": "I don't have any energy.", "ru": "У меня нет энергии.", "highlight": ["any"] },
-        { "en": "They don't have any fans.", "ru": "У них нет фанатов.", "highlight": ["any"] },
-        { "en": "We don't have any time.", "ru": "У нас нет времени.", "highlight": ["any"] },
-        { "en": "She doesn't have any doubts.", "ru": "У неё нет сомнений.", "highlight": ["any"] }
+        { "en": "I don't have any energy.", "ru": "У меня нет энергии — и я устал.", "highlight": ["any"] },
+        { "en": "They don't have any fans.", "ru": "У них нет фанатов — но они не сдаются.", "highlight": ["any"] },
+        { "en": "We don't have any time.", "ru": "У нас нет времени — мы должны успеть.", "highlight": ["any"] },
+        { "en": "She doesn't have any doubts.", "ru": "У неё нет сомнений — и она права.", "highlight": ["any"] }
       ]
     },
     {
       "group": "Much — неисчисляемые",
       "items": [
-        { "en": "How much energy do you have?", "ru": "Сколько у вас энергии?", "highlight": ["much"] },
-        { "en": "I don't have much time.", "ru": "У меня мало времени.", "highlight": ["much"] },
-        { "en": "How much money did you make?", "ru": "Сколько денег вы заработали?", "highlight": ["much"] },
-        { "en": "We don't have much patience.", "ru": "У нас мало терпения.", "highlight": ["much"] }
+        { "en": "How much energy do you have?", "ru": "Сколько у вас энергии? — Мы полны сил.", "highlight": ["much"] },
+        { "en": "I don't have much time.", "ru": "У меня мало времени — и я спешу.", "highlight": ["much"] },
+        { "en": "How much money did you make?", "ru": "Сколько денег вы заработали? — Мы считаем каждый фунт.", "highlight": ["much"] },
+        { "en": "We don't have much patience.", "ru": "У нас мало терпения — и мы хотим играть.", "highlight": ["much"] }
       ]
     },
     {
       "group": "Many — исчисляемые",
       "items": [
-        { "en": "How many fans do you have?", "ru": "Сколько у вас фанатов?", "highlight": ["many"] },
-        { "en": "I have many ideas.", "ru": "У меня много идей.", "highlight": ["many"] },
-        { "en": "How many shows will you play?", "ru": "Сколько концертов вы сыграете?", "highlight": ["many"] },
-        { "en": "They have many hits.", "ru": "У них много хитов.", "highlight": ["many"] }
+        { "en": "How many fans do you have?", "ru": "Сколько у вас фанатов? — Мы считаем каждого.", "highlight": ["many"] },
+        { "en": "I have many ideas.", "ru": "У меня много идей — и я хочу их реализовать.", "highlight": ["many"] },
+        { "en": "How many shows will you play?", "ru": "Сколько концертов вы сыграете? — Мы считаем каждый.", "highlight": ["many"] },
+        { "en": "They have many hits.", "ru": "У них много хитов — и каждый из них звучит.", "highlight": ["many"] }
       ]
     },
     {
       "group": "Сравнение much и many",
       "items": [
-        { "en": "How much time? (time — неисчисляемое)", "ru": "Сколько времени? (время — неисчисляемое)", "highlight": ["much"] },
-        { "en": "How many fans? (fans — исчисляемое)", "ru": "Сколько фанатов? (фанаты — исчисляемое)", "highlight": ["many"] },
-        { "en": "I don't have much energy. (energy — неисчисляемое)", "ru": "У меня мало энергии. (энергия — неисчисляемое)", "highlight": ["much"] },
-        { "en": "I have many songs. (songs — исчисляемое)", "ru": "У меня много песен. (песни — исчисляемое)", "highlight": ["many"] }
+        { "en": "How much time? (time — uncountable)", "ru": "Сколько времени? — Время неисчисляемо.", "highlight": ["much"] },
+        { "en": "How many fans? (fans — countable)", "ru": "Сколько фанатов? — Они исчисляемы.", "highlight": ["many"] },
+        { "en": "I don't have much energy. (energy — uncountable)", "ru": "У меня мало энергии — она неисчисляема.", "highlight": ["much"] },
+        { "en": "I have many songs. (songs — countable)", "ru": "У меня много песен — они исчисляемы.", "highlight": ["many"] }
       ]
     }
   ],
@@ -150,13 +150,12 @@
   "compare": {
     "title": "Some vs Any vs Much vs Many",
     "leftLabel": "Some (утверждение)",
-    "centerLabel": "Any (вопрос/отрицание)",
     "rightLabel": "Much/Many (количество)",
     "rows": [
-      { "left": "We have some fans.", "right": "Do you have any fans?", "center": "How many fans?" },
-      { "left": "We have some energy.", "right": "Do you have any energy?", "center": "How much energy?" },
-      { "left": "We have some songs.", "right": "We don't have any songs.", "center": "How many songs?" },
-      { "left": "We have some time.", "right": "We don't have any time.", "center": "How much time?" }
+      { "left": "We have some fans.", "right": "Do you have any fans?" },
+      { "left": "We have some energy.", "right": "Do you have any energy?" },
+      { "left": "We have some songs.", "right": "We don't have any songs." },
+      { "left": "We have some time.", "right": "We don't have any time." }
     ]
   },
   "tips": [

@@ -1,15 +1,15 @@
 {
-  "variant": "rocknroll",
   "slug": "a2-prepositions-in-on-at",
   "level": "A2",
-  "title": "Prepositions: In, On, At",
+  "title": "Prepositions: In, On, At — язык места и времени",
   "category": "Grammar",
   "readingTime": 7,
-  "summary": "Предлоги in, on, at для указания места и времени. В этом уроке — Blondie и их хит «Heart of Glass».",
+  "summary": "Blondie записали 'Heart of Glass' в 1978 году. Дебби Харри поёт: «Once I had a love and it was a gas. Soon turned out had a heart of glass.» Предлоги in, on, at — это язык сцены. Язык клуба. Язык того, где мы находимся и что чувствуем.",
+  "variant": "rocknroll",
   "idea": [
-    "1978 год. Blondie записывают «Heart of Glass». Дебби Харри поёт: «Once I had a love and it was a gas. Soon turned out had a heart of glass.» Предлоги in, on, at в тексте. «In the morning. On the dance floor. At the party.» Предлоги помогают описать место и время. Как у Форстера. Как в роке.",
-    "Предлоги in, on, at — это способ говорить о месте и времени. «In the club» — в клубе (внутри). «On the dance floor» — на танцполе (поверхность). «At the party» — на вечеринке (точка). «In the morning» — утром (время). «On Saturday night» — в субботу вечером. «At midnight» — в полночь. Они помогают нам ориентироваться в пространстве и времени.",
-    "Blondie знали: предлоги — это ритм песни. Они показывают, где и когда что-то происходит. «In the city. On the stage. At the club.» Как в жизни. Как в музыке."
+    "В «Heart of Glass» поется «Once I had a love and it was a gas. Soon turned out had a heart of glass.» Это песня о диско-эпохе. О клубах, вечеринках, танцполах. «In the morning» — утром. «On the dance floor» — на танцполе. «At the party» — на вечеринке.",
+    "Предлоги in, on, at — это язык сцены. «In the club» — внутри клуба. «On the stage» — на сцене. «At the concert» — на концерте. Они показывают, где происходит действие. Где мы находимся. Куда мы идём.",
+    "Blondie знали: предлоги создают атмосферу. «In the morning» — утро, начало. «On Saturday night» — субботняя ночь, пик. «At midnight» — полночь, кульминация. Каждый предлог — это время. Место. Настроение."
   ],
   "why": [
     "Говорить о месте: «She is in the club.»",
@@ -19,11 +19,11 @@
   ],
   "context": {
     "lines": [
-      { "en": "Debbie: I am in the studio. I am singing on the microphone.", "ru": "Я в студии. Я пою в микрофон." },
-      { "en": "Band: Are we on stage tonight?", "ru": "Мы на сцене сегодня?" },
-      { "en": "Debbie: Yes. At 9 o'clock. In the evening.", "ru": "Да. В 9 часов. Вечером." },
-      { "en": "Band: Where is the concert?", "ru": "Где концерт?" },
-      { "en": "Debbie: At the club in New York. On Saturday night.", "ru": "В клубе в Нью-Йорке. В субботу вечером." }
+      { "en": "Debbie: I am in the studio. I am singing on the microphone.", "ru": "Дебби: Я в студии. Я пою в микрофон." },
+      { "en": "Band: Are we on stage tonight?", "ru": "Группа: Мы на сцене сегодня?" },
+      { "en": "Debbie: At 9 o'clock. In the evening. On Saturday night.", "ru": "Дебби: В 9 часов. Вечером. В субботу ночью." },
+      { "en": "Band: At the club in New York?", "ru": "Группа: В клубе в Нью-Йорке?" },
+      { "en": "Debbie: Yes. At the club. On the dance floor. In the moment.", "ru": "Дебби: Да. В клубе. На танцполе. В моменте." }
     ],
     "note": "Группа обсуждает концерт. In/on/at в действии."
   },
@@ -42,7 +42,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильный предлог: in, on, at:",
+      "prompt": "Вставь правильный предлог (как в истории с Blondie):",
       "items": [
         { "q": "She is ___ the club.", "a": "in" },
         { "q": "The band is ___ the stage.", "a": "on" },
@@ -86,55 +86,55 @@
     {
       "group": "Место (in)",
       "items": [
-        { "en": "She is in the studio.", "ru": "Она в студии.", "highlight": ["in"] },
-        { "en": "He is in New York.", "ru": "Он в Нью-Йорке.", "highlight": ["in"] },
-        { "en": "The fans are in the crowd.", "ru": "Фанаты в толпе.", "highlight": ["in"] },
-        { "en": "The guitars are in the van.", "ru": "Гитары в фургоне.", "highlight": ["in"] }
+        { "en": "She is in the studio.", "ru": "Она в студии — и записывает свой шедевр.", "highlight": ["in"] },
+        { "en": "He is in New York.", "ru": "Он в Нью-Йорке — и он живёт мечтой.", "highlight": ["in"] },
+        { "en": "The fans are in the crowd.", "ru": "Фанаты в толпе — и они поют вместе с группой.", "highlight": ["in"] },
+        { "en": "The guitars are in the van.", "ru": "Гитары в фургоне — и они готовы к концерту.", "highlight": ["in"] }
       ]
     },
     {
       "group": "Место (on)",
       "items": [
-        { "en": "The band is on the stage.", "ru": "Группа на сцене.", "highlight": ["on"] },
-        { "en": "The record is on the turntable.", "ru": "Пластинка на проигрывателе.", "highlight": ["on"] },
-        { "en": "She is dancing on the dance floor.", "ru": "Она танцует на танцполе.", "highlight": ["on"] },
-        { "en": "The guitar is on the stand.", "ru": "Гитара на подставке.", "highlight": ["on"] }
+        { "en": "The band is on the stage.", "ru": "Группа на сцене — и они рвут в клочья.", "highlight": ["on"] },
+        { "en": "The record is on the turntable.", "ru": "Пластинка на проигрывателе — и она звучит.", "highlight": ["on"] },
+        { "en": "She is dancing on the dance floor.", "ru": "Она танцует на танцполе — и она свободна.", "highlight": ["on"] },
+        { "en": "The guitar is on the stand.", "ru": "Гитара на подставке — и она ждёт своего часа.", "highlight": ["on"] }
       ]
     },
     {
       "group": "Место (at)",
       "items": [
-        { "en": "I am at the club.", "ru": "Я в клубе.", "highlight": ["at"] },
-        { "en": "She is at the party.", "ru": "Она на вечеринке.", "highlight": ["at"] },
-        { "en": "He is at the concert.", "ru": "Он на концерте.", "highlight": ["at"] },
-        { "en": "They are at the bar.", "ru": "Они в баре.", "highlight": ["at"] }
+        { "en": "I am at the club.", "ru": "Я в клубе — и я здесь, чтобы танцевать.", "highlight": ["at"] },
+        { "en": "She is at the party.", "ru": "Она на вечеринке — и она звезда.", "highlight": ["at"] },
+        { "en": "He is at the concert.", "ru": "Он на концерте — и он в восторге.", "highlight": ["at"] },
+        { "en": "They are at the bar.", "ru": "Они в баре — и они пьют за музыку.", "highlight": ["at"] }
       ]
     },
     {
       "group": "Время (in)",
       "items": [
-        { "en": "In the morning, she writes songs.", "ru": "Утром она пишет песни.", "highlight": ["In"] },
-        { "en": "In 1978, the song was recorded.", "ru": "В 1978 году песня была записана.", "highlight": ["In"] },
-        { "en": "In July, they go on tour.", "ru": "В июле они отправляются в тур.", "highlight": ["In"] },
-        { "en": "In the evening, they play at the club.", "ru": "Вечером они играют в клубе.", "highlight": ["In"] }
+        { "en": "In the morning, she writes songs.", "ru": "Утром она пишет песни — и это её время.", "highlight": ["In"] },
+        { "en": "In 1978, the song was recorded.", "ru": "В 1978 году песня была записана — и она стала хитом.", "highlight": ["In"] },
+        { "en": "In July, they go on tour.", "ru": "В июле они отправляются в тур — и они готовы.", "highlight": ["In"] },
+        { "en": "In the evening, they play at the club.", "ru": "Вечером они играют в клубе — и это шоу.", "highlight": ["In"] }
       ]
     },
     {
       "group": "Время (on)",
       "items": [
-        { "en": "On Saturday, they play at the club.", "ru": "В субботу они играют в клубе.", "highlight": ["On"] },
-        { "en": "On Saturday night, the party starts.", "ru": "В субботу вечером начинается вечеринка.", "highlight": ["On"] },
-        { "en": "On the 15th of June, they record.", "ru": "15 июня они записывают.", "highlight": ["On"] },
-        { "en": "On the evening of the show, she was nervous.", "ru": "Вечером перед шоу она нервничала.", "highlight": ["On"] }
+        { "en": "On Saturday, they play at the club.", "ru": "В субботу они играют в клубе — и это главное событие.", "highlight": ["On"] },
+        { "en": "On Saturday night, the party starts.", "ru": "В субботу вечером начинается вечеринка — и это самый разгар.", "highlight": ["On"] },
+        { "en": "On the 15th of June, they record.", "ru": "15 июня они записывают — и это будет легенда.", "highlight": ["On"] },
+        { "en": "On the evening of the show, she was nervous.", "ru": "Вечером перед шоу она нервничала — и это было заметно.", "highlight": ["On"] }
       ]
     },
     {
       "group": "Время (at)",
       "items": [
-        { "en": "At 9 o'clock, they go on stage.", "ru": "В 9 часов они выходят на сцену.", "highlight": ["At"] },
-        { "en": "At midnight, the party ends.", "ru": "В полночь вечеринка заканчивается.", "highlight": ["At"] },
-        { "en": "At the moment, she is singing.", "ru": "В данный момент она поёт.", "highlight": ["At"] },
-        { "en": "At night, the city is alive.", "ru": "Ночью город жив.", "highlight": ["At"] }
+        { "en": "At 9 o'clock, they go on stage.", "ru": "В 9 часов они выходят на сцену — и это момент.", "highlight": ["At"] },
+        { "en": "At midnight, the party ends.", "ru": "В полночь вечеринка заканчивается — но музыка остаётся.", "highlight": ["At"] },
+        { "en": "At the moment, she is singing.", "ru": "В данный момент она поёт — и она в своей стихии.", "highlight": ["At"] },
+        { "en": "At night, the city is alive.", "ru": "Ночью город жив — и он пульсирует в ритме музыки.", "highlight": ["At"] }
       ]
     }
   ],
@@ -149,13 +149,12 @@
   "compare": {
     "title": "In vs On vs At",
     "leftLabel": "In (внутри / время)",
-    "centerLabel": "On (поверхность / день)",
     "rightLabel": "At (точка / время)",
     "rows": [
-      { "left": "She is in the studio.", "right": "The band is on the stage.", "center": "I am at the club." },
-      { "left": "In July.", "right": "On Saturday.", "center": "At 9 o'clock." },
-      { "left": "In New York.", "right": "On the dance floor.", "center": "At the party." },
-      { "left": "In the morning.", "right": "On Saturday night.", "center": "At night." }
+      { "left": "She is in the studio.", "right": "The band is on the stage." },
+      { "left": "In July.", "right": "On Saturday." },
+      { "left": "In New York.", "right": "On the dance floor." },
+      { "left": "In the morning.", "right": "On Saturday night." }
     ]
   },
   "tips": [

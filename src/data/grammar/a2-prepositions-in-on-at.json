@@ -1,16 +1,16 @@
 {
-  "variant": "classic",
   "slug": "a2-prepositions-in-on-at",
   "level": "A2",
-  "title": "Prepositions: In, On, At",
+  "title": "Prepositions: In, On, At — язык места и времени",
   "category": "Grammar",
   "readingTime": 7,
-  "summary": "Предлоги in, on, at для указания места и времени. В этом уроке — Э.М. Форстер и его роман «Комната с видом».",
+  "summary": "Э.М. Форстер написал «Комнату с видом» в 1908 году. Люси Ханичерч путешествует по Италии. Она сидит in a room. Она смотрит on the view. She is at the hotel. Предлоги in, on, at — это не просто слова. Это карта мира. Они показывают, где мы находимся, куда мы движемся и что для нас важно.",
+  "variant": "classic",
   "idea": [
-    "1908 год. Э.М. Форстер пишет «Комнату с видом». Люси Ханичерч путешествует по Италии. Она сидит in a room. Она смотрит on the view. She is at the hotel. Предлоги помогают описать место и время. «In Florence. On the hill. At the party.» Форстер использует их, чтобы создать атмосферу.",
-    "Предлоги in, on, at — это способ говорить о месте и времени. «In a room» — внутри комнаты (место). «On the view» — на виду (поверхность). «At the hotel» — в отеле (точка). «In the morning» — утром (время). «On Monday» — в понедельник. «At 5 o'clock» — в 5 часов. Они помогают нам ориентироваться в пространстве и времени.",
-    "Форстер знал: предлоги — это карта мира. Они показывают, где и когда что-то происходит. «In Italy. On the hill. At the party.» Как в жизни. Как в литературе."
-  ],
+    "1908 год. Э.М. Форстер пишет «Комнату с видом». Люси Ханичерч — молодая англичанка. Она путешествует по Италии. Она сидит in a room. Не в городе, не в стране — именно в комнате. Она смотрит on the view. Не за view, не под view — именно на вид. She is at the hotel. Не in (внутри), а at — в этом месте, в этой точке.",
+    "Форстер использует предлоги, чтобы показать, где находится героиня. «In Florence» — во Флоренции (внутри города). «On the hill» — на холме (поверхность). «At the party» — на вечеринке (в точке). Каждый предлог — это указатель. Он говорит: «Ты здесь». Или: «Ты там».",
+    "In, on, at — это не просто грамматика. Это способ ориентироваться в пространстве. «She is in a room» — внутри. «The book is on the table» — на поверхности. «I am at the hotel» — в точке. Форстер знал: предлоги создают карту мира. Без них мы потеряемся."
+    ],
   "why": [
     "Говорить о месте: «She is in a room.»",
     "Говорить о времени: «In the morning.»",
@@ -19,11 +19,10 @@
   ],
   "context": {
     "lines": [
-      { "en": "Lucy: I am in a room with a view. I am sitting on the balcony.", "ru": "Я в комнате с видом. Я сижу на балконе." },
-      { "en": "George: I am at the hotel. I am standing on the hill.", "ru": "Я в отеле. Я стою на холме." },
-      { "en": "Lucy: In Florence? On the hill?", "ru": "Во Флоренции? На холме?" },
-      { "en": "George: Yes. At 5 o'clock. In the evening.", "ru": "Да. В 5 часов. Вечером." },
-      { "en": "Lucy: I will meet you at the party. On Friday evening.", "ru": "Я встречу тебя на вечеринке. В пятницу вечером." }
+      { "en": "Lucy: I am in a room with a view. I am sitting on the balcony.", "ru": "Люси: Я в комнате с видом. Я сижу на балконе." },
+      { "en": "George: I am at the hotel. I am standing on the hill.", "ru": "Джордж: Я в отеле. Я стою на холме." },
+      { "en": "Lucy: In Florence? On the hill? At the hotel? Where are you?", "ru": "Люси: Во Флоренции? На холме? В отеле? Где ты?" },
+      { "en": "George: At the party. On Friday evening. In the garden.", "ru": "Джордж: На вечеринке. В пятницу вечером. В саду." }
     ],
     "note": "Люси и Джордж говорят о встрече. In/on/at в действии."
   },
@@ -32,7 +31,7 @@
     "In — внутри: in a room, in the morning.",
     "On — на поверхности: on the table, on Monday.",
     "At — в точке: at the hotel, at 5 o'clock.",
-    "Ошибка: I am in the hotel (если ты внутри здания) и I am at the hotel (если ты рядом с ним)."
+    "Ошибка: I am in the hotel (если ты внутри) и I am at the hotel (если ты рядом с ним)."
   ],
   "howToLearn": {
     "steps": [
@@ -42,7 +41,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильный предлог: in, on, at:",
+      "prompt": "Вставь правильный предлог (как в истории с Форстером):",
       "items": [
         { "q": "She is ___ a room.", "a": "in" },
         { "q": "The book is ___ the table.", "a": "on" },
@@ -53,11 +52,11 @@
       ]
     }
   },
-  "formula": "in + место / время / поверхность\non + поверхность / день\nat + точка / точное время",
+  "formula": "in + место / время / поверхность\non + surface / day\nat + point / exact time",
   "structure": {
-    "positive": "She is in a room.\nThe book is on the table.\nI am at the hotel.",
-    "negative": "She is not in the room.\nThe book is not on the table.\nI am not at the hotel.",
-    "question": "Is she in the room?\nIs the book on the table?\nAre you at the hotel?"
+    "positive": "She is in the studio.\nThe band is on the stage.\nI am at the club.",
+    "negative": "She is not in the studio.\nThe band is not on the stage.\nI am not at the club.",
+    "question": "Is she in the studio?\nIs the band on the stage?\nAre you at the club?"
   },
   "markers": [
     "in",
@@ -69,12 +68,12 @@
     "above"
   ],
   "uses": [
-    "Место (in): «She is in a room.»",
-    "Место (on): «The book is on the table.»",
-    "Место (at): «I am at the hotel.»",
+    "Место (in): «She is in the studio.»",
+    "Место (on): «The band is on the stage.»",
+    "Место (at): «I am at the club.»",
     "Время (in): «In the morning.»",
-    "Время (on): «On Monday.»",
-    "Время (at): «At 5 o'clock.»"
+    "Время (on): «On Saturday.»",
+    "Время (at): «At 9 o'clock.»"
   ],
   "rules": [
     { "title": "In — внутри и время", "text": "In — внутри (in a room, in Italy), с месяцами (in July), с годами (in 1908)." },
@@ -86,55 +85,55 @@
     {
       "group": "Место (in)",
       "items": [
-        { "en": "She is in a room with a view.", "ru": "Она в комнате с видом.", "highlight": ["in"] },
-        { "en": "He is in Florence.", "ru": "Он во Флоренции.", "highlight": ["in"] },
-        { "en": "The children are in the garden.", "ru": "Дети в саду.", "highlight": ["in"] },
-        { "en": "The keys are in the drawer.", "ru": "Ключи в ящике.", "highlight": ["in"] }
+        { "en": "She is in a room with a view.", "ru": "Она в комнате с видом — и этот вид меняет её жизнь.", "highlight": ["in"] },
+        { "en": "He is in Florence.", "ru": "Он во Флоренции — и он влюблён в этот город.", "highlight": ["in"] },
+        { "en": "The children are in the garden.", "ru": "Дети в саду — и они счастливы.", "highlight": ["in"] },
+        { "en": "The keys are in the drawer.", "ru": "Ключи в ящике — и они ждут своего часа.", "highlight": ["in"] }
       ]
     },
     {
       "group": "Место (on)",
       "items": [
-        { "en": "She is sitting on the balcony.", "ru": "Она сидит на балконе.", "highlight": ["on"] },
-        { "en": "The book is on the table.", "ru": "Книга на столе.", "highlight": ["on"] },
-        { "en": "He is standing on the hill.", "ru": "Он стоит на холме.", "highlight": ["on"] },
-        { "en": "The picture is on the wall.", "ru": "Картина на стене.", "highlight": ["on"] }
+        { "en": "She is sitting on the balcony.", "ru": "Она сидит на балконе — и смотрит на закат.", "highlight": ["on"] },
+        { "en": "The book is on the table.", "ru": "Книга на столе — и она открыта на нужной странице.", "highlight": ["on"] },
+        { "en": "He is standing on the hill.", "ru": "Он стоит на холме — и видит весь город.", "highlight": ["on"] },
+        { "en": "The picture is on the wall.", "ru": "Картина на стене — и она смотрит на нас.", "highlight": ["on"] }
       ]
     },
     {
       "group": "Место (at)",
       "items": [
-        { "en": "I am at the hotel.", "ru": "Я в отеле.", "highlight": ["at"] },
-        { "en": "She is at the party.", "ru": "Она на вечеринке.", "highlight": ["at"] },
-        { "en": "He is at the station.", "ru": "Он на станции.", "highlight": ["at"] },
-        { "en": "They are at the museum.", "ru": "Они в музее.", "highlight": ["at"] }
+        { "en": "I am at the hotel.", "ru": "Я в отеле — и я жду тебя.", "highlight": ["at"] },
+        { "en": "She is at the party.", "ru": "Она на вечеринке — и она сияет.", "highlight": ["at"] },
+        { "en": "He is at the station.", "ru": "Он на станции — и поезд уже близко.", "highlight": ["at"] },
+        { "en": "They are at the museum.", "ru": "Они в музее — и они смотрят на искусство.", "highlight": ["at"] }
       ]
     },
     {
       "group": "Время (in)",
       "items": [
-        { "en": "In the morning, she goes to the garden.", "ru": "Утром она идёт в сад.", "highlight": ["In"] },
-        { "en": "In 1908, the book was published.", "ru": "В 1908 году книга была опубликована.", "highlight": ["In"] },
-        { "en": "In July, they travel to Italy.", "ru": "В июле они путешествуют в Италию.", "highlight": ["In"] },
-        { "en": "In the evening, they meet at the party.", "ru": "Вечером они встречаются на вечеринке.", "highlight": ["In"] }
+        { "en": "In the morning, she goes to the garden.", "ru": "Утром она идёт в сад — и это её ритуал.", "highlight": ["In"] },
+        { "en": "In 1908, the book was published.", "ru": "В 1908 году книга была опубликована — и она стала классикой.", "highlight": ["In"] },
+        { "en": "In July, they travel to Italy.", "ru": "В июле они путешествуют в Италию — и это будет незабываемо.", "highlight": ["In"] },
+        { "en": "In the evening, they meet at the party.", "ru": "Вечером они встречаются на вечеринке — и всё начинается.", "highlight": ["In"] }
       ]
     },
     {
       "group": "Время (on)",
       "items": [
-        { "en": "On Monday, they go to the museum.", "ru": "В понедельник они идут в музей.", "highlight": ["On"] },
-        { "en": "On Friday evening, they meet.", "ru": "В пятницу вечером они встречаются.", "highlight": ["On"] },
-        { "en": "On the 15th of June, they travel.", "ru": "15 июня они путешествуют.", "highlight": ["On"] },
-        { "en": "On the morning of the party, she was nervous.", "ru": "Утром в день вечеринки она нервничала.", "highlight": ["On"] }
+        { "en": "On Monday, they go to the museum.", "ru": "В понедельник они идут в музей — и это будет вдохновляюще.", "highlight": ["On"] },
+        { "en": "On Friday evening, they meet.", "ru": "В пятницу вечером они встречаются — и это судьба.", "highlight": ["On"] },
+        { "en": "On the 15th of June, they travel.", "ru": "15 июня они путешествуют — и это начало нового.", "highlight": ["On"] },
+        { "en": "On the morning of the party, she was nervous.", "ru": "Утром в день вечеринки она нервничала — и это было заметно.", "highlight": ["On"] }
       ]
     },
     {
       "group": "Время (at)",
       "items": [
-        { "en": "At 5 o'clock, they meet.", "ru": "В 5 часов они встречаются.", "highlight": ["At"] },
-        { "en": "At the moment, she is reading.", "ru": "В данный момент она читает.", "highlight": ["At"] },
-        { "en": "At night, the city is beautiful.", "ru": "Ночью город красив.", "highlight": ["At"] },
-        { "en": "At the weekend, they rest.", "ru": "На выходных они отдыхают.", "highlight": ["At"] }
+        { "en": "At 5 o'clock, they meet.", "ru": "В 5 часов они встречаются — и время замирает.", "highlight": ["At"] },
+        { "en": "At the moment, she is reading.", "ru": "В данный момент она читает — и она погружена в книгу.", "highlight": ["At"] },
+        { "en": "At night, the city is beautiful.", "ru": "Ночью город красив — и он сияет огнями.", "highlight": ["At"] },
+        { "en": "At the weekend, they rest.", "ru": "На выходных они отдыхают — и это заслуженно.", "highlight": ["At"] }
       ]
     }
   ],
@@ -149,13 +148,12 @@
   "compare": {
     "title": "In vs On vs At",
     "leftLabel": "In (внутри / время)",
-    "centerLabel": "On (поверхность / день)",
     "rightLabel": "At (точка / время)",
     "rows": [
-      { "left": "She is in a room.", "right": "The book is on the table.", "center": "I am at the hotel." },
-      { "left": "In July.", "right": "On Monday.", "center": "At 5 o'clock." },
-      { "left": "In Italy.", "right": "On the hill.", "center": "At the party." },
-      { "left": "In the morning.", "right": "On Friday.", "center": "At night." }
+      { "left": "She is in a room.", "right": "The book is on the table." },
+      { "left": "In July.", "right": "On Monday." },
+      { "left": "In Italy.", "right": "On the hill." },
+      { "left": "In the morning.", "right": "On Friday." }
     ]
   },
   "tips": [

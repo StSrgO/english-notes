@@ -1,16 +1,15 @@
 {
-  "variant": "rocknroll",
   "slug": "a2-used-to",
   "level": "A2",
-  "title": "Used To",
+  "title": "Used to — язык памяти и перемен",
   "category": "Grammar",
   "readingTime": 7,
-  "summary": "Used to — для выражения прошлых привычек и состояний. В этом уроке — Oasis и их альбом «Definitely Maybe».",
+  "summary": "Oasis записали 'Definitely Maybe' в 1994 году. Лиам и Ноэл Галлахер выросли в Манчестере. Они привыкли к трудной жизни. Они привыкли к борьбе. Used to — это язык успеха. Язык того, как мы изменили свою жизнь.",
+  "variant": "rocknroll",
   "idea": [
-    "1994 год. Oasis записывают «Definitely Maybe». Лиам и Ноэл Галлахер выросли в Манчестере. Они привыкли к трудной жизни. Они привыкли к борьбе. Но всё изменилось. «We used to dream about being famous. We used to play in small clubs. We didn't use to have any money.» Used to — язык перемен. Как у Элиот. Как в роке.",
-    "Used to — это способ говорить о прошлых привычках и состояниях. «We used to play in small clubs» — мы раньше играли в маленьких клубах (сейчас в больших). «We used to have no money» — у нас раньше не было денег (сейчас есть). «Did you use to dream about fame?» — ты раньше мечтал о славе? Used to показывает, что изменилось.",
-    "Oasis стали легендами. Они изменились. Used to помогает показать это. Как в жизни. Как в роке."
-  ],
+    "Лиам и Ноэл Галлахер выросли в Манчестере. Они привыкли к трудной жизни. Они привыкли к борьбе. «We used to dream about being famous» — мы раньше мечтали о славе. «We used to play in small clubs» — мы раньше играли в маленьких клубах. «We didn't use to have any money» — у нас раньше не было денег.",
+    "Used to — это язык успеха. Oasis изменили свою жизнь. «We used to be nobody» — мы раньше были никем. «Now we are stars» — теперь мы звёзды. «We used to have nothing» — у нас раньше ничего не было. «Now we have everything» — теперь у нас есть всё.",
+    "Но used to — это не только про успех. Это про память. «We used to dream» — мы раньше мечтали. «We used to hope» — мы раньше надеялись. Теперь мечты сбылись. Но мы помним, какими мы были."  ],
   "why": [
     "Говорить о прошлых привычках: «We used to play in small clubs.»",
     "Говорить о прошлых состояниях: «We used to have no money.»",
@@ -19,11 +18,11 @@
   ],
   "context": {
     "lines": [
-      { "en": "Liam: We used to play in small clubs. We used to dream about being famous.", "ru": "Мы раньше играли в маленьких клубах. Мы раньше мечтали о славе." },
-      { "en": "Noel: Did you use to think we'd make it?", "ru": "Ты раньше думал, что у нас получится?" },
-      { "en": "Liam: I used to believe in us. We didn't use to have any money, but we had energy.", "ru": "Я раньше верил в нас. У нас раньше не было денег, но была энергия." },
-      { "en": "Noel: Now we have fans. We used to dream about this.", "ru": "Теперь у нас есть фанаты. Мы раньше мечтали об этом." },
-      { "en": "Liam: And now it's real. We used to be unknown, but now we're famous.", "ru": "И теперь это реально. Мы раньше были неизвестны, но теперь мы знамениты." }
+      { "en": "Liam: We used to play in small clubs. We used to dream about being famous.", "ru": "Лиам: Мы раньше играли в маленьких клубах. Мы раньше мечтали о славе." },
+      { "en": "Noel: Did you use to think we'd make it?", "ru": "Ноэль: Ты раньше думал, что у нас получится?" },
+      { "en": "Liam: I used to believe in us. We didn't use to have any money, but we had energy.", "ru": "Лиам: Я раньше верил в нас. У нас раньше не было денег, но была энергия." },
+      { "en": "Noel: Now we have everything. We used to dream about this.", "ru": "Ноэль: Теперь у нас есть всё. Мы раньше мечтали об этом." },
+      { "en": "Liam: We used to be nobody. Now we are stars. Used to — that's our story.", "ru": "Лиам: Мы раньше были никем. Теперь мы звёзды. Used to — это наша история." }
     ],
     "note": "Братья Галлахер говорят о своём пути. Used to в действии."
   },
@@ -42,7 +41,7 @@
       "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму used to:",
+      "prompt": "Вставь правильную форму used to (как в истории с Oasis):",
       "items": [
         { "q": "We ___ (play) in small clubs.", "a": "used to play" },
         { "q": "We ___ (have) no money.", "a": "used to have" },
@@ -82,55 +81,55 @@
     {
       "group": "Прошлые привычки",
       "items": [
-        { "en": "We used to play in small clubs.", "ru": "Мы раньше играли в маленьких клубах.", "highlight": ["used to play"] },
-        { "en": "They used to rehearse in a garage.", "ru": "Они раньше репетировали в гараже.", "highlight": ["used to rehearse"] },
-        { "en": "We used to write songs at night.", "ru": "Мы раньше писали песни ночью.", "highlight": ["used to write"] },
-        { "en": "Liam used to sing with no microphone.", "ru": "Лиам раньше пел без микрофона.", "highlight": ["used to sing"] }
+        { "en": "We used to play in small clubs.", "ru": "Мы раньше играли в маленьких клубах — и это было начало.", "highlight": ["used to play"] },
+        { "en": "They used to rehearse in a garage.", "ru": "Они раньше репетировали в гараже — и это было их домом.", "highlight": ["used to rehearse"] },
+        { "en": "We used to write songs at night.", "ru": "Мы раньше писали песни ночью — и это было наше время.", "highlight": ["used to write"] },
+        { "en": "Liam used to sing with no microphone.", "ru": "Лиам раньше пел без микрофона — и его было слышно.", "highlight": ["used to sing"] }
       ]
     },
     {
       "group": "Прошлые состояния",
       "items": [
-        { "en": "We used to have no money.", "ru": "У нас раньше не было денег.", "highlight": ["used to have"] },
-        { "en": "They used to be unknown.", "ru": "Они раньше были неизвестны.", "highlight": ["used to be"] },
-        { "en": "We used to dream about fame.", "ru": "Мы раньше мечтали о славе.", "highlight": ["used to dream"] },
-        { "en": "Noel used to work in a factory.", "ru": "Ноэль раньше работал на фабрике.", "highlight": ["used to work"] }
+        { "en": "We used to have no money.", "ru": "У нас раньше не было денег — и это нас закалило.", "highlight": ["used to have"] },
+        { "en": "They used to be unknown.", "ru": "Они раньше были неизвестны — но теперь их знают все.", "highlight": ["used to be"] },
+        { "en": "We used to dream about fame.", "ru": "Мы раньше мечтали о славе — и она пришла.", "highlight": ["used to dream"] },
+        { "en": "Noel used to work in a factory.", "ru": "Ноэль раньше работал на фабрике — и он помнит это.", "highlight": ["used to work"] }
       ]
     },
     {
       "group": "Отрицания",
       "items": [
-        { "en": "We didn't use to have fans.", "ru": "У нас раньше не было фанатов.", "highlight": ["didn't use to have"] },
-        { "en": "They didn't use to play big arenas.", "ru": "Они раньше не играли на больших аренах.", "highlight": ["didn't use to play"] },
-        { "en": "I didn't use to believe in success.", "ru": "Я раньше не верил в успех.", "highlight": ["didn't use to believe"] },
-        { "en": "We didn't use to have any money.", "ru": "У нас раньше не было денег.", "highlight": ["didn't use to have"] }
+        { "en": "We didn't use to have fans.", "ru": "У нас раньше не было фанатов — теперь их миллионы.", "highlight": ["didn't use to have"] },
+        { "en": "They didn't use to play big arenas.", "ru": "Они раньше не играли на больших аренах — теперь они на стадионах.", "highlight": ["didn't use to play"] },
+        { "en": "I didn't use to believe in success.", "ru": "Я раньше не верил в успех — но он пришёл.", "highlight": ["didn't use to believe"] },
+        { "en": "We didn't use to have any money.", "ru": "У нас раньше не было денег — теперь мы не считаем.", "highlight": ["didn't use to have"] }
       ]
     },
     {
       "group": "Вопросы",
       "items": [
-        { "en": "Did you use to play in small clubs?", "ru": "Вы раньше играли в маленьких клубах?", "highlight": ["Did you use to"] },
-        { "en": "Did they use to have fans?", "ru": "У них раньше были фанаты?", "highlight": ["Did they use to"] },
-        { "en": "Did you use to dream about fame?", "ru": "Ты раньше мечтал о славе?", "highlight": ["Did you use to"] },
-        { "en": "Did he use to write songs?", "ru": "Он раньше писал песни?", "highlight": ["Did he use to"] }
+        { "en": "Did you use to play in small clubs?", "ru": "Вы раньше играли в маленьких клубах? — И мы тоже.", "highlight": ["Did you use to"] },
+        { "en": "Did they use to have fans?", "ru": "У них раньше были фанаты? — Теперь их миллионы.", "highlight": ["Did they use to"] },
+        { "en": "Did you use to dream about fame?", "ru": "Ты раньше мечтал о славе? — И я тоже.", "highlight": ["Did you use to"] },
+        { "en": "Did he use to write songs?", "ru": "Он раньше писал песни? — И он не перестал.", "highlight": ["Did he use to"] }
       ]
     },
     {
       "group": "Изменения в жизни",
       "items": [
-        { "en": "We used to be unknown, but now we're famous.", "ru": "Мы раньше были неизвестны, но теперь мы знамениты.", "highlight": ["used to"] },
-        { "en": "We used to have no money, but now we're rich.", "ru": "У нас раньше не было денег, но теперь мы богаты.", "highlight": ["used to"] },
-        { "en": "They used to play in garages, but now they play in arenas.", "ru": "Они раньше играли в гаражах, но теперь играют на аренах.", "highlight": ["used to"] },
-        { "en": "He used to be shy, but now he's confident.", "ru": "Он раньше был застенчивым, но теперь уверен.", "highlight": ["used to"] }
+        { "en": "We used to be unknown, but now we're famous.", "ru": "Мы раньше были неизвестны, но теперь мы знамениты — и это изменило нас.", "highlight": ["used to"] },
+        { "en": "We used to have no money, but now we're rich.", "ru": "У нас раньше не было денег, но теперь мы богаты — и мы это помним.", "highlight": ["used to"] },
+        { "en": "They used to play in garages, but now they play in arenas.", "ru": "Они раньше играли в гаражах, но теперь играют на аренах — и это прогресс.", "highlight": ["used to"] },
+        { "en": "He used to be shy, but now he's confident.", "ru": "Он раньше был застенчивым, но теперь уверен — и это заметно.", "highlight": ["used to"] }
       ]
     },
     {
       "group": "То, чего не было раньше",
       "items": [
-        { "en": "We didn't use to have any fans.", "ru": "У нас раньше не было фанатов.", "highlight": ["didn't use to have"] },
-        { "en": "They didn't use to have a record deal.", "ru": "У них раньше не было контракта.", "highlight": ["didn't use to have"] },
-        { "en": "We didn't use to travel the world.", "ru": "Мы раньше не путешествовали по миру.", "highlight": ["didn't use to travel"] },
-        { "en": "He didn't use to write songs.", "ru": "Он раньше не писал песен.", "highlight": ["didn't use to write"] }
+        { "en": "We didn't use to have any fans.", "ru": "У нас раньше не было фанатов — и мы были одни.", "highlight": ["didn't use to have"] },
+        { "en": "They didn't use to have a record deal.", "ru": "У них раньше не было контракта — но теперь у них есть.", "highlight": ["didn't use to have"] },
+        { "en": "We didn't use to travel the world.", "ru": "Мы раньше не путешествовали по миру — но теперь мы везде.", "highlight": ["didn't use to travel"] },
+        { "en": "He didn't use to write songs.", "ru": "Он раньше не писал песен — но теперь он не останавливается.", "highlight": ["didn't use to write"] }
       ]
     }
   ],
