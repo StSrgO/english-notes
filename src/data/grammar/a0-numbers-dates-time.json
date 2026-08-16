@@ -5,207 +5,12 @@
     "title":  "Numbers, Dates and Time",
     "category":  "Basics",
     "readingTime":  9,
-    "summary":  "Числа, даты и время. Учимся считать и называть даты с Джорджем Оруэллом и Green Day.",
+    "summary":  "Числа, даты и время. Цифры как инструмент контроля в «1984».",
     "idea":  [
-                 "Джордж Оруэлл написал «1984» в 1948 году. Он переставил цифры, чтобы получить год, который стал символом тоталитаризма. 1984 — это не просто год, это предупреждение. В книге числа повсюду: время, даты, цифры контроля. Уинстон Смит работает в Министерстве правды, где каждый день — это борьба с реальностью. Четыре ноября — день, когда он начинает свой дневник. Время в «1984» — это оружие.",
-                 "Оруэлл использовал числа, чтобы создать мир тотального контроля. Он знал, что числа могут быть властью. Год, время, даты — всё это важные элементы в мире, где каждая секунда контролируется. Четыре ноября — день, когда Уинстон начинает свой дневник. Часы — время, когда он работает в Министерстве правды. Числа — это инструмент власти, который Оруэлл использовал, чтобы показать, как далеко может зайти контроль.",
-                 "Числа — это основа нашей жизни. Мы считаем деньги, время, даты. В английском языке числа называются по-своему. Есть британский и американский форматы дат. Есть разные способы сказать время. Изучая числа, мы учимся ориентироваться в мире, где всё измеряется цифрами. Оруэлл знал это, и он использовал числа, чтобы предупредить нас о будущем."
+                 "Джордж Оруэлл написал «1984» в 1948 году. Он переставил цифры, чтобы получить год, который стал символом тоталитаризма. В книге числа повсюду: время, даты, цифры контроля. 4 ноября — день, когда Уинстон начинает свой дневник. 10 утра — время Двухминутной ненависти. Время в «1984» — это оружие. Каждое число имеет значение.",
+                 "Оруэлл использовал числа, чтобы создать мир тотального контроля. Год, время, даты — элементы мира, где каждая секунда контролируется. Четыре ноября — день, когда Уинстон начинает свой дневник. Часы — время, когда он работает в Министерстве правды. Числа — инструмент власти. В романе «1984» время и даты — не просто цифры, это способ контроля над людьми.",
+                 "Числа — основа нашей жизни. Мы считаем деньги, время, даты. В английском языке числа называются по-своему. Есть британский и американский форматы дат. Есть разные способы сказать время. Оруэлл знал это. Он использовал числа, чтобы предупредить нас о будущем. В мире, где всё измеряется цифрами, знание чисел — это не просто навык, это необходимость."
              ],
-    "numbers":  [
-                    {
-                        "number":  "0",
-                        "word":  "zero",
-                        "example":  "The temperature is zero degrees",
-                        "exampleRu":  "Температура ноль градусов"
-                    },
-                    {
-                        "number":  "1",
-                        "word":  "one",
-                        "example":  "One ticket to London, please",
-                        "exampleRu":  "Один билет до Лондона, пожалуйста"
-                    },
-                    {
-                        "number":  "2",
-                        "word":  "two",
-                        "example":  "Two cups of tea",
-                        "exampleRu":  "Две чашки чая"
-                    },
-                    {
-                        "number":  "3",
-                        "word":  "three",
-                        "example":  "Three gentlemen are waiting",
-                        "exampleRu":  "Три джентльмена ждут"
-                    },
-                    {
-                        "number":  "4",
-                        "word":  "four",
-                        "example":  "Four o\u0027clock is the time for tea",
-                        "exampleRu":  "Четыре часа — время чая"
-                    },
-                    {
-                        "number":  "5",
-                        "word":  "five",
-                        "example":  "Five pounds for a new hat",
-                        "exampleRu":  "Пять фунтов за новую шляпу"
-                    },
-                    {
-                        "number":  "6",
-                        "word":  "six",
-                        "example":  "Six days until the ball",
-                        "exampleRu":  "Шесть дней до бала"
-                    },
-                    {
-                        "number":  "7",
-                        "word":  "seven",
-                        "example":  "Seven o\u0027clock is dinner time",
-                        "exampleRu":  "Семь часов — время ужина"
-                    },
-                    {
-                        "number":  "8",
-                        "word":  "eight",
-                        "example":  "Eight pages of the letter",
-                        "exampleRu":  "Восемь страниц письма"
-                    },
-                    {
-                        "number":  "9",
-                        "word":  "nine",
-                        "example":  "Nine o\u0027clock in the morning",
-                        "exampleRu":  "Девять часов утра"
-                    },
-                    {
-                        "number":  "10",
-                        "word":  "ten",
-                        "example":  "Ten shillings for the carriage",
-                        "exampleRu":  "Десять шиллингов за карету"
-                    },
-                    {
-                        "number":  "11",
-                        "word":  "eleven",
-                        "example":  "Eleven guests arrived for dinner",
-                        "exampleRu":  "Одиннадцать гостей прибыли на ужин"
-                    },
-                    {
-                        "number":  "12",
-                        "word":  "twelve",
-                        "example":  "Twelve o\u0027clock — the midnight hour",
-                        "exampleRu":  "Двенадцать часов — полночь"
-                    },
-                    {
-                        "number":  "13",
-                        "word":  "thirteen",
-                        "example":  "Thirteen is an unlucky number",
-                        "exampleRu":  "Тринадцать — несчастливое число"
-                    },
-                    {
-                        "number":  "14",
-                        "word":  "fourteen",
-                        "example":  "Fourteen days until the wedding",
-                        "exampleRu":  "Четырнадцать дней до свадьбы"
-                    },
-                    {
-                        "number":  "15",
-                        "word":  "fifteen",
-                        "example":  "Fifteen minutes to three",
-                        "exampleRu":  "Без пятнадцати три"
-                    },
-                    {
-                        "number":  "16",
-                        "word":  "sixteen",
-                        "example":  "Sixteen years old",
-                        "exampleRu":  "Шестнадцать лет"
-                    },
-                    {
-                        "number":  "17",
-                        "word":  "seventeen",
-                        "example":  "Seventeen pages of evidence",
-                        "exampleRu":  "Семнадцать страниц улик"
-                    },
-                    {
-                        "number":  "18",
-                        "word":  "eighteen",
-                        "example":  "Eighteen ninety-three was a good year",
-                        "exampleRu":  "1893 год был хорошим годом"
-                    },
-                    {
-                        "number":  "19",
-                        "word":  "nineteen",
-                        "example":  "Nineteen Eighty-Four — a novel by Orwell",
-                        "exampleRu":  "1984 — роман Оруэлла"
-                    },
-                    {
-                        "number":  "20",
-                        "word":  "twenty",
-                        "example":  "Twenty pounds for the coat",
-                        "exampleRu":  "Двадцать фунтов за пальто"
-                    },
-                    {
-                        "number":  "30",
-                        "word":  "thirty",
-                        "example":  "Thirty days in September",
-                        "exampleRu":  "Тридцать дней в сентябре"
-                    },
-                    {
-                        "number":  "40",
-                        "word":  "forty",
-                        "example":  "Forty shillings for the carriage ride",
-                        "exampleRu":  "Сорок шиллингов за поездку в карете"
-                    },
-                    {
-                        "number":  "50",
-                        "word":  "fifty",
-                        "example":  "Fifty years of marriage",
-                        "exampleRu":  "Пятьдесят лет брака"
-                    },
-                    {
-                        "number":  "60",
-                        "word":  "sixty",
-                        "example":  "Sixty minutes in an hour",
-                        "exampleRu":  "Шестьдесят минут в часе"
-                    },
-                    {
-                        "number":  "70",
-                        "word":  "seventy",
-                        "example":  "Seventy years old",
-                        "exampleRu":  "Семьдесят лет"
-                    },
-                    {
-                        "number":  "80",
-                        "word":  "eighty",
-                        "example":  "Eighty pages in the manuscript",
-                        "exampleRu":  "Восемьдесят страниц в рукописи"
-                    },
-                    {
-                        "number":  "90",
-                        "word":  "ninety",
-                        "example":  "Ninety degrees in the sun",
-                        "exampleRu":  "Девяносто градусов на солнце"
-                    },
-                    {
-                        "number":  "100",
-                        "word":  "one hundred",
-                        "example":  "One hundred pounds for the horse",
-                        "exampleRu":  "Сто фунтов за лошадь"
-                    },
-                    {
-                        "number":  "1000",
-                        "word":  "one thousand",
-                        "example":  "One thousand copies of the book",
-                        "exampleRu":  "Тысяча экземпляров книги"
-                    }
-                ],
-    "dates":  {
-                  "formatBrE":  "the 14th of June, 2024",
-                  "formatAmE":  "June 14th, 2024",
-                  "years":  "fourteen sixty-six (1466), eighteen forty-seven (1847), twenty twenty-four (2024)",
-                  "exampleBrE":  "The Ministry of Truth was established on the 4th of November, 1984",
-                  "exampleAmE":  "Winston started his diary on November 4th, 1984"
-              },
-    "time":  {
-                 "past":  "half past three (3:30), quarter past four (4:15), ten past seven (7:10)",
-                 "to":  "quarter to five (4:45), ten to eight (7:50), five to three (2:55)",
-                 "am_pm":  "10 a.m. (morning), 5 p.m. (afternoon/evening), midnight (12 a.m.)",
-                 "example":  "Winston works at 9 a.m. and finishes at 5 p.m."
-             },
     "why":  [
                 "Числа — это неотъемлемая часть повседневной жизни: деньги, время, даты, адреса",
                 "Без чисел невозможно читать расписания, смотреть на часы или считать сдачу",
@@ -215,21 +20,33 @@
     "context":  {
                     "lines":  [
                                   {
-                                      "en":  "Winston Smith: \u0027It was the 4th of November, 1984. I started my diary at 10 a.m. I wrote: I will write the truth. It is 1984. Big Brother is watching.\u0027",
-                                      "ru":  "Уинстон Смит: «Было 4 ноября 1984 года. Я начал свой дневник в 10 утра. Я написал: я напишу правду. Это 1984. Большой брат следит за тобой»."
+                                      "en":  "Winston Smith: \u0027It was the 4th of November, 1984. I started my diary at 10 a.m. I wrote: I will write the truth. Big Brother is watching.\u0027",
+                                      "ru":  "Уинстон Смит: «Было 4 ноября 1984 года. Я начал свой дневник в 10 утра. Я написал: я напишу правду. Большой брат следит за тобой»."
                                   },
                                   {
-                                      "en":  "The clock on the wall said 9:45. Quarter to ten. Time for the Two Minutes Hate. The Ministry of Truth never sleeps.",
-                                      "ru":  "Часы на стене показывали 9:45. Без пятнадцати десять. Время Двухминутной ненависти. Министерство правды никогда не спит."
+                                      "en":  "Winston: \u0027The clock on the wall said 9:45. Quarter to ten. Time for the Two Minutes Hate.\u0027",
+                                      "ru":  "Уинстон: «Часы на стене показывали 9:45. Без пятнадцати десять. Время Двухминутной ненависти»."
+                                  },
+                                  {
+                                      "en":  "Winston: \u0027At 10 a.m. we have the Two Minutes Hate. At 11 a.m. we have the news. At 5 p.m. we finish work.\u0027",
+                                      "ru":  "Уинстон: «В 10 утра у нас Двухминутная ненависть. В 11 утра — новости. В 5 вечера мы заканчиваем работу»."
+                                  },
+                                  {
+                                      "en":  "Winston: \u0027January, February, March — the months pass. The year is 1984. The date is the 4th of November.\u0027",
+                                      "ru":  "Уинстон: «Январь, февраль, март — месяцы проходят. Год — 1984. Дата — 4 ноября»."
+                                  },
+                                  {
+                                      "en":  "Winston: \u0027I have been writing for 10 minutes. It is 10:15. I must stop. They are watching.\u0027",
+                                      "ru":  "Уинстон: «Я пишу 10 минут. Сейчас 10:15. Я должен остановиться. За мной наблюдают»."
                                   }
                               ],
                     "note":  "В «1984» время и даты — это оружие. Каждая минута контролируется. Числа правят миром."
                 },
     "russianAngle":  [
-                         "В русском языке мы говорим \u0027половина третьего\u0027, а в английском — \u0027half past two\u0027 (половина после двух)",
-                         "Даты в России пишутся день/месяц/год, как и в Великобритании. Но в США — месяц/день/год",
-                         "В русском языке числа сложнее склоняются. В английском — просто \u0027one, two, three\u0027",
-                         "В русском мы говорим \u0027сорок\u0027, а в английском \u0027forty\u0027 — и здесь нет буквы \u0027u\u0027"
+                         "В русском языке мы говорим «половина третьего», а в английском — «half past two» (половина после двух).",
+                         "Даты в России пишутся день/месяц/год, как и в Великобритании. Но в США — месяц/день/год.",
+                         "В русском языке числа сложнее склоняются. В английском — просто \u0027one, two, three\u0027.",
+                         "В русском мы говорим «сорок», а в английском \u0027forty\u0027 — и здесь нет буквы \u0027u\u0027."
                      ],
     "howToLearn":  {
                        "steps":  [
@@ -258,10 +75,30 @@
                                                       {
                                                           "q":  "21st December, 2012",
                                                           "a":  "The twenty-first of December, twenty twelve"
+                                                      },
+                                                      {
+                                                          "q":  "4th November, 1984",
+                                                          "a":  "The fourth of November, nineteen eighty-four"
+                                                      },
+                                                      {
+                                                          "q":  "10:15 a.m.",
+                                                          "a":  "Quarter past ten in the morning"
                                                       }
                                                   ]
                                     }
                    },
+    "formula":  "",
+    "structure":  {
+                      "positive":  "",
+                      "negative":  "",
+                      "question":  ""
+                  },
+    "markers":  [
+
+                ],
+    "uses":  [
+
+             ],
     "rules":  [
                   {
                       "title":  "Числа 1-20",
@@ -282,78 +119,101 @@
               ],
     "examples":  [
                      {
-                         "group":  "Числа в жизни",
+                         "group":  "Числа в мире «1984»",
                          "items":  [
                                        {
-                                           "en":  "One hundred and fifty pounds for the new carriage",
-                                           "ru":  "Сто пятьдесят фунтов за новую карету",
+                                           "en":  "4th November, 1984 — Winston started his diary",
+                                           "ru":  "4 ноября 1984 года — Уинстон начал свой дневник",
                                            "highlight":  [
-                                                             "one hundred and fifty"
+                                                             "4th November, 1984"
                                                          ]
                                        },
                                        {
-                                           "en":  "Twenty-three guests attended the ball",
-                                           "ru":  "Двадцать три гостя присутствовали на балу",
+                                           "en":  "10 a.m. — the Two Minutes Hate begins",
+                                           "ru":  "10 утра — начинается Двухминутная ненависть",
                                            "highlight":  [
-                                                             "twenty-three"
+                                                             "10 a.m."
                                                          ]
                                        },
                                        {
-                                           "en":  "The letter arrived on the 7th of May, 1845",
-                                           "ru":  "Письмо прибыло 7 мая 1845 года",
+                                           "en":  "9:45 p.m. — quarter to ten at night",
+                                           "ru":  "9:45 вечера — без пятнадцати десять",
                                            "highlight":  [
-                                                             "7th",
-                                                             "1845"
+                                                             "9:45 p.m."
                                                          ]
                                        },
                                        {
-                                           "en":  "The clock struck twelve — midnight in London",
-                                           "ru":  "Часы пробили двенадцать — полночь в Лондоне",
+                                           "en":  "5 p.m. — the end of the working day",
+                                           "ru":  "5 вечера — конец рабочего дня",
                                            "highlight":  [
-                                                             "twelve"
+                                                             "5 p.m."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The clock struck 12 — midnight in London",
+                                           "ru":  "Часы пробили 12 — полночь в Лондоне",
+                                           "highlight":  [
+                                                             "12"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "10:15 — quarter past ten",
+                                           "ru":  "10:15 — четверть одиннадцатого",
+                                           "highlight":  [
+                                                             "10:15"
                                                          ]
                                        }
                                    ]
                      },
                      {
-                         "group":  "Даты",
+                         "group":  "Даты в истории и литературе",
                          "items":  [
                                        {
-                                           "en":  "The 14th of June, 1813 — Mr. Darcy arrived at Pemberley",
+                                           "en":  "14th June, 1813 — Mr. Darcy arrived at Pemberley",
                                            "ru":  "14 июня 1813 года — мистер Дарси прибыл в Пемберли",
                                            "highlight":  [
-                                                             "14th",
-                                                             "1813"
+                                                             "14th June, 1813"
                                                          ]
                                        },
                                        {
-                                           "en":  "July 4th, 1776 — the Declaration of Independence",
+                                           "en":  "4th July, 1776 — the Declaration of Independence",
                                            "ru":  "4 июля 1776 года — Декларация независимости",
                                            "highlight":  [
-                                                             "July 4th",
-                                                             "1776"
+                                                             "4th July, 1776"
                                                          ]
                                        },
                                        {
-                                           "en":  "The 7th of December, 1941 — the attack on Pearl Harbor",
+                                           "en":  "7th December, 1941 — the attack on Pearl Harbor",
                                            "ru":  "7 декабря 1941 года — атака на Перл-Харбор",
                                            "highlight":  [
-                                                             "7th",
-                                                             "1941"
+                                                             "7th December, 1941"
                                                          ]
                                        },
                                        {
-                                           "en":  "The 5th of November, 1605 — the Gunpowder Plot",
+                                           "en":  "5th November, 1605 — the Gunpowder Plot",
                                            "ru":  "5 ноября 1605 года — Пороховой заговор",
                                            "highlight":  [
-                                                             "5th",
-                                                             "1605"
+                                                             "5th November, 1605"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "16th October, 1854 — Oscar Wilde was born",
+                                           "ru":  "16 октября 1854 года — родился Оскар Уайльд",
+                                           "highlight":  [
+                                                             "16th October, 1854"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "1st January, 1984 — the world of 1984",
+                                           "ru":  "1 января 1984 года — мир 1984",
+                                           "highlight":  [
+                                                             "1st January, 1984"
                                                          ]
                                        }
                                    ]
                      },
                      {
-                         "group":  "Время",
+                         "group":  "Время в повседневной жизни",
                          "items":  [
                                        {
                                            "en":  "The train leaves at half past seven in the morning",
@@ -380,8 +240,21 @@
                                            "en":  "The shop opens at 9 a.m. and closes at 5:30 p.m.",
                                            "ru":  "Магазин открывается в 9 утра и закрывается в 5:30 вечера",
                                            "highlight":  [
-                                                             "9 a.m.",
-                                                             "5:30 p.m."
+                                                             "9 a.m., 5:30 p.m."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Soundcheck starts at quarter past three in the afternoon",
+                                           "ru":  "Саундчек начинается в четверть четвёртого дня",
+                                           "highlight":  [
+                                                             "quarter past three"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The show starts at 8 p.m. — eight o\u0027clock in the evening",
+                                           "ru":  "Шоу начинается в 8 вечера",
+                                           "highlight":  [
+                                                             "8 p.m."
                                                          ]
                                        }
                                    ]
@@ -391,30 +264,44 @@
                          "items":  [
                                        {
                                            "en":  "1847 — eighteen forty-seven",
-                                           "ru":  "1847 — восемнадцать сорок семь",
+                                           "ru":  "1847 — eighteen forty-seven",
                                            "highlight":  [
                                                              "1847"
                                                          ]
                                        },
                                        {
                                            "en":  "2024 — twenty twenty-four",
-                                           "ru":  "2024 — двадцать двадцать четыре",
+                                           "ru":  "2024 — twenty twenty-four",
                                            "highlight":  [
                                                              "2024"
                                                          ]
                                        },
                                        {
                                            "en":  "1901 — nineteen oh one",
-                                           "ru":  "1901 — девятнадцать ноль один",
+                                           "ru":  "1901 — nineteen oh one",
                                            "highlight":  [
                                                              "1901"
                                                          ]
                                        },
                                        {
                                            "en":  "1776 — seventeen seventy-six",
-                                           "ru":  "1776 — семнадцать семьдесят шесть",
+                                           "ru":  "1776 — seventeen seventy-six",
                                            "highlight":  [
                                                              "1776"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "1984 — nineteen eighty-four",
+                                           "ru":  "1984 — nineteen eighty-four",
+                                           "highlight":  [
+                                                             "1984"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "2001 — two thousand and one",
+                                           "ru":  "2001 — two thousand and one",
+                                           "highlight":  [
+                                                             "2001"
                                                          ]
                                        }
                                    ]
@@ -440,16 +327,28 @@
                                            "en":  "BrE: half past three (3:30) — AmE: three thirty",
                                            "ru":  "Британия: half past three — Америка: three thirty",
                                            "highlight":  [
-                                                             "half past three",
-                                                             "three thirty"
+                                                             "half past three, three thirty"
                                                          ]
                                        },
                                        {
                                            "en":  "BrE: a quarter to five (4:45) — AmE: four forty-five",
                                            "ru":  "Британия: a quarter to five — Америка: four forty-five",
                                            "highlight":  [
-                                                             "quarter to five",
-                                                             "four forty-five"
+                                                             "quarter to five, four forty-five"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "BrE: 30th December — AmE: December 30th",
+                                           "ru":  "Британия: 30 декабря — Америка: 30 декабря",
+                                           "highlight":  [
+                                                             "30th December, December 30th"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "BrE: 10 past 11 (11:10) — AmE: eleven ten",
+                                           "ru":  "Британия: 10 past 11 — Америка: eleven ten",
+                                           "highlight":  [
+                                                             "10 past 11, eleven ten"
                                                          ]
                                        }
                                    ]
@@ -484,6 +383,20 @@
                                            "highlight":  [
                                                              "one million"
                                                          ]
+                                       },
+                                       {
+                                           "en":  "50,000 people at the stadium",
+                                           "ru":  "50 000 человек на стадионе",
+                                           "highlight":  [
+                                                             "50,000"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "30 years of history",
+                                           "ru":  "30 лет истории",
+                                           "highlight":  [
+                                                             "30"
+                                                         ]
                                        }
                                    ]
                      }
@@ -492,7 +405,7 @@
                      {
                          "wrong":  "Произносить \u0027forty\u0027 как \u0027fourty\u0027",
                          "right":  "\u0027Forty\u0027 — без \u0027u\u0027",
-                         "note":  "Сорок — это forty, а не fourty. Это одна из самых частых ошибок."
+                         "note":  "Сорок — это forty, а не fourty."
                      },
                      {
                          "wrong":  "Говорить \u0027half of three\u0027 вместо \u0027half past three\u0027",
@@ -556,9 +469,6 @@
                  "\u0027a.m.\u0027 — \u0027ante meridiem\u0027 (до полудня), \u0027p.m.\u0027 — \u0027post meridiem\u0027 (после полудня)",
                  "Всегда добавляйте \u0027and\u0027 между сотнями и десятками: one hundred and twenty-five"
              ],
-    "related":  [
-
-                ],
     "quiz":  [
                  {
                      "q":  "Как будет 25 по-английски?",
@@ -624,7 +534,10 @@
                                      "Forty"
                                  ],
                      "answer":  "Forty",
-                     "why":  "40 — это forty, без буквы \u0027u\u0027 (в отличие от four)."
+                     "why":  "40 — это forty, без буквы \u0027u\u0027."
                  }
-             ]
+             ],
+    "related":  [
+
+                ]
 }
