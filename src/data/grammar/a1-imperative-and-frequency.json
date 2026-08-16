@@ -1,456 +1,187 @@
-﻿{
-    "slug":  "a1-imperative-and-frequency",
-    "level":  "A1",
-    "title":  "Imperative and Frequency Adverbs",
-    "category":  "Grammar",
-    "readingTime":  7,
-    "summary":  "Повелительное наклонение и наречия частоты. Джеймс Барри и The Clash.",
-    "variant":  "classic",
-    "idea":  [
-                 "1904 год. Джеймс Барри пишет пьесу о мальчике, который не хочет взрослеть. Питер Пэн живёт в Нетландии. Он командует Потерянными мальчиками. Он говорит им: «Follow me!» — «Идите за мной!» «Don\u0027t grow up!» — «Не взрослейте!» «Think happy thoughts!» — «Думайте о счастливом!» Imperative — его главный инструмент. Без него он был бы просто мальчиком. С ним он — король.",
-                 "Питер всегда делает одно и то же. Он всегда ищет приключения. Он часто дерётся с капитаном Крюком. Он иногда возвращается в Лондон к Венди. Он никогда не извиняется. Frequency adverbs — его привычки. Они показывают, кто он на самом деле. Always, often, sometimes, never — это ритм его жизни.",
-                 "Волшебство Нетландии работает по правилам. Чтобы полететь, нужно сказать: «Sprinkle fairy dust!» — и сделать это. Чтобы победить Крюка, нужно крикнуть: «Follow me, boys!» Импертив и наречия частоты вместе создают мир, где команды работают, а привычки определяют характер. Как у Питера. Как у каждого из нас."
-             ],
-    "why":  [
-                "Приказывать: «Follow me!»",
-                "Давать советы: «Think happy thoughts!»",
-                "Запрещать: «Don\u0027t grow up!»",
-                "Говорить о частоте: «He always fights Captain Hook.»"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Peter: Follow me, boys! Don\u0027t be afraid!",
-                                      "ru":  "Идите за мной, мальчики! Не бойтесь!"
-                                  },
-                                  {
-                                      "en":  "Wendy: Peter, you always fight Captain Hook. Why?",
-                                      "ru":  "Питер, ты всегда дерёшься с капитаном Крюком. Почему?"
-                                  },
-                                  {
-                                      "en":  "Peter: He never learns. He always tries to catch me.",
-                                      "ru":  "Он никогда не учится. Он всегда пытается поймать меня."
-                                  },
-                                  {
-                                      "en":  "Wendy: Do you ever stop fighting?",
-                                      "ru":  "Ты когда-нибудь перестаёшь драться?"
-                                  },
-                                  {
-                                      "en":  "Peter: Never! Now, come on! Fly with me!",
-                                      "ru":  "Никогда! А теперь, давай! Лети со мной!"
-                                  }
-                              ],
-                    "note":  "Питер командует Потерянными мальчиками. Imperative помогает ему управлять. Frequency adverbs показывают его привычки."
-                },
-    "russianAngle":  [
-                         "В русском мы используем инфинитив для приказа: «Не бояться!» В английском — базовую форму глагола: «Don\u0027t be afraid!»",
-                         "Для запрета в русском — «Не делай!» В английском — «Don\u0027t do it!»",
-                         "Наречия частоты в русском обычно стоят перед глаголом: «Я всегда так делаю». В английском тоже: «I always do it.»",
-                         "Но будь осторожен: в отрицаниях наречие частоты стоит после don\u0027t/doesn\u0027t: «He doesn\u0027t often come» (не «He often doesn\u0027t come»)."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Imperative: используй базовую форму глагола: «Fly!», «Come!»",
-                                     "Отрицательный imperative: don\u0027t + базовая форма: «Don\u0027t go!»",
-                                     "Наречия частоты ставь перед основным глаголом: «always, often, sometimes, never».",
-                                     "В отрицаниях наречие идёт после don\u0027t/doesn\u0027t: «He doesn\u0027t often fight.»",
-                                     "С глаголом to be наречие стоит после: «He is always happy.»",
-                                     "Потренируйся: давай команды Питеру Пэну."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Сделай команду или добавь наречие частоты:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Follow me! (отрицание)",
-                                                          "a":  "Don\u0027t follow me!"
-                                                      },
-                                                      {
-                                                          "q":  "He (always / fight) Captain Hook.",
-                                                          "a":  "He always fights Captain Hook."
-                                                      },
-                                                      {
-                                                          "q":  "Fly to Neverland! (отрицание)",
-                                                          "a":  "Don\u0027t fly to Neverland!"
-                                                      },
-                                                      {
-                                                          "q":  "Peter (never / say sorry).",
-                                                          "a":  "Peter never says sorry."
-                                                      },
-                                                      {
-                                                          "q":  "Think happy thoughts! (отрицание)",
-                                                          "a":  "Don\u0027t think happy thoughts!"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "Imperative: V1 / Don\u0027t + V1\nFrequency: Subject + adverb + verb",
-    "structure":  {
-                      "positive":  "Команда: V1 (Come here!)",
-                      "negative":  "Запрет: Don\u0027t + V1 (Don\u0027t go!)",
-                      "frequency":  "Наречие: always, usually, often, sometimes, rarely, never"
-                  },
-    "markers":  [
-                    "always",
-                    "usually",
-                    "often",
-                    "sometimes",
-                    "rarely",
-                    "never",
-                    "ever"
-                ],
-    "uses":  [
-                 "Приказы: «Follow me!»",
-                 "Запреты: «Don\u0027t grow up!»",
-                 "Инструкции: «Think happy thoughts!»",
-                 "Советы: «Listen to Peter!»",
-                 "Привычки: «He always fights Captain Hook.»"
-             ],
-    "rules":  [
-                  {
-                      "title":  "Imperative — базовая форма",
-                      "text":  "Используй базовую форму глагола без подлежащего: Come here! Fly with me!"
-                  },
-                  {
-                      "title":  "Отрицательный Imperative",
-                      "text":  "Добавь don\u0027t перед глаголом: Don\u0027t go! Don\u0027t be afraid!"
-                  },
-                  {
-                      "title":  "Наречия частоты",
-                      "text":  "Ставь перед основным глаголом: He always fights. В отрицаниях — после don\u0027t/doesn\u0027t: He doesn\u0027t often fight."
-                  },
-                  {
-                      "title":  "To be + наречие",
-                      "text":  "С глаголом to be наречие ставится после: He is always happy."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Приказы Питера",
-                         "items":  [
-                                       {
-                                           "en":  "Follow me, boys!",
-                                           "ru":  "Идите за мной, мальчики!",
-                                           "highlight":  [
-                                                             "Follow"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Fly to Neverland!",
-                                           "ru":  "Летите в Нетландию!",
-                                           "highlight":  [
-                                                             "Fly"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Think happy thoughts!",
-                                           "ru":  "Думайте о счастливом!",
-                                           "highlight":  [
-                                                             "Think"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Believe in magic!",
-                                           "ru":  "Верьте в магию!",
-                                           "highlight":  [
-                                                             "Believe"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Запреты",
-                         "items":  [
-                                       {
-                                           "en":  "Don\u0027t grow up!",
-                                           "ru":  "Не взрослейте!",
-                                           "highlight":  [
-                                                             "Don\u0027t grow"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t be afraid of Captain Hook!",
-                                           "ru":  "Не бойтесь капитана Крюка!",
-                                           "highlight":  [
-                                                             "Don\u0027t be"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t forget Wendy!",
-                                           "ru":  "Не забывайте Венди!",
-                                           "highlight":  [
-                                                             "Don\u0027t forget"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t go to Neverland alone!",
-                                           "ru":  "Не ходите в Нетландию одни!",
-                                           "highlight":  [
-                                                             "Don\u0027t go"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Инструкции и советы",
-                         "items":  [
-                                       {
-                                           "en":  "Sprinkle fairy dust on yourself!",
-                                           "ru":  "Посыпьте себя феями-пыльцой!",
-                                           "highlight":  [
-                                                             "Sprinkle"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Listen to Peter\u0027s advice!",
-                                           "ru":  "Слушайте советы Питера!",
-                                           "highlight":  [
-                                                             "Listen"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Be brave and strong!",
-                                           "ru":  "Будьте храбрыми и сильными!",
-                                           "highlight":  [
-                                                             "Be"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Stay together in Neverland!",
-                                           "ru":  "Держитесь вместе в Нетландии!",
-                                           "highlight":  [
-                                                             "Stay"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Привычки Питера",
-                         "items":  [
-                                       {
-                                           "en":  "Peter always fights Captain Hook.",
-                                           "ru":  "Питер всегда дерётся с капитаном Крюком.",
-                                           "highlight":  [
-                                                             "always"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He often forgets about time.",
-                                           "ru":  "Он часто забывает о времени.",
-                                           "highlight":  [
-                                                             "often"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He sometimes visits Wendy in London.",
-                                           "ru":  "Он иногда навещает Венди в Лондоне.",
-                                           "highlight":  [
-                                                             "sometimes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He never says sorry.",
-                                           "ru":  "Он никогда не извиняется.",
-                                           "highlight":  [
-                                                             "never"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Привычки Потерянных мальчиков",
-                         "items":  [
-                                       {
-                                           "en":  "The Lost Boys always follow Peter.",
-                                           "ru":  "Потерянные мальчики всегда следуют за Питером.",
-                                           "highlight":  [
-                                                             "always"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They usually play in the forest.",
-                                           "ru":  "Они обычно играют в лесу.",
-                                           "highlight":  [
-                                                             "usually"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They sometimes hunt pirates.",
-                                           "ru":  "Они иногда охотятся на пиратов.",
-                                           "highlight":  [
-                                                             "sometimes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They never tell lies.",
-                                           "ru":  "Они никогда не врут.",
-                                           "highlight":  [
-                                                             "never"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Команды и частота вместе",
-                         "items":  [
-                                       {
-                                           "en":  "Always follow the leader!",
-                                           "ru":  "Всегда следуйте за лидером!",
-                                           "highlight":  [
-                                                             "Always"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t ever leave Neverland!",
-                                           "ru":  "Никогда не покидайте Нетландию!",
-                                           "highlight":  [
-                                                             "Don\u0027t ever"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Never trust Captain Hook!",
-                                           "ru":  "Никогда не доверяйте капитану Крюку!",
-                                           "highlight":  [
-                                                             "Never"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Always believe in fairies!",
-                                           "ru":  "Всегда верьте в фей!",
-                                           "highlight":  [
-                                                             "Always"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Grow up not!",
-                         "right":  "Don\u0027t grow up!",
-                         "note":  "В отрицательном imperativе используй don\u0027t."
-                     },
-                     {
-                         "wrong":  "He always doesn\u0027t fight.",
-                         "right":  "He doesn\u0027t always fight.",
-                         "note":  "В отрицаниях наречие стоит после don\u0027t/doesn\u0027t."
-                     },
-                     {
-                         "wrong":  "Follow you me!",
-                         "right":  "Follow me!",
-                         "note":  "В imperativе подлежащее не используется."
-                     },
-                     {
-                         "wrong":  "She is never not happy.",
-                         "right":  "She is never unhappy.",
-                         "note":  "Двойное отрицание в английском не используется."
-                     },
-                     {
-                         "wrong":  "He never fights always.",
-                         "right":  "He never fights.",
-                         "note":  "Не используй два наречия частоты вместе."
-                     },
-                     {
-                         "wrong":  "Don\u0027t be afraid of Peter?",
-                         "right":  "Don\u0027t be afraid of Peter!",
-                         "note":  "Imperative — это приказ, а не вопрос."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Imperative с наречиями частоты",
-                    "leftLabel":  "Без наречия",
-                    "rightLabel":  "С наречием",
-                    "rows":  [
-                                 {
-                                     "left":  "Follow me!",
-                                     "right":  "Always follow me!"
-                                 },
-                                 {
-                                     "left":  "Don\u0027t go!",
-                                     "right":  "Never go there!"
-                                 },
-                                 {
-                                     "left":  "Think happy thoughts!",
-                                     "right":  "Always think happy thoughts!"
-                                 },
-                                 {
-                                     "left":  "Be brave!",
-                                     "right":  "Always be brave!"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Imperative — это команда. Используй базовую форму глагола.",
-                 "Для запрета используй don\u0027t + глагол.",
-                 "Наречия частоты показывают, как часто что-то происходит.",
-                 "Порядок наречий: всегда, обычно, часто, иногда, редко, никогда.",
-                 "В imperativе наречие ставится перед глаголом: Always follow me!",
-                 "Практикуйся: давай команды Питеру Пэну."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "How do you say \u0027Не бойся!\u0027 in English?",
-                     "options":  [
-                                     "Don\u0027t afraid!",
-                                     "Don\u0027t be afraid!",
-                                     "Be afraid not!"
-                                 ],
-                     "answer":  "Don\u0027t be afraid!",
-                     "why":  "Отрицательный imperative: don\u0027t + глагол."
-                 },
-                 {
-                     "q":  "What\u0027s the correct order?",
-                     "options":  [
-                                     "He often fights.",
-                                     "He fights often.",
-                                     "Often he fights."
-                                 ],
-                     "answer":  "He often fights.",
-                     "why":  "Наречие частоты перед глаголом."
-                 },
-                 {
-                     "q":  "How do you say \u0027Always follow me!\u0027 in Russian?",
-                     "options":  [
-                                     "Всегда следуй за мной!",
-                                     "Следуй за мной всегда!",
-                                     "За мной следуй всегда!"
-                                 ],
-                     "answer":  "Всегда следуй за мной!",
-                     "why":  "В английском наречие перед глаголом."
-                 },
-                 {
-                     "q":  "Which is correct?",
-                     "options":  [
-                                     "He doesn\u0027t never fight.",
-                                     "He never fights.",
-                                     "He doesn\u0027t fight never."
-                                 ],
-                     "answer":  "He never fights.",
-                     "why":  "Не используй двойное отрицание."
-                 },
-                 {
-                     "q":  "What does \u0027Don\u0027t ever leave me!\u0027 mean?",
-                     "options":  [
-                                     "Всегда уходи!",
-                                     "Никогда не уходи!",
-                                     "Уходи сейчас!"
-                                 ],
-                     "answer":  "Никогда не уходи!",
-                     "why":  "Ever в отрицании = никогда."
-                 },
-                 {
-                     "q":  "Which is an imperative?",
-                     "options":  [
-                                     "Do you fly?",
-                                     "Fly to Neverland!",
-                                     "He flies."
-                                 ],
-                     "answer":  "Fly to Neverland!",
-                     "why":  "Imperative — это команда без подлежащего."
-                 }
-             ],
-    "related":  [
-                    "a1-present-simple",
-                    "a1-questions",
-                    "a1-verb-to-be"
-                ]
+{
+  "variant": "classic",
+  "slug": "a1-imperative-and-frequency",
+  "level": "A1",
+  "title": "Imperative and Frequency Adverbs",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Повелительное наклонение и наречия частоты. Джеймс Барри и «Питер Пэн».",
+  "idea": [
+    "«Follow me!» — Идите за мной! «Don't grow up!» — Не взрослейте! «Think happy thoughts!» — Думайте о счастливом! Питер не просит. Он приказывает. Это команды. Imperative — это язык приказов. Он не требует подлежащего. Он просто говорит: делай это. «Fly to Neverland!» — Летите в Нетландию! «Believe in magic!» — Верьте в магию! «Don't be afraid of Captain Hook!» — Не бойтесь капитана Крюка! «Don't forget Wendy!» — Не забывайте Венди! Каждая команда — это действие. «Sprinkle fairy dust on yourself!» — Посыпьте себя феями-пыльцой! «Stay together in Neverland!» — Держитесь вместе в Нетландии! «Listen to Peter's advice!» — Слушайте советы Питера! «Be brave and strong!» — Будьте храбрыми и сильными! Питер не объясняет, почему. Он просто говорит, что делать.",
+    "Но Питер — это не только команды. Это привычки. Он всегда делает одно и то же. «Peter always fights Captain Hook.» — Питер всегда дерётся с капитаном Крюком. «He often forgets about time.» — Он часто забывает о времени. «He sometimes visits Wendy in London.» — Он иногда навещает Венди в Лондоне. «He never says sorry.» — Он никогда не извиняется. Наречия частоты показывают его характер. «Always» — всегда. «Often» — часто. «Sometimes» — иногда. «Never» — никогда. «The Lost Boys always follow Peter.» — Потерянные мальчики всегда следуют за Питером. «They usually play in the forest.» — Они обычно играют в лесу. «They sometimes hunt pirates.» — Они иногда охотятся на пиратов. «They never tell lies.» — Они никогда не врут. Imperative и frequency adverbs вместе показывают, кто такой Питер Пэн. Команды — его власть. Привычки — его характер."
+  ],
+  "why": [
+    "Приказывать: «Follow me!»",
+    "Давать советы: «Think happy thoughts!»",
+    "Запрещать: «Don't grow up!»",
+    "Говорить о частоте: «He always fights Captain Hook.»"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Peter: Follow me, boys! Don't be afraid!", "ru": "Идите за мной, мальчики! Не бойтесь!" },
+      { "en": "Wendy: Peter, you always fight Captain Hook. Why?", "ru": "Питер, ты всегда дерёшься с капитаном Крюком. Почему?" },
+      { "en": "Peter: He never learns. He always tries to catch me.", "ru": "Он никогда не учится. Он всегда пытается поймать меня." },
+      { "en": "Wendy: Do you ever stop fighting?", "ru": "Ты когда-нибудь перестаёшь драться?" },
+      { "en": "Peter: Never! Now, come on! Fly with me!", "ru": "Никогда! А теперь, давай! Лети со мной!" }
+    ],
+    "note": "Питер командует Потерянными мальчиками. Imperative помогает ему управлять. Frequency adverbs показывают его привычки."
+  },
+  "russianAngle": [
+    "В русском мы используем инфинитив для приказа: «Не бояться!» В английском — базовую форму глагола: «Don't be afraid!»",
+    "Для запрета в русском — «Не делай!» В английском — «Don't do it!»",
+    "Наречия частоты в русском обычно стоят перед глаголом: «Я всегда так делаю». В английском тоже: «I always do it.»",
+    "Но будь осторожен: в отрицаниях наречие частоты стоит после don't/doesn't: «He doesn't often come» (не «He often doesn't come»)."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Imperative: используй базовую форму глагола: «Fly!», «Come!»",
+      "Отрицательный imperative: don't + базовая форма: «Don't go!»",
+      "Наречия частоты ставь перед основным глаголом: «always, often, sometimes, never».",
+      "В отрицаниях наречие идёт после don't/doesn't: «He doesn't often fight.»",
+      "С глаголом to be наречие стоит после: «He is always happy.»",
+      "Потренируйся: давай команды Питеру Пэну."
+    ],
+    "exercise": {
+      "prompt": "Сделай команду или добавь наречие частоты:",
+      "items": [
+        { "q": "Follow me! (отрицание)", "a": "Don't follow me!" },
+        { "q": "He (always / fight) Captain Hook.", "a": "He always fights Captain Hook." },
+        { "q": "Fly to Neverland! (отрицание)", "a": "Don't fly to Neverland!" },
+        { "q": "Peter (never / say sorry).", "a": "Peter never says sorry." },
+        { "q": "Think happy thoughts! (отрицание)", "a": "Don't think happy thoughts!" }
+      ]
+    }
+  },
+  "formula": "Imperative: V1 / Don't + V1\nFrequency: Subject + adverb + verb",
+  "structure": {
+    "positive": "Команда: V1 (Come here!)",
+    "negative": "Запрет: Don't + V1 (Don't go!)",
+    "question": ""
+  },
+  "markers": [
+    "always",
+    "usually",
+    "often",
+    "sometimes",
+    "rarely",
+    "never",
+    "ever"
+  ],
+  "uses": [
+    "Приказы: «Follow me!»",
+    "Запреты: «Don't grow up!»",
+    "Инструкции: «Think happy thoughts!»",
+    "Советы: «Listen to Peter!»",
+    "Привычки: «He always fights Captain Hook.»"
+  ],
+  "rules": [
+    { "title": "Imperative — базовая форма", "text": "Используй базовую форму глагола без подлежащего: Come here! Fly with me!" },
+    { "title": "Отрицательный Imperative", "text": "Добавь don't перед глаголом: Don't go! Don't be afraid!" },
+    { "title": "Наречия частоты", "text": "Ставь перед основным глаголом: He always fights. В отрицаниях — после don't/doesn't: He doesn't often fight." },
+    { "title": "To be + наречие", "text": "С глаголом to be наречие ставится после: He is always happy." }
+  ],
+  "examples": [
+    {
+      "group": "Приказы Питера",
+      "items": [
+        { "en": "Follow me, boys!", "ru": "Идите за мной, мальчики!", "highlight": ["Follow"] },
+        { "en": "Fly to Neverland!", "ru": "Летите в Нетландию!", "highlight": ["Fly"] },
+        { "en": "Think happy thoughts!", "ru": "Думайте о счастливом!", "highlight": ["Think"] },
+        { "en": "Believe in magic!", "ru": "Верьте в магию!", "highlight": ["Believe"] },
+        { "en": "Sprinkle fairy dust on yourself!", "ru": "Посыпьте себя феями-пыльцой!", "highlight": ["Sprinkle"] },
+        { "en": "Stay together in Neverland!", "ru": "Держитесь вместе в Нетландии!", "highlight": ["Stay"] }
+      ]
+    },
+    {
+      "group": "Запреты",
+      "items": [
+        { "en": "Don't grow up!", "ru": "Не взрослейте!", "highlight": ["Don't grow"] },
+        { "en": "Don't be afraid of Captain Hook!", "ru": "Не бойтесь капитана Крюка!", "highlight": ["Don't be"] },
+        { "en": "Don't forget Wendy!", "ru": "Не забывайте Венди!", "highlight": ["Don't forget"] },
+        { "en": "Don't go to Neverland alone!", "ru": "Не ходите в Нетландию одни!", "highlight": ["Don't go"] },
+        { "en": "Don't ever leave Neverland!", "ru": "Никогда не покидайте Нетландию!", "highlight": ["Don't ever"] },
+        { "en": "Never trust Captain Hook!", "ru": "Никогда не доверяйте капитану Крюку!", "highlight": ["Never"] }
+      ]
+    },
+    {
+      "group": "Инструкции и советы",
+      "items": [
+        { "en": "Sprinkle fairy dust on yourself!", "ru": "Посыпьте себя феями-пыльцой!", "highlight": ["Sprinkle"] },
+        { "en": "Listen to Peter's advice!", "ru": "Слушайте советы Питера!", "highlight": ["Listen"] },
+        { "en": "Be brave and strong!", "ru": "Будьте храбрыми и сильными!", "highlight": ["Be"] },
+        { "en": "Stay together in Neverland!", "ru": "Держитесь вместе в Нетландии!", "highlight": ["Stay"] },
+        { "en": "Always follow the leader!", "ru": "Всегда следуйте за лидером!", "highlight": ["Always"] },
+        { "en": "Always believe in fairies!", "ru": "Всегда верьте в фей!", "highlight": ["Always"] }
+      ]
+    },
+    {
+      "group": "Привычки Питера",
+      "items": [
+        { "en": "Peter always fights Captain Hook.", "ru": "Питер всегда дерётся с капитаном Крюком.", "highlight": ["always"] },
+        { "en": "He often forgets about time.", "ru": "Он часто забывает о времени.", "highlight": ["often"] },
+        { "en": "He sometimes visits Wendy in London.", "ru": "Он иногда навещает Венди в Лондоне.", "highlight": ["sometimes"] },
+        { "en": "He never says sorry.", "ru": "Он никогда не извиняется.", "highlight": ["never"] },
+        { "en": "He always fights for what he wants.", "ru": "Он всегда борется за то, что хочет.", "highlight": ["always"] },
+        { "en": "He never stays in one place.", "ru": "Он никогда не остаётся на одном месте.", "highlight": ["never"] }
+      ]
+    },
+    {
+      "group": "Привычки Потерянных мальчиков",
+      "items": [
+        { "en": "The Lost Boys always follow Peter.", "ru": "Потерянные мальчики всегда следуют за Питером.", "highlight": ["always"] },
+        { "en": "They usually play in the forest.", "ru": "Они обычно играют в лесу.", "highlight": ["usually"] },
+        { "en": "They sometimes hunt pirates.", "ru": "Они иногда охотятся на пиратов.", "highlight": ["sometimes"] },
+        { "en": "They never tell lies.", "ru": "Они никогда не врут.", "highlight": ["never"] },
+        { "en": "They always listen to Peter.", "ru": "Они всегда слушают Питера.", "highlight": ["always"] },
+        { "en": "They never disobey him.", "ru": "Они никогда не ослушиваются его.", "highlight": ["never"] }
+      ]
+    },
+    {
+      "group": "Команды и частота вместе",
+      "items": [
+        { "en": "Always follow the leader!", "ru": "Всегда следуйте за лидером!", "highlight": ["Always"] },
+        { "en": "Don't ever leave Neverland!", "ru": "Никогда не покидайте Нетландию!", "highlight": ["Don't ever"] },
+        { "en": "Never trust Captain Hook!", "ru": "Никогда не доверяйте капитану Крюку!", "highlight": ["Never"] },
+        { "en": "Always believe in fairies!", "ru": "Всегда верьте в фей!", "highlight": ["Always"] },
+        { "en": "Always think happy thoughts!", "ru": "Всегда думайте о счастливом!", "highlight": ["Always"] },
+        { "en": "Never stop believing in magic!", "ru": "Никогда не переставайте верить в магию!", "highlight": ["Never"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Grow up not!", "right": "Don't grow up!", "note": "В отрицательном imperativе используй don't." },
+    { "wrong": "He always doesn't fight.", "right": "He doesn't always fight.", "note": "В отрицаниях наречие стоит после don't/doesn't." },
+    { "wrong": "Follow you me!", "right": "Follow me!", "note": "В imperativе подлежащее не используется." },
+    { "wrong": "She is never not happy.", "right": "She is never unhappy.", "note": "Двойное отрицание в английском не используется." },
+    { "wrong": "He never fights always.", "right": "He never fights.", "note": "Не используй два наречия частоты вместе." },
+    { "wrong": "Don't be afraid of Peter?", "right": "Don't be afraid of Peter!", "note": "Imperative — это приказ, а не вопрос." }
+  ],
+  "compare": {
+    "title": "Imperative с наречиями частоты",
+    "leftLabel": "Без наречия",
+    "rightLabel": "С наречием",
+    "rows": [
+      { "left": "Follow me!", "right": "Always follow me!" },
+      { "left": "Don't go!", "right": "Never go there!" },
+      { "left": "Think happy thoughts!", "right": "Always think happy thoughts!" },
+      { "left": "Be brave!", "right": "Always be brave!" }
+    ]
+  },
+  "tips": [
+    "Imperative — это команда. Используй базовую форму глагола.",
+    "Для запрета используй don't + глагол.",
+    "Наречия частоты показывают, как часто что-то происходит.",
+    "Порядок наречий: всегда, обычно, часто, иногда, редко, никогда.",
+    "В imperativе наречие ставится перед глаголом: Always follow me!",
+    "Практикуйся: давай команды Питеру Пэну."
+  ],
+  "quiz": [
+    { "q": "How do you say 'Не бойся!' in English?", "options": ["Don't afraid!", "Don't be afraid!", "Be afraid not!"], "answer": "Don't be afraid!", "why": "Отрицательный imperative: don't + глагол." },
+    { "q": "What's the correct order?", "options": ["He often fights.", "He fights often.", "Often he fights."], "answer": "He often fights.", "why": "Наречие частоты перед глаголом." },
+    { "q": "How do you say 'Always follow me!' in Russian?", "options": ["Всегда следуй за мной!", "Следуй за мной всегда!", "За мной следуй всегда!"], "answer": "Всегда следуй за мной!", "why": "В английском наречие перед глаголом." },
+    { "q": "Which is correct?", "options": ["He doesn't never fight.", "He never fights.", "He doesn't fight never."], "answer": "He never fights.", "why": "Не используй двойное отрицание." },
+    { "q": "What does 'Don't ever leave me!' mean?", "options": ["Всегда уходи!", "Никогда не уходи!", "Уходи сейчас!"], "answer": "Никогда не уходи!", "why": "Ever в отрицании = никогда." },
+    { "q": "Which is an imperative?", "options": ["Do you fly?", "Fly to Neverland!", "He flies."], "answer": "Fly to Neverland!", "why": "Imperative — это команда без подлежащего." }
+  ],
+  "related": ["a1-present-simple", "a1-questions", "a1-verb-to-be"]
 }

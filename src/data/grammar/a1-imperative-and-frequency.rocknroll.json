@@ -1,456 +1,187 @@
-﻿{
-    "slug":  "a1-imperative-and-frequency",
-    "level":  "A1",
-    "title":  "Imperative and Frequency Adverbs",
-    "category":  "Grammar",
-    "readingTime":  7,
-    "summary":  "Повелительное наклонение и наречия частоты. Джеймс Барри и The Clash.",
-    "variant":  "rocknroll",
-    "idea":  [
-                 "1982 год. The Clash записывают «Combat Rock». Джо Страммер пишет песню, которая становится легендой. «Should I Stay or Should I Go» — песня о неуверенности, о выборе, о любви. В ней есть команды: «Stay!» «Go!» «Don\u0027t let me go!» Она звучит как приказ самому себе. Как крик души.",
-                 "Джо всегда сомневается. Он часто не знает, что делать. Иногда он остаётся. Иногда он уходит. Но в песне он командует. Он говорит себе: «Stay!» — и сразу: «Go!» Импертив — это сила. Это решимость. Это момент, когда ты перестаёшь думать и начинаешь делать.",
-                 "Песня становится хитом. Её играют по радио. Фанаты поют: «Come on and stay!» — «Давай, оставайся!» Она о том, что мы все иногда не знаем, что делать. Но когда мы приказываем — мы выбираем. Импертив и наречия частоты — это язык решений. Как у The Clash. Как у каждого из нас."
-             ],
-    "why":  [
-                "Приказывать: «Stay!»",
-                "Запрещать: «Don\u0027t go!»",
-                "Давать советы: «Come on and stay!»",
-                "Говорить о частоте: «I always stay.»"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Joe: Should I stay or should I go now? I can\u0027t decide.",
-                                      "ru":  "Мне остаться или уйти сейчас? Я не могу решить."
-                                  },
-                                  {
-                                      "en":  "Mick: Don\u0027t overthink it! Just stay!",
-                                      "ru":  "Не переживай слишком много! Просто останься!"
-                                  },
-                                  {
-                                      "en":  "Joe: But I always leave. I never stay for long.",
-                                      "ru":  "Но я всегда ухожу. Я никогда не остаюсь надолго."
-                                  },
-                                  {
-                                      "en":  "Mick: Then don\u0027t go this time. Stay!",
-                                      "ru":  "Тогда не уходи в этот раз. Останься!"
-                                  },
-                                  {
-                                      "en":  "Joe: Okay. Stay. Don\u0027t let me change my mind.",
-                                      "ru":  "Ладно. Остаюсь. Не дай мне передумать."
-                                  }
-                              ],
-                    "note":  "Джо Страммер и Мик Джонс обсуждают текст песни. Imperative помогает им принимать решения."
-                },
-    "russianAngle":  [
-                         "В русском мы говорим «Останься!» — и это приказ. В английском — «Stay!»",
-                         "Для запрета в русском — «Не уходи!» В английском — «Don\u0027t go!»",
-                         "Наречия частоты в русском обычно перед глаголом: «Я всегда остаюсь». В английском тоже: «I always stay.»",
-                         "В отрицаниях: «Я не всегда ухожу» — «I don\u0027t always leave.» Наречие после don\u0027t."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Imperative: базовая форма глагола: «Stay!», «Go!»",
-                                     "Отрицательный imperative: don\u0027t + глагол: «Don\u0027t go!»",
-                                     "Наречия частоты перед глаголом: «always, usually, often, sometimes, never».",
-                                     "В отрицаниях наречие после don\u0027t/doesn\u0027t: «I don\u0027t always stay.»",
-                                     "С глаголом to be наречие после: «He is always late.»",
-                                     "Потренируйся: давай команды The Clash."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Сделай команду или добавь наречие частоты:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Stay with me! (отрицание)",
-                                                          "a":  "Don\u0027t stay with me!"
-                                                      },
-                                                      {
-                                                          "q":  "Joe (always / leave) early.",
-                                                          "a":  "Joe always leaves early."
-                                                      },
-                                                      {
-                                                          "q":  "Come back! (отрицание)",
-                                                          "a":  "Don\u0027t come back!"
-                                                      },
-                                                      {
-                                                          "q":  "The band (never / agree) on everything.",
-                                                          "a":  "The band never agrees on everything."
-                                                      },
-                                                      {
-                                                          "q":  "Sing along! (отрицание)",
-                                                          "a":  "Don\u0027t sing along!"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "Imperative: V1 / Don\u0027t + V1\nFrequency: Subject + adverb + verb",
-    "structure":  {
-                      "positive":  "Команда: V1 (Stay here!)",
-                      "negative":  "Запрет: Don\u0027t + V1 (Don\u0027t go!)",
-                      "frequency":  "Наречие: always, usually, often, sometimes, rarely, never"
-                  },
-    "markers":  [
-                    "always",
-                    "usually",
-                    "often",
-                    "sometimes",
-                    "rarely",
-                    "never",
-                    "ever"
-                ],
-    "uses":  [
-                 "Приказы: «Stay!»",
-                 "Запреты: «Don\u0027t go!»",
-                 "Инструкции: «Come on!»",
-                 "Советы: «Don\u0027t overthink it!»",
-                 "Привычки: «He always leaves early.»"
-             ],
-    "rules":  [
-                  {
-                      "title":  "Imperative — базовая форма",
-                      "text":  "Используй базовую форму глагола без подлежащего: Stay! Go! Come on!"
-                  },
-                  {
-                      "title":  "Отрицательный Imperative",
-                      "text":  "Добавь don\u0027t перед глаголом: Don\u0027t go! Don\u0027t stop!"
-                  },
-                  {
-                      "title":  "Наречия частоты",
-                      "text":  "Ставь перед основным глаголом: I always stay. В отрицаниях — после don\u0027t/doesn\u0027t: I don\u0027t always stay."
-                  },
-                  {
-                      "title":  "To be + наречие",
-                      "text":  "С глаголом to be наречие ставится после: He is always late."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Команды из песни",
-                         "items":  [
-                                       {
-                                           "en":  "Stay with me tonight!",
-                                           "ru":  "Останься со мной сегодня!",
-                                           "highlight":  [
-                                                             "Stay"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Go if you want to!",
-                                           "ru":  "Уходи, если хочешь!",
-                                           "highlight":  [
-                                                             "Go"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t let me go!",
-                                           "ru":  "Не отпускай меня!",
-                                           "highlight":  [
-                                                             "Don\u0027t let"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Come on and stay!",
-                                           "ru":  "Давай, оставайся!",
-                                           "highlight":  [
-                                                             "Come"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Запреты",
-                         "items":  [
-                                       {
-                                           "en":  "Don\u0027t stop the music!",
-                                           "ru":  "Не останавливай музыку!",
-                                           "highlight":  [
-                                                             "Don\u0027t stop"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t be afraid to choose!",
-                                           "ru":  "Не бойся выбирать!",
-                                           "highlight":  [
-                                                             "Don\u0027t be"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t change your mind!",
-                                           "ru":  "Не передумывай!",
-                                           "highlight":  [
-                                                             "Don\u0027t change"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t let them down!",
-                                           "ru":  "Не подведи их!",
-                                           "highlight":  [
-                                                             "Don\u0027t let"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Советы",
-                         "items":  [
-                                       {
-                                           "en":  "Think about what you want!",
-                                           "ru":  "Подумай о том, чего ты хочешь!",
-                                           "highlight":  [
-                                                             "Think"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Listen to your heart!",
-                                           "ru":  "Слушай своё сердце!",
-                                           "highlight":  [
-                                                             "Listen"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Make a decision now!",
-                                           "ru":  "Прими решение сейчас!",
-                                           "highlight":  [
-                                                             "Make"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t overthink it!",
-                                           "ru":  "Не переживай слишком много!",
-                                           "highlight":  [
-                                                             "Don\u0027t overthink"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Привычки Джо",
-                         "items":  [
-                                       {
-                                           "en":  "Joe always writes songs at night.",
-                                           "ru":  "Джо всегда пишет песни ночью.",
-                                           "highlight":  [
-                                                             "always"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He often doubts his decisions.",
-                                           "ru":  "Он часто сомневается в своих решениях.",
-                                           "highlight":  [
-                                                             "often"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He sometimes plays guitar all day.",
-                                           "ru":  "Он иногда играет на гитаре целый день.",
-                                           "highlight":  [
-                                                             "sometimes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He never forgets a good melody.",
-                                           "ru":  "Он никогда не забывает хорошую мелодию.",
-                                           "highlight":  [
-                                                             "never"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Привычки группы",
-                         "items":  [
-                                       {
-                                           "en":  "The Clash always experiment with their sound.",
-                                           "ru":  "The Clash всегда экспериментируют со звуком.",
-                                           "highlight":  [
-                                                             "always"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They usually rehearse before a tour.",
-                                           "ru":  "Они обычно репетируют перед туром.",
-                                           "highlight":  [
-                                                             "usually"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They sometimes argue in the studio.",
-                                           "ru":  "Они иногда ссорятся в студии.",
-                                           "highlight":  [
-                                                             "sometimes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They never give up on a song.",
-                                           "ru":  "Они никогда не сдаются на полпути.",
-                                           "highlight":  [
-                                                             "never"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Команды и частота вместе",
-                         "items":  [
-                                       {
-                                           "en":  "Always be honest with yourself!",
-                                           "ru":  "Всегда будь честен с собой!",
-                                           "highlight":  [
-                                                             "Always"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Never stop making music!",
-                                           "ru":  "Никогда не переставай создавать музыку!",
-                                           "highlight":  [
-                                                             "Never"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Don\u0027t ever forget your friends!",
-                                           "ru":  "Никогда не забывай своих друзей!",
-                                           "highlight":  [
-                                                             "Don\u0027t ever"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Always listen to your fans!",
-                                           "ru":  "Всегда слушай своих фанатов!",
-                                           "highlight":  [
-                                                             "Always"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Not go!",
-                         "right":  "Don\u0027t go!",
-                         "note":  "В отрицательном imperativе используй don\u0027t."
-                     },
-                     {
-                         "wrong":  "He doesn\u0027t always stays.",
-                         "right":  "He doesn\u0027t always stay.",
-                         "note":  "После doesn\u0027t — базовая форма."
-                     },
-                     {
-                         "wrong":  "Stay you here!",
-                         "right":  "Stay here!",
-                         "note":  "В imperativе подлежащее не используется."
-                     },
-                     {
-                         "wrong":  "I never don\u0027t stay.",
-                         "right":  "I never stay.",
-                         "note":  "Двойное отрицание не используется."
-                     },
-                     {
-                         "wrong":  "He always is late.",
-                         "right":  "He is always late.",
-                         "note":  "С to be наречие после глагола."
-                     },
-                     {
-                         "wrong":  "Don\u0027t you go!",
-                         "right":  "Don\u0027t go!",
-                         "note":  "В imperativе не используется вопросительная форма."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Imperative с наречиями частоты",
-                    "leftLabel":  "Без наречия",
-                    "rightLabel":  "С наречием",
-                    "rows":  [
-                                 {
-                                     "left":  "Stay!",
-                                     "right":  "Always stay!"
-                                 },
-                                 {
-                                     "left":  "Don\u0027t go!",
-                                     "right":  "Never go!"
-                                 },
-                                 {
-                                     "left":  "Be honest!",
-                                     "right":  "Always be honest!"
-                                 },
-                                 {
-                                     "left":  "Don\u0027t stop!",
-                                     "right":  "Never stop!"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Imperative — это приказ. Без подлежащего.",
-                 "Для запрета — don\u0027t + глагол.",
-                 "Наречия частоты — always, never, often, sometimes.",
-                 "В imperativе наречие перед глаголом: Always stay!",
-                 "В отрицаниях с глаголом — наречие после don\u0027t/doesn\u0027t.",
-                 "Практикуйся: давай команды The Clash."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "How do you say \u0027Не уходи!\u0027 in English?",
-                     "options":  [
-                                     "Go not!",
-                                     "Don\u0027t go!",
-                                     "Don\u0027t go?"
-                                 ],
-                     "answer":  "Don\u0027t go!",
-                     "why":  "Отрицательный imperative: don\u0027t + глагол."
-                 },
-                 {
-                     "q":  "What\u0027s the correct order?",
-                     "options":  [
-                                     "He always stays.",
-                                     "He stays always.",
-                                     "Always he stays."
-                                 ],
-                     "answer":  "He always stays.",
-                     "why":  "Наречие частоты перед глаголом."
-                 },
-                 {
-                     "q":  "How do you say \u0027Always be honest!\u0027 in Russian?",
-                     "options":  [
-                                     "Всегда будь честен!",
-                                     "Будь честен всегда!",
-                                     "Честен будь всегда!"
-                                 ],
-                     "answer":  "Всегда будь честен!",
-                     "why":  "В английском наречие перед глаголом."
-                 },
-                 {
-                     "q":  "Which is correct?",
-                     "options":  [
-                                     "He doesn\u0027t never stay.",
-                                     "He never stays.",
-                                     "He stays never."
-                                 ],
-                     "answer":  "He never stays.",
-                     "why":  "Не используй двойное отрицание."
-                 },
-                 {
-                     "q":  "What does \u0027Don\u0027t ever leave!\u0027 mean?",
-                     "options":  [
-                                     "Всегда уходи!",
-                                     "Никогда не уходи!",
-                                     "Уходи сейчас!"
-                                 ],
-                     "answer":  "Никогда не уходи!",
-                     "why":  "Ever в отрицании = никогда."
-                 },
-                 {
-                     "q":  "Which is an imperative?",
-                     "options":  [
-                                     "Do you stay?",
-                                     "Stay with me!",
-                                     "He stays."
-                                 ],
-                     "answer":  "Stay with me!",
-                     "why":  "Imperative — это команда без подлежащего."
-                 }
-             ],
-    "related":  [
-                    "a1-present-simple",
-                    "a1-questions",
-                    "a1-verb-to-be"
-                ]
+{
+  "variant": "rocknroll",
+  "slug": "a1-imperative-and-frequency",
+  "level": "A1",
+  "title": "Imperative and Frequency Adverbs",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Повелительное наклонение и наречия частоты. The Clash и песня «Should I Stay or Should I Go».",
+  "idea": [
+    "Джо Страммер записывает песню о выборе. He sings: «Should I stay or should I go now? Stay! Go! Don't let me go!» «Stay!» — Останься! «Go!» — Уходи! «Don't let me go!» — Не отпускай меня! Песня — это разговор с самим собой. Он приказывает себе. «Come on and stay!» — Давай, оставайся! «Don't overthink it!» — Не переживай слишком много! «Make a decision now!» — Прими решение сейчас! «Think about what you want!» — Подумай о том, чего ты хочешь! Imperative — это язык решений. Он говорит: выбери. Сделай. Действуй. «Don't change your mind!» — Не передумывай! «Don't let them down!» — Не подведи их! «Listen to your heart!» — Слушай своё сердце! «Don't stop the music!» — Не останавливай музыку! Каждая команда — это шаг к действию.",
+    "Но у Джо есть привычки. «He always doubts.» — Он всегда сомневается. «He often doesn't know what to do.» — Он часто не знает, что делать. «He sometimes stays.» — Он иногда остаётся. «He never decides easily.» — Он никогда не решает легко. Наречия частоты показывают его характер. «Always» — всегда. «Often» — часто. «Sometimes» — иногда. «Never» — никогда. «The Clash always experiment with their sound.» — The Clash всегда экспериментируют со звуком. «They usually rehearse before a tour.» — Они обычно репетируют перед туром. «They sometimes argue in the studio.» — Они иногда ссорятся в студии. «They never give up on a song.» — Они никогда не сдаются на полпути. Imperative говорит, что делать. Frequency adverbs говорит, как часто. Вместе они показывают, кто такой Джо Страммер и The Clash."
+  ],
+  "why": [
+    "Приказывать: «Stay!»",
+    "Запрещать: «Don't go!»",
+    "Давать советы: «Come on and stay!»",
+    "Говорить о частоте: «I always stay.»"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Joe: Should I stay or should I go now? I can't decide.", "ru": "Мне остаться или уйти сейчас? Я не могу решить." },
+      { "en": "Mick: Don't overthink it! Just stay!", "ru": "Не переживай слишком много! Просто останься!" },
+      { "en": "Joe: But I always leave. I never stay for long.", "ru": "Но я всегда ухожу. Я никогда не остаюсь надолго." },
+      { "en": "Mick: Then don't go this time. Stay!", "ru": "Тогда не уходи в этот раз. Останься!" },
+      { "en": "Joe: Okay. Stay. Don't let me change my mind.", "ru": "Ладно. Остаюсь. Не дай мне передумать." }
+    ],
+    "note": "Джо Страммер и Мик Джонс обсуждают текст песни. Imperative помогает им принимать решения."
+  },
+  "russianAngle": [
+    "В русском мы говорим «Останься!» — и это приказ. В английском — «Stay!»",
+    "Для запрета в русском — «Не уходи!» В английском — «Don't go!»",
+    "Наречия частоты в русском обычно перед глаголом: «Я всегда остаюсь». В английском тоже: «I always stay.»",
+    "В отрицаниях: «Я не всегда ухожу» — «I don't always leave.» Наречие после don't."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Imperative: базовая форма глагола: «Stay!», «Go!»",
+      "Отрицательный imperative: don't + глагол: «Don't go!»",
+      "Наречия частоты перед глаголом: «always, usually, often, sometimes, never».",
+      "В отрицаниях наречие после don't/doesn't: «I don't always stay.»",
+      "С глаголом to be наречие после: «He is always late.»",
+      "Потренируйся: давай команды The Clash."
+    ],
+    "exercise": {
+      "prompt": "Сделай команду или добавь наречие частоты:",
+      "items": [
+        { "q": "Stay with me! (отрицание)", "a": "Don't stay with me!" },
+        { "q": "Joe (always / leave) early.", "a": "Joe always leaves early." },
+        { "q": "Come back! (отрицание)", "a": "Don't come back!" },
+        { "q": "The band (never / agree) on everything.", "a": "The band never agrees on everything." },
+        { "q": "Sing along! (отрицание)", "a": "Don't sing along!" }
+      ]
+    }
+  },
+  "formula": "Imperative: V1 / Don't + V1\nFrequency: Subject + adverb + verb",
+  "structure": {
+    "positive": "Команда: V1 (Stay here!)",
+    "negative": "Запрет: Don't + V1 (Don't go!)",
+    "question": ""
+  },
+  "markers": [
+    "always",
+    "usually",
+    "often",
+    "sometimes",
+    "rarely",
+    "never",
+    "ever"
+  ],
+  "uses": [
+    "Приказы: «Stay!»",
+    "Запреты: «Don't go!»",
+    "Инструкции: «Come on!»",
+    "Советы: «Don't overthink it!»",
+    "Привычки: «He always leaves early.»"
+  ],
+  "rules": [
+    { "title": "Imperative — базовая форма", "text": "Используй базовую форму глагола без подлежащего: Stay! Go! Come on!" },
+    { "title": "Отрицательный Imperative", "text": "Добавь don't перед глаголом: Don't go! Don't stop!" },
+    { "title": "Наречия частоты", "text": "Ставь перед основным глаголом: I always stay. В отрицаниях — после don't/doesn't: I don't always stay." },
+    { "title": "To be + наречие", "text": "С глаголом to be наречие ставится после: He is always late." }
+  ],
+  "examples": [
+    {
+      "group": "Команды из песни",
+      "items": [
+        { "en": "Stay with me tonight!", "ru": "Останься со мной сегодня!", "highlight": ["Stay"] },
+        { "en": "Go if you want to!", "ru": "Уходи, если хочешь!", "highlight": ["Go"] },
+        { "en": "Don't let me go!", "ru": "Не отпускай меня!", "highlight": ["Don't let"] },
+        { "en": "Come on and stay!", "ru": "Давай, оставайся!", "highlight": ["Come"] },
+        { "en": "Don't change your mind!", "ru": "Не передумывай!", "highlight": ["Don't change"] },
+        { "en": "Don't let them down!", "ru": "Не подведи их!", "highlight": ["Don't let"] }
+      ]
+    },
+    {
+      "group": "Запреты",
+      "items": [
+        { "en": "Don't stop the music!", "ru": "Не останавливай музыку!", "highlight": ["Don't stop"] },
+        { "en": "Don't be afraid to choose!", "ru": "Не бойся выбирать!", "highlight": ["Don't be"] },
+        { "en": "Don't change your mind!", "ru": "Не передумывай!", "highlight": ["Don't change"] },
+        { "en": "Don't let them down!", "ru": "Не подведи их!", "highlight": ["Don't let"] },
+        { "en": "Don't overthink it!", "ru": "Не переживай слишком много!", "highlight": ["Don't overthink"] },
+        { "en": "Don't stop playing!", "ru": "Не переставай играть!", "highlight": ["Don't stop"] }
+      ]
+    },
+    {
+      "group": "Советы",
+      "items": [
+        { "en": "Think about what you want!", "ru": "Подумай о том, чего ты хочешь!", "highlight": ["Think"] },
+        { "en": "Listen to your heart!", "ru": "Слушай своё сердце!", "highlight": ["Listen"] },
+        { "en": "Make a decision now!", "ru": "Прими решение сейчас!", "highlight": ["Make"] },
+        { "en": "Don't overthink it!", "ru": "Не переживай слишком много!", "highlight": ["Don't overthink"] },
+        { "en": "Come on and stay!", "ru": "Давай, оставайся!", "highlight": ["Come"] },
+        { "en": "Just do it!", "ru": "Просто сделай это!", "highlight": ["Just"] }
+      ]
+    },
+    {
+      "group": "Привычки Джо",
+      "items": [
+        { "en": "Joe always writes songs at night.", "ru": "Джо всегда пишет песни ночью.", "highlight": ["always"] },
+        { "en": "He often doubts his decisions.", "ru": "Он часто сомневается в своих решениях.", "highlight": ["often"] },
+        { "en": "He sometimes plays guitar all day.", "ru": "Он иногда играет на гитаре целый день.", "highlight": ["sometimes"] },
+        { "en": "He never forgets a good melody.", "ru": "Он никогда не забывает хорошую мелодию.", "highlight": ["never"] },
+        { "en": "He always feels uncertain.", "ru": "Он всегда чувствует неуверенность.", "highlight": ["always"] },
+        { "en": "He never stays in one place.", "ru": "Он никогда не остаётся на одном месте.", "highlight": ["never"] }
+      ]
+    },
+    {
+      "group": "Привычки группы",
+      "items": [
+        { "en": "The Clash always experiment with their sound.", "ru": "The Clash всегда экспериментируют со звуком.", "highlight": ["always"] },
+        { "en": "They usually rehearse before a tour.", "ru": "Они обычно репетируют перед туром.", "highlight": ["usually"] },
+        { "en": "They sometimes argue in the studio.", "ru": "Они иногда ссорятся в студии.", "highlight": ["sometimes"] },
+        { "en": "They never give up on a song.", "ru": "Они никогда не сдаются на полпути.", "highlight": ["never"] },
+        { "en": "They always play with energy.", "ru": "Они всегда играют с энергией.", "highlight": ["always"] },
+        { "en": "They never compromise on their sound.", "ru": "Они никогда не идут на компромисс со своим звуком.", "highlight": ["never"] }
+      ]
+    },
+    {
+      "group": "Команды и частота вместе",
+      "items": [
+        { "en": "Always be honest with yourself!", "ru": "Всегда будь честен с собой!", "highlight": ["Always"] },
+        { "en": "Never stop making music!", "ru": "Никогда не переставай создавать музыку!", "highlight": ["Never"] },
+        { "en": "Don't ever forget your friends!", "ru": "Никогда не забывай своих друзей!", "highlight": ["Don't ever"] },
+        { "en": "Always listen to your fans!", "ru": "Всегда слушай своих фанатов!", "highlight": ["Always"] },
+        { "en": "Always follow your passion!", "ru": "Всегда следуй своей страсти!", "highlight": ["Always"] },
+        { "en": "Never give up on your dreams!", "ru": "Никогда не сдавайся на пути к мечте!", "highlight": ["Never"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "Not go!", "right": "Don't go!", "note": "В отрицательном imperativе используй don't." },
+    { "wrong": "He doesn't always stays.", "right": "He doesn't always stay.", "note": "После doesn't — базовая форма." },
+    { "wrong": "Stay you here!", "right": "Stay here!", "note": "В imperativе подлежащее не используется." },
+    { "wrong": "I never don't stay.", "right": "I never stay.", "note": "Двойное отрицание не используется." },
+    { "wrong": "He always is late.", "right": "He is always late.", "note": "С to be наречие после глагола." },
+    { "wrong": "Don't you go!", "right": "Don't go!", "note": "В imperativе не используется вопросительная форма." }
+  ],
+  "compare": {
+    "title": "Imperative с наречиями частоты",
+    "leftLabel": "Без наречия",
+    "rightLabel": "С наречием",
+    "rows": [
+      { "left": "Stay!", "right": "Always stay!" },
+      { "left": "Don't go!", "right": "Never go!" },
+      { "left": "Be honest!", "right": "Always be honest!" },
+      { "left": "Don't stop!", "right": "Never stop!" }
+    ]
+  },
+  "tips": [
+    "Imperative — это приказ. Без подлежащего.",
+    "Для запрета — don't + глагол.",
+    "Наречия частоты — always, never, often, sometimes.",
+    "В imperativе наречие перед глаголом: Always stay!",
+    "В отрицаниях с глаголом — наречие после don't/doesn't.",
+    "Практикуйся: давай команды The Clash."
+  ],
+  "quiz": [
+    { "q": "How do you say 'Не уходи!' in English?", "options": ["Go not!", "Don't go!", "Don't go?"], "answer": "Don't go!", "why": "Отрицательный imperative: don't + глагол." },
+    { "q": "What's the correct order?", "options": ["He always stays.", "He stays always.", "Always he stays."], "answer": "He always stays.", "why": "Наречие частоты перед глаголом." },
+    { "q": "How do you say 'Always be honest!' in Russian?", "options": ["Всегда будь честен!", "Будь честен всегда!", "Честен будь всегда!"], "answer": "Всегда будь честен!", "why": "В английском наречие перед глаголом." },
+    { "q": "Which is correct?", "options": ["He doesn't never stay.", "He never stays.", "He stays never."], "answer": "He never stays.", "why": "Не используй двойное отрицание." },
+    { "q": "What does 'Don't ever leave!' mean?", "options": ["Всегда уходи!", "Никогда не уходи!", "Уходи сейчас!"], "answer": "Никогда не уходи!", "why": "Ever в отрицании = никогда." },
+    { "q": "Which is an imperative?", "options": ["Do you stay?", "Stay with me!", "He stays."], "answer": "Stay with me!", "why": "Imperative — это команда без подлежащего." }
+  ],
+  "related": ["a1-present-simple", "a1-questions", "a1-verb-to-be"]
 }

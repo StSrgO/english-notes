@@ -1,402 +1,175 @@
-﻿{
-    "variant":  "classic",
-    "slug":  "a1-plural-nouns",
-    "level":  "A1",
-    "title":  "Plural Nouns",
-    "category":  "Grammar",
-    "readingTime":  9,
-    "summary":  "Множественное число существительных. Правила и исключения. Трейси Хьюитт и Scorpions.",
-    "idea":  [
-                 "В книгах о Кисточке и Пёрышке герои встречают множество животных. «Cats», «dogs», «birds», «fish», «mice» — это слова во множественном числе. Одно животное — «a cat», много — «cats». Одна мышь — «a mouse», много — «mice». Это не просто грамматика, это способ считать мир.",
-                 "В английском языке множественное число обычно образуется с помощью окончания -s: a cat → cats, a dog → dogs. Но есть исключения: a mouse → mice, a child → children. Некоторые слова не меняются: a fish → fish, a sheep → sheep. Эти правила нужно запомнить.",
-                 "Кисточка и Пёрышко знали, что считать животных — это весело. «Look at the cats!» — восклицает Кисточка. «Look at the birds!» — отвечает Пёрышко. Множественное число помогает нам говорить о мире вокруг нас."
-             ],
-    "why":  [
-                "Множественное число помогает говорить о нескольких предметах",
-                "Правильное образование множественного числа делает речь грамотной",
-                "В английском языке есть правила и исключения, которые нужно знать",
-                "Знание множественного числа помогает понимать текст и речь"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Brush: \u0027Look at the cats! There are three cats in the garden!\u0027 Feather: \u0027And look at the birds! There are five birds in the tree!\u0027",
-                                      "ru":  "Кисточка: «Посмотри на кошек! В саду три кошки!» Пёрышко: «И посмотри на птиц! На дереве пять птиц!»"
-                                  },
-                                  {
-                                      "en":  "Brush: \u0027One mouse, two mice. One child, two children. The plural is fun!\u0027",
-                                      "ru":  "Кисточка: «Одна мышь, две мыши. Один ребёнок, два ребёнка. Множественное число — это весело!»"
-                                  }
-                              ],
-                    "note":  "Множественное число — это способ считать мир. Изучайте его с радостью."
-                },
-    "russianAngle":  [
-                         "В русском языке множественное число образуется с помощью окончаний: кот → коты, собака → собаки.",
-                         "В английском языке обычно добавляется -s: a cat → cats, a dog → dogs.",
-                         "В русском языке есть исключения: человек → люди. В английском тоже: a man → men, a child → children.",
-                         "В русском языке некоторые слова не меняются: рыба → рыбы. В английском тоже: a fish → fish, a sheep → sheep."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Запомни: обычно +s: a cat → cats.",
-                                     "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses.",
-                                     "Если слово оканчивается на -y → -ies: a baby → babies.",
-                                     "Исключения: a man → men, a woman → women, a child → children.",
-                                     "Некоторые слова не меняются: a fish → fish, a sheep → sheep.",
-                                     "Сделай упражнение и сверься с ответами."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Напишите множественное число этих существительных:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "a cat → ___",
-                                                          "a":  "cats"
-                                                      },
-                                                      {
-                                                          "q":  "a dog → ___",
-                                                          "a":  "dogs"
-                                                      },
-                                                      {
-                                                          "q":  "a bus → ___",
-                                                          "a":  "buses"
-                                                      },
-                                                      {
-                                                          "q":  "a baby → ___",
-                                                          "a":  "babies"
-                                                      },
-                                                      {
-                                                          "q":  "a man → ___",
-                                                          "a":  "men"
-                                                      },
-                                                      {
-                                                          "q":  "a child → ___",
-                                                          "a":  "children"
-                                                      },
-                                                      {
-                                                          "q":  "a fish → ___",
-                                                          "a":  "fish"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "rules":  [
-                  {
-                      "title":  "Обычное правило +s",
-                      "text":  "a cat → cats, a dog → dogs, a bird → birds."
-                  },
-                  {
-                      "title":  "Правило +es",
-                      "text":  "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses, a box → boxes."
-                  },
-                  {
-                      "title":  "Правило -y → -ies",
-                      "text":  "Если слово оканчивается на -y → -ies: a baby → babies, a party → parties."
-                  },
-                  {
-                      "title":  "Исключения",
-                      "text":  "a man → men, a woman → women, a child → children, a mouse → mice, a fish → fish, a sheep → sheep."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Обычное правило +s",
-                         "items":  [
-                                       {
-                                           "en":  "a cat → cats. Look at the cats in the garden!",
-                                           "ru":  "кошка → кошки. Посмотри на кошек в саду!",
-                                           "highlight":  [
-                                                             "cats"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a dog → dogs. The dogs are playing in the park.",
-                                           "ru":  "собака → собаки. Собаки играют в парке.",
-                                           "highlight":  [
-                                                             "dogs"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a bird → birds. There are many birds in the tree.",
-                                           "ru":  "птица → птицы. На дереве много птиц.",
-                                           "highlight":  [
-                                                             "birds"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Правило +es",
-                         "items":  [
-                                       {
-                                           "en":  "a bus → buses. There are three buses on the street.",
-                                           "ru":  "автобус → автобусы. На улице три автобуса.",
-                                           "highlight":  [
-                                                             "buses"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a box → boxes. I have two boxes of books.",
-                                           "ru":  "коробка → коробки. У меня две коробки книг.",
-                                           "highlight":  [
-                                                             "boxes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a watch → watches. He has three watches.",
-                                           "ru":  "часы → часы. У него трое часов.",
-                                           "highlight":  [
-                                                             "watches"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Правило -y → -ies",
-                         "items":  [
-                                       {
-                                           "en":  "a baby → babies. The babies are sleeping.",
-                                           "ru":  "ребёнок → дети. Дети спят.",
-                                           "highlight":  [
-                                                             "babies"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a party → parties. We have two parties this week.",
-                                           "ru":  "вечеринка → вечеринки. На этой неделе у нас две вечеринки.",
-                                           "highlight":  [
-                                                             "parties"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a story → stories. She tells many stories.",
-                                           "ru":  "история → истории. Она рассказывает много историй.",
-                                           "highlight":  [
-                                                             "stories"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Исключения — человек",
-                         "items":  [
-                                       {
-                                           "en":  "a man → men. There are three men in the room.",
-                                           "ru":  "мужчина → мужчины. В комнате три мужчины.",
-                                           "highlight":  [
-                                                             "men"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a woman → women. There are two women in the garden.",
-                                           "ru":  "женщина → женщины. В саду две женщины.",
-                                           "highlight":  [
-                                                             "women"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a child → children. The children are playing.",
-                                           "ru":  "ребёнок → дети. Дети играют.",
-                                           "highlight":  [
-                                                             "children"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Исключения — животные",
-                         "items":  [
-                                       {
-                                           "en":  "a mouse → mice. There are mice in the kitchen!",
-                                           "ru":  "мышь → мыши. На кухне мыши!",
-                                           "highlight":  [
-                                                             "mice"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a fish → fish. There are five fish in the aquarium.",
-                                           "ru":  "рыба → рыбы. В аквариуме пять рыб.",
-                                           "highlight":  [
-                                                             "fish"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a sheep → sheep. There are many sheep on the farm.",
-                                           "ru":  "овца → овцы. На ферме много овец.",
-                                           "highlight":  [
-                                                             "sheep"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Сравнение единственного и множественного числа",
-                         "items":  [
-                                       {
-                                           "en":  "a cat → cats. One cat, two cats.",
-                                           "ru":  "кошка → кошки. Одна кошка, две кошки.",
-                                           "highlight":  [
-                                                             "cat",
-                                                             "cats"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a man → men. One man, two men.",
-                                           "ru":  "мужчина → мужчины. Один мужчина, два мужчины.",
-                                           "highlight":  [
-                                                             "man",
-                                                             "men"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a fish → fish. One fish, two fish.",
-                                           "ru":  "рыба → рыбы. Одна рыба, две рыбы.",
-                                           "highlight":  [
-                                                             "fish",
-                                                             "fish"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "a cat → cat\u0027s",
-                         "right":  "a cat → cats",
-                         "note":  "Множественное число — cats, без апострофа."
-                     },
-                     {
-                         "wrong":  "a man → mans",
-                         "right":  "a man → men",
-                         "note":  "Исключение: man → men."
-                     },
-                     {
-                         "wrong":  "a child → childs",
-                         "right":  "a child → children",
-                         "note":  "Исключение: child → children."
-                     },
-                     {
-                         "wrong":  "a mouse → mouses",
-                         "right":  "a mouse → mice",
-                         "note":  "Исключение: mouse → mice."
-                     },
-                     {
-                         "wrong":  "a fish → fishes",
-                         "right":  "a fish → fish",
-                         "note":  "Исключение: fish → fish."
-                     },
-                     {
-                         "wrong":  "a sheep → sheeps",
-                         "right":  "a sheep → sheep",
-                         "note":  "Исключение: sheep → sheep."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Единственное vs множественное число",
-                    "leftLabel":  "Единственное (one)",
-                    "rightLabel":  "Множественное (more than one)",
-                    "rows":  [
-                                 {
-                                     "left":  "a cat",
-                                     "right":  "two cats"
-                                 },
-                                 {
-                                     "left":  "a man",
-                                     "right":  "two men"
-                                 },
-                                 {
-                                     "left":  "a child",
-                                     "right":  "two children"
-                                 },
-                                 {
-                                     "left":  "a mouse",
-                                     "right":  "two mice"
-                                 },
-                                 {
-                                     "left":  "a fish",
-                                     "right":  "two fish"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Обычно +s: a cat → cats.",
-                 "+es: a box → boxes.",
-                 "-y → -ies: a baby → babies.",
-                 "Исключения: man → men, woman → women, child → children.",
-                 "mouse → mice, fish → fish, sheep → sheep.",
-                 "Запомни исключения как рифму.",
-                 "Проверяй себя: one cat, two cats."
-             ],
-    "related":  [
-                    "a1-nouns",
-                    "a1-articles-a-an",
-                    "a1-verb-to-be"
-                ],
-    "quiz":  [
-                 {
-                     "q":  "a cat → ___",
-                     "options":  [
-                                     "cat\u0027s",
-                                     "cats",
-                                     "cates",
-                                     "cat"
-                                 ],
-                     "answer":  1,
-                     "why":  "Множественное число — cats."
-                 },
-                 {
-                     "q":  "a man → ___",
-                     "options":  [
-                                     "mans",
-                                     "men",
-                                     "man\u0027s",
-                                     "mens"
-                                 ],
-                     "answer":  1,
-                     "why":  "Исключение: man → men."
-                 },
-                 {
-                     "q":  "a child → ___",
-                     "options":  [
-                                     "childs",
-                                     "children",
-                                     "child\u0027s",
-                                     "childes"
-                                 ],
-                     "answer":  1,
-                     "why":  "Исключение: child → children."
-                 },
-                 {
-                     "q":  "a mouse → ___",
-                     "options":  [
-                                     "mouses",
-                                     "mice",
-                                     "mouse\u0027s",
-                                     "mices"
-                                 ],
-                     "answer":  1,
-                     "why":  "Исключение: mouse → mice."
-                 },
-                 {
-                     "q":  "a fish → ___",
-                     "options":  [
-                                     "fishes",
-                                     "fish",
-                                     "fish\u0027s",
-                                     "fishe"
-                                 ],
-                     "answer":  1,
-                     "why":  "Исключение: fish → fish."
-                 },
-                 {
-                     "q":  "a baby → ___",
-                     "options":  [
-                                     "babys",
-                                     "babies",
-                                     "baby\u0027s",
-                                     "babie"
-                                 ],
-                     "answer":  1,
-                     "why":  "-y → -ies: baby → babies."
-                 }
-             ]
+{
+  "variant": "classic",
+  "slug": "a1-plural-nouns",
+  "level": "A1",
+  "title": "Plural Nouns",
+  "category": "Grammar",
+  "readingTime": 9,
+  "summary": "Множественное число существительных. Правила и исключения. Льюис Кэрролл и «Алиса в Стране чудес».",
+  "idea": [
+    "Алиса падает в кроличью нору. Она в комнате с множеством дверей. Она видит существ. «Cats. Rabbits. Mice. Birds.» Она видит их по одному и во множестве. «One cat. Two cats. One mouse. Many mice.» «One rabbit» — Белый Кролик. «Many rabbits» — все кролики в лесу. «One cat» — Чеширский Кот. «Many cats» — все коты. «One mouse» — Мышь. «Many mice» — все мыши. «One bird» — Птица. «Many birds» — все птицы.",
+    "«Cat» — одна кошка. «Cats» — много кошек. «Rabbit» — один кролик. «Rabbits» — много кроликов. «Mouse» — одна мышь. «Mice» — много мышей. «Child» — один ребёнок. «Children» — много детей. «Man» — один мужчина. «Men» — много мужчин. «Woman» — одна женщина. «Women» — много женщин. «Fish» — одна рыба. «Fish» — много рыб. «Sheep» — одна овца. «Sheep» — много овец. «Foot» — одна нога. «Feet» — много ног. «Tooth» — один зуб. «Teeth» — много зубов.",
+    "«One» — мало. «Many» — много. «Some» — несколько. «All» — все. Алиса учится считать. «I see one cat. I see two cats. I see many cats.» Множественное число показывает, что одного недостаточно. Что всего много. Что мир состоит из множества вещей. «One fish, two fish, red fish, blue fish.» Множественное число — это способ говорить о мире, где ничего не бывает в единственном экземпляре. Где всё повторяется. Где всего много."
+  ],
+  "why": [
+    "Множественное число помогает говорить о нескольких предметах",
+    "Правильное образование множественного числа делает речь грамотной",
+    "В английском языке есть правила и исключения, которые нужно знать",
+    "Знание множественного числа помогает понимать текст и речь"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Brush: 'Look at the cats! There are three cats in the garden!' Feather: 'And look at the birds! There are five birds in the tree!'", "ru": "Кисточка: «Посмотри на кошек! В саду три кошки!» Пёрышко: «И посмотри на птиц! На дереве пять птиц!»" },
+      { "en": "Brush: 'One mouse, two mice. One child, two children. The plural is fun!'", "ru": "Кисточка: «Одна мышь, две мыши. Один ребёнок, два ребёнка. Множественное число — это весело!»" }
+    ],
+    "note": "Множественное число — это способ считать мир. Изучайте его с радостью."
+  },
+  "russianAngle": [
+    "В русском языке множественное число образуется с помощью окончаний: кот → коты, собака → собаки.",
+    "В английском языке обычно добавляется -s: a cat → cats, a dog → dogs.",
+    "В русском языке есть исключения: человек → люди. В английском тоже: a man → men, a child → children.",
+    "В русском языке некоторые слова не меняются: рыба → рыбы. В английском тоже: a fish → fish, a sheep → sheep."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: обычно +s: a cat → cats.",
+      "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses.",
+      "Если слово оканчивается на -y → -ies: a baby → babies.",
+      "Исключения: a man → men, a woman → women, a child → children.",
+      "Некоторые слова не меняются: a fish → fish, a sheep → sheep.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Напишите множественное число этих существительных:",
+      "items": [
+        { "q": "a cat → ___", "a": "cats" },
+        { "q": "a dog → ___", "a": "dogs" },
+        { "q": "a bus → ___", "a": "buses" },
+        { "q": "a baby → ___", "a": "babies" },
+        { "q": "a man → ___", "a": "men" },
+        { "q": "a child → ___", "a": "children" },
+        { "q": "a fish → ___", "a": "fish" }
+      ]
+    }
+  },
+  "formula": "",
+  "structure": {
+    "positive": "",
+    "negative": "",
+    "question": ""
+  },
+  "markers": [],
+  "uses": [],
+  "rules": [
+    { "title": "Обычное правило +s", "text": "a cat → cats, a dog → dogs, a bird → birds." },
+    { "title": "Правило +es", "text": "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses, a box → boxes." },
+    { "title": "Правило -y → -ies", "text": "Если слово оканчивается на -y → -ies: a baby → babies, a party → parties." },
+    { "title": "Исключения", "text": "a man → men, a woman → women, a child → children, a mouse → mice, a fish → fish, a sheep → sheep." }
+  ],
+  "examples": [
+    {
+      "group": "Обычное правило +s",
+      "items": [
+        { "en": "a cat → cats. Look at the cats in the garden!", "ru": "кошка → кошки. Посмотри на кошек в саду!", "highlight": ["cats"] },
+        { "en": "a dog → dogs. The dogs are playing in the park.", "ru": "собака → собаки. Собаки играют в парке.", "highlight": ["dogs"] },
+        { "en": "a bird → birds. There are many birds in the tree.", "ru": "птица → птицы. На дереве много птиц.", "highlight": ["birds"] },
+        { "en": "a rabbit → rabbits. The rabbits are in the garden.", "ru": "кролик → кролики. Кролики в саду.", "highlight": ["rabbits"] },
+        { "en": "a tree → trees. There are trees everywhere.", "ru": "дерево → деревья. Деревья повсюду.", "highlight": ["trees"] },
+        { "en": "a house → houses. There are houses on the street.", "ru": "дом → дома. На улице есть дома.", "highlight": ["houses"] }
+      ]
+    },
+    {
+      "group": "Правило +es",
+      "items": [
+        { "en": "a bus → buses. There are three buses on the street.", "ru": "автобус → автобусы. На улице три автобуса.", "highlight": ["buses"] },
+        { "en": "a box → boxes. I have two boxes of books.", "ru": "коробка → коробки. У меня две коробки книг.", "highlight": ["boxes"] },
+        { "en": "a watch → watches. He has three watches.", "ru": "часы → часы. У него трое часов.", "highlight": ["watches"] },
+        { "en": "a dress → dresses. She has many dresses.", "ru": "платье → платья. У неё много платьев.", "highlight": ["dresses"] },
+        { "en": "a fox → foxes. There are foxes in the forest.", "ru": "лиса → лисы. В лесу есть лисы.", "highlight": ["foxes"] },
+        { "en": "a glass → glasses. I need two glasses.", "ru": "стакан → стаканы. Мне нужны два стакана.", "highlight": ["glasses"] }
+      ]
+    },
+    {
+      "group": "Правило -y → -ies",
+      "items": [
+        { "en": "a baby → babies. The babies are sleeping.", "ru": "ребёнок → дети. Дети спят.", "highlight": ["babies"] },
+        { "en": "a party → parties. We have two parties this week.", "ru": "вечеринка → вечеринки. На этой неделе у нас две вечеринки.", "highlight": ["parties"] },
+        { "en": "a story → stories. She tells many stories.", "ru": "история → истории. Она рассказывает много историй.", "highlight": ["stories"] },
+        { "en": "a city → cities. There are many cities in England.", "ru": "город → города. В Англии много городов.", "highlight": ["cities"] },
+        { "en": "a country → countries. There are many countries in the world.", "ru": "страна → страны. В мире много стран.", "highlight": ["countries"] },
+        { "en": "a lady → ladies. The ladies are in the garden.", "ru": "леди → леди. Леди в саду.", "highlight": ["ladies"] }
+      ]
+    },
+    {
+      "group": "Исключения — человек",
+      "items": [
+        { "en": "a man → men. There are three men in the room.", "ru": "мужчина → мужчины. В комнате три мужчины.", "highlight": ["men"] },
+        { "en": "a woman → women. There are two women in the garden.", "ru": "женщина → женщины. В саду две женщины.", "highlight": ["women"] },
+        { "en": "a child → children. The children are playing.", "ru": "ребёнок → дети. Дети играют.", "highlight": ["children"] },
+        { "en": "a person → people. There are many people in the hall.", "ru": "человек → люди. В зале много людей.", "highlight": ["people"] },
+        { "en": "a gentleman → gentlemen. The gentlemen are waiting.", "ru": "джентльмен → джентльмены. Джентльмены ждут.", "highlight": ["gentlemen"] },
+        { "en": "a lady → ladies. The ladies are in the garden.", "ru": "леди → леди. Леди в саду.", "highlight": ["ladies"] }
+      ]
+    },
+    {
+      "group": "Исключения — животные",
+      "items": [
+        { "en": "a mouse → mice. There are mice in the kitchen!", "ru": "мышь → мыши. На кухне мыши!", "highlight": ["mice"] },
+        { "en": "a fish → fish. There are five fish in the aquarium.", "ru": "рыба → рыбы. В аквариуме пять рыб.", "highlight": ["fish"] },
+        { "en": "a sheep → sheep. There are many sheep on the farm.", "ru": "овца → овцы. На ферме много овец.", "highlight": ["sheep"] },
+        { "en": "a deer → deer. There are deer in the forest.", "ru": "олень → олени. В лесу есть олени.", "highlight": ["deer"] },
+        { "en": "a moose → moose. The moose are in the woods.", "ru": "лось → лоси. Лоси в лесу.", "highlight": ["moose"] },
+        { "en": "a bison → bison. The bison are in the fields.", "ru": "бизон → бизоны. Бизоны в полях.", "highlight": ["bison"] }
+      ]
+    },
+    {
+      "group": "Сравнение единственного и множественного числа",
+      "items": [
+        { "en": "a cat → cats. One cat, two cats.", "ru": "кошка → кошки. Одна кошка, две кошки.", "highlight": ["cat, cats"] },
+        { "en": "a man → men. One man, two men.", "ru": "мужчина → мужчины. Один мужчина, два мужчины.", "highlight": ["man, men"] },
+        { "en": "a fish → fish. One fish, two fish.", "ru": "рыба → рыбы. Одна рыба, две рыбы.", "highlight": ["fish, fish"] },
+        { "en": "a mouse → mice. One mouse, two mice.", "ru": "мышь → мыши. Одна мышь, две мыши.", "highlight": ["mouse, mice"] },
+        { "en": "a child → children. One child, two children.", "ru": "ребёнок → дети. Один ребёнок, два ребёнка.", "highlight": ["child, children"] },
+        { "en": "a sheep → sheep. One sheep, two sheep.", "ru": "овца → овцы. Одна овца, две овцы.", "highlight": ["sheep, sheep"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "a cat → cat's", "right": "a cat → cats", "note": "Множественное число — cats, без апострофа." },
+    { "wrong": "a man → mans", "right": "a man → men", "note": "Исключение: man → men." },
+    { "wrong": "a child → childs", "right": "a child → children", "note": "Исключение: child → children." },
+    { "wrong": "a mouse → mouses", "right": "a mouse → mice", "note": "Исключение: mouse → mice." },
+    { "wrong": "a fish → fishes", "right": "a fish → fish", "note": "Исключение: fish → fish." },
+    { "wrong": "a sheep → sheeps", "right": "a sheep → sheep", "note": "Исключение: sheep → sheep." }
+  ],
+  "compare": {
+    "title": "Единственное vs множественное число",
+    "leftLabel": "Единственное (one)",
+    "rightLabel": "Множественное (more than one)",
+    "rows": [
+      { "left": "a cat", "right": "two cats" },
+      { "left": "a man", "right": "two men" },
+      { "left": "a child", "right": "two children" },
+      { "left": "a mouse", "right": "two mice" },
+      { "left": "a fish", "right": "two fish" }
+    ]
+  },
+  "tips": [
+    "Обычно +s: a cat → cats.",
+    "+es: a box → boxes.",
+    "-y → -ies: a baby → babies.",
+    "Исключения: man → men, woman → women, child → children.",
+    "mouse → mice, fish → fish, sheep → sheep.",
+    "Запомни исключения как рифму.",
+    "Проверяй себя: one cat, two cats."
+  ],
+  "quiz": [
+    { "q": "a cat → ___", "options": ["cat's", "cats", "cates", "cat"], "answer": "cats", "why": "Множественное число — cats." },
+    { "q": "a man → ___", "options": ["mans", "men", "man's", "mens"], "answer": "men", "why": "Исключение: man → men." },
+    { "q": "a child → ___", "options": ["childs", "children", "child's", "childes"], "answer": "children", "why": "Исключение: child → children." },
+    { "q": "a mouse → ___", "options": ["mouses", "mice", "mouse's", "mices"], "answer": "mice", "why": "Исключение: mouse → mice." },
+    { "q": "a fish → ___", "options": ["fishes", "fish", "fish's", "fishe"], "answer": "fish", "why": "Исключение: fish → fish." },
+    { "q": "a baby → ___", "options": ["babys", "babies", "baby's", "babie"], "answer": "babies", "why": "-y → -ies: baby → babies." }
+  ],
+  "related": ["a1-nouns", "a1-articles-a-an", "a1-verb-to-be"]
 }

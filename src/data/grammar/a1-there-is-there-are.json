@@ -1,393 +1,171 @@
-﻿{
-    "variant":  "classic",
-    "slug":  "a1-there-is-there-are",
-    "level":  "A1",
-    "title":  "There Is / There Are",
-    "category":  "Grammar",
-    "readingTime":  8,
-    "summary":  "Конструкция there is / there are — говорим о существовании. Роберт Льюис Стивенсон и The Doors.",
-    "idea":  [
-                 "На Острове сокровищ есть всё. «There is a treasure map» — есть карта сокровищ. «There are pirates on the island» — на острове есть пираты. «There is a ship» — есть корабль. Конструкция there is / there are помогает нам описывать мир — говорить о том, что существует, находится или происходит. Без неё мы не могли бы сказать, что есть на острове.",
-                 "There is используется для единственного числа: there is a map, there is a ship. There are используется для множественного числа: there are pirates, there are treasures. Это простое правило помогает говорить о мире вокруг нас.",
-                 "Роберт Льюис Стивенсон знал, что каждое место имеет свои вещи. Он использовал there is / there are, чтобы создать мир приключений, где каждый предмет имеет своё место. Сокровища, пираты, корабли — всё это существует на его острове."
-             ],
-    "why":  [
-                "There is / there are — это способ сказать, что что-то существует",
-                "Они помогают описывать места и предметы",
-                "Правильное использование there is / there are делает речь грамотной",
-                "Это одна из самых частотных конструкций в английском языке"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Jim Hawkins: \u0027There is a treasure map in the chest. There are pirates on the island. There is a ship in the harbour. The adventure begins!\u0027",
-                                      "ru":  "Джим Хокинс: «В сундуке есть карта сокровищ. На острове есть пираты. В гавани есть корабль. Приключение начинается!»"
-                                  },
-                                  {
-                                      "en":  "Long John Silver: \u0027There is gold on the island. There are diamonds and pearls. There is treasure for all of us!\u0027",
-                                      "ru":  "Долговязый Джон Сильвер: «На острове есть золото. Есть алмазы и жемчуг. Есть сокровища для всех нас!»"
-                                  }
-                              ],
-                    "note":  "There is — единственное число (a map, a ship). There are — множественное число (pirates, treasures)."
-                },
-    "russianAngle":  [
-                         "В русском языке мы говорим «есть» для всего. В английском — there is (ед.ч.) и there are (мн.ч.).",
-                         "В русском языке мы часто опускаем \u0027есть\u0027: \u0027на острове пираты\u0027. В английском нужно there are: There are pirates on the island.",
-                         "Ошибка: There is pirates — неправильно! Нужно: There are pirates.",
-                         "Запомни: is + единственное число, are + множественное число."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Запомни: there is + единственное число: there is a map.",
-                                     "there are + множественное число: there are pirates.",
-                                     "В отрицании: there is not (there isn\u0027t), there are not (there aren\u0027t).",
-                                     "В вопросах: Is there a map? Are there pirates?",
-                                     "Потренируйся описывать места: There is a house. There are trees.",
-                                     "Сделай упражнение и сверься с ответами."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Вставьте there is или there are:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "___ a treasure map in the chest.",
-                                                          "a":  "There is"
-                                                      },
-                                                      {
-                                                          "q":  "___ pirates on the island.",
-                                                          "a":  "There are"
-                                                      },
-                                                      {
-                                                          "q":  "___ a ship in the harbour.",
-                                                          "a":  "There is"
-                                                      },
-                                                      {
-                                                          "q":  "___ gold and diamonds on the island.",
-                                                          "a":  "There are"
-                                                      },
-                                                      {
-                                                          "q":  "___ a beach on the island.",
-                                                          "a":  "There is"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "rules":  [
-                  {
-                      "title":  "There is — единственное число",
-                      "text":  "There is + существительное в единственном числе: There is a map. There is a ship."
-                  },
-                  {
-                      "title":  "There are — множественное число",
-                      "text":  "There are + существительное во множественном числе: There are pirates. There are treasures."
-                  },
-                  {
-                      "title":  "Вопросы и отрицания",
-                      "text":  "Вопросы: Is there a map? Are there pirates? Отрицания: There isn\u0027t a map. There aren\u0027t any pirates."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "There is — единственное число",
-                         "items":  [
-                                       {
-                                           "en":  "There is a treasure map in the chest.",
-                                           "ru":  "В сундуке есть карта сокровищ.",
-                                           "highlight":  [
-                                                             "There is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There is a ship in the harbour.",
-                                           "ru":  "В гавани есть корабль.",
-                                           "highlight":  [
-                                                             "There is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There is a beach on the island.",
-                                           "ru":  "На острове есть пляж.",
-                                           "highlight":  [
-                                                             "There is"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "There are — множественное число",
-                         "items":  [
-                                       {
-                                           "en":  "There are pirates on the island.",
-                                           "ru":  "На острове есть пираты.",
-                                           "highlight":  [
-                                                             "There are"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There are treasures in the cave.",
-                                           "ru":  "В пещере есть сокровища.",
-                                           "highlight":  [
-                                                             "There are"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There are ships in the harbour.",
-                                           "ru":  "В гавани есть корабли.",
-                                           "highlight":  [
-                                                             "There are"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "There is vs There are — сравнение",
-                         "items":  [
-                                       {
-                                           "en":  "There is a map. (singular)",
-                                           "ru":  "Есть карта. (ед.ч.)",
-                                           "highlight":  [
-                                                             "There is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There are maps. (plural)",
-                                           "ru":  "Есть карты. (мн.ч.)",
-                                           "highlight":  [
-                                                             "There are"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There is a pirate. (singular)",
-                                           "ru":  "Есть пират. (ед.ч.)",
-                                           "highlight":  [
-                                                             "There is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There are pirates. (plural)",
-                                           "ru":  "Есть пираты. (мн.ч.)",
-                                           "highlight":  [
-                                                             "There are"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Отрицания",
-                         "items":  [
-                                       {
-                                           "en":  "There isn\u0027t a map in the chest.",
-                                           "ru":  "В сундуке нет карты.",
-                                           "highlight":  [
-                                                             "There isn\u0027t"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There aren\u0027t any pirates on the island.",
-                                           "ru":  "На острове нет пиратов.",
-                                           "highlight":  [
-                                                             "There aren\u0027t"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There isn\u0027t a ship in the harbour.",
-                                           "ru":  "В гавани нет корабля.",
-                                           "highlight":  [
-                                                             "There isn\u0027t"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Вопросы",
-                         "items":  [
-                                       {
-                                           "en":  "Is there a map in the chest? — Yes, there is.",
-                                           "ru":  "В сундуке есть карта? — Да.",
-                                           "highlight":  [
-                                                             "Is there"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Are there pirates on the island? — Yes, there are.",
-                                           "ru":  "На острове есть пираты? — Да.",
-                                           "highlight":  [
-                                                             "Are there"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Is there a ship in the harbour? — No, there isn\u0027t.",
-                                           "ru":  "В гавани есть корабль? — Нет.",
-                                           "highlight":  [
-                                                             "Is there"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Описание мест",
-                         "items":  [
-                                       {
-                                           "en":  "There is a treasure map. There are pirates. There is a ship.",
-                                           "ru":  "Есть карта сокровищ. Есть пираты. Есть корабль.",
-                                           "highlight":  [
-                                                             "There is",
-                                                             "There are"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There is a beach. There are trees. There is a cave.",
-                                           "ru":  "Есть пляж. Есть деревья. Есть пещера.",
-                                           "highlight":  [
-                                                             "There is",
-                                                             "There are"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There is gold. There are diamonds. There are pearls.",
-                                           "ru":  "Есть золото. Есть алмазы. Есть жемчуг.",
-                                           "highlight":  [
-                                                             "There is",
-                                                             "There are"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "There is pirates on the island.",
-                         "right":  "There are pirates on the island.",
-                         "note":  "pirates — множественное число, поэтому there are."
-                     },
-                     {
-                         "wrong":  "There are a map in the chest.",
-                         "right":  "There is a map in the chest.",
-                         "note":  "a map — единственное число, поэтому there is."
-                     },
-                     {
-                         "wrong":  "There is a treasures in the cave.",
-                         "right":  "There are treasures in the cave.",
-                         "note":  "treasures — множественное число, поэтому there are."
-                     },
-                     {
-                         "wrong":  "There is not a map in the chest.",
-                         "right":  "There isn\u0027t a map in the chest.",
-                         "note":  "Сокращение: isn\u0027t."
-                     },
-                     {
-                         "wrong":  "There aren\u0027t a ship in the harbour.",
-                         "right":  "There isn\u0027t a ship in the harbour.",
-                         "note":  "a ship — единственное число, поэтому isn\u0027t."
-                     },
-                     {
-                         "wrong":  "Is there pirates on the island?",
-                         "right":  "Are there pirates on the island?",
-                         "note":  "pirates — множественное число, поэтому are there."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "There is vs There are",
-                    "leftLabel":  "There is (единственное число)",
-                    "rightLabel":  "There are (множественное число)",
-                    "rows":  [
-                                 {
-                                     "left":  "There is a map.",
-                                     "right":  "There are maps."
-                                 },
-                                 {
-                                     "left":  "There is a ship.",
-                                     "right":  "There are ships."
-                                 },
-                                 {
-                                     "left":  "There is a pirate.",
-                                     "right":  "There are pirates."
-                                 },
-                                 {
-                                     "left":  "There is a treasure.",
-                                     "right":  "There are treasures."
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "There is + единственное число: There is a map.",
-                 "There are + множественное число: There are pirates.",
-                 "В отрицании: There isn\u0027t a map. There aren\u0027t any pirates.",
-                 "В вопросах: Is there a map? Are there any pirates?",
-                 "Не путай: \u0027There is\u0027 и \u0027It is\u0027 — это разные конструкции.",
-                 "Запомни: есть (there is/are) vs это (it is).",
-                 "Проверяй себя: сколько предметов? Один → there is, много → there are."
-             ],
-    "related":  [
-                    "a1-nouns",
-                    "a1-plural-nouns",
-                    "a1-verb-to-be"
-                ],
-    "quiz":  [
-                 {
-                     "q":  "___ a treasure map in the chest.",
-                     "options":  [
-                                     "There is",
-                                     "There are",
-                                     "It is",
-                                     "They are"
-                                 ],
-                     "answer":  0,
-                     "why":  "a map — единственное число → there is."
-                 },
-                 {
-                     "q":  "___ pirates on the island.",
-                     "options":  [
-                                     "There is",
-                                     "There are",
-                                     "It is",
-                                     "They are"
-                                 ],
-                     "answer":  1,
-                     "why":  "pirates — множественное число → there are."
-                 },
-                 {
-                     "q":  "___ a ship in the harbour.",
-                     "options":  [
-                                     "There is",
-                                     "There are",
-                                     "It is",
-                                     "They are"
-                                 ],
-                     "answer":  0,
-                     "why":  "a ship — единственное число → there is."
-                 },
-                 {
-                     "q":  "___ a beach on the island.",
-                     "options":  [
-                                     "There is",
-                                     "There are",
-                                     "It is",
-                                     "They are"
-                                 ],
-                     "answer":  0,
-                     "why":  "a beach — единственное число → there is."
-                 },
-                 {
-                     "q":  "___ gold and diamonds on the island.",
-                     "options":  [
-                                     "There is",
-                                     "There are",
-                                     "It is",
-                                     "They are"
-                                 ],
-                     "answer":  1,
-                     "why":  "gold and diamonds — несколько предметов → there are."
-                 },
-                 {
-                     "q":  "___ there a map in the chest?",
-                     "options":  [
-                                     "Is",
-                                     "Are",
-                                     "Am",
-                                     "Be"
-                                 ],
-                     "answer":  0,
-                     "why":  "a map — единственное число → Is there?"
-                 }
-             ]
+{
+  "variant": "classic",
+  "slug": "a1-there-is-there-are",
+  "level": "A1",
+  "title": "There Is / There Are",
+  "category": "Grammar",
+  "readingTime": 8,
+  "summary": "There is / There are — говорим о том, что существует. Роберт Льюис Стивенсон и «Остров сокровищ».",
+  "idea": [
+    "Карта лежит на столе в каюте. Джим Хокинс смотрит на линии, заливы, крестики. «There is a treasure map» — на карте есть карта сокровищ, и это главное, что он видит. «There are pirates on the island» — на острове есть пираты, и это факт. «There is a ship in the harbour» — в гавани есть корабль, и он ждёт. Один предмет — «there is». Много предметов — «there are». «There is a cave» — есть пещера. «There are mountains» — есть горы. «There is a beach» — есть пляж. «There are trees» — есть деревья.",
+    "Джим называет то, что видит на карте: «There is a lagoon» — есть лагуна. «There are rocks near the shore» — есть скалы у берега. «There is a path through the forest» — есть тропа через лес. «There are no safe routes» — нет безопасных путей. Карта показывает, что существует на острове. «There is gold» — золото есть. «There is hope» — надежда есть. «There is danger» — опасность есть. «There are no guarantees» — нет гарантий.",
+    "Джим учится говорить о мире через эту конструкцию: сначала называть существование, потом добавлять детали. «There is a beach on the other side» — с другой стороны есть пляж. «There are mountains behind the forest» — за лесом есть горы. «There is a cave near the lagoon» — рядом с лагуной есть пещера. «There are no safe places» — нет безопасных мест. «There is a treasure map» — это начало пути. «There are pirates on the island» — это предупреждение. «There is a ship in the harbour» — это надежда."
+  ],
+  "why": [
+    "There is / there are — это способ сказать, что что-то существует",
+    "Они помогают описывать места и предметы",
+    "Правильное использование there is / there are делает речь грамотной",
+    "Это одна из самых частотных конструкций в английском языке"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Jim Hawkins: 'There is a treasure map in the chest. There are pirates on the island. There is a ship in the harbour. The adventure begins!'", "ru": "Джим Хокинс: «В сундуке есть карта сокровищ. На острове есть пираты. В гавани есть корабль. Приключение начинается!»" },
+      { "en": "Long John Silver: 'There is gold on the island. There are diamonds and pearls. There is treasure for all of us!'", "ru": "Долговязый Джон Сильвер: «На острове есть золото. Есть алмазы и жемчуг. Есть сокровища для всех нас!»" }
+    ],
+    "note": "There is — единственное число (a map, a ship). There are — множественное число (pirates, treasures)."
+  },
+  "russianAngle": [
+    "В русском языке мы говорим «есть» для всего. В английском — there is (ед.ч.) и there are (мн.ч.).",
+    "В русском языке мы часто опускаем 'есть': 'на острове пираты'. В английском нужно there are: There are pirates on the island.",
+    "Ошибка: There is pirates — неправильно! Нужно: There are pirates.",
+    "Запомни: is + единственное число, are + множественное число."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: there is + единственное число: there is a map.",
+      "there are + множественное число: there are pirates.",
+      "В отрицании: there is not (there isn't), there are not (there aren't).",
+      "В вопросах: Is there a map? Are there pirates?",
+      "Потренируйся описывать места: There is a house. There are trees.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте there is или there are:",
+      "items": [
+        { "q": "___ a treasure map in the chest.", "a": "There is" },
+        { "q": "___ pirates on the island.", "a": "There are" },
+        { "q": "___ a ship in the harbour.", "a": "There is" },
+        { "q": "___ gold and diamonds on the island.", "a": "There are" },
+        { "q": "___ a beach on the island.", "a": "There is" }
+      ]
+    }
+  },
+  "formula": "",
+  "structure": {
+    "positive": "",
+    "negative": "",
+    "question": ""
+  },
+  "markers": [],
+  "uses": [],
+  "rules": [
+    { "title": "There is — единственное число", "text": "There is + существительное в единственном числе: There is a map. There is a ship." },
+    { "title": "There are — множественное число", "text": "There are + существительное во множественном числе: There are pirates. There are treasures." },
+    { "title": "Вопросы и отрицания", "text": "Вопросы: Is there a map? Are there pirates? Отрицания: There isn't a map. There aren't any pirates." }
+  ],
+  "examples": [
+    {
+      "group": "There is — единственное число",
+      "items": [
+        { "en": "There is a treasure map in the chest.", "ru": "В сундуке есть карта сокровищ.", "highlight": ["There is"] },
+        { "en": "There is a ship in the harbour.", "ru": "В гавани есть корабль.", "highlight": ["There is"] },
+        { "en": "There is a beach on the island.", "ru": "На острове есть пляж.", "highlight": ["There is"] },
+        { "en": "There is a cave behind the hill.", "ru": "За холмом есть пещера.", "highlight": ["There is"] },
+        { "en": "There is a path through the forest.", "ru": "Через лес есть тропа.", "highlight": ["There is"] },
+        { "en": "There is a lagoon on the other side.", "ru": "С другой стороны есть лагуна.", "highlight": ["There is"] }
+      ]
+    },
+    {
+      "group": "There are — множественное число",
+      "items": [
+        { "en": "There are pirates on the island.", "ru": "На острове есть пираты.", "highlight": ["There are"] },
+        { "en": "There are treasures in the cave.", "ru": "В пещере есть сокровища.", "highlight": ["There are"] },
+        { "en": "There are ships in the harbour.", "ru": "В гавани есть корабли.", "highlight": ["There are"] },
+        { "en": "There are mountains behind the forest.", "ru": "За лесом есть горы.", "highlight": ["There are"] },
+        { "en": "There are rocks near the shore.", "ru": "У берега есть скалы.", "highlight": ["There are"] },
+        { "en": "There are trees along the path.", "ru": "Вдоль тропы есть деревья.", "highlight": ["There are"] }
+      ]
+    },
+    {
+      "group": "There is vs There are — сравнение",
+      "items": [
+        { "en": "There is a map. (singular)", "ru": "Есть карта. (ед.ч.)", "highlight": ["There is"] },
+        { "en": "There are maps. (plural)", "ru": "Есть карты. (мн.ч.)", "highlight": ["There are"] },
+        { "en": "There is a pirate. (singular)", "ru": "Есть пират. (ед.ч.)", "highlight": ["There is"] },
+        { "en": "There are pirates. (plural)", "ru": "Есть пираты. (мн.ч.)", "highlight": ["There are"] },
+        { "en": "There is a ship. (singular)", "ru": "Есть корабль. (ед.ч.)", "highlight": ["There is"] },
+        { "en": "There are ships. (plural)", "ru": "Есть корабли. (мн.ч.)", "highlight": ["There are"] }
+      ]
+    },
+    {
+      "group": "Отрицания",
+      "items": [
+        { "en": "There isn't a map in the chest.", "ru": "В сундуке нет карты.", "highlight": ["There isn't"] },
+        { "en": "There aren't any pirates on the island.", "ru": "На острове нет пиратов.", "highlight": ["There aren't"] },
+        { "en": "There isn't a ship in the harbour.", "ru": "В гавани нет корабля.", "highlight": ["There isn't"] },
+        { "en": "There aren't any safe routes.", "ru": "Нет безопасных путей.", "highlight": ["There aren't"] },
+        { "en": "There isn't any gold in the cave.", "ru": "В пещере нет золота.", "highlight": ["There isn't"] },
+        { "en": "There aren't any guarantees.", "ru": "Нет никаких гарантий.", "highlight": ["There aren't"] }
+      ]
+    },
+    {
+      "group": "Вопросы",
+      "items": [
+        { "en": "Is there a map in the chest? — Yes, there is.", "ru": "В сундуке есть карта? — Да.", "highlight": ["Is there"] },
+        { "en": "Are there pirates on the island? — Yes, there are.", "ru": "На острове есть пираты? — Да.", "highlight": ["Are there"] },
+        { "en": "Is there a ship in the harbour? — No, there isn't.", "ru": "В гавани есть корабль? — Нет.", "highlight": ["Is there"] },
+        { "en": "Is there a beach on the island? — Yes, there is.", "ru": "На острове есть пляж? — Да.", "highlight": ["Is there"] },
+        { "en": "Are there any trees on the island? — Yes, there are.", "ru": "На острове есть деревья? — Да.", "highlight": ["Are there"] },
+        { "en": "Is there any gold in the cave? — No, there isn't.", "ru": "В пещере есть золото? — Нет.", "highlight": ["Is there"] }
+      ]
+    },
+    {
+      "group": "Описание мест",
+      "items": [
+        { "en": "There is a treasure map. There are pirates. There is a ship.", "ru": "Есть карта сокровищ. Есть пираты. Есть корабль.", "highlight": ["There is", "There are"] },
+        { "en": "There is a beach. There are trees. There is a cave.", "ru": "Есть пляж. Есть деревья. Есть пещера.", "highlight": ["There is", "There are"] },
+        { "en": "There is gold. There are diamonds. There are pearls.", "ru": "Есть золото. Есть алмазы. Есть жемчуг.", "highlight": ["There is", "There are"] },
+        { "en": "There is a lagoon. There are mountains. There is a path.", "ru": "Есть лагуна. Есть горы. Есть тропа.", "highlight": ["There is", "There are"] },
+        { "en": "There is hope. There are dangers. There is no escape.", "ru": "Есть надежда. Есть опасности. Нет выхода.", "highlight": ["There is", "There are"] },
+        { "en": "There is a harbour. There are ships. There is a crew.", "ru": "Есть гавань. Есть корабли. Есть команда.", "highlight": ["There is", "There are"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "There is pirates on the island.", "right": "There are pirates on the island.", "note": "pirates — множественное число, поэтому there are." },
+    { "wrong": "There are a map in the chest.", "right": "There is a map in the chest.", "note": "a map — единственное число, поэтому there is." },
+    { "wrong": "There is a treasures in the cave.", "right": "There are treasures in the cave.", "note": "treasures — множественное число, поэтому there are." },
+    { "wrong": "There is not a map in the chest.", "right": "There isn't a map in the chest.", "note": "Сокращение: isn't." },
+    { "wrong": "There aren't a ship in the harbour.", "right": "There isn't a ship in the harbour.", "note": "a ship — единственное число, поэтому isn't." },
+    { "wrong": "Is there pirates on the island?", "right": "Are there pirates on the island?", "note": "pirates — множественное число, поэтому are there." }
+  ],
+  "compare": {
+    "title": "There is vs There are",
+    "leftLabel": "There is (единственное число)",
+    "rightLabel": "There are (множественное число)",
+    "rows": [
+      { "left": "There is a map.", "right": "There are maps." },
+      { "left": "There is a ship.", "right": "There are ships." },
+      { "left": "There is a pirate.", "right": "There are pirates." },
+      { "left": "There is a treasure.", "right": "There are treasures." }
+    ]
+  },
+  "tips": [
+    "There is + единственное число: There is a map.",
+    "There are + множественное число: There are pirates.",
+    "В отрицании: There isn't a map. There aren't any pirates.",
+    "В вопросах: Is there a map? Are there any pirates?",
+    "Не путай: 'There is' и 'It is' — это разные конструкции.",
+    "Запомни: есть (there is/are) vs это (it is).",
+    "Проверяй себя: сколько предметов? Один → there is, много → there are."
+  ],
+  "quiz": [
+    { "q": "___ a treasure map in the chest.", "options": ["There is", "There are", "It is", "They are"], "answer": "There is", "why": "a map — единственное число → there is." },
+    { "q": "___ pirates on the island.", "options": ["There is", "There are", "It is", "They are"], "answer": "There are", "why": "pirates — множественное число → there are." },
+    { "q": "___ a ship in the harbour.", "options": ["There is", "There are", "It is", "They are"], "answer": "There is", "why": "a ship — единственное число → there is." },
+    { "q": "___ a beach on the island.", "options": ["There is", "There are", "It is", "They are"], "answer": "There is", "why": "a beach — единственное число → there is." },
+    { "q": "___ gold and diamonds on the island.", "options": ["There is", "There are", "It is", "They are"], "answer": "There are", "why": "gold and diamonds — несколько предметов → there are." },
+    { "q": "___ there a map in the chest?", "options": ["Is", "Are", "Am", "Be"], "answer": "Is", "why": "a map — единственное число → Is there?" }
+  ],
+  "related": ["a1-nouns", "a1-plural-nouns", "a1-verb-to-be"]
 }

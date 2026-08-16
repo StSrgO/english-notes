@@ -1,453 +1,185 @@
-﻿{
-    "slug":  "a1-present-continuous",
-    "level":  "A1",
-    "title":  "Present Continuous",
-    "category":  "Tenses",
-    "readingTime":  7,
-    "summary":  "Настоящее продолженное время: действия прямо сейчас. Вирджиния Вулф и Green Day.",
-    "variant":  "rocknroll",
-    "idea":  [
-                 "1994 год. Студия Fantasy Studios в Калифорнии. Green Day записывают третий альбом. Они не спят ночами. Они играют, кричат, ломают струны. Каждый трек рождается прямо сейчас. Билл Джо Армстронг поёт о своей жизни — о скуке, тревоге, подростковом гневе. Его голос летит в микрофон. Это не репетиция. Это момент. Это Continuous.",
-                 "Продюсер Роб Кавалло сидит за пультом. Он слушает, как Тре Кул долбит по барабанам. Майк Дёрнт добавляет бас-линию. Группа не останавливается. Они записывают «Basket Case» уже в пятый раз. Что-то не так. Билл Джо переписывает текст прямо в студии. Он чувствует, что песня становится лучше. Это момент творчества. Это момент жизни.",
-                 "Альбом будет называться «Dookie». Его ждёт бешеный успех. Но сейчас, в этой студии, они ничего не знают. Они просто делают. Они проживают каждую секунду. Прямо сейчас. Present Continuous — это время, когда ты не думаешь о завтра. Ты просто в моменте. Как Green Day в 1994-м."
-             ],
-    "why":  [
-                "Говорить о том, что происходит прямо сейчас: «The band is recording a song.»",
-                "Описывать временные действия: «They are staying in the studio all night.»",
-                "Передавать энергию и движение: «The sound is getting louder.»",
-                "Выражать ощущения в моменте: «I am feeling the music.»"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Billie: We are recording \u0027Basket Case\u0027 again. It\u0027s not working.",
-                                      "ru":  "Мы записываем \u0027Basket Case\u0027 снова. Не работает."
-                                  },
-                                  {
-                                      "en":  "Rob: I am listening carefully. The rhythm is rushing.",
-                                      "ru":  "Я внимательно слушаю. Ритм торопится."
-                                  },
-                                  {
-                                      "en":  "Mike: Tre is playing too fast.",
-                                      "ru":  "Тре играет слишком быстро."
-                                  },
-                                  {
-                                      "en":  "Tre: I am not playing too fast! You are playing too slow!",
-                                      "ru":  "Я не играю слишком быстро! Ты играешь слишком медленно!"
-                                  },
-                                  {
-                                      "en":  "Billie: Okay, we are trying again. And we are not stopping.",
-                                      "ru":  "Ладно, пробуем снова. И мы не останавливаемся."
-                                  }
-                              ],
-                    "note":  "Напряжённый момент в студии. Green Day перезаписывают трек. Каждая секунда важна. Present Continuous передаёт драйв."
-                },
-    "russianAngle":  [
-                         "Русские говорят: «Мы записываем альбом» — и это может быть и сейчас, и вообще. По-английски разница есть: «We are recording» (прямо сейчас) vs «We record» (вообще, всегда).",
-                         "«Я играю слишком быстро» — если это происходит прямо сейчас в студии. Тре говорит: «I am playing too fast!» Он не всегда играет быстро. Именно сейчас.",
-                         "В русском «ты торопишься» — состояние. По-английски: «You are rushing» — именно сейчас, в этом моменте.",
-                         "Ощущения и эмоции в моменте — Continuous. Билл Джо говорит: «I am feeling this song» — он чувствует её прямо сейчас."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Спроси себя: это происходит прямо сейчас? Если да — Present Continuous.",
-                                     "Используй am/is/are + глагол + -ing.",
-                                     "Глаголы состояния (know, understand, want) — в Continuous не употребляются."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Опиши, что происходит в студии прямо сейчас. Используй Present Continuous.",
-                                        "items":  [
-                                                      {
-                                                          "q":  "The band (record) \u0027Dookie\u0027 in the studio.",
-                                                          "a":  "is recording"
-                                                      },
-                                                      {
-                                                          "q":  "Billie (sing) with full energy.",
-                                                          "a":  "is singing"
-                                                      },
-                                                      {
-                                                          "q":  "Tre (play) the drums like crazy.",
-                                                          "a":  "is playing"
-                                                      },
-                                                      {
-                                                          "q":  "Rob (listen) to every note carefully.",
-                                                          "a":  "is listening"
-                                                      },
-                                                      {
-                                                          "q":  "The musicians (not / sleep) all night.",
-                                                          "a":  "aren\u0027t sleeping"
-                                                      },
-                                                      {
-                                                          "q":  "The album (become) something special.",
-                                                          "a":  "is becoming"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "S + am/is/are + V-ing",
-    "structure":  {
-                      "positive":  "I am + V-ing\nHe/She/It is + V-ing\nWe/You/They are + V-ing",
-                      "negative":  "I am not + V-ing\nHe/She/It is not + V-ing\nWe/You/They are not + V-ing",
-                      "question":  "Am I + V-ing?\nIs he/she/it + V-ing?\nAre we/you/they + V-ing?"
-                  },
-    "markers":  [
-                    "now",
-                    "right now",
-                    "at the moment",
-                    "in the studio",
-                    "tonight",
-                    "this week",
-                    "currently",
-                    "still"
-                ],
-    "uses":  [
-                 "Действие прямо сейчас: «The band is playing in the studio.»",
-                 "Временные действия: «They are working all night.»",
-                 "Изменения: «The music is getting better.»",
-                 "Запланированные действия: «They are playing a show next week.»"
-             ],
-    "rules":  [
-                  {
-                      "text":  "Добавляй -ing к глаголу: play → playing, sing → singing, record → recording.",
-                      "title":  "Добавляй -ing"
-                  },
-                  {
-                      "text":  "Глаголы состояния (know, understand, want) не используются в Continuous.",
-                      "title":  "Глаголы состояния — исключение"
-                  },
-                  {
-                      "text":  "Отрицание: am/is/are + not + -ing: He isn\u0027t playing, they aren\u0027t recording.",
-                      "title":  "Отрицание"
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "В студии Fantasy Studios",
-                         "items":  [
-                                       {
-                                           "en":  "Green Day is recording \u0027Dookie\u0027 in the studio.",
-                                           "ru":  "Green Day записывают \u0027Dookie\u0027 в студии.",
-                                           "highlight":  [
-                                                             "is recording"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Billie Joe is singing with full power.",
-                                           "ru":  "Билл Джо поёт с полной отдачей.",
-                                           "highlight":  [
-                                                             "is singing"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Mike is playing the bass loud and low.",
-                                           "ru":  "Майк играет на басе громко и низко.",
-                                           "highlight":  [
-                                                             "is playing"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Tre is drumming like a maniac.",
-                                           "ru":  "Тре долбит по барабанам как сумасшедший.",
-                                           "highlight":  [
-                                                             "is drumming"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Процесс записи",
-                         "items":  [
-                                       {
-                                           "en":  "Rob is working at the mixing desk.",
-                                           "ru":  "Роб работает за пультом.",
-                                           "highlight":  [
-                                                             "is working"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The tape is spinning in the machine.",
-                                           "ru":  "Лента крутится в машине.",
-                                           "highlight":  [
-                                                             "is spinning"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The microphones are capturing every sound.",
-                                           "ru":  "Микрофоны ловят каждый звук.",
-                                           "highlight":  [
-                                                             "are capturing"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The band is playing \u0027Basket Case\u0027 again.",
-                                           "ru":  "Группа играет \u0027Basket Case\u0027 снова.",
-                                           "highlight":  [
-                                                             "is playing"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Энергия и драйв",
-                         "items":  [
-                                       {
-                                           "en":  "The volume is rising to the maximum.",
-                                           "ru":  "Громкость поднимается до максимума.",
-                                           "highlight":  [
-                                                             "is rising"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The guitars are screaming through the speakers.",
-                                           "ru":  "Гитары кричат через колонки.",
-                                           "highlight":  [
-                                                             "are screaming"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Billie\u0027s voice is breaking with emotion.",
-                                           "ru":  "Голос Билла ломается от эмоций.",
-                                           "highlight":  [
-                                                             "is breaking"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The room is vibrating with energy.",
-                                           "ru":  "Комната вибрирует от энергии.",
-                                           "highlight":  [
-                                                             "is vibrating"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Изменения в процессе",
-                         "items":  [
-                                       {
-                                           "en":  "The songs are getting faster and faster.",
-                                           "ru":  "Песни становятся всё быстрее и быстрее.",
-                                           "highlight":  [
-                                                             "are getting"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The sound is becoming more aggressive.",
-                                           "ru":  "Звук становится более агрессивным.",
-                                           "highlight":  [
-                                                             "is becoming"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The album is taking shape.",
-                                           "ru":  "Альбом обретает форму.",
-                                           "highlight":  [
-                                                             "is taking"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Their confidence is growing with every take.",
-                                           "ru":  "Их уверенность растёт с каждым дублем.",
-                                           "highlight":  [
-                                                             "is growing"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Отрицания и вопросы",
-                         "items":  [
-                                       {
-                                           "en":  "Billie is not sleeping tonight.",
-                                           "ru":  "Билл не спит сегодня.",
-                                           "highlight":  [
-                                                             "is not sleeping"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The band is not giving up.",
-                                           "ru":  "Группа не сдаётся.",
-                                           "highlight":  [
-                                                             "is not giving"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Is Rob recording every take?",
-                                           "ru":  "Роб записывает каждый дубль?",
-                                           "highlight":  [
-                                                             "Is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Are they enjoying the process?",
-                                           "ru":  "Им нравится процесс?",
-                                           "highlight":  [
-                                                             "Are"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Взгляд в будущее",
-                         "items":  [
-                                       {
-                                           "en":  "The record is becoming a classic.",
-                                           "ru":  "Пластинка становится классикой.",
-                                           "highlight":  [
-                                                             "is becoming"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The sound is influencing a whole generation.",
-                                           "ru":  "Звук влияет на целое поколение.",
-                                           "highlight":  [
-                                                             "is influencing"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "People are listening to it decades later.",
-                                           "ru":  "Люди слушают её десятилетия спустя.",
-                                           "highlight":  [
-                                                             "are listening"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The spirit of \u0027Dookie\u0027 is living on.",
-                                           "ru":  "Дух \u0027Dookie\u0027 продолжает жить.",
-                                           "highlight":  [
-                                                             "is living"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "We are recording \u0027Dookie\u0027 every year.",
-                         "right":  "We record \u0027Dookie\u0027 every year.",
-                         "note":  "Привычка — Present Simple. Continuous только для сейчас."
-                     },
-                     {
-                         "wrong":  "He playing guitar right now.",
-                         "right":  "He is playing guitar right now.",
-                         "note":  "Всегда нужен am/is/are."
-                     },
-                     {
-                         "wrong":  "She is wanting to record a song.",
-                         "right":  "She wants to record a song.",
-                         "note":  "Want — глагол состояния."
-                     },
-                     {
-                         "wrong":  "They are not wanting to stop.",
-                         "right":  "They don\u0027t want to stop.",
-                         "note":  "Want — не Continuous."
-                     },
-                     {
-                         "wrong":  "Is she sleeps now?",
-                         "right":  "Is she sleeping now?",
-                         "note":  "Вопрос в Continuous: am/is/are + подлежащее + -ing."
-                     },
-                     {
-                         "wrong":  "I am knowing this song.",
-                         "right":  "I know this song.",
-                         "note":  "Know — глагол состояния."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Present Simple vs Present Continuous",
-                    "leftLabel":  "Present Simple",
-                    "rightLabel":  "Present Continuous",
-                    "rows":  [
-                                 {
-                                     "left":  "They play punk rock.",
-                                     "right":  "They are playing punk rock right now."
-                                 },
-                                 {
-                                     "left":  "He writes songs every day.",
-                                     "right":  "He is writing a song at the moment."
-                                 },
-                                 {
-                                     "left":  "The band tours every summer.",
-                                     "right":  "The band is touring this summer."
-                                 },
-                                 {
-                                     "left":  "She loves music.",
-                                     "right":  "She is listening to music now."
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Прямо сейчас = Present Continuous. Смотри на маркеры: now, right now, at the moment.",
-                 "Глаголы состояния (know, understand, want, love, hate) — всегда Simple.",
-                 "Если действие происходит в момент речи — Continuous. Всегда.",
-                 "Continuous часто передаёт энергию, движение, изменения.",
-                 "Отрицание: am/is/are + not. He isn\u0027t playing, they aren\u0027t recording.",
-                 "Вопрос: Is he playing? Are they recording? Просто меняй местами."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Which sentence describes an action right now?",
-                     "options":  [
-                                     "They record an album.",
-                                     "They are recording an album.",
-                                     "They recorded an album."
-                                 ],
-                     "answer":  "They are recording an album.",
-                     "why":  "Прямо сейчас — Present Continuous."
-                 },
-                 {
-                     "q":  "Correct form for \u0027I ... (play) the guitar now\u0027:",
-                     "options":  [
-                                     "play",
-                                     "am playing",
-                                     "playing"
-                                 ],
-                     "answer":  "am playing",
-                     "why":  "Сейчас + I → am + -ing."
-                 },
-                 {
-                     "q":  "Which verb is NOT used in Continuous?",
-                     "options":  [
-                                     "play",
-                                     "sing",
-                                     "want"
-                                 ],
-                     "answer":  "want",
-                     "why":  "Want — глагол состояния."
-                 },
-                 {
-                     "q":  "What does \u0027They are touring this month\u0027 mean?",
-                     "options":  [
-                                     "They always tour.",
-                                     "They are on tour temporarily.",
-                                     "They will tour next year."
-                                 ],
-                     "answer":  "They are on tour temporarily.",
-                     "why":  "Временное действие — Present Continuous."
-                 },
-                 {
-                     "q":  "Which is correct?",
-                     "options":  [
-                                     "He doesn\u0027t play now.",
-                                     "He isn\u0027t playing now.",
-                                     "He don\u0027t play now."
-                                 ],
-                     "answer":  "He isn\u0027t playing now.",
-                     "why":  "Отрицание в Continuous: am/is/are + not + -ing."
-                 },
-                 {
-                     "q":  "\"The band ... (record) \u0027Dookie\u0027 in the studio.\"",
-                     "options":  [
-                                     "records",
-                                     "is recording",
-                                     "record"
-                                 ],
-                     "answer":  "is recording",
-                     "why":  "Действие прямо сейчас в студии."
-                 }
-             ],
-    "related":  [
-                    "a1-present-simple",
-                    "a1-verb-to-be",
-                    "a1-pronouns"
-                ]
+{
+  "variant": "rocknroll",
+  "slug": "a1-present-continuous",
+  "level": "A1",
+  "title": "Present Continuous",
+  "category": "Tenses",
+  "readingTime": 7,
+  "summary": "Настоящее продолженное время: действия прямо сейчас. Green Day и запись альбома «Dookie».",
+  "idea": [
+    "Студия Fantasy Studios, 1994 год. «The band is playing» — группа играет. «The tape is spinning» — лента крутится. «Billie is singing into the microphone» — Билл поёт в микрофон. Это не репетиция, это запись. Каждый трек рождается сейчас, в эту секунду. «The red light is on» — красная лампа горит. «The engineer is watching the meters» — звукорежиссёр смотрит на индикаторы. «The drummer is playing louder» — барабанщик играет громче. Всё происходит в реальном времени.",
+    "Билл Джо Армстронг не просто поёт. «His voice is cracking» — его голос срывается. «He is pushing harder» — он давит сильнее. «The song is evolving» — песня меняется. Они уже записывают «Basket Case» в пятый раз. «They are finding something new» — они находят что-то новое. «The energy is building» — энергия нарастает. Это не контроль, это момент. Каждая ошибка остаётся на плёнке. Каждый крик, каждый срыв, каждая вспышка — всё происходит сейчас.",
+    "«The sound is getting bigger» — звук становится больше. «The guitars are screaming» — гитары кричат. «The room is shaking» — комната трясётся. Всё это происходит сейчас. Альбом становится живым именно потому, что он рождается в реальном времени. «The album is taking shape» — альбом обретает форму. «The songs are getting faster» — песни становятся быстрее. «The confidence is growing» — уверенность растёт. В этой студии нет «потом». Есть только сейчас."
+  ],
+  "why": [
+    "Говорить о том, что происходит прямо сейчас: «The band is recording a song.»",
+    "Описывать временные действия: «They are staying in the studio all night.»",
+    "Передавать энергию и движение: «The sound is getting louder.»",
+    "Выражать ощущения в моменте: «I am feeling the music.»"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Billie: We are recording 'Basket Case' again. It's not working.", "ru": "Мы записываем 'Basket Case' снова. Не работает." },
+      { "en": "Rob: I am listening carefully. The rhythm is rushing.", "ru": "Я внимательно слушаю. Ритм торопится." },
+      { "en": "Mike: Tre is playing too fast.", "ru": "Тре играет слишком быстро." },
+      { "en": "Tre: I am not playing too fast! You are playing too slow!", "ru": "Я не играю слишком быстро! Ты играешь слишком медленно!" },
+      { "en": "Billie: Okay, we are trying again. And we are not stopping.", "ru": "Ладно, пробуем снова. И мы не останавливаемся." }
+    ],
+    "note": "Напряжённый момент в студии. Green Day перезаписывают трек. Каждая секунда важна. Present Continuous передаёт драйв."
+  },
+  "russianAngle": [
+    "Русские говорят: «Мы записываем альбом» — и это может быть и сейчас, и вообще. По-английски разница есть: «We are recording» (прямо сейчас) vs «We record» (вообще, всегда).",
+    "«Я играю слишком быстро» — если это происходит прямо сейчас в студии. Тре говорит: «I am playing too fast!» Он не всегда играет быстро. Именно сейчас.",
+    "В русском «ты торопишься» — состояние. По-английски: «You are rushing» — именно сейчас, в этом моменте.",
+    "Ощущения и эмоции в моменте — Continuous. Билл Джо говорит: «I am feeling this song» — он чувствует её прямо сейчас."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Спроси себя: это происходит прямо сейчас? Если да — Present Continuous.",
+      "Используй am/is/are + глагол + -ing.",
+      "Глаголы состояния (know, understand, want) — в Continuous не употребляются."
+    ],
+    "exercise": {
+      "prompt": "Опиши, что происходит в студии прямо сейчас. Используй Present Continuous.",
+      "items": [
+        { "q": "The band (record) 'Dookie' in the studio.", "a": "is recording" },
+        { "q": "Billie (sing) with full energy.", "a": "is singing" },
+        { "q": "Tre (play) the drums like crazy.", "a": "is playing" },
+        { "q": "Rob (listen) to every note carefully.", "a": "is listening" },
+        { "q": "The musicians (not / sleep) all night.", "a": "aren't sleeping" },
+        { "q": "The album (become) something special.", "a": "is becoming" }
+      ]
+    }
+  },
+  "formula": "S + am/is/are + V-ing",
+  "structure": {
+    "positive": "I am + V-ing\nHe/She/It is + V-ing\nWe/You/They are + V-ing",
+    "negative": "I am not + V-ing\nHe/She/It is not + V-ing\nWe/You/They are not + V-ing",
+    "question": "Am I + V-ing?\nIs he/she/it + V-ing?\nAre we/you/they + V-ing?"
+  },
+  "markers": [
+    "now",
+    "right now",
+    "at the moment",
+    "in the studio",
+    "tonight",
+    "this week",
+    "currently",
+    "still"
+  ],
+  "uses": [
+    "Действие прямо сейчас: «The band is playing in the studio.»",
+    "Временные действия: «They are working all night.»",
+    "Изменения: «The music is getting better.»",
+    "Запланированные действия: «They are playing a show next week.»"
+  ],
+  "rules": [
+    { "title": "Добавляй -ing", "text": "Добавляй -ing к глаголу: play → playing, sing → singing, record → recording." },
+    { "title": "Глаголы состояния — исключение", "text": "Глаголы состояния (know, understand, want) не используются в Continuous." },
+    { "title": "Отрицание", "text": "Отрицание: am/is/are + not + -ing: He isn't playing, they aren't recording." }
+  ],
+  "examples": [
+    {
+      "group": "В студии Fantasy Studios",
+      "items": [
+        { "en": "Green Day is recording 'Dookie' in the studio.", "ru": "Green Day записывают 'Dookie' в студии.", "highlight": ["is recording"] },
+        { "en": "Billie Joe is singing with full power.", "ru": "Билл Джо поёт с полной отдачей.", "highlight": ["is singing"] },
+        { "en": "Mike is playing the bass loud and low.", "ru": "Майк играет на басе громко и низко.", "highlight": ["is playing"] },
+        { "en": "Tre is drumming like a maniac.", "ru": "Тре долбит по барабанам как сумасшедший.", "highlight": ["is drumming"] },
+        { "en": "Rob is working at the mixing desk.", "ru": "Роб работает за пультом.", "highlight": ["is working"] },
+        { "en": "The tape is spinning in the machine.", "ru": "Лента крутится в машине.", "highlight": ["is spinning"] }
+      ]
+    },
+    {
+      "group": "Процесс записи",
+      "items": [
+        { "en": "Rob is working at the mixing desk.", "ru": "Роб работает за пультом.", "highlight": ["is working"] },
+        { "en": "The tape is spinning in the machine.", "ru": "Лента крутится в машине.", "highlight": ["is spinning"] },
+        { "en": "The microphones are capturing every sound.", "ru": "Микрофоны ловят каждый звук.", "highlight": ["are capturing"] },
+        { "en": "The band is playing 'Basket Case' again.", "ru": "Группа играет 'Basket Case' снова.", "highlight": ["is playing"] },
+        { "en": "The red light is on.", "ru": "Красная лампа горит.", "highlight": ["is"] },
+        { "en": "The engineer is watching the meters.", "ru": "Звукорежиссёр смотрит на индикаторы.", "highlight": ["is watching"] }
+      ]
+    },
+    {
+      "group": "Энергия и драйв",
+      "items": [
+        { "en": "The volume is rising to the maximum.", "ru": "Громкость поднимается до максимума.", "highlight": ["is rising"] },
+        { "en": "The guitars are screaming through the speakers.", "ru": "Гитары кричат через колонки.", "highlight": ["are screaming"] },
+        { "en": "Billie's voice is breaking with emotion.", "ru": "Голос Билла ломается от эмоций.", "highlight": ["is breaking"] },
+        { "en": "The room is vibrating with energy.", "ru": "Комната вибрирует от энергии.", "highlight": ["is vibrating"] },
+        { "en": "The drummer is playing louder.", "ru": "Барабанщик играет громче.", "highlight": ["is playing"] },
+        { "en": "The energy is building.", "ru": "Энергия нарастает.", "highlight": ["is building"] }
+      ]
+    },
+    {
+      "group": "Изменения в процессе",
+      "items": [
+        { "en": "The songs are getting faster and faster.", "ru": "Песни становятся всё быстрее и быстрее.", "highlight": ["are getting"] },
+        { "en": "The sound is becoming more aggressive.", "ru": "Звук становится более агрессивным.", "highlight": ["is becoming"] },
+        { "en": "The album is taking shape.", "ru": "Альбом обретает форму.", "highlight": ["is taking"] },
+        { "en": "Their confidence is growing with every take.", "ru": "Их уверенность растёт с каждым дублем.", "highlight": ["is growing"] },
+        { "en": "The song is evolving.", "ru": "Песня меняется.", "highlight": ["is evolving"] },
+        { "en": "They are finding something new.", "ru": "Они находят что-то новое.", "highlight": ["are finding"] }
+      ]
+    },
+    {
+      "group": "Отрицания и вопросы",
+      "items": [
+        { "en": "Billie is not sleeping tonight.", "ru": "Билл не спит сегодня.", "highlight": ["is not sleeping"] },
+        { "en": "The band is not giving up.", "ru": "Группа не сдаётся.", "highlight": ["is not giving"] },
+        { "en": "Is Rob recording every take?", "ru": "Роб записывает каждый дубль?", "highlight": ["Is"] },
+        { "en": "Are they enjoying the process?", "ru": "Им нравится процесс?", "highlight": ["Are"] },
+        { "en": "Is the album taking shape?", "ru": "Альбом обретает форму?", "highlight": ["Is"] },
+        { "en": "Are they stopping?", "ru": "Они останавливаются?", "highlight": ["Are"] }
+      ]
+    },
+    {
+      "group": "Взгляд в будущее",
+      "items": [
+        { "en": "The record is becoming a classic.", "ru": "Пластинка становится классикой.", "highlight": ["is becoming"] },
+        { "en": "The sound is influencing a whole generation.", "ru": "Звук влияет на целое поколение.", "highlight": ["is influencing"] },
+        { "en": "People are listening to it decades later.", "ru": "Люди слушают её десятилетия спустя.", "highlight": ["are listening"] },
+        { "en": "The spirit of 'Dookie' is living on.", "ru": "Дух 'Dookie' продолжает жить.", "highlight": ["is living"] },
+        { "en": "The album is becoming what it's supposed to be.", "ru": "Альбом становится тем, чем должен быть.", "highlight": ["is becoming"] },
+        { "en": "The sound is getting bigger.", "ru": "Звук становится больше.", "highlight": ["is getting"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "We are recording 'Dookie' every year.", "right": "We record 'Dookie' every year.", "note": "Привычка — Present Simple. Continuous только для сейчас." },
+    { "wrong": "He playing guitar right now.", "right": "He is playing guitar right now.", "note": "Всегда нужен am/is/are." },
+    { "wrong": "She is wanting to record a song.", "right": "She wants to record a song.", "note": "Want — глагол состояния." },
+    { "wrong": "They are not wanting to stop.", "right": "They don't want to stop.", "note": "Want — не Continuous." },
+    { "wrong": "Is she sleeps now?", "right": "Is she sleeping now?", "note": "Вопрос в Continuous: am/is/are + подлежащее + -ing." },
+    { "wrong": "I am knowing this song.", "right": "I know this song.", "note": "Know — глагол состояния." }
+  ],
+  "compare": {
+    "title": "Present Simple vs Present Continuous",
+    "leftLabel": "Present Simple",
+    "rightLabel": "Present Continuous",
+    "rows": [
+      { "left": "They play punk rock.", "right": "They are playing punk rock right now." },
+      { "left": "He writes songs every day.", "right": "He is writing a song at the moment." },
+      { "left": "The band tours every summer.", "right": "The band is touring this summer." },
+      { "left": "She loves music.", "right": "She is listening to music now." }
+    ]
+  },
+  "tips": [
+    "Прямо сейчас = Present Continuous. Смотри на маркеры: now, right now, at the moment.",
+    "Глаголы состояния (know, understand, want, love, hate) — всегда Simple.",
+    "Если действие происходит в момент речи — Continuous. Всегда.",
+    "Continuous часто передаёт энергию, движение, изменения.",
+    "Отрицание: am/is/are + not. He isn't playing, they aren't recording.",
+    "Вопрос: Is he playing? Are they recording? Просто меняй местами."
+  ],
+  "quiz": [
+    { "q": "Which sentence describes an action right now?", "options": ["They record an album.", "They are recording an album.", "They recorded an album."], "answer": "They are recording an album.", "why": "Прямо сейчас — Present Continuous." },
+    { "q": "Correct form for 'I ... (play) the guitar now':", "options": ["play", "am playing", "playing"], "answer": "am playing", "why": "Сейчас + I → am + -ing." },
+    { "q": "Which verb is NOT used in Continuous?", "options": ["play", "sing", "want"], "answer": "want", "why": "Want — глагол состояния." },
+    { "q": "What does 'They are touring this month' mean?", "options": ["They always tour.", "They are on tour temporarily.", "They will tour next year."], "answer": "They are on tour temporarily.", "why": "Временное действие — Present Continuous." },
+    { "q": "Which is correct?", "options": ["He doesn't play now.", "He isn't playing now.", "He don't play now."], "answer": "He isn't playing now.", "why": "Отрицание в Continuous: am/is/are + not + -ing." },
+    { "q": "\"The band ... (record) 'Dookie' in the studio.\"", "options": ["records", "is recording", "record"], "answer": "is recording", "why": "Действие прямо сейчас в студии." }
+  ],
+  "related": ["a1-present-simple", "a1-verb-to-be", "a1-pronouns"]
 }

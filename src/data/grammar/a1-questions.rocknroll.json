@@ -1,463 +1,194 @@
-﻿{
-    "slug":  "a1-questions",
-    "level":  "A1",
-    "title":  "Questions",
-    "category":  "Tenses",
-    "readingTime":  7,
-    "summary":  "Вопросы: общие, специальные и к подлежащему. Агата Кристи и The Police.",
-    "variant":  "rocknroll",
-    "idea":  [
-                 "1983 год. Стинг пишет песню «Every Breath You Take». Она звучит как романтическая баллада. Но это песня-вопрос. Это песня о контроле, ревности и одержимости. Стинг смотрит на свой брак. Он смотрит на славу. Он задаёт вопросы: «Every breath you take, every move you make» — каждый твой вдох, каждое твоё движение. Он наблюдает. Он спрашивает. Вопросы преследуют нас.",
-                 "The Police записывают песню. Энди Саммерс играет гитарный рифф. Стюарт Коупленд добавляет барабаны. Стинг поёт. Но в тексте — вопросы без ответа. «Will you stay? Do you love me? Where are you going?» Песня становится мировым хитом. Люди любят её за мелодию. Но вопросы остаются. Вопросы — это часть жизни.",
-                 "The Police знали: хорошая песня задаёт вопросы. Она не даёт ответы. Она заставляет тебя думать. Вопросы на английском — это не только грамматика. Это способ узнать правду. Как в песне. Как в жизни. Вопросы открывают то, что скрыто."
-             ],
-    "why":  [
-                "Спрашивать о чувствах: «Do you love me?»",
-                "Уточнять информацию: «Where are you going?»",
-                "Выражать сомнение: «Will you stay?»",
-                "Общаться в повседневной жизни: «What\u0027s your name?»"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Sting: Every breath you take, every move you make… I\u0027ll be watching you. Do you feel it?",
-                                      "ru":  "Каждый твой вдох, каждое твоё движение… Я буду смотреть на тебя. Ты чувствуешь?"
-                                  },
-                                  {
-                                      "en":  "Producer: Is this a love song or a stalker song?",
-                                      "ru":  "Это песня о любви или о сталкере?"
-                                  },
-                                  {
-                                      "en":  "Sting: Who knows? What do you think?",
-                                      "ru":  "Кто знает? Как думаешь?"
-                                  },
-                                  {
-                                      "en":  "Producer: Does it matter? It\u0027s going to be a hit.",
-                                      "ru":  "Это важно? Это будет хитом."
-                                  },
-                                  {
-                                      "en":  "Sting: I didn\u0027t write it to be a hit. I wrote it because I had questions.",
-                                      "ru":  "Я написал её не для того, чтобы стать хитом. Я написал её, потому что у меня были вопросы."
-                                  }
-                              ],
-                    "note":  "Стинг обсуждает песню с продюсером. Вопросы в ней остаются без ответа. Как в жизни."
-                },
-    "russianAngle":  [
-                         "В русском мы спрашиваем интонацией: «Ты любишь меня?» В английском меняем порядок слов: «Do you love me?»",
-                         "С глаголом to be — просто меняем местами: «You are» → «Are you?»",
-                         "С другими глаголами — do/does (настоящее) или did (прошлое): «Do you write songs?», «Did you write this?»",
-                         "В специальных вопросах — слово-вопрос: «What do you think?», «Who wrote this?»"
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "С глаголом to be: Are you happy? Were you there?",
-                                     "С другими глаголами: Do you sing? Does he play? Did they record?",
-                                     "С вопросительными словами: What, Where, When, Why, How.",
-                                     "Вопросы к подлежащему: Who wrote this song? (без did).",
-                                     "Потренируйся: задай вопросы Стингу о песне."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Сделай предложения вопросительными:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "You are a musician.",
-                                                          "a":  "Are you a musician?"
-                                                      },
-                                                      {
-                                                          "q":  "He writes songs every day.",
-                                                          "a":  "Does he write songs every day?"
-                                                      },
-                                                      {
-                                                          "q":  "The band recorded the album.",
-                                                          "a":  "Did the band record the album?"
-                                                      },
-                                                      {
-                                                          "q":  "She was in the studio.",
-                                                          "a":  "Was she in the studio?"
-                                                      },
-                                                      {
-                                                          "q":  "The song became a hit.",
-                                                          "a":  "Did the song become a hit?"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "Question word (optional) + auxiliary (do/does/did/am/is/are/was/were/can/will) + subject + main verb?",
-    "structure":  {
-                      "positive":  "Утверждение: You are a singer.",
-                      "negative":  "Отрицание: You aren\u0027t a singer.",
-                      "question":  "Вопрос: Are you a singer?"
-                  },
-    "markers":  [
-                    "who",
-                    "what",
-                    "where",
-                    "when",
-                    "why",
-                    "how",
-                    "do",
-                    "does",
-                    "did",
-                    "am",
-                    "is",
-                    "are",
-                    "was",
-                    "were",
-                    "can",
-                    "will"
-                ],
-    "uses":  [
-                 "Общие вопросы (Yes/No): «Do you love me?»",
-                 "Специальные вопросы (Wh-): «Why did you write this?»",
-                 "Вопросы к подлежащему: «Who wrote the song?»",
-                 "Альтернативные вопросы: «Is it love or obsession?»"
-             ],
-    "rules":  [
-                  {
-                      "title":  "Вопросы с глаголом to be",
-                      "text":  "Меняй местами: You are → Are you? She was → Was she?"
-                  },
-                  {
-                      "title":  "Вопросы с другими глаголами",
-                      "text":  "Используй do/does (настоящее) или did (прошлое): Do you write? Did they record?"
-                  },
-                  {
-                      "title":  "Специальные вопросы",
-                      "text":  "Вопросительное слово + вспомогательный глагол + подлежащее + глагол: Why did you write this?"
-                  },
-                  {
-                      "title":  "Вопрос к подлежащему",
-                      "text":  "Who/What + глагол (без do/does/did): Who wrote the song?"
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Общие вопросы (Yes/No)",
-                         "items":  [
-                                       {
-                                           "en":  "Do you love me?",
-                                           "ru":  "Ты любишь меня?",
-                                           "highlight":  [
-                                                             "Do"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Are you a fan of The Police?",
-                                           "ru":  "Ты фанат The Police?",
-                                           "highlight":  [
-                                                             "Are"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Did you hear this song?",
-                                           "ru":  "Ты слышал эту песню?",
-                                           "highlight":  [
-                                                             "Did"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Was it a hit?",
-                                           "ru":  "Это был хит?",
-                                           "highlight":  [
-                                                             "Was"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Специальные вопросы (Wh-)",
-                         "items":  [
-                                       {
-                                           "en":  "Who are you?",
-                                           "ru":  "Кто ты?",
-                                           "highlight":  [
-                                                             "Who"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "What is your name?",
-                                           "ru":  "Как тебя зовут?",
-                                           "highlight":  [
-                                                             "What"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Where are you going?",
-                                           "ru":  "Куда ты идёшь?",
-                                           "highlight":  [
-                                                             "Where"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Why did you write this?",
-                                           "ru":  "Почему ты написал это?",
-                                           "highlight":  [
-                                                             "Why"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Вопросы к подлежащему",
-                         "items":  [
-                                       {
-                                           "en":  "Who wrote the song?",
-                                           "ru":  "Кто написал песню?",
-                                           "highlight":  [
-                                                             "Who"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "What happened in the studio?",
-                                           "ru":  "Что случилось в студии?",
-                                           "highlight":  [
-                                                             "What"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Who sang the chorus?",
-                                           "ru":  "Кто пел припев?",
-                                           "highlight":  [
-                                                             "Who"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "What made the song famous?",
-                                           "ru":  "Что сделало песню знаменитой?",
-                                           "highlight":  [
-                                                             "What"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Альтернативные вопросы",
-                         "items":  [
-                                       {
-                                           "en":  "Is it love or obsession?",
-                                           "ru":  "Это любовь или одержимость?",
-                                           "highlight":  [
-                                                             "Is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Did he write it or not?",
-                                           "ru":  "Он написал это или нет?",
-                                           "highlight":  [
-                                                             "Did"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Are you a fan or a critic?",
-                                           "ru":  "Ты фанат или критик?",
-                                           "highlight":  [
-                                                             "Are"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Was the album good or bad?",
-                                           "ru":  "Альбом был хорошим или плохим?",
-                                           "highlight":  [
-                                                             "Was"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Вопросы в песне",
-                         "items":  [
-                                       {
-                                           "en":  "Can you feel my love?",
-                                           "ru":  "Ты чувствуешь мою любовь?",
-                                           "highlight":  [
-                                                             "Can"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Will you stay with me?",
-                                           "ru":  "Ты останешься со мной?",
-                                           "highlight":  [
-                                                             "Will"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Do you remember that night?",
-                                           "ru":  "Ты помнишь ту ночь?",
-                                           "highlight":  [
-                                                             "Do"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Did you mean what you said?",
-                                           "ru":  "Ты серьёзно сказал это?",
-                                           "highlight":  [
-                                                             "Did"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Вопросы о музыке",
-                         "items":  [
-                                       {
-                                           "en":  "What do you think about this song?",
-                                           "ru":  "Что ты думаешь об этой песне?",
-                                           "highlight":  [
-                                                             "What"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Why does it sound so sad?",
-                                           "ru":  "Почему она звучит так грустно?",
-                                           "highlight":  [
-                                                             "Why"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "How did they record it?",
-                                           "ru":  "Как они её записали?",
-                                           "highlight":  [
-                                                             "How"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "When will they play it live?",
-                                           "ru":  "Когда они сыграют её вживую?",
-                                           "highlight":  [
-                                                             "When"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "You are a musician?",
-                         "right":  "Are you a musician?",
-                         "note":  "С to be меняем порядок."
-                     },
-                     {
-                         "wrong":  "He writes songs?",
-                         "right":  "Does he write songs?",
-                         "note":  "С глаголом — do/does."
-                     },
-                     {
-                         "wrong":  "She wrote the song?",
-                         "right":  "Did she write the song?",
-                         "note":  "В прошлом — did."
-                     },
-                     {
-                         "wrong":  "Did he wrote the song?",
-                         "right":  "Did he write the song?",
-                         "note":  "После did — базовая форма."
-                     },
-                     {
-                         "wrong":  "Who did write the song?",
-                         "right":  "Who wrote the song?",
-                         "note":  "Вопрос к подлежащему — без did."
-                     },
-                     {
-                         "wrong":  "What you think about it?",
-                         "right":  "What do you think about it?",
-                         "note":  "Правильный порядок: What + do + you + think?"
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Типы вопросов",
-                    "leftLabel":  "Общий (Yes/No)",
-                    "rightLabel":  "Специальный (Wh-)",
-                    "rows":  [
-                                 {
-                                     "left":  "Did you write the song?",
-                                     "right":  "Why did you write it?"
-                                 },
-                                 {
-                                     "left":  "Are you a musician?",
-                                     "right":  "What are you?"
-                                 },
-                                 {
-                                     "left":  "Was it a hit?",
-                                     "right":  "How did it become a hit?"
-                                 },
-                                 {
-                                     "left":  "Do you love the band?",
-                                     "right":  "Why do you love them?"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "С to be — меняй местами: You are → Are you?",
-                 "С другими глаголами — do/does/did + базовая форма.",
-                 "Вопрос к подлежащему — без do/does/did.",
-                 "Специальные вопросы начинаются с вопросительного слова.",
-                 "Не забывай про порядок слов в вопросах.",
-                 "Практикуйся: задавай вопросы Стингу."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Which is correct?",
-                     "options":  [
-                                     "You are a singer?",
-                                     "Are you a singer?",
-                                     "Do you are a singer?"
-                                 ],
-                     "answer":  "Are you a singer?",
-                     "why":  "С to be меняем местами."
-                 },
-                 {
-                     "q":  "How do you ask \u0027Он написал эту песню\u0027?",
-                     "options":  [
-                                     "He wrote this song?",
-                                     "Did he write this song?",
-                                     "Did he wrote this song?"
-                                 ],
-                     "answer":  "Did he write this song?",
-                     "why":  "В прошлом — did + базовая форма."
-                 },
-                 {
-                     "q":  "Which is correct?",
-                     "options":  [
-                                     "Does he writes songs?",
-                                     "Does he write songs?",
-                                     "Do he write songs?"
-                                 ],
-                     "answer":  "Does he write songs?",
-                     "why":  "С does — базовая форма."
-                 },
-                 {
-                     "q":  "\"___ wrote the song?\"",
-                     "options":  [
-                                     "Who",
-                                     "Who did",
-                                     "What"
-                                 ],
-                     "answer":  "Who",
-                     "why":  "Вопрос к подлежащему — без did."
-                 },
-                 {
-                     "q":  "\"What ___ you think?\"",
-                     "options":  [
-                                     "do",
-                                     "does",
-                                     "are"
-                                 ],
-                     "answer":  "do",
-                     "why":  "С you — do."
-                 },
-                 {
-                     "q":  "Which is a special question?",
-                     "options":  [
-                                     "Are you a fan?",
-                                     "What do you think?",
-                                     "Did you hear it?"
-                                 ],
-                     "answer":  "What do you think?",
-                     "why":  "What — вопросительное слово."
-                 }
-             ],
-    "related":  [
-                    "a1-past-simple",
-                    "a1-present-simple",
-                    "a1-verb-to-be"
-                ]
+{
+  "variant": "rocknroll",
+  "slug": "a1-questions",
+  "level": "A1",
+  "title": "Questions",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Вопросы: общие, специальные и к подлежащему. The Police и песня «Every Breath You Take».",
+  "idea": [
+    "Это песня о контроле, ревности и наблюдении. Текст, который выйдет, будет полон вопросов. «Will you stay?» — Ты останешься? «Do you love me?» — Ты любишь меня? «Where are you going?» — Куда ты идёшь? Вопросы без ответов. «Will you stay?» — будущее. «Do you love me?» — настоящее. «Where are you going?» — место. Песня становится хитом, но внутри неё — вопросы, которые остаются без ответа. «Is this a love song?» — Это песня о любви? «What do you think?» — Как ты думаешь? «Does it matter?» — Это имеет значение? Люди спрашивают: о чём эта песня? Стинг не отвечает. Вопросы остаются.",
+    "«Did you mean what you said?» — Ты серьёзно сказал это? «Can you feel my love?» — Ты чувствуешь мою любовь? «Will you remember this night?» — Ты запомнишь эту ночь? Вопросы создают напряжение. Вопросы создают смысл. «Do you remember that night?» — Ты помнишь ту ночь? «Why did you write this?» — Почему ты написал это? «What do you think about this song?» — Что ты думаешь об этой песне? «Is it love or obsession?» — Это любовь или одержимость? «Will they play it live?» — Они сыграют её вживую? «How did they record it?» — Как они её записали? Хорошая песня задаёт вопросы. Она не даёт ответы. Она заставляет тебя думать. «What did you mean?» — Что ты имел в виду? «Do you feel the same?» — Ты чувствуешь то же самое? «Where do we go from here?» — Куда мы идём отсюда? Вопросы остаются в памяти дольше, чем ответы. «Will you stay?» — Ты останешься? «Do you love me?» — Ты любишь меня? «Where are you going?» — Куда ты идёшь? И песня продолжается. Потому что вопросы никогда не заканчиваются."
+  ],
+  "why": [
+    "Спрашивать о чувствах: «Do you love me?»",
+    "Уточнять информацию: «Where are you going?»",
+    "Выражать сомнение: «Will you stay?»",
+    "Общаться в повседневной жизни: «What's your name?»"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Sting: Every breath you take, every move you make… I'll be watching you. Do you feel it?", "ru": "Каждый твой вдох, каждое твоё движение… Я буду смотреть на тебя. Ты чувствуешь?" },
+      { "en": "Producer: Is this a love song or a stalker song?", "ru": "Это песня о любви или о сталкере?" },
+      { "en": "Sting: Who knows? What do you think?", "ru": "Кто знает? Как думаешь?" },
+      { "en": "Producer: Does it matter? It's going to be a hit.", "ru": "Это важно? Это будет хитом." },
+      { "en": "Sting: I didn't write it to be a hit. I wrote it because I had questions.", "ru": "Я написал её не для того, чтобы стать хитом. Я написал её, потому что у меня были вопросы." }
+    ],
+    "note": "Стинг обсуждает песню с продюсером. Вопросы в ней остаются без ответа. Как в жизни."
+  },
+  "russianAngle": [
+    "В русском мы спрашиваем интонацией: «Ты любишь меня?» В английском меняем порядок слов: «Do you love me?»",
+    "С глаголом to be — просто меняем местами: «You are» → «Are you?»",
+    "С другими глаголами — do/does (настоящее) или did (прошлое): «Do you write songs?», «Did you write this?»",
+    "В специальных вопросах — слово-вопрос: «What do you think?», «Who wrote this?»"
+  ],
+  "howToLearn": {
+    "steps": [
+      "С глаголом to be: Are you happy? Were you there?",
+      "С другими глаголами: Do you sing? Does he play? Did they record?",
+      "С вопросительными словами: What, Where, When, Why, How.",
+      "Вопросы к подлежащему: Who wrote this song? (без did).",
+      "Потренируйся: задай вопросы Стингу о песне."
+    ],
+    "exercise": {
+      "prompt": "Сделай предложения вопросительными:",
+      "items": [
+        { "q": "You are a musician.", "a": "Are you a musician?" },
+        { "q": "He writes songs every day.", "a": "Does he write songs every day?" },
+        { "q": "The band recorded the album.", "a": "Did the band record the album?" },
+        { "q": "She was in the studio.", "a": "Was she in the studio?" },
+        { "q": "The song became a hit.", "a": "Did the song become a hit?" }
+      ]
+    }
+  },
+  "formula": "Question word (optional) + auxiliary (do/does/did/am/is/are/was/were/can/will) + subject + main verb?",
+  "structure": {
+    "positive": "Утверждение: You are a singer.",
+    "negative": "Отрицание: You aren't a singer.",
+    "question": "Вопрос: Are you a singer?"
+  },
+  "markers": [
+    "who",
+    "what",
+    "where",
+    "when",
+    "why",
+    "how",
+    "do",
+    "does",
+    "did",
+    "am",
+    "is",
+    "are",
+    "was",
+    "were",
+    "can",
+    "will"
+  ],
+  "uses": [
+    "Общие вопросы (Yes/No): «Do you love me?»",
+    "Специальные вопросы (Wh-): «Why did you write this?»",
+    "Вопросы к подлежащему: «Who wrote the song?»",
+    "Альтернативные вопросы: «Is it love or obsession?»"
+  ],
+  "rules": [
+    { "title": "Вопросы с глаголом to be", "text": "Меняй местами: You are → Are you? She was → Was she?" },
+    { "title": "Вопросы с другими глаголами", "text": "Используй do/does (настоящее) или did (прошлое): Do you write? Did they record?" },
+    { "title": "Специальные вопросы", "text": "Вопросительное слово + вспомогательный глагол + подлежащее + глагол: Why did you write this?" },
+    { "title": "Вопрос к подлежащему", "text": "Who/What + глагол (без do/does/did): Who wrote the song?" }
+  ],
+  "examples": [
+    {
+      "group": "Общие вопросы (Yes/No)",
+      "items": [
+        { "en": "Do you love me?", "ru": "Ты любишь меня?", "highlight": ["Do"] },
+        { "en": "Are you a fan of The Police?", "ru": "Ты фанат The Police?", "highlight": ["Are"] },
+        { "en": "Did you hear this song?", "ru": "Ты слышал эту песню?", "highlight": ["Did"] },
+        { "en": "Was it a hit?", "ru": "Это был хит?", "highlight": ["Was"] },
+        { "en": "Do you remember that night?", "ru": "Ты помнишь ту ночь?", "highlight": ["Do"] },
+        { "en": "Did you mean what you said?", "ru": "Ты серьёзно сказал это?", "highlight": ["Did"] }
+      ]
+    },
+    {
+      "group": "Специальные вопросы (Wh-)",
+      "items": [
+        { "en": "Who are you?", "ru": "Кто ты?", "highlight": ["Who"] },
+        { "en": "What is your name?", "ru": "Как тебя зовут?", "highlight": ["What"] },
+        { "en": "Where are you going?", "ru": "Куда ты идёшь?", "highlight": ["Where"] },
+        { "en": "Why did you write this?", "ru": "Почему ты написал это?", "highlight": ["Why"] },
+        { "en": "What do you think about this song?", "ru": "Что ты думаешь об этой песне?", "highlight": ["What"] },
+        { "en": "How did they record it?", "ru": "Как они её записали?", "highlight": ["How"] }
+      ]
+    },
+    {
+      "group": "Вопросы к подлежащему",
+      "items": [
+        { "en": "Who wrote the song?", "ru": "Кто написал песню?", "highlight": ["Who"] },
+        { "en": "What happened in the studio?", "ru": "Что случилось в студии?", "highlight": ["What"] },
+        { "en": "Who sang the chorus?", "ru": "Кто пел припев?", "highlight": ["Who"] },
+        { "en": "What made the song famous?", "ru": "Что сделало песню знаменитой?", "highlight": ["What"] },
+        { "en": "Who played the guitar solo?", "ru": "Кто играл гитарное соло?", "highlight": ["Who"] },
+        { "en": "What influenced the lyrics?", "ru": "Что повлияло на текст?", "highlight": ["What"] }
+      ]
+    },
+    {
+      "group": "Альтернативные вопросы",
+      "items": [
+        { "en": "Is it love or obsession?", "ru": "Это любовь или одержимость?", "highlight": ["Is"] },
+        { "en": "Did he write it or not?", "ru": "Он написал это или нет?", "highlight": ["Did"] },
+        { "en": "Are you a fan or a critic?", "ru": "Ты фанат или критик?", "highlight": ["Are"] },
+        { "en": "Was the album good or bad?", "ru": "Альбом был хорошим или плохим?", "highlight": ["Was"] },
+        { "en": "Is it about love or control?", "ru": "Это о любви или о контроле?", "highlight": ["Is"] },
+        { "en": "Did they record it live or in the studio?", "ru": "Они записали это вживую или в студии?", "highlight": ["Did"] }
+      ]
+    },
+    {
+      "group": "Вопросы в песне",
+      "items": [
+        { "en": "Can you feel my love?", "ru": "Ты чувствуешь мою любовь?", "highlight": ["Can"] },
+        { "en": "Will you stay with me?", "ru": "Ты останешься со мной?", "highlight": ["Will"] },
+        { "en": "Do you remember that night?", "ru": "Ты помнишь ту ночь?", "highlight": ["Do"] },
+        { "en": "Did you mean what you said?", "ru": "Ты серьёзно сказал это?", "highlight": ["Did"] },
+        { "en": "Will you remember this night?", "ru": "Ты запомнишь эту ночь?", "highlight": ["Will"] },
+        { "en": "Do you feel the same?", "ru": "Ты чувствуешь то же самое?", "highlight": ["Do"] }
+      ]
+    },
+    {
+      "group": "Вопросы о музыке",
+      "items": [
+        { "en": "What do you think about this song?", "ru": "Что ты думаешь об этой песне?", "highlight": ["What"] },
+        { "en": "Why does it sound so sad?", "ru": "Почему она звучит так грустно?", "highlight": ["Why"] },
+        { "en": "How did they record it?", "ru": "Как они её записали?", "highlight": ["How"] },
+        { "en": "When will they play it live?", "ru": "Когда они сыграют её вживую?", "highlight": ["When"] },
+        { "en": "Who wrote the music?", "ru": "Кто написал музыку?", "highlight": ["Who"] },
+        { "en": "What inspired the lyrics?", "ru": "Что вдохновило на текст?", "highlight": ["What"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "You are a musician?", "right": "Are you a musician?", "note": "С to be меняем порядок." },
+    { "wrong": "He writes songs?", "right": "Does he write songs?", "note": "С глаголом — do/does." },
+    { "wrong": "She wrote the song?", "right": "Did she write the song?", "note": "В прошлом — did." },
+    { "wrong": "Did he wrote the song?", "right": "Did he write the song?", "note": "После did — базовая форма." },
+    { "wrong": "Who did write the song?", "right": "Who wrote the song?", "note": "Вопрос к подлежащему — без did." },
+    { "wrong": "What you think about it?", "right": "What do you think about it?", "note": "Правильный порядок: What + do + you + think?" }
+  ],
+  "compare": {
+    "title": "Типы вопросов",
+    "leftLabel": "Общий (Yes/No)",
+    "rightLabel": "Специальный (Wh-)",
+    "rows": [
+      { "left": "Did you write the song?", "right": "Why did you write it?" },
+      { "left": "Are you a musician?", "right": "What are you?" },
+      { "left": "Was it a hit?", "right": "How did it become a hit?" },
+      { "left": "Do you love the band?", "right": "Why do you love them?" }
+    ]
+  },
+  "tips": [
+    "С to be — меняй местами: You are → Are you?",
+    "С другими глаголами — do/does/did + базовая форма.",
+    "Вопрос к подлежащему — без do/does/did.",
+    "Специальные вопросы начинаются с вопросительного слова.",
+    "Не забывай про порядок слов в вопросах.",
+    "Практикуйся: задавай вопросы Стингу."
+  ],
+  "quiz": [
+    { "q": "Which is correct?", "options": ["You are a singer?", "Are you a singer?", "Do you are a singer?"], "answer": "Are you a singer?", "why": "С to be меняем местами." },
+    { "q": "How do you ask 'Он написал эту песню'?", "options": ["He wrote this song?", "Did he write this song?", "Did he wrote this song?"], "answer": "Did he write this song?", "why": "В прошлом — did + базовая форма." },
+    { "q": "Which is correct?", "options": ["Does he writes songs?", "Does he write songs?", "Do he write songs?"], "answer": "Does he write songs?", "why": "С does — базовая форма." },
+    { "q": "\"___ wrote the song?\"", "options": ["Who", "Who did", "What"], "answer": "Who", "why": "Вопрос к подлежащему — без did." },
+    { "q": "\"What ___ you think?\"", "options": ["do", "does", "are"], "answer": "do", "why": "С you — do." },
+    { "q": "Which is a special question?", "options": ["Are you a fan?", "What do you think?", "Did you hear it?"], "answer": "What do you think?", "why": "What — вопросительное слово." }
+  ],
+  "related": ["a1-past-simple", "a1-present-simple", "a1-verb-to-be"]
 }

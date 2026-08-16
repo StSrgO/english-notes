@@ -1,404 +1,169 @@
-﻿{
-    "variant":  "classic",
-    "slug":  "a1-verb-to-be",
-    "level":  "A1",
-    "title":  "Verb To Be",
-    "category":  "Grammar",
-    "readingTime":  9,
-    "summary":  "Глагол to be — кто ты и какой ты. Ганс Христиан Андерсен и The Who.",
-    "idea":  [
-                 "«Гадкий утёнок» — это сказка о том, кто ты есть на самом деле. Главный герой думает: «I am ugly. I am lonely. I am not like the others.» Но в конце он понимает: «I am not a duck. I am a swan!» Глагол to be — это главный глагол в этой сказке. Он говорит о том, кто ты есть, какой ты и где ты находишься.",
-                 "В английском языке глагол to be имеет три формы в настоящем времени: am, is, are. I am — я есть. He is — он есть. She is — она есть. It is — оно есть. We are — мы есть. You are — ты/вы есть. They are — они есть. Без этого глагола невозможно сказать, кто ты, какой ты и где ты.",
-                 "Андерсен использовал to be, чтобы показать путь героя от неуверенности к счастью. Утёнок говорит: «I am ugly» — я гадкий. «I am different» — я другой. Но в конце: «I am beautiful» — я красивый. Глагол to be — это ключ к пониманию себя и мира."
-             ],
-    "why":  [
-                "Глагол to be — самый частотный глагол в английском языке",
-                "Без него невозможно сказать, кто ты, какой ты и где ты",
-                "Он используется для описания себя, других и мира вокруг",
-                "Знание to be — основа для изучения всех других времён"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Mother Duck: \u0027You are different, my dear. But you are not ugly. You are beautiful in your own way.\u0027",
-                                      "ru":  "Мама-утка: «Ты другой, мой дорогой. Но ты не гадкий. Ты красивый по-своему»."
-                                  },
-                                  {
-                                      "en":  "The Ugly Duckling: \u0027Am I a duck? No, I am not a duck. I am a swan! I am beautiful!\u0027",
-                                      "ru":  "Гадкий утёнок: «Я утка? Нет, я не утка. Я лебедь! Я красивый!»"
-                                  }
-                              ],
-                    "note":  "Глагол to be — это главный глагол в сказке. Он показывает, кто ты есть на самом деле."
-                },
-    "russianAngle":  [
-                         "В русском языке мы часто опускаем глагол \u0027быть\u0027: \u0027я студент\u0027, \u0027он умный\u0027. В английском он обязателен: I am a student, he is smart.",
-                         "В русском языке \u0027я есть\u0027 звучит странно. В английском \u0027I am\u0027 — это норма.",
-                         "Ошибка: I student — неправильно! Нужно: I am a student.",
-                         "Запомни: am — только с I, is — с he/she/it, are — с we/you/they."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Запомни формы: I am, you are, he is, she is, it is, we are, they are.",
-                                     "В отрицании: I am not, you are not, he is not, she is not, it is not, we are not, they are not.",
-                                     "В вопросах: Am I? Are you? Is he? Is she? Is it? Are we? Are they?",
-                                     "Потренируйся описывать себя: I am a student. I am happy. I am from London.",
-                                     "Потренируйся описывать других: He is a doctor. She is kind. They are friendly.",
-                                     "Сделай упражнение и сверься с ответами."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Вставьте правильную форму глагола to be (am, is, are):",
-                                        "items":  [
-                                                      {
-                                                          "q":  "I ___ a student.",
-                                                          "a":  "am"
-                                                      },
-                                                      {
-                                                          "q":  "She ___ a doctor.",
-                                                          "a":  "is"
-                                                      },
-                                                      {
-                                                          "q":  "They ___ from London.",
-                                                          "a":  "are"
-                                                      },
-                                                      {
-                                                          "q":  "He ___ not happy.",
-                                                          "a":  "is"
-                                                      },
-                                                      {
-                                                          "q":  "We ___ in the garden.",
-                                                          "a":  "are"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "I am / you are / he is / she is / it is / we are / they are",
-    "structure":  {
-                      "positive":  "I am a student.",
-                      "negative":  "I am not a student.",
-                      "question":  "Am I a student?"
-                  },
-    "markers":  [
-                    "am",
-                    "is",
-                    "are",
-                    "I am",
-                    "you are",
-                    "he is",
-                    "she is",
-                    "it is",
-                    "we are",
-                    "they are"
-                ],
-    "uses":  [
-                 "Кто ты: I am a student.",
-                 "Какой ты: I am happy.",
-                 "Где ты: I am in London.",
-                 "Что ты делаешь (с -ing): I am reading."
-             ],
-    "rules":  [
-                  {
-                      "title":  "Формы",
-                      "text":  "I am, you are, he is, she is, it is, we are, they are."
-                  },
-                  {
-                      "title":  "Отрицание",
-                      "text":  "not после глагола: I am not, you are not, he is not, she is not, it is not, we are not, they are not."
-                  },
-                  {
-                      "title":  "Вопросы",
-                      "text":  "Глагол ставится перед подлежащим: Am I? Are you? Is he? Is she? Is it? Are we? Are they?"
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Кто ты — описываем себя",
-                         "items":  [
-                                       {
-                                           "en":  "I am a student. I am from London.",
-                                           "ru":  "Я студент. Я из Лондона.",
-                                           "highlight":  [
-                                                             "I am"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I am happy to be here.",
-                                           "ru":  "Я рад быть здесь.",
-                                           "highlight":  [
-                                                             "I am"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I am not a doctor. I am a teacher.",
-                                           "ru":  "Я не доктор. Я учитель.",
-                                           "highlight":  [
-                                                             "I am not",
-                                                             "I am"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Кто ты — описываем других",
-                         "items":  [
-                                       {
-                                           "en":  "She is a doctor. She is very kind.",
-                                           "ru":  "Она доктор. Она очень добрая.",
-                                           "highlight":  [
-                                                             "She is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He is a writer. He is famous.",
-                                           "ru":  "Он писатель. Он известный.",
-                                           "highlight":  [
-                                                             "He is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They are from London. They are very friendly.",
-                                           "ru":  "Они из Лондона. Они очень дружелюбные.",
-                                           "highlight":  [
-                                                             "They are"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Где ты — место",
-                         "items":  [
-                                       {
-                                           "en":  "I am in London. I am at the museum.",
-                                           "ru":  "Я в Лондоне. Я в музее.",
-                                           "highlight":  [
-                                                             "I am"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She is at home. She is in the kitchen.",
-                                           "ru":  "Она дома. Она на кухне.",
-                                           "highlight":  [
-                                                             "She is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They are at the park. They are in the garden.",
-                                           "ru":  "Они в парке. Они в саду.",
-                                           "highlight":  [
-                                                             "They are"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Какой ты — описание",
-                         "items":  [
-                                       {
-                                           "en":  "I am tall. I am happy.",
-                                           "ru":  "Я высокий. Я счастливый.",
-                                           "highlight":  [
-                                                             "I am"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She is beautiful. She is kind.",
-                                           "ru":  "Она красивая. Она добрая.",
-                                           "highlight":  [
-                                                             "She is"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They are interesting. They are funny.",
-                                           "ru":  "Они интересные. Они забавные.",
-                                           "highlight":  [
-                                                             "They are"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Отрицание",
-                         "items":  [
-                                       {
-                                           "en":  "I am not a doctor. I am a teacher.",
-                                           "ru":  "Я не доктор. Я учитель.",
-                                           "highlight":  [
-                                                             "I am not"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She is not happy. She is sad.",
-                                           "ru":  "Она не счастлива. Она грустная.",
-                                           "highlight":  [
-                                                             "She is not"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They are not from London. They are from Paris.",
-                                           "ru":  "Они не из Лондона. Они из Парижа.",
-                                           "highlight":  [
-                                                             "They are not"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Вопросы",
-                         "items":  [
-                                       {
-                                           "en":  "Are you a student? — Yes, I am.",
-                                           "ru":  "Ты студент? — Да.",
-                                           "highlight":  [
-                                                             "Are you"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Is she a doctor? — No, she isn\u0027t.",
-                                           "ru":  "Она доктор? — Нет.",
-                                           "highlight":  [
-                                                             "Is she"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Are they from London? — Yes, they are.",
-                                           "ru":  "Они из Лондона? — Да.",
-                                           "highlight":  [
-                                                             "Are they"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "I student.",
-                         "right":  "I am a student.",
-                         "note":  "В английском всегда нужен глагол to be."
-                     },
-                     {
-                         "wrong":  "She a doctor.",
-                         "right":  "She is a doctor.",
-                         "note":  "С he/she/it используется is."
-                     },
-                     {
-                         "wrong":  "They is from London.",
-                         "right":  "They are from London.",
-                         "note":  "С they используется are."
-                     },
-                     {
-                         "wrong":  "I is a teacher.",
-                         "right":  "I am a teacher.",
-                         "note":  "С I используется am."
-                     },
-                     {
-                         "wrong":  "He are happy.",
-                         "right":  "He is happy.",
-                         "note":  "С he используется is."
-                     },
-                     {
-                         "wrong":  "We is in the garden.",
-                         "right":  "We are in the garden.",
-                         "note":  "С we используется are."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "I am vs I have",
-                    "leftLabel":  "I am (кто/какой/где)",
-                    "rightLabel":  "I have (что у меня есть)",
-                    "rows":  [
-                                 {
-                                     "left":  "I am a student. (кто)",
-                                     "right":  "I have a book. (что)"
-                                 },
-                                 {
-                                     "left":  "I am happy. (какой)",
-                                     "right":  "I have a car. (что)"
-                                 },
-                                 {
-                                     "left":  "I am in London. (где)",
-                                     "right":  "I have a sister. (кто)"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Запомни: am — с I, is — с he/she/it, are — с we/you/they.",
-                 "В отрицании не забывай not: I am not, you are not, he is not.",
-                 "В вопросах глагол ставится перед подлежащим: Are you? Is he?",
-                 "Краткие формы: I\u0027m, you\u0027re, he\u0027s, she\u0027s, it\u0027s, we\u0027re, they\u0027re.",
-                 "Краткие отрицания: I\u0027m not, you aren\u0027t, he isn\u0027t, she isn\u0027t, it isn\u0027t, we aren\u0027t, they aren\u0027t.",
-                 "Всегда используй to be, когда описываешь себя или других.",
-                 "Если сомневаешься — спроси себя: кто? какой? где?"
-             ],
-    "related":  [
-                    "a1-pronouns",
-                    "a1-present-continuous",
-                    "a1-questions"
-                ],
-    "quiz":  [
-                 {
-                     "q":  "I ___ a student.",
-                     "options":  [
-                                     "am",
-                                     "is",
-                                     "are",
-                                     "be"
-                                 ],
-                     "answer":  0,
-                     "why":  "С I используется am."
-                 },
-                 {
-                     "q":  "She ___ a doctor.",
-                     "options":  [
-                                     "am",
-                                     "is",
-                                     "are",
-                                     "be"
-                                 ],
-                     "answer":  1,
-                     "why":  "С she используется is."
-                 },
-                 {
-                     "q":  "They ___ from London.",
-                     "options":  [
-                                     "am",
-                                     "is",
-                                     "are",
-                                     "be"
-                                 ],
-                     "answer":  2,
-                     "why":  "С they используются are."
-                 },
-                 {
-                     "q":  "He ___ not happy.",
-                     "options":  [
-                                     "am",
-                                     "is",
-                                     "are",
-                                     "be"
-                                 ],
-                     "answer":  1,
-                     "why":  "С he используется is."
-                 },
-                 {
-                     "q":  "We ___ in the garden.",
-                     "options":  [
-                                     "am",
-                                     "is",
-                                     "are",
-                                     "be"
-                                 ],
-                     "answer":  2,
-                     "why":  "С we используются are."
-                 },
-                 {
-                     "q":  "___ you a student?",
-                     "options":  [
-                                     "Am",
-                                     "Is",
-                                     "Are",
-                                     "Be"
-                                 ],
-                     "answer":  2,
-                     "why":  "С you используется are."
-                 }
-             ]
+{
+  "variant": "classic",
+  "slug": "a1-verb-to-be",
+  "level": "A1",
+  "title": "Verb To Be",
+  "category": "Grammar",
+  "readingTime": 9,
+  "summary": "Глагол to be — кто ты и какой ты. Ганс Христиан Андерсен и «Гадкий утёнок».",
+  "idea": [
+    "Весенний пруд. Лёд растаял. Утёнок наклоняется к воде. Он видит своё отражение. «I am a swan. I am not a duck. I am beautiful.» В начале сказки — «I am ugly». В середине — «I am different». В конце — «I am a swan». Глагол to be называет. Он не объясняет. Он просто говорит, кто ты есть. «I am ugly» — состояние. «I am not a duck» — отрицание. «I am a swan» — открытие. «I am in the pond» — место. «I am happy» — чувство. «I am free» — состояние.",
+    "В английском to be имеет три формы. I am. He/She/It is. We/You/They are. Без них нельзя сказать, кто ты. «I a swan» — нет. «I am a swan» — да. «He a duck» — нет. «He is a duck» — да. «They swans» — нет. «They are swans» — да. Глагол to be связывает подлежащее с тем, что оно есть. «I am a swan» — я есть лебедь. «I am not a duck» — я не утка. «I am beautiful» — я красивый. «I am in the pond» — я в пруду.",
+    "Утёнок проходит путь. Сначала он называет себя неправильно. Потом правильно. «I am a duck?» — он сомневается. «No, I am not a duck.» — он отрицает. «I am a swan.» — он утверждает. Глагол to be — это глагол, который отвечает на вопросы «Кто?», «Какой?», «Где?». «Who am I?» — I am a swan. «What am I like?» — I am beautiful. «Where am I?» — I am in the pond. Утёнок не рассуждает о себе. Он просто называет себя. Сначала неправильно. Потом правильно. Глагол to be — это инструмент для ответов. «I am a swan» — ответ найден. Сказка заканчивается. Потому что вопрос «Кто я?» больше не стоит."
+  ],
+  "why": [
+    "Глагол to be — самый частотный глагол в английском языке",
+    "Без него невозможно сказать, кто ты, какой ты и где ты",
+    "Он используется для описания себя, других и мира вокруг",
+    "Знание to be — основа для изучения всех других времён"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Mother Duck: 'You are different, my dear. But you are not ugly. You are beautiful in your own way.'", "ru": "Мама-утка: «Ты другой, мой дорогой. Но ты не гадкий. Ты красивый по-своему»." },
+      { "en": "The Ugly Duckling: 'Am I a duck? No, I am not a duck. I am a swan! I am beautiful!'", "ru": "Гадкий утёнок: «Я утка? Нет, я не утка. Я лебедь! Я красивый!»" }
+    ],
+    "note": "Глагол to be — это главный глагол в сказке. Он показывает, кто ты есть на самом деле."
+  },
+  "russianAngle": [
+    "В русском языке мы часто опускаем глагол 'быть': 'я студент', 'он умный'. В английском он обязателен: I am a student, he is smart.",
+    "В русском языке 'я есть' звучит странно. В английском 'I am' — это норма.",
+    "Ошибка: I student — неправильно! Нужно: I am a student.",
+    "Запомни: am — только с I, is — с he/she/it, are — с we/you/they."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни формы: I am, you are, he is, she is, it is, we are, they are.",
+      "В отрицании: I am not, you are not, he is not, she is not, it is not, we are not, they are not.",
+      "В вопросах: Am I? Are you? Is he? Is she? Is it? Are we? Are they?",
+      "Потренируйся описывать себя: I am a student. I am happy. I am from London.",
+      "Потренируйся описывать других: He is a doctor. She is kind. They are friendly.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте правильную форму глагола to be (am, is, are):",
+      "items": [
+        { "q": "I ___ a student.", "a": "am" },
+        { "q": "She ___ a doctor.", "a": "is" },
+        { "q": "They ___ from London.", "a": "are" },
+        { "q": "He ___ not happy.", "a": "is" },
+        { "q": "We ___ in the garden.", "a": "are" }
+      ]
+    }
+  },
+  "formula": "I am / you are / he is / she is / it is / we are / they are",
+  "structure": {
+    "positive": "I am a student.",
+    "negative": "I am not a student.",
+    "question": "Am I a student?"
+  },
+  "markers": ["am", "is", "are", "I am", "you are", "he is", "she is", "it is", "we are", "they are"],
+  "uses": [
+    "Кто ты: I am a student.",
+    "Какой ты: I am happy.",
+    "Где ты: I am in London.",
+    "Что ты делаешь (с -ing): I am reading."
+  ],
+  "rules": [
+    { "title": "Формы", "text": "I am, you are, he is, she is, it is, we are, they are." },
+    { "title": "Отрицание", "text": "not после глагола: I am not, you are not, he is not, she is not, it is not, we are not, they are not." },
+    { "title": "Вопросы", "text": "Глагол ставится перед подлежащим: Am I? Are you? Is he? Is she? Is it? Are we? Are they?" }
+  ],
+  "examples": [
+    {
+      "group": "Кто ты — описываем себя",
+      "items": [
+        { "en": "I am a student. I am from London.", "ru": "Я студент. Я из Лондона.", "highlight": ["I am"] },
+        { "en": "I am happy to be here.", "ru": "Я рад быть здесь.", "highlight": ["I am"] },
+        { "en": "I am not a doctor. I am a teacher.", "ru": "Я не доктор. Я учитель.", "highlight": ["I am not", "I am"] },
+        { "en": "I am a musician. I play the guitar.", "ru": "Я музыкант. Я играю на гитаре.", "highlight": ["I am"] },
+        { "en": "I am tired. I need to rest.", "ru": "Я устал. Мне нужно отдохнуть.", "highlight": ["I am"] }
+      ]
+    },
+    {
+      "group": "Кто ты — описываем других",
+      "items": [
+        { "en": "She is a doctor. She is very kind.", "ru": "Она доктор. Она очень добрая.", "highlight": ["She is"] },
+        { "en": "He is a writer. He is famous.", "ru": "Он писатель. Он известный.", "highlight": ["He is"] },
+        { "en": "They are from London. They are very friendly.", "ru": "Они из Лондона. Они очень дружелюбные.", "highlight": ["They are"] },
+        { "en": "He is a musician. He plays in a band.", "ru": "Он музыкант. Он играет в группе.", "highlight": ["He is"] },
+        { "en": "She is a teacher. She works at a school.", "ru": "Она учительница. Она работает в школе.", "highlight": ["She is"] }
+      ]
+    },
+    {
+      "group": "Где ты — место",
+      "items": [
+        { "en": "I am in London. I am at the museum.", "ru": "Я в Лондоне. Я в музее.", "highlight": ["I am"] },
+        { "en": "She is at home. She is in the kitchen.", "ru": "Она дома. Она на кухне.", "highlight": ["She is"] },
+        { "en": "They are at the park. They are in the garden.", "ru": "Они в парке. Они в саду.", "highlight": ["They are"] },
+        { "en": "We are in the studio. We are recording a song.", "ru": "Мы в студии. Мы записываем песню.", "highlight": ["We are"] },
+        { "en": "He is at the concert. He is with his friends.", "ru": "Он на концерте. Он с друзьями.", "highlight": ["He is"] }
+      ]
+    },
+    {
+      "group": "Какой ты — описание",
+      "items": [
+        { "en": "I am tall. I am happy.", "ru": "Я высокий. Я счастливый.", "highlight": ["I am"] },
+        { "en": "She is beautiful. She is kind.", "ru": "Она красивая. Она добрая.", "highlight": ["She is"] },
+        { "en": "They are interesting. They are funny.", "ru": "Они интересные. Они забавные.", "highlight": ["They are"] },
+        { "en": "He is talented. He is a great singer.", "ru": "Он талантливый. Он отличный певец.", "highlight": ["He is"] },
+        { "en": "We are tired. We have been working all day.", "ru": "Мы устали. Мы работали весь день.", "highlight": ["We are"] }
+      ]
+    },
+    {
+      "group": "Отрицание",
+      "items": [
+        { "en": "I am not a doctor. I am a teacher.", "ru": "Я не доктор. Я учитель.", "highlight": ["I am not"] },
+        { "en": "She is not happy. She is sad.", "ru": "Она не счастлива. Она грустная.", "highlight": ["She is not"] },
+        { "en": "They are not from London. They are from Paris.", "ru": "Они не из Лондона. Они из Парижа.", "highlight": ["They are not"] },
+        { "en": "He is not a musician. He is a lawyer.", "ru": "Он не музыкант. Он юрист.", "highlight": ["He is not"] },
+        { "en": "We are not in the garden. We are in the house.", "ru": "Мы не в саду. Мы в доме.", "highlight": ["We are not"] }
+      ]
+    },
+    {
+      "group": "Вопросы",
+      "items": [
+        { "en": "Are you a student? — Yes, I am.", "ru": "Ты студент? — Да.", "highlight": ["Are you"] },
+        { "en": "Is she a doctor? — No, she isn't.", "ru": "Она доктор? — Нет.", "highlight": ["Is she"] },
+        { "en": "Are they from London? — Yes, they are.", "ru": "Они из Лондона? — Да.", "highlight": ["Are they"] },
+        { "en": "Are you a musician? — Yes, I am.", "ru": "Ты музыкант? — Да.", "highlight": ["Are you"] },
+        { "en": "Is he a teacher? — No, he isn't.", "ru": "Он учитель? — Нет.", "highlight": ["Is he"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I student.", "right": "I am a student.", "note": "В английском всегда нужен глагол to be." },
+    { "wrong": "She a doctor.", "right": "She is a doctor.", "note": "С he/she/it используется is." },
+    { "wrong": "They is from London.", "right": "They are from London.", "note": "С they используется are." },
+    { "wrong": "I is a teacher.", "right": "I am a teacher.", "note": "С I используется am." },
+    { "wrong": "He are happy.", "right": "He is happy.", "note": "С he используется is." },
+    { "wrong": "We is in the garden.", "right": "We are in the garden.", "note": "С we используется are." }
+  ],
+  "compare": {
+    "title": "I am vs I have",
+    "leftLabel": "I am (кто/какой/где)",
+    "rightLabel": "I have (что у меня есть)",
+    "rows": [
+      { "left": "I am a student. (кто)", "right": "I have a book. (что)" },
+      { "left": "I am happy. (какой)", "right": "I have a car. (что)" },
+      { "left": "I am in London. (где)", "right": "I have a sister. (кто)" }
+    ]
+  },
+  "tips": [
+    "Запомни: am — с I, is — с he/she/it, are — с we/you/they.",
+    "В отрицании не забывай not: I am not, you are not, he is not.",
+    "В вопросах глагол ставится перед подлежащим: Are you? Is he?",
+    "Краткие формы: I'm, you're, he's, she's, it's, we're, they're.",
+    "Краткие отрицания: I'm not, you aren't, he isn't, she isn't, it isn't, we aren't, they aren't.",
+    "Всегда используй to be, когда описываешь себя или других.",
+    "Если сомневаешься — спроси себя: кто? какой? где?"
+  ],
+  "quiz": [
+    { "q": "I ___ a student.", "options": ["am", "is", "are", "be"], "answer": "am", "why": "С I используется am." },
+    { "q": "She ___ a doctor.", "options": ["am", "is", "are", "be"], "answer": "is", "why": "С she используется is." },
+    { "q": "They ___ from London.", "options": ["am", "is", "are", "be"], "answer": "are", "why": "С they используются are." },
+    { "q": "He ___ not happy.", "options": ["am", "is", "are", "be"], "answer": "is", "why": "С he используется is." },
+    { "q": "We ___ in the garden.", "options": ["am", "is", "are", "be"], "answer": "are", "why": "С we используются are." },
+    { "q": "___ you a student?", "options": ["Am", "Is", "Are", "Be"], "answer": "Are", "why": "С you используется are." }
+  ],
+  "related": ["a1-pronouns", "a1-present-continuous", "a1-questions"]
 }

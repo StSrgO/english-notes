@@ -1,447 +1,184 @@
-﻿{
-    "slug":  "a1-past-simple",
-    "level":  "A1",
-    "title":  "Past Simple",
-    "category":  "Tenses",
-    "readingTime":  7,
-    "summary":  "Простое прошедшее время: завершённые действия. Марк Твен и Led Zeppelin.",
-    "variant":  "rocknroll",
-    "idea":  [
-                 "1969 год. Led Zeppelin записывают первый альбом. Они входят в студию. Они играют. Они записывают. Они выходят. Год закончился. Альбом готов. Всё, что случилось, — в прошлом. Past Simple — это язык завершённых дел. Всё, что закончилось, даже рок-н-ролл.",
-                 "Джимми Пейдж собрал группу. Роберт Плант пришёл на прослушивание. Джон Пол Джонс взял бас. Джон Бонэм сел за барабаны. Они записали альбом за 36 часов. Это было быстро. Это было мощно. Это закончилось. Альбом вышел. Публика услышала. История началась. Но это было в прошлом.",
-                 "Led Zeppelin не знали, что станут легендами. Они просто играли. Они делали своё дело. Каждый день они работали. Каждый день они заканчивали песню. И когда год закончился, у них был альбом. Всё, что они сделали, — в Past Simple. Потому что это закрытая глава. Закрытое дело. Альбом записан. История сделана."
-             ],
-    "why":  [
-                "Говорить о завершённых действиях в прошлом: «They recorded an album.»",
-                "Рассказывать истории: «The band became legendary.»",
-                "Передавать последовательность событий: «They came, they played, they conquered.»",
-                "Описывать факты из прошлого: «Led Zeppelin started in 1968.»"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Page: We recorded the whole album in 36 hours. It was intense.",
-                                      "ru":  "Мы записали весь альбом за 36 часов. Это было интенсивно."
-                                  },
-                                  {
-                                      "en":  "Plant: I sang my heart out. I didn\u0027t stop for a second.",
-                                      "ru":  "Я пел от души. Я не останавливался ни на секунду."
-                                  },
-                                  {
-                                      "en":  "Bonham: I played the drums like a madman. Did you hear the fill?",
-                                      "ru":  "Я играл на барабанах как безумный. Ты слышал переход?"
-                                  },
-                                  {
-                                      "en":  "Jones: We made history. But we didn\u0027t know it then.",
-                                      "ru":  "Мы сделали историю. Но мы тогда этого не знали."
-                                  }
-                              ],
-                    "note":  "Led Zeppelin в студии после записи первого альбома. Всё в прошлом — завершено."
-                },
-    "russianAngle":  [
-                         "В русском мы говорим «я играл» — и это прошлое. По-английски: «I played» — тоже прошлое. Но важно: Past Simple для завершённых действий. Если результат важен сейчас — нужен Present Perfect.",
-                         "«Я играл на гитаре в 1969-м» — факт. «I played guitar in 1969.» Ты больше не играешь или это неважно.",
-                         "Ошибка: «I have recorded an album in 1969» — нельзя с in 1969. Нужно: «I recorded an album in 1969.»",
-                         "Запомни: Past Simple — это точка. Действие началось и закончилось в прошлом."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Запомни: Past Simple = завершённое действие в прошлом.",
-                                     "Правильные глаголы: play → played, record → recorded.",
-                                     "Неправильные глаголы: sing → sang, write → wrote, make → made.",
-                                     "Отрицание: didn\u0027t + базовая форма: He didn\u0027t play.",
-                                     "Вопросы: Did + базовая форма: Did he play?",
-                                     "Напиши историю о группе, которую ты слушал."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Поставь глаголы в Past Simple:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Led Zeppelin (record) their first album in 1969.",
-                                                          "a":  "recorded"
-                                                      },
-                                                      {
-                                                          "q":  "Jimmy Page (start) the band.",
-                                                          "a":  "started"
-                                                      },
-                                                      {
-                                                          "q":  "Robert Plant (sing) with a powerful voice.",
-                                                          "a":  "sang"
-                                                      },
-                                                      {
-                                                          "q":  "They (play) for 36 hours straight.",
-                                                          "a":  "played"
-                                                      },
-                                                      {
-                                                          "q":  "The album (become) a classic.",
-                                                          "a":  "became"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "S + V2 / V-ed",
-    "structure":  {
-                      "positive":  "I / You / He / She / It / We / They + V2 / V-ed",
-                      "negative":  "I / You / He / She / It / We / They + did not (didn\u0027t) + V1",
-                      "question":  "Did + I / you / he / she / it / we / they + V1?"
-                  },
-    "markers":  [
-                    "yesterday",
-                    "last week / month / year",
-                    "in 1969",
-                    "two days ago",
-                    "on Monday",
-                    "when I was young",
-                    "in the past"
-                ],
-    "uses":  [
-                 "Завершённое действие в прошлом: «They recorded an album in 1969.»",
-                 "Последовательность событий: «They came, they played, they conquered.»",
-                 "Факты из прошлого: «Led Zeppelin started in 1968.»",
-                 "Однократные действия: «He sang that song only once.»"
-             ],
-    "rules":  [
-                  {
-                      "title":  "Правильные глаголы",
-                      "text":  "Добавляй -ed: play → played, record → recorded, start → started."
-                  },
-                  {
-                      "title":  "Неправильные глаголы",
-                      "text":  "Запоминай вторую форму: sing → sang, write → wrote, make → made, go → went."
-                  },
-                  {
-                      "title":  "Отрицания и вопросы",
-                      "text":  "В отрицаниях и вопросах используй did + базовая форма: He didn\u0027t play. Did he play?"
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Запись первого альбома",
-                         "items":  [
-                                       {
-                                           "en":  "Led Zeppelin recorded their first album in 1969.",
-                                           "ru":  "Led Zeppelin записали свой первый альбом в 1969 году.",
-                                           "highlight":  [
-                                                             "recorded"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Jimmy Page played the guitar like a god.",
-                                           "ru":  "Джимми Пейдж играл на гитаре как бог.",
-                                           "highlight":  [
-                                                             "played"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Robert Plant sang with incredible power.",
-                                           "ru":  "Роберт Плант пел с невероятной силой.",
-                                           "highlight":  [
-                                                             "sang"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "John Bonham hit the drums like thunder.",
-                                           "ru":  "Джон Бонэм бил по барабанам как гром.",
-                                           "highlight":  [
-                                                             "hit"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Студийная сессия",
-                         "items":  [
-                                       {
-                                           "en":  "They started recording at 9 AM.",
-                                           "ru":  "Они начали запись в 9 утра.",
-                                           "highlight":  [
-                                                             "started"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They worked for 36 hours straight.",
-                                           "ru":  "Они работали 36 часов подряд.",
-                                           "highlight":  [
-                                                             "worked"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They finished the album in one week.",
-                                           "ru":  "Они закончили альбом за одну неделю.",
-                                           "highlight":  [
-                                                             "finished"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The producer said it was perfect.",
-                                           "ru":  "Продюсер сказал, что это идеально.",
-                                           "highlight":  [
-                                                             "said"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Что произошло в 1969-м",
-                         "items":  [
-                                       {
-                                           "en":  "The band became famous overnight.",
-                                           "ru":  "Группа стала знаменитой за один день.",
-                                           "highlight":  [
-                                                             "became"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They played their first American tour.",
-                                           "ru":  "Они сыграли свой первый американский тур.",
-                                           "highlight":  [
-                                                             "played"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The fans loved their heavy sound.",
-                                           "ru":  "Фанатам понравился их тяжёлый звук.",
-                                           "highlight":  [
-                                                             "loved"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They made rock history.",
-                                           "ru":  "Они создали историю рока.",
-                                           "highlight":  [
-                                                             "made"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Влияние на музыку",
-                         "items":  [
-                                       {
-                                           "en":  "Led Zeppelin changed rock music forever.",
-                                           "ru":  "Led Zeppelin навсегда изменили рок-музыку.",
-                                           "highlight":  [
-                                                             "changed"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They created a new sound.",
-                                           "ru":  "Они создали новое звучание.",
-                                           "highlight":  [
-                                                             "created"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Many bands copied their style.",
-                                           "ru":  "Многие группы копировали их стиль.",
-                                           "highlight":  [
-                                                             "copied"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They inspired a whole generation.",
-                                           "ru":  "Они вдохновили целое поколение.",
-                                           "highlight":  [
-                                                             "inspired"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Отрицания и вопросы",
-                         "items":  [
-                                       {
-                                           "en":  "They didn\u0027t know they would be legends.",
-                                           "ru":  "Они не знали, что станут легендами.",
-                                           "highlight":  [
-                                                             "didn\u0027t know"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Bonham didn\u0027t use a metronome.",
-                                           "ru":  "Бонэм не использовал метроном.",
-                                           "highlight":  [
-                                                             "didn\u0027t use"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Did Page write all the songs?",
-                                           "ru":  "Пейдж написал все песни?",
-                                           "highlight":  [
-                                                             "Did"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Did they record in one take?",
-                                           "ru":  "Они записали с одного дубля?",
-                                           "highlight":  [
-                                                             "Did"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Наследие",
-                         "items":  [
-                                       {
-                                           "en":  "The album became one of the greatest ever.",
-                                           "ru":  "Альбом стал одним из величайших в истории.",
-                                           "highlight":  [
-                                                             "became"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "It sold millions of copies.",
-                                           "ru":  "Он продался миллионами копий.",
-                                           "highlight":  [
-                                                             "sold"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Fans bought it for decades.",
-                                           "ru":  "Фанаты покупали его десятилетиями.",
-                                           "highlight":  [
-                                                             "bought"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Led Zeppelin left a huge legacy.",
-                                           "ru":  "Led Zeppelin оставили огромное наследие.",
-                                           "highlight":  [
-                                                             "left"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "They play the album in 1969.",
-                         "right":  "They played the album in 1969.",
-                         "note":  "1969 — прошлое, нужно Past Simple."
-                     },
-                     {
-                         "wrong":  "He didn\u0027t recorded the song.",
-                         "right":  "He didn\u0027t record the song.",
-                         "note":  "После didn\u0027t — базовая форма record."
-                     },
-                     {
-                         "wrong":  "Did he sang the song?",
-                         "right":  "Did he sing the song?",
-                         "note":  "После did — базовая форма sing."
-                     },
-                     {
-                         "wrong":  "I have played in that band in 1990.",
-                         "right":  "I played in that band in 1990.",
-                         "note":  "С in 1990 — Past Simple, не Present Perfect."
-                     },
-                     {
-                         "wrong":  "She writed a song yesterday.",
-                         "right":  "She wrote a song yesterday.",
-                         "note":  "Write — неправильный глагол: wrote."
-                     },
-                     {
-                         "wrong":  "They didn\u0027t knew the song.",
-                         "right":  "They didn\u0027t know the song.",
-                         "note":  "После didn\u0027t — базовая форма know."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Past Simple vs Present Perfect",
-                    "leftLabel":  "Past Simple (завершённое прошлое)",
-                    "rightLabel":  "Present Perfect (результат сейчас)",
-                    "rows":  [
-                                 {
-                                     "left":  "They recorded an album in 1969.",
-                                     "right":  "They have recorded many albums."
-                                 },
-                                 {
-                                     "left":  "I played that song once.",
-                                     "right":  "I have never played that song."
-                                 },
-                                 {
-                                     "left":  "He sang with the band.",
-                                     "right":  "He has sung with many bands."
-                                 },
-                                 {
-                                     "left":  "Bonham hit the drums hard.",
-                                     "right":  "Bonham has been a legend."
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Past Simple — завершённое действие. Действие началось и закончилось в прошлом.",
-                 "Маркеры: yesterday, last week, in 1969, two days ago.",
-                 "Правильные глаголы: + -ed. Неправильные — учи вторую форму.",
-                 "Отрицание: didn\u0027t + базовая форма.",
-                 "Вопрос: Did + базовая форма.",
-                 "Не путай с Present Perfect: если есть маркер времени — Past Simple."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Which sentence is in Past Simple?",
-                     "options":  [
-                                     "They play the album.",
-                                     "They played the album.",
-                                     "They are playing the album."
-                                 ],
-                     "answer":  "They played the album.",
-                     "why":  "Played — Past Simple."
-                 },
-                 {
-                     "q":  "What\u0027s the past form of \u0027sing\u0027?",
-                     "options":  [
-                                     "singed",
-                                     "sang",
-                                     "sung"
-                                 ],
-                     "answer":  "sang",
-                     "why":  "Sing — неправильный глагол: sang."
-                 },
-                 {
-                     "q":  "Which is correct?",
-                     "options":  [
-                                     "He didn\u0027t played the song.",
-                                     "He didn\u0027t play the song.",
-                                     "He didn\u0027t plays the song."
-                                 ],
-                     "answer":  "He didn\u0027t play the song.",
-                     "why":  "После didn\u0027t — базовая форма."
-                 },
-                 {
-                     "q":  "\"Led Zeppelin ... (record) their first album in 1969.\"",
-                     "options":  [
-                                     "record",
-                                     "recorded",
-                                     "recording"
-                                 ],
-                     "answer":  "recorded",
-                     "why":  "1969 — прошлое, правильный глагол + -ed."
-                 },
-                 {
-                     "q":  "Which marker is for Past Simple?",
-                     "options":  [
-                                     "now",
-                                     "in 1969",
-                                     "already"
-                                 ],
-                     "answer":  "in 1969",
-                     "why":  "Конкретный год — маркер прошлого."
-                 },
-                 {
-                     "q":  "What does \u0027They made history\u0027 mean?",
-                     "options":  [
-                                     "They are making it now.",
-                                     "They made it in the past.",
-                                     "They will make it."
-                                 ],
-                     "answer":  "They made it in the past.",
-                     "why":  "Past Simple — действие завершено."
-                 }
-             ],
-    "related":  [
-                    "a1-present-simple",
-                    "a1-present-continuous",
-                    "a1-verb-to-be"
-                ]
+{
+  "variant": "rocknroll",
+  "slug": "a1-past-simple",
+  "level": "A1",
+  "title": "Past Simple",
+  "category": "Tenses",
+  "readingTime": 7,
+  "summary": "Простое прошедшее время: завершённые действия. Led Zeppelin и запись первого альбома.",
+  "idea": [
+    "Джимми Пейдж собрал группу в 1968 году. «Jimmy Page called Robert Plant in 1968.» — Джимми Пейдж позвонил Роберту Планту в 1968 году. «Robert Plant said yes to the offer.» — Роберт Плант согласился на предложение. «They entered the studio in 1969.» — Они вошли в студию в 1969 году. «They played the songs. They recorded the album.» — Они сыграли песни. Они записали альбом. Каждое действие — глагол в прошедшем времени. Он начинается и заканчивается. «They recorded the album in 36 hours.» — Они записали альбом за 36 часов. «Jimmy Page played the guitar. Robert Plant sang. John Bonham hit the drums.» — Джимми Пейдж играл на гитаре. Роберт Плант пел. Джон Бонэм бил по барабанам. Это факты. Они произошли один раз. Они завершены. Они больше не происходят.",
+    "Альбом вышел в 1969 году. «The album was released in 1969.» — Альбом был выпущен в 1969 году. «It became a classic.» — Он стал классикой. Но это произошло после того, как они закончили запись. «They recorded the album. Then they released it. Then they went on tour.» — Они записали альбом. Потом они выпустили его. Потом они отправились в тур. Каждое действие следует за другим. Ни одно из них не продолжается. «They didn't know they would be famous.» — Они не знали, что станут знаменитыми. «They didn't expect the success.» — Они не ожидали успеха. «They didn't plan to change music.» — Они не планировали менять музыку. Они сделали это. И это осталось в прошлом. Навсегда."
+  ],
+  "why": [
+    "Говорить о завершённых действиях в прошлом: «They recorded an album.»",
+    "Рассказывать истории: «The band became legendary.»",
+    "Передавать последовательность событий: «They came, they played, they conquered.»",
+    "Описывать факты из прошлого: «Led Zeppelin started in 1968.»"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Page: We recorded the whole album in 36 hours. It was intense.", "ru": "Мы записали весь альбом за 36 часов. Это было интенсивно." },
+      { "en": "Plant: I sang my heart out. I didn't stop for a second.", "ru": "Я пел от души. Я не останавливался ни на секунду." },
+      { "en": "Bonham: I played the drums like a madman. Did you hear the fill?", "ru": "Я играл на барабанах как безумный. Ты слышал переход?" },
+      { "en": "Jones: We made history. But we didn't know it then.", "ru": "Мы сделали историю. Но мы тогда этого не знали." }
+    ],
+    "note": "Led Zeppelin в студии после записи первого альбома. Всё в прошлом — завершено."
+  },
+  "russianAngle": [
+    "В русском мы говорим «я играл» — и это прошлое. По-английски: «I played» — тоже прошлое. Но важно: Past Simple для завершённых действий. Если результат важен сейчас — нужен Present Perfect.",
+    "«Я играл на гитаре в 1969-м» — факт. «I played guitar in 1969.» Ты больше не играешь или это неважно.",
+    "Ошибка: «I have recorded an album in 1969» — нельзя с in 1969. Нужно: «I recorded an album in 1969.»",
+    "Запомни: Past Simple — это точка. Действие началось и закончилось в прошлом."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: Past Simple = завершённое действие в прошлом.",
+      "Правильные глаголы: play → played, record → recorded.",
+      "Неправильные глаголы: sing → sang, write → wrote, make → made.",
+      "Отрицание: didn't + базовая форма: He didn't play.",
+      "Вопросы: Did + базовая форма: Did he play?",
+      "Напиши историю о группе, которую ты слушал."
+    ],
+    "exercise": {
+      "prompt": "Поставь глаголы в Past Simple:",
+      "items": [
+        { "q": "Led Zeppelin (record) their first album in 1969.", "a": "recorded" },
+        { "q": "Jimmy Page (start) the band.", "a": "started" },
+        { "q": "Robert Plant (sing) with a powerful voice.", "a": "sang" },
+        { "q": "They (play) for 36 hours straight.", "a": "played" },
+        { "q": "The album (become) a classic.", "a": "became" }
+      ]
+    }
+  },
+  "formula": "S + V2 / V-ed",
+  "structure": {
+    "positive": "I / You / He / She / It / We / They + V2 / V-ed",
+    "negative": "I / You / He / She / It / We / They + did not (didn't) + V1",
+    "question": "Did + I / you / he / she / it / we / they + V1?"
+  },
+  "markers": [
+    "yesterday",
+    "last week / month / year",
+    "in 1969",
+    "two days ago",
+    "on Monday",
+    "when I was young",
+    "in the past"
+  ],
+  "uses": [
+    "Завершённое действие в прошлом: «They recorded an album in 1969.»",
+    "Последовательность событий: «They came, they played, they conquered.»",
+    "Факты из прошлого: «Led Zeppelin started in 1968.»",
+    "Однократные действия: «He sang that song only once.»"
+  ],
+  "rules": [
+    { "title": "Правильные глаголы", "text": "Добавляй -ed: play → played, record → recorded, start → started." },
+    { "title": "Неправильные глаголы", "text": "Запоминай вторую форму: sing → sang, write → wrote, make → made, go → went." },
+    { "title": "Отрицания и вопросы", "text": "В отрицаниях и вопросах используй did + базовая форма: He didn't play. Did he play?" }
+  ],
+  "examples": [
+    {
+      "group": "Запись первого альбома",
+      "items": [
+        { "en": "Led Zeppelin recorded their first album in 1969.", "ru": "Led Zeppelin записали свой первый альбом в 1969 году.", "highlight": ["recorded"] },
+        { "en": "Jimmy Page played the guitar like a god.", "ru": "Джимми Пейдж играл на гитаре как бог.", "highlight": ["played"] },
+        { "en": "Robert Plant sang with incredible power.", "ru": "Роберт Плант пел с невероятной силой.", "highlight": ["sang"] },
+        { "en": "John Bonham hit the drums like thunder.", "ru": "Джон Бонэм бил по барабанам как гром.", "highlight": ["hit"] },
+        { "en": "John Paul Jones played the bass.", "ru": "Джон Пол Джонс играл на басу.", "highlight": ["played"] },
+        { "en": "The whole band played for 36 hours.", "ru": "Вся группа играла 36 часов.", "highlight": ["played"] }
+      ]
+    },
+    {
+      "group": "Студийная сессия",
+      "items": [
+        { "en": "They started recording at 9 AM.", "ru": "Они начали запись в 9 утра.", "highlight": ["started"] },
+        { "en": "They worked for 36 hours straight.", "ru": "Они работали 36 часов подряд.", "highlight": ["worked"] },
+        { "en": "They finished the album in one week.", "ru": "Они закончили альбом за одну неделю.", "highlight": ["finished"] },
+        { "en": "The producer said it was perfect.", "ru": "Продюсер сказал, что это идеально.", "highlight": ["said"] },
+        { "en": "They recorded all the tracks in one session.", "ru": "Они записали все треки за одну сессию.", "highlight": ["recorded"] },
+        { "en": "The engineer mixed the album immediately.", "ru": "Звукоинженер сразу же свел альбом.", "highlight": ["mixed"] }
+      ]
+    },
+    {
+      "group": "Что произошло в 1969-м",
+      "items": [
+        { "en": "The band became famous overnight.", "ru": "Группа стала знаменитой за один день.", "highlight": ["became"] },
+        { "en": "They played their first American tour.", "ru": "Они сыграли свой первый американский тур.", "highlight": ["played"] },
+        { "en": "The fans loved their heavy sound.", "ru": "Фанатам понравился их тяжёлый звук.", "highlight": ["loved"] },
+        { "en": "They made rock history.", "ru": "Они создали историю рока.", "highlight": ["made"] },
+        { "en": "They released their first single.", "ru": "Они выпустили свой первый сингл.", "highlight": ["released"] },
+        { "en": "The album sold out in weeks.", "ru": "Альбом был распродан за несколько недель.", "highlight": ["sold"] }
+      ]
+    },
+    {
+      "group": "Влияние на музыку",
+      "items": [
+        { "en": "Led Zeppelin changed rock music forever.", "ru": "Led Zeppelin навсегда изменили рок-музыку.", "highlight": ["changed"] },
+        { "en": "They created a new sound.", "ru": "Они создали новое звучание.", "highlight": ["created"] },
+        { "en": "Many bands copied their style.", "ru": "Многие группы копировали их стиль.", "highlight": ["copied"] },
+        { "en": "They inspired a whole generation.", "ru": "Они вдохновили целое поколение.", "highlight": ["inspired"] },
+        { "en": "Their music influenced heavy metal.", "ru": "Их музыка повлияла на хэви-метал.", "highlight": ["influenced"] },
+        { "en": "They defined the 1970s rock sound.", "ru": "Они определили звучание рока 1970-х.", "highlight": ["defined"] }
+      ]
+    },
+    {
+      "group": "Отрицания и вопросы",
+      "items": [
+        { "en": "They didn't know they would be legends.", "ru": "Они не знали, что станут легендами.", "highlight": ["didn't know"] },
+        { "en": "Bonham didn't use a metronome.", "ru": "Бонэм не использовал метроном.", "highlight": ["didn't use"] },
+        { "en": "Did Page write all the songs?", "ru": "Пейдж написал все песни?", "highlight": ["Did"] },
+        { "en": "Did they record in one take?", "ru": "Они записали с одного дубля?", "highlight": ["Did"] },
+        { "en": "Did they know they would be famous?", "ru": "Они знали, что станут знаменитыми?", "highlight": ["Did"] },
+        { "en": "Did the band stay together?", "ru": "Группа осталась вместе?", "highlight": ["Did"] }
+      ]
+    },
+    {
+      "group": "Наследие",
+      "items": [
+        { "en": "The album became one of the greatest ever.", "ru": "Альбом стал одним из величайших в истории.", "highlight": ["became"] },
+        { "en": "It sold millions of copies.", "ru": "Он продался миллионами копий.", "highlight": ["sold"] },
+        { "en": "Fans bought it for decades.", "ru": "Фанаты покупали его десятилетиями.", "highlight": ["bought"] },
+        { "en": "Led Zeppelin left a huge legacy.", "ru": "Led Zeppelin оставили огромное наследие.", "highlight": ["left"] },
+        { "en": "They influenced every rock band that followed.", "ru": "Они повлияли на каждую рок-группу, которая последовала за ними.", "highlight": ["influenced"] },
+        { "en": "Their music still lives on today.", "ru": "Их музыка до сих пор жива.", "highlight": ["lives"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "They play the album in 1969.", "right": "They played the album in 1969.", "note": "1969 — прошлое, нужно Past Simple." },
+    { "wrong": "He didn't recorded the song.", "right": "He didn't record the song.", "note": "После didn't — базовая форма record." },
+    { "wrong": "Did he sang the song?", "right": "Did he sing the song?", "note": "После did — базовая форма sing." },
+    { "wrong": "I have played in that band in 1990.", "right": "I played in that band in 1990.", "note": "С in 1990 — Past Simple, не Present Perfect." },
+    { "wrong": "She writed a song yesterday.", "right": "She wrote a song yesterday.", "note": "Write — неправильный глагол: wrote." },
+    { "wrong": "They didn't knew the song.", "right": "They didn't know the song.", "note": "После didn't — базовая форма know." }
+  ],
+  "compare": {
+    "title": "Past Simple vs Present Perfect",
+    "leftLabel": "Past Simple (завершённое прошлое)",
+    "rightLabel": "Present Perfect (результат сейчас)",
+    "rows": [
+      { "left": "They recorded an album in 1969.", "right": "They have recorded many albums." },
+      { "left": "I played that song once.", "right": "I have never played that song." },
+      { "left": "He sang with the band.", "right": "He has sung with many bands." },
+      { "left": "Bonham hit the drums hard.", "right": "Bonham has been a legend." }
+    ]
+  },
+  "tips": [
+    "Past Simple — завершённое действие. Действие началось и закончилось в прошлом.",
+    "Маркеры: yesterday, last week, in 1969, two days ago.",
+    "Правильные глаголы: + -ed. Неправильные — учи вторую форму.",
+    "Отрицание: didn't + базовая форма.",
+    "Вопрос: Did + базовая форма.",
+    "Не путай с Present Perfect: если есть маркер времени — Past Simple."
+  ],
+  "quiz": [
+    { "q": "Which sentence is in Past Simple?", "options": ["They play the album.", "They played the album.", "They are playing the album."], "answer": "They played the album.", "why": "Played — Past Simple." },
+    { "q": "What's the past form of 'sing'?", "options": ["singed", "sang", "sung"], "answer": "sang", "why": "Sing — неправильный глагол: sang." },
+    { "q": "Which is correct?", "options": ["He didn't played the song.", "He didn't play the song.", "He didn't plays the song."], "answer": "He didn't play the song.", "why": "После didn't — базовая форма." },
+    { "q": "\"Led Zeppelin ... (record) their first album in 1969.\"", "options": ["record", "recorded", "recording"], "answer": "recorded", "why": "1969 — прошлое, правильный глагол + -ed." },
+    { "q": "Which marker is for Past Simple?", "options": ["now", "in 1969", "already"], "answer": "in 1969", "why": "Конкретный год — маркер прошлого." },
+    { "q": "What does 'They made history' mean?", "options": ["They are making it now.", "They made it in the past.", "They will make it."], "answer": "They made it in the past.", "why": "Past Simple — действие завершено." }
+  ],
+  "related": ["a1-present-simple", "a1-present-continuous", "a1-verb-to-be"]
 }

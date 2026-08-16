@@ -1,455 +1,187 @@
-﻿{
-    "slug":  "a1-present-simple",
-    "level":  "A1",
-    "title":  "Present Simple",
-    "category":  "Tenses",
-    "readingTime":  7,
-    "summary":  "Настоящее простое время: факты, привычки и расписание. Джек Лондон и Джонни Кэш.",
-    "variant":  "classic",
-    "idea":  [
-                 "В 1897 году Джек Лондон едет на Аляску. Золотая лихорадка. Тысячи людей ищут золото. Лондон ищет истории. Каждое утро он встаёт в палатке, заваривает кофе, читает книги. Он наблюдает за людьми и зверями. Он записывает всё в дневник. Потом из этих записей родятся рассказы, которые сделают его знаменитым.",
-                 "На Аляске всё подчиняется ритму. Солнце встаёт поздно. Снег идёт часто. Реки замерзают. Собаки воют на луну. Волки охотятся стаями. Природа не спрашивает разрешения — она просто есть. Как Present Simple. Это время для фактов, которые не зависят от настроения или момента.",
-                 "Лондон пишет о выживании. Его герои не сдаются. Они работают, идут, строят, надеются. Они не жалуются. Они просто делают. Каждый день. Снова и снова. Present Simple — это язык стойкости. Язык привычек, которые формируют характер. Язык человека, который говорит: я есть, я делаю, я живу."
-             ],
-    "why":  [
-                "Говорить о фактах: «The sun rises late in Alaska.»",
-                "Описывать привычки и рутину: «London writes every morning.»",
-                "Рассказывать о расписании: «The train leaves at 6 AM.»",
-                "Передавать постоянные свойства: «The dog howls at night.»"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "London: The wolves hunt at night. I see them every evening.",
-                                      "ru":  "Волки охотятся ночью. Я вижу их каждый вечер."
-                                  },
-                                  {
-                                      "en":  "Prospector: They steal our sheep. The farmers lose money.",
-                                      "ru":  "Они воруют наших овец. Фермеры теряют деньги."
-                                  },
-                                  {
-                                      "en":  "London: No. The wolves don\u0027t steal sheep. They hunt rabbits.",
-                                      "ru":  "Нет. Волки не воруют овец. Они охотятся на кроликов."
-                                  },
-                                  {
-                                      "en":  "Prospector: Then why do the sheep disappear?",
-                                      "ru":  "Тогда почему овцы исчезают?"
-                                  },
-                                  {
-                                      "en":  "London: The mountain lions take them. The wolves are innocent.",
-                                      "ru":  "Их уносят пумы. Волки невиновны."
-                                  }
-                              ],
-                    "note":  "Лондон защищает волков от фермеров. Он изучает их повадки. Природа — сложная система, и Present Simple помогает описать её законы."
-                },
-    "russianAngle":  [
-                         "Русские говорят: «Я понимаю» — и это уже готовый факт. По-английски: «I understand.» Тоже факт. Но если вы скажете «I am understanding» — собеседник подумает, что вы находитесь в процессе понимания прямо сейчас. Это странно. Понимание — это состояние, а не действие.",
-                         "«Я живу в Москве» — факт. «I live in Moscow.» Просто. Без «am living». Потому что это не временно. Это ваш портрет. Если же вы временно в командировке — «I\u0027m living in a hotel» (сейчас, временно). Чувствуете разницу?",
-                         "В русском мы часто опускаем глагол «быть»: «Он хороший человек.» По-английски он есть: «He is a good person.» И это не обсуждается. Это факт. Present Simple любит определённость.",
-                         "«Каждое утро я пью кофе» — рутина. «Every morning I drink coffee.» Не «am drinking». Потому что это не происходит прямо сейчас. Это ваша привычка. Ваш портрет."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Спроси себя: это факт? привычка? расписание? постоянное свойство? Если да — Present Simple.",
-                                     "Добавь маркеры времени: always, usually, often, sometimes, never, every day.",
-                                     "Проверь третье лицо: он/она/оно + -s. Не забывай про исключения (goes, does, has)."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Напиши 5 предложений о том, что делает Джек Лондон каждое утро на Аляске. Используй маркеры времени.",
-                                        "items":  [
-                                                      {
-                                                          "q":  "London (wake up) early every morning.",
-                                                          "a":  "wakes up"
-                                                      },
-                                                      {
-                                                          "q":  "He (make) coffee in his tent.",
-                                                          "a":  "makes"
-                                                      },
-                                                      {
-                                                          "q":  "The dogs (howl) at the moon.",
-                                                          "a":  "howl"
-                                                      },
-                                                      {
-                                                          "q":  "He (not / use) modern equipment.",
-                                                          "a":  "doesn\u0027t use"
-                                                      },
-                                                      {
-                                                          "q":  "The sun (rise) late in winter.",
-                                                          "a":  "rises"
-                                                      },
-                                                      {
-                                                          "q":  "London (write) in his diary every day.",
-                                                          "a":  "writes"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "S + V1 / V-s",
-    "structure":  {
-                      "positive":  "I / You / We / They + V1\nHe / She / It + V1-s",
-                      "negative":  "I / You / We / They + do not (don\u0027t) + V1\nHe / She / It + does not (doesn\u0027t) + V1",
-                      "question":  "Do + I / you / we / they + V1?\nDoes + he / she / it + V1?"
-                  },
-    "markers":  [
-                    "always",
-                    "usually",
-                    "often",
-                    "sometimes",
-                    "rarely",
-                    "never",
-                    "every day / week / month / year",
-                    "on Mondays",
-                    "in the morning / afternoon / evening",
-                    "at night"
-                ],
-    "uses":  [
-                 "Факты: «The sun rises in the east.»",
-                 "Привычки: «He drinks coffee every morning.»",
-                 "Расписание: «The train leaves at 6 PM.»",
-                 "Постоянные свойства: «She speaks English fluently.»"
-             ],
-    "rules":  [
-                  {
-                      "text":  "В третьем лице единственного числа (he/she/it) добавляй -s к глаголу: He works, she sleeps, it eats.",
-                      "title":  "Третье лицо — добавляй -s"
-                  },
-                  {
-                      "text":  "Используй do/does + базовая форма глагола: Does he work? He doesn\u0027t sleep.",
-                      "title":  "Вопросы и отрицания — do/does"
-                  },
-                  {
-                      "text":  "Глагол to be не использует do/does: He is happy, не He does be happy.",
-                      "title":  "Глагол to be — особый случай"
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Каждое утро Лондона",
-                         "items":  [
-                                       {
-                                           "en":  "London wakes up at 5 AM.",
-                                           "ru":  "Лондон просыпается в 5 утра.",
-                                           "highlight":  [
-                                                             "wakes up"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He makes coffee over a fire.",
-                                           "ru":  "Он заваривает кофе на костре.",
-                                           "highlight":  [
-                                                             "makes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He reads books before work.",
-                                           "ru":  "Он читает книги перед работой.",
-                                           "highlight":  [
-                                                             "reads"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The dogs pull the sled every morning.",
-                                           "ru":  "Собаки тянут сани каждое утро.",
-                                           "highlight":  [
-                                                             "pull"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Жизнь на Аляске — факты",
-                         "items":  [
-                                       {
-                                           "en":  "The sun rises late in winter.",
-                                           "ru":  "Солнце встаёт поздно зимой.",
-                                           "highlight":  [
-                                                             "rises"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Snow falls from October to May.",
-                                           "ru":  "Снег идёт с октября по май.",
-                                           "highlight":  [
-                                                             "falls"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Rivers freeze in November.",
-                                           "ru":  "Реки замерзают в ноябре.",
-                                           "highlight":  [
-                                                             "freeze"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Wolves hunt in packs.",
-                                           "ru":  "Волки охотятся стаями.",
-                                           "highlight":  [
-                                                             "hunt"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Привычки и рутина Лондона",
-                         "items":  [
-                                       {
-                                           "en":  "London walks through the forest every day.",
-                                           "ru":  "Лондон ходит по лесу каждый день.",
-                                           "highlight":  [
-                                                             "walks"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He writes in his diary at night.",
-                                           "ru":  "Он пишет в дневнике ночью.",
-                                           "highlight":  [
-                                                             "writes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He doesn\u0027t sleep well in the cold.",
-                                           "ru":  "Он не спит хорошо в холоде.",
-                                           "highlight":  [
-                                                             "doesn\u0027t sleep"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He rarely eats warm food.",
-                                           "ru":  "Он редко ест тёплую еду.",
-                                           "highlight":  [
-                                                             "rarely eats"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Собаки и природа",
-                         "items":  [
-                                       {
-                                           "en":  "The dogs howl at the moon.",
-                                           "ru":  "Собаки воют на луну.",
-                                           "highlight":  [
-                                                             "howl"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The crows fly over the forest.",
-                                           "ru":  "Вороны летают над лесом.",
-                                           "highlight":  [
-                                                             "fly"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The wind blows from the north.",
-                                           "ru":  "Ветер дует с севера.",
-                                           "highlight":  [
-                                                             "blows"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Rabbits hide in the snow.",
-                                           "ru":  "Кролики прячутся в снегу.",
-                                           "highlight":  [
-                                                             "hide"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Отрицания и вопросы",
-                         "items":  [
-                                       {
-                                           "en":  "London doesn\u0027t carry a lot of food.",
-                                           "ru":  "Лондон не носит много еды.",
-                                           "highlight":  [
-                                                             "doesn\u0027t carry"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The wolves don\u0027t attack humans.",
-                                           "ru":  "Волки не нападают на людей.",
-                                           "highlight":  [
-                                                             "don\u0027t attack"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Does he write every day?",
-                                           "ru":  "Он пишет каждый день?",
-                                           "highlight":  [
-                                                             "Does"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Do the dogs pull the sled?",
-                                           "ru":  "Собаки тянут сани?",
-                                           "highlight":  [
-                                                             "Do"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Успех и слава",
-                         "items":  [
-                                       {
-                                           "en":  "His books become bestsellers.",
-                                           "ru":  "Его книги становятся бестселлерами.",
-                                           "highlight":  [
-                                                             "become"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Readers love his stories.",
-                                           "ru":  "Читатели любят его рассказы.",
-                                           "highlight":  [
-                                                             "love"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He travels around the world.",
-                                           "ru":  "Он путешествует по миру.",
-                                           "highlight":  [
-                                                             "travels"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He never forgets Alaska.",
-                                           "ru":  "Он никогда не забывает Аляску.",
-                                           "highlight":  [
-                                                             "never forgets"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "I am understanding the book.",
-                         "right":  "I understand the book.",
-                         "note":  "Понимание — это состояние, а не процесс. Используй Present Simple."
-                     },
-                     {
-                         "wrong":  "He don\u0027t work in the morning.",
-                         "right":  "He doesn\u0027t work in the morning.",
-                         "note":  "В третьем лице — doesn\u0027t, а не don\u0027t."
-                     },
-                     {
-                         "wrong":  "She write every day.",
-                         "right":  "She writes every day.",
-                         "note":  "Не забывай -s для he/she/it."
-                     },
-                     {
-                         "wrong":  "I am going to work every day.",
-                         "right":  "I go to work every day.",
-                         "note":  "Привычка — Present Simple, не Continuous."
-                     },
-                     {
-                         "wrong":  "Does he works here?",
-                         "right":  "Does he work here?",
-                         "note":  "В вопросах с does глагол возвращается в базовую форму."
-                     },
-                     {
-                         "wrong":  "We are not wanting to go.",
-                         "right":  "We don\u0027t want to go.",
-                         "note":  "Want — состояние желания, не процесс. Используй Present Simple."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Present Simple vs Present Continuous",
-                    "leftLabel":  "Present Simple",
-                    "rightLabel":  "Present Continuous",
-                    "rows":  [
-                                 {
-                                     "left":  "I work every day.",
-                                     "right":  "I\u0027m working right now."
-                                 },
-                                 {
-                                     "left":  "He reads in the morning.",
-                                     "right":  "He\u0027s reading at the moment."
-                                 },
-                                 {
-                                     "left":  "The sun rises in the east.",
-                                     "right":  "The sun is rising now."
-                                 },
-                                 {
-                                     "left":  "They live in Alaska.",
-                                     "right":  "They\u0027re living in a tent this month."
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Задай себе вопрос: это факт? Если да — Present Simple. Если действие происходит прямо сейчас — Continuous.",
-                 "Маркеры времени — твои друзья: always, usually, often, sometimes, never, every day.",
-                 "Следи за третьим лицом: he, she, it + -s. Не забывай про исключения: go → goes, do → does, have → has.",
-                 "В вопросах и отрицаниях do/does + базовая форма глагола. Не пиши «does he works».",
-                 "Не используй Present Simple для действий, которые происходят прямо сейчас: «I am reading this tip» (сейчас) — а не «I read this tip».",
-                 "Present Simple — это портрет. Твой портрет, портрет Джека Лондона, портрет волков на Аляске. Рисуй чётко."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Which sentence is a fact?",
-                     "options":  [
-                                     "He is reading now.",
-                                     "He reads every day.",
-                                     "He was reading yesterday."
-                                 ],
-                     "answer":  "He reads every day.",
-                     "why":  "Факт о привычке — это Present Simple."
-                 },
-                 {
-                     "q":  "What\u0027s the correct form for he/she/it?",
-                     "options":  [
-                                     "go",
-                                     "goes",
-                                     "going"
-                                 ],
-                     "answer":  "goes",
-                     "why":  "В третьем лице добавляем -s или -es."
-                 },
-                 {
-                     "q":  "Which sentence uses Present Simple correctly?",
-                     "options":  [
-                                     "She doesn\u0027t works here.",
-                                     "She don\u0027t work here.",
-                                     "She doesn\u0027t work here."
-                                 ],
-                     "answer":  "She doesn\u0027t work here.",
-                     "why":  "В отрицании с doesn\u0027t глагол возвращается в базовую форму."
-                 },
-                 {
-                     "q":  "\"I ... coffee every morning.\" — fill in the blank.",
-                     "options":  [
-                                     "drink",
-                                     "drinks",
-                                     "am drinking"
-                                 ],
-                     "answer":  "drink",
-                     "why":  "I + базовая форма глагола."
-                 },
-                 {
-                     "q":  "What does Present Simple describe?",
-                     "options":  [
-                                     "Actions right now",
-                                     "Facts and habits",
-                                     "Actions in the past"
-                                 ],
-                     "answer":  "Facts and habits",
-                     "why":  "Present Simple описывает факты, привычки, расписание и постоянные свойства."
-                 },
-                 {
-                     "q":  "Which is NOT a Present Simple marker?",
-                     "options":  [
-                                     "always",
-                                     "every day",
-                                     "now"
-                                 ],
-                     "answer":  "now",
-                     "why":  "Now указывает на Present Continuous, а не Present Simple."
-                 }
-             ],
-    "related":  [
-                    "a1-verb-to-be",
-                    "a1-pronouns",
-                    "a1-present-continuous"
-                ]
+{
+  "variant": "classic",
+  "slug": "a1-present-simple",
+  "level": "A1",
+  "title": "Present Simple",
+  "category": "Tenses",
+  "readingTime": 7,
+  "summary": "Настоящее простое время: факты, привычки и расписание. Джек Лондон и золотая лихорадка на Аляске.",
+  "idea": [
+    "Палатка на Аляске, 1897 год. Замёрзшая земля. Джек Лондон просыпается в 5 утра. Он зажигает огонь, ставит кофейник, достаёт дневник из рюкзака. «The sun rises late» — солнце встаёт поздно, и это факт, который не меняется. «The snow falls often» — снег идёт часто, и это тоже факт. «The wolves hunt at night» — волки охотятся ночью. Лондон описывает мир вокруг себя: что происходит всегда, что повторяется каждый день.",
+    "«London wakes up at 5 AM» — Лондон просыпается в 5 утра. «He makes coffee» — он делает кофе. «He reads before work» — он читает перед работой. «He writes in his diary» — он пишет в дневнике. Это привычки, которые повторяются каждый день. «The dogs pull the sled» — собаки тянут сани. «The wolves howl at the moon» — волки воют на луну. «The wind blows from the north» — ветер дует с севера. Это факты о природе.",
+    "«The sun rises late» — солнце встаёт поздно. «The rivers freeze» — реки замерзают. «The snow falls» — снег идёт. Всё это — Present Simple. Действия, которые происходят всегда, которые не зависят от момента. На Аляске всё подчиняется ритму. Present Simple — это язык этого ритма."
+  ],
+  "why": [
+    "Говорить о фактах: «The sun rises late in Alaska.»",
+    "Описывать привычки и рутину: «London writes every morning.»",
+    "Рассказывать о расписании: «The train leaves at 6 AM.»",
+    "Передавать постоянные свойства: «The dog howls at night.»"
+  ],
+  "context": {
+    "lines": [
+      { "en": "London: The wolves hunt at night. I see them every evening.", "ru": "Волки охотятся ночью. Я вижу их каждый вечер." },
+      { "en": "Prospector: They steal our sheep. The farmers lose money.", "ru": "Они воруют наших овец. Фермеры теряют деньги." },
+      { "en": "London: No. The wolves don't steal sheep. They hunt rabbits.", "ru": "Нет. Волки не воруют овец. Они охотятся на кроликов." },
+      { "en": "Prospector: Then why do the sheep disappear?", "ru": "Тогда почему овцы исчезают?" },
+      { "en": "London: The mountain lions take them. The wolves are innocent.", "ru": "Их уносят пумы. Волки невиновны." }
+    ],
+    "note": "Лондон защищает волков от фермеров. Он изучает их повадки. Природа — сложная система, и Present Simple помогает описать её законы."
+  },
+  "russianAngle": [
+    "Русские говорят: «Я понимаю» — и это уже готовый факт. По-английски: «I understand.» Тоже факт. Но если вы скажете «I am understanding» — собеседник подумает, что вы находитесь в процессе понимания прямо сейчас. Это странно. Понимание — это состояние, а не действие.",
+    "«Я живу в Москве» — факт. «I live in Moscow.» Просто. Без «am living». Потому что это не временно. Это ваш портрет. Если же вы временно в командировке — «I'm living in a hotel» (сейчас, временно). Чувствуете разницу?",
+    "В русском мы часто опускаем глагол «быть»: «Он хороший человек.» По-английски он есть: «He is a good person.» И это не обсуждается. Это факт. Present Simple любит определённость.",
+    "«Каждое утро я пью кофе» — рутина. «Every morning I drink coffee.» Не «am drinking». Потому что это не происходит прямо сейчас. Это ваша привычка. Ваш портрет."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Спроси себя: это факт? привычка? расписание? постоянное свойство? Если да — Present Simple.",
+      "Добавь маркеры времени: always, usually, often, sometimes, never, every day.",
+      "Проверь третье лицо: он/она/оно + -s. Не забывай про исключения (goes, does, has)."
+    ],
+    "exercise": {
+      "prompt": "Напиши 5 предложений о том, что делает Джек Лондон каждое утро на Аляске. Используй маркеры времени.",
+      "items": [
+        { "q": "London (wake up) early every morning.", "a": "wakes up" },
+        { "q": "He (make) coffee in his tent.", "a": "makes" },
+        { "q": "The dogs (howl) at the moon.", "a": "howl" },
+        { "q": "He (not / use) modern equipment.", "a": "doesn't use" },
+        { "q": "The sun (rise) late in winter.", "a": "rises" },
+        { "q": "London (write) in his diary every day.", "a": "writes" }
+      ]
+    }
+  },
+  "formula": "S + V1 / V-s",
+  "structure": {
+    "positive": "I / You / We / They + V1\nHe / She / It + V1-s",
+    "negative": "I / You / We / They + do not (don't) + V1\nHe / She / It + does not (doesn't) + V1",
+    "question": "Do + I / you / we / they + V1?\nDoes + he / she / it + V1?"
+  },
+  "markers": [
+    "always",
+    "usually",
+    "often",
+    "sometimes",
+    "rarely",
+    "never",
+    "every day / week / month / year",
+    "on Mondays",
+    "in the morning / afternoon / evening",
+    "at night"
+  ],
+  "uses": [
+    "Факты: «The sun rises in the east.»",
+    "Привычки: «He drinks coffee every morning.»",
+    "Расписание: «The train leaves at 6 PM.»",
+    "Постоянные свойства: «She speaks English fluently.»"
+  ],
+  "rules": [
+    { "title": "Третье лицо — добавляй -s", "text": "В третьем лице единственного числа (he/she/it) добавляй -s к глаголу: He works, she sleeps, it eats." },
+    { "title": "Вопросы и отрицания — do/does", "text": "Используй do/does + базовая форма глагола: Does he work? He doesn't sleep." },
+    { "title": "Глагол to be — особый случай", "text": "Глагол to be не использует do/does: He is happy, не He does be happy." }
+  ],
+  "examples": [
+    {
+      "group": "Каждое утро Лондона",
+      "items": [
+        { "en": "London wakes up at 5 AM.", "ru": "Лондон просыпается в 5 утра.", "highlight": ["wakes up"] },
+        { "en": "He makes coffee over a fire.", "ru": "Он заваривает кофе на костре.", "highlight": ["makes"] },
+        { "en": "He reads books before work.", "ru": "Он читает книги перед работой.", "highlight": ["reads"] },
+        { "en": "The dogs pull the sled every morning.", "ru": "Собаки тянут сани каждое утро.", "highlight": ["pull"] },
+        { "en": "He writes in his diary at night.", "ru": "Он пишет в дневнике ночью.", "highlight": ["writes"] },
+        { "en": "He doesn't sleep well in the cold.", "ru": "Он не спит хорошо в холоде.", "highlight": ["doesn't sleep"] }
+      ]
+    },
+    {
+      "group": "Жизнь на Аляске — факты",
+      "items": [
+        { "en": "The sun rises late in winter.", "ru": "Солнце встаёт поздно зимой.", "highlight": ["rises"] },
+        { "en": "Snow falls from October to May.", "ru": "Снег идёт с октября по май.", "highlight": ["falls"] },
+        { "en": "Rivers freeze in November.", "ru": "Реки замерзают в ноябре.", "highlight": ["freeze"] },
+        { "en": "Wolves hunt in packs.", "ru": "Волки охотятся стаями.", "highlight": ["hunt"] },
+        { "en": "The wind blows from the north.", "ru": "Ветер дует с севера.", "highlight": ["blows"] },
+        { "en": "The crows fly over the forest.", "ru": "Вороны летают над лесом.", "highlight": ["fly"] }
+      ]
+    },
+    {
+      "group": "Привычки и рутина",
+      "items": [
+        { "en": "London walks through the forest every day.", "ru": "Лондон ходит по лесу каждый день.", "highlight": ["walks"] },
+        { "en": "He rarely eats warm food.", "ru": "Он редко ест тёплую еду.", "highlight": ["rarely eats"] },
+        { "en": "The dogs howl at the moon.", "ru": "Собаки воют на луну.", "highlight": ["howl"] },
+        { "en": "Rabbits hide in the snow.", "ru": "Кролики прячутся в снегу.", "highlight": ["hide"] },
+        { "en": "He doesn't carry a lot of food.", "ru": "Лондон не носит много еды.", "highlight": ["doesn't carry"] },
+        { "en": "The wolves don't attack humans.", "ru": "Волки не нападают на людей.", "highlight": ["don't attack"] }
+      ]
+    },
+    {
+      "group": "Факты о природе",
+      "items": [
+        { "en": "The sun rises in the east.", "ru": "Солнце встаёт на востоке.", "highlight": ["rises"] },
+        { "en": "Water freezes at 0°C.", "ru": "Вода замерзает при 0°C.", "highlight": ["freezes"] },
+        { "en": "Birds fly south in winter.", "ru": "Птицы улетают на юг зимой.", "highlight": ["fly"] },
+        { "en": "The moon orbits the Earth.", "ru": "Луна вращается вокруг Земли.", "highlight": ["orbits"] },
+        { "en": "The wind blows from the north.", "ru": "Ветер дует с севера.", "highlight": ["blows"] },
+        { "en": "Snow falls in the mountains.", "ru": "В горах идёт снег.", "highlight": ["falls"] }
+      ]
+    },
+    {
+      "group": "Отрицания и вопросы",
+      "items": [
+        { "en": "London doesn't carry a lot of food.", "ru": "Лондон не носит много еды.", "highlight": ["doesn't carry"] },
+        { "en": "The wolves don't attack humans.", "ru": "Волки не нападают на людей.", "highlight": ["don't attack"] },
+        { "en": "Does he write every day?", "ru": "Он пишет каждый день?", "highlight": ["Does"] },
+        { "en": "Do the dogs pull the sled?", "ru": "Собаки тянут сани?", "highlight": ["Do"] },
+        { "en": "Does the sun rise late?", "ru": "Солнце встаёт поздно?", "highlight": ["Does"] },
+        { "en": "Do the wolves hunt at night?", "ru": "Волки охотятся ночью?", "highlight": ["Do"] }
+      ]
+    },
+    {
+      "group": "Успех и слава",
+      "items": [
+        { "en": "His books become bestsellers.", "ru": "Его книги становятся бестселлерами.", "highlight": ["become"] },
+        { "en": "Readers love his stories.", "ru": "Читатели любят его рассказы.", "highlight": ["love"] },
+        { "en": "He travels around the world.", "ru": "Он путешествует по миру.", "highlight": ["travels"] },
+        { "en": "He never forgets Alaska.", "ru": "Он никогда не забывает Аляску.", "highlight": ["never forgets"] },
+        { "en": "People remember his name.", "ru": "Люди помнят его имя.", "highlight": ["remember"] },
+        { "en": "His stories live on.", "ru": "Его рассказы живут дальше.", "highlight": ["live"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I am understanding the book.", "right": "I understand the book.", "note": "Понимание — это состояние, а не процесс. Используй Present Simple." },
+    { "wrong": "He don't work in the morning.", "right": "He doesn't work in the morning.", "note": "В третьем лице — doesn't, а не don't." },
+    { "wrong": "She write every day.", "right": "She writes every day.", "note": "Не забывай -s для he/she/it." },
+    { "wrong": "I am going to work every day.", "right": "I go to work every day.", "note": "Привычка — Present Simple, не Continuous." },
+    { "wrong": "Does he works here?", "right": "Does he work here?", "note": "В вопросах с does глагол возвращается в базовую форму." },
+    { "wrong": "We are not wanting to go.", "right": "We don't want to go.", "note": "Want — состояние желания, не процесс. Используй Present Simple." }
+  ],
+  "compare": {
+    "title": "Present Simple vs Present Continuous",
+    "leftLabel": "Present Simple",
+    "rightLabel": "Present Continuous",
+    "rows": [
+      { "left": "I work every day.", "right": "I'm working right now." },
+      { "left": "He reads in the morning.", "right": "He's reading at the moment." },
+      { "left": "The sun rises in the east.", "right": "The sun is rising now." },
+      { "left": "They live in Alaska.", "right": "They're living in a tent this month." }
+    ]
+  },
+  "tips": [
+    "Задай себе вопрос: это факт? Если да — Present Simple. Если действие происходит прямо сейчас — Continuous.",
+    "Маркеры времени — твои друзья: always, usually, often, sometimes, never, every day.",
+    "Следи за третьим лицом: he, she, it + -s. Не забывай про исключения: go → goes, do → does, have → has.",
+    "В вопросах и отрицаниях do/does + базовая форма глагола. Не пиши «does he works».",
+    "Не используй Present Simple для действий, которые происходят прямо сейчас: «I am reading this tip» (сейчас) — а не «I read this tip».",
+    "Present Simple — это портрет. Твой портрет, портрет Джека Лондона, портрет волков на Аляске. Рисуй чётко."
+  ],
+  "quiz": [
+    { "q": "Which sentence is a fact?", "options": ["He is reading now.", "He reads every day.", "He was reading yesterday."], "answer": "He reads every day.", "why": "Факт о привычке — это Present Simple." },
+    { "q": "What's the correct form for he/she/it?", "options": ["go", "goes", "going"], "answer": "goes", "why": "В третьем лице добавляем -s или -es." },
+    { "q": "Which sentence uses Present Simple correctly?", "options": ["She doesn't works here.", "She don't work here.", "She doesn't work here."], "answer": "She doesn't work here.", "why": "В отрицании с doesn't глагол возвращается в базовую форму." },
+    { "q": "\"I ... coffee every morning.\" — fill in the blank.", "options": ["drink", "drinks", "am drinking"], "answer": "drink", "why": "I + базовая форма глагола." },
+    { "q": "What does Present Simple describe?", "options": ["Actions right now", "Facts and habits", "Actions in the past"], "answer": "Facts and habits", "why": "Present Simple описывает факты, привычки, расписание и постоянные свойства." },
+    { "q": "Which is NOT a Present Simple marker?", "options": ["always", "every day", "now"], "answer": "now", "why": "Now указывает на Present Continuous, а не Present Simple." }
+  ],
+  "related": ["a1-verb-to-be", "a1-pronouns", "a1-present-continuous"]
 }

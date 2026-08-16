@@ -1,390 +1,171 @@
-﻿{
-    "variant":  "classic",
-    "slug":  "a1-articles-a-an",
-    "level":  "A1",
-    "title":  "Articles A / An",
-    "category":  "Grammar",
-    "readingTime":  8,
-    "summary":  "Неопределённые артикли a и an. Беатрис Поттер и The Rolling Stones.",
-    "idea":  [
-                 "В романе Жюля Верна «Вокруг света за 80 дней» главный герой Филеас Фогг заключает пари, что объедет земной шар за 80 дней. Артикли помогают нам понять, о чём идёт речь: «a journey» (какое-то путешествие) и «the journey» (то самое, вокруг света). «A train» — один поезд, «an elephant» — слон, которого он покупает в Индии. Каждое слово имеет значение.",
-                 "В английском языке есть два неопределённых артикля: a и an. Они используются, когда мы говорим о чём-то впервые или о чём-то одном из многих. a используется перед согласным звуком: a train, a journey. an используется перед гласным звуком: an elephant, an adventure. Выбор зависит от звука, а не от буквы.",
-                 "Жюль Верн использовал артикли, чтобы создать мир приключений. Без них его роман был бы непонятен. Артикли — это ключ к пониманию английского языка."
-             ],
-    "why":  [
-                "Артикли помогают понять, говорим ли мы о чём-то конкретном или неопределённом",
-                "a и an используются, когда мы говорим о чём-то впервые",
-                "Правильный выбор артикля делает речь грамотной",
-                "Без артиклей английский язык звучит неестественно"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Phileas Fogg: \u0027I will travel around the world in 80 days. I need a passport, a ticket, and an umbrella. This is an adventure!\u0027",
-                                      "ru":  "Филеас Фогг: «Я объеду мир за 80 дней. Мне нужен паспорт, билет и зонт. Это приключение!»"
-                                  },
-                                  {
-                                      "en":  "Passepartout: \u0027A journey around the world? An elephant in India? An adventure! This is incredible!\u0027",
-                                      "ru":  "Паспарту: «Путешествие вокруг света? Слон в Индии? Приключение! Это невероятно!»"
-                                  }
-                              ],
-                    "note":  "a — перед согласным звуком, an — перед гласным. a journey, an adventure."
-                },
-    "russianAngle":  [
-                         "В русском языке нет артиклей. Мы говорим «путешествие», не различая «a journey» и «the journey».",
-                         "В английском языке a/an — это «какой-то», «один из». The — это «тот самый».",
-                         "Ошибка: I have elephant — неправильно! Нужно: I have an elephant.",
-                         "Запомни: a + согласный звук, an + гласный звук."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Запомни: a — перед согласным звуком: a train, a journey.",
-                                     "an — перед гласным звуком: an elephant, an adventure.",
-                                     "Используй a/an, когда говоришь о чём-то впервые.",
-                                     "С неисчисляемыми существительными a/an не используется: I have water.",
-                                     "С профессиями всегда a/an: I am a teacher.",
-                                     "Сделай упражнение и сверься с ответами."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Вставьте a или an:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "I need ___ passport.",
-                                                          "a":  "a"
-                                                      },
-                                                      {
-                                                          "q":  "This is ___ adventure.",
-                                                          "a":  "an"
-                                                      },
-                                                      {
-                                                          "q":  "He bought ___ elephant.",
-                                                          "a":  "an"
-                                                      },
-                                                      {
-                                                          "q":  "She is ___ traveller.",
-                                                          "a":  "a"
-                                                      },
-                                                      {
-                                                          "q":  "It is ___ journey.",
-                                                          "a":  "a"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "rules":  [
-                  {
-                      "title":  "a — перед согласным звуком",
-                      "text":  "a + согласный звук: a train, a journey, a passport."
-                  },
-                  {
-                      "title":  "an — перед гласным звуком",
-                      "text":  "an + гласный звук: an elephant, an adventure, an umbrella."
-                  },
-                  {
-                      "title":  "Когда не используется",
-                      "text":  "a/an не используется с неисчисляемыми существительными: water, music, information."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "a — перед согласным звуком",
-                         "items":  [
-                                       {
-                                           "en":  "a train. Fogg takes a train from London to Paris.",
-                                           "ru":  "поезд. Фогг едет на поезде из Лондона в Париж.",
-                                           "highlight":  [
-                                                             "a train"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a journey. This is a journey around the world.",
-                                           "ru":  "путешествие. Это путешествие вокруг света.",
-                                           "highlight":  [
-                                                             "a journey"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a passport. He needs a passport for his travels.",
-                                           "ru":  "паспорт. Ему нужен паспорт для путешествий.",
-                                           "highlight":  [
-                                                             "a passport"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "an — перед гласным звуком",
-                         "items":  [
-                                       {
-                                           "en":  "an elephant. Fogg buys an elephant in India.",
-                                           "ru":  "слон. Фогг покупает слона в Индии.",
-                                           "highlight":  [
-                                                             "an elephant"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "an adventure. This is an adventure around the world.",
-                                           "ru":  "приключение. Это приключение вокруг света.",
-                                           "highlight":  [
-                                                             "an adventure"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "an umbrella. He carries an umbrella for the rain.",
-                                           "ru":  "зонт. Он носит зонт от дождя.",
-                                           "highlight":  [
-                                                             "an umbrella"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "a vs an — сравнение",
-                         "items":  [
-                                       {
-                                           "en":  "a train (sounds like /t/)",
-                                           "ru":  "поезд (звук /t/)",
-                                           "highlight":  [
-                                                             "a train"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "an elephant (sounds like /ɛ/)",
-                                           "ru":  "слон (звук /ɛ/)",
-                                           "highlight":  [
-                                                             "an elephant"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "a journey (sounds like /dʒ/)",
-                                           "ru":  "путешествие (звук /dʒ/)",
-                                           "highlight":  [
-                                                             "a journey"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "an adventure (sounds like /æ/)",
-                                           "ru":  "приключение (звук /æ/)",
-                                           "highlight":  [
-                                                             "an adventure"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Профессии — всегда a/an",
-                         "items":  [
-                                       {
-                                           "en":  "Phileas Fogg is a gentleman.",
-                                           "ru":  "Филеас Фогг — джентльмен.",
-                                           "highlight":  [
-                                                             "a gentleman"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Passepartout is a servant.",
-                                           "ru":  "Паспарту — слуга.",
-                                           "highlight":  [
-                                                             "a servant"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He is an explorer.",
-                                           "ru":  "Он исследователь.",
-                                           "highlight":  [
-                                                             "an explorer"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Без артикля — неисчисляемые",
-                         "items":  [
-                                       {
-                                           "en":  "He needs water for the journey.",
-                                           "ru":  "Ему нужна вода для путешествия.",
-                                           "highlight":  [
-                                                             "water"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Fogg has money for the trip.",
-                                           "ru":  "У Фогга есть деньги для поездки.",
-                                           "highlight":  [
-                                                             "money"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He has information about the route.",
-                                           "ru":  "У него есть информация о маршруте.",
-                                           "highlight":  [
-                                                             "information"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Вопросы и ответы",
-                         "items":  [
-                                       {
-                                           "en":  "Do you have a passport? — Yes, I have a passport.",
-                                           "ru":  "У тебя есть паспорт? — Да, у меня есть паспорт.",
-                                           "highlight":  [
-                                                             "a passport"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Is this an adventure? — Yes, this is an adventure!",
-                                           "ru":  "Это приключение? — Да, это приключение!",
-                                           "highlight":  [
-                                                             "an adventure"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Do you need an umbrella? — No, I don\u0027t need an umbrella.",
-                                           "ru":  "Тебе нужен зонт? — Нет, мне не нужен зонт.",
-                                           "highlight":  [
-                                                             "an umbrella"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "I have elephant.",
-                         "right":  "I have an elephant.",
-                         "note":  "an перед гласным звуком."
-                     },
-                     {
-                         "wrong":  "I have a umbrella.",
-                         "right":  "I have an umbrella.",
-                         "note":  "umbrella начинается с гласного звука."
-                     },
-                     {
-                         "wrong":  "I have an train.",
-                         "right":  "I have a train.",
-                         "note":  "train начинается с согласного звука."
-                     },
-                     {
-                         "wrong":  "I have a adventure.",
-                         "right":  "I have an adventure.",
-                         "note":  "adventure начинается с гласного звука."
-                     },
-                     {
-                         "wrong":  "I have a water.",
-                         "right":  "I have water.",
-                         "note":  "water — неисчисляемое, артикль не нужен."
-                     },
-                     {
-                         "wrong":  "I have a information.",
-                         "right":  "I have information.",
-                         "note":  "information — неисчисляемое, артикль не нужен."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "a vs an",
-                    "leftLabel":  "a (согласный звук)",
-                    "rightLabel":  "an (гласный звук)",
-                    "rows":  [
-                                 {
-                                     "left":  "a train",
-                                     "right":  "an elephant"
-                                 },
-                                 {
-                                     "left":  "a journey",
-                                     "right":  "an adventure"
-                                 },
-                                 {
-                                     "left":  "a passport",
-                                     "right":  "an umbrella"
-                                 },
-                                 {
-                                     "left":  "a gentleman",
-                                     "right":  "an explorer"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "a — перед согласным звуком: a train.",
-                 "an — перед гласным звуком: an elephant.",
-                 "Запомни: звук, а не буква. an hour (h не произносится).",
-                 "Не используется с неисчисляемыми: water, music.",
-                 "С профессиями всегда a/an: I am a teacher.",
-                 "В вопросах: Do you have a passport?",
-                 "Проверяй себя: какой звук? Согласный → a, гласный → an."
-             ],
-    "related":  [
-                    "a1-nouns",
-                    "a1-plural-nouns",
-                    "a1-verb-to-be"
-                ],
-    "quiz":  [
-                 {
-                     "q":  "I need ___ passport.",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "no article"
-                                 ],
-                     "answer":  0,
-                     "why":  "passport начинается с согласного звука → a."
-                 },
-                 {
-                     "q":  "This is ___ adventure.",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "no article"
-                                 ],
-                     "answer":  1,
-                     "why":  "adventure начинается с гласного звука → an."
-                 },
-                 {
-                     "q":  "He bought ___ elephant.",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "no article"
-                                 ],
-                     "answer":  1,
-                     "why":  "elephant начинается с гласного звука → an."
-                 },
-                 {
-                     "q":  "She is ___ traveller.",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "no article"
-                                 ],
-                     "answer":  0,
-                     "why":  "traveller начинается с согласного звука → a."
-                 },
-                 {
-                     "q":  "I have ___ water.",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "no article"
-                                 ],
-                     "answer":  3,
-                     "why":  "water — неисчисляемое, артикль не нужен."
-                 },
-                 {
-                     "q":  "He is ___ explorer.",
-                     "options":  [
-                                     "a",
-                                     "an",
-                                     "the",
-                                     "no article"
-                                 ],
-                     "answer":  1,
-                     "why":  "explorer начинается с гласного звука → an."
-                 }
-             ]
+{
+  "variant": "classic",
+  "slug": "a1-articles-a-an",
+  "level": "A1",
+  "title": "Articles A / An",
+  "category": "Grammar",
+  "readingTime": 8,
+  "summary": "Неопределённые артикли a и an. Жюль Верн и «Вокруг света за 80 дней».",
+  "idea": [
+    "Чемодан Филеаса Фогга открыт. На столе — вещи. «A passport. A ticket. An umbrella. A journey around the world.» Артикль показывает, какой это предмет. «A passport» — один паспорт. «A ticket» — один билет. «An umbrella» — зонт. «A journey» — путешествие. «A train» — поезд. «A boat» — корабль. «An elephant» — слон. «An adventure» — приключение.",
+    "Артикли зависят от звука. «A house» — согласный звук. «An hour» — гласный звук (h не произносится). «A university» — согласный звук (u звучит как ю). «An umbrella» — гласный звук (u звучит как а). «A European» — согласный звук (E звучит как й). «An eagle» — гласный звук (E звучит как и). Артикль a ставится перед согласным звуком. Артикль an ставится перед гласным звуком. Это зависит от произношения, а не от написания.",
+    "«A passport» — один из многих. «A ticket» — один из многих. «An umbrella» — один из многих. Без артикля вещи просто существуют. С артиклем они становятся частью истории. «A passport» — без него нельзя сесть на поезд. «An umbrella» — без него промокнешь. «A journey» — без него нет приключения. «An elephant» — без него не пересечь Индию. Артикли показывают, что предмет один из многих. Или что он встречается впервые. «A man» — какой-то мужчина. «A woman» — какая-то женщина. «A ticket» — какой-то билет. «An umbrella» — какой-то зонт. Артикли делают историю понятной. Они показывают, что известно, а что нет. Без них путешествие не началось бы."
+  ],
+  "why": [
+    "Артикли помогают понять, говорим ли мы о чём-то конкретном или неопределённом",
+    "a и an используются, когда мы говорим о чём-то впервые",
+    "Правильный выбор артикля делает речь грамотной",
+    "Без артиклей английский язык звучит неестественно"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Phileas Fogg: 'I will travel around the world in 80 days. I need a passport, a ticket, and an umbrella. This is an adventure!'", "ru": "Филеас Фогг: «Я объеду мир за 80 дней. Мне нужен паспорт, билет и зонт. Это приключение!»" },
+      { "en": "Passepartout: 'A journey around the world? An elephant in India? An adventure! This is incredible!'", "ru": "Паспарту: «Путешествие вокруг света? Слон в Индии? Приключение! Это невероятно!»" }
+    ],
+    "note": "a — перед согласным звуком, an — перед гласным. a journey, an adventure."
+  },
+  "russianAngle": [
+    "В русском языке нет артиклей. Мы говорим «путешествие», не различая «a journey» и «the journey».",
+    "В английском языке a/an — это «какой-то», «один из». The — это «тот самый».",
+    "Ошибка: I have elephant — неправильно! Нужно: I have an elephant.",
+    "Запомни: a + согласный звук, an + гласный звук."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни: a — перед согласным звуком: a train, a journey.",
+      "an — перед гласным звуком: an elephant, an adventure.",
+      "Используй a/an, когда говоришь о чём-то впервые.",
+      "С неисчисляемыми существительными a/an не используется: I have water.",
+      "С профессиями всегда a/an: I am a teacher.",
+      "Сделай упражнение и сверься с ответами."
+    ],
+    "exercise": {
+      "prompt": "Вставьте a или an:",
+      "items": [
+        { "q": "I need ___ passport.", "a": "a" },
+        { "q": "This is ___ adventure.", "a": "an" },
+        { "q": "He bought ___ elephant.", "a": "an" },
+        { "q": "She is ___ traveller.", "a": "a" },
+        { "q": "It is ___ journey.", "a": "a" }
+      ]
+    }
+  },
+  "formula": "",
+  "structure": {
+    "positive": "",
+    "negative": "",
+    "question": ""
+  },
+  "markers": [],
+  "uses": [],
+  "rules": [
+    { "title": "a — перед согласным звуком", "text": "a + согласный звук: a train, a journey, a passport." },
+    { "title": "an — перед гласным звуком", "text": "an + гласный звук: an elephant, an adventure, an umbrella." },
+    { "title": "Когда не используется", "text": "a/an не используется с неисчисляемыми существительными: water, music, information." }
+  ],
+  "examples": [
+    {
+      "group": "a — перед согласным звуком",
+      "items": [
+        { "en": "a train. Fogg takes a train from London to Paris.", "ru": "поезд. Фогг едет на поезде из Лондона в Париж.", "highlight": ["a train"] },
+        { "en": "a journey. This is a journey around the world.", "ru": "путешествие. Это путешествие вокруг света.", "highlight": ["a journey"] },
+        { "en": "a passport. He needs a passport for his travels.", "ru": "паспорт. Ему нужен паспорт для путешествий.", "highlight": ["a passport"] },
+        { "en": "a ticket. He needs a ticket for the train.", "ru": "билет. Ему нужен билет на поезд.", "highlight": ["a ticket"] },
+        { "en": "a bag. He has a bag with his things.", "ru": "сумка. У него есть сумка с вещами.", "highlight": ["a bag"] },
+        { "en": "a map. He uses a map to find the way.", "ru": "карта. Он использует карту, чтобы найти путь.", "highlight": ["a map"] }
+      ]
+    },
+    {
+      "group": "an — перед гласным звуком",
+      "items": [
+        { "en": "an elephant. Fogg buys an elephant in India.", "ru": "слон. Фогг покупает слона в Индии.", "highlight": ["an elephant"] },
+        { "en": "an adventure. This is an adventure around the world.", "ru": "приключение. Это приключение вокруг света.", "highlight": ["an adventure"] },
+        { "en": "an umbrella. He carries an umbrella for the rain.", "ru": "зонт. Он носит зонт от дождя.", "highlight": ["an umbrella"] },
+        { "en": "an hour. The journey takes an hour.", "ru": "час. Путешествие занимает час.", "highlight": ["an hour"] },
+        { "en": "an idea. He has an idea for the trip.", "ru": "идея. У него есть идея для поездки.", "highlight": ["an idea"] },
+        { "en": "an animal. India has an animal like this.", "ru": "животное. В Индии есть такое животное.", "highlight": ["an animal"] }
+      ]
+    },
+    {
+      "group": "a vs an — сравнение",
+      "items": [
+        { "en": "a train (sounds like /t/)", "ru": "поезд (звук /t/)", "highlight": ["a train"] },
+        { "en": "an elephant (sounds like /ɛ/)", "ru": "слон (звук /ɛ/)", "highlight": ["an elephant"] },
+        { "en": "a journey (sounds like /dʒ/)", "ru": "путешествие (звук /dʒ/)", "highlight": ["a journey"] },
+        { "en": "an adventure (sounds like /æ/)", "ru": "приключение (звук /æ/)", "highlight": ["an adventure"] },
+        { "en": "a house (sounds like /h/)", "ru": "дом (звук /h/)", "highlight": ["a house"] },
+        { "en": "an hour (sounds like /aʊ/)", "ru": "час (звук /aʊ/ — h не произносится)", "highlight": ["an hour"] }
+      ]
+    },
+    {
+      "group": "Профессии — всегда a/an",
+      "items": [
+        { "en": "Phileas Fogg is a gentleman.", "ru": "Филеас Фогг — джентльмен.", "highlight": ["a gentleman"] },
+        { "en": "Passepartout is a servant.", "ru": "Паспарту — слуга.", "highlight": ["a servant"] },
+        { "en": "He is an explorer.", "ru": "Он исследователь.", "highlight": ["an explorer"] },
+        { "en": "She is a traveller.", "ru": "Она путешественница.", "highlight": ["a traveller"] },
+        { "en": "He is an artist.", "ru": "Он художник.", "highlight": ["an artist"] },
+        { "en": "She is a writer.", "ru": "Она писательница.", "highlight": ["a writer"] }
+      ]
+    },
+    {
+      "group": "Без артикля — неисчисляемые",
+      "items": [
+        { "en": "He needs water for the journey.", "ru": "Ему нужна вода для путешествия.", "highlight": ["water"] },
+        { "en": "Fogg has money for the trip.", "ru": "У Фогга есть деньги для поездки.", "highlight": ["money"] },
+        { "en": "He has information about the route.", "ru": "У него есть информация о маршруте.", "highlight": ["information"] },
+        { "en": "He needs advice.", "ru": "Ему нужен совет.", "highlight": ["advice"] },
+        { "en": "He has courage.", "ru": "У него есть храбрость.", "highlight": ["courage"] },
+        { "en": "He has time.", "ru": "У него есть время.", "highlight": ["time"] }
+      ]
+    },
+    {
+      "group": "Вопросы и ответы",
+      "items": [
+        { "en": "Do you have a passport? — Yes, I have a passport.", "ru": "У тебя есть паспорт? — Да, у меня есть паспорт.", "highlight": ["a passport"] },
+        { "en": "Is this an adventure? — Yes, this is an adventure!", "ru": "Это приключение? — Да, это приключение!", "highlight": ["an adventure"] },
+        { "en": "Do you need an umbrella? — No, I don't need an umbrella.", "ru": "Тебе нужен зонт? — Нет, мне не нужен зонт.", "highlight": ["an umbrella"] },
+        { "en": "Is this a map? — Yes, it is a map.", "ru": "Это карта? — Да, это карта.", "highlight": ["a map"] },
+        { "en": "Do you have an idea? — Yes, I have an idea.", "ru": "У тебя есть идея? — Да, у меня есть идея.", "highlight": ["an idea"] },
+        { "en": "Is it a ticket? — Yes, it is a ticket.", "ru": "Это билет? — Да, это билет.", "highlight": ["a ticket"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "I have elephant.", "right": "I have an elephant.", "note": "an перед гласным звуком." },
+    { "wrong": "I have a umbrella.", "right": "I have an umbrella.", "note": "umbrella начинается с гласного звука." },
+    { "wrong": "I have an train.", "right": "I have a train.", "note": "train начинается с согласного звука." },
+    { "wrong": "I have a adventure.", "right": "I have an adventure.", "note": "adventure начинается с гласного звука." },
+    { "wrong": "I have a water.", "right": "I have water.", "note": "water — неисчисляемое, артикль не нужен." },
+    { "wrong": "I have a information.", "right": "I have information.", "note": "information — неисчисляемое, артикль не нужен." }
+  ],
+  "compare": {
+    "title": "a vs an",
+    "leftLabel": "a (согласный звук)",
+    "rightLabel": "an (гласный звук)",
+    "rows": [
+      { "left": "a train", "right": "an elephant" },
+      { "left": "a journey", "right": "an adventure" },
+      { "left": "a passport", "right": "an umbrella" },
+      { "left": "a gentleman", "right": "an explorer" }
+    ]
+  },
+  "tips": [
+    "a — перед согласным звуком: a train.",
+    "an — перед гласным звуком: an elephant.",
+    "Запомни: звук, а не буква. an hour (h не произносится).",
+    "Не используется с неисчисляемыми: water, music.",
+    "С профессиями всегда a/an: I am a teacher.",
+    "В вопросах: Do you have a passport?",
+    "Проверяй себя: какой звук? Согласный → a, гласный → an."
+  ],
+  "quiz": [
+    { "q": "I need ___ passport.", "options": ["a", "an", "the", "no article"], "answer": "a", "why": "passport начинается с согласного звука → a." },
+    { "q": "This is ___ adventure.", "options": ["a", "an", "the", "no article"], "answer": "an", "why": "adventure начинается с гласного звука → an." },
+    { "q": "He bought ___ elephant.", "options": ["a", "an", "the", "no article"], "answer": "an", "why": "elephant начинается с гласного звука → an." },
+    { "q": "She is ___ traveller.", "options": ["a", "an", "the", "no article"], "answer": "a", "why": "traveller начинается с согласного звука → a." },
+    { "q": "I have ___ water.", "options": ["a", "an", "the", "no article"], "answer": "no article", "why": "water — неисчисляемое, артикль не нужен." },
+    { "q": "He is ___ explorer.", "options": ["a", "an", "the", "no article"], "answer": "an", "why": "explorer начинается с гласного звука → an." }
+  ],
+  "related": ["a1-nouns", "a1-plural-nouns", "a1-verb-to-be"]
 }

@@ -1,457 +1,187 @@
-﻿{
-    "slug":  "a1-present-simple",
-    "level":  "A1",
-    "title":  "Present Simple",
-    "category":  "Tenses",
-    "readingTime":  7,
-    "summary":  "Настоящее простое время: факты, привычки и расписание. Джек Лондон и Джонни Кэш.",
-    "variant":  "rocknroll",
-    "idea":  [
-                 "1956 год. Джонни Кэш входит в студию Sun Records. В руках — гитара. В голове — песня. Она называется «I Walk the Line». Он записывает её за один дубль. Никаких исправлений. Просто голос, гитара и правда. Каждый день он делает это снова и снова. Он просыпается, берёт гитару, поёт. Это его жизнь.",
-                 "Джонни Кэш не пьёт (пока). Он держит дисциплину. Он ездит по турам, выступает, общается с фанатами. Он не сходит с пути. Он говорит себе: я иду по линии. Я не сворачиваю. Это Present Simple: факты о характере, привычки, которые определяют личность. Каждый день он идёт прямо.",
-                 "Публика любит его. Радио крутит песню. Пластинки продаются. Кэш не меняется. Он остаётся собой. Он пишет песни о том, что знает: о любви, искуплении, дороге. Каждая нота — это шаг по линии. Каждый день — это Present Simple. Потому что это не случайность. Это выбор. Это он."
-             ],
-    "why":  [
-                "Говорить о фактах: «He plays the guitar.»",
-                "Описывать привычки: «He sings every night.»",
-                "Рассказывать о расписании: «The show starts at 8 PM.»",
-                "Передавать постоянные свойства: «His voice sounds deep.»"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Cash: Sam, I\u0027ve got a new song. I walk the line.",
-                                      "ru":  "Сэм, у меня есть новая песня. Я держу линию."
-                                  },
-                                  {
-                                      "en":  "Phillips: What does it mean?",
-                                      "ru":  "Что это значит?"
-                                  },
-                                  {
-                                      "en":  "Cash: It means I stay loyal. I don\u0027t give up.",
-                                      "ru":  "Это значит, я остаюсь верным. Я не сдаюсь."
-                                  },
-                                  {
-                                      "en":  "Phillips: Do you walk it every day?",
-                                      "ru":  "Ты идёшь по ней каждый день?"
-                                  },
-                                  {
-                                      "en":  "Cash: Yes, sir. Every day. That\u0027s who I am.",
-                                      "ru":  "Да, сэр. Каждый день. Такой я человек."
-                                  }
-                              ],
-                    "note":  "Разговор Кэша с продюсером Сэмом Филлипсом о песне. Present Simple — это не только грамматика. Это философия. Каждый день ты выбираешь, кто ты есть."
-                },
-    "russianAngle":  [
-                         "Русские говорят: «Я иду по линии» — как будто действие уже началось. По-английски: «I walk the line» — это факт. Я всегда так делаю. Это не процесс. Это мой портрет.",
-                         "«Я пою каждый вечер» — привычка. «I sing every evening.» Просто, без -ing. Потому что это не происходит прямо сейчас (ну, разве что вы поёте в этот момент).",
-                         "В русском мы часто говорим «я не пью» как факт. По-английски то же: «I don\u0027t drink.» Это не временное состояние. Это постоянная черта. Present Simple.",
-                         "«Что ты делаешь?» — вопрос о сейчас. «What are you doing?» — Present Continuous. Но «What do you do?» — это «Кем ты работаешь?» / «Чем ты занимаешься в жизни?». Разница — в постоянстве."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Спроси себя: это факт? привычка? расписание? постоянное свойство? Если да — Present Simple.",
-                                     "Добавь маркеры: always, usually, often, sometimes, never, every day.",
-                                     "В третьем лице — не забывай -s. Johnny walks the line. He doesn\u0027t give up."
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Напиши 5 предложений о том, что делает Джонни Кэш в своей обычной жизни. Используй маркеры времени.",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Johnny (walk) the line every day.",
-                                                          "a":  "walks"
-                                                      },
-                                                      {
-                                                          "q":  "He (sing) with a deep voice.",
-                                                          "a":  "sings"
-                                                      },
-                                                      {
-                                                          "q":  "The fans (love) his music.",
-                                                          "a":  "love"
-                                                      },
-                                                      {
-                                                          "q":  "He (not / drink) alcohol in 1956.",
-                                                          "a":  "doesn\u0027t drink"
-                                                      },
-                                                      {
-                                                          "q":  "The radio (play) his song every hour.",
-                                                          "a":  "plays"
-                                                      },
-                                                      {
-                                                          "q":  "He (write) new songs on the road.",
-                                                          "a":  "writes"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "S + V1 / V-s",
-    "structure":  {
-                      "positive":  "I / You / We / They + V1\nHe / She / It + V1-s",
-                      "negative":  "I / You / We / They + do not (don\u0027t) + V1\nHe / She / It + does not (doesn\u0027t) + V1",
-                      "question":  "Do + I / you / we / they + V1?\nDoes + he / she / it + V1?"
-                  },
-    "markers":  [
-                    "always",
-                    "usually",
-                    "often",
-                    "sometimes",
-                    "rarely",
-                    "never",
-                    "every day / week / month / year",
-                    "on tour",
-                    "at every show",
-                    "in 1956"
-                ],
-    "uses":  [
-                 "Факты: «The song becomes a hit.»",
-                 "Привычки: «He practices every morning.»",
-                 "Расписание: «The tour starts in June.»",
-                 "Постоянные свойства: «His music sounds powerful.»"
-             ],
-    "rules":  [
-                  {
-                      "text":  "В третьем лице единственного числа (he/she/it) добавляй -s: He walks, she sings, it sounds.",
-                      "title":  "Третье лицо — добавляй -s"
-                  },
-                  {
-                      "text":  "Используй do/does + базовая форма: Does he walk? He doesn\u0027t give up.",
-                      "title":  "Вопросы и отрицания — do/does"
-                  },
-                  {
-                      "text":  "Глагол to be не использует do/does: He is loyal, не He does be loyal.",
-                      "title":  "Глагол to be — особый случай"
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Каждый день Кэша",
-                         "items":  [
-                                       {
-                                           "en":  "Johnny wakes up with a guitar.",
-                                           "ru":  "Джонни просыпается с гитарой.",
-                                           "highlight":  [
-                                                             "wakes up"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He drinks coffee and writes songs.",
-                                           "ru":  "Он пьёт кофе и пишет песни.",
-                                           "highlight":  [
-                                                             "drinks",
-                                                             "writes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He practices his guitar every morning.",
-                                           "ru":  "Он занимается на гитаре каждое утро.",
-                                           "highlight":  [
-                                                             "practices"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He doesn\u0027t sleep late on tour.",
-                                           "ru":  "Он не спит поздно в турах.",
-                                           "highlight":  [
-                                                             "doesn\u0027t sleep"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Песня «I Walk the Line»",
-                         "items":  [
-                                       {
-                                           "en":  "The song tells a story about loyalty.",
-                                           "ru":  "Песня рассказывает историю о верности.",
-                                           "highlight":  [
-                                                             "tells"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He walks the line in his life.",
-                                           "ru":  "Он идёт по линии в жизни.",
-                                           "highlight":  [
-                                                             "walks"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "His wife Vivian waits at home.",
-                                           "ru":  "Его жена Вивиан ждёт дома.",
-                                           "highlight":  [
-                                                             "waits"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The song doesn\u0027t use complicated chords.",
-                                           "ru":  "Песня не использует сложные аккорды.",
-                                           "highlight":  [
-                                                             "doesn\u0027t use"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "На сцене",
-                         "items":  [
-                                       {
-                                           "en":  "He performs in front of thousands.",
-                                           "ru":  "Он выступает перед тысячами.",
-                                           "highlight":  [
-                                                             "performs"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The crowd claps and shouts.",
-                                           "ru":  "Публика хлопает и кричит.",
-                                           "highlight":  [
-                                                             "claps",
-                                                             "shouts"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He doesn\u0027t read notes on stage.",
-                                           "ru":  "Он не читает ноты на сцене.",
-                                           "highlight":  [
-                                                             "doesn\u0027t read"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "His voice fills the whole hall.",
-                                           "ru":  "Его голос заполняет весь зал.",
-                                           "highlight":  [
-                                                             "fills"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Факты о музыке",
-                         "items":  [
-                                       {
-                                           "en":  "The guitar sounds low and deep.",
-                                           "ru":  "Гитара звучит низко и глубоко.",
-                                           "highlight":  [
-                                                             "sounds"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The rhythm never changes.",
-                                           "ru":  "Ритм никогда не меняется.",
-                                           "highlight":  [
-                                                             "never changes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "This style becomes popular.",
-                                           "ru":  "Этот стиль становится популярным.",
-                                           "highlight":  [
-                                                             "becomes"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The radio plays his songs.",
-                                           "ru":  "Радио играет его песни.",
-                                           "highlight":  [
-                                                             "plays"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Отрицания и вопросы",
-                         "items":  [
-                                       {
-                                           "en":  "Johnny doesn\u0027t drink alcohol in 1956.",
-                                           "ru":  "Джонни не пьёт алкоголь в 1956-м.",
-                                           "highlight":  [
-                                                             "doesn\u0027t drink"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He doesn\u0027t use drugs (yet).",
-                                           "ru":  "Он не употребляет наркотики (пока).",
-                                           "highlight":  [
-                                                             "doesn\u0027t use"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Does he write his own songs?",
-                                           "ru":  "Он пишет свои песни?",
-                                           "highlight":  [
-                                                             "Does"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Do you like his voice?",
-                                           "ru":  "Тебе нравится его голос?",
-                                           "highlight":  [
-                                                             "Do"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Наследие",
-                         "items":  [
-                                       {
-                                           "en":  "His music lives on after him.",
-                                           "ru":  "Его музыка живёт после него.",
-                                           "highlight":  [
-                                                             "lives"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Fans remember every word.",
-                                           "ru":  "Фанаты помнят каждое слово.",
-                                           "highlight":  [
-                                                             "remember"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They listen to his records.",
-                                           "ru":  "Они слушают его пластинки.",
-                                           "highlight":  [
-                                                             "listen"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He remains an icon of country music.",
-                                           "ru":  "Он остаётся иконой кантри.",
-                                           "highlight":  [
-                                                             "remains"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "He is walking the line every day.",
-                         "right":  "He walks the line every day.",
-                         "note":  "Привычка — Present Simple, не Continuous."
-                     },
-                     {
-                         "wrong":  "Johnny don\u0027t drink.",
-                         "right":  "Johnny doesn\u0027t drink.",
-                         "note":  "В третьем лице — doesn\u0027t."
-                     },
-                     {
-                         "wrong":  "He sing every night.",
-                         "right":  "He sings every night.",
-                         "note":  "Не забывай -s для he."
-                     },
-                     {
-                         "wrong":  "I am not wanting to go on tour.",
-                         "right":  "I don\u0027t want to go on tour.",
-                         "note":  "Want — состояние, не процесс."
-                     },
-                     {
-                         "wrong":  "Does he performs well?",
-                         "right":  "Does he perform well?",
-                         "note":  "В вопросах с does глагол в базовой форме."
-                     },
-                     {
-                         "wrong":  "They are not playing country music.",
-                         "right":  "They don\u0027t play country music.",
-                         "note":  "Факт о стиле — Present Simple."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Present Simple vs Present Continuous",
-                    "leftLabel":  "Present Simple",
-                    "rightLabel":  "Present Continuous",
-                    "rows":  [
-                                 {
-                                     "left":  "He sings every night.",
-                                     "right":  "He is singing right now."
-                                 },
-                                 {
-                                     "left":  "I walk the line.",
-                                     "right":  "I\u0027m walking on stage."
-                                 },
-                                 {
-                                     "left":  "The band plays rock.",
-                                     "right":  "The band is playing tonight."
-                                 },
-                                 {
-                                     "left":  "He doesn\u0027t drink.",
-                                     "right":  "He isn\u0027t drinking at the moment."
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Если действие происходит всегда или обычно — Present Simple. Если прямо сейчас — Continuous.",
-                 "Маркеры времени: always, usually, never, every day, on tour.",
-                 "Третье лицо: Johnny + -s. Не забывай: he walks, she sings, it sounds.",
-                 "Отрицания: doesn\u0027t + базовая форма. He doesn\u0027t drink, not he doesn\u0027t drinks.",
-                 "Вопросы: Does + базовая форма. Does he walk? Не does he walks.",
-                 "Present Simple — это твой путь. I walk the line. Каждый день. Каждый урок. Держи линию."
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Which sentence describes a habit?",
-                     "options":  [
-                                     "He is singing now.",
-                                     "He sings every night.",
-                                     "He sang yesterday."
-                                 ],
-                     "answer":  "He sings every night.",
-                     "why":  "Привычка — Present Simple."
-                 },
-                 {
-                     "q":  "Correct form for Johnny: \"He ... the line.\"",
-                     "options":  [
-                                     "walk",
-                                     "walks",
-                                     "is walking"
-                                 ],
-                     "answer":  "walks",
-                     "why":  "Johnny = he, добавляем -s."
-                 },
-                 {
-                     "q":  "Which is correct?",
-                     "options":  [
-                                     "He doesn\u0027t walk.",
-                                     "He don\u0027t walk.",
-                                     "He doesn\u0027t walks."
-                                 ],
-                     "answer":  "He doesn\u0027t walk.",
-                     "why":  "С doesn\u0027t глагол в базовой форме."
-                 },
-                 {
-                     "q":  "\"I ... coffee every morning.\"",
-                     "options":  [
-                                     "drink",
-                                     "drinks",
-                                     "am drinking"
-                                 ],
-                     "answer":  "drink",
-                     "why":  "I + базовая форма."
-                 },
-                 {
-                     "q":  "What does Present Simple NOT describe?",
-                     "options":  [
-                                     "Facts",
-                                     "Actions right now",
-                                     "Habits"
-                                 ],
-                     "answer":  "Actions right now",
-                     "why":  "Действия прямо сейчас — это Present Continuous."
-                 },
-                 {
-                     "q":  "Which marker is NOT for Present Simple?",
-                     "options":  [
-                                     "always",
-                                     "now",
-                                     "every day"
-                                 ],
-                     "answer":  "now",
-                     "why":  "Now — маркер Continuous."
-                 }
-             ],
-    "related":  [
-                    "a1-verb-to-be",
-                    "a1-pronouns",
-                    "a1-present-continuous"
-                ]
+{
+  "variant": "rocknroll",
+  "slug": "a1-present-simple",
+  "level": "A1",
+  "title": "Present Simple",
+  "category": "Tenses",
+  "readingTime": 7,
+  "summary": "Настоящее простое время: факты, привычки и расписание. Джонни Кэш и песня «I Walk the Line».",
+  "idea": [
+    "1956 год, студия Sun Records в Мемфисе. Джонни Кэш стоит у микрофона. Гитара в руках. Он начинает петь: «I walk the line» — я иду по линии. «I keep my hands clean» — я держу руки в чистоте. «I stay loyal» — я остаюсь верным. В каждой строчке — действие, которое повторяется каждый день. «I walk» — я иду. «I keep» — я держу. «I stay» — я остаюсь. Это не про один день. Это про характер.",
+    "«He sings every night» — он поёт каждую ночь. «He plays the guitar» — он играет на гитаре. «He writes songs on the road» — он пишет песни в дороге. Это привычки. «The fans clap» — фанаты хлопают. «The radio plays his songs» — радио играет его песни. «His voice sounds deep» — его голос звучит низко. Это факты о музыке и публике.",
+    "«He doesn't drink» — он не пьёт. «He doesn't give up» — он не сдаётся. «He stays on the line» — он держится на линии. Это отрицания. Тоже часть его портрета. Кэш поёт о себе. Он описывает не грамматику — он описывает жизнь, в которой всё повторяется."
+  ],
+  "why": [
+    "Говорить о фактах: «He plays the guitar.»",
+    "Описывать привычки: «He sings every night.»",
+    "Рассказывать о расписании: «The show starts at 8 PM.»",
+    "Передавать постоянные свойства: «His voice sounds deep.»"
+  ],
+  "context": {
+    "lines": [
+      { "en": "Cash: Sam, I've got a new song. I walk the line.", "ru": "Сэм, у меня есть новая песня. Я держу линию." },
+      { "en": "Phillips: What does it mean?", "ru": "Что это значит?" },
+      { "en": "Cash: It means I stay loyal. I don't give up.", "ru": "Это значит, я остаюсь верным. Я не сдаюсь." },
+      { "en": "Phillips: Do you walk it every day?", "ru": "Ты идёшь по ней каждый день?" },
+      { "en": "Cash: Yes, sir. Every day. That's who I am.", "ru": "Да, сэр. Каждый день. Такой я человек." }
+    ],
+    "note": "Разговор Кэша с продюсером Сэмом Филлипсом о песне. Present Simple — это не только грамматика. Это философия. Каждый день ты выбираешь, кто ты есть."
+  },
+  "russianAngle": [
+    "Русские говорят: «Я иду по линии» — как будто действие уже началось. По-английски: «I walk the line» — это факт. Я всегда так делаю. Это не процесс. Это мой портрет.",
+    "«Я пою каждый вечер» — привычка. «I sing every evening.» Просто, без -ing. Потому что это не происходит прямо сейчас (ну, разве что вы поёте в этот момент).",
+    "В русском мы часто говорим «я не пью» как факт. По-английски то же: «I don't drink.» Это не временное состояние. Это постоянная черта. Present Simple.",
+    "«Что ты делаешь?» — вопрос о сейчас. «What are you doing?» — Present Continuous. Но «What do you do?» — это «Кем ты работаешь?» / «Чем ты занимаешься в жизни?». Разница — в постоянстве."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Спроси себя: это факт? привычка? расписание? постоянное свойство? Если да — Present Simple.",
+      "Добавь маркеры: always, usually, often, sometimes, never, every day.",
+      "В третьем лице — не забывай -s. Johnny walks the line. He doesn't give up."
+    ],
+    "exercise": {
+      "prompt": "Напиши 5 предложений о том, что делает Джонни Кэш в своей обычной жизни. Используй маркеры времени.",
+      "items": [
+        { "q": "Johnny (walk) the line every day.", "a": "walks" },
+        { "q": "He (sing) with a deep voice.", "a": "sings" },
+        { "q": "The fans (love) his music.", "a": "love" },
+        { "q": "He (not / drink) alcohol in 1956.", "a": "doesn't drink" },
+        { "q": "The radio (play) his song every hour.", "a": "plays" },
+        { "q": "He (write) new songs on the road.", "a": "writes" }
+      ]
+    }
+  },
+  "formula": "S + V1 / V-s",
+  "structure": {
+    "positive": "I / You / We / They + V1\nHe / She / It + V1-s",
+    "negative": "I / You / We / They + do not (don't) + V1\nHe / She / It + does not (doesn't) + V1",
+    "question": "Do + I / you / we / they + V1?\nDoes + he / she / it + V1?"
+  },
+  "markers": [
+    "always",
+    "usually",
+    "often",
+    "sometimes",
+    "rarely",
+    "never",
+    "every day / week / month / year",
+    "on tour",
+    "at every show",
+    "in 1956"
+  ],
+  "uses": [
+    "Факты: «The song becomes a hit.»",
+    "Привычки: «He practices every morning.»",
+    "Расписание: «The tour starts in June.»",
+    "Постоянные свойства: «His music sounds powerful.»"
+  ],
+  "rules": [
+    { "title": "Третье лицо — добавляй -s", "text": "В третьем лице единственного числа (he/she/it) добавляй -s: He walks, she sings, it sounds." },
+    { "title": "Вопросы и отрицания — do/does", "text": "Используй do/does + базовая форма: Does he walk? He doesn't give up." },
+    { "title": "Глагол to be — особый случай", "text": "Глагол to be не использует do/does: He is loyal, не He does be loyal." }
+  ],
+  "examples": [
+    {
+      "group": "Каждый день Кэша",
+      "items": [
+        { "en": "Johnny wakes up with a guitar.", "ru": "Джонни просыпается с гитарой.", "highlight": ["wakes up"] },
+        { "en": "He drinks coffee and writes songs.", "ru": "Он пьёт кофе и пишет песни.", "highlight": ["drinks", "writes"] },
+        { "en": "He practices his guitar every morning.", "ru": "Он занимается на гитаре каждое утро.", "highlight": ["practices"] },
+        { "en": "He doesn't sleep late on tour.", "ru": "Он не спит поздно в турах.", "highlight": ["doesn't sleep"] },
+        { "en": "He performs in front of thousands.", "ru": "Он выступает перед тысячами.", "highlight": ["performs"] },
+        { "en": "His voice fills the whole hall.", "ru": "Его голос заполняет весь зал.", "highlight": ["fills"] }
+      ]
+    },
+    {
+      "group": "Песня «I Walk the Line»",
+      "items": [
+        { "en": "The song tells a story about loyalty.", "ru": "Песня рассказывает историю о верности.", "highlight": ["tells"] },
+        { "en": "He walks the line in his life.", "ru": "Он идёт по линии в жизни.", "highlight": ["walks"] },
+        { "en": "His wife Vivian waits at home.", "ru": "Его жена Вивиан ждёт дома.", "highlight": ["waits"] },
+        { "en": "The song doesn't use complicated chords.", "ru": "Песня не использует сложные аккорды.", "highlight": ["doesn't use"] },
+        { "en": "He doesn't read notes on stage.", "ru": "Он не читает ноты на сцене.", "highlight": ["doesn't read"] },
+        { "en": "The rhythm never changes.", "ru": "Ритм никогда не меняется.", "highlight": ["never changes"] }
+      ]
+    },
+    {
+      "group": "На сцене",
+      "items": [
+        { "en": "He performs in front of thousands.", "ru": "Он выступает перед тысячами.", "highlight": ["performs"] },
+        { "en": "The crowd claps and shouts.", "ru": "Публика хлопает и кричит.", "highlight": ["claps", "shouts"] },
+        { "en": "He doesn't read notes on stage.", "ru": "Он не читает ноты на сцене.", "highlight": ["doesn't read"] },
+        { "en": "His voice fills the whole hall.", "ru": "Его голос заполняет весь зал.", "highlight": ["fills"] },
+        { "en": "The guitar sounds low and deep.", "ru": "Гитара звучит низко и глубоко.", "highlight": ["sounds"] },
+        { "en": "The radio plays his songs.", "ru": "Радио играет его песни.", "highlight": ["plays"] }
+      ]
+    },
+    {
+      "group": "Факты о музыке",
+      "items": [
+        { "en": "The guitar sounds low and deep.", "ru": "Гитара звучит низко и глубоко.", "highlight": ["sounds"] },
+        { "en": "The rhythm never changes.", "ru": "Ритм никогда не меняется.", "highlight": ["never changes"] },
+        { "en": "This style becomes popular.", "ru": "Этот стиль становится популярным.", "highlight": ["becomes"] },
+        { "en": "The radio plays his songs.", "ru": "Радио играет его песни.", "highlight": ["plays"] },
+        { "en": "His music lives on after him.", "ru": "Его музыка живёт после него.", "highlight": ["lives"] },
+        { "en": "Fans remember every word.", "ru": "Фанаты помнят каждое слово.", "highlight": ["remember"] }
+      ]
+    },
+    {
+      "group": "Отрицания и вопросы",
+      "items": [
+        { "en": "Johnny doesn't drink alcohol in 1956.", "ru": "Джонни не пьёт алкоголь в 1956-м.", "highlight": ["doesn't drink"] },
+        { "en": "He doesn't use drugs (yet).", "ru": "Он не употребляет наркотики (пока).", "highlight": ["doesn't use"] },
+        { "en": "Does he write his own songs?", "ru": "Он пишет свои песни?", "highlight": ["Does"] },
+        { "en": "Do you like his voice?", "ru": "Тебе нравится его голос?", "highlight": ["Do"] },
+        { "en": "Does he play the guitar?", "ru": "Он играет на гитаре?", "highlight": ["Does"] },
+        { "en": "Do the fans love his music?", "ru": "Фанаты любят его музыку?", "highlight": ["Do"] }
+      ]
+    },
+    {
+      "group": "Наследие",
+      "items": [
+        { "en": "His music lives on after him.", "ru": "Его музыка живёт после него.", "highlight": ["lives"] },
+        { "en": "Fans remember every word.", "ru": "Фанаты помнят каждое слово.", "highlight": ["remember"] },
+        { "en": "They listen to his records.", "ru": "Они слушают его пластинки.", "highlight": ["listen"] },
+        { "en": "He remains an icon of country music.", "ru": "Он остаётся иконой кантри.", "highlight": ["remains"] },
+        { "en": "His songs are still played on the radio.", "ru": "Его песни до сих пор играют по радио.", "highlight": ["are played"] },
+        { "en": "People still sing his songs.", "ru": "Люди до сих пор поют его песни.", "highlight": ["sing"] }
+      ]
+    }
+  ],
+  "mistakes": [
+    { "wrong": "He is walking the line every day.", "right": "He walks the line every day.", "note": "Привычка — Present Simple, не Continuous." },
+    { "wrong": "Johnny don't drink.", "right": "Johnny doesn't drink.", "note": "В третьем лице — doesn't." },
+    { "wrong": "He sing every night.", "right": "He sings every night.", "note": "Не забывай -s для he." },
+    { "wrong": "I am not wanting to go on tour.", "right": "I don't want to go on tour.", "note": "Want — состояние, не процесс." },
+    { "wrong": "Does he performs well?", "right": "Does he perform well?", "note": "В вопросах с does глагол в базовой форме." },
+    { "wrong": "They are not playing country music.", "right": "They don't play country music.", "note": "Факт о стиле — Present Simple." }
+  ],
+  "compare": {
+    "title": "Present Simple vs Present Continuous",
+    "leftLabel": "Present Simple",
+    "rightLabel": "Present Continuous",
+    "rows": [
+      { "left": "He sings every night.", "right": "He is singing right now." },
+      { "left": "I walk the line.", "right": "I'm walking on stage." },
+      { "left": "The band plays rock.", "right": "The band is playing tonight." },
+      { "left": "He doesn't drink.", "right": "He isn't drinking at the moment." }
+    ]
+  },
+  "tips": [
+    "Если действие происходит всегда или обычно — Present Simple. Если прямо сейчас — Continuous.",
+    "Маркеры времени: always, usually, never, every day, on tour.",
+    "Третье лицо: Johnny + -s. Не забывай: he walks, she sings, it sounds.",
+    "Отрицания: doesn't + базовая форма. He doesn't drink, not he doesn't drinks.",
+    "Вопросы: Does + базовая форма. Does he walk? Не does he walks.",
+    "Present Simple — это твой путь. I walk the line. Каждый день. Каждый урок. Держи линию."
+  ],
+  "quiz": [
+    { "q": "Which sentence describes a habit?", "options": ["He is singing now.", "He sings every night.", "He sang yesterday."], "answer": "He sings every night.", "why": "Привычка — Present Simple." },
+    { "q": "Correct form for Johnny: \"He ... the line.\"", "options": ["walk", "walks", "is walking"], "answer": "walks", "why": "Johnny = he, добавляем -s." },
+    { "q": "Which is correct?", "options": ["He doesn't walk.", "He don't walk.", "He doesn't walks."], "answer": "He doesn't walk.", "why": "С doesn't глагол в базовой форме." },
+    { "q": "\"I ... coffee every morning.\"", "options": ["drink", "drinks", "am drinking"], "answer": "drink", "why": "I + базовая форма." },
+    { "q": "What does Present Simple NOT describe?", "options": ["Facts", "Actions right now", "Habits"], "answer": "Actions right now", "why": "Действия прямо сейчас — это Present Continuous." },
+    { "q": "Which marker is NOT for Present Simple?", "options": ["always", "now", "every day"], "answer": "now", "why": "Now — маркер Continuous." }
+  ],
+  "related": ["a1-verb-to-be", "a1-pronouns", "a1-present-continuous"]
 }
