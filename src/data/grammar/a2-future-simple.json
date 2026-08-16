@@ -1,185 +1,173 @@
 {
+  "variant": "classic",
   "slug": "a2-future-simple",
-  "title": "Future Simple",
   "level": "A2",
+  "title": "Future Simple",
   "category": "Tenses",
   "readingTime": 7,
-  "summary": "Простое будущее: will + глагол. Язык обещаний, пророчеств и надежд. Скарлетт обещает себе завтра, О. Генри герои клянутся одно, а судьба готовит другое.",
+  "summary": "Future Simple (will) — для предсказаний, обещаний и спонтанных решений. В этом уроке — Рэй Брэдбери и его роман-предупреждение.",
   "idea": [
-    "«After all, tomorrow is another day» — этими словами заканчивается «Унесённые ветром». Скарлетт потеряла всё, стоит на пороге, и обещает себе одно: завтра будет другой день. Tomorrow will be another day. Will + глагол — то, чем строят мост между «сейчас» и «потом»: I will come back. I will fix this. I will not give up. Обещание, пророчество, надежда — всё это Future Simple. У О. Генри герои часто обещают одно, а судьба готовит совсем другое — но сами обещания всегда честны на will. Хэмингуэй писал коротко: I will go. I will stay. I will try. Каждое слово — как клятва.",
-    "Will — одно слово на всех, и в этом его красота: I will, you will, he will, she will, it will, we will, they will. Никаких окончаний, никаких сюрпризов. Сокращение — 'll: I'll come, she'll understand. Отрицание — will not (won't): I won't forget. Вопрос — выносом will вперёд: Will you marry me? Роберт Бёрнс обещал: «I will love you still, my dear, while the sands of life shall run» — я буду любить тебя, пока сыплются пески жизни. Фицджеральд заканчивал «Великого Гэтсби»: «So we beat on, boats against the current» — так мы и плывём, лодки против течения. Обещания в литературе — это клятвы, и все они на will.",
-    "Главные ошибки — ставить to после will («I will to come» — нет, будет «I will come») и менять will по лицам («she wills» — нет, всегда «she will»). И запомни границу: will — для обещаний и решений на лету, а «be going to» — для планов, которые уже приняты. Но это уже следующий урок. Сейчас главное — will смотрит вперёд и не извиняется."
+    "1953 год. Рэй Брэдбери пишет «451° по Фаренгейту». Он смотрит в будущее и видит: пожарные будут жечь книги. Мир будет полон экранов. Люди перестанут читать. Он использует will для предсказаний. Это не план — это видение. «Will» показывает, что автор верит в это будущее. Брэдбери предупреждает мир. Он знает, что это случится, если люди не изменятся.",
+    "Future Simple — это время для предсказаний, обещаний и спонтанных решений. «I will write a book» — я напишу книгу (обещание). «It will be a classic» — это станет классикой (предсказание). «I will help you» — я помогу тебе (спонтанное решение). В отличие от be going to, will не требует плана. Это просто уверенность. Это вера в будущее.",
+    "Брэдбери предсказал будущее. «You will not like this future. You will try to stop it. But it will happen.» Роман стал классикой. Мир изменился. Will сработал. Как у Брэдбери. Как в нашей жизни."
   ],
   "why": [
-    "Дать слово, которое держат: I will help you. I won't forget. Обещание, как в романе.",
-    "Пророчить и предсказывать: It will rain tomorrow. She will love it. Как гадалка или пророк.",
-    "Решить на ходу, как Скарлетт: I'll think about it tomorrow. Решение, принятое в момент.",
-    "Спросить о судьбе: Will you marry me? Will he return? Вопрос, от которого зависит всё."
+    "Предсказывать будущее: «People will stop reading.»",
+    "Обещать: «I will write a book.»",
+    "Принимать спонтанные решения: «I will help you.»",
+    "Выражать уверенность: «It will be a classic.»"
   ],
   "context": {
     "lines": [
-      { "en": "Will you come back?", "ru": "Ты вернёшься?" },
-      { "en": "I will. Tomorrow will be another day.", "ru": "Вернусь. Завтра будет другой день." },
-      { "en": "You always promise that.", "ru": "Ты всегда это обещаешь." },
-      { "en": "Then tomorrow will be different.", "ru": "Тогда завтра будет по-другому." }
+      { "en": "Bradbury: I will write a warning. People will stop reading books.", "ru": "Я напишу предупреждение. Люди перестанут читать книги." },
+      { "en": "Editor: Will they listen to you?", "ru": "Они будут тебя слушать?" },
+      { "en": "Bradbury: I don't know. But I will try. The world will change.", "ru": "Не знаю. Но я попытаюсь. Мир изменится." },
+      { "en": "Editor: Will it be a success?", "ru": "Это будет успех?" },
+      { "en": "Bradbury: It will be important. People will remember it.", "ru": "Это будет важно. Люди запомнят это." }
     ],
-    "note": "Обещания и пророчества на will: I will, tomorrow will be another day. Скарлетт и её главное обещание себе."
+    "note": "Брэдбери говорит о своём романе. Will показывает предсказания и уверенность."
   },
   "russianAngle": [
-    "В русском будущее строится через «буду + глагол»: «я буду помогать». В английском will + глагол без to: I will help, не «I will to help». Англичане обходятся одним словом.",
-    "«Не буду» — это won't: I won't forget. Полное «will not» звучит торжественно, как клятва, а won't — как обычное обещание.",
-    "Вопрос — выносом will: Will you marry me? Это самый известный вопрос в мире, и он на Future Simple.",
-    "«Завтра» — tomorrow. С tomorrow часто стоит will: Tomorrow I will start a new life. «С понедельника начну новую жизнь» — вечная классика обещаний."
+    "В русском мы говорим «я напишу» — и это будущее. В английском — «I will write.»",
+    "Will — для предсказаний, обещаний и спонтанных решений. «I will do it» — я сделаю это (обещание).",
+    "Ошибка: I will to write. Правильно: I will write. (после will — базовая форма).",
+    "Не путай с be going to: will — для спонтанных решений и предсказаний без признаков, be going to — для планов и предсказаний по признакам."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: will + глагол (без to). I will come, she will stay, they will understand.",
-      "Отрицание — won't: I won't forget. They won't come.",
-      "Вопрос — вынос will: Will you come? Will it rain?",
-      "Сделай упражнение и сверься. Как сказала бы Скарлетт: в конце концов, завтра будет другой день."
+      "Запомни формулу: will + базовая форма глагола.",
+      "Используй will для предсказаний: It will rain.",
+      "Используй will для обещаний: I will call you.",
+      "Используй will для спонтанных решений: I'll help you.",
+      "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Попробуй сам — раскрой скобки в Future Simple:",
+      "prompt": "Вставь правильную форму Future Simple:",
       "items": [
-        { "q": "I ___ (help) you.", "a": "will help — обещание." },
-        { "q": "It ___ (rain) tomorrow.", "a": "will rain — предсказание." },
-        { "q": "___ you ___ (come) back?", "a": "Will you come — вопрос, вынос will." },
-        { "q": "I ___ (not / forget).", "a": "won't forget — отрицание." },
-        { "q": "She ___ (love) it.", "a": "will love — предсказание." }
+        { "q": "People ___ (stop) reading books.", "a": "will stop" },
+        { "q": "The world ___ (change) forever.", "a": "will change" },
+        { "q": "I ___ (write) a warning.", "a": "will write" },
+        { "q": "You ___ (remember) this book.", "a": "will remember" },
+        { "q": "They ___ (not / listen) to me.", "a": "will not listen" }
       ]
     }
   },
-  "formula": "will + V1 (short: 'll / neg: won't)",
+  "formula": "Subject + will + V1",
   "structure": {
-    "positive": "I will help. / She will come.",
-    "negative": "I won't help. / She won't come.",
-    "question": "Will you help? / Will she come?"
+    "positive": "I will write.\nHe/She/It will write.\nWe/You/They will write.",
+    "negative": "I will not (won't) write.\nHe/She/It will not write.\nWe/You/They will not write.",
+    "question": "Will I write?\nWill he/she/it write?\nWill we/you/they write?"
   },
-  "markers": ["tomorrow", "soon", "next week", "in the future", "I promise", "I think"],
+  "markers": [
+    "tomorrow",
+    "next week / month / year",
+    "in the future",
+    "soon",
+    "later",
+    "one day"
+  ],
   "uses": [
-    "Обещание: I will help you.",
-    "Предсказание: It will rain.",
-    "Спонтанное решение: I'll take this.",
-    "Вопрос о будущем: Will you come?"
+    "Предсказания: «People will stop reading.»",
+    "Обещания: «I will write a book.»",
+    "Спонтанные решения: «I will help you.»",
+    "Уверенность: «It will be a classic.»"
   ],
   "rules": [
-    { "title": "will + V1", "text": "После will — глагол без to: I will help, she will come. Не «I will to help»." },
-    { "title": "won't", "text": "Отрицание: will not = won't. I won't forget. Полный вид «will not» звучит торжественно, как клятва." },
-    { "title": "вопрос", "text": "Вынос will вперёд: Will you come? Will it rain? Will she love it?" }
+    { "title": "Формула Future Simple", "text": "will + базовая форма глагола: I will write." },
+    { "title": "Для предсказаний", "text": "Используй will, когда предсказываешь будущее: It will rain." },
+    { "title": "Для обещаний", "text": "Используй will, когда обещаешь: I will call you." },
+    { "title": "Для спонтанных решений", "text": "Используй will, когда решаешь прямо сейчас: I'll help you." }
   ],
   "examples": [
     {
-      "group": "Обещания на страницах романов",
+      "group": "Предсказания Брэдбери",
       "items": [
-        { "en": "I will come back.", "ru": "Я вернусь. Обещание, которое держит сюжет.", "highlight": ["will come"] },
-        { "en": "I will love you still, my dear.", "ru": "Я буду любить тебя по-прежнему. Бёрнс обещает вечность.", "highlight": ["will love"] },
-        { "en": "I will not give up.", "ru": "Я не сдамся. Обещание себе.", "highlight": ["will not give up"] },
-        { "en": "We will fight together.", "ru": "Мы будем сражаться вместе. Клятва.", "highlight": ["will fight"] }
+        { "en": "Firemen will burn books.", "ru": "Пожарные будут жечь книги.", "highlight": ["will burn"] },
+        { "en": "People will stop reading.", "ru": "Люди перестанут читать.", "highlight": ["will stop"] },
+        { "en": "The world will be full of screens.", "ru": "Мир будет полон экранов.", "highlight": ["will be"] },
+        { "en": "Nobody will remember the past.", "ru": "Никто не будет помнить прошлое.", "highlight": ["will remember"] }
       ]
     },
     {
-      "group": "Пророчества и предсказания",
+      "group": "Обещания Брэдбери",
       "items": [
-        { "en": "Tomorrow will be another day.", "ru": "Завтра будет другой день. Скарлетт и её обещание себе.", "highlight": ["will be"] },
-        { "en": "It will rain tomorrow.", "ru": "Завтра будет дождь. Предсказание, точное как часы.", "highlight": ["will rain"] },
-        { "en": "She will love it.", "ru": "Ей понравится. Уверенное предсказание.", "highlight": ["will love"] }
+        { "en": "I will write a book about the future.", "ru": "Я напишу книгу о будущем.", "highlight": ["will write"] },
+        { "en": "I will tell the truth.", "ru": "Я скажу правду.", "highlight": ["will tell"] },
+        { "en": "I will warn people about the dangers.", "ru": "Я предупрежу людей об опасностях.", "highlight": ["will warn"] },
+        { "en": "I will never give up.", "ru": "Я никогда не сдамся.", "highlight": ["will never give"] }
       ]
     },
     {
-      "group": "Решения на ходу",
+      "group": "Отрицания",
       "items": [
-        { "en": "I'll take this road.", "ru": "Поеду этой дорогой. Решение принято на перекрёстке.", "highlight": ["'ll take"] },
-        { "en": "I'll answer the letter.", "ru": "Отвечу на письмо. Спонтанное решение за завтраком.", "highlight": ["'ll answer"] },
-        { "en": "I'll think about it tomorrow.", "ru": "Подумаю об этом завтра. Скарлетт откладывает — и обещает вернуться.", "highlight": ["'ll think"] }
+        { "en": "People will not listen to me.", "ru": "Люди не будут слушать меня.", "highlight": ["will not listen"] },
+        { "en": "The world won't change easily.", "ru": "Мир не изменится легко.", "highlight": ["won't change"] },
+        { "en": "You won't like this future.", "ru": "Вам не понравится это будущее.", "highlight": ["won't like"] },
+        { "en": "They won't stop the fire.", "ru": "Они не остановят огонь.", "highlight": ["won't stop"] }
       ]
     },
     {
-      "group": "Литературные судьбы",
+      "group": "Вопросы",
       "items": [
-        { "en": "So we beat on, boats against the current.", "ru": "Так мы и плывём, лодки против течения. Фицджеральд смотрит и вперёд, и назад.", "highlight": ["beat on"] },
-        { "en": "It will end well.", "ru": "Всё закончится хорошо. Обещание, которое держит роман.", "highlight": ["will end"] },
-        { "en": "The sun will rise again.", "ru": "Солнце снова взойдёт. Надежда в будущем.", "highlight": ["will rise"] }
+        { "en": "Will people read books in the future?", "ru": "Будут ли люди читать книги в будущем?", "highlight": ["Will"] },
+        { "en": "Will the world become better?", "ru": "Мир станет лучше?", "highlight": ["Will"] },
+        { "en": "Will they remember this warning?", "ru": "Они запомнят это предупреждение?", "highlight": ["Will"] },
+        { "en": "Will you help me?", "ru": "Ты поможешь мне?", "highlight": ["Will"] }
       ]
     },
     {
-      "group": "Вопросы о будущем",
+      "group": "Спонтанные решения",
       "items": [
-        { "en": "Will you marry me?", "ru": "Ты выйдешь за меня? Самый известный вопрос.", "highlight": ["Will you marry"] },
-        { "en": "Will he return?", "ru": "Он вернётся? Вопрос, от которого зависит всё.", "highlight": ["Will he return"] },
-        { "en": "Will it be enough?", "ru": "Хватит ли этого? Вопрос о будущем.", "highlight": ["Will it be"] }
+        { "en": "I'll help you with the book.", "ru": "Я помогу тебе с книгой.", "highlight": ["I'll"] },
+        { "en": "I'll read this novel tonight.", "ru": "Я прочитаю этот роман сегодня.", "highlight": ["I'll"] },
+        { "en": "I'll call you tomorrow.", "ru": "Я позвоню тебе завтра.", "highlight": ["I'll"] },
+        { "en": "I'll explain everything.", "ru": "Я всё объясню.", "highlight": ["I'll"] }
       ]
     },
     {
-      "group": "Клятва и отказ",
+      "group": "Уверенность в будущем",
       "items": [
-        { "en": "I will not forget.", "ru": "Я не забуду. Клятва, полная форма.", "highlight": ["will not forget"] },
-        { "en": "I won't give up.", "ru": "Я не сдамся. Обещание, сокращённая форма.", "highlight": ["won't give up"] },
-        { "en": "They will remember us.", "ru": "Они нас запомнят. Уверенность в будущем.", "highlight": ["will remember"] }
+        { "en": "The book will become a classic.", "ru": "Книга станет классикой.", "highlight": ["will become"] },
+        { "en": "People will remember this day.", "ru": "Люди запомнят этот день.", "highlight": ["will remember"] },
+        { "en": "The future will be different.", "ru": "Будущее будет другим.", "highlight": ["will be"] },
+        { "en": "You will see the truth.", "ru": "Ты увидишь правду.", "highlight": ["will see"] }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I will to help you.", "right": "I will help you.", "note": "После will — глагол без to." },
-    { "wrong": "I will not forgetting.", "right": "I won't forget.", "note": "Отрицание: won't + глагол в первой форме." },
-    { "wrong": "You will come?", "right": "Will you come?", "note": "Вопрос: вынос will вперёд." },
-    { "wrong": "She wills come.", "right": "She will come.", "note": "Will не меняется по лицам: she will, не she wills." },
-    { "wrong": "I will going.", "right": "I will go.", "note": "После will — первая форма глагола, не -ing." }
+    { "wrong": "I will to write a book.", "right": "I will write a book.", "note": "После will — базовая форма, без to." },
+    { "wrong": "He will writes a book.", "right": "He will write a book.", "note": "После will — базовая форма, без -s." },
+    { "wrong": "I will not to go.", "right": "I will not go.", "note": "Отрицание: will not + базовая форма." },
+    { "wrong": "Will he comes tomorrow?", "right": "Will he come tomorrow?", "note": "После will — базовая форма." },
+    { "wrong": "I am will write.", "right": "I will write.", "note": "Не используй am/is/are с will." },
+    { "wrong": "I will go to the store tomorrow.", "right": "I will go to the store tomorrow.", "note": "Это правильно! Не путай с be going to." }
   ],
   "compare": {
-    "title": "Обещание vs План",
-    "leftLabel": "will (обещание/решение)",
-    "rightLabel": "be going to (план)",
+    "title": "Future Simple vs Be Going To",
+    "leftLabel": "Will (спонтанное решение / предсказание)",
+    "rightLabel": "Be Going To (план / предсказание по признакам)",
     "rows": [
-      { "left": "I will help you. (обещание)", "right": "I am going to help you. (план)" },
-      { "left": "I'll take this. (решение на лету)", "right": "I am going to take it. (уже решил)" },
-      { "left": "It will rain. (предсказание)", "right": "Look at the clouds. It is going to rain. (по признакам)" }
+      { "left": "I will help you. (спонтанно)", "right": "I am going to help you. (уже решил)" },
+      { "left": "It will rain tomorrow. (мнение)", "right": "Look at the clouds! It is going to rain. (признаки)" },
+      { "left": "I will call you. (обещание)", "right": "I am going to call you. (уже запланировал)" },
+      { "left": "People will stop reading. (предсказание)", "right": "People are going to stop reading. (видно тенденцию)" }
     ]
   },
   "tips": [
-    "Will — одно слово на всех: I will, he will, they will. Никаких окончаний, никаких сюрпризов.",
-    "Сокращение 'll: I'll, you'll, he'll, we'll, they'll. Так звучит естественно, как в живой речи.",
-    "После will — глагол без to: I will help, не «I will to help». Англичане экономят.",
-    "Won't — это will not. Полный вид звучит как клятва, сокращённый — как обычное обещание.",
-    "Will vs be going to: will для обещаний и решений на лету, be going to для планов. Но это уже следующий урок.",
-    "Чем больше фраз на will ты увидишь, тем быстрее они станут твоими. Прочитай примеры вслух."
+    "Will — для предсказаний, обещаний и спонтанных решений.",
+    "Не используй will, если уже есть план (используй be going to).",
+    "Сокращение: I'll, you'll, he'll, she'll, we'll, they'll.",
+    "Отрицание: won't = will not.",
+    "В вопросах: Will he come? Will she help?",
+    "Практикуйся: предскажи будущее с will."
   ],
-  "related": ["a1-present-simple", "a1-present-continuous", "a1-past-simple"],
   "quiz": [
-    {
-      "q": "I ___ (help) you.",
-      "options": ["will help", "will to help", "will helping", "help"],
-      "answer": 0,
-      "why": "Will + глагол без to: will help."
-    },
-    {
-      "q": "It ___ (rain) tomorrow.",
-      "options": ["will rain", "will to rain", "will raining", "rains"],
-      "answer": 0,
-      "why": "Предсказание: will rain."
-    },
-    {
-      "q": "___ you come back?",
-      "options": ["Will", "Do", "Are", "Is"],
-      "answer": 0,
-      "why": "Вопрос о будущем: Will you come?"
-    },
-    {
-      "q": "I ___ forget. I promise.",
-      "options": ["won't", "will not to", "won't to", "not will"],
-      "answer": 0,
-      "why": "Отрицание-обещание: won't forget."
-    },
-    {
-      "q": "She ___ love it.",
-      "options": ["will", "wills", "will to", "will to be"],
-      "answer": 0,
-      "why": "Will не меняется по лицам: she will love."
-    },
-    {
-      "q": "I ___ take this road.",
-      "options": ["will", "will to", "am will", "will be"],
-      "answer": 0,
-      "why": "Решение на лету: I will take."
-    }
-  ]
+    { "q": "Which is correct for a prediction?", "options": ["I am going to write.", "I will write.", "I write."], "answer": "I will write.", "why": "Предсказание — will." },
+    { "q": "What's the correct form: 'He ___ write a book.'", "options": ["will", "is going", "will to"], "answer": "will", "why": "will + базовая форма." },
+    { "q": "Which is correct for a promise?", "options": ["I will call you.", "I call you.", "I am calling you."], "answer": "I will call you.", "why": "Обещание — will." },
+    { "q": "Which is correct?", "options": ["I will to go.", "I will go.", "I will going."], "answer": "I will go.", "why": "will + базовая форма." },
+    { "q": "\"They ___ not come.\"", "options": ["will", "won't", "willn't"], "answer": "won't", "why": "won't = will not." },
+    { "q": "What does 'I will help you' mean?", "options": ["I plan to help.", "I promise to help (right now).", "I helped you."], "answer": "I promise to help (right now).", "why": "Спонтанное решение — will." }
+  ],
+  "related": ["a1-present-simple", "a2-be-going-to"]
 }

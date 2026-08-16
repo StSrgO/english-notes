@@ -1,204 +1,496 @@
-{
-  "variant": "rocknroll",
-  "slug": "a1-pronouns",
-  "level": "A1",
-  "title": "Местоимения",
-  "category": "Grammar",
-  "readingTime": 9,
-  "summary": "Местоимения — слова, которые заменяют существительные. История о том, как NOFX используют местоимения в панк-роке.",
-  "idea": [
-    "NOFX — американская панк-группа. Их песни полны местоимений: «I am punk», «You are wrong», «We are the people», «They are the system». Местоимения помогают разделить мир на «мы» и «они». В панке это особенно важно: «мы» — это панки, «они» — это система. Без местоимений мы не могли бы сказать, кто есть кто.",
-    "В английском языке есть личные местоимения: I, you, he, she, it, we, they. Они заменяют имена. Есть притяжательные местоимения: my, your, his, her, its, our, their. Они показывают, кому что принадлежит. Есть указательные: this, that, these, those. Они указывают на предметы.",
-    "NOFX используют местоимения, чтобы создать чувство общности с фанатами. «We are the change» — мы изменения. «You are the problem» — ты проблема. «They are the system» — они система. Местоимения — это ключ к пониманию панк-культуры."
-  ],
-  "why": [
-    "Местоимения заменяют существительные, делая речь быстрее и проще",
-    "Они помогают понять, кто есть кто в разговоре",
-    "Притяжательные местоимения показывают, кому что принадлежит",
-    "Указательные местоимения указывают на предметы"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Fat Mike: 'I am punk. You are the system. We are the people. They are the problem. This is our music. These are our fans.'",
-        "ru": "Фэт Майк: «Я панк. Ты система. Мы — люди. Они — проблема. Это наша музыка. Это наши фанаты»." },
-      { "en": "NOFX: 'We are the change. You are the future. They are the past.'",
-        "ru": "NOFX: «Мы — изменения. Ты — будущее. Они — прошлое»." }
-    ],
-    "note": "Местоимения помогают разделить мир на «мы» и «они»."
-  },
-  "russianAngle": [
-    "В русском языке местоимения тоже есть: 'я', 'ты', 'он', 'она', 'мы', 'вы', 'они'",
-    "В русском языке притяжательные местоимения: 'мой', 'твой', 'его', 'её', 'наш', 'ваш', 'их'",
-    "В английском 'my' — мой, 'your' — твой/ваш, 'his' — его, 'her' — её, 'its' — его/её (для вещей), 'our' — наш, 'their' — их",
-    "Ошибка: I am punk — правильно! I am a punk."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Запомни личные местоимения: I, you, he, she, it, we, they.",
-      "Запомни притяжательные: my, your, his, her, its, our, their.",
-      "Запомни указательные: this, that, these, those.",
-      "Потренируйся описывать себя: I am a punk. This is my band.",
-      "Потренируйся описывать других: He is a musician. She is a fan. They are the system.",
-      "Сделай упражнение и сверься с ответами."
-    ],
-    "exercise": {
-      "prompt": "Вставьте правильное местоимение (I, you, he, she, it, we, they, my, your, his, her, our, their):",
-      "items": [
-        { "q": "___ am a punk.", "a": "I" },
-        { "q": "___ are the system.", "a": "You" },
-        { "q": "___ is a musician. ___ plays guitar.", "a": "He" },
-        { "q": "___ is a singer. ___ has a great voice.", "a": "She" },
-        { "q": "___ are the people. This is ___ music.", "a": "We, our" }
-      ]
-    }
-  },
-  "formula": "I / you / he / she / it / we / they · my / your / his / her / its / our / their",
-  "structure": {
-    "positive": "I am a punk. This is my band.",
-    "negative": "I am not a punk. This is not my band.",
-    "question": "Are you a punk? Is this your band?"
-  },
-  "markers": ["I", "you", "he", "she", "it", "we", "they", "my", "your", "his", "her", "its", "our", "their", "this", "that", "these", "those"],
-  "uses": [
-    "Личные: I am a punk. You are the system.",
-    "Притяжательные: This is my band. These are our fans.",
-    "Указательные: This is punk. These are our songs.",
-    "В вопросах: Are you a punk? Is this your music?"
-  ],
-  "rules": [
-    { "title": "Личные местоимения",
-      "text": "I (я), you (ты/вы), he (он), she (она), it (оно), we (мы), they (они)." },
-    { "title": "Притяжательные местоимения",
-      "text": "my (мой), your (твой/ваш), his (его), her (её), its (его/её), our (наш), their (их)." },
-    { "title": "Указательные местоимения",
-      "text": "this (этот/эта), that (тот/та), these (эти), those (те)." }
-  ],
-  "examples": [
-    {
-      "group": "Личные местоимения",
-      "items": [
-        { "en": "I am a punk. I play in a band.", "ru": "Я панк. Я играю в группе.", "highlight": ["I"] },
-        { "en": "You are the system. You control everything.", "ru": "Ты система. Ты контролируешь всё.", "highlight": ["You"] },
-        { "en": "He is a musician. He plays guitar.", "ru": "Он музыкант. Он играет на гитаре.", "highlight": ["He"] },
-        { "en": "She is a singer. She has a great voice.", "ru": "Она певица. У неё отличный голос.", "highlight": ["She"] },
-        { "en": "It is a song. It is about freedom.", "ru": "Это песня. Она о свободе.", "highlight": ["It"] },
-        { "en": "We are the people. We are the change.", "ru": "Мы — люди. Мы — изменения.", "highlight": ["We"] },
-        { "en": "They are the system. They are the problem.", "ru": "Они система. Они проблема.", "highlight": ["They"] }
-      ]
-    },
-    {
-      "group": "Притяжательные местоимения",
-      "items": [
-        { "en": "This is my band. I am the singer.", "ru": "Это моя группа. Я певец.", "highlight": ["my"] },
-        { "en": "This is your problem. You need to fix it.", "ru": "Это твоя проблема. Ты должен её решить.", "highlight": ["your"] },
-        { "en": "This is his guitar. He plays it every day.", "ru": "Это его гитара. Он играет на ней каждый день.", "highlight": ["his"] },
-        { "en": "This is her voice. She sings beautifully.", "ru": "Это её голос. Она поёт красиво.", "highlight": ["her"] },
-        { "en": "This is our music. We write it together.", "ru": "Это наша музыка. Мы пишем её вместе.", "highlight": ["our"] },
-        { "en": "This is their problem. They need to fix it.", "ru": "Это их проблема. Они должны её решить.", "highlight": ["their"] }
-      ]
-    },
-    {
-      "group": "Указательные местоимения",
-      "items": [
-        { "en": "This is punk music. This is our sound.", "ru": "Это панк-музыка. Это наш звук.", "highlight": ["This"] },
-        { "en": "That is their music. That is not ours.", "ru": "То их музыка. То не наша.", "highlight": ["That"] },
-        { "en": "These are our songs. These are our lyrics.", "ru": "Это наши песни. Это наши тексты.", "highlight": ["These"] },
-        { "en": "Those are their guitars. Those are not ours.", "ru": "Те их гитары. Те не наши.", "highlight": ["Those"] }
-      ]
-    },
-    {
-      "group": "Местоимения в диалоге",
-      "items": [
-        { "en": "Fan: 'I love your music. This is my favourite song.'", "ru": "Фанат: «Я люблю вашу музыку. Это моя любимая песня».", "highlight": ["I", "your", "my"] },
-        { "en": "Singer: 'Thank you. We write our songs from the heart.'", "ru": "Певец: «Спасибо. Мы пишем наши песни от сердца».", "highlight": ["We", "our"] },
-        { "en": "Producer: 'This is their best album. They are the future.'", "ru": "Продюсер: «Это их лучший альбом. Они — будущее».", "highlight": ["their", "They"] }
-      ]
-    },
-    {
-      "group": "Личные и притяжательные вместе",
-      "items": [
-        { "en": "I am a punk. This is my music.", "ru": "Я панк. Это моя музыка.", "highlight": ["I", "my"] },
-        { "en": "You are the system. This is your problem.", "ru": "Ты система. Это твоя проблема.", "highlight": ["You", "your"] },
-        { "en": "He is a musician. This is his guitar.", "ru": "Он музыкант. Это его гитара.", "highlight": ["He", "his"] },
-        { "en": "She is a singer. This is her voice.", "ru": "Она певица. Это её голос.", "highlight": ["She", "her"] }
-      ]
-    },
-    {
-      "group": "Вопросы с местоимениями",
-      "items": [
-        { "en": "Are you a punk? — Yes, I am.", "ru": "Ты панк? — Да.", "highlight": ["you", "I"] },
-        { "en": "Is this your band? — Yes, this is my band.", "ru": "Это твоя группа? — Да, это моя группа.", "highlight": ["your", "my"] },
-        { "en": "Are they the system? — Yes, they are.", "ru": "Они система? — Да.", "highlight": ["they"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "I is a punk.", "right": "I am a punk.", "note": "С I используется am, а не is." },
-    { "wrong": "He am a musician.", "right": "He is a musician.", "note": "С he используется is, а не am." },
-    { "wrong": "This is mine band.", "right": "This is my band.", "note": "Перед существительным используется my, а не mine." },
-    { "wrong": "This is I music.", "right": "This is my music.", "note": "Притяжательное местоимение — my, а не I." },
-    { "wrong": "They is the system.", "right": "They are the system.", "note": "С they используются are, а не is." },
-    { "wrong": "Her is a singer.", "right": "She is a singer.", "note": "Личное местоимение — she, а не her." }
-  ],
-  "compare": {
-    "title": "Личные vs притяжательные местоимения",
-    "leftLabel": "Личные (кто)",
-    "rightLabel": "Притяжательные (чей)",
-    "rows": [
-      { "left": "I am a punk.", "right": "This is my music." },
-      { "left": "You are the system.", "right": "This is your problem." },
-      { "left": "He is a musician.", "right": "This is his guitar." },
-      { "left": "She is a singer.", "right": "This is her voice." },
-      { "left": "We are the people.", "right": "This is our music." },
-      { "left": "They are the system.", "right": "This is their problem." }
-    ]
-  },
-  "tips": [
-    "I, you, he, she, it, we, they — кто?",
-    "my, your, his, her, its, our, their — чей?",
-    "this — для близких предметов, that — для далёких.",
-    "these — для близких предметов во множественном числе, those — для далёких.",
-    "Перед существительным всегда притяжательное местоимение: my music, not mine music.",
-    "В вопросах местоимение ставится после глагола: Are you a punk?",
-    "Запомни: I am, you are, he is, she is, it is, we are, they are."
-  ],
-  "related": ["a1-verb-to-be", "a1-nouns", "a1-questions"],
-  "quiz": [
-    {
-      "q": "___ am a punk.",
-      "options": ["I", "You", "He", "She"],
-      "answer": 0,
-      "why": "С I используется am."
-    },
-    {
-      "q": "___ is a musician. ___ plays guitar.",
-      "options": ["He, He", "She, She", "I, I", "You, You"],
-      "answer": 0,
-      "why": "Музыкант — мужской род, поэтому he."
-    },
-    {
-      "q": "This is ___ band.",
-      "options": ["my", "mine", "I", "me"],
-      "answer": 0,
-      "why": "Перед существительным my, а не mine."
-    },
-    {
-      "q": "___ are the system. This is ___ problem.",
-      "options": ["They, their", "They, they", "Their, they", "Their, their"],
-      "answer": 0,
-      "why": "Личные — they, притяжательные — their."
-    },
-    {
-      "q": "___ you a punk?",
-      "options": ["Am", "Is", "Are", "Be"],
-      "answer": 2,
-      "why": "С you используется are."
-    },
-    {
-      "q": "___ is a singer. ___ has a great voice.",
-      "options": ["He, He", "She, She", "I, I", "You, You"],
-      "answer": 1,
-      "why": "Певица — женский род, поэтому she."
-    }
-  ]
+﻿{
+    "variant":  "rocknroll",
+    "slug":  "a1-pronouns",
+    "level":  "A1",
+    "title":  "Pronouns",
+    "category":  "Grammar",
+    "readingTime":  9,
+    "summary":  "Местоимения: личные, притяжательные и объектные. Редьярд Киплинг и NOFX.",
+    "idea":  [
+                 "NOFX — американская панк-группа. Их песни полны местоимений: «I am punk», «You are wrong», «We are the people», «They are the system». Местоимения помогают разделить мир на «мы» и «они». В панке это особенно важно: «мы» — это панки, «они» — это система. Без местоимений мы не могли бы сказать, кто есть кто.",
+                 "В английском языке есть личные местоимения: I, you, he, she, it, we, they. Они заменяют имена. Есть притяжательные местоимения: my, your, his, her, its, our, their. Они показывают, кому что принадлежит. Есть указательные: this, that, these, those. Они указывают на предметы.",
+                 "NOFX используют местоимения, чтобы создать чувство общности с фанатами. «We are the change» — мы изменения. «You are the problem» — ты проблема. «They are the system» — они система. Местоимения — это ключ к пониманию панк-культуры."
+             ],
+    "why":  [
+                "Местоимения заменяют существительные, делая речь быстрее и проще",
+                "Они помогают понять, кто есть кто в разговоре",
+                "Притяжательные местоимения показывают, кому что принадлежит",
+                "Указательные местоимения указывают на предметы"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Fat Mike: \u0027I am punk. You are the system. We are the people. They are the problem. This is our music. These are our fans.\u0027",
+                                      "ru":  "Фэт Майк: «Я панк. Ты система. Мы — люди. Они — проблема. Это наша музыка. Это наши фанаты»."
+                                  },
+                                  {
+                                      "en":  "NOFX: \u0027We are the change. You are the future. They are the past.\u0027",
+                                      "ru":  "NOFX: «Мы — изменения. Ты — будущее. Они — прошлое»."
+                                  }
+                              ],
+                    "note":  "Местоимения помогают разделить мир на «мы» и «они»."
+                },
+    "russianAngle":  [
+                         "В русском языке местоимения тоже есть: \u0027я\u0027, \u0027ты\u0027, \u0027он\u0027, \u0027она\u0027, \u0027мы\u0027, \u0027вы\u0027, \u0027они\u0027",
+                         "В русском языке притяжательные местоимения: \u0027мой\u0027, \u0027твой\u0027, \u0027его\u0027, \u0027её\u0027, \u0027наш\u0027, \u0027ваш\u0027, \u0027их\u0027",
+                         "В английском \u0027my\u0027 — мой, \u0027your\u0027 — твой/ваш, \u0027his\u0027 — его, \u0027her\u0027 — её, \u0027its\u0027 — его/её (для вещей), \u0027our\u0027 — наш, \u0027their\u0027 — их",
+                         "Ошибка: I am punk — правильно! I am a punk."
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Запомни личные местоимения: I, you, he, she, it, we, they.",
+                                     "Запомни притяжательные: my, your, his, her, its, our, their.",
+                                     "Запомни указательные: this, that, these, those.",
+                                     "Потренируйся описывать себя: I am a punk. This is my band.",
+                                     "Потренируйся описывать других: He is a musician. She is a fan. They are the system.",
+                                     "Сделай упражнение и сверься с ответами."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Вставьте правильное местоимение (I, you, he, she, it, we, they, my, your, his, her, our, their):",
+                                        "items":  [
+                                                      {
+                                                          "q":  "___ am a punk.",
+                                                          "a":  "I"
+                                                      },
+                                                      {
+                                                          "q":  "___ are the system.",
+                                                          "a":  "You"
+                                                      },
+                                                      {
+                                                          "q":  "___ is a musician. ___ plays guitar.",
+                                                          "a":  "He"
+                                                      },
+                                                      {
+                                                          "q":  "___ is a singer. ___ has a great voice.",
+                                                          "a":  "She"
+                                                      },
+                                                      {
+                                                          "q":  "___ are the people. This is ___ music.",
+                                                          "a":  "We, our"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "formula":  "I / you / he / she / it / we / they · my / your / his / her / its / our / their",
+    "structure":  {
+                      "positive":  "I am a punk. This is my band.",
+                      "negative":  "I am not a punk. This is not my band.",
+                      "question":  "Are you a punk? Is this your band?"
+                  },
+    "markers":  [
+                    "I",
+                    "you",
+                    "he",
+                    "she",
+                    "it",
+                    "we",
+                    "they",
+                    "my",
+                    "your",
+                    "his",
+                    "her",
+                    "its",
+                    "our",
+                    "their",
+                    "this",
+                    "that",
+                    "these",
+                    "those"
+                ],
+    "uses":  [
+                 "Личные: I am a punk. You are the system.",
+                 "Притяжательные: This is my band. These are our fans.",
+                 "Указательные: This is punk. These are our songs.",
+                 "В вопросах: Are you a punk? Is this your music?"
+             ],
+    "rules":  [
+                  {
+                      "title":  "Личные местоимения",
+                      "text":  "I (я), you (ты/вы), he (он), she (она), it (оно), we (мы), they (они)."
+                  },
+                  {
+                      "title":  "Притяжательные местоимения",
+                      "text":  "my (мой), your (твой/ваш), his (его), her (её), its (его/её), our (наш), their (их)."
+                  },
+                  {
+                      "title":  "Указательные местоимения",
+                      "text":  "this (этот/эта), that (тот/та), these (эти), those (те)."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Личные местоимения",
+                         "items":  [
+                                       {
+                                           "en":  "I am a punk. I play in a band.",
+                                           "ru":  "Я панк. Я играю в группе.",
+                                           "highlight":  [
+                                                             "I"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "You are the system. You control everything.",
+                                           "ru":  "Ты система. Ты контролируешь всё.",
+                                           "highlight":  [
+                                                             "You"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He is a musician. He plays guitar.",
+                                           "ru":  "Он музыкант. Он играет на гитаре.",
+                                           "highlight":  [
+                                                             "He"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "She is a singer. She has a great voice.",
+                                           "ru":  "Она певица. У неё отличный голос.",
+                                           "highlight":  [
+                                                             "She"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "It is a song. It is about freedom.",
+                                           "ru":  "Это песня. Она о свободе.",
+                                           "highlight":  [
+                                                             "It"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "We are the people. We are the change.",
+                                           "ru":  "Мы — люди. Мы — изменения.",
+                                           "highlight":  [
+                                                             "We"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "They are the system. They are the problem.",
+                                           "ru":  "Они система. Они проблема.",
+                                           "highlight":  [
+                                                             "They"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Притяжательные местоимения",
+                         "items":  [
+                                       {
+                                           "en":  "This is my band. I am the singer.",
+                                           "ru":  "Это моя группа. Я певец.",
+                                           "highlight":  [
+                                                             "my"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "This is your problem. You need to fix it.",
+                                           "ru":  "Это твоя проблема. Ты должен её решить.",
+                                           "highlight":  [
+                                                             "your"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "This is his guitar. He plays it every day.",
+                                           "ru":  "Это его гитара. Он играет на ней каждый день.",
+                                           "highlight":  [
+                                                             "his"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "This is her voice. She sings beautifully.",
+                                           "ru":  "Это её голос. Она поёт красиво.",
+                                           "highlight":  [
+                                                             "her"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "This is our music. We write it together.",
+                                           "ru":  "Это наша музыка. Мы пишем её вместе.",
+                                           "highlight":  [
+                                                             "our"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "This is their problem. They need to fix it.",
+                                           "ru":  "Это их проблема. Они должны её решить.",
+                                           "highlight":  [
+                                                             "their"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Указательные местоимения",
+                         "items":  [
+                                       {
+                                           "en":  "This is punk music. This is our sound.",
+                                           "ru":  "Это панк-музыка. Это наш звук.",
+                                           "highlight":  [
+                                                             "This"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "That is their music. That is not ours.",
+                                           "ru":  "То их музыка. То не наша.",
+                                           "highlight":  [
+                                                             "That"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "These are our songs. These are our lyrics.",
+                                           "ru":  "Это наши песни. Это наши тексты.",
+                                           "highlight":  [
+                                                             "These"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Those are their guitars. Those are not ours.",
+                                           "ru":  "Те их гитары. Те не наши.",
+                                           "highlight":  [
+                                                             "Those"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Местоимения в диалоге",
+                         "items":  [
+                                       {
+                                           "en":  "Fan: \u0027I love your music. This is my favourite song.\u0027",
+                                           "ru":  "Фанат: «Я люблю вашу музыку. Это моя любимая песня».",
+                                           "highlight":  [
+                                                             "I",
+                                                             "your",
+                                                             "my"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Singer: \u0027Thank you. We write our songs from the heart.\u0027",
+                                           "ru":  "Певец: «Спасибо. Мы пишем наши песни от сердца».",
+                                           "highlight":  [
+                                                             "We",
+                                                             "our"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Producer: \u0027This is their best album. They are the future.\u0027",
+                                           "ru":  "Продюсер: «Это их лучший альбом. Они — будущее».",
+                                           "highlight":  [
+                                                             "their",
+                                                             "They"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Личные и притяжательные вместе",
+                         "items":  [
+                                       {
+                                           "en":  "I am a punk. This is my music.",
+                                           "ru":  "Я панк. Это моя музыка.",
+                                           "highlight":  [
+                                                             "I",
+                                                             "my"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "You are the system. This is your problem.",
+                                           "ru":  "Ты система. Это твоя проблема.",
+                                           "highlight":  [
+                                                             "You",
+                                                             "your"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He is a musician. This is his guitar.",
+                                           "ru":  "Он музыкант. Это его гитара.",
+                                           "highlight":  [
+                                                             "He",
+                                                             "his"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "She is a singer. This is her voice.",
+                                           "ru":  "Она певица. Это её голос.",
+                                           "highlight":  [
+                                                             "She",
+                                                             "her"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вопросы с местоимениями",
+                         "items":  [
+                                       {
+                                           "en":  "Are you a punk? — Yes, I am.",
+                                           "ru":  "Ты панк? — Да.",
+                                           "highlight":  [
+                                                             "you",
+                                                             "I"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Is this your band? — Yes, this is my band.",
+                                           "ru":  "Это твоя группа? — Да, это моя группа.",
+                                           "highlight":  [
+                                                             "your",
+                                                             "my"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Are they the system? — Yes, they are.",
+                                           "ru":  "Они система? — Да.",
+                                           "highlight":  [
+                                                             "they"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "I is a punk.",
+                         "right":  "I am a punk.",
+                         "note":  "С I используется am, а не is."
+                     },
+                     {
+                         "wrong":  "He am a musician.",
+                         "right":  "He is a musician.",
+                         "note":  "С he используется is, а не am."
+                     },
+                     {
+                         "wrong":  "This is mine band.",
+                         "right":  "This is my band.",
+                         "note":  "Перед существительным используется my, а не mine."
+                     },
+                     {
+                         "wrong":  "This is I music.",
+                         "right":  "This is my music.",
+                         "note":  "Притяжательное местоимение — my, а не I."
+                     },
+                     {
+                         "wrong":  "They is the system.",
+                         "right":  "They are the system.",
+                         "note":  "С they используются are, а не is."
+                     },
+                     {
+                         "wrong":  "Her is a singer.",
+                         "right":  "She is a singer.",
+                         "note":  "Личное местоимение — she, а не her."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Личные vs притяжательные местоимения",
+                    "leftLabel":  "Личные (кто)",
+                    "rightLabel":  "Притяжательные (чей)",
+                    "rows":  [
+                                 {
+                                     "left":  "I am a punk.",
+                                     "right":  "This is my music."
+                                 },
+                                 {
+                                     "left":  "You are the system.",
+                                     "right":  "This is your problem."
+                                 },
+                                 {
+                                     "left":  "He is a musician.",
+                                     "right":  "This is his guitar."
+                                 },
+                                 {
+                                     "left":  "She is a singer.",
+                                     "right":  "This is her voice."
+                                 },
+                                 {
+                                     "left":  "We are the people.",
+                                     "right":  "This is our music."
+                                 },
+                                 {
+                                     "left":  "They are the system.",
+                                     "right":  "This is their problem."
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "I, you, he, she, it, we, they — кто?",
+                 "my, your, his, her, its, our, their — чей?",
+                 "this — для близких предметов, that — для далёких.",
+                 "these — для близких предметов во множественном числе, those — для далёких.",
+                 "Перед существительным всегда притяжательное местоимение: my music, not mine music.",
+                 "В вопросах местоимение ставится после глагола: Are you a punk?",
+                 "Запомни: I am, you are, he is, she is, it is, we are, they are."
+             ],
+    "related":  [
+                    "a1-verb-to-be",
+                    "a1-nouns",
+                    "a1-questions"
+                ],
+    "quiz":  [
+                 {
+                     "q":  "___ am a punk.",
+                     "options":  [
+                                     "I",
+                                     "You",
+                                     "He",
+                                     "She"
+                                 ],
+                     "answer":  0,
+                     "why":  "С I используется am."
+                 },
+                 {
+                     "q":  "___ is a musician. ___ plays guitar.",
+                     "options":  [
+                                     "He, He",
+                                     "She, She",
+                                     "I, I",
+                                     "You, You"
+                                 ],
+                     "answer":  0,
+                     "why":  "Музыкант — мужской род, поэтому he."
+                 },
+                 {
+                     "q":  "This is ___ band.",
+                     "options":  [
+                                     "my",
+                                     "mine",
+                                     "I",
+                                     "me"
+                                 ],
+                     "answer":  0,
+                     "why":  "Перед существительным my, а не mine."
+                 },
+                 {
+                     "q":  "___ are the system. This is ___ problem.",
+                     "options":  [
+                                     "They, their",
+                                     "They, they",
+                                     "Their, they",
+                                     "Their, their"
+                                 ],
+                     "answer":  0,
+                     "why":  "Личные — they, притяжательные — their."
+                 },
+                 {
+                     "q":  "___ you a punk?",
+                     "options":  [
+                                     "Am",
+                                     "Is",
+                                     "Are",
+                                     "Be"
+                                 ],
+                     "answer":  2,
+                     "why":  "С you используется are."
+                 },
+                 {
+                     "q":  "___ is a singer. ___ has a great voice.",
+                     "options":  [
+                                     "He, He",
+                                     "She, She",
+                                     "I, I",
+                                     "You, You"
+                                 ],
+                     "answer":  1,
+                     "why":  "Певица — женский род, поэтому she."
+                 }
+             ]
 }

@@ -1,181 +1,390 @@
-{
-  "variant": "rocknroll",
-  "slug": "a1-articles-a-an",
-  "level": "A1",
-  "title": "Артикли a / an",
-  "category": "Grammar",
-  "readingTime": 8,
-  "summary": "Артикли a и an — неопределённый артикль в английском языке. История о том, как The Rolling Stones взяли своё название.",
-  "idea": [
-    "The Rolling Stones — это артикль + существительное. Артикль «The» делает название определённым. Это не просто «rolling stones» (какие-то катящиеся камни), а «The Rolling Stones» — те самые, единственные и неповторимые. Без артикля название теряет свою силу. The Rolling Stones знали, что артикль может изменить всё.",
-    "В английском языке есть два неопределённых артикля: a и an. Они используются, когда мы говорим о чём-то впервые или о чём-то одном из многих. a используется перед согласным звуком: a song, a guitar. an используется перед гласным звуком: an album, an artist. Выбор зависит от звука, а не от буквы.",
-    "The Rolling Stones стали символом рока. Их название с артиклем «The» звучит мощно и определённо. Артикли — это ключ к пониманию английского языка."
-  ],
-  "why": [
-    "Артикли помогают понять, говорим ли мы о чём-то конкретном или неопределённом",
-    "a и an используются, когда мы говорим о чём-то впервые",
-    "Правильный выбор артикля делает речь грамотной",
-    "Без артиклей английский язык звучит неестественно"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Mick Jagger: 'We are The Rolling Stones. We are not just stones. We are the greatest rock band in the world.'",
-        "ru": "Мик Джаггер: «Мы — The Rolling Stones. Мы не просто камни. Мы — величайшая рок-группа в мире»." },
-      { "en": "Keith Richards: 'A song, an album, a concert — we play rock 'n' roll. The Rolling Stones is a legend.'",
-        "ru": "Кит Ричардс: «Песня, альбом, концерт — мы играем рок-н-ролл. The Rolling Stones — это легенда»." }
-    ],
-    "note": "a — перед согласным звуком, an — перед гласным. a song, an album."
-  },
-  "russianAngle": [
-    "В русском языке нет артиклей. Мы говорим «песня», не различая «a song» и «the song».",
-    "В английском языке a/an — это «какой-то», «один из». The — это «тот самый».",
-    "Ошибка: I have guitar — неправильно! Нужно: I have a guitar.",
-    "Запомни: a + согласный звук, an + гласный звук."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Запомни: a — перед согласным звуком: a song, a guitar.",
-      "an — перед гласным звуком: an album, an artist.",
-      "Используй a/an, когда говоришь о чём-то впервые.",
-      "С неисчисляемыми существительными a/an не используется: I have music.",
-      "С профессиями всегда a/an: I am a musician.",
-      "Сделай упражнение и сверься с ответами."
-    ],
-    "exercise": {
-      "prompt": "Вставьте a или an:",
-      "items": [
-        { "q": "I have ___ guitar.", "a": "a" },
-        { "q": "This is ___ album.", "a": "an" },
-        { "q": "She is ___ artist.", "a": "an" },
-        { "q": "He is ___ musician.", "a": "a" },
-        { "q": "It is ___ song.", "a": "a" }
-      ]
-    }
-  },
-  "rules": [
-    { "title": "a — перед согласным звуком",
-      "text": "a + согласный звук: a song, a guitar, a concert." },
-    { "title": "an — перед гласным звуком",
-      "text": "an + гласный звук: an album, an artist, an encore." },
-    { "title": "Когда не используется",
-      "text": "a/an не используется с неисчисляемыми существительными: music, rock, information." }
-  ],
-  "examples": [
-    {
-      "group": "a — перед согласным звуком",
-      "items": [
-        { "en": "a song. The Rolling Stones play a song on stage.", "ru": "песня. The Rolling Stones играют песню на сцене.", "highlight": ["a song"] },
-        { "en": "a guitar. Keith Richards plays a guitar.", "ru": "гитара. Кит Ричардс играет на гитаре.", "highlight": ["a guitar"] },
-        { "en": "a concert. They give a concert in London.", "ru": "концерт. Они дают концерт в Лондоне.", "highlight": ["a concert"] }
-      ]
-    },
-    {
-      "group": "an — перед гласным звуком",
-      "items": [
-        { "en": "an album. The Rolling Stones release an album.", "ru": "альбом. The Rolling Stones выпускают альбом.", "highlight": ["an album"] },
-        { "en": "an artist. Mick Jagger is an artist.", "ru": "артист. Мик Джаггер — артист.", "highlight": ["an artist"] },
-        { "en": "an encore. The crowd wants an encore.", "ru": "бис. Толпа хочет бис.", "highlight": ["an encore"] }
-      ]
-    },
-    {
-      "group": "a vs an — сравнение",
-      "items": [
-        { "en": "a song (sounds like /s/)", "ru": "песня (звук /s/)", "highlight": ["a song"] },
-        { "en": "an album (sounds like /æ/)", "ru": "альбом (звук /æ/)", "highlight": ["an album"] },
-        { "en": "a guitar (sounds like /g/)", "ru": "гитара (звук /g/)", "highlight": ["a guitar"] },
-        { "en": "an artist (sounds like /ɑː/)", "ru": "артист (звук /ɑː/)", "highlight": ["an artist"] }
-      ]
-    },
-    {
-      "group": "Профессии — всегда a/an",
-      "items": [
-        { "en": "Mick Jagger is a singer.", "ru": "Мик Джаггер — певец.", "highlight": ["a singer"] },
-        { "en": "Keith Richards is a guitarist.", "ru": "Кит Ричардс — гитарист.", "highlight": ["a guitarist"] },
-        { "en": "He is an artist.", "ru": "Он артист.", "highlight": ["an artist"] }
-      ]
-    },
-    {
-      "group": "Без артикля — неисчисляемые",
-      "items": [
-        { "en": "They play music. Music is their life.", "ru": "Они играют музыку. Музыка — их жизнь.", "highlight": ["music"] },
-        { "en": "They have information about the tour.", "ru": "У них есть информация о туре.", "highlight": ["information"] },
-        { "en": "Rock is their style. They love rock.", "ru": "Рок — их стиль. Они любят рок.", "highlight": ["rock"] }
-      ]
-    },
-    {
-      "group": "Вопросы и ответы",
-      "items": [
-        { "en": "Do you have a guitar? — Yes, I have a guitar.", "ru": "У тебя есть гитара? — Да, у меня есть гитара.", "highlight": ["a guitar"] },
-        { "en": "Is this an album? — Yes, this is an album.", "ru": "Это альбом? — Да, это альбом.", "highlight": ["an album"] },
-        { "en": "Do you need an encore? — Yes, we need an encore.", "ru": "Вам нужен бис? — Да, нам нужен бис.", "highlight": ["an encore"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "I have guitar.", "right": "I have a guitar.", "note": "a перед согласным звуком." },
-    { "wrong": "I have a album.", "right": "I have an album.", "note": "album начинается с гласного звука." },
-    { "wrong": "I have an guitar.", "right": "I have a guitar.", "note": "guitar начинается с согласного звука." },
-    { "wrong": "I have a artist.", "right": "I have an artist.", "note": "artist начинается с гласного звука." },
-    { "wrong": "I have a music.", "right": "I have music.", "note": "music — неисчисляемое, артикль не нужен." },
-    { "wrong": "I have a information.", "right": "I have information.", "note": "information — неисчисляемое, артикль не нужен." }
-  ],
-  "compare": {
-    "title": "a vs an",
-    "leftLabel": "a (согласный звук)",
-    "rightLabel": "an (гласный звук)",
-    "rows": [
-      { "left": "a song", "right": "an album" },
-      { "left": "a guitar", "right": "an artist" },
-      { "left": "a concert", "right": "an encore" },
-      { "left": "a singer", "right": "an artist" }
-    ]
-  },
-  "tips": [
-    "a — перед согласным звуком: a song.",
-    "an — перед гласным звуком: an album.",
-    "Запомни: звук, а не буква. an hour (h не произносится).",
-    "Не используется с неисчисляемыми: music, rock.",
-    "С профессиями всегда a/an: I am a musician.",
-    "В вопросах: Do you have a guitar?",
-    "Проверяй себя: какой звук? Согласный → a, гласный → an."
-  ],
-  "related": ["a1-nouns", "a1-plural-nouns", "a1-verb-to-be"],
-  "quiz": [
-    {
-      "q": "I have ___ guitar.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": 0,
-      "why": "guitar начинается с согласного звука → a."
-    },
-    {
-      "q": "This is ___ album.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": 1,
-      "why": "album начинается с гласного звука → an."
-    },
-    {
-      "q": "She is ___ artist.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": 1,
-      "why": "artist начинается с гласного звука → an."
-    },
-    {
-      "q": "He is ___ musician.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": 0,
-      "why": "musician начинается с согласного звука → a."
-    },
-    {
-      "q": "I have ___ music.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": 3,
-      "why": "music — неисчисляемое, артикль не нужен."
-    },
-    {
-      "q": "He is ___ artist.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": 1,
-      "why": "artist начинается с гласного звука → an."
-    }
-  ]
+﻿{
+    "variant":  "rocknroll",
+    "slug":  "a1-articles-a-an",
+    "level":  "A1",
+    "title":  "Articles A / An",
+    "category":  "Grammar",
+    "readingTime":  8,
+    "summary":  "Неопределённые артикли a и an. Беатрис Поттер и The Rolling Stones.",
+    "idea":  [
+                 "The Rolling Stones — это артикль + существительное. Артикль «The» делает название определённым. Это не просто «rolling stones» (какие-то катящиеся камни), а «The Rolling Stones» — те самые, единственные и неповторимые. Без артикля название теряет свою силу. The Rolling Stones знали, что артикль может изменить всё.",
+                 "В английском языке есть два неопределённых артикля: a и an. Они используются, когда мы говорим о чём-то впервые или о чём-то одном из многих. a используется перед согласным звуком: a song, a guitar. an используется перед гласным звуком: an album, an artist. Выбор зависит от звука, а не от буквы.",
+                 "The Rolling Stones стали символом рока. Их название с артиклем «The» звучит мощно и определённо. Артикли — это ключ к пониманию английского языка."
+             ],
+    "why":  [
+                "Артикли помогают понять, говорим ли мы о чём-то конкретном или неопределённом",
+                "a и an используются, когда мы говорим о чём-то впервые",
+                "Правильный выбор артикля делает речь грамотной",
+                "Без артиклей английский язык звучит неестественно"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Mick Jagger: \u0027We are The Rolling Stones. We are not just stones. We are the greatest rock band in the world.\u0027",
+                                      "ru":  "Мик Джаггер: «Мы — The Rolling Stones. Мы не просто камни. Мы — величайшая рок-группа в мире»."
+                                  },
+                                  {
+                                      "en":  "Keith Richards: \u0027A song, an album, a concert — we play rock \u0027n\u0027 roll. The Rolling Stones is a legend.\u0027",
+                                      "ru":  "Кит Ричардс: «Песня, альбом, концерт — мы играем рок-н-ролл. The Rolling Stones — это легенда»."
+                                  }
+                              ],
+                    "note":  "a — перед согласным звуком, an — перед гласным. a song, an album."
+                },
+    "russianAngle":  [
+                         "В русском языке нет артиклей. Мы говорим «песня», не различая «a song» и «the song».",
+                         "В английском языке a/an — это «какой-то», «один из». The — это «тот самый».",
+                         "Ошибка: I have guitar — неправильно! Нужно: I have a guitar.",
+                         "Запомни: a + согласный звук, an + гласный звук."
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Запомни: a — перед согласным звуком: a song, a guitar.",
+                                     "an — перед гласным звуком: an album, an artist.",
+                                     "Используй a/an, когда говоришь о чём-то впервые.",
+                                     "С неисчисляемыми существительными a/an не используется: I have music.",
+                                     "С профессиями всегда a/an: I am a musician.",
+                                     "Сделай упражнение и сверься с ответами."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Вставьте a или an:",
+                                        "items":  [
+                                                      {
+                                                          "q":  "I have ___ guitar.",
+                                                          "a":  "a"
+                                                      },
+                                                      {
+                                                          "q":  "This is ___ album.",
+                                                          "a":  "an"
+                                                      },
+                                                      {
+                                                          "q":  "She is ___ artist.",
+                                                          "a":  "an"
+                                                      },
+                                                      {
+                                                          "q":  "He is ___ musician.",
+                                                          "a":  "a"
+                                                      },
+                                                      {
+                                                          "q":  "It is ___ song.",
+                                                          "a":  "a"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "rules":  [
+                  {
+                      "title":  "a — перед согласным звуком",
+                      "text":  "a + согласный звук: a song, a guitar, a concert."
+                  },
+                  {
+                      "title":  "an — перед гласным звуком",
+                      "text":  "an + гласный звук: an album, an artist, an encore."
+                  },
+                  {
+                      "title":  "Когда не используется",
+                      "text":  "a/an не используется с неисчисляемыми существительными: music, rock, information."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "a — перед согласным звуком",
+                         "items":  [
+                                       {
+                                           "en":  "a song. The Rolling Stones play a song on stage.",
+                                           "ru":  "песня. The Rolling Stones играют песню на сцене.",
+                                           "highlight":  [
+                                                             "a song"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a guitar. Keith Richards plays a guitar.",
+                                           "ru":  "гитара. Кит Ричардс играет на гитаре.",
+                                           "highlight":  [
+                                                             "a guitar"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a concert. They give a concert in London.",
+                                           "ru":  "концерт. Они дают концерт в Лондоне.",
+                                           "highlight":  [
+                                                             "a concert"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "an — перед гласным звуком",
+                         "items":  [
+                                       {
+                                           "en":  "an album. The Rolling Stones release an album.",
+                                           "ru":  "альбом. The Rolling Stones выпускают альбом.",
+                                           "highlight":  [
+                                                             "an album"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "an artist. Mick Jagger is an artist.",
+                                           "ru":  "артист. Мик Джаггер — артист.",
+                                           "highlight":  [
+                                                             "an artist"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "an encore. The crowd wants an encore.",
+                                           "ru":  "бис. Толпа хочет бис.",
+                                           "highlight":  [
+                                                             "an encore"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "a vs an — сравнение",
+                         "items":  [
+                                       {
+                                           "en":  "a song (sounds like /s/)",
+                                           "ru":  "песня (звук /s/)",
+                                           "highlight":  [
+                                                             "a song"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "an album (sounds like /æ/)",
+                                           "ru":  "альбом (звук /æ/)",
+                                           "highlight":  [
+                                                             "an album"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a guitar (sounds like /g/)",
+                                           "ru":  "гитара (звук /g/)",
+                                           "highlight":  [
+                                                             "a guitar"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "an artist (sounds like /ɑː/)",
+                                           "ru":  "артист (звук /ɑː/)",
+                                           "highlight":  [
+                                                             "an artist"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Профессии — всегда a/an",
+                         "items":  [
+                                       {
+                                           "en":  "Mick Jagger is a singer.",
+                                           "ru":  "Мик Джаггер — певец.",
+                                           "highlight":  [
+                                                             "a singer"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Keith Richards is a guitarist.",
+                                           "ru":  "Кит Ричардс — гитарист.",
+                                           "highlight":  [
+                                                             "a guitarist"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He is an artist.",
+                                           "ru":  "Он артист.",
+                                           "highlight":  [
+                                                             "an artist"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Без артикля — неисчисляемые",
+                         "items":  [
+                                       {
+                                           "en":  "They play music. Music is their life.",
+                                           "ru":  "Они играют музыку. Музыка — их жизнь.",
+                                           "highlight":  [
+                                                             "music"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "They have information about the tour.",
+                                           "ru":  "У них есть информация о туре.",
+                                           "highlight":  [
+                                                             "information"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Rock is their style. They love rock.",
+                                           "ru":  "Рок — их стиль. Они любят рок.",
+                                           "highlight":  [
+                                                             "rock"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вопросы и ответы",
+                         "items":  [
+                                       {
+                                           "en":  "Do you have a guitar? — Yes, I have a guitar.",
+                                           "ru":  "У тебя есть гитара? — Да, у меня есть гитара.",
+                                           "highlight":  [
+                                                             "a guitar"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Is this an album? — Yes, this is an album.",
+                                           "ru":  "Это альбом? — Да, это альбом.",
+                                           "highlight":  [
+                                                             "an album"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Do you need an encore? — Yes, we need an encore.",
+                                           "ru":  "Вам нужен бис? — Да, нам нужен бис.",
+                                           "highlight":  [
+                                                             "an encore"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "I have guitar.",
+                         "right":  "I have a guitar.",
+                         "note":  "a перед согласным звуком."
+                     },
+                     {
+                         "wrong":  "I have a album.",
+                         "right":  "I have an album.",
+                         "note":  "album начинается с гласного звука."
+                     },
+                     {
+                         "wrong":  "I have an guitar.",
+                         "right":  "I have a guitar.",
+                         "note":  "guitar начинается с согласного звука."
+                     },
+                     {
+                         "wrong":  "I have a artist.",
+                         "right":  "I have an artist.",
+                         "note":  "artist начинается с гласного звука."
+                     },
+                     {
+                         "wrong":  "I have a music.",
+                         "right":  "I have music.",
+                         "note":  "music — неисчисляемое, артикль не нужен."
+                     },
+                     {
+                         "wrong":  "I have a information.",
+                         "right":  "I have information.",
+                         "note":  "information — неисчисляемое, артикль не нужен."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "a vs an",
+                    "leftLabel":  "a (согласный звук)",
+                    "rightLabel":  "an (гласный звук)",
+                    "rows":  [
+                                 {
+                                     "left":  "a song",
+                                     "right":  "an album"
+                                 },
+                                 {
+                                     "left":  "a guitar",
+                                     "right":  "an artist"
+                                 },
+                                 {
+                                     "left":  "a concert",
+                                     "right":  "an encore"
+                                 },
+                                 {
+                                     "left":  "a singer",
+                                     "right":  "an artist"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "a — перед согласным звуком: a song.",
+                 "an — перед гласным звуком: an album.",
+                 "Запомни: звук, а не буква. an hour (h не произносится).",
+                 "Не используется с неисчисляемыми: music, rock.",
+                 "С профессиями всегда a/an: I am a musician.",
+                 "В вопросах: Do you have a guitar?",
+                 "Проверяй себя: какой звук? Согласный → a, гласный → an."
+             ],
+    "related":  [
+                    "a1-nouns",
+                    "a1-plural-nouns",
+                    "a1-verb-to-be"
+                ],
+    "quiz":  [
+                 {
+                     "q":  "I have ___ guitar.",
+                     "options":  [
+                                     "a",
+                                     "an",
+                                     "the",
+                                     "no article"
+                                 ],
+                     "answer":  0,
+                     "why":  "guitar начинается с согласного звука → a."
+                 },
+                 {
+                     "q":  "This is ___ album.",
+                     "options":  [
+                                     "a",
+                                     "an",
+                                     "the",
+                                     "no article"
+                                 ],
+                     "answer":  1,
+                     "why":  "album начинается с гласного звука → an."
+                 },
+                 {
+                     "q":  "She is ___ artist.",
+                     "options":  [
+                                     "a",
+                                     "an",
+                                     "the",
+                                     "no article"
+                                 ],
+                     "answer":  1,
+                     "why":  "artist начинается с гласного звука → an."
+                 },
+                 {
+                     "q":  "He is ___ musician.",
+                     "options":  [
+                                     "a",
+                                     "an",
+                                     "the",
+                                     "no article"
+                                 ],
+                     "answer":  0,
+                     "why":  "musician начинается с согласного звука → a."
+                 },
+                 {
+                     "q":  "I have ___ music.",
+                     "options":  [
+                                     "a",
+                                     "an",
+                                     "the",
+                                     "no article"
+                                 ],
+                     "answer":  3,
+                     "why":  "music — неисчисляемое, артикль не нужен."
+                 },
+                 {
+                     "q":  "He is ___ artist.",
+                     "options":  [
+                                     "a",
+                                     "an",
+                                     "the",
+                                     "no article"
+                                 ],
+                     "answer":  1,
+                     "why":  "artist начинается с гласного звука → an."
+                 }
+             ]
 }

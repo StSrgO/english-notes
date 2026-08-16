@@ -1,181 +1,405 @@
-{
-  "variant": "rocknroll",
-  "slug": "a1-nouns",
-  "level": "A1",
-  "title": "Существительные",
-  "category": "Grammar",
-  "readingTime": 9,
-  "summary": "Существительные — слова, которые называют людей, места, вещи и идеи. История о том, как Оззи Осборн откусил голову летучей мыши.",
-  "idea": [
-    "В 1982 году Оззи Осборн совершил один из самых известных поступков в истории рока. Он откусил голову летучей мыши. Он думал, что мышь резиновая. Мышь была настоящей. Эта история стала легендой. Существительные в этой истории: «bat» (летучая мышь), «stage» (сцена), «hospital» (больница), «rabies shots» (уколы от бешенства). Без них мы не могли бы рассказать эту историю.",
-    "Существительные — это основа языка. Они называют людей (Ozzy), места (stage), вещи (bat) и идеи (rock 'n' roll). Без них мы не могли бы сказать ни одного предложения. В английском языке существительные могут быть исчисляемыми (bat, stage, hospital) и неисчисляемыми (blood, music, information). Они могут быть в единственном числе (a bat) и во множественном (bats).",
-    "Black Sabbath знали силу слов. Их название — это существительное, которое стало символом. «Black Sabbath» — это не просто название, это культура. Существительные — это ключи к пониманию мира."
-  ],
-  "why": [
-    "Существительные — это основа языка, без них невозможно сказать ни одного предложения",
-    "Они называют людей, места, вещи и идеи",
-    "Исчисляемые и неисчисляемые существительные имеют разные правила",
-    "Знание существительных помогает строить предложения и понимать текст"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Ozzy: 'I bit the head off a bat. I thought it was a rubber toy. But it was a real bat. I went to the hospital for rabies shots.'",
-        "ru": "Оззи: «Я откусил голову летучей мыши. Я думал, это резиновая игрушка. Но это была настоящая летучая мышь. Я поехал в больницу на уколы от бешенства»." },
-      { "en": "Manager: 'Ozzy, you are a legend! A bat on the stage? This is rock 'n' roll!'",
-        "ru": "Менеджер: «Оззи, ты легенда! Летучая мышь на сцене? Это рок-н-ролл!»" }
-    ],
-    "note": "Существительные — это ключи к истории. Каждое слово — часть легенды."
-  },
-  "russianAngle": [
-    "В русском языке существительные тоже есть. Они называют людей, места, вещи и идеи.",
-    "В русском языке есть исчисляемые и неисчисляемые существительные, но в английском правила другие.",
-    "В русском языке множественное число образуется с помощью окончаний. В английском — обычно с помощью -s или -es.",
-    "Ошибка: I have a blood — неправильно! Кровь — неисчисляемое, поэтому I have blood."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Запомни: существительные называют людей, места, вещи и идеи.",
-      "Исчисляемые можно посчитать: a bat, two bats.",
-      "Неисчисляемые нельзя посчитать: blood, music, information.",
-      "Множественное число обычно образуется с -s: a bat → bats.",
-      "Исключения: a man → men, a woman → women, a child → children.",
-      "Сделай упражнение и сверься с ответами."
-    ],
-    "exercise": {
-      "prompt": "Вставьте правильную форму существительного (единственное или множественное число):",
-      "items": [
-        { "q": "Ozzy bit a ___ (bat).", "a": "bat" },
-        { "q": "There were many ___ (bat) on the stage.", "a": "bats" },
-        { "q": "He went to a ___ (hospital).", "a": "hospital" },
-        { "q": "He needed ___ (rabies shots).", "a": "rabies shots" },
-        { "q": "He had ___ (blood) on his mouth.", "a": "blood" }
-      ]
-    }
-  },
-  "rules": [
-    { "title": "Что такое существительное",
-      "text": "Существительные называют людей (Ozzy), места (stage), вещи (bat) и идеи (rock 'n' roll)." },
-    { "title": "Исчисляемые и неисчисляемые",
-      "text": "Исчисляемые можно посчитать: a bat, two bats. Неисчисляемые нельзя: blood, music, information." },
-    { "title": "Множественное число",
-      "text": "Обычно +s: a bat → bats. Исключения: a man → men, a woman → women, a child → children." }
-  ],
-  "examples": [
-    {
-      "group": "Люди",
-      "items": [
-        { "en": "Ozzy is a singer. He is the voice of Black Sabbath.", "ru": "Оззи — певец. Он голос Black Sabbath.", "highlight": ["singer", "voice"] },
-        { "en": "Tony Iommi is a guitarist. He plays heavy riffs.", "ru": "Тони Айомми — гитарист. Он играет тяжёлые риффы.", "highlight": ["guitarist", "riffs"] },
-        { "en": "Geezer Butler is a bassist. He plays bass.", "ru": "Гизер Батлер — басист. Он играет на басу.", "highlight": ["bassist", "bass"] }
-      ]
-    },
-    {
-      "group": "Места",
-      "items": [
-        { "en": "The stage is a place for rock concerts. Ozzy was on the stage.", "ru": "Сцена — это место для рок-концертов. Оззи был на сцене.", "highlight": ["stage", "place"] },
-        { "en": "The hospital is a place for sick people. Ozzy went to the hospital.", "ru": "Больница — это место для больных. Оззи поехал в больницу.", "highlight": ["hospital"] },
-        { "en": "The studio is a place for recording music. Black Sabbath recorded albums.", "ru": "Студия — это место для записи музыки. Black Sabbath записывали альбомы.", "highlight": ["studio", "albums"] }
-      ]
-    },
-    {
-      "group": "Вещи",
-      "items": [
-        { "en": "A bat is a flying animal. Ozzy bit a bat.", "ru": "Летучая мышь — это летающее животное. Оззи откусил летучую мышь.", "highlight": ["bat", "animal"] },
-        { "en": "A guitar is a musical instrument. Tony plays a guitar.", "ru": "Гитара — это музыкальный инструмент. Тони играет на гитаре.", "highlight": ["guitar", "instrument"] },
-        { "en": "A microphone is a tool for singers. Ozzy uses a microphone.", "ru": "Микрофон — это инструмент для певцов. Оззи использует микрофон.", "highlight": ["microphone", "tool"] }
-      ]
-    },
-    {
-      "group": "Идеи",
-      "items": [
-        { "en": "Rock 'n' roll is a music genre. Black Sabbath plays rock 'n' roll.", "ru": "Рок-н-ролл — это музыкальный жанр. Black Sabbath играют рок-н-ролл.", "highlight": ["genre"] },
-        { "en": "Heavy metal is a style. Black Sabbath invented heavy metal.", "ru": "Хэви-метал — это стиль. Black Sabbath изобрели хэви-метал.", "highlight": ["style"] },
-        { "en": "Legend is a story. Ozzy is a legend.", "ru": "Легенда — это история. Оззи — легенда.", "highlight": ["legend"] }
-      ]
-    },
-    {
-      "group": "Исчисляемые vs неисчисляемые",
-      "items": [
-        { "en": "I have a bat. (countable, singular)", "ru": "У меня есть летучая мышь. (исчисляемое, ед.ч.)", "highlight": ["bat"] },
-        { "en": "I have two bats. (countable, plural)", "ru": "У меня есть две летучие мыши. (исчисляемое, мн.ч.)", "highlight": ["bats"] },
-        { "en": "I have blood on my mouth. (uncountable, no plural)", "ru": "У меня кровь на губах. (неисчисляемое, нет мн.ч.)", "highlight": ["blood"] },
-        { "en": "I have music in my soul. (uncountable, no plural)", "ru": "У меня музыка в душе. (неисчисляемое, нет мн.ч.)", "highlight": ["music"] }
-      ]
-    },
-    {
-      "group": "Множественное число — исключения",
-      "items": [
-        { "en": "One man → two men. One woman → two women.", "ru": "Один мужчина → два мужчины. Одна женщина → две женщины.", "highlight": ["man", "men", "woman", "women"] },
-        { "en": "One child → two children. One person → two people.", "ru": "Один ребёнок → два ребёнка. Один человек → два человека.", "highlight": ["child", "children", "person", "people"] },
-        { "en": "One bat → two bats. (regular)", "ru": "Одна летучая мышь → две летучие мыши. (правильно)", "highlight": ["bat", "bats"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "I have a blood.", "right": "I have blood.", "note": "Blood — неисчисляемое, артикль a не нужен." },
-    { "wrong": "I have a music.", "right": "I have music.", "note": "Music — неисчисляемое, артикль a не нужен." },
-    { "wrong": "I have two bat.", "right": "I have two bats.", "note": "Во множественном числе — bats." },
-    { "wrong": "She has a bats.", "right": "She has a bat.", "note": "С a — единственное число: a bat." },
-    { "wrong": "He have a bat.", "right": "He has a bat.", "note": "С he — has, а не have." },
-    { "wrong": "I has a bat.", "right": "I have a bat.", "note": "С I — have, а не has." }
-  ],
-  "compare": {
-    "title": "Исчисляемые vs неисчисляемые",
-    "leftLabel": "Исчисляемые (можно посчитать)",
-    "rightLabel": "Неисчисляемые (нельзя посчитать)",
-    "rows": [
-      { "left": "a bat, two bats", "right": "blood" },
-      { "left": "a guitar, three guitars", "right": "music" },
-      { "left": "a stage, many stages", "right": "information" },
-      { "left": "a singer, four singers", "right": "rock 'n' roll" }
-    ]
-  },
-  "tips": [
-    "Существительные называют людей, места, вещи и идеи.",
-    "Исчисляемые можно посчитать: a bat, two bats.",
-    "Неисчисляемые нельзя: blood, music, information.",
-    "Множественное число обычно +s: a bat → bats.",
-    "Исключения: man → men, woman → women, child → children.",
-    "С неисчисляемыми не используется a/an.",
-    "Запомни: I have blood (не a blood)."
-  ],
-  "related": ["a1-verb-to-be", "a1-pronouns", "a1-plural-nouns"],
-  "quiz": [
-    {
-      "q": "Ozzy is a ___.",
-      "options": ["singer", "singers", "singer's", "singing"],
-      "answer": 0,
-      "why": "Единственное число — a singer."
-    },
-    {
-      "q": "He bit two ___.",
-      "options": ["bat", "bats", "bat's", "bating"],
-      "answer": 1,
-      "why": "Множественное число — bats."
-    },
-    {
-      "q": "He had ___ on his mouth.",
-      "options": ["a blood", "blood", "bloods", "the blood"],
-      "answer": 1,
-      "why": "Blood — неисчисляемое, артикль не нужен."
-    },
-    {
-      "q": "One man → two ___.",
-      "options": ["mans", "men", "man's", "mens"],
-      "answer": 1,
-      "why": "Исключение: man → men."
-    },
-    {
-      "q": "She has a ___.",
-      "options": ["bats", "bat", "bat's", "bating"],
-      "answer": 1,
-      "why": "С a — единственное число: a bat."
-    },
-    {
-      "q": "I have ___ music.",
-      "options": ["a", "an", "the", "no article"],
-      "answer": 3,
-      "why": "Music — неисчисляемое, артикль не нужен."
-    }
-  ]
+﻿{
+    "variant":  "rocknroll",
+    "slug":  "a1-nouns",
+    "level":  "A1",
+    "title":  "Nouns",
+    "category":  "Grammar",
+    "readingTime":  9,
+    "summary":  "Существительные: общие, собственные, единственное и множественное число. Джоан Роулинг и Black Sabbath.",
+    "idea":  [
+                 "В 1982 году Оззи Осборн совершил один из самых известных поступков в истории рока. Он откусил голову летучей мыши. Он думал, что мышь резиновая. Мышь была настоящей. Эта история стала легендой. Существительные в этой истории: «bat» (летучая мышь), «stage» (сцена), «hospital» (больница), «rabies shots» (уколы от бешенства). Без них мы не могли бы рассказать эту историю.",
+                 "Существительные — это основа языка. Они называют людей (Ozzy), места (stage), вещи (bat) и идеи (rock \u0027n\u0027 roll). Без них мы не могли бы сказать ни одного предложения. В английском языке существительные могут быть исчисляемыми (bat, stage, hospital) и неисчисляемыми (blood, music, information). Они могут быть в единственном числе (a bat) и во множественном (bats).",
+                 "Black Sabbath знали силу слов. Их название — это существительное, которое стало символом. «Black Sabbath» — это не просто название, это культура. Существительные — это ключи к пониманию мира."
+             ],
+    "why":  [
+                "Существительные — это основа языка, без них невозможно сказать ни одного предложения",
+                "Они называют людей, места, вещи и идеи",
+                "Исчисляемые и неисчисляемые существительные имеют разные правила",
+                "Знание существительных помогает строить предложения и понимать текст"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Ozzy: \u0027I bit the head off a bat. I thought it was a rubber toy. But it was a real bat. I went to the hospital for rabies shots.\u0027",
+                                      "ru":  "Оззи: «Я откусил голову летучей мыши. Я думал, это резиновая игрушка. Но это была настоящая летучая мышь. Я поехал в больницу на уколы от бешенства»."
+                                  },
+                                  {
+                                      "en":  "Manager: \u0027Ozzy, you are a legend! A bat on the stage? This is rock \u0027n\u0027 roll!\u0027",
+                                      "ru":  "Менеджер: «Оззи, ты легенда! Летучая мышь на сцене? Это рок-н-ролл!»"
+                                  }
+                              ],
+                    "note":  "Существительные — это ключи к истории. Каждое слово — часть легенды."
+                },
+    "russianAngle":  [
+                         "В русском языке существительные тоже есть. Они называют людей, места, вещи и идеи.",
+                         "В русском языке есть исчисляемые и неисчисляемые существительные, но в английском правила другие.",
+                         "В русском языке множественное число образуется с помощью окончаний. В английском — обычно с помощью -s или -es.",
+                         "Ошибка: I have a blood — неправильно! Кровь — неисчисляемое, поэтому I have blood."
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Запомни: существительные называют людей, места, вещи и идеи.",
+                                     "Исчисляемые можно посчитать: a bat, two bats.",
+                                     "Неисчисляемые нельзя посчитать: blood, music, information.",
+                                     "Множественное число обычно образуется с -s: a bat → bats.",
+                                     "Исключения: a man → men, a woman → women, a child → children.",
+                                     "Сделай упражнение и сверься с ответами."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Вставьте правильную форму существительного (единственное или множественное число):",
+                                        "items":  [
+                                                      {
+                                                          "q":  "Ozzy bit a ___ (bat).",
+                                                          "a":  "bat"
+                                                      },
+                                                      {
+                                                          "q":  "There were many ___ (bat) on the stage.",
+                                                          "a":  "bats"
+                                                      },
+                                                      {
+                                                          "q":  "He went to a ___ (hospital).",
+                                                          "a":  "hospital"
+                                                      },
+                                                      {
+                                                          "q":  "He needed ___ (rabies shots).",
+                                                          "a":  "rabies shots"
+                                                      },
+                                                      {
+                                                          "q":  "He had ___ (blood) on his mouth.",
+                                                          "a":  "blood"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "rules":  [
+                  {
+                      "title":  "Что такое существительное",
+                      "text":  "Существительные называют людей (Ozzy), места (stage), вещи (bat) и идеи (rock \u0027n\u0027 roll)."
+                  },
+                  {
+                      "title":  "Исчисляемые и неисчисляемые",
+                      "text":  "Исчисляемые можно посчитать: a bat, two bats. Неисчисляемые нельзя: blood, music, information."
+                  },
+                  {
+                      "title":  "Множественное число",
+                      "text":  "Обычно +s: a bat → bats. Исключения: a man → men, a woman → women, a child → children."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Люди",
+                         "items":  [
+                                       {
+                                           "en":  "Ozzy is a singer. He is the voice of Black Sabbath.",
+                                           "ru":  "Оззи — певец. Он голос Black Sabbath.",
+                                           "highlight":  [
+                                                             "singer",
+                                                             "voice"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Tony Iommi is a guitarist. He plays heavy riffs.",
+                                           "ru":  "Тони Айомми — гитарист. Он играет тяжёлые риффы.",
+                                           "highlight":  [
+                                                             "guitarist",
+                                                             "riffs"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Geezer Butler is a bassist. He plays bass.",
+                                           "ru":  "Гизер Батлер — басист. Он играет на басу.",
+                                           "highlight":  [
+                                                             "bassist",
+                                                             "bass"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Места",
+                         "items":  [
+                                       {
+                                           "en":  "The stage is a place for rock concerts. Ozzy was on the stage.",
+                                           "ru":  "Сцена — это место для рок-концертов. Оззи был на сцене.",
+                                           "highlight":  [
+                                                             "stage",
+                                                             "place"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The hospital is a place for sick people. Ozzy went to the hospital.",
+                                           "ru":  "Больница — это место для больных. Оззи поехал в больницу.",
+                                           "highlight":  [
+                                                             "hospital"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The studio is a place for recording music. Black Sabbath recorded albums.",
+                                           "ru":  "Студия — это место для записи музыки. Black Sabbath записывали альбомы.",
+                                           "highlight":  [
+                                                             "studio",
+                                                             "albums"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вещи",
+                         "items":  [
+                                       {
+                                           "en":  "A bat is a flying animal. Ozzy bit a bat.",
+                                           "ru":  "Летучая мышь — это летающее животное. Оззи откусил летучую мышь.",
+                                           "highlight":  [
+                                                             "bat",
+                                                             "animal"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "A guitar is a musical instrument. Tony plays a guitar.",
+                                           "ru":  "Гитара — это музыкальный инструмент. Тони играет на гитаре.",
+                                           "highlight":  [
+                                                             "guitar",
+                                                             "instrument"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "A microphone is a tool for singers. Ozzy uses a microphone.",
+                                           "ru":  "Микрофон — это инструмент для певцов. Оззи использует микрофон.",
+                                           "highlight":  [
+                                                             "microphone",
+                                                             "tool"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Идеи",
+                         "items":  [
+                                       {
+                                           "en":  "Rock \u0027n\u0027 roll is a music genre. Black Sabbath plays rock \u0027n\u0027 roll.",
+                                           "ru":  "Рок-н-ролл — это музыкальный жанр. Black Sabbath играют рок-н-ролл.",
+                                           "highlight":  [
+                                                             "genre"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Heavy metal is a style. Black Sabbath invented heavy metal.",
+                                           "ru":  "Хэви-метал — это стиль. Black Sabbath изобрели хэви-метал.",
+                                           "highlight":  [
+                                                             "style"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Legend is a story. Ozzy is a legend.",
+                                           "ru":  "Легенда — это история. Оззи — легенда.",
+                                           "highlight":  [
+                                                             "legend"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Исчисляемые vs неисчисляемые",
+                         "items":  [
+                                       {
+                                           "en":  "I have a bat. (countable, singular)",
+                                           "ru":  "У меня есть летучая мышь. (исчисляемое, ед.ч.)",
+                                           "highlight":  [
+                                                             "bat"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "I have two bats. (countable, plural)",
+                                           "ru":  "У меня есть две летучие мыши. (исчисляемое, мн.ч.)",
+                                           "highlight":  [
+                                                             "bats"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "I have blood on my mouth. (uncountable, no plural)",
+                                           "ru":  "У меня кровь на губах. (неисчисляемое, нет мн.ч.)",
+                                           "highlight":  [
+                                                             "blood"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "I have music in my soul. (uncountable, no plural)",
+                                           "ru":  "У меня музыка в душе. (неисчисляемое, нет мн.ч.)",
+                                           "highlight":  [
+                                                             "music"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Множественное число — исключения",
+                         "items":  [
+                                       {
+                                           "en":  "One man → two men. One woman → two women.",
+                                           "ru":  "Один мужчина → два мужчины. Одна женщина → две женщины.",
+                                           "highlight":  [
+                                                             "man",
+                                                             "men",
+                                                             "woman",
+                                                             "women"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "One child → two children. One person → two people.",
+                                           "ru":  "Один ребёнок → два ребёнка. Один человек → два человека.",
+                                           "highlight":  [
+                                                             "child",
+                                                             "children",
+                                                             "person",
+                                                             "people"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "One bat → two bats. (regular)",
+                                           "ru":  "Одна летучая мышь → две летучие мыши. (правильно)",
+                                           "highlight":  [
+                                                             "bat",
+                                                             "bats"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "I have a blood.",
+                         "right":  "I have blood.",
+                         "note":  "Blood — неисчисляемое, артикль a не нужен."
+                     },
+                     {
+                         "wrong":  "I have a music.",
+                         "right":  "I have music.",
+                         "note":  "Music — неисчисляемое, артикль a не нужен."
+                     },
+                     {
+                         "wrong":  "I have two bat.",
+                         "right":  "I have two bats.",
+                         "note":  "Во множественном числе — bats."
+                     },
+                     {
+                         "wrong":  "She has a bats.",
+                         "right":  "She has a bat.",
+                         "note":  "С a — единственное число: a bat."
+                     },
+                     {
+                         "wrong":  "He have a bat.",
+                         "right":  "He has a bat.",
+                         "note":  "С he — has, а не have."
+                     },
+                     {
+                         "wrong":  "I has a bat.",
+                         "right":  "I have a bat.",
+                         "note":  "С I — have, а не has."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Исчисляемые vs неисчисляемые",
+                    "leftLabel":  "Исчисляемые (можно посчитать)",
+                    "rightLabel":  "Неисчисляемые (нельзя посчитать)",
+                    "rows":  [
+                                 {
+                                     "left":  "a bat, two bats",
+                                     "right":  "blood"
+                                 },
+                                 {
+                                     "left":  "a guitar, three guitars",
+                                     "right":  "music"
+                                 },
+                                 {
+                                     "left":  "a stage, many stages",
+                                     "right":  "information"
+                                 },
+                                 {
+                                     "left":  "a singer, four singers",
+                                     "right":  "rock \u0027n\u0027 roll"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "Существительные называют людей, места, вещи и идеи.",
+                 "Исчисляемые можно посчитать: a bat, two bats.",
+                 "Неисчисляемые нельзя: blood, music, information.",
+                 "Множественное число обычно +s: a bat → bats.",
+                 "Исключения: man → men, woman → women, child → children.",
+                 "С неисчисляемыми не используется a/an.",
+                 "Запомни: I have blood (не a blood)."
+             ],
+    "related":  [
+                    "a1-verb-to-be",
+                    "a1-pronouns",
+                    "a1-plural-nouns"
+                ],
+    "quiz":  [
+                 {
+                     "q":  "Ozzy is a ___.",
+                     "options":  [
+                                     "singer",
+                                     "singers",
+                                     "singer\u0027s",
+                                     "singing"
+                                 ],
+                     "answer":  0,
+                     "why":  "Единственное число — a singer."
+                 },
+                 {
+                     "q":  "He bit two ___.",
+                     "options":  [
+                                     "bat",
+                                     "bats",
+                                     "bat\u0027s",
+                                     "bating"
+                                 ],
+                     "answer":  1,
+                     "why":  "Множественное число — bats."
+                 },
+                 {
+                     "q":  "He had ___ on his mouth.",
+                     "options":  [
+                                     "a blood",
+                                     "blood",
+                                     "bloods",
+                                     "the blood"
+                                 ],
+                     "answer":  1,
+                     "why":  "Blood — неисчисляемое, артикль не нужен."
+                 },
+                 {
+                     "q":  "One man → two ___.",
+                     "options":  [
+                                     "mans",
+                                     "men",
+                                     "man\u0027s",
+                                     "mens"
+                                 ],
+                     "answer":  1,
+                     "why":  "Исключение: man → men."
+                 },
+                 {
+                     "q":  "She has a ___.",
+                     "options":  [
+                                     "bats",
+                                     "bat",
+                                     "bat\u0027s",
+                                     "bating"
+                                 ],
+                     "answer":  1,
+                     "why":  "С a — единственное число: a bat."
+                 },
+                 {
+                     "q":  "I have ___ music.",
+                     "options":  [
+                                     "a",
+                                     "an",
+                                     "the",
+                                     "no article"
+                                 ],
+                     "answer":  3,
+                     "why":  "Music — неисчисляемое, артикль не нужен."
+                 }
+             ]
 }

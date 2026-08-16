@@ -1,234 +1,637 @@
-{
-  "variant": "rocknroll",
-  "slug": "numbers-dates-time",
-  "level": "A0",
-  "title": "Числа, даты и время",
-  "category": "Basics",
-  "readingTime": 9,
-  "summary": "Как считать, называть даты и говорить о времени в английском языке. История о том, как сентябрь стал символом памяти для Green Day.",
-  "idea": [
-    "Green Day записали «Wake Me Up When September Ends» в 2004 году. Сентябрь 1982 года — месяц, когда умер отец Билли Джо Армстронга. Для него сентябрь — это символ памяти и потери. В песне он поёт о времени, которое не остановить: «Summer has come and passed, the innocent can never last» (Лето пришло и прошло, невинность никогда не может длиться вечно). Числа и даты в этой песне — это способ сохранить память.",
-    "Билли Джо Армстронг использовал числа, чтобы рассказать историю. 1982 — год смерти его отца. Сентябрь — месяц, когда это случилось. Время в этой песне — это эмоция. Когда он поёт «Wake me up when September ends», он говорит о том, что хочет пропустить боль. Числа и даты становятся символом памяти.",
-    "Числа — это основа нашей жизни. Мы считаем деньги, время, даты. В английском языке числа называются по-своему. Есть британский и американский форматы дат. Есть разные способы сказать время. Изучая числа, мы учимся ориентироваться в мире, где всё измеряется цифрами. Green Day знали это, и они использовали числа, чтобы рассказать свою историю."
-  ],
-  "numbers": [
-    { "number": "0", "word": "zero", "example": "Zero feedback on the monitor", "exampleRu": "Нулевая обратная связь на мониторе" },
-    { "number": "1", "word": "one", "example": "One guitar solo is never enough", "exampleRu": "Одно гитарное соло — никогда не достаточно" },
-    { "number": "2", "word": "two", "example": "Two guitars, bass, and drums — that's rock", "exampleRu": "Две гитары, бас и барабаны — это рок" },
-    { "number": "3", "word": "three", "example": "Three chords and the truth", "exampleRu": "Три аккорда и правда — основа панка" },
-    { "number": "4", "word": "four", "example": "Four band members on stage", "exampleRu": "Четыре участника группы на сцене" },
-    { "number": "5", "word": "five", "example": "Five-minute guitar solo", "exampleRu": "Пятиминутное гитарное соло" },
-    { "number": "6", "word": "six", "example": "Six strings on a guitar", "exampleRu": "Шесть струн на гитаре" },
-    { "number": "7", "word": "seven", "example": "Track #7 on the album", "exampleRu": "Трек номер семь на альбоме" },
-    { "number": "8", "word": "eight", "example": "Eight shows in the tour", "exampleRu": "Восемь концертов в туре" },
-    { "number": "9", "word": "nine", "example": "Nine minutes of prog epic", "exampleRu": "Девять минут прог-эпика" },
-    { "number": "10", "word": "ten", "example": "Ten thousand fans in the arena", "exampleRu": "Десять тысяч фанатов на арене" },
-    { "number": "11", "word": "eleven", "example": "Eleven tracks on the album", "exampleRu": "Одиннадцать треков на альбоме" },
-    { "number": "12", "word": "twelve", "example": "12-bar blues — the foundation of rock", "exampleRu": "12-тактовый блюз — основа рока" },
-    { "number": "13", "word": "thirteen", "example": "Thirteen years of touring", "exampleRu": "Тринадцать лет гастролей" },
-    { "number": "14", "word": "fourteen", "example": "Fourteen concerts in the UK", "exampleRu": "Четырнадцать концертов в Великобритании" },
-    { "number": "15", "word": "fifteen", "example": "Fifteen minutes of fame", "exampleRu": "Пятнадцать минут славы" },
-    { "number": "16", "word": "sixteen", "example": "Sixteen shows in the US tour", "exampleRu": "Шестнадцать шоу в американском туре" },
-    { "number": "17", "word": "seventeen", "example": "Seventeen years since the first album", "exampleRu": "Семнадцать лет с первого альбома" },
-    { "number": "18", "word": "eighteen", "example": "Eighteen holes in the tour bus schedule", "exampleRu": "Восемнадцать дыр в расписании тур-автобуса" },
-    { "number": "19", "word": "nineteen", "example": "Nineteen sixty-nine — Woodstock", "exampleRu": "1969 — Вудсток" },
-    { "number": "20", "word": "twenty", "example": "Twenty minutes of encore", "exampleRu": "Двадцать минут на бис" },
-    { "number": "30", "word": "thirty", "example": "30 years since the band formed", "exampleRu": "30 лет с момента создания группы" },
-    { "number": "40", "word": "forty", "example": "40 million records sold", "exampleRu": "40 миллионов проданных пластинок" },
-    { "number": "50", "word": "fifty", "example": "50 dates on the world tour", "exampleRu": "50 концертов в мировом туре" },
-    { "number": "60", "word": "sixty", "example": "60,000 fans at the stadium show", "exampleRu": "60,000 фанатов на стадионном шоу" },
-    { "number": "70", "word": "seventy", "example": "70,000 people at the festival", "exampleRu": "70,000 человек на фестивале" },
-    { "number": "80", "word": "eighty", "example": "80s — the decade of hair metal", "exampleRu": "80-е — десятилетие хэйр-метала" },
-    { "number": "90", "word": "ninety", "example": "90s — the decade of grunge", "exampleRu": "90-е — десятилетие гранжа" },
-    { "number": "100", "word": "one hundred", "example": "100 shows in one year", "exampleRu": "100 концертов за один год" },
-    { "number": "1000", "word": "one thousand", "example": "£1,000 for a vintage guitar", "exampleRu": "£1,000 за винтажную гитару" }
-  ],
-  "dates": {
-    "formatBrE": "the 14th of June, 2024",
-    "formatAmE": "June 14th, 2024",
-    "years": "nineteen eighty (1980), nineteen ninety-one (1991), two thousand and five (2005)",
-    "exampleBrE": "The band released American Idiot on the 21st of September, 2004",
-    "exampleAmE": "Green Day released American Idiot on September 21st, 2004"
-  },
-  "time": {
-    "past": "half past eight (8:30), quarter past seven (7:15), ten past nine (9:10)",
-    "to": "quarter to ten (9:45), ten to eleven (10:50), five to eight (7:55)",
-    "am_pm": "10 a.m. (morning soundcheck), 8 p.m. (showtime), midnight (12 a.m.)",
-    "example": "The show starts at 8:30 p.m. — that is half past eight in the evening"
-  },
-  "why": [
-    "Числа — это неотъемлемая часть рок-жизни: билеты, даты туров, время выхода на сцену",
-    "Без чисел невозможно узнать, во сколько начинается концерт или сколько стоит билет",
-    "Разница между британским и американским форматом дат может привести к путанице с туром",
-    "Знание чисел — это язык, на котором говорит вся индустрия"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Billie Joe Armstrong: 'September 1982. My father died. I was 10 years old. I wrote a song about it. Summer has come and passed. Wake me up when September ends.'",
-        "ru": "Билли Джо Армстронг: «Сентябрь 1982 года. Мой отец умер. Мне было 10 лет. Я написал песню об этом. Лето пришло и прошло. Разбудите меня, когда закончится сентябрь»." },
-      { "en": "The song begins: 'Summer has come and passed, the innocent can never last. Wake me up when September ends.' It's about time, memory, and loss.",
-        "ru": "Песня начинается: «Лето пришло и прошло, невинность никогда не может длиться вечно. Разбудите меня, когда закончится сентябрь». Это о времени, памяти и потере." }
-    ],
-    "note": "В песне Green Day время и даты — это эмоция. Сентябрь становится символом памяти. Числа правят миром."
-  },
-  "russianAngle": [
-    "В русском языке мы говорим 'половина третьего', а в английском — 'half past two'",
-    "Даты в России пишутся день/месяц/год, как и в Великобритании. Но в США — месяц/день/год",
-    "В русском языке числа сложнее склоняются. В английском — просто 'one, two, three'",
-    "В русском мы говорим 'сорок', а в английском 'forty' — и здесь нет буквы 'u'"
-  ],
-  "howToLearn": {
-    "steps": [
-      "Выучите числа от 1 до 20 — они уникальны",
-      "Запомните десятки: twenty, thirty, forty (без 'u'), fifty, sixty, seventy, eighty, ninety",
-      "Потренируйтесь читать даты: британский вариант (the 14th of June) и американский (June 14th)",
-      "Научитесь говорить о времени: 'quarter past', 'half past', 'quarter to'",
-      "Потренируйтесь с годами: 1847 — 'eighteen forty-seven', а 2024 — 'twenty twenty-four'",
-      "Попробуйте прочитать вслух расписание поездов или афишу"
-    ],
-    "exercise": {
-      "prompt": "Прочитайте эти даты, время и числа по-английски (как в рок-жизни):",
-      "items": [
-        { "q": "14th December, 1979 — The Clash released London Calling", "a": "The fourteenth of December, nineteen seventy-nine — The Clash released London Calling" },
-        { "q": "8:30 p.m. — showtime", "a": "Half past eight in the evening — showtime" },
-        { "q": "72,000 fans at Wembley", "a": "Seventy-two thousand fans at Wembley" },
-        { "q": "£150 for a backstage pass", "a": "One hundred and fifty pounds for a backstage pass" }
-      ]
-    }
-  },
-  "rules": [
-    { "title": "Числа 1-20",
-      "text": "Числа от 1 до 20 нужно запомнить: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty." },
-    { "title": "Десятки и сотни",
-      "text": "Десятки: twenty, thirty, forty (без 'u'), fifty, sixty, seventy, eighty, ninety. Сотни: one hundred, two hundred и т.д." },
-    { "title": "Даты",
-      "text": "Британский формат: the 14th of June. Американский: June 14th. Годы читаются как два числа: 1847 = eighteen forty-seven." },
-    { "title": "Время",
-      "text": "'Half past' = 30 минут, 'quarter past' = 15 минут, 'quarter to' = без 15 минут. 'a.m.' — утро и ночь, 'p.m.' — день и вечер." }
-  ],
-  "examples": [
-    {
-      "group": "Числа в рок-жизни",
-      "items": [
-        { "en": "Back in Black sold 50 million copies", "ru": "Back in Black продался тиражом в 50 миллионов копий", "highlight": ["50 million"] },
-        { "en": "The Beatles recorded Sgt. Pepper in 1967", "ru": "The Beatles записали Sgt. Pepper в 1967 году", "highlight": ["1967"] },
-        { "en": "Nirvana released Nevermind in 1991", "ru": "Nirvana выпустили Nevermind в 1991 году", "highlight": ["1991"] },
-        { "en": "Woodstock had 500,000 people in 1969", "ru": "На Вудстоке было 500,000 человек в 1969 году", "highlight": ["500,000", "1969"] },
-        { "en": "The tour had 47 shows across 3 continents", "ru": "Тур состоял из 47 шоу на 3 континентах", "highlight": ["47", "3"] }
-      ]
-    },
-    {
-      "group": "Даты легендарных релизов",
-      "items": [
-        { "en": "May 8th, 1970 — The Beatles released Let It Be", "ru": "8 мая 1970 года — The Beatles выпустили Let It Be", "highlight": ["May 8th", "1970"] },
-        { "en": "December 14th, 1979 — The Clash released London Calling", "ru": "14 декабря 1979 года — The Clash выпустили London Calling", "highlight": ["December 14th", "1979"] },
-        { "en": "September 24th, 1991 — Nirvana released Nevermind", "ru": "24 сентября 1991 года — Nirvana выпустили Nevermind", "highlight": ["September 24th", "1991"] },
-        { "en": "September 21st, 2004 — Green Day released American Idiot", "ru": "21 сентября 2004 года — Green Day выпустили American Idiot", "highlight": ["September 21st", "2004"] }
-      ]
-    },
-    {
-      "group": "Время на сцене",
-      "items": [
-        { "en": "Soundcheck at half past three in the afternoon", "ru": "Саундчек в половине четвёртого дня", "highlight": ["half past three"] },
-        { "en": "The show starts at quarter to nine in the evening", "ru": "Шоу начинается без пятнадцати девять вечера", "highlight": ["quarter to nine"] },
-        { "en": "We'll play an encore at ten o'clock", "ru": "Мы сыграем бис в десять часов", "highlight": ["ten o'clock"] },
-        { "en": "The festival starts at 11 a.m. and ends at 11 p.m.", "ru": "Фестиваль начинается в 11 утра и заканчивается в 11 вечера", "highlight": ["11 a.m.", "11 p.m."] }
-      ]
-    },
-    {
-      "group": "Годы в роке",
-      "items": [
-        { "en": "1980 — nineteen eighty — AC/DC Back in Black", "ru": "1980 — nineteen eighty — AC/DC Back in Black", "highlight": ["1980"] },
-        { "en": "1991 — nineteen ninety-one — Nirvana Nevermind", "ru": "1991 — nineteen ninety-one — Nirvana Nevermind", "highlight": ["1991"] },
-        { "en": "2004 — two thousand and four — Green Day American Idiot", "ru": "2004 — two thousand and four — Green Day American Idiot", "highlight": ["2004"] },
-        { "en": "1977 — nineteen seventy-seven — Sex Pistols, Never Mind the Bollocks", "ru": "1977 — nineteen seventy-seven — Sex Pistols, Never Mind the Bollocks", "highlight": ["1977"] }
-      ]
-    },
-    {
-      "group": "BrE vs AmE в роке",
-      "items": [
-        { "en": "BrE: 14/12/1979 — The Clash London Calling", "ru": "Британия: 14/12/1979 — The Clash London Calling", "highlight": ["14/12/1979"] },
-        { "en": "AmE: 09/24/1991 — Nirvana Nevermind", "ru": "Америка: 09/24/1991 — Nirvana Nevermind", "highlight": ["09/24/1991"] },
-        { "en": "BrE: half past eight — The Beatles at The Cavern", "ru": "Британия: half past eight — The Beatles в The Cavern", "highlight": ["half past eight"] },
-        { "en": "AmE: eight thirty — The Ramones in New York", "ru": "Америка: eight thirty — The Ramones в Нью-Йорке", "highlight": ["eight thirty"] }
-      ]
-    },
-    {
-      "group": "Большие числа в роке",
-      "items": [
-        { "en": "£1,250 for a vintage guitar from 1965", "ru": "£1,250 за винтажную гитару 1965 года", "highlight": ["£1,250", "1965"] },
-        { "en": "50,000 fans at the stadium show", "ru": "50,000 фанатов на стадионном шоу", "highlight": ["50,000"] },
-        { "en": "100 albums released by the label in one year", "ru": "100 альбомов выпущено лейблом за один год", "highlight": ["100"] },
-        { "en": "30 years of touring — the band never stopped", "ru": "30 лет гастролей — группа никогда не останавливалась", "highlight": ["30"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "Произносить 'forty' как 'fourty'", "right": "'Forty' — без 'u'", "note": "Сорок — это forty, а не fourty." },
-    { "wrong": "Говорить 'half of three' вместо 'half past three'", "right": "'Half past three' — половина четвёртого", "note": "В русском мы говорим 'половина третьего', а в английском 'half past two'." },
-    { "wrong": "Читать год '1979' как 'one thousand nine hundred seventy-nine'", "right": "Правильно — 'nineteen seventy-nine'", "note": "Годы читаются как два числа: 1979 = nineteen seventy-nine." },
-    { "wrong": "Писать дату как '12/14/1979' и думать, что это 14 декабря", "right": "В формате 12/14 это 14 декабря только в США — в Британии это 12 декабря", "note": "Всегда уточняйте формат." },
-    { "wrong": "Путать 'a.m.' и 'p.m.'", "right": "'a.m.' — утро/ночь, 'p.m.' — день/вечер", "note": "Приходите на концерт в 8 p.m., а не в 8 a.m." },
-    { "wrong": "Говорить 'five past three' для 3:05, когда нужно 'five to three' для 2:55", "right": "'Five past three' = 3:05, 'five to three' = 2:55", "note": "Past = после, to = до." }
-  ],
-  "compare": {
-    "title": "Британские vs американские даты и время в роке",
-    "leftLabel": "Британский (BrE)",
-    "rightLabel": "Американский (AmE)",
-    "rows": [
-      { "left": "14/12/1979 = The Clash", "right": "12/14/1979 = The Clash" },
-      { "left": "the 14th of December", "right": "December 14th" },
-      { "left": "half past eight (8:30)", "right": "eight thirty (8:30)" },
-      { "left": "quarter to ten (9:45)", "right": "nine forty-five (9:45)" },
-      { "left": "8 p.m. — showtime", "right": "8 p.m. — showtime" }
-    ]
-  },
-  "tips": [
-    "Запомните числа от 1 до 20 — они как названия групп",
-    "Запомните десятки, особенно 'forty' — без 'u'",
-    "В датах всегда проверяйте формат",
-    "Для годов используйте два числа: 1980 — nineteen eighty",
-    "Время учите через 'past' и 'to'",
-    "'a.m.' — 'ante meridiem' (до полудня), 'p.m.' — 'post meridiem' (после полудня)",
-    "Всегда добавляйте 'and' между сотнями и десятками"
-  ],
-  "related": [],
-  "quiz": [
-    {
-      "q": "Как будет 25 по-английски?",
-      "options": ["Twenty five", "Twenty-five", "Twenty and five", "Tenty-five"],
-      "answer": "Twenty-five",
-      "why": "25 — это twenty-five. Дефис между двадцатью и пятью."
-    },
-    {
-      "q": "Как читается год 1979 по-английски?",
-      "options": ["One thousand nine hundred seventy-nine", "Nineteen seventy-nine", "Nineteen hundred seventy-nine", "Nineteen seventy-nine"],
-      "answer": "Nineteen seventy-nine",
-      "why": "Годы читаются как два числа: 19 и 79 = nineteen seventy-nine."
-    },
-    {
-      "q": "Что означает 'half past eight'?",
-      "options": ["8:30", "7:30", "8:15", "8:45"],
-      "answer": "8:30",
-      "why": "'Half past eight' = половина девятого = 8:30."
-    },
-    {
-      "q": "Как сказать 'без четверти десять' по-английски?",
-      "options": ["Quarter to ten", "Quarter past ten", "Half past ten", "Ten to quarter"],
-      "answer": "Quarter to ten",
-      "why": "'Без четверти десять' = 9:45 = quarter to ten."
-    },
-    {
-      "q": "Какая разница между '12/14/1979' в BrE и AmE?",
-      "options": ["BrE: 14 декабря, AmE: 12 декабря", "BrE: 12 декабря, AmE: 14 декабря", "Это одно и то же", "BrE: 14 ноября, AmE: 12 декабря"],
-      "answer": "BrE: 14 декабря, AmE: 12 декабря",
-      "why": "В британском формате день/месяц/год, в американском — месяц/день/год."
-    },
-    {
-      "q": "Как пишется число 40 по-английски?",
-      "options": ["Fourty", "Forty", "Fourty", "Forty"],
-      "answer": "Forty",
-      "why": "40 — это forty, без буквы 'u' (в отличие от four)."
-    }
-  ]
+﻿{
+    "variant":  "rocknroll",
+    "slug":  "numbers-dates-time",
+    "level":  "A0",
+    "title":  "Numbers, Dates and Time",
+    "category":  "Basics",
+    "readingTime":  9,
+    "summary":  "Числа, даты и время. Учимся считать и называть даты с Джорджем Оруэллом и Green Day.",
+    "idea":  [
+                 "Green Day записали «Wake Me Up When September Ends» в 2004 году. Сентябрь 1982 года — месяц, когда умер отец Билли Джо Армстронга. Для него сентябрь — это символ памяти и потери. В песне он поёт о времени, которое не остановить: «Summer has come and passed, the innocent can never last» (Лето пришло и прошло, невинность никогда не может длиться вечно). Числа и даты в этой песне — это способ сохранить память.",
+                 "Билли Джо Армстронг использовал числа, чтобы рассказать историю. 1982 — год смерти его отца. Сентябрь — месяц, когда это случилось. Время в этой песне — это эмоция. Когда он поёт «Wake me up when September ends», он говорит о том, что хочет пропустить боль. Числа и даты становятся символом памяти.",
+                 "Числа — это основа нашей жизни. Мы считаем деньги, время, даты. В английском языке числа называются по-своему. Есть британский и американский форматы дат. Есть разные способы сказать время. Изучая числа, мы учимся ориентироваться в мире, где всё измеряется цифрами. Green Day знали это, и они использовали числа, чтобы рассказать свою историю."
+             ],
+    "numbers":  [
+                    {
+                        "number":  "0",
+                        "word":  "zero",
+                        "example":  "Zero feedback on the monitor",
+                        "exampleRu":  "Нулевая обратная связь на мониторе"
+                    },
+                    {
+                        "number":  "1",
+                        "word":  "one",
+                        "example":  "One guitar solo is never enough",
+                        "exampleRu":  "Одно гитарное соло — никогда не достаточно"
+                    },
+                    {
+                        "number":  "2",
+                        "word":  "two",
+                        "example":  "Two guitars, bass, and drums — that\u0027s rock",
+                        "exampleRu":  "Две гитары, бас и барабаны — это рок"
+                    },
+                    {
+                        "number":  "3",
+                        "word":  "three",
+                        "example":  "Three chords and the truth",
+                        "exampleRu":  "Три аккорда и правда — основа панка"
+                    },
+                    {
+                        "number":  "4",
+                        "word":  "four",
+                        "example":  "Four band members on stage",
+                        "exampleRu":  "Четыре участника группы на сцене"
+                    },
+                    {
+                        "number":  "5",
+                        "word":  "five",
+                        "example":  "Five-minute guitar solo",
+                        "exampleRu":  "Пятиминутное гитарное соло"
+                    },
+                    {
+                        "number":  "6",
+                        "word":  "six",
+                        "example":  "Six strings on a guitar",
+                        "exampleRu":  "Шесть струн на гитаре"
+                    },
+                    {
+                        "number":  "7",
+                        "word":  "seven",
+                        "example":  "Track #7 on the album",
+                        "exampleRu":  "Трек номер семь на альбоме"
+                    },
+                    {
+                        "number":  "8",
+                        "word":  "eight",
+                        "example":  "Eight shows in the tour",
+                        "exampleRu":  "Восемь концертов в туре"
+                    },
+                    {
+                        "number":  "9",
+                        "word":  "nine",
+                        "example":  "Nine minutes of prog epic",
+                        "exampleRu":  "Девять минут прог-эпика"
+                    },
+                    {
+                        "number":  "10",
+                        "word":  "ten",
+                        "example":  "Ten thousand fans in the arena",
+                        "exampleRu":  "Десять тысяч фанатов на арене"
+                    },
+                    {
+                        "number":  "11",
+                        "word":  "eleven",
+                        "example":  "Eleven tracks on the album",
+                        "exampleRu":  "Одиннадцать треков на альбоме"
+                    },
+                    {
+                        "number":  "12",
+                        "word":  "twelve",
+                        "example":  "12-bar blues — the foundation of rock",
+                        "exampleRu":  "12-тактовый блюз — основа рока"
+                    },
+                    {
+                        "number":  "13",
+                        "word":  "thirteen",
+                        "example":  "Thirteen years of touring",
+                        "exampleRu":  "Тринадцать лет гастролей"
+                    },
+                    {
+                        "number":  "14",
+                        "word":  "fourteen",
+                        "example":  "Fourteen concerts in the UK",
+                        "exampleRu":  "Четырнадцать концертов в Великобритании"
+                    },
+                    {
+                        "number":  "15",
+                        "word":  "fifteen",
+                        "example":  "Fifteen minutes of fame",
+                        "exampleRu":  "Пятнадцать минут славы"
+                    },
+                    {
+                        "number":  "16",
+                        "word":  "sixteen",
+                        "example":  "Sixteen shows in the US tour",
+                        "exampleRu":  "Шестнадцать шоу в американском туре"
+                    },
+                    {
+                        "number":  "17",
+                        "word":  "seventeen",
+                        "example":  "Seventeen years since the first album",
+                        "exampleRu":  "Семнадцать лет с первого альбома"
+                    },
+                    {
+                        "number":  "18",
+                        "word":  "eighteen",
+                        "example":  "Eighteen holes in the tour bus schedule",
+                        "exampleRu":  "Восемнадцать дыр в расписании тур-автобуса"
+                    },
+                    {
+                        "number":  "19",
+                        "word":  "nineteen",
+                        "example":  "Nineteen sixty-nine — Woodstock",
+                        "exampleRu":  "1969 — Вудсток"
+                    },
+                    {
+                        "number":  "20",
+                        "word":  "twenty",
+                        "example":  "Twenty minutes of encore",
+                        "exampleRu":  "Двадцать минут на бис"
+                    },
+                    {
+                        "number":  "30",
+                        "word":  "thirty",
+                        "example":  "30 years since the band formed",
+                        "exampleRu":  "30 лет с момента создания группы"
+                    },
+                    {
+                        "number":  "40",
+                        "word":  "forty",
+                        "example":  "40 million records sold",
+                        "exampleRu":  "40 миллионов проданных пластинок"
+                    },
+                    {
+                        "number":  "50",
+                        "word":  "fifty",
+                        "example":  "50 dates on the world tour",
+                        "exampleRu":  "50 концертов в мировом туре"
+                    },
+                    {
+                        "number":  "60",
+                        "word":  "sixty",
+                        "example":  "60,000 fans at the stadium show",
+                        "exampleRu":  "60,000 фанатов на стадионном шоу"
+                    },
+                    {
+                        "number":  "70",
+                        "word":  "seventy",
+                        "example":  "70,000 people at the festival",
+                        "exampleRu":  "70,000 человек на фестивале"
+                    },
+                    {
+                        "number":  "80",
+                        "word":  "eighty",
+                        "example":  "80s — the decade of hair metal",
+                        "exampleRu":  "80-е — десятилетие хэйр-метала"
+                    },
+                    {
+                        "number":  "90",
+                        "word":  "ninety",
+                        "example":  "90s — the decade of grunge",
+                        "exampleRu":  "90-е — десятилетие гранжа"
+                    },
+                    {
+                        "number":  "100",
+                        "word":  "one hundred",
+                        "example":  "100 shows in one year",
+                        "exampleRu":  "100 концертов за один год"
+                    },
+                    {
+                        "number":  "1000",
+                        "word":  "one thousand",
+                        "example":  "£1,000 for a vintage guitar",
+                        "exampleRu":  "£1,000 за винтажную гитару"
+                    }
+                ],
+    "dates":  {
+                  "formatBrE":  "the 14th of June, 2024",
+                  "formatAmE":  "June 14th, 2024",
+                  "years":  "nineteen eighty (1980), nineteen ninety-one (1991), two thousand and five (2005)",
+                  "exampleBrE":  "The band released American Idiot on the 21st of September, 2004",
+                  "exampleAmE":  "Green Day released American Idiot on September 21st, 2004"
+              },
+    "time":  {
+                 "past":  "half past eight (8:30), quarter past seven (7:15), ten past nine (9:10)",
+                 "to":  "quarter to ten (9:45), ten to eleven (10:50), five to eight (7:55)",
+                 "am_pm":  "10 a.m. (morning soundcheck), 8 p.m. (showtime), midnight (12 a.m.)",
+                 "example":  "The show starts at 8:30 p.m. — that is half past eight in the evening"
+             },
+    "why":  [
+                "Числа — это неотъемлемая часть рок-жизни: билеты, даты туров, время выхода на сцену",
+                "Без чисел невозможно узнать, во сколько начинается концерт или сколько стоит билет",
+                "Разница между британским и американским форматом дат может привести к путанице с туром",
+                "Знание чисел — это язык, на котором говорит вся индустрия"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Billie Joe Armstrong: \u0027September 1982. My father died. I was 10 years old. I wrote a song about it. Summer has come and passed. Wake me up when September ends.\u0027",
+                                      "ru":  "Билли Джо Армстронг: «Сентябрь 1982 года. Мой отец умер. Мне было 10 лет. Я написал песню об этом. Лето пришло и прошло. Разбудите меня, когда закончится сентябрь»."
+                                  },
+                                  {
+                                      "en":  "The song begins: \u0027Summer has come and passed, the innocent can never last. Wake me up when September ends.\u0027 It\u0027s about time, memory, and loss.",
+                                      "ru":  "Песня начинается: «Лето пришло и прошло, невинность никогда не может длиться вечно. Разбудите меня, когда закончится сентябрь». Это о времени, памяти и потере."
+                                  }
+                              ],
+                    "note":  "В песне Green Day время и даты — это эмоция. Сентябрь становится символом памяти. Числа правят миром."
+                },
+    "russianAngle":  [
+                         "В русском языке мы говорим \u0027половина третьего\u0027, а в английском — \u0027half past two\u0027",
+                         "Даты в России пишутся день/месяц/год, как и в Великобритании. Но в США — месяц/день/год",
+                         "В русском языке числа сложнее склоняются. В английском — просто \u0027one, two, three\u0027",
+                         "В русском мы говорим \u0027сорок\u0027, а в английском \u0027forty\u0027 — и здесь нет буквы \u0027u\u0027"
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Выучите числа от 1 до 20 — они уникальны",
+                                     "Запомните десятки: twenty, thirty, forty (без \u0027u\u0027), fifty, sixty, seventy, eighty, ninety",
+                                     "Потренируйтесь читать даты: британский вариант (the 14th of June) и американский (June 14th)",
+                                     "Научитесь говорить о времени: \u0027quarter past\u0027, \u0027half past\u0027, \u0027quarter to\u0027",
+                                     "Потренируйтесь с годами: 1847 — \u0027eighteen forty-seven\u0027, а 2024 — \u0027twenty twenty-four\u0027",
+                                     "Попробуйте прочитать вслух расписание поездов или афишу"
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Прочитайте эти даты, время и числа по-английски (как в рок-жизни):",
+                                        "items":  [
+                                                      {
+                                                          "q":  "14th December, 1979 — The Clash released London Calling",
+                                                          "a":  "The fourteenth of December, nineteen seventy-nine — The Clash released London Calling"
+                                                      },
+                                                      {
+                                                          "q":  "8:30 p.m. — showtime",
+                                                          "a":  "Half past eight in the evening — showtime"
+                                                      },
+                                                      {
+                                                          "q":  "72,000 fans at Wembley",
+                                                          "a":  "Seventy-two thousand fans at Wembley"
+                                                      },
+                                                      {
+                                                          "q":  "£150 for a backstage pass",
+                                                          "a":  "One hundred and fifty pounds for a backstage pass"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "rules":  [
+                  {
+                      "title":  "Числа 1-20",
+                      "text":  "Числа от 1 до 20 нужно запомнить: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty."
+                  },
+                  {
+                      "title":  "Десятки и сотни",
+                      "text":  "Десятки: twenty, thirty, forty (без \u0027u\u0027), fifty, sixty, seventy, eighty, ninety. Сотни: one hundred, two hundred и т.д."
+                  },
+                  {
+                      "title":  "Даты",
+                      "text":  "Британский формат: the 14th of June. Американский: June 14th. Годы читаются как два числа: 1847 = eighteen forty-seven."
+                  },
+                  {
+                      "title":  "Время",
+                      "text":  "\u0027Half past\u0027 = 30 минут, \u0027quarter past\u0027 = 15 минут, \u0027quarter to\u0027 = без 15 минут. \u0027a.m.\u0027 — утро и ночь, \u0027p.m.\u0027 — день и вечер."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Числа в рок-жизни",
+                         "items":  [
+                                       {
+                                           "en":  "Back in Black sold 50 million copies",
+                                           "ru":  "Back in Black продался тиражом в 50 миллионов копий",
+                                           "highlight":  [
+                                                             "50 million"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The Beatles recorded Sgt. Pepper in 1967",
+                                           "ru":  "The Beatles записали Sgt. Pepper в 1967 году",
+                                           "highlight":  [
+                                                             "1967"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Nirvana released Nevermind in 1991",
+                                           "ru":  "Nirvana выпустили Nevermind в 1991 году",
+                                           "highlight":  [
+                                                             "1991"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Woodstock had 500,000 people in 1969",
+                                           "ru":  "На Вудстоке было 500,000 человек в 1969 году",
+                                           "highlight":  [
+                                                             "500,000",
+                                                             "1969"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The tour had 47 shows across 3 continents",
+                                           "ru":  "Тур состоял из 47 шоу на 3 континентах",
+                                           "highlight":  [
+                                                             "47",
+                                                             "3"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Даты легендарных релизов",
+                         "items":  [
+                                       {
+                                           "en":  "May 8th, 1970 — The Beatles released Let It Be",
+                                           "ru":  "8 мая 1970 года — The Beatles выпустили Let It Be",
+                                           "highlight":  [
+                                                             "May 8th",
+                                                             "1970"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "December 14th, 1979 — The Clash released London Calling",
+                                           "ru":  "14 декабря 1979 года — The Clash выпустили London Calling",
+                                           "highlight":  [
+                                                             "December 14th",
+                                                             "1979"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "September 24th, 1991 — Nirvana released Nevermind",
+                                           "ru":  "24 сентября 1991 года — Nirvana выпустили Nevermind",
+                                           "highlight":  [
+                                                             "September 24th",
+                                                             "1991"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "September 21st, 2004 — Green Day released American Idiot",
+                                           "ru":  "21 сентября 2004 года — Green Day выпустили American Idiot",
+                                           "highlight":  [
+                                                             "September 21st",
+                                                             "2004"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Время на сцене",
+                         "items":  [
+                                       {
+                                           "en":  "Soundcheck at half past three in the afternoon",
+                                           "ru":  "Саундчек в половине четвёртого дня",
+                                           "highlight":  [
+                                                             "half past three"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The show starts at quarter to nine in the evening",
+                                           "ru":  "Шоу начинается без пятнадцати девять вечера",
+                                           "highlight":  [
+                                                             "quarter to nine"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "We\u0027ll play an encore at ten o\u0027clock",
+                                           "ru":  "Мы сыграем бис в десять часов",
+                                           "highlight":  [
+                                                             "ten o\u0027clock"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The festival starts at 11 a.m. and ends at 11 p.m.",
+                                           "ru":  "Фестиваль начинается в 11 утра и заканчивается в 11 вечера",
+                                           "highlight":  [
+                                                             "11 a.m.",
+                                                             "11 p.m."
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Годы в роке",
+                         "items":  [
+                                       {
+                                           "en":  "1980 — nineteen eighty — AC/DC Back in Black",
+                                           "ru":  "1980 — nineteen eighty — AC/DC Back in Black",
+                                           "highlight":  [
+                                                             "1980"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "1991 — nineteen ninety-one — Nirvana Nevermind",
+                                           "ru":  "1991 — nineteen ninety-one — Nirvana Nevermind",
+                                           "highlight":  [
+                                                             "1991"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "2004 — two thousand and four — Green Day American Idiot",
+                                           "ru":  "2004 — two thousand and four — Green Day American Idiot",
+                                           "highlight":  [
+                                                             "2004"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "1977 — nineteen seventy-seven — Sex Pistols, Never Mind the Bollocks",
+                                           "ru":  "1977 — nineteen seventy-seven — Sex Pistols, Never Mind the Bollocks",
+                                           "highlight":  [
+                                                             "1977"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "BrE vs AmE в роке",
+                         "items":  [
+                                       {
+                                           "en":  "BrE: 14/12/1979 — The Clash London Calling",
+                                           "ru":  "Британия: 14/12/1979 — The Clash London Calling",
+                                           "highlight":  [
+                                                             "14/12/1979"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "AmE: 09/24/1991 — Nirvana Nevermind",
+                                           "ru":  "Америка: 09/24/1991 — Nirvana Nevermind",
+                                           "highlight":  [
+                                                             "09/24/1991"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "BrE: half past eight — The Beatles at The Cavern",
+                                           "ru":  "Британия: half past eight — The Beatles в The Cavern",
+                                           "highlight":  [
+                                                             "half past eight"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "AmE: eight thirty — The Ramones in New York",
+                                           "ru":  "Америка: eight thirty — The Ramones в Нью-Йорке",
+                                           "highlight":  [
+                                                             "eight thirty"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Большие числа в роке",
+                         "items":  [
+                                       {
+                                           "en":  "£1,250 for a vintage guitar from 1965",
+                                           "ru":  "£1,250 за винтажную гитару 1965 года",
+                                           "highlight":  [
+                                                             "£1,250",
+                                                             "1965"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "50,000 fans at the stadium show",
+                                           "ru":  "50,000 фанатов на стадионном шоу",
+                                           "highlight":  [
+                                                             "50,000"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "100 albums released by the label in one year",
+                                           "ru":  "100 альбомов выпущено лейблом за один год",
+                                           "highlight":  [
+                                                             "100"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "30 years of touring — the band never stopped",
+                                           "ru":  "30 лет гастролей — группа никогда не останавливалась",
+                                           "highlight":  [
+                                                             "30"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "Произносить \u0027forty\u0027 как \u0027fourty\u0027",
+                         "right":  "\u0027Forty\u0027 — без \u0027u\u0027",
+                         "note":  "Сорок — это forty, а не fourty."
+                     },
+                     {
+                         "wrong":  "Говорить \u0027half of three\u0027 вместо \u0027half past three\u0027",
+                         "right":  "\u0027Half past three\u0027 — половина четвёртого",
+                         "note":  "В русском мы говорим \u0027половина третьего\u0027, а в английском \u0027half past two\u0027."
+                     },
+                     {
+                         "wrong":  "Читать год \u00271979\u0027 как \u0027one thousand nine hundred seventy-nine\u0027",
+                         "right":  "Правильно — \u0027nineteen seventy-nine\u0027",
+                         "note":  "Годы читаются как два числа: 1979 = nineteen seventy-nine."
+                     },
+                     {
+                         "wrong":  "Писать дату как \u002712/14/1979\u0027 и думать, что это 14 декабря",
+                         "right":  "В формате 12/14 это 14 декабря только в США — в Британии это 12 декабря",
+                         "note":  "Всегда уточняйте формат."
+                     },
+                     {
+                         "wrong":  "Путать \u0027a.m.\u0027 и \u0027p.m.\u0027",
+                         "right":  "\u0027a.m.\u0027 — утро/ночь, \u0027p.m.\u0027 — день/вечер",
+                         "note":  "Приходите на концерт в 8 p.m., а не в 8 a.m."
+                     },
+                     {
+                         "wrong":  "Говорить \u0027five past three\u0027 для 3:05, когда нужно \u0027five to three\u0027 для 2:55",
+                         "right":  "\u0027Five past three\u0027 = 3:05, \u0027five to three\u0027 = 2:55",
+                         "note":  "Past = после, to = до."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Британские vs американские даты и время в роке",
+                    "leftLabel":  "Британский (BrE)",
+                    "rightLabel":  "Американский (AmE)",
+                    "rows":  [
+                                 {
+                                     "left":  "14/12/1979 = The Clash",
+                                     "right":  "12/14/1979 = The Clash"
+                                 },
+                                 {
+                                     "left":  "the 14th of December",
+                                     "right":  "December 14th"
+                                 },
+                                 {
+                                     "left":  "half past eight (8:30)",
+                                     "right":  "eight thirty (8:30)"
+                                 },
+                                 {
+                                     "left":  "quarter to ten (9:45)",
+                                     "right":  "nine forty-five (9:45)"
+                                 },
+                                 {
+                                     "left":  "8 p.m. — showtime",
+                                     "right":  "8 p.m. — showtime"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "Запомните числа от 1 до 20 — они как названия групп",
+                 "Запомните десятки, особенно \u0027forty\u0027 — без \u0027u\u0027",
+                 "В датах всегда проверяйте формат",
+                 "Для годов используйте два числа: 1980 — nineteen eighty",
+                 "Время учите через \u0027past\u0027 и \u0027to\u0027",
+                 "\u0027a.m.\u0027 — \u0027ante meridiem\u0027 (до полудня), \u0027p.m.\u0027 — \u0027post meridiem\u0027 (после полудня)",
+                 "Всегда добавляйте \u0027and\u0027 между сотнями и десятками"
+             ],
+    "related":  [
+
+                ],
+    "quiz":  [
+                 {
+                     "q":  "Как будет 25 по-английски?",
+                     "options":  [
+                                     "Twenty five",
+                                     "Twenty-five",
+                                     "Twenty and five",
+                                     "Tenty-five"
+                                 ],
+                     "answer":  "Twenty-five",
+                     "why":  "25 — это twenty-five. Дефис между двадцатью и пятью."
+                 },
+                 {
+                     "q":  "Как читается год 1979 по-английски?",
+                     "options":  [
+                                     "One thousand nine hundred seventy-nine",
+                                     "Nineteen seventy-nine",
+                                     "Nineteen hundred seventy-nine",
+                                     "Nineteen seventy-nine"
+                                 ],
+                     "answer":  "Nineteen seventy-nine",
+                     "why":  "Годы читаются как два числа: 19 и 79 = nineteen seventy-nine."
+                 },
+                 {
+                     "q":  "Что означает \u0027half past eight\u0027?",
+                     "options":  [
+                                     "8:30",
+                                     "7:30",
+                                     "8:15",
+                                     "8:45"
+                                 ],
+                     "answer":  "8:30",
+                     "why":  "\u0027Half past eight\u0027 = половина девятого = 8:30."
+                 },
+                 {
+                     "q":  "Как сказать \u0027без четверти десять\u0027 по-английски?",
+                     "options":  [
+                                     "Quarter to ten",
+                                     "Quarter past ten",
+                                     "Half past ten",
+                                     "Ten to quarter"
+                                 ],
+                     "answer":  "Quarter to ten",
+                     "why":  "\u0027Без четверти десять\u0027 = 9:45 = quarter to ten."
+                 },
+                 {
+                     "q":  "Какая разница между \u002712/14/1979\u0027 в BrE и AmE?",
+                     "options":  [
+                                     "BrE: 14 декабря, AmE: 12 декабря",
+                                     "BrE: 12 декабря, AmE: 14 декабря",
+                                     "Это одно и то же",
+                                     "BrE: 14 ноября, AmE: 12 декабря"
+                                 ],
+                     "answer":  "BrE: 14 декабря, AmE: 12 декабря",
+                     "why":  "В британском формате день/месяц/год, в американском — месяц/день/год."
+                 },
+                 {
+                     "q":  "Как пишется число 40 по-английски?",
+                     "options":  [
+                                     "Fourty",
+                                     "Forty",
+                                     "Fourty",
+                                     "Forty"
+                                 ],
+                     "answer":  "Forty",
+                     "why":  "40 — это forty, без буквы \u0027u\u0027 (в отличие от four)."
+                 }
+             ]
 }

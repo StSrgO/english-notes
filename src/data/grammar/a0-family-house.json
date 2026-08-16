@@ -1,192 +1,482 @@
-{
-  "variant": "classic",
-  "slug": "family-house",
-  "level": "A0",
-  "title": "Семья и дом",
-  "category": "Basics",
-  "readingTime": 8,
-  "summary": "Как называть членов семьи, описывать дом и рассказывать о том, где вы живёте. История о семье Беннет из романа Джейн Остин «Гордость и предубеждение».",
-  "idea": [
-    "Джейн Остин написала «Гордость и предубеждение» в 1813 году. Это роман о семье Беннет, которая живёт в доме Лонгборн в Хартфордшире. В семье есть отец, мать и пять дочерей: Джейн, Элизабет, Мэри, Китти и Лидия. Миссис Беннет мечтает выдать дочерей замуж. Мистер Беннет наблюдает за всем с иронией. Дом — это не просто здание, это центр всей семьи.",
-    "В доме Беннет есть гостиная, где семья собирается по вечерам. Есть столовая, где они обедают. Есть сад, где гуляют дочери. Есть спальни, где они спят. Каждая комната — это часть их жизни. Когда мистер Бинли и мистер Дарси приезжают в Лонгборн, дом оживает. Семья и дом — это основа всего.",
-    "В английском языке есть много слов для членов семьи: father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousin. Есть слова для дома: house, flat, living room, kitchen, bedroom, bathroom, garden. Изучая их, мы учимся говорить о самом важном."
-  ],
-  "why": [
-    "Семья и дом — это основа нашей жизни, и мы говорим о них каждый день",
-    "Названия членов семьи — это первые слова, которые мы учим на любом языке",
-    "В английском есть много слов для описания дома и семьи, которые отличаются от русских",
-    "Знание этих слов помогает рассказывать о себе и своих близких"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Mrs. Bennet: 'My dear Mr. Bennet, have you heard? There is a new neighbour! He is a gentleman from London. He has a house, a carriage, and a large fortune.'",
-        "ru": "Миссис Беннет: «Мой дорогой мистер Беннет, вы слышали? У нас новый сосед! Он джентльмен из Лондона. У него есть дом, карета и большое состояние»." },
-      { "en": "Mr. Bennet: 'My dear Mrs. Bennet, we have five daughters. I am sure they will be happy to meet this new gentleman. Our house is always open to visitors.'",
-        "ru": "Мистер Беннет: «Моя дорогая миссис Беннет, у нас пять дочерей. Уверен, они будут рады познакомиться с этим новым джентльменом. Наш дом всегда открыт для гостей»." }
-    ],
-    "note": "В доме Беннет всё начинается. Семья и дом — это центр мира Джейн Остин."
-  },
-  "russianAngle": [
-    "В русском языке 'брат' и 'сестра' — это просто брат и сестра. В английском есть разница: 'brother' и 'sister' — родные, 'cousin' — двоюродные",
-    "В русском 'бабушка' и 'дедушка' — это родители родителей. В английском 'grandmother' и 'grandfather'",
-    "В русском 'дом' — это и здание, и семья. В английском 'house' — здание, 'home' — место, где живёт семья",
-    "В русском 'квартира' — это apartment. В английском 'flat' (BrE) и 'apartment' (AmE)"
-  ],
-  "howToLearn": {
-    "steps": [
-      "Выучите названия членов семьи: father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousin",
-      "Выучите части дома: living room, kitchen, bedroom, bathroom, garden, garage, attic, basement",
-      "Потренируйтесь описывать свою семью: 'I have a father, a mother and two brothers'",
-      "Потренируйтесь описывать дом: 'We live in a house with a garden'",
-      "Запомните разницу между 'house' и 'home'",
-      "Попробуйте описать дом и семью любимых литературных героев"
-    ],
-    "exercise": {
-      "prompt": "Опишите свою семью и дом по-английски:",
-      "items": [
-        { "q": "Сколько человек в вашей семье?", "a": "There are [number] people in my family." },
-        { "q": "У вас есть братья или сёстры?", "a": "Yes, I have [number] brothers/sisters. / No, I am an only child." },
-        { "q": "Где вы живёте?", "a": "I live in a house/flat with my family." },
-        { "q": "У вас есть сад?", "a": "Yes, we have a garden. / No, we don't have a garden." }
-      ]
-    }
-  },
-  "rules": [
-    { "title": "Члены семьи",
-      "text": "father (отец), mother (мать), brother (брат), sister (сестра), son (сын), daughter (дочь), grandfather (дедушка), grandmother (бабушка), uncle (дядя), aunt (тётя), cousin (двоюродный брат/сестра)." },
-    { "title": "Дом и комнаты",
-      "text": "house (дом), flat (квартира, BrE), apartment (квартира, AmE), living room (гостиная), kitchen (кухня), bedroom (спальня), bathroom (ванная), garden (сад)." },
-    { "title": "'House' vs 'Home'",
-      "text": "House — это здание, строение. Home — это место, где живёт семья, где чувствуешь себя своим." }
-  ],
-  "examples": [
-    {
-      "group": "Члены семьи",
-      "items": [
-        { "en": "My father works in London, my mother is a teacher", "ru": "Мой отец работает в Лондоне, моя мать — учительница", "highlight": ["father", "mother"] },
-        { "en": "I have one brother and two sisters", "ru": "У меня есть один брат и две сестры", "highlight": ["brother", "sisters"] },
-        { "en": "My grandfather tells stories about the war", "ru": "Мой дедушка рассказывает истории о войне", "highlight": ["grandfather"] },
-        { "en": "My grandmother makes the best apple pie", "ru": "Моя бабушка печёт лучший яблочный пирог", "highlight": ["grandmother"] },
-        { "en": "My uncle and aunt live in Manchester", "ru": "Мои дядя и тётя живут в Манчестере", "highlight": ["uncle", "aunt"] }
-      ]
-    },
-    {
-      "group": "Комнаты в доме",
-      "items": [
-        { "en": "We have a large living room with a fireplace", "ru": "У нас большая гостиная с камином", "highlight": ["living room"] },
-        { "en": "The kitchen is small but very cosy", "ru": "Кухня маленькая, но очень уютная", "highlight": ["kitchen"] },
-        { "en": "My bedroom is on the second floor", "ru": "Моя спальня на втором этаже", "highlight": ["bedroom"] },
-        { "en": "We have a big garden with flowers and trees", "ru": "У нас большой сад с цветами и деревьями", "highlight": ["garden"] },
-        { "en": "The bathroom is next to the kitchen", "ru": "Ванная комната рядом с кухней", "highlight": ["bathroom"] }
-      ]
-    },
-    {
-      "group": "House vs Home",
-      "items": [
-        { "en": "This is the house where I grew up", "ru": "Это дом, в котором я вырос", "highlight": ["house"] },
-        { "en": "Home is where the heart is", "ru": "Дом там, где сердце", "highlight": ["home"] },
-        { "en": "They bought a new house in the countryside", "ru": "Они купили новый дом в деревне", "highlight": ["house"] },
-        { "en": "I feel at home in this house", "ru": "Я чувствую себя как дома в этом доме", "highlight": ["home", "house"] },
-        { "en": "Our home is a small flat in London", "ru": "Наш дом — это маленькая квартира в Лондоне", "highlight": ["home", "flat"] }
-      ]
-    },
-    {
-      "group": "Семейные отношения",
-      "items": [
-        { "en": "My parents have been married for 30 years", "ru": "Мои родители женаты уже 30 лет", "highlight": ["parents"] },
-        { "en": "My sister is a doctor, my brother is an engineer", "ru": "Моя сестра — врач, мой брат — инженер", "highlight": ["sister", "brother"] },
-        { "en": "I have many cousins on my mother's side", "ru": "У меня много двоюродных родственников со стороны мамы", "highlight": ["cousins"] },
-        { "en": "My grandmother's sister lives in Scotland", "ru": "Сестра моей бабушки живёт в Шотландии", "highlight": ["grandmother's sister"] },
-        { "en": "We have a family reunion every year", "ru": "Мы собираемся всей семьёй каждый год", "highlight": ["family reunion"] }
-      ]
-    },
-    {
-      "group": "Британские vs американские названия дома",
-      "items": [
-        { "en": "BrE: flat — AmE: apartment", "ru": "Британия: flat — Америка: apartment (квартира)", "highlight": ["flat", "apartment"] },
-        { "en": "BrE: garden — AmE: yard", "ru": "Британия: garden — Америка: yard (сад/двор)", "highlight": ["garden", "yard"] },
-        { "en": "BrE: lift — AmE: elevator", "ru": "Британия: lift — Америка: elevator (лифт)", "highlight": ["lift", "elevator"] },
-        { "en": "BrE: ground floor — AmE: first floor", "ru": "Британия: ground floor — Америка: first floor (первый этаж)", "highlight": ["ground floor", "first floor"] },
-        { "en": "BrE: holiday — AmE: vacation", "ru": "Британия: holiday — Америка: vacation (отпуск/каникулы)", "highlight": ["holiday", "vacation"] }
-      ]
-    },
-    {
-      "group": "Описание дома",
-      "items": [
-        { "en": "Our house is big and white with blue windows", "ru": "Наш дом большой и белый с синими окнами", "highlight": ["big", "white", "blue"] },
-        { "en": "The living room has a red sofa and two armchairs", "ru": "В гостиной красный диван и два кресла", "highlight": ["red sofa", "armchairs"] },
-        { "en": "There is a small garden in the backyard", "ru": "За домом есть маленький сад", "highlight": ["garden", "backyard"] },
-        { "en": "My bedroom is small but comfortable", "ru": "Моя спальня маленькая, но уютная", "highlight": ["small", "comfortable"] },
-        { "en": "We have a beautiful view of the river from our kitchen", "ru": "Из нашей кухни открывается красивый вид на реку", "highlight": ["view", "river"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "Путать 'house' и 'home'", "right": "'House' — здание, 'home' — место, где семья", "note": "Вы можете жить в house, но home — это чувство." },
-    { "wrong": "Говорить 'I have a brother and sister' без артиклей", "right": "'I have a brother and a sister' — с артиклями", "note": "В единственном числе нужен артикль 'a'." },
-    { "wrong": "Путать 'garden' и 'yard'", "right": "В BrE 'garden' — сад с цветами, в AmE — 'yard'", "note": "Если вы в Лондоне — говорите garden, в Нью-Йорке — yard." },
-    { "wrong": "Путать 'flat' и 'apartment'", "right": "В BrE — flat, в AmE — apartment", "note": "В британском английском 'flat' — это квартира." },
-    { "wrong": "Говорить 'My parents is' вместо 'My parents are'", "right": "'My parents are' — во множественном числе", "note": "Parents — это двое, значит, глагол во множественном числе." },
-    { "wrong": "Путать 'brother' и 'cousin'", "right": "'Brother' — родной брат, 'cousin' — двоюродный", "note": "Это разные родственники, нельзя путать." }
-  ],
-  "compare": {
-    "title": "Британские vs американские названия дома",
-    "leftLabel": "Британский (BrE)",
-    "rightLabel": "Американский (AmE)",
-    "rows": [
-      { "left": "flat", "right": "apartment" },
-      { "left": "garden", "right": "yard" },
-      { "left": "lift", "right": "elevator" },
-      { "left": "ground floor", "right": "first floor" },
-      { "left": "holiday", "right": "vacation" }
-    ]
-  },
-  "tips": [
-    "Запомните: 'house' — это здание, 'home' — это место, где живёт семья",
-    "Для членов семьи используйте 'my' перед каждым словом: my father, my mother",
-    "В британском английском 'flat' — квартира, в американском — 'apartment'",
-    "'Garden' в BrE — это сад с цветами. В AmE говорят 'yard'",
-    "Всегда используйте 'are' для 'parents' (родители) — потому что их двое",
-    "Перед названиями комнат не нужен артикль: 'in the kitchen'",
-    "Чтобы описать размер дома, используйте: small, big, large, cosy, comfortable"
-  ],
-  "related": [],
-  "quiz": [
-    {
-      "q": "Кто такой 'brother' по-русски?",
-      "options": ["Сестра", "Брат", "Двоюродный брат", "Отец"],
-      "answer": "Брат",
-      "why": "'Brother' — это брат. 'Sister' — сестра."
-    },
-    {
-      "q": "В чём разница между 'house' и 'home'?",
-      "options": ["Это одно и то же", "House — здание, home — место семьи", "House — место семьи, home — здание", "Разницы нет"],
-      "answer": "House — здание, home — место семьи",
-      "why": "'House' — это строение, 'home' — это место, где живёт семья."
-    },
-    {
-      "q": "Как называется гостиная по-английски?",
-      "options": ["Bedroom", "Kitchen", "Living room", "Bathroom"],
-      "answer": "Living room",
-      "why": "'Living room' — гостиная, комната для отдыха."
-    },
-    {
-      "q": "Как называются родители в английском языке?",
-      "options": ["Father and mother", "Parents", "Mum and dad", "All of the above"],
-      "answer": "All of the above",
-      "why": "'Parents' — общее название, 'father and mother' — формально."
-    },
-    {
-      "q": "Как сказать 'квартира' в британском английском?",
-      "options": ["Apartment", "Flat", "House", "Home"],
-      "answer": "Flat",
-      "why": "В британском английском 'flat' — квартира. В американском — 'apartment'."
-    },
-    {
-      "q": "Как будет 'двоюродный брат' по-английски?",
-      "options": ["Brother", "Cousin", "Uncle", "Nephew"],
-      "answer": "Cousin",
-      "why": "'Cousin' — это двоюродный брат или сестра."
-    }
-  ]
+﻿{
+    "variant":  "classic",
+    "slug":  "family-house",
+    "level":  "A0",
+    "title":  "Family and House",
+    "category":  "Basics",
+    "readingTime":  8,
+    "summary":  "Семья и дом. Учим членов семьи и предметы дома с Джейн Остин и Iron Maiden.",
+    "idea":  [
+                 "Джейн Остин написала «Гордость и предубеждение» в 1813 году. Это роман о семье Беннет, которая живёт в доме Лонгборн в Хартфордшире. В семье есть отец, мать и пять дочерей: Джейн, Элизабет, Мэри, Китти и Лидия. Миссис Беннет мечтает выдать дочерей замуж. Мистер Беннет наблюдает за всем с иронией. Дом — это не просто здание, это центр всей семьи.",
+                 "В доме Беннет есть гостиная, где семья собирается по вечерам. Есть столовая, где они обедают. Есть сад, где гуляют дочери. Есть спальни, где они спят. Каждая комната — это часть их жизни. Когда мистер Бинли и мистер Дарси приезжают в Лонгборн, дом оживает. Семья и дом — это основа всего.",
+                 "В английском языке есть много слов для членов семьи: father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousin. Есть слова для дома: house, flat, living room, kitchen, bedroom, bathroom, garden. Изучая их, мы учимся говорить о самом важном."
+             ],
+    "why":  [
+                "Семья и дом — это основа нашей жизни, и мы говорим о них каждый день",
+                "Названия членов семьи — это первые слова, которые мы учим на любом языке",
+                "В английском есть много слов для описания дома и семьи, которые отличаются от русских",
+                "Знание этих слов помогает рассказывать о себе и своих близких"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Mrs. Bennet: \u0027My dear Mr. Bennet, have you heard? There is a new neighbour! He is a gentleman from London. He has a house, a carriage, and a large fortune.\u0027",
+                                      "ru":  "Миссис Беннет: «Мой дорогой мистер Беннет, вы слышали? У нас новый сосед! Он джентльмен из Лондона. У него есть дом, карета и большое состояние»."
+                                  },
+                                  {
+                                      "en":  "Mr. Bennet: \u0027My dear Mrs. Bennet, we have five daughters. I am sure they will be happy to meet this new gentleman. Our house is always open to visitors.\u0027",
+                                      "ru":  "Мистер Беннет: «Моя дорогая миссис Беннет, у нас пять дочерей. Уверен, они будут рады познакомиться с этим новым джентльменом. Наш дом всегда открыт для гостей»."
+                                  }
+                              ],
+                    "note":  "В доме Беннет всё начинается. Семья и дом — это центр мира Джейн Остин."
+                },
+    "russianAngle":  [
+                         "В русском языке \u0027брат\u0027 и \u0027сестра\u0027 — это просто брат и сестра. В английском есть разница: \u0027brother\u0027 и \u0027sister\u0027 — родные, \u0027cousin\u0027 — двоюродные",
+                         "В русском \u0027бабушка\u0027 и \u0027дедушка\u0027 — это родители родителей. В английском \u0027grandmother\u0027 и \u0027grandfather\u0027",
+                         "В русском \u0027дом\u0027 — это и здание, и семья. В английском \u0027house\u0027 — здание, \u0027home\u0027 — место, где живёт семья",
+                         "В русском \u0027квартира\u0027 — это apartment. В английском \u0027flat\u0027 (BrE) и \u0027apartment\u0027 (AmE)"
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Выучите названия членов семьи: father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousin",
+                                     "Выучите части дома: living room, kitchen, bedroom, bathroom, garden, garage, attic, basement",
+                                     "Потренируйтесь описывать свою семью: \u0027I have a father, a mother and two brothers\u0027",
+                                     "Потренируйтесь описывать дом: \u0027We live in a house with a garden\u0027",
+                                     "Запомните разницу между \u0027house\u0027 и \u0027home\u0027",
+                                     "Попробуйте описать дом и семью любимых литературных героев"
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Опишите свою семью и дом по-английски:",
+                                        "items":  [
+                                                      {
+                                                          "q":  "Сколько человек в вашей семье?",
+                                                          "a":  "There are [number] people in my family."
+                                                      },
+                                                      {
+                                                          "q":  "У вас есть братья или сёстры?",
+                                                          "a":  "Yes, I have [number] brothers/sisters. / No, I am an only child."
+                                                      },
+                                                      {
+                                                          "q":  "Где вы живёте?",
+                                                          "a":  "I live in a house/flat with my family."
+                                                      },
+                                                      {
+                                                          "q":  "У вас есть сад?",
+                                                          "a":  "Yes, we have a garden. / No, we don\u0027t have a garden."
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "rules":  [
+                  {
+                      "title":  "Члены семьи",
+                      "text":  "father (отец), mother (мать), brother (брат), sister (сестра), son (сын), daughter (дочь), grandfather (дедушка), grandmother (бабушка), uncle (дядя), aunt (тётя), cousin (двоюродный брат/сестра)."
+                  },
+                  {
+                      "title":  "Дом и комнаты",
+                      "text":  "house (дом), flat (квартира, BrE), apartment (квартира, AmE), living room (гостиная), kitchen (кухня), bedroom (спальня), bathroom (ванная), garden (сад)."
+                  },
+                  {
+                      "title":  "\u0027House\u0027 vs \u0027Home\u0027",
+                      "text":  "House — это здание, строение. Home — это место, где живёт семья, где чувствуешь себя своим."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Члены семьи",
+                         "items":  [
+                                       {
+                                           "en":  "My father works in London, my mother is a teacher",
+                                           "ru":  "Мой отец работает в Лондоне, моя мать — учительница",
+                                           "highlight":  [
+                                                             "father",
+                                                             "mother"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "I have one brother and two sisters",
+                                           "ru":  "У меня есть один брат и две сестры",
+                                           "highlight":  [
+                                                             "brother",
+                                                             "sisters"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "My grandfather tells stories about the war",
+                                           "ru":  "Мой дедушка рассказывает истории о войне",
+                                           "highlight":  [
+                                                             "grandfather"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "My grandmother makes the best apple pie",
+                                           "ru":  "Моя бабушка печёт лучший яблочный пирог",
+                                           "highlight":  [
+                                                             "grandmother"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "My uncle and aunt live in Manchester",
+                                           "ru":  "Мои дядя и тётя живут в Манчестере",
+                                           "highlight":  [
+                                                             "uncle",
+                                                             "aunt"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Комнаты в доме",
+                         "items":  [
+                                       {
+                                           "en":  "We have a large living room with a fireplace",
+                                           "ru":  "У нас большая гостиная с камином",
+                                           "highlight":  [
+                                                             "living room"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The kitchen is small but very cosy",
+                                           "ru":  "Кухня маленькая, но очень уютная",
+                                           "highlight":  [
+                                                             "kitchen"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "My bedroom is on the second floor",
+                                           "ru":  "Моя спальня на втором этаже",
+                                           "highlight":  [
+                                                             "bedroom"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "We have a big garden with flowers and trees",
+                                           "ru":  "У нас большой сад с цветами и деревьями",
+                                           "highlight":  [
+                                                             "garden"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The bathroom is next to the kitchen",
+                                           "ru":  "Ванная комната рядом с кухней",
+                                           "highlight":  [
+                                                             "bathroom"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "House vs Home",
+                         "items":  [
+                                       {
+                                           "en":  "This is the house where I grew up",
+                                           "ru":  "Это дом, в котором я вырос",
+                                           "highlight":  [
+                                                             "house"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Home is where the heart is",
+                                           "ru":  "Дом там, где сердце",
+                                           "highlight":  [
+                                                             "home"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "They bought a new house in the countryside",
+                                           "ru":  "Они купили новый дом в деревне",
+                                           "highlight":  [
+                                                             "house"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "I feel at home in this house",
+                                           "ru":  "Я чувствую себя как дома в этом доме",
+                                           "highlight":  [
+                                                             "home",
+                                                             "house"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Our home is a small flat in London",
+                                           "ru":  "Наш дом — это маленькая квартира в Лондоне",
+                                           "highlight":  [
+                                                             "home",
+                                                             "flat"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Семейные отношения",
+                         "items":  [
+                                       {
+                                           "en":  "My parents have been married for 30 years",
+                                           "ru":  "Мои родители женаты уже 30 лет",
+                                           "highlight":  [
+                                                             "parents"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "My sister is a doctor, my brother is an engineer",
+                                           "ru":  "Моя сестра — врач, мой брат — инженер",
+                                           "highlight":  [
+                                                             "sister",
+                                                             "brother"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "I have many cousins on my mother\u0027s side",
+                                           "ru":  "У меня много двоюродных родственников со стороны мамы",
+                                           "highlight":  [
+                                                             "cousins"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "My grandmother\u0027s sister lives in Scotland",
+                                           "ru":  "Сестра моей бабушки живёт в Шотландии",
+                                           "highlight":  [
+                                                             "grandmother\u0027s sister"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "We have a family reunion every year",
+                                           "ru":  "Мы собираемся всей семьёй каждый год",
+                                           "highlight":  [
+                                                             "family reunion"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Британские vs американские названия дома",
+                         "items":  [
+                                       {
+                                           "en":  "BrE: flat — AmE: apartment",
+                                           "ru":  "Британия: flat — Америка: apartment (квартира)",
+                                           "highlight":  [
+                                                             "flat",
+                                                             "apartment"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "BrE: garden — AmE: yard",
+                                           "ru":  "Британия: garden — Америка: yard (сад/двор)",
+                                           "highlight":  [
+                                                             "garden",
+                                                             "yard"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "BrE: lift — AmE: elevator",
+                                           "ru":  "Британия: lift — Америка: elevator (лифт)",
+                                           "highlight":  [
+                                                             "lift",
+                                                             "elevator"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "BrE: ground floor — AmE: first floor",
+                                           "ru":  "Британия: ground floor — Америка: first floor (первый этаж)",
+                                           "highlight":  [
+                                                             "ground floor",
+                                                             "first floor"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "BrE: holiday — AmE: vacation",
+                                           "ru":  "Британия: holiday — Америка: vacation (отпуск/каникулы)",
+                                           "highlight":  [
+                                                             "holiday",
+                                                             "vacation"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Описание дома",
+                         "items":  [
+                                       {
+                                           "en":  "Our house is big and white with blue windows",
+                                           "ru":  "Наш дом большой и белый с синими окнами",
+                                           "highlight":  [
+                                                             "big",
+                                                             "white",
+                                                             "blue"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The living room has a red sofa and two armchairs",
+                                           "ru":  "В гостиной красный диван и два кресла",
+                                           "highlight":  [
+                                                             "red sofa",
+                                                             "armchairs"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There is a small garden in the backyard",
+                                           "ru":  "За домом есть маленький сад",
+                                           "highlight":  [
+                                                             "garden",
+                                                             "backyard"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "My bedroom is small but comfortable",
+                                           "ru":  "Моя спальня маленькая, но уютная",
+                                           "highlight":  [
+                                                             "small",
+                                                             "comfortable"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "We have a beautiful view of the river from our kitchen",
+                                           "ru":  "Из нашей кухни открывается красивый вид на реку",
+                                           "highlight":  [
+                                                             "view",
+                                                             "river"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "Путать \u0027house\u0027 и \u0027home\u0027",
+                         "right":  "\u0027House\u0027 — здание, \u0027home\u0027 — место, где семья",
+                         "note":  "Вы можете жить в house, но home — это чувство."
+                     },
+                     {
+                         "wrong":  "Говорить \u0027I have a brother and sister\u0027 без артиклей",
+                         "right":  "\u0027I have a brother and a sister\u0027 — с артиклями",
+                         "note":  "В единственном числе нужен артикль \u0027a\u0027."
+                     },
+                     {
+                         "wrong":  "Путать \u0027garden\u0027 и \u0027yard\u0027",
+                         "right":  "В BrE \u0027garden\u0027 — сад с цветами, в AmE — \u0027yard\u0027",
+                         "note":  "Если вы в Лондоне — говорите garden, в Нью-Йорке — yard."
+                     },
+                     {
+                         "wrong":  "Путать \u0027flat\u0027 и \u0027apartment\u0027",
+                         "right":  "В BrE — flat, в AmE — apartment",
+                         "note":  "В британском английском \u0027flat\u0027 — это квартира."
+                     },
+                     {
+                         "wrong":  "Говорить \u0027My parents is\u0027 вместо \u0027My parents are\u0027",
+                         "right":  "\u0027My parents are\u0027 — во множественном числе",
+                         "note":  "Parents — это двое, значит, глагол во множественном числе."
+                     },
+                     {
+                         "wrong":  "Путать \u0027brother\u0027 и \u0027cousin\u0027",
+                         "right":  "\u0027Brother\u0027 — родной брат, \u0027cousin\u0027 — двоюродный",
+                         "note":  "Это разные родственники, нельзя путать."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Британские vs американские названия дома",
+                    "leftLabel":  "Британский (BrE)",
+                    "rightLabel":  "Американский (AmE)",
+                    "rows":  [
+                                 {
+                                     "left":  "flat",
+                                     "right":  "apartment"
+                                 },
+                                 {
+                                     "left":  "garden",
+                                     "right":  "yard"
+                                 },
+                                 {
+                                     "left":  "lift",
+                                     "right":  "elevator"
+                                 },
+                                 {
+                                     "left":  "ground floor",
+                                     "right":  "first floor"
+                                 },
+                                 {
+                                     "left":  "holiday",
+                                     "right":  "vacation"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "Запомните: \u0027house\u0027 — это здание, \u0027home\u0027 — это место, где живёт семья",
+                 "Для членов семьи используйте \u0027my\u0027 перед каждым словом: my father, my mother",
+                 "В британском английском \u0027flat\u0027 — квартира, в американском — \u0027apartment\u0027",
+                 "\u0027Garden\u0027 в BrE — это сад с цветами. В AmE говорят \u0027yard\u0027",
+                 "Всегда используйте \u0027are\u0027 для \u0027parents\u0027 (родители) — потому что их двое",
+                 "Перед названиями комнат не нужен артикль: \u0027in the kitchen\u0027",
+                 "Чтобы описать размер дома, используйте: small, big, large, cosy, comfortable"
+             ],
+    "related":  [
+
+                ],
+    "quiz":  [
+                 {
+                     "q":  "Кто такой \u0027brother\u0027 по-русски?",
+                     "options":  [
+                                     "Сестра",
+                                     "Брат",
+                                     "Двоюродный брат",
+                                     "Отец"
+                                 ],
+                     "answer":  "Брат",
+                     "why":  "\u0027Brother\u0027 — это брат. \u0027Sister\u0027 — сестра."
+                 },
+                 {
+                     "q":  "В чём разница между \u0027house\u0027 и \u0027home\u0027?",
+                     "options":  [
+                                     "Это одно и то же",
+                                     "House — здание, home — место семьи",
+                                     "House — место семьи, home — здание",
+                                     "Разницы нет"
+                                 ],
+                     "answer":  "House — здание, home — место семьи",
+                     "why":  "\u0027House\u0027 — это строение, \u0027home\u0027 — это место, где живёт семья."
+                 },
+                 {
+                     "q":  "Как называется гостиная по-английски?",
+                     "options":  [
+                                     "Bedroom",
+                                     "Kitchen",
+                                     "Living room",
+                                     "Bathroom"
+                                 ],
+                     "answer":  "Living room",
+                     "why":  "\u0027Living room\u0027 — гостиная, комната для отдыха."
+                 },
+                 {
+                     "q":  "Как называются родители в английском языке?",
+                     "options":  [
+                                     "Father and mother",
+                                     "Parents",
+                                     "Mum and dad",
+                                     "All of the above"
+                                 ],
+                     "answer":  "All of the above",
+                     "why":  "\u0027Parents\u0027 — общее название, \u0027father and mother\u0027 — формально."
+                 },
+                 {
+                     "q":  "Как сказать \u0027квартира\u0027 в британском английском?",
+                     "options":  [
+                                     "Apartment",
+                                     "Flat",
+                                     "House",
+                                     "Home"
+                                 ],
+                     "answer":  "Flat",
+                     "why":  "В британском английском \u0027flat\u0027 — квартира. В американском — \u0027apartment\u0027."
+                 },
+                 {
+                     "q":  "Как будет \u0027двоюродный брат\u0027 по-английски?",
+                     "options":  [
+                                     "Brother",
+                                     "Cousin",
+                                     "Uncle",
+                                     "Nephew"
+                                 ],
+                     "answer":  "Cousin",
+                     "why":  "\u0027Cousin\u0027 — это двоюродный брат или сестра."
+                 }
+             ]
 }

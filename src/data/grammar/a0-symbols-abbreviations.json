@@ -1,218 +1,592 @@
-{
-  "variant": "classic",
-  "slug": "symbols-abbreviations",
-  "level": "A0",
-  "title": "Символы, аббревиатуры и сокращения",
-  "category": "Basics",
-  "readingTime": 9,
-  "summary": "Как читать знаки, расшифровывать сокращения и не теряться в языке, где каждое слово может быть кодом. История о том, как Энтони Бёрджесс создал язык будущего.",
-  "idea": [
-    "Энтони Бёрджесс написал «Заводной апельсин» в 1962 году. Это роман о будущем, где подростки говорят на языке, которого никто не понимает. Бёрджесс придумал язык надсат — смесь английского, русского и цыганского сленга. Сокращения и символы в этом языке — не просто удобство, а способ сопротивления. Герои используют аббревиатуры, чтобы отделиться от взрослых, создать свой мир, где каждое слово — это код.",
-    "В книге Бёрджесса есть и реальные символы: «droogs» — друзья, «malchicks» — парни, «devotchkas» — девушки. Сокращения становятся частью идентичности. Если вы не понимаете язык, вы не входите в круг. Аббревиатуры — это не только удобство, но и маркер принадлежности. В английском языке сокращения повсюду: «Mr.» — мистер, «Dr.» — доктор, «St.» — улица. Бёрджесс показал, что язык — это не только слова, но и символы, которые мы используем каждый день.",
-    "Символы и аббревиатуры — это ключи к пониманию мира. У каждой буквы есть звук, у каждого знака есть значение. Изучая их, мы учимся читать не только слова, но и смыслы между ними."
-  ],
-  "symbols": [
-    { "symbol": "@", "reading": "at", "example": "info@company.co.uk", "exampleRu": "инфо эй-т компани дот ко ю-кей" },
-    { "symbol": "#", "reading": "number / hash", "example": "Flat #2B", "exampleRu": "квартира номер два-би" },
-    { "symbol": "$", "reading": "dollar", "example": "$1,500", "exampleRu": "одна тысяча пятьсот долларов" },
-    { "symbol": "%", "reading": "percent", "example": "25% discount", "exampleRu": "скидка двадцать пять процентов" },
-    { "symbol": "&", "reading": "and / ampersand", "example": "Smith & Co.", "exampleRu": "Смит и компания" },
-    { "symbol": "*", "reading": "asterisk / star", "example": "*See footnote", "exampleRu": "звёздочка — смотри сноску" },
-    { "symbol": "+", "reading": "plus", "example": "2 + 2 = 4", "exampleRu": "два плюс два равно четыре" },
-    { "symbol": "=", "reading": "equals", "example": "3 × 4 = 12", "exampleRu": "три умножить на четыре равно двенадцать" },
-    { "symbol": "/", "reading": "slash", "example": "and/or", "exampleRu": "и/или" },
-    { "symbol": "\\", "reading": "backslash", "example": "C:\\Documents", "exampleRu": "диск сэ — бэкслэш — документы" },
-    { "symbol": "_", "reading": "underscore", "example": "john_doe@email.com", "exampleRu": "джон андерскор доу эй-т имейл" },
-    { "symbol": "-", "reading": "dash / hyphen", "example": "well-known author", "exampleRu": "хорошо известный автор" },
-    { "symbol": ".", "reading": "dot", "example": ".com, Dr. Smith", "exampleRu": "дот ком, доктор Смит" },
-    { "symbol": ",", "reading": "comma", "example": "London, England", "exampleRu": "Лондон, Англия" },
-    { "symbol": "?", "reading": "question mark", "example": "Where are you?", "exampleRu": "где ты?" },
-    { "symbol": "!", "reading": "exclamation mark", "example": "Stop!", "exampleRu": "стой!" },
-    { "symbol": ":", "reading": "colon", "example": "Dear Sir:", "exampleRu": "дорогой сэр:" },
-    { "symbol": ";", "reading": "semicolon", "example": "He is tall; she is short.", "exampleRu": "он высокий; она низкая." }
-  ],
-  "why": [
-    "Символы и аббревиатуры — это язык современного мира: они повсюду, от адресов электронной почты до меню ресторанов",
-    "Сокращения экономят время в письме и делают речь более естественной в разговоре",
-    "Неправильное чтение символов может привести к непониманию: путать @ с собакой — это весело, но не по-английски",
-    "Знание аббревиатур — признак образованного человека, а не просто 'школьная' грамматика"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Alex: 'O my brothers, I have a new idea. We shall go to the Korova Milkbar and have some milk-plus. Milk-plus is vellocet or synthemesc or drencrom, you see. It gives you a nice quiet horror.'",
-        "ru": "Алекс: «О мои братья, у меня есть новая идея. Мы пойдём в молочный бар «Корова» и выпьем молочко-плюс. Молочко-плюс — это веллосет или синтемеск, или дрекром, понимаешь. Это даёт тебе приятный тихий ужас»." },
-      { "en": "Nadsat words are everywhere: droog (friend), malchick (boy), devotchka (girl), gulliver (head), chepooka (nonsense). Symbols and abbreviations are the language of the future.",
-        "ru": "Слова надсата повсюду: дроуг (друг), мальчик (мальчик), девочка (девочка), гулливер (голова), чепука (чепуха). Символы и аббревиатуры — это язык будущего." }
-    ],
-    "note": "В мире «Заводного апельсина» язык — это код. Чтобы понимать друг друга, нужно знать символы и сокращения."
-  },
-  "russianAngle": [
-    "В русском языке мы читаем буквы так, как они пишутся. В английском одна и та же буква может звучать по-разному",
-    "В русском @ — это 'собака', в английском — 'at'. Представьте, что вы идёте в банк и просите 'собаку' на клавиатуре — вас поймут только в России",
-    "Сокращения 'I'm', 'don't', 'can't' — это не просто 'укороченные' слова, а сигнал о том, что английский живёт в устной речи",
-    "Точка после Mr., Dr., St. — это викторианское наследие; в британском варианте часто точку не ставят (Mr Smith), а в американском — ставят (Mr. Smith)"
-  ],
-  "howToLearn": {
-    "steps": [
-      "Прочитайте таблицу символов вслух — привыкайте к звучанию, а не к зрительному образу",
-      "Потренируйтесь читать email-адреса: alice.smith@gmail.com — Элис точка Смит эй-т джимейл дот ком",
-      "Запомните титулы: Mr. (мистер), Mrs. (миссис), Ms. (миз), Dr. (доктор)",
-      "Выучите латинские сокращения: e.g. = например, i.e. = то есть, etc. = и так далее",
-      "Начните использовать глагольные сокращения в речи: I'm, you're, he's, she's, it's, we're, they're",
-      "Потренируйтесь с отрицательными сокращениями: don't, doesn't, didn't, can't, won't, shouldn't"
-    ],
-    "exercise": {
-      "prompt": "Расшифруйте сокращённый текст, используя знания символов и аббревиатур:",
-      "items": [
-        { "q": "Mr. & Mrs. Smith live at 22B Baker St., London. Please RSVP by 5 p.m. ASAP.", 
-          "a": "Мистер и миссис Смит живут по адресу Бейкер-стрит, 22Б, Лондон. Пожалуйста, подтвердите участие до 5 вечера, как можно скорее." },
-        { "q": "Dr. Jones, P.S. I've sent the file to you@firm.com. Check your e-mail, please. -- J.S., Esq.",
-          "a": "Доктор Джонс, P.S. Я отправил файл на you@firm.com. Проверьте вашу электронную почту, пожалуйста. — Дж. С., эсквайр." }
-      ]
-    }
-  },
-  "rules": [
-    { "title": "Символы",
-      "text": "Символы имеют свои названия и чтения: @ = at, # = number/hash, $ = dollar, % = percent, & = and/ampersand." },
-    { "title": "Аббревиатуры",
-      "text": "Титулы (Mr., Mrs., Ms., Dr., St.) и латинские сокращения (e.g., i.e., etc.) — это часть письменной культуры." },
-    { "title": "Сокращения",
-      "text": "Глагольные сокращения (I'm, you're, he's, she's, it's, we're, they're) и отрицания (don't, doesn't, didn't, can't, won't, shouldn't) — это норма устной речи." }
-  ],
-  "examples": [
-    {
-      "group": "Символы в повседневной жизни",
-      "items": [
-        { "en": "Send the invoice to billing@company.co.uk", "ru": "Отправьте счёт на billing@company.co.uk", "highlight": ["@", "."] },
-        { "en": "The meeting is in Room #401, 4th floor", "ru": "Встреча в комнате номер 401, на четвёртом этаже", "highlight": ["#"] },
-        { "en": "This book costs $25.00", "ru": "Эта книга стоит двадцать пять долларов", "highlight": ["$"] },
-        { "en": "She got a 95% score on the exam", "ru": "Она получила девяносто пять процентов на экзамене", "highlight": ["%"] },
-        { "en": "Johnson & Johnson is a well-known company", "ru": "Джонсон и Джонсон — это известная компания", "highlight": ["&"] }
-      ]
-    },
-    {
-      "group": "Титулы и обращения",
-      "items": [
-        { "en": "Mr. Darcy refused to dance with Elizabeth", "ru": "Мистер Дарси отказался танцевать с Элизабет", "highlight": ["Mr."] },
-        { "en": "Dr. Watson recorded every detail of the case", "ru": "Доктор Ватсон записывал каждую деталь дела", "highlight": ["Dr."] },
-        { "en": "Mrs. Hudson made tea for Sherlock at 7 a.m.", "ru": "Миссис Хадсон приготовила чай для Шерлока в 7 утра", "highlight": ["Mrs."] },
-        { "en": "St. Paul's Cathedral is one of London's landmarks", "ru": "Собор Святого Павла — одна из достопримечательностей Лондона", "highlight": ["St."] },
-        { "en": "Professor Higgins was a master of phonetics", "ru": "Профессор Хиггинс был мастером фонетики", "highlight": ["Prof."] }
-      ]
-    },
-    {
-      "group": "Латинские сокращения",
-      "items": [
-        { "en": "We need to buy groceries, e.g., bread and milk", "ru": "Нам нужно купить продукты, например, хлеб и молоко", "highlight": ["e.g."] },
-        { "en": "He lives in the capital, i.e., London", "ru": "Он живёт в столице, то есть в Лондоне", "highlight": ["i.e."] },
-        { "en": "Please bring pens, pencils, erasers, etc.", "ru": "Пожалуйста, принесите ручки, карандаши, ластики и так далее", "highlight": ["etc."] },
-        { "en": "He arrived at 8 p.m., vs. the announced 7 p.m.", "ru": "Он прибыл в 8 вечера, против объявленных 7 вечера", "highlight": ["vs."] },
-        { "en": "The book, viz. 'Pride and Prejudice', is a classic", "ru": "Книга, а именно 'Гордость и предубеждение', — это классика", "highlight": ["viz."] }
-      ]
-    },
-    {
-      "group": "Бытовые сокращения",
-      "items": [
-        { "en": "Please send the report ASAP", "ru": "Пожалуйста, отправьте отчёт как можно быстрее", "highlight": ["ASAP"] },
-        { "en": "RSVP by Friday if you're coming to the party", "ru": "Подтвердите участие до пятницы, если придёте на вечеринку", "highlight": ["RSVP"] },
-        { "en": "P.S. I love you — she wrote in the letter", "ru": "P.S. Я тебя люблю — написала она в письме", "highlight": ["P.S."] },
-        { "en": "DIY furniture is cheap and fun", "ru": "Мебель своими руками — дешёво и весело", "highlight": ["DIY"] },
-        { "en": "He was a VIP at the concert, with a backstage pass", "ru": "Он был VIP-персоной на концерте, с пропуском за кулисы", "highlight": ["VIP"] }
-      ]
-    },
-    {
-      "group": "Глагольные сокращения",
-      "items": [
-        { "en": "I'm reading a new book by Charles Dickens", "ru": "Я читаю новую книгу Чарльза Диккенса", "highlight": ["I'm"] },
-        { "en": "You're going to love this film", "ru": "Тебе понравится этот фильм", "highlight": ["You're"] },
-        { "en": "He's a doctor, not a detective", "ru": "Он доктор, а не детектив", "highlight": ["He's"] },
-        { "en": "She's the best writer in the family", "ru": "Она лучший писатель в семье", "highlight": ["She's"] },
-        { "en": "It's raining outside, so take an umbrella", "ru": "На улице дождь, так что возьмите зонт", "highlight": ["It's"] }
-      ]
-    },
-    {
-      "group": "Отрицательные сокращения",
-      "items": [
-        { "en": "I don't understand this grammar rule", "ru": "Я не понимаю это грамматическое правило", "highlight": ["don't"] },
-        { "en": "She doesn't like coffee, only tea", "ru": "Она не любит кофе, только чай", "highlight": ["doesn't"] },
-        { "en": "He didn't answer the phone when I called", "ru": "Он не ответил на телефон, когда я звонил", "highlight": ["didn't"] },
-        { "en": "You can't park here; it's a disabled bay", "ru": "Здесь нельзя парковаться; это место для инвалидов", "highlight": ["can't"] },
-        { "en": "I won't forget this moment", "ru": "Я не забуду этот момент", "highlight": ["won't"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "I am doctor", "right": "I am Dr. Smith / I am a doctor", "note": "Dr. — это титул, а не профессия. Нельзя сказать 'I am doctor'." },
-    { "wrong": "We need bread and milk e.g.", "right": "We need bread and milk, e.g., bread and milk", "note": "e.g. ставится перед списком примеров, а не после." },
-    { "wrong": "Its raining outside", "right": "It's raining outside", "note": "It's = it is. Its = принадлежность." },
-    { "wrong": "You're book is on the table", "right": "Your book is on the table", "note": "You're = you are. Your = твой/ваш." },
-    { "wrong": "He dont like tea", "right": "He doesn't like tea", "note": "Для he/she/it в отрицании нужно doesn't, а не don't." },
-    { "wrong": "I live at Baker St. #22B", "right": "I live at 22B Baker St.", "note": "В британском варианте номер дома ставится перед названием улицы." }
-  ],
-  "compare": {
-    "title": "Символы и их чтение",
-    "leftLabel": "Символ",
-    "rightLabel": "Чтение",
-    "rows": [
-      { "left": "@", "right": "at" },
-      { "left": "#", "right": "number / hash" },
-      { "left": "$", "right": "dollar" },
-      { "left": "%", "right": "percent" },
-      { "left": "&", "right": "and / ampersand" },
-      { "left": "*", "right": "asterisk / star" },
-      { "left": "/", "right": "slash" },
-      { "left": "\\", "right": "backslash" },
-      { "left": "_", "right": "underscore" },
-      { "left": "-", "right": "dash / hyphen" },
-      { "left": ".", "right": "dot" }
-    ]
-  },
-  "tips": [
-    "Всегда читайте @ как 'at' в email-адресах, а не как 'собака'",
-    "Точка после Mr., Dr., Mrs., St. — это викторианская элегантность",
-    "e.g. = 'for example' (например), а i.e. = 'that is' (то есть)",
-    "ASAP = 'as soon as possible' — используйте в деловой переписке",
-    "RSVP — из французского 'Répondez s'il vous plaît' — вы должны ответить",
-    "В глагольных сокращениях апостроф указывает на пропущенную букву",
-    "В письменной речи избегайте слишком много сокращений"
-  ],
-  "related": [],
-  "quiz": [
-    {
-      "q": "Как читается символ @ в английском языке?",
-      "options": ["Собака", "At", "Эт", "Ampersand"],
-      "answer": "At",
-      "why": "В английском @ читается как 'at' — это не собака."
-    },
-    {
-      "q": "Что означает сокращение Dr. в английском языке?",
-      "options": ["Доктор", "Дорогой", "Дурак", "Дверь"],
-      "answer": "Доктор",
-      "why": "Dr. — это сокращение от Doctor."
-    },
-    {
-      "q": "Какое сокращение означает 'например'?",
-      "options": ["i.e.", "e.g.", "etc.", "vs."],
-      "answer": "e.g.",
-      "why": "e.g. — это от латинского 'exempli gratia', то есть 'например'."
-    },
-    {
-      "q": "В чём разница между It's и Its?",
-      "options": ["It's = его, Its = это есть", "It's = это есть, Its = его", "Это одно и то же", "Оба варианта неправильные"],
-      "answer": "It's = это есть, Its = его",
-      "why": "It's — сокращение от It is. Its — притяжательное местоимение."
-    },
-    {
-      "q": "Как читается сокращение не могу на английском?",
-      "options": ["can't", "cant", "cann't", "cannot"],
-      "answer": "can't",
-      "why": "Правильное сокращение от cannot — can't (с апострофом вместо o)."
-    },
-    {
-      "q": "Что означает сокращение P.S. в письме?",
-      "options": ["Post Scriptum", "Post Script", "Pre Scriptum", "Post Scriptum"],
-      "answer": "Post Scriptum",
-      "why": "P.S. — это латинское 'post scriptum', 'после написанного'."
-    }
-  ]
+﻿{
+    "variant":  "classic",
+    "slug":  "symbols-abbreviations",
+    "level":  "A0",
+    "title":  "Symbols, Abbreviations and Short Forms",
+    "category":  "Basics",
+    "readingTime":  9,
+    "summary":  "Символы, аббревиатуры и сокращения. Учимся читать знаки и сокращения с Энтони Бёрджессом и AC/DC.",
+    "idea":  [
+                 "Энтони Бёрджесс написал «Заводной апельсин» в 1962 году. Это роман о будущем, где подростки говорят на языке, которого никто не понимает. Бёрджесс придумал язык надсат — смесь английского, русского и цыганского сленга. Сокращения и символы в этом языке — не просто удобство, а способ сопротивления. Герои используют аббревиатуры, чтобы отделиться от взрослых, создать свой мир, где каждое слово — это код.",
+                 "В книге Бёрджесса есть и реальные символы: «droogs» — друзья, «malchicks» — парни, «devotchkas» — девушки. Сокращения становятся частью идентичности. Если вы не понимаете язык, вы не входите в круг. Аббревиатуры — это не только удобство, но и маркер принадлежности. В английском языке сокращения повсюду: «Mr.» — мистер, «Dr.» — доктор, «St.» — улица. Бёрджесс показал, что язык — это не только слова, но и символы, которые мы используем каждый день.",
+                 "Символы и аббревиатуры — это ключи к пониманию мира. У каждой буквы есть звук, у каждого знака есть значение. Изучая их, мы учимся читать не только слова, но и смыслы между ними."
+             ],
+    "symbols":  [
+                    {
+                        "symbol":  "@",
+                        "reading":  "at",
+                        "example":  "info@company.co.uk",
+                        "exampleRu":  "инфо эй-т компани дот ко ю-кей"
+                    },
+                    {
+                        "symbol":  "#",
+                        "reading":  "number / hash",
+                        "example":  "Flat #2B",
+                        "exampleRu":  "квартира номер два-би"
+                    },
+                    {
+                        "symbol":  "$",
+                        "reading":  "dollar",
+                        "example":  "$1,500",
+                        "exampleRu":  "одна тысяча пятьсот долларов"
+                    },
+                    {
+                        "symbol":  "%",
+                        "reading":  "percent",
+                        "example":  "25% discount",
+                        "exampleRu":  "скидка двадцать пять процентов"
+                    },
+                    {
+                        "symbol":  "\u0026",
+                        "reading":  "and / ampersand",
+                        "example":  "Smith \u0026 Co.",
+                        "exampleRu":  "Смит и компания"
+                    },
+                    {
+                        "symbol":  "*",
+                        "reading":  "asterisk / star",
+                        "example":  "*See footnote",
+                        "exampleRu":  "звёздочка — смотри сноску"
+                    },
+                    {
+                        "symbol":  "+",
+                        "reading":  "plus",
+                        "example":  "2 + 2 = 4",
+                        "exampleRu":  "два плюс два равно четыре"
+                    },
+                    {
+                        "symbol":  "=",
+                        "reading":  "equals",
+                        "example":  "3 × 4 = 12",
+                        "exampleRu":  "три умножить на четыре равно двенадцать"
+                    },
+                    {
+                        "symbol":  "/",
+                        "reading":  "slash",
+                        "example":  "and/or",
+                        "exampleRu":  "и/или"
+                    },
+                    {
+                        "symbol":  "\\",
+                        "reading":  "backslash",
+                        "example":  "C:\\Documents",
+                        "exampleRu":  "диск сэ — бэкслэш — документы"
+                    },
+                    {
+                        "symbol":  "_",
+                        "reading":  "underscore",
+                        "example":  "john_doe@email.com",
+                        "exampleRu":  "джон андерскор доу эй-т имейл"
+                    },
+                    {
+                        "symbol":  "-",
+                        "reading":  "dash / hyphen",
+                        "example":  "well-known author",
+                        "exampleRu":  "хорошо известный автор"
+                    },
+                    {
+                        "symbol":  ".",
+                        "reading":  "dot",
+                        "example":  ".com, Dr. Smith",
+                        "exampleRu":  "дот ком, доктор Смит"
+                    },
+                    {
+                        "symbol":  ",",
+                        "reading":  "comma",
+                        "example":  "London, England",
+                        "exampleRu":  "Лондон, Англия"
+                    },
+                    {
+                        "symbol":  "?",
+                        "reading":  "question mark",
+                        "example":  "Where are you?",
+                        "exampleRu":  "где ты?"
+                    },
+                    {
+                        "symbol":  "!",
+                        "reading":  "exclamation mark",
+                        "example":  "Stop!",
+                        "exampleRu":  "стой!"
+                    },
+                    {
+                        "symbol":  ":",
+                        "reading":  "colon",
+                        "example":  "Dear Sir:",
+                        "exampleRu":  "дорогой сэр:"
+                    },
+                    {
+                        "symbol":  ";",
+                        "reading":  "semicolon",
+                        "example":  "He is tall; she is short.",
+                        "exampleRu":  "он высокий; она низкая."
+                    }
+                ],
+    "why":  [
+                "Символы и аббревиатуры — это язык современного мира: они повсюду, от адресов электронной почты до меню ресторанов",
+                "Сокращения экономят время в письме и делают речь более естественной в разговоре",
+                "Неправильное чтение символов может привести к непониманию: путать @ с собакой — это весело, но не по-английски",
+                "Знание аббревиатур — признак образованного человека, а не просто \u0027школьная\u0027 грамматика"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Alex: \u0027O my brothers, I have a new idea. We shall go to the Korova Milkbar and have some milk-plus. Milk-plus is vellocet or synthemesc or drencrom, you see. It gives you a nice quiet horror.\u0027",
+                                      "ru":  "Алекс: «О мои братья, у меня есть новая идея. Мы пойдём в молочный бар «Корова» и выпьем молочко-плюс. Молочко-плюс — это веллосет или синтемеск, или дрекром, понимаешь. Это даёт тебе приятный тихий ужас»."
+                                  },
+                                  {
+                                      "en":  "Nadsat words are everywhere: droog (friend), malchick (boy), devotchka (girl), gulliver (head), chepooka (nonsense). Symbols and abbreviations are the language of the future.",
+                                      "ru":  "Слова надсата повсюду: дроуг (друг), мальчик (мальчик), девочка (девочка), гулливер (голова), чепука (чепуха). Символы и аббревиатуры — это язык будущего."
+                                  }
+                              ],
+                    "note":  "В мире «Заводного апельсина» язык — это код. Чтобы понимать друг друга, нужно знать символы и сокращения."
+                },
+    "russianAngle":  [
+                         "В русском языке мы читаем буквы так, как они пишутся. В английском одна и та же буква может звучать по-разному",
+                         "В русском @ — это \u0027собака\u0027, в английском — \u0027at\u0027. Представьте, что вы идёте в банк и просите \u0027собаку\u0027 на клавиатуре — вас поймут только в России",
+                         "Сокращения \u0027I\u0027m\u0027, \u0027don\u0027t\u0027, \u0027can\u0027t\u0027 — это не просто \u0027укороченные\u0027 слова, а сигнал о том, что английский живёт в устной речи",
+                         "Точка после Mr., Dr., St. — это викторианское наследие; в британском варианте часто точку не ставят (Mr Smith), а в американском — ставят (Mr. Smith)"
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Прочитайте таблицу символов вслух — привыкайте к звучанию, а не к зрительному образу",
+                                     "Потренируйтесь читать email-адреса: alice.smith@gmail.com — Элис точка Смит эй-т джимейл дот ком",
+                                     "Запомните титулы: Mr. (мистер), Mrs. (миссис), Ms. (миз), Dr. (доктор)",
+                                     "Выучите латинские сокращения: e.g. = например, i.e. = то есть, etc. = и так далее",
+                                     "Начните использовать глагольные сокращения в речи: I\u0027m, you\u0027re, he\u0027s, she\u0027s, it\u0027s, we\u0027re, they\u0027re",
+                                     "Потренируйтесь с отрицательными сокращениями: don\u0027t, doesn\u0027t, didn\u0027t, can\u0027t, won\u0027t, shouldn\u0027t"
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Расшифруйте сокращённый текст, используя знания символов и аббревиатур:",
+                                        "items":  [
+                                                      {
+                                                          "q":  "Mr. \u0026 Mrs. Smith live at 22B Baker St., London. Please RSVP by 5 p.m. ASAP.",
+                                                          "a":  "Мистер и миссис Смит живут по адресу Бейкер-стрит, 22Б, Лондон. Пожалуйста, подтвердите участие до 5 вечера, как можно скорее."
+                                                      },
+                                                      {
+                                                          "q":  "Dr. Jones, P.S. I\u0027ve sent the file to you@firm.com. Check your e-mail, please. -- J.S., Esq.",
+                                                          "a":  "Доктор Джонс, P.S. Я отправил файл на you@firm.com. Проверьте вашу электронную почту, пожалуйста. — Дж. С., эсквайр."
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "rules":  [
+                  {
+                      "title":  "Символы",
+                      "text":  "Символы имеют свои названия и чтения: @ = at, # = number/hash, $ = dollar, % = percent, \u0026 = and/ampersand."
+                  },
+                  {
+                      "title":  "Аббревиатуры",
+                      "text":  "Титулы (Mr., Mrs., Ms., Dr., St.) и латинские сокращения (e.g., i.e., etc.) — это часть письменной культуры."
+                  },
+                  {
+                      "title":  "Сокращения",
+                      "text":  "Глагольные сокращения (I\u0027m, you\u0027re, he\u0027s, she\u0027s, it\u0027s, we\u0027re, they\u0027re) и отрицания (don\u0027t, doesn\u0027t, didn\u0027t, can\u0027t, won\u0027t, shouldn\u0027t) — это норма устной речи."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Символы в повседневной жизни",
+                         "items":  [
+                                       {
+                                           "en":  "Send the invoice to billing@company.co.uk",
+                                           "ru":  "Отправьте счёт на billing@company.co.uk",
+                                           "highlight":  [
+                                                             "@",
+                                                             "."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The meeting is in Room #401, 4th floor",
+                                           "ru":  "Встреча в комнате номер 401, на четвёртом этаже",
+                                           "highlight":  [
+                                                             "#"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "This book costs $25.00",
+                                           "ru":  "Эта книга стоит двадцать пять долларов",
+                                           "highlight":  [
+                                                             "$"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "She got a 95% score on the exam",
+                                           "ru":  "Она получила девяносто пять процентов на экзамене",
+                                           "highlight":  [
+                                                             "%"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Johnson \u0026 Johnson is a well-known company",
+                                           "ru":  "Джонсон и Джонсон — это известная компания",
+                                           "highlight":  [
+                                                             "\u0026"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Титулы и обращения",
+                         "items":  [
+                                       {
+                                           "en":  "Mr. Darcy refused to dance with Elizabeth",
+                                           "ru":  "Мистер Дарси отказался танцевать с Элизабет",
+                                           "highlight":  [
+                                                             "Mr."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Dr. Watson recorded every detail of the case",
+                                           "ru":  "Доктор Ватсон записывал каждую деталь дела",
+                                           "highlight":  [
+                                                             "Dr."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Mrs. Hudson made tea for Sherlock at 7 a.m.",
+                                           "ru":  "Миссис Хадсон приготовила чай для Шерлока в 7 утра",
+                                           "highlight":  [
+                                                             "Mrs."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "St. Paul\u0027s Cathedral is one of London\u0027s landmarks",
+                                           "ru":  "Собор Святого Павла — одна из достопримечательностей Лондона",
+                                           "highlight":  [
+                                                             "St."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Professor Higgins was a master of phonetics",
+                                           "ru":  "Профессор Хиггинс был мастером фонетики",
+                                           "highlight":  [
+                                                             "Prof."
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Латинские сокращения",
+                         "items":  [
+                                       {
+                                           "en":  "We need to buy groceries, e.g., bread and milk",
+                                           "ru":  "Нам нужно купить продукты, например, хлеб и молоко",
+                                           "highlight":  [
+                                                             "e.g."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He lives in the capital, i.e., London",
+                                           "ru":  "Он живёт в столице, то есть в Лондоне",
+                                           "highlight":  [
+                                                             "i.e."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Please bring pens, pencils, erasers, etc.",
+                                           "ru":  "Пожалуйста, принесите ручки, карандаши, ластики и так далее",
+                                           "highlight":  [
+                                                             "etc."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He arrived at 8 p.m., vs. the announced 7 p.m.",
+                                           "ru":  "Он прибыл в 8 вечера, против объявленных 7 вечера",
+                                           "highlight":  [
+                                                             "vs."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "The book, viz. \u0027Pride and Prejudice\u0027, is a classic",
+                                           "ru":  "Книга, а именно \u0027Гордость и предубеждение\u0027, — это классика",
+                                           "highlight":  [
+                                                             "viz."
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Бытовые сокращения",
+                         "items":  [
+                                       {
+                                           "en":  "Please send the report ASAP",
+                                           "ru":  "Пожалуйста, отправьте отчёт как можно быстрее",
+                                           "highlight":  [
+                                                             "ASAP"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "RSVP by Friday if you\u0027re coming to the party",
+                                           "ru":  "Подтвердите участие до пятницы, если придёте на вечеринку",
+                                           "highlight":  [
+                                                             "RSVP"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "P.S. I love you — she wrote in the letter",
+                                           "ru":  "P.S. Я тебя люблю — написала она в письме",
+                                           "highlight":  [
+                                                             "P.S."
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "DIY furniture is cheap and fun",
+                                           "ru":  "Мебель своими руками — дешёво и весело",
+                                           "highlight":  [
+                                                             "DIY"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He was a VIP at the concert, with a backstage pass",
+                                           "ru":  "Он был VIP-персоной на концерте, с пропуском за кулисы",
+                                           "highlight":  [
+                                                             "VIP"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Глагольные сокращения",
+                         "items":  [
+                                       {
+                                           "en":  "I\u0027m reading a new book by Charles Dickens",
+                                           "ru":  "Я читаю новую книгу Чарльза Диккенса",
+                                           "highlight":  [
+                                                             "I\u0027m"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "You\u0027re going to love this film",
+                                           "ru":  "Тебе понравится этот фильм",
+                                           "highlight":  [
+                                                             "You\u0027re"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He\u0027s a doctor, not a detective",
+                                           "ru":  "Он доктор, а не детектив",
+                                           "highlight":  [
+                                                             "He\u0027s"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "She\u0027s the best writer in the family",
+                                           "ru":  "Она лучший писатель в семье",
+                                           "highlight":  [
+                                                             "She\u0027s"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "It\u0027s raining outside, so take an umbrella",
+                                           "ru":  "На улице дождь, так что возьмите зонт",
+                                           "highlight":  [
+                                                             "It\u0027s"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Отрицательные сокращения",
+                         "items":  [
+                                       {
+                                           "en":  "I don\u0027t understand this grammar rule",
+                                           "ru":  "Я не понимаю это грамматическое правило",
+                                           "highlight":  [
+                                                             "don\u0027t"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "She doesn\u0027t like coffee, only tea",
+                                           "ru":  "Она не любит кофе, только чай",
+                                           "highlight":  [
+                                                             "doesn\u0027t"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "He didn\u0027t answer the phone when I called",
+                                           "ru":  "Он не ответил на телефон, когда я звонил",
+                                           "highlight":  [
+                                                             "didn\u0027t"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "You can\u0027t park here; it\u0027s a disabled bay",
+                                           "ru":  "Здесь нельзя парковаться; это место для инвалидов",
+                                           "highlight":  [
+                                                             "can\u0027t"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "I won\u0027t forget this moment",
+                                           "ru":  "Я не забуду этот момент",
+                                           "highlight":  [
+                                                             "won\u0027t"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "I am doctor",
+                         "right":  "I am Dr. Smith / I am a doctor",
+                         "note":  "Dr. — это титул, а не профессия. Нельзя сказать \u0027I am doctor\u0027."
+                     },
+                     {
+                         "wrong":  "We need bread and milk e.g.",
+                         "right":  "We need bread and milk, e.g., bread and milk",
+                         "note":  "e.g. ставится перед списком примеров, а не после."
+                     },
+                     {
+                         "wrong":  "Its raining outside",
+                         "right":  "It\u0027s raining outside",
+                         "note":  "It\u0027s = it is. Its = принадлежность."
+                     },
+                     {
+                         "wrong":  "You\u0027re book is on the table",
+                         "right":  "Your book is on the table",
+                         "note":  "You\u0027re = you are. Your = твой/ваш."
+                     },
+                     {
+                         "wrong":  "He dont like tea",
+                         "right":  "He doesn\u0027t like tea",
+                         "note":  "Для he/she/it в отрицании нужно doesn\u0027t, а не don\u0027t."
+                     },
+                     {
+                         "wrong":  "I live at Baker St. #22B",
+                         "right":  "I live at 22B Baker St.",
+                         "note":  "В британском варианте номер дома ставится перед названием улицы."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Символы и их чтение",
+                    "leftLabel":  "Символ",
+                    "rightLabel":  "Чтение",
+                    "rows":  [
+                                 {
+                                     "left":  "@",
+                                     "right":  "at"
+                                 },
+                                 {
+                                     "left":  "#",
+                                     "right":  "number / hash"
+                                 },
+                                 {
+                                     "left":  "$",
+                                     "right":  "dollar"
+                                 },
+                                 {
+                                     "left":  "%",
+                                     "right":  "percent"
+                                 },
+                                 {
+                                     "left":  "\u0026",
+                                     "right":  "and / ampersand"
+                                 },
+                                 {
+                                     "left":  "*",
+                                     "right":  "asterisk / star"
+                                 },
+                                 {
+                                     "left":  "/",
+                                     "right":  "slash"
+                                 },
+                                 {
+                                     "left":  "\\",
+                                     "right":  "backslash"
+                                 },
+                                 {
+                                     "left":  "_",
+                                     "right":  "underscore"
+                                 },
+                                 {
+                                     "left":  "-",
+                                     "right":  "dash / hyphen"
+                                 },
+                                 {
+                                     "left":  ".",
+                                     "right":  "dot"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "Всегда читайте @ как \u0027at\u0027 в email-адресах, а не как \u0027собака\u0027",
+                 "Точка после Mr., Dr., Mrs., St. — это викторианская элегантность",
+                 "e.g. = \u0027for example\u0027 (например), а i.e. = \u0027that is\u0027 (то есть)",
+                 "ASAP = \u0027as soon as possible\u0027 — используйте в деловой переписке",
+                 "RSVP — из французского \u0027Répondez s\u0027il vous plaît\u0027 — вы должны ответить",
+                 "В глагольных сокращениях апостроф указывает на пропущенную букву",
+                 "В письменной речи избегайте слишком много сокращений"
+             ],
+    "related":  [
+
+                ],
+    "quiz":  [
+                 {
+                     "q":  "Как читается символ @ в английском языке?",
+                     "options":  [
+                                     "Собака",
+                                     "At",
+                                     "Эт",
+                                     "Ampersand"
+                                 ],
+                     "answer":  "At",
+                     "why":  "В английском @ читается как \u0027at\u0027 — это не собака."
+                 },
+                 {
+                     "q":  "Что означает сокращение Dr. в английском языке?",
+                     "options":  [
+                                     "Доктор",
+                                     "Дорогой",
+                                     "Дурак",
+                                     "Дверь"
+                                 ],
+                     "answer":  "Доктор",
+                     "why":  "Dr. — это сокращение от Doctor."
+                 },
+                 {
+                     "q":  "Какое сокращение означает \u0027например\u0027?",
+                     "options":  [
+                                     "i.e.",
+                                     "e.g.",
+                                     "etc.",
+                                     "vs."
+                                 ],
+                     "answer":  "e.g.",
+                     "why":  "e.g. — это от латинского \u0027exempli gratia\u0027, то есть \u0027например\u0027."
+                 },
+                 {
+                     "q":  "В чём разница между It\u0027s и Its?",
+                     "options":  [
+                                     "It\u0027s = его, Its = это есть",
+                                     "It\u0027s = это есть, Its = его",
+                                     "Это одно и то же",
+                                     "Оба варианта неправильные"
+                                 ],
+                     "answer":  "It\u0027s = это есть, Its = его",
+                     "why":  "It\u0027s — сокращение от It is. Its — притяжательное местоимение."
+                 },
+                 {
+                     "q":  "Как читается сокращение не могу на английском?",
+                     "options":  [
+                                     "can\u0027t",
+                                     "cant",
+                                     "cann\u0027t",
+                                     "cannot"
+                                 ],
+                     "answer":  "can\u0027t",
+                     "why":  "Правильное сокращение от cannot — can\u0027t (с апострофом вместо o)."
+                 },
+                 {
+                     "q":  "Что означает сокращение P.S. в письме?",
+                     "options":  [
+                                     "Post Scriptum",
+                                     "Post Script",
+                                     "Pre Scriptum",
+                                     "Post Scriptum"
+                                 ],
+                     "answer":  "Post Scriptum",
+                     "why":  "P.S. — это латинское \u0027post scriptum\u0027, \u0027после написанного\u0027."
+                 }
+             ]
 }

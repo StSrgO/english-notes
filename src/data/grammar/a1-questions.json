@@ -1,187 +1,467 @@
-{
-  "slug": "a1-questions",
-  "level": "A1",
-  "title": "Questions — допрос по-английски",
-  "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Вопросы — это инструмент расследования. В этом уроке — Эркюль Пуаро и загадка Восточного экспресса.",
-  "variant": "classic",
-  "idea": [
-    "1934 год. Поезд «Восточный экспресс» застрял в снегах. В купе находят мёртвого человека. Эркюль Пуаро начинает расследование. Он задаёт вопросы. «Who killed him?» — Кто убил его? «Did you see anything?» — Вы что-нибудь видели? «Where were you at midnight?» — Где вы были в полночь? Вопросы — его главное оружие.",
-    "Каждый пассажир что-то скрывает. Пуаро слушает, наблюдает, задаёт вопросы. «What is your name?» — Как вас зовут? «Why are you travelling?» — Почему вы путешествуете? «Do you know the victim?» — Вы знаете жертву? Постепенно картина проясняется. Вопросы раскрывают правду.",
-    "Агата Кристи знала: правильный вопрос — половина ответа. В английском есть разные типы вопросов: общие (да/нет), специальные (who/what/where), вопросы к подлежащему. Каждый из них — как инструмент детектива. Вопросы помогают нам узнавать новое. Они открывают двери. Даже если за ними — убийство."
-  ],
-  "why": [
-    "Спрашивать информацию: «What is your name?»",
-    "Уточнять детали: «Where were you at midnight?»",
-    "Подтверждать факты: «Did you see the killer?»",
-    "Общаться в повседневной жизни: «Do you speak English?»"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Poirot: Who are you? What is your name?", "ru": "Кто вы? Как вас зовут?" },
-      { "en": "Passenger: My name is Mary Debenham.", "ru": "Меня зовут Мэри Дебенхэм." },
-      { "en": "Poirot: Did you know the victim? Where were you at midnight?", "ru": "Вы знали жертву? Где вы были в полночь?" },
-      { "en": "Mary: I didn't know him. I was in my cabin.", "ru": "Я не знала его. Я была в своём купе." },
-      { "en": "Poirot: Do you have any evidence? Can you prove it?", "ru": "У вас есть доказательства? Можете доказать?" }
-    ],
-    "note": "Пуаро допрашивает пассажиров. Вопросы разных типов помогают собрать информацию."
-  },
-  "russianAngle": [
-    "В русском мы меняем интонацию для вопроса: «Вы видели убийцу?» В английском меняем порядок слов: «Did you see the killer?»",
-    "В вопросах с глаголом to be — просто меняем местами: «You are» → «Are you?»",
-    "В вопросах с другими глаголами — используем do/does (настоящее) или did (прошлое): «Do you know?», «Did you see?»",
-    "В специальных вопросах — слово-вопрос (who, what, where, when, why, how) + вопрос: «Who killed him?»"
-  ],
-  "howToLearn": {
-    "steps": [
-      "Запомни: в английском вопросе порядок слов меняется.",
-      "С глаголом to be: Are you? Was he?",
-      "С другими глаголами: Do you...? Does he...? Did they...?",
-      "Специальные вопросы: Who, What, Where, When, Why, How.",
-      "Вопросы к подлежащему: Who killed him? (без did).",
-      "Потренируйся: задай вопросы детективу Пуаро."
-    ],
-    "exercise": {
-      "prompt": "Сделай предложения вопросительными:",
-      "items": [
-        { "q": "You are a detective.", "a": "Are you a detective?" },
-        { "q": "He knows the victim.", "a": "Does he know the victim?" },
-        { "q": "They saw the killer.", "a": "Did they see the killer?" },
-        { "q": "She was in her cabin.", "a": "Was she in her cabin?" },
-        { "q": "The train stopped in the snow.", "a": "Did the train stop in the snow?" }
-      ]
-    }
-  },
-  "formula": "Question word (optional) + auxiliary (do/does/did/am/is/are/was/were) + subject + main verb?",
-  "structure": {
-    "positive": "Утверждение: You are a detective.",
-    "negative": "Отрицание: You aren't a detective.",
-    "question": "Вопрос: Are you a detective?"
-  },
-  "markers": [
-    "who",
-    "what",
-    "where",
-    "when",
-    "why",
-    "how",
-    "how many",
-    "how much",
-    "how often",
-    "do",
-    "does",
-    "did",
-    "am",
-    "is",
-    "are",
-    "was",
-    "were",
-    "can",
-    "will"
-  ],
-  "uses": [
-    "Общие вопросы (Yes/No): «Did you see the killer?»",
-    "Специальные вопросы (Wh-): «Who killed him?»",
-    "Вопросы к подлежащему: «Who was in the train?»",
-    "Альтернативные вопросы: «Was it the butler or the driver?»"
-  ],
-  "rules": [
-    { "title": "Вопросы с глаголом to be", "text": "Просто меняй местами подлежащее и глагол: You are → Are you? He was → Was he?" },
-    { "title": "Вопросы с другими глаголами", "text": "Используй do/does (настоящее) или did (прошлое): Do you know? Did he see?" },
-    { "title": "Специальные вопросы", "text": "Вопросительное слово + вспомогательный глагол + подлежащее + основной глагол: Where did you go?" },
-    { "title": "Вопрос к подлежащему", "text": "Вопросительное слово (who/what) + глагол (без do/does/did): Who killed him?" }
-  ],
-  "examples": [
-    {
-      "group": "Общие вопросы (Yes/No)",
-      "items": [
-        { "en": "Did you see the killer?", "ru": "Вы видели убийцу?", "highlight": ["Did"] },
-        { "en": "Are you a detective?", "ru": "Вы детектив?", "highlight": ["Are"] },
-        { "en": "Was she in her cabin?", "ru": "Она была в своём купе?", "highlight": ["Was"] },
-        { "en": "Do you know the victim?", "ru": "Вы знаете жертву?", "highlight": ["Do"] }
-      ]
-    },
-    {
-      "group": "Специальные вопросы (Wh-)",
-      "items": [
-        { "en": "Who are you?", "ru": "Кто вы?", "highlight": ["Who"] },
-        { "en": "What is your name?", "ru": "Как вас зовут?", "highlight": ["What"] },
-        { "en": "Where were you at midnight?", "ru": "Где вы были в полночь?", "highlight": ["Where"] },
-        { "en": "Why are you travelling?", "ru": "Почему вы путешествуете?", "highlight": ["Why"] }
-      ]
-    },
-    {
-      "group": "Вопросы к подлежащему",
-      "items": [
-        { "en": "Who killed the victim?", "ru": "Кто убил жертву?", "highlight": ["Who"] },
-        { "en": "What happened in the train?", "ru": "Что произошло в поезде?", "highlight": ["What"] },
-        { "en": "Who was in the cabin?", "ru": "Кто был в купе?", "highlight": ["Who"] },
-        { "en": "What stopped the train?", "ru": "Что остановило поезд?", "highlight": ["What"] }
-      ]
-    },
-    {
-      "group": "Альтернативные вопросы",
-      "items": [
-        { "en": "Was it the butler or the driver?", "ru": "Это был дворецкий или водитель?", "highlight": ["Was"] },
-        { "en": "Did he go left or right?", "ru": "Он пошёл налево или направо?", "highlight": ["Did"] },
-        { "en": "Are you a passenger or a detective?", "ru": "Вы пассажир или детектив?", "highlight": ["Are"] },
-        { "en": "Was the train moving or stopped?", "ru": "Поезд двигался или стоял?", "highlight": ["Was"] }
-      ]
-    },
-    {
-      "group": "Вопросы с разными временами",
-      "items": [
-        { "en": "Do you travel often?", "ru": "Вы часто путешествуете?", "highlight": ["Do"] },
-        { "en": "Did you see anything suspicious?", "ru": "Вы видели что-то подозрительное?", "highlight": ["Did"] },
-        { "en": "Were you sleeping at midnight?", "ru": "Вы спали в полночь?", "highlight": ["Were"] },
-        { "en": "Can you describe the man?", "ru": "Вы можете описать мужчину?", "highlight": ["Can"] }
-      ]
-    },
-    {
-      "group": "Вопросы в расследовании",
-      "items": [
-        { "en": "Did you hear any noise?", "ru": "Вы слышали какой-нибудь шум?", "highlight": ["Did"] },
-        { "en": "What did you see?", "ru": "Что вы видели?", "highlight": ["What"] },
-        { "en": "Why did you leave your cabin?", "ru": "Почему вы вышли из своего купе?", "highlight": ["Why"] },
-        { "en": "How did the killer escape?", "ru": "Как убийца сбежал?", "highlight": ["How"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "You are detective?", "right": "Are you a detective?", "note": "В вопросах с to be меняем порядок слов." },
-    { "wrong": "He knows the answer?", "right": "Does he know the answer?", "note": "В вопросах с глаголом используем do/does." },
-    { "wrong": "She saw the killer?", "right": "Did she see the killer?", "note": "В прошлом используем did." },
-    { "wrong": "Did he saw the killer?", "right": "Did he see the killer?", "note": "После did — базовая форма, не saw." },
-    { "wrong": "Who did killed him?", "right": "Who killed him?", "note": "Вопрос к подлежащему — без did." },
-    { "wrong": "Where you are going?", "right": "Where are you going?", "note": "Правильный порядок: Where + are + you?" }
-  ],
-  "compare": {
-    "title": "Типы вопросов",
-    "leftLabel": "Общий (Yes/No)",
-    "rightLabel": "Специальный (Wh-)",
-    "rows": [
-      { "left": "Did you see him?", "right": "Who did you see?" },
-      { "left": "Are you a detective?", "right": "What are you?" },
-      { "left": "Was she in the cabin?", "right": "Where was she?" },
-      { "left": "Do you know her?", "right": "Why do you know her?" }
-    ]
-  },
-  "tips": [
-    "С глаголом to be — меняй местами: You are → Are you?",
-    "С другими глаголами — используй do/does (настоящее) или did (прошлое).",
-    "После do/does/did — всегда базовая форма глагола.",
-    "Вопрос к подлежащему (кто/что сделал?) — без do/does/did.",
-    "Специальные вопросы начинаются с вопросительного слова.",
-    "Практикуйся: задавай вопросы в повседневной жизни."
-  ],
-  "quiz": [
-    { "q": "Which is correct?", "options": ["You are a detective?", "Are you a detective?", "Do you are a detective?"], "answer": "Are you a detective?", "why": "С to be меняем местами." },
-    { "q": "How do you ask 'Он знает ответ'?", "options": ["He knows the answer?", "Does he know the answer?", "Does he knows the answer?"], "answer": "Does he know the answer?", "why": "С глаголом — do/does + базовая форма." },
-    { "q": "Which is correct for past?", "options": ["Did she saw him?", "Did she see him?", "Does she see him?"], "answer": "Did she see him?", "why": "В прошлом — did + базовая форма." },
-    { "q": "\"___ killed the victim?\"", "options": ["Who", "Who did", "What"], "answer": "Who", "why": "Вопрос к подлежащему — без did." },
-    { "q": "\"Where ___ going?\"", "options": ["you are", "are you", "you"], "answer": "are you", "why": "Правильный порядок: Where + are + you?" },
-    { "q": "Which is a special question?", "options": ["Are you a detective?", "Who are you?", "Did you see him?"], "answer": "Who are you?", "why": "Who — вопросительное слово." }
-  ],
-  "related": ["a1-past-simple", "a1-present-simple", "a1-verb-to-be"]
+﻿{
+    "slug":  "a1-questions",
+    "level":  "A1",
+    "title":  "Questions",
+    "category":  "Grammar",
+    "readingTime":  7,
+    "summary":  "Вопросы: общие, специальные и к подлежащему. Агата Кристи и The Police.",
+    "variant":  "classic",
+    "idea":  [
+                 "1934 год. Поезд «Восточный экспресс» застрял в снегах. В купе находят мёртвого человека. Эркюль Пуаро начинает расследование. Он задаёт вопросы. «Who killed him?» — Кто убил его? «Did you see anything?» — Вы что-нибудь видели? «Where were you at midnight?» — Где вы были в полночь? Вопросы — его главное оружие.",
+                 "Каждый пассажир что-то скрывает. Пуаро слушает, наблюдает, задаёт вопросы. «What is your name?» — Как вас зовут? «Why are you travelling?» — Почему вы путешествуете? «Do you know the victim?» — Вы знаете жертву? Постепенно картина проясняется. Вопросы раскрывают правду.",
+                 "Агата Кристи знала: правильный вопрос — половина ответа. В английском есть разные типы вопросов: общие (да/нет), специальные (who/what/where), вопросы к подлежащему. Каждый из них — как инструмент детектива. Вопросы помогают нам узнавать новое. Они открывают двери. Даже если за ними — убийство."
+             ],
+    "why":  [
+                "Спрашивать информацию: «What is your name?»",
+                "Уточнять детали: «Where were you at midnight?»",
+                "Подтверждать факты: «Did you see the killer?»",
+                "Общаться в повседневной жизни: «Do you speak English?»"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Poirot: Who are you? What is your name?",
+                                      "ru":  "Кто вы? Как вас зовут?"
+                                  },
+                                  {
+                                      "en":  "Passenger: My name is Mary Debenham.",
+                                      "ru":  "Меня зовут Мэри Дебенхэм."
+                                  },
+                                  {
+                                      "en":  "Poirot: Did you know the victim? Where were you at midnight?",
+                                      "ru":  "Вы знали жертву? Где вы были в полночь?"
+                                  },
+                                  {
+                                      "en":  "Mary: I didn\u0027t know him. I was in my cabin.",
+                                      "ru":  "Я не знала его. Я была в своём купе."
+                                  },
+                                  {
+                                      "en":  "Poirot: Do you have any evidence? Can you prove it?",
+                                      "ru":  "У вас есть доказательства? Можете доказать?"
+                                  }
+                              ],
+                    "note":  "Пуаро допрашивает пассажиров. Вопросы разных типов помогают собрать информацию."
+                },
+    "russianAngle":  [
+                         "В русском мы меняем интонацию для вопроса: «Вы видели убийцу?» В английском меняем порядок слов: «Did you see the killer?»",
+                         "В вопросах с глаголом to be — просто меняем местами: «You are» → «Are you?»",
+                         "В вопросах с другими глаголами — используем do/does (настоящее) или did (прошлое): «Do you know?», «Did you see?»",
+                         "В специальных вопросах — слово-вопрос (who, what, where, when, why, how) + вопрос: «Who killed him?»"
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Запомни: в английском вопросе порядок слов меняется.",
+                                     "С глаголом to be: Are you? Was he?",
+                                     "С другими глаголами: Do you...? Does he...? Did they...?",
+                                     "Специальные вопросы: Who, What, Where, When, Why, How.",
+                                     "Вопросы к подлежащему: Who killed him? (без did).",
+                                     "Потренируйся: задай вопросы детективу Пуаро."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Сделай предложения вопросительными:",
+                                        "items":  [
+                                                      {
+                                                          "q":  "You are a detective.",
+                                                          "a":  "Are you a detective?"
+                                                      },
+                                                      {
+                                                          "q":  "He knows the victim.",
+                                                          "a":  "Does he know the victim?"
+                                                      },
+                                                      {
+                                                          "q":  "They saw the killer.",
+                                                          "a":  "Did they see the killer?"
+                                                      },
+                                                      {
+                                                          "q":  "She was in her cabin.",
+                                                          "a":  "Was she in her cabin?"
+                                                      },
+                                                      {
+                                                          "q":  "The train stopped in the snow.",
+                                                          "a":  "Did the train stop in the snow?"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "formula":  "Question word (optional) + auxiliary (do/does/did/am/is/are/was/were) + subject + main verb?",
+    "structure":  {
+                      "positive":  "Утверждение: You are a detective.",
+                      "negative":  "Отрицание: You aren\u0027t a detective.",
+                      "question":  "Вопрос: Are you a detective?"
+                  },
+    "markers":  [
+                    "who",
+                    "what",
+                    "where",
+                    "when",
+                    "why",
+                    "how",
+                    "how many",
+                    "how much",
+                    "how often",
+                    "do",
+                    "does",
+                    "did",
+                    "am",
+                    "is",
+                    "are",
+                    "was",
+                    "were",
+                    "can",
+                    "will"
+                ],
+    "uses":  [
+                 "Общие вопросы (Yes/No): «Did you see the killer?»",
+                 "Специальные вопросы (Wh-): «Who killed him?»",
+                 "Вопросы к подлежащему: «Who was in the train?»",
+                 "Альтернативные вопросы: «Was it the butler or the driver?»"
+             ],
+    "rules":  [
+                  {
+                      "title":  "Вопросы с глаголом to be",
+                      "text":  "Просто меняй местами подлежащее и глагол: You are → Are you? He was → Was he?"
+                  },
+                  {
+                      "title":  "Вопросы с другими глаголами",
+                      "text":  "Используй do/does (настоящее) или did (прошлое): Do you know? Did he see?"
+                  },
+                  {
+                      "title":  "Специальные вопросы",
+                      "text":  "Вопросительное слово + вспомогательный глагол + подлежащее + основной глагол: Where did you go?"
+                  },
+                  {
+                      "title":  "Вопрос к подлежащему",
+                      "text":  "Вопросительное слово (who/what) + глагол (без do/does/did): Who killed him?"
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Общие вопросы (Yes/No)",
+                         "items":  [
+                                       {
+                                           "en":  "Did you see the killer?",
+                                           "ru":  "Вы видели убийцу?",
+                                           "highlight":  [
+                                                             "Did"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Are you a detective?",
+                                           "ru":  "Вы детектив?",
+                                           "highlight":  [
+                                                             "Are"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Was she in her cabin?",
+                                           "ru":  "Она была в своём купе?",
+                                           "highlight":  [
+                                                             "Was"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Do you know the victim?",
+                                           "ru":  "Вы знаете жертву?",
+                                           "highlight":  [
+                                                             "Do"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Специальные вопросы (Wh-)",
+                         "items":  [
+                                       {
+                                           "en":  "Who are you?",
+                                           "ru":  "Кто вы?",
+                                           "highlight":  [
+                                                             "Who"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "What is your name?",
+                                           "ru":  "Как вас зовут?",
+                                           "highlight":  [
+                                                             "What"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Where were you at midnight?",
+                                           "ru":  "Где вы были в полночь?",
+                                           "highlight":  [
+                                                             "Where"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Why are you travelling?",
+                                           "ru":  "Почему вы путешествуете?",
+                                           "highlight":  [
+                                                             "Why"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вопросы к подлежащему",
+                         "items":  [
+                                       {
+                                           "en":  "Who killed the victim?",
+                                           "ru":  "Кто убил жертву?",
+                                           "highlight":  [
+                                                             "Who"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "What happened in the train?",
+                                           "ru":  "Что произошло в поезде?",
+                                           "highlight":  [
+                                                             "What"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Who was in the cabin?",
+                                           "ru":  "Кто был в купе?",
+                                           "highlight":  [
+                                                             "Who"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "What stopped the train?",
+                                           "ru":  "Что остановило поезд?",
+                                           "highlight":  [
+                                                             "What"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Альтернативные вопросы",
+                         "items":  [
+                                       {
+                                           "en":  "Was it the butler or the driver?",
+                                           "ru":  "Это был дворецкий или водитель?",
+                                           "highlight":  [
+                                                             "Was"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Did he go left or right?",
+                                           "ru":  "Он пошёл налево или направо?",
+                                           "highlight":  [
+                                                             "Did"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Are you a passenger or a detective?",
+                                           "ru":  "Вы пассажир или детектив?",
+                                           "highlight":  [
+                                                             "Are"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Was the train moving or stopped?",
+                                           "ru":  "Поезд двигался или стоял?",
+                                           "highlight":  [
+                                                             "Was"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вопросы с разными временами",
+                         "items":  [
+                                       {
+                                           "en":  "Do you travel often?",
+                                           "ru":  "Вы часто путешествуете?",
+                                           "highlight":  [
+                                                             "Do"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Did you see anything suspicious?",
+                                           "ru":  "Вы видели что-то подозрительное?",
+                                           "highlight":  [
+                                                             "Did"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Were you sleeping at midnight?",
+                                           "ru":  "Вы спали в полночь?",
+                                           "highlight":  [
+                                                             "Were"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Can you describe the man?",
+                                           "ru":  "Вы можете описать мужчину?",
+                                           "highlight":  [
+                                                             "Can"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вопросы в расследовании",
+                         "items":  [
+                                       {
+                                           "en":  "Did you hear any noise?",
+                                           "ru":  "Вы слышали какой-нибудь шум?",
+                                           "highlight":  [
+                                                             "Did"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "What did you see?",
+                                           "ru":  "Что вы видели?",
+                                           "highlight":  [
+                                                             "What"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Why did you leave your cabin?",
+                                           "ru":  "Почему вы вышли из своего купе?",
+                                           "highlight":  [
+                                                             "Why"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "How did the killer escape?",
+                                           "ru":  "Как убийца сбежал?",
+                                           "highlight":  [
+                                                             "How"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "You are detective?",
+                         "right":  "Are you a detective?",
+                         "note":  "В вопросах с to be меняем порядок слов."
+                     },
+                     {
+                         "wrong":  "He knows the answer?",
+                         "right":  "Does he know the answer?",
+                         "note":  "В вопросах с глаголом используем do/does."
+                     },
+                     {
+                         "wrong":  "She saw the killer?",
+                         "right":  "Did she see the killer?",
+                         "note":  "В прошлом используем did."
+                     },
+                     {
+                         "wrong":  "Did he saw the killer?",
+                         "right":  "Did he see the killer?",
+                         "note":  "После did — базовая форма, не saw."
+                     },
+                     {
+                         "wrong":  "Who did killed him?",
+                         "right":  "Who killed him?",
+                         "note":  "Вопрос к подлежащему — без did."
+                     },
+                     {
+                         "wrong":  "Where you are going?",
+                         "right":  "Where are you going?",
+                         "note":  "Правильный порядок: Where + are + you?"
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Типы вопросов",
+                    "leftLabel":  "Общий (Yes/No)",
+                    "rightLabel":  "Специальный (Wh-)",
+                    "rows":  [
+                                 {
+                                     "left":  "Did you see him?",
+                                     "right":  "Who did you see?"
+                                 },
+                                 {
+                                     "left":  "Are you a detective?",
+                                     "right":  "What are you?"
+                                 },
+                                 {
+                                     "left":  "Was she in the cabin?",
+                                     "right":  "Where was she?"
+                                 },
+                                 {
+                                     "left":  "Do you know her?",
+                                     "right":  "Why do you know her?"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "С глаголом to be — меняй местами: You are → Are you?",
+                 "С другими глаголами — используй do/does (настоящее) или did (прошлое).",
+                 "После do/does/did — всегда базовая форма глагола.",
+                 "Вопрос к подлежащему (кто/что сделал?) — без do/does/did.",
+                 "Специальные вопросы начинаются с вопросительного слова.",
+                 "Практикуйся: задавай вопросы в повседневной жизни."
+             ],
+    "quiz":  [
+                 {
+                     "q":  "Which is correct?",
+                     "options":  [
+                                     "You are a detective?",
+                                     "Are you a detective?",
+                                     "Do you are a detective?"
+                                 ],
+                     "answer":  "Are you a detective?",
+                     "why":  "С to be меняем местами."
+                 },
+                 {
+                     "q":  "How do you ask \u0027Он знает ответ\u0027?",
+                     "options":  [
+                                     "He knows the answer?",
+                                     "Does he know the answer?",
+                                     "Does he knows the answer?"
+                                 ],
+                     "answer":  "Does he know the answer?",
+                     "why":  "С глаголом — do/does + базовая форма."
+                 },
+                 {
+                     "q":  "Which is correct for past?",
+                     "options":  [
+                                     "Did she saw him?",
+                                     "Did she see him?",
+                                     "Does she see him?"
+                                 ],
+                     "answer":  "Did she see him?",
+                     "why":  "В прошлом — did + базовая форма."
+                 },
+                 {
+                     "q":  "\"___ killed the victim?\"",
+                     "options":  [
+                                     "Who",
+                                     "Who did",
+                                     "What"
+                                 ],
+                     "answer":  "Who",
+                     "why":  "Вопрос к подлежащему — без did."
+                 },
+                 {
+                     "q":  "\"Where ___ going?\"",
+                     "options":  [
+                                     "you are",
+                                     "are you",
+                                     "you"
+                                 ],
+                     "answer":  "are you",
+                     "why":  "Правильный порядок: Where + are + you?"
+                 },
+                 {
+                     "q":  "Which is a special question?",
+                     "options":  [
+                                     "Are you a detective?",
+                                     "Who are you?",
+                                     "Did you see him?"
+                                 ],
+                     "answer":  "Who are you?",
+                     "why":  "Who — вопросительное слово."
+                 }
+             ],
+    "related":  [
+                    "a1-past-simple",
+                    "a1-present-simple",
+                    "a1-verb-to-be"
+                ]
 }

@@ -1,153 +1,177 @@
 {
+  "variant": "classic",
   "slug": "a2-modals-can-must-have-to",
-  "title": "Modals: can / must / have to",
   "level": "A2",
-  "category": "grammar",
-  "readingTime": "12 min",
-  "summary": "can, must, have to: способность, разрешение, обязанность и запрет. После модальных — голый инфинитив; а don't have to — не запрет, а свобода.",
+  "title": "Modals: Can, Must, Have To",
+  "category": "Grammar",
+  "readingTime": 7,
+  "summary": "Модальные глаголы can, must, have to для выражения возможности, необходимости и обязанности. В этом уроке — Эдгар По и его стихотворение «Ворон».",
   "idea": [
-    "Can — это ключ, который вам выдали от рождения или от хозяина дома: способность или разрешение. Пуаро может позволить себе иронию: он видит то, что пропускает Скотланд-Ярд. Оскар Уайльд парировал ещё точнее: I can resist everything except temptation — способность, доведённая до изящного поражения. Тётя Полли разрешает Тому белить забор — и это тоже can, разрешение, хотя Том назвал бы его приговором. Форма неизменна: после can глагол стоит голым, без to и без -s. He can swims — это как дворецкий в шортах: грамматически неприлично.",
-    "Must — это голос совести и голос сыщика: обязанность, которая идёт изнутри, или вывод, от которого невозможно уйти. Пуаро смотрит на грязные следы и констатирует: убийца must be левшой — иначе быть не может. Чеширский кот ещё спокойнее: you must be mad, иначе зачем бы вы сюда пришли — и это тоже must, чистая дедукция. А вот mustn't — это табу хорошего дома: то, чего нельзя, не обсуждается, это просто не делается. Нельзя опаздывать к пятичасовому чаю и нельзя читать чужие письма — даже из любви.",
-    "Have to — это обязанность, которая приходит извне: не совесть, а обстоятельства. Поезд отходит в 7.15 — и вы have to встать до рассвета, нравится вам это или нет. Том has to белить забор в субботу, потому что так сказала тётя Полли, а не потому что он сам так решил. И вот главная ловушка для русского уха: don't have to — это не запрет, а свобода, «не обязан, но можешь». Джером К. Джером сформулировал это безупречно: вы don't have to читать медицинский справочник — если, конечно, не хотите найти у себя все болезни, кроме колена горничной."
+    "1845 год. Эдгар По пишет стихотворение «Ворон». Рассказчик сидит в комнате и слышит стук. Ворон прилетает. Он говорит только одно слово: «Nevermore.» Рассказчик спрашивает: «Can you tell me? Must I suffer? Will I ever see her again?» Модальные глаголы помогают ему выразить вопросы, сомнения и необходимость. По использует их, чтобы создать атмосферу.",
+    "Модальные глаголы — это способ говорить о возможностях, обязанностях и правилах. «Can you hear the raven?» — Ты слышишь ворона? (возможность). «I must know the truth» — Я должен узнать правду (необходимость). «I have to live with this pain» — Я должен жить с этой болью (обязанность). Они помогают нам выразить отношение к действию.",
+    "По знал: модальные глаголы — это язык судьбы. Рассказчик должен узнать правду. Он может только ждать. Он вынужден страдать. Модальные глаголы создают атмосферу. Как в жизни. Как в литературе."
   ],
   "why": [
-    "Без can вы не скажете, что умеете, — а собеседование, знакомство и первое свидание строятся именно на этом.",
-    "must и have to — это разница между «я сам так решил» и «так решили обстоятельства». Перепутаете — пообещаете не то.",
-    "mustn't и don't have to — два разных мира: запрет и свобода. Одна буква разницы — и вы либо нарушили правило, либо взяли выходной.",
-    "must как вывод — язык любого анализа: от детектива до медицины. It must be so звучит сильнее, чем «возможно», и точнее, чем «наверное»."
+    "Говорить о возможности: «Can you hear the raven?»",
+    "Говорить о необходимости: «I must know the truth.»",
+    "Говорить об обязанности: «I have to live with this pain.»",
+    "Спрашивать разрешение: «Can I ask you a question?»"
   ],
   "context": {
     "lines": [
-      {"en": "Hastings, you must calm down. Panic can ruin the finest logic.", "ru": "Гастингс, вы должны успокоиться. Паника может испортить тончайшую логику."},
-      {"en": "But we have to return to London! The train leaves at six.", "ru": "Но мы обязаны вернуться в Лондон! Поезд отходит в шесть."},
-      {"en": "We don't have to go anywhere yet. The murderer must make a mistake.", "ru": "Мы пока никуда не обязаны ехать. Убийца непременно должен ошибиться."},
-      {"en": "And what can I do?", "ru": "И что я могу сделать?"},
-      {"en": "You can make tea, mon ami. That is also part of the method.", "ru": "Вы можете заварить чай, мой друг. Это тоже часть метода."}
+      { "en": "Poe: I must write about the raven. It can speak only one word: 'Nevermore'.", "ru": "Я должен написать о вороне. Он может произнести только одно слово: «Никогда»." },
+      { "en": "Reader: Can you hear the raven? Must I believe in this story?", "ru": "Ты слышишь ворона? Должен ли я верить в эту историю?" },
+      { "en": "Poe: You can believe whatever you want. You have to feel the atmosphere.", "ru": "Ты можешь верить во что хочешь. Ты должен почувствовать атмосферу." },
+      { "en": "Reader: I must know the truth!", "ru": "Я должен узнать правду!" },
+      { "en": "Poe: The truth is: the raven is a symbol. You can interpret it your own way.", "ru": "Правда в том, что ворон — это символ. Ты можешь интерпретировать его по-своему." }
     ],
-    "note": "Агата Кристи, сцена в гостиной. Пять реплик — и все модальные на месте: обязанность, способность, свобода, дедукция и чай как метод."
+    "note": "Писатель и читатель обсуждают стихотворение. Модальные глаголы в действии."
   },
   "russianAngle": [
-    "Русское «могу» закрывает и способность, и разрешение. Английский держит один can, но без to: I can to swim звучит для носителя как «я могу к плавать». Маркера нет — и ошибка слышна сразу.",
-    "Русское «должен» распадается на must (внутренний долг), have to (внешний) и should (совет). Пара уровня A2 — must/have to: I must stop — совесть, I have to stop — контракт.",
-    "«Не должен» и «не обязан» по-русски разные слова, но в английском их путают постоянно: mustn't — запрет, don't have to — свобода. You don't have to come — можно остаться дома; you mustn't come — дверь заперта.",
-    "После модальных глагол голый: без to и без -s. В русском такого маркера нет вовсе — отсюда he can swims и I must to go. Запомните: модальный — аристократ, он не носит окончаний."
+    "В русском мы говорим «я могу» и «я должен». В английском — «can» и «must».",
+    "Can — для возможности и разрешения. Must — для необходимости и сильной обязанности. Have to — для внешней обязанности.",
+    "Ошибка: I can to go. Правильно: I can go. (после модального глагола — базовая форма без to).",
+    "Must и have to — оба переводятся как «должен». Но must — это внутренняя необходимость, а have to — внешняя."
   ],
   "howToLearn": {
     "steps": [
-      "Выпишите 5 вещей, которые вы can, и 5, которые can't. Затем 3, которые must, и 3, которые don't have to. Почувствуйте разницу на собственной жизни.",
-      "Переведите must в have to и обратно: I must get up early (сам решил) → I have to get up early (расписание поезда). Заметьте, как смещается смысл.",
-      "Составьте 5 выводов с must по следам: зонт мокрый — it must be raining. Дедукция тренируется как мышца.",
-      "Выучите пару mustn't / don't have to как антонимы: запрет против свободы. По три ситуации на каждое.",
-      "Прочитайте страницу детектива в оригинале и выпишите все модальные: у Кристи и По их полно."
+      "Запомни: can + V1 (базовая форма).",
+      "Must + V1 (базовая форма).",
+      "Have to + V1 (базовая форма).",
+      "Для отрицания: can't, mustn't, don't/doesn't have to.",
+      "Для вопросов: Can I...? Must I...? Do I have to...?",
+      "Потренируйся на примерах из урока."
     ],
     "exercise": {
-      "prompt": "Переведи, используя can / must / have to:",
+      "prompt": "Вставь правильный модальный глагол: can, must, have to:",
       "items": [
-        {"q": "Пуаро видит то, что пропускает Скотланд-Ярд.", "a": "Poirot can see what Scotland Yard overlooks."},
-        {"q": "Нельзя читать чужие письма.", "a": "You mustn't read other people's letters."},
-        {"q": "Поезд отходит в 7.15, нам приходится вставать рано.", "a": "The train leaves at 7.15, so we have to get up early."},
-        {"q": "Завтра воскресенье, тебе не нужно вставать рано.", "a": "Tomorrow is Sunday, you don't have to get up early."},
-        {"q": "Зонт мокрый — должно быть, идёт дождь.", "a": "The umbrella is wet — it must be raining."}
+        { "q": "I ___ know the truth.", "a": "must" },
+        { "q": "You ___ hear the raven.", "a": "can" },
+        { "q": "I ___ live with this pain.", "a": "have to" },
+        { "q": "___ you hear the raven?", "a": "Can" },
+        { "q": "You ___ not speak with the raven.", "a": "must" }
       ]
     }
   },
-  "formula": "can / must + V (без to, без -s) | have to + V | mustn't = запрет | don't have to = не обязан",
+  "formula": "Subject + modal + V1",
   "structure": {
-    "positive": "She can play the piano. | He must leave. | They have to wear a uniform.",
-    "negative": "She can't play the piano. | He mustn't leave. | They don't have to wear a uniform.",
-    "question": "Can she play the piano? | Must he leave? | Do they have to wear a uniform?"
+    "positive": "I can go.\nI must go.\nI have to go.",
+    "negative": "I cannot (can't) go.\nI must not (mustn't) go.\nI don't have to go.",
+    "question": "Can I go?\nMust I go?\nDo I have to go?"
   },
-  "markers": ["can / can't", "must / mustn't", "have to / has to / had to", "don't have to", "голый инфинитив без to"],
+  "markers": [
+    "can",
+    "cannot",
+    "can't",
+    "must",
+    "mustn't",
+    "have to",
+    "don't have to",
+    "do I have to"
+  ],
   "uses": [
-    "Способность: can swim, can speak French",
-    "Разрешение и просьба: Can I open the window?",
-    "Обязанность изнутри: I must finish this letter",
-    "Внешняя обязанность: have to wear a uniform",
-    "Запрет: mustn't be late",
-    "Логический вывод: it must be true, it can't be"
+    "Возможность: «Can you hear the raven?»",
+    "Необходимость: «I must know the truth.»",
+    "Обязанность: «I have to live with this pain.»",
+    "Разрешение: «Can I ask you a question?»"
   ],
   "rules": [
-    {"title": "can: способность и разрешение", "text": "I can swim — умею. Can I ask? — можно? После can — голый инфинитив: без to и без -s. Не бывает can to swim и he cans."},
-    {"title": "must: обязанность и вывод", "text": "I must stop — я должен (сам так решил). He must be mad — он, должно быть, безумен (вывод, иначе быть не может). mustn't — запрет: You mustn't smoke here."},
-    {"title": "have to: внешняя обязанность", "text": "Расписание, контракт, правила решают за вас. He has to wear a uniform — в 3-м лице have получает -s. Прошедшее — had to, вопросы — через do: Do you have to go?"},
-    {"title": "mustn't против don't have to", "text": "You mustn't go — запрещено. You don't have to go — не обязан, можешь остаться. Одна буква разницы — целая свобода."},
-    {"title": "Голый инфинитив после модальных", "text": "can и must не берут to и -s: I must go, she can play. have to — не модальный: у него есть to, -s и времена: he has to go, they had to wait."},
-    {"title": "can't как вывод", "text": "It can't be true — не может быть, не верю. Это обратная сторона must: must — «несомненно да», can't — «несомненно нет». Пуаро пользовался обоими."}
+    { "title": "Can — возможность", "text": "Используй can для возможности и разрешения: Can you hear the raven? I can write a poem." },
+    { "title": "Must — необходимость", "text": "Используй must для сильной необходимости: I must know the truth." },
+    { "title": "Have to — обязанность", "text": "Используй have to для внешней обязанности: I have to go to work." },
+    { "title": "Отрицание", "text": "can't — невозможность; mustn't — запрет; don't have to — отсутствие необходимости." }
   ],
   "examples": [
-    {"group": "can — способность", "items": [
-      {"en": "Poirot can see what Scotland Yard overlooks.", "ru": "Пуаро видит то, что пропускает Скотланд-Ярд. Способность — его второе имя, а первое — порядок.", "highlight": ["can see"]},
-      {"en": "Dupin can read a man's thoughts from the way he holds his cane.", "ru": "Эдгар По, «Убийства на улице Морг». Дюпен умеет всё — поэтому историю рассказывает его друг, а не он сам.", "highlight": ["can read"]},
-      {"en": "The Cheshire Cat can disappear leaving only the smile.", "ru": "Кот у Кэрролла умеет то, что не умеет никто: уйти, оставив улыбку. Улыбка, кстати, тоже много чего может.", "highlight": ["can disappear"]},
-      {"en": "I can resist everything except temptation.", "ru": "Оскар Уайльд, лорд Дарлингтон. Самое изящное can в мировой литературе: способность, которая красиво капитулирует.", "highlight": ["can resist"]}
-    ]},
-    {"group": "can — разрешение и просьба", "items": [
-      {"en": "You can smoke in the garden, but never in the drawing room.", "ru": "Правила дома. В саду — пожалуйста, в гостиной — скандал. Граница проходит ровно по can.", "highlight": ["can smoke"]},
-      {"en": "Can I ask you a question? — You can. But choose it carefully.", "ru": "Разрешение дали, но с сноской. Английская вежливость в том, что даже позволение звучит как предупреждение.", "highlight": ["Can I ask", "You can"]},
-      {"en": "In this house one can be silent, but one cannot lie.", "ru": "Молчать можно, лгать — нельзя. Разницу чувствует каждый, кто хоть раз завтракал с семьёй.", "highlight": ["can be silent", "cannot lie"]},
-      {"en": "You can't be late for dinner with the vicar. It is simply not done.", "ru": "Формально никто не запрещал. Практически — нельзя: общество не простит. Неписаные правила сильнее писаных.", "highlight": ["can't be late"]}
-    ]},
-    {"group": "must — обязанность и вывод", "items": [
-      {"en": "The murderer must be left-handed: the wound is on the right side.", "ru": "Метод Пуаро: must как вывод. Не «возможно», а «иначе быть не может».", "highlight": ["must be"]},
-      {"en": "You must be mad, or you wouldn't have come here.", "ru": "Чеширский кот у Кэрролла. Самый вежливый диагноз в литературе: must как чистая логика.", "highlight": ["must be"]},
-      {"en": "I must think like my opponent: only then do I win.", "ru": "Дюпен, «Похищенное письмо». Обязанность изнутри: никто не заставляет, но метод требует.", "highlight": ["must think"]},
-      {"en": "A gentleman must keep his word even when it is inconvenient.", "ru": "Особенно когда неудобно. Иначе что это за слово — черновик.", "highlight": ["must keep"]}
-    ]},
-    {"group": "mustn't — запрет", "items": [
-      {"en": "You mustn't open other people's letters — even out of love.", "ru": "Особенно из любви. Любопытство — прекрасное качество, но вскрытый конверт — это улика.", "highlight": ["mustn't open"]},
-      {"en": "One mustn't be late for the five o'clock tea.", "ru": "Чай подождёт. Общество — нет. Это правило старше многих династий.", "highlight": ["mustn't be late"]},
-      {"en": "A detective mustn't jump to conclusions: a mistake is dearer than a delay.", "ru": "Пуаро знал: поспешный вывод — это запертая дверь, а ключ остался внутри.", "highlight": ["mustn't jump"]},
-      {"en": "You mustn't whistle indoors — the housekeeper said so.", "ru": "Аргумент у экономки был короткий: «не принято». И это было сильнее закона.", "highlight": ["mustn't whistle"]}
-    ]},
-    {"group": "have to — внешняя обязанность", "items": [
-      {"en": "Tom has to whitewash the fence on Saturday: Aunt Polly said so.", "ru": "Марк Твен, «Приключения Тома Сойера». Хрестоматийный have to: решает не Том, решает тётя Полли.", "highlight": ["has to whitewash"]},
-      {"en": "The train leaves at 7.15, so we have to get up before dawn.", "ru": "Джером К. Джером сказал бы: поезд не интересуется вашими снами. Внешние обстоятельства в чистом виде.", "highlight": ["have to get up"]},
-      {"en": "Dupin has to think for two: the police think by instruction.", "ru": "Ирония По: кто-то должен думать за двоих, и это почему-то не тот, кому за это платят.", "highlight": ["has to think"]},
-      {"en": "In this school boys have to wear a uniform even on Sundays.", "ru": "Даже по воскресеньям. Правила не берут выходных — в этом и смысл have to.", "highlight": ["have to wear"]}
-    ]},
-    {"group": "don't have to — свобода", "items": [
-      {"en": "You don't have to read the medical handbook — unless you want to find every disease in yourself.", "ru": "Джером, «Трое в лодке». Герой прочитал — и нашёл всё, кроме колена горничной. Don't have to иногда спасает жизнь.", "highlight": ["don't have to read"]},
-      {"en": "You don't have to hurry: the letter is already where it should be.", "ru": "Спокойствие Дюпена. Когда дело сделано, спешка — суета.", "highlight": ["don't have to hurry"]},
-      {"en": "On Sunday you don't have to whitewash the fence: even Aunt Polly gives a day of rest.", "ru": "Даже самое строгое have to берёт выходной. Для того и придумано воскресенье.", "highlight": ["don't have to whitewash"]},
-      {"en": "You don't have to be a genius to notice the smile: it is enough to be Alice.", "ru": "Подсказка Кэрролла: для некоторых вещей не нужен гений, достаточно открытого глаза.", "highlight": ["don't have to be"]}
-    ]}
+    {
+      "group": "Возможность (can)",
+      "items": [
+        { "en": "Can you hear the raven?", "ru": "Ты слышишь ворона?", "highlight": ["Can"] },
+        { "en": "I can write a poem about it.", "ru": "Я могу написать стихотворение об этом.", "highlight": ["can"] },
+        { "en": "You can interpret the symbol your own way.", "ru": "Ты можешь интерпретировать символ по-своему.", "highlight": ["can"] },
+        { "en": "The raven can speak only one word.", "ru": "Ворон может произнести только одно слово.", "highlight": ["can"] }
+      ]
+    },
+    {
+      "group": "Необходимость (must)",
+      "items": [
+        { "en": "I must know the truth.", "ru": "Я должен узнать правду.", "highlight": ["must"] },
+        { "en": "You must feel the atmosphere.", "ru": "Ты должен почувствовать атмосферу.", "highlight": ["must"] },
+        { "en": "I must write about the raven.", "ru": "Я должен написать о вороне.", "highlight": ["must"] },
+        { "en": "You must not speak with the raven.", "ru": "Ты не должен разговаривать с вороном.", "highlight": ["must not"] }
+      ]
+    },
+    {
+      "group": "Обязанность (have to)",
+      "items": [
+        { "en": "I have to live with this pain.", "ru": "Я должен жить с этой болью.", "highlight": ["have to"] },
+        { "en": "You have to feel the atmosphere.", "ru": "Ты должен почувствовать атмосферу.", "highlight": ["have to"] },
+        { "en": "I have to write this poem.", "ru": "Я должен написать это стихотворение.", "highlight": ["have to"] },
+        { "en": "You don't have to believe the story.", "ru": "Ты не обязан верить в историю.", "highlight": ["don't have to"] }
+      ]
+    },
+    {
+      "group": "Отрицания",
+      "items": [
+        { "en": "The raven can't speak more than one word.", "ru": "Ворон не может сказать больше одного слова.", "highlight": ["can't"] },
+        { "en": "You mustn't forget the raven.", "ru": "Ты не должен забывать ворона.", "highlight": ["mustn't"] },
+        { "en": "You don't have to believe me.", "ru": "Ты не обязан верить мне.", "highlight": ["don't have to"] },
+        { "en": "I can't understand the raven's message.", "ru": "Я не могу понять послание ворона.", "highlight": ["can't"] }
+      ]
+    },
+    {
+      "group": "Вопросы",
+      "items": [
+        { "en": "Can I ask you a question?", "ru": "Могу я задать тебе вопрос?", "highlight": ["Can"] },
+        { "en": "Must I believe in this story?", "ru": "Должен ли я верить в эту историю?", "highlight": ["Must"] },
+        { "en": "Do I have to read the poem?", "ru": "Должен ли я прочитать стихотворение?", "highlight": ["Do I have to"] },
+        { "en": "Can you hear the raven at night?", "ru": "Ты слышишь ворона ночью?", "highlight": ["Can"] }
+      ]
+    },
+    {
+      "group": "Сравнение must и have to",
+      "items": [
+        { "en": "I must write this poem. (I want to)", "ru": "Я должен написать это стихотворение. (я хочу)", "highlight": ["must"] },
+        { "en": "I have to write this poem. (my boss wants it)", "ru": "Я должен написать это стихотворение. (мой редактор хочет)", "highlight": ["have to"] },
+        { "en": "I must know the truth. (I need it)", "ru": "Я должен знать правду. (мне нужно)", "highlight": ["must"] },
+        { "en": "I have to go to work. (the rules)", "ru": "Я должен идти на работу. (правила)", "highlight": ["have to"] }
+      ]
+    }
   ],
   "mistakes": [
-    {"wrong": "He can swims", "right": "He can swim", "note": "После модальных нет -s. Модальный — аристократ: окончаний не носит и другим не позволяет."},
-    {"wrong": "I must to go", "right": "I must go", "note": "После must нет to. to живёт только с have to — и это совсем другой глагол."},
-    {"wrong": "You don't have to smoke here (в значении запрета)", "right": "You mustn't smoke here", "note": "don't have to = не обязан. Хотели запретить — разрешили курить."},
-    {"wrong": "He have to go", "right": "He has to go", "note": "have to ведёт себя как обычный глагол: в 3-м лице — has to. Аристократия распространяется только на can и must."},
-    {"wrong": "We musted go", "right": "We had to go", "note": "У must нет прошедшего времени. Прошедшее — had to. Аристократ ушёл в отставку — вышел управляющий."},
-    {"wrong": "She musts be tired", "right": "She must be tired", "note": "И снова -s. must не получает -s никогда. Даже когда очень хочется."}
+    { "wrong": "I can to go.", "right": "I can go.", "note": "После модальных глаголов — базовая форма без to." },
+    { "wrong": "I must to know the truth.", "right": "I must know the truth.", "note": "После must — базовая форма." },
+    { "wrong": "He have to go.", "right": "He has to go.", "note": "Have to — обычный глагол, меняется по лицам." },
+    { "wrong": "I mustn't to go.", "right": "I mustn't go.", "note": "После mustn't — базовая форма." },
+    { "wrong": "I don't must go.", "right": "I don't have to go.", "note": "Отрицание с must — mustn't, или don't have to." },
+    { "wrong": "Can he goes?", "right": "Can he go?", "note": "После can — базовая форма." }
   ],
   "compare": {
-    "title": "must vs have to",
-    "leftLabel": "must (изнутри)",
-    "rightLabel": "have to (извне)",
+    "title": "Can vs Must vs Have To",
+    "leftLabel": "Can (возможность)",
+    "centerLabel": "Must (необходимость)",
+    "rightLabel": "Have To (обязанность)",
     "rows": [
-      {"left": "I must go. — я сам так решил", "right": "I have to go. — так решил поезд"},
-      {"left": "mustn't — запрещено", "right": "don't have to — не обязан"},
-      {"left": "нет прошедшего: had to", "right": "все времена: had to, will have to"},
-      {"left": "вывод: he must be mad", "right": "факт: he has to work on Sundays"},
-      {"left": "вопрос: Must I…?", "right": "вопрос: Do I have to…?"}
+      { "left": "I can write a poem.", "right": "I must write a poem.", "center": "I have to write a poem." },
+      { "left": "I can hear the raven.", "right": "I must hear the raven.", "center": "I have to hear it." },
+      { "left": "I can ask a question.", "right": "I must ask a question.", "center": "I have to ask it." },
+      { "left": "I can leave the room.", "right": "I must leave the room.", "center": "I have to leave it." }
     ]
   },
   "tips": [
-    "Проверяйте разницу на собственной жизни: I must get up early (план тренировок) против I have to get up early (рейс в 6.40). Тело запоминает разницу лучше правила.",
-    "mustn't и don't have to — не синонимы, а антонимы: запрет против свободы. Повторяйте как мантру перед экзаменом.",
-    "must как вывод тренируется на следах: мокрый зонт — it must be raining. Три дня таких комментариев — и вывод заработает сам.",
-    "После can и must — голый глагол. Хотите поставить to или -s — рука ошибается. Руку надо переучить.",
-    "have to — обычный глагол в костюме модального: has to, had to, will have to, Do you have to? Видите do/does рядом — это have to.",
-    "Парадоксы Уайльда — идеальные якоря для can: I can resist everything except temptation. Правило одно, ирония навсегда.",
-    "Не гонитесь за всеми модальными сразу: на A2 — can, must, have to. should и may придут позже, они уже стоят в очереди."
+    "Can = возможность, разрешение.",
+    "Must = сильная необходимость (я сам так считаю).",
+    "Have to = обязанность (так сложилось).",
+    "Отрицание: can't (невозможно), mustn't (запрещено), don't have to (необязательно).",
+    "Вопросы: Can I...? Must I...? Do I have to...?",
+    "Практикуйся: говори о правилах и возможностях."
   ],
-  "related": ["a2-comparatives-superlatives", "a2-used-to", "a1-present-simple"],
   "quiz": [
-    {"q": "Poirot ___ see what Scotland Yard overlooks.", "options": ["can", "cans", "is can", "musts"], "answer": "can", "why": "can — способность; после него нет -s и нет to."},
-    {"q": "You ___ be late for the five o'clock tea. It is a rule of the house.", "options": ["mustn't", "don't have to", "can't have", "haven't"], "answer": "mustn't", "why": "Запрет — mustn't. don't have to значило бы «не обязан», и дом бы вас не понял."},
-    {"q": "Tomorrow is Sunday. You ___ get up early.", "options": ["don't have to", "mustn't", "can't", "must"], "answer": "don't have to", "why": "Свобода, а не запрет: не обязан, но можешь спать дальше."},
-    {"q": "Look at the muddy footprints. It ___ be the gardener!", "options": ["must", "have to", "can to", "musts"], "answer": "must", "why": "Вывод: иначе быть не может. Это must как логика, а не обязанность."},
-    {"q": "Tom ___ whitewash the fence on Saturday: Aunt Polly said so.", "options": ["has to", "musts", "can", "have to"], "answer": "has to", "why": "Внешняя обязанность плюс 3-е лицо: has to. У must нет -s вообще."},
-    {"q": "She ___ play the piano beautifully, but today she ___ : it is a holiday.", "options": ["can / doesn't have to", "can / mustn't", "must / don't have to", "can't / has to"], "answer": "can / doesn't have to", "why": "can — способность; doesn't have to — не обязана (3-е лицо). mustn't запретил бы праздник."}
-  ]
+    { "q": "Which modal is correct: '___ you hear the raven?'", "options": ["Can", "Must", "Have to"], "answer": "Can", "why": "Возможность — can." },
+    { "q": "Which is correct for a strong necessity?", "options": ["I can go.", "I must go.", "I have to go."], "answer": "I must go.", "why": "Сильная необходимость — must." },
+    { "q": "Which is correct: 'He ___ go to work.' (external rule)", "options": ["can", "must", "has to"], "answer": "has to", "why": "Внешняя обязанность — have to." },
+    { "q": "Which is correct?", "options": ["I can to go.", "I can go.", "I can goes."], "answer": "I can go.", "why": "После can — базовая форма." },
+    { "q": "What's the negative of 'I have to go'?", "options": ["I mustn't go.", "I don't have to go.", "I can't go."], "answer": "I don't have to go.", "why": "Отрицание have to — don't have to." },
+    { "q": "What's the difference between 'must' and 'have to'?", "options": ["Must = external, have to = internal", "Must = internal, have to = external", "They mean the same."], "answer": "Must = internal, have to = external", "why": "Must — внутренняя необходимость, have to — внешняя." }
+  ],
+  "related": ["a1-verb-to-be", "a1-present-simple"]
 }

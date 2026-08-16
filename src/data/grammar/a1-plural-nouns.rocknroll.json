@@ -1,185 +1,402 @@
-{
-  "variant": "rocknroll",
-  "slug": "a1-plural-nouns",
-  "level": "A1",
-  "title": "Множественное число существительных",
-  "category": "Grammar",
-  "readingTime": 9,
-  "summary": "Как образовывать множественное число в английском языке. История о том, как Scorpions взяли своё название.",
-  "idea": [
-    "Scorpions — это множественное число от «scorpion». Один скорпион — это страшно, но много скорпионов — это уже армия. Название группы показывает, как множественное число меняет смысл слова. Scorpions знали силу множественного числа.",
-    "В английском языке множественное число обычно образуется с помощью окончания -s: a scorpion → scorpions. Но есть исключения: a man → men, a child → children. Некоторые слова не меняются: a fish → fish, a sheep → sheep. Эти правила нужно запомнить.",
-    "Scorpions — это немецкая рок-группа. Их название стало символом хард-рока. Один скорпион — это просто животное, но Scorpions — это легенда. Множественное число делает слова более мощными."
-  ],
-  "why": [
-    "Множественное число помогает говорить о нескольких предметах",
-    "Правильное образование множественного числа делает речь грамотной",
-    "В английском языке есть правила и исключения, которые нужно знать",
-    "Знание множественного числа помогает понимать текст и речь"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Klaus Meine: 'We are Scorpions. One scorpion is dangerous, but many scorpions are unstoppable. That's why we chose this name.'",
-        "ru": "Клаус Майне: «Мы — Scorpions. Один скорпион опасен, но много скорпионов — непобедимы. Поэтому мы выбрали это имя»." },
-      { "en": "Rudolf Schenker: 'Scorpions is a plural noun. It shows our power. We are many. We are strong.'",
-        "ru": "Рудольф Шенкер: «Scorpions — это существительное во множественном числе. Оно показывает нашу силу. Нас много. Мы сильны»." }
-    ],
-    "note": "Scorpions — это множественное число. Оно показывает силу и мощь."
-  },
-  "russianAngle": [
-    "В русском языке множественное число образуется с помощью окончаний: кот → коты, собака → собаки.",
-    "В английском языке обычно добавляется -s: a cat → cats, a dog → dogs.",
-    "В русском языке есть исключения: человек → люди. В английском тоже: a man → men, a child → children.",
-    "В русском языке некоторые слова не меняются: рыба → рыбы. В английском тоже: a fish → fish, a sheep → sheep."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Запомни: обычно +s: a scorpion → scorpions.",
-      "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses.",
-      "Если слово оканчивается на -y → -ies: a baby → babies.",
-      "Исключения: a man → men, a woman → women, a child → children.",
-      "Некоторые слова не меняются: a fish → fish, a sheep → sheep.",
-      "Сделай упражнение и сверься с ответами."
-    ],
-    "exercise": {
-      "prompt": "Напишите множественное число этих существительных:",
-      "items": [
-        { "q": "a scorpion → ___", "a": "scorpions" },
-        { "q": "a guitar → ___", "a": "guitars" },
-        { "q": "a bus → ___", "a": "buses" },
-        { "q": "a baby → ___", "a": "babies" },
-        { "q": "a man → ___", "a": "men" },
-        { "q": "a child → ___", "a": "children" },
-        { "q": "a fish → ___", "a": "fish" }
-      ]
-    }
-  },
-  "rules": [
-    { "title": "Обычное правило +s",
-      "text": "a scorpion → scorpions, a guitar → guitars, a stage → stages." },
-    { "title": "Правило +es",
-      "text": "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses, a box → boxes." },
-    { "title": "Правило -y → -ies",
-      "text": "Если слово оканчивается на -y → -ies: a baby → babies, a party → parties." },
-    { "title": "Исключения",
-      "text": "a man → men, a woman → women, a child → children, a mouse → mice, a fish → fish, a sheep → sheep." }
-  ],
-  "examples": [
-    {
-      "group": "Обычное правило +s",
-      "items": [
-        { "en": "a scorpion → scorpions. Scorpions are dangerous animals.", "ru": "скорпион → скорпионы. Скорпионы — опасные животные.", "highlight": ["scorpions"] },
-        { "en": "a guitar → guitars. He has three guitars.", "ru": "гитара → гитары. У него три гитары.", "highlight": ["guitars"] },
-        { "en": "a stage → stages. There are many stages at the festival.", "ru": "сцена → сцены. На фестивале много сцен.", "highlight": ["stages"] }
-      ]
-    },
-    {
-      "group": "Правило +es",
-      "items": [
-        { "en": "a bus → buses. There are two buses for the tour.", "ru": "автобус → автобусы. Для тура два автобуса.", "highlight": ["buses"] },
-        { "en": "a box → boxes. We have three boxes of equipment.", "ru": "коробка → коробки. У нас три коробки оборудования.", "highlight": ["boxes"] },
-        { "en": "a watch → watches. He has two watches.", "ru": "часы → часы. У него двое часов.", "highlight": ["watches"] }
-      ]
-    },
-    {
-      "group": "Правило -y → -ies",
-      "items": [
-        { "en": "a baby → babies. The babies are sleeping.", "ru": "ребёнок → дети. Дети спят.", "highlight": ["babies"] },
-        { "en": "a party → parties. We have two parties this week.", "ru": "вечеринка → вечеринки. На этой неделе у нас две вечеринки.", "highlight": ["parties"] },
-        { "en": "a story → stories. She tells many stories.", "ru": "история → истории. Она рассказывает много историй.", "highlight": ["stories"] }
-      ]
-    },
-    {
-      "group": "Исключения — человек",
-      "items": [
-        { "en": "a man → men. There are three men in the band.", "ru": "мужчина → мужчины. В группе три мужчины.", "highlight": ["men"] },
-        { "en": "a woman → women. There are two women in the crew.", "ru": "женщина → женщины. В команде две женщины.", "highlight": ["women"] },
-        { "en": "a child → children. The children are fans.", "ru": "ребёнок → дети. Дети — фанаты.", "highlight": ["children"] }
-      ]
-    },
-    {
-      "group": "Исключения — животные",
-      "items": [
-        { "en": "a mouse → mice. There are mice in the studio!", "ru": "мышь → мыши. В студии мыши!", "highlight": ["mice"] },
-        { "en": "a fish → fish. There are five fish in the aquarium.", "ru": "рыба → рыбы. В аквариуме пять рыб.", "highlight": ["fish"] },
-        { "en": "a sheep → sheep. There are many sheep on the farm.", "ru": "овца → овцы. На ферме много овец.", "highlight": ["sheep"] }
-      ]
-    },
-    {
-      "group": "Сравнение единственного и множественного числа",
-      "items": [
-        { "en": "a scorpion → scorpions. One scorpion, two scorpions.", "ru": "скорпион → скорпионы. Один скорпион, два скорпиона.", "highlight": ["scorpion", "scorpions"] },
-        { "en": "a man → men. One man, two men.", "ru": "мужчина → мужчины. Один мужчина, два мужчины.", "highlight": ["man", "men"] },
-        { "en": "a fish → fish. One fish, two fish.", "ru": "рыба → рыбы. Одна рыба, две рыбы.", "highlight": ["fish", "fish"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "a scorpion → scorpion's", "right": "a scorpion → scorpions", "note": "Множественное число — scorpions, без апострофа." },
-    { "wrong": "a man → mans", "right": "a man → men", "note": "Исключение: man → men." },
-    { "wrong": "a child → childs", "right": "a child → children", "note": "Исключение: child → children." },
-    { "wrong": "a mouse → mouses", "right": "a mouse → mice", "note": "Исключение: mouse → mice." },
-    { "wrong": "a fish → fishes", "right": "a fish → fish", "note": "Исключение: fish → fish." },
-    { "wrong": "a sheep → sheeps", "right": "a sheep → sheep", "note": "Исключение: sheep → sheep." }
-  ],
-  "compare": {
-    "title": "Единственное vs множественное число",
-    "leftLabel": "Единственное (one)",
-    "rightLabel": "Множественное (more than one)",
-    "rows": [
-      { "left": "a scorpion", "right": "two scorpions" },
-      { "left": "a man", "right": "two men" },
-      { "left": "a child", "right": "two children" },
-      { "left": "a mouse", "right": "two mice" },
-      { "left": "a fish", "right": "two fish" }
-    ]
-  },
-  "tips": [
-    "Обычно +s: a scorpion → scorpions.",
-    "+es: a box → boxes.",
-    "-y → -ies: a baby → babies.",
-    "Исключения: man → men, woman → women, child → children.",
-    "mouse → mice, fish → fish, sheep → sheep.",
-    "Запомни исключения как рифму.",
-    "Проверяй себя: one scorpion, two scorpions."
-  ],
-  "related": ["a1-nouns", "a1-articles-a-an", "a1-verb-to-be"],
-  "quiz": [
-    {
-      "q": "a scorpion → ___",
-      "options": ["scorpion's", "scorpions", "scorpiones", "scorpion"],
-      "answer": 1,
-      "why": "Множественное число — scorpions."
-    },
-    {
-      "q": "a man → ___",
-      "options": ["mans", "men", "man's", "mens"],
-      "answer": 1,
-      "why": "Исключение: man → men."
-    },
-    {
-      "q": "a child → ___",
-      "options": ["childs", "children", "child's", "childes"],
-      "answer": 1,
-      "why": "Исключение: child → children."
-    },
-    {
-      "q": "a mouse → ___",
-      "options": ["mouses", "mice", "mouse's", "mices"],
-      "answer": 1,
-      "why": "Исключение: mouse → mice."
-    },
-    {
-      "q": "a fish → ___",
-      "options": ["fishes", "fish", "fish's", "fishe"],
-      "answer": 1,
-      "why": "Исключение: fish → fish."
-    },
-    {
-      "q": "a baby → ___",
-      "options": ["babys", "babies", "baby's", "babie"],
-      "answer": 1,
-      "why": "-y → -ies: baby → babies."
-    }
-  ]
+﻿{
+    "variant":  "rocknroll",
+    "slug":  "a1-plural-nouns",
+    "level":  "A1",
+    "title":  "Plural Nouns",
+    "category":  "Grammar",
+    "readingTime":  9,
+    "summary":  "Множественное число существительных. Правила и исключения. Трейси Хьюитт и Scorpions.",
+    "idea":  [
+                 "Scorpions — это множественное число от «scorpion». Один скорпион — это страшно, но много скорпионов — это уже армия. Название группы показывает, как множественное число меняет смысл слова. Scorpions знали силу множественного числа.",
+                 "В английском языке множественное число обычно образуется с помощью окончания -s: a scorpion → scorpions. Но есть исключения: a man → men, a child → children. Некоторые слова не меняются: a fish → fish, a sheep → sheep. Эти правила нужно запомнить.",
+                 "Scorpions — это немецкая рок-группа. Их название стало символом хард-рока. Один скорпион — это просто животное, но Scorpions — это легенда. Множественное число делает слова более мощными."
+             ],
+    "why":  [
+                "Множественное число помогает говорить о нескольких предметах",
+                "Правильное образование множественного числа делает речь грамотной",
+                "В английском языке есть правила и исключения, которые нужно знать",
+                "Знание множественного числа помогает понимать текст и речь"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Klaus Meine: \u0027We are Scorpions. One scorpion is dangerous, but many scorpions are unstoppable. That\u0027s why we chose this name.\u0027",
+                                      "ru":  "Клаус Майне: «Мы — Scorpions. Один скорпион опасен, но много скорпионов — непобедимы. Поэтому мы выбрали это имя»."
+                                  },
+                                  {
+                                      "en":  "Rudolf Schenker: \u0027Scorpions is a plural noun. It shows our power. We are many. We are strong.\u0027",
+                                      "ru":  "Рудольф Шенкер: «Scorpions — это существительное во множественном числе. Оно показывает нашу силу. Нас много. Мы сильны»."
+                                  }
+                              ],
+                    "note":  "Scorpions — это множественное число. Оно показывает силу и мощь."
+                },
+    "russianAngle":  [
+                         "В русском языке множественное число образуется с помощью окончаний: кот → коты, собака → собаки.",
+                         "В английском языке обычно добавляется -s: a cat → cats, a dog → dogs.",
+                         "В русском языке есть исключения: человек → люди. В английском тоже: a man → men, a child → children.",
+                         "В русском языке некоторые слова не меняются: рыба → рыбы. В английском тоже: a fish → fish, a sheep → sheep."
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Запомни: обычно +s: a scorpion → scorpions.",
+                                     "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses.",
+                                     "Если слово оканчивается на -y → -ies: a baby → babies.",
+                                     "Исключения: a man → men, a woman → women, a child → children.",
+                                     "Некоторые слова не меняются: a fish → fish, a sheep → sheep.",
+                                     "Сделай упражнение и сверься с ответами."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Напишите множественное число этих существительных:",
+                                        "items":  [
+                                                      {
+                                                          "q":  "a scorpion → ___",
+                                                          "a":  "scorpions"
+                                                      },
+                                                      {
+                                                          "q":  "a guitar → ___",
+                                                          "a":  "guitars"
+                                                      },
+                                                      {
+                                                          "q":  "a bus → ___",
+                                                          "a":  "buses"
+                                                      },
+                                                      {
+                                                          "q":  "a baby → ___",
+                                                          "a":  "babies"
+                                                      },
+                                                      {
+                                                          "q":  "a man → ___",
+                                                          "a":  "men"
+                                                      },
+                                                      {
+                                                          "q":  "a child → ___",
+                                                          "a":  "children"
+                                                      },
+                                                      {
+                                                          "q":  "a fish → ___",
+                                                          "a":  "fish"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "rules":  [
+                  {
+                      "title":  "Обычное правило +s",
+                      "text":  "a scorpion → scorpions, a guitar → guitars, a stage → stages."
+                  },
+                  {
+                      "title":  "Правило +es",
+                      "text":  "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses, a box → boxes."
+                  },
+                  {
+                      "title":  "Правило -y → -ies",
+                      "text":  "Если слово оканчивается на -y → -ies: a baby → babies, a party → parties."
+                  },
+                  {
+                      "title":  "Исключения",
+                      "text":  "a man → men, a woman → women, a child → children, a mouse → mice, a fish → fish, a sheep → sheep."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "Обычное правило +s",
+                         "items":  [
+                                       {
+                                           "en":  "a scorpion → scorpions. Scorpions are dangerous animals.",
+                                           "ru":  "скорпион → скорпионы. Скорпионы — опасные животные.",
+                                           "highlight":  [
+                                                             "scorpions"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a guitar → guitars. He has three guitars.",
+                                           "ru":  "гитара → гитары. У него три гитары.",
+                                           "highlight":  [
+                                                             "guitars"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a stage → stages. There are many stages at the festival.",
+                                           "ru":  "сцена → сцены. На фестивале много сцен.",
+                                           "highlight":  [
+                                                             "stages"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Правило +es",
+                         "items":  [
+                                       {
+                                           "en":  "a bus → buses. There are two buses for the tour.",
+                                           "ru":  "автобус → автобусы. Для тура два автобуса.",
+                                           "highlight":  [
+                                                             "buses"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a box → boxes. We have three boxes of equipment.",
+                                           "ru":  "коробка → коробки. У нас три коробки оборудования.",
+                                           "highlight":  [
+                                                             "boxes"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a watch → watches. He has two watches.",
+                                           "ru":  "часы → часы. У него двое часов.",
+                                           "highlight":  [
+                                                             "watches"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Правило -y → -ies",
+                         "items":  [
+                                       {
+                                           "en":  "a baby → babies. The babies are sleeping.",
+                                           "ru":  "ребёнок → дети. Дети спят.",
+                                           "highlight":  [
+                                                             "babies"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a party → parties. We have two parties this week.",
+                                           "ru":  "вечеринка → вечеринки. На этой неделе у нас две вечеринки.",
+                                           "highlight":  [
+                                                             "parties"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a story → stories. She tells many stories.",
+                                           "ru":  "история → истории. Она рассказывает много историй.",
+                                           "highlight":  [
+                                                             "stories"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Исключения — человек",
+                         "items":  [
+                                       {
+                                           "en":  "a man → men. There are three men in the band.",
+                                           "ru":  "мужчина → мужчины. В группе три мужчины.",
+                                           "highlight":  [
+                                                             "men"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a woman → women. There are two women in the crew.",
+                                           "ru":  "женщина → женщины. В команде две женщины.",
+                                           "highlight":  [
+                                                             "women"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a child → children. The children are fans.",
+                                           "ru":  "ребёнок → дети. Дети — фанаты.",
+                                           "highlight":  [
+                                                             "children"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Исключения — животные",
+                         "items":  [
+                                       {
+                                           "en":  "a mouse → mice. There are mice in the studio!",
+                                           "ru":  "мышь → мыши. В студии мыши!",
+                                           "highlight":  [
+                                                             "mice"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a fish → fish. There are five fish in the aquarium.",
+                                           "ru":  "рыба → рыбы. В аквариуме пять рыб.",
+                                           "highlight":  [
+                                                             "fish"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a sheep → sheep. There are many sheep on the farm.",
+                                           "ru":  "овца → овцы. На ферме много овец.",
+                                           "highlight":  [
+                                                             "sheep"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Сравнение единственного и множественного числа",
+                         "items":  [
+                                       {
+                                           "en":  "a scorpion → scorpions. One scorpion, two scorpions.",
+                                           "ru":  "скорпион → скорпионы. Один скорпион, два скорпиона.",
+                                           "highlight":  [
+                                                             "scorpion",
+                                                             "scorpions"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a man → men. One man, two men.",
+                                           "ru":  "мужчина → мужчины. Один мужчина, два мужчины.",
+                                           "highlight":  [
+                                                             "man",
+                                                             "men"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "a fish → fish. One fish, two fish.",
+                                           "ru":  "рыба → рыбы. Одна рыба, две рыбы.",
+                                           "highlight":  [
+                                                             "fish",
+                                                             "fish"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "a scorpion → scorpion\u0027s",
+                         "right":  "a scorpion → scorpions",
+                         "note":  "Множественное число — scorpions, без апострофа."
+                     },
+                     {
+                         "wrong":  "a man → mans",
+                         "right":  "a man → men",
+                         "note":  "Исключение: man → men."
+                     },
+                     {
+                         "wrong":  "a child → childs",
+                         "right":  "a child → children",
+                         "note":  "Исключение: child → children."
+                     },
+                     {
+                         "wrong":  "a mouse → mouses",
+                         "right":  "a mouse → mice",
+                         "note":  "Исключение: mouse → mice."
+                     },
+                     {
+                         "wrong":  "a fish → fishes",
+                         "right":  "a fish → fish",
+                         "note":  "Исключение: fish → fish."
+                     },
+                     {
+                         "wrong":  "a sheep → sheeps",
+                         "right":  "a sheep → sheep",
+                         "note":  "Исключение: sheep → sheep."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "Единственное vs множественное число",
+                    "leftLabel":  "Единственное (one)",
+                    "rightLabel":  "Множественное (more than one)",
+                    "rows":  [
+                                 {
+                                     "left":  "a scorpion",
+                                     "right":  "two scorpions"
+                                 },
+                                 {
+                                     "left":  "a man",
+                                     "right":  "two men"
+                                 },
+                                 {
+                                     "left":  "a child",
+                                     "right":  "two children"
+                                 },
+                                 {
+                                     "left":  "a mouse",
+                                     "right":  "two mice"
+                                 },
+                                 {
+                                     "left":  "a fish",
+                                     "right":  "two fish"
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "Обычно +s: a scorpion → scorpions.",
+                 "+es: a box → boxes.",
+                 "-y → -ies: a baby → babies.",
+                 "Исключения: man → men, woman → women, child → children.",
+                 "mouse → mice, fish → fish, sheep → sheep.",
+                 "Запомни исключения как рифму.",
+                 "Проверяй себя: one scorpion, two scorpions."
+             ],
+    "related":  [
+                    "a1-nouns",
+                    "a1-articles-a-an",
+                    "a1-verb-to-be"
+                ],
+    "quiz":  [
+                 {
+                     "q":  "a scorpion → ___",
+                     "options":  [
+                                     "scorpion\u0027s",
+                                     "scorpions",
+                                     "scorpiones",
+                                     "scorpion"
+                                 ],
+                     "answer":  1,
+                     "why":  "Множественное число — scorpions."
+                 },
+                 {
+                     "q":  "a man → ___",
+                     "options":  [
+                                     "mans",
+                                     "men",
+                                     "man\u0027s",
+                                     "mens"
+                                 ],
+                     "answer":  1,
+                     "why":  "Исключение: man → men."
+                 },
+                 {
+                     "q":  "a child → ___",
+                     "options":  [
+                                     "childs",
+                                     "children",
+                                     "child\u0027s",
+                                     "childes"
+                                 ],
+                     "answer":  1,
+                     "why":  "Исключение: child → children."
+                 },
+                 {
+                     "q":  "a mouse → ___",
+                     "options":  [
+                                     "mouses",
+                                     "mice",
+                                     "mouse\u0027s",
+                                     "mices"
+                                 ],
+                     "answer":  1,
+                     "why":  "Исключение: mouse → mice."
+                 },
+                 {
+                     "q":  "a fish → ___",
+                     "options":  [
+                                     "fishes",
+                                     "fish",
+                                     "fish\u0027s",
+                                     "fishe"
+                                 ],
+                     "answer":  1,
+                     "why":  "Исключение: fish → fish."
+                 },
+                 {
+                     "q":  "a baby → ___",
+                     "options":  [
+                                     "babys",
+                                     "babies",
+                                     "baby\u0027s",
+                                     "babie"
+                                 ],
+                     "answer":  1,
+                     "why":  "-y → -ies: baby → babies."
+                 }
+             ]
 }

@@ -1,181 +1,393 @@
-{
-  "variant": "rocknroll",
-  "slug": "a1-there-is-there-are",
-  "level": "A1",
-  "title": "There is / There are",
-  "category": "Grammar",
-  "readingTime": 8,
-  "summary": "Конструкция there is / there are — способ сказать, что что-то существует или находится где-то. История о том, как The Doors пели о месте, где можно быть собой.",
-  "idea": [
-    "The Doors записали песню «There's A Place» в 1967 году. Название песни начинается с «There's» — сокращения от «There is». В песне поётся: «There's a place where I can go...» — есть место, куда я могу пойти. Это песня о поиске убежища, о месте, где можно быть собой. Конструкция there is / there are помогает создавать образы и места.",
-    "There is используется для единственного числа: there is a place. There are используется для множественного числа: there are dreams, there are shadows. Это простое правило помогает говорить о мире вокруг нас.",
-    "The Doors знали, что каждое место имеет свою историю. Их музыка — это мир, где есть всё: love, fear, freedom. There is / there are — это ключ к созданию этого мира."
-  ],
-  "why": [
-    "There is / there are — это способ сказать, что что-то существует",
-    "Они помогают описывать места и предметы",
-    "Правильное использование there is / there are делает речь грамотной",
-    "Это одна из самых частотных конструкций в английском языке"
-  ],
-  "context": {
-    "lines": [
-      { "en": "Jim Morrison: 'There's a place where I can go. There is peace. There are no fears. There is a place where I can be free.'",
-        "ru": "Джим Моррисон: «Есть место, куда я могу пойти. Там есть покой. Нет страхов. Есть место, где я могу быть свободным»." },
-      { "en": "Ray Manzarek: 'There is music. There are dreams. There is a place where we can be ourselves.'",
-        "ru": "Рэй Манзарек: «Есть музыка. Есть мечты. Есть место, где мы можем быть собой»." }
-    ],
-    "note": "There is — единственное число (a place, peace). There are — множественное число (dreams, fears)."
-  },
-  "russianAngle": [
-    "В русском языке мы говорим «есть» для всего. В английском — there is (ед.ч.) и there are (мн.ч.).",
-    "В русском языке мы часто опускаем 'есть': 'место, где я могу быть собой'. В английском нужно there is: There is a place where I can be myself.",
-    "Ошибка: There are a place — неправильно! Нужно: There is a place.",
-    "Запомни: is + единственное число, are + множественное число."
-  ],
-  "howToLearn": {
-    "steps": [
-      "Запомни: there is + единственное число: there is a place.",
-      "there are + множественное число: there are dreams.",
-      "В отрицании: there is not (there isn't), there are not (there aren't).",
-      "В вопросах: Is there a place? Are there dreams?",
-      "Потренируйся описывать места: There is a place. There are dreams.",
-      "Сделай упражнение и сверься с ответами."
-    ],
-    "exercise": {
-      "prompt": "Вставьте there is или there are:",
-      "items": [
-        { "q": "___ a place where I can go.", "a": "There is" },
-        { "q": "___ no fears in that place.", "a": "There are" },
-        { "q": "___ music in my soul.", "a": "There is" },
-        { "q": "___ dreams in the night.", "a": "There are" },
-        { "q": "___ a place where I can be free.", "a": "There is" }
-      ]
-    }
-  },
-  "rules": [
-    { "title": "There is — единственное число",
-      "text": "There is + существительное в единственном числе: There is a place. There is music." },
-    { "title": "There are — множественное число",
-      "text": "There are + существительное во множественном числе: There are dreams. There are fears." },
-    { "title": "Вопросы и отрицания",
-      "text": "Вопросы: Is there a place? Are there dreams? Отрицания: There isn't a place. There aren't any fears." }
-  ],
-  "examples": [
-    {
-      "group": "There is — единственное число",
-      "items": [
-        { "en": "There is a place where I can go.", "ru": "Есть место, куда я могу пойти.", "highlight": ["There is"] },
-        { "en": "There is music in my soul.", "ru": "В моей душе есть музыка.", "highlight": ["There is"] },
-        { "en": "There is a song in the air.", "ru": "В воздухе есть песня.", "highlight": ["There is"] }
-      ]
-    },
-    {
-      "group": "There are — множественное число",
-      "items": [
-        { "en": "There are no fears in that place.", "ru": "В том месте нет страхов.", "highlight": ["There are"] },
-        { "en": "There are dreams in the night.", "ru": "В ночи есть мечты.", "highlight": ["There are"] },
-        { "en": "There are shadows on the wall.", "ru": "На стене есть тени.", "highlight": ["There are"] }
-      ]
-    },
-    {
-      "group": "There is vs There are — сравнение",
-      "items": [
-        { "en": "There is a place. (singular)", "ru": "Есть место. (ед.ч.)", "highlight": ["There is"] },
-        { "en": "There are places. (plural)", "ru": "Есть места. (мн.ч.)", "highlight": ["There are"] },
-        { "en": "There is a dream. (singular)", "ru": "Есть мечта. (ед.ч.)", "highlight": ["There is"] },
-        { "en": "There are dreams. (plural)", "ru": "Есть мечты. (мн.ч.)", "highlight": ["There are"] }
-      ]
-    },
-    {
-      "group": "Отрицания",
-      "items": [
-        { "en": "There isn't a place for me.", "ru": "Нет места для меня.", "highlight": ["There isn't"] },
-        { "en": "There aren't any fears in my heart.", "ru": "В моём сердце нет страхов.", "highlight": ["There aren't"] },
-        { "en": "There isn't any doubt in my mind.", "ru": "В моём уме нет сомнений.", "highlight": ["There isn't"] }
-      ]
-    },
-    {
-      "group": "Вопросы",
-      "items": [
-        { "en": "Is there a place for me? — Yes, there is.", "ru": "Есть место для меня? — Да.", "highlight": ["Is there"] },
-        { "en": "Are there any fears? — No, there aren't.", "ru": "Есть страхи? — Нет.", "highlight": ["Are there"] },
-        { "en": "Is there music in your soul? — Yes, there is.", "ru": "В твоей душе есть музыка? — Да.", "highlight": ["Is there"] }
-      ]
-    },
-    {
-      "group": "Описание мест",
-      "items": [
-        { "en": "There is a place. There is peace. There are no fears.", "ru": "Есть место. Там есть покой. Нет страхов.", "highlight": ["There is", "There are"] },
-        { "en": "There is music. There are dreams. There is a place where we can be free.", "ru": "Есть музыка. Есть мечты. Есть место, где мы можем быть свободными.", "highlight": ["There is", "There are"] },
-        { "en": "There is a song. There are words. There is a message.", "ru": "Есть песня. Есть слова. Есть послание.", "highlight": ["There is", "There are"] }
-      ]
-    }
-  ],
-  "mistakes": [
-    { "wrong": "There are a place where I can go.", "right": "There is a place where I can go.", "note": "a place — единственное число, поэтому there is." },
-    { "wrong": "There is no fears in that place.", "right": "There are no fears in that place.", "note": "fears — множественное число, поэтому there are." },
-    { "wrong": "There is a dreams in the night.", "right": "There are dreams in the night.", "note": "dreams — множественное число, поэтому there are." },
-    { "wrong": "There is not a place for me.", "right": "There isn't a place for me.", "note": "Сокращение: isn't." },
-    { "wrong": "There aren't a place for me.", "right": "There isn't a place for me.", "note": "a place — единственное число, поэтому isn't." },
-    { "wrong": "Is there any fears? — No, there isn't.", "right": "Are there any fears? — No, there aren't.", "note": "fears — множественное число, поэтому Are there и there aren't." }
-  ],
-  "compare": {
-    "title": "There is vs There are",
-    "leftLabel": "There is (единственное число)",
-    "rightLabel": "There are (множественное число)",
-    "rows": [
-      { "left": "There is a place.", "right": "There are places." },
-      { "left": "There is a dream.", "right": "There are dreams." },
-      { "left": "There is a fear.", "right": "There are fears." },
-      { "left": "There is a song.", "right": "There are songs." }
-    ]
-  },
-  "tips": [
-    "There is + единственное число: There is a place.",
-    "There are + множественное число: There are dreams.",
-    "В отрицании: There isn't a place. There aren't any fears.",
-    "В вопросах: Is there a place? Are there any fears?",
-    "Не путай: 'There is' и 'It is' — это разные конструкции.",
-    "Запомни: есть (there is/are) vs это (it is).",
-    "Проверяй себя: сколько предметов? Один → there is, много → there are."
-  ],
-  "related": ["a1-nouns", "a1-plural-nouns", "a1-verb-to-be"],
-  "quiz": [
-    {
-      "q": "___ a place where I can go.",
-      "options": ["There is", "There are", "It is", "They are"],
-      "answer": 0,
-      "why": "a place — единственное число → there is."
-    },
-    {
-      "q": "___ no fears in that place.",
-      "options": ["There is", "There are", "It is", "They are"],
-      "answer": 1,
-      "why": "fears — множественное число → there are."
-    },
-    {
-      "q": "___ music in my soul.",
-      "options": ["There is", "There are", "It is", "They are"],
-      "answer": 0,
-      "why": "music — единственное число (неисчисляемое) → there is."
-    },
-    {
-      "q": "___ dreams in the night.",
-      "options": ["There is", "There are", "It is", "They are"],
-      "answer": 1,
-      "why": "dreams — множественное число → there are."
-    },
-    {
-      "q": "___ a place where I can be free.",
-      "options": ["There is", "There are", "It is", "They are"],
-      "answer": 0,
-      "why": "a place — единственное число → there is."
-    },
-    {
-      "q": "___ there a place for me?",
-      "options": ["Is", "Are", "Am", "Be"],
-      "answer": 0,
-      "why": "a place — единственное число → Is there?"
-    }
-  ]
+﻿{
+    "variant":  "rocknroll",
+    "slug":  "a1-there-is-there-are",
+    "level":  "A1",
+    "title":  "There Is / There Are",
+    "category":  "Grammar",
+    "readingTime":  8,
+    "summary":  "Конструкция there is / there are — говорим о существовании. Роберт Льюис Стивенсон и The Doors.",
+    "idea":  [
+                 "The Doors записали песню «There\u0027s A Place» в 1967 году. Название песни начинается с «There\u0027s» — сокращения от «There is». В песне поётся: «There\u0027s a place where I can go...» — есть место, куда я могу пойти. Это песня о поиске убежища, о месте, где можно быть собой. Конструкция there is / there are помогает создавать образы и места.",
+                 "There is используется для единственного числа: there is a place. There are используется для множественного числа: there are dreams, there are shadows. Это простое правило помогает говорить о мире вокруг нас.",
+                 "The Doors знали, что каждое место имеет свою историю. Их музыка — это мир, где есть всё: love, fear, freedom. There is / there are — это ключ к созданию этого мира."
+             ],
+    "why":  [
+                "There is / there are — это способ сказать, что что-то существует",
+                "Они помогают описывать места и предметы",
+                "Правильное использование there is / there are делает речь грамотной",
+                "Это одна из самых частотных конструкций в английском языке"
+            ],
+    "context":  {
+                    "lines":  [
+                                  {
+                                      "en":  "Jim Morrison: \u0027There\u0027s a place where I can go. There is peace. There are no fears. There is a place where I can be free.\u0027",
+                                      "ru":  "Джим Моррисон: «Есть место, куда я могу пойти. Там есть покой. Нет страхов. Есть место, где я могу быть свободным»."
+                                  },
+                                  {
+                                      "en":  "Ray Manzarek: \u0027There is music. There are dreams. There is a place where we can be ourselves.\u0027",
+                                      "ru":  "Рэй Манзарек: «Есть музыка. Есть мечты. Есть место, где мы можем быть собой»."
+                                  }
+                              ],
+                    "note":  "There is — единственное число (a place, peace). There are — множественное число (dreams, fears)."
+                },
+    "russianAngle":  [
+                         "В русском языке мы говорим «есть» для всего. В английском — there is (ед.ч.) и there are (мн.ч.).",
+                         "В русском языке мы часто опускаем \u0027есть\u0027: \u0027место, где я могу быть собой\u0027. В английском нужно there is: There is a place where I can be myself.",
+                         "Ошибка: There are a place — неправильно! Нужно: There is a place.",
+                         "Запомни: is + единственное число, are + множественное число."
+                     ],
+    "howToLearn":  {
+                       "steps":  [
+                                     "Запомни: there is + единственное число: there is a place.",
+                                     "there are + множественное число: there are dreams.",
+                                     "В отрицании: there is not (there isn\u0027t), there are not (there aren\u0027t).",
+                                     "В вопросах: Is there a place? Are there dreams?",
+                                     "Потренируйся описывать места: There is a place. There are dreams.",
+                                     "Сделай упражнение и сверься с ответами."
+                                 ],
+                       "exercise":  {
+                                        "prompt":  "Вставьте there is или there are:",
+                                        "items":  [
+                                                      {
+                                                          "q":  "___ a place where I can go.",
+                                                          "a":  "There is"
+                                                      },
+                                                      {
+                                                          "q":  "___ no fears in that place.",
+                                                          "a":  "There are"
+                                                      },
+                                                      {
+                                                          "q":  "___ music in my soul.",
+                                                          "a":  "There is"
+                                                      },
+                                                      {
+                                                          "q":  "___ dreams in the night.",
+                                                          "a":  "There are"
+                                                      },
+                                                      {
+                                                          "q":  "___ a place where I can be free.",
+                                                          "a":  "There is"
+                                                      }
+                                                  ]
+                                    }
+                   },
+    "rules":  [
+                  {
+                      "title":  "There is — единственное число",
+                      "text":  "There is + существительное в единственном числе: There is a place. There is music."
+                  },
+                  {
+                      "title":  "There are — множественное число",
+                      "text":  "There are + существительное во множественном числе: There are dreams. There are fears."
+                  },
+                  {
+                      "title":  "Вопросы и отрицания",
+                      "text":  "Вопросы: Is there a place? Are there dreams? Отрицания: There isn\u0027t a place. There aren\u0027t any fears."
+                  }
+              ],
+    "examples":  [
+                     {
+                         "group":  "There is — единственное число",
+                         "items":  [
+                                       {
+                                           "en":  "There is a place where I can go.",
+                                           "ru":  "Есть место, куда я могу пойти.",
+                                           "highlight":  [
+                                                             "There is"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There is music in my soul.",
+                                           "ru":  "В моей душе есть музыка.",
+                                           "highlight":  [
+                                                             "There is"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There is a song in the air.",
+                                           "ru":  "В воздухе есть песня.",
+                                           "highlight":  [
+                                                             "There is"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "There are — множественное число",
+                         "items":  [
+                                       {
+                                           "en":  "There are no fears in that place.",
+                                           "ru":  "В том месте нет страхов.",
+                                           "highlight":  [
+                                                             "There are"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There are dreams in the night.",
+                                           "ru":  "В ночи есть мечты.",
+                                           "highlight":  [
+                                                             "There are"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There are shadows on the wall.",
+                                           "ru":  "На стене есть тени.",
+                                           "highlight":  [
+                                                             "There are"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "There is vs There are — сравнение",
+                         "items":  [
+                                       {
+                                           "en":  "There is a place. (singular)",
+                                           "ru":  "Есть место. (ед.ч.)",
+                                           "highlight":  [
+                                                             "There is"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There are places. (plural)",
+                                           "ru":  "Есть места. (мн.ч.)",
+                                           "highlight":  [
+                                                             "There are"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There is a dream. (singular)",
+                                           "ru":  "Есть мечта. (ед.ч.)",
+                                           "highlight":  [
+                                                             "There is"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There are dreams. (plural)",
+                                           "ru":  "Есть мечты. (мн.ч.)",
+                                           "highlight":  [
+                                                             "There are"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Отрицания",
+                         "items":  [
+                                       {
+                                           "en":  "There isn\u0027t a place for me.",
+                                           "ru":  "Нет места для меня.",
+                                           "highlight":  [
+                                                             "There isn\u0027t"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There aren\u0027t any fears in my heart.",
+                                           "ru":  "В моём сердце нет страхов.",
+                                           "highlight":  [
+                                                             "There aren\u0027t"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There isn\u0027t any doubt in my mind.",
+                                           "ru":  "В моём уме нет сомнений.",
+                                           "highlight":  [
+                                                             "There isn\u0027t"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Вопросы",
+                         "items":  [
+                                       {
+                                           "en":  "Is there a place for me? — Yes, there is.",
+                                           "ru":  "Есть место для меня? — Да.",
+                                           "highlight":  [
+                                                             "Is there"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Are there any fears? — No, there aren\u0027t.",
+                                           "ru":  "Есть страхи? — Нет.",
+                                           "highlight":  [
+                                                             "Are there"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "Is there music in your soul? — Yes, there is.",
+                                           "ru":  "В твоей душе есть музыка? — Да.",
+                                           "highlight":  [
+                                                             "Is there"
+                                                         ]
+                                       }
+                                   ]
+                     },
+                     {
+                         "group":  "Описание мест",
+                         "items":  [
+                                       {
+                                           "en":  "There is a place. There is peace. There are no fears.",
+                                           "ru":  "Есть место. Там есть покой. Нет страхов.",
+                                           "highlight":  [
+                                                             "There is",
+                                                             "There are"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There is music. There are dreams. There is a place where we can be free.",
+                                           "ru":  "Есть музыка. Есть мечты. Есть место, где мы можем быть свободными.",
+                                           "highlight":  [
+                                                             "There is",
+                                                             "There are"
+                                                         ]
+                                       },
+                                       {
+                                           "en":  "There is a song. There are words. There is a message.",
+                                           "ru":  "Есть песня. Есть слова. Есть послание.",
+                                           "highlight":  [
+                                                             "There is",
+                                                             "There are"
+                                                         ]
+                                       }
+                                   ]
+                     }
+                 ],
+    "mistakes":  [
+                     {
+                         "wrong":  "There are a place where I can go.",
+                         "right":  "There is a place where I can go.",
+                         "note":  "a place — единственное число, поэтому there is."
+                     },
+                     {
+                         "wrong":  "There is no fears in that place.",
+                         "right":  "There are no fears in that place.",
+                         "note":  "fears — множественное число, поэтому there are."
+                     },
+                     {
+                         "wrong":  "There is a dreams in the night.",
+                         "right":  "There are dreams in the night.",
+                         "note":  "dreams — множественное число, поэтому there are."
+                     },
+                     {
+                         "wrong":  "There is not a place for me.",
+                         "right":  "There isn\u0027t a place for me.",
+                         "note":  "Сокращение: isn\u0027t."
+                     },
+                     {
+                         "wrong":  "There aren\u0027t a place for me.",
+                         "right":  "There isn\u0027t a place for me.",
+                         "note":  "a place — единственное число, поэтому isn\u0027t."
+                     },
+                     {
+                         "wrong":  "Is there any fears? — No, there isn\u0027t.",
+                         "right":  "Are there any fears? — No, there aren\u0027t.",
+                         "note":  "fears — множественное число, поэтому Are there и there aren\u0027t."
+                     }
+                 ],
+    "compare":  {
+                    "title":  "There is vs There are",
+                    "leftLabel":  "There is (единственное число)",
+                    "rightLabel":  "There are (множественное число)",
+                    "rows":  [
+                                 {
+                                     "left":  "There is a place.",
+                                     "right":  "There are places."
+                                 },
+                                 {
+                                     "left":  "There is a dream.",
+                                     "right":  "There are dreams."
+                                 },
+                                 {
+                                     "left":  "There is a fear.",
+                                     "right":  "There are fears."
+                                 },
+                                 {
+                                     "left":  "There is a song.",
+                                     "right":  "There are songs."
+                                 }
+                             ]
+                },
+    "tips":  [
+                 "There is + единственное число: There is a place.",
+                 "There are + множественное число: There are dreams.",
+                 "В отрицании: There isn\u0027t a place. There aren\u0027t any fears.",
+                 "В вопросах: Is there a place? Are there any fears?",
+                 "Не путай: \u0027There is\u0027 и \u0027It is\u0027 — это разные конструкции.",
+                 "Запомни: есть (there is/are) vs это (it is).",
+                 "Проверяй себя: сколько предметов? Один → there is, много → there are."
+             ],
+    "related":  [
+                    "a1-nouns",
+                    "a1-plural-nouns",
+                    "a1-verb-to-be"
+                ],
+    "quiz":  [
+                 {
+                     "q":  "___ a place where I can go.",
+                     "options":  [
+                                     "There is",
+                                     "There are",
+                                     "It is",
+                                     "They are"
+                                 ],
+                     "answer":  0,
+                     "why":  "a place — единственное число → there is."
+                 },
+                 {
+                     "q":  "___ no fears in that place.",
+                     "options":  [
+                                     "There is",
+                                     "There are",
+                                     "It is",
+                                     "They are"
+                                 ],
+                     "answer":  1,
+                     "why":  "fears — множественное число → there are."
+                 },
+                 {
+                     "q":  "___ music in my soul.",
+                     "options":  [
+                                     "There is",
+                                     "There are",
+                                     "It is",
+                                     "They are"
+                                 ],
+                     "answer":  0,
+                     "why":  "music — единственное число (неисчисляемое) → there is."
+                 },
+                 {
+                     "q":  "___ dreams in the night.",
+                     "options":  [
+                                     "There is",
+                                     "There are",
+                                     "It is",
+                                     "They are"
+                                 ],
+                     "answer":  1,
+                     "why":  "dreams — множественное число → there are."
+                 },
+                 {
+                     "q":  "___ a place where I can be free.",
+                     "options":  [
+                                     "There is",
+                                     "There are",
+                                     "It is",
+                                     "They are"
+                                 ],
+                     "answer":  0,
+                     "why":  "a place — единственное число → there is."
+                 },
+                 {
+                     "q":  "___ there a place for me?",
+                     "options":  [
+                                     "Is",
+                                     "Are",
+                                     "Am",
+                                     "Be"
+                                 ],
+                     "answer":  0,
+                     "why":  "a place — единственное число → Is there?"
+                 }
+             ]
 }
