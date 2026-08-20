@@ -1,196 +1,330 @@
 {
   "variant": "rocknroll",
-  "slug": "b1-passive-voice-simple",
+  "slug": "b1-passive-simple",
   "level": "B1",
-  "title": "Passive Voice (Present & Past Simple)",
-  "category": "Grammar",
-  "readingTime": 11,
-  "summary": "Пассивный залог — когда действие важнее того, кто его совершил. История о том, как альбом The Beach Boys «Smile» исчез на 40 лет и был найден в архиве.",
+  "title": "Passive Voice (Simple)",
+  "category": "passive",
+  "readingTime": 14,
+  "summary": "Passive Voice используется, когда нам важнее действие или его результат, чем тот, кто это действие совершил. В Present Simple используется am/is/are + V3, а в Past Simple — was/were + V3.",
   "idea": [
-    "1966 год, Лос-Анджелес. Брайан Уилсон из The Beach Boys работал над альбомом, который должен был стать величайшим в истории рока. Альбом «Smile» был записан в 1966-1967 годах, но никогда не был выпущен. Мастер-ленты были помещены в архив студии Capitol Records и были забыты на 40 лет. «Альбом был отложен из-за творческих разногласий, — говорили инженеры, — и был спрятан в коробке, подписанной 'Smile Sessions'».",
-    "В 2004 году мастер-ленты были найдены в архиве Capitol Records. «Они были обнаружены случайно, — рассказывал звукорежиссёр, — и были использованы для ремастеринга». Альбом был выпущен в 2011 году и стал классикой. Он был оценён критиками как шедевр. Вся история — это пассивный залог: ленты были записаны, были помещены, были забыты, были найдены, были выпущены. Это история не о том, кто их потерял, а о том, что случилось с легендарным альбомом.",
-    "Пассивный залог (Passive Voice) используется, когда действие важнее того, кто его совершил. Формула простая: to be + V3 (третья форма глагола). В настоящем времени — am/is/are + V3. В прошедшем — was/were + V3. The tapes were found in 2004 — ленты были найдены в 2004 году. The album is considered a masterpiece — альбом считается шедевром. В роке пассивный залог используется постоянно: в новостях о группах, в биографиях, в историях о потерянных записях. Как в истории с Smile: важно не то, кто забыл ленты, а то, что они были найдены и выпущены."
+    "Passive Voice особенно полезен, когда история рассказывается не от лица человека, который совершает действия, а от лица объекта, группы, записи или события, с которым что-то происходит. В Active Voice главным обычно становится исполнитель действия. В Passive Voice в центр можно поставить объект действия или его результат. В Present Simple используется am/is/are + V3, а в Past Simple — was/were + V3. Исполнитель может быть добавлен после by, но он не является обязательной частью конструкции. Поэтому главный вопрос при выборе Passive Voice звучит не «как переставить слова?», а «что сейчас является центром истории?».",
+    "Историю формирования The Damned можно рассказать именно таким способом. Сначала в центре находятся музыканты: Брайан Джеймс и другие участники лондонской сцены пытаются собрать новую группу. Если мы говорим о людях, можно использовать Active Voice: [bold]Brian James formed the band.[/bold] Но если мы начинаем рассказывать историю самой группы, фокус меняется: [bold]The band was formed.[/bold] Теперь группа становится главным объектом повествования, а имя человека, который её сформировал, можно добавить только при необходимости: [bold]The band was formed by Brian James.[/bold]",
+    "Дальше в состав был приглашён Дэйв Вэниан. В Active Voice можно сказать: [bold]The musicians invited Dave Vanian.[/bold] Но если история уже посвящена составу группы, естественнее поставить самого музыканта в центр: [bold]Dave Vanian was invited to audition.[/bold] Здесь Passive показывает не просто действие, а положение человека внутри истории: он был приглашён другими.",
+    "После формирования состава группа получила название The Damned. Если нас интересует действие участников, можно сказать: [bold]The members chose the name The Damned.[/bold] Но если тема уже изменилась и мы говорим о названии, можно сказать: [bold]The name was chosen.[/bold] Если источник названия важен, можно добавить источник действия: [bold]The name was taken from two films.[/bold] Это показывает ещё одно свойство Passive Voice: by или другая информация об источнике действия появляется только тогда, когда она нужна.",
+    "История продолжается первым выступлением группы. [bold]The Damned played their first show at the 100 Club[/bold] — это Active Voice, потому что в центре находятся музыканты. Если же мы рассказываем историю самого концерта, можно сказать: [bold]The first show was played at the 100 Club.[/bold] Событие осталось тем же, но теперь первым в предложении находится show.",
+    "Затем появляется New Rose. Песня была записана в маленькой студии Pathway в Северном Лондоне, а продюсером был Ник Лоу. Если рассказывать историю музыкантов, можно сказать: [bold]The Damned recorded New Rose.[/bold] Но если главным героем истории становится сама запись, естественно сказать: [bold]New Rose was recorded in an eight-track demo studio.[/bold]",
+    "Эта формулировка действительно использовалась Капитан Сенсибл, когда он вспоминал запись сингла: [bold]“New Rose” was recorded in an eight-track demo studio in the back of a garage.[/bold] Здесь объект действия — сама запись — становится субъектом предложения.",
+    "Затем к работе над синглом был привлечён Ник Лоу. В Active Voice можно сказать: [bold]Stiff brought Nick Lowe in to produce New Rose.[/bold] В Passive Voice: [bold]Nick Lowe was brought in by Stiff to produce New Rose.[/bold] Здесь особенно хорошо видно значение by. Мы можем сказать [bold]Nick Lowe was brought in[/bold], если нам важен сам факт его появления, или добавить [bold]by Stiff[/bold], если важно, кто его привлёк.",
+    "Следующий шаг — выпуск сингла. [bold]Stiff Records released New Rose on October 22, 1976[/bold] — это Active Voice. Но если рассказ посвящён самому синглу, естественнее: [bold]New Rose was released on October 22, 1976.[/bold] Теперь New Rose остаётся темой, а информация о лейбле может быть добавлена только при необходимости: [bold]New Rose was released by Stiff Records.[/bold]",
+    "После New Rose группа записала дебютный альбом Damned Damned Damned. Снова можно рассказать историю через людей: [bold]The Damned recorded the album.[/bold] Но можно рассказать её через сам альбом: [bold]The album was recorded at Pathway Studios.[/bold] Можно поставить в центр продюсера: [bold]Nick Lowe produced the album.[/bold] Или поставить в центр результат его работы: [bold]The album was produced by Nick Lowe.[/bold]",
+    "Можно говорить о лейбле: [bold]Stiff Records released the album.[/bold] А можно оставить в центре альбом: [bold]The album was released in February 1977.[/bold] Получается одна история, но несколько точек зрения.",
+    "Сначала группа была сформирована. Затем участник был приглашён. Название было выбрано. Первый концерт был сыгран. New Rose была записана. Ник Лоу был привлечён к работе. Сингл был выпущен. Затем был записан и выпущен дебютный альбом. Каждое событие может быть рассказано через человека, который совершил действие, или через объект, который получил результат действия.",
+    "Именно поэтому история The Damned хорошо показывает функцию Passive Voice без необходимости разбирать тексты песен. Теперь вернёмся к форме. [bold]The band was formed[/bold] и [bold]New Rose was recorded[/bold] используют was + V3, потому что оба события относятся к прошлому. Если говорим о современном результате, можем использовать Present Simple Passive: [bold]The song is remembered today.[/bold] Для нескольких объектов в настоящем используется are: [bold]The records are still collected.[/bold] Для нескольких объектов в прошлом используется were: [bold]The records were released in different countries.[/bold]",
+    "Главное правило остаётся простым: форма be показывает время, а V3 показывает действие. Но смысловой выбор начинается раньше грамматической формы. Сначала решаем, что хотим сделать центром рассказа. [bold]The Damned recorded New Rose[/bold] ставит в центр группу. [bold]New Rose was recorded[/bold] ставит в центр запись. Оба предложения правильные. Они просто рассказывают одну историю с разных точек зрения. Именно это является главным смыслом Passive Voice: объект действия может стать главным героем предложения."
   ],
   "why": [
-    "Когда неизвестно, кто совершил действие: The tapes were stolen.",
-    "Когда действие важнее исполнителя: The album was released in 2011.",
-    "В новостях и официальных текстах: The band was formed in 1961.",
-    "Чтобы избежать активного субъекта: A mistake was made.",
-    "Когда исполнитель очевиден: The album was recorded by Brian Wilson."
+    "Чтобы видеть Passive Voice как способ рассказывать историю с другой точки зрения.",
+    "Чтобы понимать разницу между The Damned recorded the song и The song was recorded.",
+    "Чтобы научиться решать, нужен ли в предложении by + исполнитель.",
+    "Чтобы уверенно использовать Present Simple Passive и Past Simple Passive в рассказах о событиях."
   ],
   "context": {
     "lines": [
-      { "en": "The tapes were recorded in 1966. They were placed in the Capitol Records archive. They were forgotten for 40 years. In 2004, they were found and remastered.",
-        "ru": "Ленты были записаны в 1966 году. Они были помещены в архив Capitol Records. Они были забыты на 40 лет. В 2004 году они были найдены и ремастерированы." },
-      { "en": "Brian Wilson said: 'The album was never finished. It was put away. But it was remembered by everyone who heard it.'",
-        "ru": "Брайан Уилсон сказал: 'Альбом никогда не был закончен. Он был отложен. Но он помнился всеми, кто его слышал.'" }
+      {
+        "en": "New Rose was recorded in an eight-track demo studio in the back of a garage.",
+        "ru": "«New Rose» была записана в восьмитрековой демостудии в задней части гаража.",
+        "highlight": [
+          "was recorded"
+        ]
+      },
+      {
+        "en": "Nick Lowe was brought in by Stiff to produce “New Rose”.",
+        "ru": "Ника Лоу привлекли Stiff для продюсирования «New Rose».",
+        "highlight": [
+          "was brought in",
+          "by Stiff"
+        ]
+      },
+      {
+        "en": "New Rose was released on October 22, 1976.",
+        "ru": "«New Rose» была выпущена 22 октября 1976 года.",
+        "highlight": [
+          "was released"
+        ]
+      }
     ],
-    "note": "Passive Voice: was recorded (прошедшее), were placed (прошедшее), were forgotten (прошедшее), were found (прошедшее), was released (прошедшее)."
+    "note": "История The Damned позволяет увидеть Passive Voice на реальных событиях: формирование группы, запись, продюсирование и выпуск."
   },
   "russianAngle": [
-    "В русском языке мы часто используем активный залог вместо пассивного: «ленты нашли», а не «ленты были найдены».",
-    "В английском пассивный залог — это норма, особенно в официальных текстах и новостях.",
-    "Формула пассивного залога в русском: «быть» + причастие прошедшего времени. В английском: to be + V3.",
-    "Ошибка: The tapes were find — неправильно. Нужно: The tapes were found (V3)."
+    "В русском языке мы тоже можем поставить объект действия в начало: «Альбом был записан в Лондоне». Но в английском Passive Voice особенно важен как способ организовать информацию.",
+    "Если разговор уже посвящён альбому, естественно сказать The album was recorded, а не снова начинать с названия группы.",
+    "Если важен исполнитель, его можно назвать после by.",
+    "Если исполнитель уже известен из контекста, его можно убрать.",
+    "Поэтому Passive помогает английскому тексту сохранять один объект в центре повествования."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни формулу: to be + V3 (третья форма глагола).",
-      "В настоящем времени: am/is/are + V3. The album is considered a classic.",
-      "В прошедшем времени: was/were + V3. The tapes were found in 2004.",
-      "Сравни активный и пассивный: Brian recorded the album (актив) / The album was recorded by Brian (пассив).",
-      "Запомни: исполнитель в пассиве вводится предлогом by: by Brian Wilson.",
-      "Сделай упражнение ниже и сверься с ответами."
+      "Определите, кто совершает действие, и что получает это действие.",
+      "Решите, о ком или о чём вы сейчас рассказываете.",
+      "Если главным является исполнитель, используйте Active Voice.",
+      "Если главным является объект, результат или событие, используйте Passive Voice.",
+      "Определите время.",
+      "Выберите am/is/are или was/were.",
+      "Поставьте V3 и только при необходимости добавьте by + agent."
     ],
     "exercise": {
-      "prompt": "Преобразуйте активный залог в пассивный (как в истории с альбомом Smile):",
+      "prompt": "Измените фокус предложения: поставьте объект действия в начало.",
       "items": [
-        { "q": "Brian Wilson recorded the album in 1966.", "a": "The album was recorded by Brian Wilson in 1966." },
-        { "q": "Someone placed the tapes in the archive.", "a": "The tapes were placed in the archive." },
-        { "q": "They found the tapes in 2004.", "a": "The tapes were found in 2004." },
-        { "q": "People remember the album today.", "a": "The album is remembered today." },
-        { "q": "A record label released the album in 2011.", "a": "The album was released by a record label in 2011." }
+        {
+          "q": "The Damned recorded New Rose.",
+          "a": "New Rose was recorded by The Damned."
+        },
+        {
+          "q": "Stiff released New Rose.",
+          "a": "New Rose was released by Stiff."
+        },
+        {
+          "q": "Nick Lowe produced the album.",
+          "a": "The album was produced by Nick Lowe."
+        },
+        {
+          "q": "The musicians invited Dave Vanian.",
+          "a": "Dave Vanian was invited."
+        }
       ]
     }
   },
-  "formula": "to be (в нужном времени) + V3 (третья форма глагола)",
+  "formula": "Subject + am/is/are/was/were + V3 (+ by + agent)",
   "structure": {
-    "positive": "The album was recorded in 1966.",
-    "negative": "The album wasn't recorded in 1966.",
-    "question": "Was the album recorded in 1966?"
+    "positive": "New Rose was recorded. / The record is remembered.",
+    "negative": "New Rose was not released. / The record is not remembered.",
+    "question": "Was New Rose recorded? / Is the record remembered?"
   },
-  "markers": ["was", "were", "is", "am", "are", "by", "V3", "past participle"],
+  "markers": [
+    "am/is/are + V3",
+    "was/were + V3",
+    "by + agent",
+    "Past Participle"
+  ],
   "uses": [
-    "Когда неизвестно или неважно, кто совершил действие: The tapes were stolen.",
-    "В новостях и официальных текстах: The album was released in 2011.",
-    "Чтобы избежать активного субъекта: Mistakes were made.",
-    "В научных и исторических текстах: The band was formed in 1961."
+    "Когда важен объект действия.",
+    "Когда важен результат события.",
+    "Когда исполнитель неизвестен.",
+    "Когда исполнитель очевиден из контекста.",
+    "Когда исполнитель не является главной информацией.",
+    "Когда нужно сохранить один объект в центре повествования."
   ],
   "rules": [
-    { "title": "Формула",
-      "text": "Passive Voice = to be (в нужном времени) + V3 (третья форма глагола)." },
-    { "title": "Настоящее время",
-      "text": "am/is/are + V3: The album is considered a classic. The songs are played on the radio." },
-    { "title": "Прошедшее время",
-      "text": "was/were + V3: The album was recorded in 1966. The tapes were found in 2004." },
-    { "title": "Исполнитель",
-      "text": "Исполнитель в пассиве вводится предлогом by: The album was recorded by Brian Wilson." }
+    {
+      "title": "Present Simple Passive",
+      "text": "Используйте am/is/are + V3 для настоящих фактов и состояний: The song is remembered."
+    },
+    {
+      "title": "Past Simple Passive",
+      "text": "Используйте was/were + V3 для завершённых действий в прошлом: New Rose was released."
+    },
+    {
+      "title": "By + agent",
+      "text": "Добавляйте by + agent, если важно назвать исполнителя: The album was produced by Nick Lowe."
+    },
+    {
+      "title": "Фокус",
+      "text": "Active ставит в центр исполнителя, а Passive позволяет поставить в центр объект, результат или человека, с которым что-то произошло."
+    }
   ],
   "examples": [
     {
-      "group": "Альбом был записан — введение",
+      "group": "История The Damned",
       "items": [
-        { "en": "The album Smile was recorded by The Beach Boys in 1966.", "ru": "Альбом Smile был записан The Beach Boys в 1966 году.", "highlight": ["was recorded"] },
-        { "en": "The songs were written by Brian Wilson.", "ru": "Песни были написаны Брайаном Уилсоном.", "highlight": ["were written"] },
-        { "en": "The music was influenced by classical and rock.", "ru": "Музыка была вдохновлена классикой и роком.", "highlight": ["was influenced"] }
-      ]
-    },
-    {
-      "group": "Альбом был помещён в архив — исчезновение",
-      "items": [
-        { "en": "The tapes were placed in the Capitol Records archive.", "ru": "Ленты были помещены в архив Capitol Records.", "highlight": ["were placed"] },
-        { "en": "They were left in a box labelled 'Smile Sessions'.", "ru": "Они были оставлены в коробке с подписью 'Smile Sessions'.", "highlight": ["were left"] },
-        { "en": "The album was hidden from the public for decades.", "ru": "Альбом был скрыт от публики десятилетиями.", "highlight": ["was hidden"] }
-      ]
-    },
-    {
-      "group": "Альбом был забыт — время проходит",
-      "items": [
-        { "en": "The tapes were forgotten for 40 years.", "ru": "Ленты были забыты на 40 лет.", "highlight": ["were forgotten"] },
-        { "en": "The album was not released during that time.", "ru": "Альбом не был выпущен в то время.", "highlight": ["was not released"] },
-        { "en": "The project was considered unfinished.", "ru": "Проект считался незавершённым.", "highlight": ["was considered"] }
-      ]
-    },
-    {
-      "group": "Альбом был найден — открытие",
-      "items": [
-        { "en": "The tapes were found in the archive in 2004.", "ru": "Ленты были найдены в архиве в 2004 году.", "highlight": ["were found"] },
-        { "en": "They were discovered by a sound engineer.", "ru": "Они были обнаружены звукорежиссёром.", "highlight": ["were discovered"] },
-        { "en": "The recordings were remastered and restored.", "ru": "Записи были ремастерированы и восстановлены.", "highlight": ["were remastered", "were restored"] }
-      ]
-    },
-    {
-      "group": "Альбом был выпущен — релиз",
-      "items": [
-        { "en": "The album was finally released in 2011.", "ru": "Альбом был наконец выпущен в 2011 году.", "highlight": ["was released"] },
-        { "en": "It was praised by critics and fans alike.", "ru": "Он был высоко оценён и критиками, и фанатами.", "highlight": ["was praised"] },
-        { "en": "The music is still played on the radio today.", "ru": "Музыка до сих пор играет по радио.", "highlight": ["is played"] }
-      ]
-    },
-    {
-      "group": "Активный vs пассивный",
-      "items": [
-        { "en": "Brian Wilson recorded the album. / The album was recorded by Brian Wilson.", "ru": "Брайан Уилсон записал альбом. / Альбом был записан Брайаном Уилсоном.", "highlight": ["recorded", "was recorded"] },
-        { "en": "He released it in 2011. / It was released in 2011.", "ru": "Он выпустил его в 2011. / Он был выпущен в 2011.", "highlight": ["released", "was released"] },
-        { "en": "People love the album today. / The album is loved today.", "ru": "Люди любят альбом сегодня. / Альбом любим сегодня.", "highlight": ["love", "is loved"] }
+        {
+          "en": "The band was formed.",
+          "ru": "Группа была сформирована.",
+          "highlight": [
+            "was formed"
+          ]
+        },
+        {
+          "en": "Dave Vanian was invited to audition.",
+          "ru": "Дэйва Вэниана пригласили на прослушивание.",
+          "highlight": [
+            "was invited"
+          ]
+        },
+        {
+          "en": "The name was chosen.",
+          "ru": "Название было выбрано.",
+          "highlight": [
+            "was chosen"
+          ]
+        },
+        {
+          "en": "New Rose was recorded.",
+          "ru": "«New Rose» была записана.",
+          "highlight": [
+            "was recorded"
+          ]
+        },
+        {
+          "en": "Nick Lowe was brought in by Stiff.",
+          "ru": "Ника Лоу привлекли представители Stiff.",
+          "highlight": [
+            "was brought in",
+            "by Stiff"
+          ]
+        },
+        {
+          "en": "New Rose was released on October 22, 1976.",
+          "ru": "«New Rose» была выпущена 22 октября 1976 года.",
+          "highlight": [
+            "was released"
+          ]
+        },
+        {
+          "en": "The album was produced by Nick Lowe.",
+          "ru": "Альбом был спродюсирован Ником Лоу.",
+          "highlight": [
+            "was produced",
+            "by Nick Lowe"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "The tapes were find in 2004.", "right": "The tapes were found in 2004.", "note": "В пассиве нужна третья форма глагола (V3): find → found." },
-    { "wrong": "The album was recorded by Brian Wilson.", "right": "The album was recorded by Brian Wilson.", "note": "record → recorded (V3)." },
-    { "wrong": "The tapes are keep in the archive.", "right": "The tapes are kept in the archive.", "note": "keep → kept (V3)." },
-    { "wrong": "The album was been released.", "right": "The album was released.", "note": "В пассиве не нужно been, достаточно was + V3." },
-    { "wrong": "The music is play on the radio.", "right": "The music is played on the radio.", "note": "play → played (V3)." },
-    { "wrong": "The tapes was found in 2004.", "right": "The tapes were found in 2004.", "note": "tapes — мн. число, поэтому were, а не was." }
+    {
+      "wrong": "New Rose was record.",
+      "right": "New Rose was recorded.",
+      "note": "После was нужен Past Participle."
+    },
+    {
+      "wrong": "The band were formed.",
+      "right": "The band was formed.",
+      "note": "Band в этом предложении — единственное число."
+    },
+    {
+      "wrong": "The records was released.",
+      "right": "The records were released.",
+      "note": "С множественным числом используется were."
+    },
+    {
+      "wrong": "New Rose is released in 1976.",
+      "right": "New Rose was released in 1976.",
+      "note": "В 1976 году используется Past Simple Passive."
+    },
+    {
+      "wrong": "The album was produced from Nick Lowe.",
+      "right": "The album was produced by Nick Lowe.",
+      "note": "Исполнитель действия вводится с помощью by."
+    },
+    {
+      "wrong": "New Rose was released by in 1976.",
+      "right": "New Rose was released in 1976.",
+      "note": "Если исполнитель не назван, by не используется."
+    }
   ],
   "compare": {
     "title": "Active Voice vs Passive Voice",
-    "leftLabel": "Active Voice (действие от исполнителя)",
-    "rightLabel": "Passive Voice (действие над объектом)",
+    "leftLabel": "Active",
+    "rightLabel": "Passive",
     "rows": [
-      { "left": "Brian Wilson recorded the album.", "right": "The album was recorded by Brian Wilson." },
-      { "left": "He placed the tapes in the archive.", "right": "The tapes were placed in the archive." },
-      { "left": "Someone found them in 2004.", "right": "They were found in 2004." },
-      { "left": "A label released the album in 2011.", "right": "The album was released in 2011." }
+      {
+        "left": "The Damned recorded New Rose.",
+        "right": "New Rose was recorded."
+      },
+      {
+        "left": "Stiff released New Rose.",
+        "right": "New Rose was released."
+      },
+      {
+        "left": "Nick Lowe produced the album.",
+        "right": "The album was produced by Nick Lowe."
+      },
+      {
+        "left": "The musicians invited Dave Vanian.",
+        "right": "Dave Vanian was invited."
+      }
     ]
   },
   "tips": [
-    "Мантра пассивного залога: to be + V3. Запомни как рифф.",
-    "В настоящем времени: am/is/are + V3. The album is considered a classic.",
-    "В прошедшем времени: was/were + V3. The tapes were found in 2004.",
-    "Исполнитель вводится предлогом by: by Brian Wilson. Если не важно — опускай.",
-    "В пассиве всегда третья форма глагола (V3): record → recorded, find → found.",
-    "Пассивный залог часто используется в новостях и официальных текстах.",
-    "Если сомневаешься — спроси себя: 'Действие важнее исполнителя?' Если да — используй пассив."
+    "Сначала определите тему предложения, а потом выбирайте Active или Passive.",
+    "Если вы уже говорите об альбоме, не обязательно снова начинать с группы.",
+    "Не добавляйте by автоматически.",
+    "Помните: was/were показывает прошлое, а V3 показывает действие.",
+    "Проверяйте число: was для единственного числа, were для множественного.",
+    "Passive Voice помогает сделать объект действия главным героем рассказа."
   ],
-  "related": ["b1-present-simple", "b1-past-simple", "b2-passive-voice-advanced"],
   "quiz": [
     {
-      "q": "The album Smile ___ by The Beach Boys in 1966.",
-      "options": ["was recorded", "is recorded", "were recorded", "was record"],
+      "q": "New Rose ___ in 1976.",
+      "options": [
+        "was recorded",
+        "was record",
+        "were recorded",
+        "is recorded"
+      ],
       "answer": 0,
-      "why": "was recorded — прошедшее время, V3 от record."
+      "why": "Это Past Simple Passive: was + V3."
     },
     {
-      "q": "The tapes ___ in the Capitol archive.",
-      "options": ["were placed", "was placed", "are placed", "were place"],
+      "q": "The album ___ by Nick Lowe.",
+      "options": [
+        "was produced",
+        "were produced",
+        "was produce",
+        "produced"
+      ],
       "answer": 0,
-      "why": "were placed — прошедшее время, V3 от place."
+      "why": "Album — единственное число, поэтому was + V3."
     },
     {
-      "q": "The tapes ___ for 40 years.",
-      "options": ["were forgotten", "was forgotten", "are forgotten", "were forgot"],
-      "answer": 0,
-      "why": "were forgotten — прошедшее время, V3 от forget."
+      "q": "Which sentence focuses on the record?",
+      "options": [
+        "The Damned recorded New Rose.",
+        "New Rose was recorded.",
+        "The Damned recorded it.",
+        "The Damned made the record."
+      ],
+      "answer": 1,
+      "why": "Passive ставит запись в центр предложения."
     },
     {
-      "q": "The album ___ in 2011.",
-      "options": ["was released", "is released", "were released", "was release"],
+      "q": "Choose the correct Present Simple Passive.",
+      "options": [
+        "The record is remembered.",
+        "The record was remember.",
+        "The record is remember.",
+        "The record remembered."
+      ],
       "answer": 0,
-      "why": "was released — прошедшее время, V3 от release."
+      "why": "Present Simple Passive: is + V3."
     },
     {
-      "q": "The music ___ by fans all over the world.",
-      "options": ["is loved", "was loved", "are loved", "is love"],
-      "answer": 0,
-      "why": "is loved — настоящее время, V3 от love."
+      "q": "Why can we say “New Rose was released” without naming the label?",
+      "options": [
+        "Because Passive cannot use by.",
+        "Because the performer may be unimportant in context.",
+        "Because released is not a verb.",
+        "Because Past Simple does not need a subject."
+      ],
+      "answer": 1,
+      "why": "Исполнитель можно убрать, если он не является важной информацией."
     },
     {
-      "q": "The tapes ___ by a sound engineer in 2004.",
-      "options": ["were found", "was found", "are found", "were find"],
-      "answer": 0,
-      "why": "were found — прошедшее время, V3 от find."
+      "q": "Which sentence is Passive?",
+      "options": [
+        "The Damned recorded the song.",
+        "Nick Lowe produced the album.",
+        "New Rose was recorded.",
+        "Stiff released the single."
+      ],
+      "answer": 2,
+      "why": "New Rose является объектом действия и стоит в позиции субъекта."
     }
-  ]
+  ],
+  "related": [
+    "b1-first-conditional",
+    "b1-present-perfect",
+    "b2-passive-voice-advanced"
+  ],
+  "quote": "New Rose was recorded in an eight-track demo studio in the back of a garage."
 }

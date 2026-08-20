@@ -20,14 +20,25 @@ function highlight(text, tokens) {
   (tokens || []).forEach((tok) => { out = out.replace(esc(tok), '<mark class="hl">' + esc(tok) + '</mark>'); });
   return out;
 }
+
+function ideaHtml(text) {
+  let out = esc(String(text));
+
+  out = out.replace(
+    /\[bold\]([\s\S]*?)\[\/bold\]/g,
+    '<strong>$1</strong>'
+  );
+
+  return out;
+}
 ---
 
 <section id={'idea' + s} class="lv2-sec" data-spybase="idea" {...reveal}>
   <h2 class="lv2-h">Суть явления</h2>
   <div class="lv2-prose lv2-prose--drop">
-    {T.idea.map((p) => <p>{p}</p>)}
+    {T.idea.map((p) => <p set:html={ideaHtml(p)}></p>)}
   </div>
-
+  
 </section>
 
 <section id={'why' + s} class="lv2-sec" data-spybase="why" {...reveal}>

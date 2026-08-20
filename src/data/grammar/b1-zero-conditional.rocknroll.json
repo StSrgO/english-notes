@@ -1,195 +1,367 @@
 {
-  "variant": "rocknroll",
+  "variant": "classic",
   "slug": "b1-zero-conditional",
   "level": "B1",
   "title": "Zero Conditional",
-  "category": "Grammar",
-  "readingTime": 10,
-  "summary": "Zero Conditional — законы музыки и эволюции: если А, то всегда Б. История о том, как Боб Дилан нарушил главный закон фолка и создал новый закон — закон рока.",
+  "category": "conditionals",
+  "readingTime": 12,
+  "summary": "Zero Conditional используется, когда мы говорим о закономерности, общем правиле или результате, который обычно возникает при определённом условии.",
   "idea": [
-    "1965 год, Ньюпорт, Род-Айленд. Боб Дилан выходит на сцену Newport Folk Festival с электрогитарой. Это нарушает главный закон фолк-музыки: «Если ты играешь фолк, ты играешь акустику». Публика в шоке. Кто-то кричит: «Ты предал нас!», а кто-то аплодирует. Дилан знает: «Если я хочу развиваться, я должен нарушить правила». Он создаёт новый закон: «Если ты рок-музыкант, ты можешь играть что угодно».",
-    "Этот момент считается одним из самых важных в истории рока. Дилан нарушил закон, чтобы создать новый. Он знал: если он останется акустическим, он станет прошлым. Если он перейдёт на электричество, он станет будущим. И он был прав. Дилан не просто нарушил закон — он создал новый. С тех пор рок-музыканты знают: если ты талантлив, ты можешь нарушать правила. Если ты создаёшь новое, тебя запоминают.",
-    "Zero Conditional — это законы музыки и эволюции. Если А, то всегда Б. В части с if — Present Simple. В части с результатом — тоже Present Simple. If you play folk, you play acoustic — если ты играешь фолк, ты играешь акустику. If you break the rules, you create new ones — если ты нарушаешь правила, ты создаёшь новые. Это законы, которые действуют всегда. Как закон Дилана: если ты хочешь развиваться, ты нарушаешь правила. И если ты нарушаешь правила, ты создаёшь новое."
+    "Zero Conditional используется, когда мы говорим о закономерности, общем правиле или результате, который возникает при определённом условии. В такой конструкции после if или when используется Present Simple, а результат также выражается через Present Simple. Мы используем Zero Conditional для природных процессов, человеческих реакций, привычек, правил и закономерностей, которые воспринимаются как постоянные или повторяющиеся. Важно не само наличие слова if, а смысл всей конструкции: говорящий объясняет, что происходит, когда выполняется определённое условие. Поэтому Zero Conditional может описывать как реальный мир, так и правила внутри вымышленного мира. Если же речь идёт о конкретном возможном результате в будущем, обычно используется First Conditional.",
+    "Уильям Шекспир показывает эту идею через речь Шейлока в «Венецианском купце». Шейлок доказывает, что евреи и христиане обладают одинаковой человеческой природой, и строит аргумент через последовательность условных вопросов: [bold]“If you prick us, do we not bleed?”[/bold] [bold]“If you tickle us, do we not laugh?”[/bold] [bold]“If you poison us, do we not die?”[/bold]",
+    "Шейлок не говорит о каком-то одном будущем событии. Он говорит о закономерных человеческих реакциях: если человека уколоть, он кровоточит; если его щекотать, он смеётся; если его отравить, он умирает. Эту же мысль можно выразить как утверждение: [bold]If you prick a person, they bleed. If you tickle a person, they laugh. If you poison a person, they die.[/bold] Во всех трёх случаях условие и результат находятся в Present Simple, потому что речь идёт о закономерности.",
+    "Но закономерность не обязательно должна относиться к человеку. Она может описывать природный процесс: [bold]If you heat water, it boils.[/bold] Если мы нагреваем воду, она закипает. Это не прогноз на один конкретный случай, а описание того, как обычно работает процесс. Она может описывать и работу устройства: [bold]If you press this button, the machine stops.[/bold] Здесь результат возникает каждый раз, когда выполняется условие. Или повторяющуюся привычку: [bold]If I drink coffee late, I can't sleep.[/bold] Здесь правило не универсально для всех людей, но для говорящего это повторяющаяся закономерность.",
+    "Фантастическая литература позволяет увидеть ту же грамматику в совершенно других мирах. В «Машине времени» Герберта Уэллса герои пытаются представить, как работают время, пространство и движение. Фантастика постоянно заставляет читателя спрашивать: если изменить одно условие мира, что произойдёт с результатом? Здесь Conditional может описывать правило внутри фантастической модели: [bold]If an object moves faster, it becomes harder to see.[/bold] Мы не говорим о конкретном путешествии. Мы формулируем закономерность. Но если сказать: [bold]If the machine moves faster tonight, it will become harder to see.[/bold] — смысл уже меняется. Теперь речь идёт о конкретной возможной ситуации в будущем, поэтому появляется First Conditional.",
+    "У Рэя Брэдбери в «Марсианских хрониках» меняется уже не физический закон, а среда, в которой оказываются люди. Человек переносит свои привычки и представления в совершенно другой мир, и это позволяет говорить о повторяющихся закономерностях поведения. [bold]If people don't understand another culture, they often misunderstand its behavior.[/bold] Здесь мы не описываем один конкретный случай. Мы формулируем обобщение о человеческом поведении.",
+    "В «Солярисе» Станислава Лема проблема становится ещё сложнее: человек сталкивается с разумом, который не может нормально понять. Отсюда можно выразить закономерность человеческого мышления: [bold]If people don't understand something, they create explanations for it.[/bold] Ещё одна закономерность: [bold]If people can't understand another intelligence, they compare it with themselves.[/bold] Zero Conditional здесь описывает уже не физический процесс, а реакцию человеческого сознания на неизвестное.",
+    "У Олдоса Хаксли в «О дивном новом мире» общество построено на искусственном формировании поведения. Если человека с детства приучают определённым образом реагировать на окружающий мир, его поведение становится предсказуемым: [bold]If people are conditioned to behave in a certain way, they follow the pattern.[/bold] Так мы видим несколько разных функций одной конструкции: человеческая реакция, природный процесс, работа системы, социальное поведение и закономерность человеческого мышления. Форма остаётся одной и той же, хотя ситуации совершенно разные.",
+    "Теперь важно увидеть, что не каждое предложение с if является Zero Conditional. В «Двенадцатой ночи» Шекспира Орсино говорит: [bold]“If music be the food of love, play on.”[/bold] Здесь после условия стоит повелительное наклонение play on. Это не обычная модель Present Simple → Present Simple. Сравним: [bold]If music is important, people listen to it.[/bold] Здесь мы говорим о закономерности. А [bold]“If music be the food of love, play on”[/bold] — условие и приказ. Поэтому при встрече с if нужно сначала определить смысл конструкции, а не просто найти знакомое слово.",
+    "То же самое происходит при сравнении Zero Conditional и First Conditional: [bold]If a spaceship loses power, its systems stop working.[/bold] Это правило. [bold]If the spaceship loses power tonight, the crew will have a problem.[/bold] Это конкретная возможная ситуация в будущем. Zero Conditional объясняет, как работает определённая система. First Conditional говорит о том, что может произойти в конкретном случае.",
+    "Поэтому Zero Conditional можно воспринимать как язык, которым мы объясняем устройство мира. Это может быть настоящий физический мир, человеческое общество, психология или даже вымышленная вселенная. Если условие и результат воспринимаются как закономерная связь, Zero Conditional позволяет выразить эту связь простым и понятным способом."
   ],
   "why": [
-    "Говорить о законах музыки: If you play folk, you play acoustic.",
-    "Выражать научные факты: If you use electricity, you get a new sound.",
-    "Говорить о правилах и привычках: If I write a song, I start with a riff.",
-    "Создавать общие истины: If you don't take risks, you never change."
+    "Zero Conditional нужен, когда важно объяснить закономерность, а не сделать прогноз.",
+    "Он помогает говорить о правилах природы, привычках, реакциях людей и повторяющихся ситуациях.",
+    "Конструкция особенно полезна, когда нужно объяснить, как работает система.",
+    "Главный вопрос перед выбором Conditional: мы описываем правило или конкретное будущее событие?"
   ],
   "context": {
     "lines": [
-      { "en": "Organiser: 'Bob, if you go electric, the crowd will hate you. If you play folk, you play acoustic. That's the law.'",
-        "ru": "Организатор: «Боб, если ты перейдёшь на электричество, публика возненавидит тебя. Если ты играешь фолк, ты играешь акустику. Таков закон»." },
-      { "en": "Dylan: 'If I want to evolve, I have to break the rules. If you break the rules, you create new ones. If the crowd is ready, they will understand.'",
-        "ru": "Дилан: «Если я хочу развиваться, я должен нарушить правила. Если ты нарушаешь правила, ты создаёшь новые. Если публика готова, она поймёт»." }
+      {
+        "en": "If you prick us, do we not bleed?",
+        "ru": "Если нас уколоть, разве мы не кровоточим?"
+      },
+      {
+        "en": "If you tickle us, do we not laugh?",
+        "ru": "Если нас щекотать, разве мы не смеёмся?"
+      },
+      {
+        "en": "If you poison us, do we not die?",
+        "ru": "Если нас отравить, разве мы не умираем?"
+      }
     ],
-    "note": "Zero Conditional: if + Present Simple → Present Simple. Законы, которые работают всегда."
+    "note": "Шейлок использует цепочку условных вопросов, чтобы показать общую человеческую закономерность."
   },
   "russianAngle": [
-    "В русском языке мы используем настоящее время в обеих частях: 'если ты играешь фолк, ты играешь акустику'. В английском то же самое.",
-    "Zero Conditional — это не будущее, а общие истины, которые верны всегда.",
-    "Ошибка: If you will play folk, you play acoustic — неправильно. Нужно: If you play folk, you play acoustic.",
-    "Запомни: if + Present Simple → Present Simple. Это закон Zero Conditional."
+    "В русском мы часто передаём Zero Conditional без отдельного грамматического маркера: «если нагреть воду, она закипает».",
+    "Английский сохраняет Present Simple в обеих частях конструкции.",
+    "Слово if не означает автоматически Zero Conditional.",
+    "Главное различие с First Conditional — не перевод слова if, а смысл: закономерность или конкретное будущее."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни формулу: if + Present Simple → Present Simple.",
-      "Пойми: Zero Conditional — это законы и общие истины.",
-      "Запомни: в Zero Conditional обе части в Present Simple.",
-      "Сравни с First Conditional: там будущее, здесь настоящее.",
-      "Потренируйся с примерами из истории.",
-      "Сделай упражнение ниже и сверься с ответами."
+      "Сначала найди условие.",
+      "Затем спроси себя, является ли результат закономерным или относится к конкретному будущему.",
+      "Проверь форму глагола после if или when.",
+      "Проверь форму глагола в результате.",
+      "Сравни предложение с First Conditional."
     ],
     "exercise": {
-      "prompt": "Закончи предложения, используя Zero Conditional (как в истории с Диланом):",
+      "prompt": "Определи, какую конструкцию нужно использовать.",
       "items": [
-        { "q": "If you ___ (play) folk, you ___ (play) acoustic.", "a": "play, play" },
-        { "q": "If you ___ (break) the rules, you ___ (create) new ones.", "a": "break, create" },
-        { "q": "If a crowd ___ (be) ready, they ___ (understand) the change.", "a": "is, understand" },
-        { "q": "If an artist ___ (stay) the same, they ___ (not / evolve).", "a": "stays, doesn't evolve" },
-        { "q": "If you ___ (take) risks, you ___ (change) music.", "a": "take, change" }
+        {
+          "q": "Если лёд нагревается, он тает.",
+          "a": "If ice gets warm, it melts."
+        },
+        {
+          "q": "Если лёд растает сегодня, мы потеряем поверхность для катания.",
+          "a": "If the ice melts today, we will lose the skating surface."
+        },
+        {
+          "q": "Если люди не спят достаточно, они устают.",
+          "a": "If people don't sleep enough, they get tired."
+        },
+        {
+          "q": "Если я не посплю сегодня, завтра я буду уставшим.",
+          "a": "If I don't sleep tonight, I will be tired tomorrow."
+        }
       ]
     }
   },
-  "formula": "if + Present Simple → Present Simple",
+  "formula": "if / when + Present Simple → Present Simple",
   "structure": {
-    "positive": "If you play folk, you play acoustic.",
-    "negative": "If you don't play folk, you don't play acoustic.",
-    "question": "What happens if you play folk?"
+    "positive": "If you heat water, it boils.",
+    "negative": "If you don't sleep enough, you feel tired.",
+    "question": "What happens if you heat water?"
   },
-  "markers": ["if", "when", "whenever", "every time", "unless"],
+  "markers": [
+    "if",
+    "when",
+    "whenever",
+    "always",
+    "usually",
+    "every time"
+  ],
   "uses": [
-    "Законы музыки: If you play folk, you play acoustic.",
-    "Научные факты: If you use electricity, you get a new sound.",
-    "Правила и привычки: If I write a song, I start with a riff.",
-    "Общие истины: If you don't take risks, you never change."
+    "общие закономерности",
+    "природные процессы",
+    "человеческие реакции",
+    "привычки",
+    "правила и инструкции",
+    "закономерности внутри вымышленного мира"
   ],
   "rules": [
-    { "title": "Формула Zero Conditional",
-      "text": "if + Present Simple → Present Simple. Если А, то всегда Б." },
-    { "title": "Законы музыки",
-      "text": "Используется для законов жанра: If you play folk, you play acoustic." },
-    { "title": "Правила и привычки",
-      "text": "Используется для правил: If I write a song, I start with a riff." },
-    { "title": "Время",
-      "text": "Zero Conditional говорит о настоящем и о законах, которые верны всегда." }
+    {
+      "title": "Present Simple в обеих частях",
+      "text": "В стандартном Zero Conditional после if или when и в результате используется Present Simple."
+    },
+    {
+      "title": "Закономерность, а не прогноз",
+      "text": "Zero Conditional описывает то, что происходит обычно или является правилом."
+    },
+    {
+      "title": "Will обычно не нужен",
+      "text": "Если речь идёт о закономерности, не ставь will в результат."
+    },
+    {
+      "title": "If и when",
+      "text": "If подчёркивает условие, а when часто подчёркивает повторяемость или ожидаемость ситуации."
+    },
+    {
+      "title": "Не каждое if — Zero Conditional",
+      "text": "Если речь идёт о конкретном будущем результате, используется First Conditional."
+    }
   ],
   "examples": [
     {
-      "group": "Законы фолка — если ты играешь фолк, ты играешь акустику",
+      "group": "Шекспир — человеческая реакция",
       "items": [
-        { "en": "If you play folk music, you play acoustic guitar.", "ru": "Если ты играешь фолк-музыку, ты играешь на акустической гитаре.", "highlight": ["play", "play"] },
-        { "en": "If you go electric, the folk crowd gets angry.", "ru": "Если ты переходишь на электричество, фолк-публика злится.", "highlight": ["go", "gets"] },
-        { "en": "If you break the tradition, you lose the audience.", "ru": "Если ты нарушаешь традицию, ты теряешь аудиторию.", "highlight": ["break", "lose"] }
+        {
+          "en": "If you prick us, do we not bleed?",
+          "ru": "Если нас уколоть, разве мы не кровоточим?",
+          "highlight": [
+            "If",
+            "prick",
+            "bleed"
+          ]
+        },
+        {
+          "en": "If you tickle us, do we not laugh?",
+          "ru": "Если нас щекотать, разве мы не смеёмся?",
+          "highlight": [
+            "If",
+            "tickle",
+            "laugh"
+          ]
+        },
+        {
+          "en": "If you poison us, do we not die?",
+          "ru": "Если нас отравить, разве мы не умираем?",
+          "highlight": [
+            "If",
+            "poison",
+            "die"
+          ]
+        }
       ]
     },
     {
-      "group": "Законы эволюции — если ты хочешь расти, ты нарушаешь правила",
+      "group": "Природные закономерности",
       "items": [
-        { "en": "If you want to evolve, you break the rules.", "ru": "Если ты хочешь развиваться, ты нарушаешь правила.", "highlight": ["want", "break"] },
-        { "en": "If you stay the same, you become irrelevant.", "ru": "Если ты остаёшься прежним, ты становишься неактуальным.", "highlight": ["stay", "become"] },
-        { "en": "If you take risks, you create something new.", "ru": "Если ты рискуешь, ты создаёшь что-то новое.", "highlight": ["take", "create"] }
+        {
+          "en": "If you heat water, it boils.",
+          "ru": "Если нагревать воду, она закипает.",
+          "highlight": [
+            "heat",
+            "boils"
+          ]
+        },
+        {
+          "en": "If water freezes, it becomes ice.",
+          "ru": "Если вода замерзает, она превращается в лёд.",
+          "highlight": [
+            "freezes",
+            "becomes"
+          ]
+        }
       ]
     },
     {
-      "group": "Законы публики — если ты меняешься, фанаты злятся",
+      "group": "Поведение и привычки",
       "items": [
-        { "en": "If you change your style, fans get angry.", "ru": "Если ты меняешь стиль, фанаты злятся.", "highlight": ["change", "get"] },
-        { "en": "If you surprise them, they either love or hate you.", "ru": "Если ты их удивляешь, они либо любят, либо ненавидят тебя.", "highlight": ["surprise", "either love or hate"] },
-        { "en": "If you give them something new, they eventually accept it.", "ru": "Если ты даёшь им что-то новое, они в конце концов принимают это.", "highlight": ["give", "accept"] }
+        {
+          "en": "If I drink coffee late, I can't sleep.",
+          "ru": "Если я пью кофе поздно, я не могу уснуть.",
+          "highlight": [
+            "drink",
+            "can't sleep"
+          ]
+        },
+        {
+          "en": "If people don't sleep enough, they feel tired.",
+          "ru": "Если люди недостаточно спят, они чувствуют усталость.",
+          "highlight": [
+            "don't sleep",
+            "feel"
+          ]
+        }
       ]
     },
     {
-      "group": "Законы истории — если время проходит, революция становится классикой",
+      "group": "Фантастический мир",
       "items": [
-        { "en": "If time passes, a scandal becomes a legend.", "ru": "Если время проходит, скандал становится легендой.", "highlight": ["passes", "becomes"] },
-        { "en": "If a generation grows up, they forget the outrage.", "ru": "Если вырастает поколение, они забывают возмущение.", "highlight": ["grows up", "forget"] },
-        { "en": "If history remembers you, you become a pioneer.", "ru": "Если история помнит тебя, ты становишься первооткрывателем.", "highlight": ["remembers", "become"] }
-      ]
-    },
-    {
-      "group": "Законы музыки — если ты талантлив, ты создаёшь новое",
-      "items": [
-        { "en": "If you are talented, you create new rules.", "ru": "Если ты талантлив, ты создаёшь новые правила.", "highlight": ["are", "create"] },
-        { "en": "If you have a vision, you change the world.", "ru": "Если у тебя есть видение, ты меняешь мир.", "highlight": ["have", "change"] },
-        { "en": "If you don't try, you never know what you can become.", "ru": "Если ты не пытаешься, ты никогда не узнаешь, кем можешь стать.", "highlight": ["don't try", "never know"] }
-      ]
-    },
-    {
-      "group": "Сравнение Zero vs First Conditional",
-      "items": [
-        { "en": "Zero: If you play folk, you play acoustic. (закон)", "ru": "Zero: Если ты играешь фолк, ты играешь акустику. (закон)", "highlight": ["play", "play"] },
-        { "en": "First: If you play electric tonight, you will shock the crowd. (конкретный раз)", "ru": "First: Если ты сыграешь на электричестве сегодня вечером, ты шокируешь публику. (конкретный раз)", "highlight": ["play", "will shock"] },
-        { "en": "Zero: If you break the rules, you create new ones. (закон)", "ru": "Zero: Если ты нарушаешь правила, ты создаёшь новые. (закон)", "highlight": ["break", "create"] },
-        { "en": "First: If you break the rules tonight, you will make history. (в будущем)", "ru": "First: Если ты нарушишь правила сегодня вечером, ты войдёшь в историю. (в будущем)", "highlight": ["break", "will make"] }
+        {
+          "en": "If an object moves faster, it becomes harder to see.",
+          "ru": "Если объект движется быстрее, его становится труднее увидеть.",
+          "highlight": [
+            "moves",
+            "becomes"
+          ]
+        },
+        {
+          "en": "If people don't understand another culture, they often misunderstand its behavior.",
+          "ru": "Если люди не понимают другую культуру, они часто неправильно понимают её поведение.",
+          "highlight": [
+            "don't understand",
+            "misunderstand"
+          ]
+        },
+        {
+          "en": "If people don't understand something, they create explanations for it.",
+          "ru": "Если люди чего-то не понимают, они создают этому объяснения.",
+          "highlight": [
+            "don't understand",
+            "create"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "If you will play folk, you play acoustic.", "right": "If you play folk, you play acoustic.", "note": "В Zero Conditional не используется will." },
-    { "wrong": "If you break the rules, you will create new ones. (если это закон)", "right": "If you break the rules, you create new ones.", "note": "Zero Conditional — это закон, поэтому Present Simple." },
-    { "wrong": "If you will not try, you will not succeed.", "right": "If you don't try, you don't succeed.", "note": "Zero Conditional — без will в обеих частях." },
-    { "wrong": "If you don't take risks, you won't change.", "right": "If you don't take risks, you don't change.", "note": "Zero Conditional — общая истина." },
-    { "wrong": "If you play electric, the crowd get angry.", "right": "If you play electric, the crowd gets angry.", "note": "crowd — ед. число, поэтому gets." },
-    { "wrong": "If a artist stay the same, they lose relevance.", "right": "If an artist stays the same, they lose relevance.", "note": "artist — ед. число, поэтому stays." }
+    {
+      "wrong": "If you heat water, it will boil.",
+      "right": "If you heat water, it boils.",
+      "note": "Для общего правила используем Zero Conditional."
+    },
+    {
+      "wrong": "If you will heat water, it boils.",
+      "right": "If you heat water, it boils.",
+      "note": "После if в Zero Conditional не нужен will."
+    },
+    {
+      "wrong": "If people doesn't sleep, they feel tired.",
+      "right": "If people don't sleep, they feel tired.",
+      "note": "После people используется don't."
+    },
+    {
+      "wrong": "If he drink coffee late, he can't sleep.",
+      "right": "If he drinks coffee late, he can't sleep.",
+      "note": "В третьем лице единственного числа нужен -s."
+    },
+    {
+      "wrong": "If I miss the train tonight, I walk home.",
+      "right": "If I miss the train tonight, I will walk home.",
+      "note": "Если речь идёт о конкретной будущей ситуации, нужен First Conditional."
+    },
+    {
+      "wrong": "If water will freeze, it becomes ice.",
+      "right": "If water freezes, it becomes ice.",
+      "note": "Will не используется после if в Zero Conditional."
+    }
   ],
   "compare": {
-    "title": "Zero Conditional vs First Conditional",
-    "leftLabel": "Zero Conditional (закон)",
-    "rightLabel": "First Conditional (конкретный случай)",
+    "title": "Zero Conditional и First Conditional",
+    "leftLabel": "Zero Conditional",
+    "rightLabel": "First Conditional",
     "rows": [
-      { "left": "If you play folk, you play acoustic. (всегда)", "right": "If you play electric tonight, you will shock the crowd. (завтра)" },
-      { "left": "If you break the rules, you create new ones. (закон)", "right": "If you break the rules tonight, you will make history. (конкретный случай)" },
-      { "left": "if + Present Simple → Present Simple", "right": "if + Present Simple → will + V1" }
+      {
+        "left": "If you heat water, it boils.",
+        "right": "If you heat the water tonight, it will boil."
+      },
+      {
+        "left": "If I miss the train, I walk home.",
+        "right": "If I miss the train tonight, I will take a taxi."
+      },
+      {
+        "left": "If people don't sleep enough, they feel tired.",
+        "right": "If I don't sleep tonight, I will be tired tomorrow."
+      },
+      {
+        "left": "If the spaceship loses power, its systems stop working.",
+        "right": "If the spaceship loses power tonight, the crew will have a problem."
+      }
     ]
   },
   "tips": [
-    "Zero Conditional = законы и общие истины.",
-    "Формула: if + Present Simple → Present Simple.",
-    "Никогда не используй will в Zero Conditional.",
-    "Законы музыки: If you play folk, you play acoustic.",
-    "Правила и привычки: If I write a song, I start with a riff.",
-    "Сравни с First Conditional: там будущее, здесь настоящее.",
-    "Zero Conditional — это всегда истина, которая не зависит от времени."
+    "Сначала ищи смысл, потом форму.",
+    "Если это правило — подумай о Zero Conditional.",
+    "Если это конкретное будущее — подумай о First Conditional.",
+    "После if обычно не ставь will.",
+    "When может вводить такую же закономерность.",
+    "Whenever подчёркивает повторяемость ещё сильнее.",
+    "Не запоминай Zero Conditional только как формулу: учись видеть связь между условием и результатом."
   ],
-  "related": ["b1-first-conditional", "b1-present-simple", "b1-zero-conditional"],
+  "related": [
+    "b1-first-conditional",
+    "a1-present-simple",
+    "b2-second-conditional"
+  ],
   "quiz": [
     {
-      "q": "If you ___ folk, you ___ acoustic.",
-      "options": ["play, play", "play, will play", "will play, play", "will play, will play"],
+      "q": "If you ___ ice, it ___ .",
+      "options": [
+        "heat, melts",
+        "heat, will melt",
+        "will heat, melts",
+        "will heat, will melt"
+      ],
       "answer": 0,
-      "why": "Zero Conditional — if + Present Simple → Present Simple."
+      "why": "Zero Conditional использует Present Simple после if и в результате."
     },
     {
-      "q": "If you ___ the rules, you ___ new ones.",
-      "options": ["break, create", "break, will create", "will break, create", "will break, will create"],
+      "q": "If people ___ enough, they ___ tired.",
+      "options": [
+        "don't sleep, feel",
+        "don't sleep, will feel",
+        "won't sleep, feel",
+        "won't sleep, will feel"
+      ],
       "answer": 0,
-      "why": "Zero Conditional — if + Present Simple → Present Simple."
+      "why": "Речь идёт о повторяющейся закономерности."
     },
     {
-      "q": "If you ___ the same, you ___ irrelevant.",
-      "options": ["stay, become", "stay, will become", "will stay, become", "will stay, will become"],
-      "answer": 0,
-      "why": "Zero Conditional — if + Present Simple → Present Simple."
+      "q": "If I miss the train tonight, I ___ a taxi.",
+      "options": [
+        "take",
+        "will take",
+        "took",
+        "would take"
+      ],
+      "answer": 1,
+      "why": "Tonight указывает на конкретную будущую ситуацию, поэтому используется First Conditional."
     },
     {
-      "q": "If you ___ risks, you ___ something new.",
-      "options": ["take, create", "take, will create", "will take, create", "will take, will create"],
+      "q": "When the sun ___, people ___ into the shade.",
+      "options": [
+        "shines, move",
+        "will shine, move",
+        "shines, will move",
+        "will shine, will move"
+      ],
       "answer": 0,
-      "why": "Zero Conditional — if + Present Simple → Present Simple."
+      "why": "Повторяющаяся закономерность с when использует Present Simple."
     },
     {
-      "q": "If time ___, a scandal ___ a legend.",
-      "options": ["passes, becomes", "passes, will become", "will pass, becomes", "will pass, will become"],
-      "answer": 0,
-      "why": "Zero Conditional — if + Present Simple → Present Simple."
+      "q": "If he ___ coffee late, he can't sleep.",
+      "options": [
+        "drink",
+        "drinks",
+        "will drink",
+        "drinking"
+      ],
+      "answer": 1,
+      "why": "He — третье лицо единственного числа, поэтому drink получает окончание -s."
     },
     {
-      "q": "If you ___ talented, you ___ new rules.",
-      "options": ["are, create", "are, will create", "will be, create", "will be, will create"],
-      "answer": 0,
-      "why": "Zero Conditional — if + Present Simple → Present Simple."
+      "q": "Which sentence describes a general rule?",
+      "options": [
+        "If it rains tonight, we will stay home.",
+        "If it rains, the ground gets wet.",
+        "If it rains tomorrow, I will take an umbrella.",
+        "If it rains later, they will cancel the show."
+      ],
+      "answer": 1,
+      "why": "Второе предложение описывает закономерность, а не конкретное будущее событие."
     }
   ]
 }

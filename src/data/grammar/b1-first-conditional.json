@@ -3,195 +3,335 @@
   "slug": "b1-first-conditional",
   "level": "B1",
   "title": "First Conditional",
-  "category": "Grammar",
-  "readingTime": 10,
-  "summary": "Если ты сделаешь это, произойдёт то. В мире аферистов и джентльменов удачи каждое решение — это условие. История о том, как одна фраза спасла состояние и чью-то свободу.",
+  "category": "conditionals",
+  "readingTime": 12,
+  "summary": "First Conditional используется, когда мы говорим о реальной или достаточно вероятной ситуации в будущем и о том, что произойдёт при выполнении условия.",
   "idea": [
-    "Лондон, 1920-е. На Бейкер-стрит, в маленькой конторе с вывеской «C.&M. Investments», сидят два человека. Один — мистер Чарльз Мортон, бывший адвокат, который потерял лицензию за слишком творческое толкование закона. Второй — его племянник Томми, парень с добрым сердцем и быстрыми руками. Перед ними на столе лежит конверт с авизо: сэр Арчибальд Уэст, старейший клиент, переводит всё своё состояние на счёт в Швейцарии. Чарльз читает письмо: «Если я не переживу операцию, деньги перейдут к моему племяннику. Если я выживу, я всё равно заберу их. Решение за вами, джентльмены».",
-    "Чарльз смотрит на Томми. «Ты понимаешь, что это значит? Если мы сейчас не предпримем ничего, мы потеряем самого крупного клиента. Если же мы убедим его оставить деньги в Лондоне, мы сохраним комиссию — и, возможно, спасём его от швейцарских банковских комиссий.» Томми кивает: «Если я поеду к нему, я убежу его остаться. Если я возьму с собой те бумаги, которые ты подготовил, он увидит, что мы выгоднее». Чарльз улыбается: «Если ты сделаешь это, я выплачу тебе десять процентов от сделки. Если ты провалишься, мы оба останемся без работы. Выбор за тобой, мой мальчик».",
-    "Томми берёт папку, надевает пальто и выходит. На улице дождь, как в лучших детективах. Он садится в такси и говорит: «Если вы доедете до Белгравии за двадцать минут, я заплачу вдвойне». Таксист ухмыляется: «Если я не получу штраф, я доеду за пятнадцать». Томми смотрит на часы. Если он успеет до четырёх, сделка состоится. Если нет — сэр Арчибальд переведёт деньги, и они с Чарльзом останутся ни с чем. Судьба висит на волоске, и волосок этот — First Conditional.",
-    "Всё это — простая, но элегантная конструкция. Если произойдёт А, то случится Б. В части с if — Present Simple (реальное условие). В части с результатом — will + V1 (будущее). Чарльз сказал: If you do this, I will pay you — если ты сделаешь это, я заплачу тебе. Таксист сказал: If I don't get a fine, I will get there in fifteen — если я не получу штраф, я доеду за пятнадцать. И каждый из них зависит от условия. В мире афер и сделок всё строится на условиях. И если ты освоишь эту конструкцию, ты сможешь строить такие же хитроумные планы — или хотя бы понимать, почему твоя карта в покере не совпала с нужной мастью."
+    "First Conditional используется, когда мы рассматриваем конкретную ситуацию в будущем и её возможный результат. После if используется Present Simple, хотя само условие относится к будущему. В главной части обычно используется will + глагол. Основная модель выглядит так: if + Present Simple → will + verb. В отличие от Zero Conditional, мы не объясняем постоянное правило: мы говорим о том, что может произойти, если определённая ситуация случится. Условие может зависеть от решения человека, обстоятельств или события, которое ещё не произошло.",
+    "В «Алисе в Стране чудес» Льюиса Кэрролла Алиса предупреждает окружающих о конкретном результате будущего действия. В оригинале она говорит: [bold]“If you do, I'll set Dinah at you!”[/bold] Здесь условие — [bold]if you do[/bold]. Результат — [bold]I'll set Dinah at you[/bold]. Алиса не формулирует общее правило поведения. Она говорит о том, что сделает в конкретной ситуации. Поэтому мы можем представить конструкцию как две части: условие ещё не выполнено, а результат зависит от того, будет ли оно выполнено.",
+    "Сравним: [bold]If people break this rule, they get punished.[/bold] Здесь описывается правило. Но: [bold]If you break this rule, you will be punished.[/bold] Здесь говорящий предупреждает конкретного человека о возможном будущем результате. В «Острове сокровищ» Роберта Льюиса Стивенсона условные конструкции возникают в ситуациях переговоров, угроз и договорённостей. Когда персонаж ставит другому человеку условие, результат зависит от того, какое решение тот примет. Это естественная среда для First Conditional: если ты сделаешь X, произойдёт Y.",
+    "При этом в литературных текстах встречаются формы, которые нельзя превращать в механическое правило. Например, в «Острове сокровищ» встречается условная конструкция с will внутри if: [bold]“If you'll come up one by one...”[/bold] Здесь will выражает не обычное будущее, а готовность или согласие собеседника. Поэтому правило «после if никогда не бывает will» слишком грубое. Для стандартного First Conditional мы запоминаем: [bold]If you come, I will help you.[/bold] Но если will означает готовность, желание или согласие, он может появиться и внутри условной части.",
+    "В «Невидимке» Герберта Уэллса условие часто связано с угрозой и возможным поведением человека. Когда один персонаж предупреждает другого о последствиях предательства, результат зависит от того, что тот сделает дальше. Такая ситуация естественно создаёт First Conditional: конкретный поступок → возможное последствие. В «Секретном саду» Фрэнсис Ходжсон Бёрнетт условные конструкции появляются в разговорах о планах и совместных действиях. Если человек согласится помочь, произойдёт следующее действие; если не согласится, ситуация изменится. Поэтому First Conditional особенно часто встречается в речи персонажей: он позволяет обещать, предупреждать, предлагать и объяснять последствия.",
+    "Ещё один интересный пример даёт стихотворение Редьярда Киплинга «Если». Само произведение построено вокруг последовательности условий. В оригинале повторяется модель [bold]“If you can...”[/bold] — автор перечисляет действия, которые человек должен суметь выполнить. Здесь условия постепенно ведут к будущему результату. Важно заметить, что First Conditional не обязательно должен выражать только прогноз. Он может выражать обещание: [bold]If you leave, I will follow.[/bold] Предупреждение: [bold]If you break the rule, you will have a problem.[/bold] Предложение: [bold]If you need help, I will come.[/bold] Уверенность в результате: [bold]If we leave now, we will arrive before dark.[/bold] Во всех этих случаях результат относится к конкретной будущей ситуации.",
+    "Теперь сравним First Conditional с Zero Conditional. [bold]If you heat water, it boils.[/bold] Это общее правило. [bold]If you heat the water, it will boil.[/bold] Это конкретная ситуация. [bold]If people don't sleep enough, they feel tired.[/bold] Это повторяющаяся закономерность. [bold]If I don't sleep tonight, I will be tired tomorrow.[/bold] Это конкретное будущее. Таким образом, Zero Conditional объясняет, как что-то обычно работает, а First Conditional говорит о том, что произойдёт, если конкретное условие выполнится. Это различие важнее самого слова if.",
+    "Если говорящий описывает правило, выбираем Zero Conditional. Если говорящий смотрит вперёд на возможную ситуацию, выбираем First Conditional. Главная модель остаётся простой: If + Present Simple → will + verb. Но смысл конструкции определяется не формулой, а временной перспективой: закономерность или конкретное будущее."
   ],
   "why": [
-    "Говорить о реальных условиях в будущем: If I go, I will see him.",
-    "Строить планы: If we hurry, we will catch the train.",
-    "Обещать: If you help me, I will help you.",
-    "Предупреждать: If you touch that, you will get burned."
+    "First Conditional помогает говорить о реальных и вероятных будущих ситуациях.",
+    "Он нужен для обещаний, предупреждений, предложений, планов и прогнозов.",
+    "Конструкция особенно естественна в диалогах, где один человек объясняет другому последствия его будущего решения.",
+    "Главный вопрос перед выбором Conditional: это общее правило или конкретная возможность?"
   ],
   "context": {
     "lines": [
-      { "en": "Mr. Morton leaned back in his chair. 'If you do this, Tom, I will make you a partner. If you fail, we will both be on the street. What do you choose?'",
-        "ru": "Мистер Мортон откинулся на спинку стула. 'Если ты сделаешь это, Том, я сделаю тебя партнёром. Если ты провалишься, мы оба окажемся на улице. Что ты выбираешь?'" },
-      { "en": "Tommy looked at the rain outside. 'If I take a taxi, I will get there before four. If I walk, I will be late. I'll take the taxi.'",
-        "ru": "Томми посмотрел на дождь за окном. 'Если я возьму такси, я доберусь до четырёх. Если я пойду пешком, я опоздаю. Я возьму такси.'" },
-      { "en": "The taxi driver smiled. 'If you pay double, I will get you there in fifteen minutes. If the police stop me, you will pay the fine.'",
-        "ru": "Таксист улыбнулся. 'Если вы заплатите вдвойне, я довезу вас за пятнадцать минут. Если полиция остановит меня, вы заплатите штраф.'" }
+      {
+        "en": "If you do, I'll set Dinah at you!",
+        "ru": "Если вы это сделаете, я натравлю на вас Дайну."
+      },
+      {
+        "en": "If you can keep your head...",
+        "ru": "Если ты способен сохранять голову холодной..."
+      }
     ],
-    "note": "if + Present Simple (реальное условие), will + V1 (результат). Каждое решение — это условие."
+    "note": "Литература показывает First Conditional через предупреждения, решения, планы и возможные последствия."
   },
   "russianAngle": [
-    "В русском языке мы используем будущее время в обеих частях: 'если я приду, я увижу'. В английском — Present Simple в части с if, will в части с результатом.",
-    "Русское 'если' + настоящее время (если дождь идёт) — в английском тоже Present Simple, но с будущим смыслом.",
-    "Ошибка: 'If I will come, I will see' — неправильно! В части с if не используется will.",
-    "Запомни: if + Present Simple, will + V1. Это правило — как доверенность на сделку: без него ничего не сработает."
+    "В русском условие будущего часто выражается формой настоящего времени: «если ты придёшь, я помогу».",
+    "В английском после if также используется Present Simple.",
+    "Will обычно появляется в главной части.",
+    "Главная ошибка — переносить will в условную часть по принципу «будущее значит will»."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни формулу: if + Present Simple, will + V1.",
-      "Представь себя аферистом или детективом. Каждое решение — это условие.",
-      "Потренируйся менять местами части: I will pay you if you do this.",
-      "Запомни: в части с if никогда не используй will.",
-      "Сделай упражнение ниже и сверься с ответами.",
-      "Попробуй придумать свою аферу с First Conditional."
+      "Найди условие.",
+      "Определи, относится ли ситуация к конкретному будущему.",
+      "Поставь Present Simple после if.",
+      "В результате используй will + глагол, если это обычный First Conditional.",
+      "Проверь, не описываешь ли ты вместо этого общее правило."
     ],
     "exercise": {
-      "prompt": "Закончи предложения, используя First Conditional (как в истории про аферу):",
+      "prompt": "Выбери конструкцию, которая соответствует смыслу.",
       "items": [
-        { "q": "If I ___ (take) the taxi, I ___ (get) there on time.", "a": "take, will get" },
-        { "q": "If he ___ (agree) to stay, we ___ (keep) the commission.", "a": "agrees, will keep" },
-        { "q": "If you ___ (not / hurry), you ___ (miss) the meeting.", "a": "don't hurry, will miss" },
-        { "q": "If they ___ (find) the papers, the whole plan ___ (fail).", "a": "find, will fail" },
-        { "q": "___ you ___ (pay) double if I ___ (drive) fast?", "a": "Will you pay, drive" }
+        {
+          "q": "Если будет дождь сегодня вечером, мы останемся дома.",
+          "a": "If it rains this evening, we will stay home."
+        },
+        {
+          "q": "Если идёт дождь, земля становится мокрой.",
+          "a": "If it rains, the ground gets wet."
+        },
+        {
+          "q": "Если ты поможешь мне, я закончу работу быстрее.",
+          "a": "If you help me, I will finish the work faster."
+        },
+        {
+          "q": "Если люди не спят достаточно, они устают.",
+          "a": "If people don't sleep enough, they get tired."
+        }
       ]
     }
   },
-  "formula": "if + Present Simple · will + V1",
+  "formula": "if + Present Simple → will + verb",
   "structure": {
-    "positive": "If I take the taxi, I will get there on time.",
-    "negative": "If I don't take the taxi, I will be late.",
-    "question": "Will you pay double if I drive fast?"
+    "positive": "If you come, I will help you.",
+    "negative": "If you don't come, I won't wait.",
+    "question": "What will you do if it rains?"
   },
-  "markers": ["if", "will", "when", "as soon as", "unless"],
+  "markers": [
+    "if",
+    "unless",
+    "when",
+    "as soon as",
+    "before",
+    "after"
+  ],
   "uses": [
-    "Реальное условие в будущем: If I hurry, I will catch the train.",
-    "Предупреждение: If you touch that, you will burn yourself.",
-    "Обещание: If you help me, I will help you.",
-    "План: If he agrees, we will start tomorrow."
+    "реальное будущее условие",
+    "вероятное событие",
+    "предупреждение",
+    "обещание",
+    "предложение",
+    "прогноз",
+    "будущий результат"
   ],
   "rules": [
-    { "title": "Формула First Conditional",
-      "text": "if + Present Simple (реальное условие) → will + V1 (результат). Пример: If he agrees, we will keep the commission." },
-    { "title": "Порядок частей не важен",
-      "text": "Можно начать с результата: We will keep the commission if he agrees." },
-    { "title": "В части с if НЕ используется will",
-      "text": "Ошибка: If he will agree, we will keep the money. Правильно: If he agrees, we will keep the money." },
-    { "title": "Союзы вместо if",
-      "text": "Можно использовать when, as soon as, unless: I will call you when I arrive. We won't act unless you agree." }
+    {
+      "title": "Present Simple после if",
+      "text": "В стандартном First Conditional после if используется Present Simple."
+    },
+    {
+      "title": "Will в результате",
+      "text": "В главной части обычно используется will + глагол."
+    },
+    {
+      "title": "Будущее после if",
+      "text": "Хотя условие относится к будущему, после if обычно не используется will."
+    },
+    {
+      "title": "Конкретная возможность",
+      "text": "First Conditional говорит о конкретной ситуации, которая может произойти."
+    },
+    {
+      "title": "Отличие от Zero Conditional",
+      "text": "Zero Conditional описывает закономерность, First Conditional — возможный будущий результат."
+    },
+    {
+      "title": "Will после if иногда возможно",
+      "text": "Will может использоваться после if, когда выражает готовность, согласие или намерение, а не обычное будущее."
+    }
   ],
   "examples": [
     {
-      "group": "Афера начинается",
+      "group": "Льюис Кэрролл — «Алиса в Стране чудес»",
       "items": [
-        { "en": "If I take this case, I will change everything. If I leave it, I will regret it forever.", "ru": "Если я возьму это дело, я изменю всё. Если я оставлю его, я буду жалеть об этом вечно.", "highlight": ["If", "take", "will change"] },
-        { "en": "If you trust me, I will prove myself. If you don't, I will find another way.", "ru": "Если ты доверишься мне, я докажу себя. Если нет, я найду другой путь.", "highlight": ["If", "trust", "will prove"] },
-        { "en": "If the client signs the papers, we will be rich. If he doesn't, we will be broke.", "ru": "Если клиент подпишет бумаги, мы будем богаты. Если нет — мы будем разорены.", "highlight": ["If", "signs", "will be"] }
+        {
+          "en": "If you do, I'll set Dinah at you!",
+          "ru": "Если вы это сделаете, я натравлю на вас Дайну.",
+          "highlight": [
+            "If you do",
+            "I'll"
+          ]
+        }
       ]
     },
     {
-      "group": "Решения в пути",
+      "group": "Роберт Льюис Стивенсон — «Остров сокровищ»",
       "items": [
-        { "en": "If I take a taxi, I will arrive before four. If I walk, I will be late.", "ru": "Если я возьму такси, я прибуду до четырёх. Если я пойду пешком, я опоздаю.", "highlight": ["If", "take", "will arrive"] },
-        { "en": "If the driver speeds, we will get there in time. If he doesn't, we will lose everything.", "ru": "Если водитель поспешит, мы доберёмся вовремя. Если нет — мы потеряем всё.", "highlight": ["If", "speeds", "will get"] },
-        { "en": "If the rain stops, I will walk the rest of the way. If it doesn't, I will stay in the taxi.", "ru": "Если дождь прекратится, я пройду остаток пути пешком. Если нет — я останусь в такси.", "highlight": ["If", "stops", "will walk"] }
+        {
+          "en": "If you'll come up one by one...",
+          "ru": "Если вы согласитесь подняться по одному...",
+          "highlight": [
+            "If",
+            "you'll come"
+          ]
+        }
       ]
     },
     {
-      "group": "Переговоры",
+      "group": "Герберт Уэллс — «Невидимка»",
       "items": [
-        { "en": "If you invest in my plan, you will double your money. If you don't, you will lose everything.", "ru": "Если ты вложишься в мой план, ты удвоишь свои деньги. Если нет — ты потеряешь всё.", "highlight": ["If", "invest", "will double"] },
-        { "en": "If they find out about the deal, they will stop us. If they don't, we will succeed.", "ru": "Если они узнают о сделке, они остановят нас. Если нет — мы добьёмся успеха.", "highlight": ["If", "find", "will stop"] },
-        { "en": "If I show you the papers, will you trust me? If I don't, will you walk away?", "ru": "Если я покажу тебе бумаги, ты мне поверишь? Если нет — ты уйдёшь?", "highlight": ["If", "show", "will trust"] }
+        {
+          "en": "If you betray me...",
+          "ru": "Если ты меня предашь...",
+          "highlight": [
+            "If",
+            "betray"
+          ]
+        }
       ]
     },
     {
-      "group": "Финал аферы",
+      "group": "Редьярд Киплинг — «Если»",
       "items": [
-        { "en": "If the client is satisfied, we will keep the commission. If he is not, we will return every penny.", "ru": "Если клиент будет доволен, мы сохраним комиссию. Если нет — мы вернём каждый пенни.", "highlight": ["If", "is", "will keep"] },
-        { "en": "If Tommy succeeds, he will become a partner. If he fails, he will start again from nothing.", "ru": "Если Томми добьётся успеха, он станет партнёром. Если он провалится, он начнёт сначала с нуля.", "highlight": ["If", "succeeds", "will become"] },
-        { "en": "If we lose this client, we will regret it. If we keep him, we will build an empire.", "ru": "Если мы потеряем этого клиента, мы пожалеем. Если мы сохраним его, мы построим империю.", "highlight": ["If", "lose", "will regret"] }
+        {
+          "en": "If you can keep your head...",
+          "ru": "Если ты способен сохранять голову холодной...",
+          "highlight": [
+            "If",
+            "can keep"
+          ]
+        }
       ]
     },
     {
-      "group": "Правила игры",
+      "group": "Учебные примеры",
       "items": [
-        { "en": "If you play by the rules, you will win. If you cheat, you will get caught.", "ru": "Если ты играешь по правилам, ты выиграешь. Если ты жульничаешь, тебя поймают.", "highlight": ["If", "play", "will win"] },
-        { "en": "If I tell you the truth, will you believe me? If I don't, will you ever trust me again?", "ru": "Если я скажу тебе правду, ты мне поверишь? Если нет — ты когда-нибудь снова мне доверишься?", "highlight": ["If", "tell", "will believe"] },
-        { "en": "If she writes the letter, he will understand. If he doesn't, she will never forgive him.", "ru": "Если она напишет письмо, он поймёт. Если нет — она никогда не простит его.", "highlight": ["If", "writes", "will understand"] }
-      ]
-    },
-    {
-      "group": "Предупреждения",
-      "items": [
-        { "en": "If you speak to the inspector, you will regret it. If you stay silent, you will be safe.", "ru": "Если ты заговоришь с инспектором, ты пожалеешь. Если ты будешь молчать, ты будешь в безопасности.", "highlight": ["If", "speak", "will regret"] },
-        { "en": "If he sees the documents, he will know everything. If he doesn't, we will live to scheme another day.", "ru": "Если он увидит документы, он узнает всё. Если нет — мы будем жить, чтобы строить новые планы.", "highlight": ["If", "sees", "will know"] },
-        { "en": "If we don't act now, we will miss our chance. If we act wisely, we will never look back.", "ru": "Если мы не действуем сейчас, мы упустим свой шанс. Если мы действуем с умом, мы никогда не оглянемся назад.", "highlight": ["If", "act", "will miss"] }
+        {
+          "en": "If you leave now, you will catch the train.",
+          "ru": "Если ты уйдёшь сейчас, ты успеешь на поезд.",
+          "highlight": [
+            "If",
+            "will catch"
+          ]
+        },
+        {
+          "en": "If she calls tonight, I will answer.",
+          "ru": "Если она позвонит сегодня вечером, я отвечу.",
+          "highlight": [
+            "If",
+            "will answer"
+          ]
+        },
+        {
+          "en": "If we finish early, we will go home.",
+          "ru": "Если мы закончим рано, мы пойдём домой.",
+          "highlight": [
+            "If",
+            "will go"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "If I will take the taxi, I will get there.", "right": "If I take the taxi, I will get there.", "note": "В части с if НЕ используется will." },
-    { "wrong": "If he agree, we will keep the money.", "right": "If he agrees, we will keep the money.", "note": "he — ед. число, поэтому agrees." },
-    { "wrong": "We will succeed if he will agree.", "right": "We will succeed if he agrees.", "note": "Will не используется в части с if." },
-    { "wrong": "If I don't hurry, I miss the train.", "right": "If I don't hurry, I will miss the train.", "note": "В части с результатом нужен will." },
-    { "wrong": "If you will invest, you will be rich.", "right": "If you invest, you will be rich.", "note": "В части с if — Present Simple." },
-    { "wrong": "Unless you will help me, I will fail.", "right": "Unless you help me, I will fail.", "note": "После unless тоже Present Simple." }
+    {
+      "wrong": "If it will rain, we will stay home.",
+      "right": "If it rains, we will stay home.",
+      "note": "В стандартном First Conditional после if используется Present Simple."
+    },
+    {
+      "wrong": "If she comes, I stay.",
+      "right": "If she comes, I will stay.",
+      "note": "Если речь идёт о конкретном будущем результате, нужен First Conditional."
+    },
+    {
+      "wrong": "If he come, I will help him.",
+      "right": "If he comes, I will help him.",
+      "note": "После he нужен comes."
+    },
+    {
+      "wrong": "If I don't will go, I will call you.",
+      "right": "If I don't go, I will call you.",
+      "note": "Will не ставится после if в стандартной конструкции."
+    },
+    {
+      "wrong": "If people don't sleep enough, they will feel tired.",
+      "right": "If people don't sleep enough, they feel tired.",
+      "note": "Если речь идёт об общей закономерности, это Zero Conditional."
+    }
   ],
   "compare": {
-    "title": "First Conditional vs Zero Conditional",
-    "leftLabel": "First Conditional (реальное будущее)",
-    "rightLabel": "Zero Conditional (всегда истина)",
+    "title": "First Conditional и Zero Conditional",
+    "leftLabel": "First Conditional",
+    "rightLabel": "Zero Conditional",
     "rows": [
-      { "left": "If I take the taxi, I will arrive on time. (конкретный раз)", "right": "If I take a taxi, I always arrive on time. (вообще)" },
-      { "left": "If he signs, we will be rich. (этот случай)", "right": "If he signs, he gets a share. (всегда)" },
-      { "left": "if + Present Simple → will + V1", "right": "if + Present Simple → Present Simple" }
+      {
+        "left": "If it rains tonight, we will stay home.",
+        "right": "If it rains, the ground gets wet."
+      },
+      {
+        "left": "If I don't sleep tonight, I will be tired tomorrow.",
+        "right": "If people don't sleep enough, they feel tired."
+      },
+      {
+        "left": "If you break this rule, you will be punished.",
+        "right": "If people break this rule, they get punished."
+      },
+      {
+        "left": "If you heat the water, it will boil.",
+        "right": "If you heat water, it boils."
+      }
     ]
   },
   "tips": [
-    "if + Present Simple, will + V1 — как доверенность на сделку.",
-    "В части с if никогда не используй will — это главное правило.",
-    "Порядок частей не важен: условие может быть в начале или в конце.",
-    "Для отрицания используй don't/doesn't в части с if, won't в части с will.",
-    "В вопросах will ставится в начало: Will you trust me if I show you?",
-    "Союз unless = if not: We won't succeed unless he agrees = if he doesn't agree.",
-    "В истории про аферу каждое решение — это условие. Используй это как мнемонику."
+    "Не переводи will автоматически из русского будущего.",
+    "После if в обычном First Conditional ставь Present Simple.",
+    "Сначала определи: правило или конкретное будущее?",
+    "First Conditional часто выражает обещание или предупреждение.",
+    "Will может быть заменён другими модальными формами в главной части.",
+    "Will после if иногда возможно, если оно выражает готовность или согласие."
   ],
-  "related": ["b1-zero-conditional", "b1-present-simple", "b1-future-simple"],
+  "related": [
+    "b1-zero-conditional",
+    "b2-second-conditional",
+    "a1-present-simple"
+  ],
   "quiz": [
     {
-      "q": "If I ___ the taxi, I ___ there on time.",
-      "options": ["take, will get", "will take, get", "take, get", "will take, will get"],
+      "q": "If it ___ tonight, we will stay home.",
+      "options": [
+        "rains",
+        "will rain",
+        "rained",
+        "would rain"
+      ],
       "answer": 0,
-      "why": "if + Present Simple (take), will + V1 (will get)."
+      "why": "После if в стандартном First Conditional используется Present Simple."
     },
     {
-      "q": "If he ___ the papers, we ___ the money.",
-      "options": ["signs, will keep", "will sign, keep", "signs, keep", "will sign, will keep"],
-      "answer": 0,
-      "why": "if + Present Simple (signs), will + V1 (will keep)."
+      "q": "If you help me, I ___ the work faster.",
+      "options": [
+        "finish",
+        "will finish",
+        "finished",
+        "would finish"
+      ],
+      "answer": 1,
+      "why": "Результат относится к возможному будущему."
     },
     {
-      "q": "If we ___ fast, we ___ the meeting.",
-      "options": ["drive, will make", "will drive, make", "drive, make", "will drive, will make"],
-      "answer": 0,
-      "why": "if + Present Simple (drive), will + V1 (will make)."
+      "q": "Which sentence describes a general rule?",
+      "options": [
+        "If it rains tonight, we will stay home.",
+        "If it rains, the ground gets wet.",
+        "If it rains tomorrow, we will cancel the trip.",
+        "If it rains later, I will call you."
+      ],
+      "answer": 1,
+      "why": "Второе предложение описывает закономерность и является Zero Conditional."
     },
     {
-      "q": "What ___ you ___ if he ___ no?",
-      "options": ["will, do, says", "do, do, will say", "will, do, will say", "do, do, says"],
+      "q": "If she ___ tonight, I will answer.",
+      "options": [
+        "calls",
+        "will call",
+        "called",
+        "would call"
+      ],
       "answer": 0,
-      "why": "Вопрос с will в результате, if + Present Simple (says)."
+      "why": "После if используется Present Simple."
     },
     {
-      "q": "If you ___ me, I ___ grateful.",
-      "options": ["help, will be", "will help, am", "help, am", "will help, will be"],
-      "answer": 0,
-      "why": "if + Present Simple (help), will + V1 (will be)."
+      "q": "If I don't sleep tonight, I ___ tired tomorrow.",
+      "options": [
+        "feel",
+        "will feel",
+        "felt",
+        "would feel"
+      ],
+      "answer": 1,
+      "why": "Речь идёт о конкретной будущей ситуации."
     },
     {
-      "q": "We won't succeed unless he ___.",
-      "options": ["agrees", "will agree", "agreed", "is agreeing"],
+      "q": "What is the main difference between Zero and First Conditional?",
+      "options": [
+        "Zero describes a rule; First describes a possible future result.",
+        "Zero always uses will; First never uses will.",
+        "Zero is only used for nature; First is only used for people.",
+        "There is no difference."
+      ],
       "answer": 0,
-      "why": "После unless используется Present Simple, без will."
+      "why": "Главное различие — закономерность против конкретной будущей возможности."
     }
   ]
 }
