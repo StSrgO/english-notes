@@ -1,260 +1,383 @@
 {
   "variant": "classic",
-  "slug": "b1-passive-simple",
+  "slug": "b1-passive-voice-simple",
   "level": "B1",
-  "title": "Passive Voice (Simple)",
-  "category": "passive",
-  "readingTime": 14,
-  "summary": "Passive Voice используется, когда нам важнее действие или его результат, чем тот, кто это действие совершил. В Present Simple используется am/is/are + V3, а в Past Simple — was/were + V3.",
+  "title": "Passive Voice — Simple",
+  "category": "Passive",
+  "readingTime": 12,
+  "summary": "Passive Voice используется, когда важнее само действие, его результат или объект действия, чем тот, кто его выполняет. В Present Simple используется am/is/are + V3, а в Past Simple — was/were + V3.",
   "idea": [
-    "Passive Voice нужен не для того, чтобы сделать английское предложение более формальным или сложным. Он нужен, когда мы хотим поставить в центр действия человека или предмет, на которого это действие направлено. В Active Voice главным обычно становится тот, кто совершает действие. В Passive Voice главным становится объект действия или его результат. В Present Simple используется am/is/are + V3, а в Past Simple — was/were + V3. Исполнитель действия может быть указан после by, но часто он неизвестен, очевиден или просто не важен. Поэтому главное в Passive Voice — не механически переставить слова, а понять, что именно мы хотим сделать центром предложения.",
-    "Это особенно хорошо видно во «Франкенштейне» Мэри Шелли, где история постоянно переключается между Виктором Франкенштейном, который совершает действия, и существом, с которым эти действия происходят. Если мы рассказываем историю с точки зрения Виктора, естественно сказать: [bold]Victor created the creature.[/bold] Здесь главным действующим лицом является Виктор. Но если нас интересует само существо, фокус меняется: [bold]The creature was created by Victor.[/bold] Теперь в начале предложения находится creature, а by Victor сообщает, кто совершил действие.",
-    "Если Виктор уже известен из контекста, можно сказать просто: [bold]The creature was created.[/bold] Исполнитель исчезает, потому что он больше не является главной информацией. Само существо позже говорит о своём происхождении: [bold]“Like Adam, I was created apparently united by no link to any other being in existence.”[/bold] Здесь Passive Voice позволяет ему говорить прежде всего о себе и о том, что с ним произошло.",
-    "В Active Voice эта мысль могла бы быть построена вокруг создателя: [bold]Someone created me.[/bold] Но существо не хочет делать someone центром своего рассказа. Для него важно другое: [bold]I was created.[/bold] Это один из главных принципов Passive Voice: объект действия становится грамматическим субъектом предложения.",
-    "История существа постоянно возвращает нас к этой перспективе. Оно было создано Виктором, затем оставлено своим создателем и отвергнуто людьми. Поэтому рядом с Active Voice [bold]Victor created the creature.[/bold] появляется другой способ рассказать об этом событии: [bold]The creature was created.[/bold] Если мы говорим о том, что произошло с существом, можно сказать: [bold]The creature was abandoned.[/bold] Здесь не обязательно называть Виктора, потому что само оставление становится главным событием.",
-    "То же самое происходит, когда история переходит к другим персонажам. Если мы хотим рассказать о Викторе как о человеке, совершившем действие, можем сказать: [bold]The creature killed William.[/bold] Но если мы рассказываем историю Уильяма, естественнее сказать: [bold]William was killed.[/bold] В первом предложении внимание направлено на creature. Во втором — на William. Событие остаётся тем же, но меняется перспектива рассказа.",
-    "Именно поэтому Passive Voice особенно естественен в историях о преступлениях, расследованиях и последствиях событий. Если неизвестно, кто совершил действие, можно сказать: [bold]The body was discovered.[/bold] Здесь нет необходимости придумывать или называть исполнителя. Если исполнитель известен, его можно добавить: [bold]The creature was created by Victor.[/bold] Но by Victor можно убрать, если Виктор уже находится в контексте: [bold]The creature was created.[/bold]",
-    "Та же логика работает с другими событиями романа. [bold]Friends can be taken away, characters can be blamed, people can be attacked, and bodies can be discovered.[/bold] Виктор и существо постоянно меняются местами в качестве центра повествования. [bold]Victor acts, while the creature receives the consequences of those actions.[/bold]",
-    "Теперь сравним несколько предложений: [bold]Victor created the creature.[/bold] и [bold]The creature was created by Victor.[/bold] Это одна история, рассказанная с двух разных точек зрения. Затем можно убрать исполнителя: [bold]The creature was created.[/bold] Passive остаётся полноценным предложением.",
-    "В Present Simple форма выглядит иначе: [bold]The creature is feared.[/bold] Здесь is показывает настоящее время, а feared является Past Participle. В Past Simple: [bold]The creature was feared.[/bold] Здесь was показывает прошлое время. Поэтому Passive Voice нельзя запоминать только как was + V3. Время находится в форме be, а V3 обозначает действие.",
-    "Для одного объекта в Present Simple мы используем is: [bold]The creature is feared.[/bold] Для нескольких объектов — are: [bold]The creatures are feared.[/bold] В Past Simple один объект получает was: [bold]The creature was feared.[/bold] Несколько объектов получают were: [bold]The creatures were feared.[/bold]",
-    "Теперь вернёмся к истории. [bold]Victor created the creature.[/bold] [bold]The creature was abandoned.[/bold] [bold]William was killed.[/bold] Виктор was blamed. Каждое предложение может ставить в центр другого участника истории. Если мы говорим о человеке, совершившем действие, Active Voice часто оказывается естественнее. Если мы говорим о результате действия или о том, с кем что-то произошло, Passive Voice часто оказывается естественнее.",
-    "Поэтому Passive Voice — это не просто преобразование Active Voice. Это способ управлять фокусом внутри рассказа. Во «Франкенштейне» такой выбор особенно важен, потому что существо постоянно существует как результат чужих решений. Оно было создано, оставлено, отвергнуто и преследуемо. Именно поэтому Passive Voice помогает рассказать его историю с его собственной точки зрения."
+    "Когда мы рассказываем историю, мы каждый раз выбираем, что поставить в центр. Можно сказать: [bold]Charlotte Brontë wrote Jane Eyre.[/bold] Здесь главным действующим лицом становится Шарлотта Бронте. Но можно посмотреть на ту же ситуацию с другой стороны: [bold]Jane Eyre was written by Charlotte Brontë.[/bold] Теперь в центре уже сам роман.",
+    "Это и есть главный смысл Passive Voice. Он нужен не просто для того, чтобы поменять местами слова. Он позволяет изменить перспективу: действие становится важнее исполнителя. Иногда исполнитель вообще неизвестен, иногда он очевиден, а иногда просто неважен.",
+    "История Jane Eyre почти идеально показывает такую смену фокуса. Сначала существует рукопись. Затем она отправляется издателю. Потом текст принимается к публикации. Наконец появляется книга с именем Currer Bell на титульном листе. Если рассказывать эту историю с точки зрения рукописи и книги, Passive возникает совершенно естественно.",
+    "British Library хранит авторскую рукопись Jane Eyre. В каталоге указано, что autograph fair copy была написана в марте 1847 года и отправлена издательству Smith, Elder & Co. 24 августа 1847 года. Затем роман был опубликован 16 октября 1847 года как [bold]Jane Eyre. An Autobiography. Edited by Currer Bell.[/bold]",
+    "В таком рассказе нас интересует прежде всего не человек, который выполняет действие, а то, что происходит с текстом. Рукопись [bold]was sent[/bold] to the publisher. Книга [bold]was published[/bold]. Имя автора [bold]was hidden[/bold] behind a pseudonym. Фокус постоянно находится на объекте.",
+    "Сравним две фразы: [bold]Charlotte Brontë sent the manuscript to Smith, Elder & Co.[/bold] и [bold]The manuscript was sent to Smith, Elder & Co.[/bold] Первая фраза отвечает на вопрос «кто это сделал?». Вторая — «что произошло с рукописью?». Фактически событие одно и то же, но рассказ устроен по-разному.",
+    "Именно поэтому Passive особенно естественен в историях о книгах, документах, публикациях и произведениях искусства. Там часто важен путь самого объекта: текст был написан, рукопись была отправлена, книга была опубликована, новое издание было выпущено.",
+    "В Jane Eyre есть и более обычные примеры Passive внутри самого повествования. Например: [bold]“the lower classes were called by the teachers”[/bold]. Здесь внимание находится на ученицах, которых вызывают на урок. Кто именно их вызывает, уже вторично — это делают teachers.",
+    "Другой пример появляется в описании школы: [bold]“The one with red cheeks is called Miss Smith.”[/bold] Здесь конструкция [bold]is called[/bold] сообщает не о том, кто произносит имя, а о том, какое имя носит человек в данной ситуации.",
+    "Это важная особенность Passive: исполнитель может исчезнуть из предложения. [bold]The manuscript was sent.[/bold] Всё понятно. Нам не обязательно сразу говорить, кто её отправил. Если это существенно, можно добавить [bold]by Charlotte Brontë[/bold]. Если нет — конструкция прекрасно работает без by.",
+    "В Present Simple схема выглядит так: [bold]am / is / are + V3[/bold]. Например: [bold]The novel is published under a pseudonym.[/bold] Здесь говорится о факте или о том, как что-то происходит в настоящем.",
+    "В Past Simple используется [bold]was / were + V3[/bold]: [bold]The manuscript was sent to the publisher.[/bold] Событие завершилось в прошлом, поэтому меняется форма to be, а смысловой глагол остаётся в третьей форме.",
+    "Обрати внимание: Passive строится не из третьей формы самостоятельно. Главную грамматическую информацию о времени несёт [bold]to be[/bold]. В [bold]is published[/bold] настоящее время показывает is. В [bold]was published[/bold] прошлое показывает was. Published остаётся V3.",
+    "Это помогает увидеть разницу между Active и Passive. [bold]The publisher accepted the manuscript.[/bold] Active: publisher — исполнитель. [bold]The manuscript was accepted by the publisher.[/bold] Passive: manuscript — центр сообщения.",
+    "История Jane Eyre особенно интересна потому, что имя автора тоже становится частью этого изменения фокуса. Роман был опубликован под именем Currer Bell, а настоящая личность автора некоторое время оставалась скрытой. Поэтому язык публикации естественно начинает говорить не столько о том, кто сделал книгу, сколько о том, как книга была представлена читателю.",
+    "Passive также помогает рассказывать последовательность событий без постоянного повторения одного и того же имени. [bold]The manuscript was completed. It was sent to the publisher. It was accepted. It was published in three volumes.[/bold] В каждом предложении объект предыдущего действия остаётся в центре следующего.",
+    "Но Passive не означает «более официальный вариант Active». Иногда Active звучит естественнее. Если важно действие конкретного человека, лучше сказать [bold]Charlotte Brontë sent the manuscript.[/bold] Если важно, что произошло с рукописью, естественнее [bold]The manuscript was sent.[/bold]",
+    "Поэтому полезно задавать один вопрос: [bold]What is the focus of the sentence?[/bold] Если ответ — человек, который делает действие, Active обычно подходит лучше. Если ответ — объект, результат или событие, Passive часто оказывается точнее.",
+    "В истории публикации это различие особенно заметно. Человек написал книгу, но история книги продолжается после того, как письмо было отправлено, рукопись была принята и книга была опубликована. Passive позволяет продолжить рассказ, не возвращая исполнителя действия в каждое предложение.",
+    "Именно поэтому Passive Voice — это не просто формула [bold]be + V3[/bold]. Это способ управлять вниманием читателя. Active показывает, кто действует. Passive показывает, что произошло с объектом. Выбор между ними меняет не факт, а перспективу."
   ],
   "why": [
-    "Чтобы понимать, почему английский иногда ставит объект действия на первое место.",
-    "Чтобы различать Active и Passive не только по форме, но и по смысловому фокусу.",
-    "Чтобы понимать, когда by + исполнитель действительно нужен, а когда его естественно убрать.",
-    "Чтобы уверенно использовать Present Simple Passive и Past Simple Passive в повествовании."
+    "Когда важнее объект или результат действия, чем исполнитель.",
+    "Когда исполнитель неизвестен или очевиден из контекста.",
+    "Когда нужно последовательно описывать процесс, публикацию или изменение объекта.",
+    "Когда один и тот же объект становится центром нескольких предложений."
   ],
   "context": {
     "lines": [
       {
-        "en": "Like Adam, I was created apparently united by no link to any other being in existence.",
-        "ru": "Подобно Адаму, я, казалось, был создан без всякой связи с каким-либо другим существом во вселенной.",
-        "highlight": ["was created"]
+        "en": "The lower classes were called by the teachers.",
+        "ru": "Младшие классы были вызваны учителями."
       },
       {
-        "en": "The creature was created by Victor.",
-        "ru": "Существо было создано Виктором.",
-        "highlight": ["was created", "by Victor"]
+        "en": "The one with red cheeks is called Miss Smith.",
+        "ru": "Ту, у которой румяные щёки, зовут мисс Смит."
       },
       {
-        "en": "William was killed.",
-        "ru": "Уильям был убит.",
-        "highlight": ["was killed"]
+        "en": "Jane Eyre. An Autobiography. Edited by Currer Bell.",
+        "ru": "«Джейн Эйр. Автобиография». Под редакцией Каррера Белла."
       }
     ],
-    "note": "В литературном тексте Passive Voice позволяет рассказывать о событии с точки зрения того, с кем это событие произошло."
+    "note": "История публикации Jane Eyre позволяет естественно перейти от действия автора к судьбе рукописи и книги. British Library фиксирует существование авторской рукописи, её отправку издателю и первую публикацию под именем Currer Bell."
   },
   "russianAngle": [
-    "В русском языке пассив часто воспринимается как отдельная грамматическая конструкция, но в английском он особенно важен как способ выбрать фокус предложения.",
-    "Главный вопрос перед выбором формы: кто должен находиться в центре — тот, кто совершает действие, или тот, с кем действие произошло?",
-    "Victor created the creature ставит в центр Виктора. The creature was created ставит в центр существо.",
-    "Форма be показывает время, а V3 сохраняет значение действия.",
-    "By + исполнитель нужен только тогда, когда исполнителя действительно важно назвать."
+    "Русский язык тоже использует пассив: «книга была опубликована», «рукопись была отправлена». Поэтому сама идея Passive обычно знакома русскоязычному ученику.",
+    "Главная трудность — правильно построить английскую форму: [bold]be + V3[/bold].",
+    "Время показывает глагол be: [bold]is published[/bold] — Present Simple, [bold]was published[/bold] — Past Simple.",
+    "Не нужно добавлять by автоматически. [bold]The book was published in 1847[/bold] — полноценное предложение.",
+    "Не путай V3 с прошедшим временем. В Passive третья форма смыслового глагола остаётся V3, а время выражается через be."
   ],
   "howToLearn": {
     "steps": [
-      "Сначала найдите того, кто совершает действие, и объект действия.",
-      "Решите, кого вы хотите поставить в центр предложения.",
-      "Если в центре исполнитель — используйте Active Voice.",
-      "Если в центре объект или результат — используйте Passive Voice.",
-      "Определите время и выберите правильную форму be.",
-      "После be поставьте V3.",
-      "Добавляйте by + исполнитель только при необходимости."
+      "Сначала реши, что должно быть в центре сообщения: исполнитель или объект.",
+      "Если объект важнее, попробуй Passive.",
+      "Определи время: Present Simple или Past Simple.",
+      "Поставь am/is/are или was/were.",
+      "Добавь V3 основного глагола.",
+      "Добавляй by + исполнитель только тогда, когда он действительно важен.",
+      "Сравни получившееся предложение с Active и проверь, изменился ли фокус."
     ],
     "exercise": {
-      "prompt": "Перестройте предложения так, чтобы в центре оказался объект действия.",
+      "prompt": "Поставь глаголы в правильную форму Passive Voice:",
       "items": [
         {
-          "q": "Victor created the creature.",
-          "a": "The creature was created by Victor."
+          "q": "The manuscript ___ (send) to the publisher in 1847.",
+          "a": "was sent"
         },
         {
-          "q": "Someone killed William.",
-          "a": "William was killed."
+          "q": "The novel ___ (publish) under a pseudonym.",
+          "a": "was published"
         },
         {
-          "q": "People feared the creature.",
-          "a": "The creature was feared."
+          "q": "The books ___ (sell) in several editions.",
+          "a": "were sold"
         },
         {
-          "q": "Victor abandoned the creature.",
-          "a": "The creature was abandoned by Victor."
+          "q": "The author's identity ___ (hide) for some time.",
+          "a": "was hidden"
+        },
+        {
+          "q": "The manuscript ___ (keep) in the library.",
+          "a": "is kept"
         }
       ]
     }
   },
-  "formula": "Subject + am/is/are/was/were + V3 (+ by + agent)",
+  "formula": "Present Simple: am/is/are + V3; Past Simple: was/were + V3",
   "structure": {
-    "positive": "The creature was created. / The creature is feared.",
-    "negative": "The creature was not created. / The creature is not feared.",
-    "question": "Was the creature created? / Is the creature feared?"
+    "positive": "The manuscript is kept in the library.\nThe manuscript was sent to the publisher.",
+    "negative": "The manuscript is not kept here.\nThe manuscript was not published under her real name.",
+    "question": "Is the manuscript kept in the library?\nWas the manuscript sent to the publisher?"
   },
   "markers": [
-    "am/is/are + V3",
-    "was/were + V3",
-    "by + agent",
-    "Past Participle"
+    "by",
+    "in 1847",
+    "at the time",
+    "now",
+    "every year",
+    "usually"
   ],
   "uses": [
-    "Когда важен объект действия, а не исполнитель.",
-    "Когда исполнитель неизвестен.",
-    "Когда исполнитель очевиден из контекста.",
-    "Когда исполнитель не важен.",
-    "Когда нужно сохранить один объект в центре повествования."
+    "Фокус на объекте: The manuscript was sent to the publisher.",
+    "Фокус на результате: The novel was published in 1847.",
+    "Исполнитель неизвестен: The manuscript was lost.",
+    "Исполнитель очевиден или неважен: The book is sold worldwide.",
+    "Последовательность процесса: The manuscript was completed, sent and published."
   ],
   "rules": [
     {
-      "title": "Present Simple Passive",
-      "text": "Используйте am/is/are + V3, когда говорите о настоящем факте, состоянии или регулярно повторяющемся действии."
+      "title": "Главная формула",
+      "text": "Passive Voice строится с помощью формы to be и третьей формы смыслового глагола: be + V3."
     },
     {
-      "title": "Past Simple Passive",
-      "text": "Используйте was/were + V3, когда действие произошло в прошлом."
+      "title": "Present Simple",
+      "text": "В Present Simple используется am/is/are + V3: The book is published."
+    },
+    {
+      "title": "Past Simple",
+      "text": "В Past Simple используется was/were + V3: The book was published."
     },
     {
       "title": "By + исполнитель",
-      "text": "By + agent можно добавить, если важно назвать того, кто совершил действие. Если исполнитель неизвестен, очевиден или неважен, его можно не указывать."
+      "text": "Исполнителя можно добавить после by, если он важен: The novel was written by Charlotte Brontë."
     },
     {
-      "title": "Фокус предложения",
-      "text": "Passive Voice переносит внимание с исполнителя на объект действия, результат или человека, с которым что-то произошло."
+      "title": "Фокус",
+      "text": "Passive выбирается, когда объект, результат или само действие важнее исполнителя."
     }
   ],
   "examples": [
     {
-      "group": "Passive Voice",
+      "group": "Present Simple Passive",
       "items": [
         {
-          "en": "The creature was created.",
-          "ru": "Существо было создано.",
-          "highlight": ["was created"]
+          "en": "The manuscript is kept in a special collection.",
+          "ru": "Рукопись хранится в специальной коллекции.",
+          "highlight": ["is kept"]
         },
         {
-          "en": "The creature was abandoned.",
-          "ru": "Существо было оставлено.",
-          "highlight": ["was abandoned"]
+          "en": "The novel is studied in many universities.",
+          "ru": "Роман изучается во многих университетах.",
+          "highlight": ["is studied"]
         },
         {
-          "en": "William was killed.",
-          "ru": "Уильям был убит.",
-          "highlight": ["was killed"]
+          "en": "The book is discussed by literary historians.",
+          "ru": "Книга обсуждается литературоведами.",
+          "highlight": ["is discussed"]
         },
         {
-          "en": "The creature is feared.",
-          "ru": "Существа боятся.",
-          "highlight": ["is feared"]
+          "en": "The original text is preserved in the archive.",
+          "ru": "Оригинальный текст хранится в архиве.",
+          "highlight": ["is preserved"]
+        },
+        {
+          "en": "The author's identity is known today.",
+          "ru": "Сегодня личность автора известна.",
+          "highlight": ["is known"]
+        },
+        {
+          "en": "The manuscript is displayed as part of the collection.",
+          "ru": "Рукопись выставляется как часть коллекции.",
+          "highlight": ["is displayed"]
+        }
+      ]
+    },
+    {
+      "group": "Past Simple Passive",
+      "items": [
+        {
+          "en": "The manuscript was completed in 1847.",
+          "ru": "Рукопись была завершена в 1847 году.",
+          "highlight": ["was completed"]
+        },
+        {
+          "en": "The manuscript was sent to Smith, Elder & Co.",
+          "ru": "Рукопись была отправлена в Smith, Elder & Co.",
+          "highlight": ["was sent"]
+        },
+        {
+          "en": "The novel was published in three volumes.",
+          "ru": "Роман был опубликован в трёх томах.",
+          "highlight": ["was published"]
+        },
+        {
+          "en": "The book was accepted by the publisher.",
+          "ru": "Книга была принята издателем.",
+          "highlight": ["was accepted"]
+        },
+        {
+          "en": "The first edition was sold quickly.",
+          "ru": "Первое издание быстро продавалось.",
+          "highlight": ["was sold"]
+        },
+        {
+          "en": "The author's identity was not immediately known.",
+          "ru": "Личность автора не была сразу известна.",
+          "highlight": ["was not known"]
+        }
+      ]
+    },
+    {
+      "group": "Active or Passive?",
+      "items": [
+        {
+          "en": "Charlotte Brontë wrote the novel.",
+          "ru": "Шарлотта Бронте написала роман.",
+          "highlight": ["wrote"]
+        },
+        {
+          "en": "The novel was written by Charlotte Brontë.",
+          "ru": "Роман был написан Шарлоттой Бронте.",
+          "highlight": ["was written"]
+        },
+        {
+          "en": "The publisher accepted the manuscript.",
+          "ru": "Издатель принял рукопись.",
+          "highlight": ["accepted"]
+        },
+        {
+          "en": "The manuscript was accepted by the publisher.",
+          "ru": "Рукопись была принята издателем.",
+          "highlight": ["was accepted"]
+        },
+        {
+          "en": "The readers discovered the author.",
+          "ru": "Читатели раскрыли личность автора.",
+          "highlight": ["discovered"]
+        },
+        {
+          "en": "The author's identity was discovered by readers.",
+          "ru": "Личность автора была раскрыта читателями.",
+          "highlight": ["was discovered"]
         }
       ]
     }
   ],
   "mistakes": [
     {
-      "wrong": "The creature was create.",
-      "right": "The creature was created.",
-      "note": "После was нужен Past Participle — V3."
+      "wrong": "The manuscript sent to the publisher.",
+      "right": "The manuscript was sent to the publisher.",
+      "note": "В Passive обязательно нужна форма to be."
     },
     {
-      "wrong": "The creature were created.",
-      "right": "The creature was created.",
-      "note": "С существительным в единственном числе используется was."
+      "wrong": "The book was publish in 1847.",
+      "right": "The book was published in 1847.",
+      "note": "После was нужна третья форма глагола."
     },
     {
-      "wrong": "The creatures was created.",
-      "right": "The creatures were created.",
-      "note": "С множественным числом используется were."
+      "wrong": "The manuscripts was sent.",
+      "right": "The manuscripts were sent.",
+      "note": "Manuscripts — множественное число, поэтому were."
     },
     {
-      "wrong": "The creature is create.",
-      "right": "The creature is created.",
-      "note": "Present Simple Passive строится как is + V3."
+      "wrong": "The novel is wrote by Charlotte Brontë.",
+      "right": "The novel is written by Charlotte Brontë.",
+      "note": "Write имеет неправильную третью форму: written."
     },
     {
-      "wrong": "The creature was created from Victor.",
-      "right": "The creature was created by Victor.",
-      "note": "Исполнитель действия вводится с помощью by."
+      "wrong": "The book was published by in 1847.",
+      "right": "The book was published in 1847.",
+      "note": "By используется для исполнителя, а не перед датой."
     },
     {
-      "wrong": "The creature was created by.",
-      "right": "The creature was created.",
-      "note": "Если исполнитель не нужен, by-конструкция вообще не используется."
+      "wrong": "The publisher was accepted the manuscript.",
+      "right": "The manuscript was accepted by the publisher.",
+      "note": "В первом варианте смешаны Active и Passive."
     }
   ],
   "compare": {
     "title": "Active Voice vs Passive Voice",
-    "leftLabel": "Active",
-    "rightLabel": "Passive",
+    "leftLabel": "Active Voice (кто делает)",
+    "rightLabel": "Passive Voice (что происходит)",
     "rows": [
       {
-        "left": "Victor created the creature.",
-        "right": "The creature was created by Victor."
+        "left": "Charlotte Brontë wrote the novel.",
+        "right": "The novel was written by Charlotte Brontë."
       },
       {
-        "left": "Someone killed William.",
-        "right": "William was killed."
+        "left": "The publisher accepted the manuscript.",
+        "right": "The manuscript was accepted by the publisher."
       },
       {
-        "left": "People feared the creature.",
-        "right": "The creature was feared."
+        "left": "The library keeps the manuscript.",
+        "right": "The manuscript is kept in the library."
       },
       {
-        "left": "Victor abandoned the creature.",
-        "right": "The creature was abandoned."
+        "left": "The publisher published the book in 1847.",
+        "right": "The book was published in 1847."
+      },
+      {
+        "left": "Subject = doer",
+        "right": "Subject = receiver of the action"
       }
     ]
   },
   "tips": [
-    "Сначала определите, кто совершает действие, а кто его получает.",
-    "Спросите себя, что должно стать темой предложения.",
-    "Не добавляйте by автоматически.",
-    "Помните: время находится в форме be.",
-    "После be в Passive нужен V3.",
-    "Passive Voice — это прежде всего изменение фокуса, а не просто перестановка слов."
+    "Сначала определи фокус предложения.",
+    "Если важен исполнитель — Active.",
+    "Если важен объект или результат — Passive.",
+    "Проверь форму be.",
+    "Проверь V3.",
+    "Не добавляй by без необходимости.",
+    "Для Past Simple используй was/were, а не is/are."
   ],
   "quiz": [
     {
-      "q": "The creature ___ by Victor.",
-      "options": ["created", "was created", "was create", "is create"],
-      "answer": 1,
-      "why": "Это Past Simple Passive: was + V3."
-    },
-    {
-      "q": "William ___ in the story.",
-      "options": ["was killed", "were killed", "was kill", "killed by"],
+      "q": "Choose the correct Passive form: The manuscript ___ in 1847.",
+      "options": [
+        "was sent",
+        "sent",
+        "was send",
+        "were sent"
+      ],
       "answer": 0,
-      "why": "William — единственное число, поэтому используется was + V3."
+      "why": "Manuscript — singular, Past Simple Passive = was + V3."
     },
     {
-      "q": "Which sentence focuses on the creature?",
-      "options": ["Victor created the creature.", "The creature was created.", "Victor creates the creature.", "Victor created it."],
+      "q": "Which sentence focuses on the manuscript?",
+      "options": [
+        "Charlotte Brontë sent the manuscript.",
+        "The manuscript was sent to the publisher.",
+        "The publisher sent the manuscript."
+      ],
       "answer": 1,
-      "why": "В Passive Voice объект действия становится центром предложения."
+      "why": "В Passive manuscript становится центром предложения."
     },
     {
       "q": "Choose the correct Present Simple Passive.",
-      "options": ["The creature is feared.", "The creature was fear.", "The creature is fear.", "The creature feared."],
+      "options": [
+        "The manuscript is kept in the library.",
+        "The manuscript keeps in the library.",
+        "The manuscript was keep in the library."
+      ],
       "answer": 0,
-      "why": "Present Simple Passive: is + V3."
+      "why": "Present Simple Passive = is + V3."
     },
     {
-      "q": "When do we use by + agent?",
-      "options": ["Always", "Only with Present Simple", "When the performer is important to mention", "Never"],
-      "answer": 2,
-      "why": "Исполнитель добавляется, когда он важен для информации."
-    },
-    {
-      "q": "Choose the most natural sentence when the killer is unknown or unimportant.",
-      "options": ["Someone killed William.", "William was killed.", "William killed.", "William was kill."],
+      "q": "When do we use Passive?",
+      "options": [
+        "Only when we do not know the subject.",
+        "When the object, result or action is more important than the doer.",
+        "Only in formal writing."
+      ],
       "answer": 1,
-      "why": "Passive позволяет говорить о жертве, не называя исполнителя."
+      "why": "Главная функция Passive — изменение фокуса."
+    },
+    {
+      "q": "Choose the correct sentence.",
+      "options": [
+        "The books was published.",
+        "The books were published.",
+        "The books were publish."
+      ],
+      "answer": 1,
+      "why": "Books — plural, поэтому were + V3."
+    },
+    {
+      "q": "Which sentence is Active?",
+      "options": [
+        "The novel was published in 1847.",
+        "The novel was written by Charlotte Brontë.",
+        "Charlotte Brontë wrote the novel."
+      ],
+      "answer": 2,
+      "why": "Charlotte Brontë является исполнителем действия и стоит в позиции subject."
     }
   ],
   "related": [
     "b1-first-conditional",
-    "b1-present-perfect",
+    "b1-modals-should-might-may",
     "b2-passive-voice-advanced"
-  ],
-  "quote": "Like Adam, I was created apparently united by no link to any other being in existence."
+  ]
 }

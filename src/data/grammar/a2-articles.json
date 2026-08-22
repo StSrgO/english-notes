@@ -2,184 +2,411 @@
   "variant": "classic",
   "slug": "a2-articles",
   "level": "A2",
-  "title": "Articles: A/An, The, and Zero Article",
-  "category": "Grammar",
+  "title": "Articles",
+  "category": "Articles",
   "readingTime": 8,
-  "summary": "Артикли a/an, the и нулевой артикль. Генри Джеймс и «Поворот винта».",
+  "summary": "Артикли помогают понять, говорим ли мы о чём-то впервые, о конкретном предмете или о вещи в общем смысле. Главное различие — между новым объектом, конкретным объектом и уже известным контекстом.",
   "idea": [
-    "Гувернантка входит в старый дом. Она не знает, что её ждёт. Она видит комнату, слышит шум, чувствует чьё-то присутствие. «I saw a ghost» — она говорит в первый раз. «The ghost was tall and pale» — во второй раз. Артикль «a» показывает, что предмет новый, неизвестный. Артикль «the» показывает, что предмет уже знаком. «A ghost» — какой-то призрак. «The ghost» — тот самый призрак.",
-    "В доме есть призраки. Много призраков. «Ghosts are not real» — говорит она себе. «Children need protection» — говорит она другим. «Books can be scary» — думает она. Это нулевой артикль. Он используется для обобщений. «Ghosts» — все призраки вообще. «Children» — все дети вообще. «Books» — все книги вообще.",
-    "Гувернантка пытается понять мир вокруг себя. «I saw a man. The man was tall.» — сначала незнакомец, потом знакомый. «I saw a woman. The woman was dressed in black.» — сначала неизвестная, потом известная. «I found a letter. The letter explained everything.» — сначала находка, потом ключ. Каждый раз артикль меняет смысл. «A» — новое. «The» — известное. Нулевой артикль — обобщение."
+    "Артикли часто кажутся маленькими словами, которые ничего не меняют. На самом деле они постоянно отвечают на один вопрос: о каком именно предмете мы говорим? Если предмет появляется впервые и слушатель ещё не знает, что это такое, английский часто использует [bold]a/an[/bold]. Если предмет уже понятен из контекста или мы говорим о конкретной вещи, появляется [bold]the[/bold]. А иногда артикль вообще не нужен, потому что речь идёт о вещах в общем.",
+    "В [bold]Treasure Island[/bold] это особенно хорошо видно уже в начале романа. Джим Хокинс начинает рассказывать историю о месте, которое читателю ещё предстоит узнать. В тексте появляется [bold]an inn[/bold] — одна гостиница, пока ещё просто новая деталь. Затем мы узнаём её название: [bold]the Admiral Benbow inn[/bold]. Теперь это уже не любая гостиница, а конкретное место.",
+    "Именно поэтому полезно думать не о переводе слова «этот» или «какой-то», а о знакомстве с предметом. Первый раз говорящий как бы вводит объект в разговор. Потом он может вернуться к нему как к уже известному объекту. [bold]A sailor[/bold] означает одного моряка среди возможных моряков. [bold]The sailor[/bold] означает уже того моряка, которого мы знаем из ситуации.",
+    "Есть и третий случай. Если мы говорим о классе предметов вообще, артикль часто исчезает во множественном числе или с неисчисляемыми существительными. [bold]Pirates were dangerous[/bold] — не о конкретной группе пиратов, а о пиратах как о явлении. Но [bold]the pirates[/bold] — это уже конкретные пираты из нашей истории.",
+    "У Stevenson эта смена происходит естественно, потому что роман постоянно вводит новые детали, а затем возвращается к ним. Сначала появляется [bold]a sea-chest[/bold]. После этого читатель понимает, о каком сундуке идёт речь, и автор может использовать [bold]the sea-chest[/bold]. Артикль здесь работает почти как маленькая камера: сначала он показывает новый предмет крупным планом, а затем возвращается к уже знакомому.",
+    "С географическими названиями логика немного другая, и здесь не стоит пытаться вывести всё из одного правила. [bold]Treasure Island[/bold] — название острова, поэтому артикль не нужен. Но внутри повествования можно говорить о [bold]the island[/bold], потому что теперь это конкретный остров из истории. Название и обычное существительное — разные вещи.",
+    "Есть ещё важная разница между [bold]a[/bold] и [bold]an[/bold]. Выбор зависит не от буквы, а от звука: [bold]an inn[/bold], [bold]an island[/bold], но [bold]a sailor[/bold], [bold]a ship[/bold]. Перед гласным звуком появляется [bold]an[/bold], перед согласным — [bold]a[/bold].",
+    "В итоге артикли лучше читать как часть истории. [bold]A ship[/bold] вводит новый объект. [bold]The ship[/bold] возвращает нас к уже известному объекту. [bold]Ships[/bold] может говорить о кораблях вообще. Если видеть эту смену перспективы, три маленьких варианта — a, the и zero article — начинают работать как система, а не как набор исключений."
   ],
   "why": [
-    "Показывать, что предмет известен: «The house is old.»",
-    "Показывать, что предмет новый: «I bought a car.»",
-    "Говорить о единственном в своём роде: «The sun is bright.»",
-    "Обобщать: «Cats are animals.» (без артикля)"
+    "Артикль помогает слушателю понять, новый это объект или уже известный.",
+    "A/an вводит один объект или представителя класса.",
+    "The указывает на конкретный объект, который уже понятен из контекста.",
+    "Нулевой артикль часто используется, когда мы говорим о вещах вообще."
   ],
   "context": {
+    "title": "Treasure Island: как предмет становится знакомым",
+    "description": "В начале Treasure Island Джим Хокинс начинает рассказывать историю и постепенно вводит в неё людей, места и предметы. Сначала читатель встречает новые объекты, затем повествование возвращается к тем же объектам как к уже известным. Это даёт естественный контекст для наблюдения за a/an и the.",
     "lines": [
-      { "en": "Governess: I saw a ghost in the house last night. The ghost was tall and pale.", "ru": "Я увидела призрака в доме прошлой ночью. Призрак был высоким и бледным." },
-      { "en": "Miles: Was it the man or the woman?", "ru": "Это был мужчина или женщина?" },
-      { "en": "Governess: It was a man. I think it was Peter Quint.", "ru": "Это был мужчина. Я думаю, это был Питер Квинт." },
-      { "en": "Flora: Do you see a ghost every night?", "ru": "Вы видите призрака каждую ночь?" },
-      { "en": "Governess: Sometimes. The ghost comes when the moon is full.", "ru": "Иногда. Призрак приходит, когда луна полная." }
-    ],
-    "note": "Гувернантка рассказывает детям о призраках. Артикли помогают понять, о ком именно она говорит."
+      {
+        "en": "a sea-chest",
+        "ru": "Новый предмет появляется в повествовании как один из возможных сундуков."
+      },
+      {
+        "en": "the sea-chest",
+        "ru": "После появления предмет становится конкретным и понятным читателю."
+      },
+      {
+        "en": "an inn",
+        "ru": "Гостиница вводится как новая деталь истории."
+      },
+      {
+        "en": "the Admiral Benbow inn",
+        "ru": "Теперь речь идёт о конкретной гостинице с известным названием."
+      }
+    ]
   },
   "russianAngle": [
-    "В русском языке нет артиклей. Мы просто говорим «дом», «призрак», «книга». В английском нужно выбрать a, an или the.",
-    "Первый раз — a/an. Второй раз — the. Это простое правило поможет в 80% случаев.",
-    "Не используй артикль с именами собственными: James, not the James.",
-    "С обобщениями — без артикля: Ghosts are not real. (не the ghosts)."
+    "В русском языке нет такой же обязательной системы артиклей, поэтому русскоязычный ученик часто хочет просто убрать a и the.",
+    "Полезно не переводить a как отдельное слово, а воспринимать его как сигнал: объект появляется впервые или рассматривается как один представитель класса.",
+    "The не всегда означает «этот». Иногда конкретность возникает просто из предыдущего контекста.",
+    "Особенно легко забыть артикль перед существительным в единственном числе: английскому обычно нужно показать, является ли предмет новым, конкретным или частью общей категории."
   ],
   "howToLearn": {
     "steps": [
-      "Первый раз — a/an. Второй раз — the.",
-      "Запомни: a перед согласными, an перед гласными.",
-      "С уникальными вещами — the: the sun, the moon.",
-      "С именами и городами — без артикля.",
-      "С обобщениями — без артикля.",
-      "Потренируйся на примерах из урока."
+      "Сначала спросите себя: предмет появляется в разговоре впервые?",
+      "Если да, для исчисляемого существительного в единственном числе обычно нужен a/an.",
+      "Если предмет уже известен или понятен из ситуации, проверьте, нужен ли the.",
+      "Если речь идёт о вещах вообще, проверьте, не нужен ли нулевой артикль."
     ],
     "exercise": {
-      "prompt": "Вставь правильный артикль: a/an/the/нулевой артикль (без артикля):",
       "items": [
-        { "q": "I saw ___ ghost.", "a": "a" },
-        { "q": "___ sun is bright.", "a": "The" },
-        { "q": "___ dogs are friendly.", "a": "нулевой артикль" },
-        { "q": "She is ___ teacher.", "a": "a" },
-        { "q": "I live in ___ Moscow.", "a": "нулевой артикль" }
+        {
+          "q": "Впервые вводим новый корабль: ___ ship arrived.",
+          "answer": "a"
+        },
+        {
+          "q": "Мы уже знаем этот корабль: ___ ship was old.",
+          "answer": "the"
+        },
+        {
+          "q": "Говорим о кораблях вообще: ___ ships were important."
+        },
+        {
+          "q": "Впервые говорим об острове: ___ island appeared on the map.",
+          "answer": "an"
+        }
       ]
     }
   },
-  "formula": "a / an / the / нулевой артикль (zero article)",
+  "formula": "a/an = новый или один представитель; the = конкретный/известный; zero article = общее значение",
   "structure": {
-    "positive": "a/an + существительное (новый предмет)\nthe + существительное (известный предмет)\nнулевой артикль + существительное (обобщение)",
-    "negative": "not + a/an\nnot + the\nno + существительное",
-    "question": "Is there a/an...?\nDo you have a/an...?"
+    "positive": "A sailor entered the inn. The sailor looked around.",
+    "negative": "There wasn't a ship in the bay. The ship had not arrived.",
+    "question": "Was there a ship in the bay? Was the ship nearby?"
   },
   "markers": [
-    "a",
-    "an",
-    "the",
-    "no article"
+    "first mention",
+    "second mention",
+    "one of many",
+    "specific object",
+    "known context",
+    "general meaning",
+    "singular countable noun"
   ],
   "uses": [
-    "a/an — новый предмет: «I saw a ghost.»",
-    "the — известный предмет: «The ghost was tall.»",
-    "нулевой артикль — обобщения: «Ghosts are not real.»",
-    "нулевой артикль — имена: «James wrote a book.»"
+    {
+      "title": "Первое упоминание",
+      "explanation": "A/an вводит новый исчисляемый предмет в единственном числе.",
+      "example": "A sailor entered the inn."
+    },
+    {
+      "title": "Конкретный предмет",
+      "explanation": "The используется, когда говорящий и слушатель могут понять, о каком предмете идёт речь.",
+      "example": "The sailor sat near the door."
+    },
+    {
+      "title": "Общее значение",
+      "explanation": "Множественное число без артикля может обозначать предметы или людей вообще.",
+      "example": "Sailors travelled long distances."
+    }
   ],
   "rules": [
-    { "title": "Неопределённый артикль a/an", "text": "Используй a перед согласными (a house), an перед гласными (an apple). Показывает новый предмет." },
-    { "title": "Определённый артикль the", "text": "Используй the, когда предмет уже известен или единственный: the sun, the same ghost." },
-    { "title": "Нулевой артикль", "text": "С обобщениями: Dogs are animals. С именами: James wrote a book. С городами: Moscow is big." },
-    { "title": "Артикль с призраками", "text": "A ghost — какой-то. The ghost — тот самый. Нулевой артикль показывает тип явления: Ghosts are not real." }
+    {
+      "title": "A или an?",
+      "explanation": "Выбор зависит от первого звука следующего слова.",
+      "example": "an island"
+    },
+    {
+      "title": "Первый раз — a/an",
+      "explanation": "Если один исчисляемый предмет вводится впервые, обычно используется a/an.",
+      "example": "A ship appeared."
+    },
+    {
+      "title": "Известный предмет — the",
+      "explanation": "После первого упоминания тот же предмет обычно становится конкретным.",
+      "example": "The ship was large."
+    },
+    {
+      "title": "Общее значение — без артикля",
+      "explanation": "Во множественном числе и с неисчисляемыми существительными для общего значения артикль часто не нужен.",
+      "example": "Ships can be dangerous."
+    }
   ],
   "examples": [
     {
-      "group": "Первый раз — a / an",
+      "group": "Новый объект",
       "items": [
-        { "en": "I saw a ghost in the house.", "ru": "Я увидела призрака в доме.", "highlight": ["a"] },
-        { "en": "She heard a strange voice.", "ru": "Она услышала странный голос.", "highlight": ["a"] },
-        { "en": "There was an old portrait on the wall.", "ru": "На стене был старый портрет.", "highlight": ["an"] },
-        { "en": "I found a letter in the drawer.", "ru": "Я нашла письмо в ящике.", "highlight": ["a"] },
-        { "en": "He saw a man in the garden.", "ru": "Он увидел мужчину в саду.", "highlight": ["a"] },
-        { "en": "She bought an umbrella for the rain.", "ru": "Она купила зонт от дождя.", "highlight": ["an"] }
+        {
+          "en": "A sailor entered the inn.",
+          "ru": "Один моряк вошёл в гостиницу. Моряк вводится впервые.",
+          "highlight": ["A sailor"]
+        },
+        {
+          "en": "A ship appeared near the island.",
+          "ru": "Впервые появляется один корабль.",
+          "highlight": ["A ship"]
+        },
+        {
+          "en": "An old map was on the table.",
+          "ru": "Карта вводится как новый предмет.",
+          "highlight": ["An old map"]
+        },
+        {
+          "en": "A man stood by the door.",
+          "ru": "Мы пока не знаем, кто именно этот человек.",
+          "highlight": ["A man"]
+        }
       ]
     },
     {
-      "group": "Второй раз — the",
+      "group": "Возвращаемся к известному объекту",
       "items": [
-        { "en": "The ghost was tall and pale.", "ru": "Призрак был высоким и бледным.", "highlight": ["The"] },
-        { "en": "The voice belonged to a woman.", "ru": "Голос принадлежал женщине.", "highlight": ["The"] },
-        { "en": "The portrait looked like someone I knew.", "ru": "Портрет был похож на кого-то, кого я знала.", "highlight": ["The"] },
-        { "en": "The letter explained everything.", "ru": "Письмо объясняло всё.", "highlight": ["The"] },
-        { "en": "The man was tall and dark.", "ru": "Мужчина был высоким и тёмным.", "highlight": ["The"] },
-        { "en": "The umbrella was broken.", "ru": "Зонт был сломан.", "highlight": ["The"] }
+        {
+          "en": "The sailor sat near the fire.",
+          "ru": "Теперь речь идёт о том же моряке.",
+          "highlight": ["The sailor"]
+        },
+        {
+          "en": "The ship was ready to leave.",
+          "ru": "Мы уже знаем, о каком корабле идёт речь.",
+          "highlight": ["The ship"]
+        },
+        {
+          "en": "The old map showed an island.",
+          "ru": "Карта уже известна из предыдущего предложения.",
+          "highlight": ["The old map"]
+        },
+        {
+          "en": "The man opened the door.",
+          "ru": "Это уже конкретный человек из ситуации.",
+          "highlight": ["The man"]
+        }
       ]
     },
     {
-      "group": "Единственный в своём роде",
+      "group": "A или an",
       "items": [
-        { "en": "The sun was setting behind the trees.", "ru": "Солнце садилось за деревьями.", "highlight": ["The"] },
-        { "en": "The moon lit up the garden.", "ru": "Луна освещала сад.", "highlight": ["The"] },
-        { "en": "The sky was dark and stormy.", "ru": "Небо было тёмным и грозовым.", "highlight": ["The"] },
-        { "en": "The world seemed dangerous.", "ru": "Мир казался опасным.", "highlight": ["The"] },
-        { "en": "The earth is round.", "ru": "Земля круглая.", "highlight": ["The"] },
-        { "en": "The universe is vast.", "ru": "Вселенная огромна.", "highlight": ["The"] }
+        {
+          "en": "an island",
+          "ru": "Перед гласным звуком используется an.",
+          "highlight": ["an island"]
+        },
+        {
+          "en": "an old ship",
+          "ru": "Первый звук в old — гласный.",
+          "highlight": ["an old ship"]
+        },
+        {
+          "en": "a sailor",
+          "ru": "Перед согласным звуком используется a.",
+          "highlight": ["a sailor"]
+        },
+        {
+          "en": "a treasure map",
+          "ru": "Treasure начинается с согласного звука.",
+          "highlight": ["a treasure map"]
+        }
       ]
     },
     {
-      "group": "Обобщения — нулевой артикль",
+      "group": "Общее значение",
       "items": [
-        { "en": "Ghosts are not real.", "ru": "Призраки не настоящие.", "highlight": ["Ghosts"] },
-        { "en": "Children need protection.", "ru": "Детям нужна защита.", "highlight": ["Children"] },
-        { "en": "Books can be scary.", "ru": "Книги могут быть страшными.", "highlight": ["Books"] },
-        { "en": "People believe in many things.", "ru": "Люди верят во многое.", "highlight": ["People"] },
-        { "en": "Cats are independent animals.", "ru": "Кошки — независимые животные.", "highlight": ["Cats"] },
-        { "en": "Dogs are loyal friends.", "ru": "Собаки — верные друзья.", "highlight": ["Dogs"] }
+        {
+          "en": "Ships can be dangerous.",
+          "ru": "Речь о кораблях вообще.",
+          "highlight": ["Ships"]
+        },
+        {
+          "en": "Pirates were common in old stories.",
+          "ru": "Речь о пиратах как категории.",
+          "highlight": ["Pirates"]
+        },
+        {
+          "en": "Gold is valuable.",
+          "ru": "Gold — неисчисляемое существительное в общем значении.",
+          "highlight": ["Gold"]
+        },
+        {
+          "en": "Treasure can change people's lives.",
+          "ru": "Речь идёт о сокровищах вообще.",
+          "highlight": ["Treasure"]
+        }
       ]
     },
     {
-      "group": "A/an vs the — сравнение",
+      "group": "Конкретность из ситуации",
       "items": [
-        { "en": "I saw a woman. The woman was beautiful.", "ru": "Я увидела женщину. Женщина была красивой.", "highlight": ["a", "The"] },
-        { "en": "He heard a voice. The voice was familiar.", "ru": "Он услышал голос. Голос был знакомым.", "highlight": ["a", "The"] },
-        { "en": "She found a key. The key opened the door.", "ru": "Она нашла ключ. Ключ открыл дверь.", "highlight": ["a", "The"] },
-        { "en": "I saw a boy. The boy was crying.", "ru": "Я увидела мальчика. Мальчик плакал.", "highlight": ["a", "The"] },
-        { "en": "He bought a car. The car was red.", "ru": "Он купил машину. Машина была красной.", "highlight": ["a", "The"] },
-        { "en": "She wrote a letter. The letter was long.", "ru": "Она написала письмо. Письмо было длинным.", "highlight": ["a", "The"] }
+        {
+          "en": "Close the door.",
+          "ru": "Из ситуации понятно, какую дверь нужно закрыть.",
+          "highlight": ["the door"]
+        },
+        {
+          "en": "The captain is on the ship.",
+          "ru": "Говорящий имеет в виду конкретного капитана и конкретный корабль.",
+          "highlight": ["The captain", "the ship"]
+        },
+        {
+          "en": "The map is on the table.",
+          "ru": "Из ситуации понятно, о какой карте идёт речь.",
+          "highlight": ["The map"]
+        },
+        {
+          "en": "The sea was calm.",
+          "ru": "В данном контексте речь идёт о конкретном море вокруг героев.",
+          "highlight": ["The sea"]
+        }
       ]
     },
     {
-      "group": "Артикли в описании дома",
+      "group": "Названия и обычные существительные",
       "items": [
-        { "en": "The house was old and dark.", "ru": "Дом был старым и тёмным.", "highlight": ["The"] },
-        { "en": "There was a garden behind the house.", "ru": "За домом был сад.", "highlight": ["a", "the"] },
-        { "en": "A tree stood near the window.", "ru": "У окна стояло дерево.", "highlight": ["A", "the"] },
-        { "en": "The children played in the garden every day.", "ru": "Дети играли в саду каждый день.", "highlight": ["The", "the"] },
-        { "en": "There was a cat on the roof.", "ru": "На крыше была кошка.", "highlight": ["a", "the"] },
-        { "en": "The cat was watching the birds.", "ru": "Кошка смотрела на птиц.", "highlight": ["The", "the"] }
+        {
+          "en": "Treasure Island was famous.",
+          "ru": "Treasure Island — название, поэтому артикль не нужен.",
+          "highlight": ["Treasure Island"]
+        },
+        {
+          "en": "The island was difficult to reach.",
+          "ru": "Здесь island — обычное существительное и обозначает конкретный остров.",
+          "highlight": ["The island"]
+        },
+        {
+          "en": "The Admiral Benbow was an inn.",
+          "ru": "Название и обычное существительное выполняют разные функции.",
+          "highlight": ["The Admiral Benbow", "an inn"]
+        },
+        {
+          "en": "The inn stood near the sea.",
+          "ru": "После введения объекта он становится конкретным.",
+          "highlight": ["The inn"]
+        }
       ]
     }
   ],
+  "highlight": [
+    "a/an вводит новый исчисляемый объект в единственном числе",
+    "the указывает на конкретный или уже известный объект",
+    "zero article часто обозначает общий смысл"
+  ],
   "mistakes": [
-    { "wrong": "I saw ghost.", "right": "I saw a ghost.", "note": "Первый раз — неопределённый артикль." },
-    { "wrong": "She is the teacher in school.", "right": "She is a teacher at a school.", "note": "Первый раз — неопределённый артикль." },
-    { "wrong": "I have the book. It is good.", "right": "I have a book. The book is good.", "note": "Первый раз — a, второй — the." },
-    { "wrong": "The water is cold. (общее высказывание)", "right": "Water is cold.", "note": "Обобщения — нулевой артикль." },
-    { "wrong": "The James wrote a book.", "right": "James wrote a book.", "note": "С именами — нулевой артикль." },
-    { "wrong": "I live in the Moscow.", "right": "I live in Moscow.", "note": "С городами — нулевой артикль." }
+    {
+      "wrong": "Sailor entered the inn.",
+      "right": "A sailor entered the inn.",
+      "why": "Перед новым исчисляемым существительным в единственном числе нужен определитель."
+    },
+    {
+      "wrong": "I saw a sailor. A sailor was carrying a map.",
+      "right": "I saw a sailor. The sailor was carrying a map.",
+      "why": "Во втором предложении речь идёт уже о конкретном моряке."
+    },
+    {
+      "wrong": "The ships are dangerous.",
+      "right": "Ships are dangerous.",
+      "why": "Если речь о кораблях вообще, the не нужен."
+    },
+    {
+      "wrong": "A island appeared.",
+      "right": "An island appeared.",
+      "why": "Island начинается с гласного звука."
+    },
+    {
+      "wrong": "The Treasure Island was famous.",
+      "right": "Treasure Island was famous.",
+      "why": "Название острова употребляется без the."
+    },
+    {
+      "wrong": "I saw ship.",
+      "right": "I saw a ship.",
+      "why": "Ship — исчисляемое существительное в единственном числе."
+    }
   ],
   "compare": {
-    "title": "A/an vs The vs Zero Article",
-    "leftLabel": "a/an (новый)",
-    "centerLabel": "the (известный)",
-    "rightLabel": "нулевой артикль (обобщение)",
+    "title": "A/an, the или ничего?",
+    "leftLabel": "A / an",
+    "rightLabel": "The / zero article",
     "rows": [
-      { "left": "I saw a ghost.", "right": "The ghost was tall.", "center": "Ghosts are scary." },
-      { "left": "She heard a voice.", "right": "The voice was loud.", "center": "Voices echo." },
-      { "left": "He found a book.", "right": "The book was old.", "center": "Books are fun." },
-      { "left": "I met a woman.", "right": "The woman smiled.", "center": "Women are strong." }
+      {
+        "situation": "Новый один предмет",
+        "form": "a/an",
+        "example": "A ship appeared."
+      },
+      {
+        "situation": "Уже известный предмет",
+        "form": "the",
+        "example": "The ship was large."
+      },
+      {
+        "situation": "Предметы вообще",
+        "form": "zero article",
+        "example": "Ships are useful."
+      },
+      {
+        "situation": "Конкретный объект из ситуации",
+        "form": "the",
+        "example": "The door is open."
+      }
     ]
   },
   "tips": [
-    "Первый раз — a/an. Второй раз — the.",
-    "С именами и городами — нулевой артикль.",
-    "С обобщениями — нулевой артикль: Dogs are nice.",
-    "С уникальными вещами — the: the sun, the moon.",
-    "С числительными — без артикля: I have two cats.",
-    "Артикль показывает, знаешь ли ты предмет или нет."
+    "Не переводите a/an как отдельное русское слово.",
+    "После первого упоминания проверьте, не превратился ли объект в the.",
+    "Если существительное исчисляемое и в единственном числе, не оставляйте его без определителя.",
+    "Спросите себя: «Слушатель знает, о каком объекте речь?»",
+    "Для общего значения во множественном числе часто используется нулевой артикль.",
+    "Смотрите на звук, а не на букву, когда выбираете a или an.",
+    "Названия и обычные существительные могут использовать разные модели."
+  ],
+  "related": [
+    "countable-and-uncountable-nouns",
+    "demonstratives",
+    "quantifiers"
   ],
   "quiz": [
-    { "q": "Which article is correct: 'I saw ___ ghost.'", "options": ["a", "an", "the", "нулевой артикль"], "answer": "a", "why": "Первый раз — неопределённый артикль." },
-    { "q": "Which is correct: '___ sun is bright.'", "options": ["A", "The", "нулевой артикль"], "answer": "The", "why": "Солнце — единственное в своём роде." },
-    { "q": "Which is correct: '___ dogs are friendly.'", "options": ["A", "The", "нулевой артикль"], "answer": "нулевой артикль", "why": "Обобщение — нулевой артикль." },
-    { "q": "Which is correct: 'She is ___ teacher.'", "options": ["a", "an", "the"], "answer": "a", "why": "Профессия — a или an." },
-    { "q": "Which is correct: 'I live in ___ Moscow.'", "options": ["a", "the", "нулевой артикль"], "answer": "нулевой артикль", "why": "С городами — нулевой артикль." },
-    { "q": "Which is correct: 'I saw ___ book. ___ book was red.'", "options": ["a, The", "the, A", "an, The"], "answer": "a, The", "why": "Первый раз — a, второй — the." }
-  ],
-  "related": ["a1-articles-a-an", "a1-nouns"]
+    {
+      "q": "___ sailor entered the inn for the first time.",
+      "options": ["A", "The", "An", "—"],
+      "answer": "A",
+      "why": "Sailor — исчисляемое существительное в единственном числе, объект вводится впервые."
+    },
+    {
+      "q": "I saw a ship. ___ ship was very old.",
+      "options": ["A", "An", "The", "—"],
+      "answer": "The",
+      "why": "Во втором предложении корабль уже известен."
+    },
+    {
+      "q": "___ island appeared on the map.",
+      "options": ["A", "An", "The", "—"],
+      "answer": "An",
+      "why": "Island начинается с гласного звука и вводится впервые."
+    },
+    {
+      "q": "___ ships can travel long distances.",
+      "options": ["A", "An", "The", "—"],
+      "answer": "—",
+      "why": "Речь идёт о кораблях вообще."
+    },
+    {
+      "q": "Which sentence is correct?",
+      "options": [
+        "I saw ship.",
+        "I saw a ship.",
+        "I saw an ship.",
+        "I saw the ship for the first time."
+      ],
+      "answer": "I saw a ship.",
+      "why": "Ship вводится впервые и является исчисляемым существительным в единственном числе."
+    },
+    {
+      "q": "Which sentence talks about a specific known object?",
+      "options": [
+        "A captain arrived.",
+        "Captains arrived.",
+        "The captain arrived.",
+        "Captain arrived."
+      ],
+      "answer": "The captain arrived.",
+      "why": "The показывает, что речь идёт о конкретном капитане."
+    }
+  ]
 }

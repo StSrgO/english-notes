@@ -1,172 +1,442 @@
 {
+  "variant": "rocknroll",
   "slug": "a2-used-to",
   "level": "A2",
-  "title": "Used to — язык памяти и перемен",
+  "title": "Used to — раньше было иначе",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Oasis записали 'Definitely Maybe' в 1994 году. Лиам и Ноэл Галлахер выросли в Манчестере. Они привыкли к трудной жизни. Они привыкли к борьбе. Used to — это язык успеха. Язык того, как мы изменили свою жизнь.",
-  "variant": "rocknroll",
+  "readingTime": 8,
+  "summary": "Used to показывает привычку или состояние, которые были характерны для прошлого, но теперь изменились. Конструкция используется для контраста между тем, как было раньше, и тем, как стало сейчас.",
   "idea": [
-    "Лиам и Ноэл Галлахер выросли в Манчестере. Они привыкли к трудной жизни. Они привыкли к борьбе. «We used to dream about being famous» — мы раньше мечтали о славе. «We used to play in small clubs» — мы раньше играли в маленьких клубах. «We didn't use to have any money» — у нас раньше не было денег.",
-    "Used to — это язык успеха. Oasis изменили свою жизнь. «We used to be nobody» — мы раньше были никем. «Now we are stars» — теперь мы звёзды. «We used to have nothing» — у нас раньше ничего не было. «Now we have everything» — теперь у нас есть всё.",
-    "Но used to — это не только про успех. Это про память. «We used to dream» — мы раньше мечтали. «We used to hope» — мы раньше надеялись. Теперь мечты сбылись. Но мы помним, какими мы были."  ],
+    "История Generation X почти сама просит конструкцию used to. Группа появилась в середине 1970-х, прошла через смену состава, контрактные и управленческие проблемы, несколько лет фактически не могла нормально работать, а затем распалась. Здесь важно не просто сказать, что что-то произошло в прошлом. Важно показать, что раньше ситуация была одной, а потом стала другой.",
+    "В раннем NME о группе есть очень простой пример: [bold]Three of the members of Generation X used to be in Chelsea[/bold]. Это идеальная логика used to. Трое участников раньше были в Chelsea, а затем оказались в Generation X. Конструкция показывает прежнее состояние, которое уже изменилось.",
+    "Used to работает и с привычками. В том же материале о Билли Айдоле можно увидеть: [bold]My hair used to be real long[/bold]. Волосы раньше были очень длинными. Сейчас ситуация другая. Used to здесь не означает «в какой-то конкретный момент волосы были длинными» — оно описывает состояние, характерное для прошлого.",
+    "С историей Generation X это особенно интересно, потому что перемены происходили не один раз. В одном интервью Билли Айдол вспоминает период, когда группа была фактически остановлена из-за юридического конфликта с менеджером. Позже он описывает уже другую жизнь и другой музыкальный проект. Поэтому used to помогает видеть карьеру как последовательность состояний.",
+    "В 1984 году Айдол объяснял различие между своей работой в Generation X и новой группой. Он сказал: [bold]Tony used to write a lot of the words and I wrote the music[/bold]. Это не единичное событие. Он описывает то, как обычно распределялась работа раньше. Теперь роли изменились.",
+    "Очень важно отличать used to от Past Simple. [bold]Generation X played in London in 1977[/bold] — конкретный факт. [bold]Generation X used to play in London[/bold] — привычная или характерная для прошлого деятельность. Первое просто помещает событие в прошлое; второе создаёт картину прежней жизни.",
+    "Отрицание выглядит так: [bold]They didn't use to play outside London[/bold]. Вопрос: [bold]Did they use to play there?[/bold]. После did появляется use, а не used. Это маленькая деталь, на которой русскоязычные ученики часто спотыкаются.",
+    "У used to есть ещё один важный смысл — прошлое состояние. [bold]The band used to be together[/bold] означает, что группа раньше существовала как единое целое, но теперь это не так. [bold]Billy used to be in Generation X[/bold] подчёркивает его прежнюю принадлежность к группе.",
+    "Поэтому история Generation X даёт почти идеальную шкалу: Chelsea → Generation X → конфликт с менеджментом → остановка работы → новая музыкальная жизнь. Used to помогает не перечислять эти факты, а показать, что одна реальность постепенно сменилась другой. Это и есть главный смысл конструкции."
+  ],
   "why": [
-    "Говорить о прошлых привычках: «We used to play in small clubs.»",
-    "Говорить о прошлых состояниях: «We used to have no money.»",
-    "Говорить о том, что изменилось: «We used to be unknown, but now we're famous.»",
-    "Говорить о том, чего не было раньше: «We didn't use to have fans.»"
+    "Говорить о прежнем составе или принадлежности: «He used to be in Generation X».",
+    "Описывать прошлые привычки группы или музыканта.",
+    "Показывать изменение ролей: «Tony used to write the words».",
+    "Показывать, что прежнее состояние больше не существует."
   ],
   "context": {
     "lines": [
-      { "en": "Liam: We used to play in small clubs. We used to dream about being famous.", "ru": "Лиам: Мы раньше играли в маленьких клубах. Мы раньше мечтали о славе." },
-      { "en": "Noel: Did you use to think we'd make it?", "ru": "Ноэль: Ты раньше думал, что у нас получится?" },
-      { "en": "Liam: I used to believe in us. We didn't use to have any money, but we had energy.", "ru": "Лиам: Я раньше верил в нас. У нас раньше не было денег, но была энергия." },
-      { "en": "Noel: Now we have everything. We used to dream about this.", "ru": "Ноэль: Теперь у нас есть всё. Мы раньше мечтали об этом." },
-      { "en": "Liam: We used to be nobody. Now we are stars. Used to — that's our story.", "ru": "Лиам: Мы раньше были никем. Теперь мы звёзды. Used to — это наша история." }
+      {
+        "en": "Three of the members of Generation X used to be in Chelsea.",
+        "ru": "Трое участников Generation X раньше были в Chelsea."
+      },
+      {
+        "en": "My hair used to be real long.",
+        "ru": "Раньше у меня были очень длинные волосы."
+      },
+      {
+        "en": "Tony used to write a lot of the words and I wrote the music.",
+        "ru": "Раньше Тони писал много текстов, а я писал музыку."
+      },
+      {
+        "en": "We had a legal lawsuit where we weren't allowed to play.",
+        "ru": "У нас был судебный конфликт, из-за которого нам не разрешали выступать."
+      },
+      {
+        "en": "We were an inactive group.",
+        "ru": "Мы были неактивной группой."
+      }
     ],
-    "note": "Братья Галлахер говорят о своём пути. Used to в действии."
+    "note": "История основана на N09: контрактный/юридический конфликт Generation X, смена менеджмента и изменение состояния группы. Authentic English использован из архивных интервью и материалов о Generation X."
   },
   "russianAngle": [
-    "В русском мы говорим «раньше мы играли в маленьких клубах». В английском — «We used to play in small clubs.»",
-    "Used to — только для прошлого. Не используй для настоящего.",
-    "Ошибка: We used to play in small clubs now. (неправильно) → We used to play in small clubs, but now we play in big arenas.",
-    "В вопросах и отрицаниях: Did you use to play in small clubs? We didn't use to have any money."
+    "В русском «раньше» может быть отдельным словом, а в английском used to уже содержит идею прежнего состояния или привычки.",
+    "He was in Generation X = он был в Generation X. He used to be in Generation X = он раньше состоял в Generation X, но теперь нет.",
+    "Used to + V1: used to write, used to play, used to be.",
+    "После did/didn't используется use to: Did he use to play? / He didn't use to play.",
+    "Не путай used to с Past Simple: Past Simple рассказывает о прошлом факте, used to подчёркивает прежнюю норму или состояние."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: used to + V1 (базовая форма глагола).",
-      "Used to — только для прошлого (того, что уже не актуально).",
-      "В вопросах: Did you use to...?",
-      "В отрицаниях: I didn't use to...",
-      "Потренируйся на примерах из урока."
+      "Найди ситуацию в прошлом.",
+      "Определи, была ли она привычной или продолжалась как состояние.",
+      "Проверь, изменилась ли ситуация позже.",
+      "Если да, используй used to + V1.",
+      "Для вопроса используй Did + subject + use to + V1.",
+      "Для отрицания используй didn't use to + V1."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму used to (как в истории с Oasis):",
+      "prompt": "Выбери правильную форму:",
       "items": [
-        { "q": "We ___ (play) in small clubs.", "a": "used to play" },
-        { "q": "We ___ (have) no money.", "a": "used to have" },
-        { "q": "We ___ (not / have) fans.", "a": "didn't use to have" },
-        { "q": "___ you ___ (dream) about fame?", "a": "Did, use to dream" },
-        { "q": "They ___ (be) unknown.", "a": "used to be" }
+        {
+          "q": "Three members ___ be in Chelsea.",
+          "a": "used to"
+        },
+        {
+          "q": "Billy's hair ___ be very long.",
+          "a": "used to"
+        },
+        {
+          "q": "Did they ___ play in London?",
+          "a": "use to"
+        },
+        {
+          "q": "They didn't ___ play for two years.",
+          "a": "use to"
+        },
+        {
+          "q": "Tony ___ write many of the words.",
+          "a": "used to"
+        }
       ]
     }
   },
   "formula": "Subject + used to + V1",
   "structure": {
-    "positive": "I used to play in small clubs.",
-    "negative": "I didn't use to play in small clubs.",
-    "question": "Did you use to play in small clubs?"
+    "positive": "I/You/He/She/We/They used to play.",
+    "negative": "I/You/He/She/We/They didn't use to play.",
+    "question": "Did I/you/he/she/we/they use to play?"
   },
   "markers": [
     "used to",
-    "didn't use to",
-    "did you use to",
     "in the past",
-    "when we started",
-    "before"
+    "when I was young",
+    "back then",
+    "before",
+    "once"
   ],
   "uses": [
-    "Прошлые привычки: «We used to play in small clubs.»",
-    "Прошлые состояния: «We used to have no money.»",
-    "Изменения: «We used to be unknown, but now we're famous.»",
-    "То, чего не было: «We didn't use to have fans.»"
+    "Прежняя привычка: «They used to play every week.»",
+    "Прежнее состояние: «He used to be in Generation X.»",
+    "Прежняя роль: «Tony used to write the words.»",
+    "Контраст между старым и новым состоянием."
   ],
   "rules": [
-    { "title": "Used to — прошлые привычки", "text": "Используй used to для привычек, которые были в прошлом: We used to play in small clubs." },
-    { "title": "Used to — прошлые состояния", "text": "Используй used to для состояний, которые были в прошлом: We used to have no money." },
-    { "title": "Отрицание", "text": "Используй didn't use to + V1: We didn't use to have fans." },
-    { "title": "Вопросы", "text": "Используй Did + subject + use to + V1: Did you use to play in small clubs?" }
+    {
+      "title": "Привычка в прошлом",
+      "text": "Used to + V1 показывает действие, которое регулярно происходило раньше: «They used to play every week.»"
+    },
+    {
+      "title": "Состояние в прошлом",
+      "text": "Used to используется с be, have и другими глаголами состояния: «He used to be in the band.»"
+    },
+    {
+      "title": "Изменение",
+      "text": "Used to обычно предполагает, что ситуация больше не является такой: «He used to be in Generation X» означает, что сейчас он в группе не состоит."
+    },
+    {
+      "title": "Did и didn't",
+      "text": "После did и didn't используется use to: «Did they use to play there?» и «They didn't use to play there.»"
+    }
   ],
   "examples": [
     {
-      "group": "Прошлые привычки",
+      "group": "Прежняя принадлежность",
       "items": [
-        { "en": "We used to play in small clubs.", "ru": "Мы раньше играли в маленьких клубах — и это было начало.", "highlight": ["used to play"] },
-        { "en": "They used to rehearse in a garage.", "ru": "Они раньше репетировали в гараже — и это было их домом.", "highlight": ["used to rehearse"] },
-        { "en": "We used to write songs at night.", "ru": "Мы раньше писали песни ночью — и это было наше время.", "highlight": ["used to write"] },
-        { "en": "Liam used to sing with no microphone.", "ru": "Лиам раньше пел без микрофона — и его было слышно.", "highlight": ["used to sing"] }
+        {
+          "en": "Three members used to be in Chelsea.",
+          "ru": "Трое участников раньше были в Chelsea.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "Billy used to be in Generation X.",
+          "ru": "Билли раньше состоял в Generation X.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "Tony used to be the bass player.",
+          "ru": "Тони раньше был басистом.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "They used to be a young punk band.",
+          "ru": "Раньше это была молодая панк-группа.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "The musicians used to be part of the same group.",
+          "ru": "Музыканты раньше были частью одной группы.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "Billy used to work with Tony James.",
+          "ru": "Билли раньше работал с Тони Джеймсом.",
+          "highlight": ["used to work"]
+        }
       ]
     },
     {
-      "group": "Прошлые состояния",
+      "group": "Прежние привычки и роли",
       "items": [
-        { "en": "We used to have no money.", "ru": "У нас раньше не было денег — и это нас закалило.", "highlight": ["used to have"] },
-        { "en": "They used to be unknown.", "ru": "Они раньше были неизвестны — но теперь их знают все.", "highlight": ["used to be"] },
-        { "en": "We used to dream about fame.", "ru": "Мы раньше мечтали о славе — и она пришла.", "highlight": ["used to dream"] },
-        { "en": "Noel used to work in a factory.", "ru": "Ноэль раньше работал на фабрике — и он помнит это.", "highlight": ["used to work"] }
+        {
+          "en": "Tony used to write many of the words.",
+          "ru": "Раньше Тони писал много текстов.",
+          "highlight": ["used to write"]
+        },
+        {
+          "en": "Billy used to write the music.",
+          "ru": "Раньше Билли писал музыку.",
+          "highlight": ["used to write"]
+        },
+        {
+          "en": "They used to play small London shows.",
+          "ru": "Раньше они играли небольшие концерты в Лондоне.",
+          "highlight": ["used to play"]
+        },
+        {
+          "en": "The band used to rehearse together.",
+          "ru": "Раньше группа репетировала вместе.",
+          "highlight": ["used to rehearse"]
+        },
+        {
+          "en": "They used to spend a lot of time together.",
+          "ru": "Раньше они проводили много времени вместе.",
+          "highlight": ["used to spend"]
+        },
+        {
+          "en": "Billy used to work mainly with Tony.",
+          "ru": "Раньше Билли в основном работал с Тони.",
+          "highlight": ["used to work"]
+        }
       ]
     },
     {
-      "group": "Отрицания",
+      "group": "Отрицание",
       "items": [
-        { "en": "We didn't use to have fans.", "ru": "У нас раньше не было фанатов — теперь их миллионы.", "highlight": ["didn't use to have"] },
-        { "en": "They didn't use to play big arenas.", "ru": "Они раньше не играли на больших аренах — теперь они на стадионах.", "highlight": ["didn't use to play"] },
-        { "en": "I didn't use to believe in success.", "ru": "Я раньше не верил в успех — но он пришёл.", "highlight": ["didn't use to believe"] },
-        { "en": "We didn't use to have any money.", "ru": "У нас раньше не было денег — теперь мы не считаем.", "highlight": ["didn't use to have"] }
+        {
+          "en": "They didn't use to have the same lineup.",
+          "ru": "Раньше у них не было одного и того же состава.",
+          "highlight": ["didn't use to have"]
+        },
+        {
+          "en": "The band didn't use to play large venues.",
+          "ru": "Раньше группа не играла на больших площадках.",
+          "highlight": ["didn't use to play"]
+        },
+        {
+          "en": "Billy didn't use to work alone.",
+          "ru": "Раньше Билли не работал один.",
+          "highlight": ["didn't use to work"]
+        },
+        {
+          "en": "They didn't use to have the same manager.",
+          "ru": "Раньше у них не было того же менеджера.",
+          "highlight": ["didn't use to have"]
+        },
+        {
+          "en": "The members didn't use to work in separate projects.",
+          "ru": "Раньше участники не работали в отдельных проектах.",
+          "highlight": ["didn't use to work"]
+        },
+        {
+          "en": "They didn't use to think about the group in the same way.",
+          "ru": "Раньше они не относились к группе одинаково.",
+          "highlight": ["didn't use to think"]
+        }
       ]
     },
     {
       "group": "Вопросы",
       "items": [
-        { "en": "Did you use to play in small clubs?", "ru": "Вы раньше играли в маленьких клубах? — И мы тоже.", "highlight": ["Did you use to"] },
-        { "en": "Did they use to have fans?", "ru": "У них раньше были фанаты? — Теперь их миллионы.", "highlight": ["Did they use to"] },
-        { "en": "Did you use to dream about fame?", "ru": "Ты раньше мечтал о славе? — И я тоже.", "highlight": ["Did you use to"] },
-        { "en": "Did he use to write songs?", "ru": "Он раньше писал песни? — И он не перестал.", "highlight": ["Did he use to"] }
+        {
+          "en": "Did they use to play together?",
+          "ru": "Они раньше играли вместе?",
+          "highlight": ["Did they use to play"]
+        },
+        {
+          "en": "Did Billy use to write the music?",
+          "ru": "Билли раньше писал музыку?",
+          "highlight": ["Did Billy use to write"]
+        },
+        {
+          "en": "Did Tony use to write the words?",
+          "ru": "Тони раньше писал тексты?",
+          "highlight": ["Did Tony use to write"]
+        },
+        {
+          "en": "Did they use to work with the same manager?",
+          "ru": "Они раньше работали с одним и тем же менеджером?",
+          "highlight": ["Did they use to work"]
+        },
+        {
+          "en": "Did Billy use to play guitar in the band?",
+          "ru": "Билли раньше играл на гитаре в группе?",
+          "highlight": ["Did Billy use to play"]
+        },
+        {
+          "en": "Did the group use to rehearse every day?",
+          "ru": "Группа раньше репетировала каждый день?",
+          "highlight": ["Did the group use to rehearse"]
+        }
       ]
     },
     {
-      "group": "Изменения в жизни",
+      "group": "Раньше и теперь",
       "items": [
-        { "en": "We used to be unknown, but now we're famous.", "ru": "Мы раньше были неизвестны, но теперь мы знамениты — и это изменило нас.", "highlight": ["used to"] },
-        { "en": "We used to have no money, but now we're rich.", "ru": "У нас раньше не было денег, но теперь мы богаты — и мы это помним.", "highlight": ["used to"] },
-        { "en": "They used to play in garages, but now they play in arenas.", "ru": "Они раньше играли в гаражах, но теперь играют на аренах — и это прогресс.", "highlight": ["used to"] },
-        { "en": "He used to be shy, but now he's confident.", "ru": "Он раньше был застенчивым, но теперь уверен — и это заметно.", "highlight": ["used to"] }
-      ]
-    },
-    {
-      "group": "То, чего не было раньше",
-      "items": [
-        { "en": "We didn't use to have any fans.", "ru": "У нас раньше не было фанатов — и мы были одни.", "highlight": ["didn't use to have"] },
-        { "en": "They didn't use to have a record deal.", "ru": "У них раньше не было контракта — но теперь у них есть.", "highlight": ["didn't use to have"] },
-        { "en": "We didn't use to travel the world.", "ru": "Мы раньше не путешествовали по миру — но теперь мы везде.", "highlight": ["didn't use to travel"] },
-        { "en": "He didn't use to write songs.", "ru": "Он раньше не писал песен — но теперь он не останавливается.", "highlight": ["didn't use to write"] }
+        {
+          "en": "Billy used to be in Generation X, but later he worked as a solo artist.",
+          "ru": "Билли раньше состоял в Generation X, но позже стал работать как сольный артист.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "Tony used to write many of the words, but the roles later changed.",
+          "ru": "Раньше Тони писал много текстов, но позже роли изменились.",
+          "highlight": ["used to write"]
+        },
+        {
+          "en": "The band used to work as one group, but the lineup changed.",
+          "ru": "Раньше группа работала как единое целое, но состав изменился.",
+          "highlight": ["used to work"]
+        },
+        {
+          "en": "They used to play regularly, but the legal dispute stopped the band.",
+          "ru": "Раньше они регулярно выступали, но юридический конфликт остановил группу.",
+          "highlight": ["used to play"]
+        },
+        {
+          "en": "The members used to share the same project, but later they worked separately.",
+          "ru": "Раньше участники работали в одном проекте, но позже стали работать отдельно.",
+          "highlight": ["used to share"]
+        },
+        {
+          "en": "Billy used to work with Tony, but later he built a new band.",
+          "ru": "Раньше Билли работал с Тони, но позже создал новую группу.",
+          "highlight": ["used to work"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "We used to play in small clubs now.", "right": "We used to play in small clubs, but now we play in big arenas.", "note": "Used to — только для прошлого." },
-    { "wrong": "We used to have no money. (у нас всё ещё нет денег)", "right": "We don't have any money.", "note": "Если состояние всё ещё актуально — не используй used to." },
-    { "wrong": "We didn't used to have fans.", "right": "We didn't use to have fans.", "note": "После didn't — use to." },
-    { "wrong": "Did you used to play in small clubs?", "right": "Did you use to play in small clubs?", "note": "После did — use to." },
-    { "wrong": "We used to be famous, but now we're unknown.", "right": "We used to be unknown, but now we're famous.", "note": "Used to — для прошлого, которое изменилось." },
-    { "wrong": "We use to play in small clubs.", "right": "We used to play in small clubs.", "note": "Для прошлого — used to, а не use to." }
+    {
+      "wrong": "He use to be in Generation X.",
+      "right": "He used to be in Generation X.",
+      "note": "В утвердительном предложении нужна форма used to."
+    },
+    {
+      "wrong": "Did he used to play guitar?",
+      "right": "Did he use to play guitar?",
+      "note": "После did используется use to."
+    },
+    {
+      "wrong": "They didn't used to play there.",
+      "right": "They didn't use to play there.",
+      "note": "После didn't используется use to."
+    },
+    {
+      "wrong": "Tony used to wrote the words.",
+      "right": "Tony used to write the words.",
+      "note": "После used to используется V1."
+    },
+    {
+      "wrong": "Billy used to writing music.",
+      "right": "Billy used to write music.",
+      "note": "Used to + V1, а не V-ing."
+    },
+    {
+      "wrong": "They used to play one concert yesterday.",
+      "right": "They played one concert yesterday.",
+      "note": "Один конкретный завершённый эпизод требует Past Simple."
+    }
   ],
   "compare": {
-    "title": "Used To vs Present Simple",
-    "leftLabel": "Used To (прошлые привычки)",
-    "rightLabel": "Present Simple (настоящие привычки)",
+    "title": "Used to vs Past Simple",
+    "leftLabel": "Used to",
+    "centerLabel": "Past Simple",
+    "rightLabel": "Смысл",
     "rows": [
-      { "left": "We used to play in small clubs.", "right": "We play in big arenas now." },
-      { "left": "We used to have no money.", "right": "We have a lot of money now." },
-      { "left": "We used to be unknown.", "right": "We are famous now." },
-      { "left": "They used to rehearse in a garage.", "right": "They rehearse in a studio now." }
+      {
+        "left": "Billy used to be in Generation X.",
+        "center": "Billy was in Generation X in 1977.",
+        "right": "прежнее состояние / конкретный факт"
+      },
+      {
+        "left": "They used to play in London.",
+        "center": "They played in London in 1977.",
+        "right": "привычка / конкретный концерт"
+      },
+      {
+        "left": "Tony used to write the words.",
+        "center": "Tony wrote the words for one song.",
+        "right": "обычная роль / отдельный случай"
+      },
+      {
+        "left": "They used to work together.",
+        "center": "They worked together in 1978.",
+        "right": "прежняя ситуация / конкретный период"
+      }
     ]
   },
   "tips": [
-    "Used to — только для прошлых привычек и состояний.",
-    "Если привычка всё ещё актуальна — используй Present Simple.",
-    "Отрицание: didn't use to + V1.",
-    "Вопросы: Did you use to + V1?",
-    "Used to показывает, что что-то изменилось.",
-    "Практикуйся: говори о том, что изменилось в твоей жизни."
+    "Used to = раньше было так, теперь иначе.",
+    "Used to + V1.",
+    "Did/didn't + use to + V1.",
+    "Used to подходит для привычек и состояний.",
+    "Past Simple подходит для отдельных завершённых событий.",
+    "Главный смысл — не просто прошлое, а изменение."
   ],
   "quiz": [
-    { "q": "Which is correct for a past habit?", "options": ["We play in small clubs.", "We used to play in small clubs.", "We are playing in small clubs."], "answer": "We used to play in small clubs.", "why": "Used to для прошлых привычек." },
-    { "q": "Which is correct for the negative?", "options": ["We didn't used to have fans.", "We didn't use to have fans.", "We used not to have fans."], "answer": "We didn't use to have fans.", "why": "После didn't — use to." },
-    { "q": "Which is correct for a question?", "options": ["Did you used to play?", "Did you use to play?", "Used you to play?"], "answer": "Did you use to play?", "why": "После did — use to." },
-    { "q": "What does 'We used to be unknown' mean?", "options": ["We are unknown now.", "We were unknown in the past but aren't now.", "We will be unknown."], "answer": "We were unknown in the past but aren't now.", "why": "Used to — прошлое, которое изменилось." },
-    { "q": "Which is correct: 'They ___ to have no money.'", "options": ["use", "used", "using"], "answer": "used", "why": "Used to для прошлых состояний." },
-    { "q": "Which is correct: 'We ___ to play in small clubs, but now we play in big arenas.'", "options": ["use", "used", "using"], "answer": "used", "why": "Used to для прошлого, которое изменилось." }
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "Billy used to be in Generation X.",
+        "Billy use to was in Generation X.",
+        "Billy used to being in Generation X."
+      ],
+      "answer": "Billy used to be in Generation X.",
+      "why": "После used to используется V1."
+    },
+    {
+      "q": "Choose the correct question:",
+      "options": [
+        "Did Tony used to write?",
+        "Did Tony use to write?",
+        "Did Tony use to wrote?"
+      ],
+      "answer": "Did Tony use to write?",
+      "why": "После did используется use to + V1."
+    },
+    {
+      "q": "What does 'Billy used to be in Generation X' imply?",
+      "options": [
+        "Billy is in Generation X now.",
+        "Billy was in Generation X in the past, but is not now.",
+        "Billy is joining Generation X now."
+      ],
+      "answer": "Billy was in Generation X in the past, but is not now.",
+      "why": "Used to показывает прежнее состояние, которое изменилось."
+    },
+    {
+      "q": "Which sentence describes a past habit?",
+      "options": [
+        "They played one concert yesterday.",
+        "They used to play small London shows.",
+        "They are playing tonight."
+      ],
+      "answer": "They used to play small London shows.",
+      "why": "Used to показывает характерную для прошлого привычку."
+    },
+    {
+      "q": "Complete: They didn't ___ play there.",
+      "options": [
+        "used to",
+        "use to",
+        "use"
+      ],
+      "answer": "use to",
+      "why": "После didn't используется use to."
+    },
+    {
+      "q": "Which sentence is better for one finished concert?",
+      "options": [
+        "They used to play there yesterday.",
+        "They played there yesterday.",
+        "They use to play there yesterday."
+      ],
+      "answer": "They played there yesterday.",
+      "why": "Один конкретный эпизод описывается Past Simple."
+    }
   ],
-  "related": ["a1-past-simple", "a1-present-simple"]
+  "related": [
+    "a2-past-simple",
+    "a2-past-continuous"
+  ]
 }

@@ -5,181 +5,324 @@
   "title": "Future Simple",
   "category": "Tenses",
   "readingTime": 7,
-  "summary": "Future Simple (will) — для предсказаний, обещаний и спонтанных решений. Buzzcocks и песня «Ever Fallen in Love?».",
+  "summary": "Future Simple с will используется, когда говорящий говорит о будущем как о прогнозе, обещании или решении. Will может выражать то, что, по мнению говорящего, произойдёт позже. Конструкция также используется для решения, принятого прямо в момент речи.",
   "idea": [
-    "Пит Шелли заканчивает текст песни «Ever Fallen in Love?» в 1978 году. Он рассказывает о человеке, который не изменится. Строчка приходит сама: «You'll never be my type.» Это не план. Это не надежда. Это констатация. Will превращает это слово в факт. Будущее уже решено. «You'll never change» — говорит он. «I'll never change» — добавляет он. Два человека, которые не могут сдвинуться с места. Это не предсказание — это признание.",
-    "«I'll always love you.» — я всегда буду любить тебя. «I'll never let you go.» — я никогда не отпущу тебя. Это обещания. Will здесь показывает, что говорящий готов выполнить обещанное.",
-    "«People will remember this song.» — люди запомнят эту песню. «It will become a classic.» — она станет классикой. «They will play it forever.» — они будут играть её вечно. Это уверенность в результате. Никто не знает, что будет. Но Шелли говорит так, будто знает. Will — это способ выразить уверенность в том, что произойдёт. Не план, не расписание. Просто знание, что так будет."
+    "После смерти Пита Шелли у Buzzcocks возник вопрос, которого раньше не существовало в такой форме: что будет с группой дальше? Шелли был одним из её центральных участников, поэтому продолжение Buzzcocks нельзя было представить просто как замену одного музыканта другим.",
+    "Стив Диггл говорил об этом будущем прямо. В интервью ему задавали вопрос, продолжит ли группа существовать в новом составе. Такая ситуация сама по себе создаёт Future Simple: человек спрашивает не о том, что уже произошло, а о том, что произойдёт дальше.",
+    "Вопрос [bold]Will you continue?[/bold] означает: «Вы продолжите?» В нём нет утверждения, что решение уже принято. Журналист просит человека посмотреть вперёд и сказать, каким будет следующий этап.",
+    "Ответ может быть таким же простым: [bold]We will continue.[/bold] Здесь will уже выражает решение или уверенность в будущем. Группа не просто описывает настоящее. Она говорит о том, что собирается существовать дальше в изменившейся форме.",
+    "Но будущее можно представить и как прогноз. [bold]The band will continue in a different form.[/bold] Говорящий предполагает результат. Это не сообщение о завершившемся событии, а взгляд вперёд.",
+    "Will также может превращать разговор о будущем в обещание: [bold]We will keep playing the songs.[/bold] Здесь говорящий берёт на себя обязательство. В этом смысле Future Simple связан не с календарём, а с отношением человека к тому, что ещё не произошло.",
+    "Наконец, решение может возникнуть прямо во время разговора. Если журналист спрашивает: [bold]What will you do next?[/bold] — человек может ответить: [bold]I'll continue.[/bold] Решение оформляется в момент речи.",
+    "Форма во всех этих случаях одна: [bold]will + V1[/bold]. [bold]We will continue. I will play. They will return.[/bold] После will не появляется -s и не ставится to. Отрицание — [bold]won't[/bold], вопрос — [bold]Will... ?[/bold]",
+    "Поэтому история Buzzcocks хорошо показывает смысл Future Simple. Будущее группы сначала становится вопросом, затем ответом, прогнозом, обещанием и решением."
   ],
   "why": [
-    "Предсказывать будущее: «You'll never be my type.»",
-    "Обещать: «I will always love you.»",
-    "Принимать спонтанные решения: «I'll help you.»",
-    "Выражать уверенность: «It will be a hit.»"
+    "Чтобы спрашивать о будущем.",
+    "Чтобы говорить о решении группы или человека.",
+    "Чтобы делать прогноз.",
+    "Чтобы выражать обещание."
   ],
   "context": {
     "lines": [
-      { "en": "Pete: I wrote a song. You'll never be my type. You'll never change.", "ru": "Я написал песню. Ты никогда не будешь моим типом. Ты никогда не изменишься." },
-      { "en": "Band: Will people like it?", "ru": "Людям понравится?" },
-      { "en": "Pete: Yes, they will. It will be a hit. I'll make sure.", "ru": "Да, понравится. Это будет хит. Я позабочусь об этом." },
-      { "en": "Band: Will it become a classic?", "ru": "Это станет классикой?" },
-      { "en": "Pete: It will. They'll remember this song forever.", "ru": "Станет. Они запомнят эту песню навсегда." }
-    ],
-    "note": "Пит Шелли говорит о песне. Will показывает предсказания и уверенность."
+      {
+        "en": "Will you continue?",
+        "ru": "Вы продолжите?",
+        "type": "authentic_context_question"
+      },
+      {
+        "en": "We will continue.",
+        "ru": "Мы продолжим.",
+        "type": "lesson_example"
+      },
+      {
+        "en": "The band will continue in a different form.",
+        "ru": "Группа продолжит существовать в другой форме.",
+        "type": "lesson_example"
+      },
+      {
+        "en": "I'll continue.",
+        "ru": "Я продолжу.",
+        "type": "lesson_example"
+      }
+    ]
   },
   "russianAngle": [
-    "В русском мы говорим «я напишу песню» — и это будущее. В английском — «I will write a song.»",
-    "Will — для предсказаний, обещаний и спонтанных решений. «I will do it» — я сделаю это (обещание).",
-    "Ошибка: I will to sing. Правильно: I will sing. (после will — базовая форма).",
-    "Не путай с be going to: will — для спонтанных решений и предсказаний без признаков, be going to — для планов."
+    "Will может обозначать не просто будущее, а позицию говорящего по отношению к нему.",
+    "Вопрос Will...? открывает разговор о будущем.",
+    "После will всегда используется базовая форма.",
+    "Для заранее принятого плана сравни will с be going to."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни формулу: will + базовая форма глагола.",
-      "Используй will для предсказаний: It will be a hit.",
-      "Используй will для обещаний: I will play.",
-      "Используй will для спонтанных решений: I'll help.",
-      "Потренируйся на примерах из урока."
+      "Найди ситуацию, в которой человек говорит о том, что будет дальше.",
+      "Если это прогноз, используй will.",
+      "Если это решение сейчас, используй will.",
+      "Если это обещание, используй will.",
+      "В вопросе поставь will перед подлежащим."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму Future Simple:",
+      "prompt": "Поставь глагол в Future Simple:",
       "items": [
-        { "q": "You ___ (never / be) my type.", "a": "will never be" },
-        { "q": "The song ___ (become) a hit.", "a": "will become" },
-        { "q": "People ___ (love) this song.", "a": "will love" },
-        { "q": "I ___ (always / love) you.", "a": "will always love" },
-        { "q": "They ___ (not / forget) this song.", "a": "will not forget" }
+        {
+          "q": "The band ___ (continue).",
+          "a": "will continue"
+        },
+        {
+          "q": "We ___ (keep) playing.",
+          "a": "will keep"
+        },
+        {
+          "q": "I ___ (do) it.",
+          "a": "will do"
+        },
+        {
+          "q": "They ___ (not / stop).",
+          "a": "will not stop"
+        },
+        {
+          "q": "___ they continue?",
+          "a": "Will"
+        }
       ]
     }
   },
   "formula": "Subject + will + V1",
   "structure": {
-    "positive": "I will play.\nHe/She/It will play.\nWe/You/They will play.",
-    "negative": "I will not (won't) play.\nHe/She/It will not play.\nWe/You/They will not play.",
-    "question": "Will I play?\nWill he/she/it play?\nWill we/you/they play?"
+    "positive": "I will continue.\nHe/She/It will continue.\nWe/You/They will continue.",
+    "negative": "I will not continue.\nHe/She/It will not continue.\nWe/You/They will not continue.",
+    "question": "Will I continue?\nWill he/she/it continue?\nWill we/you/they continue?"
   },
   "markers": [
     "tomorrow",
-    "next week / month / year",
-    "in the future",
     "soon",
     "later",
+    "next year",
+    "in the future",
     "one day"
   ],
-  "uses": [
-    "Предсказания: «You'll never be my type.»",
-    "Обещания: «I will always love you.»",
-    "Спонтанные решения: «I will help you.»",
-    "Уверенность: «It will be a hit.»"
-  ],
+  "uses": {
+    "title": "Когда используем Future Simple",
+    "items": [
+      {
+        "title": "Вопрос о будущем",
+        "text": "Will используется, чтобы спросить, что произойдёт дальше: \"Will you continue?\""
+      },
+      {
+        "title": "Решение",
+        "text": "Will может показать решение говорящего: \"I'll continue.\""
+      },
+      {
+        "title": "Прогноз",
+        "text": "Говорящий предполагает будущее: \"The band will continue.\""
+      },
+      {
+        "title": "Обещание",
+        "text": "Will может выражать обязательство: \"We will keep playing.\""
+      }
+    ]
+  },
   "rules": [
-    { "title": "Формула Future Simple", "text": "will + базовая форма глагола: I will play." },
-    { "title": "Для предсказаний", "text": "Используй will, когда предсказываешь будущее: You'll never change." },
-    { "title": "Для обещаний", "text": "Используй will, когда обещаешь: I will always love you." },
-    { "title": "Для спонтанных решений", "text": "Используй will, когда решаешь прямо сейчас: I'll help." }
+    {
+      "title": "Формула",
+      "text": "will + V1: \"The band will continue.\""
+    },
+    {
+      "title": "Одна форма",
+      "text": "Will не меняется по лицам."
+    },
+    {
+      "title": "После will — V1",
+      "text": "После will нет to и -s."
+    },
+    {
+      "title": "Отрицание",
+      "text": "will not / won't."
+    },
+    {
+      "title": "Вопрос",
+      "text": "Will + subject + V1."
+    }
   ],
   "examples": [
     {
-      "group": "Предсказания из песни",
+      "group": "Будущее группы",
       "items": [
-        { "en": "You'll never be my type.", "ru": "Ты никогда не будешь моим типом.", "highlight": ["will never be"] },
-        { "en": "You'll never change.", "ru": "Ты никогда не изменишься.", "highlight": ["will never change"] },
-        { "en": "I'll never change.", "ru": "Я никогда не изменюсь.", "highlight": ["will never change"] },
-        { "en": "They'll always remember this song.", "ru": "Они всегда будут помнить эту песню.", "highlight": ["will always remember"] },
-        { "en": "She'll never forget this night.", "ru": "Она никогда не забудет эту ночь.", "highlight": ["will never forget"] },
-        { "en": "He'll never admit he was wrong.", "ru": "Он никогда не признает, что был неправ.", "highlight": ["will never admit"] }
+        {
+          "en": "The band will continue.",
+          "ru": "Группа продолжит существовать.",
+          "highlight": ["will continue"]
+        },
+        {
+          "en": "The group will find a new form.",
+          "ru": "Группа найдёт новую форму.",
+          "highlight": ["will find"]
+        },
+        {
+          "en": "The songs will remain important.",
+          "ru": "Песни останутся важными.",
+          "highlight": ["will remain"]
+        },
+        {
+          "en": "The audience will remember Pete Shelley.",
+          "ru": "Аудитория будет помнить Пита Шелли.",
+          "highlight": ["will remember"]
+        }
       ]
     },
     {
-      "group": "Обещания",
+      "group": "Решение и обещание",
       "items": [
-        { "en": "I will always love you.", "ru": "Я всегда буду любить тебя.", "highlight": ["will always love"] },
-        { "en": "I will write a song for you.", "ru": "Я напишу песню для тебя.", "highlight": ["will write"] },
-        { "en": "We will play this song everywhere.", "ru": "Мы будем играть эту песню везде.", "highlight": ["will play"] },
-        { "en": "I will never stop singing.", "ru": "Я никогда не перестану петь.", "highlight": ["will never stop"] },
-        { "en": "I will call you when I get home.", "ru": "Я позвоню тебе, когда доберусь до дома.", "highlight": ["will call"] },
-        { "en": "I will always be there for you.", "ru": "Я всегда буду рядом с тобой.", "highlight": ["will always be"] }
-      ]
-    },
-    {
-      "group": "Отрицания",
-      "items": [
-        { "en": "They won't forget this song.", "ru": "Они не забудут эту песню.", "highlight": ["won't forget"] },
-        { "en": "I won't let you down.", "ru": "Я не подведу тебя.", "highlight": ["won't let"] },
-        { "en": "The band won't give up.", "ru": "Группа не сдастся.", "highlight": ["won't give"] },
-        { "en": "The song won't be forgotten.", "ru": "Песня не будет забыта.", "highlight": ["won't be forgotten"] },
-        { "en": "He won't change his mind.", "ru": "Он не передумает.", "highlight": ["won't change"] },
-        { "en": "She won't stay if you don't ask.", "ru": "Она не останется, если ты не попросишь.", "highlight": ["won't stay"] }
+        {
+          "en": "I'll continue.",
+          "ru": "Я продолжу.",
+          "highlight": ["I'll continue"]
+        },
+        {
+          "en": "We will keep playing.",
+          "ru": "Мы продолжим играть.",
+          "highlight": ["will keep"]
+        },
+        {
+          "en": "I will not stop.",
+          "ru": "Я не остановлюсь.",
+          "highlight": ["will not stop"]
+        },
+        {
+          "en": "We will keep the songs alive.",
+          "ru": "Мы сохраним эти песни живыми.",
+          "highlight": ["will keep"]
+        }
       ]
     },
     {
       "group": "Вопросы",
       "items": [
-        { "en": "Will people like this song?", "ru": "Людям понравится эта песня?", "highlight": ["Will"] },
-        { "en": "Will the band become famous?", "ru": "Группа станет знаменитой?", "highlight": ["Will"] },
-        { "en": "Will you remember this day?", "ru": "Ты запомнишь этот день?", "highlight": ["Will"] },
-        { "en": "Will they play this song tonight?", "ru": "Они сыграют эту песню сегодня?", "highlight": ["Will"] },
-        { "en": "Will he ever change his mind?", "ru": "Он когда-нибудь передумает?", "highlight": ["Will"] },
-        { "en": "Will she ever forgive me?", "ru": "Она когда-нибудь простит меня?", "highlight": ["Will"] }
-      ]
-    },
-    {
-      "group": "Спонтанные решения",
-      "items": [
-        { "en": "I'll buy the record.", "ru": "Я куплю пластинку.", "highlight": ["I'll"] },
-        { "en": "I'll listen to this song again.", "ru": "Я послушаю эту песню снова.", "highlight": ["I'll"] },
-        { "en": "I'll tell my friends about it.", "ru": "Я расскажу друзьям об этом.", "highlight": ["I'll"] },
-        { "en": "I'll go to the concert tonight.", "ru": "Я пойду на концерт сегодня.", "highlight": ["I'll"] },
-        { "en": "I'll call him right now.", "ru": "Я позвоню ему прямо сейчас.", "highlight": ["I'll"] },
-        { "en": "I'll answer that question.", "ru": "Я отвечу на этот вопрос.", "highlight": ["I'll"] }
-      ]
-    },
-    {
-      "group": "Уверенность в будущем",
-      "items": [
-        { "en": "The song will be remembered forever.", "ru": "Песня запомнится навсегда.", "highlight": ["will be remembered"] },
-        { "en": "Punk will never die.", "ru": "Панк никогда не умрёт.", "highlight": ["will never die"] },
-        { "en": "The music will live on.", "ru": "Музыка будет жить.", "highlight": ["will live"] },
-        { "en": "You'll never forget this show.", "ru": "Ты никогда не забудешь это шоу.", "highlight": ["will never forget"] },
-        { "en": "The song will be played for years.", "ru": "Песню будут играть годами.", "highlight": ["will be played"] },
-        { "en": "The band will be remembered.", "ru": "Группу запомнят.", "highlight": ["will be remembered"] }
+        {
+          "en": "Will you continue?",
+          "ru": "Вы продолжите?",
+          "highlight": ["Will you continue"]
+        },
+        {
+          "en": "Will they play the old songs?",
+          "ru": "Они будут играть старые песни?",
+          "highlight": ["Will they play"]
+        },
+        {
+          "en": "Will the band release another album?",
+          "ru": "Группа выпустит ещё один альбом?",
+          "highlight": ["Will the band release"]
+        },
+        {
+          "en": "Will they keep playing?",
+          "ru": "Они продолжат играть?",
+          "highlight": ["Will they keep"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I will to sing a song.", "right": "I will sing a song.", "note": "После will — базовая форма, без to." },
-    { "wrong": "He will sings a song.", "right": "He will sing a song.", "note": "После will — базовая форма, без -s." },
-    { "wrong": "I will not to play.", "right": "I will not play.", "note": "Отрицание: will not + базовая форма." },
-    { "wrong": "Will he plays tonight?", "right": "Will he play tonight?", "note": "После will — базовая форма." },
-    { "wrong": "I am will sing.", "right": "I will sing.", "note": "Не используй am/is/are с will." },
-    { "wrong": "I will go to the concert tomorrow.", "right": "I will go to the concert tomorrow.", "note": "Это правильно! Не путай с be going to." }
+    {
+      "wrong": "They will continues.",
+      "right": "They will continue.",
+      "note": "После will используется V1."
+    },
+    {
+      "wrong": "I will to continue.",
+      "right": "I will continue.",
+      "note": "После will не нужен to."
+    },
+    {
+      "wrong": "Will they continues?",
+      "right": "Will they continue?",
+      "note": "После will нет -s."
+    },
+    {
+      "wrong": "Are they will continue?",
+      "right": "Will they continue?",
+      "note": "Вопрос с will не требует am/is/are."
+    }
   ],
   "compare": {
-    "title": "Future Simple vs Be Going To",
-    "leftLabel": "Will (спонтанное решение / предсказание)",
-    "rightLabel": "Be Going To (план / предсказание по признакам)",
+    "title": "Will vs Be Going To",
+    "leftLabel": "will — решение / обещание / прогноз",
+    "rightLabel": "be going to — заранее принятое намерение",
     "rows": [
-      { "left": "I will play this song. (спонтанно)", "right": "I am going to play this song. (уже решил)" },
-      { "left": "It will be a hit. (мнение)", "right": "Look at the crowd! It is going to be a hit. (признаки)" },
-      { "left": "I will help you. (обещание)", "right": "I am going to help you. (уже запланировал)" },
-      { "left": "The band will succeed. (предсказание)", "right": "The band is going to succeed. (видно тенденцию)" }
+      {
+        "left": "I'll continue. (решение сейчас)",
+        "right": "I'm going to continue. (намерение уже есть)"
+      },
+      {
+        "left": "The band will continue. (прогноз)",
+        "right": "The band is going to continue. (есть существующий план)"
+      },
+      {
+        "left": "We will keep playing. (обещание)",
+        "right": "We are going to keep playing. (заранее принятое намерение)"
+      }
     ]
   },
   "tips": [
-    "Will — для предсказаний, обещаний и спонтанных решений.",
-    "Не используй will, если уже есть план (используй be going to).",
-    "Сокращение: I'll, you'll, he'll, she'll, we'll, they'll.",
-    "Отрицание: won't = will not.",
-    "В вопросах: Will he play? Will she sing?",
-    "Практикуйся: предскажи будущее с will."
+    "Will особенно естественно появляется, когда будущее обсуждается прямо сейчас.",
+    "Основные функции: вопрос, прогноз, решение и обещание.",
+    "После will всегда V1.",
+    "Won't = will not.",
+    "Заранее существующий план лучше сравнивать с be going to."
   ],
   "quiz": [
-    { "q": "Which is correct for a prediction?", "options": ["I am going to play.", "I will play.", "I play."], "answer": "I will play.", "why": "Предсказание — will." },
-    { "q": "What's the correct form: 'He ___ sing a song.'", "options": ["will", "is going", "will to"], "answer": "will", "why": "will + базовая форма." },
-    { "q": "Which is correct for a promise?", "options": ["I will help you.", "I help you.", "I am helping you."], "answer": "I will help you.", "why": "Обещание — will." },
-    { "q": "Which is correct?", "options": ["I will to play.", "I will play.", "I will playing."], "answer": "I will play.", "why": "will + базовая форма." },
-    { "q": "\"They ___ not come.\"", "options": ["will", "won't", "willn't"], "answer": "won't", "why": "won't = will not." },
-    { "q": "What does 'I will help you' mean?", "options": ["I plan to help.", "I promise to help (right now).", "I helped you."], "answer": "I promise to help (right now).", "why": "Спонтанное решение — will." }
+    {
+      "q": "Which sentence is a question about the future?",
+      "options": [
+        "Will you continue?",
+        "Did you continue?",
+        "Are you continued?"
+      ],
+      "answer": "Will you continue?",
+      "why": "Will открывает вопрос о будущем."
+    },
+    {
+      "q": "Choose the correct form.",
+      "options": [
+        "They will continue.",
+        "They will continues.",
+        "They will to continue."
+      ],
+      "answer": "They will continue.",
+      "why": "После will используется V1."
+    },
+    {
+      "q": "Which sentence can express a promise?",
+      "options": [
+        "We will keep playing.",
+        "We kept playing.",
+        "We were playing."
+      ],
+      "answer": "We will keep playing.",
+      "why": "Will может выражать обещание."
+    },
+    {
+      "q": "Which sentence is correct?",
+      "options": [
+        "I will not stop.",
+        "I will not to stop.",
+        "I will not stops."
+      ],
+      "answer": "I will not stop.",
+      "why": "После will not используется V1."
+    },
+    {
+      "q": "Which sentence is a prediction?",
+      "options": [
+        "The band will continue.",
+        "The band continued.",
+        "The band is continuing yesterday."
+      ],
+      "answer": "The band will continue.",
+      "why": "Говорящий предполагает будущее."
+    }
   ],
-  "related": ["a1-present-simple", "a2-be-going-to"]
+  "related": [
+    "a2-articles",
+    "a2-be-going-to"
+  ]
 }

@@ -1,173 +1,442 @@
 {
+  "variant": "classic",
   "slug": "a2-used-to",
   "level": "A2",
-  "title": "Used to — язык памяти и перемен",
+  "title": "Used to — раньше было иначе",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Джордж Элиот написала «Миддлмарч» в 1871 году. Доротея Брук живёт в маленьком городке. Она привыкла к тихой жизни. Она привыкла к правилам. Но всё меняется. Used to — это не просто грамматика. Это язык перемен. Язык того, что было, но прошло.",
-  "variant": "classic",
+  "readingTime": 8,
+  "summary": "Used to показывает привычку или состояние, которые были характерны для прошлого, но теперь изменились. Конструкция используется для контраста между тем, как было раньше, и тем, как стало сейчас.",
   "idea": [
-    "1871 год. Джордж Элиот пишет «Миддлмарч». Доротея Брук — молодая женщина. Она живёт в маленьком городке. Она привыкла к тихой жизни. Она привыкла к правилам. «I used to live in a quiet town» — я раньше жила в тихом городке. «I used to believe in simple things» — я раньше верила в простые вещи. «I didn't use to think about change» — я раньше не думала о переменах.",
-    "Used to — это не просто грамматика. Это язык перемен. Доротея меняется. Она выходит замуж. Она разочаровывается. Она понимает, что жизнь не такая, как она привыкла. «I used to be naive» — я раньше была наивной. «Now I am wise» — теперь я мудра.",
-    "Элиот показывает: used to — это контраст между прошлом и настоящим. «She used to believe in love» — она раньше верила в любовь. «She used to trust people» — она раньше доверяла людям. Но всё изменилось. Used to — это память о том, что было. И напоминание о том, что есть сейчас."
-    ],
+    "Иногда прошлое важно не потому, что оно произошло, а потому, что теперь всё иначе. Именно для такого контраста английский использует [bold]used to[/bold]. Конструкция показывает привычку или состояние, характерные для прошлого, но больше не являющиеся обычной реальностью.",
+    "Разница особенно хорошо видна на двух простых мыслях: [bold]I worked there[/bold] сообщает о факте прошлого, а [bold]I used to work there[/bold] сразу создаёт контраст с настоящим: раньше я там работал, теперь — нет. Used to поэтому часто звучит как маленькое слово о перемене.",
+    "С Виктором Гюго этот смысл особенно естественен. Работа над Les Misérables была не прямой линией. Гюго начал роман в 1840-х, затем остановил работу из-за политических событий и вернулся к рукописи только много лет спустя. В 1860 году он буквально записал момент возвращения: [bold]I have resumed writing Les Misérables[/bold]. Это уже не used to, потому что здесь говорится о конкретном возвращении к работе.",
+    "Но вокруг этого события существовал и другой слой — привычный способ работы писателя. В англоязычных описаниях жизни Гюго встречается [bold]Victor Hugo used to write standing up[/bold]. Здесь used to не рассказывает об одном эпизоде. Оно показывает привычку прошлого: Гюго обычно писал стоя.",
+    "Именно поэтому used to нельзя автоматически заменять обычным Past Simple. [bold]Hugo wrote Les Misérables in Guernsey[/bold] сообщает о прошлом факте. [bold]Hugo used to write standing up[/bold] сообщает о привычном способе работы. Во втором предложении чувствуется повторяемость.",
+    "У конструкции есть и вторая важная функция — прошлое состояние. Можно сказать [bold]The manuscript was unfinished[/bold], если нас интересует факт. Но [bold]The project used to be unfinished[/bold] подчёркивает, что это состояние существовало раньше, а затем изменилось. Used to особенно полезна, когда сегодняшняя ситуация является результатом перемены.",
+    "Отрицание строится просто: [bold]Hugo didn't use to work on the novel[/bold]. После did появляется обычная форма use, без окончания -d. Вопрос устроен так же: [bold]Did Hugo use to write every day?[/bold]. В речи часто встречается и форма [bold]used to[/bold] в утвердительном предложении.",
+    "В истории Les Misérables это различие особенно заметно. Гюго когда-то работал над рукописью, затем долго к ней не возвращался, а потом снова начал писать. Поэтому used to помогает смотреть не на отдельную дату, а на прежний режим жизни и работы: раньше это было привычно или нормально, теперь ситуация изменилась.",
+    "Главный смысл used to — не «давно». В предложении [bold]I used to live in Paris[/bold] главное не то, что это было давно, а то, что теперь говорящий живёт не в Париже. [bold]I used to write every morning[/bold] означает, что такая привычка была характерна для прошлого. Конструкция всегда несёт идею изменения."
+  ],
   "why": [
-    "Говорить о прошлых привычках: «I used to live in London.»",
-    "Говорить о прошлых состояниях: «She used to be a teacher.»",
-    "Говорить о том, что изменилось: «I used to smoke, but I quit.»",
-    "Говорить о том, чего не было раньше: «We didn't use to have much money.»"
+    "Говорить о привычках прошлого, которых сейчас нет: «I used to write every morning».",
+    "Описывать прошлое состояние, которое изменилось: «I used to live there».",
+    "Показывать контраст между прошлым и настоящим.",
+    "Отличать повторяющуюся привычку от одного завершённого события."
   ],
   "context": {
     "lines": [
-      { "en": "Dorothea: I used to live in a quiet town. I used to believe in simple things.", "ru": "Доротея: Я раньше жила в тихом городке. Я раньше верила в простые вещи." },
-      { "en": "Friend: Did you use to dream about a different life?", "ru": "Подруга: Ты раньше мечтала о другой жизни?" },
-      { "en": "Dorothea: Yes. I used to dream about adventure. Now I know life changes.", "ru": "Доротея: Да. Я раньше мечтала о приключениях. Теперь я знаю, что жизнь меняется." },
-      { "en": "Friend: And now? Do you still dream?", "ru": "Подруга: А сейчас? Ты всё ещё мечтаешь?" },
-      { "en": "Dorothea: Now I am wise. I used to be naive. But I don't regret it.", "ru": "Доротея: Теперь я мудра. Я раньше была наивной. Но я не жалею об этом." }
+      {
+        "en": "Victor Hugo used to write standing up.",
+        "ru": "Виктор Гюго раньше писал стоя."
+      },
+      {
+        "en": "Hugo used to write from early in the morning.",
+        "ru": "Гюго раньше начинал писать с самого утра."
+      },
+      {
+        "en": "He stopped working on the manuscript in 1848.",
+        "ru": "Он прекратил работу над рукописью в 1848 году."
+      },
+      {
+        "en": "He resumed writing Les Misérables in 1860.",
+        "ru": "Он возобновил работу над Les Misérables в 1860 году."
+      },
+      {
+        "en": "The project used to be unfinished.",
+        "ru": "Раньше проект оставался незавершённым."
+      }
     ],
-    "note": "Доротея говорит о своей жизни. Used to в действии."
+    "note": "Культурная история основана на C56: длительная работа Виктора Гюго над Les Misérables, остановка проекта и возвращение к рукописи. Источники проекта — письма и биографические материалы."
   },
   "russianAngle": [
-    "В русском мы говорим «раньше я жил в Лондоне». В английском — «I used to live in London.»",
-    "Used to — только для прошлого. Не используй для настоящего.",
-    "Ошибка: I used to live in London now. (неправильно) → I used to live in London, but now I live in Paris.",
-    "В вопросах и отрицаниях: Did you use to live in London? I didn't use to live in London."
+    "Русское «раньше» само по себе не показывает грамматическую форму. В английском для привычки или состояния прошлого используется used to.",
+    "I worked there = я там работал. I used to work there = раньше я там работал, но теперь уже нет.",
+    "После used to используется обычная форма глагола: used to write, used to live, used to work.",
+    "В вопросе и отрицании после did используется use: Did you use to...? / I didn't use to....",
+    "Used to говорит о прошлом, которое отличается от настоящего. Если такой контраст не нужен, часто достаточно Past Simple."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: used to + V1 (базовая форма глагола).",
-      "Used to — только для прошлого (того, что уже не актуально).",
-      "В вопросах: Did you use to...?",
-      "В отрицаниях: I didn't use to...",
-      "Потренируйся на примерах из урока."
+      "Найди действие или состояние в прошлом.",
+      "Спроси себя: это было привычно или продолжалось некоторое время?",
+      "Проверь, изменилось ли это сейчас.",
+      "Если да, используй used to + V1.",
+      "В вопросе используй Did + subject + use to + V1.",
+      "В отрицании используй didn't use to + V1."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму used to (как в истории с «Миддлмарчем»):",
+      "prompt": "Выбери правильную форму:",
       "items": [
-        { "q": "I ___ (live) in a quiet town.", "a": "used to live" },
-        { "q": "She ___ (be) a teacher.", "a": "used to be" },
-        { "q": "We ___ (not / have) much money.", "a": "didn't use to have" },
-        { "q": "___ you ___ (dream) about adventure?", "a": "Did, use to dream" },
-        { "q": "They ___ (play) in small clubs.", "a": "used to play" }
+        {
+          "q": "Hugo ___ write standing up.",
+          "a": "used to"
+        },
+        {
+          "q": "Did he ___ write every morning?",
+          "a": "use to"
+        },
+        {
+          "q": "He didn't ___ work on the manuscript.",
+          "a": "use to"
+        },
+        {
+          "q": "I ___ live in Paris.",
+          "a": "used to"
+        },
+        {
+          "q": "They ___ work together.",
+          "a": "used to"
+        }
       ]
     }
   },
   "formula": "Subject + used to + V1",
   "structure": {
-    "positive": "I used to live in London.",
-    "negative": "I didn't use to live in London.",
-    "question": "Did you use to live in London?"
+    "positive": "I/You/He/She/We/They used to write.",
+    "negative": "I/You/He/She/We/They didn't use to write.",
+    "question": "Did I/you/he/she/we/they use to write?"
   },
   "markers": [
     "used to",
-    "didn't use to",
-    "did you use to",
-    "in the past",
     "when I was young",
-    "before"
+    "in the past",
+    "years ago",
+    "before",
+    "once"
   ],
   "uses": [
-    "Прошлые привычки: «I used to live in London.»",
-    "Прошлые состояния: «She used to be a teacher.»",
-    "Изменения: «I used to smoke, but I quit.»",
-    "То, чего не было: «We didn't use to have much money.»"
+    "Прошлая привычка: «I used to write every morning.»",
+    "Прошлое состояние: «I used to live there.»",
+    "Контраст с настоящим: «I used to work there, but I don't anymore.»",
+    "Повторяющееся действие в прошлом: «They used to meet every week.»"
   ],
   "rules": [
-    { "title": "Used to — прошлые привычки", "text": "Используй used to для привычек, которые были в прошлом, но изменились: I used to live in London." },
-    { "title": "Used to — прошлые состояния", "text": "Используй used to для состояний, которые были в прошлом: She used to be a teacher." },
-    { "title": "Отрицание", "text": "Используй didn't use to + V1: I didn't use to like coffee." },
-    { "title": "Вопросы", "text": "Используй Did + subject + use to + V1: Did you use to live in London?" }
+    {
+      "title": "Прошлая привычка",
+      "text": "Used to + V1 показывает действие, которое регулярно происходило в прошлом, но теперь больше не является привычным: «I used to write every morning.»"
+    },
+    {
+      "title": "Прошлое состояние",
+      "text": "Used to используется и для состояний: «I used to live in Paris», «She used to be a teacher»."
+    },
+    {
+      "title": "Контраст с настоящим",
+      "text": "Главная идея used to — изменение. Говорящий сообщает о прошлом состоянии или привычке, которые отличаются от настоящего."
+    },
+    {
+      "title": "Вопрос и отрицание",
+      "text": "После did используется форма use: «Did you use to work here?» и «I didn't use to work here.»"
+    }
   ],
   "examples": [
     {
       "group": "Прошлые привычки",
       "items": [
-        { "en": "I used to live in a quiet town.", "ru": "Я раньше жил в тихом городке — и это было спокойно.", "highlight": ["used to live"] },
-        { "en": "She used to walk in the fields every day.", "ru": "Она раньше гуляла по полям каждый день — и это было её счастье.", "highlight": ["used to walk"] },
-        { "en": "They used to have dinner at 6 o'clock.", "ru": "Они раньше ужинали в 6 часов — и это было традицией.", "highlight": ["used to have"] },
-        { "en": "We used to read books in the garden.", "ru": "Мы раньше читали книги в саду — и это было наше время.", "highlight": ["used to read"] }
+        {
+          "en": "Hugo used to write standing up.",
+          "ru": "Гюго раньше писал стоя.",
+          "highlight": ["used to write"]
+        },
+        {
+          "en": "He used to work in the morning.",
+          "ru": "Он раньше работал по утрам.",
+          "highlight": ["used to work"]
+        },
+        {
+          "en": "He used to read his manuscript again and again.",
+          "ru": "Он раньше снова и снова перечитывал рукопись.",
+          "highlight": ["used to read"]
+        },
+        {
+          "en": "Writers used to work with quills.",
+          "ru": "Писатели раньше работали перьями.",
+          "highlight": ["used to work"]
+        },
+        {
+          "en": "He used to spend long hours at his desk.",
+          "ru": "Он раньше проводил долгие часы за письменным столом.",
+          "highlight": ["used to spend"]
+        },
+        {
+          "en": "The writer used to keep his manuscripts nearby.",
+          "ru": "Писатель раньше держал рукописи рядом.",
+          "highlight": ["used to keep"]
+        }
       ]
     },
     {
       "group": "Прошлые состояния",
       "items": [
-        { "en": "I used to be naive.", "ru": "Я раньше был наивным — и я об этом не жалею.", "highlight": ["used to be"] },
-        { "en": "She used to be a teacher.", "ru": "Она раньше была учительницей — и она была хорошей.", "highlight": ["used to be"] },
-        { "en": "They used to be happy.", "ru": "Они раньше были счастливы — и они это помнят.", "highlight": ["used to be"] },
-        { "en": "He used to believe in simple things.", "ru": "Он раньше верил в простые вещи — и это было прекрасно.", "highlight": ["used to believe"] }
+        {
+          "en": "The manuscript used to be unfinished.",
+          "ru": "Раньше рукопись была незавершённой.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "Hugo used to be away from France.",
+          "ru": "Раньше Гюго находился вдали от Франции.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "The project used to be on hold.",
+          "ru": "Раньше проект был приостановлен.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "He used to be busy with other work.",
+          "ru": "Раньше он был занят другой работой.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "The novel used to have another title.",
+          "ru": "У романа раньше было другое название.",
+          "highlight": ["used to have"]
+        },
+        {
+          "en": "Hugo used to live in exile.",
+          "ru": "Гюго раньше жил в изгнании.",
+          "highlight": ["used to live"]
+        }
       ]
     },
     {
-      "group": "Отрицания",
+      "group": "Отрицание",
       "items": [
-        { "en": "I didn't use to think about change.", "ru": "Я раньше не думал о переменах — и они пришли.", "highlight": ["didn't use to think"] },
-        { "en": "She didn't use to have many friends.", "ru": "У неё раньше не было много друзей — и она страдала.", "highlight": ["didn't use to have"] },
-        { "en": "They didn't use to live in the city.", "ru": "Они раньше не жили в городе — и они его не любили.", "highlight": ["didn't use to live"] },
-        { "en": "We didn't use to have much money.", "ru": "У нас раньше не было много денег — и мы были счастливы.", "highlight": ["didn't use to have"] }
+        {
+          "en": "Hugo didn't use to work on the novel during the interruption.",
+          "ru": "Во время перерыва Гюго не работал над романом.",
+          "highlight": ["didn't use to work"]
+        },
+        {
+          "en": "He didn't use to live in Guernsey.",
+          "ru": "Раньше он не жил на Гернси.",
+          "highlight": ["didn't use to live"]
+        },
+        {
+          "en": "The project didn't use to have its final title.",
+          "ru": "Раньше у проекта не было его окончательного названия.",
+          "highlight": ["didn't use to have"]
+        },
+        {
+          "en": "He didn't use to work on the manuscript every year.",
+          "ru": "Он не работал над рукописью каждый год.",
+          "highlight": ["didn't use to work"]
+        },
+        {
+          "en": "The writer didn't use to work in the same place.",
+          "ru": "Раньше писатель не работал в одном и том же месте.",
+          "highlight": ["didn't use to work"]
+        },
+        {
+          "en": "He didn't use to spend all his time on the novel.",
+          "ru": "Раньше он не посвящал всё своё время роману.",
+          "highlight": ["didn't use to spend"]
+        }
       ]
     },
     {
       "group": "Вопросы",
       "items": [
-        { "en": "Did you use to live in London?", "ru": "Ты раньше жил в Лондоне? — Я хочу знать.", "highlight": ["Did you use to"] },
-        { "en": "Did she use to be a teacher?", "ru": "Она раньше была учительницей? — Она была замечательной.", "highlight": ["Did she use to"] },
-        { "en": "Did they use to have dinner at 6?", "ru": "Они раньше ужинали в 6? — Это был их ритуал.", "highlight": ["Did they use to"] },
-        { "en": "Did you use to believe in simple things?", "ru": "Ты раньше верил в простые вещи? — И я тоже.", "highlight": ["Did you use to"] }
+        {
+          "en": "Did Hugo use to write every morning?",
+          "ru": "Гюго раньше писал каждое утро?",
+          "highlight": ["Did Hugo use to write"]
+        },
+        {
+          "en": "Did he use to work on the manuscript every day?",
+          "ru": "Он раньше работал над рукописью каждый день?",
+          "highlight": ["Did he use to work"]
+        },
+        {
+          "en": "Did Hugo use to write standing up?",
+          "ru": "Гюго раньше писал стоя?",
+          "highlight": ["Did Hugo use to write"]
+        },
+        {
+          "en": "Did the project use to have another name?",
+          "ru": "У проекта раньше было другое название?",
+          "highlight": ["Did the project use to have"]
+        },
+        {
+          "en": "Did he use to live in France?",
+          "ru": "Он раньше жил во Франции?",
+          "highlight": ["Did he use to live"]
+        },
+        {
+          "en": "Did they use to work together?",
+          "ru": "Они раньше работали вместе?",
+          "highlight": ["Did they use to work"]
+        }
       ]
     },
     {
-      "group": "Изменения в жизни",
+      "group": "Раньше и теперь",
       "items": [
-        { "en": "I used to smoke, but I quit.", "ru": "Я раньше курил, но бросил — и это было трудно.", "highlight": ["used to"] },
-        { "en": "She used to be shy, but now she's confident.", "ru": "Она раньше была застенчивой, но теперь уверена — и это видно.", "highlight": ["used to"] },
-        { "en": "We used to live in a small house, but now we have a big one.", "ru": "Мы раньше жили в маленьком доме, но теперь у нас большой — и мы счастливы.", "highlight": ["used to"] },
-        { "en": "He used to work in a factory, but now he's a writer.", "ru": "Он раньше работал на фабрике, но теперь он писатель — и он счастлив.", "highlight": ["used to"] }
-      ]
-    },
-    {
-      "group": "То, чего не было раньше",
-      "items": [
-        { "en": "We didn't use to have a car.", "ru": "У нас раньше не было машины — и мы ходили пешком.", "highlight": ["didn't use to have"] },
-        { "en": "She didn't use to like reading.", "ru": "Она раньше не любила читать — но теперь не оторваться.", "highlight": ["didn't use to like"] },
-        { "en": "They didn't use to travel.", "ru": "Они раньше не путешествовали — но теперь они везде.", "highlight": ["didn't use to travel"] },
-        { "en": "I didn't use to think about the future.", "ru": "Я раньше не думал о будущем — но теперь я планирую.", "highlight": ["didn't use to think"] }
+        {
+          "en": "Hugo used to write standing up, but his working life changed over time.",
+          "ru": "Гюго раньше писал стоя, но со временем его рабочая жизнь изменилась.",
+          "highlight": ["used to write"]
+        },
+        {
+          "en": "The project used to be unfinished, but Hugo returned to it.",
+          "ru": "Раньше проект был незавершённым, но Гюго вернулся к нему.",
+          "highlight": ["used to be"]
+        },
+        {
+          "en": "He used to work on the manuscript, then he stopped.",
+          "ru": "Он раньше работал над рукописью, затем остановился.",
+          "highlight": ["used to work"]
+        },
+        {
+          "en": "He used to live in France, but later he lived in exile.",
+          "ru": "Раньше он жил во Франции, но позже оказался в изгнании.",
+          "highlight": ["used to live"]
+        },
+        {
+          "en": "The novel used to have another title, but it became Les Misérables.",
+          "ru": "У романа раньше было другое название, но затем он стал Les Misérables.",
+          "highlight": ["used to have"]
+        },
+        {
+          "en": "His routine used to be different from his later routine.",
+          "ru": "Его привычный распорядок раньше отличался от более позднего.",
+          "highlight": ["used to be"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I used to live in London now.", "right": "I used to live in London, but now I live in Paris.", "note": "Used to — только для прошлого." },
-    { "wrong": "I used to go to school every day. (это всё ещё актуально)", "right": "I go to school every day.", "note": "Если привычка всё ещё актуальна — используй Present Simple." },
-    { "wrong": "I didn't used to live in London.", "right": "I didn't use to live in London.", "note": "После didn't — use to." },
-    { "wrong": "Did you used to live in London?", "right": "Did you use to live in London?", "note": "После did — use to." },
-    { "wrong": "I used to be a teacher, but I still am.", "right": "I used to be a teacher, but now I'm a writer.", "note": "Used to — только для того, что изменилось." },
-    { "wrong": "I use to live in London.", "right": "I used to live in London.", "note": "Для прошлого — used to, а не use to." }
+    {
+      "wrong": "He use to write every morning.",
+      "right": "He used to write every morning.",
+      "note": "В утвердительном предложении используется used to."
+    },
+    {
+      "wrong": "Did he used to write every morning?",
+      "right": "Did he use to write every morning?",
+      "note": "После did используется базовая форма use."
+    },
+    {
+      "wrong": "He didn't used to work there.",
+      "right": "He didn't use to work there.",
+      "note": "После did/didn't используется use."
+    },
+    {
+      "wrong": "He used to wrote every morning.",
+      "right": "He used to write every morning.",
+      "note": "После used to используется V1."
+    },
+    {
+      "wrong": "He used to working every morning.",
+      "right": "He used to work every morning.",
+      "note": "После used to не используется -ing."
+    },
+    {
+      "wrong": "He used to work there yesterday.",
+      "right": "He worked there yesterday.",
+      "note": "Used to не используется для одного конкретного завершённого события."
+    }
   ],
   "compare": {
-    "title": "Used To vs Present Simple",
-    "leftLabel": "Used To (прошлые привычки)",
-    "rightLabel": "Present Simple (настоящие привычки)",
+    "title": "Used to vs Past Simple",
+    "leftLabel": "Used to",
+    "centerLabel": "Past Simple",
+    "rightLabel": "Смысл",
     "rows": [
-      { "left": "I used to live in London.", "right": "I live in Paris now." },
-      { "left": "She used to be a teacher.", "right": "She is a writer now." },
-      { "left": "We used to have a small house.", "right": "We have a big house now." },
-      { "left": "I used to smoke, but I quit.", "right": "I don't smoke now." }
+      {
+        "left": "I used to work there.",
+        "center": "I worked there.",
+        "right": "привычка/состояние в прошлом"
+      },
+      {
+        "left": "I used to live there.",
+        "center": "I lived there in 2010.",
+        "right": "прошлое состояние / конкретный период"
+      },
+      {
+        "left": "He used to write every morning.",
+        "center": "He wrote yesterday.",
+        "right": "повторяемость / один случай"
+      },
+      {
+        "left": "She used to be a teacher.",
+        "center": "She was a teacher in 2015.",
+        "right": "прежнее состояние / факт"
+      }
     ]
   },
   "tips": [
-    "Used to — только для прошлых привычек и состояний.",
-    "Если привычка всё ещё актуальна — используй Present Simple.",
-    "Отрицание: didn't use to + V1.",
-    "Вопросы: Did you use to + V1?",
-    "Used to показывает, что что-то изменилось.",
-    "Практикуйся: говори о том, что изменилось в твоей жизни."
+    "Used to = раньше было так, а теперь иначе.",
+    "После used to — V1.",
+    "После did/didn't — use to, без -d.",
+    "Used to подходит для привычек и состояний.",
+    "Для одного конкретного события используй Past Simple.",
+    "Главный смысл конструкции — контраст прошлого и настоящего."
   ],
   "quiz": [
-    { "q": "Which is correct for a past habit?", "options": ["I live in London.", "I used to live in London.", "I am living in London."], "answer": "I used to live in London.", "why": "Used to для прошлых привычек." },
-    { "q": "Which is correct for the negative?", "options": ["I didn't used to live.", "I didn't use to live.", "I used not to live."], "answer": "I didn't use to live.", "why": "После didn't — use to." },
-    { "q": "Which is correct for a question?", "options": ["Did you used to live?", "Did you use to live?", "Used you to live?"], "answer": "Did you use to live?", "why": "После did — use to." },
-    { "q": "What does 'I used to smoke' mean?", "options": ["I smoke now.", "I smoked in the past but don't now.", "I will smoke later."], "answer": "I smoked in the past but don't now.", "why": "Used to — прошлое, которое изменилось." },
-    { "q": "Which is correct: 'She ___ to be a teacher.'", "options": ["use", "used", "using"], "answer": "used", "why": "Used to для прошлых состояний." },
-    { "q": "Which is correct: 'I ___ to live in London, but now I live in Paris.'", "options": ["use", "used", "using"], "answer": "used", "why": "Used to для прошлого, которое изменилось." }
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "I used to live there.",
+        "I use to lived there.",
+        "I used to living there."
+      ],
+      "answer": "I used to live there.",
+      "why": "После used to используется V1."
+    },
+    {
+      "q": "Choose the correct question:",
+      "options": [
+        "Did he used to write?",
+        "Did he use to write?",
+        "Did he use to wrote?"
+      ],
+      "answer": "Did he use to write?",
+      "why": "После did используется use to + V1."
+    },
+    {
+      "q": "What does 'I used to work there' imply?",
+      "options": [
+        "I work there now.",
+        "I worked there in the past, but not now.",
+        "I am working there today."
+      ],
+      "answer": "I worked there in the past, but not now.",
+      "why": "Used to показывает изменение между прошлым и настоящим."
+    },
+    {
+      "q": "Which sentence describes a repeated past habit?",
+      "options": [
+        "He wrote one letter yesterday.",
+        "He used to write every morning.",
+        "He is writing now."
+      ],
+      "answer": "He used to write every morning.",
+      "why": "Used to показывает привычное действие прошлого."
+    },
+    {
+      "q": "Complete: He didn't ___ work there.",
+      "options": [
+        "used to",
+        "use to",
+        "use"
+      ],
+      "answer": "use to",
+      "why": "После didn't используется use to."
+    },
+    {
+      "q": "Which sentence is better for one finished event?",
+      "options": [
+        "He used to visit Paris yesterday.",
+        "He visited Paris yesterday.",
+        "He use to visit Paris yesterday."
+      ],
+      "answer": "He visited Paris yesterday.",
+      "why": "Один конкретный завершённый эпизод требует Past Simple."
+    }
   ],
-  "related": ["a1-past-simple", "a1-present-simple"]
+  "related": [
+    "a2-past-simple",
+    "a2-past-continuous"
+  ]
 }

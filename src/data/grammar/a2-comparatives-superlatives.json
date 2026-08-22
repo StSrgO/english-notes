@@ -1,173 +1,390 @@
 {
+  "variant": "classic",
   "slug": "a2-comparatives-superlatives",
   "level": "A2",
-  "title": "Comparatives and Superlatives — язык сравнения",
+  "title": "Comparatives & Superlatives",
   "category": "Grammar",
   "readingTime": 8,
-  "summary": "Сирано де Бержерак живёт в мире сравнений. Он сравнивает свой нос с чужими, свою храбрость с трусостью, свою любовь с ненавистью. Comparatives и superlatives — это не просто грамматика. Это язык самооценки. Язык того, как мы видим себя и других.",
-  "variant": "classic",
+  "summary": "Comparatives сравнивают два объекта или показывают разницу между ними. Superlatives выделяют один объект как самый или наименее выраженный по определённому признаку среди группы.",
   "idea": [
-    "Эдмон Ростан пишет пьесу. Главный герой — Сирано. Он поэт, дуэлянт, философ. Он считает себя уродливым. Нос — слишком большой. Он живёт в мире сравнений. «Christian is more handsome than me» — Кристиан красивее. «Roxane is more beautiful than the sun» — Роксана прекраснее солнца. «My nose is larger than anyone else's» — мой нос больше, чем у кого-либо.",
-    "Сравнения — это не просто описание. Это трагедия Сирано. Он видит, что проигрывает. Кристиан красивее, моложе, выше. Но Сирано умнее. «I am more intelligent than Christian» — я умнее. Его слова сильнее. «My words are more powerful than his sword» — мои слова сильнее его шпаги. Но что важнее? Красота или ум? Ростан показывает: сравнения — это всегда выбор. И Сирано выбирает поэзию.",
-    "Comparatives помогают нам сравнивать двух людей или вещи. «Siranot is more talented than Christian» — Сирано талантливее. Superlatives показывают превосходство над всеми. «Siranot is the most honourable man in France» — Сирано — самый честный человек во Франции. Это не просто грамматика. Это способ сказать: «Я лучше в этом, но хуже в том»."
-    ],
+    "В 1958 году Олдос Хаксли вернулся к миру, который придумал почти тридцать лет назад. В Brave New World он описал будущее, в котором общество управляется не только силой, но и удовольствием, привычкой и контролем желаний. В Brave New World Revisited он уже смотрит на этот мир из другой точки времени: часть того, что раньше казалось далёким предупреждением, теперь выглядит ближе. Поэтому Хаксли постоянно сравнивает разные состояния общества. Когда нам нужно показать, что один объект обладает признаком в большей или меньшей степени, английский использует comparative: [bold]more powerful[/bold], [bold]less optimistic[/bold], [bold]more effective[/bold]. Сравниваются две вещи или две степени одного признака.",
+    "Хаксли не просто говорит, что одна система хорошая, а другая плохая. Он пытается определить, чем именно они отличаются. Например, одна форма общественного устройства может быть [bold]more stable[/bold] than another — более стабильной, чем другая. Какая-то опасность может стать [bold]more serious[/bold] over time — более серьёзной. А прогноз автора может оказаться [bold]less optimistic[/bold] than it was before — менее оптимистичным, чем раньше. Важное слово здесь — than: оно часто появляется после comparative, когда мы прямо называем второй объект сравнения.",
+    "Для коротких прилагательных comparative обычно образуется с -er: [bold]faster[/bold], [bold]smaller[/bold], [bold]stronger[/bold]. Для длинных прилагательных используется more: [bold]more dangerous[/bold], [bold]more effective[/bold], [bold]more important[/bold]. Для меньшей степени используется less: [bold]less effective[/bold], [bold]less optimistic[/bold], [bold]less predictable[/bold]. Это особенно полезно в истории Хаксли, потому что он не только усиливает характеристику, но и показывает её ослабление.",
+    "Хаксли также сравнивает собственную антиутопию с другими представлениями о будущем. Здесь возникает ещё один важный смысл: comparative позволяет не просто описать объект, а построить аргумент. [bold]Brave New World is different from 1984[/bold] — это ещё не объяснение. [bold]One system may be more effective than another[/bold] уже задаёт вопрос: почему? Сравнение заставляет читателя смотреть на два варианта одновременно.",
+    "Superlative работает иначе. Comparative отвечает на вопрос «какой из двух больше, меньше, сильнее или слабее?». Superlative выделяет один объект среди трёх и более: [bold]the most important[/bold], [bold]the most dangerous[/bold], [bold]the least effective[/bold]. Поэтому the most important argument означает не просто «более важный аргумент», а «самый важный аргумент среди рассматриваемых».",
+    "У Хаксли такой переход особенно заметен, когда он говорит уже не о двух вариантах, а о целом наборе возможных угроз и способов контроля. [bold]The most dangerous form of control[/bold] означает, что среди нескольких форм контроля одна выделяется как наиболее опасная. [bold]The least obvious method[/bold] — наименее очевидный метод. Superlative делает сравнение завершённым: мы выбираем один элемент из группы.",
+    "Есть и несколько неправильных форм, которые нужно запомнить отдельно. good становится [bold]better[/bold], bad — [bold]worse[/bold], far — [bold]farther[/bold] или [bold]further[/bold] в зависимости от значения. Нельзя сказать gooder или badder в стандартном английском. С superlative получаем [bold]the best[/bold] и [bold]the worst]. Артикль the здесь важен: [bold]the best example[/bold] означает «лучший пример из группы».",
+    "История Хаксли поэтому хорошо показывает разницу между сравнением и оценкой. Когда он сопоставляет два общества, две книги или два возможных будущих, ему нужен comparative. Когда он выделяет один вариант среди нескольких, нужен superlative. Грамматика здесь повторяет сам способ мышления автора: сначала увидеть различие, затем определить степень, а потом решить, какой вариант занимает крайнее положение."
+  ],
   "why": [
-    "Сравнивать людей и вещи: «Christian is more handsome than Cyrano.»",
-    "Говорить о превосходстве: «Roxane is the most beautiful woman in Paris.»",
-    "Описывать качества: «Cyrano is more intelligent than Christian.»",
-    "Выражать выбор: «I am better with words than with a sword.»"
+    "Сравнивать два объекта: «This system is more stable than that one.»",
+    "Показывать большую или меньшую степень признака: «The situation is less predictable than before.»",
+    "Выделять один объект среди группы: «This is the most serious problem.»",
+    "Говорить о крайних значениях: «This is the least effective method.»"
   ],
   "context": {
     "lines": [
-      { "en": "Cyrano: Christian is more handsome than me. Roxane is more beautiful than the sun. But my words are more powerful than his sword.", "ru": "Сирано: Кристиан красивее меня. Роксана прекраснее солнца. Но мои слова сильнее его шпаги." },
-      { "en": "Christian: You are more intelligent than me. Your soul is the most beautiful thing I know.", "ru": "Кристиан: Ты умнее меня. Твоя душа — самое красивое, что я знаю." },
-      { "en": "Cyrano: My nose is larger than anyone's. But my heart is larger too.", "ru": "Сирано: Мой нос больше, чем у кого-либо. Но моё сердце тоже больше." }
+      {
+        "en": "Huxley returned to the ideas of Brave New World in Brave New World Revisited.",
+        "ru": "Хаксли вернулся к идеям Brave New World в Brave New World Revisited."
+      },
+      {
+        "en": "He was less optimistic about the future than he had been before.",
+        "ru": "Он был менее оптимистичен насчёт будущего, чем раньше."
+      },
+      {
+        "en": "He compared different forms of social control.",
+        "ru": "Он сравнивал разные формы общественного контроля."
+      },
+      {
+        "en": "Some forms of control can be more effective than others.",
+        "ru": "Некоторые формы контроля могут быть эффективнее других."
+      },
+      {
+        "en": "The most dangerous systems are not always the most violent ones.",
+        "ru": "Самые опасные системы не всегда самые жестокие."
+      },
+      {
+        "en": "A society can become less free without becoming more violent.",
+        "ru": "Общество может стать менее свободным, не становясь более жестоким."
+      }
     ],
-    "note": "Сирано и Кристиан сравнивают себя друг с другом. Comparatives и superlatives в действии."
+    "note": "История строится вокруг возвращения Хаксли к собственной антиутопии и его сравнительного анализа разных форм общественного контроля. Английские предложения в этом блоке являются учебными примерами, а не прямыми цитатами Хаксли."
   },
   "russianAngle": [
-    "В русском мы говорим «красивее» и «самый красивый». В английском — «more beautiful» и «the most beautiful».",
-    "Для коротких прилагательных (односложных) добавляем -er и -est: tall → taller → the tallest.",
-    "Для длинных прилагательных (двух- и более слогов) используем more и the most: beautiful → more beautiful → the most beautiful.",
-    "Исключения: good → better → the best, bad → worse → the worst."
+    "В русском сравнительная степень часто выражается отдельным словом: «более опасный», «менее эффективный». В английском для этого используются -er, more и less.",
+    "После comparative часто появляется than: «more dangerous than», «less effective than». Русское «чем» соответствует английскому than.",
+    "Не путай comparative и superlative: «more important» — более важный, а «the most important» — самый важный.",
+    "В superlative перед most/least обычно нужен the: «the most dangerous», «the least effective»."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: сравнительная степень (comparative) — для сравнения двух вещей.",
-      "Превосходная степень (superlative) — для сравнения трёх и более.",
-      "Короткие прилагательные: -er, -est (tall, taller, tallest).",
-      "Длинные прилагательные: more, the most (beautiful, more beautiful, the most beautiful).",
-      "Исключения: good → better → the best, bad → worse → the worst.",
-      "Потренируйся на примерах из урока."
+      "Сначала спроси себя: сравниваются два объекта или выбирается один из группы?",
+      "Для сравнения двух объектов используй comparative.",
+      "Для коротких прилагательных используй -er, для длинных — more или less.",
+      "Для выбора одного объекта из группы используй the + superlative.",
+      "Запомни неправильные формы: good → better → the best; bad → worse → the worst."
     ],
     "exercise": {
-      "prompt": "Вставь правильную форму (как в истории с Сирано):",
+      "prompt": "Поставь прилагательное в правильную форму:",
       "items": [
-        { "q": "Christian is (tall) than Cyrano.", "a": "taller" },
-        { "q": "Roxane is (beautiful) woman in the world.", "a": "the most beautiful" },
-        { "q": "Cyrano's nose is (large) than anyone's.", "a": "larger" },
-        { "q": "Cyrano's words are (powerful) than Christian's.", "a": "more powerful" },
-        { "q": "This is (good) play I've ever read.", "a": "the best" }
+        {
+          "q": "This problem is ___ (serious) than the previous one.",
+          "a": "more serious"
+        },
+        {
+          "q": "This method is ___ (effective) than the old one.",
+          "a": "more effective"
+        },
+        {
+          "q": "This is the ___ (dangerous) possibility.",
+          "a": "most dangerous"
+        },
+        {
+          "q": "The second option is ___ (bad) than the first.",
+          "a": "worse"
+        },
+        {
+          "q": "This is the ___ (good) example.",
+          "a": "best"
+        }
       ]
     }
   },
-  "formula": "Comparative: adjective + -er / more + adjective\nSuperlative: the + adjective + -est / the most + adjective",
+  "formula": "Comparative: adjective + -er / more + adjective + than. Superlative: the + adjective + -est / the most + adjective.",
   "structure": {
-    "positive": "Tall, beautiful, good",
-    "negative": "",
-    "question": ""
+    "positive": "This system is effective.\nThis is an important problem.",
+    "negative": "This system is less effective.\nThis is not the most important problem.",
+    "question": "Is this system more effective?\nIs this the most important problem?"
   },
   "markers": [
     "than",
-    "the ... of",
-    "the ... in",
+    "the",
     "more",
-    "most",
     "less",
-    "least"
+    "most",
+    "least",
+    "of all",
+    "in the group"
   ],
   "uses": [
-    "Сравнение двух: «Christian is taller than Cyrano.»",
-    "Сравнение трёх и более: «Roxane is the most beautiful woman.»",
-    "Превосходство: «This is the best play.»",
-    "Сравнение качеств: «Cyrano is more intelligent than Christian.»"
+    "Сравнение двух объектов: «This system is more stable than that one.»",
+    "Большая степень признака: «The situation is more serious than before.»",
+    "Меньшая степень признака: «The method is less effective than the old one.»",
+    "Выделение одного объекта из группы: «This is the most dangerous option.»"
   ],
   "rules": [
-    { "title": "Короткие прилагательные", "text": "Добавляй -er (comparative) и -est (superlative): tall → taller → the tallest." },
-    { "title": "Длинные прилагательные", "text": "Используй more (comparative) и the most (superlative): beautiful → more beautiful → the most beautiful." },
-    { "title": "Исключения", "text": "good → better → the best; bad → worse → the worst; far → farther/further → the farthest/furthest." },
-    { "title": "Сравнение с than", "text": "Используй than для сравнения двух вещей: taller than, more beautiful than." }
+    {
+      "title": "Comparative для двух объектов",
+      "text": "Используй comparative, когда сравниваешь два объекта или две ситуации: «This system is more stable than that one.»"
+    },
+    {
+      "title": "Как образуется comparative",
+      "text": "Для коротких прилагательных обычно используется -er: «faster», «stronger». Для длинных — more: «more dangerous», «more effective». Для меньшей степени используется less."
+    },
+    {
+      "title": "Superlative для группы",
+      "text": "Используй the + superlative, когда один объект выделяется среди трёх и более: «This is the most dangerous option.»"
+    },
+    {
+      "title": "Неправильные формы",
+      "text": "Некоторые формы нужно запомнить: good → better → the best; bad → worse → the worst."
+    }
   ],
   "examples": [
     {
-      "group": "Сравнение внешности",
+      "group": "Comparatives",
       "items": [
-        { "en": "Christian is taller than Cyrano.", "ru": "Кристиан выше Сирано — и это видно всем.", "highlight": ["taller than"] },
-        { "en": "Roxane is more beautiful than the sun.", "ru": "Роксана прекраснее солнца — и она этого не знает.", "highlight": ["more beautiful than"] },
-        { "en": "Cyrano's nose is larger than anyone's.", "ru": "Нос Сирано больше, чем у кого-либо — и он это знает.", "highlight": ["larger than"] },
-        { "en": "Christian is more handsome than Cyrano.", "ru": "Кристиан красивее Сирано — но не умнее.", "highlight": ["more handsome than"] }
+        {
+          "en": "The second system is more stable than the first.",
+          "ru": "Вторая система стабильнее первой.",
+          "highlight": [
+            "more stable than"
+          ]
+        },
+        {
+          "en": "The new problem is more serious than the old one.",
+          "ru": "Новая проблема серьёзнее старой.",
+          "highlight": [
+            "more serious than"
+          ]
+        },
+        {
+          "en": "The later prediction was less optimistic.",
+          "ru": "Более поздний прогноз был менее оптимистичным.",
+          "highlight": [
+            "less optimistic"
+          ]
+        },
+        {
+          "en": "This method is less effective than the previous one.",
+          "ru": "Этот метод менее эффективен, чем предыдущий.",
+          "highlight": [
+            "less effective than"
+          ]
+        },
+        {
+          "en": "A shorter explanation can sometimes be clearer.",
+          "ru": "Более короткое объяснение иногда может быть понятнее.",
+          "highlight": [
+            "shorter"
+          ]
+        },
+        {
+          "en": "The second argument is stronger than the first.",
+          "ru": "Второй аргумент сильнее первого.",
+          "highlight": [
+            "stronger than"
+          ]
+        }
       ]
     },
     {
-      "group": "Сравнение характеров",
+      "group": "Superlatives",
       "items": [
-        { "en": "Cyrano is more intelligent than Christian.", "ru": "Сирано умнее Кристиана — и его слова это доказывают.", "highlight": ["more intelligent than"] },
-        { "en": "Christian is kinder than Cyrano.", "ru": "Кристиан добрее Сирано — но не честнее.", "highlight": ["kinder than"] },
-        { "en": "Cyrano's words are more powerful than his sword.", "ru": "Слова Сирано сильнее его шпаги — и он это доказывает.", "highlight": ["more powerful than"] },
-        { "en": "Cyrano is braver than anyone in Paris.", "ru": "Сирано храбрее всех в Париже — и он это показывает.", "highlight": ["braver than"] }
+        {
+          "en": "This is the most serious problem in the book.",
+          "ru": "Это самая серьёзная проблема в книге.",
+          "highlight": [
+            "the most serious"
+          ]
+        },
+        {
+          "en": "This is the most dangerous possibility.",
+          "ru": "Это самая опасная возможность.",
+          "highlight": [
+            "the most dangerous"
+          ]
+        },
+        {
+          "en": "That may be the least effective solution.",
+          "ru": "Возможно, это наименее эффективное решение.",
+          "highlight": [
+            "the least effective"
+          ]
+        },
+        {
+          "en": "This is the best example of the difference.",
+          "ru": "Это лучший пример различия.",
+          "highlight": [
+            "the best"
+          ]
+        },
+        {
+          "en": "This is the worst possible result.",
+          "ru": "Это худший возможный результат.",
+          "highlight": [
+            "the worst"
+          ]
+        },
+        {
+          "en": "It became the most important part of his argument.",
+          "ru": "Это стало самой важной частью его аргумента.",
+          "highlight": [
+            "the most important"
+          ]
+        }
       ]
     },
     {
-      "group": "Превосходная степень",
+      "group": "Irregular forms",
       "items": [
-        { "en": "Roxane is the most beautiful woman in Paris.", "ru": "Роксана — самая красивая женщина в Париже — и все это знают.", "highlight": ["the most beautiful"] },
-        { "en": "Cyrano is the most intelligent man in France.", "ru": "Сирано — самый умный человек во Франции — но он этого не ценит.", "highlight": ["the most intelligent"] },
-        { "en": "His nose is the largest in the city.", "ru": "Его нос — самый большой в городе — и он с этим живёт.", "highlight": ["the largest"] },
-        { "en": "This is the best play I've ever read.", "ru": "Это лучшая пьеса, которую я когда-либо читал — и я не вру.", "highlight": ["the best"] }
-      ]
-    },
-    {
-      "group": "Исключения",
-      "items": [
-        { "en": "Cyrano is a good poet. Christian is better. But Cyrano is the best.", "ru": "Сирано хороший поэт. Кристиан лучше. Но Сирано — лучший.", "highlight": ["good, better, the best"] },
-        { "en": "The situation is bad. It's worse than yesterday. It's the worst day.", "ru": "Ситуация плохая. Она хуже, чем вчера. Это самый плохой день.", "highlight": ["bad, worse, the worst"] },
-        { "en": "He is far from Paris. It's farther than I thought.", "ru": "Он далеко от Парижа. Это дальше, чем я думал.", "highlight": ["far, farther"] },
-        { "en": "This is the worst thing that could happen.", "ru": "Это худшее, что могло случиться — и оно случилось.", "highlight": ["the worst"] }
-      ]
-    },
-    {
-      "group": "Отрицательные сравнения",
-      "items": [
-        { "en": "Cyrano is less handsome than Christian.", "ru": "Сирано менее красив, чем Кристиан — но это не главное.", "highlight": ["less handsome than"] },
-        { "en": "Christian is less intelligent than Cyrano.", "ru": "Кристиан менее умён, чем Сирано — и он это знает.", "highlight": ["less intelligent than"] },
-        { "en": "Roxane is less powerful than Cyrano's words.", "ru": "Роксана менее сильна, чем слова Сирано — но она этого не видит.", "highlight": ["less powerful than"] },
-        { "en": "His sword is less important than his words.", "ru": "Его шпага менее важна, чем его слова — и он это доказывает.", "highlight": ["less important than"] }
-      ]
-    },
-    {
-      "group": "Сравнение в действии",
-      "items": [
-        { "en": "Cyrano fights better than anyone in Paris.", "ru": "Сирано дерётся лучше всех в Париже — но его сердце нежнее.", "highlight": ["better than"] },
-        { "en": "He writes poetry more beautifully than anyone.", "ru": "Он пишет стихи красивее всех — и это его оружие.", "highlight": ["more beautifully than"] },
-        { "en": "He loves Roxane more than his own life.", "ru": "Он любит Роксану больше собственной жизни — и готов умереть.", "highlight": ["more than"] },
-        { "en": "He is the most honourable man I know.", "ru": "Он — самый честный человек, которого я знаю — и я не ошибаюсь.", "highlight": ["the most honourable"] }
+        {
+          "en": "This example is better than the previous one.",
+          "ru": "Этот пример лучше предыдущего.",
+          "highlight": [
+            "better than"
+          ]
+        },
+        {
+          "en": "This is the best example in the chapter.",
+          "ru": "Это лучший пример в главе.",
+          "highlight": [
+            "the best"
+          ]
+        },
+        {
+          "en": "The situation became worse over time.",
+          "ru": "Со временем ситуация стала хуже.",
+          "highlight": [
+            "worse"
+          ]
+        },
+        {
+          "en": "That was the worst prediction.",
+          "ru": "Это был худший прогноз.",
+          "highlight": [
+            "the worst"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Christian is more tall than Cyrano.", "right": "Christian is taller than Cyrano.", "note": "Для коротких прилагательных — -er, не more." },
-    { "wrong": "Roxane is beautifuller than the sun.", "right": "Roxane is more beautiful than the sun.", "note": "Для длинных прилагательных — more." },
-    { "wrong": "She is the most good person.", "right": "She is the best person.", "note": "good → better → the best." },
-    { "wrong": "He is more worse than me.", "right": "He is worse than me.", "note": "bad → worse — уже сравнительная степень." },
-    { "wrong": "This is the more beautiful dress.", "right": "This is the most beautiful dress.", "note": "Превосходная степень — the most." },
-    { "wrong": "He is taller then me.", "right": "He is taller than me.", "note": "Сравнение — than, а не then." }
+    {
+      "wrong": "This system is more better than that one.",
+      "right": "This system is better than that one.",
+      "note": "Нельзя одновременно использовать more и неправильную сравнительную форму better."
+    },
+    {
+      "wrong": "This is the most safest option.",
+      "right": "This is the safest option.",
+      "note": "Для короткого прилагательного используется -est, а не most + -est."
+    },
+    {
+      "wrong": "This method is more effective that the old one.",
+      "right": "This method is more effective than the old one.",
+      "note": "После comparative используется than."
+    },
+    {
+      "wrong": "This is most dangerous option.",
+      "right": "This is the most dangerous option.",
+      "note": "Перед superlative обычно нужен the."
+    },
+    {
+      "wrong": "This problem is dangerouser than the first one.",
+      "right": "This problem is more dangerous than the first one.",
+      "note": "С длинными прилагательными используется more."
+    },
+    {
+      "wrong": "This is the goodest example.",
+      "right": "This is the best example.",
+      "note": "good имеет неправильную форму: better → the best."
+    }
   ],
   "compare": {
     "title": "Comparative vs Superlative",
-    "leftLabel": "Comparative (сравнение двух)",
-    "rightLabel": "Superlative (сравнение трёх+)",
+    "leftLabel": "Comparative (сравнение)",
+    "rightLabel": "Superlative (выделение)",
     "rows": [
-      { "left": "Christian is taller than Cyrano.", "right": "Cyrano is the tallest poet." },
-      { "left": "Roxane is more beautiful than the sun.", "right": "Roxane is the most beautiful woman." },
-      { "left": "Cyrano is more intelligent than Christian.", "right": "Cyrano is the most intelligent man." },
-      { "left": "His nose is larger than mine.", "right": "His nose is the largest in Paris." }
+      {
+        "left": "This system is more effective than that one.",
+        "right": "This is the most effective system."
+      },
+      {
+        "left": "The second option is less dangerous than the first.",
+        "right": "This is the least dangerous option."
+      },
+      {
+        "left": "This argument is stronger than the previous one.",
+        "right": "This is the strongest argument."
+      },
+      {
+        "left": "The later prediction was worse than the earlier one.",
+        "right": "That was the worst prediction."
+      }
     ]
   },
   "tips": [
-    "Односложные прилагательные: -er, -est: tall, taller, tallest.",
-    "Двусложные и длинные: more, the most: beautiful, more beautiful, the most beautiful.",
-    "Исключения: good → better → best, bad → worse → worst.",
-    "Сравнительная степень: than.",
-    "Превосходная степень: the ... of / the ... in.",
-    "Практикуйся: сравнивай героев пьесы."
+    "Если сравниваются два объекта, сначала подумай о comparative.",
+    "Если один объект выделяется среди группы, используй superlative.",
+    "Запоминай comparative вместе с than: more important than, less serious than.",
+    "В superlative не забывай the: the most important, the least serious.",
+    "Особенно полезно запомнить три формы: good → better → the best; bad → worse → the worst."
   ],
   "quiz": [
-    { "q": "Which is correct: 'Christian is ___ than Cyrano.'", "options": ["more tall", "taller", "tallest"], "answer": "taller", "why": "Сравнительная степень: -er." },
-    { "q": "Which is correct: 'Roxane is ___ beautiful woman in Paris.'", "options": ["more", "the most", "most"], "answer": "the most", "why": "Превосходная степень: the most." },
-    { "q": "Which is correct: 'This is the ___ play.'", "options": ["better", "best", "most good"], "answer": "best", "why": "good → better → best." },
-    { "q": "Which is correct: 'He is worse ___ me.'", "options": ["than", "then", "that"], "answer": "than", "why": "Сравнение — than." },
-    { "q": "\"She is ___ than her sister.\"", "options": ["tallest", "taller", "more tall"], "answer": "taller", "why": "Сравнение двух — -er." },
-    { "q": "Which is correct: 'He is the ___ man I know.'", "options": ["most honest", "more honest", "honestest"], "answer": "most honest", "why": "Длинное прилагательное — most." }
+    {
+      "q": "Which sentence compares two things?",
+      "options": [
+        "This is the most dangerous option.",
+        "This option is more dangerous than the first one.",
+        "This is the best option."
+      ],
+      "answer": "This option is more dangerous than the first one.",
+      "why": "Comparative используется для сравнения двух объектов."
+    },
+    {
+      "q": "Which sentence uses a superlative?",
+      "options": [
+        "This problem is more serious.",
+        "This problem is less serious than that one.",
+        "This is the most serious problem."
+      ],
+      "answer": "This is the most serious problem.",
+      "why": "Superlative выделяет один объект среди группы."
+    },
+    {
+      "q": "Choose the correct form: 'This method is ___ effective than the old one.'",
+      "options": [
+        "more",
+        "most",
+        "the most"
+      ],
+      "answer": "more",
+      "why": "После comparative здесь идёт than: more effective than."
+    },
+    {
+      "q": "Choose the correct sentence.",
+      "options": [
+        "This is the most safest option.",
+        "This is the safest option.",
+        "This is the more safe option."
+      ],
+      "answer": "This is the safest option.",
+      "why": "Для короткого прилагательного safe используется форма safest."
+    },
+    {
+      "q": "What is the correct comparative of 'good'?",
+      "options": [
+        "gooder",
+        "more good",
+        "better"
+      ],
+      "answer": "better",
+      "why": "good имеет неправильную сравнительную форму better."
+    },
+    {
+      "q": "What is the correct superlative of 'bad'?",
+      "options": [
+        "the baddest",
+        "the worst",
+        "the most bad"
+      ],
+      "answer": "the worst",
+      "why": "bad → worse → the worst."
+    }
   ],
-  "related": ["a1-nouns", "a2-articles"]
+  "related": [
+    "a1-adjectives"
+  ]
 }

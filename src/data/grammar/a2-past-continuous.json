@@ -1,174 +1,315 @@
 {
+  "variant": "classic",
   "slug": "a2-past-continuous",
   "level": "A2",
-  "title": "Past Continuous — язык длительности",
+  "title": "Past Continuous",
   "category": "Tenses",
-  "readingTime": 8,
-  "summary": "Гарсиа Маркес не просто писал о Макондо — он проживал его. Дождь идёт четыре года. Семья Буэндиа растёт, меняется, умирает. Это не события — это процессы. Past Continuous показывает, что жизнь — это течение, а не список фактов.",
-  "variant": "classic",
+  "readingTime": 7,
+  "summary": "Past Continuous описывает действие, которое происходило в определённый момент в прошлом. Он показывает процесс, а не просто факт завершённого действия. Часто Past Continuous используется для создания фона, на котором происходит другое событие.",
   "idea": [
-    "Гарсиа Маркес сел за пишущую машинку в 1965 году. Он знал: Макондо не строится за день. Он растёт, как дерево, как дождь, который идёт годами. Маркес не писал роман — он дышал им. Каждое утро он позволял словам течь. Иногда по 12 часов. Иногда перечитывал одну страницу неделями. Он не торопился. Потому что история не терпит спешки.",
-    "В романе дождь идёт четыре года. «The rain was falling» — дождь шёл. Не «went» (прошёл), не «has fallen» (закончился). Он шёл. И пока он шёл, город менялся. «The town was growing» — город рос. Не «grew» (вырос и остановился), а рос — медленно, неумолимо. «The family was changing» — семья менялась. Это не факты. Это процессы.",
-    "Маркес использует Past Continuous, чтобы мы чувствовали время, а не просто знали о нём. Когда читатель видит «was falling», он не думает о том, что дождь закончился. Он чувствует, как капли стучат по крыше. Это не информация — это атмосфера. Магия реализма — в длительности. Если ты хочешь, чтобы читатель поверил в летающие простыни, покажи, что это не случайность. Это процесс. Это всегда было так."
-    ],
+    "В начале To the Lighthouse Вирджиния Вулф не просто сообщает, что происходило в доме Рамзи. Она помещает читателя внутрь конкретного момента. Миссис Рамзи разговаривает с Джеймсом о поездке к маяку, рядом находятся Лили Бриско и Уильям Бэнкс, Джеймс сидит на полу и вырезает картинки. Несколько действий существуют одновременно.",
+    "Для такого кадра Past Continuous подходит лучше простого перечисления событий. Если мы скажем [bold]James cut pictures[/bold], мы сообщим факт. Если скажем [bold]James was cutting pictures[/bold], мы видим его именно в тот момент, когда мать говорит с ним.",
+    "В тексте Вулф один момент постоянно переключает внимание: миссис Рамзи говорит, думает, смотрит на Лили и Уильяма и одновременно занимается чулком Джеймса. Это и есть логика Past Continuous: действие не рассматривается как законченная точка, мы наблюдаем его изнутри.",
+    "Форма очень проста: [bold]was/were + V-ing[/bold]. [bold]Mrs Ramsay was talking.[/bold] [bold]James was sitting.[/bold] [bold]They were walking.[/bold] Was используется с I/he/she/it, were — с we/you/they.",
+    "Past Continuous особенно полезен для фона. Представим момент: [bold]Mrs Ramsay was talking to James when Lily came closer.[/bold] Разговор уже происходил. Появление Лили — отдельное событие. Поэтому процесс стоит в Past Continuous, а короткое событие — в Past Simple.",
+    "Та же логика работает с when и while. [bold]While Mrs Ramsay was talking, James was sitting on the floor.[/bold] Здесь два действия идут одновременно. Нам не нужно знать, какое из них началось первым. Важно, что оба были в процессе.",
+    "Past Continuous не означает обязательно «долго». Если мы говорим [bold]At that moment, James was sitting on the floor,[/bold] действие может продолжаться всего несколько минут. Важен не размер промежутка, а точка зрения: мы смотрим на прошлое изнутри определённого момента.",
+    "Отрицание строится через [bold]wasn't / weren't[/bold], вопрос — через [bold]Was / Were[/bold]. [bold]She wasn't reading.[/bold] [bold]Were they talking?[/bold]",
+    "Поэтому сцена To the Lighthouse хорошо объясняет Past Continuous: Вулф создаёт не список событий, а живой момент, в котором несколько действий происходят одновременно. Past Continuous даёт английскому языку возможность показать этот момент как сцену."
+  ],
   "why": [
-    "Показывать, что действие длилось в прошлом: «The rain was falling for years.»",
-    "Создавать атмосферу и фон: «The town was growing around them.»",
-    "Описывать фоновые действия: «I was reading when he came.»",
-    "Выражать прерванные действия: «She was writing when the door opened.»"
+    "Чтобы показать действие в процессе в определённый момент прошлого.",
+    "Чтобы создать фон для другого события.",
+    "Чтобы показать несколько одновременных процессов.",
+    "Чтобы представить прошлую сцену как живой момент."
   ],
   "context": {
     "lines": [
-      { "en": "Márquez: I was writing the final chapter when the rain started. It was raining for three days. The words were flowing, and the town was growing in my mind.", "ru": "Маркес: Я писал последнюю главу, когда начался дождь. Он шёл три дня. Слова текли, город рос в моём воображении." },
-      { "en": "Editor: Were you living with these characters all this time?", "ru": "Редактор: Ты всё это время жил с этими персонажами?" },
-      { "en": "Márquez: I was living with them for years. Past Continuous — it's the language of eternity.", "ru": "Маркес: Я жил с ними годами. Past Continuous — это язык вечности." }
-    ],
-    "note": "Маркес объясняет, почему длительность важна для его прозы. Время течёт, и Past Continuous помогает это показать."
+      {
+        "en": "Mrs. Ramsay was talking to James.",
+        "ru": "Миссис Рамзи разговаривала с Джеймсом.",
+        "type": "lesson_scene"
+      },
+      {
+        "en": "James was sitting on the floor.",
+        "ru": "Джеймс сидел на полу.",
+        "type": "lesson_scene"
+      },
+      {
+        "en": "She was looking at Lily and William.",
+        "ru": "Она смотрела на Лили и Уильяма.",
+        "type": "lesson_scene"
+      },
+      {
+        "en": "she was thinking about the Lighthouse",
+        "ru": "она думала о маяке",
+        "type": "authentic_short_fragment"
+      }
+    ]
   },
   "russianAngle": [
-    "В русском мы говорим «я читал» — и это может быть и процесс, и результат. В английском это различается: «I was reading» (процесс) и «I read» (завершённый факт).",
-    "Ошибка: «I was reading a book when he was coming» — неправильно! Одно действие прерывает другое. Нужно: «I was reading when he came».",
-    "Past Continuous часто используется для фона: «The sun was shining, the birds were singing» — а потом случается событие в Past Simple: «when suddenly a car stopped».",
-    "В русском мы часто заменяем Past Continuous на обычное прошлое: «я шёл по улице» — но если это было фоном для другого действия, в английском нужен Past Continuous."
+    "Русское «она читала» может передавать и Past Simple, и Past Continuous. Past Continuous нужен, когда мы показываем процесс в определённый момент.",
+    "Формула: was/were + V-ing.",
+    "Was используется с I/he/she/it, were — с we/you/they.",
+    "Past Simple часто обозначает короткое событие, которое происходит внутри Past Continuous."
   ],
   "howToLearn": {
     "steps": [
-      "Спроси себя: это действие длилось в прошлом или произошло мгновенно?",
-      "Если длилось — Past Continuous: «I was reading when...»",
-      "Если мгновенно — Past Simple: «I read the book yesterday.»",
-      "Для фоновых действий используй Past Continuous.",
-      "Для действий, которые прервали фон — Past Simple.",
-      "Потренируйся с примерами из истории Маркеса."
+      "Представь конкретный момент прошлого.",
+      "Определи действие, которое уже происходило в этот момент.",
+      "Используй was/were + V-ing.",
+      "Если другое короткое событие произошло внутри процесса, используй Past Simple.",
+      "Если два процесса происходили одновременно, используй Past Continuous в обеих частях."
     ],
     "exercise": {
-      "prompt": "Раскрой скобки, используя Past Continuous или Past Simple (как в истории с Макондо):",
+      "prompt": "Поставь глагол в Past Continuous:",
       "items": [
-        { "q": "The rain ___ (fall) when I ___ (wake) up.", "a": "was falling, woke" },
-        { "q": "The town ___ (grow) while the family ___ (change).", "a": "was growing, was changing" },
-        { "q": "I ___ (read) when the phone ___ (ring).", "a": "was reading, rang" },
-        { "q": "He ___ (write) his novel for years before it ___ (be) published.", "a": "had been writing, was" },
-        { "q": "While we ___ (sit) in the garden, the sun ___ (go) down.", "a": "were sitting, went" }
+        {
+          "q": "Mrs Ramsay ___ (talk) to James.",
+          "a": "was talking"
+        },
+        {
+          "q": "James ___ (sit) on the floor.",
+          "a": "was sitting"
+        },
+        {
+          "q": "They ___ (talk) together.",
+          "a": "were talking"
+        },
+        {
+          "q": "She ___ (not / read).",
+          "a": "was not reading"
+        },
+        {
+          "q": "___ they (talk)?",
+          "a": "Were they talking"
+        }
       ]
     }
   },
-  "formula": "was/were + V-ing",
+  "formula": "Subject + was/were + V-ing",
   "structure": {
-    "positive": "I / He / She / It + was + V-ing\nWe / You / They + were + V-ing",
-    "negative": "I / He / She / It + was not (wasn't) + V-ing\nWe / You / They + were not (weren't) + V-ing",
-    "question": "Was + I / he / she / it + V-ing?\nWere + we / you / they + V-ing?"
+    "positive": "I was reading.\nHe/She/It was reading.\nWe/You/They were reading.",
+    "negative": "I was not reading.\nHe/She/It was not reading.\nWe/You/They were not reading.",
+    "question": "Was I reading?\nWas he/she/it reading?\nWere we/you/they reading?"
   },
   "markers": [
+    "at that moment",
+    "at that time",
     "while",
     "when",
-    "as",
-    "all day / night",
-    "for hours",
-    "at 5 o'clock yesterday",
-    "this time last year"
+    "all evening",
+    "all morning"
   ],
-  "uses": [
-    "Длительное действие в прошлом: «The rain was falling for years.»",
-    "Фоновое действие: «I was reading when the phone rang.»",
-    "Прерванное действие: «She was writing when the door opened.»",
-    "Атмосфера: «The town was growing, the family was changing.»"
-  ],
+  "uses": {
+    "title": "Когда используем Past Continuous",
+    "items": [
+      {
+        "title": "Процесс",
+        "text": "Действие происходило в определённый момент прошлого: \"James was sitting on the floor.\""
+      },
+      {
+        "title": "Фон",
+        "text": "Процесс создаёт фон для события: \"She was talking when Lily came closer.\""
+      },
+      {
+        "title": "Одновременные действия",
+        "text": "Два процесса происходят одновременно: \"She was talking while James was sitting.\""
+      }
+    ]
+  },
   "rules": [
-    { "title": "Формула", "text": "Используй was/were + глагол с окончанием -ing. I was reading, They were playing." },
-    { "title": "Длительное действие", "text": "Past Continuous показывает действие, которое длилось в прошлом. The rain was falling." },
-    { "title": "Фоновое действие", "text": "Используй Past Continuous для действия, которое происходит на фоне другого. I was reading when he came." },
-    { "title": "Отличие от Past Simple", "text": "Past Simple — завершённое действие. Past Continuous — длительное действие." }
+    {
+      "title": "Формула",
+      "text": "was/were + V-ing."
+    },
+    {
+      "title": "Was и were",
+      "text": "Was — I/he/she/it; were — we/you/they."
+    },
+    {
+      "title": "Отрицание",
+      "text": "wasn't / weren't + V-ing."
+    },
+    {
+      "title": "Вопрос",
+      "text": "Was/Were + subject + V-ing?"
+    },
+    {
+      "title": "Процесс и событие",
+      "text": "Past Continuous показывает процесс, Past Simple — отдельное событие."
+    }
   ],
   "examples": [
     {
-      "group": "Дождь идёт в Макондо",
+      "group": "Кадр из прошлого",
       "items": [
-        { "en": "The rain was falling for four years.", "ru": "Дождь шёл четыре года — и никто не знал, когда он закончится.", "highlight": ["was falling"] },
-        { "en": "The town was growing around them.", "ru": "Город рос вокруг них — медленно, как живой организм.", "highlight": ["was growing"] },
-        { "en": "The family was changing with every generation.", "ru": "Семья менялась с каждым поколением — но оставалась собой.", "highlight": ["was changing"] },
-        { "en": "The war was destroying everything in its path.", "ru": "Война разрушала всё на своём пути — и никто не мог её остановить.", "highlight": ["was destroying"] }
+        {
+          "en": "Mrs Ramsay was talking to James.",
+          "ru": "Миссис Рамзи разговаривала с Джеймсом.",
+          "highlight": ["was talking"]
+        },
+        {
+          "en": "James was sitting on the floor.",
+          "ru": "Джеймс сидел на полу.",
+          "highlight": ["was sitting"]
+        },
+        {
+          "en": "She was looking at Lily.",
+          "ru": "Она смотрела на Лили.",
+          "highlight": ["was looking"]
+        },
+        {
+          "en": "James was cutting pictures.",
+          "ru": "Джеймс вырезал картинки.",
+          "highlight": ["was cutting"]
+        }
       ]
     },
     {
-      "group": "Фоновые действия в романе",
+      "group": "Процесс и событие",
       "items": [
-        { "en": "Ursula was walking through the house when she heard the news.", "ru": "Урсула шла по дому, когда услышала новость — и замерла на месте.", "highlight": ["was walking"] },
-        { "en": "The gypsies were arriving every year with new wonders.", "ru": "Цыгане приезжали каждый год с новыми чудесами — и город ждал их.", "highlight": ["were arriving"] },
-        { "en": "Colonel Aureliano Buendía was thinking about the war when his son came in.", "ru": "Полковник Аурелиано Буэндиа думал о войне, когда вошёл его сын.", "highlight": ["was thinking"] },
-        { "en": "The yellow butterflies were flying around the house all afternoon.", "ru": "Жёлтые бабочки летали вокруг дома всё послеполуденное время.", "highlight": ["were flying"] }
+        {
+          "en": "She was talking when Lily came closer.",
+          "ru": "Она разговаривала, когда Лили подошла ближе.",
+          "highlight": ["was talking", "came"]
+        },
+        {
+          "en": "James was sitting when his mother looked at him.",
+          "ru": "Джеймс сидел, когда мать посмотрела на него.",
+          "highlight": ["was sitting", "looked"]
+        },
+        {
+          "en": "They were talking when the door opened.",
+          "ru": "Они разговаривали, когда дверь открылась.",
+          "highlight": ["were talking", "opened"]
+        },
+        {
+          "en": "She was reading when someone called her.",
+          "ru": "Она читала, когда кто-то её позвал.",
+          "highlight": ["was reading", "called"]
+        }
       ]
     },
     {
-      "group": "Прерванные действия",
+      "group": "Одновременные процессы",
       "items": [
-        { "en": "I was reading the manuscript when the power went out.", "ru": "Я читал рукопись, когда выключился свет — и потерял несколько страниц.", "highlight": ["was reading"] },
-        { "en": "She was writing a letter when the door opened.", "ru": "Она писала письмо, когда открылась дверь — и она подняла глаза.", "highlight": ["was writing"] },
-        { "en": "They were dancing when the music suddenly stopped.", "ru": "Они танцевали, когда музыка внезапно остановилась — и воцарилась тишина.", "highlight": ["were dancing"] },
-        { "en": "He was sleeping when the alarm went off.", "ru": "Он спал, когда зазвенел будильник — и не хотел просыпаться.", "highlight": ["was sleeping"] }
-      ]
-    },
-    {
-      "group": "Атмосфера времени",
-      "items": [
-        { "en": "The sun was setting over the mountains as we arrived.", "ru": "Солнце садилось за горами, когда мы приехали — и небо горело.", "highlight": ["was setting"] },
-        { "en": "The birds were singing and the river was flowing gently.", "ru": "Птицы пели, и река текла спокойно — как будто ничего не происходило.", "highlight": ["were singing, was flowing"] },
-        { "en": "The candles were burning low in the room.", "ru": "Свечи догорали в комнате — и тени плясали на стенах.", "highlight": ["were burning"] },
-        { "en": "The town was preparing for the festival all week.", "ru": "Город готовился к фестивалю всю неделю — и все были заняты.", "highlight": ["was preparing"] }
-      ]
-    },
-    {
-      "group": "Отрицания и вопросы",
-      "items": [
-        { "en": "The rain wasn't stopping, and no one knew why.", "ru": "Дождь не прекращался, и никто не знал почему — это было заклятие.", "highlight": ["wasn't stopping"] },
-        { "en": "The town wasn't growing anymore, only dying.", "ru": "Город больше не рос — только умирал медленной смертью.", "highlight": ["wasn't growing"] },
-        { "en": "Was the rain falling all night?", "ru": "Дождь шёл всю ночь? Или это только казалось?", "highlight": ["Was falling"] },
-        { "en": "Were the butterflies flying around the house?", "ru": "Бабочки летали вокруг дома? Или это был сон?", "highlight": ["Were flying"] }
-      ]
-    },
-    {
-      "group": "Сравнение с Past Simple",
-      "items": [
-        { "en": "The rain was falling. (process)", "ru": "Дождь шёл — и это был процесс, длившийся годами.", "highlight": ["was falling"] },
-        { "en": "The rain fell. (fact)", "ru": "Дождь прошёл — и это был факт, который закончился.", "highlight": ["fell"] },
-        { "en": "I was reading when you called. (background)", "ru": "Я читал, когда ты позвонил — и ты прервал мой процесс.", "highlight": ["was reading"] },
-        { "en": "I read the book yesterday. (completed action)", "ru": "Я прочитал книгу вчера — и это завершённое действие.", "highlight": ["read"] }
+        {
+          "en": "Mrs Ramsay was talking while James was sitting on the floor.",
+          "ru": "Миссис Рамзи разговаривала, пока Джеймс сидел на полу.",
+          "highlight": ["was talking", "was sitting"]
+        },
+        {
+          "en": "She was looking while Lily was painting.",
+          "ru": "Она смотрела, пока Лили рисовала.",
+          "highlight": ["was looking", "was painting"]
+        },
+        {
+          "en": "They were talking while the children were playing.",
+          "ru": "Они разговаривали, пока дети играли.",
+          "highlight": ["were talking", "were playing"]
+        },
+        {
+          "en": "He was reading while she was writing.",
+          "ru": "Он читал, пока она писала.",
+          "highlight": ["was reading", "was writing"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I was read a book when he came.", "right": "I was reading a book when he came.", "note": "После was/were нужна форма V-ing (reading)." },
-    { "wrong": "I was reading when he was coming.", "right": "I was reading when he came.", "note": "Одно действие прерывает другое — одно в Continuous, второе в Simple." },
-    { "wrong": "I was reading a book yesterday.", "right": "I read a book yesterday.", "note": "Если действие завершено, используй Past Simple." },
-    { "wrong": "They was playing football.", "right": "They were playing football.", "note": "С they — were, а не was." },
-    { "wrong": "I was reading a book for two hours.", "right": "I read a book for two hours.", "note": "Если действие завершено, используй Past Simple." },
-    { "wrong": "I was reading when he was coming.", "right": "I was reading when he came.", "note": "Учись чувствовать разницу между фоном и событием." }
+    {
+      "wrong": "She was talk.",
+      "right": "She was talking.",
+      "note": "После was/were нужен V-ing."
+    },
+    {
+      "wrong": "They was talking.",
+      "right": "They were talking.",
+      "note": "С they используется were."
+    },
+    {
+      "wrong": "He were sitting.",
+      "right": "He was sitting.",
+      "note": "С he используется was."
+    },
+    {
+      "wrong": "Was she talk?",
+      "right": "Was she talking?",
+      "note": "В вопросе также используется V-ing."
+    }
   ],
   "compare": {
     "title": "Past Continuous vs Past Simple",
-    "leftLabel": "Past Continuous",
-    "rightLabel": "Past Simple",
+    "leftLabel": "Past Continuous — процесс / фон",
+    "rightLabel": "Past Simple — событие / факт",
     "rows": [
-      { "left": "I was reading the book.", "right": "I read the book." },
-      { "left": "The rain was falling for years.", "right": "The rain fell for years." },
-      { "left": "She was writing a letter.", "right": "She wrote a letter." },
-      { "left": "They were building a house.", "right": "They built a house." }
+      {
+        "left": "James was sitting on the floor. (процесс)",
+        "right": "James sat on the floor. (факт)"
+      },
+      {
+        "left": "She was talking when Lily came.",
+        "right": "Lily came. (короткое событие)"
+      },
+      {
+        "left": "They were talking.",
+        "right": "The door opened."
+      }
     ]
   },
   "tips": [
-    "Past Continuous — для длительных действий в прошлом. Если оно длилось — используй его.",
-    "Past Simple — для завершённых действий. Если оно закончилось — используй его.",
-    "Используй Past Continuous для фоновых действий: I was reading when he came.",
-    "Используй Past Simple для действий, которые прервали фон: He came.",
-    "Обращай внимание на маркеры: while, when, all day.",
-    "Past Continuous — это атмосфера. Если ты хочешь создать настроение — используй его.",
-    "Практикуйся: опиши, что ты делал вчера в определённый момент времени."
+    "Past Continuous = was/were + V-ing.",
+    "Он показывает процесс изнутри определённого момента.",
+    "Past Simple часто показывает событие внутри процесса.",
+    "While хорошо подходит для одновременных процессов.",
+    "Was — I/he/she/it; were — we/you/they."
   ],
   "quiz": [
-    { "q": "Which sentence describes a long action in the past?", "options": ["I read the book.", "I was reading the book.", "I have read the book."], "answer": "I was reading the book.", "why": "Past Continuous для длительных действий." },
-    { "q": "What's the correct form: 'He ___ reading a book when I called.'", "options": ["was", "were", "is"], "answer": "was", "why": "He — was." },
-    { "q": "Which is correct for a background action?", "options": ["I read when he came.", "I was reading when he came.", "I have read when he came."], "answer": "I was reading when he came.", "why": "Фоновое действие — Past Continuous." },
-    { "q": "Which is correct: 'They ___ playing football.'", "options": ["was", "were", "is"], "answer": "were", "why": "They — were." },
-    { "q": "She ___ not sleeping when I called.", "options": ["was", "were", "is"], "answer": "was", "why": "She — was." },
-    { "q": "What does 'I was reading a book' mean?", "options": ["I finished reading.", "I was in the middle of reading.", "I will read later."], "answer": "I was in the middle of reading.", "why": "Past Continuous — действие длилось." }
+    {
+      "q": "Which sentence shows a process?",
+      "options": [
+        "James was sitting on the floor.",
+        "James sat on the floor.",
+        "James sat down."
+      ],
+      "answer": "James was sitting on the floor.",
+      "why": "Past Continuous показывает действие в процессе."
+    },
+    {
+      "q": "Choose the correct form.",
+      "options": [
+        "She was talking.",
+        "She were talking.",
+        "She was talk."
+      ],
+      "answer": "She was talking.",
+      "why": "С she используется was + V-ing."
+    },
+    {
+      "q": "Choose the correct sentence.",
+      "options": [
+        "They were talking when the door opened.",
+        "They was talking when the door opened.",
+        "They were talk when the door opened."
+      ],
+      "answer": "They were talking when the door opened.",
+      "why": "Процесс — Past Continuous, событие — Past Simple."
+    },
+    {
+      "q": "Which sentence shows two processes?",
+      "options": [
+        "She was talking while James was sitting.",
+        "She talked while James sat.",
+        "She was talk while James was sitting."
+      ],
+      "answer": "She was talking while James was sitting.",
+      "why": "Оба действия происходят одновременно."
+    }
   ],
-  "related": ["a1-past-simple", "a1-present-continuous"]
+  "related": [
+    "a1-present-continuous",
+    "a1-past-simple",
+    "a2-future-simple"
+  ]
 }

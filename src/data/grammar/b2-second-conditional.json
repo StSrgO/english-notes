@@ -4,192 +4,431 @@
   "level": "B2",
   "title": "Second Conditional",
   "category": "Conditionals",
-  "readingTime": 11,
-  "summary": "Second Conditional — нереальное настоящее или будущее. История о том, как Уильям Голдинг написал «Повелителя мух» и показал, что бы случилось, если бы исчезли правила.",
+  "readingTime": 13,
+  "summary": "Second Conditional используется для нереальных или маловероятных ситуаций в настоящем и будущем. В условной части используется Past Simple, а в главной — would + V1. Конструкция позволяет говорить о воображаемой альтернативе, желании или ситуации, которая сейчас не соответствует действительности.",
   "idea": [
-    "Уильям Голдинг написал «Повелителя мух» в 1954 году. Это книга о группе мальчиков, которые оказались на необитаемом острове. Если бы они остались там навсегда, что бы с ними стало? Если бы не было правил, кто бы стал лидером? Кто бы выжил? Голдинг сам был учителем и знал, как ведут себя дети в экстремальных ситуациях.",
-    "Он задавал себе вопросы: Если бы я был на их месте, я бы поступил так же? Если бы я был лидером, я бы защищал слабых. Если бы не было правил, хаос бы поглотил всё. Книга стала классикой, но её отвергли 20 издателей. Если бы она не была опубликована, мир бы не узнал об этой аллегории.",
-    "Second Conditional — это время для нереальных ситуаций в настоящем или будущем. Формула: if + Past Simple (were), would + V1. If I were a leader, I would protect the weak. What would you do if you were on a desert island? If it weren't for the rules, chaos would take over."
+    "Second Conditional нужен, когда мы говорим не о том, что происходит или обязательно произойдёт, а о воображаемой альтернативе настоящему или будущему. Мы создаём ситуацию: [bold]If + Past Simple[/bold], а затем говорим, что произошло бы в этом случае: [bold]would + V1[/bold].",
+    "Сравни: [bold]If I have enough money, I will travel.[/bold] Это реальная возможность. А [bold]If I had enough money, I would travel.[/bold] — уже гипотетическая ситуация: сейчас денег недостаточно, и говорящий представляет другой вариант.",
+    "Поэтому Past Simple в Second Conditional не обязательно означает прошлое. В предложении [bold]If I were you, I would leave[/bold] речь идёт о настоящем или будущем. Форма прошедшего времени здесь показывает дистанцию от реальности.",
+    "В классической форме используется [bold]would + V1[/bold]: [bold]If Jude were free, he would marry Sue.[/bold] В условной части после [bold]if[/bold] мы не ставим [bold]would[/bold]: не [bold]If Jude would be free[/bold], а [bold]If Jude were free[/bold].",
+    "С глаголом [bold]be[/bold] особенно важна форма [bold]were[/bold]. В нейтральном письменном английском стандартно: [bold]If I were[/bold], [bold]if he were[/bold], [bold]if she were[/bold]. Это форма, которая подчёркивает гипотетический характер ситуации.",
+    "Второй компонент может использовать [bold]could[/bold] или [bold]might[/bold], если мы говорим не о результате, а о возможности. [bold]If Jude were free, he could marry Sue[/bold] означает «он смог бы», а [bold]If Jude were free, he might marry Sue[/bold] — «возможно, он бы женился».",
+    "Главное отличие Second Conditional от First Conditional — не просто время глагола. First Conditional рассматривает условие как реальную возможность: [bold]If she leaves, I will follow her.[/bold] Second Conditional дистанцирует ситуацию от реальности: [bold]If she were free, I would follow her.[/bold]",
+    "В [bold]Jude the Obscure[/bold] Томаса Харди такая грамматика естественно появляется потому, что герои постоянно сталкиваются с ограничениями, которые заставляют их представлять другую жизнь. Их желания существуют рядом с социальными правилами, браком, религией и обстоятельствами.",
+    "Сью говорит о жизни, которую могла бы выбрать сама. В одном из ключевых эпизодов она формулирует условие: [bold]“if I had been”[/bold]. Это уже Third Conditional, потому что речь идёт о прошлом. Но рядом с такими размышлениями Харди использует и конструкции, где герои представляют альтернативную реальность настоящего.",
+    "Например, Сью говорит: [bold]“If I were unhappy it would be my fault.”[/bold] Здесь [bold]were[/bold] не обозначает прошлое. Она говорит о гипотетическом настоящем: если бы она была несчастна, она считала бы это своей виной.",
+    "Именно это делает Second Conditional важным для понимания смысла. Сью не сообщает факт. Она строит возможную версию себя: [bold]If I were unhappy...[/bold] Затем она оценивает последствия этой воображаемой ситуации.",
+    "В другой сцене возникает ещё более короткая конструкция: [bold]“If she were yours it would be different!”[/bold] Здесь персонаж не утверждает, что она действительно принадлежит другому человеку. Он создаёт альтернативную ситуацию и сравнивает её с реальностью.",
+    "Структура становится особенно заметной, если разделить предложение: [bold]If she were yours[/bold] — условие; [bold]it would be different[/bold] — воображаемый результат. Смысл возникает именно из связи этих двух частей.",
+    "Можно поменять порядок: [bold]It would be different if she were yours.[/bold] Грамматика остаётся той же. Если [bold]if-clause[/bold] стоит первой, между частями ставится запятая; если она стоит второй, запятая обычно не нужна.",
+    "Second Conditional также позволяет обсуждать решения персонажей без утверждения, что альтернативный вариант действительно произошёл. [bold]If Jude were less constrained by society, he would have more freedom[/bold] — это интерпретация настоящей ситуации, а не исторический факт.",
+    "Именно здесь важно не спутать Second Conditional с Third Conditional. [bold]If Jude were free, he would leave[/bold] — гипотетическое настоящее. [bold]If Jude had been free, he would have left[/bold] — уже альтернативное прошлое.",
+    "Такая разница меняет смысл. В первом предложении свобода отсутствует сейчас, и мы представляем возможное следствие. Во втором мы возвращаемся в прошлое и меняем уже случившееся событие.",
+    "В литературе Second Conditional часто появляется там, где персонаж оценивает жизнь, которой у него нет. Поэтому условие может выражать не только практический план, но и желание, сожаление, социальную критику или невозможную альтернативу.",
+    "У Харди это особенно заметно: персонажи не просто выбирают между вариантами. Они пытаются понять, насколько их жизнь принадлежит им самим и насколько её определяют общественные правила.",
+    "Таким образом, Second Conditional здесь — это грамматика дистанции от реальности. Говорящий на мгновение создаёт другую версию мира, помещает в неё персонажа и смотрит, что изменилось бы.",
+    "Именно поэтому конструкция [bold]if + Past Simple → would + V1[/bold] не означает «прошлое условие». Она означает: «представим, что сейчас всё было бы иначе — что тогда произошло бы?»"
   ],
   "why": [
-    "Говорить о нереальных ситуациях в настоящем: If I were a leader, I would protect the weak.",
-    "Выражать воображаемые ситуации: What would you do if you were on a desert island?",
-    "Давать советы: If I were you, I would read this book.",
-    "Выражать гипотезы: If it weren't for the rules, chaos would take over."
+    "Говорить о нереальной или маловероятной ситуации в настоящем или будущем.",
+    "Представлять альтернативу реальному положению вещей.",
+    "Выражать гипотетические последствия, желания и возможные решения.",
+    "Отличать настоящую гипотезу от реального условия и альтернативного прошлого."
   ],
   "context": {
     "lines": [
-      { "en": "Golding: 'If I were on that island, I would act differently. If I were a leader, I would protect the weak. What would you do if you were there?'",
-        "ru": "Голдинг: «Если бы я был на том острове, я бы поступил иначе. Если бы я был лидером, я бы защищал слабых. Что бы ты сделал, если бы оказался там?»" },
-      { "en": "Publisher: 'If the book weren't published, the world wouldn't know about this allegory. If I were you, I would keep writing.'",
-        "ru": "Издатель: «Если бы книга не была опубликована, мир бы не узнал об этой аллегории. Если бы я был на вашем месте, я бы продолжал писать»." }
+      {
+        "en": "If she were yours it would be different!",
+        "ru": "Если бы она была твоей, всё было бы иначе!"
+      },
+      {
+        "en": "If I were unhappy it would be my fault.",
+        "ru": "Если бы я была несчастна, это была бы моя вина."
+      },
+      {
+        "en": "If you were.",
+        "ru": "Если бы ты был."
+      },
+      {
+        "en": "If I could only live in a city...",
+        "ru": "Если бы я только мог жить в городе..."
+      }
     ],
-    "note": "if + Past Simple (were), would + V1 — Second Conditional для нереальных ситуаций."
+    "note": "Конструкции взяты из текста Jude the Obscure и используются как исходный литературный материал; альтернативные примеры ниже служат для грамматического анализа и не выдаются за цитаты Харди."
   },
   "russianAngle": [
-    "В русском языке мы говорим: «если бы я был... я бы сделал...». В английском — Second Conditional.",
-    "Формула: if + Past Simple (were), would + V1.",
-    "Используется для нереальных ситуаций в настоящем или будущем.",
-    "В сослагательном наклонении — were для всех лиц (I were, he were)."
+    "В русском языке гипотетичность обычно выражается частицей «бы», а форма прошедшего времени сама по себе не создаёт такую грамматическую систему.",
+    "В английском Past Simple после if в Second Conditional не обязательно означает прошлое.",
+    "Were после if подчёркивает нереальность: If I were you.",
+    "Would + V1 выражает предполагаемый результат.",
+    "Could и might позволяют говорить о возможности, а не о гарантированном результате.",
+    "Second Conditional нужно отличать от Third Conditional: второй тип относится к нереальному настоящему/будущему, третий — к альтернативному прошлому."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: Second Conditional = нереальное настоящее или будущее.",
-      "Формула: if + Past Simple (were), would + V1.",
-      "were для всех лиц (I were, he were, she were).",
-      "Вместо would можно использовать could или might.",
-      "Сравни с First Conditional (реальное будущее).",
-      "Сделай упражнение и сверься с ответами."
+      "Сначала спроси себя: ситуация реальна или я её только представляю?",
+      "Если это нереальное настоящее или маловероятное будущее, используй Second Conditional.",
+      "Поставь Past Simple после if.",
+      "Для be в гипотетической конструкции используй were.",
+      "В результате используй would + V1.",
+      "Если речь идёт о способности или возможности, рассмотрите could/might.",
+      "Проверь, не относится ли условие к прошлому: если относится, нужен Third Conditional."
     ],
     "exercise": {
-      "prompt": "Раскрой скобки, используя Second Conditional:",
+      "prompt": "Выбери форму, которая создаёт гипотетическую ситуацию:",
       "items": [
-        { "q": "If I ___ (be) a leader, I ___ (protect) the weak.", "a": "were, would protect" },
-        { "q": "What ___ you ___ (do) if you ___ (be) on a desert island?", "a": "would, do, were" },
-        { "q": "If it ___ (not / be) for the rules, chaos ___ (take) over.", "a": "weren't, would take" },
-        { "q": "If I ___ (be) you, I ___ (read) this book.", "a": "were, would read" },
-        { "q": "If they ___ (have) more food, they ___ (survive).", "a": "had, would survive" }
+        {
+          "q": "If Jude ___ free, he would leave.",
+          "a": "were"
+        },
+        {
+          "q": "If Sue had more freedom, she ___ choose her own life.",
+          "a": "would"
+        },
+        {
+          "q": "If I ___ you, I would refuse.",
+          "a": "were"
+        },
+        {
+          "q": "If Jude were less restricted, he ___ have more choices.",
+          "a": "would"
+        },
+        {
+          "q": "If Sue were unhappy, she ___ leave.",
+          "a": "might"
+        }
       ]
     }
   },
-  "formula": "if + Past Simple (were), would + V1",
+  "formula": "if + Past Simple (were), would/could/might + V1",
   "structure": {
-    "positive": "If I were a leader, I would protect the weak.",
-    "negative": "If I weren't a leader, I wouldn't protect the weak.",
-    "question": "What would you do if you were on a desert island?"
+    "positive": "If + subject + Past Simple, subject + would + V1.",
+    "be": "If + subject + were, subject + would + V1.",
+    "negative": "If + subject + didn't + V1, subject + wouldn't + V1.",
+    "question": "What would + subject + V1 if + subject + Past Simple?",
+    "could": "If + subject + Past Simple, subject + could + V1.",
+    "might": "If + subject + Past Simple, subject + might + V1."
   },
-  "markers": ["if", "would", "could", "might", "were", "weren't"],
-  "uses": [
-    "Нереальные ситуации в настоящем: If I were a leader, I would protect the weak.",
-    "Воображаемые ситуации: What would you do if you were on a desert island?",
-    "Советы: If I were you, I would read this book.",
-    "Гипотезы: If it weren't for the rules, chaos would take over."
+  "markers": [
+    "if I were",
+    "if he/she were",
+    "if I had",
+    "if we lived",
+    "would + V1",
+    "could/might + V1"
   ],
+  "uses": {
+    "title": "Что выражает Second Conditional",
+    "items": [
+      {
+        "title": "Нереальное настоящее",
+        "text": "Говорящий представляет ситуацию, которая сейчас не соответствует действительности: If I were free, I would leave."
+      },
+      {
+        "title": "Маловероятное будущее",
+        "text": "Конструкция может описывать маловероятный будущий вариант: If they offered me the position, I would refuse."
+      },
+      {
+        "title": "Альтернативный результат",
+        "text": "Would показывает, что произошло бы в созданной условной ситуации."
+      },
+      {
+        "title": "Возможность",
+        "text": "Could и might позволяют выразить возможный, а не обязательный результат."
+      },
+      {
+        "title": "Гипотетическая оценка",
+        "text": "Second Conditional позволяет рассуждать о том, как изменилась бы ситуация при другом условии."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Формула",
-      "text": "if + Past Simple (were для всех лиц) → would + V1." },
-    { "title": "were для всех лиц",
-      "text": "В Second Conditional используется were для всех лиц: I were, he were, she were." },
-    { "title": "would, could, might",
-      "text": "Вместо would можно использовать could или might. If I had more time, I could read more." },
-    { "title": "Отличие от First Conditional",
-      "text": "First Conditional — реальное будущее (if + Present Simple, will + V1). Second Conditional — нереальное настоящее (if + Past Simple, would + V1)." }
+    {
+      "title": "If + Past Simple",
+      "text": "После if используется Past Simple, хотя речь может идти о настоящем или будущем."
+    },
+    {
+      "title": "Were",
+      "text": "В гипотетических конструкциях стандартная форма be — were: If I were, If he were."
+    },
+    {
+      "title": "Would + V1",
+      "text": "В главной части используется would + начальная форма глагола."
+    },
+    {
+      "title": "Could / might",
+      "text": "Could выражает возможность или способность, might — менее уверенное предположение."
+    },
+    {
+      "title": "No would after if",
+      "text": "В стандартном Second Conditional не используется would сразу после if: If I were..., а не If I would be..."
+    },
+    {
+      "title": "Second vs Third Conditional",
+      "text": "Second Conditional относится к гипотетическому настоящему или будущему; Third Conditional — к нереальному прошлому."
+    }
   ],
   "examples": [
     {
-      "group": "If I were... — нереальные ситуации",
+      "group": "Hypothetical present",
       "items": [
-        { "en": "If I were a leader, I would protect the weak.", "ru": "Если бы я был лидером, я бы защищал слабых.", "highlight": ["were", "would protect"] },
-        { "en": "If I were on that island, I would act differently.", "ru": "Если бы я был на том острове, я бы поступил иначе.", "highlight": ["were", "would act"] },
-        { "en": "If I were you, I would read this book.", "ru": "Если бы я был на твоём месте, я бы прочитал эту книгу.", "highlight": ["were", "would read"] }
+        {
+          "en": "If I were free, I would leave.",
+          "ru": "Если бы я был свободен, я бы ушёл.",
+          "highlight": ["If I were", "would leave"]
+        },
+        {
+          "en": "If Sue were happier, she would stay.",
+          "ru": "Если бы Сью была счастливее, она бы осталась.",
+          "highlight": ["If Sue were", "would stay"]
+        },
+        {
+          "en": "If Jude lived in Christminster, he would feel different.",
+          "ru": "Если бы Джуд жил в Крайстминстере, он чувствовал бы себя иначе.",
+          "highlight": ["If Jude lived", "would feel"]
+        },
+        {
+          "en": "If I were you, I would refuse.",
+          "ru": "На твоём месте я бы отказался.",
+          "highlight": ["If I were you", "would refuse"]
+        }
       ]
     },
     {
-      "group": "What would you do... — вопросы о воображаемых ситуациях",
+      "group": "Could and might",
       "items": [
-        { "en": "What would you do if you were on a desert island?", "ru": "Что бы ты сделал, если бы оказался на необитаемом острове?", "highlight": ["would you do", "were"] },
-        { "en": "What would you do if there were no rules?", "ru": "Что бы ты сделал, если бы не было правил?", "highlight": ["would you do", "were"] },
-        { "en": "What would you do if you were the leader?", "ru": "Что бы ты сделал, если бы ты был лидером?", "highlight": ["would you do", "were"] }
+        {
+          "en": "If Jude were free, he could choose his own path.",
+          "ru": "Если бы Джуд был свободен, он мог бы выбрать свой путь.",
+          "highlight": ["If Jude were", "could choose"]
+        },
+        {
+          "en": "If Sue were less afraid, she might leave.",
+          "ru": "Если бы Сью меньше боялась, она, возможно, ушла бы.",
+          "highlight": ["If Sue were", "might leave"]
+        },
+        {
+          "en": "If they lived together, they might be happier.",
+          "ru": "Если бы они жили вместе, они, возможно, были бы счастливее.",
+          "highlight": ["If they lived", "might be"]
+        },
+        {
+          "en": "If he had more freedom, he could study.",
+          "ru": "Если бы у него было больше свободы, он мог бы учиться.",
+          "highlight": ["If he had", "could study"]
+        }
       ]
     },
     {
-      "group": "If it weren't for... — гипотезы",
+      "group": "Literary context",
       "items": [
-        { "en": "If it weren't for the rules, chaos would take over.", "ru": "Если бы не правила, хаос бы поглотил всё.", "highlight": ["weren't", "would take"] },
-        { "en": "If it weren't for the adults, the children would be lost.", "ru": "Если бы не взрослые, дети бы потерялись.", "highlight": ["weren't", "would be lost"] },
-        { "en": "If it weren't for the fire, they wouldn't have hope.", "ru": "Если бы не огонь, у них не было бы надежды.", "highlight": ["weren't", "wouldn't have"] }
+        {
+          "en": "If she were yours it would be different!",
+          "ru": "Если бы она была твоей, всё было бы иначе!",
+          "highlight": ["If she were yours", "would be different"]
+        },
+        {
+          "en": "If I were unhappy it would be my fault.",
+          "ru": "Если бы я была несчастна, это была бы моя вина.",
+          "highlight": ["If I were unhappy", "would be my fault"]
+        },
+        {
+          "en": "If Jude were free from social rules, he would live differently.",
+          "ru": "Если бы Джуд был свободен от социальных правил, он жил бы иначе.",
+          "highlight": ["If Jude were", "would live"]
+        },
+        {
+          "en": "If Sue could choose everything herself, she might reject marriage.",
+          "ru": "Если бы Сью могла сама выбирать всё, она, возможно, отвергла бы брак.",
+          "highlight": ["If Sue could", "might reject"]
+        }
       ]
     },
     {
-      "group": "I would... — результаты в воображаемых ситуациях",
+      "group": "Future hypotheticals",
       "items": [
-        { "en": "I would want to be rescued if I were there.", "ru": "Я бы хотел, чтобы меня спасли, если бы я был там.", "highlight": ["would want", "were"] },
-        { "en": "I would try to build a shelter if I were alone.", "ru": "Я бы попытался построить убежище, если бы я был один.", "highlight": ["would try", "were"] },
-        { "en": "I would look for food if I were hungry.", "ru": "Я бы искал еду, если бы я был голоден.", "highlight": ["would look", "were"] }
+        {
+          "en": "If the university opened its doors to everyone, Jude would apply.",
+          "ru": "Если бы университет открыл двери для всех, Джуд подал бы заявление.",
+          "highlight": ["If the university opened", "would apply"]
+        },
+        {
+          "en": "If society changed its rules, their choices would be different.",
+          "ru": "Если бы общество изменило свои правила, их выбор был бы другим.",
+          "highlight": ["If society changed", "would be"]
+        },
+        {
+          "en": "If Sue found a new life, she could become independent.",
+          "ru": "Если бы Сью нашла новую жизнь, она могла бы стать независимой.",
+          "highlight": ["If Sue found", "could become"]
+        },
+        {
+          "en": "If Jude were offered another chance, he might take it.",
+          "ru": "Если бы Джуду дали ещё один шанс, он, возможно, воспользовался бы им.",
+          "highlight": ["If Jude were offered", "might take"]
+        }
       ]
     },
     {
-      "group": "could / might в Second Conditional",
+      "group": "Second vs Third",
       "items": [
-        { "en": "If he were stronger, he could survive longer.", "ru": "Если бы он был сильнее, он мог бы выжить дольше.", "highlight": ["were", "could survive"] },
-        { "en": "If we had more supplies, we might survive the winter.", "ru": "Если бы у нас было больше припасов, мы могли бы пережить зиму.", "highlight": ["had", "might survive"] },
-        { "en": "If she were braver, she could fight for her life.", "ru": "Если бы она была смелее, она могла бы бороться за свою жизнь.", "highlight": ["were", "could fight"] }
+        {
+          "en": "If Jude were free, he would leave.",
+          "ru": "Если бы Джуд был свободен, он бы ушёл.",
+          "highlight": ["If Jude were", "would leave"]
+        },
+        {
+          "en": "If Jude had been free, he would have left.",
+          "ru": "Если бы Джуд был свободен тогда, он бы ушёл.",
+          "highlight": ["If Jude had been", "would have left"]
+        }
       ]
     },
     {
-      "group": "Сравнение Second vs First vs Third",
+      "group": "Real vs hypothetical",
       "items": [
-        { "en": "First: If it rains, I will stay home. (реальное будущее)", "ru": "First: Если пойдёт дождь, я останусь дома. (реальное будущее)", "highlight": ["rains", "will stay"] },
-        { "en": "Second: If it rained, I would stay home. (нереальное настоящее)", "ru": "Second: Если бы пошёл дождь, я бы остался дома. (нереальное настоящее)", "highlight": ["rained", "would stay"] },
-        { "en": "Third: If it had rained, I would have stayed home. (нереальное прошлое)", "ru": "Third: Если бы пошёл дождь, я бы остался дома. (нереальное прошлое)", "highlight": ["had rained", "would have stayed"] }
+        {
+          "en": "If Sue leaves, Jude will follow her.",
+          "ru": "Если Сью уйдёт, Джуд последует за ней.",
+          "highlight": ["If Sue leaves", "will follow"]
+        },
+        {
+          "en": "If Sue left, Jude would follow her.",
+          "ru": "Если бы Сью ушла, Джуд последовал бы за ней.",
+          "highlight": ["If Sue left", "would follow"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "If I am a leader, I will protect the weak.", "right": "If I were a leader, I would protect the weak.", "note": "Second Conditional — if + Past Simple (were), would + V1." },
-    { "wrong": "If I were a leader, I would protected the weak.", "right": "If I were a leader, I would protect the weak.", "note": "После would — V1 (protect)." },
-    { "wrong": "If I was a leader, I would protect the weak.", "right": "If I were a leader, I would protect the weak.", "note": "В Second Conditional — were для всех лиц." },
-    { "wrong": "What would you do if you are on a desert island?", "right": "What would you do if you were on a desert island?", "note": "if + Past Simple (were)." },
-    { "wrong": "If it weren't for the rules, chaos takes over.", "right": "If it weren't for the rules, chaos would take over.", "note": "Вторая часть — would + V1." },
-    { "wrong": "If I had more money, I will travel.", "right": "If I had more money, I would travel.", "note": "Second Conditional — would, не will." }
+    {
+      "wrong": "If I would be free, I would leave.",
+      "right": "If I were free, I would leave.",
+      "note": "После if в стандартном Second Conditional не ставится would."
+    },
+    {
+      "wrong": "If he was free, he would leave.",
+      "right": "If he were free, he would leave.",
+      "note": "В формальном стандартном английском для гипотетического be используется were."
+    },
+    {
+      "wrong": "If I were free, I would left.",
+      "right": "If I were free, I would leave.",
+      "note": "После would используется V1."
+    },
+    {
+      "wrong": "If she lived here, she will be happier.",
+      "right": "If she lived here, she would be happier.",
+      "note": "Second Conditional требует would/could/might в главной части."
+    },
+    {
+      "wrong": "If he had more time, he would studied.",
+      "right": "If he had more time, he would study.",
+      "note": "Would + V1."
+    },
+    {
+      "wrong": "If he were free, he would have left.",
+      "right": "If he were free, he would leave.",
+      "note": "Would have + V3 относится к Third Conditional, а не к обычной гипотезе о настоящем."
+    }
   ],
   "compare": {
     "title": "First vs Second vs Third Conditional",
-    "leftLabel": "First (реальное будущее)",
-    "centerLabel": "Second (нереальное настоящее)",
-    "rightLabel": "Third (нереальное прошлое)",
+    "leftLabel": "First Conditional — реальная возможность",
+    "centerLabel": "Second Conditional — гипотеза",
+    "rightLabel": "Third Conditional — альтернативное прошлое",
     "rows": [
-      { "left": "If it rains, I will stay.", "center": "If it rained, I would stay.", "right": "If it had rained, I would have stayed." },
-      { "left": "if + Present Simple, will + V1", "center": "if + Past Simple, would + V1", "right": "if + Past Perfect, would have + V3" },
-      { "left": "реальное будущее", "center": "нереальное настоящее", "right": "нереальное прошлое" }
+      {
+        "left": "If she leaves, I will follow her.",
+        "center": "If she left, I would follow her.",
+        "right": "If she had left, I would have followed her."
+      },
+      {
+        "left": "If I have time, I will help.",
+        "center": "If I had time, I would help.",
+        "right": "If I had had time, I would have helped."
+      },
+      {
+        "left": "If he is free, he will come.",
+        "center": "If he were free, he would come.",
+        "right": "If he had been free, he would have come."
+      }
     ]
   },
   "tips": [
-    "if + Past Simple (were) → would + V1.",
-    "were для всех лиц (I were, he were).",
-    "Вместо would — could или might.",
-    "Second Conditional = нереальное настоящее.",
-    "Сравни с First Conditional (реальное будущее).",
-    "Сравни с Third Conditional (нереальное прошлое).",
-    "Часто используется для советов: If I were you, I would..."
+    "Не воспринимай Past Simple после if как обычное прошедшее время.",
+    "Спроси себя: ситуация реальна или воображаема?",
+    "Запомни формулу: if + Past Simple → would + V1.",
+    "Для be в гипотетической конструкции используй were.",
+    "Could и might меняют степень уверенности или значение возможности.",
+    "Не ставь would после if в стандартной конструкции.",
+    "Если говоришь об уже завершившемся прошлом, проверь, не нужен ли Third Conditional."
   ],
-  "related": ["b1-first-conditional", "b1-zero-conditional", "b2-third-conditional"],
   "quiz": [
     {
-      "q": "If I ___ a leader, I ___ the weak.",
-      "options": ["were, would protect", "am, will protect", "was, would protect", "were, will protect"],
-      "answer": 0,
-      "why": "Second Conditional: if + Past Simple (were), would + V1."
-    },
-    {
-      "q": "What ___ you ___ if you ___ on a desert island?",
-      "options": ["would, do, were", "will, do, are", "would, do, are", "will, do, were"],
-      "answer": 0,
-      "why": "Second Conditional: if + Past Simple (were), would + V1."
-    },
-    {
-      "q": "If it ___ for the rules, chaos ___ over.",
-      "options": ["weren't, would take", "isn't, takes", "wasn't, would take", "weren't, takes"],
-      "answer": 0,
-      "why": "Second Conditional: if + Past Simple (were), would + V1."
-    },
-    {
-      "q": "If I ___ you, I ___ this book.",
-      "options": ["were, would read", "am, will read", "was, would read", "were, will read"],
-      "answer": 0,
-      "why": "Second Conditional: if + Past Simple (were), would + V1."
-    },
-    {
-      "q": "If he ___ stronger, he ___ survive longer.",
-      "options": ["were, could", "was, can", "were, can", "was, could"],
-      "answer": 0,
-      "why": "Вместо would — could."
-    },
-    {
-      "q": "If I ___ more money, I ___ travel.",
-      "options": ["had, would", "have, will", "had, will", "have, would"],
-      "answer": 0,
+      "q": "Choose the correct sentence.",
+      "options": [
+        "If I would be free, I would leave.",
+        "If I were free, I would leave.",
+        "If I am free, I would leave."
+      ],
+      "answer": 1,
       "why": "Second Conditional: if + Past Simple, would + V1."
+    },
+    {
+      "q": "What does “If Sue were free, she would leave” mean?",
+      "options": [
+        "Sue is free and will leave.",
+        "Sue was free yesterday.",
+        "Sue is not free now, but we imagine that situation."
+      ],
+      "answer": 2,
+      "why": "Second Conditional создаёт гипотетическую ситуацию настоящего."
+    },
+    {
+      "q": "Choose the correct form.",
+      "options": [
+        "If he had more time, he would study.",
+        "If he would have more time, he studied.",
+        "If he has more time, he would study."
+      ],
+      "answer": 0,
+      "why": "После if — Past Simple, в результате — would + V1."
+    },
+    {
+      "q": "Which sentence is Third Conditional?",
+      "options": [
+        "If I were you, I would leave.",
+        "If I had more time, I would read.",
+        "If I had had more time, I would have read."
+      ],
+      "answer": 2,
+      "why": "Had + V3 и would have + V3 относятся к альтернативному прошлому."
+    },
+    {
+      "q": "Choose the best modal: If Sue were less afraid, she ___ leave.",
+      "options": [
+        "might",
+        "will",
+        "has"
+      ],
+      "answer": 0,
+      "why": "Might показывает возможный, но не уверенный результат."
+    },
+    {
+      "q": "Choose the correct form: If I ___ you, I would refuse.",
+      "options": [
+        "was",
+        "were",
+        "am"
+      ],
+      "answer": 1,
+      "why": "В стандартной гипотетической конструкции используется were."
     }
+  ],
+  "related": [
+    "b1-first-conditional",
+    "b2-third-conditional",
+    "b2-mixed-conditional"
   ]
 }
