@@ -1,543 +1,448 @@
 ﻿{
-    "variant":  "rocknroll",
-    "slug":  "introductions-greetings",
-    "level":  "A0",
-    "title":  "Introductions and Greetings",
-    "category":  "Basics",
-    "readingTime":  8,
-    "summary":  "Знакомство и приветствия. «Hello, I\u0027m Johnny Cash» — простое представление, которое стало легендой.",
-    "idea":  [
-                 "1969 год. Джонни Кэш выходит на сцену и говорит: «Hello, I\u0027m Johnny Cash». Это простое приветствие стало его визитной карточкой. Он не нуждался в сложных представлениях. Он просто говорил, кто он. И мир знал его. Приветствия — это первое, что мы говорим. Они создают впечатление. Они показывают, кто мы есть.",
-                 "Johnny Cash знал: первое впечатление — это всё. «Hello, I\u0027m Johnny Cash» — это было честно, просто и запоминающе. Он всегда здоровался с аудиторией одинаково. Это стало его брендом. В английском есть формальные и неформальные приветствия. «Good evening, sir» — для официальной обстановки. «Hey, mate» — для друга. Выбор приветствия определяет тон разговора.",
-                 "Приветствия и прощания — это ключи к общению. Без них не начинается разговор. «Hello, I\u0027m Johnny Cash» — это не просто представление, это приглашение к диалогу. Изучая приветствия, мы учимся быть вежливыми и уверенными в любой ситуации. Как Johnny Cash. Как в жизни."
-             ],
-    "why":  [
-                "Приветствия и знакомства — это первое, что вы скажете на английском",
-                "Разница между формальным и неформальным приветствием может спасти вас от неловкой ситуации",
-                "В английском языке есть строгие правила этикета",
-                "Знание правильных фраз для знакомства и прощания — основа любого общения"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Johnny Cash: \u0027Hello, I\u0027m Johnny Cash. Welcome to the show. I\u0027m glad to be here tonight.\u0027",
-                                      "ru":  "Джонни Кэш: «Привет, я Джонни Кэш. Добро пожаловать на шоу. Я рад быть здесь сегодня вечером»."
-                                  },
-                                  {
-                                      "en":  "Audience: \u0027Hello, Johnny! We love you!\u0027",
-                                      "ru":  "Публика: «Привет, Джонни! Мы любим тебя!»"
-                                  },
-                                  {
-                                      "en":  "Johnny: \u0027Thank you, folks. Good to see you too. Let\u0027s play some music.\u0027",
-                                      "ru":  "Джонни: «Спасибо, друзья. Рад вас видеть тоже. Давайте сыграем немного музыки»."
-                                  },
-                                  {
-                                      "en":  "Johnny: \u0027Good evening, Nashville! How are you doing tonight?\u0027",
-                                      "ru":  "Джонни: «Добрый вечер, Нашвилл! Как вы сегодня?»"
-                                  },
-                                  {
-                                      "en":  "Audience: \u0027We\u0027re great, Johnny! Play \u0027Ring of Fire\u0027!\u0027",
-                                      "ru":  "Публика: «Мы отлично, Джонни! Сыграй «Ring of Fire»!»"
-                                  },
-                                  {
-                                      "en":  "Johnny: \u0027Good night, everyone! See you next time! Take care.\u0027",
-                                      "ru":  "Джонни: «Спокойной ночи всем! Увидимся в следующий раз! Берегите себя»."
-                                  }
-                              ],
-                    "note":  "\u0027Hello, I\u0027m Johnny Cash\u0027 — это простое приветствие, которое стало легендой."
-                },
-    "russianAngle":  [
-                         "В русском языке мы говорим «Здравствуйте», что буквально означает «будьте здоровы». В английском — «Hello» или «Good morning».",
-                         "В русском мы часто спрашиваем «Как дела?» и ждём ответа. В английском «How are you?» — это приветствие.",
-                         "В русском языке есть «ты» и «Вы». В английском — только «you», но формальность передаётся через выбор фразы.",
-                         "В русском прощание «До свидания» буквально означает «до встречи». В английском «Goodbye» — это сокращение от «God be with you»."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Выучите основные приветствия: Hello, Hi, Good morning, Good afternoon, Good evening",
-                                     "Запомните формальные фразы: How do you do? Pleased to meet you, Nice to meet you",
-                                     "Выучите, как представляться: My name is... I am... Let me introduce myself",
-                                     "Запомните фразы прощания: Goodbye, See you later, See you soon, Good night",
-                                     "Потренируйтесь в диалогах: представьтесь, поприветствуйте кого-то, попрощайтесь",
-                                     "Обратите внимание на разницу между формальным и неформальным общением"
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Составьте диалоги для этих ситуаций по-английски:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Вы встречаете друга утром в парке",
-                                                          "a":  "\u0027Good morning! How are you?\u0027 — \u0027Morning! I\u0027m fine, thanks. And you?\u0027"
-                                                      },
-                                                      {
-                                                          "q":  "Вы приходите на официальный приём и знакомитесь с хозяином",
-                                                          "a":  "\u0027Good evening, sir. My name is John Smith. How do you do?\u0027 — \u0027How do you do, Mr. Smith? I\u0027m William Jones.\u0027"
-                                                      },
-                                                      {
-                                                          "q":  "Вы прощаетесь с коллегой после работы",
-                                                          "a":  "\u0027Goodbye, see you tomorrow.\u0027 — \u0027Goodbye, have a nice evening.\u0027"
-                                                      },
-                                                      {
-                                                          "q":  "Вы встречаете друга вечером в кафе",
-                                                          "a":  "\u0027Hi! Good to see you. How are you?\u0027 — \u0027Hi! Good to see you too. I\u0027m fine, thanks.\u0027"
-                                                      },
-                                                      {
-                                                          "q":  "Вы прощаетесь на ночь с хозяином дома",
-                                                          "a":  "\u0027Good night, Mr. Holmes. Sleep well.\u0027 — \u0027Good night, Watson. See you in the morning.\u0027"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "",
-    "structure":  {
-                      "positive":  "",
-                      "negative":  "",
-                      "question":  ""
-                  },
-    "markers":  [
-
-                ],
-    "uses":  [
-
-             ],
-    "rules":  [
-                  {
-                      "title":  "Приветствия по времени суток",
-                      "text":  "Good morning (до полудня), Good afternoon (после полудня до вечера), Good evening (вечером), Good night (при прощании перед сном)."
-                  },
-                  {
-                      "title":  "Как представиться",
-                      "text":  "My name is... (полное имя), I am... (имя и/или профессия). Let me introduce myself (более формально)."
-                  },
-                  {
-                      "title":  "Ответы на приветствия",
-                      "text":  "На How do you do? отвечают How do you do? На How are you? отвечают I\u0027m fine, thank you. And you?"
-                  },
-                  {
-                      "title":  "Прощание",
-                      "text":  "Goodbye (формально), Bye (неформально), See you later (до встречи), See you soon (до скорой встречи)."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Утренние приветствия",
-                         "items":  [
-                                       {
-                                           "en":  "Good morning, everyone! Let\u0027s have a great show tonight!",
-                                           "ru":  "Доброе утро всем! Давайте проведём отличное шоу сегодня вечером!",
-                                           "highlight":  [
-                                                             "Good morning"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Morning, folks! How are you doing?",
-                                           "ru":  "Утро, народ! Как вы?",
-                                           "highlight":  [
-                                                             "Morning"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good morning, Nashville! I\u0027m Johnny Cash!",
-                                           "ru":  "Доброе утро, Нашвилл! Я Джонни Кэш!",
-                                           "highlight":  [
-                                                             "Good morning"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good morning, sir. How do you do today?",
-                                           "ru":  "Доброе утро, сэр. Как вы поживаете сегодня?",
-                                           "highlight":  [
-                                                             "Good morning"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Morning, mate! How\u0027s it going?",
-                                           "ru":  "Утро, приятель! Как дела?",
-                                           "highlight":  [
-                                                             "Morning"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good morning, London! I\u0027m glad to be here!",
-                                           "ru":  "Доброе утро, Лондон! Я рад быть здесь!",
-                                           "highlight":  [
-                                                             "Good morning"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Дневные и вечерние приветствия",
-                         "items":  [
-                                       {
-                                           "en":  "Good afternoon, friends! Welcome to the show.",
-                                           "ru":  "Добрый день, друзья! Добро пожаловать на шоу.",
-                                           "highlight":  [
-                                                             "Good afternoon"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good evening, London! I\u0027m Johnny Cash!",
-                                           "ru":  "Добрый вечер, Лондон! Я Джонни Кэш!",
-                                           "highlight":  [
-                                                             "Good evening"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good evening, folks! I\u0027m so glad to be here.",
-                                           "ru":  "Добрый вечер, народ! Я так рад быть здесь.",
-                                           "highlight":  [
-                                                             "Good evening"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good evening, sir. I\u0027m Johnny Cash. How do you do?",
-                                           "ru":  "Добрый вечер, сэр. Я Джонни Кэш. Как вы поживаете?",
-                                           "highlight":  [
-                                                             "Good evening, How do you do"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good afternoon, madam. I\u0027m Johnny Cash. Pleased to meet you.",
-                                           "ru":  "Добрый день, мадам. Я Джонни Кэш. Приятно познакомиться.",
-                                           "highlight":  [
-                                                             "Good afternoon, Pleased to meet you"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good evening, all. Welcome to the concert.",
-                                           "ru":  "Добрый вечер всем. Добро пожаловать на концерт.",
-                                           "highlight":  [
-                                                             "Good evening"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Как представиться",
-                         "items":  [
-                                       {
-                                           "en":  "Hello, I\u0027m Johnny Cash. Nice to meet you.",
-                                           "ru":  "Привет, я Джонни Кэш. Приятно познакомиться.",
-                                           "highlight":  [
-                                                             "Hello, I\u0027m, Nice to meet you"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My name is Johnny Cash. How do you do?",
-                                           "ru":  "Меня зовут Джонни Кэш. Как вы поживаете?",
-                                           "highlight":  [
-                                                             "My name is, How do you do"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Let me introduce myself. I\u0027m Johnny Cash.",
-                                           "ru":  "Позвольте представиться. Я Джонни Кэш.",
-                                           "highlight":  [
-                                                             "Let me introduce myself"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Hi, I\u0027m Johnny. I\u0027m a singer.",
-                                           "ru":  "Привет, я Джонни. Я певец.",
-                                           "highlight":  [
-                                                             "Hi, I\u0027m"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Allow me to introduce my friend, Johnny Cash.",
-                                           "ru":  "Разрешите представить моего друга, Джонни Кэша.",
-                                           "highlight":  [
-                                                             "Allow me to introduce"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Hey, I\u0027m Johnny Cash. Good to see you!",
-                                           "ru":  "Эй, я Джонни Кэш. Рад вас видеть!",
-                                           "highlight":  [
-                                                             "Hey, I\u0027m, Good to see you"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Ответы на приветствия",
-                         "items":  [
-                                       {
-                                           "en":  "How do you do? — How do you do?",
-                                           "ru":  "Как вы поживаете? — Как вы поживаете?",
-                                           "highlight":  [
-                                                             "How do you do"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "How are you? — I\u0027m very well, thank you. And you?",
-                                           "ru":  "Как вы? — Я очень хорошо, благодарю. А вы?",
-                                           "highlight":  [
-                                                             "How are you, I\u0027m very well"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "How\u0027s it going? — Great! How about you?",
-                                           "ru":  "Как дела? — Отлично! А у вас?",
-                                           "highlight":  [
-                                                             "How\u0027s it going, Great"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good to see you! — Good to see you too!",
-                                           "ru":  "Рад вас видеть! — Рад вас видеть тоже!",
-                                           "highlight":  [
-                                                             "Good to see you"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "How are things? — Not bad, thanks. And with you?",
-                                           "ru":  "Как дела? — Неплохо, спасибо. А у вас?",
-                                           "highlight":  [
-                                                             "How are things, Not bad"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Are you well, Mr. Cash? — Quite well, thank you.",
-                                           "ru":  "Вы здоровы, мистер Кэш? — Вполне, благодарю.",
-                                           "highlight":  [
-                                                             "Are you well"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Прощание",
-                         "items":  [
-                                       {
-                                           "en":  "Goodbye, everyone! See you next time!",
-                                           "ru":  "До свидания всем! Увидимся в следующий раз!",
-                                           "highlight":  [
-                                                             "Goodbye"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good night, Nashville! Thank you for coming!",
-                                           "ru":  "Спокойной ночи, Нашвилл! Спасибо, что пришли!",
-                                           "highlight":  [
-                                                             "Good night"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "See you later, folks! Take care!",
-                                           "ru":  "Увидимся, народ! Берегите себя!",
-                                           "highlight":  [
-                                                             "See you later"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I must be going. Good evening, everyone.",
-                                           "ru":  "Мне пора. Добрый вечер всем.",
-                                           "highlight":  [
-                                                             "I must be going"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Bye for now. Take care.",
-                                           "ru":  "Пока. Береги себя.",
-                                           "highlight":  [
-                                                             "Bye for now"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Goodbye, folks! See you next time!",
-                                           "ru":  "До свидания, народ! Увидимся в следующий раз!",
-                                           "highlight":  [
-                                                             "Goodbye"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Формальные и неформальные приветствия",
-                         "items":  [
-                                       {
-                                           "en":  "Good evening, sir. I\u0027m Johnny Cash. How do you do?",
-                                           "ru":  "Добрый вечер, сэр. Я Джонни Кэш. Как вы поживаете?",
-                                           "highlight":  [
-                                                             "Good evening, sir, How do you do"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Hey, man! What\u0027s up?",
-                                           "ru":  "Привет, чувак! Как дела?",
-                                           "highlight":  [
-                                                             "Hey, What\u0027s up"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good afternoon, madam. I\u0027m Johnny Cash. Pleased to meet you.",
-                                           "ru":  "Добрый день, мадам. Я Джонни Кэш. Приятно познакомиться.",
-                                           "highlight":  [
-                                                             "Good afternoon, madam, Pleased to meet you"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Hi there! Good to see you again!",
-                                           "ru":  "Привет! Рад снова тебя видеть!",
-                                           "highlight":  [
-                                                             "Hi there, Good to see you"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Good evening, Mr. Cash. A pleasure to see you.",
-                                           "ru":  "Добрый вечер, мистер Кэш. Рад вас видеть.",
-                                           "highlight":  [
-                                                             "Good evening, Mr. Cash"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Hi, mate! How\u0027s it going?",
-                                           "ru":  "Привет, приятель! Как дела?",
-                                           "highlight":  [
-                                                             "Hi, mate"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Отвечать \u0027I\u0027m fine, thank you\u0027 на \u0027How do you do?\u0027",
-                         "right":  "Правильно отвечать \u0027How do you do?\u0027",
-                         "note":  "\u0027How do you do?\u0027 — это формальное приветствие, а не вопрос о самочувствии."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027Good night\u0027 при встрече вечером",
-                         "right":  "\u0027Good night\u0027 говорят только при прощании перед сном",
-                         "note":  "При встрече вечером говорят \u0027Good evening\u0027."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027My name is John Smith\u0027 и не добавлять \u0027How do you do?\u0027 в формальной обстановке",
-                         "right":  "В формальной обстановке после представления говорят \u0027How do you do?\u0027",
-                         "note":  "Это правило этикета."
-                     },
-                     {
-                         "wrong":  "Переводить \u0027Nice to meet you\u0027 как \u0027Хорошо встретить вас\u0027",
-                         "right":  "Правильно — \u0027Приятно познакомиться\u0027",
-                         "note":  "\u0027Nice to meet you\u0027 — это устойчивая фраза."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027Hello\u0027 в официальной обстановке",
-                         "right":  "В официальной обстановке говорят \u0027Good morning/afternoon/evening\u0027",
-                         "note":  "\u0027Hello\u0027 — это неформальное приветствие."
-                     },
-                     {
-                         "wrong":  "Путать \u0027See you later\u0027 и \u0027See you soon\u0027",
-                         "right":  "\u0027See you later\u0027 — до встречи позже (в тот же день), \u0027See you soon\u0027 — до скорой встречи",
-                         "note":  "Разница в том, насколько скоро вы планируете встретиться."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Формальные и неформальные приветствия",
-                    "leftLabel":  "Формальные (Formal)",
-                    "rightLabel":  "Неформальные (Informal)",
-                    "rows":  [
-                                 {
-                                     "left":  "Good morning / afternoon / evening",
-                                     "right":  "Hi / Hello"
-                                 },
-                                 {
-                                     "left":  "How do you do?",
-                                     "right":  "How are you? / How\u0027s it going?"
-                                 },
-                                 {
-                                     "left":  "My name is... / Let me introduce myself",
-                                     "right":  "I\u0027m... / Hey, I\u0027m..."
-                                 },
-                                 {
-                                     "left":  "Pleased to meet you",
-                                     "right":  "Nice to meet you"
-                                 },
-                                 {
-                                     "left":  "Goodbye / Good night",
-                                     "right":  "Bye / See you later"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "\u0027How do you do?\u0027 — это приветствие, а не вопрос. Отвечайте тем же",
-                 "\u0027Good night\u0027 — это прощание перед сном, а не приветствие вечером",
-                 "В формальной обстановке всегда используйте \u0027Good morning/afternoon/evening\u0027",
-                 "Когда представляетесь, добавляйте \u0027How do you do?\u0027 в формальной обстановке",
-                 "\u0027Nice to meet you\u0027 можно использовать в любой ситуации — это нейтрально",
-                 "При прощании \u0027See you later\u0027 означает \u0027увидимся позже (сегодня)\u0027, а \u0027See you soon\u0027 — \u0027до скорой встречи\u0027",
-                 "Всегда отвечайте на приветствие тем же, чем вас поприветствовали"
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Как правильно ответить на \u0027How do you do?\u0027",
-                     "options":  [
-                                     "I\u0027m fine, thank you",
-                                     "How do you do?",
-                                     "Very well, thanks",
-                                     "Not bad"
-                                 ],
-                     "answer":  "How do you do?",
-                     "why":  "\u0027How do you do?\u0027 — это формальное приветствие, на которое отвечают тем же."
-                 },
-                 {
-                     "q":  "Какое приветствие используется при прощании перед сном?",
-                     "options":  [
-                                     "Good evening",
-                                     "Good night",
-                                     "Goodbye",
-                                     "See you later"
-                                 ],
-                     "answer":  "Good night",
-                     "why":  "\u0027Good night\u0027 говорят только при прощании перед сном."
-                 },
-                 {
-                     "q":  "Как представиться в формальной обстановке?",
-                     "options":  [
-                                     "Hi, I\u0027m John",
-                                     "Hello, my name is John",
-                                     "My name is John Smith. How do you do?",
-                                     "Hey, I\u0027m John"
-                                 ],
-                     "answer":  "My name is John Smith. How do you do?",
-                     "why":  "В формальной обстановке представляются полным именем и добавляют \u0027How do you do?\u0027."
-                 },
-                 {
-                     "q":  "Что означает \u0027See you soon\u0027?",
-                     "options":  [
-                                     "Увидимся позже сегодня",
-                                     "До скорой встречи",
-                                     "До свидания",
-                                     "Спокойной ночи"
-                                 ],
-                     "answer":  "До скорой встречи",
-                     "why":  "\u0027See you soon\u0027 означает, что вы планируете встретиться в ближайшее время."
-                 },
-                 {
-                     "q":  "Какое приветствие подходит для неформальной встречи с другом?",
-                     "options":  [
-                                     "Good morning",
-                                     "Hello, sir",
-                                     "Hi, mate!",
-                                     "How do you do?"
-                                 ],
-                     "answer":  "Hi, mate!",
-                     "why":  "\u0027Hi, mate!\u0027 — это неформальное приветствие, которое подходит для друга."
-                 },
-                 {
-                     "q":  "В чём разница между \u0027Good evening\u0027 и \u0027Good night\u0027?",
-                     "options":  [
-                                     "Это одно и то же",
-                                     "Good evening — при встрече, Good night — при прощании",
-                                     "Good evening — при прощании, Good night — при встрече",
-                                     "Good night — только в письмах"
-                                 ],
-                     "answer":  "Good evening — при встрече, Good night — при прощании",
-                     "why":  "\u0027Good evening\u0027 — это приветствие при встрече вечером. \u0027Good night\u0027 — это прощание перед сном."
-                 }
-             ],
-    "related":  [
-
-                ]
+  "variant": "rocknroll",
+  "slug": "introductions-greetings",
+  "level": "A0",
+  "title": "Introductions and Greetings",
+  "category": "Basics",
+  "readingTime": 8,
+  "summary": "Приветствия, обращения и знакомство помогают начать разговор или письмо. В английском форма обращения зависит от ситуации и степени близости. При знакомстве мы называем своё имя и можем спросить имя другого человека. В публичном разговоре эти простые формулы становятся частью общения с аудиторией.",
+  "idea": [
+    "Когда человек встречается с другими людьми, разговор обычно начинается с короткого контакта. Английские [bold]Hello[/bold], [bold]Hi[/bold], [bold]Good morning[/bold] и [bold]Good afternoon[/bold] помогают начать общение. После приветствия можно назвать своё имя или обратиться к собеседнику.",
+    "Пресс-конференция Элвиса Пресли в Fort Dix 3 марта 1960 года показывает уже не личное знакомство, а публичную ситуацию. Пресли только что завершал военную службу, вокруг него находились журналисты, фотографы и другие люди. Поэтому его речь происходила перед аудиторией, а не один на один.",
+    "В такой ситуации особенно важен сам факт обращения к группе людей. В конце одной из записанных частей пресс-конференции Пресли говорит [bold]Thank you, gentlemen.[/bold] Здесь [bold]gentlemen[/bold] — обращение к присутствующим мужчинам, а не имя одного конкретного человека.",
+    "Обращение может быть направлено одному человеку или группе. [bold]Hello, John[/bold] обращено к одному человеку. [bold]Hello, everyone[/bold] — ко всей группе. В публичной ситуации выбор обращения зависит от того, к кому говорит человек.",
+    "После приветствия человек может представиться. Самая простая форма — [bold]My name is Elvis.[/bold] В разговорном английском чаще используется сокращённая форма [bold]I'm Elvis.[/bold] Обе конструкции сообщают имя говорящего.",
+    "Если мы хотим узнать имя собеседника, используем [bold]What's your name?[/bold] В ответ можно сказать [bold]I'm Elvis[/bold] или [bold]My name is Elvis[/bold]. Это базовая модель знакомства, которую можно использовать практически независимо от ситуации.",
+    "Публичная встреча отличается от обычного знакомства тем, что человек может уже быть известен аудитории. Поэтому журналисту не всегда нужно спрашивать имя Элвиса. Но сама структура общения остаётся той же: обращение, вопрос, ответ и завершение разговора.",
+    "На пресс-конференции журналисты задают вопросы, а Пресли отвечает. В одном из моментов журналист обращается к нему непосредственно: [bold]Elvis, if I may ask you just a few questions[/bold]. Здесь имя [bold]Elvis[/bold] используется как обращение перед вопросом.",
+    "Такое обращение отличается от предложения [bold]Elvis is a singer.[/bold] В первом случае говорящий обращается к Элвису напрямую. Во втором он говорит об Элвисе. Поэтому запятая после имени может менять функцию слова в предложении.",
+    "Для начинающего ученика полезно различать три простые ситуации. [bold]Hello![/bold] — приветствие. [bold]I'm Elvis.[/bold] — представление. [bold]Elvis, can I ask you a question?[/bold] — обращение к человеку.",
+    "Приветствие также зависит от времени суток. [bold]Good morning[/bold] используется утром, [bold]Good afternoon[/bold] днём, а [bold]Good evening[/bold] вечером. Эти выражения подходят для публичной и формальной ситуации лучше, чем очень неформальное [bold]Hi[/bold].",
+    "После встречи можно сказать [bold]Nice to meet you.[/bold] Если знакомство уже произошло раньше, обычно используется [bold]Nice to see you.[/bold] На начальном уровне важно прежде всего различать meet — впервые познакомиться и see — увидеть человека снова.",
+    "В разговоре с журналистами ответы часто бывают короткими. Это хорошо видно по интервью Пресли: журналист задаёт вопрос, а он отвечает непосредственно на него. Для английского начинающего уровня это полезная модель — короткое обращение, короткий вопрос и короткий ответ.",
+    "В одном из эпизодов после вопроса о службе Элвис говорит, что рад вернуться к тому, чем занимался раньше. Даже когда содержание ответа становится сложнее, начало и конец разговора остаются простыми: обращение, вопрос, ответ, благодарность.",
+    "Пресс-конференция также показывает, что [bold]sir[/bold] и [bold]gentlemen[/bold] могут использоваться как обращения. [bold]Sir[/bold] обращается к одному мужчине в формальной ситуации. [bold]Gentlemen[/bold] обращается сразу к нескольким мужчинам.",
+    "Важно не путать [bold]sir[/bold] с именем. [bold]Thank you, sir[/bold] означает обращение к мужчине, а [bold]Thank you, Elvis[/bold] — обращение по имени. В обоих случаях говорящий показывает, к кому именно направлена его реплика.",
+    "Публичное общение может закончиться простой формулой благодарности. [bold]Thank you[/bold] не означает буквально «до свидания», но часто завершает ответ или выступление. После него разговор может закончиться или перейти к следующему вопросу.",
+    "Сравни [bold]Hello, Elvis[/bold] и [bold]Elvis, hello[/bold]. В обоих случаях имя является частью обращения. Но наиболее естественная модель для начала разговора — [bold]Hello, Elvis.[/bold]",
+    "Сравни [bold]I'm Elvis[/bold] и [bold]He's Elvis[/bold]. В первом случае человек говорит о себе. Во втором — другой человек говорит о нём. При знакомстве важно выбрать правильное лицо: [bold]I[/bold] для себя и [bold]you[/bold] для собеседника.",
+    "Поэтому даже очень простой разговор имеет понятную структуру. Сначала мы устанавливаем контакт: [bold]Hello[/bold]. Затем представляемся: [bold]I'm...[/bold]. Если нужно, спрашиваем имя: [bold]What's your name?[/bold]. В конце благодарим или прощаемся: [bold]Thank you[/bold], [bold]Goodbye[/bold]. Именно из таких коротких элементов строится настоящее общение."
+  ],
+  "why": [
+    "Начинать разговор с человеком или группой.",
+    "Представляться и спрашивать имя.",
+    "Обращаться к одному человеку или аудитории.",
+    "Понимать базовые формулы общения в публичной ситуации."
+  ],
+  "context": {
+    "lines": [
+      {
+        "en": "Elvis, if I may ask you just a few questions",
+        "ru": "Элвис, если можно, я задам вам несколько вопросов."
+      },
+      {
+        "en": "Would I spend more time in the Army?",
+        "ru": "Провёл бы я больше времени в армии?"
+      },
+      {
+        "en": "I'm always ready.",
+        "ru": "Я всегда готов."
+      },
+      {
+        "en": "Thank you, gentlemen.",
+        "ru": "Спасибо, господа."
+      },
+      {
+        "en": "I'm Elvis.",
+        "ru": "Я Элвис."
+      }
+    ],
+    "note": "Первые четыре строки взяты из сохранившихся материалов пресс-конференции Элвиса Пресли в Fort Dix, New Jersey, 3 марта 1960 года. Последняя фраза используется как учебная модель и не является цитатой Пресли."
+  },
+  "russianAngle": [
+    "В русском языке обращение часто выделяется интонацией и запятой; в английском принцип тот же: Hello, Elvis.",
+    "В английском sir и gentlemen могут использоваться как обращения, а не только как слова для описания человека.",
+    "I'm... и My name is... используются для представления.",
+    "Вопрос What's your name? соответствует простому русскому «Как тебя/вас зовут?»",
+    "Good night обычно используется при прощании, а Good evening — при приветствии вечером."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Запомни Hello и Hi как основные приветствия.",
+      "Выучи Good morning, Good afternoon и Good evening.",
+      "Научись представляться через I'm... и My name is...",
+      "Запомни вопрос What's your name?",
+      "Потренируй обращения Hello, + имя и + имя в начале вопроса.",
+      "Выучи sir для формального обращения к одному мужчине.",
+      "Используй Thank you и Goodbye для завершения разговора."
+    ],
+    "exercise": {
+      "prompt": "Составь короткий диалог знакомства:",
+      "items": [
+        {
+          "q": "Поздоровайся с человеком.",
+          "a": "Hello! / Hi!"
+        },
+        {
+          "q": "Представься как Elvis.",
+          "a": "I'm Elvis. / My name is Elvis."
+        },
+        {
+          "q": "Спроси имя человека.",
+          "a": "What's your name?"
+        },
+        {
+          "q": "Скажи «Рад познакомиться».",
+          "a": "Nice to meet you."
+        },
+        {
+          "q": "Обратись к одному мужчине формально.",
+          "a": "Sir."
+        }
+      ]
+    }
+  },
+  "formula": "Hello/Hi + name / My name is + name / I'm + name / What's your name?",
+  "structure": {
+    "greeting": "Hello! / Hi! / Good morning.",
+    "introduction": "My name is Elvis. / I'm Elvis.",
+    "question": "What's your name?",
+    "address": "Elvis, ... / Sir, ... / Gentlemen, ...",
+    "closing": "Thank you. / Goodbye."
+  },
+  "markers": [
+    "Hello",
+    "Hi",
+    "Good morning",
+    "Good afternoon",
+    "Good evening",
+    "My name is...",
+    "I'm...",
+    "What's your name?",
+    "sir",
+    "gentlemen",
+    "Nice to meet you",
+    "Thank you",
+    "Goodbye"
+  ],
+  "uses": {
+    "title": "Как общаться при встрече",
+    "items": [
+      {
+        "title": "Приветствие",
+        "text": "Hello, Hi и Good morning используются для начала разговора."
+      },
+      {
+        "title": "Представление",
+        "text": "Чтобы назвать себя, используются I'm... и My name is..."
+      },
+      {
+        "title": "Вопрос об имени",
+        "text": "What's your name? используется, чтобы узнать имя собеседника."
+      },
+      {
+        "title": "Обращение",
+        "text": "Имя, sir или gentlemen могут использоваться непосредственно как обращение к собеседнику или группе."
+      },
+      {
+        "title": "Завершение",
+        "text": "Thank you и Goodbye помогают завершить разговор."
+      }
+    ]
+  },
+  "rules": [
+    {
+      "title": "Hello / Hi",
+      "text": "Hello и Hi — основные приветствия."
+    },
+    {
+      "title": "My name is / I'm",
+      "text": "Обе конструкции используются для представления: My name is Elvis. / I'm Elvis."
+    },
+    {
+      "title": "What's your name?",
+      "text": "Эта конструкция используется, чтобы спросить имя собеседника."
+    },
+    {
+      "title": "Обращение по имени",
+      "text": "Имя можно использовать непосредственно при обращении: Hello, Elvis. / Elvis, ..."
+    },
+    {
+      "title": "Sir / gentlemen",
+      "text": "Sir используется при обращении к одному мужчине, gentlemen — к группе мужчин."
+    },
+    {
+      "title": "Good evening / Good night",
+      "text": "Good evening используется как приветствие вечером, Good night — обычно при прощании."
+    }
+  ],
+  "examples": [
+    {
+      "group": "Greetings",
+      "items": [
+        {
+          "en": "Hello!",
+          "ru": "Здравствуйте! / Привет!",
+          "highlight": [
+            "Hello"
+          ]
+        },
+        {
+          "en": "Hi!",
+          "ru": "Привет!",
+          "highlight": [
+            "Hi"
+          ]
+        },
+        {
+          "en": "Good morning!",
+          "ru": "Доброе утро!",
+          "highlight": [
+            "Good morning"
+          ]
+        },
+        {
+          "en": "Good evening!",
+          "ru": "Добрый вечер!",
+          "highlight": [
+            "Good evening"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Introductions",
+      "items": [
+        {
+          "en": "My name is Elvis.",
+          "ru": "Меня зовут Элвис.",
+          "highlight": [
+            "My name is"
+          ]
+        },
+        {
+          "en": "I'm Elvis.",
+          "ru": "Я Элвис.",
+          "highlight": [
+            "I'm"
+          ]
+        },
+        {
+          "en": "What's your name?",
+          "ru": "Как вас зовут?",
+          "highlight": [
+            "What's your name"
+          ]
+        },
+        {
+          "en": "Nice to meet you.",
+          "ru": "Рад познакомиться.",
+          "highlight": [
+            "Nice to meet you"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Addressing someone",
+      "items": [
+        {
+          "en": "Hello, Elvis.",
+          "ru": "Здравствуйте, Элвис.",
+          "highlight": [
+            "Hello",
+            "Elvis"
+          ]
+        },
+        {
+          "en": "Elvis, can I ask you a question?",
+          "ru": "Элвис, можно задать вам вопрос?",
+          "highlight": [
+            "Elvis"
+          ]
+        },
+        {
+          "en": "Yes, sir.",
+          "ru": "Да, сэр.",
+          "highlight": [
+            "sir"
+          ]
+        },
+        {
+          "en": "Thank you, gentlemen.",
+          "ru": "Спасибо, господа.",
+          "highlight": [
+            "gentlemen"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Closing a conversation",
+      "items": [
+        {
+          "en": "Thank you.",
+          "ru": "Спасибо.",
+          "highlight": [
+            "Thank you"
+          ]
+        },
+        {
+          "en": "Goodbye.",
+          "ru": "До свидания.",
+          "highlight": [
+            "Goodbye"
+          ]
+        },
+        {
+          "en": "Good night.",
+          "ru": "Доброй ночи.",
+          "highlight": [
+            "Good night"
+          ]
+        },
+        {
+          "en": "See you.",
+          "ru": "Увидимся.",
+          "highlight": [
+            "See you"
+          ]
+        }
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "My name Elvis.",
+      "right": "My name is Elvis.",
+      "note": "После My name нужен глагол is."
+    },
+    {
+      "wrong": "I Elvis.",
+      "right": "I'm Elvis.",
+      "note": "Для представления используется I am / I'm."
+    },
+    {
+      "wrong": "What's name you?",
+      "right": "What's your name?",
+      "note": "Правильный порядок слов: What's + your name?"
+    },
+    {
+      "wrong": "Good night! как приветствие вечером.",
+      "right": "Good evening!",
+      "note": "Good evening используется при встрече вечером, Good night — обычно при прощании."
+    },
+    {
+      "wrong": "Hello Elvis.",
+      "right": "Hello, Elvis.",
+      "note": "Имя при непосредственном обращении отделяется запятой."
+    },
+    {
+      "wrong": "Nice meet you.",
+      "right": "Nice to meet you.",
+      "note": "В формуле используется to."
+    }
+  ],
+  "compare": {
+    "title": "Личное знакомство vs публичное общение",
+    "leftLabel": "Личное знакомство",
+    "rightLabel": "Публичное общение",
+    "rows": [
+      {
+        "left": "Hello!",
+        "right": "Good morning, gentlemen."
+      },
+      {
+        "left": "I'm Elvis.",
+        "right": "Elvis, can I ask you a question?"
+      },
+      {
+        "left": "What's your name?",
+        "right": "Elvis, if I may ask you a question."
+      },
+      {
+        "left": "Nice to meet you.",
+        "right": "Thank you, gentlemen."
+      },
+      {
+        "left": "Goodbye.",
+        "right": "Thank you."
+      }
+    ]
+  },
+  "tips": [
+    "Начинай простой разговор с Hello или Hi.",
+    "Для представления используй I'm... или My name is...",
+    "Вопрос об имени: What's your name?",
+    "Имя при обращении отделяй запятой: Hello, Elvis.",
+    "Sir — формальное обращение к одному мужчине.",
+    "Gentlemen — обращение к группе мужчин.",
+    "Good evening — приветствие вечером, Good night — обычно прощание."
+  ],
+  "quiz": [
+    {
+      "q": "Choose the correct introduction:",
+      "options": [
+        "I'm Elvis.",
+        "I Elvis.",
+        "I'm name Elvis."
+      ],
+      "answer": 0,
+      "why": "Для представления используется I'm + имя."
+    },
+    {
+      "q": "How do you ask someone's name?",
+      "options": [
+        "What's your name?",
+        "What's name you?",
+        "What your name?"
+      ],
+      "answer": 0,
+      "why": "Правильная конструкция — What's your name?"
+    },
+    {
+      "q": "Which phrase is a greeting?",
+      "options": [
+        "Good morning.",
+        "What's your name?",
+        "I'm Elvis."
+      ],
+      "answer": 0,
+      "why": "Good morning — приветствие."
+    },
+    {
+      "q": "Which sentence correctly addresses Elvis?",
+      "options": [
+        "Hello Elvis.",
+        "Hello, Elvis.",
+        "Hello is Elvis."
+      ],
+      "answer": 1,
+      "why": "При непосредственном обращении имя отделяется запятой."
+    },
+    {
+      "q": "Which word can formally address one man?",
+      "options": [
+        "gentlemen",
+        "sir",
+        "everyone"
+      ],
+      "answer": 1,
+      "why": "Sir — формальное обращение к одному мужчине."
+    },
+    {
+      "q": "Which phrase is normally used when leaving?",
+      "options": [
+        "Good night.",
+        "Good evening.",
+        "Good morning."
+      ],
+      "answer": 0,
+      "why": "Good night обычно используется при прощании."
+    }
+  ],
+  "related": [
+    "a0-symbols-abbreviations",
+    "a0-numbers-dates-time"
+  ]
 }

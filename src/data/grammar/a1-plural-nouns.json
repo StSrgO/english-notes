@@ -4,172 +4,434 @@
   "level": "A1",
   "title": "Plural Nouns",
   "category": "Grammar",
-  "readingTime": 9,
-  "summary": "Множественное число существительных. Правила и исключения. Льюис Кэрролл и «Алиса в Стране чудес».",
+  "readingTime": 10,
+  "summary": "Множественное число показывает, что предметов или людей больше одного. Обычно к существительному добавляется -s или -es, но некоторые слова имеют особую форму. Важно также различать исчисляемые существительные в единственном и множественном числе.",
   "idea": [
-    "Алиса падает в кроличью нору. Она в комнате с множеством дверей. Она видит существ. «Cats. Rabbits. Mice. Birds.» Она видит их по одному и во множестве. «One cat. Two cats. One mouse. Many mice.» «One rabbit» — Белый Кролик. «Many rabbits» — все кролики в лесу. «One cat» — Чеширский Кот. «Many cats» — все коты. «One mouse» — Мышь. «Many mice» — все мыши. «One bird» — Птица. «Many birds» — все птицы.",
-    "«Cat» — одна кошка. «Cats» — много кошек. «Rabbit» — один кролик. «Rabbits» — много кроликов. «Mouse» — одна мышь. «Mice» — много мышей. «Child» — один ребёнок. «Children» — много детей. «Man» — один мужчина. «Men» — много мужчин. «Woman» — одна женщина. «Women» — много женщин. «Fish» — одна рыба. «Fish» — много рыб. «Sheep» — одна овца. «Sheep» — много овец. «Foot» — одна нога. «Feet» — много ног. «Tooth» — один зуб. «Teeth» — много зубов.",
-    "«One» — мало. «Many» — много. «Some» — несколько. «All» — все. Алиса учится считать. «I see one cat. I see two cats. I see many cats.» Множественное число показывает, что одного недостаточно. Что всего много. Что мир состоит из множества вещей. «One fish, two fish, red fish, blue fish.» Множественное число — это способ говорить о мире, где ничего не бывает в единственном экземпляре. Где всё повторяется. Где всего много."
+    "Когда мы говорим об одном предмете, используется форма единственного числа: [bold]a gift[/bold], [bold]a coin[/bold], [bold]a dollar[/bold]. Когда предметов становится несколько, существительное обычно получает окончание [bold]-s[/bold]: [bold]gifts[/bold], [bold]coins[/bold], [bold]dollars[/bold]. В рассказе О. Генри The Gift of the Magi такие предметы естественно появляются в самой истории: деньги, подарки, волосы, часы и другие вещи становятся частью сюжета.",
+    "Рассказ начинается с очень конкретного количества денег: [bold]One dollar and eighty-seven cents.[/bold] Здесь [bold]dollar[/bold] стоит в единственном числе, потому что речь идёт об одной денежной единице, а [bold]cents[/bold] — во множественном, потому что их несколько. Уже в первой строке можно увидеть, что форма существительного зависит от количества.",
+    "Самое простое правило выглядит так: один предмет — [bold]one gift[/bold], несколько предметов — [bold]two gifts[/bold]. Один цент — [bold]one cent[/bold], несколько — [bold]sixty cents[/bold]. В английском множественное число чаще всего образуется добавлением [bold]-s[/bold].",
+    "В The Gift of the Magi деньги появляются именно как множество маленьких сумм: [bold]Pennies saved one and two at a time[/bold]. Слово [bold]pennies[/bold] показывает несколько монет. Здесь используется не обычное [bold]-s[/bold], потому что форма слова [bold]penny[/bold] во множественном числе меняется на [bold]pennies[/bold].",
+    "Некоторые существительные образуют множественное число с помощью [bold]-es[/bold]. Например, [bold]box → boxes[/bold], [bold]watch → watches[/bold], [bold]bus → buses[/bold]. Это особенно удобно видеть на словах, которые заканчиваются на звуки или буквы, после которых простого [bold]-s[/bold] недостаточно для естественного произношения.",
+    "Но множественное число — это не только окончание. Некоторые слова имеют особую форму. [bold]Man → men[/bold], [bold]woman → women[/bold], [bold]child → children[/bold], [bold]person → people[/bold]. Такие формы нужно запоминать отдельно, потому что они не образуются простым добавлением окончания.",
+    "В рассказе О. Генри особенно важны люди. Дэлла и Джим — два человека, поэтому можно говорить [bold]two people[/bold]. Здесь нельзя сказать [bold]two persons[/bold] в обычной бытовой формулировке, хотя слово [bold]persons[/bold] существует в более формальных контекстах. Для начинающего уровня важно запомнить основную пару: [bold]person → people[/bold].",
+    "Есть существительные, которые выглядят как обычные слова, но в контексте требуют внимания к числу. Например, [bold]hair[/bold] обычно обозначает волосы как массу: [bold]Her hair was beautiful.[/bold] В рассказе Дэлла решает пожертвовать своими волосами, и эта деталь становится центральной частью сюжета.",
+    "Когда мы говорим об отдельных волосах, используется [bold]hairs[/bold]: [bold]a few hairs[/bold]. Поэтому [bold]hair[/bold] и [bold]hairs[/bold] не всегда означают одно и то же. Форма числа помогает понять, говорим ли мы о волосах как о массе или об отдельных волосках.",
+    "То же различие появляется с другими словами. [bold]Money[/bold] обычно неисчисляемое: мы говорим [bold]some money[/bold], а не [bold]moneys[/bold] в обычном бытовом английском. Но отдельные денежные единицы можно посчитать: [bold]dollars[/bold], [bold]cents[/bold], [bold]coins[/bold].",
+    "Именно поэтому в рассказе можно одновременно встретить [bold]money[/bold] как общее понятие и [bold]dollars[/bold] или [bold]cents[/bold] как отдельные единицы. Английский язык различает вещество или общее количество и отдельные предметы, которые можно посчитать.",
+    "Ещё одна важная модель — артикль. В единственном числе исчисляемое существительное обычно не может стоять само по себе: [bold]a gift[/bold], [bold]a coin[/bold], [bold]a watch[/bold]. Во множественном числе неопределённый артикль [bold]a/an[/bold] исчезает: [bold]gifts[/bold], [bold]coins[/bold], [bold]watches[/bold].",
+    "Поэтому [bold]a gift[/bold] означает один подарок, а [bold]gifts[/bold] — подарки вообще или несколько подарков. Если мы хотим указать количество, можем сказать [bold]two gifts[/bold], [bold]three gifts[/bold] или [bold]many gifts[/bold].",
+    "В The Gift of the Magi подарки существуют как реальные предметы, которые герои выбирают друг для друга. Дэлла покупает подарок Джиму, а Джим готовит подарок Дэлле. Сюжет постоянно переключается между одним предметом и множеством предметов, поэтому формы числа возникают естественно.",
+    "Сравни: [bold]a coin → coins[/bold], [bold]a gift → gifts[/bold], [bold]a dollar → dollars[/bold]. Во всех трёх случаях правило одинаковое: когда предметов становится больше одного, обычное существительное получает форму множественного числа.",
+    "Но сравни: [bold]a penny → pennies[/bold], [bold]a watch → watches[/bold], [bold]a man → men[/bold]. Здесь уже работают разные модели. Одни слова меняют [bold]y[/bold] на [bold]ies[/bold], другие получают [bold]-es[/bold], а третьи имеют полностью особую форму.",
+    "Поэтому лучше учить существительное вместе с его формой множественного числа. Не только [bold]penny[/bold], но [bold]penny → pennies[/bold]; не только [bold]man[/bold], но [bold]man → men[/bold]. Это помогает сразу видеть слово как часть грамматической системы.",
+    "В финале рассказа О. Генри подарки оказываются неожиданно бесполезными в практическом смысле: каждый из героев пожертвовал тем, что делало подарок другого полезным. Но грамматически это всё равно [bold]gifts[/bold], потому что речь идёт о двух отдельных подарках.",
+    "Таким образом, множественное число нужно не просто для обозначения большого количества. Оно помогает показать, сколько объектов существует, различить один предмет и несколько предметов и выбрать правильную форму существительного.",
+    "The Gift of the Magi хорошо подходит для этой темы именно потому, что его история построена вокруг конкретных вещей: денег, монет, подарков, часов и волос. Существительные здесь не существуют отдельно от сюжета — количество предметов постоянно влияет на то, как мы говорим о них."
   ],
   "why": [
-    "Множественное число помогает говорить о нескольких предметах",
-    "Правильное образование множественного числа делает речь грамотной",
-    "В английском языке есть правила и исключения, которые нужно знать",
-    "Знание множественного числа помогает понимать текст и речь"
+    "Говорить о двух и более предметах или людях.",
+    "Образовывать обычные формы множественного числа.",
+    "Использовать формы на -s и -es.",
+    "Распознавать основные неправильные формы множественного числа."
   ],
   "context": {
     "lines": [
-      { "en": "Brush: 'Look at the cats! There are three cats in the garden!' Feather: 'And look at the birds! There are five birds in the tree!'", "ru": "Кисточка: «Посмотри на кошек! В саду три кошки!» Пёрышко: «И посмотри на птиц! На дереве пять птиц!»" },
-      { "en": "Brush: 'One mouse, two mice. One child, two children. The plural is fun!'", "ru": "Кисточка: «Одна мышь, две мыши. Один ребёнок, два ребёнка. Множественное число — это весело!»" }
+      {
+        "en": "One dollar and eighty-seven cents.",
+        "ru": "Один доллар и восемьдесят семь центов."
+      },
+      {
+        "en": "Pennies saved one and two at a time.",
+        "ru": "Центы, сбережённые по одному и по два."
+      },
+      {
+        "en": "She had a beautiful hair.",
+        "ru": "У неё были красивые волосы."
+      },
+      {
+        "en": "She had sold her hair.",
+        "ru": "Она продала свои волосы."
+      },
+      {
+        "en": "The magi brought valuable gifts.",
+        "ru": "Волхвы принесли ценные подарки."
+      }
     ],
-    "note": "Множественное число — это способ считать мир. Изучайте его с радостью."
+    "note": "Первые два примера взяты непосредственно из текста The Gift of the Magi. Остальные строки используются как учебные примеры по мотивам реальных деталей рассказа и не выдаются за дословные цитаты О. Генри."
   },
   "russianAngle": [
-    "В русском языке множественное число образуется с помощью окончаний: кот → коты, собака → собаки.",
-    "В английском языке обычно добавляется -s: a cat → cats, a dog → dogs.",
-    "В русском языке есть исключения: человек → люди. В английском тоже: a man → men, a child → children.",
-    "В русском языке некоторые слова не меняются: рыба → рыбы. В английском тоже: a fish → fish, a sheep → sheep."
+    "В русском языке множественное число тоже показывает количество, но окончания отличаются от английских.",
+    "В английском большинство исчисляемых существительных получают -s или -es.",
+    "Некоторые английские существительные имеют неправильные формы: man → men, woman → women, child → children, person → people.",
+    "В английском важно различать исчисляемые существительные и неисчисляемые слова: coin можно посчитать, а money обычно нельзя."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: обычно +s: a cat → cats.",
-      "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses.",
-      "Если слово оканчивается на -y → -ies: a baby → babies.",
-      "Исключения: a man → men, a woman → women, a child → children.",
-      "Некоторые слова не меняются: a fish → fish, a sheep → sheep.",
-      "Сделай упражнение и сверься с ответами."
+      "Сначала определи, говоришь ты об одном предмете или о нескольких.",
+      "Если существительное исчисляемое и предметов больше одного, проверь обычную форму множественного числа.",
+      "Запомни основные модели -s и -es.",
+      "Отдельно выучи неправильные формы: man → men, woman → women, child → children, person → people.",
+      "Проверь, не является ли существительное неисчисляемым.",
+      "Сравни форму слова с количеством: one gift, two gifts."
     ],
     "exercise": {
-      "prompt": "Напишите множественное число этих существительных:",
+      "prompt": "Образуйте правильную форму множественного числа:",
       "items": [
-        { "q": "a cat → ___", "a": "cats" },
-        { "q": "a dog → ___", "a": "dogs" },
-        { "q": "a bus → ___", "a": "buses" },
-        { "q": "a baby → ___", "a": "babies" },
-        { "q": "a man → ___", "a": "men" },
-        { "q": "a child → ___", "a": "children" },
-        { "q": "a fish → ___", "a": "fish" }
+        {
+          "q": "gift",
+          "a": "gifts"
+        },
+        {
+          "q": "coin",
+          "a": "coins"
+        },
+        {
+          "q": "watch",
+          "a": "watches"
+        },
+        {
+          "q": "penny",
+          "a": "pennies"
+        },
+        {
+          "q": "person",
+          "a": "people"
+        }
       ]
     }
   },
-  "formula": "",
+  "formula": "singular noun → plural noun: a gift → gifts / a watch → watches / a person → people",
   "structure": {
-    "positive": "",
-    "negative": "",
-    "question": ""
+    "positive": "one gift → two gifts",
+    "negative": "one gift → not two gifts",
+    "question": "How many gifts?"
   },
-  "markers": [],
-  "uses": [],
+  "markers": [
+    "two",
+    "three",
+    "many",
+    "some",
+    "several",
+    "these",
+    "those"
+  ],
+  "uses": {
+    "title": "Когда нужен plural",
+    "items": [
+      {
+        "title": "Несколько предметов",
+        "text": "Когда предметов больше одного, исчисляемое существительное обычно принимает форму множественного числа: one gift → two gifts."
+      },
+      {
+        "title": "Окончание -s",
+        "text": "Большинство существительных образует множественное число с помощью -s: coin → coins."
+      },
+      {
+        "title": "Окончание -es",
+        "text": "Некоторые существительные получают -es: watch → watches, box → boxes."
+      },
+      {
+        "title": "Изменение -y",
+        "text": "У некоторых слов на согласную + y форма меняется на -ies: penny → pennies."
+      },
+      {
+        "title": "Неправильная форма",
+        "text": "Некоторые существительные имеют особую форму: person → people, man → men, child → children."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Обычное правило +s", "text": "a cat → cats, a dog → dogs, a bird → birds." },
-    { "title": "Правило +es", "text": "Если слово оканчивается на -s, -ss, -sh, -ch, -x, -z → +es: a bus → buses, a box → boxes." },
-    { "title": "Правило -y → -ies", "text": "Если слово оканчивается на -y → -ies: a baby → babies, a party → parties." },
-    { "title": "Исключения", "text": "a man → men, a woman → women, a child → children, a mouse → mice, a fish → fish, a sheep → sheep." }
+    {
+      "title": "Обычная форма",
+      "text": "Большинство существительных получает -s: gift → gifts."
+    },
+    {
+      "title": "После некоторых окончаний",
+      "text": "Некоторые существительные получают -es: watch → watches."
+    },
+    {
+      "title": "Слова на согласную + y",
+      "text": "y меняется на ies: penny → pennies."
+    },
+    {
+      "title": "Неправильное множественное число",
+      "text": "Некоторые формы нужно запомнить: man → men, woman → women, child → children, person → people."
+    },
+    {
+      "title": "Исчисляемые существительные",
+      "text": "В единственном числе обычно нужен a/an: a gift. Во множественном числе a/an не используется: gifts."
+    }
   ],
   "examples": [
     {
-      "group": "Обычное правило +s",
+      "group": "Обычное множественное число",
       "items": [
-        { "en": "a cat → cats. Look at the cats in the garden!", "ru": "кошка → кошки. Посмотри на кошек в саду!", "highlight": ["cats"] },
-        { "en": "a dog → dogs. The dogs are playing in the park.", "ru": "собака → собаки. Собаки играют в парке.", "highlight": ["dogs"] },
-        { "en": "a bird → birds. There are many birds in the tree.", "ru": "птица → птицы. На дереве много птиц.", "highlight": ["birds"] },
-        { "en": "a rabbit → rabbits. The rabbits are in the garden.", "ru": "кролик → кролики. Кролики в саду.", "highlight": ["rabbits"] },
-        { "en": "a tree → trees. There are trees everywhere.", "ru": "дерево → деревья. Деревья повсюду.", "highlight": ["trees"] },
-        { "en": "a house → houses. There are houses on the street.", "ru": "дом → дома. На улице есть дома.", "highlight": ["houses"] }
+        {
+          "en": "a gift → gifts",
+          "ru": "подарок → подарки",
+          "highlight": [
+            "gifts"
+          ]
+        },
+        {
+          "en": "a coin → coins",
+          "ru": "монета → монеты",
+          "highlight": [
+            "coins"
+          ]
+        },
+        {
+          "en": "a dollar → dollars",
+          "ru": "доллар → доллары",
+          "highlight": [
+            "dollars"
+          ]
+        },
+        {
+          "en": "a book → books",
+          "ru": "книга → книги",
+          "highlight": [
+            "books"
+          ]
+        }
       ]
     },
     {
-      "group": "Правило +es",
+      "group": "Форма на -es",
       "items": [
-        { "en": "a bus → buses. There are three buses on the street.", "ru": "автобус → автобусы. На улице три автобуса.", "highlight": ["buses"] },
-        { "en": "a box → boxes. I have two boxes of books.", "ru": "коробка → коробки. У меня две коробки книг.", "highlight": ["boxes"] },
-        { "en": "a watch → watches. He has three watches.", "ru": "часы → часы. У него трое часов.", "highlight": ["watches"] },
-        { "en": "a dress → dresses. She has many dresses.", "ru": "платье → платья. У неё много платьев.", "highlight": ["dresses"] },
-        { "en": "a fox → foxes. There are foxes in the forest.", "ru": "лиса → лисы. В лесу есть лисы.", "highlight": ["foxes"] },
-        { "en": "a glass → glasses. I need two glasses.", "ru": "стакан → стаканы. Мне нужны два стакана.", "highlight": ["glasses"] }
+        {
+          "en": "a watch → watches",
+          "ru": "часы → часы",
+          "highlight": [
+            "watches"
+          ]
+        },
+        {
+          "en": "a box → boxes",
+          "ru": "коробка → коробки",
+          "highlight": [
+            "boxes"
+          ]
+        },
+        {
+          "en": "a bus → buses",
+          "ru": "автобус → автобусы",
+          "highlight": [
+            "buses"
+          ]
+        },
+        {
+          "en": "a class → classes",
+          "ru": "класс → классы",
+          "highlight": [
+            "classes"
+          ]
+        }
       ]
     },
     {
-      "group": "Правило -y → -ies",
+      "group": "Изменение -y",
       "items": [
-        { "en": "a baby → babies. The babies are sleeping.", "ru": "ребёнок → дети. Дети спят.", "highlight": ["babies"] },
-        { "en": "a party → parties. We have two parties this week.", "ru": "вечеринка → вечеринки. На этой неделе у нас две вечеринки.", "highlight": ["parties"] },
-        { "en": "a story → stories. She tells many stories.", "ru": "история → истории. Она рассказывает много историй.", "highlight": ["stories"] },
-        { "en": "a city → cities. There are many cities in England.", "ru": "город → города. В Англии много городов.", "highlight": ["cities"] },
-        { "en": "a country → countries. There are many countries in the world.", "ru": "страна → страны. В мире много стран.", "highlight": ["countries"] },
-        { "en": "a lady → ladies. The ladies are in the garden.", "ru": "леди → леди. Леди в саду.", "highlight": ["ladies"] }
+        {
+          "en": "a penny → pennies",
+          "ru": "цент → центы",
+          "highlight": [
+            "pennies"
+          ]
+        },
+        {
+          "en": "a story → stories",
+          "ru": "история → истории",
+          "highlight": [
+            "stories"
+          ]
+        },
+        {
+          "en": "a city → cities",
+          "ru": "город → города",
+          "highlight": [
+            "cities"
+          ]
+        },
+        {
+          "en": "a family → families",
+          "ru": "семья → семьи",
+          "highlight": [
+            "families"
+          ]
+        }
       ]
     },
     {
-      "group": "Исключения — человек",
+      "group": "Неправильные формы",
       "items": [
-        { "en": "a man → men. There are three men in the room.", "ru": "мужчина → мужчины. В комнате три мужчины.", "highlight": ["men"] },
-        { "en": "a woman → women. There are two women in the garden.", "ru": "женщина → женщины. В саду две женщины.", "highlight": ["women"] },
-        { "en": "a child → children. The children are playing.", "ru": "ребёнок → дети. Дети играют.", "highlight": ["children"] },
-        { "en": "a person → people. There are many people in the hall.", "ru": "человек → люди. В зале много людей.", "highlight": ["people"] },
-        { "en": "a gentleman → gentlemen. The gentlemen are waiting.", "ru": "джентльмен → джентльмены. Джентльмены ждут.", "highlight": ["gentlemen"] },
-        { "en": "a lady → ladies. The ladies are in the garden.", "ru": "леди → леди. Леди в саду.", "highlight": ["ladies"] }
-      ]
-    },
-    {
-      "group": "Исключения — животные",
-      "items": [
-        { "en": "a mouse → mice. There are mice in the kitchen!", "ru": "мышь → мыши. На кухне мыши!", "highlight": ["mice"] },
-        { "en": "a fish → fish. There are five fish in the aquarium.", "ru": "рыба → рыбы. В аквариуме пять рыб.", "highlight": ["fish"] },
-        { "en": "a sheep → sheep. There are many sheep on the farm.", "ru": "овца → овцы. На ферме много овец.", "highlight": ["sheep"] },
-        { "en": "a deer → deer. There are deer in the forest.", "ru": "олень → олени. В лесу есть олени.", "highlight": ["deer"] },
-        { "en": "a moose → moose. The moose are in the woods.", "ru": "лось → лоси. Лоси в лесу.", "highlight": ["moose"] },
-        { "en": "a bison → bison. The bison are in the fields.", "ru": "бизон → бизоны. Бизоны в полях.", "highlight": ["bison"] }
-      ]
-    },
-    {
-      "group": "Сравнение единственного и множественного числа",
-      "items": [
-        { "en": "a cat → cats. One cat, two cats.", "ru": "кошка → кошки. Одна кошка, две кошки.", "highlight": ["cat, cats"] },
-        { "en": "a man → men. One man, two men.", "ru": "мужчина → мужчины. Один мужчина, два мужчины.", "highlight": ["man, men"] },
-        { "en": "a fish → fish. One fish, two fish.", "ru": "рыба → рыбы. Одна рыба, две рыбы.", "highlight": ["fish, fish"] },
-        { "en": "a mouse → mice. One mouse, two mice.", "ru": "мышь → мыши. Одна мышь, две мыши.", "highlight": ["mouse, mice"] },
-        { "en": "a child → children. One child, two children.", "ru": "ребёнок → дети. Один ребёнок, два ребёнка.", "highlight": ["child, children"] },
-        { "en": "a sheep → sheep. One sheep, two sheep.", "ru": "овца → овцы. Одна овца, две овцы.", "highlight": ["sheep, sheep"] }
+        {
+          "en": "a person → people",
+          "ru": "человек → люди",
+          "highlight": [
+            "people"
+          ]
+        },
+        {
+          "en": "a man → men",
+          "ru": "мужчина → мужчины",
+          "highlight": [
+            "men"
+          ]
+        },
+        {
+          "en": "a woman → women",
+          "ru": "женщина → женщины",
+          "highlight": [
+            "women"
+          ]
+        },
+        {
+          "en": "a child → children",
+          "ru": "ребёнок → дети",
+          "highlight": [
+            "children"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "a cat → cat's", "right": "a cat → cats", "note": "Множественное число — cats, без апострофа." },
-    { "wrong": "a man → mans", "right": "a man → men", "note": "Исключение: man → men." },
-    { "wrong": "a child → childs", "right": "a child → children", "note": "Исключение: child → children." },
-    { "wrong": "a mouse → mouses", "right": "a mouse → mice", "note": "Исключение: mouse → mice." },
-    { "wrong": "a fish → fishes", "right": "a fish → fish", "note": "Исключение: fish → fish." },
-    { "wrong": "a sheep → sheeps", "right": "a sheep → sheep", "note": "Исключение: sheep → sheep." }
+    {
+      "wrong": "two gift",
+      "right": "two gifts",
+      "note": "После числительного, обозначающего больше одного предмета, исчисляемое существительное обычно стоит во множественном числе."
+    },
+    {
+      "wrong": "three watchs",
+      "right": "three watches",
+      "note": "После окончания -ch используется форма на -es."
+    },
+    {
+      "wrong": "two pennys",
+      "right": "two pennies",
+      "note": "В слове penny буква y после согласной меняется на ies."
+    },
+    {
+      "wrong": "two persons",
+      "right": "two people",
+      "note": "В обычном значении person имеет неправильную форму множественного числа people."
+    },
+    {
+      "wrong": "two childs",
+      "right": "two children",
+      "note": "Child образует множественное число особым способом."
+    },
+    {
+      "wrong": "a gifts",
+      "right": "gifts",
+      "note": "Неопределённый артикль a используется с существительным в единственном числе."
+    }
   ],
   "compare": {
-    "title": "Единственное vs множественное число",
-    "leftLabel": "Единственное (one)",
-    "rightLabel": "Множественное (more than one)",
+    "title": "Singular vs Plural",
+    "leftLabel": "Singular — один",
+    "rightLabel": "Plural — несколько",
     "rows": [
-      { "left": "a cat", "right": "two cats" },
-      { "left": "a man", "right": "two men" },
-      { "left": "a child", "right": "two children" },
-      { "left": "a mouse", "right": "two mice" },
-      { "left": "a fish", "right": "two fish" }
+      {
+        "left": "a gift",
+        "right": "gifts"
+      },
+      {
+        "left": "a coin",
+        "right": "coins"
+      },
+      {
+        "left": "a watch",
+        "right": "watches"
+      },
+      {
+        "left": "a penny",
+        "right": "pennies"
+      },
+      {
+        "left": "a person",
+        "right": "people"
+      },
+      {
+        "left": "a child",
+        "right": "children"
+      }
     ]
   },
   "tips": [
-    "Обычно +s: a cat → cats.",
-    "+es: a box → boxes.",
-    "-y → -ies: a baby → babies.",
-    "Исключения: man → men, woman → women, child → children.",
-    "mouse → mice, fish → fish, sheep → sheep.",
-    "Запомни исключения как рифму.",
-    "Проверяй себя: one cat, two cats."
+    "Сначала спроси себя: один предмет или несколько?",
+    "Для большинства существительных используй -s.",
+    "Проверь, не нужна ли форма на -es.",
+    "Помни: penny → pennies.",
+    "Выучи основные неправильные формы отдельно.",
+    "После числительного two, three, four существительное обычно стоит во множественном числе.",
+    "В единственном числе исчисляемому существительному обычно нужен a/an."
   ],
   "quiz": [
-    { "q": "a cat → ___", "options": ["cat's", "cats", "cates", "cat"], "answer": "cats", "why": "Множественное число — cats." },
-    { "q": "a man → ___", "options": ["mans", "men", "man's", "mens"], "answer": "men", "why": "Исключение: man → men." },
-    { "q": "a child → ___", "options": ["childs", "children", "child's", "childes"], "answer": "children", "why": "Исключение: child → children." },
-    { "q": "a mouse → ___", "options": ["mouses", "mice", "mouse's", "mices"], "answer": "mice", "why": "Исключение: mouse → mice." },
-    { "q": "a fish → ___", "options": ["fishes", "fish", "fish's", "fishe"], "answer": "fish", "why": "Исключение: fish → fish." },
-    { "q": "a baby → ___", "options": ["babys", "babies", "baby's", "babie"], "answer": "babies", "why": "-y → -ies: baby → babies." }
+    {
+      "q": "Choose the correct plural: one gift → two ___",
+      "options": [
+        "gift",
+        "gifts",
+        "giftes"
+      ],
+      "answer": 1,
+      "why": "Обычная форма множественного числа образуется добавлением -s."
+    },
+    {
+      "q": "Choose the correct plural: one watch → two ___",
+      "options": [
+        "watchs",
+        "watchies",
+        "watches"
+      ],
+      "answer": 2,
+      "why": "После -ch используется окончание -es."
+    },
+    {
+      "q": "Choose the correct plural: one penny → two ___",
+      "options": [
+        "pennys",
+        "pennies",
+        "pennyes"
+      ],
+      "answer": 1,
+      "why": "В penny буква y после согласной меняется на ies."
+    },
+    {
+      "q": "Choose the correct plural: one person → two ___",
+      "options": [
+        "persons",
+        "people",
+        "peoples"
+      ],
+      "answer": 1,
+      "why": "Обычная форма множественного числа person — people."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "She has a gifts.",
+        "She has gifts.",
+        "She has gift."
+      ],
+      "answer": 1,
+      "why": "Во множественном числе неопределённый артикль a не используется."
+    },
+    {
+      "q": "Choose the correct plural: one child → two ___",
+      "options": [
+        "childs",
+        "childes",
+        "children"
+      ],
+      "answer": 2,
+      "why": "Child имеет неправильную форму множественного числа children."
+    }
   ],
-  "related": ["a1-nouns", "a1-articles-a-an", "a1-verb-to-be"]
+  "related": [
+    "a1-nouns",
+    "a1-articles"
+  ]
 }

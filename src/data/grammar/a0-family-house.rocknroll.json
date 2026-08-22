@@ -1,534 +1,463 @@
 ﻿{
-    "variant":  "rocknroll",
-    "slug":  "family-house",
-    "level":  "A0",
-    "title":  "Family and House",
-    "category":  "Basics",
-    "readingTime":  8,
-    "summary":  "Семья и дом. Iron Maiden как семья. Группа, туры, фанаты — одна большая семья.",
-    "idea":  [
-                 "Iron Maiden — это не просто группа, это семья. Стив Харрис создал группу в 1975 году и до сих пор является её лидером. Брюс Дикинсон пришёл в 1981 году и стал её голосом. Группа путешествует вместе, играет вместе, живёт вместе. Их туры — это семейные сборы. Даже после ухода некоторые остаются частью семьи Iron Maiden. «The Iron Maiden family» — так они называют своих поклонников.",
-                 "Семья — это не только кровные родственники. Это люди, с которыми ты разделяешь жизнь. У Iron Maiden есть свой самолёт «Ed Force One». Их команда роуди, звукорежиссёров и менеджеров — тоже часть большой семьи. В английском языке много слов для членов семьи и дома. Iron Maiden показывают, что семья — это не только дом, но и люди, с которыми ты идёшь по жизни.",
-                 "В роке семья — это группа, фанаты, команда. «My brother» — брат по группе. «My sister» — сестра по сцене. «Our home» — место, где мы вместе. Изучая слова для семьи и дома, мы учимся говорить о самом важном. Как у Iron Maiden. Как в жизни."
-             ],
-    "why":  [
-                "Семья и дом — основа нашей жизни",
-                "Названия членов семьи — первые слова, которые мы учим",
-                "В английском есть много слов для дома и семьи, которые отличаются от русских",
-                "Знание этих слов помогает рассказывать о себе"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Steve Harris: \u0027Iron Maiden is my family. We travel together, we play together, we live together. Bruce, Adrian, Dave, Janick — they are my brothers.\u0027",
-                                      "ru":  "Стив Харрис: «Iron Maiden — это моя семья. Мы путешествуем вместе, играем вместе, живём вместе. Брюс, Адриан, Дэйв, Яник — они мои братья»."
-                                  },
-                                  {
-                                      "en":  "Bruce Dickinson: \u0027Our fans are our family too. They are the Iron Maiden family. We are one.\u0027",
-                                      "ru":  "Брюс Дикинсон: «Наши фанаты тоже наша семья. Они — семья Iron Maiden. Мы едины»."
-                                  },
-                                  {
-                                      "en":  "Steve: \u0027We have a plane, Ed Force One. It\u0027s our home in the sky.\u0027",
-                                      "ru":  "Стив: «У нас есть самолёт, Ed Force One. Это наш дом в небе»."
-                                  },
-                                  {
-                                      "en":  "Bruce: \u0027Wherever we are, we are home. Because we are together.\u0027",
-                                      "ru":  "Брюс: «Где бы мы ни были, мы дома. Потому что мы вместе»."
-                                  },
-                                  {
-                                      "en":  "Steve: \u0027Family is not blood. It\u0027s who you share your life with.\u0027",
-                                      "ru":  "Стив: «Семья — это не кровь. Это те, с кем ты разделяешь жизнь»."
-                                  }
-                              ],
-                    "note":  "Iron Maiden — это семья. Группа, фанаты и команда — одна большая семья."
-                },
-    "russianAngle":  [
-                         "В русском языке \u0027брат\u0027 и \u0027сестра\u0027 — это просто брат и сестра. В английском есть разница: \u0027brother\u0027 и \u0027sister\u0027 — родные, \u0027cousin\u0027 — двоюродные.",
-                         "В русском \u0027бабушка\u0027 и \u0027дедушка\u0027 — это родители родителей. В английском \u0027grandmother\u0027 и \u0027grandfather\u0027.",
-                         "В русском \u0027дом\u0027 — это и здание, и семья. В английском \u0027house\u0027 — здание, \u0027home\u0027 — место, где живёт семья.",
-                         "В русском \u0027квартира\u0027 — это apartment. В английском \u0027flat\u0027 (BrE) и \u0027apartment\u0027 (AmE)."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Выучите названия членов семьи: father, mother, brother, sister, son, daughter, grandfather, grandmother, uncle, aunt, cousin",
-                                     "Выучите части дома: living room, kitchen, bedroom, bathroom, garden, garage, attic, basement",
-                                     "Потренируйтесь описывать свою семью: \u0027I have a father, a mother and two brothers\u0027",
-                                     "Потренируйтесь описывать дом: \u0027We live in a house with a garden\u0027",
-                                     "Запомните разницу между \u0027house\u0027 и \u0027home\u0027",
-                                     "Попробуйте описать дом и семью Iron Maiden"
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Опишите свою семью и дом по-английски:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Сколько человек в вашей семье?",
-                                                          "a":  "There are [number] people in my family."
-                                                      },
-                                                      {
-                                                          "q":  "У вас есть братья или сёстры?",
-                                                          "a":  "Yes, I have [number] brothers/sisters. / No, I am an only child."
-                                                      },
-                                                      {
-                                                          "q":  "Где вы живёте?",
-                                                          "a":  "I live in a house/flat with my family."
-                                                      },
-                                                      {
-                                                          "q":  "У вас есть сад?",
-                                                          "a":  "Yes, we have a garden. / No, we don\u0027t have a garden."
-                                                      },
-                                                      {
-                                                          "q":  "Сколько комнат в вашем доме?",
-                                                          "a":  "There are [number] rooms in my house."
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "",
-    "structure":  {
-                      "positive":  "",
-                      "negative":  "",
-                      "question":  ""
-                  },
-    "markers":  [
+  "variant": "rocknroll",
+  "slug": "family-house",
+  "level": "A0",
+  "title": "Family and House",
+  "category": "Basics",
+  "readingTime": 10,
+  "summary": "Слова о семье и доме помогают говорить о людях, комнатах и повседневной жизни. В английском важно различать названия членов семьи, комнат и предметов дома. Для описания используются простые конструкции с be и have. Такие слова особенно легко запоминать через реальные сцены и отношения между людьми.",
+  "idea": [
+    "Дом — это не только место, где человек спит. Для музыкальной сцены домом или центром общения иногда становится целый район, клуб или город. В ранней истории Die Toten Hosen таким пространством был Дюссельдорф и прежде всего Ratinger Hof. Здесь встречались молодые панки, музыканты и люди из местной сцены. Поэтому слова [bold]home, house, room, city, street, friend[/bold] можно связать не только с семьёй, но и с сообществом.",
 
-                ],
-    "uses":  [
+    "В начале 1980-х будущие Die Toten Hosen были частью небольшой дюссельдорфской сцены. Один из участников ранней группы ZK, Юрген Краузе, вспоминал, что впервые приехал в Дюссельдорф в конце 1970-х и нашёл в Ratinger Hof людей, близких ему по интересам. Позже он перебрался в Дюссельдорф и снял там жильё. Так место, где человек живёт, соединяется с местом, где он находит друзей и музыкальное сообщество.",
 
-             ],
-    "rules":  [
-                  {
-                      "title":  "Члены семьи",
-                      "text":  "father (отец), mother (мать), brother (брат), sister (сестра), son (сын), daughter (дочь), grandfather (дедушка), grandmother (бабушка), uncle (дядя), aunt (тётя), cousin (двоюродный брат/сестра)."
-                  },
-                  {
-                      "title":  "Дом и комнаты",
-                      "text":  "house (дом), flat (квартира, BrE), apartment (квартира, AmE), living room (гостиная), kitchen (кухня), bedroom (спальня), bathroom (ванная), garden (сад)."
-                  },
-                  {
-                      "title":  "\u0027House\u0027 vs \u0027Home\u0027",
-                      "text":  "House — это здание, строение. Home — это место, где живёт семья, где чувствуешь себя своим."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Семья в роке",
-                         "items":  [
-                                       {
-                                           "en":  "My brother plays guitar, my sister sings",
-                                           "ru":  "Мой брат играет на гитаре, моя сестра поёт",
-                                           "highlight":  [
-                                                             "brother, sister"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My mother is my biggest fan",
-                                           "ru":  "Моя мать — моя самая большая поклонница",
-                                           "highlight":  [
-                                                             "mother"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My father taught me how to play the guitar",
-                                           "ru":  "Мой отец научил меня играть на гитаре",
-                                           "highlight":  [
-                                                             "father"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My grandfather was a musician too",
-                                           "ru":  "Мой дедушка тоже был музыкантом",
-                                           "highlight":  [
-                                                             "grandfather"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My grandmother always comes to our concerts",
-                                           "ru":  "Моя бабушка всегда приходит на наши концерты",
-                                           "highlight":  [
-                                                             "grandmother"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My uncle is our sound engineer",
-                                           "ru":  "Мой дядя — наш звукорежиссёр",
-                                           "highlight":  [
-                                                             "uncle"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Дом и комнаты",
-                         "items":  [
-                                       {
-                                           "en":  "Our living room is where we write songs",
-                                           "ru":  "В гостиной мы пишем песни",
-                                           "highlight":  [
-                                                             "living room"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The kitchen is where we make coffee before a gig",
-                                           "ru":  "На кухне мы делаем кофе перед концертом",
-                                           "highlight":  [
-                                                             "kitchen"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My bedroom is full of guitars",
-                                           "ru":  "Моя спальня полна гитар",
-                                           "highlight":  [
-                                                             "bedroom"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "We have a garden where we play music in summer",
-                                           "ru":  "У нас есть сад, где мы играем музыку летом",
-                                           "highlight":  [
-                                                             "garden"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The bathroom is where I sing in the shower",
-                                           "ru":  "В ванной я пою в душе",
-                                           "highlight":  [
-                                                             "bathroom"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The garage is where we rehearse",
-                                           "ru":  "В гараже мы репетируем",
-                                           "highlight":  [
-                                                             "garage"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "House vs Home в роке",
-                         "items":  [
-                                       {
-                                           "en":  "This is my house, but home is where my family is",
-                                           "ru":  "Это мой дом, но дом там, где моя семья",
-                                           "highlight":  [
-                                                             "house, home"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "I\u0027m on tour, but I miss my home",
-                                           "ru":  "Я в туре, но скучаю по дому",
-                                           "highlight":  [
-                                                             "home"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "We bought a new house for our family",
-                                           "ru":  "Мы купили новый дом для нашей семьи",
-                                           "highlight":  [
-                                                             "house"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "When I come home, I feel like myself again",
-                                           "ru":  "Когда я возвращаюсь домой, я снова чувствую себя собой",
-                                           "highlight":  [
-                                                             "home"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Our home is a small flat in London, but it\u0027s ours",
-                                           "ru":  "Наш дом — маленькая квартира в Лондоне, но она наша",
-                                           "highlight":  [
-                                                             "home, flat"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The tour bus is our home on the road",
-                                           "ru":  "Тур-автобус — наш дом на дороге",
-                                           "highlight":  [
-                                                             "home"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Семейные традиции в роке",
-                         "items":  [
-                                       {
-                                           "en":  "We have a family dinner every Sunday",
-                                           "ru":  "По воскресеньям у нас семейный ужин",
-                                           "highlight":  [
-                                                             "family dinner"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My sister and I write songs together",
-                                           "ru":  "Мы с сестрой пишем песни вместе",
-                                           "highlight":  [
-                                                             "sister"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My father comes to every show",
-                                           "ru":  "Мой отец приходит на каждое наше выступление",
-                                           "highlight":  [
-                                                             "father"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My mother made my first guitar strap",
-                                           "ru":  "Моя мать сшила мой первый ремень для гитары",
-                                           "highlight":  [
-                                                             "mother"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My uncle is our sound engineer",
-                                           "ru":  "Мой дядя — наш звукорежиссёр",
-                                           "highlight":  [
-                                                             "uncle"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My cousin is our photographer",
-                                           "ru":  "Мой двоюродный брат — наш фотограф",
-                                           "highlight":  [
-                                                             "cousin"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Британские vs американские названия дома",
-                         "items":  [
-                                       {
-                                           "en":  "BrE: flat — AmE: apartment",
-                                           "ru":  "Британия: flat — Америка: apartment (квартира)",
-                                           "highlight":  [
-                                                             "flat, apartment"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: garden — AmE: yard",
-                                           "ru":  "Британия: garden — Америка: yard (сад/двор)",
-                                           "highlight":  [
-                                                             "garden, yard"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: lift — AmE: elevator",
-                                           "ru":  "Британия: lift — Америка: elevator (лифт)",
-                                           "highlight":  [
-                                                             "lift, elevator"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: ground floor — AmE: first floor",
-                                           "ru":  "Британия: ground floor — Америка: first floor (первый этаж)",
-                                           "highlight":  [
-                                                             "ground floor, first floor"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: holiday — AmE: vacation",
-                                           "ru":  "Британия: holiday — Америка: vacation (отпуск/каникулы)",
-                                           "highlight":  [
-                                                             "holiday, vacation"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: wardrobe — AmE: closet",
-                                           "ru":  "Британия: wardrobe — Америка: closet (шкаф)",
-                                           "highlight":  [
-                                                             "wardrobe, closet"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Описание дома для рок-звезды",
-                         "items":  [
-                                       {
-                                           "en":  "My house is big and has a recording studio",
-                                           "ru":  "Мой дом большой и в нём есть студия звукозаписи",
-                                           "highlight":  [
-                                                             "big, recording studio"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The living room has a red sofa and a piano",
-                                           "ru":  "В гостиной есть красный диван и пианино",
-                                           "highlight":  [
-                                                             "red sofa, piano"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "There is a garden with a stage in the backyard",
-                                           "ru":  "За домом есть сад со сценой",
-                                           "highlight":  [
-                                                             "garden, backyard"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "My bedroom is where I write lyrics",
-                                           "ru":  "В спальне я пишу тексты песен",
-                                           "highlight":  [
-                                                             "bedroom"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "We have a beautiful view of the city from our kitchen",
-                                           "ru":  "Из кухни у нас красивый вид на город",
-                                           "highlight":  [
-                                                             "view, kitchen"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The basement is our rehearsal space",
-                                           "ru":  "Подвал — наше репетиционное пространство",
-                                           "highlight":  [
-                                                             "basement"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Путать \u0027house\u0027 и \u0027home\u0027",
-                         "right":  "\u0027House\u0027 — здание, \u0027home\u0027 — место, где семья",
-                         "note":  "Вы можете жить в house, но home — это чувство."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027I have a brother and sister\u0027 без артиклей",
-                         "right":  "\u0027I have a brother and a sister\u0027 — с артиклями",
-                         "note":  "В единственном числе нужен артикль \u0027a\u0027."
-                     },
-                     {
-                         "wrong":  "Путать \u0027garden\u0027 и \u0027yard\u0027",
-                         "right":  "В BrE \u0027garden\u0027 — сад с цветами, в AmE — \u0027yard\u0027",
-                         "note":  "В Лондоне — garden, в Нью-Йорке — yard."
-                     },
-                     {
-                         "wrong":  "Путать \u0027flat\u0027 и \u0027apartment\u0027",
-                         "right":  "В BrE — flat, в AmE — apartment",
-                         "note":  "В британском английском \u0027flat\u0027 — это квартира."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027My parents is\u0027 вместо \u0027My parents are\u0027",
-                         "right":  "\u0027My parents are\u0027 — во множественном числе",
-                         "note":  "Parents — это двое, значит, глагол во множественном числе."
-                     },
-                     {
-                         "wrong":  "Путать \u0027brother\u0027 и \u0027cousin\u0027",
-                         "right":  "\u0027Brother\u0027 — родной брат, \u0027cousin\u0027 — двоюродный",
-                         "note":  "Это разные родственники, нельзя путать."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Британские vs американские названия дома",
-                    "leftLabel":  "Британский (BrE)",
-                    "rightLabel":  "Американский (AmE)",
-                    "rows":  [
-                                 {
-                                     "left":  "flat",
-                                     "right":  "apartment"
-                                 },
-                                 {
-                                     "left":  "garden",
-                                     "right":  "yard"
-                                 },
-                                 {
-                                     "left":  "lift",
-                                     "right":  "elevator"
-                                 },
-                                 {
-                                     "left":  "ground floor",
-                                     "right":  "first floor"
-                                 },
-                                 {
-                                     "left":  "holiday",
-                                     "right":  "vacation"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "\u0027House\u0027 — это здание, \u0027home\u0027 — это место, где живёт семья",
-                 "Для членов семьи используйте \u0027my\u0027 перед каждым словом: my father, my mother",
-                 "В британском английском \u0027flat\u0027 — квартира, в американском — \u0027apartment\u0027",
-                 "\u0027Garden\u0027 в BrE — это сад с цветами. В AmE говорят \u0027yard\u0027",
-                 "Всегда используйте \u0027are\u0027 для \u0027parents\u0027 (родители) — потому что их двое",
-                 "Перед названиями комнат нужен артикль: \u0027in the kitchen\u0027"
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Кто такой \u0027brother\u0027 по-русски?",
-                     "options":  [
-                                     "Сестра",
-                                     "Брат",
-                                     "Двоюродный брат",
-                                     "Отец"
-                                 ],
-                     "answer":  "Брат",
-                     "why":  "\u0027Brother\u0027 — это брат. В роке это часто обращение к другу по группе."
-                 },
-                 {
-                     "q":  "В чём разница между \u0027house\u0027 и \u0027home\u0027?",
-                     "options":  [
-                                     "Это одно и то же",
-                                     "House — здание, home — место семьи",
-                                     "House — место семьи, home — здание",
-                                     "Разницы нет"
-                                 ],
-                     "answer":  "House — здание, home — место семьи",
-                     "why":  "\u0027House\u0027 — это строение, \u0027home\u0027 — это место, где живёт семья."
-                 },
-                 {
-                     "q":  "Как называется гостиная по-английски?",
-                     "options":  [
-                                     "Bedroom",
-                                     "Kitchen",
-                                     "Living room",
-                                     "Bathroom"
-                                 ],
-                     "answer":  "Living room",
-                     "why":  "\u0027Living room\u0027 — гостиная, где пишут песни и проводят время с семьёй."
-                 },
-                 {
-                     "q":  "Как называются родители в английском языке?",
-                     "options":  [
-                                     "Father and mother",
-                                     "Parents",
-                                     "Mum and dad",
-                                     "All of the above"
-                                 ],
-                     "answer":  "All of the above",
-                     "why":  "\u0027Parents\u0027 — общее название, \u0027father and mother\u0027 — формально."
-                 },
-                 {
-                     "q":  "Как сказать \u0027квартира\u0027 в британском английском?",
-                     "options":  [
-                                     "Apartment",
-                                     "Flat",
-                                     "House",
-                                     "Home"
-                                 ],
-                     "answer":  "Flat",
-                     "why":  "В британском английском \u0027flat\u0027 — квартира. В американском — \u0027apartment\u0027."
-                 },
-                 {
-                     "q":  "Как будет \u0027двоюродный брат\u0027 по-английски?",
-                     "options":  [
-                                     "Brother",
-                                     "Cousin",
-                                     "Uncle",
-                                     "Nephew"
-                                 ],
-                     "answer":  "Cousin",
-                     "why":  "\u0027Cousin\u0027 — это двоюродный брат или сестра."
-                 }
-             ],
-    "related":  [
+    "Для начинающего английского здесь достаточно простых слов. [bold]city[/bold] — город, [bold]street[/bold] — улица, [bold]club[/bold] — клуб, [bold]room[/bold] — комната, [bold]house[/bold] — дом, [bold]friend[/bold] — друг. Мы можем сказать: [bold]Düsseldorf is a city.[/bold] [bold]Ratinger Hof is a club.[/bold] [bold]A friend is here.[/bold]",
 
-                ]
+    "Здесь снова работает [bold]be[/bold]. [bold]Düsseldorf is a city.[/bold] [bold]The club is in Düsseldorf.[/bold] [bold]The room is small.[/bold] В единственном числе используется [bold]is[/bold]. Если людей или предметов несколько, появляется [bold]are[/bold]: [bold]The friends are here.[/bold]",
+
+    "Для принадлежности или наличия используется [bold]have[/bold]. [bold]The club has a room.[/bold] — У клуба есть комната. [bold]The band has friends.[/bold] — У группы есть друзья. [bold]They have a home in Düsseldorf.[/bold] — У них есть дом в Дюссельдорфе.",
+
+    "Слово [bold]family[/bold] означает семью, но музыкальная сцена тоже может создавать ощущение сообщества. Это не настоящая семья в буквальном смысле. Это люди, которые знают друг друга, встречаются в одних местах, ходят на одни концерты и помогают друг другу.",
+
+    "В интервью о ранней дюссельдорфской сцене Юрген Краузе вспоминал, что в Ratinger Hof он встретил людей, близких ему по интересам. Это позволяет связать простое слово [bold]friend[/bold] с реальной историей: [bold]He found friends in Düsseldorf.[/bold]",
+
+    "Другой участник ранних Die Toten Hosen, Вальтер Новембер, вспоминал, что панки регулярно встречались в Ratinger Hof. Он рассказывал, что будущие участники группы знали друг друга именно через эту сцену. Для английского это можно выразить очень простой моделью: [bold]They were friends.[/bold] [bold]They were in Düsseldorf.[/bold]",
+
+    "Важное слово здесь — [bold]local[/bold]. [bold]Local[/bold] означает «местный». [bold]A local scene[/bold] — местная сцена. В ранней истории Die Toten Hosen музыка была тесно связана с конкретным городом и его местами. Поэтому [bold]city[/bold] и [bold]community[/bold] становятся такими же полезными словами, как [bold]house[/bold] и [bold]family[/bold].",
+
+    "Можно описать место очень просто: [bold]The club is in the city.[/bold] — Клуб находится в городе. [bold]The friends are in the club.[/bold] — Друзья находятся в клубе. [bold]The band is in Düsseldorf.[/bold] — Группа находится в Дюссельдорфе.",
+
+    "Для людей используются [bold]he, she, they[/bold]. [bold]He is a musician.[/bold] — Он музыкант. [bold]She is a friend.[/bold] — Она подруга. [bold]They are friends.[/bold] — Они друзья. Эти формы позволяют говорить о группе людей, не усложняя грамматику.",
+
+    "Для мест особенно полезны [bold]in, at, near[/bold]. [bold]They are in Düsseldorf.[/bold] — Они в Дюссельдорфе. [bold]They are at the club.[/bold] — Они в клубе. [bold]The club is near the street.[/bold] — Клуб находится возле улицы.",
+
+    "Дом можно описывать теми же моделями. [bold]This is my house.[/bold] [bold]My house is small.[/bold] [bold]My family is at home.[/bold] [bold]My friends are here.[/bold] Таким образом, слова из темы family-house начинают работать и для реальной жизни, и для истории музыкального сообщества.",
+
+    "В Дюссельдорфе Ratinger Hof был не просто местом для концертов. Он стал точкой встречи разных людей местной сцены. Вокруг него пересекались музыканты, публика и другие участники городской культурной жизни. Поэтому слово [bold]community[/bold] здесь можно понять как группу людей, связанных общим местом и интересами.",
+
+    "Важно не путать [bold]house[/bold] и [bold]home[/bold]. [bold]House[/bold] — здание. [bold]Home[/bold] — место, где человек живёт. Можно сказать [bold]This is my house[/bold], когда мы показываем на здание, и [bold]I am at home[/bold], когда говорим, где мы сейчас.",
+
+    "Слово [bold]room[/bold] обозначает комнату или помещение. В доме может быть несколько комнат: [bold]The house has three rooms.[/bold] В клубе тоже может быть отдельная комната: [bold]The club has a room.[/bold] Так одно и то же слово работает в разных ситуациях.",
+
+    "Сравни: [bold]This is my house.[/bold] [bold]This is my home.[/bold] [bold]This is my city.[/bold] [bold]This is my club.[/bold] Все четыре предложения используют простую конструкцию, но говорят о разных видах пространства: здании, месте жизни, городе и месте общения.",
+
+    "Ранняя история Die Toten Hosen хорошо показывает, как музыкальная группа формируется не в пустоте. Люди знакомятся в определённых местах, находят друзей, начинают играть вместе и создают собственную сцену. В английском для рассказа об этом достаточно простых слов: [bold]people, friends, city, club, band, home[/bold].",
+
+    "Поэтому тема [bold]family and house[/bold] здесь расширяется естественным образом. [bold]Family[/bold] — люди, с которыми мы связаны дома. [bold]Friends[/bold] — люди, которых мы выбираем сами. [bold]Home[/bold] — место, где мы живём. [bold]Community[/bold] — люди и места, которые создают ощущение принадлежности.",
+
+    "История ранней дюссельдорфской сцены показывает это очень наглядно: для молодых музыкантов важным пространством становился не только собственный дом, но и город, улица, клуб и круг друзей. Поэтому простые слова A0 уже позволяют рассказать настоящую историю: [bold]They lived in Düsseldorf. They had friends. They played in clubs. They built a local scene.[/bold]"
+  ],
+  "why": [
+    "Называть членов семьи и друзей.",
+    "Называть дом, комнату, город и другие места.",
+    "Описывать людей и места с помощью be и have.",
+    "Говорить о доме, друзьях и местном сообществе."
+  ],
+  "context": {
+    "lines": [
+      {
+        "en": "I had already heard a lot about the Ratinger Hof.",
+        "ru": "Я уже много слышал о Ratinger Hof."
+      },
+      {
+        "en": "I met a few like-minded people in the Hof.",
+        "ru": "Я встретил в Hof нескольких людей, близких мне по духу."
+      },
+      {
+        "en": "I got myself a job and a flat in Düsseldorf.",
+        "ru": "Я нашёл себе работу и квартиру в Дюссельдорфе."
+      },
+      {
+        "en": "We were all punk rockers and regularly met at the Ratinger Hof in Düsseldorf.",
+        "ru": "Мы все были панк-рокерами и регулярно встречались в Ratinger Hof в Дюссельдорфе."
+      },
+      {
+        "en": "The audience kept shouting for ZK all the time.",
+        "ru": "Публика всё время кричала, требуя ZK."
+      }
+    ],
+    "note": "Материал основан на документированных воспоминаниях участников и людей ранней дюссельдорфской сцены о Ratinger Hof, ZK и формировании окружения будущих Die Toten Hosen."
+  },
+  "russianAngle": [
+    "В русском языке «дом» может обозначать и здание, и место жизни; в английском полезно различать house и home.",
+    "В английском простое описание строится через be: The club is in Düsseldorf.",
+    "Have используется для сообщения о наличии или принадлежности: The club has a room.",
+    "Для группы людей используется they: They are friends.",
+    "Предлоги in, at и near помогают описывать расположение людей и мест."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Выучите слова house, home, room, city, street, club.",
+      "Выучите family и friend.",
+      "Повторяйте модель The club is in Düsseldorf.",
+      "Тренируйте have для описания того, что есть у дома, клуба или группы.",
+      "Составляйте короткие предложения с he, she и they.",
+      "Опишите место, где вы живёте, и место, где вы встречаетесь с друзьями."
+    ],
+    "exercise": {
+      "prompt": "Составьте простые предложения о городе, доме и друзьях:",
+      "items": [
+        {
+          "q": "Düsseldorf / city",
+          "a": "Düsseldorf is a city."
+        },
+        {
+          "q": "club / Düsseldorf",
+          "a": "The club is in Düsseldorf."
+        },
+        {
+          "q": "friends / club",
+          "a": "The friends are at the club."
+        },
+        {
+          "q": "band / friends",
+          "a": "The band has friends."
+        },
+        {
+          "q": "they / Düsseldorf",
+          "a": "They are in Düsseldorf."
+        }
+      ]
+    }
+  },
+  "formula": "be + noun/adjective/place / have + noun",
+  "structure": {
+    "positive": "The club is in Düsseldorf. / The band has friends.",
+    "negative": "The club is not in Düsseldorf. / The band does not have friends.",
+    "question": "Is the club in Düsseldorf? / Does the band have friends?"
+  },
+  "markers": [
+    "house",
+    "home",
+    "room",
+    "family",
+    "friend",
+    "city",
+    "club",
+    "band",
+    "community",
+    "local"
+  ],
+  "uses": {
+    "title": "Дом, город и сообщество",
+    "items": [
+      {
+        "title": "Дом",
+        "text": "House — дом как здание: This is my house."
+      },
+      {
+        "title": "Дом как место жизни",
+        "text": "Home обозначает место, где человек живёт: I am at home."
+      },
+      {
+        "title": "Место встречи",
+        "text": "Club может быть местом, где люди встречаются и слушают музыку: The club is in Düsseldorf."
+      },
+      {
+        "title": "Друзья",
+        "text": "Friend обозначает человека, с которым мы связаны личными отношениями: He is my friend."
+      },
+      {
+        "title": "Сообщество",
+        "text": "Community обозначает группу людей, связанных общим местом или интересами."
+      }
+    ]
+  },
+  "rules": [
+    {
+      "title": "House vs Home",
+      "text": "House — здание, home — место жизни."
+    },
+    {
+      "title": "Be",
+      "text": "Be используется для простого описания человека или места: The club is in Düsseldorf."
+    },
+    {
+      "title": "Have",
+      "text": "Have используется для обозначения наличия или принадлежности: The band has friends."
+    },
+    {
+      "title": "He, She, They",
+      "text": "He используется для мужчины, she — для женщины, they — для нескольких людей."
+    },
+    {
+      "title": "Place",
+      "text": "In, at и near помогают говорить о расположении: in Düsseldorf, at the club, near the street."
+    }
+  ],
+  "examples": [
+    {
+      "group": "House and home",
+      "items": [
+        {
+          "en": "This is my house.",
+          "ru": "Это мой дом.",
+          "highlight": [
+            "house"
+          ]
+        },
+        {
+          "en": "This is my home.",
+          "ru": "Это мой дом.",
+          "highlight": [
+            "home"
+          ]
+        },
+        {
+          "en": "My home is in Düsseldorf.",
+          "ru": "Мой дом находится в Дюссельдорфе.",
+          "highlight": [
+            "home",
+            "in Düsseldorf"
+          ]
+        },
+        {
+          "en": "The house has two rooms.",
+          "ru": "В доме две комнаты.",
+          "highlight": [
+            "has",
+            "two rooms"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "People and friends",
+      "items": [
+        {
+          "en": "He is my friend.",
+          "ru": "Он мой друг.",
+          "highlight": [
+            "He",
+            "friend"
+          ]
+        },
+        {
+          "en": "She is my sister.",
+          "ru": "Она моя сестра.",
+          "highlight": [
+            "She",
+            "sister"
+          ]
+        },
+        {
+          "en": "They are friends.",
+          "ru": "Они друзья.",
+          "highlight": [
+            "They",
+            "are friends"
+          ]
+        },
+        {
+          "en": "My family is at home.",
+          "ru": "Моя семья дома.",
+          "highlight": [
+            "family",
+            "at home"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "City and club",
+      "items": [
+        {
+          "en": "Düsseldorf is a city.",
+          "ru": "Дюссельдорф — город.",
+          "highlight": [
+            "Düsseldorf",
+            "city"
+          ]
+        },
+        {
+          "en": "The club is in Düsseldorf.",
+          "ru": "Клуб находится в Дюссельдорфе.",
+          "highlight": [
+            "club",
+            "in Düsseldorf"
+          ]
+        },
+        {
+          "en": "The friends are at the club.",
+          "ru": "Друзья находятся в клубе.",
+          "highlight": [
+            "friends",
+            "at the club"
+          ]
+        },
+        {
+          "en": "The band has friends.",
+          "ru": "У группы есть друзья.",
+          "highlight": [
+            "band",
+            "has friends"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Place",
+      "items": [
+        {
+          "en": "They are in Düsseldorf.",
+          "ru": "Они в Дюссельдорфе.",
+          "highlight": [
+            "in Düsseldorf"
+          ]
+        },
+        {
+          "en": "They are at the club.",
+          "ru": "Они в клубе.",
+          "highlight": [
+            "at the club"
+          ]
+        },
+        {
+          "en": "The club is near the street.",
+          "ru": "Клуб находится возле улицы.",
+          "highlight": [
+            "near the street"
+          ]
+        },
+        {
+          "en": "My friends are here.",
+          "ru": "Мои друзья здесь.",
+          "highlight": [
+            "friends",
+            "here"
+          ]
+        }
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "The band have friends.",
+      "right": "The band has friends.",
+      "note": "Band в этой конструкции рассматривается как единое целое, поэтому используется has."
+    },
+    {
+      "wrong": "They is friends.",
+      "right": "They are friends.",
+      "note": "После they используется are."
+    },
+    {
+      "wrong": "He are my friend.",
+      "right": "He is my friend.",
+      "note": "После he используется is."
+    },
+    {
+      "wrong": "I am in home.",
+      "right": "I am at home.",
+      "note": "В устойчивой конструкции используется at home."
+    },
+    {
+      "wrong": "The club is on Düsseldorf.",
+      "right": "The club is in Düsseldorf.",
+      "note": "Для нахождения в городе используется in."
+    }
+  ],
+  "compare": {
+    "title": "House vs Home vs Community",
+    "leftLabel": "House — здание",
+    "centerLabel": "Home — место жизни",
+    "rightLabel": "Community — сообщество",
+    "rows": [
+      {
+        "left": "This is my house.",
+        "center": "This is my home.",
+        "right": "These are my friends."
+      },
+      {
+        "left": "The house has two rooms.",
+        "center": "I am at home.",
+        "right": "We are a community."
+      },
+      {
+        "left": "The house is in Düsseldorf.",
+        "center": "My home is here.",
+        "right": "The community is local."
+      },
+      {
+        "left": "The house has a door.",
+        "center": "My family is at home.",
+        "right": "The friends are together."
+      }
+    ]
+  },
+  "tips": [
+    "House — здание, home — место жизни.",
+    "Для описания места используйте The club is...",
+    "Для наличия используйте The club has...",
+    "He, she и they требуют разных форм be.",
+    "Запоминайте in Düsseldorf, at the club и at home как готовые модели.",
+    "Community — это не семья, а группа людей, связанных местом или общими интересами."
+  ],
+  "quiz": [
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "The club are in Düsseldorf.",
+        "The club is in Düsseldorf.",
+        "The club am in Düsseldorf."
+      ],
+      "answer": 1,
+      "why": "Club — единственное число, поэтому используется is."
+    },
+    {
+      "q": "Which word means a place where you live?",
+      "options": [
+        "home",
+        "club",
+        "street"
+      ],
+      "answer": 0,
+      "why": "Home означает место, где человек живёт."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "They is friends.",
+        "They are friends.",
+        "They am friends."
+      ],
+      "answer": 1,
+      "why": "После they используется are."
+    },
+    {
+      "q": "Choose the correct preposition:",
+      "options": [
+        "The band is in Düsseldorf.",
+        "The band is on Düsseldorf.",
+        "The band is at Düsseldorf."
+      ],
+      "answer": 0,
+      "why": "Для нахождения в городе используется in."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "The band have friends.",
+        "The band has friends.",
+        "The band haves friends."
+      ],
+      "answer": 1,
+      "why": "Band — единственное число, поэтому используется has."
+    },
+    {
+      "q": "What does community mean?",
+      "options": [
+        "A room in a house",
+        "A group of people connected by a place or interest",
+        "A door"
+      ],
+      "answer": 1,
+      "why": "Community — сообщество людей, связанных общим местом или интересами."
+    }
+  ],
+  "related": [
+    "a0-introductions-greetings",
+    "a0-colours-clothes",
+    "a0-family-house"
+  ]
 }

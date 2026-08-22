@@ -1,534 +1,497 @@
 ﻿{
-    "variant":  "classic",
-    "slug":  "colours-clothes",
-    "level":  "A0",
-    "title":  "Colours and Clothes",
-    "category":  "Basics",
-    "readingTime":  8,
-    "summary":  "Цвета и одежда. Цвет как описание характера. Оскар Уайльд и его герои.",
-    "idea":  [
-                 "В «Портрете Дориана Грея» каждый цвет имеет значение. Белый — невинность. Красный — страсть. Зелёный — зависть. Чёрный — смерть. Когда Дориан носит белый костюм, он ещё невинен. Когда он теряет душу, он надевает тёмные одежды. Его портрет стареет и темнеет, пока он остаётся молодым. Уайльд использует цвета, чтобы рассказать историю без слов.",
-                 "Цвета и одежда в романе — это не описание, это язык. «A white dress» — белое платье. «A black coat» — чёрное пальто. «A green scarf» — зелёный шарф. Каждый цвет — ключ к пониманию персонажа. В английском языке названия цветов и одежды — основа описания мира. Как у Уайльда. Как в повседневной жизни.",
-                 "В британском и американском английском названия одежды различаются: trousers (BrE) — pants (AmE), jumper (BrE) — sweater (AmE). Цвета тоже имеют оттенки: dark blue, light green, bright red, pale yellow, deep purple. Изучая их, мы учимся описывать не только внешность, но и характер."
-             ],
-    "why":  [
-                "Цвета и одежда — это основа описания внешности",
-                "В английском языке есть много цветов, которые не имеют прямого аналога в русском",
-                "Названия одежды отличаются в британском и американском английском",
-                "Цвет помогает создавать образ и настроение"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Lord Henry: \u0027What a beautiful boy you are, Dorian. You are white as a lily and red as a rose. The world is yours.\u0027",
-                                      "ru":  "Лорд Генри: «Какой же ты красивый мальчик, Дориан. Ты белый как лилия и красный как роза. Весь мир у твоих ног»."
-                                  },
-                                  {
-                                      "en":  "Dorian: \u0027But my portrait will grow old and ugly. It will have grey hair and wrinkles. I will stay young forever.\u0027",
-                                      "ru":  "Дориан: «Но мой портрет состарится и станет уродливым. У него будут седые волосы и морщины. Я останусь молодым навсегда»."
-                                  },
-                                  {
-                                      "en":  "Lord Henry: \u0027Colours tell the story of who you are. White is innocence. Red is passion. Green is envy. Black is death.\u0027",
-                                      "ru":  "Лорд Генри: «Цвета рассказывают историю о том, кто ты есть. Белый — невинность. Красный — страсть. Зелёный — зависть. Чёрный — смерть»."
-                                  },
-                                  {
-                                      "en":  "Dorian: \u0027Then I will wear white when I am innocent and black when I am guilty.\u0027",
-                                      "ru":  "Дориан: «Тогда я буду носить белое, когда я невинен, и чёрное, когда я виновен»."
-                                  },
-                                  {
-                                      "en":  "Lord Henry: \u0027The colours you wear, Dorian, are the colours of your soul.\u0027",
-                                      "ru":  "Лорд Генри: «Цвета, которые ты носишь, Дориан, — это цвета твоей души»."
-                                  }
-                              ],
-                    "note":  "В «Портрете Дориана Грея» цвета и одежда — это не просто описание, это язык души."
-                },
-    "russianAngle":  [
-                         "В русском языке \u0027голубой\u0027 и \u0027синий\u0027 — это разные цвета. В английском — \u0027blue\u0027 для обоих.",
-                         "В русском есть \u0027розовый\u0027, в английском — \u0027pink\u0027. Но в английском больше оттенков: \u0027fuchsia\u0027, \u0027magenta\u0027, \u0027coral\u0027.",
-                         "В русском \u0027чёрный\u0027 и \u0027белый\u0027 — это цвета. В английском — \u0027black\u0027 и \u0027white\u0027, но есть \u0027off-white\u0027 и \u0027jet black\u0027.",
-                         "В русском \u0027рубашка\u0027 и \u0027блузка\u0027 — разное. В английском — \u0027shirt\u0027 (мужская) и \u0027blouse\u0027 (женская)."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Выучите основные цвета: red, blue, green, yellow, black, white, brown, grey, pink, purple, orange",
-                                     "Запомните предметы одежды: shirt, blouse, dress, skirt, trousers, jeans, jacket, coat, hat, scarf, gloves, shoes, boots",
-                                     "Потренируйтесь описывать, что на вас надето: \u0027I am wearing a blue shirt and black trousers\u0027",
-                                     "Запомните разницу между BrE и AmE: trousers (BrE) = pants (AmE), jumper (BrE) = sweater (AmE)",
-                                     "Потренируйтесь с прилагательными: dark blue, light green, bright red, pale yellow, deep purple",
-                                     "Попробуйте описать героев книг Уайльда"
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Опишите эти образы по-английски:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Женщина в красном платье",
-                                                          "a":  "A woman in a red dress"
-                                                      },
-                                                      {
-                                                          "q":  "Мужчина в синей рубашке",
-                                                          "a":  "A man in a blue shirt"
-                                                      },
-                                                      {
-                                                          "q":  "Ребёнок в зелёной куртке",
-                                                          "a":  "A child in a green jacket"
-                                                      },
-                                                      {
-                                                          "q":  "Девушка в жёлтом пальто",
-                                                          "a":  "A girl in a yellow coat"
-                                                      },
-                                                      {
-                                                          "q":  "Дориан в белом костюме",
-                                                          "a":  "Dorian in a white suit"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "",
-    "structure":  {
-                      "positive":  "",
-                      "negative":  "",
-                      "question":  ""
-                  },
-    "markers":  [
+  "variant": "classic",
+  "slug": "colours-clothes",
+  "level": "A0",
+  "title": "Colours and Clothes",
+  "category": "Basics",
+  "readingTime": 8,
+  "summary": "Цвета и одежда помогают описывать людей и предметы. С цветом часто используется глагол be: He is wearing a black coat. С одеждой используется wear: She wears a white dress. Чтобы спросить о цвете или одежде, используются What colour...? и What is he/she wearing?",
+  "idea": [
+    "Когда мы описываем человека, нам часто нужно сказать, какого цвета его одежда или что именно на нём надето. В английском для этого используются простые конструкции: [bold]He is wearing a black coat.[/bold] — «На нём чёрное пальто». [bold]She is wearing a white dress.[/bold] — «На ней белое платье». Цвет и предмет одежды соединяются в одном описании.",
 
-                ],
-    "uses":  [
+    "В [bold]The Picture of Dorian Gray[/bold] Оскар Уайльд постоянно обращает внимание на внешний вид, цвет и материал. В первой главе он описывает Дориана через детали лица: [bold]“his finely curved scarlet lips, his frank blue eyes, his crisp gold hair.”[/bold] Здесь [bold]scarlet[/bold], [bold]blue[/bold] и [bold]gold[/bold] превращают внешность героя в зрительный образ.",
 
-             ],
-    "rules":  [
-                  {
-                      "title":  "Цвета",
-                      "text":  "Основные цвета: red, blue, green, yellow, black, white, brown, grey, pink, purple, orange. Оттенки: dark (тёмный), light (светлый), bright (яркий), pale (бледный), deep (глубокий)."
-                  },
-                  {
-                      "title":  "Одежда (BrE vs AmE)",
-                      "text":  "trousers (BrE) = pants (AmE) — брюки; jumper (BrE) = sweater (AmE) — свитер; waistcoat (BrE) = vest (AmE) — жилет; trainers (BrE) = sneakers (AmE) — кроссовки."
-                  },
-                  {
-                      "title":  "Как описывать одежду",
-                      "text":  "I\u0027m wearing + предмет одежды + цвет. He/She is wearing + предмет + цвет. Множественное число: I\u0027m wearing black shoes."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Цвета в описании внешности",
-                         "items":  [
-                                       {
-                                           "en":  "Dorian\u0027s hair was golden yellow, like the sun",
-                                           "ru":  "Волосы Дориана были золотисто-жёлтыми, как солнце",
-                                           "highlight":  [
-                                                             "golden yellow"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "His eyes were deep blue, like the ocean",
-                                           "ru":  "Его глаза были тёмно-синими, как океан",
-                                           "highlight":  [
-                                                             "deep blue"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Her dress was emerald green, like a jewel",
-                                           "ru":  "Её платье было изумрудно-зелёным, как драгоценный камень",
-                                           "highlight":  [
-                                                             "emerald green"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The leaves were golden yellow in autumn",
-                                           "ru":  "Осенью листья были золотисто-жёлтыми",
-                                           "highlight":  [
-                                                             "golden yellow"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She wore a jet black coat to the funeral",
-                                           "ru":  "На похороны она надела чёрное как смоль пальто",
-                                           "highlight":  [
-                                                             "jet black"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Her cheeks were rose pink from the cold wind",
-                                           "ru":  "От холодного ветра её щёки стали розовыми",
-                                           "highlight":  [
-                                                             "rose pink"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Одежда в романе Уайльда",
-                         "items":  [
-                                       {
-                                           "en":  "Dorian wore a white suit when he was innocent",
-                                           "ru":  "Дориан носил белый костюм, когда был невинен",
-                                           "highlight":  [
-                                                             "white suit"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He put on a black tailcoat for the evening ball",
-                                           "ru":  "На вечерний бал он надел чёрный фрак",
-                                           "highlight":  [
-                                                             "black tailcoat"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She wore a white bonnet before going to the park",
-                                           "ru":  "Перед прогулкой в парке она надела белую шляпку",
-                                           "highlight":  [
-                                                             "white bonnet"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The gentleman wore grey trousers and a blue waistcoat",
-                                           "ru":  "Джентльмен был в серых брюках и синем жилете",
-                                           "highlight":  [
-                                                             "grey trousers, blue waistcoat"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The servant wore a brown apron and white gloves",
-                                           "ru":  "Слуга был в коричневом фартуке и белых перчатках",
-                                           "highlight":  [
-                                                             "brown apron, white gloves"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She bought a new purple dress for the Christmas party",
-                                           "ru":  "К рождественской вечеринке она купила новое пурпурное платье",
-                                           "highlight":  [
-                                                             "purple dress"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Оттенки цветов",
-                         "items":  [
-                                       {
-                                           "en":  "The walls are pale yellow, not bright yellow",
-                                           "ru":  "Стены бледно-жёлтые, а не ярко-жёлтые",
-                                           "highlight":  [
-                                                             "pale yellow, bright yellow"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She prefers light blue to dark blue for her dress",
-                                           "ru":  "Для платья она предпочитает светло-голубой, а не тёмно-синий",
-                                           "highlight":  [
-                                                             "light blue, dark blue"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "His tie was deep purple, almost black",
-                                           "ru":  "Его галстук был тёмно-пурпурный, почти чёрный",
-                                           "highlight":  [
-                                                             "deep purple"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The sunset was a brilliant orange and pink",
-                                           "ru":  "Закат был ярко-оранжевым и розовым",
-                                           "highlight":  [
-                                                             "brilliant orange, pink"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She wore a soft grey shawl over her shoulders",
-                                           "ru":  "На плечи она накинула мягкую серую шаль",
-                                           "highlight":  [
-                                                             "soft grey"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "His eyes were pale blue, almost transparent",
-                                           "ru":  "Его глаза были бледно-голубыми, почти прозрачными",
-                                           "highlight":  [
-                                                             "pale blue"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Одежда для мужчин и женщин",
-                         "items":  [
-                                       {
-                                           "en":  "He wears a white shirt and black trousers every day",
-                                           "ru":  "Каждый день он носит белую рубашку и чёрные брюки",
-                                           "highlight":  [
-                                                             "white shirt, black trousers"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She wore a blue blouse and a black skirt to work",
-                                           "ru":  "На работу она надела голубую блузку и чёрную юбку",
-                                           "highlight":  [
-                                                             "blue blouse, black skirt"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The children wore green jackets and red scarves",
-                                           "ru":  "На детях были зелёные куртки и красные шарфы",
-                                           "highlight":  [
-                                                             "green jackets, red scarves"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He bought a brown coat for the winter",
-                                           "ru":  "На зиму он купил коричневое пальто",
-                                           "highlight":  [
-                                                             "brown coat"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She had a beautiful gold necklace and matching earrings",
-                                           "ru":  "На ней было красивое золотое ожерелье и серьги в тон",
-                                           "highlight":  [
-                                                             "gold necklace"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The gentleman wore a dark green waistcoat with gold buttons",
-                                           "ru":  "Джентльмен носил тёмно-зелёный жилет с золотыми пуговицами",
-                                           "highlight":  [
-                                                             "dark green waistcoat"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Цвета в природе и культуре",
-                         "items":  [
-                                       {
-                                           "en":  "The grass is green, the sky is blue, the flowers are red",
-                                           "ru":  "Трава зелёная, небо голубое, цветы красные",
-                                           "highlight":  [
-                                                             "green, blue, red"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The sunset was orange and purple",
-                                           "ru":  "Закат был оранжевым и фиолетовым",
-                                           "highlight":  [
-                                                             "orange, purple"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The lake is deep blue on a sunny day",
-                                           "ru":  "В солнечный день озеро тёмно-синее",
-                                           "highlight":  [
-                                                             "deep blue"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The mountains are grey and white with snow",
-                                           "ru":  "Горы серые и белые от снега",
-                                           "highlight":  [
-                                                             "grey, white"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The leaves are green in summer and golden in autumn",
-                                           "ru":  "Летом листья зелёные, осенью — золотые",
-                                           "highlight":  [
-                                                             "green, golden"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The roses were bright red, like blood",
-                                           "ru":  "Розы были ярко-красными, как кровь",
-                                           "highlight":  [
-                                                             "bright red"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Британские vs американские названия одежды",
-                         "items":  [
-                                       {
-                                           "en":  "BrE: trousers — AmE: pants",
-                                           "ru":  "Британия: trousers — Америка: pants (брюки)",
-                                           "highlight":  [
-                                                             "trousers, pants"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: jumper — AmE: sweater",
-                                           "ru":  "Британия: jumper — Америка: sweater (свитер)",
-                                           "highlight":  [
-                                                             "jumper, sweater"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: waistcoat — AmE: vest",
-                                           "ru":  "Британия: waistcoat — Америка: vest (жилет)",
-                                           "highlight":  [
-                                                             "waistcoat, vest"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: trainers — AmE: sneakers",
-                                           "ru":  "Британия: trainers — Америка: sneakers (кроссовки)",
-                                           "highlight":  [
-                                                             "trainers, sneakers"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: mac — AmE: raincoat",
-                                           "ru":  "Британия: mac — Америка: raincoat (плащ)",
-                                           "highlight":  [
-                                                             "mac, raincoat"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: braces — AmE: suspenders",
-                                           "ru":  "Британия: braces — Америка: suspenders (подтяжки)",
-                                           "highlight":  [
-                                                             "braces, suspenders"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Путать \u0027blue\u0027 и \u0027cyan\u0027",
-                         "right":  "В английском \u0027blue\u0027 — это и синий, и голубой",
-                         "note":  "В русском \u0027синий\u0027 и \u0027голубой\u0027 — разные цвета. В английском — оба \u0027blue\u0027."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027I have a black shoes\u0027",
-                         "right":  "\u0027I have black shoes\u0027 или \u0027I am wearing black shoes\u0027",
-                         "note":  "Существительное во множественном числе — shoes. Артикля \u0027a\u0027 не нужен."
-                     },
-                     {
-                         "wrong":  "Путать \u0027shirt\u0027 и \u0027blouse\u0027",
-                         "right":  "\u0027Shirt\u0027 — мужская рубашка, \u0027blouse\u0027 — женская",
-                         "note":  "В русском оба — \u0027рубашка\u0027. В английском различают по полу."
-                     },
-                     {
-                         "wrong":  "Переводить \u0027brown\u0027 как \u0027карий\u0027",
-                         "right":  "\u0027Brown\u0027 — коричневый",
-                         "note":  "\u0027Brown\u0027 — это цвет одежды и предметов."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027red colour\u0027 вместо \u0027red\u0027",
-                         "right":  "Надо говорить просто \u0027red\u0027",
-                         "note":  "В английском не говорят \u0027red colour\u0027 — просто \u0027red\u0027."
-                     },
-                     {
-                         "wrong":  "Путать \u0027trousers\u0027 и \u0027pants\u0027",
-                         "right":  "В BrE \u0027trousers\u0027 — брюки, \u0027pants\u0027 — трусы. В AmE \u0027pants\u0027 — брюки",
-                         "note":  "В Британии \u0027pants\u0027 — трусы, а не брюки."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Британские vs американские названия одежды",
-                    "leftLabel":  "Британский (BrE)",
-                    "rightLabel":  "Американский (AmE)",
-                    "rows":  [
-                                 {
-                                     "left":  "trousers",
-                                     "right":  "pants"
-                                 },
-                                 {
-                                     "left":  "jumper",
-                                     "right":  "sweater"
-                                 },
-                                 {
-                                     "left":  "waistcoat",
-                                     "right":  "vest"
-                                 },
-                                 {
-                                     "left":  "trainers",
-                                     "right":  "sneakers"
-                                 },
-                                 {
-                                     "left":  "mac",
-                                     "right":  "raincoat"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "\u0027Blue\u0027 — это и синий, и голубой в английском",
-                 "\u0027Shirt\u0027 — мужская рубашка, \u0027blouse\u0027 — женская",
-                 "В BrE \u0027trousers\u0027 — брюки, в AmE — \u0027pants\u0027. В BrE \u0027pants\u0027 — трусы",
-                 "Для оттенков используйте: dark (тёмный), light (светлый), bright (яркий), pale (бледный)",
-                 "Описывая одежду, используйте \u0027I\u0027m wearing\u0027 или \u0027He/She is wearing\u0027",
-                 "С существительными во множественном числе (shoes, trousers) НЕ используйте \u0027a\u0027"
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Как по-английски будет \u0027голубое небо\u0027?",
-                     "options":  [
-                                     "Blue sky",
-                                     "Cyan sky",
-                                     "Sky blue",
-                                     "Azure sky"
-                                 ],
-                     "answer":  "Blue sky",
-                     "why":  "В английском \u0027blue\u0027 означает и синий, и голубой."
-                 },
-                 {
-                     "q":  "Как называются брюки в британском английском?",
-                     "options":  [
-                                     "Pants",
-                                     "Trousers",
-                                     "Jeans",
-                                     "Shorts"
-                                 ],
-                     "answer":  "Trousers",
-                     "why":  "В британском английском \u0027trousers\u0027 — брюки. \u0027Pants\u0027 в BrE — трусы."
-                 },
-                 {
-                     "q":  "Какое слово обозначает женскую рубашку?",
-                     "options":  [
-                                     "Shirt",
-                                     "Blouse",
-                                     "Top",
-                                     "T-shirt"
-                                 ],
-                     "answer":  "Blouse",
-                     "why":  "\u0027Blouse\u0027 — женская блузка/рубашка. \u0027Shirt\u0027 — мужская рубашка."
-                 },
-                 {
-                     "q":  "Как сказать \u0027я ношу красное платье\u0027?",
-                     "options":  [
-                                     "I wear a red dress",
-                                     "I wear red dress",
-                                     "I wearing red dress",
-                                     "I am wear red dress"
-                                 ],
-                     "answer":  "I wear a red dress",
-                     "why":  "Правильно: \u0027I am wearing a red dress\u0027 или \u0027I wear a red dress\u0027."
-                 },
-                 {
-                     "q":  "Как сказать \u0027тёмно-синий\u0027 по-английски?",
-                     "options":  [
-                                     "Dark blue",
-                                     "Light blue",
-                                     "Deep blue",
-                                     "Bright blue"
-                                 ],
-                     "answer":  "Dark blue",
-                     "why":  "\u0027Dark blue\u0027 — тёмно-синий. \u0027Light blue\u0027 — светло-голубой."
-                 },
-                 {
-                     "q":  "Как называются кроссовки в британском английском?",
-                     "options":  [
-                                     "Sneakers",
-                                     "Trainers",
-                                     "Boots",
-                                     "Runners"
-                                 ],
-                     "answer":  "Trainers",
-                     "why":  "В британском английском \u0027trainers\u0027 — кроссовки. В американском — \u0027sneakers\u0027."
-                 }
-             ],
-    "related":  [
+    "Для начинающего важно сначала различать сами цвета: [bold]red[/bold] — красный, [bold]blue[/bold] — синий, [bold]green[/bold] — зелёный, [bold]yellow[/bold] — жёлтый, [bold]black[/bold] — чёрный, [bold]white[/bold] — белый, [bold]brown[/bold] — коричневый, [bold]grey[/bold] — серый, [bold]pink[/bold] — розовый, [bold]purple[/bold] — фиолетовый. В английском цвет обычно стоит перед существительным: [bold]a black dress[/bold], [bold]a white shirt[/bold], [bold]a blue coat[/bold].",
 
-                ]
+    "Уайльд использует не только основные цвета. В его описаниях встречаются более точные оттенки: [bold]scarlet lips[/bold], [bold]gold hair[/bold], [bold]pink silk[/bold], [bold]crimson velvet[/bold], [bold]amber-coloured silk[/bold]. Для изучающего язык это показывает важный принцип: сначала нужно знать обычное название цвета, а затем постепенно добавлять более точные оттенки.",
+
+    "Одежду можно назвать очень простыми словами: [bold]dress[/bold] — платье, [bold]shirt[/bold] — рубашка, [bold]coat[/bold] — пальто, [bold]jacket[/bold] — пиджак или куртка, [bold]hat[/bold] — шляпа, [bold]shoes[/bold] — обувь, [bold]trousers[/bold] — брюки, [bold]tie[/bold] — галстук. В романе одежда часто описывается вместе с материалом: [bold]white satin[/bold], [bold]pink silk[/bold], [bold]crimson velvet[/bold].",
+
+    "Главная конструкция для описания того, что на человеке сейчас, — [bold]be + wearing[/bold]. [bold]He is wearing a black coat.[/bold] [bold]Dorian is wearing a white shirt.[/bold] [bold]She is wearing a red dress.[/bold] После [bold]is wearing[/bold] мы называем предмет одежды.",
+
+    "Если мы говорим не о том, что человек надел сейчас, а о привычке или обычном выборе одежды, используется [bold]wear[/bold]. [bold]He wears black clothes.[/bold] означает, что он обычно носит чёрную одежду. Поэтому [bold]He is wearing a black coat[/bold] описывает ситуацию сейчас, а [bold]He wears black clothes[/bold] — обычный стиль.",
+
+    "В романе цвет может быть частью самого предмета одежды. Например: [bold]“black silk dress”[/bold] означает «чёрное шёлковое платье». Сначала идёт цвет [bold]black[/bold], затем материал [bold]silk[/bold], а последним — предмет [bold]dress[/bold]. Такая последовательность помогает строить простые описания: [bold]a red shirt[/bold], [bold]a blue coat[/bold], [bold]a white dress[/bold].",
+
+    "Для вопроса о цвете используется [bold]What colour...?[/bold] Например: [bold]What colour is the dress? — It is white.[/bold] Если спрашиваем, что именно надето, используем [bold]What is he wearing? — He is wearing a black coat.[/bold] Это две разные ситуации: первая спрашивает о цвете, вторая — об одежде.",
+
+    "В первой главе романа Уайльд показывает, как цвет работает внутри портрета. Он пишет о [bold]blue eyes[/bold], [bold]gold hair[/bold] и [bold]scarlet lips[/bold]. Это не список слов ради списка: цвет становится частью художественного описания внешности. Для изучающего английский этот фрагмент удобен тем, что цвет непосредственно стоит перед предметом, который он описывает.",
+
+    "Одежда у Уайльда тоже становится самостоятельным визуальным материалом. В более поздней части романа Дориан собирает ткани и предметы, среди которых встречаются [bold]yellow Chinese hangings[/bold], [bold]fair blue silks[/bold], [bold]Spanish velvets[/bold] и другие материалы. Язык здесь показывает, что название цвета может описывать не только одежду человека, но и ткань, предмет интерьера или произведение искусства.",
+
+    "В описании церковных одежд встречается особенно насыщенная цветовая лексика: [bold]crimson silk[/bold], [bold]green velvet[/bold], [bold]white satin[/bold], [bold]pink silk[/bold], [bold]blue linen[/bold]. Эти сочетания полезны для запоминания модели: [bold]colour + material + object[/bold]. Например, [bold]a green velvet coat[/bold] буквально строится по той же логике.",
+
+    "Обратите внимание на разницу между [bold]black[/bold] и [bold]black clothes[/bold]. [bold]Black[/bold] — это цвет, а [bold]clothes[/bold] — одежда как общее понятие. Мы можем сказать [bold]The coat is black[/bold], но [bold]He wears black clothes[/bold]. В первом случае мы описываем конкретный предмет, во втором — одежду человека в целом.",
+
+    "С цветами также можно использовать [bold]and[/bold], когда нужно назвать несколько цветов: [bold]black and white[/bold], [bold]red and gold[/bold], [bold]purple and gold[/bold]. В романе Уайльда такие сочетания особенно естественны, потому что его описания часто строятся на соединении нескольких оттенков и материалов.",
+
+    "Для начинающего достаточно научиться строить четыре типа фраз. [bold]The dress is red.[/bold] — цвет предмета. [bold]She is wearing a red dress.[/bold] — что на ней сейчас. [bold]She wears red clothes.[/bold] — что она обычно носит. [bold]What colour is the dress?[/bold] — вопрос о цвете.",
+
+    "Можно описывать и внешний вид человека без глагола wear. Например: [bold]He has blue eyes.[/bold] — «У него голубые глаза». В романе Уайльд использует именно такую визуальную деталь: [bold]blue eyes[/bold]. Поэтому при описании внешности полезно различать [bold]have[/bold] для частей тела и [bold]wear[/bold] для одежды.",
+
+    "Сравни: [bold]He has black hair.[/bold] и [bold]He is wearing a black hat.[/bold] В первом предложении говорится о внешности человека, во втором — об одежде. Цвет [bold]black[/bold] одинаковый, но конструкция зависит от того, что именно мы описываем.",
+
+    "Ещё одна важная деталь — [bold]clothes[/bold] обычно обозначает одежду в целом и не используется как обычное существительное в единственном числе. Поэтому мы говорим [bold]black clothes[/bold], а конкретный предмет называем отдельно: [bold]a black shirt[/bold], [bold]a black coat[/bold], [bold]a black dress[/bold].",
+
+    "Таким образом, язык цвета и одежды строится из нескольких очень простых элементов. [bold]Colour[/bold] называет цвет, [bold]clothes[/bold] — одежду, [bold]wear[/bold] показывает, что человек носит, а [bold]be wearing[/bold] описывает то, что на нём сейчас. Именно из таких маленьких конструкций складывается описание внешности — от простого [bold]a red dress[/bold] до сложных визуальных описаний Уайльда."
+  ],
+  "why": [
+    "Называть основные цвета на английском.",
+    "Описывать одежду человека.",
+    "Говорить, что человек носит сейчас или обычно.",
+    "Задавать вопросы о цвете и одежде."
+  ],
+  "context": {
+    "lines": [
+      {
+        "en": "“his finely curved scarlet lips, his frank blue eyes, his crisp gold hair”",
+        "ru": "«его красиво очерченные алые губы, его открытые голубые глаза, его густые золотистые волосы»"
+      },
+      {
+        "en": "“with an evening coat and a white tie”",
+        "ru": "«в вечернем костюме и белом галстуке»"
+      },
+      {
+        "en": "“with the collar of his grey ulster turned up”",
+        "ru": "«с поднятым воротником его серого пальто»"
+      },
+      {
+        "en": "“a gorgeous cope of crimson silk and gold-thread damask”",
+        "ru": "«великолепная риза из малинового шёлка и дамаска с золотой нитью»"
+      },
+      {
+        "en": "“Another cope was of green velvet”",
+        "ru": "«другая риза была из зелёного бархата»"
+      }
+    ],
+    "note": "Фрагменты взяты из оригинального текста The Picture of Dorian Gray. Цвет и одежда используются Уайльдом как реальные детали описания внешности, тканей и предметов."
+  },
+  "russianAngle": [
+    "В русском языке цвет и предмет одежды соединяются примерно так же: «чёрное пальто», «белая рубашка».",
+    "В английском цвет обычно стоит перед существительным: black coat, white dress, blue shirt.",
+    "Для одежды используется wear: He wears black clothes.",
+    "Для того, что человек носит сейчас, используется be wearing: He is wearing a black coat.",
+    "В английском clothes обозначает одежду в целом и обычно не используется в форме clothes в единственном числе."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Выучи основные цвета: red, blue, green, yellow, black, white, brown, grey, pink, purple.",
+      "Выучи базовые слова для одежды: shirt, dress, coat, jacket, hat, shoes, trousers, tie.",
+      "Соединяй цвет и предмет: a red dress, a black coat, a blue shirt.",
+      "Тренируй конструкцию be wearing для описания того, что на человеке сейчас.",
+      "Тренируй wear для того, что человек обычно носит.",
+      "Задавай вопросы: What colour is it? и What is he/she wearing?"
+    ],
+    "exercise": {
+      "prompt": "Опиши одежду и цвет, используя правильную конструкцию:",
+      "items": [
+        {
+          "q": "a dress / red",
+          "a": "a red dress"
+        },
+        {
+          "q": "he / black coat / now",
+          "a": "He is wearing a black coat."
+        },
+        {
+          "q": "she / white clothes / usually",
+          "a": "She wears white clothes."
+        },
+        {
+          "q": "the shirt / blue",
+          "a": "The shirt is blue."
+        },
+        {
+          "q": "ask about the colour of the dress",
+          "a": "What colour is the dress?"
+        }
+      ]
+    }
+  },
+  "formula": "be + colour / wear + clothes / be wearing + clothes",
+  "structure": {
+    "positive": "He is wearing a black coat. / She wears red clothes.",
+    "negative": "He is not wearing a black coat. / She does not wear red clothes.",
+    "question": "What is he wearing? / What colour is the coat?"
+  },
+  "markers": [
+    "red, blue, green, yellow",
+    "black, white, brown, grey",
+    "pink, purple",
+    "shirt, dress, coat, jacket",
+    "hat, shoes, trousers, tie",
+    "wear",
+    "be wearing",
+    "What colour...?",
+    "What is he/she wearing?"
+  ],
+  "uses": {
+    "title": "Как описывать цвет и одежду",
+    "items": [
+      {
+        "title": "Цвет предмета",
+        "text": "Цвет ставится перед существительным: a black coat, a white dress, a blue shirt."
+      },
+      {
+        "title": "Что на человеке сейчас",
+        "text": "Используется be wearing: He is wearing a black coat."
+      },
+      {
+        "title": "Что человек обычно носит",
+        "text": "Используется wear: She wears black clothes."
+      },
+      {
+        "title": "Вопрос о цвете",
+        "text": "Используется What colour...? Например: What colour is the dress?"
+      },
+      {
+        "title": "Вопрос об одежде",
+        "text": "Используется What is he/she wearing? Например: What is she wearing?"
+      }
+    ]
+  },
+  "rules": [
+    {
+      "title": "Colour + noun",
+      "text": "Цвет обычно стоит перед предметом: a red dress, a black coat."
+    },
+    {
+      "title": "Be wearing",
+      "text": "Для того, что человек носит сейчас, используется be + wearing."
+    },
+    {
+      "title": "Wear",
+      "text": "Для обычного или повторяющегося действия используется wear."
+    },
+    {
+      "title": "Have для внешности",
+      "text": "Для некоторых частей тела используется have: He has blue eyes."
+    },
+    {
+      "title": "What colour?",
+      "text": "Чтобы спросить о цвете, используется What colour is/are...?"
+    }
+  ],
+  "examples": [
+    {
+      "group": "Colours",
+      "items": [
+        {
+          "en": "a red dress",
+          "ru": "красное платье",
+          "highlight": [
+            "red"
+          ]
+        },
+        {
+          "en": "a blue coat",
+          "ru": "синее пальто",
+          "highlight": [
+            "blue"
+          ]
+        },
+        {
+          "en": "a black shirt",
+          "ru": "чёрная рубашка",
+          "highlight": [
+            "black"
+          ]
+        },
+        {
+          "en": "a white tie",
+          "ru": "белый галстук",
+          "highlight": [
+            "white"
+          ]
+        },
+        {
+          "en": "a purple dress",
+          "ru": "фиолетовое платье",
+          "highlight": [
+            "purple"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Clothes",
+      "items": [
+        {
+          "en": "a shirt",
+          "ru": "рубашка",
+          "highlight": [
+            "shirt"
+          ]
+        },
+        {
+          "en": "a dress",
+          "ru": "платье",
+          "highlight": [
+            "dress"
+          ]
+        },
+        {
+          "en": "a coat",
+          "ru": "пальто",
+          "highlight": [
+            "coat"
+          ]
+        },
+        {
+          "en": "a hat",
+          "ru": "шляпа",
+          "highlight": [
+            "hat"
+          ]
+        },
+        {
+          "en": "shoes",
+          "ru": "обувь",
+          "highlight": [
+            "shoes"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Wearing",
+      "items": [
+        {
+          "en": "He is wearing a black coat.",
+          "ru": "На нём чёрное пальто.",
+          "highlight": [
+            "is wearing"
+          ]
+        },
+        {
+          "en": "She is wearing a white dress.",
+          "ru": "На ней белое платье.",
+          "highlight": [
+            "is wearing"
+          ]
+        },
+        {
+          "en": "He is wearing a blue shirt.",
+          "ru": "На нём синяя рубашка.",
+          "highlight": [
+            "is wearing"
+          ]
+        },
+        {
+          "en": "They are wearing black clothes.",
+          "ru": "На них чёрная одежда.",
+          "highlight": [
+            "are wearing"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Wear",
+      "items": [
+        {
+          "en": "He wears black clothes.",
+          "ru": "Он носит чёрную одежду.",
+          "highlight": [
+            "wears"
+          ]
+        },
+        {
+          "en": "She wears red dresses.",
+          "ru": "Она носит красные платья.",
+          "highlight": [
+            "wears"
+          ]
+        },
+        {
+          "en": "I wear a blue shirt.",
+          "ru": "Я ношу синюю рубашку.",
+          "highlight": [
+            "wear"
+          ]
+        },
+        {
+          "en": "They wear white clothes.",
+          "ru": "Они носят белую одежду.",
+          "highlight": [
+            "wear"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Questions",
+      "items": [
+        {
+          "en": "What colour is the dress?",
+          "ru": "Какого цвета платье?",
+          "highlight": [
+            "What colour"
+          ]
+        },
+        {
+          "en": "What colour is the coat?",
+          "ru": "Какого цвета пальто?",
+          "highlight": [
+            "What colour"
+          ]
+        },
+        {
+          "en": "What is he wearing?",
+          "ru": "Что на нём надето?",
+          "highlight": [
+            "What is he wearing"
+          ]
+        },
+        {
+          "en": "What is she wearing?",
+          "ru": "Что на ней надето?",
+          "highlight": [
+            "What is she wearing"
+          ]
+        }
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He wearing a black coat.",
+      "right": "He is wearing a black coat.",
+      "note": "После he нужен глагол be: is wearing."
+    },
+    {
+      "wrong": "She is wear a red dress.",
+      "right": "She is wearing a red dress.",
+      "note": "После is используется форма wearing."
+    },
+    {
+      "wrong": "He wear black clothes.",
+      "right": "He wears black clothes.",
+      "note": "После he в Present Simple нужен wears."
+    },
+    {
+      "wrong": "A dress red.",
+      "right": "A red dress.",
+      "note": "Цвет ставится перед существительным."
+    },
+    {
+      "wrong": "What colour the dress is?",
+      "right": "What colour is the dress?",
+      "note": "В вопросе с be используется порядок What colour + be + subject."
+    },
+    {
+      "wrong": "What he is wearing?",
+      "right": "What is he wearing?",
+      "note": "В вопросе с be глагол ставится перед подлежащим."
+    }
+  ],
+  "compare": {
+    "title": "Wear vs Be wearing",
+    "leftLabel": "Wear — обычно",
+    "rightLabel": "Be wearing — сейчас",
+    "rows": [
+      {
+        "left": "He wears black clothes.",
+        "right": "He is wearing a black coat."
+      },
+      {
+        "left": "She wears red dresses.",
+        "right": "She is wearing a red dress."
+      },
+      {
+        "left": "I wear blue shirts.",
+        "right": "I am wearing a blue shirt."
+      },
+      {
+        "left": "They wear white clothes.",
+        "right": "They are wearing white clothes."
+      }
+    ]
+  },
+  "tips": [
+    "Запомни: colour + noun — red dress, black coat.",
+    "Для того, что на человеке сейчас, используй be wearing.",
+    "Для обычной привычки используй wear.",
+    "Для частей внешности часто используется have: He has blue eyes.",
+    "What colour...? спрашивает о цвете.",
+    "What is he/she wearing? спрашивает об одежде."
+  ],
+  "quiz": [
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "a dress red",
+        "a red dress",
+        "red a dress"
+      ],
+      "answer": 1,
+      "why": "В английском цвет обычно ставится перед существительным."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He wearing a black coat.",
+        "He is wearing a black coat.",
+        "He is wear a black coat."
+      ],
+      "answer": 1,
+      "why": "Для действия сейчас используется is wearing."
+    },
+    {
+      "q": "Choose the correct sentence about a usual habit:",
+      "options": [
+        "She wears black clothes.",
+        "She is wear black clothes.",
+        "She wearing black clothes."
+      ],
+      "answer": 0,
+      "why": "Для обычного действия используется Present Simple: She wears."
+    },
+    {
+      "q": "How do you ask about the colour?",
+      "options": [
+        "What colour is the dress?",
+        "What is colour the dress?",
+        "What the colour is dress?"
+      ],
+      "answer": 0,
+      "why": "Правильная модель: What colour + be + subject?"
+    },
+    {
+      "q": "How do you ask what a person has on now?",
+      "options": [
+        "What he is wearing?",
+        "What is he wearing?",
+        "What wearing he is?"
+      ],
+      "answer": 1,
+      "why": "В вопросе с be глагол is ставится перед подлежащим."
+    },
+    {
+      "q": "Choose the correct description:",
+      "options": [
+        "He has blue eyes.",
+        "He wears blue eyes.",
+        "He is wearing blue eyes."
+      ],
+      "answer": 0,
+      "why": "Для частей тела используется have, а не wear."
+    }
+  ],
+  "related": [
+    "a0-alphabet-pronunciation",
+    "a0-symbols-abbreviations",
+    "a0-numbers-dates-time",
+    "a0-introductions-greetings"
+  ]
 }

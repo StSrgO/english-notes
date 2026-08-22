@@ -1,543 +1,454 @@
 ﻿{
-    "variant":  "classic",
-    "slug":  "numbers-dates-time",
-    "level":  "A0",
-    "title":  "Numbers, Dates and Time",
-    "category":  "Basics",
-    "readingTime":  9,
-    "summary":  "Числа, даты и время. Цифры как инструмент контроля в «1984».",
-    "idea":  [
-                 "Джордж Оруэлл написал «1984» в 1948 году. Он переставил цифры, чтобы получить год, который стал символом тоталитаризма. В книге числа повсюду: время, даты, цифры контроля. 4 ноября — день, когда Уинстон начинает свой дневник. 10 утра — время Двухминутной ненависти. Время в «1984» — это оружие. Каждое число имеет значение.",
-                 "Оруэлл использовал числа, чтобы создать мир тотального контроля. Год, время, даты — элементы мира, где каждая секунда контролируется. Четыре ноября — день, когда Уинстон начинает свой дневник. Часы — время, когда он работает в Министерстве правды. Числа — инструмент власти. В романе «1984» время и даты — не просто цифры, это способ контроля над людьми.",
-                 "Числа — основа нашей жизни. Мы считаем деньги, время, даты. В английском языке числа называются по-своему. Есть британский и американский форматы дат. Есть разные способы сказать время. Оруэлл знал это. Он использовал числа, чтобы предупредить нас о будущем. В мире, где всё измеряется цифрами, знание чисел — это не просто навык, это необходимость."
-             ],
-    "why":  [
-                "Числа — это неотъемлемая часть повседневной жизни: деньги, время, даты, адреса",
-                "Без чисел невозможно читать расписания, смотреть на часы или считать сдачу",
-                "Разница между британским и американским форматом дат может привести к путанице",
-                "Знание чисел и времени — первый шаг к тому, чтобы чувствовать себя уверенно"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Winston Smith: \u0027It was the 4th of November, 1984. I started my diary at 10 a.m. I wrote: I will write the truth. Big Brother is watching.\u0027",
-                                      "ru":  "Уинстон Смит: «Было 4 ноября 1984 года. Я начал свой дневник в 10 утра. Я написал: я напишу правду. Большой брат следит за тобой»."
-                                  },
-                                  {
-                                      "en":  "Winston: \u0027The clock on the wall said 9:45. Quarter to ten. Time for the Two Minutes Hate.\u0027",
-                                      "ru":  "Уинстон: «Часы на стене показывали 9:45. Без пятнадцати десять. Время Двухминутной ненависти»."
-                                  },
-                                  {
-                                      "en":  "Winston: \u0027At 10 a.m. we have the Two Minutes Hate. At 11 a.m. we have the news. At 5 p.m. we finish work.\u0027",
-                                      "ru":  "Уинстон: «В 10 утра у нас Двухминутная ненависть. В 11 утра — новости. В 5 вечера мы заканчиваем работу»."
-                                  },
-                                  {
-                                      "en":  "Winston: \u0027January, February, March — the months pass. The year is 1984. The date is the 4th of November.\u0027",
-                                      "ru":  "Уинстон: «Январь, февраль, март — месяцы проходят. Год — 1984. Дата — 4 ноября»."
-                                  },
-                                  {
-                                      "en":  "Winston: \u0027I have been writing for 10 minutes. It is 10:15. I must stop. They are watching.\u0027",
-                                      "ru":  "Уинстон: «Я пишу 10 минут. Сейчас 10:15. Я должен остановиться. За мной наблюдают»."
-                                  }
-                              ],
-                    "note":  "В «1984» время и даты — это оружие. Каждая минута контролируется. Числа правят миром."
-                },
-    "russianAngle":  [
-                         "В русском языке мы говорим «половина третьего», а в английском — «half past two» (половина после двух).",
-                         "Даты в России пишутся день/месяц/год, как и в Великобритании. Но в США — месяц/день/год.",
-                         "В русском языке числа сложнее склоняются. В английском — просто \u0027one, two, three\u0027.",
-                         "В русском мы говорим «сорок», а в английском \u0027forty\u0027 — и здесь нет буквы \u0027u\u0027."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Выучите числа от 1 до 20 — они уникальны и не подчиняются правилам",
-                                     "Запомните десятки: twenty, thirty, forty (без \u0027u\u0027), fifty, sixty, seventy, eighty, ninety",
-                                     "Потренируйтесь читать даты: британский вариант (the 14th of June) и американский (June 14th)",
-                                     "Научитесь говорить о времени: \u0027quarter past\u0027, \u0027half past\u0027, \u0027quarter to\u0027",
-                                     "Потренируйтесь с годами: 1847 — \u0027eighteen forty-seven\u0027, а 2024 — \u0027twenty twenty-four\u0027",
-                                     "Попробуйте прочитать вслух расписание поездов или афишу"
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Прочитайте эти даты, время и числа по-английски:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "15th August, 1987",
-                                                          "a":  "The fifteenth of August, nineteen eighty-seven (BrE) / August fifteenth, nineteen eighty-seven (AmE)"
-                                                      },
-                                                      {
-                                                          "q":  "3:45 p.m.",
-                                                          "a":  "Quarter to four in the afternoon"
-                                                      },
-                                                      {
-                                                          "q":  "£1,250",
-                                                          "a":  "One thousand two hundred and fifty pounds"
-                                                      },
-                                                      {
-                                                          "q":  "21st December, 2012",
-                                                          "a":  "The twenty-first of December, twenty twelve"
-                                                      },
-                                                      {
-                                                          "q":  "4th November, 1984",
-                                                          "a":  "The fourth of November, nineteen eighty-four"
-                                                      },
-                                                      {
-                                                          "q":  "10:15 a.m.",
-                                                          "a":  "Quarter past ten in the morning"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "",
-    "structure":  {
-                      "positive":  "",
-                      "negative":  "",
-                      "question":  ""
-                  },
-    "markers":  [
+  "variant": "classic",
+  "slug": "numbers-dates-time",
+  "level": "A0",
+  "title": "Numbers, Dates and Time",
+  "category": "Basics",
+  "readingTime": 9,
+  "summary": "Numbers нужны не только для счёта: с их помощью мы называем даты, годы, время и последовательность событий. В английском для времени, дней, дат, месяцев и лет используются разные предлоги. Числа также встречаются в названиях и помогают точно определить момент или период.",
+  "idea": [
+    "Когда мы говорим о времени, английский язык постоянно использует числа. Мы можем назвать час, день, дату или год: [bold]ten o’clock[/bold], [bold]Monday[/bold], [bold]March 22nd[/bold], [bold]1982[/bold]. В обычной речи эти формы помогают точно определить, когда происходит событие.",
 
-                ],
-    "uses":  [
+    "В The Time Machine Герберта Уэллса время становится не просто фоном истории, а измеряемой величиной. Путешественник не просто говорит о будущем — он перемещается к определённым временным точкам и описывает их с помощью чисел. Поэтому история хорошо показывает, зачем английскому нужны числа, даты и обозначения времени.",
 
-             ],
-    "rules":  [
-                  {
-                      "title":  "Числа 1-20",
-                      "text":  "Числа от 1 до 20 нужно запомнить: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty."
-                  },
-                  {
-                      "title":  "Десятки и сотни",
-                      "text":  "Десятки: twenty, thirty, forty (без \u0027u\u0027), fifty, sixty, seventy, eighty, ninety. Сотни: one hundred, two hundred и т.д."
-                  },
-                  {
-                      "title":  "Даты",
-                      "text":  "Британский формат: the 14th of June. Американский: June 14th. Годы читаются как два числа: 1847 = eighteen forty-seven."
-                  },
-                  {
-                      "title":  "Время",
-                      "text":  "\u0027Half past\u0027 = 30 минут, \u0027quarter past\u0027 = 15 минут, \u0027quarter to\u0027 = без 15 минут. \u0027a.m.\u0027 — утро и ночь, \u0027p.m.\u0027 — день и вечер."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Числа в мире «1984»",
-                         "items":  [
-                                       {
-                                           "en":  "4th November, 1984 — Winston started his diary",
-                                           "ru":  "4 ноября 1984 года — Уинстон начал свой дневник",
-                                           "highlight":  [
-                                                             "4th November, 1984"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "10 a.m. — the Two Minutes Hate begins",
-                                           "ru":  "10 утра — начинается Двухминутная ненависть",
-                                           "highlight":  [
-                                                             "10 a.m."
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "9:45 p.m. — quarter to ten at night",
-                                           "ru":  "9:45 вечера — без пятнадцати десять",
-                                           "highlight":  [
-                                                             "9:45 p.m."
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "5 p.m. — the end of the working day",
-                                           "ru":  "5 вечера — конец рабочего дня",
-                                           "highlight":  [
-                                                             "5 p.m."
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The clock struck 12 — midnight in London",
-                                           "ru":  "Часы пробили 12 — полночь в Лондоне",
-                                           "highlight":  [
-                                                             "12"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "10:15 — quarter past ten",
-                                           "ru":  "10:15 — четверть одиннадцатого",
-                                           "highlight":  [
-                                                             "10:15"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Даты в истории и литературе",
-                         "items":  [
-                                       {
-                                           "en":  "14th June, 1813 — Mr. Darcy arrived at Pemberley",
-                                           "ru":  "14 июня 1813 года — мистер Дарси прибыл в Пемберли",
-                                           "highlight":  [
-                                                             "14th June, 1813"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "4th July, 1776 — the Declaration of Independence",
-                                           "ru":  "4 июля 1776 года — Декларация независимости",
-                                           "highlight":  [
-                                                             "4th July, 1776"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "7th December, 1941 — the attack on Pearl Harbor",
-                                           "ru":  "7 декабря 1941 года — атака на Перл-Харбор",
-                                           "highlight":  [
-                                                             "7th December, 1941"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "5th November, 1605 — the Gunpowder Plot",
-                                           "ru":  "5 ноября 1605 года — Пороховой заговор",
-                                           "highlight":  [
-                                                             "5th November, 1605"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "16th October, 1854 — Oscar Wilde was born",
-                                           "ru":  "16 октября 1854 года — родился Оскар Уайльд",
-                                           "highlight":  [
-                                                             "16th October, 1854"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1st January, 1984 — the world of 1984",
-                                           "ru":  "1 января 1984 года — мир 1984",
-                                           "highlight":  [
-                                                             "1st January, 1984"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Время в повседневной жизни",
-                         "items":  [
-                                       {
-                                           "en":  "The train leaves at half past seven in the morning",
-                                           "ru":  "Поезд отправляется в половине восьмого утра",
-                                           "highlight":  [
-                                                             "half past seven"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "We shall meet at quarter to five in the library",
-                                           "ru":  "Мы встретимся без пятнадцати пять в библиотеке",
-                                           "highlight":  [
-                                                             "quarter to five"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Dinner is served at eight o\u0027clock",
-                                           "ru":  "Ужин подаётся в восемь часов",
-                                           "highlight":  [
-                                                             "eight o\u0027clock"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The shop opens at 9 a.m. and closes at 5:30 p.m.",
-                                           "ru":  "Магазин открывается в 9 утра и закрывается в 5:30 вечера",
-                                           "highlight":  [
-                                                             "9 a.m., 5:30 p.m."
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Soundcheck starts at quarter past three in the afternoon",
-                                           "ru":  "Саундчек начинается в четверть четвёртого дня",
-                                           "highlight":  [
-                                                             "quarter past three"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The show starts at 8 p.m. — eight o\u0027clock in the evening",
-                                           "ru":  "Шоу начинается в 8 вечера",
-                                           "highlight":  [
-                                                             "8 p.m."
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Годы",
-                         "items":  [
-                                       {
-                                           "en":  "1847 — eighteen forty-seven",
-                                           "ru":  "1847 — eighteen forty-seven",
-                                           "highlight":  [
-                                                             "1847"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "2024 — twenty twenty-four",
-                                           "ru":  "2024 — twenty twenty-four",
-                                           "highlight":  [
-                                                             "2024"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1901 — nineteen oh one",
-                                           "ru":  "1901 — nineteen oh one",
-                                           "highlight":  [
-                                                             "1901"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1776 — seventeen seventy-six",
-                                           "ru":  "1776 — seventeen seventy-six",
-                                           "highlight":  [
-                                                             "1776"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1984 — nineteen eighty-four",
-                                           "ru":  "1984 — nineteen eighty-four",
-                                           "highlight":  [
-                                                             "1984"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "2001 — two thousand and one",
-                                           "ru":  "2001 — two thousand and one",
-                                           "highlight":  [
-                                                             "2001"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "BrE vs AmE",
-                         "items":  [
-                                       {
-                                           "en":  "BrE: 14/06/2024 = the 14th of June, 2024",
-                                           "ru":  "Британия: 14/06/2024 = 14 июня 2024 года",
-                                           "highlight":  [
-                                                             "14/06/2024"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "AmE: 06/14/2024 = June 14th, 2024",
-                                           "ru":  "Америка: 06/14/2024 = 14 июня 2024 года",
-                                           "highlight":  [
-                                                             "06/14/2024"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: half past three (3:30) — AmE: three thirty",
-                                           "ru":  "Британия: half past three — Америка: three thirty",
-                                           "highlight":  [
-                                                             "half past three, three thirty"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: a quarter to five (4:45) — AmE: four forty-five",
-                                           "ru":  "Британия: a quarter to five — Америка: four forty-five",
-                                           "highlight":  [
-                                                             "quarter to five, four forty-five"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: 30th December — AmE: December 30th",
-                                           "ru":  "Британия: 30 декабря — Америка: 30 декабря",
-                                           "highlight":  [
-                                                             "30th December, December 30th"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: 10 past 11 (11:10) — AmE: eleven ten",
-                                           "ru":  "Британия: 10 past 11 — Америка: eleven ten",
-                                           "highlight":  [
-                                                             "10 past 11, eleven ten"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Большие числа",
-                         "items":  [
-                                       {
-                                           "en":  "£1,250 — one thousand two hundred and fifty pounds",
-                                           "ru":  "£1,250 — одна тысяча двести пятьдесят фунтов",
-                                           "highlight":  [
-                                                             "one thousand two hundred and fifty"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "£5,000 — five thousand pounds",
-                                           "ru":  "£5,000 — пять тысяч фунтов",
-                                           "highlight":  [
-                                                             "five thousand"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "£100,000 — one hundred thousand pounds",
-                                           "ru":  "£100,000 — сто тысяч фунтов",
-                                           "highlight":  [
-                                                             "one hundred thousand"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1,000,000 — one million",
-                                           "ru":  "1,000,000 — один миллион",
-                                           "highlight":  [
-                                                             "one million"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "50,000 people at the stadium",
-                                           "ru":  "50 000 человек на стадионе",
-                                           "highlight":  [
-                                                             "50,000"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "30 years of history",
-                                           "ru":  "30 лет истории",
-                                           "highlight":  [
-                                                             "30"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Произносить \u0027forty\u0027 как \u0027fourty\u0027",
-                         "right":  "\u0027Forty\u0027 — без \u0027u\u0027",
-                         "note":  "Сорок — это forty, а не fourty."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027half of three\u0027 вместо \u0027half past three\u0027",
-                         "right":  "\u0027Half past three\u0027 — половина четвёртого",
-                         "note":  "В русском мы говорим \u0027половина третьего\u0027, а в английском \u0027half past two\u0027."
-                     },
-                     {
-                         "wrong":  "Читать год \u00271945\u0027 как \u0027one thousand nine hundred forty-five\u0027",
-                         "right":  "Правильно — \u0027nineteen forty-five\u0027",
-                         "note":  "Годы читаются как два числа: 1945 = nineteen forty-five."
-                     },
-                     {
-                         "wrong":  "Писать дату как \u002706/07/2024\u0027 и думать, что это 6 июля",
-                         "right":  "В BrE — 7 июня, в AmE — 6 июля",
-                         "note":  "Всегда уточняйте формат дат."
-                     },
-                     {
-                         "wrong":  "Путать \u0027a.m.\u0027 и \u0027p.m.\u0027",
-                         "right":  "\u0027a.m.\u0027 — утро/ночь, \u0027p.m.\u0027 — день/вечер",
-                         "note":  "10 a.m. — утро, 10 p.m. — вечер."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027five past three\u0027 когда 3:05",
-                         "right":  "Правильно — \u0027five past three\u0027",
-                         "note":  "\u0027Five past three\u0027 — 3:05, а \u0027five to three\u0027 — 2:55."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Британские vs американские даты и время",
-                    "leftLabel":  "Британский (BrE)",
-                    "rightLabel":  "Американский (AmE)",
-                    "rows":  [
-                                 {
-                                     "left":  "14/06/2024 = 14 June 2024",
-                                     "right":  "06/14/2024 = June 14, 2024"
-                                 },
-                                 {
-                                     "left":  "The 14th of June",
-                                     "right":  "June 14th"
-                                 },
-                                 {
-                                     "left":  "half past three (3:30)",
-                                     "right":  "three thirty (3:30)"
-                                 },
-                                 {
-                                     "left":  "quarter to five (4:45)",
-                                     "right":  "four forty-five (4:45)"
-                                 },
-                                 {
-                                     "left":  "5 o\u0027clock",
-                                     "right":  "5:00"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Запомните числа от 1 до 20 — они уникальны",
-                 "Запомните десятки, особенно \u0027forty\u0027 — без \u0027u\u0027",
-                 "В датах всегда проверяйте формат",
-                 "Для годов используйте два числа: 1847 — eighteen forty-seven",
-                 "Время учите через \u0027past\u0027 и \u0027to\u0027",
-                 "\u0027a.m.\u0027 — \u0027ante meridiem\u0027 (до полудня), \u0027p.m.\u0027 — \u0027post meridiem\u0027 (после полудня)",
-                 "Всегда добавляйте \u0027and\u0027 между сотнями и десятками: one hundred and twenty-five"
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Как будет 25 по-английски?",
-                     "options":  [
-                                     "Twenty five",
-                                     "Twenty-five",
-                                     "Twenty and five",
-                                     "Tenty-five"
-                                 ],
-                     "answer":  "Twenty-five",
-                     "why":  "25 — это twenty-five. Дефис между двадцатью и пятью."
-                 },
-                 {
-                     "q":  "Как читается год 1945 по-английски?",
-                     "options":  [
-                                     "One thousand nine hundred forty-five",
-                                     "Nineteen forty-five",
-                                     "Nineteen hundred forty-five",
-                                     "Nineteen forty-five"
-                                 ],
-                     "answer":  "Nineteen forty-five",
-                     "why":  "Годы читаются как два числа: 19 и 45 = nineteen forty-five."
-                 },
-                 {
-                     "q":  "Что означает \u0027half past three\u0027?",
-                     "options":  [
-                                     "3:30",
-                                     "2:30",
-                                     "3:15",
-                                     "3:45"
-                                 ],
-                     "answer":  "3:30",
-                     "why":  "\u0027Half past three\u0027 = половина четвёртого = 3:30."
-                 },
-                 {
-                     "q":  "Как сказать \u0027без четверти пять\u0027 по-английски?",
-                     "options":  [
-                                     "Quarter to five",
-                                     "Quarter past five",
-                                     "Half past five",
-                                     "Five to quarter"
-                                 ],
-                     "answer":  "Quarter to five",
-                     "why":  "\u0027Без четверти пять\u0027 = 4:45 = quarter to five."
-                 },
-                 {
-                     "q":  "Какая разница между \u002705/06/2024\u0027 в BrE и AmE?",
-                     "options":  [
-                                     "BrE: 5 июня, AmE: 6 мая",
-                                     "BrE: 6 мая, AmE: 5 июня",
-                                     "Это одно и то же",
-                                     "BrE: 5 мая, AmE: 6 июня"
-                                 ],
-                     "answer":  "BrE: 5 июня, AmE: 6 мая",
-                     "why":  "В британском формате день/месяц/год, в американском — месяц/день/год."
-                 },
-                 {
-                     "q":  "Как пишется число 40 по-английски?",
-                     "options":  [
-                                     "Fourty",
-                                     "Forty",
-                                     "Fourty",
-                                     "Forty"
-                                 ],
-                     "answer":  "Forty",
-                     "why":  "40 — это forty, без буквы \u0027u\u0027."
-                 }
-             ],
-    "related":  [
+    "Само название [bold]The Time Machine[/bold] уже соединяет два простых понятия: [bold]time[/bold] и [bold]machine[/bold]. Герой создаёт устройство, которое позволяет двигаться по временной шкале. Когда он объясняет его действие, время становится почти таким же конкретным объектом, как расстояние или скорость.",
 
-                ]
+    "Для часов английский использует конструкцию [bold]at + time[/bold]. Например: [bold]at ten o’clock[/bold] — «в десять часов». В тексте Уэллса есть точное указание: [bold]It was at ten o’clock today[/bold]. Здесь [bold]at[/bold] показывает конкретный момент на часах.",
+
+    "Если мы говорим о части дня без точного часа, используются другие конструкции: [bold]in the morning[/bold], [bold]in the afternoon[/bold], [bold]in the evening[/bold]. Но с конкретным временем используется [bold]at[/bold]: [bold]at six o’clock[/bold], [bold]at midnight[/bold], [bold]at noon[/bold].",
+
+    "Для дней недели и конкретных дат обычно используется [bold]on[/bold]: [bold]on Monday[/bold], [bold]on Friday[/bold], [bold]on March 22nd[/bold]. В The Time Machine сам рассказ постоянно привязан к определённым дням: путешественник вспоминает, что рассказывал своим собеседникам о машине в предыдущий четверг.",
+
+    "Для месяцев и годов используется [bold]in[/bold]: [bold]in March[/bold], [bold]in 1895[/bold], [bold]in the nineteenth century[/bold]. Поэтому можно сказать [bold]in 1895[/bold], если говорим о годе публикации The Time Machine, но [bold]on March 22nd[/bold], если называем конкретный день.",
+
+    "Важно различать число как количество и число как часть даты. [bold]Two[/bold] означает количество: [bold]two machines[/bold]. Но [bold]March 22nd[/bold] — это дата. Окончание [bold]-nd[/bold] показывает порядковый номер: двадцать второй день месяца.",
+
+    "Порядковые числительные особенно важны для дат. [bold]1st[/bold] — first, [bold]2nd[/bold] — second, [bold]3rd[/bold] — third, [bold]4th[/bold] — fourth. Поэтому [bold]March 22nd[/bold] читается как [bold]March twenty-second[/bold], а не просто как число «двадцать два».",
+
+    "Годы обычно произносятся иначе, чем обычные числа. [bold]1895[/bold] — [bold]eighteen ninety-five[/bold]. [bold]1982[/bold] — [bold]nineteen eighty-two[/bold]. В современных датах после 2000 года возможны разные варианты: [bold]2026[/bold] — [bold]twenty twenty-six[/bold] или [bold]two thousand and twenty-six[/bold].",
+
+    "Уэллс доводит идею числового времени до огромного масштаба. Путешественник оказывается в году [bold]802,701[/bold]. Это уже не просто дата из календаря, а координата далёкого будущего. Число показывает, насколько далеко герой ушёл от собственного времени.",
+
+    "В английском большие числа строятся последовательно. [bold]802,701[/bold] — это [bold]eight hundred and two thousand seven hundred and one[/bold]. Для начинающего это длинная форма, но принцип остаётся тем же: сначала называются сотни и тысячи, затем меньшие части числа.",
+
+    "Время можно представить как линию: прошлое, настоящее и будущее. В The Time Machine эта линия становится буквально маршрутом путешествия. Поэтому выражения [bold]today[/bold], [bold]yesterday[/bold], [bold]tomorrow[/bold], [bold]in the future[/bold] и [bold]in the past[/bold] особенно естественно звучат рядом с историей Уэллса.",
+
+    "Есть разница между [bold]at[/bold], [bold]on[/bold] и [bold]in[/bold]. [bold]At ten o’clock[/bold] — конкретный момент. [bold]On Monday[/bold] — день или дата. [bold]In March[/bold] и [bold]in 1895[/bold] — более широкий период. Эти три предлога образуют базовую систему обозначения времени.",
+
+    "Сравни: [bold]The Time Traveller left at ten o’clock.[/bold] Здесь называется точное время. [bold]The Time Traveller left on Monday.[/bold] Здесь называется день. [bold]The Time Traveller left in 1895.[/bold] Здесь называется год. Событие одно, но масштаб временной координаты разный.",
+
+    "Числа встречаются и в названиях. В The Time Machine огромные числа помогают создать ощущение научной точности, а не просто фантастической неопределённости. Когда читатель видит конкретный год, он получает точку на временной шкале.",
+
+    "Для начинающего важно сначала научиться различать четыре вещи: [bold]number[/bold] — число, [bold]date[/bold] — дата, [bold]time[/bold] — время, [bold]year[/bold] — год. Затем эти элементы можно соединять: [bold]at ten o’clock on Monday in March 1895[/bold].",
+
+    "The Time Machine показывает эту систему особенно ясно. Герой говорит о времени как о чём-то, что можно измерять, ускорять, замедлять и пересекать. Поэтому числа в рассказе не являются случайными деталями: они помогают построить саму идею путешествия.",
+
+    "Запомни простую основу: [bold]at + exact time[/bold], [bold]on + day/date[/bold], [bold]in + month/year[/bold]. Если ты видишь [bold]ten o’clock[/bold], думай о [bold]at[/bold]. Если видишь [bold]Monday[/bold] или [bold]March 22nd[/bold], думай об [bold]on[/bold]. Если видишь [bold]March[/bold] или [bold]1895[/bold], думай об [bold]in[/bold].",
+
+    "Именно поэтому числа, даты и время в The Time Machine работают сразу на двух уровнях. Они помогают понять английскую систему обозначения времени и одновременно создают саму структуру научно-фантастического путешествия — движение от одной числовой точки времени к другой."
+  ],
+  "why": [
+    "Называть числа, годы, даты и время.",
+    "Говорить, когда происходит событие.",
+    "Различать at, on и in в обозначении времени.",
+    "Читать и произносить даты и годы."
+  ],
+  "context": {
+    "lines": [
+      {
+        "en": "It was at ten o’clock today that the first of all Time Machines began its career.",
+        "ru": "Именно сегодня в десять часов первая из всех Машин времени начала свой путь."
+      },
+      {
+        "en": "I told some of you last Thursday of the principles of the Time Machine.",
+        "ru": "В прошлый четверг я рассказывал некоторым из вас о принципах Машины времени."
+      },
+      {
+        "en": "The Time Traveller vanished three years ago.",
+        "ru": "Путешественник во времени исчез три года назад."
+      },
+      {
+        "en": "The world of Eight Hundred and Two Thousand Seven Hundred and One.",
+        "ru": "Мир восьмисот двух тысяч семисот первого года."
+      },
+      {
+        "en": "The Time Machine",
+        "ru": "Машина времени"
+      }
+    ],
+    "note": "Фрагменты взяты из оригинального текста The Time Machine Герберта Уэллса. Числовые и временные координаты используются здесь как исходный литературный материал для объяснения чисел, дат и времени."
+  },
+  "russianAngle": [
+    "В русском языке и английском языке используются разные модели с предлогами для обозначения времени.",
+    "В английском at обычно используется с точным временем, on — с днями и датами, in — с месяцами и годами.",
+    "Английские даты используют порядковые числительные: 22nd — twenty-second.",
+    "Годы в английском обычно произносятся группами цифр: 1895 — eighteen ninety-five."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Выучи числа от 1 до 20, затем десятки и сотни.",
+      "Научись говорить точное время с o’clock.",
+      "Запомни три основные модели: at + time, on + day/date, in + month/year.",
+      "Потренируйся читать годы вслух.",
+      "Научись называть свою дату рождения по-английски.",
+      "Сравнивай разные временные координаты: at ten, on Monday, in March, in 1895."
+    ],
+    "exercise": {
+      "prompt": "Скажи по-английски:",
+      "items": [
+        {
+          "q": "в десять часов",
+          "a": "at ten o’clock"
+        },
+        {
+          "q": "в понедельник",
+          "a": "on Monday"
+        },
+        {
+          "q": "22 марта",
+          "a": "on March 22nd"
+        },
+        {
+          "q": "в марте",
+          "a": "in March"
+        },
+        {
+          "q": "в 1895 году",
+          "a": "in 1895"
+        }
+      ]
+    }
+  },
+  "formula": "at + exact time / on + day or date / in + month or year",
+  "structure": {
+    "time": "at + time: at ten o’clock",
+    "day_date": "on + day/date: on Monday / on March 22nd",
+    "month_year": "in + month/year: in March / in 1895"
+  },
+  "markers": [
+    "at ten o’clock",
+    "at noon",
+    "on Monday",
+    "on March 22nd",
+    "in March",
+    "in 1895",
+    "today",
+    "yesterday",
+    "tomorrow",
+    "three years ago"
+  ],
+  "uses": {
+    "title": "Как говорить о числах, датах и времени",
+    "items": [
+      {
+        "title": "Точное время",
+        "text": "Используй at с конкретным временем: at ten o’clock, at six, at midnight."
+      },
+      {
+        "title": "День или дата",
+        "text": "Используй on с днём недели или конкретной датой: on Monday, on March 22nd."
+      },
+      {
+        "title": "Месяц или год",
+        "text": "Используй in с месяцем или годом: in March, in 1895."
+      },
+      {
+        "title": "Порядковые числа в датах",
+        "text": "В датах используются порядковые числительные: 1st, 2nd, 3rd, 4th, 22nd."
+      },
+      {
+        "title": "Годы",
+        "text": "Годы обычно произносятся двумя группами чисел: 1895 — eighteen ninety-five."
+      }
+    ]
+  },
+  "rules": [
+    {
+      "title": "At + exact time",
+      "text": "Используй at с точным временем: at ten o’clock."
+    },
+    {
+      "title": "On + day/date",
+      "text": "Используй on с днём недели или конкретной датой: on Monday, on March 22nd."
+    },
+    {
+      "title": "In + month/year",
+      "text": "Используй in с месяцем или годом: in March, in 1895."
+    },
+    {
+      "title": "Dates use ordinal numbers",
+      "text": "В датах используются порядковые числительные: March 22nd — March twenty-second."
+    },
+    {
+      "title": "Years",
+      "text": "Годы обычно читаются как две группы чисел: 1982 — nineteen eighty-two."
+    }
+  ],
+  "examples": [
+    {
+      "group": "Time",
+      "items": [
+        {
+          "en": "at ten o’clock",
+          "ru": "в десять часов",
+          "highlight": [
+            "at ten o’clock"
+          ]
+        },
+        {
+          "en": "at six o’clock",
+          "ru": "в шесть часов",
+          "highlight": [
+            "at six o’clock"
+          ]
+        },
+        {
+          "en": "at noon",
+          "ru": "в полдень",
+          "highlight": [
+            "at noon"
+          ]
+        },
+        {
+          "en": "at midnight",
+          "ru": "в полночь",
+          "highlight": [
+            "at midnight"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Days and dates",
+      "items": [
+        {
+          "en": "on Monday",
+          "ru": "в понедельник",
+          "highlight": [
+            "on Monday"
+          ]
+        },
+        {
+          "en": "on Friday",
+          "ru": "в пятницу",
+          "highlight": [
+            "on Friday"
+          ]
+        },
+        {
+          "en": "on March 22nd",
+          "ru": "22 марта",
+          "highlight": [
+            "on March 22nd"
+          ]
+        },
+        {
+          "en": "on the first day",
+          "ru": "в первый день",
+          "highlight": [
+            "on the first day"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Months and years",
+      "items": [
+        {
+          "en": "in March",
+          "ru": "в марте",
+          "highlight": [
+            "in March"
+          ]
+        },
+        {
+          "en": "in 1895",
+          "ru": "в 1895 году",
+          "highlight": [
+            "in 1895"
+          ]
+        },
+        {
+          "en": "in the nineteenth century",
+          "ru": "в девятнадцатом веке",
+          "highlight": [
+            "in the nineteenth century"
+          ]
+        },
+        {
+          "en": "in the future",
+          "ru": "в будущем",
+          "highlight": [
+            "in the future"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Numbers and dates",
+      "items": [
+        {
+          "en": "one → first",
+          "ru": "один → первый",
+          "highlight": [
+            "one",
+            "first"
+          ]
+        },
+        {
+          "en": "two → second",
+          "ru": "два → второй",
+          "highlight": [
+            "two",
+            "second"
+          ]
+        },
+        {
+          "en": "three → third",
+          "ru": "три → третий",
+          "highlight": [
+            "three",
+            "third"
+          ]
+        },
+        {
+          "en": "twenty-two → twenty-second",
+          "ru": "двадцать два → двадцать второй",
+          "highlight": [
+            "twenty-two",
+            "twenty-second"
+          ]
+        }
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "in ten o’clock",
+      "right": "at ten o’clock",
+      "note": "Для конкретного времени используется at."
+    },
+    {
+      "wrong": "in Monday",
+      "right": "on Monday",
+      "note": "Для дней недели используется on."
+    },
+    {
+      "wrong": "on March",
+      "right": "in March",
+      "note": "Для месяцев используется in."
+    },
+    {
+      "wrong": "on 1895",
+      "right": "in 1895",
+      "note": "Для годов используется in."
+    },
+    {
+      "wrong": "March twenty-two",
+      "right": "March twenty-second",
+      "note": "В датах используются порядковые числительные."
+    },
+    {
+      "wrong": "at Monday",
+      "right": "on Monday",
+      "note": "At используется с конкретным временем, а не с днём."
+    }
+  ],
+  "compare": {
+    "title": "At vs On vs In",
+    "leftLabel": "Более точный момент",
+    "rightLabel": "Более широкий период",
+    "rows": [
+      {
+        "left": "at ten o’clock",
+        "right": "in March"
+      },
+      {
+        "left": "on Monday",
+        "right": "in 1895"
+      },
+      {
+        "left": "on March 22nd",
+        "right": "in the nineteenth century"
+      },
+      {
+        "left": "at midnight",
+        "right": "in the future"
+      }
+    ]
+  },
+  "tips": [
+    "Запомни: at — точное время.",
+    "Запомни: on — день или дата.",
+    "Запомни: in — месяц или год.",
+    "В датах используй порядковые числительные.",
+    "Годы читай как английские числа, а не как четыре отдельные цифры.",
+    "today, yesterday и tomorrow обычно не требуют предлога."
+  ],
+  "quiz": [
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "in ten o’clock",
+        "at ten o’clock",
+        "on ten o’clock"
+      ],
+      "answer": 1,
+      "why": "С конкретным временем используется at."
+    },
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "at Monday",
+        "on Monday",
+        "in Monday"
+      ],
+      "answer": 1,
+      "why": "С днём недели используется on."
+    },
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "on March",
+        "at March",
+        "in March"
+      ],
+      "answer": 2,
+      "why": "С месяцем используется in."
+    },
+    {
+      "q": "How do we say 22nd?",
+      "options": [
+        "twenty-two",
+        "twenty-second",
+        "twenty-twoth"
+      ],
+      "answer": 1,
+      "why": "В датах используется порядковое числительное twenty-second."
+    },
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "on 1895",
+        "at 1895",
+        "in 1895"
+      ],
+      "answer": 2,
+      "why": "С годом используется in."
+    },
+    {
+      "q": "Which phrase is correct?",
+      "options": [
+        "at midnight",
+        "on midnight",
+        "in midnight"
+      ],
+      "answer": 0,
+      "why": "Midnight — конкретный момент времени, поэтому используется at."
+    }
+  ],
+  "related": [
+    "a0-symbols-abbreviations",
+    "a0-introductions-greetings"
+  ]
 }

@@ -1,534 +1,524 @@
 ﻿{
-    "variant":  "rocknroll",
-    "slug":  "colours-clothes",
-    "level":  "A0",
-    "title":  "Colours and Clothes",
-    "category":  "Basics",
-    "readingTime":  8,
-    "summary":  "Цвета и одежда. Цвет как имя и стиль. Deep Purple и рок-имидж.",
-    "idea":  [
-                 "Deep Purple — это не просто группа, это цвет. Тёмно-фиолетовый. Мистика и рок. Группа взяла это название из песни 1933 года. В роке цвета всегда имеют значение: чёрный — бунт, белый — чистый звук, красный — страсть, фиолетовый — тайна. На сцене Deep Purple носили чёрное. Чёрная кожаная куртка — классика рока. Фиолетовый — их идентичность.",
-                 "Цвет одежды говорит о музыканте больше, чем слова. В роке есть свои правила: black leather jacket, white shirt, dark purple shirt. Названия цветов и одежды в английском — это язык, на котором говорит сцена. «A black leather jacket» — чёрная кожаная куртка. «A white shirt» — белая рубашка. «A purple scarf» — фиолетовый шарф.",
-                 "Deep Purple доказали, что цвет может стать названием, а название — идентичностью. В роке, как в жизни, цвета и одежда создают образ. Изучая их, мы учимся описывать мир вокруг себя. Как у Deep Purple. Как в роке."
-             ],
-    "why":  [
-                "Цвета и одежда — это основа описания внешности",
-                "В английском языке есть много цветов, которые не имеют прямого аналога в русском",
-                "Названия одежды отличаются в британском и американском английском",
-                "Цвет помогает создавать образ и настроение"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Ritchie Blackmore: \u0027Deep Purple is a colour and a sound. It\u0027s dark, mysterious, and powerful. That\u0027s who we are.\u0027",
-                                      "ru":  "Ричи Блэкмор: «Deep Purple — это цвет и звук. Тёмный, таинственный и мощный. Это то, кто мы есть»."
-                                  },
-                                  {
-                                      "en":  "Ian Gillan: \u0027We wear black on stage. It\u0027s our uniform. Black is rock. Black is Deep Purple.\u0027",
-                                      "ru":  "Иэн Гиллан: «Мы носим чёрное на сцене. Это наша униформа. Чёрный — это рок. Чёрный — это Deep Purple»."
-                                  },
-                                  {
-                                      "en":  "Ritchie: \u0027Colours tell the story of who you are, mate. Black is rebellion. White is pure sound. Purple is mystery.\u0027",
-                                      "ru":  "Ричи: «Цвета рассказывают историю о том, кто ты есть, приятель. Чёрный — бунт. Белый — чистый звук. Фиолетовый — тайна»."
-                                  },
-                                  {
-                                      "en":  "Ian: \u0027We wear black leather jackets and dark purple shirts on stage. That\u0027s our look.\u0027",
-                                      "ru":  "Иэн: «Мы носим чёрные кожаные куртки и тёмно-фиолетовые рубашки на сцене. Это наш образ»."
-                                  },
-                                  {
-                                      "en":  "Ritchie: \u0027The colours you wear, mate, are the colours of your music.\u0027",
-                                      "ru":  "Ричи: «Цвета, которые ты носишь, приятель, — это цвета твоей музыки»."
-                                  }
-                              ],
-                    "note":  "Deep Purple — это цвет, который стал легендой. Цвета и одежда в роке — это язык."
-                },
-    "russianAngle":  [
-                         "В русском языке \u0027голубой\u0027 и \u0027синий\u0027 — это разные цвета. В английском — \u0027blue\u0027 для обоих.",
-                         "В русском есть \u0027розовый\u0027, в английском — \u0027pink\u0027. Но в английском больше оттенков.",
-                         "В русском \u0027чёрный\u0027 и \u0027белый\u0027 — это цвета. В английском — \u0027black\u0027 и \u0027white\u0027, но есть \u0027off-white\u0027 и \u0027jet black\u0027.",
-                         "В русском \u0027рубашка\u0027 и \u0027блузка\u0027 — разное. В английском — \u0027shirt\u0027 и \u0027blouse\u0027."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Выучите основные цвета: red, blue, green, yellow, black, white, brown, grey, pink, purple, orange",
-                                     "Запомните предметы одежды: shirt, blouse, dress, skirt, trousers, jeans, jacket, coat, hat, scarf, gloves, shoes, boots",
-                                     "Потренируйтесь описывать, что на вас надето: \u0027I am wearing a blue shirt and black trousers\u0027",
-                                     "Запомните разницу между BrE и AmE: trousers (BrE) = pants (AmE), jumper (BrE) = sweater (AmE)",
-                                     "Потренируйтесь с прилагательными: dark blue, light green, bright red, pale yellow, deep purple",
-                                     "Попробуйте описать героев рок-сцены"
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Опишите эти образы по-английски:",
-                                        "items":  [
-                                                      {
-                                                          "q":  "Рок-звезда в чёрной кожаной куртке",
-                                                          "a":  "A rock star in a black leather jacket"
-                                                      },
-                                                      {
-                                                          "q":  "Певец в фиолетовой рубашке",
-                                                          "a":  "A singer in a purple shirt"
-                                                      },
-                                                      {
-                                                          "q":  "Гитарист в белой футболке",
-                                                          "a":  "A guitarist in a white T-shirt"
-                                                      },
-                                                      {
-                                                          "q":  "Барабанщик в красных ботинках",
-                                                          "a":  "A drummer in red boots"
-                                                      },
-                                                      {
-                                                          "q":  "Deep Purple на сцене в чёрном",
-                                                          "a":  "Deep Purple on stage in black"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "",
-    "structure":  {
-                      "positive":  "",
-                      "negative":  "",
-                      "question":  ""
-                  },
-    "markers":  [
+  "variant": "rocknroll",
+  "slug": "colours-clothes",
+  "level": "A0",
+  "title": "Colours and Clothes",
+  "category": "Basics",
+  "readingTime": 8,
+  "summary": "Цвета и одежда помогают описывать людей и предметы. С цветом часто используется глагол be: He is wearing a black coat. С одеждой используется wear: She wears a white dress. Чтобы спросить о цвете или одежде, используются What colour...? и What is he/she wearing?",
+  "idea": [
+    "Когда мы описываем сценический образ музыканта, нам нужно назвать две простые вещи: цвет и одежду. В английском можно сказать [bold]He is wearing a black shirt.[/bold] или [bold]She is wearing a red jacket.[/bold] Такие короткие конструкции позволяют описать внешний вид человека без сложного рассказа.",
 
-                ],
-    "uses":  [
+    "KISS особенно хорошо показывает, как одежда и цвет становятся частью сценического образа. У группы с самого начала было важно не только то, как звучит музыка, но и то, что зритель видит на сцене. В интервью Джин Симмонс вспоминал, что группа хотела быть группой, которую они сами никогда не видели на сцене, и визуальный образ стал частью этого замысла.",
 
-             ],
-    "rules":  [
-                  {
-                      "title":  "Цвета",
-                      "text":  "Основные цвета: red, blue, green, yellow, black, white, brown, grey, pink, purple, orange. Оттенки: dark, light, bright, pale, deep."
-                  },
-                  {
-                      "title":  "Одежда (BrE vs AmE)",
-                      "text":  "trousers (BrE) = pants (AmE); jumper (BrE) = sweater (AmE); waistcoat (BrE) = vest (AmE); trainers (BrE) = sneakers (AmE)."
-                  },
-                  {
-                      "title":  "Как описывать одежду",
-                      "text":  "I\u0027m wearing + предмет одежды + цвет. He/She is wearing + предмет + цвет. Множественное число: I\u0027m wearing black shoes."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Цвета в рок-стиле",
-                         "items":  [
-                                       {
-                                           "en":  "The Doors wore black leather jackets on stage",
-                                           "ru":  "The Doors носили чёрные кожаные куртки на сцене",
-                                           "highlight":  [
-                                                             "black leather jackets"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The Rolling Stones wore bright red and purple shirts",
-                                           "ru":  "The Rolling Stones носили ярко-красные и фиолетовые рубашки",
-                                           "highlight":  [
-                                                             "bright red, purple"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Creedence wore faded blue jeans and white T-shirts",
-                                           "ru":  "Creedence носили выцветшие синие джинсы и белые футболки",
-                                           "highlight":  [
-                                                             "faded blue jeans, white T-shirts"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The band had bright orange scarves around their necks",
-                                           "ru":  "У группы были ярко-оранжевые шарфы на шеях",
-                                           "highlight":  [
-                                                             "bright orange"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Deep Purple wore black and dark purple on stage",
-                                           "ru":  "Deep Purple носили чёрное и тёмно-фиолетовое на сцене",
-                                           "highlight":  [
-                                                             "black, dark purple"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The guitarist wore a deep purple shirt with black trousers",
-                                           "ru":  "Гитарист носил тёмно-фиолетовую рубашку с чёрными брюками",
-                                           "highlight":  [
-                                                             "deep purple, black"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Одежда рок-музыкантов",
-                         "items":  [
-                                       {
-                                           "en":  "The singer wore a red velvet jacket",
-                                           "ru":  "Вокалист носил красную бархатную куртку",
-                                           "highlight":  [
-                                                             "red velvet jacket"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The guitarist wore black leather trousers",
-                                           "ru":  "Гитарист носил чёрные кожаные брюки",
-                                           "highlight":  [
-                                                             "black leather trousers"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The bass player wore a green denim vest",
-                                           "ru":  "Басист носил зелёный джинсовый жилет",
-                                           "highlight":  [
-                                                             "green denim vest"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The drummer wore a purple shirt and brown boots",
-                                           "ru":  "Барабанщик носил фиолетовую рубашку и коричневые сапоги",
-                                           "highlight":  [
-                                                             "purple shirt, brown boots"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The keyboard player wore a gold jacket",
-                                           "ru":  "Клавишник носил золотую куртку",
-                                           "highlight":  [
-                                                             "gold jacket"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The whole band wore black leather and silver chains",
-                                           "ru":  "Вся группа носила чёрную кожу и серебряные цепи",
-                                           "highlight":  [
-                                                             "black leather, silver chains"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Оттенки в роке",
-                         "items":  [
-                                       {
-                                           "en":  "He wore a dark blue jacket, not light blue",
-                                           "ru":  "Он носил тёмно-синюю куртку, а не светло-голубую",
-                                           "highlight":  [
-                                                             "dark blue, light blue"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She had a bright pink T-shirt on stage",
-                                           "ru":  "На сцене на ней была ярко-розовая футболка",
-                                           "highlight":  [
-                                                             "bright pink"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "His guitar was deep purple, like the song",
-                                           "ru":  "Его гитара была тёмно-фиолетовой, как песня",
-                                           "highlight":  [
-                                                             "deep purple"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The band wore pale grey and white",
-                                           "ru":  "Группа была одета в бледно-серое и белое",
-                                           "highlight":  [
-                                                             "pale grey, white"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The drummer had a bright yellow scarf",
-                                           "ru":  "У барабанщика был ярко-жёлтый шарф",
-                                           "highlight":  [
-                                                             "bright yellow"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The singer had jet black hair and wore all black",
-                                           "ru":  "У вокалиста были смоляно-чёрные волосы, и он был весь в чёрном",
-                                           "highlight":  [
-                                                             "jet black"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Одежда для концертов",
-                         "items":  [
-                                       {
-                                           "en":  "The fans wore black T-shirts with the band\u0027s name",
-                                           "ru":  "Фанаты носили чёрные футболки с названием группы",
-                                           "highlight":  [
-                                                             "black T-shirts"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She wore a red dress to the rock concert",
-                                           "ru":  "На рок-концерт она надела красное платье",
-                                           "highlight":  [
-                                                             "red dress"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "They wore blue jeans and white sneakers",
-                                           "ru":  "На них были синие джинсы и белые кроссовки",
-                                           "highlight":  [
-                                                             "blue jeans, white sneakers"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The security guard wore a black uniform",
-                                           "ru":  "Охранник носил чёрную униформу",
-                                           "highlight":  [
-                                                             "black uniform"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The photographer wore a grey jacket with many pockets",
-                                           "ru":  "Фотограф носил серую куртку с множеством карманов",
-                                           "highlight":  [
-                                                             "grey jacket"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The roadies wore black T-shirts and jeans",
-                                           "ru":  "Роуди носили чёрные футболки и джинсы",
-                                           "highlight":  [
-                                                             "black T-shirts, jeans"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Рок-аксессуары",
-                         "items":  [
-                                       {
-                                           "en":  "The singer wore a red bandana on his head",
-                                           "ru":  "Вокалист носил красную бандану на голове",
-                                           "highlight":  [
-                                                             "red bandana"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He had a black leather belt with silver studs",
-                                           "ru":  "У него был чёрный кожаный ремень с серебряными заклёпками",
-                                           "highlight":  [
-                                                             "black leather belt"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She wore gold earrings and a silver necklace",
-                                           "ru":  "На ней были золотые серьги и серебряное ожерелье",
-                                           "highlight":  [
-                                                             "gold earrings, silver necklace"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The guitarist had a purple scarf",
-                                           "ru":  "У гитариста был фиолетовый шарф",
-                                           "highlight":  [
-                                                             "purple scarf"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "He wore white gloves on stage",
-                                           "ru":  "На сцене он носил белые перчатки",
-                                           "highlight":  [
-                                                             "white gloves"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "She wore a black leather bracelet with spikes",
-                                           "ru":  "Она носила чёрный кожаный браслет с шипами",
-                                           "highlight":  [
-                                                             "black leather bracelet"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Британские vs американские названия в роке",
-                         "items":  [
-                                       {
-                                           "en":  "BrE: trainers — AmE: sneakers",
-                                           "ru":  "Британия: trainers — Америка: sneakers (кроссовки)",
-                                           "highlight":  [
-                                                             "trainers, sneakers"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: jumper — AmE: sweater",
-                                           "ru":  "Британия: jumper — Америка: sweater (свитер)",
-                                           "highlight":  [
-                                                             "jumper, sweater"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: trousers — AmE: pants",
-                                           "ru":  "Британия: trousers — Америка: pants (брюки)",
-                                           "highlight":  [
-                                                             "trousers, pants"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: waistcoat — AmE: vest",
-                                           "ru":  "Британия: waistcoat — Америка: vest (жилет)",
-                                           "highlight":  [
-                                                             "waistcoat, vest"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: mac — AmE: raincoat",
-                                           "ru":  "Британия: mac — Америка: raincoat (плащ)",
-                                           "highlight":  [
-                                                             "mac, raincoat"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: braces — AmE: suspenders",
-                                           "ru":  "Британия: braces — Америка: suspenders (подтяжки)",
-                                           "highlight":  [
-                                                             "braces, suspenders"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Путать \u0027blue\u0027 и \u0027cyan\u0027",
-                         "right":  "В английском \u0027blue\u0027 — это и синий, и голубой",
-                         "note":  "В русском \u0027синий\u0027 и \u0027голубой\u0027 — разные цвета. В английском — оба \u0027blue\u0027."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027I have a black shoes\u0027",
-                         "right":  "\u0027I have black shoes\u0027 или \u0027I am wearing black shoes\u0027",
-                         "note":  "Существительное во множественном числе — shoes. Артикля \u0027a\u0027 не нужен."
-                     },
-                     {
-                         "wrong":  "Путать \u0027shirt\u0027 и \u0027blouse\u0027",
-                         "right":  "\u0027Shirt\u0027 — мужская рубашка, \u0027blouse\u0027 — женская",
-                         "note":  "В русском оба — \u0027рубашка\u0027. В английском различают по полу."
-                     },
-                     {
-                         "wrong":  "Переводить \u0027brown\u0027 как \u0027карий\u0027",
-                         "right":  "\u0027Brown\u0027 — коричневый",
-                         "note":  "\u0027Brown\u0027 — это цвет одежды и предметов."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027red colour\u0027 вместо \u0027red\u0027",
-                         "right":  "Надо говорить просто \u0027red\u0027",
-                         "note":  "В английском не говорят \u0027red colour\u0027 — просто \u0027red\u0027."
-                     },
-                     {
-                         "wrong":  "Путать \u0027trousers\u0027 и \u0027pants\u0027",
-                         "right":  "В BrE \u0027trousers\u0027 — брюки, \u0027pants\u0027 — трусы. В AmE \u0027pants\u0027 — брюки",
-                         "note":  "В Британии \u0027pants\u0027 — трусы, а не брюки."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Британские vs американские названия одежды",
-                    "leftLabel":  "Британский (BrE)",
-                    "rightLabel":  "Американский (AmE)",
-                    "rows":  [
-                                 {
-                                     "left":  "trainers",
-                                     "right":  "sneakers"
-                                 },
-                                 {
-                                     "left":  "jumper",
-                                     "right":  "sweater"
-                                 },
-                                 {
-                                     "left":  "trousers",
-                                     "right":  "pants"
-                                 },
-                                 {
-                                     "left":  "waistcoat",
-                                     "right":  "vest"
-                                 },
-                                 {
-                                     "left":  "mac",
-                                     "right":  "raincoat"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "\u0027Blue\u0027 — это и синий, и голубой в английском",
-                 "\u0027Shirt\u0027 — мужская рубашка, \u0027blouse\u0027 — женская",
-                 "В BrE \u0027trousers\u0027 — брюки, в AmE — \u0027pants\u0027. В BrE \u0027pants\u0027 — трусы",
-                 "Для оттенков используйте: dark, light, bright, pale",
-                 "Описывая одежду, используйте \u0027I\u0027m wearing\u0027 или \u0027He/She is wearing\u0027",
-                 "С существительными во множественном числе (shoes, trousers) НЕ используйте \u0027a\u0027"
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Как по-английски будет \u0027чёрная кожаная куртка\u0027?",
-                     "options":  [
-                                     "Black leather jacket",
-                                     "Black jacket",
-                                     "Black leather coat",
-                                     "Leather black jacket"
-                                 ],
-                     "answer":  "Black leather jacket",
-                     "why":  "В английском прилагательные идут в определённом порядке: цвет + материал + предмет."
-                 },
-                 {
-                     "q":  "Как называются брюки в британском английском?",
-                     "options":  [
-                                     "Pants",
-                                     "Trousers",
-                                     "Jeans",
-                                     "Shorts"
-                                 ],
-                     "answer":  "Trousers",
-                     "why":  "В британском английском \u0027trousers\u0027 — брюки."
-                 },
-                 {
-                     "q":  "Какое слово обозначает женскую рубашку?",
-                     "options":  [
-                                     "Shirt",
-                                     "Blouse",
-                                     "Top",
-                                     "T-shirt"
-                                 ],
-                     "answer":  "Blouse",
-                     "why":  "\u0027Blouse\u0027 — женская блузка. \u0027Shirt\u0027 — мужская рубашка."
-                 },
-                 {
-                     "q":  "Как сказать \u0027я ношу красное платье\u0027?",
-                     "options":  [
-                                     "I wear a red dress",
-                                     "I wear red dress",
-                                     "I wearing red dress",
-                                     "I am wear red dress"
-                                 ],
-                     "answer":  "I wear a red dress",
-                     "why":  "Правильно: \u0027I am wearing a red dress\u0027 или \u0027I wear a red dress\u0027."
-                 },
-                 {
-                     "q":  "Как сказать \u0027тёмно-синий\u0027 по-английски?",
-                     "options":  [
-                                     "Dark blue",
-                                     "Light blue",
-                                     "Deep blue",
-                                     "Bright blue"
-                                 ],
-                     "answer":  "Dark blue",
-                     "why":  "\u0027Dark blue\u0027 — тёмно-синий. \u0027Light blue\u0027 — светло-голубой."
-                 },
-                 {
-                     "q":  "Как называются кроссовки в американском английском?",
-                     "options":  [
-                                     "Trainers",
-                                     "Sneakers",
-                                     "Boots",
-                                     "Runners"
-                                 ],
-                     "answer":  "Sneakers",
-                     "why":  "В американском английском \u0027sneakers\u0027 — кроссовки. В британском — \u0027trainers\u0027."
-                 }
-             ],
-    "related":  [
+    "В ранний период музыканты начали использовать грим и необычную одежду. История создания образа не была заранее расписана как готовый маркетинговый план: Симмонс рассказывал, что музыканты купили зеркала и косметику, а затем начали экспериментировать с лицами. Так появились разные индивидуальные рисунки грима.",
 
-                ]
+    "Для английского здесь достаточно сначала выучить основные цвета: [bold]black[/bold] — чёрный, [bold]white[/bold] — белый, [bold]red[/bold] — красный, [bold]blue[/bold] — синий, [bold]green[/bold] — зелёный, [bold]yellow[/bold] — жёлтый, [bold]purple[/bold] — фиолетовый, [bold]pink[/bold] — розовый, [bold]brown[/bold] — коричневый, [bold]grey[/bold] — серый.",
+
+    "Затем добавляются слова для одежды: [bold]shirt[/bold] — рубашка, [bold]jacket[/bold] — куртка или пиджак, [bold]coat[/bold] — пальто, [bold]trousers[/bold] — брюки, [bold]boots[/bold] — ботинки или сапоги, [bold]shoes[/bold] — обувь, [bold]gloves[/bold] — перчатки, [bold]hat[/bold] — шляпа. Сценический костюм можно описывать теми же словами, что и обычную одежду.",
+
+    "Цвет ставится перед предметом: [bold]a black shirt[/bold], [bold]a white jacket[/bold], [bold]red boots[/bold], [bold]blue trousers[/bold]. Поэтому [bold]black shirt[/bold] буквально означает «чёрная рубашка». Эта модель одинаково работает для повседневной и сценической одежды.",
+
+    "Для описания того, что музыкант носит сейчас, используется [bold]be wearing[/bold]. Например: [bold]He is wearing a black shirt.[/bold] [bold]He is wearing black boots.[/bold] [bold]They are wearing black clothes.[/bold] Здесь мы описываем конкретный внешний вид в данный момент.",
+
+    "Для привычного стиля используется [bold]wear[/bold]. [bold]He wears black clothes.[/bold] означает, что он обычно носит чёрную одежду. Разница небольшая, но важная: [bold]is wearing[/bold] показывает текущий образ, а [bold]wears[/bold] — обычную привычку.",
+
+    "У KISS эта разница особенно полезна. Можно сказать [bold]The band is wearing stage clothes[/bold], когда мы описываем конкретное выступление. Но [bold]KISS wears distinctive stage costumes[/bold] может описывать общий сценический образ группы.",
+
+    "Грим тоже можно описывать через цвета. [bold]black makeup[/bold] — чёрный грим, [bold]white makeup[/bold] — белый грим, [bold]red makeup[/bold] — красный грим. Поэтому [bold]He is wearing black makeup[/bold] грамматически возможно, хотя в естественном английском для грима чаще скажут [bold]He is wearing black face paint[/bold] или [bold]He has black makeup[/bold].",
+
+    "Участники KISS постепенно связали свои рисунки лица с отдельными сценическими персонажами. Пол Стэнли стал [bold]The Starchild[/bold], Джин Симмонс — [bold]The Demon[/bold], Эйс Фрейли — [bold]The Spaceman[/bold], а Питер Крисс — [bold]The Catman[/bold]. Для урока важно не запоминать биографию каждого персонажа, а увидеть, как визуальный образ можно описывать простыми словами.",
+
+    "История грима показывает и ещё одну важную вещь: один и тот же цвет может быть частью разных образов. [bold]Black[/bold] может описывать одежду, грим или обувь: [bold]black shirt[/bold], [bold]black makeup[/bold], [bold]black boots[/bold]. Поэтому сначала полезно учить не отдельные длинные выражения, а модель [bold]colour + noun[/bold].",
+
+    "Пол Стэнли рассказывал, что его ранний рисунок вокруг глаза изменился и в итоге превратился в характерную звезду. Это хороший пример того, как маленькая визуальная деталь становится частью персонажа. На уровне A0 нам достаточно сказать: [bold]He has a star around his eye.[/bold] — «У него звезда вокруг глаза».",
+
+    "Можно также описывать костюм через несколько предметов: [bold]He is wearing a black shirt and black boots.[/bold] Союз [bold]and[/bold] соединяет два предмета. Если нужно добавить цвет к каждому предмету, повторять цвет необязательно только тогда, когда смысл остаётся очевидным: [bold]a black shirt and boots[/bold].",
+
+    "Чтобы спросить о цвете, используется [bold]What colour...?[/bold] Например: [bold]What colour is his shirt? — It is black.[/bold] Чтобы спросить об одежде: [bold]What is he wearing? — He is wearing a black shirt and boots.[/bold]",
+
+    "Для описания внешности можно использовать и [bold]have[/bold]. Например: [bold]He has black hair.[/bold] или [bold]She has blue eyes.[/bold] С одеждой используется [bold]wear[/bold], а с некоторыми физическими признаками — [bold]have[/bold]. Это помогает не смешивать две разные конструкции.",
+
+    "Сравни: [bold]He has black hair.[/bold] — «У него чёрные волосы». [bold]He is wearing black clothes.[/bold] — «На нём чёрная одежда». Цвет один и тот же, но конструкция зависит от того, что именно мы описываем.",
+
+    "После появления сценического грима KISS визуальный образ стал не просто одеждой для концерта. Сам Пол Стэнли позже описывал грим как расширение или усиление части личности сценического персонажа. Поэтому цвет и одежда здесь полезны как первый уровень языка для описания образа: [bold]black clothes[/bold], [bold]white makeup[/bold], [bold]red boots[/bold], [bold]a star around the eye[/bold].",
+
+    "Таким образом, сценический образ KISS можно разложить на очень простые английские элементы. Цвет отвечает на вопрос [bold]What colour?[/bold], одежда называется простыми существительными, [bold]wear[/bold] описывает привычный стиль, а [bold]be wearing[/bold] — конкретный образ сейчас. Даже сложный сценический персонаж начинается с простого [bold]black shirt[/bold] или [bold]white makeup[/bold]."
+  ],
+  "why": [
+    "Называть основные цвета на английском.",
+    "Описывать одежду и сценический образ.",
+    "Говорить, что человек носит сейчас или обычно.",
+    "Задавать вопросы о цвете и одежде."
+  ],
+  "context": {
+    "lines": [
+      {
+        "en": "“The make-up was always basically the same, but what was on my eye kept changing.”",
+        "ru": "«Грим в основном всегда был одинаковым, но то, что было у меня на глазу, постоянно менялось»."
+      },
+      {
+        "en": "“Each of us wears something that reflects who we are.”",
+        "ru": "«Каждый из нас носит что-то, что отражает то, кто мы есть»."
+      },
+      {
+        "en": "“That was our calling card.”",
+        "ru": "«Это было нашей визитной карточкой»."
+      },
+      {
+        "en": "“We physically and literally have put on the makeup every single time.”",
+        "ru": "«Мы буквально наносили грим каждый раз»."
+      },
+      {
+        "en": "“The process takes about two hours.”",
+        "ru": "«Этот процесс занимает около двух часов»."
+      }
+    ],
+    "note": "Фрагменты взяты из интервью и архивных материалов о создании и использовании сценического грима KISS. Они используются здесь как материал для описания цвета, одежды и визуального образа."
+  },
+  "russianAngle": [
+    "В русском языке цвет также ставится перед существительным: «чёрная рубашка», «красные ботинки».",
+    "В английском для привычной одежды используется wear.",
+    "Для того, что человек носит сейчас, используется be wearing.",
+    "Для внешности используется have: He has black hair.",
+    "Для вопроса о цвете используется What colour...?, а для одежды — What is he/she wearing?"
+  ],
+  "howToLearn": {
+    "steps": [
+      "Выучи основные цвета: black, white, red, blue, green, yellow, purple, pink, brown, grey.",
+      "Выучи базовые слова для одежды: shirt, jacket, coat, trousers, boots, shoes, gloves, hat.",
+      "Соединяй цвет и одежду: black shirt, red boots, white jacket.",
+      "Тренируй be wearing для описания конкретного образа.",
+      "Тренируй wear для привычного стиля.",
+      "Описывай сценический образ KISS короткими фразами."
+    ],
+    "exercise": {
+      "prompt": "Опиши сценический образ, используя цвета и одежду:",
+      "items": [
+        {
+          "q": "shirt / black",
+          "a": "a black shirt"
+        },
+        {
+          "q": "boots / red",
+          "a": "red boots"
+        },
+        {
+          "q": "he / black shirt / now",
+          "a": "He is wearing a black shirt."
+        },
+        {
+          "q": "they / black clothes / usually",
+          "a": "They wear black clothes."
+        },
+        {
+          "q": "ask about the colour of his shirt",
+          "a": "What colour is his shirt?"
+        }
+      ]
+    }
+  },
+  "formula": "be + colour / wear + clothes / be wearing + clothes",
+  "structure": {
+    "positive": "He is wearing a black shirt. / He wears black clothes.",
+    "negative": "He is not wearing a black shirt. / He does not wear black clothes.",
+    "question": "What is he wearing? / What colour is his shirt?"
+  },
+  "markers": [
+    "black, white, red, blue",
+    "green, yellow, purple, pink",
+    "shirt, jacket, coat, trousers",
+    "boots, shoes, gloves, hat",
+    "makeup, face paint",
+    "wear",
+    "be wearing",
+    "What colour...?",
+    "What is he/she wearing?"
+  ],
+  "uses": {
+    "title": "Как описывать сценический образ",
+    "items": [
+      {
+        "title": "Цвет одежды",
+        "text": "Цвет ставится перед предметом: a black shirt, red boots, a white jacket."
+      },
+      {
+        "title": "Образ сейчас",
+        "text": "Для конкретного внешнего вида используется be wearing: He is wearing a black shirt."
+      },
+      {
+        "title": "Обычный стиль",
+        "text": "Для привычной одежды используется wear: He wears black clothes."
+      },
+      {
+        "title": "Цвет грима",
+        "text": "Цвет можно соединять с makeup или face paint: black makeup, white face paint."
+      },
+      {
+        "title": "Вопрос о внешнем виде",
+        "text": "What is he wearing? спрашивает, что на человеке сейчас."
+      }
+    ]
+  },
+  "rules": [
+    {
+      "title": "Colour + clothes",
+      "text": "Цвет ставится перед предметом одежды: a black shirt, red boots."
+    },
+    {
+      "title": "Be wearing",
+      "text": "Для описания того, что человек носит сейчас, используется be + wearing."
+    },
+    {
+      "title": "Wear",
+      "text": "Для привычного или обычного стиля используется wear."
+    },
+    {
+      "title": "Have для внешности",
+      "text": "Для волос и глаз можно использовать have: He has black hair."
+    },
+    {
+      "title": "What colour?",
+      "text": "Для вопроса о цвете используется What colour is/are...?"
+    }
+  ],
+  "examples": [
+    {
+      "group": "Colours",
+      "items": [
+        {
+          "en": "black",
+          "ru": "чёрный",
+          "highlight": [
+            "black"
+          ]
+        },
+        {
+          "en": "white",
+          "ru": "белый",
+          "highlight": [
+            "white"
+          ]
+        },
+        {
+          "en": "red",
+          "ru": "красный",
+          "highlight": [
+            "red"
+          ]
+        },
+        {
+          "en": "blue",
+          "ru": "синий",
+          "highlight": [
+            "blue"
+          ]
+        },
+        {
+          "en": "purple",
+          "ru": "фиолетовый",
+          "highlight": [
+            "purple"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Stage clothes",
+      "items": [
+        {
+          "en": "a black shirt",
+          "ru": "чёрная рубашка",
+          "highlight": [
+            "black"
+          ]
+        },
+        {
+          "en": "red boots",
+          "ru": "красные ботинки",
+          "highlight": [
+            "red"
+          ]
+        },
+        {
+          "en": "a white jacket",
+          "ru": "белая куртка",
+          "highlight": [
+            "white"
+          ]
+        },
+        {
+          "en": "black trousers",
+          "ru": "чёрные брюки",
+          "highlight": [
+            "black"
+          ]
+        },
+        {
+          "en": "black gloves",
+          "ru": "чёрные перчатки",
+          "highlight": [
+            "black"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Makeup and face",
+      "items": [
+        {
+          "en": "black makeup",
+          "ru": "чёрный грим",
+          "highlight": [
+            "black"
+          ]
+        },
+        {
+          "en": "white makeup",
+          "ru": "белый грим",
+          "highlight": [
+            "white"
+          ]
+        },
+        {
+          "en": "red makeup",
+          "ru": "красный грим",
+          "highlight": [
+            "red"
+          ]
+        },
+        {
+          "en": "a star around the eye",
+          "ru": "звезда вокруг глаза",
+          "highlight": [
+            "star",
+            "eye"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Wearing",
+      "items": [
+        {
+          "en": "He is wearing a black shirt.",
+          "ru": "На нём чёрная рубашка.",
+          "highlight": [
+            "is wearing"
+          ]
+        },
+        {
+          "en": "He is wearing red boots.",
+          "ru": "На нём красные ботинки.",
+          "highlight": [
+            "is wearing"
+          ]
+        },
+        {
+          "en": "They are wearing black clothes.",
+          "ru": "На них чёрная одежда.",
+          "highlight": [
+            "are wearing"
+          ]
+        },
+        {
+          "en": "He is wearing white makeup.",
+          "ru": "На нём белый грим.",
+          "highlight": [
+            "is wearing"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Wear",
+      "items": [
+        {
+          "en": "He wears black clothes.",
+          "ru": "Он носит чёрную одежду.",
+          "highlight": [
+            "wears"
+          ]
+        },
+        {
+          "en": "They wear stage clothes.",
+          "ru": "Они носят сценическую одежду.",
+          "highlight": [
+            "wear"
+          ]
+        },
+        {
+          "en": "He wears black boots.",
+          "ru": "Он носит чёрные ботинки.",
+          "highlight": [
+            "wears"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Questions",
+      "items": [
+        {
+          "en": "What colour is his shirt?",
+          "ru": "Какого цвета его рубашка?",
+          "highlight": [
+            "What colour"
+          ]
+        },
+        {
+          "en": "What colour are his boots?",
+          "ru": "Какого цвета его ботинки?",
+          "highlight": [
+            "What colour"
+          ]
+        },
+        {
+          "en": "What is he wearing?",
+          "ru": "Что на нём надето?",
+          "highlight": [
+            "What is he wearing"
+          ]
+        },
+        {
+          "en": "What is she wearing?",
+          "ru": "Что на ней надето?",
+          "highlight": [
+            "What is she wearing"
+          ]
+        }
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "He wearing black clothes.",
+      "right": "He is wearing black clothes.",
+      "note": "В конструкции be wearing нужен глагол be."
+    },
+    {
+      "wrong": "He is wear black clothes.",
+      "right": "He is wearing black clothes.",
+      "note": "После is используется форма wearing."
+    },
+    {
+      "wrong": "He wear black clothes.",
+      "right": "He wears black clothes.",
+      "note": "После he в Present Simple нужен wears."
+    },
+    {
+      "wrong": "A shirt black.",
+      "right": "A black shirt.",
+      "note": "Цвет ставится перед существительным."
+    },
+    {
+      "wrong": "What colour his shirt is?",
+      "right": "What colour is his shirt?",
+      "note": "В вопросе с be глагол ставится перед подлежащим."
+    },
+    {
+      "wrong": "What he is wearing?",
+      "right": "What is he wearing?",
+      "note": "Вопросительная конструкция требует инверсии с be."
+    }
+  ],
+  "compare": {
+    "title": "Wear vs Be wearing",
+    "leftLabel": "Wear — обычный стиль",
+    "rightLabel": "Be wearing — конкретный образ",
+    "rows": [
+      {
+        "left": "He wears black clothes.",
+        "right": "He is wearing a black shirt."
+      },
+      {
+        "left": "They wear stage clothes.",
+        "right": "They are wearing black clothes."
+      },
+      {
+        "left": "He wears black boots.",
+        "right": "He is wearing black boots."
+      },
+      {
+        "left": "She wears red clothes.",
+        "right": "She is wearing a red jacket."
+      }
+    ]
+  },
+  "tips": [
+    "Сначала называй цвет, затем предмет: black shirt, red boots.",
+    "Используй be wearing для конкретного образа сейчас.",
+    "Используй wear для обычного стиля.",
+    "Для волос и глаз используй have: He has black hair.",
+    "What colour...? спрашивает о цвете.",
+    "What is he/she wearing? спрашивает об одежде."
+  ],
+  "quiz": [
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "a shirt black",
+        "a black shirt",
+        "black a shirt"
+      ],
+      "answer": 1,
+      "why": "Цвет ставится перед существительным."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He wearing black clothes.",
+        "He is wearing black clothes.",
+        "He is wear black clothes."
+      ],
+      "answer": 1,
+      "why": "Для действия сейчас используется is wearing."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He wears black clothes.",
+        "He wear black clothes.",
+        "He wearing black clothes."
+      ],
+      "answer": 0,
+      "why": "Для привычного стиля после he используется wears."
+    },
+    {
+      "q": "How do you ask about the colour of his shirt?",
+      "options": [
+        "What colour his shirt is?",
+        "What colour is his shirt?",
+        "What is colour his shirt?"
+      ],
+      "answer": 1,
+      "why": "Правильная модель: What colour + be + subject?"
+    },
+    {
+      "q": "How do you ask what he is wearing?",
+      "options": [
+        "What he is wearing?",
+        "What is he wearing?",
+        "What wearing is he?"
+      ],
+      "answer": 1,
+      "why": "В вопросе с be используется инверсия."
+    },
+    {
+      "q": "Choose the correct sentence about hair:",
+      "options": [
+        "He wears black hair.",
+        "He has black hair.",
+        "He is wearing black hair."
+      ],
+      "answer": 1,
+      "why": "Для волос используется have."
+    }
+  ],
+  "related": [
+    "a0-alphabet-pronunciation",
+    "a0-symbols-abbreviations",
+    "a0-numbers-dates-time",
+    "a0-introductions-greetings"
+  ]
 }

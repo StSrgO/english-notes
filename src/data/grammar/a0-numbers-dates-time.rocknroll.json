@@ -1,539 +1,420 @@
 ﻿{
-    "variant":  "rocknroll",
-    "slug":  "numbers-dates-time",
-    "level":  "A0",
-    "title":  "Numbers, Dates and Time",
-    "category":  "Basics",
-    "readingTime":  9,
-    "summary":  "Числа, даты и время. Элвис Пресли и его число три. Как числа управляли карьерой короля рок-н-ролла.",
-    "idea":  [
-                 "Элвис Пресли не был математиком, но числа преследовали его. Он записал три альбома для Sun Records. Три фильма в 1957 году. Его армейский номер — 53310761. Три — его число. В песнях Элвиса числа тоже играют роль. «One Night» — одна ночь. «Two Hearts» — два сердца. «Three Steps to Heaven» — три шага к раю. Числа в его жизни и музыке — не случайность, а закономерность.",
-                 "В английском языке числа называются по-своему. Элвис учил их, когда подписывал контракты, когда считал деньги, когда смотрел на часы перед выходом на сцену. Он знал, как сказать «3 a.m.» и «1956». Даты и время были частью его жизни — график туров, время записи, даты релизов. Как у Элвиса, как у каждого из нас.",
-                 "Числа — основа нашей жизни. Мы считаем деньги, время, даты. В английском языке есть британский и американский форматы дат. Есть разные способы сказать время. Изучая числа, мы учимся ориентироваться в мире, где всё измеряется цифрами. Элвис знал это. Он использовал числа, чтобы управлять своей карьерой. Изучайте числа, чтобы управлять своей жизнью."
-             ],
-    "why":  [
-                "Числа — это неотъемлемая часть повседневной жизни: деньги, время, даты, адреса",
-                "Без чисел невозможно читать расписания, смотреть на часы или считать сдачу",
-                "Разница между британским и американским форматом дат может привести к путанице",
-                "Знание чисел и времени — первый шаг к тому, чтобы чувствовать себя уверенно"
-            ],
-    "context":  {
-                    "lines":  [
-                                  {
-                                      "en":  "Elvis: \u0027I recorded three albums for Sun Records. 1954, 1955, 1956. Three years that changed everything.\u0027",
-                                      "ru":  "Элвис: «Я записал три альбома для Sun Records. 1954, 1955, 1956. Три года, которые изменили всё»."
-                                  },
-                                  {
-                                      "en":  "Elvis: \u0027Three films in 1957. \u0027Loving You\u0027, \u0027Jailhouse Rock\u0027, \u0027King Creole\u0027. Three movies in one year.\u0027",
-                                      "ru":  "Элвис: «Три фильма в 1957 году. «Loving You», «Jailhouse Rock», «King Creole». Три фильма за один год»."
-                                  },
-                                  {
-                                      "en":  "Elvis: \u0027My army number was 53310761. I will never forget it.\u0027",
-                                      "ru":  "Элвис: «Мой армейский номер был 53310761. Я никогда его не забуду»."
-                                  },
-                                  {
-                                      "en":  "Elvis: \u0027I was born in 1935. I died in 1977. 42 years of music.\u0027",
-                                      "ru":  "Элвис: «Я родился в 1935 году. Я умер в 1977 году. 42 года музыки»."
-                                  },
-                                  {
-                                      "en":  "Elvis: \u00273 is my number. Three records, three movies, three steps to heaven.\u0027",
-                                      "ru":  "Элвис: «3 — моё число. Три пластинки, три фильма, три шага к раю»."
-                                  }
-                              ],
-                    "note":  "Числа преследовали Элвиса. Три — его число. Изучайте числа вместе с королём рок-н-ролла."
-                },
-    "russianAngle":  [
-                         "В русском языке мы говорим «половина третьего», а в английском — «half past two» (половина после двух).",
-                         "Даты в России пишутся день/месяц/год, как и в Великобритании. Но в США — месяц/день/год.",
-                         "В русском языке числа сложнее склоняются. В английском — просто \u0027one, two, three\u0027.",
-                         "В русском мы говорим «сорок», а в английском \u0027forty\u0027 — и здесь нет буквы \u0027u\u0027."
-                     ],
-    "howToLearn":  {
-                       "steps":  [
-                                     "Выучите числа от 1 до 20 — они уникальны и не подчиняются правилам",
-                                     "Запомните десятки: twenty, thirty, forty (без \u0027u\u0027), fifty, sixty, seventy, eighty, ninety",
-                                     "Потренируйтесь читать даты: британский вариант (the 14th of June) и американский (June 14th)",
-                                     "Научитесь говорить о времени: \u0027quarter past\u0027, \u0027half past\u0027, \u0027quarter to\u0027",
-                                     "Потренируйтесь с годами: 1847 — \u0027eighteen forty-seven\u0027, а 2024 — \u0027twenty twenty-four\u0027",
-                                     "Попробуйте прочитать вслух расписание поездов или афишу"
-                                 ],
-                       "exercise":  {
-                                        "prompt":  "Прочитайте эти даты, время и числа по-английски (как в рок-жизни):",
-                                        "items":  [
-                                                      {
-                                                          "q":  "14th December, 1979 — The Clash released London Calling",
-                                                          "a":  "The fourteenth of December, nineteen seventy-nine — The Clash released London Calling"
-                                                      },
-                                                      {
-                                                          "q":  "8:30 p.m. — showtime",
-                                                          "a":  "Half past eight in the evening — showtime"
-                                                      },
-                                                      {
-                                                          "q":  "72,000 fans at Wembley",
-                                                          "a":  "Seventy-two thousand fans at Wembley"
-                                                      },
-                                                      {
-                                                          "q":  "£150 for a backstage pass",
-                                                          "a":  "One hundred and fifty pounds for a backstage pass"
-                                                      },
-                                                      {
-                                                          "q":  "Elvis\u0027s number 3",
-                                                          "a":  "Three — Elvis\u0027s number"
-                                                      }
-                                                  ]
-                                    }
-                   },
-    "formula":  "",
-    "structure":  {
-                      "positive":  "",
-                      "negative":  "",
-                      "question":  ""
-                  },
-    "markers":  [
+  "variant": "rocknroll",
+  "slug": "numbers-dates-time",
+  "level": "A0",
+  "title": "Numbers, Dates and Time",
+  "category": "Basics",
+  "readingTime": 9,
+  "summary": "Numbers нужны не только для счёта: с их помощью мы называем даты, годы и время. В английском для точного времени, дней, дат, месяцев и лет используются разные предлоги. Числа также могут становиться частью названия и исторического контекста.",
+  "idea": [
+    "Числа постоянно встречаются в английском языке: [bold]one, two, three[/bold], даты, годы и часы. Мы используем их, чтобы сказать, сколько чего-то есть, когда произошло событие или к какому году оно относится. История Iron Maiden показывает ещё один вариант: число может стать частью названия произведения.",
 
-                ],
-    "uses":  [
+    "The Number of the Beast — третий студийный альбом Iron Maiden, выпущенный в 1982 году. Одно число уже находится в самом названии: [bold]The Number of the Beast[/bold]. Поэтому число здесь можно изучать не только как математический объект, но и как элемент культурного названия.",
 
-             ],
-    "rules":  [
-                  {
-                      "title":  "Числа 1-20",
-                      "text":  "Числа от 1 до 20 нужно запомнить: one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve, thirteen, fourteen, fifteen, sixteen, seventeen, eighteen, nineteen, twenty."
-                  },
-                  {
-                      "title":  "Десятки и сотни",
-                      "text":  "Десятки: twenty, thirty, forty (без \u0027u\u0027), fifty, sixty, seventy, eighty, ninety. Сотни: one hundred, two hundred и т.д."
-                  },
-                  {
-                      "title":  "Даты",
-                      "text":  "Британский формат: the 14th of June. Американский: June 14th. Годы читаются как два числа: 1847 = eighteen forty-seven."
-                  },
-                  {
-                      "title":  "Время",
-                      "text":  "\u0027Half past\u0027 = 30 минут, \u0027quarter past\u0027 = 15 минут, \u0027quarter to\u0027 = без 15 минут. \u0027a.m.\u0027 — утро и ночь, \u0027p.m.\u0027 — день и вечер."
-                  }
-              ],
-    "examples":  [
-                     {
-                         "group":  "Числа в жизни Элвиса",
-                         "items":  [
-                                       {
-                                           "en":  "3 albums for Sun Records — 1954, 1955, 1956",
-                                           "ru":  "3 альбома для Sun Records — 1954, 1955, 1956",
-                                           "highlight":  [
-                                                             "3, 1954, 1955, 1956"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "3 films in 1957 — \u0027Loving You\u0027, \u0027Jailhouse Rock\u0027, \u0027King Creole\u0027",
-                                           "ru":  "3 фильма в 1957 году",
-                                           "highlight":  [
-                                                             "3, 1957"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Army number — 53310761",
-                                           "ru":  "Армейский номер — 53310761",
-                                           "highlight":  [
-                                                             "53310761"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Born in 1935, died in 1977 — 42 years of music",
-                                           "ru":  "Родился в 1935, умер в 1977 — 42 года музыки",
-                                           "highlight":  [
-                                                             "1935, 1977, 42"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Number 3 — his lucky number",
-                                           "ru":  "Число 3 — его счастливое число",
-                                           "highlight":  [
-                                                             "3"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "\u0027One Night\u0027, \u0027Two Hearts\u0027, \u0027Three Steps to Heaven\u0027",
-                                           "ru":  "«One Night», «Two Hearts», «Three Steps to Heaven»",
-                                           "highlight":  [
-                                                             "One, Two, Three"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Даты рок-истории",
-                         "items":  [
-                                       {
-                                           "en":  "1954 — Elvis recorded \u0027That\u0027s All Right\u0027",
-                                           "ru":  "1954 — Элвис записал «That\u0027s All Right»",
-                                           "highlight":  [
-                                                             "1954"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1956 — Elvis released \u0027Heartbreak Hotel\u0027",
-                                           "ru":  "1956 — Элвис выпустил «Heartbreak Hotel»",
-                                           "highlight":  [
-                                                             "1956"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1957 — Elvis filmed three movies",
-                                           "ru":  "1957 — Элвис снялся в трёх фильмах",
-                                           "highlight":  [
-                                                             "1957"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1960 — Elvis returned from the army",
-                                           "ru":  "1960 — Элвис вернулся из армии",
-                                           "highlight":  [
-                                                             "1960"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1977 — Elvis died",
-                                           "ru":  "1977 — Элвис умер",
-                                           "highlight":  [
-                                                             "1977"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "August 16, 1977 — the day Elvis left the building",
-                                           "ru":  "16 августа 1977 года — день, когда Элвис покинул здание",
-                                           "highlight":  [
-                                                             "August 16, 1977"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Время на сцене",
-                         "items":  [
-                                       {
-                                           "en":  "Soundcheck at half past three in the afternoon",
-                                           "ru":  "Саундчек в половине четвёртого дня",
-                                           "highlight":  [
-                                                             "half past three"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The show starts at quarter to nine in the evening",
-                                           "ru":  "Шоу начинается без пятнадцати девять вечера",
-                                           "highlight":  [
-                                                             "quarter to nine"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "Elvis went on stage at 8 p.m. every night",
-                                           "ru":  "Элвис выходил на сцену в 8 вечера каждую ночь",
-                                           "highlight":  [
-                                                             "8 p.m."
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The concert ended at 11:30 p.m.",
-                                           "ru":  "Концерт заканчивался в 11:30 вечера",
-                                           "highlight":  [
-                                                             "11:30 p.m."
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "We\u0027ll play an encore at ten o\u0027clock",
-                                           "ru":  "Мы сыграем бис в десять часов",
-                                           "highlight":  [
-                                                             "ten o\u0027clock"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "The festival starts at 11 a.m. and ends at 11 p.m.",
-                                           "ru":  "Фестиваль начинается в 11 утра и заканчивается в 11 вечера",
-                                           "highlight":  [
-                                                             "11 a.m., 11 p.m."
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Годы в роке",
-                         "items":  [
-                                       {
-                                           "en":  "1980 — nineteen eighty — AC/DC Back in Black",
-                                           "ru":  "1980 — nineteen eighty — AC/DC Back in Black",
-                                           "highlight":  [
-                                                             "1980"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1991 — nineteen ninety-one — Nirvana Nevermind",
-                                           "ru":  "1991 — nineteen ninety-one — Nirvana Nevermind",
-                                           "highlight":  [
-                                                             "1991"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "2004 — two thousand and four — Green Day American Idiot",
-                                           "ru":  "2004 — two thousand and four — Green Day American Idiot",
-                                           "highlight":  [
-                                                             "2004"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1977 — nineteen seventy-seven — Sex Pistols, Never Mind the Bollocks",
-                                           "ru":  "1977 — nineteen seventy-seven — Sex Pistols, Never Mind the Bollocks",
-                                           "highlight":  [
-                                                             "1977"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1969 — nineteen sixty-nine — Woodstock",
-                                           "ru":  "1969 — nineteen sixty-nine — Вудсток",
-                                           "highlight":  [
-                                                             "1969"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "1956 — nineteen fifty-six — Elvis\u0027s first hit",
-                                           "ru":  "1956 — nineteen fifty-six — первый хит Элвиса",
-                                           "highlight":  [
-                                                             "1956"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "BrE vs AmE в роке",
-                         "items":  [
-                                       {
-                                           "en":  "BrE: 14/12/1979 — The Clash London Calling",
-                                           "ru":  "Британия: 14/12/1979 — The Clash London Calling",
-                                           "highlight":  [
-                                                             "14/12/1979"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "AmE: 09/24/1991 — Nirvana Nevermind",
-                                           "ru":  "Америка: 09/24/1991 — Nirvana Nevermind",
-                                           "highlight":  [
-                                                             "09/24/1991"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: half past eight — The Beatles at The Cavern",
-                                           "ru":  "Британия: half past eight — The Beatles в The Cavern",
-                                           "highlight":  [
-                                                             "half past eight"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "AmE: eight thirty — The Ramones in New York",
-                                           "ru":  "Америка: eight thirty — The Ramones в Нью-Йорке",
-                                           "highlight":  [
-                                                             "eight thirty"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: 30th December — AmE: December 30th",
-                                           "ru":  "Британия: 30 декабря — Америка: 30 декабря",
-                                           "highlight":  [
-                                                             "30th December, December 30th"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "BrE: 10 past 11 (11:10) — AmE: eleven ten",
-                                           "ru":  "Британия: 10 past 11 — Америка: eleven ten",
-                                           "highlight":  [
-                                                             "10 past 11, eleven ten"
-                                                         ]
-                                       }
-                                   ]
-                     },
-                     {
-                         "group":  "Большие числа в роке",
-                         "items":  [
-                                       {
-                                           "en":  "£1,250 for a vintage guitar from 1965",
-                                           "ru":  "£1,250 за винтажную гитару 1965 года",
-                                           "highlight":  [
-                                                             "£1,250, 1965"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "50,000 fans at the stadium show",
-                                           "ru":  "50 000 фанатов на стадионном шоу",
-                                           "highlight":  [
-                                                             "50,000"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "100 albums released by the label in one year",
-                                           "ru":  "100 альбомов выпущено лейблом за один год",
-                                           "highlight":  [
-                                                             "100"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "30 years of touring — the band never stopped",
-                                           "ru":  "30 лет гастролей — группа никогда не останавливалась",
-                                           "highlight":  [
-                                                             "30"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "100 million records sold by Elvis",
-                                           "ru":  "100 миллионов пластинок продано Элвисом",
-                                           "highlight":  [
-                                                             "100 million"
-                                                         ]
-                                       },
-                                       {
-                                           "en":  "3 number one hits in one year",
-                                           "ru":  "3 хита номер один за один год",
-                                           "highlight":  [
-                                                             "3"
-                                                         ]
-                                       }
-                                   ]
-                     }
-                 ],
-    "mistakes":  [
-                     {
-                         "wrong":  "Произносить \u0027forty\u0027 как \u0027fourty\u0027",
-                         "right":  "\u0027Forty\u0027 — без \u0027u\u0027",
-                         "note":  "Сорок — это forty, а не fourty."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027half of three\u0027 вместо \u0027half past three\u0027",
-                         "right":  "\u0027Half past three\u0027 — половина четвёртого",
-                         "note":  "В русском мы говорим \u0027половина третьего\u0027, а в английском \u0027half past two\u0027."
-                     },
-                     {
-                         "wrong":  "Читать год \u00271979\u0027 как \u0027one thousand nine hundred seventy-nine\u0027",
-                         "right":  "Правильно — \u0027nineteen seventy-nine\u0027",
-                         "note":  "Годы читаются как два числа: 1979 = nineteen seventy-nine."
-                     },
-                     {
-                         "wrong":  "Писать дату как \u002712/14/1979\u0027 и думать, что это 14 декабря",
-                         "right":  "В формате 12/14 это 14 декабря только в США — в Британии это 12 декабря",
-                         "note":  "Всегда уточняйте формат."
-                     },
-                     {
-                         "wrong":  "Путать \u0027a.m.\u0027 и \u0027p.m.\u0027",
-                         "right":  "\u0027a.m.\u0027 — утро/ночь, \u0027p.m.\u0027 — день/вечер",
-                         "note":  "Приходите на концерт в 8 p.m., а не в 8 a.m."
-                     },
-                     {
-                         "wrong":  "Говорить \u0027five past three\u0027 для 3:05, когда нужно \u0027five to three\u0027 для 2:55",
-                         "right":  "\u0027Five past three\u0027 = 3:05, \u0027five to three\u0027 = 2:55",
-                         "note":  "Past = после, to = до."
-                     }
-                 ],
-    "compare":  {
-                    "title":  "Британские vs американские даты и время в роке",
-                    "leftLabel":  "Британский (BrE)",
-                    "rightLabel":  "Американский (AmE)",
-                    "rows":  [
-                                 {
-                                     "left":  "14/12/1979 = The Clash",
-                                     "right":  "12/14/1979 = The Clash"
-                                 },
-                                 {
-                                     "left":  "the 14th of December",
-                                     "right":  "December 14th"
-                                 },
-                                 {
-                                     "left":  "half past eight (8:30)",
-                                     "right":  "eight thirty (8:30)"
-                                 },
-                                 {
-                                     "left":  "quarter to ten (9:45)",
-                                     "right":  "nine forty-five (9:45)"
-                                 },
-                                 {
-                                     "left":  "8 p.m. — showtime",
-                                     "right":  "8 p.m. — showtime"
-                                 }
-                             ]
-                },
-    "tips":  [
-                 "Запомните числа от 1 до 20 — они как названия групп",
-                 "Запомните десятки, особенно \u0027forty\u0027 — без \u0027u\u0027",
-                 "В датах всегда проверяйте формат",
-                 "Для годов используйте два числа: 1980 — nineteen eighty",
-                 "Время учите через \u0027past\u0027 и \u0027to\u0027",
-                 "\u0027a.m.\u0027 — \u0027ante meridiem\u0027 (до полудня), \u0027p.m.\u0027 — \u0027post meridiem\u0027 (после полудня)",
-                 "Всегда добавляйте \u0027and\u0027 между сотнями и десятками"
-             ],
-    "quiz":  [
-                 {
-                     "q":  "Как будет 25 по-английски?",
-                     "options":  [
-                                     "Twenty five",
-                                     "Twenty-five",
-                                     "Twenty and five",
-                                     "Tenty-five"
-                                 ],
-                     "answer":  "Twenty-five",
-                     "why":  "25 — это twenty-five. Дефис между двадцатью и пятью."
-                 },
-                 {
-                     "q":  "Как читается год 1979 по-английски?",
-                     "options":  [
-                                     "One thousand nine hundred seventy-nine",
-                                     "Nineteen seventy-nine",
-                                     "Nineteen hundred seventy-nine",
-                                     "Nineteen seventy-nine"
-                                 ],
-                     "answer":  "Nineteen seventy-nine",
-                     "why":  "Годы читаются как два числа: 19 и 79 = nineteen seventy-nine."
-                 },
-                 {
-                     "q":  "Что означает \u0027half past eight\u0027?",
-                     "options":  [
-                                     "8:30",
-                                     "7:30",
-                                     "8:15",
-                                     "8:45"
-                                 ],
-                     "answer":  "8:30",
-                     "why":  "\u0027Half past eight\u0027 = половина девятого = 8:30."
-                 },
-                 {
-                     "q":  "Как сказать \u0027без четверти десять\u0027 по-английски?",
-                     "options":  [
-                                     "Quarter to ten",
-                                     "Quarter past ten",
-                                     "Half past ten",
-                                     "Ten to quarter"
-                                 ],
-                     "answer":  "Quarter to ten",
-                     "why":  "\u0027Без четверти десять\u0027 = 9:45 = quarter to ten."
-                 },
-                 {
-                     "q":  "Какая разница между \u002712/14/1979\u0027 в BrE и AmE?",
-                     "options":  [
-                                     "BrE: 14 декабря, AmE: 12 декабря",
-                                     "BrE: 12 декабря, AmE: 14 декабря",
-                                     "Это одно и то же",
-                                     "BrE: 14 ноября, AmE: 12 декабря"
-                                 ],
-                     "answer":  "BrE: 14 декабря, AmE: 12 декабря",
-                     "why":  "В британском формате день/месяц/год, в американском — месяц/день/год."
-                 },
-                 {
-                     "q":  "Как пишется число 40 по-английски?",
-                     "options":  [
-                                     "Fourty",
-                                     "Forty",
-                                     "Fourty",
-                                     "Forty"
-                                 ],
-                     "answer":  "Forty",
-                     "why":  "40 — это forty, без буквы \u0027u\u0027."
-                 }
-             ],
-    "related":  [
+    "Название связано с числом [bold]666[/bold]. Оно появляется в библейском источнике, который использован в начале заглавной песни, а сама песня была написана Стивом Харрисом. Харрис рассказывал, что идея возникла после кошмара, связанного с просмотром Damien: Omen II.",
 
-                ]
+    "Для начинающего это полезный пример: число [bold]666[/bold] читается как [bold]six hundred and sixty-six[/bold]. Здесь [bold]six hundred[/bold] обозначает сотни, [bold]sixty[/bold] — десятки, а [bold]six[/bold] — единицы.",
+
+    "Числа могут быть количественными: [bold]six hundred books[/bold] — шестьсот книг. Но они могут обозначать и номер или часть названия: [bold]The Number of the Beast[/bold]. В таком случае число становится способом идентифицировать конкретную вещь.",
+
+    "С датами работает другая система. Альбом The Number of the Beast вышел в 1982 году. По-английски это [bold]in 1982[/bold]. Год обычно произносится [bold]nineteen eighty-two[/bold]. Предлог [bold]in[/bold] используется потому, что 1982 — это год, то есть более широкий временной период.",
+
+    "Если мы называем конкретную дату, используется [bold]on[/bold]. Например: [bold]on March 22nd, 1982[/bold]. Официальный сайт Iron Maiden указывает 22 марта 1982 года как дату выхода альбома. Здесь [bold]on[/bold] относится к конкретному календарному дню.",
+
+    "Для точного времени используется [bold]at[/bold]. [bold]At ten o’clock[/bold] означает «в десять часов». Поэтому базовую систему можно запомнить очень просто: [bold]at[/bold] — час, [bold]on[/bold] — день или дата, [bold]in[/bold] — месяц или год.",
+
+    "Сравни: [bold]at ten o’clock[/bold], [bold]on March 22nd[/bold], [bold]in 1982[/bold]. В каждом случае мы говорим о времени, но масштаб разный. Сначала точка на часах, затем день в календаре, затем целый год.",
+
+    "Название [bold]The Number of the Beast[/bold] также помогает увидеть разницу между числом и датой. [bold]666[/bold] — это число. [bold]1982[/bold] — год. [bold]March 22nd, 1982[/bold] — полная дата. Английский использует разные формы, потому что эти элементы выполняют разные функции.",
+
+    "Для дат нужны порядковые числительные. [bold]1st[/bold] — first, [bold]2nd[/bold] — second, [bold]3rd[/bold] — third, [bold]22nd[/bold] — twenty-second. Поэтому [bold]March 22nd[/bold] читается как [bold]March twenty-second[/bold].",
+
+    "Названия годов тоже требуют тренировки. [bold]1982[/bold] — [bold]nineteen eighty-two[/bold]. [bold]1985[/bold] — [bold]nineteen eighty-five[/bold]. Если мы говорим о событии в этом году, используем [bold]in 1982[/bold].",
+
+    "У Iron Maiden число связано не только с названием, но и с историей альбома. The Number of the Beast вышел в 1982 году, а заглавная песня вызвала сильную реакцию религиозных групп в США. Сам Стив Харрис объяснял, что люди восприняли материал слишком буквально.",
+
+    "Поэтому полезно различать [bold]number[/bold] и [bold]date[/bold]. [bold]666[/bold] — number. [bold]1982[/bold] — year. [bold]March 22nd, 1982[/bold] — date. Это простые слова, но они позволяют рассказывать о событиях точнее.",
+
+    "Числа могут встречаться и внутри названий других песен Iron Maiden. На том же альбоме есть [bold]22 Acacia Avenue[/bold]. Здесь [bold]22[/bold] — номер дома, а не дата. Это хороший пример того, как одно и то же число может выполнять разные функции.",
+
+    "Если сказать [bold]on March 22nd[/bold], мы говорим о дате. Если сказать [bold]22 Acacia Avenue[/bold], мы называем адрес. Число одинаковое, но смысл определяется окружающими словами.",
+
+    "В английском языке такие различия важны даже на начальном уровне. [bold]Six[/bold], [bold]sixth[/bold], [bold]sixty[/bold] и [bold]six hundred[/bold] — разные формы. [bold]Six[/bold] — шесть, [bold]sixth[/bold] — шестой, [bold]sixty[/bold] — шестьдесят, [bold]six hundred[/bold] — шестьсот.",
+
+    "The Number of the Beast даёт удобную историю для тренировки всех этих форм. Мы можем назвать число [bold]666[/bold], год [bold]1982[/bold], дату [bold]March 22nd, 1982[/bold] и адрес [bold]22 Acacia Avenue[/bold]. Одни и те же цифры начинают работать в разных языковых конструкциях.",
+
+    "Запомни три основные временные модели: [bold]at + exact time[/bold], [bold]on + day/date[/bold], [bold]in + month/year[/bold]. И отдельно запомни разницу между количеством, порядковым номером, годом и датой.",
+
+    "История Iron Maiden показывает, что числа в английском могут быть частью не только календаря, но и культуры. Число может назвать произведение, обозначить год выхода, указать дату или стать частью адреса. Именно поэтому numbers — это не просто счёт, а один из способов точно называть мир вокруг нас."
+  ],
+  "why": [
+    "Называть числа и большие числа.",
+    "Говорить о годах и датах.",
+    "Использовать at, on и in с временными выражениями.",
+    "Различать number, ordinal number, date и year."
+  ],
+  "context": {
+    "lines": [
+      {
+        "en": "The Number Of The Beast",
+        "ru": "The Number Of The Beast"
+      },
+      {
+        "en": "22 Acacia Avenue",
+        "ru": "22 Acacia Avenue"
+      },
+      {
+        "en": "The Number Of The Beast — 22 March 1982.",
+        "ru": "The Number Of The Beast — 22 марта 1982 года."
+      },
+      {
+        "en": "People have taken it all out of proportion.",
+        "ru": "Люди всё это совершенно преувеличили."
+      },
+      {
+        "en": "They think it's a concept album.",
+        "ru": "Они думают, что это концептуальный альбом."
+      }
+    ],
+    "note": "Название, дата выхода и названия треков сверены с официальными материалами Iron Maiden. Цитаты Стива Харриса относятся к реакции на The Number of the Beast и используются как аутентичный исторический материал."
+  },
+  "russianAngle": [
+    "В русском языке числа в датах и адресах обычно не требуют такого различия между конструкциями, как в английском.",
+    "В английском in используется с годами и месяцами, on — с конкретными датами и днями, at — с точным временем.",
+    "Порядковые числительные нужны при назывании дат: 22nd — twenty-second.",
+    "Одинаковое число может обозначать количество, номер, дату или часть названия в зависимости от контекста."
+  ],
+  "howToLearn": {
+    "steps": [
+      "Повтори числа от 1 до 20.",
+      "Выучи десятки: twenty, thirty, forty, fifty, sixty и далее.",
+      "Научись читать сотни: one hundred, six hundred.",
+      "Потренируйся читать 666 как six hundred and sixty-six.",
+      "Научись называть годы: 1982 — nineteen eighty-two.",
+      "Запомни модели at + time, on + date, in + year."
+    ],
+    "exercise": {
+      "prompt": "Прочитай числа и даты по-английски:",
+      "items": [
+        {
+          "q": "666",
+          "a": "six hundred and sixty-six"
+        },
+        {
+          "q": "1982",
+          "a": "nineteen eighty-two"
+        },
+        {
+          "q": "22nd",
+          "a": "twenty-second"
+        },
+        {
+          "q": "March 22nd, 1982",
+          "a": "March twenty-second, nineteen eighty-two"
+        },
+        {
+          "q": "22 Acacia Avenue",
+          "a": "twenty-two Acacia Avenue"
+        }
+      ]
+    }
+  },
+  "formula": "at + exact time / on + day or date / in + month or year",
+  "structure": {
+    "time": "at + time: at ten o’clock",
+    "day_date": "on + day/date: on March 22nd",
+    "month_year": "in + month/year: in 1982"
+  },
+  "markers": [
+    "at ten o’clock",
+    "on March 22nd",
+    "in 1982",
+    "six hundred and sixty-six",
+    "twenty-second",
+    "nineteen eighty-two",
+    "number",
+    "date",
+    "year",
+    "address"
+  ],
+  "uses": {
+    "title": "Числа в разных контекстах",
+    "items": [
+      {
+        "title": "Количество",
+        "text": "Number может обозначать количество: six songs, six hundred people."
+      },
+      {
+        "title": "Название",
+        "text": "Число может быть частью названия: The Number of the Beast."
+      },
+      {
+        "title": "Год",
+        "text": "Год используется с in: in 1982."
+      },
+      {
+        "title": "Дата",
+        "text": "Конкретная дата используется с on: on March 22nd."
+      },
+      {
+        "title": "Адрес",
+        "text": "Число может быть номером дома: 22 Acacia Avenue."
+      }
+    ]
+  },
+  "rules": [
+    {
+      "title": "At + exact time",
+      "text": "Используй at с конкретным временем: at ten o’clock."
+    },
+    {
+      "title": "On + date",
+      "text": "Используй on с конкретной датой: on March 22nd."
+    },
+    {
+      "title": "In + year",
+      "text": "Используй in с годом: in 1982."
+    },
+    {
+      "title": "Ordinal numbers",
+      "text": "В датах используются порядковые числительные: 22nd — twenty-second."
+    },
+    {
+      "title": "Large numbers",
+      "text": "Сотни строятся с hundred: 666 — six hundred and sixty-six."
+    }
+  ],
+  "examples": [
+    {
+      "group": "Numbers",
+      "items": [
+        {
+          "en": "six",
+          "ru": "шесть",
+          "highlight": [
+            "six"
+          ]
+        },
+        {
+          "en": "sixty",
+          "ru": "шестьдесят",
+          "highlight": [
+            "sixty"
+          ]
+        },
+        {
+          "en": "six hundred",
+          "ru": "шестьсот",
+          "highlight": [
+            "six hundred"
+          ]
+        },
+        {
+          "en": "six hundred and sixty-six",
+          "ru": "шестьсот шестьдесят шесть",
+          "highlight": [
+            "six hundred and sixty-six"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Dates and years",
+      "items": [
+        {
+          "en": "in 1982",
+          "ru": "в 1982 году",
+          "highlight": [
+            "in 1982"
+          ]
+        },
+        {
+          "en": "on March 22nd",
+          "ru": "22 марта",
+          "highlight": [
+            "on March 22nd"
+          ]
+        },
+        {
+          "en": "March twenty-second, nineteen eighty-two",
+          "ru": "22 марта 1982 года",
+          "highlight": [
+            "March twenty-second",
+            "nineteen eighty-two"
+          ]
+        },
+        {
+          "en": "in March",
+          "ru": "в марте",
+          "highlight": [
+            "in March"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Numbers in names and addresses",
+      "items": [
+        {
+          "en": "The Number of the Beast",
+          "ru": "The Number of the Beast",
+          "highlight": [
+            "Number"
+          ]
+        },
+        {
+          "en": "22 Acacia Avenue",
+          "ru": "22 Acacia Avenue",
+          "highlight": [
+            "22"
+          ]
+        },
+        {
+          "en": "The Number of the Beast — 1982",
+          "ru": "The Number of the Beast — 1982",
+          "highlight": [
+            "1982"
+          ]
+        },
+        {
+          "en": "The Number of the Beast — March 22nd, 1982",
+          "ru": "The Number of the Beast — 22 марта 1982 года",
+          "highlight": [
+            "March 22nd",
+            "1982"
+          ]
+        }
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "wrong": "in ten o’clock",
+      "right": "at ten o’clock",
+      "note": "Для точного времени используется at."
+    },
+    {
+      "wrong": "in March 22nd",
+      "right": "on March 22nd",
+      "note": "Для конкретной даты используется on."
+    },
+    {
+      "wrong": "on 1982",
+      "right": "in 1982",
+      "note": "Для года используется in."
+    },
+    {
+      "wrong": "March twenty-two",
+      "right": "March twenty-second",
+      "note": "Дата требует порядкового числительного."
+    },
+    {
+      "wrong": "six hundreds",
+      "right": "six hundred",
+      "note": "После числительного hundred обычно не добавляется -s."
+    },
+    {
+      "wrong": "six hundred sixty-sixth",
+      "right": "six hundred and sixty-six",
+      "note": "666 — количественное число, а не порядковое числительное."
+    }
+  ],
+  "compare": {
+    "title": "Number vs Date vs Year",
+    "leftLabel": "Число / номер",
+    "rightLabel": "Дата / год",
+    "rows": [
+      {
+        "left": "666",
+        "right": "1982"
+      },
+      {
+        "left": "22 Acacia Avenue",
+        "right": "March 22nd"
+      },
+      {
+        "left": "twenty-two",
+        "right": "twenty-second"
+      },
+      {
+        "left": "six hundred and sixty-six",
+        "right": "nineteen eighty-two"
+      }
+    ]
+  },
+  "tips": [
+    "Не путай six и sixth.",
+    "Не путай twenty-two и twenty-second.",
+    "Для точного времени используй at.",
+    "Для конкретной даты используй on.",
+    "Для года используй in.",
+    "666 — число, 1982 — год, March 22nd — дата.",
+    "Число в названии может выполнять другую функцию, чем число в дате."
+  ],
+  "quiz": [
+    {
+      "q": "How do we say 666?",
+      "options": [
+        "six hundred and sixty-six",
+        "six hundred sixty-sixth",
+        "six hundred and six"
+      ],
+      "answer": 0,
+      "why": "666 — количественное число: six hundred and sixty-six."
+    },
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "in 1982",
+        "on 1982",
+        "at 1982"
+      ],
+      "answer": 0,
+      "why": "С годом используется in."
+    },
+    {
+      "q": "Choose the correct phrase:",
+      "options": [
+        "in March 22nd",
+        "on March 22nd",
+        "at March 22nd"
+      ],
+      "answer": 1,
+      "why": "С конкретной датой используется on."
+    },
+    {
+      "q": "How do we say 22nd?",
+      "options": [
+        "twenty-two",
+        "twenty-second",
+        "twenty-two-th"
+      ],
+      "answer": 1,
+      "why": "22nd — порядковое числительное twenty-second."
+    },
+    {
+      "q": "What is 1982?",
+      "options": [
+        "a date",
+        "a year",
+        "an ordinal number"
+      ],
+      "answer": 1,
+      "why": "1982 — год."
+    },
+    {
+      "q": "Which phrase is correct?",
+      "options": [
+        "at ten o’clock",
+        "on ten o’clock",
+        "in ten o’clock"
+      ],
+      "answer": 0,
+      "why": "Для точного времени используется at."
+    }
+  ],
+  "related": [
+    "a0-symbols-abbreviations",
+    "a0-alphabet-pronunciation"
+  ]
 }
