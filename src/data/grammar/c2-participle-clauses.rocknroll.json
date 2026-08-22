@@ -1,194 +1,430 @@
 {
-  "variant": "rocknroll",
+  "variant": "rorocknroll",
   "slug": "c2-participle-clauses",
   "level": "C2",
-  "title": "Participle clauses",
-  "category": "Clause structure",
+  "title": "Participle Clauses",
+  "category": "Grammar",
   "readingTime": 12,
-  "summary": "Причастные обороты — замена придаточных предложений. История о том, как Radiohead использовали их в «OK Computer».",
+  "summary": "Participle Clauses позволяют сжимать два связанных предложения в одну более компактную конструкцию. Форма V-ing обычно показывает одновременное действие или действие, связанное с главным предложением, а Having + past participle подчёркивает, что одно действие произошло раньше другого. Past Participle используется прежде всего в пассивных конструкциях.",
   "idea": [
-    "Radiohead записали «OK Computer» в 1997 году. Это альбом о технологиях, изоляции и современном мире. Том Йорк использовал причастные обороты в текстах песен. «Floating down the river, he felt alone» — плывя по реке, он чувствовал себя одиноким. «Having lost his way, he wandered through the city» — потеряв свой путь, он бродил по городу. «Sitting in silence, they watched the world go by» — сидя в тишине, они наблюдали, как мир проходит мимо.",
-    "Причастные обороты делают тексты Radiohead более поэтичными и выразительными. Альбом был записан в особняке в Оксфордшире. Том Йорк писал тексты, сидя на крыше. «Looking at the stars, I felt like I was in a spaceship» — глядя на звёзды, я чувствовал себя как в космическом корабле. «Not wanting to be found, he hid in the studio» — не желая быть найденным, он спрятался в студии.",
-    "Participle clauses — это причастные обороты, которые заменяют придаточные предложения. Present participle (V-ing) — активное действие. Past participle (V3) — пассивное действие. Perfect participle (Having + V3) — действие перед главным. Они используются в формальном и литературном стиле."
+    "Когда история группы охватывает несколько лет и множество изменений состава, её легко превратить в длинный список отдельных предложений. Английский позволяет сделать такую последовательность плотнее: [bold]Leaving Elektra, the band entered a period of uncertainty.[/bold] Вместо двух предложений [bold]The band left Elektra. It entered a period of uncertainty[/bold] используется одна причастная конструкция.",
+
+    "История The Stooges после [bold]Fun House[/bold] хорошо показывает, зачем нужен такой синтаксис. После выхода альбома состав группы начал быстро меняться: Dave Alexander ушёл, появились новые басисты, в составе появился второй гитарист, а затем James Williamson занял место Billy Cheatham.",
+
+    "Если два действия происходят практически одновременно или одно действие является фоном для другого, используется [bold]V-ing[/bold]. [bold]Changing its lineup, the band continued to perform[/bold] можно развернуть в [bold]While the band was changing its lineup, it continued to perform.[/bold]",
+
+    "Но participle clause требует общего субъекта. В [bold]Changing its lineup, the band continued to perform[/bold] и [bold]changing[/bold], и [bold]continued[/bold] относятся к [bold]the band[/bold]. Именно это позволяет убрать повторяющееся подлежащее.",
+
+    "Если нужно подчеркнуть, что одно событие уже завершилось до другого, используется [bold]Having + past participle[/bold]. [bold]Having lost its record deal, the Stooges entered a period of inactivity[/bold] означает: сначала группа потеряла контракт, затем наступил период бездействия.",
+
+    "Такой способ особенно удобен для истории The Stooges, потому что события после [bold]Fun House[/bold] происходят цепочкой. Dave Alexander был уволен, его заменил Zeke Zettner, затем появились другие музыканты, а James Williamson вошёл в состав в качестве гитариста. Вместо постоянного повторения [bold]the band[/bold] английский может связывать события через participle clauses.",
+
+    "Форма [bold]Having been + past participle[/bold] позволяет сжать пассивное действие, которое произошло раньше. [bold]Having been dropped by Elektra, the Stooges spent a period without a record deal.[/bold] Здесь группа не сама «drop» себя: она подверглась действию, поэтому используется пассивная форма.",
+
+    "Это показывает важную разницу между [bold]Having + past participle[/bold] и [bold]Having been + past participle[/bold]. [bold]Having changed the lineup[/bold] означает, что группа сама изменила состав. [bold]Having been dropped by the label[/bold] означает, что лейбл прекратил сотрудничество с группой.",
+
+    "В истории The Stooges изменения состава не были просто формальным обновлением списка музыкантов. После ухода Dave Alexander появились новые басисты, затем James Williamson вошёл как второй гитарист, а позже Ron Asheton оказался на басу, когда группа была преобразована в Iggy & The Stooges.",
+
+    "Сравни: [bold]The Stooges changed their lineup several times, and they remained active.[/bold] → [bold]Changing their lineup several times, the Stooges remained active.[/bold] Во втором варианте последовательность становится компактнее, а внимание переносится с двух отдельных предложений на единый процесс.",
+
+    "Если последовательность нужно сделать более явной, используется perfect participle: [bold]Having changed their lineup, the Stooges continued performing.[/bold] Здесь смена состава воспринимается как завершённый этап, после которого последовало продолжение деятельности.",
+
+    "Пассивная конструкция работает так же. [bold]The band was dropped by Elektra, and it spent a period without a record deal.[/bold] → [bold]Having been dropped by Elektra, the band spent a period without a record deal.[/bold] Вторая версия значительно плотнее, но сохраняет причинно-временную связь.",
+
+    "Participle Clauses также позволяют быстро вводить последствия. [bold]Joining the band in 1971, James Williamson changed the guitar lineup.[/bold] Здесь присоединение Williamson является частью той же исторической последовательности. В полном варианте пришлось бы использовать отдельное предложение или придаточную конструкцию.",
+
+    "Но сжатие не должно скрывать временную последовательность. [bold]Having joined the band, Williamson became part of the new lineup[/bold] подчёркивает, что присоединение уже произошло к моменту следующего действия. Если такой акцент не нужен, обычное [bold]Joining the band[/bold] может быть естественнее.",
+
+    "История после [bold]Fun House[/bold] показывает и другой важный случай — результат изменения. Состав продолжал перестраиваться, группа на некоторое время практически замерла, а затем встреча Iggy Pop с David Bowie помогла запустить новый этап, который привёл к [bold]Raw Power[/bold]. Participle clauses позволяют представить эту цепочку как непрерывное движение.",
+
+    "Для исторического текста это особенно полезно. Вместо [bold]The Stooges lost their deal. They went into a period of inactivity. New musicians appeared. James Williamson joined. The group was eventually revived[/bold] можно написать: [bold]Having lost their deal, the Stooges entered a period of inactivity, later bringing in new musicians and eventually rebuilding the group around a new lineup.[/bold]",
+
+    "Однако последняя конструкция уже очень плотная, и именно здесь становится заметна граница применения participle clauses. Чем больше событий мы пытаемся сжать в одно предложение, тем выше риск потерять ясность. На уровне C2 важно не только уметь строить конструкцию, но и понимать, когда её лучше не использовать.",
+
+    "Особенно опасны конструкции, в которых логический субъект не совпадает. [bold]Having changed the lineup, the new bassist joined the band[/bold] звучит так, будто новый басист изменил состав. Если фактически состав изменила группа, нужно написать [bold]Having changed the lineup, the band brought in a new bassist.[/bold]",
+
+    "Поэтому participle clauses подходят для исторической последовательности The Stooges не потому, что любую биографию нужно превращать в длинное предложение. Они позволяют выбрать главное действие, а остальные связанные события превратить в компактный фон, причину или предшествующий этап.",
+
+    "В результате история группы может звучать не как список дат и фамилий, а как связная последовательность изменений: [bold]Having lost its deal, the band became inactive; changing its lineup, it later returned in a new form.[/bold] Синтаксис здесь отражает сам принцип истории: одно изменение приводит к следующему."
   ],
   "why": [
-    "Заменять придаточные предложения: Floating down the river, he felt alone.",
-    "Делать текст более лаконичным: Lost in the city, he wandered.",
-    "Создавать литературный эффект: Having lost his way, he wandered.",
-    "Использовать в формальных текстах: Not wanting to be found, he hid."
+    "Сжимать последовательность событий в биографическом и историческом тексте.",
+    "Показывать, какое событие произошло раньше другого.",
+    "Различать активные и пассивные participle clauses.",
+    "Избегать повторения одинаковых подлежащих в длинном повествовании."
   ],
   "context": {
     "lines": [
-      { "en": "Thom Yorke: 'Floating down the river, I felt alone. Having lost my way, I wandered through the city. Sitting in silence, we watched the world go by.'",
-        "ru": "Том Йорк: «Плывя по реке, я чувствовал себя одиноким. Потеряв свой путь, я бродил по городу. Сидя в тишине, мы наблюдали, как мир проходит мимо»." },
-      { "en": "Producer: 'Listening to the album, you feel like you're in another world. Not wanting to be found, you hid in the studio.'",
-        "ru": "Продюсер: «Слушая альбом, ты чувствуешь себя как в другом мире. Не желая быть найденным, ты спрятался в студии»." }
+      {
+        "en": "Following the commercial failure of Fun House, the Stooges essentially disintegrated.",
+        "ru": "После коммерческой неудачи Fun House The Stooges фактически распались."
+      },
+      {
+        "en": "In 1971, a new lineup of the Stooges emerged.",
+        "ru": "В 1971 году появился новый состав The Stooges."
+      },
+      {
+        "en": "James Williamson became the new Stooges guitarist, while Jimmy Recca joined as bassist.",
+        "ru": "James Williamson стал новым гитаристом The Stooges, а Jimmy Recca присоединился как басист."
+      },
+      {
+        "en": "While live recordings exist of the Asheton/Williamson lineup, they never went into the studio.",
+        "ru": "Хотя сохранились концертные записи состава Asheton/Williamson, в студию они так и не вошли."
+      },
+      {
+        "en": "The band had a hiatus for several months.",
+        "ru": "Группа на несколько месяцев прекратила активную деятельность."
+      }
     ],
-    "note": "V-ing (активное), V3 (пассивное), Having + V3 (действие перед главным)."
+    "note": "Контекст построен на документированной истории состава The Stooges после Fun House. В lesson-примерах грамматические participle clauses являются учебными преобразованиями исходной исторической последовательности и не выдаются за прямые цитаты участников группы."
   },
   "russianAngle": [
-    "В русском языке мы говорим: «плывя по реке, он чувствовал...». В английском — Floating down the river, he felt...",
-    "Present participle (V-ing) = активное действие.",
-    "Past participle (V3) = пассивное действие.",
-    "Perfect participle (Having + V3) = действие перед главным."
+    "В русском языке историческую последовательность часто приходится передавать несколькими предложениями или деепричастными оборотами.",
+    "Английские participle clauses позволяют особенно компактно связывать этапы биографии или истории группы.",
+    "Having + past participle подчёркивает предшествующий этап.",
+    "Having been + past participle используется для предшествующего пассивного действия.",
+    "Как и русский деепричастный оборот, английская participle clause требует ясного логического субъекта."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: причастный оборот = замена придаточного предложения.",
-      "V-ing — активное действие, одновременно с главным.",
-      "V3 — пассивное действие, результат.",
-      "Having + V3 — действие перед главным.",
-      "Отрицание: Not + V-ing / V3 / Having + V3.",
-      "Сделай упражнение и сверься с ответами."
+      "Раздели историческую последовательность на отдельные действия.",
+      "Найди действия с одинаковым субъектом.",
+      "Определи, происходят ли они одновременно или одно завершилось раньше.",
+      "Для одновременного активного действия используй V-ing.",
+      "Для завершённого предшествующего действия используй Having + past participle.",
+      "Для пассивного значения используй Past Participle или Having been + past participle.",
+      "Проверь, что логический субъект participle clause совпадает с субъектом главного предложения."
     ],
     "exercise": {
-      "prompt": "Преобразуйте придаточные предложения в причастные обороты:",
+      "prompt": "Сократи историческое описание с помощью participle clause:",
       "items": [
-        { "q": "He felt alone because he was floating down the river. → Floating down the river, he felt alone.", "a": "Floating" },
-        { "q": "After he had lost his way, he wandered through the city. → Having lost his way, he wandered through the city.", "a": "Having lost" },
-        { "q": "While they were sitting in silence, they watched the world go by. → Sitting in silence, they watched the world go by.", "a": "Sitting" },
-        { "q": "Because he didn't want to be found, he hid. → Not wanting to be found, he hid.", "a": "Not wanting" },
-        { "q": "When you listen to the album, you feel like you're in another world. → Listening to the album, you feel like you're in another world.", "a": "Listening" }
+        {
+          "q": "After the Stooges had lost their record deal, they entered a period of inactivity.",
+          "a": "Having lost their record deal, the Stooges entered a period of inactivity."
+        },
+        {
+          "q": "While the Stooges were changing their lineup, they continued to perform.",
+          "a": "Changing their lineup, the Stooges continued to perform."
+        },
+        {
+          "q": "After the band had been dropped by Elektra, it spent a period without a record deal.",
+          "a": "Having been dropped by Elektra, the band spent a period without a record deal."
+        },
+        {
+          "q": "After James Williamson had joined the band, the lineup changed again.",
+          "a": "Having joined the band, James Williamson became part of the new lineup."
+        },
+        {
+          "q": "Because the group was reorganized, Ron Asheton moved to bass.",
+          "a": "Reorganized, the group moved Ron Asheton to bass."
+        }
       ]
     }
   },
-  "formula": "V-ing · V3 · Having + V3",
+  "formula": "V-ing + main clause / Having + past participle + main clause / Past Participle + main clause / Having been + past participle + main clause",
   "structure": {
-    "positive": "Floating down the river, he felt alone.",
-    "negative": "Not wanting to be found, he hid.",
-    "question": "Floating down the river, did he feel alone?"
+    "simultaneous_action": "Changing their lineup, the Stooges continued to perform.",
+    "previous_action": "Having lost their record deal, the Stooges entered a period of inactivity.",
+    "passive_or_result": "Dropped by Elektra, the Stooges spent a period without a record deal.",
+    "previous_passive_action": "Having been dropped by Elektra, the Stooges entered a period of inactivity."
   },
-  "markers": ["-ing", "-ed", "having", "not", "while", "when", "before", "after"],
-  "uses": [
-    "V-ing: Floating down the river, he felt alone.",
-    "V3: Lost in the city, he wandered.",
-    "Having + V3: Having lost his way, he wandered.",
-    "Отрицание: Not wanting to be found, he hid."
+  "markers": [
+    "V-ing",
+    "Having + past participle",
+    "Past Participle",
+    "Having been + past participle",
+    "while",
+    "after",
+    "because",
+    "following"
   ],
+  "uses": {
+    "title": "Как сжать последовательность событий",
+    "items": [
+      {
+        "title": "Одновременный процесс",
+        "text": "V-ing позволяет представить действие как фон или часть того же процесса: \"Changing their lineup, the Stooges continued to perform.\""
+      },
+      {
+        "title": "Предшествующий этап",
+        "text": "Having + past participle показывает, что одно событие завершилось раньше другого: \"Having lost their record deal, the Stooges entered a period of inactivity.\""
+      },
+      {
+        "title": "Пассивный результат",
+        "text": "Past Participle показывает, что субъект подвергся действию: \"Dropped by Elektra, the Stooges spent a period without a deal.\""
+      },
+      {
+        "title": "Предшествующее пассивное действие",
+        "text": "Having been + past participle показывает завершённое пассивное действие перед главным: \"Having been dropped by Elektra, the band entered a period of inactivity.\""
+      },
+      {
+        "title": "Историческое сжатие",
+        "text": "Несколько связанных этапов истории можно объединить, если общий субъект и временная связь остаются очевидными."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Present participle (V-ing)",
-      "text": "Используется для активного действия, которое происходит одновременно с главным. Floating down the river, he felt alone." },
-    { "title": "Past participle (V3)",
-      "text": "Используется для пассивного действия, которое является результатом. Lost in the city, he wandered." },
-    { "title": "Perfect participle (Having + V3)",
-      "text": "Используется для действия, которое произошло перед главным. Having lost his way, he wandered." },
-    { "title": "Отрицание",
-      "text": "Not ставится перед причастием. Not wanting to be found, he hid." }
+    {
+      "title": "V-ing",
+      "text": "Используется для активного действия, происходящего одновременно с главным действием или служащего его обстоятельственным фоном."
+    },
+    {
+      "title": "Having + past participle",
+      "text": "Показывает активное действие, которое произошло раньше главного действия."
+    },
+    {
+      "title": "Past Participle",
+      "text": "Используется для пассивного или результативного значения."
+    },
+    {
+      "title": "Having been + past participle",
+      "text": "Показывает пассивное действие, завершившееся до действия главного предложения."
+    },
+    {
+      "title": "Общий субъект",
+      "text": "Логический субъект причастной конструкции должен совпадать с субъектом главного предложения."
+    },
+    {
+      "title": "Сжатие последовательности",
+      "text": "Participle clauses особенно полезны в историческом и биографическом повествовании, когда несколько действий принадлежат одному субъекту."
+    }
   ],
   "examples": [
     {
-      "group": "Present participle (V-ing) — активное действие",
+      "group": "V-ing",
       "items": [
-        { "en": "Floating down the river, he felt alone.", "ru": "Плывя по реке, он чувствовал себя одиноким.", "highlight": ["Floating"] },
-        { "en": "Sitting on the roof, he wrote the lyrics.", "ru": "Сидя на крыше, он писал тексты.", "highlight": ["Sitting"] },
-        { "en": "Looking at the stars, he felt free.", "ru": "Глядя на звёзды, он чувствовал себя свободным.", "highlight": ["Looking"] }
+        {
+          "en": "Changing their lineup, the Stooges continued to perform.",
+          "ru": "Меняя состав, The Stooges продолжали выступать.",
+          "highlight": ["Changing their lineup"]
+        },
+        {
+          "en": "Building a new lineup, the band continued working on new material.",
+          "ru": "Создавая новый состав, группа продолжала работать над новым материалом.",
+          "highlight": ["Building a new lineup"]
+        },
+        {
+          "en": "Moving between lineups, the band kept performing.",
+          "ru": "Переходя от одного состава к другому, группа продолжала выступать.",
+          "highlight": ["Moving between lineups"]
+        },
+        {
+          "en": "Reworking its lineup, the group entered a new phase.",
+          "ru": "Перестраивая состав, группа вошла в новый этап.",
+          "highlight": ["Reworking its lineup"]
+        }
       ]
     },
     {
-      "group": "Past participle (V3) — пассивное действие",
+      "group": "Perfect participle",
       "items": [
-        { "en": "Lost in the city, he wandered aimlessly.", "ru": "Потерянный в городе, он бродил бесцельно.", "highlight": ["Lost"] },
-        { "en": "Obsessed with the sound, he worked all night.", "ru": "Одержимый звуком, он работал всю ночь.", "highlight": ["Obsessed"] },
-        { "en": "Isolated from the world, he wrote about loneliness.", "ru": "Изолированный от мира, он писал об одиночестве.", "highlight": ["Isolated"] }
+        {
+          "en": "Having lost their record deal, the Stooges entered a period of inactivity.",
+          "ru": "Потеряв контракт с лейблом, The Stooges вошли в период бездействия.",
+          "highlight": ["Having lost their record deal"]
+        },
+        {
+          "en": "Having changed their lineup, the Stooges continued performing.",
+          "ru": "Изменив состав, The Stooges продолжили выступать.",
+          "highlight": ["Having changed their lineup"]
+        },
+        {
+          "en": "Having joined the band, James Williamson became part of its new lineup.",
+          "ru": "Присоединившись к группе, James Williamson стал частью её нового состава.",
+          "highlight": ["Having joined the band"]
+        },
+        {
+          "en": "Having rebuilt the group, Iggy Pop and the Stooges moved toward a new recording project.",
+          "ru": "Пересобрав группу, Iggy Pop and the Stooges двинулись к новому записывающему проекту.",
+          "highlight": ["Having rebuilt the group"]
+        }
       ]
     },
     {
-      "group": "Perfect participle (Having + V3) — действие перед главным",
+      "group": "Passive participles",
       "items": [
-        { "en": "Having lost his way, he wandered through the city.", "ru": "Потеряв свой путь, он бродил по городу.", "highlight": ["Having lost"] },
-        { "en": "Having recorded the album, they went on tour.", "ru": "Записав альбом, они отправились в тур.", "highlight": ["Having recorded"] },
-        { "en": "Having written the song, he played it to the band.", "ru": "Написав песню, он сыграл её группе.", "highlight": ["Having written"] }
+        {
+          "en": "Dropped by Elektra, the Stooges spent a period without a record deal.",
+          "ru": "После того как Elektra разорвала с ними отношения, The Stooges провели период без контракта.",
+          "highlight": ["Dropped by Elektra"]
+        },
+        {
+          "en": "Joined by James Williamson, the group developed a new guitar lineup.",
+          "ru": "После присоединения James Williamson группа получила новый гитарный состав.",
+          "highlight": ["Joined by James Williamson"]
+        },
+        {
+          "en": "Reorganized around a new lineup, the group entered a different phase.",
+          "ru": "Перестроенная вокруг нового состава, группа вошла в другой этап.",
+          "highlight": ["Reorganized around a new lineup"]
+        },
+        {
+          "en": "Recorded after a major lineup change, the material reflected a different period.",
+          "ru": "Записанный после серьёзного изменения состава, материал отражал другой период.",
+          "highlight": ["Recorded after a major lineup change"]
+        }
       ]
     },
     {
-      "group": "Отрицание",
+      "group": "Full clause vs participle clause",
       "items": [
-        { "en": "Not wanting to be found, he hid in the studio.", "ru": "Не желая быть найденным, он спрятался в студии.", "highlight": ["Not wanting"] },
-        { "en": "Not knowing what to do, he stayed silent.", "ru": "Не зная, что делать, он молчал.", "highlight": ["Not knowing"] },
-        { "en": "Not having heard the album, he couldn't comment.", "ru": "Не слышав альбома, он не мог комментировать.", "highlight": ["Not having heard"] }
-      ]
-    },
-    {
-      "group": "With while / when + V-ing",
-      "items": [
-        { "en": "While recording the album, they experimented with sounds.", "ru": "Во время записи альбома они экспериментировали со звуками.", "highlight": ["While recording"] },
-        { "en": "When listening to the album, you feel different.", "ru": "Когда слушаешь альбом, ты чувствуешь себя по-другому.", "highlight": ["When listening"] },
-        { "en": "While sitting in the studio, he wrote the lyrics.", "ru": "Сидя в студии, он писал тексты.", "highlight": ["While sitting"] }
-      ]
-    },
-    {
-      "group": "Сравнение придаточного и причастного оборота",
-      "items": [
-        { "en": "Because he was floating down the river, he felt alone. → Floating down the river, he felt alone.", "ru": "Плывя по реке, он чувствовал себя одиноким.", "highlight": ["Floating"] },
-        { "en": "After he had lost his way, he wandered. → Having lost his way, he wandered.", "ru": "Потеряв свой путь, он бродил.", "highlight": ["Having lost"] },
-        { "en": "While they were sitting in silence, they watched the world go by. → Sitting in silence, they watched the world go by.", "ru": "Сидя в тишине, они наблюдали, как мир проходит мимо.", "highlight": ["Sitting"] }
+        {
+          "en": "After the Stooges had lost their record deal, they entered a period of inactivity. → Having lost their record deal, the Stooges entered a period of inactivity.",
+          "ru": "После потери контракта The Stooges вошли в период бездействия. → Потеряв контракт, The Stooges вошли в период бездействия.",
+          "highlight": ["Having lost their record deal"]
+        },
+        {
+          "en": "While the Stooges were changing their lineup, they continued to perform. → Changing their lineup, the Stooges continued to perform.",
+          "ru": "Пока The Stooges меняли состав, они продолжали выступать. → Меняя состав, The Stooges продолжали выступать.",
+          "highlight": ["Changing their lineup"]
+        },
+        {
+          "en": "After the band had been dropped by Elektra, it spent a period without a deal. → Having been dropped by Elektra, the band spent a period without a deal.",
+          "ru": "После того как Elektra разорвала отношения с группой, группа осталась без контракта. → После разрыва отношений с Elektra группа осталась без контракта.",
+          "highlight": ["Having been dropped by Elektra"]
+        },
+        {
+          "en": "Because James Williamson joined the band, the guitar lineup changed. → Joining the band, James Williamson became part of the new guitar lineup.",
+          "ru": "После присоединения James Williamson гитарный состав изменился. → Присоединившись к группе, James Williamson стал частью нового гитарного состава.",
+          "highlight": ["Joining the band"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Floated down the river, he felt alone.", "right": "Floating down the river, he felt alone.", "note": "Активное действие — V-ing." },
-    { "wrong": "Lost in the city, he wandered. (правильно)", "right": "Lost in the city, he wandered.", "note": "Пассивное действие — V3." },
-    { "wrong": "Have lost his way, he wandered.", "right": "Having lost his way, he wandered.", "note": "Having + V3 для действия перед главным." },
-    { "wrong": "Not wanting to be found, he hid. (правильно)", "right": "Not wanting to be found, he hid.", "note": "Правильно!" },
-    { "wrong": "Sitting on the roof, he wrote the lyrics. (правильно)", "right": "Sitting on the roof, he wrote the lyrics.", "note": "Правильно!" },
-    { "wrong": "Having recorded the album, they go on tour.", "right": "Having recorded the album, they went on tour.", "note": "Главное действие в прошедшем времени." }
+    {
+      "wrong": "Having lost their deal, the new bassist joined the Stooges.",
+      "right": "Having lost their deal, the Stooges brought in a new bassist.",
+      "note": "В исходном варианте получается, будто новый басист потерял контракт."
+    },
+    {
+      "wrong": "Having been joined the band, James Williamson became a guitarist.",
+      "right": "Having joined the band, James Williamson became a guitarist.",
+      "note": "James Williamson сам присоединился к группе, поэтому нужен активный perfect participle."
+    },
+    {
+      "wrong": "Having dropped by Elektra, the Stooges became inactive.",
+      "right": "Having been dropped by Elektra, the Stooges became inactive.",
+      "note": "Группа подверглась действию, поэтому требуется пассивная форма."
+    },
+    {
+      "wrong": "Changing the lineup, the new bassist joined the group.",
+      "right": "Changing the lineup, the group brought in a new bassist.",
+      "note": "Субъект changing должен быть тем, кто реально меняет состав."
+    },
+    {
+      "wrong": "Joined by James Williamson, James Williamson became the new guitarist.",
+      "right": "Joined by James Williamson, the band developed a new lineup.",
+      "note": "Participle clause должна логически относиться к субъекту главного предложения."
+    },
+    {
+      "wrong": "Having change their lineup, the Stooges continued performing.",
+      "right": "Having changed their lineup, the Stooges continued performing.",
+      "note": "После having используется past participle."
+    }
   ],
   "compare": {
-    "title": "Придаточное предложение vs Причастный оборот",
-    "leftLabel": "Придаточное предложение",
-    "rightLabel": "Причастный оборот",
+    "title": "Full Historical Sequence vs Participle Clauses",
+    "leftLabel": "Full Clauses — полное повествование",
+    "rightLabel": "Participle Clauses — сжатое повествование",
     "rows": [
-      { "left": "Because he was floating, he felt alone.", "right": "Floating, he felt alone." },
-      { "left": "After he had lost his way, he wandered.", "right": "Having lost his way, he wandered." },
-      { "left": "While they were sitting, they watched.", "right": "Sitting, they watched." }
+      {
+        "left": "After the Stooges had lost their record deal, they entered a period of inactivity.",
+        "right": "Having lost their record deal, the Stooges entered a period of inactivity."
+      },
+      {
+        "left": "While the Stooges were changing their lineup, they continued to perform.",
+        "right": "Changing their lineup, the Stooges continued to perform."
+      },
+      {
+        "left": "After the band had been dropped by Elektra, it spent a period without a deal.",
+        "right": "Having been dropped by Elektra, the band spent a period without a deal."
+      },
+      {
+        "left": "After James Williamson had joined the band, he became part of the new lineup.",
+        "right": "Having joined the band, James Williamson became part of the new lineup."
+      },
+      {
+        "left": "Because the group was reorganized, it entered a new phase.",
+        "right": "Reorganized around a new lineup, the group entered a new phase."
+      }
     ]
   },
   "tips": [
-    "V-ing = активное действие, одновременно с главным.",
-    "V3 = пассивное действие, результат.",
-    "Having + V3 = действие перед главным.",
-    "Not + V-ing / V3 / Having + V3 = отрицание.",
-    "Используется в литературе и официальных текстах.",
-    "Делает текст более лаконичным и элегантным.",
-    "Проверяй: кто выполняет действие? Актив или пассив?"
+    "Сначала определи субъект каждого действия.",
+    "Если субъект один, проверь возможность сжатия.",
+    "Для одновременного активного действия используй V-ing.",
+    "Для завершённого предшествующего действия используй Having + past participle.",
+    "Для пассивного значения используй Past Participle.",
+    "Для завершённого пассивного действия используй Having been + past participle.",
+    "Не сжимай слишком много исторических событий в одно предложение.",
+    "Всегда проверяй логического субъекта причастной конструкции."
   ],
-  "related": ["c2-participle-clauses", "c2-mixed-conditionals", "c2-modals-past-deduction", "c2-mandative-subjunctive", "c2-inversion-so-such", "c2-cohesion-and-register"],
   "quiz": [
     {
-      "q": "___ down the river, he felt alone.",
-      "options": ["Floating", "Floated", "Having floated", "Float"],
+      "q": "Choose the correct compressed version: After the Stooges had lost their deal, they became inactive.",
+      "options": [
+        "Having lost their deal, the Stooges became inactive.",
+        "Having lose their deal, the Stooges became inactive.",
+        "Lost their deal, the Stooges became inactive."
+      ],
       "answer": 0,
-      "why": "Активное действие — V-ing."
+      "why": "Завершённое активное действие перед главным выражается Having + past participle."
     },
     {
-      "q": "___ in the city, he wandered aimlessly.",
-      "options": ["Losing", "Lost", "Having lost", "Lose"],
-      "answer": 1,
-      "why": "Пассивное действие — V3."
-    },
-    {
-      "q": "___ his way, he wandered through the city.",
-      "options": ["Lost", "Having lost", "Losing", "Being lost"],
-      "answer": 1,
-      "why": "Действие перед главным — Having + V3."
-    },
-    {
-      "q": "___ to be found, he hid.",
-      "options": ["Not wanting", "Not wanted", "Not having wanted", "Not want"],
+      "q": "Choose the correct sentence: While the band was changing its lineup, it continued performing.",
+      "options": [
+        "Changing its lineup, the band continued performing.",
+        "Changed its lineup, the band continued performing.",
+        "Having change its lineup, the band continued performing."
+      ],
       "answer": 0,
-      "why": "Отрицание — Not + V-ing."
+      "why": "Одновременное активное действие выражается V-ing."
     },
     {
-      "q": "___ the album, they went on tour.",
-      "options": ["Recording", "Having recorded", "Recorded", "Being recorded"],
+      "q": "Choose the correct passive construction.",
+      "options": [
+        "Having dropped by Elektra, the Stooges became inactive.",
+        "Having been dropped by Elektra, the Stooges became inactive.",
+        "Having been drop by Elektra, the Stooges became inactive."
+      ],
       "answer": 1,
-      "why": "Действие перед главным — Having + V3."
+      "why": "The Stooges подверглись действию, поэтому нужна форма Having been + past participle."
     },
     {
-      "q": "___ by the sound, he worked all night.",
-      "options": ["Obsessing", "Obsessed", "Having obsessed", "Being obsess"],
+      "q": "Which sentence contains a dangling participle?",
+      "options": [
+        "Having changed its lineup, the band continued performing.",
+        "Changing its lineup, the new bassist joined the band.",
+        "Having joined the band, James Williamson became part of the lineup."
+      ],
       "answer": 1,
-      "why": "Пассивное действие — V3."
+      "why": "В этом варианте получается, что new bassist изменил состав, хотя по смыслу это сделала группа."
+    },
+    {
+      "q": "Which form emphasizes that the lineup change happened first?",
+      "options": [
+        "Changing their lineup",
+        "Having changed their lineup",
+        "Changed their lineup"
+      ],
+      "answer": 1,
+      "why": "Having + past participle подчёркивает предшествующее завершённое действие."
+    },
+    {
+      "q": "Choose the correct sentence.",
+      "options": [
+        "Having joined the band, James Williamson became part of the new lineup.",
+        "Having been joined the band, James Williamson became part of the new lineup.",
+        "Having joining the band, James Williamson became part of the new lineup."
+      ],
+      "answer": 0,
+      "why": "Williamson сам присоединился к группе, поэтому используется активная форма Having joined."
     }
+  ],
+  "related": [
+    "c2-inversion",
+    "c2-cleft-sentences",
+    "c2-nominalisation"
   ]
 }

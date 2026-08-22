@@ -3,201 +3,444 @@
   "slug": "b2-relative-clauses",
   "level": "B2",
   "title": "Relative Clauses",
-  "category": "Other",
-  "readingTime": 11,
-  "summary": "Relative Clauses — придаточные определительные. Связываем предложения с помощью who, which, that, whose, where, when. История о Ramones и их первом альбоме.",
+  "category": "Grammar",
+  "readingTime": 13,
+  "summary": "Relative Clauses используются, чтобы добавить информацию о человеке, предмете, месте или времени, не создавая отдельного предложения. Относительные местоимения who, which и that связывают существительное с дополнительной частью предложения. В зависимости от смысла информация может быть необходимой для идентификации или просто добавочной. В некоторых конструкциях относительное местоимение можно опустить.",
   "idea": [
-    "Ramones записали свой первый альбом в 1976 году. Это был альбом, который изменил историю музыки. Группа состояла из четырёх парней, которые взяли псевдоним Ramones. Их лидер — Джоуи Рамона, чей голос стал символом панка. Песни были короткими и быстрыми, что стало их визитной карточкой.",
-    "Они играли в клубе CBGB, где зародилась панк-сцена. Альбом не стал хитом сразу, но позже он был признан классикой. Группа, которая не ожидала успеха, стала легендой. Их музыка, которую они создали за несколько дней, до сих пор вдохновляет музыкантов.",
-    "Relative Clauses — это придаточные определительные предложения. who — для людей, which — для вещей, that — для людей и вещей (определяющие), whose — для принадлежности, where — для мест, when — для времени."
+    "Relative Clauses особенно полезны, когда нужно описать человека не отдельным предложением, а прямо внутри рассказа о нём. Вместо [bold]Jimmy is a young man. Jimmy lives in London[/bold] можно сказать: [bold]Jimmy is a young man who lives in London.[/bold] Вторая часть сразу становится характеристикой персонажа.",
+    "Именно такой способ построения истории хорошо подходит к [bold]Quadrophenia[/bold]. Пит Тауншенд описывал альбом как историю молодого человека, который живёт в Лондоне начала 1960-х, чувствует себя чужим и проходит через личный кризис. Само описание персонажа уже естественным образом использует Relative Clause.",
+    "В официальном описании Тауншенда встречается конструкция [bold]a young man who is in the mod period[/bold]. Здесь [bold]who is in the mod period[/bold] сообщает дополнительную информацию о молодом человеке. Мы сначала называем персонажа, а затем сразу уточняем, каким человеком он является.",
+    "Для людей в Relative Clauses чаще всего используется [bold]who[/bold]. [bold]A boy who feels isolated[/bold] означает «парень, который чувствует себя изолированным». Внутри придаточного [bold]who[/bold] является подлежащим.",
+    "Но Relative Clauses могут описывать и предметы. Например: [bold]the scooter which Jimmy rides[/bold]. Здесь [bold]which Jimmy rides[/bold] сообщает, какой именно скутер имеется в виду.",
+    "В defining relative clause для предметов и людей также используется [bold]that[/bold]. [bold]The boy who feels isolated[/bold] и [bold]the boy that feels isolated[/bold] имеют одну и ту же базовую функцию. Однако [bold]that[/bold] характерен именно для определительных конструкций.",
+    "Главное различие между defining и non-defining clauses связано с информацией. Если Relative Clause помогает понять, о каком человеке или предмете идёт речь, она является defining: [bold]the song that describes Jimmy[/bold]. Здесь придаточное помогает идентифицировать песню.",
+    "Если объект уже понятен, дополнительную характеристику можно отделить запятыми. [bold]Jimmy, who feels isolated, leaves London[/bold] сообщает дополнительный факт о персонаже, которого читатель уже знает.",
+    "В non-defining clauses [bold]who[/bold] и [bold]which[/bold] возможны, а [bold]that[/bold] не используется. Поэтому [bold]Jimmy, who feels isolated, ...[/bold] правильно, а [bold]Jimmy, that feels isolated, ...[/bold] неправильно.",
+    "Эта разница важна именно для истории [bold]Quadrophenia[/bold], потому что Jimmy не является абстрактным грамматическим примером. Он уже существует как конкретный персонаж внутри концептуального альбома. Поэтому одни Relative Clauses могут идентифицировать людей и предметы, а другие — просто добавлять характеристики к уже известным элементам истории.",
+    "Relative Clause может показывать принадлежность. [bold]The boy whose parents do not understand him[/bold] означает «парень, чьи родители его не понимают». Здесь [bold]whose[/bold] связывает персонажа с существительным [bold]parents[/bold].",
+    "Для места используется [bold]where[/bold]. [bold]London is the city where Jimmy lives[/bold] соединяет персонажа с пространством, в котором происходит действие. Такая конструкция особенно естественна для истории, которая строится вокруг конкретной городской среды.",
+    "Для времени можно использовать [bold]when[/bold]. [bold]Those were the years when young Mods searched for identity[/bold] связывает период времени с происходившими тогда событиями. Это позволяет вписать характеристику исторического периода прямо в предложение.",
+    "Есть и ещё одна важная возможность: Relative Pronoun может быть дополнением и тогда иногда исчезает. [bold]The song that Jimmy hears[/bold] можно превратить в [bold]The song Jimmy hears[/bold]. После [bold]Jimmy[/bold] уже есть подлежащее, поэтому [bold]that[/bold] выполняет роль дополнения.",
+    "Но если Relative Pronoun является подлежащим, убрать его нельзя. [bold]The boy who leaves London[/bold] нельзя превратить в [bold]The boy leaves London[/bold] без изменения структуры и смысла. Здесь [bold]who[/bold] — тот, кто выполняет действие [bold]leaves[/bold].",
+    "Это различие помогает строить более естественные предложения о музыке и персонажах. [bold]The song that Jimmy hears[/bold] описывает песню через действие героя, а [bold]the song that changes Jimmy[/bold] описывает песню через её влияние на него.",
+    "В [bold]Quadrophenia[/bold] особенно важно, что история рассказывается изнутри сознания Jimmy. Тауншенд объяснял, что это история молодого человека, который чувствует себя чужим, теряет работу, влюбляется в девушку и постепенно проходит через личный кризис. Relative Clauses позволяют собирать такие характеристики вокруг одного персонажа.",
+    "Сравни: [bold]Jimmy is a young man. He feels like a misfit. He loves a girl. He loses his job.[/bold] Такой вариант разбивает характеристику на четыре коротких предложения. Relative Clauses позволяют соединить информацию: [bold]Jimmy is a young man who feels like a misfit, loves a girl and loses his job.[/bold]",
+    "Но объединять предложения нужно не механически. Relative Clause должна выполнять смысловую функцию: идентифицировать, описывать или добавлять информацию. Если придаточное ничего не уточняет, его присутствие не делает английский лучше.",
+    "Именно поэтому Relative Clauses подходят к концептуальному альбому. [bold]Quadrophenia[/bold] рассказывает не просто о наборе событий, а о персонаже, его окружении, предметах, местах и людях, которые формируют его опыт. Relative Clauses позволяют постоянно связывать эти элементы друг с другом.",
+    "В результате грамматическая конструкция становится частью повествовательной техники. [bold]The boy who feels isolated[/bold], [bold]the city where he lives[/bold], [bold]the music that shapes him[/bold] и [bold]the people whose expectations surround him[/bold] превращают отдельные факты в связанную характеристику персонажа.",
+    "Поэтому Relative Clauses нужны здесь не для формального усложнения английского. Они помогают рассказывать историю компактно и точно: назвать персонажа, предмет или место и сразу показать, какую роль он играет в повествовании."
   ],
   "why": [
-    "Связывать предложения: The album, which was recorded in 1976, became a classic.",
-    "Определять людей и вещи: Joey Ramone, who was the lead singer, had a unique voice.",
-    "Уточнять информацию: CBGB, where they played, was a famous club.",
-    "Использовать разные местоимения: who, which, that, whose, where, when."
+    "Описывать персонажей и предметы внутри одного предложения.",
+    "Добавлять информацию к уже названному существительному.",
+    "Различать defining и non-defining relative clauses.",
+    "Использовать who, which, that, whose, where и when.",
+    "Понимать, когда relative pronoun можно опустить."
   ],
   "context": {
     "lines": [
-      { "en": "Joey: 'This is the album that we recorded. It's about songs that are short and fast. CBGB, where we played, was our home.'",
-        "ru": "Джоуи: «Это альбом, который мы записали. Это песни, которые короткие и быстрые. CBGB, где мы играли, был нашим домом»." },
-      { "en": "Manager: 'The band, which was formed in 1974, recorded their first album in 1976. Joey, whose voice was iconic, became a legend.'",
-        "ru": "Менеджер: «Группа, которая была сформирована в 1974 году, записала свой первый альбом в 1976 году. Джоуи, чей голос стал культовым, стал легендой»." }
+      {
+        "en": "The story about a young man who is in the mod period",
+        "ru": "История о молодом человеке, который находится в эпохе модов"
+      },
+      {
+        "en": "a young man who is in the mod period",
+        "ru": "молодой человек, который живёт в эпохе модов"
+      },
+      {
+        "en": "a girl who doesn’t reciprocate his feelings",
+        "ru": "девушка, которая не отвечает ему взаимностью"
+      },
+      {
+        "en": "a young mod boy Jimmy",
+        "ru": "молодой мод Джимми"
+      }
     ],
-    "note": "who — для людей; which — для вещей; that — для людей и вещей; where — для мест."
+    "note": "Первые три конструкции взяты из официального описания Quadrophenia Питом Тауншендом. Остальные примеры урока являются учебными и не выдаются за цитаты The Who."
   },
   "russianAngle": [
-    "В русском языке мы используем «который» для всего. В английском — разные местоимения.",
-    "who — для людей (кто).",
-    "which — для вещей (который).",
-    "whose — для принадлежности (чей).",
-    "where — для мест (где).",
-    "when — для времени (когда)."
+    "Русский и английский используют похожий принцип: существительное можно определить через придаточное с союзным словом.",
+    "В английском who обычно относится к людям, which — к предметам, а that может использоваться в defining clauses.",
+    "В английском особенно важно различать defining и non-defining clauses по смыслу и пунктуации.",
+    "В русском языке относительное слово обычно сохраняется, тогда как в английском object relative pronoun иногда можно опустить.",
+    "Whose, where и when позволяют компактно выражать принадлежность, место и время."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: who — для людей.",
-      "which — для вещей, животных, идей.",
-      "that — для людей и вещей (определяющие).",
-      "whose — для принадлежности.",
-      "where — для мест.",
-      "when — для времени.",
-      "Сделай упражнение и сверься с ответами."
+      "Найди существительное, которое нужно описать.",
+      "Определи, человек это, предмет, место или время.",
+      "Выбери подходящее relative word.",
+      "Реши, нужна ли информация для идентификации.",
+      "Если информация добавочная, используй запятые.",
+      "Проверь, является ли relative word подлежащим или дополнением.",
+      "Если это дополнение, проверь возможность его опустить."
     ],
     "exercise": {
-      "prompt": "Вставьте правильное относительное местоимение (who, which, that, whose, where, when):",
+      "prompt": "Объедини предложения с помощью Relative Clause:",
       "items": [
-        { "q": "The album ___ was recorded in 1976 became a classic.", "a": "which / that" },
-        { "q": "Joey Ramone, ___ was the lead singer, had a unique voice.", "a": "who" },
-        { "q": "The band, ___ name was Ramones, became famous.", "a": "whose" },
-        { "q": "CBGB, ___ they played, was a famous club.", "a": "where" },
-        { "q": "1976, ___ the album was released, was a turning point.", "a": "when" }
+        {
+          "q": "Jimmy is a young man. He feels isolated.",
+          "a": "Jimmy is a young man who feels isolated."
+        },
+        {
+          "q": "The song describes Jimmy. I heard it yesterday.",
+          "a": "The song that I heard yesterday describes Jimmy."
+        },
+        {
+          "q": "London is the city. Jimmy lives there.",
+          "a": "London is the city where Jimmy lives."
+        },
+        {
+          "q": "Jimmy has parents. His parents do not understand him.",
+          "a": "Jimmy has parents whose expectations he cannot accept."
+        },
+        {
+          "q": "The album is a concept album. It tells Jimmy's story.",
+          "a": "The album, which tells Jimmy's story, is a concept album."
+        }
       ]
     }
   },
-  "formula": "who / which / that / whose / whom / where / when + придаточное предложение",
+  "formula": "noun + relative word + clause",
   "structure": {
-    "positive": "The album, which was recorded in 1976, became a classic.",
-    "negative": "The album, which wasn't recorded in 1976, didn't become a classic.",
-    "question": "What is the album that became a classic?"
+    "people": "a young man who feels isolated",
+    "things": "the song which describes Jimmy",
+    "defining_that": "the song that Jimmy hears",
+    "possession": "the boy whose parents misunderstand him",
+    "place": "the city where Jimmy lives",
+    "time": "the years when Jimmy was a Mod",
+    "non_defining": "Jimmy, who feels isolated, leaves London",
+    "omission": "the song that Jimmy hears → the song Jimmy hears"
   },
-  "markers": ["who", "which", "that", "whose", "whom", "where", "when"],
-  "uses": [
-    "who — для людей: Joey Ramone, who was the lead singer, had a unique voice.",
-    "which — для вещей: The album, which was recorded in 1976, became a classic.",
-    "that — для людей и вещей: The songs that they played were short and fast.",
-    "whose — для принадлежности: Joey, whose voice was iconic, is a legend.",
-    "where — для мест: CBGB, where they played, was a famous club.",
-    "when — для времени: 1976, when the album was released, was a turning point."
+  "markers": [
+    "who",
+    "which",
+    "that",
+    "whose",
+    "where",
+    "when",
+    "who/which + clause",
+    "noun + clause without relative pronoun"
   ],
+  "uses": {
+    "title": "Как Relative Clauses строят характеристику персонажа",
+    "items": [
+      {
+        "title": "Характеристика человека",
+        "text": "Who добавляет информацию о человеке: a young man who feels isolated."
+      },
+      {
+        "title": "Характеристика предмета",
+        "text": "Which или that описывают предмет: the song that Jimmy hears."
+      },
+      {
+        "title": "Идентификация",
+        "text": "Defining clause помогает определить конкретного человека или предмет: the song that describes Jimmy."
+      },
+      {
+        "title": "Добавочная информация",
+        "text": "Non-defining clause выделяется запятыми: Jimmy, who feels isolated, leaves London."
+      },
+      {
+        "title": "Связь с местом и временем",
+        "text": "Where и when связывают персонажа с местом или периодом: the city where Jimmy lives; the years when he was a Mod."
+      }
+    ]
+  },
   "rules": [
-    { "title": "who — для людей",
-      "text": "Используется для людей. Joey Ramone, who was the lead singer, had a unique voice." },
-    { "title": "which — для вещей",
-      "text": "Используется для вещей, животных, идей. The album, which was recorded in 1976, became a classic." },
-    { "title": "that — для людей и вещей",
-      "text": "Используется в определяющих придаточных (без запятых). The songs that they played were short and fast." },
-    { "title": "whose — для принадлежности",
-      "text": "Используется для принадлежности (чей/чья/чьё). Joey, whose voice was iconic, is a legend." },
-    { "title": "where — для мест",
-      "text": "Используется для мест. CBGB, where they played, was a famous club." },
-    { "title": "when — для времени",
-      "text": "Используется для времени. 1976, when the album was released, was a turning point." }
+    {
+      "title": "Who",
+      "text": "Who используется для людей: the boy who feels isolated."
+    },
+    {
+      "title": "Which",
+      "text": "Which используется для предметов и явлений: the song which describes Jimmy."
+    },
+    {
+      "title": "That",
+      "text": "That может заменять who или which в defining relative clauses."
+    },
+    {
+      "title": "Whose",
+      "text": "Whose показывает принадлежность: the boy whose parents misunderstand him."
+    },
+    {
+      "title": "Where and when",
+      "text": "Where относится к месту, when — ко времени."
+    },
+    {
+      "title": "Defining vs non-defining",
+      "text": "Defining clause идентифицирует существительное; non-defining clause добавляет информацию и выделяется запятыми."
+    },
+    {
+      "title": "Omission",
+      "text": "Relative pronoun можно опустить, если оно является дополнением: the song that Jimmy hears → the song Jimmy hears."
+    }
   ],
   "examples": [
     {
-      "group": "who — для людей",
+      "group": "Characterisation",
       "items": [
-        { "en": "Joey Ramone, who was the lead singer, had a unique voice.", "ru": "Джоуи Рамона, который был вокалистом, имел уникальный голос.", "highlight": ["who"] },
-        { "en": "The band members, who were all from New York, changed music.", "ru": "Участники группы, которые были из Нью-Йорка, изменили музыку.", "highlight": ["who"] },
-        { "en": "The producer, who worked with them, was surprised by their sound.", "ru": "Продюсер, который работал с ними, был удивлён их звучанием.", "highlight": ["who"] }
+        {
+          "en": "Jimmy is a boy who feels isolated.",
+          "ru": "Джимми — парень, который чувствует себя изолированным.",
+          "highlight": [
+            "who feels isolated"
+          ]
+        },
+        {
+          "en": "He is a character who does not fit easily into his world.",
+          "ru": "Он персонаж, которому трудно вписаться в окружающий мир.",
+          "highlight": [
+            "who does not fit"
+          ]
+        },
+        {
+          "en": "The girl who rejects Jimmy becomes part of his frustration.",
+          "ru": "Девушка, которая отвергает Джимми, становится частью его разочарования.",
+          "highlight": [
+            "who rejects Jimmy"
+          ]
+        },
+        {
+          "en": "The people who surround Jimmy influence his choices.",
+          "ru": "Люди, которые окружают Джимми, влияют на его выбор.",
+          "highlight": [
+            "who surround Jimmy"
+          ]
+        }
       ]
     },
     {
-      "group": "which — для вещей",
+      "group": "Objects and places",
       "items": [
-        { "en": "The album, which was recorded in 1976, became a classic.", "ru": "Альбом, который был записан в 1976 году, стал классикой.", "highlight": ["which"] },
-        { "en": "The songs, which were short and fast, became their trademark.", "ru": "Песни, которые были короткими и быстрыми, стали их визитной карточкой.", "highlight": ["which"] },
-        { "en": "The record, which cost only $6,400, was a huge success.", "ru": "Пластинка, которая стоила всего 6 400 долларов, имела огромный успех.", "highlight": ["which"] }
+        {
+          "en": "The scooter that Jimmy rides becomes part of his identity.",
+          "ru": "Скутер, на котором ездит Джимми, становится частью его идентичности.",
+          "highlight": [
+            "that Jimmy rides"
+          ]
+        },
+        {
+          "en": "The music which Jimmy hears reflects his emotions.",
+          "ru": "Музыка, которую слышит Джимми, отражает его эмоции.",
+          "highlight": [
+            "which Jimmy hears"
+          ]
+        },
+        {
+          "en": "London is the city where Jimmy lives.",
+          "ru": "Лондон — город, где живёт Джимми.",
+          "highlight": [
+            "where Jimmy lives"
+          ]
+        },
+        {
+          "en": "The years when Jimmy was a Mod shape the story.",
+          "ru": "Годы, когда Джимми был модом, формируют историю.",
+          "highlight": [
+            "when Jimmy was a Mod"
+          ]
+        }
       ]
     },
     {
-      "group": "that — для людей и вещей (определяющие)",
+      "group": "Defining and non-defining",
       "items": [
-        { "en": "The songs that they played were short and fast.", "ru": "Песни, которые они играли, были короткими и быстрыми.", "highlight": ["that"] },
-        { "en": "The band that recorded this album is the Ramones.", "ru": "Группа, которая записала этот альбом, — Ramones.", "highlight": ["that"] },
-        { "en": "The music that they created changed everything.", "ru": "Музыка, которую они создали, изменила всё.", "highlight": ["that"] }
+        {
+          "en": "The song that describes Jimmy is important to the story.",
+          "ru": "Песня, которая описывает Джимми, важна для истории.",
+          "highlight": [
+            "that describes Jimmy"
+          ]
+        },
+        {
+          "en": "Jimmy, who feels isolated, searches for meaning.",
+          "ru": "Джимми, который чувствует себя изолированным, ищет смысл.",
+          "highlight": [
+            "who feels isolated"
+          ]
+        },
+        {
+          "en": "The album that tells Jimmy's story is a concept album.",
+          "ru": "Альбом, который рассказывает историю Джимми, является концептуальным альбомом.",
+          "highlight": [
+            "that tells Jimmy's story"
+          ]
+        },
+        {
+          "en": "Quadrophenia, which tells Jimmy's story, is built as a continuous narrative.",
+          "ru": "Quadrophenia, который рассказывает историю Джимми, построен как цельное повествование.",
+          "highlight": [
+            "which tells Jimmy's story"
+          ]
+        }
       ]
     },
     {
-      "group": "whose — для принадлежности",
+      "group": "Omission",
       "items": [
-        { "en": "Joey, whose voice was iconic, is a legend.", "ru": "Джоуи, чей голос был культовым, является легендой.", "highlight": ["whose"] },
-        { "en": "The band, whose music changed the world, started in New York.", "ru": "Группа, чья музыка изменила мир, начала в Нью-Йорке.", "highlight": ["whose"] },
-        { "en": "The singer, whose real name was Jeffrey Hyman, became Joey Ramone.", "ru": "Вокалист, чьё настоящее имя было Джеффри Хайман, стал Джоуи Рамоной.", "highlight": ["whose"] }
-      ]
-    },
-    {
-      "group": "where — для мест",
-      "items": [
-        { "en": "CBGB, where they played, was a famous club.", "ru": "CBGB, где они играли, был известным клубом.", "highlight": ["where"] },
-        { "en": "New York, where the band was formed, is the city of punk.", "ru": "Нью-Йорк, где группа была сформирована, — город панка.", "highlight": ["where"] },
-        { "en": "The venue, where they recorded the album, was a small studio.", "ru": "Площадка, где они записали альбом, была маленькой студией.", "highlight": ["where"] }
-      ]
-    },
-    {
-      "group": "when — для времени",
-      "items": [
-        { "en": "1976, when the album was released, was a turning point.", "ru": "1976 год, когда альбом был выпущен, стал поворотным моментом.", "highlight": ["when"] },
-        { "en": "The year, when punk became mainstream, was 1976.", "ru": "Год, когда панк стал мейнстримом, был 1976.", "highlight": ["when"] },
-        { "en": "The time, when they recorded the album, was a moment of magic.", "ru": "Время, когда они записали альбом, было моментом магии.", "highlight": ["when"] }
+        {
+          "en": "The song that Jimmy hears affects him.",
+          "ru": "Песня, которую слышит Джимми, влияет на него.",
+          "highlight": [
+            "that Jimmy hears"
+          ]
+        },
+        {
+          "en": "The song Jimmy hears affects him.",
+          "ru": "Песня, которую слышит Джимми, влияет на него.",
+          "highlight": [
+            "Jimmy hears"
+          ]
+        },
+        {
+          "en": "The film that I watched changed my view of Jimmy.",
+          "ru": "Фильм, который я посмотрел, изменил моё представление о Джимми.",
+          "highlight": [
+            "that I watched"
+          ]
+        },
+        {
+          "en": "The film I watched changed my view of Jimmy.",
+          "ru": "Фильм, который я посмотрел, изменил моё представление о Джимми.",
+          "highlight": [
+            "I watched"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Joey Ramone, which was the lead singer, had a unique voice.", "right": "Joey Ramone, who was the lead singer, had a unique voice.", "note": "who — для людей." },
-    { "wrong": "The album, who was recorded in 1976, became a classic.", "right": "The album, which was recorded in 1976, became a classic.", "note": "which — для вещей." },
-    { "wrong": "The songs that they played were short and fast. (правильно)", "right": "The songs that they played were short and fast.", "note": "that — правильно для определяющих придаточных." },
-    { "wrong": "Joey, his voice was iconic, is a legend.", "right": "Joey, whose voice was iconic, is a legend.", "note": "whose — для принадлежности." },
-    { "wrong": "CBGB, which they played, was a famous club.", "right": "CBGB, where they played, was a famous club.", "note": "where — для мест." },
-    { "wrong": "1976, which the album was released, was a turning point.", "right": "1976, when the album was released, was a turning point.", "note": "when — для времени." }
+    {
+      "wrong": "The boy which feels isolated...",
+      "right": "The boy who feels isolated...",
+      "note": "Для человека используется who."
+    },
+    {
+      "wrong": "The song who describes Jimmy...",
+      "right": "The song which describes Jimmy...",
+      "note": "Для предметов используется which."
+    },
+    {
+      "wrong": "Jimmy, that feels isolated, leaves London.",
+      "right": "Jimmy, who feels isolated, leaves London.",
+      "note": "That не используется в non-defining relative clauses."
+    },
+    {
+      "wrong": "The boy whose his parents left...",
+      "right": "The boy whose parents left...",
+      "note": "После whose сразу ставится существительное."
+    },
+    {
+      "wrong": "London is the city which Jimmy lives.",
+      "right": "London is the city where Jimmy lives.",
+      "note": "Where используется для места."
+    },
+    {
+      "wrong": "The song that Jimmy hears it is powerful.",
+      "right": "The song that Jimmy hears is powerful.",
+      "note": "Relative pronoun уже выполняет функцию дополнения; дополнительное it не нужно."
+    }
   ],
   "compare": {
     "title": "Defining vs Non-defining Relative Clauses",
-    "leftLabel": "Defining (определяющие)",
-    "rightLabel": "Non-defining (неопределяющие)",
+    "leftLabel": "Defining — идентификация",
+    "rightLabel": "Non-defining — добавочная информация",
     "rows": [
-      { "left": "The songs that they played were short. (важно, какие)", "right": "The songs, which they played, were short." },
-      { "left": "The band that recorded this album is the Ramones.", "right": "The Ramones, who recorded this album, are legends." },
-      { "left": "No commas. That можно использовать.", "right": "Commas. That НЕ используется." }
+      {
+        "left": "The boy who feels isolated leaves London.",
+        "right": "Jimmy, who feels isolated, leaves London."
+      },
+      {
+        "left": "The song that describes Jimmy is important.",
+        "right": "Quadrophenia, which tells Jimmy's story, is a concept album."
+      },
+      {
+        "left": "The people who surround Jimmy influence him.",
+        "right": "Pete Townshend, who created Jimmy, described the story as a journey."
+      },
+      {
+        "left": "The city where Jimmy lives is London.",
+        "right": "London, where Jimmy lives, becomes part of the story."
+      }
     ]
   },
   "tips": [
-    "who — для людей.",
-    "which — для вещей.",
-    "that — для людей и вещей (определяющие).",
-    "whose — для принадлежности.",
-    "where — для мест.",
-    "when — для времени.",
-    "Определяющие (defining) — без запятых, That можно. Неопределяющие — с запятыми, That нельзя."
+    "Сначала найди существительное, которое нужно описать.",
+    "Для людей обычно используй who.",
+    "Для предметов используй which или that в defining clauses.",
+    "That не используется в non-defining clauses.",
+    "Проверь, нужна ли Relative Clause для идентификации.",
+    "Если информация добавочная, используй запятые.",
+    "Проверь роль relative pronoun внутри придаточного.",
+    "Если это дополнение, его иногда можно опустить."
   ],
-  "related": ["b1-relative-clauses", "b2-relative-clauses", "b2-grammar"],
   "quiz": [
     {
-      "q": "Joey Ramone, ___ was the lead singer, had a unique voice.",
-      "options": ["who", "which", "that", "whose"],
-      "answer": 0,
-      "why": "who — для людей."
-    },
-    {
-      "q": "The album, ___ was recorded in 1976, became a classic.",
-      "options": ["who", "which", "that", "whose"],
+      "q": "Choose the correct sentence:",
+      "options": [
+        "Jimmy is a boy which feels isolated.",
+        "Jimmy is a boy who feels isolated.",
+        "Jimmy is a boy where feels isolated."
+      ],
       "answer": 1,
-      "why": "which — для вещей."
+      "why": "Who используется для людей."
     },
     {
-      "q": "The songs ___ they played were short and fast.",
-      "options": ["who", "which", "that", "whose"],
-      "answer": 2,
-      "why": "that — для людей и вещей (определяющие)."
+      "q": "Choose the correct sentence:",
+      "options": [
+        "The song who describes Jimmy is important.",
+        "The song which describes Jimmy is important.",
+        "The song where describes Jimmy is important."
+      ],
+      "answer": 1,
+      "why": "Which используется для предметов."
     },
     {
-      "q": "Joey, ___ voice was iconic, is a legend.",
-      "options": ["who", "which", "that", "whose"],
-      "answer": 3,
-      "why": "whose — для принадлежности."
+      "q": "Which sentence is non-defining?",
+      "options": [
+        "The boy who feels isolated leaves London.",
+        "Jimmy, who feels isolated, leaves London.",
+        "The boy that feels isolated leaves London."
+      ],
+      "answer": 1,
+      "why": "Non-defining clause выделяется запятыми и добавляет информацию."
     },
     {
-      "q": "CBGB, ___ they played, was a famous club.",
-      "options": ["who", "which", "where", "when"],
-      "answer": 2,
-      "why": "where — для мест."
+      "q": "Choose the correct form:",
+      "options": [
+        "The boy whose parents misunderstand him...",
+        "The boy whose his parents misunderstand him...",
+        "The boy who parents misunderstand him..."
+      ],
+      "answer": 0,
+      "why": "Whose уже выражает принадлежность."
     },
     {
-      "q": "1976, ___ the album was released, was a turning point.",
-      "options": ["who", "which", "where", "when"],
-      "answer": 3,
-      "why": "when — для времени."
+      "q": "Choose the correct sentence:",
+      "options": [
+        "London is the city which Jimmy lives.",
+        "London is the city where Jimmy lives.",
+        "London is the city who Jimmy lives."
+      ],
+      "answer": 1,
+      "why": "Where используется для места."
+    },
+    {
+      "q": "Which sentence allows omission of the relative pronoun?",
+      "options": [
+        "The boy who leaves London is Jimmy.",
+        "The song that Jimmy hears is important.",
+        "The boy who feels isolated is Jimmy."
+      ],
+      "answer": 1,
+      "why": "В that Jimmy hears местоимение является дополнением и может быть опущено: the song Jimmy hears."
     }
+  ],
+  "related": [
+    "b1-relative-pronouns",
+    "b2-participles-and-participle-clauses",
+    "c1-cleft-sentences"
   ]
 }

@@ -1,196 +1,408 @@
 {
   "variant": "rocknroll",
-  "slug": "c2-mixed-conditionals",
+  "slug": "c2-mixed-conditionals-advanced",
   "level": "C2",
-  "title": "Mixed Conditionals (Advanced)",
-  "category": "Conditionals",
+  "title": "Mixed Conditionals — Advanced",
+  "category": "Grammar",
   "readingTime": 12,
-  "summary": "Mixed Conditionals — связь прошлого, настоящего и будущего. История о том, как U2 использовали их в «The Joshua Tree».",
+  "summary": "Mixed Conditionals соединяют условие и результат, относящиеся к разным моментам времени. Прошлая ситуация может объяснять нынешнее состояние, а нынешнее условие — объяснять возможный результат в прошлом. Такие конструкции особенно полезны, когда нужно показать сложную причинно-следственную связь между прошлым и настоящим.",
   "idea": [
-    "U2 записали «The Joshua Tree» в 1987 году. Это альбом о поисках смысла и свободы. Боно использовал смешанные условные предложения в текстах песен. «If I had known the road would be so long, I would have started earlier» — если бы я знал, что дорога будет такой долгой, я бы начал раньше. «If we weren't so driven, we wouldn't have achieved so much» — если бы мы не были так одержимы, мы бы не достигли так много. «If we keep searching, we will find what we're looking for» — если мы продолжим искать, мы найдём то, что ищем.",
-    "Альбом был вдохновлён поездкой U2 по Америке. Боно говорил: «If we hadn't gone to America, we wouldn't have written this album». The Joshua Tree стал их самым успешным альбомом. Он сделал их суперзвёздами. Используя смешанные условные предложения, Боно показал связь прошлого, настоящего и будущего.",
-    "Mixed Conditionals — это смешение времён в условных предложениях. Past → Present: if + Past Perfect, would + V1. Past → Future: if + Past Perfect, would + V1. Present → Past: if + Past Simple (were), would have + V3. Present → Future: if + Present Simple, will + V1. Они используются в сложных текстах и литературе."
+    "Когда мы говорим о будущем концерте или возможном решении группы, обычного Second Conditional часто достаточно. Но история [bold]Deep Purple[/bold] показывает ситуацию сложнее: прошлые решения участников продолжают влиять на отношения и возможности группы сегодня. Чтобы описать такую связь, английский использует [bold]mixed conditionals[/bold].",
+
+    "История Deep Purple особенно подходит для этого правила из-за постоянного возвращения к вопросу о прошлом составе группы. Ричи Блэкмор покинул Deep Purple в 1993 году, а спустя годы тема возможного совместного выступления снова возникла публично. В 2017 году Блэкмор говорил о возможности одного последнего концерта с группой.",
+
+    "В интервью о возможном возвращении Блэкмор сказал: [bold]“I think if they would be interested, and our schedules aligned, I would be available for one show — for nostalgic reasons.”[/bold] Это реальная условная конструкция из интервью. Она относится к гипотетическому будущему и показывает, что возможность зависит сразу от нескольких условий.",
+
+    "Но история становится грамматически интереснее, если мы смотрим на неё из настоящего и связываем с прошлым. Например: [bold]If Blackmore had never left Deep Purple, the band would be in a very different position now.[/bold] Условие относится к прошлому — [bold]had never left[/bold], а результат существует сейчас — [bold]would be[/bold]. Это первая модель mixed conditional.",
+
+    "Формула здесь проста: [bold]if + Past Perfect → would + V1[/bold]. Она нужна, когда прошлое событие определило нынешнее состояние. В истории Deep Purple уход Блэкмора относится к прошлому, но его последствия можно обсуждать в настоящем: состав группы, её история и вопрос о возможном возвращении существуют сейчас.",
+
+    "Сравни это с Third Conditional: [bold]If Blackmore had not left Deep Purple, he would have played with the band for many more years.[/bold] Здесь условие и результат относятся к прошлому. Но в [bold]If Blackmore had not left Deep Purple, he would be part of the band now[/bold] результат относится к настоящему. Именно переход от [bold]would have played[/bold] к [bold]would be[/bold] меняет временную перспективу.",
+
+    "В интервью участники Deep Purple неоднократно говорили о том, что прошлое нельзя просто отменить. В 2017 году Ян Пейс, отвечая на вопрос о возможном возвращении Блэкмора, отмечал, что группа продолжила движение после его ухода. Это создаёт естественную основу для mixed conditional: прошлое решение стало частью нынешней структуры группы.",
+
+    "Вторая модель работает в обратном направлении: [bold]if + Past Simple → would have + V3[/bold]. Она позволяет представить нынешнее условие как причину другого результата в прошлом. Например: [bold]If the band were more open to reunion projects today, Blackmore might have returned for a show years ago.[/bold] Нынешнее состояние группы мысленно меняется, а предполагаемый результат относится к прошлому.",
+
+    "Такая конструкция не утверждает, что альтернативная история действительно произошла. Она показывает причинную связь, которую говорящий рассматривает гипотетически. Поэтому mixed conditional особенно полезен в интервью, историческом анализе и разговорах о карьере: он позволяет связать то, что произошло тогда, с тем, что существует сейчас.",
+
+    "После ухода Блэкмора Deep Purple продолжили существовать с другими музыкантами. Позднее возникли новые составы, новые записи и новые туры. Если представить, что один элемент прошлого был другим, можно изменить нынешнюю картину: [bold]If Blackmore had remained in the band, Deep Purple would have a different history now.[/bold]",
+
+    "Но можно рассуждать и в обратную сторону. Представим нынешнее состояние отношений как условие для прошлого: [bold]If everyone were as willing to reunite today as they are now, the band might have arranged a special show earlier.[/bold] Здесь сегодняшняя готовность используется как гипотетическая причина результата, который мог бы произойти раньше.",
+
+    "Важно, что mixed conditional не означает обязательного конфликта между временами. Времена выбираются по смыслу. [bold]Past Perfect[/bold] нужен, когда условие относится к завершённому прошлому. [bold]Past Simple[/bold] в условной части может описывать нынешнее нереальное состояние. Главная часть затем показывает, относится ли предполагаемый результат к настоящему или прошлому.",
+
+    "История возможного возвращения Блэкмора хорошо показывает эту разницу. В 2017 году он говорил, что был бы готов сыграть один концерт, если бы группа была заинтересована и графики совпали. Одновременно он считал такое событие маловероятным. Поэтому одна и та же история содержит реальное прошлое, нынешнюю ситуацию и гипотетическое будущее.",
+
+    "Можно построить несколько разных условных перспектив. [bold]If Blackmore had never left, he would be playing with Deep Purple now[/bold] связывает прошлое с настоящим. [bold]If the band were ready for a reunion today, they would have played together again years ago[/bold] связывает нынешнее условие с прошлым результатом. А [bold]If their schedules aligned, they would play one show[/bold] описывает обычную гипотетическую ситуацию.",
+
+    "Это показывает, почему нельзя выбирать форму conditional только по ключевому слову [bold]if[/bold]. Нужно определить временную точку каждой части. Если причина произошла раньше, но её результат сохраняется сейчас, используется [bold]Past Perfect → would + V1[/bold]. Если условие относится к нынешней ситуации, но результат мысленно переносится в прошлое, используется [bold]Past Simple → would have + V3[/bold].",
+
+    "В истории Deep Purple это особенно заметно в вопросе о том, что могло бы произойти, если бы отношения между бывшими участниками сложились иначе. [bold]If the conflicts had been resolved earlier, the band might be in a different position now.[/bold] Здесь прошлое решение или отсутствие решения объясняет нынешнее состояние.",
+
+    "Обратная конструкция позволяет анализировать прошлое через сегодняшнюю ситуацию. [bold]If the band were willing to reunite permanently today, they might have made different decisions about the lineup in the past.[/bold] Это не исторический факт, а гипотетическая модель: нынешнее условие используется для переосмысления прошлого.",
+
+    "Возможны также [bold]could[/bold] и [bold]might[/bold]. [bold]Could[/bold] подчёркивает потенциальную возможность, а [bold]might[/bold] делает вывод менее определённым. Поэтому [bold]If Blackmore had stayed, Deep Purple could be very different now[/bold] означает возможный нынешний результат, а [bold]might be[/bold] выражает ещё большую степень неопределённости.",
+
+    "Таким образом, история Deep Purple показывает mixed conditionals не как абстрактную формулу, а как язык для разговора о последствиях решений. Уход музыканта произошёл десятилетия назад, но вопрос о том, что было бы иначе сегодня, остаётся понятным и естественным. Именно такие временные связи и позволяют английскому языку точно описывать альтернативную историю."
   ],
   "why": [
-    "Связывать прошлое с настоящим: If I had known the road would be so long, I would be more prepared.",
-    "Связывать прошлое с будущим: If we had started earlier, we would have finished by now.",
-    "Связывать настоящее с прошлым: If we weren't so driven, we wouldn't have achieved so much.",
-    "Связывать настоящее с будущим: If we keep searching, we will find what we're looking for."
+    "Связывать прошлые решения музыкантов с нынешним состоянием группы.",
+    "Обсуждать альтернативную историю карьеры и составов.",
+    "Разделять реальные факты и гипотетические последствия.",
+    "Использовать разные временные планы в одном условном периоде."
   ],
   "context": {
     "lines": [
-      { "en": "Bono: 'If I had known the road would be so long, I would have started earlier. If we weren't so driven, we wouldn't have achieved so much. If we keep searching, we will find what we're looking for.'",
-        "ru": "Боно: «Если бы я знал, что дорога будет такой долгой, я бы начал раньше. Если бы мы не были так одержимы, мы бы не достигли так много. Если мы продолжим искать, мы найдём то, что ищем»." },
-      { "en": "Edge: 'If we hadn't gone to America, we wouldn't have written this album. If we continue like this, we will be remembered forever.'",
-        "ru": "Эдж: «Если бы мы не поехали в Америку, мы бы не написали этот альбом. Если мы продолжим так, нас будут помнить вечно»." }
+      {
+        "en": "I think if they would be interested, and our schedules aligned, I would be available for one show — for nostalgic reasons.",
+        "ru": "Я думаю, если бы они были заинтересованы и наши графики совпали, я был бы готов сыграть один концерт — из ностальгии."
+      },
+      {
+        "en": "But I don’t think Deep Purple have any interest in that.",
+        "ru": "Но я не думаю, что Deep Purple в этом заинтересованы."
+      },
+      {
+        "en": "They have their niche and are not into doing things like that.",
+        "ru": "У них есть своё направление, и они не склонны заниматься подобными вещами."
+      },
+      {
+        "en": "It’s probably not likely to happen.",
+        "ru": "Вероятно, этого не произойдёт."
+      },
+      {
+        "en": "Their management wouldn’t like it, even if it was just for a single show.",
+        "ru": "Их менеджменту это бы не понравилось, даже если речь шла бы всего об одном концерте."
+      }
     ],
-    "note": "Past → Present, Past → Future, Present → Past, Present → Future."
+    "note": "Цитаты взяты из интервью Ричи Блэкмора 2017 года о возможном одном концерте с Deep Purple. Смешанные условные конструкции в IDEA и упражнениях являются грамматическим анализом истории и не выдаются за прямые цитаты участников группы."
   },
   "russianAngle": [
-    "В русском языке мы смешиваем времена естественно: «если бы я знал, я был бы готов». В английском — смешанные условные.",
-    "Past → Present: if + Past Perfect, would + V1.",
-    "Past → Future: if + Past Perfect, would + V1.",
-    "Present → Past: if + Past Simple (were), would have + V3.",
-    "Present → Future: if + Present Simple, will + V1."
+    "В русском языке временная связь в условных предложениях часто передаётся контекстом, а не отдельным набором временных форм.",
+    "В английском Past Perfect в условной части может указывать на прошлую причину нынешнего состояния.",
+    "Would + V1 или would be + V-ing показывает результат, существующий сейчас.",
+    "Would have + V3 показывает гипотетический результат в прошлом.",
+    "При переводе mixed conditional важно сохранить направление причинно-следственной связи."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: Mixed Conditionals = связь разных времён.",
-      "Past → Present: if + Past Perfect, would + V1.",
-      "Past → Future: if + Past Perfect, would + V1.",
-      "Present → Past: if + Past Simple (were), would have + V3.",
-      "Present → Future: if + Present Simple, will + V1.",
-      "Сделай упражнение и сверься с ответами."
+      "Определи, какое событие является условием.",
+      "Определи, когда это событие произошло или происходит.",
+      "Определи, к какому моменту относится результат.",
+      "Для прошлой причины и нынешнего результата используй if + Past Perfect → would + V1.",
+      "Для нынешнего нереального условия и прошлого результата используй if + Past Simple → would have + V3.",
+      "Проверь, не является ли конструкция обычным Second или Third Conditional.",
+      "Используй could или might, если результат не является определённым."
     ],
     "exercise": {
-      "prompt": "Закончи предложения, используя правильную смешанную форму:",
+      "prompt": "Поставь глагол в правильную форму:",
       "items": [
-        { "q": "If I ___ (know) the road would be so long, I ___ (be) more prepared.", "a": "had known, would be" },
-        { "q": "If we ___ (not / be) so driven, we ___ (not / achieve) so much.", "a": "weren't, wouldn't have achieved" },
-        { "q": "If we ___ (keep) searching, we ___ (find) what we're looking for.", "a": "keep, will find" },
-        { "q": "If we ___ (not / go) to America, we ___ (not / write) this album.", "a": "hadn't gone, wouldn't have written" },
-        { "q": "If we ___ (continue) like this, we ___ (be) remembered forever.", "a": "continue, will be" }
+        {
+          "q": "If Blackmore had never left Deep Purple, he ___ with the band now.",
+          "a": "would be playing"
+        },
+        {
+          "q": "If the band were more open to reunion projects today, they ___ together again years ago.",
+          "a": "might have played"
+        },
+        {
+          "q": "If the conflicts had been resolved earlier, Deep Purple ___ different now.",
+          "a": "might be"
+        },
+        {
+          "q": "If Blackmore were still a regular member, he ___ different decisions about the band in the past.",
+          "a": "would have made"
+        },
+        {
+          "q": "If the original lineup had remained together, the group ___ a different history now.",
+          "a": "would have"
+        }
       ]
     }
   },
-  "formula": "if + Past Perfect, would + V1 · if + Past Perfect, would + V1 · if + Past Simple, would have + V3 · if + Present Simple, will + V1",
+  "formula": "if + Past Perfect → would + V1 (past cause → present result) / if + Past Simple → would have + V3 (present condition → past result)",
   "structure": {
-    "positive": "If I had known, I would be prepared.",
-    "negative": "If I hadn't known, I wouldn't be prepared.",
-    "question": "If I had known, would I be prepared?"
+    "past_to_present": "If + Past Perfect, would + V1: If Blackmore had stayed, he would be in the band now.",
+    "past_to_present_continuous": "If + Past Perfect, would be + V-ing: If Blackmore had stayed, he would be playing with the band now.",
+    "present_to_past": "If + Past Simple, would have + V3: If the band were more open to reunion projects, they would have played together again earlier.",
+    "possibility": "If + Past Perfect, might/could + V1: If Blackmore had stayed, Deep Purple might be very different now."
   },
-  "markers": ["if", "would", "would have", "had", "were", "will"],
-  "uses": [
-    "Past → Present: If I had known, I would be prepared.",
-    "Past → Future: If we had started earlier, we would have finished.",
-    "Present → Past: If we weren't driven, we wouldn't have achieved.",
-    "Present → Future: If we keep searching, we will find."
+  "markers": [
+    "if + had + V3",
+    "would + V1",
+    "would be + V-ing",
+    "if + Past Simple",
+    "would have + V3",
+    "could/might + V1",
+    "could/might have + V3",
+    "now",
+    "today",
+    "then",
+    "earlier",
+    "in the past"
   ],
+  "uses": {
+    "title": "Альтернативная история и её последствия",
+    "items": [
+      {
+        "title": "Прошлое → настоящее",
+        "text": "Прошлое решение объясняет нынешнее положение: If Blackmore had stayed, he would be in the band now."
+      },
+      {
+        "title": "Настоящее → прошлое",
+        "text": "Нынешняя гипотетическая ситуация используется для объяснения возможного прошлого результата: If the band were more open to reunions, they would have played together again earlier."
+      },
+      {
+        "title": "Альтернативная карьера",
+        "text": "Mixed Conditional позволяет рассуждать о том, как одно решение музыканта могло изменить его нынешнюю карьеру."
+      },
+      {
+        "title": "Альтернативная история группы",
+        "text": "Конструкция позволяет представить, как прошлый состав или конфликт могли бы изменить нынешнее состояние группы."
+      },
+      {
+        "title": "Гипотеза vs факт",
+        "text": "Условная конструкция не утверждает, что альтернативное событие произошло; она показывает мысленную причинно-следственную связь."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Past → Present",
-      "text": "if + Past Perfect → would + V1. If I had known, I would be prepared." },
-    { "title": "Past → Future",
-      "text": "if + Past Perfect → would + V1. If we had started earlier, we would have finished." },
-    { "title": "Present → Past",
-      "text": "if + Past Simple (were) → would have + V3. If we weren't driven, we wouldn't have achieved." },
-    { "title": "Present → Future",
-      "text": "if + Present Simple → will + V1. If we keep searching, we will find." }
+    {
+      "title": "Past → Present",
+      "text": "If + Past Perfect соединяется с would + V1, когда прошлое событие объясняет нынешнее состояние."
+    },
+    {
+      "title": "Past → Present continuous",
+      "text": "Для продолжающегося нынешнего результата используется would be + V-ing."
+    },
+    {
+      "title": "Present → Past",
+      "text": "If + Past Simple соединяется с would have + V3, когда нынешнее нереальное условие объясняет предполагаемый прошлый результат."
+    },
+    {
+      "title": "Could and might",
+      "text": "Could и might позволяют выразить возможный или менее определённый результат."
+    },
+    {
+      "title": "Mixed vs Third",
+      "text": "Third Conditional относится к прошлому в обеих частях; Mixed Conditional соединяет прошлое и настоящее."
+    },
+    {
+      "title": "Mixed vs Second",
+      "text": "Second Conditional обычно описывает нереальное настоящее или будущее; Mixed Conditional переносит результат или условие в другой временной план."
+    }
   ],
   "examples": [
     {
-      "group": "Past → Present — прошлое влияет на настоящее",
+      "group": "Past cause → present result",
       "items": [
-        { "en": "If I had known the road would be so long, I would be more prepared.", "ru": "Если бы я знал, что дорога будет такой долгой, я был бы более готов.", "highlight": ["had known", "would be"] },
-        { "en": "If we hadn't been so lucky, we wouldn't be where we are today.", "ru": "Если бы нам не так повезло, мы бы не были там, где мы сейчас.", "highlight": ["hadn't been", "wouldn't be"] },
-        { "en": "If I had written more songs, I would be a better songwriter.", "ru": "Если бы я написал больше песен, я был бы лучшим автором песен.", "highlight": ["had written", "would be"] }
+        {
+          "en": "If Blackmore had never left Deep Purple, he would be in the band now.",
+          "ru": "Если бы Блэкмор никогда не покидал Deep Purple, сейчас он был бы в группе.",
+          "highlight": [
+            "had never left",
+            "would be"
+          ]
+        },
+        {
+          "en": "If the conflicts had been resolved earlier, Deep Purple might be different now.",
+          "ru": "Если бы конфликты были разрешены раньше, сейчас Deep Purple, возможно, была бы другой.",
+          "highlight": [
+            "had been resolved",
+            "might be"
+          ]
+        },
+        {
+          "en": "If Blackmore had stayed, he would be playing with the band now.",
+          "ru": "Если бы Блэкмор остался, сейчас он играл бы с группой.",
+          "highlight": [
+            "had stayed",
+            "would be playing"
+          ]
+        },
+        {
+          "en": "If the original lineup had remained together, the group could have a different identity now.",
+          "ru": "Если бы первоначальный состав сохранился, сейчас у группы могла бы быть другая идентичность.",
+          "highlight": [
+            "had remained",
+            "could have"
+          ]
+        }
       ]
     },
     {
-      "group": "Past → Future — прошлое влияет на будущее",
+      "group": "Present condition → past result",
       "items": [
-        { "en": "If we had started earlier, we would have finished by now.", "ru": "Если бы мы начали раньше, мы бы уже закончили.", "highlight": ["had started", "would have finished"] },
-        { "en": "If he had stayed in the band, they would have been bigger.", "ru": "Если бы он остался в группе, они были бы больше.", "highlight": ["had stayed", "would have been"] },
-        { "en": "If they had released it earlier, it would have been more successful.", "ru": "Если бы они выпустили это раньше, это было бы более успешным.", "highlight": ["had released", "would have been"] }
-      ]
-    },
-    {
-      "group": "Present → Past — настоящее объясняет прошлое",
-      "items": [
-        { "en": "If we weren't so driven, we wouldn't have achieved so much.", "ru": "Если бы мы не были так одержимы, мы бы не достигли так много.", "highlight": ["weren't", "wouldn't have achieved"] },
-        { "en": "If I weren't so passionate, I wouldn't have written this song.", "ru": "Если бы я не был так страстен, я бы не написал эту песню.", "highlight": ["weren't", "wouldn't have written"] },
-        { "en": "If they weren't so talented, they wouldn't have become famous.", "ru": "Если бы они не были так талантливы, они бы не стали знаменитыми.", "highlight": ["weren't", "wouldn't have become"] }
-      ]
-    },
-    {
-      "group": "Present → Future — настоящее влияет на будущее",
-      "items": [
-        { "en": "If we keep searching, we will find what we're looking for.", "ru": "Если мы продолжим искать, мы найдём то, что ищем.", "highlight": ["keep", "will find"] },
-        { "en": "If we continue like this, we will be remembered forever.", "ru": "Если мы продолжим так, нас будут помнить вечно.", "highlight": ["continue", "will be remembered"] },
-        { "en": "If they don't change, they will be forgotten.", "ru": "Если они не изменятся, их забудут.", "highlight": ["don't change", "will be forgotten"] }
-      ]
-    },
-    {
-      "group": "Mixed с модальными глаголами",
-      "items": [
-        { "en": "If I had known, I could be more relaxed now.", "ru": "Если бы я знал, я мог бы быть более расслаблен сейчас.", "highlight": ["had known", "could be"] },
-        { "en": "If we weren't so busy, we might have finished earlier.", "ru": "Если бы мы не были так заняты, мы могли бы закончить раньше.", "highlight": ["weren't", "might have finished"] },
-        { "en": "If we had been wiser, we could avoid this problem now.", "ru": "Если бы мы были мудрее, мы могли бы избежать этой проблемы сейчас.", "highlight": ["had been", "could avoid"] }
-      ]
-    },
-    {
-      "group": "Сравнение всех типов Mixed Conditionals",
-      "items": [
-        { "en": "Past → Present: If I had known, I would be ready.", "ru": "Если бы я знал, я был бы готов.", "highlight": ["had known", "would be"] },
-        { "en": "Past → Future: If we had started, we would have finished.", "ru": "Если бы мы начали, мы бы закончили.", "highlight": ["had started", "would have finished"] },
-        { "en": "Present → Past: If I were here, I would have helped.", "ru": "Если бы я был здесь, я бы помог.", "highlight": ["were", "would have helped"] },
-        { "en": "Present → Future: If I continue, I will succeed.", "ru": "Если я продолжу, я добьюсь успеха.", "highlight": ["continue", "will succeed"] }
+        {
+          "en": "If the band were more open to reunions today, they might have played together again earlier.",
+          "ru": "Если бы сегодня группа была более открыта к воссоединениям, возможно, они уже сыграли бы вместе раньше.",
+          "highlight": [
+            "were more open",
+            "might have played"
+          ]
+        },
+        {
+          "en": "If the members were willing to work together now, they would have made different decisions in the past.",
+          "ru": "Если бы сейчас участники были готовы работать вместе, в прошлом они принимали бы другие решения.",
+          "highlight": [
+            "were willing",
+            "would have made"
+          ]
+        },
+        {
+          "en": "If the band were less cautious about reunions, Blackmore could have returned years ago.",
+          "ru": "Если бы группа была менее осторожна в вопросах воссоединения, Блэкмор мог бы вернуться много лет назад.",
+          "highlight": [
+            "were less cautious",
+            "could have returned"
+          ]
+        },
+        {
+          "en": "If the relationship were different today, they might have handled the old conflicts differently.",
+          "ru": "Если бы отношения сегодня были другими, они, возможно, иначе справились бы со старыми конфликтами.",
+          "highlight": [
+            "were different",
+            "might have handled"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "If I knew the road would be so long, I would be prepared.", "right": "If I had known the road would be so long, I would be prepared.", "note": "Past → Present: if + Past Perfect." },
-    { "wrong": "If I had known, I am prepared.", "right": "If I had known, I would be prepared.", "note": "Результат — would + V1." },
-    { "wrong": "If we weren't driven, we achieved so much.", "right": "If we weren't driven, we wouldn't have achieved so much.", "note": "Present → Past: would have + V3." },
-    { "wrong": "If we keep searching, we will find. (правильно)", "right": "If we keep searching, we will find.", "note": "Present → Future: if + Present Simple, will + V1." },
-    { "wrong": "If we had gone to America, we would write this album.", "right": "If we had gone to America, we wouldn't have written this album.", "note": "Past → Past: wouldn't have + V3." },
-    { "wrong": "If I had known, I could be relaxed now. (правильно)", "right": "If I had known, I could be relaxed now.", "note": "Past → Present: if + Past Perfect, could + V1." }
+    {
+      "wrong": "If Blackmore had stayed, he would have been in the band now.",
+      "right": "If Blackmore had stayed, he would be in the band now.",
+      "note": "Нынешний результат требует would + V1."
+    },
+    {
+      "wrong": "If the band were open to reunions, they would play together years ago.",
+      "right": "If the band were open to reunions, they would have played together years ago.",
+      "note": "Результат относится к прошлому, поэтому нужен would have + V3."
+    },
+    {
+      "wrong": "If Blackmore had never left, he would play with Deep Purple now.",
+      "right": "If Blackmore had never left, he would be playing with Deep Purple now.",
+      "note": "Для продолжающегося нынешнего действия используется would be + V-ing."
+    },
+    {
+      "wrong": "If the conflicts had been resolved, the band would have a different history now.",
+      "right": "If the conflicts had been resolved, the band would have a different history now.",
+      "note": "Эта конструкция правильна: прошлое условие объясняет нынешний результат."
+    },
+    {
+      "wrong": "If the band were willing to reunite now, they would play together in 2017.",
+      "right": "If the band were willing to reunite now, they would have played together in 2017.",
+      "note": "Конкретный результат в прошлом требует would have + V3."
+    },
+    {
+      "wrong": "If Blackmore had not left, he would have be in the band now.",
+      "right": "If Blackmore had not left, he would be in the band now.",
+      "note": "После would используется базовая форма глагола."
+    }
   ],
   "compare": {
-    "title": "Типы Mixed Conditionals",
-    "leftLabel": "Past → Present",
-    "centerLabel": "Present → Past",
-    "rightLabel": "Present → Future",
+    "title": "Second vs Third vs Mixed Conditional",
+    "leftLabel": "Second Conditional",
+    "centerLabel": "Third Conditional",
+    "rightLabel": "Mixed Conditional",
     "rows": [
-      { "left": "If I had known, I would be ready.", "center": "If I were here, I would have helped.", "right": "If I continue, I will succeed." },
-      { "left": "if + Past Perfect, would + V1", "center": "if + Past Simple, would have + V3", "right": "if + Present Simple, will + V1" }
+      {
+        "left": "If Blackmore were in the band, he would play these songs.",
+        "center": "If Blackmore had stayed, he would have played these songs.",
+        "right": "If Blackmore had stayed, he would be playing these songs now."
+      },
+      {
+        "left": "If the band were ready, they would reunite.",
+        "center": "If the band had been ready, they would have reunited.",
+        "right": "If the band were ready now, they would have reunited earlier."
+      },
+      {
+        "left": "If they were closer, they would work together.",
+        "center": "If they had been closer, they would have worked together.",
+        "right": "If they had resolved the conflict, they would be closer now."
+      },
+      {
+        "left": "If Blackmore were still a member, he would tour with them.",
+        "center": "If Blackmore had remained a member, he would have toured with them.",
+        "right": "If Blackmore had remained a member, he would be touring with them now."
+      }
     ]
   },
   "tips": [
-    "Past → Present: if + Past Perfect → would + V1.",
-    "Past → Future: if + Past Perfect → would + V1.",
-    "Present → Past: if + Past Simple (were) → would have + V3.",
-    "Present → Future: if + Present Simple → will + V1.",
-    "Смешивай времена в зависимости от смысла.",
-    "Используй в сложных текстах и литературе.",
-    "Проверяй: какое время в условии? Какое время в результате?"
+    "Определи временную точку каждой части предложения.",
+    "Past Perfect в if-clause обычно указывает на прошлую причину.",
+    "Would + V1 показывает результат в настоящем.",
+    "Would be + V-ing показывает продолжающийся нынешний результат.",
+    "Would have + V3 показывает результат в прошлом.",
+    "Не смешивай формы только ради сложности: временная связь должна иметь смысл.",
+    "Could и might позволяют сделать гипотезу менее категоричной.",
+    "Mixed Conditional особенно полезен для анализа карьеры, решений и их долгосрочных последствий."
   ],
-  "related": ["b2-mixed-conditionals", "c2-participle-clauses", "c2-modals-past-deduction", "c2-mandative-subjunctive", "c2-inversion-so-such", "c2-cohesion-and-register"],
   "quiz": [
     {
-      "q": "If I ___ the road would be so long, I ___ more prepared.",
-      "options": ["had known, would be", "knew, would be", "had known, would have been", "knew, would have been"],
-      "answer": 0,
-      "why": "Past → Present: if + Past Perfect, would + V1."
+      "q": "Choose the correct sentence: If Blackmore had stayed, he ___ with Deep Purple now.",
+      "options": [
+        "would have played",
+        "would be playing",
+        "would play then"
+      ],
+      "answer": 1,
+      "why": "Прошлое условие приводит к продолжающемуся результату в настоящем."
     },
     {
-      "q": "If we ___ so driven, we ___ so much.",
-      "options": ["weren't, wouldn't have achieved", "hadn't been, wouldn't have achieved", "weren't, wouldn't achieve", "hadn't been, wouldn't achieve"],
-      "answer": 0,
-      "why": "Present → Past: if + Past Simple, would have + V3."
+      "q": "If the band were more open to reunions today, they ___ together earlier.",
+      "options": [
+        "would play",
+        "would have played",
+        "had played"
+      ],
+      "answer": 1,
+      "why": "Нынешнее условие связано с предполагаемым результатом в прошлом."
     },
     {
-      "q": "If we ___ searching, we ___ what we're looking for.",
-      "options": ["keep, will find", "kept, would find", "had kept, would have found", "keep, would find"],
-      "answer": 0,
-      "why": "Present → Future: if + Present Simple, will + V1."
+      "q": "Which sentence is a Mixed Conditional?",
+      "options": [
+        "If Blackmore had stayed, he would have played with the band.",
+        "If Blackmore stayed, he would play with the band.",
+        "If Blackmore had stayed, he would be in the band now."
+      ],
+      "answer": 2,
+      "why": "Условие относится к прошлому, а результат — к настоящему."
     },
     {
-      "q": "If we ___ to America, we ___ this album.",
-      "options": ["hadn't gone, wouldn't have written", "didn't go, wouldn't have written", "hadn't gone, wouldn't write", "didn't go, wouldn't write"],
+      "q": "Choose the correct sentence.",
+      "options": [
+        "If the conflicts had ended earlier, the band would be different now.",
+        "If the conflicts had ended earlier, the band would have been different now.",
+        "If the conflicts ended earlier, the band would have been different now."
+      ],
       "answer": 0,
-      "why": "Past → Past: if + Past Perfect, would have + V3."
+      "why": "Прошлая причина объясняет нынешнее состояние."
     },
     {
-      "q": "If I ___ more songs, I ___ a better songwriter.",
-      "options": ["had written, would be", "wrote, would be", "had written, would have been", "wrote, would have been"],
-      "answer": 0,
-      "why": "Past → Present: if + Past Perfect, would + V1."
+      "q": "If the members were willing to reunite now, they ___ different decisions in the past.",
+      "options": [
+        "would make",
+        "would have made",
+        "had made"
+      ],
+      "answer": 1,
+      "why": "Нынешнее нереальное условие связано с предполагаемым прошлым результатом."
     },
     {
-      "q": "If we ___ so busy, we ___ finished earlier.",
-      "options": ["weren't, might have", "hadn't been, might have", "weren't, might", "hadn't been, might"],
+      "q": "Which form completes the sentence: If the original lineup had remained together, Deep Purple ___ a different identity now.",
+      "options": [
+        "would have",
+        "would have had",
+        "would be having had"
+      ],
       "answer": 0,
-      "why": "Present → Past: if + Past Simple, might have + V3."
+      "why": "Past Perfect в условии связан с нынешним результатом: would have."
     }
+  ],
+  "related": [
+    "b2-second-conditional",
+    "b2-third-conditional",
+    "c1-inversion-in-conditional",
+    "c2-inversion-so-such"
   ]
 }

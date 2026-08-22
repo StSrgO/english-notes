@@ -1,194 +1,400 @@
 {
   "variant": "classic",
-  "slug": "c1-inversion-in-conditionals",
+  "slug": "c1-inversion-in-conditional",
   "level": "C1",
-  "title": "Inversion in conditionals",
-  "category": "Inversion",
-  "readingTime": 11,
-  "summary": "Инверсия в условных предложениях — формальный способ выразить условие без if. История о том, как Франц Кафка использовал инверсию в «Превращении».",
+  "title": "Inversion in Conditional Sentences",
+  "category": "Grammar",
+  "readingTime": 12,
+  "summary": "В формальном английском условные предложения иногда строятся без if. Вместо него вспомогательный глагол или were ставится перед подлежащим: Had she known..., Were he to..., Should you need.... Такая инверсия делает условие более компактным и формальным, особенно в письменной речи.",
   "idea": [
-    "Франц Кафка написал «Превращение» в 1912 году. Это история о Грегоре Замзе, который просыпается однажды утром и обнаруживает, что превратился в огромное насекомое. Кафка использовал инверсию в условных предложениях для драматического эффекта. «Had he known what was coming, he would have acted differently» — знай он, что его ждёт, он бы поступил иначе. «Were he to escape, he would be free» — если бы он смог сбежать, он был бы свободен. «Should he try to explain, no one would listen» — если бы он попытался объяснить, никто бы не слушал.",
-    "Кафка никогда не был знаменит при жизни. Он просил друга сжечь все его рукописи после смерти. Друг не послушался. Если бы друг выполнил его просьбу, мир бы никогда не узнал о Кафке. Инверсия: «Had his friend obeyed, the world would have lost a genius». Кафка использовал инверсию, чтобы подчеркнуть трагичность судьбы своих героев.",
-    "Инверсия в условных предложениях — это формальный способ выразить условие без if. Had + subject + V3 (третье условие). Were + subject + to + V1 (второе условие). Should + subject + V1 (первое условие). Используется в литературе и официальных текстах."
+    "Условное предложение обычно начинается с [bold]if[/bold]: [bold]If she had known, she might have acted differently.[/bold] Но в формальном английском [bold]if[/bold] иногда исчезает, а вспомогательный глагол выходит перед подлежащим: [bold]Had she known, she might have acted differently.[/bold] Смысл остаётся условным, но форма становится более компактной и книжной.",
+    "Именно такая форма появляется в [bold]Tess of the d’Urbervilles[/bold], где история Тесс постоянно заставляет читателя возвращаться к событиям, которые могли бы развиваться иначе. В романе альтернативные возможности особенно важны потому, что судьба героини складывается из случайностей, решений других людей и последствий уже произошедшего.",
+    "В одном из эпизодов Харди пишет: [bold]If Tess had been artful, had she made a scene, fainted, wept hysterically... he would probably not have withstood her.[/bold] Здесь особенно интересно второе условие: [bold]had she made a scene[/bold]. Это сокращённая формальная версия [bold]if she had made a scene[/bold].",
+    "Конструкция строится так: [bold]Had + subject + past participle[/bold]. [bold]Had she made a scene[/bold] означает [bold]If she had made a scene[/bold]. Здесь [bold]had[/bold] не является обычным смысловым глаголом «иметь» — это вспомогательный элемент Past Perfect, вынесенный перед подлежащим.",
+    "Такая форма особенно естественна в третьем условном типе, когда мы говорим о прошлом, которое уже нельзя изменить. [bold]If she had made a scene, he would probably not have withstood her.[/bold] → [bold]Had she made a scene, he would probably not have withstood her.[/bold] Обе версии грамматически возможны, но вторая звучит заметно более формально.",
+    "В [bold]Tess of the d’Urbervilles[/bold] эта форма хорошо соответствует самой логике повествования. Рассказ постоянно возвращается к моментам, когда одно небольшое решение могло привести к совершенно другой последовательности событий. Инверсия позволяет выразить такую альтернативу коротко и без разговорного [bold]if[/bold].",
+    "Важно не путать эту конструкцию с обычным вопросом. [bold]Had she made a scene?[/bold] в вопросительном предложении действительно может быть вопросом о прошлом. Но в [bold]Had she made a scene, he would probably not have withstood her[/bold] перед нами не вопрос, а условная часть сложного предложения.",
+    "Второй тип инверсии использует [bold]were[/bold]. Вместо [bold]If he were here, things would be different[/bold] можно сказать [bold]Were he here, things would be different.[/bold] Здесь [bold]were[/bold] также выходит перед подлежащим.",
+    "Такая конструкция особенно характерна для формального и письменного английского. [bold]Were he to return[/bold] означает [bold]If he were to return[/bold]. Она представляет возможную ситуацию как гипотезу: если бы он вернулся или если бы предположить его возвращение.",
+    "Сравни: [bold]If Angel were to return, Tess would have to decide what to do.[/bold] и [bold]Were Angel to return, Tess would have to decide what to do.[/bold] Смысл одинаков, но второй вариант звучит более литературно и дистанцированно.",
+    "Третий вариант использует [bold]should[/bold]. [bold]If you should need help, write to me[/bold] можно преобразовать в [bold]Should you need help, write to me.[/bold] Здесь [bold]should[/bold] обозначает не обязанность, а условную возможность: «если вдруг понадобится».",
+    "В отличие от [bold]had[/bold], который связан с нереальным прошлым, [bold]should[/bold] часто используется для возможной ситуации в будущем. [bold]Should Angel return, Tess would have to respond.[/bold] Здесь речь не идёт о том, что возвращение уже произошло или не произошло. Это гипотетическая возможность.",
+    "Таким образом, три основные модели можно связать с тремя типами условного значения. [bold]Had + subject + past participle[/bold] обычно заменяет [bold]if + Past Perfect[/bold]. [bold]Were + subject + adjective/noun[/bold] или [bold]were + subject + to + verb[/bold] заменяет соответствующую конструкцию с [bold]if[/bold]. [bold]Should + subject + verb[/bold] обычно выражает формальную гипотетическую возможность.",
+    "Сравним три модели: [bold]Had she known, she would have acted differently.[/bold] — если бы она знала тогда. [bold]Were she to know, she would act differently.[/bold] — если бы она узнала. [bold]Should she learn the truth, she might act differently.[/bold] — если вдруг она узнает правду.",
+    "Главное здесь — не запоминать три отдельных «хитрых» конструкции. Инверсия просто убирает [bold]if[/bold] и меняет порядок слов внутри условной части. После этого основная часть предложения остаётся такой же: [bold]Had she known, she would have acted differently.[/bold]",
+    "В тексте Харди инверсия особенно выразительна потому, что она помещает альтернативное прошлое рядом с реальным. Читатель знает, что Тесс не сделала сцену, не изменила ситуацию и не получила другого исхода. Поэтому [bold]had she made a scene[/bold] открывает короткое пространство для события, которого в действительности не произошло.",
+    "Смысл можно проверить обратным преобразованием. [bold]Had they known about the danger, they might have acted differently[/bold] → [bold]If they had known about the danger, they might have acted differently.[/bold] Если после возвращения [bold]if[/bold] структура сохраняет смысл, инверсия распознана правильно.",
+    "Но не всякое условное предложение можно просто переставить. Нельзя механически превращать [bold]If she knew the answer[/bold] в [bold]Knew she the answer[/bold]. Для этого типа конструкции нужен специальный вспомогательный элемент: [bold]were[/bold], [bold]had[/bold] или [bold]should[/bold].",
+    "Поэтому формула урока очень проста: [bold]Had + subject + past participle[/bold], [bold]Were + subject + ...[/bold], [bold]Should + subject + verb[/bold]. Эти формы особенно полезны тогда, когда английский должен звучать формально, литературно или сжатo.",
+    "В [bold]Tess of the d’Urbervilles[/bold] такая грамматика естественно соединяется с темой альтернативной судьбы. [bold]Had she made a scene...[/bold] показывает не новую линию сюжета, а возможность, которая существовала в прошлом и осталась нереализованной. Именно это и делает conditional inversion полезной для сложного повествования: она позволяет очень коротко представить другой возможный исход."
   ],
   "why": [
-    "Формальный способ выражения условия: Had he known what was coming...",
-    "Литературный эффект: Were he to escape, he would be free.",
-    "Драматическое усиление: Should he try to explain, no one would listen.",
-    "Использование в официальных текстах: Had the government acted sooner..."
+    "Выражать условие в формальном и письменном английском.",
+    "Заменять конструкции с if на более компактную инверсию.",
+    "Говорить о нереальном прошлом через Had + subject + past participle.",
+    "Использовать Were и Should для формальных гипотетических условий."
   ],
   "context": {
     "lines": [
-      { "en": "Kafka: 'Had he known what was coming, he would have acted differently. Were he to escape, he would be free. Should he try to explain, no one would listen.'",
-        "ru": "Кафка: «Знай он, что его ждёт, он бы поступил иначе. Если бы он смог сбежать, он был бы свободен. Если бы он попытался объяснить, никто бы не слушал»." },
-      { "en": "Friend: 'Had I obeyed your wish, the world would have lost a genius. Were you to forgive me, I would be grateful.'",
-        "ru": "Друг: «Если бы я выполнил твою просьбу, мир бы потерял гения. Если бы ты простил меня, я был бы благодарен»." }
+      {
+        "en": "If Tess had been artful, had she made a scene, fainted, wept hysterically...",
+        "ru": "Если бы Тесс поступила хитрее, если бы она устроила сцену, потеряла сознание, впала в истерику..."
+      },
+      {
+        "en": "Had she any moral right to the name?",
+        "ru": "Имела ли она какое-либо моральное право на это имя?"
+      },
+      {
+        "en": "Had he been cruelly blinded?",
+        "ru": "Не был ли он жестоко ослеплён?"
+      },
+      {
+        "en": "If he had known the truth, he might have acted differently.",
+        "ru": "Если бы он знал правду, он мог бы поступить иначе."
+      }
     ],
-    "note": "Had + subject + V3 (прошлое); Were + subject + to + V1 (настоящее); Should + subject + V1 (будущее)."
+    "note": "Первый пример содержит аутентичную условную инверсию had she made a scene из Tess of the d’Urbervilles. Остальные примеры используются для грамматического анализа и не выдаются за дословные цитаты Харди."
   },
   "russianAngle": [
-    "В русском языке мы говорим: «знай он...» вместо «если бы он знал...». В английском — инверсия.",
-    "Had + subject + V3 = третье условие (прошлое).",
-    "Were + subject + to + V1 = второе условие (настоящее).",
-    "Should + subject + V1 = первое условие (будущее) — формально."
+    "В русском языке условие обычно выражается союзом «если бы», поэтому английская инверсия без if может восприниматься как необычная.",
+    "В английском Had/Were/Should могут занимать позицию перед подлежащим и самостоятельно маркировать формальное условие.",
+    "Had + subject + past participle обычно соответствует If + Past Perfect.",
+    "Were + subject + ... соответствует условию с if и were.",
+    "Should + subject + verb выражает формальную гипотетическую возможность."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: инверсия в conditionals = без if.",
-      "Had + subject + V3 (прошлое).",
-      "Were + subject + to + V1 (настоящее).",
-      "Should + subject + V1 (будущее) — формально.",
-      "Используется в литературе и официальных текстах.",
-      "Сделай упражнение и сверься с ответами."
+      "Найди условную часть предложения.",
+      "Проверь, можно ли заменить if на had, were или should.",
+      "Для прошлого используй Had + subject + past participle.",
+      "Для гипотетического состояния используй Were + subject + ...",
+      "Для возможной будущей ситуации используй Should + subject + verb.",
+      "Не меняй основную часть условного предложения.",
+      "Проверь, что после инверсии предложение больше не содержит if."
     ],
     "exercise": {
-      "prompt": "Преобразуйте предложения с if в инверсию:",
+      "prompt": "Преобразуй условное предложение в формальную инверсию:",
       "items": [
-        { "q": "If he had known what was coming, he would have acted differently. → ___ he known what was coming, he would have acted differently.", "a": "Had" },
-        { "q": "If he were to escape, he would be free. → ___ he to escape, he would be free.", "a": "Were" },
-        { "q": "If he should try to explain, no one would listen. → ___ he try to explain, no one would listen.", "a": "Should" },
-        { "q": "If his friend had obeyed, the world would have lost a genius. → ___ his friend obeyed, the world would have lost a genius.", "a": "Had" },
-        { "q": "If he had not been so isolated, he would have been happier. → ___ he not been so isolated, he would have been happier.", "a": "Had" }
+        {
+          "q": "If she had known the truth, she would have acted differently.",
+          "a": "Had she known the truth, she would have acted differently."
+        },
+        {
+          "q": "If he were here, the situation would be different.",
+          "a": "Were he here, the situation would be different."
+        },
+        {
+          "q": "If she were to return, we would speak to her.",
+          "a": "Were she to return, we would speak to her."
+        },
+        {
+          "q": "If you should need anything, let me know.",
+          "a": "Should you need anything, let me know."
+        },
+        {
+          "q": "If they had arrived earlier, they might have seen her.",
+          "a": "Had they arrived earlier, they might have seen her."
+        }
       ]
     }
   },
-  "formula": "Had + subject + V3 · Were + subject + to + V1 · Should + subject + V1",
+  "formula": "Had + subject + past participle..., ... / Were + subject + ..., ... / Should + subject + verb..., ...",
   "structure": {
-    "positive": "Had he known, he would have acted differently.",
-    "negative": "Had he not known, he wouldn't have acted differently.",
-    "question": "Had he known what was coming?"
+    "past_unreal": "If she had known... → Had she known..., ...",
+    "hypothetical_state": "If he were here... → Were he here..., ...",
+    "hypothetical_future": "If she were to return... → Were she to return..., ...",
+    "formal_possibility": "If you should need help... → Should you need help..., ..."
   },
-  "markers": ["had", "were", "should", "if"],
-  "uses": [
-    "Had + subject + V3: Had he known what was coming... (прошлое)",
-    "Were + subject + to + V1: Were he to escape, he would be free. (настоящее)",
-    "Should + subject + V1: Should he try to explain, no one would listen. (будущее)",
-    "Используется в литературе и официальных текстах."
+  "markers": [
+    "Had + subject + past participle",
+    "Were + subject + adjective/noun",
+    "Were + subject + to + verb",
+    "Should + subject + verb"
   ],
+  "uses": {
+    "title": "Как работает conditional inversion",
+    "items": [
+      {
+        "title": "Нереальное прошлое",
+        "text": "Had + subject + past participle заменяет If + Past Perfect: \"If she had known\" → \"Had she known\"."
+      },
+      {
+        "title": "Гипотетическое состояние",
+        "text": "Were может выходить перед подлежащим: \"If he were here\" → \"Were he here\"."
+      },
+      {
+        "title": "Гипотетическая ситуация",
+        "text": "Were + subject + to + verb представляет возможную, но гипотетическую ситуацию: \"If she were to return\" → \"Were she to return\"."
+      },
+      {
+        "title": "Формальная возможность",
+        "text": "Should + subject + verb используется для возможной ситуации, особенно в формальной речи: \"If you should need help\" → \"Should you need help\"."
+      },
+      {
+        "title": "Формальный стиль",
+        "text": "Инверсия без if делает условное предложение более компактным и книжным."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Had + subject + V3",
-      "text": "Замена if + Past Perfect. Had he known what was coming, he would have acted differently." },
-    { "title": "Were + subject + to + V1",
-      "text": "Замена if + Past Simple. Were he to escape, he would be free." },
-    { "title": "Should + subject + V1",
-      "text": "Замена if + Present Simple (формально). Should he try to explain, no one would listen." },
-    { "title": "Отрицание",
-      "text": "Had he not been so isolated... Were he not to write..." }
+    {
+      "title": "Had inversion",
+      "text": "Had + subject + past participle заменяет If + Past Perfect."
+    },
+    {
+      "title": "Were inversion",
+      "text": "Were может ставиться перед подлежащим вместо If + were."
+    },
+    {
+      "title": "Were to",
+      "text": "Were + subject + to + verb выражает гипотетическую ситуацию."
+    },
+    {
+      "title": "Should inversion",
+      "text": "Should + subject + verb выражает формальную возможную ситуацию."
+    },
+    {
+      "title": "No if",
+      "text": "После инверсии союз if не используется."
+    },
+    {
+      "title": "Formal register",
+      "text": "Conditional inversion особенно характерна для формального, литературного и письменного английского."
+    }
   ],
   "examples": [
     {
-      "group": "Had + subject + V3 — третье условие (прошлое)",
+      "group": "Had",
       "items": [
-        { "en": "Had he known what was coming, he would have acted differently.", "ru": "Знай он, что его ждёт, он бы поступил иначе.", "highlight": ["Had he known"] },
-        { "en": "Had he not been so isolated, he would have been happier.", "ru": "Не будь он таким изолированным, он был бы счастливее.", "highlight": ["Had he not been"] },
-        { "en": "Had his friend obeyed, the world would have lost a genius.", "ru": "Если бы друг послушался, мир бы потерял гения.", "highlight": ["Had his friend obeyed"] }
+        {
+          "en": "If she had known, she would have acted differently. → Had she known, she would have acted differently.",
+          "ru": "Если бы она знала, она поступила бы иначе.",
+          "highlight": [
+            "Had she known"
+          ]
+        },
+        {
+          "en": "If they had arrived earlier, they might have seen her. → Had they arrived earlier, they might have seen her.",
+          "ru": "Если бы они приехали раньше, они могли бы её увидеть.",
+          "highlight": [
+            "Had they arrived"
+          ]
+        },
+        {
+          "en": "If Tess had made a scene, he might not have withstood her. → Had Tess made a scene, he might not have withstood her.",
+          "ru": "Если бы Тесс устроила сцену, он, возможно, не устоял бы перед ней.",
+          "highlight": [
+            "Had Tess made"
+          ]
+        }
       ]
     },
     {
-      "group": "Were + subject + to + V1 — второе условие (настоящее)",
+      "group": "Were",
       "items": [
-        { "en": "Were he to escape, he would be free.", "ru": "Если бы он смог сбежать, он был бы свободен.", "highlight": ["Were he to escape"] },
-        { "en": "Were I to write a book, it would be about isolation.", "ru": "Если бы я написал книгу, она была бы об изоляции.", "highlight": ["Were I to write"] },
-        { "en": "Were she to understand, she would forgive him.", "ru": "Если бы она поняла, она бы простила его.", "highlight": ["Were she to understand"] }
+        {
+          "en": "If he were here, things would be different. → Were he here, things would be different.",
+          "ru": "Если бы он был здесь, всё было бы иначе.",
+          "highlight": [
+            "Were he here"
+          ]
+        },
+        {
+          "en": "If she were to return, we would speak to her. → Were she to return, we would speak to her.",
+          "ru": "Если бы она вернулась, мы поговорили бы с ней.",
+          "highlight": [
+            "Were she to return"
+          ]
+        },
+        {
+          "en": "If the situation were different, Tess might choose another path. → Were the situation different, Tess might choose another path.",
+          "ru": "Если бы ситуация была другой, Тесс могла бы выбрать иной путь.",
+          "highlight": [
+            "Were the situation different"
+          ]
+        }
       ]
     },
     {
-      "group": "Should + subject + V1 — первое условие (будущее, формально)",
+      "group": "Should",
       "items": [
-        { "en": "Should he try to explain, no one would listen.", "ru": "Если бы он попытался объяснить, никто бы не слушал.", "highlight": ["Should he try"] },
-        { "en": "Should you need help, call me.", "ru": "Если вам понадобится помощь, позвоните мне.", "highlight": ["Should you need"] },
-        { "en": "Should she arrive early, she can wait in the lobby.", "ru": "Если она приедет рано, она может подождать в фойе.", "highlight": ["Should she arrive"] }
+        {
+          "en": "If you should need help, let me know. → Should you need help, let me know.",
+          "ru": "Если вдруг тебе понадобится помощь, дай мне знать.",
+          "highlight": [
+            "Should you need"
+          ]
+        },
+        {
+          "en": "If she should return, we would speak to her. → Should she return, we would speak to her.",
+          "ru": "Если вдруг она вернётся, мы поговорим с ней.",
+          "highlight": [
+            "Should she return"
+          ]
+        },
+        {
+          "en": "If they should ask, tell them the truth. → Should they ask, tell them the truth.",
+          "ru": "Если они вдруг спросят, скажи им правду.",
+          "highlight": [
+            "Should they ask"
+          ]
+        }
       ]
     },
     {
-      "group": "Отрицание в инверсии",
+      "group": "Literary conditional",
       "items": [
-        { "en": "Had he not been so curious, he would have survived.", "ru": "Не будь он таким любопытным, он бы выжил.", "highlight": ["Had he not been"] },
-        { "en": "Were he not to write, he would lose his mind.", "ru": "Если бы он не писал, он бы сошёл с ума.", "highlight": ["Were he not to write"] },
-        { "en": "Should she not arrive on time, we will start without her.", "ru": "Если она не приедет вовремя, мы начнём без неё.", "highlight": ["Should she not arrive"] }
-      ]
-    },
-    {
-      "group": "Сравнение if и инверсии",
-      "items": [
-        { "en": "If he had known... → Had he known...", "ru": "Если бы он знал... → Знай он...", "highlight": ["Had he known"] },
-        { "en": "If he were to escape... → Were he to escape...", "ru": "Если бы он сбежал... → Если бы он сбежал... (инверсия)", "highlight": ["Were he to escape"] },
-        { "en": "If he should try... → Should he try...", "ru": "Если бы он попытался... → Попытайся он...", "highlight": ["Should he try"] }
-      ]
-    },
-    {
-      "group": "Смешанные примеры",
-      "items": [
-        { "en": "Had he known the truth, he would have acted differently. Were he to do it again, he would make the same choice.", "ru": "Знай он правду, он бы поступил иначе. Если бы он сделал это снова, он бы сделал тот же выбор.", "highlight": ["Had he known", "Were he to do"] },
-        { "en": "Had she not been so brave, she would have given up. Should she need anything, call me.", "ru": "Не будь она такой храброй, она бы сдалась. Если ей что-то понадобится, позвони мне.", "highlight": ["Had she not been", "Should she need"] },
-        { "en": "Were I to write a novel, I would write about Kafka. Had I read him earlier, I would have written differently.", "ru": "Если бы я написал роман, я бы написал о Кафке. Если бы я прочитал его раньше, я бы писал иначе.", "highlight": ["Were I to write", "Had I read"] }
+        {
+          "en": "If Tess had been artful, had she made a scene, he would probably not have withstood her.",
+          "ru": "Если бы Тесс поступила хитрее, если бы она устроила сцену, он, вероятно, не устоял бы перед ней.",
+          "highlight": [
+            "had she made a scene"
+          ]
+        },
+        {
+          "en": "If she had known the consequences, she might have chosen differently. → Had she known the consequences, she might have chosen differently.",
+          "ru": "Если бы она знала о последствиях, она могла бы выбрать иначе.",
+          "highlight": [
+            "Had she known"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "If he had known... (обычное)", "right": "Had he known... (инверсия)", "note": "Инверсия: Had + subject + V3." },
-    { "wrong": "Had he known what was coming, he would have acted differently. (правильно)", "right": "Had he known what was coming, he would have acted differently.", "note": "Правильно!" },
-    { "wrong": "Were he to escape, he would be free. (правильно)", "right": "Were he to escape, he would be free.", "note": "Правильно!" },
-    { "wrong": "Should he try to explain, no one would listen. (правильно)", "right": "Should he try to explain, no one would listen.", "note": "Правильно!" },
-    { "wrong": "Had he not been so isolated, he would have been happier. (правильно)", "right": "Had he not been so isolated, he would have been happier.", "note": "Правильно!" },
-    { "wrong": "Were he not to write, he would lose his mind. (правильно)", "right": "Were he not to write, he would lose his mind.", "note": "Правильно!" }
+    {
+      "wrong": "Had she knew the truth, she would have acted differently.",
+      "right": "Had she known the truth, she would have acted differently.",
+      "note": "После had нужен Past Participle."
+    },
+    {
+      "wrong": "Had she had known the truth, she would have acted differently.",
+      "right": "Had she known the truth, she would have acted differently.",
+      "note": "Не добавляй второй had без необходимости."
+    },
+    {
+      "wrong": "Were he would be here, things would change.",
+      "right": "Were he here, things would change.",
+      "note": "После were сразу идёт подлежащее и дополнение/именная часть."
+    },
+    {
+      "wrong": "Were he to returned, we would speak to him.",
+      "right": "Were he to return, we would speak to him.",
+      "note": "После to используется базовая форма глагола."
+    },
+    {
+      "wrong": "Should you will need help, call me.",
+      "right": "Should you need help, call me.",
+      "note": "После should используется базовая форма глагола без will."
+    },
+    {
+      "wrong": "If had she known, she would have acted differently.",
+      "right": "Had she known, she would have acted differently.",
+      "note": "При инверсии if полностью исчезает."
+    }
   ],
   "compare": {
-    "title": "If vs Inversion in conditionals",
-    "leftLabel": "If (обычный порядок)",
-    "rightLabel": "Inversion (формальный)",
+    "title": "Обычное условие vs Conditional Inversion",
+    "leftLabel": "If — обычная форма",
+    "rightLabel": "Inversion — формальная форма",
     "rows": [
-      { "left": "If he had known, he would have acted.", "right": "Had he known, he would have acted." },
-      { "left": "If he were to escape, he would be free.", "right": "Were he to escape, he would be free." },
-      { "left": "If he should try, no one would listen.", "right": "Should he try, no one would listen." }
+      {
+        "left": "If she had known, she would have acted differently.",
+        "right": "Had she known, she would have acted differently."
+      },
+      {
+        "left": "If he were here, things would be different.",
+        "right": "Were he here, things would be different."
+      },
+      {
+        "left": "If she were to return, we would speak to her.",
+        "right": "Were she to return, we would speak to her."
+      },
+      {
+        "left": "If you should need help, let me know.",
+        "right": "Should you need help, let me know."
+      },
+      {
+        "left": "If they had arrived earlier, they might have seen her.",
+        "right": "Had they arrived earlier, they might have seen her."
+      }
     ]
   },
   "tips": [
-    "Had + subject + V3 = третье условие (прошлое).",
-    "Were + subject + to + V1 = второе условие (настоящее).",
-    "Should + subject + V1 = первое условие (будущее) — формально.",
-    "Инверсия без if.",
-    "Используется в литературе и официальных текстах.",
-    "Не злоупотребляй в обычной речи.",
-    "Проверяй, что это формальный контекст."
+    "Увидел Had в начале условной части — проверь, нет ли после него подлежащего и Past Participle.",
+    "Were в начале может заменять If + were.",
+    "Were + subject + to + verb — формальная гипотеза.",
+    "Should + subject + verb — формальная возможная ситуация.",
+    "После инверсии if не используется.",
+    "Не путай conditional inversion с вопросительным порядком слов.",
+    "Такая конструкция особенно характерна для формального и литературного английского."
   ],
-  "related": ["c1-inversion-after-negative-adverbials", "c1-cleft-sentences", "c1-subjunctive-wish-regret"],
   "quiz": [
     {
-      "q": "___ he known what was coming, he would have acted differently.",
-      "options": ["Had", "Were", "Should", "If"],
+      "q": "Choose the correct formal equivalent: “If she had known, she would have acted differently.”",
+      "options": [
+        "Had she known, she would have acted differently.",
+        "Had she knew, she would have acted differently.",
+        "Had known she, she would have acted differently."
+      ],
       "answer": 0,
-      "why": "Had + subject + V3 для третьего условия."
+      "why": "Had + subject + Past Participle: Had she known."
     },
     {
-      "q": "___ he to escape, he would be free.",
-      "options": ["Had", "Were", "Should", "If"],
+      "q": "Choose the correct inversion: “If he were here, things would change.”",
+      "options": [
+        "Were he here, things would change.",
+        "Were here he, things would change.",
+        "Was he here, things would change."
+      ],
+      "answer": 0,
+      "why": "Were ставится перед подлежащим."
+    },
+    {
+      "q": "Choose the correct form: “If she were to return...”",
+      "options": [
+        "Were she to return...",
+        "Were she returned...",
+        "Had she to return..."
+      ],
+      "answer": 0,
+      "why": "Формальная гипотеза строится как Were + subject + to + verb."
+    },
+    {
+      "q": "Choose the correct form: “If you should need help...”",
+      "options": [
+        "Should you need help...",
+        "Should you needed help...",
+        "Should need you help..."
+      ],
+      "answer": 0,
+      "why": "После should используется базовая форма глагола."
+    },
+    {
+      "q": "What happens to if in conditional inversion?",
+      "options": [
+        "It stays before the auxiliary.",
+        "It disappears.",
+        "It moves to the end."
+      ],
       "answer": 1,
-      "why": "Were + subject + to + V1 для второго условия."
+      "why": "Инверсия заменяет конструкцию с if, поэтому if исчезает."
     },
     {
-      "q": "___ he try to explain, no one would listen.",
-      "options": ["Had", "Were", "Should", "If"],
+      "q": "Which sentence refers to an unreal past situation?",
+      "options": [
+        "Should she return, we will speak to her.",
+        "Were she to return, we would speak to her.",
+        "Had she returned, we would have spoken to her."
+      ],
       "answer": 2,
-      "why": "Should + subject + V1 для первого условия (формально)."
-    },
-    {
-      "q": "___ his friend obeyed, the world would have lost a genius.",
-      "options": ["Had", "Were", "Should", "If"],
-      "answer": 0,
-      "why": "Had + subject + V3 для третьего условия."
-    },
-    {
-      "q": "___ he not been so isolated, he would have been happier.",
-      "options": ["Had", "Were", "Should", "If"],
-      "answer": 0,
-      "why": "Отрицание в третьем условии: Had he not been..."
-    },
-    {
-      "q": "___ she not arrive on time, we will start without her.",
-      "options": ["Had", "Were", "Should", "If"],
-      "answer": 2,
-      "why": "Should + subject + V1 для первого условия (отрицание)."
+      "why": "Had + Past Participle выражает нереальное условие в прошлом."
     }
+  ],
+  "related": [
+    "b2-second-conditional",
+    "b2-third-conditional",
+    "c1-inversion-after-negative-adverbials",
+    "c1-subjunctive-wish-regret"
   ]
 }

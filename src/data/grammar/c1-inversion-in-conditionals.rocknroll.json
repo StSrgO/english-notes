@@ -1,194 +1,412 @@
 {
   "variant": "rocknroll",
-  "slug": "c1-inversion-in-conditionals",
+  "slug": "c1-inversion-in-conditional",
   "level": "C1",
-  "title": "Inversion in conditionals",
-  "category": "Inversion",
-  "readingTime": 11,
-  "summary": "Инверсия в условных предложениях — формальный способ выразить условие без if. История о том, как Joy Division использовали инверсию в текстах песен.",
+  "title": "Inversion in Conditional Sentences",
+  "category": "Grammar",
+  "readingTime": 12,
+  "summary": "В формальном английском условные предложения иногда строятся без if. Вместо него вспомогательный глагол или were ставится перед подлежащим: Had/Were/Should + subject.... Такая инверсия делает условие более компактным и формальным и особенно характерна для письменной речи, интервью и публицистики.",
   "idea": [
-    "Joy Division записали «Unknown Pleasures» в 1979 году. Это был мрачный и мощный альбом, который изменил музыку. Иэн Кертис писал тексты о депрессии, одиночестве и отчаянии. Он использовал инверсию в условных предложениях в своих текстах. «Were I to die, would you remember me?» — если бы я умер, ты бы меня помнила? «Had I known the end, I would have written more» — знай я конец, я бы написал больше. «Should I try to escape, it would be too late» — если бы я попытался сбежать, было бы слишком поздно.",
-    "Инверсия добавляет его текстам формальности и трагизма. Иэн Кертис покончил с собой в 1980 году, за день до того, как группа должна была отправиться в тур. Если бы он прожил дольше, Joy Division могли бы стать самой большой группой в мире. Инверсия: «Had he lived longer, Joy Division would have been the biggest band in the world».",
-    "Инверсия в условных предложениях — это формальный способ выразить условие без if. Had + subject + V3 (третье условие). Were + subject + to + V1 (второе условие). Should + subject + V1 (первое условие). Используется в литературе и официальных текстах."
+    "Условие обычно начинается с [bold]if[/bold]: [bold]If the group had stayed together, things might have developed differently.[/bold] Но формальный английский позволяет убрать [bold]if[/bold] и вынести вспомогательный глагол перед подлежащим: [bold]Had the group stayed together, things might have developed differently.[/bold]",
+    "История The Doors особенно хорошо подходит для такого разговора о гипотетических условиях. В 1968 году группа находилась на вершине популярности, но одновременно сталкивалась с изменением масштаба работы, гастролями и растущей дистанцией между участниками.",
+    "В декабрьском интервью 1968 года Джим Моррисон говорил о том, что изменилось после успеха. Он вспоминал период, когда группа сама таскала оборудование и могла работать над музыкой каждый вечер, а затем описывал новую ситуацию: [bold]When we had to carry our own equipment everywhere, we had no time to be creative.[/bold]",
+    "Это обычное предложение с [bold]when[/bold], а не conditional inversion. Но его логика позволяет увидеть разницу между реальным условием и гипотетическим условием. Если мы хотим представить альтернативную историю, можно сказать: [bold]Had the band remained a small club group, they might have continued creating music night after night.[/bold]",
+    "Важна именно граница между источником и нашим грамматическим анализом. Исторический материал The Doors даёт реальные события и реальные слова. Формы [bold]Had the band remained...[/bold], [bold]Were they to return...[/bold] и [bold]Should they decide...[/bold] являются учебными преобразованиями, а не цитатами Моррисона.",
+    "Первый тип инверсии — [bold]Had + subject + past participle[/bold]. Он заменяет [bold]if + Past Perfect[/bold]. [bold]If the band had stayed at the club[/bold] → [bold]Had the band stayed at the club[/bold]. Речь идёт о прошлом, которое уже нельзя изменить.",
+    "Это особенно полезно, когда мы реконструируем альтернативную историю группы. [bold]Had The Doors remained a small club band, their career might have followed another path.[/bold] Здесь мы не утверждаем, что это произошло. Мы создаём контрфактическую версию прошлого.",
+    "Второй тип использует [bold]were[/bold]. [bold]If The Doors were to return to their early club routine, the situation would be very different[/bold] можно преобразовать в [bold]Were The Doors to return to their early club routine, the situation would be very different.[/bold]",
+    "Конструкция [bold]were to + verb[/bold] особенно удобна для гипотезы. Она не утверждает, что событие обязательно произойдёт. Она просто помещает его в условное пространство.",
+    "Третий тип использует [bold]should[/bold]. [bold]If the group should decide to change direction, the audience would notice[/bold] → [bold]Should the group decide to change direction, the audience would notice.[/bold] В такой конструкции [bold]should[/bold] означает примерно «если вдруг» или «если случится, что».",
+    "В истории The Doors гипотетические конструкции особенно естественны при разговоре о творческом направлении. В том же интервью Моррисон говорил: [bold]I don't know what will happen. I guess we'll continue like this for a while.[/bold] А затем предполагал: [bold]Maybe we'll have to get out of the whole business.[/bold]",
+    "Эти слова важны не потому, что содержат conditional inversion. Они показывают саму ситуацию неопределённости, которую мы можем выразить более формально с помощью инверсии. [bold]Had they continued exactly as before, they might have lost the need to change.[/bold]",
+    "Сравни обычную и инвертированную форму: [bold]If they had continued as before, they might have developed differently.[/bold] → [bold]Had they continued as before, they might have developed differently.[/bold] Вторая версия короче и заметно формальнее.",
+    "Для [bold]were[/bold] сравнение выглядит так: [bold]If the band were to return to its early method, the result would be unpredictable.[/bold] → [bold]Were the band to return to its early method, the result would be unpredictable.[/bold]",
+    "Для [bold]should[/bold]: [bold]If the group should change direction, the audience might react differently.[/bold] → [bold]Should the group change direction, the audience might react differently.[/bold] Во всех трёх случаях основная часть предложения не меняется.",
+    "Главное отличие от обычного разговорного английского — регистр. [bold]If they had stayed together[/bold] звучит нейтрально. [bold]Had they stayed together[/bold] звучит более сжато, формально и аналитически.",
+    "Это хорошо соответствует архивному материалу The Doors. Интервью показывает группу в момент, когда успех уже изменил способ работы, но будущее ещё не определилось. Conditional inversion позволяет описывать именно такие альтернативные траектории: что могло произойти, что могло бы произойти и что произойдёт, если возникнет определённое условие.",
+    "Но важно не превращать эту конструкцию в механическую замену каждого [bold]if[/bold]. Инверсия возможна прежде всего с [bold]had[/bold], [bold]were[/bold] и [bold]should[/bold]. Нельзя просто поставить любой глагол перед подлежащим.",
+    "Поэтому три модели стоит запомнить как три готовых шаблона: [bold]Had + subject + past participle[/bold], [bold]Were + subject + ...[/bold], [bold]Should + subject + verb[/bold]. Если одна из этих форм стоит в начале условной части, [bold]if[/bold] уже не нужен.",
+    "История The Doors даёт естественный материал для понимания этой конструкции: реальная группа уже прошла через изменение масштаба, а интервью 1968 года фиксирует момент неопределённости. Грамматика позволяет сделать следующий шаг и представить альтернативные варианты развития событий без длинной конструкции с [bold]if[/bold]."
   ],
   "why": [
-    "Формальный способ выражения условия: Had I known the end...",
-    "Литературный эффект: Were I to die, would you remember me?",
-    "Драматическое усиление: Should I try to escape, it would be too late.",
-    "Использование в официальных текстах: Had he lived longer..."
+    "Выражать контрфактические сценарии в формальном английском.",
+    "Сжимать условные предложения без if.",
+    "Описывать альтернативные версии прошлого через Had inversion.",
+    "Строить формальные гипотезы с Were и Should."
   ],
   "context": {
     "lines": [
-      { "en": "Ian Curtis: 'Were I to die, would you remember me? Had I known the end, I would have written more. Should I try to escape, it would be too late.'",
-        "ru": "Иэн Кертис: «Если бы я умер, ты бы меня помнила? Знай я конец, я бы написал больше. Если бы я попытался сбежать, было бы слишком поздно»." },
-      { "en": "Producer: 'Had he lived longer, Joy Division would have been the biggest band in the world. Were he here today, he would be a legend.'",
-        "ru": "Продюсер: «Если бы он прожил дольше, Joy Division стали бы самой большой группой в мире. Если бы он был здесь сегодня, он был бы легендой»." }
+      {
+        "en": "When we had to carry our own equipment everywhere, we had no time to be creative.",
+        "ru": "Когда нам приходилось везде таскать собственное оборудование, у нас не было времени заниматься творчеством."
+      },
+      {
+        "en": "Now we can focus our energies more intensely.",
+        "ru": "Теперь мы можем гораздо сильнее сосредоточить свои силы."
+      },
+      {
+        "en": "I don't know what will happen.",
+        "ru": "Я не знаю, что произойдёт."
+      },
+      {
+        "en": "Maybe we'll have to get out of the whole business.",
+        "ru": "Возможно, нам придётся вообще уйти из этого бизнеса."
+      },
+      {
+        "en": "Maybe we'll all go off to an island by ourselves and start creating again.",
+        "ru": "Возможно, мы все уедем каждый на свой остров и снова начнём творить."
+      }
     ],
-    "note": "Had + subject + V3 (прошлое); Were + subject + to + V1 (настоящее); Should + subject + V1 (будущее)."
+    "note": "Контекстные строки взяты из опубликованного интервью The Doors 1968 года. Они показывают реальную ситуацию и гипотетическое мышление группы, но учебные конструкции Had/Were/Should ниже являются грамматическими преобразованиями, а не дословными цитатами The Doors."
   },
   "russianAngle": [
-    "В русском языке мы говорим: «знай я...» вместо «если бы я знал...». В английском — инверсия.",
-    "Had + subject + V3 = третье условие (прошлое).",
-    "Were + subject + to + V1 = второе условие (настоящее).",
-    "Should + subject + V1 = первое условие (будущее) — формально."
+    "Русское «если бы» не имеет отдельной формы инверсии такого типа.",
+    "В английском Had/Were/Should могут заменять if и ставиться перед подлежащим.",
+    "Had + subject + past participle обычно выражает нереальное прошлое.",
+    "Were + subject + ... используется для формальной гипотезы.",
+    "Should + subject + verb выражает возможное, но не обязательно ожидаемое событие."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: инверсия в conditionals = без if.",
-      "Had + subject + V3 (прошлое).",
-      "Were + subject + to + V1 (настоящее).",
-      "Should + subject + V1 (будущее) — формально.",
-      "Используется в литературе и официальных текстах.",
-      "Сделай упражнение и сверься с ответами."
+      "Определи, является ли условие прошлым, гипотетическим или возможным.",
+      "Для нереального прошлого выбери Had.",
+      "Для гипотетического состояния или Were to выбери Were.",
+      "Для формальной возможной ситуации выбери Should.",
+      "Поставь выбранный элемент перед подлежащим.",
+      "Удали if.",
+      "Проверь форму глагола после Had/Were/Should."
     ],
     "exercise": {
-      "prompt": "Преобразуйте предложения с if в инверсию:",
+      "prompt": "Преобразуй условное предложение в формальную инверсию:",
       "items": [
-        { "q": "If I had known the end, I would have written more. → ___ I known the end, I would have written more.", "a": "Had" },
-        { "q": "If I were to die, would you remember me? → ___ I to die, would you remember me?", "a": "Were" },
-        { "q": "If I should try to escape, it would be too late. → ___ I try to escape, it would be too late.", "a": "Should" },
-        { "q": "If he had lived longer, Joy Division would have been the biggest band. → ___ he lived longer, Joy Division would have been the biggest band.", "a": "Had" },
-        { "q": "If he had not been so depressed, he would have written happier songs. → ___ he not been so depressed, he would have written happier songs.", "a": "Had" }
+        {
+          "q": "If The Doors had remained a small club band, their career might have been different.",
+          "a": "Had The Doors remained a small club band, their career might have been different."
+        },
+        {
+          "q": "If the band were to return to its early routine, things would be different.",
+          "a": "Were the band to return to its early routine, things would be different."
+        },
+        {
+          "q": "If the group should change direction, the audience might react differently.",
+          "a": "Should the group change direction, the audience might react differently."
+        },
+        {
+          "q": "If they had continued creating music every night, their development might have been different.",
+          "a": "Had they continued creating music every night, their development might have been different."
+        },
+        {
+          "q": "If the band should decide to leave the business, the decision would affect its audience.",
+          "a": "Should the band decide to leave the business, the decision would affect its audience."
+        }
       ]
     }
   },
-  "formula": "Had + subject + V3 · Were + subject + to + V1 · Should + subject + V1",
+  "formula": "Had + subject + past participle..., ... / Were + subject + ..., ... / Should + subject + verb..., ...",
   "structure": {
-    "positive": "Had I known the end, I would have written more.",
-    "negative": "Had I not known the end, I wouldn't have written more.",
-    "question": "Had I known the end, would I have written more?"
+    "past_counterfactual": "If the band had stayed together... → Had the band stayed together...",
+    "hypothetical_state": "If the band were smaller... → Were the band smaller...",
+    "hypothetical_future": "If the band were to return... → Were the band to return...",
+    "formal_possibility": "If the band should change direction... → Should the band change direction..."
   },
-  "markers": ["had", "were", "should", "if"],
-  "uses": [
-    "Had + subject + V3: Had I known the end... (прошлое)",
-    "Were + subject + to + V1: Were I to die, would you remember me? (настоящее)",
-    "Should + subject + V1: Should I try to escape, it would be too late. (будущее)",
-    "Используется в литературе и официальных текстах."
+  "markers": [
+    "Had + subject + past participle",
+    "Were + subject + adjective/noun",
+    "Were + subject + to + verb",
+    "Should + subject + verb"
   ],
+  "uses": {
+    "title": "Четыре модели условной инверсии",
+    "items": [
+      {
+        "title": "Альтернативное прошлое",
+        "text": "Had + subject + past participle заменяет If + Past Perfect и показывает нереализованный вариант прошлого."
+      },
+      {
+        "title": "Гипотетическое состояние",
+        "text": "Were + subject + adjective/noun заменяет условие с If + were."
+      },
+      {
+        "title": "Гипотетическое действие",
+        "text": "Were + subject + to + verb используется для формальной гипотезы о возможном действии."
+      },
+      {
+        "title": "Возможное событие",
+        "text": "Should + subject + verb представляет возможную ситуацию в формальном стиле."
+      },
+      {
+        "title": "Сжатие",
+        "text": "Conditional inversion убирает if и делает условную часть короче."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Had + subject + V3",
-      "text": "Замена if + Past Perfect. Had I known the end, I would have written more." },
-    { "title": "Were + subject + to + V1",
-      "text": "Замена if + Past Simple. Were I to die, would you remember me?" },
-    { "title": "Should + subject + V1",
-      "text": "Замена if + Present Simple (формально). Should I try to escape, it would be too late." },
-    { "title": "Отрицание",
-      "text": "Had I not been so depressed... Were I not to write..." }
+    {
+      "title": "Had inversion",
+      "text": "Had + subject + Past Participle заменяет If + Past Perfect."
+    },
+    {
+      "title": "Were inversion",
+      "text": "Were может стоять перед подлежащим вместо If + were."
+    },
+    {
+      "title": "Were to",
+      "text": "Were + subject + to + verb выражает гипотетическую возможность."
+    },
+    {
+      "title": "Should inversion",
+      "text": "Should + subject + verb выражает формальную возможную ситуацию."
+    },
+    {
+      "title": "No if",
+      "text": "После conditional inversion if не используется."
+    },
+    {
+      "title": "Register",
+      "text": "Инверсия без if характерна прежде всего для формального, письменного и аналитического английского."
+    }
   ],
   "examples": [
     {
-      "group": "Had + subject + V3 — третье условие (прошлое)",
+      "group": "Had",
       "items": [
-        { "en": "Had I known the end, I would have written more.", "ru": "Знай я конец, я бы написал больше.", "highlight": ["Had I known"] },
-        { "en": "Had he not been so depressed, he would have written happier songs.", "ru": "Не будь он таким подавленным, он бы написал более счастливые песни.", "highlight": ["Had he not been"] },
-        { "en": "Had he lived longer, Joy Division would have been the biggest band.", "ru": "Если бы он прожил дольше, Joy Division стали бы самой большой группой.", "highlight": ["Had he lived"] }
+        {
+          "en": "If The Doors had remained a small club band, their career might have been different. → Had The Doors remained a small club band, their career might have been different.",
+          "ru": "Если бы The Doors остались небольшой клубной группой, их карьера могла бы сложиться иначе.",
+          "highlight": [
+            "Had The Doors remained"
+          ]
+        },
+        {
+          "en": "If they had continued creating music every night, their development might have been different. → Had they continued creating music every night, their development might have been different.",
+          "ru": "Если бы они продолжали создавать музыку каждый вечер, их развитие могло бы пойти иначе.",
+          "highlight": [
+            "Had they continued"
+          ]
+        },
+        {
+          "en": "If the group had stayed independent, it might have followed another path. → Had the group stayed independent, it might have followed another path.",
+          "ru": "Если бы группа сохранила независимость, она могла бы пойти другим путём.",
+          "highlight": [
+            "Had the group stayed"
+          ]
+        }
       ]
     },
     {
-      "group": "Were + subject + to + V1 — второе условие (настоящее)",
+      "group": "Were",
       "items": [
-        { "en": "Were I to die, would you remember me?", "ru": "Если бы я умер, ты бы меня помнила?", "highlight": ["Were I to die"] },
-        { "en": "Were he here today, he would be a legend.", "ru": "Если бы он был здесь сегодня, он был бы легендой.", "highlight": ["Were he here"] },
-        { "en": "Were they to tour again, they would sell out every show.", "ru": "Если бы они снова гастролировали, они бы продали все билеты.", "highlight": ["Were they to tour"] }
+        {
+          "en": "If the band were smaller, the members might work differently. → Were the band smaller, the members might work differently.",
+          "ru": "Если бы группа была меньше, участники могли бы работать иначе.",
+          "highlight": [
+            "Were the band smaller"
+          ]
+        },
+        {
+          "en": "If the band were to return to its early routine, things would be different. → Were the band to return to its early routine, things would be different.",
+          "ru": "Если бы группа вернулась к своему раннему рабочему распорядку, всё было бы иначе.",
+          "highlight": [
+            "Were the band to return"
+          ]
+        },
+        {
+          "en": "If the members were to work together every night, the creative process might change. → Were the members to work together every night, the creative process might change.",
+          "ru": "Если бы участники снова работали вместе каждый вечер, творческий процесс мог бы измениться.",
+          "highlight": [
+            "Were the members to work"
+          ]
+        }
       ]
     },
     {
-      "group": "Should + subject + V1 — первое условие (будущее, формально)",
+      "group": "Should",
       "items": [
-        { "en": "Should I try to escape, it would be too late.", "ru": "Если бы я попытался сбежать, было бы слишком поздно.", "highlight": ["Should I try"] },
-        { "en": "Should you need help, I'll be there.", "ru": "Если тебе понадобится помощь, я буду рядом.", "highlight": ["Should you need"] },
-        { "en": "Should they call, tell them I'm busy.", "ru": "Если они позвонят, скажи, что я занят.", "highlight": ["Should they call"] }
+        {
+          "en": "If the group should change direction, the audience might react differently. → Should the group change direction, the audience might react differently.",
+          "ru": "Если вдруг группа изменит направление, публика может отреагировать иначе.",
+          "highlight": [
+            "Should the group change"
+          ]
+        },
+        {
+          "en": "If the band should decide to leave the business, the decision would affect its audience. → Should the band decide to leave the business, the decision would affect its audience.",
+          "ru": "Если вдруг группа решит уйти из этого бизнеса, это решение повлияет на её аудиторию.",
+          "highlight": [
+            "Should the band decide"
+          ]
+        },
+        {
+          "en": "If the members should return to their early method, they might rediscover the old creative rhythm. → Should the members return to their early method, they might rediscover the old creative rhythm.",
+          "ru": "Если участники вдруг вернутся к своему раннему методу работы, они могут снова найти прежний творческий ритм.",
+          "highlight": [
+            "Should the members return"
+          ]
+        }
       ]
     },
     {
-      "group": "Отрицание в инверсии",
+      "group": "The Doors context",
       "items": [
-        { "en": "Had I not been so isolated, I would have been happier.", "ru": "Не будь я таким изолированным, я был бы счастливее.", "highlight": ["Had I not been"] },
-        { "en": "Were I not to sing, I would die.", "ru": "Если бы я не пел, я бы умер.", "highlight": ["Were I not to sing"] },
-        { "en": "Should they not arrive on time, we'll start without them.", "ru": "Если они не приедут вовремя, мы начнём без них.", "highlight": ["Should they not arrive"] }
-      ]
-    },
-    {
-      "group": "Сравнение if и инверсии",
-      "items": [
-        { "en": "If I had known... → Had I known...", "ru": "Если бы я знал... → Знай я...", "highlight": ["Had I known"] },
-        { "en": "If I were to die... → Were I to die...", "ru": "Если бы я умер... → Если бы я умер... (инверсия)", "highlight": ["Were I to die"] },
-        { "en": "If I should try... → Should I try...", "ru": "Если бы я попытался... → Попытайся я...", "highlight": ["Should I try"] }
-      ]
-    },
-    {
-      "group": "Смешанные примеры",
-      "items": [
-        { "en": "Had I known the truth, I would have acted differently. Were I to do it again, I would make the same choice.", "ru": "Знай я правду, я бы поступил иначе. Если бы я сделал это снова, я бы сделал тот же выбор.", "highlight": ["Had I known", "Were I to do"] },
-        { "en": "Had I not been so afraid, I would have performed better. Should I get another chance, I will prove myself.", "ru": "Не будь я таким напуганным, я бы выступил лучше. Если у меня будет ещё один шанс, я докажу себя.", "highlight": ["Had I not been", "Should I get"] },
-        { "en": "Were I to write a song, it would be about isolation. Had I known the future, I would have written differently.", "ru": "Если бы я написал песню, она была бы об изоляции. Знай я будущее, я бы писал иначе.", "highlight": ["Were I to write", "Had I known"] }
+        {
+          "en": "When we had to carry our own equipment everywhere, we had no time to be creative.",
+          "ru": "Когда нам приходилось везде таскать собственное оборудование, у нас не было времени заниматься творчеством.",
+          "highlight": [
+            "had to carry",
+            "had no time"
+          ]
+        },
+        {
+          "en": "I don't know what will happen. → Should the group change direction, the result might be very different.",
+          "ru": "Я не знаю, что произойдёт. → Если вдруг группа изменит направление, результат может быть совершенно другим.",
+          "highlight": [
+            "Should the group change"
+          ]
+        },
+        {
+          "en": "Maybe we'll have to get out of the whole business. → Were the band to leave the business, its audience would react.",
+          "ru": "Возможно, нам придётся вообще уйти из этого бизнеса. → Если бы группа ушла из этого бизнеса, её аудитория отреагировала бы.",
+          "highlight": [
+            "Were the band to leave"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "If I had known... (обычное)", "right": "Had I known... (инверсия)", "note": "Инверсия: Had + subject + V3." },
-    { "wrong": "Had I known the end, I would have written more. (правильно)", "right": "Had I known the end, I would have written more.", "note": "Правильно!" },
-    { "wrong": "Were I to die, would you remember me? (правильно)", "right": "Were I to die, would you remember me?", "note": "Правильно!" },
-    { "wrong": "Should I try to escape, it would be too late. (правильно)", "right": "Should I try to escape, it would be too late.", "note": "Правильно!" },
-    { "wrong": "Had I not been so depressed, I would have written happier songs. (правильно)", "right": "Had I not been so depressed, I would have written happier songs.", "note": "Правильно!" },
-    { "wrong": "Were I not to sing, I would die. (правильно)", "right": "Were I not to sing, I would die.", "note": "Правильно!" }
+    {
+      "wrong": "Had the band stayed, they would had continued.",
+      "right": "Had the band stayed, they would have continued.",
+      "note": "В основной части после would используется have + Past Participle."
+    },
+    {
+      "wrong": "Were the band to returned, things would change.",
+      "right": "Were the band to return, things would change.",
+      "note": "После to используется базовая форма глагола."
+    },
+    {
+      "wrong": "Should the group changes direction, the audience might react.",
+      "right": "Should the group change direction, the audience might react.",
+      "note": "После should используется базовая форма глагола."
+    },
+    {
+      "wrong": "If had the band stayed, things might have changed.",
+      "right": "Had the band stayed, things might have changed.",
+      "note": "В инвертированной конструкции if исчезает."
+    },
+    {
+      "wrong": "Had stayed the band, things might have changed.",
+      "right": "Had the band stayed, things might have changed.",
+      "note": "Порядок: Had + subject + past participle."
+    },
+    {
+      "wrong": "Were to the band return, things would change.",
+      "right": "Were the band to return, things would change.",
+      "note": "Подлежащее стоит сразу после were."
+    }
   ],
   "compare": {
-    "title": "If vs Inversion in conditionals",
-    "leftLabel": "If (обычный порядок)",
-    "rightLabel": "Inversion (формальный)",
+    "title": "If-Conditionals vs Conditional Inversion",
+    "leftLabel": "If — обычная форма",
+    "rightLabel": "Inversion — формальная форма",
     "rows": [
-      { "left": "If I had known, I would have written more.", "right": "Had I known, I would have written more." },
-      { "left": "If I were to die, would you remember me?", "right": "Were I to die, would you remember me?" },
-      { "left": "If I should try, it would be too late.", "right": "Should I try, it would be too late." }
+      {
+        "left": "If the band had stayed small, things might have been different.",
+        "right": "Had the band stayed small, things might have been different."
+      },
+      {
+        "left": "If the band were smaller, its work might be different.",
+        "right": "Were the band smaller, its work might be different."
+      },
+      {
+        "left": "If the band were to return, things would change.",
+        "right": "Were the band to return, things would change."
+      },
+      {
+        "left": "If the group should change direction, the audience might react.",
+        "right": "Should the group change direction, the audience might react."
+      },
+      {
+        "left": "If they had continued working as before, the result might have been different.",
+        "right": "Had they continued working as before, the result might have been different."
+      }
     ]
   },
   "tips": [
-    "Had + subject + V3 = третье условие (прошлое).",
-    "Were + subject + to + V1 = второе условие (настоящее).",
-    "Should + subject + V1 = первое условие (будущее) — формально.",
-    "Инверсия без if.",
-    "Используется в литературе и официальных текстах.",
-    "Не злоупотребляй в обычной речи.",
-    "Проверяй, что это формальный контекст."
+    "Had + subject + Past Participle — главный шаблон для нереального прошлого.",
+    "Were + subject + ... — формальная гипотеза.",
+    "Were + subject + to + verb — гипотетическое действие.",
+    "Should + subject + verb — формальная возможная ситуация.",
+    "После инверсии if не используется.",
+    "Не выдавай учебную инверсию за цитату источника.",
+    "В Rock-версии реальный архивный материал служит контекстом, а грамматические преобразования остаются учебными примерами."
   ],
-  "related": ["c1-inversion-after-negative-adverbials", "c1-cleft-sentences", "c1-subjunctive-wish-regret"],
   "quiz": [
     {
-      "q": "___ I known the end, I would have written more.",
-      "options": ["Had", "Were", "Should", "If"],
+      "q": "Choose the correct formal equivalent: “If The Doors had remained a small club band...”",
+      "options": [
+        "Had The Doors remained a small club band...",
+        "Had remained The Doors a small club band...",
+        "Had The Doors remain a small club band..."
+      ],
       "answer": 0,
-      "why": "Had + subject + V3 для третьего условия."
+      "why": "Had + subject + Past Participle."
     },
     {
-      "q": "___ I to die, would you remember me?",
-      "options": ["Had", "Were", "Should", "If"],
+      "q": "Choose the correct form: “If the band were to return...”",
+      "options": [
+        "Were the band to return...",
+        "Were the band returned...",
+        "Were to the band return..."
+      ],
+      "answer": 0,
+      "why": "Were + subject + to + base verb."
+    },
+    {
+      "q": "Choose the correct form: “If the group should change direction...”",
+      "options": [
+        "Should the group change direction...",
+        "Should the group changes direction...",
+        "Should change the group direction..."
+      ],
+      "answer": 0,
+      "why": "После should используется базовая форма глагола."
+    },
+    {
+      "q": "Which sentence describes an alternative past?",
+      "options": [
+        "Should the band change direction, things might change.",
+        "Were the band to change direction, things might change.",
+        "Had the band changed direction, things might have changed."
+      ],
+      "answer": 2,
+      "why": "Had + Past Participle выражает нереальное прошлое."
+    },
+    {
+      "q": "What happens to if in conditional inversion?",
+      "options": [
+        "It remains.",
+        "It disappears.",
+        "It moves after the subject."
+      ],
       "answer": 1,
-      "why": "Were + subject + to + V1 для второго условия."
+      "why": "Инверсия строится без if."
     },
     {
-      "q": "___ I try to escape, it would be too late.",
-      "options": ["Had", "Were", "Should", "If"],
-      "answer": 2,
-      "why": "Should + subject + V1 для первого условия (формально)."
-    },
-    {
-      "q": "___ he lived longer, Joy Division would have been the biggest band.",
-      "options": ["Had", "Were", "Should", "If"],
-      "answer": 0,
-      "why": "Had + subject + V3 для третьего условия."
-    },
-    {
-      "q": "___ he not been so depressed, he would have written happier songs.",
-      "options": ["Had", "Were", "Should", "If"],
-      "answer": 0,
-      "why": "Отрицание в третьем условии: Had he not been..."
-    },
-    {
-      "q": "___ they not arrive on time, we'll start without them.",
-      "options": ["Had", "Were", "Should", "If"],
-      "answer": 2,
-      "why": "Should + subject + V1 для первого условия (отрицание)."
+      "q": "Which sentence is the most formal?",
+      "options": [
+        "If the group should change direction, the audience might react.",
+        "Should the group change direction, the audience might react.",
+        "The group might change direction and the audience might react."
+      ],
+      "answer": 1,
+      "why": "Should + subject + verb — формальная условная инверсия."
     }
+  ],
+  "related": [
+    "b2-second-conditional",
+    "b2-third-conditional",
+    "c1-inversion-after-negative-adverbials",
+    "c1-subjunctive-wish-regret"
   ]
 }

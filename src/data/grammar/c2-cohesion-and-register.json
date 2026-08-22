@@ -3,196 +3,418 @@
   "slug": "c2-cohesion-and-register",
   "level": "C2",
   "title": "Cohesion and Register",
-  "category": "Discourse & style",
-  "readingTime": 12,
-  "summary": "Cohesion and Register — связность текста и выбор стиля. История о том, как Джейн Остин использовала разные регистры в «Гордости и предубеждении».",
+  "category": "Grammar",
+  "readingTime": 14,
+  "summary": "Cohesion связывает части текста с помощью повторов, местоимений, союзов, лексических связей и других средств. Register показывает, как выбор слов и конструкций меняется в зависимости от ситуации, адресата и цели высказывания. Один и тот же смысл можно выразить по-разному, сохраняя содержание, но меняя степень формальности и характер текста.",
   "idea": [
-    "Джейн Остин написала «Гордость и предубеждение» в 1813 году. Это роман о классе, браке и обществе в Англии начала XIX века. Остин использовала разные регистры: формальный язык для описания общества и ироничный, разговорный для диалогов. Она использовала эллипсис, ссылки и маркеры дискурса для создания связности.",
-    "«It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife» — эта знаменитая фраза использует формальный регистр и иронию. Остин мастерски переключалась между стилями, чтобы показать разницу между тем, что люди говорят, и тем, что они на самом деле думают. Она использовала эллипсис: «She did not answer. Did not know what to say». И замены: «The lady was silent».",
-    "Cohesion and Register — это связность текста и выбор стиля. Эллипсис — пропуск слов. Ссылки — использование местоимений. Замены — синонимы. Маркеры дискурса — however, nevertheless, therefore. Формальный регистр — официальные тексты. Неформальный регистр — разговоры, письма."
+    "На продвинутом уровне важно понимать не только отдельные грамматические конструкции, но и то, как предложения работают вместе. Текст становится связным благодаря [bold]cohesion[/bold]: словам и конструкциям, которые связывают одну часть высказывания с другой. Если автор сначала вводит [bold]the manuscript[/bold], а затем говорит [bold]it[/bold], местоимение возвращает читателя к уже известному объекту.",
+
+    "Но связность создаётся не только местоимениями. Она может возникать через повтор ключевых слов, синонимы, союзы, временные маркеры и лексические цепочки. Поэтому [bold]Fitzgerald changed the title. The new title created another problem.[/bold] воспринимается как единый текст: [bold]the new title[/bold] возвращает нас к предыдущему [bold]the title[/bold] и одновременно продвигает мысль дальше.",
+
+    "История работы Ф. Скотта Фицджеральда над The Great Gatsby хорошо показывает эту связь между языком и редактурой. Название книги менялось несколько раз: среди вариантов были [bold]Trimalchio in West Egg[/bold], [bold]Gold-hatted Gatsby[/bold], [bold]On the Road to West Egg[/bold] и [bold]Under the Red, White and Blue[/bold]. В переписке с Максвеллом Перкинсом обсуждалось не только название, но и то, как текст должен работать как единое произведение.",
+
+    "Фицджеральд писал Перкинсу: [bold]“I have now decided to stick to the title I put on the book.”[/bold] Здесь [bold]the title[/bold] предполагает уже известный собеседникам объект. Автор не вводит понятие заново, потому что предыдущая переписка уже создала общий контекст. Это один из принципов cohesion: последующее высказывание может опираться на информацию, которая уже была активирована в дискурсе.",
+
+    "Сравни [bold]Fitzgerald discussed a title. The title was later changed.[/bold] и [bold]Fitzgerald discussed a title, which was later changed.[/bold] Во втором варианте связь между двумя сообщениями выражена непосредственно через relative clause. Оба варианта грамматически возможны, но второй делает отношение между информацией более компактным и явно показывает, что второе сообщение относится именно к [bold]a title[/bold].",
+
+    "Другой способ создавать cohesion — использовать [bold]substitution[/bold] и [bold]reference[/bold]. Вместо повторения существительного автор может использовать [bold]it, this, that, these, those[/bold] или соответствующую лексическую замену. Например: [bold]The publisher rejected the title. This forced Fitzgerald to reconsider it.[/bold] Здесь [bold]this[/bold] относится не к одному существительному, а ко всей предыдущей ситуации.",
+
+    "Особенно важна разница между [bold]this[/bold] и [bold]that[/bold] в дискурсе. [bold]This[/bold] часто помогает говорящему представить только что сказанное как основу следующего шага: [bold]The editor rejected the proposal. This created a new problem.[/bold] Так предложение превращается в логический мост между причиной и последствием.",
+
+    "Cohesion также возникает через [bold]lexical chains[/bold]. В тексте о книге рядом могут появляться [bold]title, manuscript, draft, revision, editor, publisher, publication[/bold]. Эти слова не являются повтором одного и того же слова, но принадлежат одному смысловому полю. Читатель понимает, что речь продолжает идти об одном процессе.",
+
+    "Именно поэтому слишком частый повтор иногда делает текст слабее, хотя формально он остаётся понятным. [bold]Fitzgerald changed the title. Fitzgerald discussed the title. Fitzgerald reconsidered the title.[/bold] создаёт связь механическим повтором. Более естественный текст может использовать местоимение, синонимическую замену или эллипсис: [bold]Fitzgerald changed the title, discussed alternatives, and eventually reconsidered the decision.[/bold]",
+
+    "Здесь появляется второй уровень анализа — [bold]register[/bold]. Register зависит от ситуации общения: письмо издателю, официальный документ, газетное интервью и разговор друзей не обязаны использовать одинаковый язык. Формальность — только одна часть register. Важны также дистанция между участниками, степень категоричности, специализированная лексика и сама коммуникативная цель.",
+
+    "В переписке Фицджеральда с Перкинсом можно увидеть язык профессионального взаимодействия. Он обсуждает [bold]the title[/bold], [bold]the book[/bold], [bold]changes[/bold] и публикацию как рабочие вопросы. Перкинс, в свою очередь, может одновременно выражать оценку и оставлять автору пространство для решения. Поэтому register таких писем нельзя свести просто к категории [bold]formal[/bold]: это профессиональная переписка между автором и редактором.",
+
+    "Сравни две формулировки: [bold]I don't think this title works[/bold] и [bold]I am not persuaded that the proposed title is sufficiently effective[/bold]. Смысл близок, но register различается. Первая фраза звучит прямо и разговорно. Вторая создаёт большую дистанцию, смягчает оценку и использует более абстрактную лексику.",
+
+    "Register может меняться даже внутри одного текста. Письмо может начинаться с нейтрального обсуждения рукописи, затем переходить к личному замечанию, а после этого возвращаться к профессиональному вопросу. Поэтому нельзя определить register одного документа только по одному формальному признаку вроде наличия сложных слов.",
+
+    "Для C2 особенно важно различать [bold]cohesion[/bold] и [bold]coherence[/bold]. Cohesion относится к видимым языковым связям между частями текста. Coherence относится к тому, насколько эти части образуют понятную и логичную общую мысль. Текст может содержать много местоимений и союзов и всё равно быть incoherent, если идеи не складываются в разумную последовательность.",
+
+    "Рассмотрим простую цепочку: [bold]Fitzgerald proposed a title. Perkins questioned it. The author reconsidered the suggestion. Eventually, however, the original title remained.[/bold] Здесь [bold]it[/bold], [bold]the author[/bold] и [bold]the suggestion[/bold] поддерживают lexical and referential cohesion. При этом последовательность [bold]proposed → questioned → reconsidered → remained[/bold] создаёт ещё и логическую структуру.",
+
+    "Cohesion можно усиливать с помощью linking devices: [bold]however, therefore, nevertheless, consequently, in addition, by contrast, in the meantime[/bold]. Но их нельзя вставлять автоматически. Если логическая связь уже очевидна, слишком большое количество connectors делает текст тяжёлым и искусственным.",
+
+    "Сравни: [bold]Fitzgerald considered another title. However, he continued to prefer the original one.[/bold] Здесь [bold]however[/bold] подчёркивает контраст. Но в [bold]Fitzgerald considered another title. He continued to prefer the original one.[/bold] связь остаётся понятной и без explicit connector. C2 writing требует не максимального количества связок, а точного выбора степени explicitness.",
+
+    "То же относится к register. Иногда формальность достигается не сложными словами, а синтаксисом и дистанцией. [bold]We need to change this[/bold] можно заменить на [bold]The text would benefit from further revision[/bold]. Второй вариант не просто «сложнее»: он меняет отношение автора к адресату и делает criticism менее direct.",
+
+    "Таким образом, редакторская переписка Фицджеральда показывает сразу несколько уровней дискурса. Названия и идеи возвращаются через reference и lexical repetition; аргументы соединяются через contrast and consequence; а выбор формулировок отражает профессиональные отношения автора и редактора. Язык здесь не просто передаёт информацию — он организует взаимодействие.",
+
+    "Для анализа C2-текста полезно задать три вопроса. [bold]How are the sentences connected?[/bold] показывает cohesion. [bold]How are the ideas logically related?[/bold] показывает coherence. [bold]Why has the writer chosen this particular way of expressing the idea?[/bold] позволяет увидеть register.",
+
+    "Именно сочетание этих трёх уровней делает текст зрелым. Хороший C2-текст не просто содержит сложную грамматику. Он управляет информацией: вводит новую тему, возвращается к уже известной, показывает отношения между идеями и одновременно выбирает язык, соответствующий ситуации.",
+
+    "В случае The Great Gatsby это особенно заметно, потому что само название стало частью редакторского процесса. Фицджеральд и Перкинс обсуждали разные варианты, возвращались к уже предложенным решениям и меняли их в зависимости от того, как книга должна была восприниматься. Поэтому история названия становится естественным материалом для анализа cohesion и register, а не просто историей публикации."
   ],
   "why": [
-    "Создавать связный текст: She did not answer. Did not know what to say.",
-    "Использовать ссылки: It is a truth universally acknowledged that...",
-    "Использовать замены: She did not answer. The lady was silent.",
-    "Выбирать регистр: формальный vs неформальный."
+    "Понимать, как предложения и абзацы связываются в единый текст.",
+    "Распознавать reference, substitution, lexical chains и linking devices.",
+    "Отличать cohesion от coherence.",
+    "Анализировать register и выбирать степень формальности в зависимости от ситуации."
   ],
   "context": {
     "lines": [
-      { "en": "Elizabeth: 'He did not answer. Did not know what to say. The lady was silent.'",
-        "ru": "Элизабет: «Он не ответил. Не знал, что сказать. Леди молчала»." },
-      { "en": "Darcy: 'It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife. However, I am not that man.'",
-        "ru": "Дарси: «Это общепризнанная истина, что одинокий мужчина, обладающий хорошим состоянием, должен хотеть жениться. Однако я не тот человек»." }
+      {
+        "en": "I have now decided to stick to the title I put on the book.",
+        "ru": "Теперь я решил оставить название, которое поставил на книгу."
+      },
+      {
+        "en": "The only other titles that seem to fit it are Trimalchio and On the Road to West Egg.",
+        "ru": "Единственные другие названия, которые, кажется, подходят, — Trimalchio и On the Road to West Egg."
+      },
+      {
+        "en": "I always thought that “The Great Gatsby” was a suggestive and effective title.",
+        "ru": "Я всегда считал, что The Great Gatsby — выразительное и удачное название."
+      },
+      {
+        "en": "The book is the thing and all the rest is inconsiderable beside it.",
+        "ru": "Книга — главное, а всё остальное по сравнению с ней несущественно."
+      }
     ],
-    "note": "Ellipsis, reference, substitution, discourse markers, formal vs informal register."
+    "note": "Цитаты взяты из переписки Ф. Скотта Фицджеральда и Максвелла Перкинса и используются как материал для анализа reference, lexical cohesion, register и редакторского дискурса."
   },
   "russianAngle": [
-    "В русском языке мы используем эллипсис: «не ответил — не знал, что сказать». В английском — то же самое.",
-    "Ссылки: местоимения, артикли.",
-    "Замены: синонимы.",
-    "Регистр: формальный vs неформальный."
+    "В русском языке cohesion также создаётся местоимениями, повтором, лексическими связями и союзами, но способы их распределения могут отличаться от английских.",
+    "Английский письменный дискурс часто делает логические связи более explicit с помощью linking devices.",
+    "Английский register заметно меняется через выбор лексики, модальных конструкций, степени прямоты и синтаксической организации.",
+    "В русском тексте повтор существительного иногда естественнее, чем в английском, где чаще используются reference и lexical variation.",
+    "При переводе важно сохранять не только содержание, но и степень формальности, дистанцию и коммуникативный эффект оригинала."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: эллипсис = пропуск слов.",
-      "Ссылки = местоимения, артикли.",
-      "Замены = синонимы.",
-      "Маркеры дискурса = however, therefore, and, but, so.",
-      "Регистр = выбор стиля.",
-      "Сделай упражнение и сверься с ответами."
+      "Определи, какая информация уже известна читателю.",
+      "Найди местоимения и другие reference devices, связывающие предложения.",
+      "Посмотри, какие слова образуют lexical chain.",
+      "Определи логические отношения между предложениями.",
+      "Проверь, нужны ли explicit linking devices.",
+      "Определи register по ситуации, адресату и цели текста.",
+      "Сравни альтернативную формулировку и определи, что изменилось: содержание, cohesion или register."
     ],
     "exercise": {
-      "prompt": "Определите, какой приём использован: эллипсис, ссылка, замена, маркер дискурса:",
+      "prompt": "Проанализируй связь и register:",
       "items": [
-        { "q": "She did not answer. Did not know what to say.", "a": "Ellipsis" },
-        { "q": "It is a truth universally acknowledged, that...", "a": "Reference" },
-        { "q": "She did not answer. The lady was silent.", "a": "Substitution" },
-        { "q": "However, she knew what to do.", "a": "Discourse marker" },
-        { "q": "I've been living in the darkness, just waiting for the light.", "a": "Informal register" }
+        {
+          "q": "Fitzgerald proposed another title. This created a problem for the publisher.",
+          "a": "This refers to the previous situation and creates a cohesive link between the two sentences."
+        },
+        {
+          "q": "The editor rejected the proposal. Nevertheless, Fitzgerald continued to defend it.",
+          "a": "Nevertheless marks contrast, while it refers back to the proposal."
+        },
+        {
+          "q": "I don't think this title works.",
+          "a": "Direct and relatively informal evaluation."
+        },
+        {
+          "q": "I am not persuaded that the proposed title is sufficiently effective.",
+          "a": "More formal, indirect and professionally distanced evaluation."
+        },
+        {
+          "q": "The manuscript was revised several times. The final version differed substantially from the draft.",
+          "a": "The lexical relationship between manuscript, revised, final version and draft creates cohesion."
+        }
       ]
     }
   },
-  "formula": "Ellipsis / Reference / Substitution / Discourse markers / Register",
+  "formula": "reference + lexical cohesion + linking devices + register choice → coherent discourse",
   "structure": {
-    "positive": "She did not answer. Did not know what to say.",
-    "negative": "She did not answer. Did not know what not to say.",
-    "question": "Did she not answer? Did she not know what to say?"
+    "reference": "The editor changed the title. He explained why.",
+    "lexical_cohesion": "title → manuscript → draft → revision → publication",
+    "linking": "The proposal was rejected. However, the discussion continued.",
+    "register": "I don't think it works. → I am not persuaded that it is sufficiently effective."
   },
-  "markers": ["however", "nevertheless", "therefore", "in addition", "and", "but", "so", "because"],
-  "uses": [
-    "Ellipsis: She did not answer. Did not know what to say.",
-    "Reference: It is a truth universally acknowledged that...",
-    "Substitution: She did not answer. The lady was silent.",
-    "Discourse markers: However, she knew what to do.",
-    "Formal register: It is a truth universally acknowledged...",
-    "Informal register: She did not know what to say."
+  "markers": [
+    "this / that / these / those",
+    "it / they / them",
+    "however",
+    "therefore",
+    "nevertheless",
+    "in addition",
+    "by contrast",
+    "consequently",
+    "lexical repetition and substitution",
+    "formal / neutral / informal phrasing"
   ],
+  "uses": {
+    "title": "Как текст создаёт связность и меняет регистр",
+    "items": [
+      {
+        "title": "Reference",
+        "text": "Местоимения и указательные слова возвращают читателя к уже введённой информации: The editor rejected the title. He explained why."
+      },
+      {
+        "title": "Lexical cohesion",
+        "text": "Связь может строиться через повтор и связанные по смыслу слова: manuscript, draft, revision, editor, publication."
+      },
+      {
+        "title": "Linking devices",
+        "text": "However, therefore, nevertheless и другие connectors явно показывают логическое отношение между частями текста."
+      },
+      {
+        "title": "Register",
+        "text": "Выбор лексики и синтаксиса зависит от адресата, ситуации и цели: I don't think it works. → I am not persuaded that it is sufficiently effective."
+      },
+      {
+        "title": "Cohesion vs coherence",
+        "text": "Cohesion связывает языковую форму, а coherence отвечает за логическую целостность и понятность общей мысли."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Ellipsis",
-      "text": "Пропуск слов, которые понятны из контекста. She did not answer. Did not know what to say." },
-    { "title": "Reference",
-      "text": "Использование местоимений, артиклей. It is a truth universally acknowledged that..." },
-    { "title": "Substitution",
-      "text": "Использование синонимов. She did not answer. The lady was silent." },
-    { "title": "Discourse markers",
-      "text": "Слова, которые связывают текст. However, nevertheless, therefore, in addition." },
-    { "title": "Register",
-      "text": "Выбор стиля в зависимости от контекста. Формальный vs неформальный." }
+    {
+      "title": "Reference",
+      "text": "Используй местоимения и указательные слова, чтобы связывать новое предложение с уже известной информацией."
+    },
+    {
+      "title": "Lexical cohesion",
+      "text": "Повтор, синонимы и связанные по смыслу слова создают lexical chains."
+    },
+    {
+      "title": "Linking devices",
+      "text": "Используй connectors для выражения contrast, cause, consequence, addition и других логических отношений."
+    },
+    {
+      "title": "Avoid overlinking",
+      "text": "Не добавляй connectors автоматически: связь может быть понятна и без explicit marker."
+    },
+    {
+      "title": "Register",
+      "text": "Выбирай формулировку в зависимости от адресата, ситуации, цели и степени дистанции."
+    },
+    {
+      "title": "Cohesion vs coherence",
+      "text": "Связанные грамматически предложения ещё не гарантируют логически цельного текста."
+    }
   ],
   "examples": [
     {
-      "group": "Ellipsis — пропуск слов",
+      "group": "Reference",
       "items": [
-        { "en": "She did not answer. Did not know what to say.", "ru": "Она не ответила. Не знала, что сказать.", "highlight": ["Did not know"] },
-        { "en": "He walked away. Left her standing there.", "ru": "Он ушёл. Оставил её стоять там.", "highlight": ["Left her"] },
-        { "en": "I'm tired. Need a break.", "ru": "Я устал. Нужен перерыв.", "highlight": ["Need a break"] }
+        {
+          "en": "The editor rejected the title. He explained why.",
+          "ru": "Редактор отверг название. Он объяснил почему.",
+          "highlight": ["He"]
+        },
+        {
+          "en": "Fitzgerald changed the title. This created a new problem.",
+          "ru": "Фицджеральд изменил название. Это создало новую проблему.",
+          "highlight": ["This"]
+        },
+        {
+          "en": "The publisher discussed the proposal and later rejected it.",
+          "ru": "Издатель обсудил предложение, а затем отверг его.",
+          "highlight": ["rejected it"]
+        },
+        {
+          "en": "Several alternatives were considered. These included Trimalchio and Gold-hatted Gatsby.",
+          "ru": "Было рассмотрено несколько вариантов. Среди них были Trimalchio и Gold-hatted Gatsby.",
+          "highlight": ["These included"]
+        }
       ]
     },
     {
-      "group": "Reference — ссылки",
+      "group": "Lexical cohesion",
       "items": [
-        { "en": "It is a truth universally acknowledged, that a single man...", "ru": "Это общепризнанная истина, что одинокий мужчина...", "highlight": ["It"] },
-        { "en": "He was silent. This silence was unusual.", "ru": "Он молчал. Это молчание было необычным.", "highlight": ["This"] },
-        { "en": "She wrote a letter. The letter was long.", "ru": "Она написала письмо. Письмо было длинным.", "highlight": ["The letter"] }
+        {
+          "en": "The manuscript was revised repeatedly. The final draft differed substantially from the original.",
+          "ru": "Рукопись неоднократно редактировалась. Финальный вариант существенно отличался от оригинала.",
+          "highlight": ["manuscript", "revised", "draft", "final", "original"]
+        },
+        {
+          "en": "The editor questioned the title. The author defended the choice.",
+          "ru": "Редактор поставил под вопрос название. Автор защищал этот выбор.",
+          "highlight": ["title", "author", "choice"]
+        },
+        {
+          "en": "The novel went through several revisions before publication.",
+          "ru": "Перед публикацией роман прошёл через несколько редакций.",
+          "highlight": ["revisions", "publication"]
+        }
       ]
     },
     {
-      "group": "Substitution — замены",
+      "group": "Linking",
       "items": [
-        { "en": "She did not answer. The lady was silent.", "ru": "Она не ответила. Леди молчала.", "highlight": ["The lady"] },
-        { "en": "He refused to dance. The gentleman was proud.", "ru": "Он отказался танцевать. Джентльмен был горд.", "highlight": ["The gentleman"] },
-        { "en": "She cried. The young woman was heartbroken.", "ru": "Она плакала. Молодая женщина была убита горем.", "highlight": ["The young woman"] }
+        {
+          "en": "The proposal was rejected. However, the discussion continued.",
+          "ru": "Предложение было отвергнуто. Однако обсуждение продолжилось.",
+          "highlight": ["However"]
+        },
+        {
+          "en": "The title was controversial. Nevertheless, the publisher kept it.",
+          "ru": "Название было спорным. Тем не менее издатель сохранил его.",
+          "highlight": ["Nevertheless"]
+        },
+        {
+          "en": "The manuscript was revised extensively. Consequently, the final version differed from the early draft.",
+          "ru": "Рукопись была значительно переработана. Следовательно, финальная версия отличалась от раннего варианта.",
+          "highlight": ["Consequently"]
+        }
       ]
     },
     {
-      "group": "Discourse markers — маркеры дискурса",
+      "group": "Register",
       "items": [
-        { "en": "However, she knew what to do.", "ru": "Однако она знала, что делать.", "highlight": ["However"] },
-        { "en": "Therefore, she decided to leave.", "ru": "Следовательно, она решила уйти.", "highlight": ["Therefore"] },
-        { "en": "In addition, she wrote a letter.", "ru": "Кроме того, она написала письмо.", "highlight": ["In addition"] }
-      ]
-    },
-    {
-      "group": "Formal register — формальный стиль",
-      "items": [
-        { "en": "It is a truth universally acknowledged, that a single man...", "ru": "Это общепризнанная истина, что одинокий мужчина...", "highlight": ["acknowledged"] },
-        { "en": "It is with great pleasure that I write to you.", "ru": "С большим удовольствием я пишу вам.", "highlight": ["great pleasure"] },
-        { "en": "One must always consider the consequences.", "ru": "Нужно всегда учитывать последствия.", "highlight": ["One must"] }
-      ]
-    },
-    {
-      "group": "Informal register — неформальный стиль",
-      "items": [
-        { "en": "She did not know what to say.", "ru": "Она не знала, что сказать.", "highlight": ["did not know"] },
-        { "en": "I'm tired of this nonsense.", "ru": "Я устал от этой ерунды.", "highlight": ["tired"] },
-        { "en": "He just walked away.", "ru": "Он просто ушёл.", "highlight": ["just walked away"] }
+        {
+          "en": "I don't think this title works.",
+          "ru": "Я не думаю, что это название работает.",
+          "highlight": ["I don't think", "works"]
+        },
+        {
+          "en": "I am not persuaded that the proposed title is sufficiently effective.",
+          "ru": "Я не убеждён, что предложенное название достаточно удачно.",
+          "highlight": ["I am not persuaded", "sufficiently effective"]
+        },
+        {
+          "en": "We need to change the wording.",
+          "ru": "Нам нужно изменить формулировку.",
+          "highlight": ["need to change"]
+        },
+        {
+          "en": "The wording would benefit from further revision.",
+          "ru": "Формулировка выиграла бы от дальнейшей редакторской работы.",
+          "highlight": ["would benefit from further revision"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "She did not answer, she did not know what to say. (слишком длинно)", "right": "She did not answer. Did not know what to say. (эллипсис)", "note": "Эллипсис делает текст более связным." },
-    { "wrong": "He was silent. The silence was unusual. (повтор)", "right": "He was silent. This silence was unusual. (ссылка)", "note": "Используй ссылки, чтобы избежать повторов." },
-    { "wrong": "She was sad. She was unhappy. (повтор)", "right": "She was sad. The young woman was heartbroken. (замена)", "note": "Используй синонимы." },
-    { "wrong": "She knew what to do. However, she didn't do it. (правильно)", "right": "She knew what to do. However, she didn't do it.", "note": "Правильно!" },
-    { "wrong": "It is a truth universally acknowledged... (правильно)", "right": "It is a truth universally acknowledged...", "note": "Формальный регистр." },
-    { "wrong": "I'm tired of this nonsense. (правильно)", "right": "I'm tired of this nonsense.", "note": "Неформальный регистр." }
+    {
+      "wrong": "The editor rejected the title. This was rejected by Fitzgerald.",
+      "right": "The editor rejected the title. Fitzgerald rejected the decision.",
+      "note": "This должно однозначно отсылать к предыдущей информации; двусмысленная reference ослабляет cohesion."
+    },
+    {
+      "wrong": "The manuscript was revised. Therefore, the editor was a person.",
+      "right": "The manuscript was revised. Therefore, the final version differed from the draft.",
+      "note": "Connector должен соответствовать логическому отношению между предложениями."
+    },
+    {
+      "wrong": "However, therefore, the editor changed the title.",
+      "right": "However, the editor changed the title.",
+      "note": "Не перегружай предложение несколькими connectors без необходимости."
+    },
+    {
+      "wrong": "Fitzgerald changed the title. Fitzgerald changed the title again. Fitzgerald changed the title once more.",
+      "right": "Fitzgerald changed the title several times before publication.",
+      "note": "Механический повтор ослабляет lexical cohesion."
+    },
+    {
+      "wrong": "Dear publisher, your title is bad.",
+      "right": "I am not persuaded that the proposed title is sufficiently effective.",
+      "note": "Register должен соответствовать профессиональной ситуации и степени дистанции."
+    },
+    {
+      "wrong": "The text has many connectors, so it is coherent.",
+      "right": "The text may have strong cohesion, but coherence depends on the logical relationship between its ideas.",
+      "note": "Cohesion и coherence — не одно и то же."
+    }
   ],
   "compare": {
-    "title": "Formal vs Informal register",
-    "leftLabel": "Formal (формальный)",
-    "rightLabel": "Informal (неформальный)",
+    "title": "Cohesive and register-controlled discourse",
+    "leftLabel": "Прямое / нейтральное выражение",
+    "rightLabel": "Связное / формально организованное выражение",
     "rows": [
-      { "left": "It is a truth universally acknowledged that...", "right": "She did not know what to say." },
-      { "left": "One must always consider the consequences.", "right": "I'm tired of this nonsense." },
-      { "left": "It is with great pleasure that I write.", "right": "He just walked away." }
+      {
+        "left": "The editor rejected the title. The editor explained why.",
+        "right": "The editor rejected the title. He explained why."
+      },
+      {
+        "left": "Fitzgerald changed the title. The change caused problems.",
+        "right": "Fitzgerald changed the title. This caused problems."
+      },
+      {
+        "left": "I don't think this works.",
+        "right": "I am not persuaded that this is sufficiently effective."
+      },
+      {
+        "left": "The proposal was rejected. But the discussion continued.",
+        "right": "The proposal was rejected. Nevertheless, the discussion continued."
+      },
+      {
+        "left": "The manuscript was changed many times.",
+        "right": "The manuscript underwent extensive revision before publication."
+      }
     ]
   },
   "tips": [
-    "Ellipsis = пропуск слов, понятных из контекста.",
-    "Reference = местоимения, артикли.",
-    "Substitution = синонимы.",
-    "Discourse markers = however, therefore, and, but, so.",
-    "Formal register = официальные тексты.",
-    "Informal register = разговоры, письма.",
-    "Выбирай регистр в зависимости от контекста."
+    "Не путай cohesion с coherence.",
+    "Следи, к чему именно относятся this, that, it и they.",
+    "Используй lexical variation, но не заменяй понятное слово искусственным синонимом.",
+    "Connectors должны выражать реальное логическое отношение.",
+    "Register определяется не только сложностью слов.",
+    "При редактировании проверяй одновременно связь предложений и соответствие ситуации.",
+    "C2 writing требует контроля над дискурсом, а не просто большего количества сложной грамматики."
   ],
-  "related": ["c2-cohesion-and-register", "c2-participle-clauses", "c2-inversion-so-such"],
   "quiz": [
     {
-      "q": "She did not answer. ___ not know what to say.",
-      "options": ["Did", "She did", "She", "I"],
-      "answer": 0,
-      "why": "Ellipsis — пропуск She."
-    },
-    {
-      "q": "___ is a truth universally acknowledged that...",
-      "options": ["It", "This", "That", "What"],
-      "answer": 0,
-      "why": "Reference — местоимение It."
-    },
-    {
-      "q": "She did not answer. The lady was silent. Это ___.",
-      "options": ["Ellipsis", "Reference", "Substitution", "Discourse marker"],
-      "answer": 2,
-      "why": "Substitution — замена She на The lady."
-    },
-    {
-      "q": "However, she knew what to do. Это ___.",
-      "options": ["Ellipsis", "Reference", "Substitution", "Discourse marker"],
-      "answer": 3,
-      "why": "Discourse marker — However."
-    },
-    {
-      "q": "It is a truth universally acknowledged... Это ___ регистр.",
-      "options": ["Formal", "Informal", "Neutral", "Technical"],
-      "answer": 0,
-      "why": "Formal register — формальный стиль."
-    },
-    {
-      "q": "I'm tired of this nonsense. Это ___ регистр.",
-      "options": ["Formal", "Informal", "Neutral", "Technical"],
+      "q": "Which sentence creates the clearest reference?",
+      "options": [
+        "The editor rejected the title. The editor explained why.",
+        "The editor rejected the title. He explained why.",
+        "The editor rejected the title. The title explained why."
+      ],
       "answer": 1,
-      "why": "Informal register — неформальный стиль."
+      "why": "He creates a clear reference to the editor without unnecessary repetition."
+    },
+    {
+      "q": "Choose the best connector: The proposal was rejected. ___, the discussion continued.",
+      "options": [
+        "Therefore",
+        "Nevertheless",
+        "Consequently"
+      ],
+      "answer": 1,
+      "why": "The second sentence contrasts with the expected consequence of rejection."
+    },
+    {
+      "q": "Which sentence is more formal?",
+      "options": [
+        "I don't think this title works.",
+        "I am not persuaded that the proposed title is sufficiently effective.",
+        "This title isn't good."
+      ],
+      "answer": 1,
+      "why": "The second version uses more formal vocabulary, greater indirectness and professional distance."
+    },
+    {
+      "q": "Which example contains lexical cohesion?",
+      "options": [
+        "The manuscript was revised. The final draft differed from the original.",
+        "The manuscript was revised. The weather was cold.",
+        "The manuscript was revised. Seven people arrived."
+      ],
+      "answer": 0,
+      "why": "Manuscript, revised, draft and original belong to the same semantic field."
+    },
+    {
+      "q": "Which statement is correct?",
+      "options": [
+        "Cohesion and coherence are identical.",
+        "Cohesion concerns visible linguistic links between parts of a text.",
+        "A text is coherent whenever it contains many connectors."
+      ],
+      "answer": 1,
+      "why": "Cohesion describes linguistic links, while coherence concerns the logical unity of the text."
+    },
+    {
+      "q": "Which version is more appropriately formal for editorial correspondence?",
+      "options": [
+        "Your wording is bad.",
+        "You need to fix this.",
+        "The wording would benefit from further revision."
+      ],
+      "answer": 2,
+      "why": "The third version is indirect, professional and appropriately distanced."
     }
+  ],
+  "related": [
+    "c1-discourse-markers",
+    "c2-participle-clauses"
   ]
 }

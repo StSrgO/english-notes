@@ -2,194 +2,435 @@
   "variant": "rocknroll",
   "slug": "c2-mandative-subjunctive",
   "level": "C2",
-  "title": "Mandative subjunctive",
-  "category": "Verb forms",
-  "readingTime": 12,
-  "summary": "Mandative subjunctive — формальное сослагательное наклонение для требований, предложений и рекомендаций. История о том, как Red Hot Chili Peppers использовали его в песне «Under the Bridge».",
+  "title": "Mandative Subjunctive",
+  "category": "Grammar",
+  "readingTime": 13,
+  "summary": "Mandative Subjunctive используется в формальном английском после слов, выражающих требование, рекомендацию, необходимость или настойчивое предложение. В придаточном с that после таких конструкций используется базовая форма глагола независимо от лица: suggest that he go, insist that she be present. Особенно часто эта модель встречается в институциональном, юридическом, официальном и академическом языке.",
   "idea": [
-    "Red Hot Chili Peppers написали «Under the Bridge» в 1992 году. Энтони Кидис написал песню о своей наркозависимости и одиночестве. Песня стала гимном для тех, кто борется с зависимостью. Кидис использовал mandative subjunctive, чтобы выразить свои требования и рекомендации.",
-    "Он требовал от себя: «I demanded that I get clean» — я требовал от себя, чтобы я очистился. Он советовал другим: «I recommend that you seek help» — я рекомендую вам обратиться за помощью. Он настаивал: «We insist that our friends be there for us» — мы настаиваем, чтобы наши друзья были рядом. Группа использовала mandative subjunctive в интервью, чтобы выразить свои убеждения.",
-    "Mandative subjunctive — это формальное сослагательное наклонение. Verb + that + subject + V1 (без -s). Используется после глаголов suggest, insist, demand, recommend, propose, require, urge, advise. В британском английском часто используют should (I suggest that he should go). В американском — без should (I suggest that he go)."
+    "В обычной разговорной речи мы часто формулируем требования довольно прямо: [bold]I want you to leave[/bold] или [bold]They want him to change it.[/bold] Но когда человек выступает перед комитетом, судом, комиссией или другим официальным органом, язык меняется. Он становится более структурированным, точным и институциональным.",
+
+    "Именно такой регистр появляется в свидетельстве Ди Снайдера перед сенатским комитетом в 1985 году. Он приходит не просто поговорить о музыке, а дать формальное свидетельство по вопросу содержания записей и возможной маркировки альбомов.",
+
+    "В такой ситуации особенно естественны конструкции, выражающие необходимость или требование. Одна из них — Mandative Subjunctive: [bold]It is important that parents be aware.[/bold] После [bold]that[/bold] используется [bold]be[/bold], а не [bold]are[/bold].",
+
+    "Эта реальная фраза Снайдера показывает главное свойство конструкции. Он не сообщает просто, что родители осведомлены. Он формулирует, что важно, чтобы они были осведомлены. Поэтому [bold]be aware[/bold] является частью оценки необходимости, а не обычного утверждения.",
+
+    "Mandative Subjunctive появляется после глаголов, прилагательных и существительных, которые задают требование или необходимость. Например: [bold]The committee demanded that the industry act.[/bold] Здесь [bold]act[/bold] — базовая форма, хотя подлежащее [bold]the industry[/bold] является третьим лицом единственного числа.",
+
+    "Поэтому нельзя сказать [bold]The committee demanded that the industry acts[/bold] в этой конструкции. Окончание [bold]-s[/bold] исчезает, потому что это не обычный Present Simple.",
+
+    "Тот же принцип работает с [bold]be[/bold]. [bold]It is important that parents be aware.[/bold] [bold]It is essential that the committee be informed.[/bold] [bold]It is necessary that the industry be responsible.[/bold] Во всех случаях используется одна форма [bold]be[/bold].",
+
+    "Для речи Снайдера это особенно уместно. Он находится в ситуации, где его слова фиксируются как свидетельство, а аудитория представляет государственный институт. Поэтому он одновременно защищает свою позицию и выбирает регистр, соответствующий обстановке.",
+
+    "Важно отличать Mandative Subjunctive от модального значения самого слова. В предложении [bold]It is important that parents be aware[/bold] слово [bold]important[/bold] выражает необходимость, а форма [bold]be[/bold] показывает грамматическую модель, которая следует за этой необходимостью.",
+
+    "Та же конструкция может использоваться с [bold]demand[/bold]: [bold]The committee demanded that the industry create a standard.[/bold] Смысл — требование. С [bold]recommend[/bold] значение мягче: [bold]The committee recommended that the industry create a standard.[/bold]",
+
+    "С [bold]insist[/bold] появляется настойчивость: [bold]The witness insisted that the record be corrected.[/bold] Здесь речь идёт уже не просто о предложении, а о настойчивом требовании.",
+
+    "С [bold]request[/bold] конструкция может звучать более административно: [bold]The committee requested that the report be submitted.[/bold] Именно поэтому Mandative Subjunctive так хорошо чувствует себя в институциональном английском.",
+
+    "Но слушание показывает и другую сторону регистра. Снайдер не превращается в безличного чиновника. Он использует формальную структуру, оставаясь человеком, который защищает собственную позицию. Формальность здесь помогает ему контролировать аргументацию, а не уничтожает индивидуальный голос.",
+
+    "Это важный момент для C2. Формальный регистр не означает обязательно сложные слова. Иногда грамматическая конструкция сама меняет социальный статус высказывания. [bold]I want parents to know[/bold] звучит как личное желание. [bold]It is important that parents be aware[/bold] звучит как формулировка принципа или ответственности.",
+
+    "Сравни: [bold]I want the industry to act[/bold] и [bold]It is essential that the industry act.[/bold] В первом случае говорящий говорит о собственном желании. Во втором он формулирует необходимость как принцип.",
+
+    "В формальном аргументе это различие имеет значение. Снайдеру нужно не просто сказать, чего он хочет. Он должен показать, почему его позиция имеет рациональное основание. Поэтому институциональный синтаксис становится частью стратегии убеждения.",
+
+    "Mandative Subjunctive также позволяет отделить требование от результата. [bold]The committee demanded that the industry act[/bold] сообщает о требовании. Мы ещё не знаем, выполнила ли индустрия это требование. Если сказать [bold]The industry acted[/bold], это уже сообщение о результате.",
+
+    "Отрицательная форма строится так же: [bold]They insisted that the committee not interfere.[/bold] Здесь [bold]not interfere[/bold] — требуемое отсутствие действия.",
+
+    "В американском английском эта конструкция особенно заметна в официальной речи. В британском английском вместо неё также часто используется [bold]should + verb[/bold]: [bold]They insisted that he should leave.[/bold] Американская модель чаще даёт более короткое [bold]They insisted that he leave.[/bold]",
+
+    "Поэтому Mandative Subjunctive — хороший пример того, как грамматика связана с регистром. Одна и та же мысль может быть выражена разговорно, через инфинитив, или формально, через that-clause с базовой формой.",
+
+    "История Ди Снайдера особенно хорошо показывает эту функцию. Перед комитетом он не отказывается от своего обычного голоса, но перестраивает его под ситуацию слушания. Его аргументы становятся последовательными, он отвечает на вопросы, уточняет формулировки и использует язык, который соответствует официальной процедуре.",
+
+    "Поэтому Mandative Subjunctive здесь не является случайной редкой формой. Он показывает, как английский язык кодирует необходимость внутри формального аргумента: [bold]important that parents be aware[/bold], [bold]essential that the industry act[/bold], [bold]necessary that the committee respond[/bold].",
+
+    "На уровне C2 важно научиться слышать именно эту функцию: говорящий не просто сообщает, что происходит, а формулирует, что должно быть сделано, что необходимо сделать или что институция считает правильным сделать."
   ],
   "why": [
-    "Выражать требования: I demanded that I get clean.",
-    "Выражать рекомендации: I recommend that you seek help.",
-    "Выражать настойчивость: We insist that our friends be there for us.",
-    "Выражать предложения: I suggest that we all take care of each other."
+    "Понимать формальный язык публичных слушаний и институциональной речи.",
+    "Распознавать Mandative Subjunctive в реальных аргументах.",
+    "Использовать базовую форму глагола после that.",
+    "Понимать, как грамматика помогает создавать формальный и убедительный регистр."
   ],
   "context": {
     "lines": [
-      { "en": "Anthony Kiedis: 'I demanded that I get clean. I recommend that you seek help. We insist that our friends be there for us.'",
-        "ru": "Энтони Кидис: «Я требовал от себя, чтобы я очистился. Я рекомендую вам обратиться за помощью. Мы настаиваем, чтобы наши друзья были рядом»." },
-      { "en": "Friend: 'I suggest that we all take care of each other. The label required that we record a new album.'",
-        "ru": "Друг: «Я предлагаю, чтобы мы все заботились друг о друге. Лейбл требовал, чтобы мы записали новый альбом»." }
+      {
+        "en": "I think it is very important that parents be aware that these lyrics exist.",
+        "ru": "Я думаю, что очень важно, чтобы родители знали, что эти тексты существуют."
+      },
+      {
+        "en": "I would like to thank the committee for this time.",
+        "ru": "Я хотел бы поблагодарить комитет за предоставленное время."
+      },
+      {
+        "en": "We cannot allow this to continue.",
+        "ru": "Мы не можем позволить этому продолжаться."
+      },
+      {
+        "en": "There is no authority who has the right or the necessary insight to make these judgments.",
+        "ru": "Нет такого органа, который имел бы право или необходимое понимание, чтобы выносить такие суждения."
+      },
+      {
+        "en": "I feel a tremendous responsibility.",
+        "ru": "Я чувствую огромную ответственность."
+      }
     ],
-    "note": "suggest/insist/demand/require/recommend + that + subject + V1 (без -s)."
+    "note": "Строки взяты из стенограммы выступления Ди Снайдера перед сенатским комитетом в 1985 году. Первая строка содержит аутентичный Mandative Subjunctive: important that + subject + be. Остальные строки показывают формальный регистр свидетельства; дополнительные грамматические примеры ниже являются аналитическими и не выдаются за цитаты."
   },
   "russianAngle": [
-    "В русском языке мы говорим: «я предлагаю, чтобы мы все заботились друг о друге». В английском — I suggest that we all take care of each other.",
-    "Mandative subjunctive = V1 (без -s) после that.",
-    "В американском английском — без should.",
-    "В британском английском — с should (I suggest that he should go)."
+    "Русский язык обычно передаёт такие значения словами нужно, важно, необходимо, требуется и формами придаточного предложения.",
+    "В английском формальная конструкция сама показывает связь между необходимостью и последующим действием.",
+    "После that используется базовая форма: that he leave, that she be, that they act.",
+    "Форма be особенно важна, потому что она не меняется по лицам.",
+    "Mandative Subjunctive часто связан с официальным, институциональным и юридическим регистром."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: verb + that + subject + V1 (без -s).",
-      "Глаголы: suggest, insist, demand, recommend, propose, require, urge, advise.",
-      "В американском английском — без should.",
-      "В британском английском — с should.",
-      "Используется в формальных и официальных текстах.",
-      "Сделай упражнение и сверься с ответами."
+      "Определи, выражает ли первая часть требования, рекомендацию или необходимость.",
+      "Найди that-clause.",
+      "После that используй базовую форму глагола.",
+      "Проверь, не появился ли ошибочный -s после he/she/it.",
+      "Для be используй именно be.",
+      "Для отрицания используй not + base verb.",
+      "Сравни конструкцию с разговорным вариантом и почувствуй разницу регистра."
     ],
     "exercise": {
-      "prompt": "Вставьте правильную форму глагола в mandative subjunctive:",
+      "prompt": "Выбери правильную форму:",
       "items": [
-        { "q": "I demanded that I ___ (get) clean.", "a": "get" },
-        { "q": "I recommend that you ___ (seek) help.", "a": "seek" },
-        { "q": "We insist that our friends ___ (be) there for us.", "a": "be" },
-        { "q": "I suggest that we all ___ (take) care of each other.", "a": "take" },
-        { "q": "The label required that we ___ (record) a new album.", "a": "record" }
+        {
+          "q": "It is important that parents ___ aware.",
+          "a": "be"
+        },
+        {
+          "q": "The committee demanded that the industry ___ a standard.",
+          "a": "create"
+        },
+        {
+          "q": "They insisted that the report ___ corrected.",
+          "a": "be"
+        },
+        {
+          "q": "The board recommended that the company ___ the policy.",
+          "a": "change"
+        },
+        {
+          "q": "They insisted that the committee ___ interfere.",
+          "a": "not"
+        }
       ]
     }
   },
-  "formula": "verb + that + subject + V1 (без -s)",
+  "formula": "demand/insist/suggest/recommend + that + subject + base verb",
   "structure": {
-    "positive": "I demanded that I get clean.",
-    "negative": "I demanded that I not get clean.",
-    "question": "Did you demand that you get clean?"
+    "mandative_statement": "It is important that parents be aware.",
+    "demand": "The committee demanded that the industry act.",
+    "recommendation": "The board recommended that the company change the policy.",
+    "negative": "They insisted that the committee not interfere."
   },
-  "markers": ["suggest", "insist", "demand", "recommend", "propose", "require", "urge", "advise"],
-  "uses": [
-    "demand: I demanded that I get clean.",
-    "recommend: I recommend that you seek help.",
-    "insist: We insist that our friends be there for us.",
-    "suggest: I suggest that we all take care of each other.",
-    "require: The label required that we record a new album."
+  "markers": [
+    "demand that",
+    "insist that",
+    "suggest that",
+    "recommend that",
+    "request that",
+    "require that",
+    "it is important that",
+    "it is essential that",
+    "it is necessary that"
   ],
+  "uses": {
+    "title": "Mandative Subjunctive в формальном аргументе",
+    "items": [
+      {
+        "title": "Формулировка необходимости",
+        "text": "It is important that parents be aware."
+      },
+      {
+        "title": "Требование",
+        "text": "The committee demanded that the industry act."
+      },
+      {
+        "title": "Настойчивое требование",
+        "text": "They insisted that the record be corrected."
+      },
+      {
+        "title": "Рекомендация",
+        "text": "The board recommended that the company change the policy."
+      },
+      {
+        "title": "Институциональный регистр",
+        "text": "Mandative Subjunctive особенно естественен в официальной аргументации, правилах и процедурах."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Формула",
-      "text": "verb + that + subject + V1 (без -s). I demanded that I get clean." },
-    { "title": "Глаголы",
-      "text": "suggest, insist, demand, recommend, propose, require, urge, advise." },
-    { "title": "Американский vs британский",
-      "text": "В американском — без should. В британском — с should." },
-    { "title": "Отрицание",
-      "text": "not ставится перед глаголом. I demanded that I not get clean." }
+    {
+      "title": "Base form",
+      "text": "После mandative that используется базовая форма глагола."
+    },
+    {
+      "title": "No -s",
+      "text": "После he/she/it глагол не получает окончания -s: that he act."
+    },
+    {
+      "title": "Be",
+      "text": "Глагол be сохраняет форму be независимо от подлежащего."
+    },
+    {
+      "title": "Negative",
+      "text": "Отрицание строится как not + base verb."
+    },
+    {
+      "title": "Formal register",
+      "text": "Конструкция особенно характерна для официального, институционального и юридического языка."
+    },
+    {
+      "title": "Should alternative",
+      "text": "В британском английском возможна модель that + subject + should + verb."
+    }
   ],
   "examples": [
     {
-      "group": "demand — требование",
+      "group": "Formal necessity",
       "items": [
-        { "en": "I demanded that I get clean and start a new life.", "ru": "Я требовал от себя, чтобы я очистился и начал новую жизнь.", "highlight": ["demanded", "get"] },
-        { "en": "He demanded that she stay with him.", "ru": "Он требовал, чтобы она осталась с ним.", "highlight": ["demanded", "stay"] },
-        { "en": "They demanded that we play the song live.", "ru": "Они требовали, чтобы мы сыграли эту песню вживую.", "highlight": ["demanded", "play"] }
+        {
+          "en": "It is important that parents be aware.",
+          "ru": "Важно, чтобы родители были осведомлены.",
+          "highlight": ["important that parents be"]
+        },
+        {
+          "en": "It is essential that the committee be informed.",
+          "ru": "Необходимо, чтобы комитет был проинформирован.",
+          "highlight": ["essential that the committee be"]
+        },
+        {
+          "en": "It is necessary that the industry act responsibly.",
+          "ru": "Необходимо, чтобы индустрия действовала ответственно.",
+          "highlight": ["necessary that the industry act"]
+        },
+        {
+          "en": "It is vital that the public understand the distinction.",
+          "ru": "Крайне важно, чтобы общественность понимала это различие.",
+          "highlight": ["vital that the public understand"]
+        }
       ]
     },
     {
-      "group": "recommend — рекомендация",
+      "group": "Formal demands",
       "items": [
-        { "en": "I recommend that you seek help if you need it.", "ru": "Я рекомендую вам обратиться за помощью, если она вам нужна.", "highlight": ["recommend", "seek"] },
-        { "en": "The doctor recommended that I take a break.", "ru": "Врач рекомендовал, чтобы я сделал перерыв.", "highlight": ["recommended", "take"] },
-        { "en": "I recommend that you listen to this song.", "ru": "Я рекомендую вам послушать эту песню.", "highlight": ["recommend", "listen"] }
+        {
+          "en": "The committee demanded that the industry create a standard.",
+          "ru": "Комитет потребовал, чтобы индустрия создала стандарт.",
+          "highlight": ["demanded that the industry create"]
+        },
+        {
+          "en": "The witness insisted that the record be corrected.",
+          "ru": "Свидетель настоял, чтобы протокол был исправлен.",
+          "highlight": ["insisted that the record be"]
+        },
+        {
+          "en": "The board required that every label contain clear information.",
+          "ru": "Совет потребовал, чтобы каждая маркировка содержала ясную информацию.",
+          "highlight": ["required that every label contain"]
+        },
+        {
+          "en": "The committee requested that the report be submitted.",
+          "ru": "Комитет запросил, чтобы отчёт был представлен.",
+          "highlight": ["requested that the report be"]
+        }
       ]
     },
     {
-      "group": "insist — настойчивость",
+      "group": "Recommendations",
       "items": [
-        { "en": "We insist that our friends be there for us in difficult times.", "ru": "Мы настаиваем, чтобы наши друзья были рядом в трудные времена.", "highlight": ["insist", "be"] },
-        { "en": "She insisted that I stay with her.", "ru": "Она настаивала, чтобы я остался с ней.", "highlight": ["insisted", "stay"] },
-        { "en": "He insisted that we play the song again.", "ru": "Он настаивал, чтобы мы сыграли песню снова.", "highlight": ["insisted", "play"] }
+        {
+          "en": "The committee recommended that the industry act voluntarily.",
+          "ru": "Комитет рекомендовал, чтобы индустрия действовала добровольно.",
+          "highlight": ["recommended that the industry act"]
+        },
+        {
+          "en": "They suggested that the policy change.",
+          "ru": "Они предложили изменить политику.",
+          "highlight": ["suggested that the policy change"]
+        },
+        {
+          "en": "The board recommended that parents receive clear information.",
+          "ru": "Совет рекомендовал, чтобы родители получали ясную информацию.",
+          "highlight": ["recommended that parents receive"]
+        },
+        {
+          "en": "The report suggested that the system be reviewed.",
+          "ru": "В отчёте предлагалось пересмотреть систему.",
+          "highlight": ["suggested that the system be"]
+        }
       ]
     },
     {
-      "group": "suggest — предложение",
+      "group": "Register comparison",
       "items": [
-        { "en": "I suggest that we all take care of each other.", "ru": "Я предлагаю, чтобы мы все заботились друг о друге.", "highlight": ["suggest", "take"] },
-        { "en": "I suggest that you write a song about it.", "ru": "Я предлагаю вам написать песню об этом.", "highlight": ["suggest", "write"] },
-        { "en": "I suggest that we meet after the show.", "ru": "Я предлагаю, чтобы мы встретились после шоу.", "highlight": ["suggest", "meet"] }
-      ]
-    },
-    {
-      "group": "require — требование правил",
-      "items": [
-        { "en": "The label required that we record a new album.", "ru": "Лейбл требовал, чтобы мы записали новый альбом.", "highlight": ["required", "record"] },
-        { "en": "The contract requires that we play at least 50 shows.", "ru": "Контракт требует, чтобы мы сыграли как минимум 50 концертов.", "highlight": ["requires", "play"] },
-        { "en": "The tour requires that we be in good shape.", "ru": "Тур требует, чтобы мы были в хорошей форме.", "highlight": ["requires", "be"] }
-      ]
-    },
-    {
-      "group": "propose — предложение",
-      "items": [
-        { "en": "I propose that we play this song live.", "ru": "Я предлагаю, чтобы мы сыграли эту песню вживую.", "highlight": ["propose", "play"] },
-        { "en": "He proposed that they start a new project.", "ru": "Он предложил, чтобы они начали новый проект.", "highlight": ["proposed", "start"] },
-        { "en": "I propose that we meet next week.", "ru": "Я предлагаю, чтобы мы встретились на следующей неделе.", "highlight": ["propose", "meet"] }
+        {
+          "en": "I want the industry to act.",
+          "ru": "Я хочу, чтобы индустрия действовала.",
+          "highlight": ["want the industry to act"]
+        },
+        {
+          "en": "It is essential that the industry act.",
+          "ru": "Необходимо, чтобы индустрия действовала.",
+          "highlight": ["essential that the industry act"]
+        },
+        {
+          "en": "I want parents to know.",
+          "ru": "Я хочу, чтобы родители знали.",
+          "highlight": ["want parents to know"]
+        },
+        {
+          "en": "It is important that parents be aware.",
+          "ru": "Важно, чтобы родители были осведомлены.",
+          "highlight": ["important that parents be aware"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "I demanded that I gets clean.", "right": "I demanded that I get clean.", "note": "Mandative subjunctive — V1 (без -s)." },
-    { "wrong": "I recommend that you seeks help.", "right": "I recommend that you seek help.", "note": "Mandative subjunctive — V1 (без -s)." },
-    { "wrong": "We insist that our friends are there for us.", "right": "We insist that our friends be there for us.", "note": "Mandative subjunctive — be, не are." },
-    { "wrong": "I suggest that we all takes care of each other.", "right": "I suggest that we all take care of each other.", "note": "Mandative subjunctive — V1 (без -s)." },
-    { "wrong": "The label required that we recorded a new album.", "right": "The label required that we record a new album.", "note": "Mandative subjunctive — V1 (без -s)." },
-    { "wrong": "I propose that we played this song live.", "right": "I propose that we play this song live.", "note": "Mandative subjunctive — V1 (без -s)." }
+    {
+      "wrong": "It is important that parents are aware.",
+      "right": "It is important that parents be aware.",
+      "note": "В формальном Mandative Subjunctive после important that используется be."
+    },
+    {
+      "wrong": "The committee demanded that the industry acts.",
+      "right": "The committee demanded that the industry act.",
+      "note": "После demand that используется базовая форма."
+    },
+    {
+      "wrong": "They insisted that the record is corrected.",
+      "right": "They insisted that the record be corrected.",
+      "note": "После insist that используется базовая форма be."
+    },
+    {
+      "wrong": "The board recommended that he attends.",
+      "right": "The board recommended that he attend.",
+      "note": "Окончание -s не используется в Mandative Subjunctive."
+    },
+    {
+      "wrong": "They insisted that the committee doesn't interfere.",
+      "right": "They insisted that the committee not interfere.",
+      "note": "Отрицание строится через not + base verb."
+    },
+    {
+      "wrong": "It is essential that the report is submitted.",
+      "right": "It is essential that the report be submitted.",
+      "note": "После essential that используется be, а не is."
+    }
   ],
   "compare": {
-    "title": "Mandative vs Indicative",
-    "leftLabel": "Mandative subjunctive (формальный)",
-    "rightLabel": "Indicative (обычный)",
+    "title": "Разговорная конструкция vs Mandative Subjunctive",
+    "leftLabel": "Личная формулировка",
+    "centerLabel": "Mandative Subjunctive",
+    "rightLabel": "Вариант с should",
     "rows": [
-      { "left": "I demanded that I get clean.", "right": "I demanded that I got clean. (неправильно для mandative)" },
-      { "left": "I recommend that you seek help.", "right": "I recommend that you seek help." },
-      { "left": "We insist that they be there.", "right": "We insist that they be there." }
+      {
+        "left": "I want parents to know.",
+        "center": "It is important that parents be aware.",
+        "right": "It is important that parents should be aware."
+      },
+      {
+        "left": "I want the industry to act.",
+        "center": "It is essential that the industry act.",
+        "right": "It is essential that the industry should act."
+      },
+      {
+        "left": "They want the report to be corrected.",
+        "center": "They insisted that the report be corrected.",
+        "right": "They insisted that the report should be corrected."
+      },
+      {
+        "left": "They want the committee to respond.",
+        "center": "They demanded that the committee respond.",
+        "right": "They demanded that the committee should respond."
+      }
     ]
   },
   "tips": [
-    "verb + that + subject + V1 (без -s).",
-    "Глаголы: suggest, insist, demand, recommend, propose, require, urge, advise.",
-    "В американском — без should.",
-    "В британском — с should.",
-    "Используется в формальных и официальных текстах.",
-    "Отрицание: not перед глаголом.",
-    "Не путай с индикативом."
+    "В формальном аргументе ищи слова important, essential, necessary, demand, insist, recommend, require.",
+    "После that проверяй базовую форму глагола.",
+    "Запомни особенно important that + subject + be.",
+    "Не ставь -s после he/she/it.",
+    "Не путай требование с результатом действия.",
+    "Mandative Subjunctive помогает создавать официальный и институциональный регистр.",
+    "Сравнивай конструкцию с более разговорным want + object + to-infinitive."
   ],
-  "related": ["c2-mandative-subjunctive", "c2-subjunctive-wish-regret", "c2-inversion-so-such", "c2-cohesion-and-register"],
   "quiz": [
     {
-      "q": "I demanded that I ___ clean.",
-      "options": ["get", "gets", "got", "getting"],
+      "q": "Choose the correct sentence:",
+      "options": [
+        "It is important that parents be aware.",
+        "It is important that parents are aware.",
+        "It is important that parents were aware."
+      ],
       "answer": 0,
-      "why": "Mandative subjunctive — V1 (без -s)."
+      "why": "После important that в Mandative Subjunctive используется be."
     },
     {
-      "q": "I recommend that you ___ help.",
-      "options": ["seek", "seeks", "sought", "seeking"],
+      "q": "Choose the correct sentence:",
+      "options": [
+        "The committee demanded that the industry act.",
+        "The committee demanded that the industry acts.",
+        "The committee demanded that the industry acted."
+      ],
       "answer": 0,
-      "why": "Mandative subjunctive — V1 (без -s)."
+      "why": "После demand that используется базовая форма act."
     },
     {
-      "q": "We insist that our friends ___ there for us.",
-      "options": ["be", "are", "were", "being"],
+      "q": "Choose the correct form: The witness insisted that the record ___ corrected.",
+      "options": [
+        "be",
+        "is",
+        "was"
+      ],
       "answer": 0,
-      "why": "Mandative subjunctive — be, не are."
+      "why": "После insist that используется форма be."
     },
     {
-      "q": "I suggest that we all ___ care of each other.",
-      "options": ["take", "takes", "took", "taking"],
+      "q": "Choose the correct negative form:",
+      "options": [
+        "They insisted that the committee not interfere.",
+        "They insisted that the committee doesn't interfere.",
+        "They insisted that the committee didn't interfere."
+      ],
       "answer": 0,
-      "why": "Mandative subjunctive — V1 (без -s)."
+      "why": "Отрицание строится как not + base verb."
     },
     {
-      "q": "The label required that we ___ a new album.",
-      "options": ["record", "records", "recorded", "recording"],
-      "answer": 0,
-      "why": "Mandative subjunctive — V1 (без -s)."
+      "q": "Which sentence is the most formal?",
+      "options": [
+        "I want the industry to act.",
+        "It is essential that the industry act.",
+        "I think the industry should act."
+      ],
+      "answer": 1,
+      "why": "Essential that + base verb — характерная формальная mandative-конструкция."
     },
     {
-      "q": "I propose that we ___ this song live.",
-      "options": ["play", "plays", "played", "playing"],
+      "q": "What does the sentence mean: They demanded that the company change its policy?",
+      "options": [
+        "They required the company to change its policy.",
+        "They reported that the company had changed its policy.",
+        "They discovered that the company was changing its policy."
+      ],
       "answer": 0,
-      "why": "Mandative subjunctive — V1 (без -s)."
+      "why": "Demand that expresses a requirement, not a report of an already completed action."
     }
+  ],
+  "related": [
+    "c2-modals-past-deduction",
+    "c2-cohesion-and-register"
   ]
 }

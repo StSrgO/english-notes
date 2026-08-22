@@ -2,193 +2,401 @@
   "variant": "classic",
   "slug": "c1-cleft-sentences",
   "level": "C1",
-  "title": "Cleft sentences",
-  "category": "Emphasis",
-  "readingTime": 11,
-  "summary": "Cleft sentences — конструкции для выделения информации. История о том, как Чак Паланик написал «Бойцовский клуб» и изменил свою жизнь.",
+  "title": "Cleft Sentences",
+  "category": "Grammar",
+  "readingTime": 13,
+  "summary": "Cleft Sentences используются, когда говорящий хочет специально выделить один элемент сообщения. Вместо обычного порядка слов информация разделяется на две части, и фокус переносится на человека, предмет, место, время или действие. Такая конструкция помогает показать не только то, что говорится, но и на чём именно говорящий хочет сосредоточить внимание.",
   "idea": [
-    "Чак Паланик написал «Бойцовский клуб» в 1996 году. Это была книга, которая изменила его жизнь. Именно эта книга, а не какая-то другая, сделала его знаменитым. Что он хотел написать, так это роман о современной мужественности. Не насилие важно, а послание. Именно фильм сделал книгу известной. Если бы не фильм, книга могла бы остаться незамеченной.",
-    "Паланик использовал cleft sentences, чтобы выделить ключевые идеи. Он говорил: «It was the book that changed my life». «What I wanted to write was a novel about modern masculinity». «It is not the violence that matters, it is the message». Эти конструкции помогали ему делать акцент на главном.",
-    "Cleft sentences — это конструкции, которые выделяют информацию. It is/was + выделяемая часть + that/who + остальное. What + глагол + is/was + выделяемая часть. Они используются для акцента и эмфазы в письменной и устной речи."
+    "Иногда нам важно не просто сообщить факт, а показать, какая его часть является главной. Сравни: [bold]Lady Bracknell wants the side view.[/bold] и [bold]The side view is what Lady Bracknell wants.[/bold] Содержание близкое, но во втором предложении внимание направлено именно на [bold]the side view[/bold].",
+
+    "Такое перераспределение информационного фокуса называется [bold]cleft sentence[/bold]. Слово [bold]cleft[/bold] буквально связано с разделением: одно обычное предложение превращается в конструкцию, состоящую из двух частей. В английском это позволяет сделать определённый элемент сообщения более заметным.",
+
+    "В [bold]The Importance of Being Earnest[/bold] Уайльд постоянно сталкивает то, что персонажи считают важным, с тем, что действительно оказывается важным для сцены. Герои говорят о внешности, именах, социальных качествах и приличиях, но сама комедия строится на том, что эти категории постоянно оказываются ненадёжными.",
+
+    "В сцене с Сесили леди Брэкнелл рассматривает девушку почти как предмет оценки. Она просит её повернуться и говорит: [bold]“No, the side view is what I want.”[/bold] Это аутентичный пример [bold]wh-cleft[/bold]: сначала называется результат или объект внимания, а затем через [bold]what[/bold] уточняется действие или потребность говорящего.",
+
+    "Обычная структура могла бы выглядеть так: [bold]I want the side view.[/bold] Но Уайльд использует другую организацию информации: [bold]The side view is what I want.[/bold] Теперь [bold]the side view[/bold] находится в позиции фокуса, а [bold]what I want[/bold] объясняет, какую функцию этот элемент выполняет в ситуации.",
+
+    "Одна из основных моделей — [bold]What + clause + be + focused element[/bold]. Например: [bold]What I need is more time.[/bold] Здесь [bold]what I need[/bold] означает «то, что мне нужно», а [bold]more time[/bold] является выделяемой информацией.",
+
+    "Эта конструкция особенно полезна, когда нужно ответить на вопрос о том, что именно произошло или что именно имеет значение. [bold]What surprised me was his reaction.[/bold] В обычном варианте [bold]His reaction surprised me[/bold] информация сообщается нейтральнее. В cleft-конструкции сначала создаётся рамка [bold]what surprised me[/bold], а затем появляется главное содержание — [bold]his reaction[/bold].",
+
+    "Другая важная модель — [bold]It + be + focused element + that/who + clause[/bold]. Например: [bold]It was Jack who invented the story.[/bold] Здесь говорящий не просто сообщает, что Джек придумал историю, а выделяет именно Джека.",
+
+    "Если выделяется человек, после него часто используется [bold]who[/bold]: [bold]It was Algernon who created Bunbury.[/bold] Если выделяется предмет, действие или другая часть информации, используется [bold]that[/bold]: [bold]It was the name that mattered to Gwendolen.[/bold]",
+
+    "В [bold]The Importance of Being Earnest[/bold] имена становятся особенно подходящим материалом для объяснения фокуса. Гвендолен и Сесили придают имени Ernest огромное значение, хотя сами мужчины используют разные имена в разных обстоятельствах. Поэтому вопрос «что именно важно?» постоянно меняется в зависимости от точки зрения персонажа.",
+
+    "Cleft sentence не обязательно добавляет новую информацию. Часто она просто меняет её информационную структуру. [bold]Jack told the lie.[/bold] сообщает факт. [bold]It was Jack who told the lie.[/bold] подчёркивает, кто именно это сделал.",
+
+    "Это особенно важно в споре или исправлении. Если кто-то говорит, что историю придумал Джек, другой человек может ответить: [bold]It was Algernon who invented Bunbury.[/bold] Конструкция помогает противопоставить одну часть информации другой.",
+
+    "Wh-cleft работает немного иначе. В [bold]What Algernon wanted was an excuse.[/bold] первая часть представляет ситуацию как вопрос «что именно хотел Аланжернон?», а вторая даёт ответ — [bold]an excuse[/bold]. Поэтому такая конструкция естественно используется для объяснения результата, причины или главного элемента ситуации.",
+
+    "Сравни: [bold]Algernon wanted an excuse.[/bold] и [bold]What Algernon wanted was an excuse.[/bold] В первом предложении просто сообщается желание. Во втором говорящий организует информацию так, чтобы [bold]an excuse[/bold] воспринималось как ответ на скрытый вопрос [bold]what did Algernon want?[/bold].",
+
+    "Есть и конструкция с [bold]it[/bold], где фокус ставится непосредственно перед относительной частью. [bold]It was the name Ernest that attracted Gwendolen.[/bold] Здесь [bold]the name Ernest[/bold] является выделенной частью, а [bold]that attracted Gwendolen[/bold] объясняет её роль.",
+
+    "В английском cleft-конструкции часто используются именно тогда, когда говорящий хочет изменить перспективу слушателя. Сначала слушатель получает рамку, затем — нужный элемент. Поэтому эта грамматика связана не только со структурой предложения, но и с тем, как организуется информация.",
+
+    "Уайльд постоянно играет с таким принципом на уровне содержания. Персонажи обсуждают имена, внешность, социальное положение и моральные качества так, будто каждый раз знают, что именно важно. Но комедия показывает, насколько легко один и тот же факт можно представить с другой точки зрения.",
+
+    "Сравни ещё две конструкции: [bold]Lady Bracknell examined Cecily's profile.[/bold] и [bold]It was Cecily's profile that Lady Bracknell examined.[/bold] Во втором варианте [bold]Cecily's profile[/bold] становится центром сообщения. Мы как будто отвечаем на вопрос [bold]what did Lady Bracknell examine?[/bold].",
+
+    "Таким образом, cleft sentence не следует использовать просто потому, что она звучит сложнее. Её функция — управлять фокусом. Если обычное предложение достаточно нейтрально сообщает факт, cleft-конструкция помогает показать, какая именно часть этого факта сейчас находится в центре внимания.",
+
+    "В мире Уайльда это особенно уместно: персонажи постоянно спорят не только о том, что произошло, но и о том, что считать главным. Поэтому [bold]Cleft Sentences[/bold] здесь позволяют увидеть грамматику как способ управления взглядом читателя и собеседника: содержание остаётся похожим, но центр внимания меняется."
   ],
   "why": [
-    "Выделять информацию: It was the book that changed his life.",
-    "Делать акцент: What he wanted to write was a novel about masculinity.",
-    "Создавать контраст: It is not the violence that matters, but the message.",
-    "Делать речь более выразительной."
+    "Выделять один элемент сообщения как главный.",
+    "Использовать it-cleft и wh-cleft конструкции.",
+    "Противопоставлять информацию и исправлять точку зрения собеседника.",
+    "Понимать, как порядок информации влияет на смысл и акцент."
   ],
   "context": {
     "lines": [
-      { "en": "Palahniuk: 'It was the book that changed my life. What I wanted to write was a novel about modern masculinity. It is not the violence that matters, it is the message.'",
-        "ru": "Паланик: «Именно эта книга изменила мою жизнь. Что я хотел написать, так это роман о современной мужественности. Не насилие важно, а послание»." },
-      { "en": "Publisher: 'It was the film that made the book famous. What I didn't expect was the success.'",
-        "ru": "Издатель: «Именно фильм сделал книгу известной. Чего я не ожидал, так это успеха»." }
+      {
+        "en": "No, the side view is what I want.",
+        "ru": "Нет, я хочу видеть её в профиль."
+      },
+      {
+        "en": "What do they talk about?",
+        "ru": "О чём они говорят?"
+      },
+      {
+        "en": "The fools! Oh! about the clever people, of course.",
+        "ru": "О глупцах? О умных людях, конечно."
+      },
+      {
+        "en": "It is perfectly absurd your saying that your name isn't Ernest.",
+        "ru": "Совершенно нелепо с твоей стороны говорить, что тебя зовут не Эрнест."
+      },
+      {
+        "en": "The truth is rarely pure and never simple.",
+        "ru": "Правда редко бывает чистой и никогда не бывает простой."
+      }
     ],
-    "note": "It was the book that... What I wanted to write was... It is not... that... but..."
+    "note": "Контекст основан на оригинальном тексте The Importance of Being Earnest. Для грамматического анализа особенно важен аутентичный wh-cleft “The side view is what I want”; остальные примеры используются для раскрытия информационного фокуса и темы двойной идентичности."
   },
   "russianAngle": [
-    "В русском языке мы говорим: «именно эта книга изменила мою жизнь». В английском — It was this book that changed my life.",
-    "Cleft sentences = выделение информации.",
-    "It is/was + выделяемая часть + that/who.",
-    "What + глагол + is/was + выделяемая часть."
+    "В русском языке фокус часто передаётся интонацией и порядком слов.",
+    "В английском cleft sentence позволяет грамматически оформить выделение части сообщения.",
+    "Конструкция What + clause + be + element часто соответствует смыслу «то, что..., — это...».",
+    "В конструкции It + be + element + that/who + clause выделяемый элемент помещается перед относительной частью.",
+    "Cleft sentence меняет прежде всего информационную структуру, а не основной факт."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: Cleft sentences выделяют информацию.",
-      "It is/was + выделяемая часть + that/who + остальное.",
-      "What + глагол + is/was + выделяемая часть.",
-      "It is not... but... — для контраста.",
-      "Используй для акцента в речи.",
-      "Сделай упражнение и сверься с ответами."
+      "Сначала сформулируй обычное нейтральное предложение.",
+      "Определи, какой элемент нужно выделить.",
+      "Для конструкции с what используй модель What + clause + be + focused element.",
+      "Для конструкции с it используй модель It + be + focused element + that/who + clause.",
+      "Если выделяется человек, проверь возможность who.",
+      "Спроси себя, на какой вопрос отвечает выделенная часть.",
+      "Сравни cleft-вариант с обычным предложением и почувствуй разницу в фокусе."
     ],
     "exercise": {
-      "prompt": "Преобразуйте обычные предложения в cleft sentences:",
+      "prompt": "Переделай предложения так, чтобы выделить указанную информацию:",
       "items": [
-        { "q": "The book changed my life. → It ___ the book ___ changed my life.", "a": "was, that" },
-        { "q": "I wanted to write a novel about masculinity. → What I ___ ___ write was a novel about masculinity.", "a": "wanted to" },
-        { "q": "The film made the book famous. → It ___ the film ___ made the book famous.", "a": "was, that" },
-        { "q": "The violence doesn't matter. The message matters. → It is ___ the violence ___ matters, ___ the message.", "a": "not, that, but" },
-        { "q": "I didn't expect the success. → What I ___ ___ was the success.", "a": "didn't expect" }
+        {
+          "q": "Lady Bracknell wants the side view. Focus on the side view.",
+          "a": "The side view is what Lady Bracknell wants."
+        },
+        {
+          "q": "Algernon invented Bunbury. Focus on Algernon.",
+          "a": "It was Algernon who invented Bunbury."
+        },
+        {
+          "q": "Gwendolen cares about the name Ernest. Focus on the name Ernest.",
+          "a": "It is the name Ernest that Gwendolen cares about."
+        },
+        {
+          "q": "Jack wants freedom from his responsibilities. Focus on freedom.",
+          "a": "What Jack wants is freedom from his responsibilities."
+        },
+        {
+          "q": "Lady Bracknell examined Cecily's profile. Focus on Cecily's profile.",
+          "a": "It was Cecily's profile that Lady Bracknell examined."
+        }
       ]
     }
   },
-  "formula": "It is/was + X + that/who + Y · What + Z + is/was + X",
+  "formula": "What + clause + be + focused element / It + be + focused element + that/who + clause",
   "structure": {
-    "positive": "It was the book that changed his life.",
-    "negative": "It wasn't the book that changed his life.",
-    "question": "Was it the book that changed his life?"
+    "wh_cleft": "What + subject + verb + be + focused element: What I need is more time.",
+    "it_cleft_person": "It + be + person + who + clause: It was Algernon who invented Bunbury.",
+    "it_cleft_thing": "It + be + thing + that + clause: It was the name Ernest that mattered.",
+    "comparison": "Neutral: Algernon invented Bunbury. Focused: It was Algernon who invented Bunbury."
   },
-  "markers": ["it is", "it was", "what", "that", "who", "which", "not... but..."],
-  "uses": [
-    "It was the book that changed his life. (выделение объекта)",
-    "What I wanted to write was a novel about masculinity. (выделение желания)",
-    "It is not the violence that matters, but the message. (контраст)",
-    "What I didn't expect was the success. (выделение неожиданности)"
+  "markers": [
+    "What ... is ...",
+    "What ... was ...",
+    "It is ... that ...",
+    "It was ... that ...",
+    "It is ... who ...",
+    "It was ... who ..."
   ],
+  "uses": {
+    "title": "Как cleft sentence меняет фокус",
+    "items": [
+      {
+        "title": "Выделение предмета",
+        "text": "Wh-cleft позволяет представить выделяемый элемент как ответ на вопрос: What I need is more time."
+      },
+      {
+        "title": "Выделение человека",
+        "text": "It-cleft выделяет человека: It was Algernon who invented Bunbury."
+      },
+      {
+        "title": "Выделение факта",
+        "text": "It-cleft выделяет событие или обстоятельство: It was the name Ernest that mattered."
+      },
+      {
+        "title": "Исправление",
+        "text": "Cleft sentence помогает противопоставить одну часть информации другой: It was Jack who said it, not Algernon."
+      },
+      {
+        "title": "Информационный фокус",
+        "text": "Cleft sentence не обязательно меняет сам факт; она меняет то, какая часть сообщения воспринимается как главная."
+      }
+    ]
+  },
   "rules": [
-    { "title": "It is/was... that/who...",
-      "text": "It was the book that changed his life. It was Palahniuk who wrote the book." },
-    { "title": "What... is/was...",
-      "text": "What I wanted to write was a novel about masculinity." },
-    { "title": "It is not... but...",
-      "text": "It is not the violence that matters, but the message." },
-    { "title": "Выделение информации",
-      "text": "Cleft sentences используются для выделения ключевой информации." }
+    {
+      "title": "Wh-cleft",
+      "text": "Используется модель What + clause + be + focused element: What I want is a quiet room."
+    },
+    {
+      "title": "It-cleft",
+      "text": "Используется модель It + be + focused element + that/who + clause."
+    },
+    {
+      "title": "Who",
+      "text": "Who часто используется, когда выделяется человек: It was Jack who said it."
+    },
+    {
+      "title": "That",
+      "text": "That используется для выделения предмета, действия, времени или другого элемента: It was the name that mattered."
+    },
+    {
+      "title": "Информационный фокус",
+      "text": "Cleft sentence подчёркивает одну часть сообщения, не обязательно меняя его основной смысл."
+    },
+    {
+      "title": "Сравнение",
+      "text": "Обычное предложение нейтральнее, cleft sentence сильнее направляет внимание слушателя на выбранный элемент."
+    }
   ],
   "examples": [
     {
-      "group": "It is/was... that/who... — выделение объекта или человека",
+      "group": "Wh-cleft",
       "items": [
-        { "en": "It was the book that changed his life.", "ru": "Именно эта книга изменила его жизнь.", "highlight": ["It was", "that"] },
-        { "en": "It was Palahniuk who wrote the novel.", "ru": "Именно Паланик написал роман.", "highlight": ["It was", "who"] },
-        { "en": "It was the film that made the book famous.", "ru": "Именно фильм сделал книгу известной.", "highlight": ["It was", "that"] }
+        {
+          "en": "The side view is what I want.",
+          "ru": "Мне нужен именно вид сбоку.",
+          "highlight": ["the side view", "what I want"]
+        },
+        {
+          "en": "What I need is more time.",
+          "ru": "То, что мне нужно, — это больше времени.",
+          "highlight": ["What I need", "more time"]
+        },
+        {
+          "en": "What Jack wants is freedom.",
+          "ru": "То, чего хочет Джек, — это свобода.",
+          "highlight": ["What Jack wants", "freedom"]
+        },
+        {
+          "en": "What matters is the name.",
+          "ru": "Важно именно имя.",
+          "highlight": ["What matters", "the name"]
+        }
       ]
     },
     {
-      "group": "What... is/was... — выделение желания, действия",
+      "group": "It-cleft",
       "items": [
-        { "en": "What I wanted to write was a novel about modern masculinity.", "ru": "Что я хотел написать, так это роман о современной мужественности.", "highlight": ["What", "was"] },
-        { "en": "What I didn't expect was the success.", "ru": "Чего я не ожидал, так это успеха.", "highlight": ["What", "was"] },
-        { "en": "What matters is the message, not the violence.", "ru": "Что важно, так это послание, а не насилие.", "highlight": ["What", "is"] }
+        {
+          "en": "It was Algernon who invented Bunbury.",
+          "ru": "Именно Аланжернон придумал Банбери.",
+          "highlight": ["It was Algernon who"]
+        },
+        {
+          "en": "It was Jack who told the story.",
+          "ru": "Именно Джек рассказал эту историю.",
+          "highlight": ["It was Jack who"]
+        },
+        {
+          "en": "It was the name Ernest that mattered.",
+          "ru": "Именно имя Эрнест имело значение.",
+          "highlight": ["It was the name Ernest that"]
+        },
+        {
+          "en": "It was Cecily's profile that Lady Bracknell examined.",
+          "ru": "Именно профиль Сесили рассматривала леди Брэкнелл.",
+          "highlight": ["It was Cecily's profile that"]
+        }
       ]
     },
     {
-      "group": "It is not... that... but... — контраст",
+      "group": "Neutral vs focused",
       "items": [
-        { "en": "It is not the violence that matters, but the message.", "ru": "Не насилие важно, а послание.", "highlight": ["not", "that", "but"] },
-        { "en": "It is not the fame that he wanted, but the freedom.", "ru": "Не славу он хотел, а свободу.", "highlight": ["not", "that", "but"] },
-        { "en": "It is not the money that drives him, but the passion.", "ru": "Не деньги движут им, а страсть.", "highlight": ["not", "that", "but"] }
-      ]
-    },
-    {
-      "group": "What... is/was... — выделение неожиданности",
-      "items": [
-        { "en": "What I didn't expect was the success.", "ru": "Чего я не ожидал, так это успеха.", "highlight": ["What", "was"] },
-        { "en": "What surprised me was the reaction of the readers.", "ru": "Что удивило меня, так это реакция читателей.", "highlight": ["What", "was"] },
-        { "en": "What I remember most is the first review.", "ru": "Что я помню больше всего, так это первую рецензию.", "highlight": ["What", "is"] }
-      ]
-    },
-    {
-      "group": "It was... that... — выделение времени",
-      "items": [
-        { "en": "It was in 1996 that the book was published.", "ru": "Именно в 1996 году книга была опубликована.", "highlight": ["It was", "that"] },
-        { "en": "It was after the film that the book became famous.", "ru": "Именно после фильма книга стала известной.", "highlight": ["It was", "that"] },
-        { "en": "It was at that moment that he realised he was famous.", "ru": "Именно в тот момент он понял, что он знаменит.", "highlight": ["It was", "that"] }
-      ]
-    },
-    {
-      "group": "Сравнение с обычным предложением",
-      "items": [
-        { "en": "The book changed his life. → It was the book that changed his life.", "ru": "Книга изменила его жизнь. → Именно книга изменила его жизнь.", "highlight": ["that"] },
-        { "en": "He wanted to write a novel. → What he wanted to write was a novel.", "ru": "Он хотел написать роман. → Что он хотел написать, так это роман.", "highlight": ["What", "was"] },
-        { "en": "The film made the book famous. → It was the film that made the book famous.", "ru": "Фильм сделал книгу известной. → Именно фильм сделал книгу известной.", "highlight": ["It was", "that"] }
+        {
+          "en": "Algernon invented Bunbury. → It was Algernon who invented Bunbury.",
+          "ru": "Аланжернон придумал Банбери. → Именно Аланжернон придумал Банбери.",
+          "highlight": ["It was Algernon who"]
+        },
+        {
+          "en": "Lady Bracknell wants the side view. → The side view is what Lady Bracknell wants.",
+          "ru": "Леди Брэкнелл хочет посмотреть на профиль. → Ей нужен именно вид сбоку.",
+          "highlight": ["The side view", "what Lady Bracknell wants"]
+        },
+        {
+          "en": "The name mattered. → It was the name that mattered.",
+          "ru": "Имя имело значение. → Именно имя имело значение.",
+          "highlight": ["It was the name that"]
+        },
+        {
+          "en": "Jack wants freedom. → What Jack wants is freedom.",
+          "ru": "Джек хочет свободы. → То, чего хочет Джек, — это свобода.",
+          "highlight": ["What Jack wants", "freedom"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "It was the book which changed his life.", "right": "It was the book that changed his life.", "note": "В cleft sentences после выделяемой части usually that, но which тоже допустимо." },
-    { "wrong": "It was the book that changed his life. (правильно)", "right": "It was the book that changed his life.", "note": "Правильно!" },
-    { "wrong": "What I wanted to write it was a novel.", "right": "What I wanted to write was a novel.", "note": "Не нужно it после глагола." },
-    { "wrong": "What I wanted to write was a novel. (правильно)", "right": "What I wanted to write was a novel.", "note": "Правильно!" },
-    { "wrong": "It was not the violence that matters, it is the message.", "right": "It is not the violence that matters, but the message.", "note": "Для контраста — not... but..." },
-    { "wrong": "It was the book what changed his life.", "right": "It was the book that changed his life.", "note": "После it is/was — that, не what." }
+    {
+      "wrong": "What I need it is more time.",
+      "right": "What I need is more time.",
+      "note": "После what-clause используется be без дополнительного it."
+    },
+    {
+      "wrong": "It was Algernon which invented Bunbury.",
+      "right": "It was Algernon who invented Bunbury.",
+      "note": "Для человека обычно используется who."
+    },
+    {
+      "wrong": "It was the name who mattered.",
+      "right": "It was the name that mattered.",
+      "note": "Для предмета или абстрактного элемента используется that."
+    },
+    {
+      "wrong": "What I want is to the side view.",
+      "right": "What I want is the side view.",
+      "note": "После be ставится выделяемый элемент, а не дополнительный предлог."
+    },
+    {
+      "wrong": "It Jack was who invented Bunbury.",
+      "right": "It was Jack who invented Bunbury.",
+      "note": "В it-cleft порядок фиксирован: It + be + focus + who/that."
+    },
+    {
+      "wrong": "What matters it is the name.",
+      "right": "What matters is the name.",
+      "note": "Wh-cleft уже содержит грамматическую рамку; it внутри неё не требуется."
+    }
   ],
   "compare": {
-    "title": "Обычное предложение vs Cleft sentence",
-    "leftLabel": "Обычное предложение",
-    "rightLabel": "Cleft sentence",
+    "title": "Neutral Sentence vs Cleft Sentence",
+    "leftLabel": "Neutral — нейтральное сообщение",
+    "rightLabel": "Cleft — выделение фокуса",
     "rows": [
-      { "left": "The book changed his life.", "right": "It was the book that changed his life." },
-      { "left": "He wanted to write a novel.", "right": "What he wanted to write was a novel." },
-      { "left": "The violence doesn't matter.", "right": "It is not the violence that matters." }
+      {
+        "left": "Algernon invented Bunbury.",
+        "right": "It was Algernon who invented Bunbury."
+      },
+      {
+        "left": "Lady Bracknell wants the side view.",
+        "right": "The side view is what Lady Bracknell wants."
+      },
+      {
+        "left": "The name mattered.",
+        "right": "It was the name that mattered."
+      },
+      {
+        "left": "Jack wants freedom.",
+        "right": "What Jack wants is freedom."
+      },
+      {
+        "left": "Lady Bracknell examined Cecily's profile.",
+        "right": "It was Cecily's profile that Lady Bracknell examined."
+      }
     ]
   },
   "tips": [
-    "It is/was + X + that/who + Y — для выделения.",
-    "What + Z + is/was + X — для выделения действия.",
-    "It is not... but... — для контраста.",
-    "Cleft sentences делают речь более выразительной.",
-    "Используй в интервью, рассказах, статьях.",
-    "Не перегружай текст cleft sentences — используй умеренно.",
-    "Проверяй, что выделяешь именно то, что хочешь подчеркнуть."
+    "Сначала сформулируй обычное предложение.",
+    "Определи, какой элемент нужно выделить.",
+    "Для wh-cleft используй What + clause + be + element.",
+    "Для it-cleft используй It + be + element + that/who + clause.",
+    "Для людей чаще используй who.",
+    "Проверяй, отвечает ли выделенная часть на скрытый вопрос.",
+    "Cleft sentence нужна для фокуса, а не просто для усложнения предложения."
   ],
-  "related": ["c1-emphasis-do-and-fronting", "c1-inversion-after-negative-adverbials", "c1-subjunctive-wish-regret"],
   "quiz": [
     {
-      "q": "It ___ the book ___ changed his life.",
-      "options": ["was, that", "is, which", "was, what", "is, that"],
+      "q": "Choose the correct wh-cleft: “I need more time.” →",
+      "options": [
+        "What I need is more time.",
+        "What I need it is more time.",
+        "What is I need more time."
+      ],
       "answer": 0,
-      "why": "It is/was + X + that/who + Y."
+      "why": "Wh-cleft строится по модели What + clause + be + focused element."
     },
     {
-      "q": "What I wanted ___ write ___ a novel.",
-      "options": ["to, was", "to, is", "for, was", "for, is"],
-      "answer": 0,
-      "why": "What + глагол + is/was + X."
+      "q": "Choose the correct it-cleft: “Algernon invented Bunbury.” →",
+      "options": [
+        "It Algernon was who invented Bunbury.",
+        "It was Algernon who invented Bunbury.",
+        "It was who Algernon invented Bunbury."
+      ],
+      "answer": 1,
+      "why": "Для выделения человека используется It was + person + who + clause."
     },
     {
-      "q": "It is not the violence ___ matters, ___ the message.",
-      "options": ["that, but", "what, and", "which, but", "that, and"],
-      "answer": 0,
-      "why": "It is not... that... but..."
+      "q": "Which sentence focuses on the name?",
+      "options": [
+        "The name mattered.",
+        "It was the name that mattered.",
+        "What mattered the name."
+      ],
+      "answer": 1,
+      "why": "It-cleft выделяет элемент the name."
     },
     {
-      "q": "___ I didn't expect was the success.",
-      "options": ["What", "That", "Which", "It"],
+      "q": "Choose the correct form: “Jack wants freedom.” →",
+      "options": [
+        "What Jack wants is freedom.",
+        "What Jack wants it freedom.",
+        "What is Jack wants freedom."
+      ],
       "answer": 0,
-      "why": "What + глагол + is/was + X."
+      "why": "What Jack wants образует первую часть wh-cleft."
     },
     {
-      "q": "It ___ the film ___ made the book famous.",
-      "options": ["was, that", "is, which", "was, what", "is, that"],
-      "answer": 0,
-      "why": "It is/was + X + that/who + Y."
+      "q": "Which word is most natural for a person in an it-cleft?",
+      "options": [
+        "which",
+        "who",
+        "what"
+      ],
+      "answer": 1,
+      "why": "После выделенного человека обычно используется who."
     },
     {
-      "q": "___ matters is the message.",
-      "options": ["What", "That", "Which", "It"],
-      "answer": 0,
-      "why": "What + глагол + is/was + X."
+      "q": "What is the main function of a cleft sentence?",
+      "options": [
+        "To change the tense.",
+        "To make the sentence longer.",
+        "To focus attention on one part of the information."
+      ],
+      "answer": 2,
+      "why": "Главная функция cleft sentence — управление информационным фокусом."
     }
+  ],
+  "related": [
+    "b2-relative-clauses",
+    "c1-emphasis-do-and-fronting",
+    "c1-inversion-after-negative-adverbials"
   ]
 }

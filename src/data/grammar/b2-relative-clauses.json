@@ -3,201 +3,443 @@
   "slug": "b2-relative-clauses",
   "level": "B2",
   "title": "Relative Clauses",
-  "category": "Other",
-  "readingTime": 11,
-  "summary": "Relative Clauses — придаточные определительные. Связываем предложения с помощью who, which, that, whose, where, when. История о Харпер Ли и её единственном романе.",
+  "category": "Grammar",
+  "readingTime": 13,
+  "summary": "Relative Clauses используются, чтобы добавить информацию о человеке, предмете, месте или времени, не создавая отдельного предложения. Относительные местоимения who, which и that связывают существительное с дополнительной частью предложения. В зависимости от смысла информация может быть необходимой для идентификации или просто добавочной. В некоторых конструкциях относительное местоимение можно опустить.",
   "idea": [
-    "Харпер Ли написала «Убить пересмешника» в 1960 году. Это книга, которая стала классикой американской литературы. Главный герой — Аттикус Финч, адвокат, который защищает невиновного чернокожего мужчину. Книга написана от лица его дочери Джин Луизы, которой было 6 лет. История происходит в городе Мейкомб, где живут герои.",
-    "Харпер Ли была частным человеком, который не любил давать интервью. Она никогда не ожидала успеха, который пришёл к ней. Второй роман «Пойди, поставь сторожа» был опубликован в 2015 году, когда ей было 89 лет. Это был роман, который она написала до «Убить пересмешника», но который не публиковала.",
-    "Relative Clauses — это придаточные определительные предложения. Они связывают два предложения с помощью относительных местоимений. who — для людей, which — для вещей, that — для людей и вещей (определяющие), whose — для принадлежности, where — для мест, when — для времени."
+    "Когда мы хотим уточнить, о каком человеке или предмете говорим, английский часто соединяет существительное с дополнительной информацией внутри одного предложения. Вместо двух предложений [bold]I met a man. The man knew Dracula[/bold] можно сказать: [bold]I met a man who knew Dracula.[/bold] Слово [bold]who[/bold] связывает человека с информацией о нём.",
+    "Именно такой принцип особенно заметен в [bold]Dracula[/bold], где история постоянно собирается из дневников, писем, записок и других документов. Каждый новый документ добавляет информацию о людях, предметах и событиях, которые уже появились раньше. Relative Clauses помогают передавать эту информацию компактно, не разрывая повествование на множество коротких предложений.",
+    "В оригинальном тексте встречается, например, конструкция [bold]the man who took it[/bold]. Здесь [bold]who took it[/bold] определяет, о каком человеке идёт речь: не о любом мужчине, а именно о том, который забрал предмет. Относительное придаточное выполняет функцию идентификации.",
+    "Если речь идёт о человеке, обычно используется [bold]who[/bold]. [bold]The man who came to the castle[/bold] означает «человек, который приехал в замок». Внутри придаточного [bold]who[/bold] выполняет роль подлежащего, поэтому после него сразу идёт глагол.",
+    "Для предметов и животных часто используется [bold]which[/bold]. В [bold]Dracula[/bold] встречается конструкция [bold]a box which would arrive at Galatz[/bold]. Здесь [bold]which would arrive at Galatz[/bold] сообщает, какой именно ящик имеется в виду.",
+    "В определительных придаточных [bold]that[/bold] может использоваться вместо [bold]who[/bold] или [bold]which[/bold]. [bold]The man that came to the house[/bold] и [bold]The man who came to the house[/bold] имеют практически одинаковую структуру. Однако [bold]that[/bold] нельзя использовать в некоторых других типах относительных конструкций, поэтому [bold]who[/bold] и [bold]which[/bold] остаются важными.",
+    "Главный вопрос при defining relative clause — нужна ли информация для идентификации существительного. Сравни: [bold]The doctor who treated Lucy was Van Helsing[/bold]. Здесь придаточное помогает определить, о каком докторе идёт речь.",
+    "Если убрать [bold]who treated Lucy[/bold], останется [bold]The doctor was Van Helsing[/bold], и первоначальный смысл изменится. Поэтому такая информация является определяющей. Она не просто добавляет деталь, а помогает выбрать нужного человека из возможных.",
+    "Но Relative Clauses могут выполнять и другую функцию. Если человек или предмет уже точно определён, дополнительную информацию можно выделить запятыми: [bold]Van Helsing, who was a doctor, studied the evidence.[/bold] Здесь читателю уже понятно, кто такой Van Helsing, а придаточное просто сообщает ещё один факт.",
+    "В таких конструкциях используется [bold]who[/bold] или [bold]which[/bold], но не [bold]that[/bold]. Сравни: [bold]The doctor who treated Lucy arrived[/bold] и [bold]Van Helsing, who treated Lucy, arrived[/bold]. В первом случае придаточное идентифицирует человека, во втором — добавляет информацию о уже известном человеке.",
+    "Пунктуация поэтому связана не только с грамматикой, но и со смыслом. Запятые показывают, что информация является добавочной. Без запятых относительное придаточное обычно воспринимается как часть идентификации существительного.",
+    "В [bold]Dracula[/bold] эта разница особенно полезна, потому что читатель постоянно получает новые сведения о людях, которых уже видел в предыдущих документах. Один персонаж может быть назван через профессию, другой — через действие, третий — через отношение к событию. Relative Clause позволяет встроить это уточнение непосредственно в повествование.",
+    "Relative Clause может описывать не только человека или предмет, но и место. Для места используется [bold]where[/bold]: [bold]the house where Dracula lived[/bold]. Здесь [bold]where Dracula lived[/bold] сообщает, какое именно место имеется в виду.",
+    "Для принадлежности используется [bold]whose[/bold]. Например: [bold]the man whose house we entered[/bold]. Здесь [bold]whose house[/bold] показывает связь между человеком и домом: дом принадлежит этому человеку или относится к нему.",
+    "Для времени возможно использование [bold]when[/bold]: [bold]the night when Dracula arrived[/bold]. Такая конструкция позволяет связать событие с конкретным моментом. В результате одно существительное получает более точное описание внутри того же предложения.",
+    "Есть ещё одна важная особенность: если относительное местоимение является не подлежащим, а дополнением, его иногда можно опустить. [bold]The book that I found[/bold] и [bold]The book I found[/bold] означают одно и то же. Здесь [bold]I[/bold] уже является подлежащим придаточного, поэтому [bold]that[/bold] выполняет роль дополнения и может исчезнуть.",
+    "Но в предложении [bold]The man who came to the castle[/bold] местоимение нельзя просто убрать. После существительного должно остаться подлежащее придаточного: [bold]The man came to the castle[/bold] уже имеет другую структуру и другое значение.",
+    "Поэтому полезно определить роль относительного местоимения внутри придаточного. Если [bold]who/which/that[/bold] само является подлежащим, оно обычно необходимо. Если после него уже есть другое подлежащее, местоимение может быть дополнением и иногда может опускаться.",
+    "В документальной структуре [bold]Dracula[/bold] это особенно заметно, потому что каждое новое свидетельство уточняет предыдущие сведения. [bold]A man who carried a box[/bold] — это уже не просто человек, а человек с определённой функцией в событии. [bold]The box which arrived at Galatz[/bold] — не просто ящик, а конкретный объект внутри цепочки событий.",
+    "Таким образом, Relative Clauses нужны не ради усложнения предложения. Они позволяют точно определить человека или предмет, добавить дополнительный факт, связать событие с местом или временем и показать отношения между персонажами и объектами.",
+    "В [bold]Dracula[/bold] этот грамматический механизм хорошо соответствует самой форме романа. История складывается из множества свидетельств, и каждое новое описание уточняет уже известную картину. Relative Clauses позволяют английскому языку делать именно это: добавлять новую информацию к уже названному существительному, сохраняя единое повествовательное движение."
   ],
   "why": [
-    "Связывать предложения: The book, which was published in 1960, became a classic.",
-    "Определять людей и вещи: Atticus Finch, who is a lawyer, defends a black man.",
-    "Уточнять информацию: Maycomb, where the story takes place, is a small town.",
-    "Использовать разные местоимения: who, which, that, whose, where, when."
+    "Добавлять информацию о человеке, предмете, месте или времени.",
+    "Точно идентифицировать существительное.",
+    "Различать defining и non-defining relative clauses.",
+    "Понимать роль who, which, that, whose, where и when.",
+    "Определять, когда относительное местоимение можно опустить."
   ],
   "context": {
     "lines": [
-      { "en": "Lee: 'This is the book that I wrote. It's about a man who defends justice. The town where I grew up inspired the setting.'",
-        "ru": "Ли: «Это книга, которую я написала. Она о человеке, который защищает справедливость. Город, где я выросла, вдохновил место действия»." },
-      { "en": "Editor: 'The book, which was published in 1960, became a classic. The author, who was a private person, never expected the success.'",
-        "ru": "Издатель: «Книга, которая была опубликована в 1960 году, стала классикой. Автор, который был частным человеком, никогда не ожидал успеха»." }
+      {
+        "en": "What was the name of the man who took it?",
+        "ru": "Как звали человека, который забрал это?"
+      },
+      {
+        "en": "a box which would arrive at Galatz",
+        "ru": "ящик, который должен был прибыть в Галац"
+      },
+      {
+        "en": "the man who took it",
+        "ru": "человек, который забрал это"
+      },
+      {
+        "en": "a certain Petrof Skinsky, who dealt with the Slovaks",
+        "ru": "некто Петроф Скинский, который имел дело со словаками"
+      }
     ],
-    "note": "who — для людей; which — для вещей; that — для людей и вещей; where — для мест."
+    "note": "Конструкции взяты из оригинального текста Dracula. Они используются как литературный материал для анализа Relative Clauses; остальные примеры урока являются учебными предложениями и не выдаются за цитаты Стокера."
   },
   "russianAngle": [
-    "В русском языке мы используем «который» для всего. В английском — разные местоимения.",
-    "who — для людей (кто).",
-    "which — для вещей (который).",
-    "whose — для принадлежности (чей).",
-    "where — для мест (где).",
-    "when — для времени (когда)."
+    "В русском языке относительные придаточные также используются для определения человека или предмета: «человек, который пришёл» — «the man who came».",
+    "Английский чаще использует компактную конструкцию noun + relative clause для идентификации и характеристики.",
+    "Who относится прежде всего к людям, which — к предметам и явлениям, that может использоваться в defining clauses вместо who/which.",
+    "В русском языке запятые также помогают отличать определительную информацию от добавочной, но английская система non-defining clauses требует особенно внимательного отношения к пунктуации.",
+    "Английский позволяет опускать relative pronoun, если оно является дополнением: the book that I found → the book I found."
   ],
   "howToLearn": {
     "steps": [
-      "Запомни: who — для людей.",
-      "which — для вещей, животных, идей.",
-      "that — для людей и вещей (определяющие).",
-      "whose — для принадлежности.",
-      "where — для мест.",
-      "when — для времени.",
-      "Сделай упражнение и сверься с ответами."
+      "Найди существительное, которое нужно описать.",
+      "Определи, относится ли речь к человеку, предмету, месту или времени.",
+      "Выбери who, which, that, whose, where или when.",
+      "Определи, нужна ли информация для идентификации.",
+      "Если информация дополнительная, используй запятые и не используй that.",
+      "Проверь, является ли relative pronoun подлежащим или дополнением.",
+      "Если местоимение является дополнением, проверь, можно ли его опустить."
     ],
     "exercise": {
-      "prompt": "Вставьте правильное относительное местоимение (who, which, that, whose, where, when):",
+      "prompt": "Объедини предложения с помощью Relative Clause:",
       "items": [
-        { "q": "The book ___ was published in 1960 became a classic.", "a": "which / that" },
-        { "q": "Harper Lee, ___ was a private person, never gave interviews.", "a": "who" },
-        { "q": "Scout, ___ father is a lawyer, tells the story.", "a": "whose" },
-        { "q": "Maycomb, ___ the story takes place, is a small town.", "a": "where" },
-        { "q": "1960, ___ the book was published, was a turning point.", "a": "when" }
+        {
+          "q": "I met a man. He knew Van Helsing.",
+          "a": "I met a man who knew Van Helsing."
+        },
+        {
+          "q": "We found a box. It had come from Transylvania.",
+          "a": "We found a box which had come from Transylvania."
+        },
+        {
+          "q": "This is the house. Dracula lived there.",
+          "a": "This is the house where Dracula lived."
+        },
+        {
+          "q": "I read the diary. Jonathan wrote it.",
+          "a": "I read the diary that Jonathan wrote."
+        },
+        {
+          "q": "Van Helsing was a doctor. He studied the evidence.",
+          "a": "Van Helsing, who was a doctor, studied the evidence."
+        }
       ]
     }
   },
-  "formula": "who / which / that / whose / whom / where / when + придаточное предложение",
+  "formula": "noun + relative word + clause",
   "structure": {
-    "positive": "The book, which was published in 1960, became a classic.",
-    "negative": "The book, which wasn't published in 1960, didn't become a classic.",
-    "question": "What is the book that became a classic?"
+    "people": "the man who came to the castle",
+    "things": "the box which arrived at Galatz",
+    "defining_that": "the book that Jonathan found",
+    "possession": "the man whose house we entered",
+    "place": "the house where Dracula lived",
+    "time": "the night when Dracula arrived",
+    "non_defining": "Van Helsing, who was a doctor, studied the evidence",
+    "omission": "the book that I found → the book I found"
   },
-  "markers": ["who", "which", "that", "whose", "whom", "where", "when"],
-  "uses": [
-    "who — для людей: Atticus Finch, who is a lawyer, defends a black man.",
-    "which — для вещей: The book, which was published in 1960, became a classic.",
-    "that — для людей и вещей: The book that she wrote is famous.",
-    "whose — для принадлежности: Scout, whose father is a lawyer, tells the story.",
-    "where — для мест: Maycomb, where the story takes place, is a small town.",
-    "when — для времени: 1960, when the book was published, was a turning point."
+  "markers": [
+    "who",
+    "which",
+    "that",
+    "whose",
+    "where",
+    "when",
+    "who/which + clause",
+    "noun + clause without relative pronoun"
   ],
+  "uses": {
+    "title": "Как Relative Clauses добавляют информацию",
+    "items": [
+      {
+        "title": "Идентификация",
+        "text": "Relative Clause помогает определить, о каком человеке или предмете идёт речь: the man who took it."
+      },
+      {
+        "title": "Описание человека",
+        "text": "Для людей используется who: the man who came to the castle."
+      },
+      {
+        "title": "Описание предмета",
+        "text": "Для предметов используется which или that: the box which arrived at Galatz."
+      },
+      {
+        "title": "Дополнительная информация",
+        "text": "Non-defining clause выделяется запятыми: Van Helsing, who was a doctor, studied the evidence."
+      },
+      {
+        "title": "Место и время",
+        "text": "Where и when связывают существительное с местом или временем: the house where he lived; the night when he arrived."
+      }
+    ]
+  },
   "rules": [
-    { "title": "who — для людей",
-      "text": "Используется для людей. Atticus Finch, who is a lawyer, defends a black man." },
-    { "title": "which — для вещей",
-      "text": "Используется для вещей, животных, идей. The book, which was published in 1960, became a classic." },
-    { "title": "that — для людей и вещей",
-      "text": "Используется в определяющих придаточных (без запятых). The book that she wrote is famous." },
-    { "title": "whose — для принадлежности",
-      "text": "Используется для принадлежности (чей/чья/чьё). Scout, whose father is a lawyer, tells the story." },
-    { "title": "where — для мест",
-      "text": "Используется для мест. Maycomb, where the story takes place, is a small town." },
-    { "title": "when — для времени",
-      "text": "Используется для времени. 1960, when the book was published, was a turning point." }
+    {
+      "title": "Who",
+      "text": "Who используется главным образом для людей: the man who came."
+    },
+    {
+      "title": "Which",
+      "text": "Which используется для предметов и явлений: the box which arrived."
+    },
+    {
+      "title": "That",
+      "text": "That может заменять who или which в defining relative clauses."
+    },
+    {
+      "title": "Whose",
+      "text": "Whose показывает принадлежность: the man whose house we entered."
+    },
+    {
+      "title": "Where and when",
+      "text": "Where относится к месту, when — ко времени."
+    },
+    {
+      "title": "Defining vs non-defining",
+      "text": "Defining clause необходима для идентификации и не выделяется запятыми; non-defining clause добавляет информацию и выделяется запятыми."
+    },
+    {
+      "title": "Omission",
+      "text": "Relative pronoun можно опустить, если оно является дополнением: the book that I found → the book I found."
+    }
   ],
   "examples": [
     {
-      "group": "who — для людей",
+      "group": "People and things",
       "items": [
-        { "en": "Harper Lee, who was a private person, never gave interviews.", "ru": "Харпер Ли, которая была частным человеком, никогда не давала интервью.", "highlight": ["who"] },
-        { "en": "Atticus Finch, who is a lawyer, defends a black man.", "ru": "Аттикус Финч, который является адвокатом, защищает чернокожего мужчину.", "highlight": ["who"] },
-        { "en": "The man, who was innocent, was wrongly accused.", "ru": "Мужчина, который был невиновен, был ложно обвинён.", "highlight": ["who"] }
+        {
+          "en": "The man who came to the castle knew the truth.",
+          "ru": "Человек, который приехал в замок, знал правду.",
+          "highlight": [
+            "who came to the castle"
+          ]
+        },
+        {
+          "en": "The woman who found the diary called Van Helsing.",
+          "ru": "Женщина, которая нашла дневник, позвонила Ван Хелсингу.",
+          "highlight": [
+            "who found the diary"
+          ]
+        },
+        {
+          "en": "The box which arrived at the port was unopened.",
+          "ru": "Ящик, который прибыл в порт, был нераспечатан.",
+          "highlight": [
+            "which arrived at the port"
+          ]
+        },
+        {
+          "en": "The letter that Jonathan received was dated October.",
+          "ru": "Письмо, которое получил Джонатан, было датировано октябрём.",
+          "highlight": [
+            "that Jonathan received"
+          ]
+        }
       ]
     },
     {
-      "group": "which — для вещей",
+      "group": "Defining and non-defining",
       "items": [
-        { "en": "The book, which was published in 1960, became a classic.", "ru": "Книга, которая была опубликована в 1960 году, стала классикой.", "highlight": ["which"] },
-        { "en": "The novel, which is about racism, is still relevant today.", "ru": "Роман, который о расизме, до сих пор актуален.", "highlight": ["which"] },
-        { "en": "The film, which was made in 1962, won three Oscars.", "ru": "Фильм, который был снят в 1962 году, получил три «Оскара».", "highlight": ["which"] }
+        {
+          "en": "The doctor who treated Lucy knew about vampires.",
+          "ru": "Доктор, который лечил Люси, знал о вампирах.",
+          "highlight": [
+            "who treated Lucy"
+          ]
+        },
+        {
+          "en": "Van Helsing, who was a doctor, studied the evidence.",
+          "ru": "Ван Хелсинг, который был врачом, изучал доказательства.",
+          "highlight": [
+            "who was a doctor"
+          ]
+        },
+        {
+          "en": "The diary that Jonathan kept became important.",
+          "ru": "Дневник, который вёл Джонатан, стал важным.",
+          "highlight": [
+            "that Jonathan kept"
+          ]
+        },
+        {
+          "en": "Dracula, who lived in the castle, disappeared.",
+          "ru": "Дракула, который жил в замке, исчез.",
+          "highlight": [
+            "who lived in the castle"
+          ]
+        }
       ]
     },
     {
-      "group": "that — для людей и вещей (определяющие)",
+      "group": "Whose, where and when",
       "items": [
-        { "en": "The book that she wrote is famous.", "ru": "Книга, которую она написала, известна.", "highlight": ["that"] },
-        { "en": "The author that wrote this book is Harper Lee.", "ru": "Автор, который написал эту книгу, — Харпер Ли.", "highlight": ["that"] },
-        { "en": "The story that she told is based on her childhood.", "ru": "История, которую она рассказала, основана на её детстве.", "highlight": ["that"] }
+        {
+          "en": "The man whose house we entered was away.",
+          "ru": "Человека, в чей дом мы вошли, не было.",
+          "highlight": [
+            "whose house we entered"
+          ]
+        },
+        {
+          "en": "This was the house where Dracula lived.",
+          "ru": "Это был дом, где жил Дракула.",
+          "highlight": [
+            "where Dracula lived"
+          ]
+        },
+        {
+          "en": "I remember the night when the ship arrived.",
+          "ru": "Я помню ночь, когда прибыл корабль.",
+          "highlight": [
+            "when the ship arrived"
+          ]
+        },
+        {
+          "en": "The servant whose room was nearby heard a noise.",
+          "ru": "Слуга, чья комната была рядом, услышал шум.",
+          "highlight": [
+            "whose room was nearby"
+          ]
+        }
       ]
     },
     {
-      "group": "whose — для принадлежности",
+      "group": "Omission",
       "items": [
-        { "en": "Scout, whose father is a lawyer, tells the story.", "ru": "Скаут, чей отец является адвокатом, рассказывает историю.", "highlight": ["whose"] },
-        { "en": "The author, whose book became a classic, was surprised.", "ru": "Автор, чья книга стала классикой, был удивлён.", "highlight": ["whose"] },
-        { "en": "The man, whose life was changed by the trial, was innocent.", "ru": "Мужчина, чья жизнь была изменена судом, был невиновен.", "highlight": ["whose"] }
-      ]
-    },
-    {
-      "group": "where — для мест",
-      "items": [
-        { "en": "Maycomb, where the story takes place, is a small town.", "ru": "Мейкомб, где происходит история, — маленький город.", "highlight": ["where"] },
-        { "en": "The courthouse, where the trial took place, is a historic building.", "ru": "Здание суда, где проходил суд, — историческое здание.", "highlight": ["where"] },
-        { "en": "The town, where Lee grew up, inspired the setting.", "ru": "Город, где выросла Ли, вдохновил место действия.", "highlight": ["where"] }
-      ]
-    },
-    {
-      "group": "when — для времени",
-      "items": [
-        { "en": "1960, when the book was published, was a turning point.", "ru": "1960 год, когда книга была опубликована, стал поворотным моментом.", "highlight": ["when"] },
-        { "en": "The year, when Lee became famous, was 1960.", "ru": "Год, когда Ли стала знаменитой, был 1960.", "highlight": ["when"] },
-        { "en": "The time, when the book was written, was a period of change.", "ru": "Время, когда книга была написана, было периодом перемен.", "highlight": ["when"] }
+        {
+          "en": "The book that I found was old.",
+          "ru": "Книга, которую я нашёл, была старой.",
+          "highlight": [
+            "that I found"
+          ]
+        },
+        {
+          "en": "The book I found was old.",
+          "ru": "Книга, которую я нашёл, была старой.",
+          "highlight": [
+            "I found"
+          ]
+        },
+        {
+          "en": "The letter which Jonathan read was short.",
+          "ru": "Письмо, которое прочитал Джонатан, было коротким.",
+          "highlight": [
+            "which Jonathan read"
+          ]
+        },
+        {
+          "en": "The letter Jonathan read was short.",
+          "ru": "Письмо, которое прочитал Джонатан, было коротким.",
+          "highlight": [
+            "Jonathan read"
+          ]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Harper Lee, which was a private person, never gave interviews.", "right": "Harper Lee, who was a private person, never gave interviews.", "note": "who — для людей." },
-    { "wrong": "The book, who was published in 1960, became a classic.", "right": "The book, which was published in 1960, became a classic.", "note": "which — для вещей." },
-    { "wrong": "The book that she wrote is famous. (правильно)", "right": "The book that she wrote is famous.", "note": "that — правильно для определяющих придаточных." },
-    { "wrong": "Scout, his father is a lawyer, tells the story.", "right": "Scout, whose father is a lawyer, tells the story.", "note": "whose — для принадлежности." },
-    { "wrong": "Maycomb, which the story takes place, is a small town.", "right": "Maycomb, where the story takes place, is a small town.", "note": "where — для мест." },
-    { "wrong": "1960, which the book was published, was a turning point.", "right": "1960, when the book was published, was a turning point.", "note": "when — для времени." }
+    {
+      "wrong": "The man which came to the castle...",
+      "right": "The man who came to the castle...",
+      "note": "Для человека в такой конструкции используется who."
+    },
+    {
+      "wrong": "The book who I found...",
+      "right": "The book which I found...",
+      "note": "Which используется для предметов."
+    },
+    {
+      "wrong": "Van Helsing, that was a doctor, studied the evidence.",
+      "right": "Van Helsing, who was a doctor, studied the evidence.",
+      "note": "That не используется в non-defining relative clauses."
+    },
+    {
+      "wrong": "The man whose he house we entered...",
+      "right": "The man whose house we entered...",
+      "note": "После whose сразу идёт существительное."
+    },
+    {
+      "wrong": "The house which Dracula lived...",
+      "right": "The house where Dracula lived...",
+      "note": "Для места естественно используется where."
+    },
+    {
+      "wrong": "The man who I met him...",
+      "right": "The man who I met...",
+      "note": "Relative pronoun уже выполняет функцию дополнения; дополнительное him не нужно."
+    }
   ],
   "compare": {
     "title": "Defining vs Non-defining Relative Clauses",
-    "leftLabel": "Defining (определяющие)",
-    "rightLabel": "Non-defining (неопределяющие)",
+    "leftLabel": "Defining — идентификация",
+    "rightLabel": "Non-defining — добавочная информация",
     "rows": [
-      { "left": "The book that she wrote is famous. (важно, какая)", "right": "The book, which she wrote, is famous. (дополнительно)" },
-      { "left": "The author who wrote this book is Harper Lee.", "right": "Harper Lee, who wrote this book, is famous." },
-      { "left": "No commas. That можно использовать.", "right": "Commas. That НЕ используется." }
+      {
+        "left": "The doctor who treated Lucy arrived.",
+        "right": "Van Helsing, who treated Lucy, arrived."
+      },
+      {
+        "left": "The man who took the box disappeared.",
+        "right": "Jonathan, who took the box, disappeared."
+      },
+      {
+        "left": "The book that I found was old.",
+        "right": "Dracula, which was published in 1897, became famous."
+      },
+      {
+        "left": "The house where Dracula lived was empty.",
+        "right": "The castle, where Dracula lived, was isolated."
+      }
     ]
   },
   "tips": [
-    "who — для людей.",
-    "which — для вещей.",
-    "that — для людей и вещей (определяющие).",
-    "whose — для принадлежности.",
-    "where — для мест.",
-    "when — для времени.",
-    "Определяющие (defining) — без запятых, That можно. Неопределяющие — с запятыми, That нельзя."
+    "Сначала найди существительное, которое нужно описать.",
+    "Для людей обычно используй who.",
+    "Для предметов используй which или that в defining clauses.",
+    "That не используется в non-defining clauses.",
+    "Проверь, нужна ли информация для идентификации.",
+    "Если информация добавочная, используй запятые.",
+    "Проверь, является ли relative pronoun подлежащим или дополнением.",
+    "Если оно является дополнением, его иногда можно опустить."
   ],
-  "related": ["b1-relative-clauses", "b2-relative-clauses", "b2-grammar"],
   "quiz": [
     {
-      "q": "Harper Lee, ___ was a private person, never gave interviews.",
-      "options": ["who", "which", "that", "whose"],
-      "answer": 0,
-      "why": "who — для людей."
-    },
-    {
-      "q": "The book, ___ was published in 1960, became a classic.",
-      "options": ["who", "which", "that", "whose"],
+      "q": "Choose the correct sentence:",
+      "options": [
+        "The man which came to the castle knew the truth.",
+        "The man who came to the castle knew the truth.",
+        "The man where came to the castle knew the truth."
+      ],
       "answer": 1,
-      "why": "which — для вещей."
+      "why": "Who используется для людей."
     },
     {
-      "q": "The book ___ she wrote is famous.",
-      "options": ["who", "which", "that", "whose"],
-      "answer": 2,
-      "why": "that — для людей и вещей (определяющие)."
+      "q": "Choose the correct sentence:",
+      "options": [
+        "The box who arrived was heavy.",
+        "The box which arrived was heavy.",
+        "The box where arrived was heavy."
+      ],
+      "answer": 1,
+      "why": "Which используется для предметов."
     },
     {
-      "q": "Scout, ___ father is a lawyer, tells the story.",
-      "options": ["who", "which", "that", "whose"],
-      "answer": 3,
-      "why": "whose — для принадлежности."
+      "q": "Which sentence is non-defining?",
+      "options": [
+        "The doctor who treated Lucy knew the truth.",
+        "Van Helsing, who treated Lucy, knew the truth.",
+        "The doctor that treated Lucy knew the truth."
+      ],
+      "answer": 1,
+      "why": "Non-defining clause выделяется запятыми и добавляет информацию."
     },
     {
-      "q": "Maycomb, ___ the story takes place, is a small town.",
-      "options": ["who", "which", "where", "when"],
-      "answer": 2,
-      "why": "where — для мест."
+      "q": "Choose the correct form:",
+      "options": [
+        "The man whose house we entered...",
+        "The man whose his house we entered...",
+        "The man who house we entered..."
+      ],
+      "answer": 0,
+      "why": "Whose уже показывает принадлежность и перед существительным не требует his."
     },
     {
-      "q": "1960, ___ the book was published, was a turning point.",
-      "options": ["who", "which", "where", "when"],
-      "answer": 3,
-      "why": "when — для времени."
+      "q": "Choose the correct sentence:",
+      "options": [
+        "This is the house which Dracula lived.",
+        "This is the house where Dracula lived.",
+        "This is the house who Dracula lived."
+      ],
+      "answer": 1,
+      "why": "Where используется для места."
+    },
+    {
+      "q": "Which sentence allows omission of the relative pronoun?",
+      "options": [
+        "The man who came to the castle was tired.",
+        "The book that I found was old.",
+        "The woman who knew Dracula arrived."
+      ],
+      "answer": 1,
+      "why": "В that I found местоимение является дополнением и может быть опущено: the book I found."
     }
+  ],
+  "related": [
+    "b1-relative-pronouns",
+    "b2-participles-and-participle-clauses",
+    "c1-cleft-sentences"
   ]
 }
