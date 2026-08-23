@@ -101,23 +101,11 @@
     "all evening",
     "all morning"
   ],
-  "uses": {
-    "title": "Когда используем Past Continuous",
-    "items": [
-      {
-        "title": "Процесс",
-        "text": "Действие происходило в определённый момент прошлого: \"Brian was recording the vocals.\""
-      },
-      {
-        "title": "Фон",
-        "text": "Процесс создаёт фон для события: \"Brian was working on the lyrics when the storm started.\""
-      },
-      {
-        "title": "Одновременные действия",
-        "text": "Два процесса происходят одновременно: \"Brian was singing while the musicians were playing.\""
-      }
-    ]
-  },
+  "uses": [
+    "Процесс: Действие происходило в определённый момент прошлого: \"Brian was recording the vocals.\"",
+    "Фон: Процесс создаёт фон для события: \"Brian was working on the lyrics when the storm started.\"",
+    "Одновременные действия: Два процесса происходят одновременно: \"Brian was singing while the musicians were playing.\""
+  ],
   "rules": [
     {
       "title": "Формула",

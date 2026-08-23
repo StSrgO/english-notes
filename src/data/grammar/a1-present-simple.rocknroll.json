@@ -116,27 +116,12 @@
     "every week",
     "on Mondays"
   ],
-  "uses": {
-    "title": "Когда используется Present Simple",
-    "items": [
-      {
-        "title": "Привычки",
-        "text": "Для регулярных действий: I play guitar every day."
-      },
-      {
-        "title": "Факты",
-        "text": "Для устойчивых фактов: The band plays fast."
-      },
-      {
-        "title": "Обобщения",
-        "text": "Для общих утверждений: Music changes people."
-      },
-      {
-        "title": "Постоянные характеристики",
-        "text": "Для того, что является обычной характеристикой человека или группы: He writes songs."
-      }
-    ]
-  },
+  "uses": [
+    "Привычки: Для регулярных действий: I play guitar every day.",
+    "Факты: Для устойчивых фактов: The band plays fast.",
+    "Обобщения: Для общих утверждений: Music changes people.",
+    "Постоянные характеристики: Для того, что является обычной характеристикой человека или группы: He writes songs."
+  ],
   "rules": [
     {
       "title": "I / You / We / They",

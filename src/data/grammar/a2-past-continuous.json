@@ -101,23 +101,11 @@
     "all evening",
     "all morning"
   ],
-  "uses": {
-    "title": "Когда используем Past Continuous",
-    "items": [
-      {
-        "title": "Процесс",
-        "text": "Действие происходило в определённый момент прошлого: \"James was sitting on the floor.\""
-      },
-      {
-        "title": "Фон",
-        "text": "Процесс создаёт фон для события: \"She was talking when Lily came closer.\""
-      },
-      {
-        "title": "Одновременные действия",
-        "text": "Два процесса происходят одновременно: \"She was talking while James was sitting.\""
-      }
-    ]
-  },
+  "uses": [
+    "Процесс: Действие происходило в определённый момент прошлого: \"James was sitting on the floor.\"",
+    "Фон: Процесс создаёт фон для события: \"She was talking when Lily came closer.\"",
+    "Одновременные действия: Два процесса происходят одновременно: \"She was talking while James was sitting.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -147,22 +135,30 @@
         {
           "en": "Mrs Ramsay was talking to James.",
           "ru": "Миссис Рамзи разговаривала с Джеймсом.",
-          "highlight": ["was talking"]
+          "highlight": [
+            "was talking"
+          ]
         },
         {
           "en": "James was sitting on the floor.",
           "ru": "Джеймс сидел на полу.",
-          "highlight": ["was sitting"]
+          "highlight": [
+            "was sitting"
+          ]
         },
         {
           "en": "She was looking at Lily.",
           "ru": "Она смотрела на Лили.",
-          "highlight": ["was looking"]
+          "highlight": [
+            "was looking"
+          ]
         },
         {
           "en": "James was cutting pictures.",
           "ru": "Джеймс вырезал картинки.",
-          "highlight": ["was cutting"]
+          "highlight": [
+            "was cutting"
+          ]
         }
       ]
     },
@@ -172,22 +168,34 @@
         {
           "en": "She was talking when Lily came closer.",
           "ru": "Она разговаривала, когда Лили подошла ближе.",
-          "highlight": ["was talking", "came"]
+          "highlight": [
+            "was talking",
+            "came"
+          ]
         },
         {
           "en": "James was sitting when his mother looked at him.",
           "ru": "Джеймс сидел, когда мать посмотрела на него.",
-          "highlight": ["was sitting", "looked"]
+          "highlight": [
+            "was sitting",
+            "looked"
+          ]
         },
         {
           "en": "They were talking when the door opened.",
           "ru": "Они разговаривали, когда дверь открылась.",
-          "highlight": ["were talking", "opened"]
+          "highlight": [
+            "were talking",
+            "opened"
+          ]
         },
         {
           "en": "She was reading when someone called her.",
           "ru": "Она читала, когда кто-то её позвал.",
-          "highlight": ["was reading", "called"]
+          "highlight": [
+            "was reading",
+            "called"
+          ]
         }
       ]
     },
@@ -197,22 +205,34 @@
         {
           "en": "Mrs Ramsay was talking while James was sitting on the floor.",
           "ru": "Миссис Рамзи разговаривала, пока Джеймс сидел на полу.",
-          "highlight": ["was talking", "was sitting"]
+          "highlight": [
+            "was talking",
+            "was sitting"
+          ]
         },
         {
           "en": "She was looking while Lily was painting.",
           "ru": "Она смотрела, пока Лили рисовала.",
-          "highlight": ["was looking", "was painting"]
+          "highlight": [
+            "was looking",
+            "was painting"
+          ]
         },
         {
           "en": "They were talking while the children were playing.",
           "ru": "Они разговаривали, пока дети играли.",
-          "highlight": ["were talking", "were playing"]
+          "highlight": [
+            "were talking",
+            "were playing"
+          ]
         },
         {
           "en": "He was reading while she was writing.",
           "ru": "Он читал, пока она писала.",
-          "highlight": ["was reading", "was writing"]
+          "highlight": [
+            "was reading",
+            "was writing"
+          ]
         }
       ]
     }

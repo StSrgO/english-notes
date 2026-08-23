@@ -117,31 +117,13 @@
     "every week",
     "on Mondays"
   ],
-  "uses": {
-    "title": "Когда используется Present Simple",
-    "items": [
-      {
-        "title": "Привычки",
-        "text": "Для регулярно повторяющихся действий: I read every day. She walks to work."
-      },
-      {
-        "title": "Постоянные состояния",
-        "text": "Для устойчивых состояний и характеристик: He lives here. She knows the town."
-      },
-      {
-        "title": "Общие факты",
-        "text": "Для фактов и закономерностей: Water boils at 100°C. People make mistakes."
-      },
-      {
-        "title": "Обобщения",
-        "text": "Для общих наблюдений о людях и ситуациях: Families change. People remember what matters."
-      },
-      {
-        "title": "Расписание",
-        "text": "Для установленных расписаний: The train leaves at eight."
-      }
-    ]
-  },
+  "uses": [
+    "Привычки: Для регулярно повторяющихся действий: I read every day. She walks to work.",
+    "Постоянные состояния: Для устойчивых состояний и характеристик: He lives here. She knows the town.",
+    "Общие факты: Для фактов и закономерностей: Water boils at 100°C. People make mistakes.",
+    "Обобщения: Для общих наблюдений о людях и ситуациях: Families change. People remember what matters.",
+    "Расписание: Для установленных расписаний: The train leaves at eight."
+  ],
   "rules": [
     {
       "title": "I / You / We / They",

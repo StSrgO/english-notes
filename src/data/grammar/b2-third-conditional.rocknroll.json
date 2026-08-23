@@ -41,26 +41,26 @@
     "Использовать would have, could have и might have для counterfactual analysis."
   ],
   "context": {
-  "lines": [
-    {
-      "en": "If AC/DC had decided to stop, they would not have recorded Back in Black.",
-      "ru": "Если бы AC/DC решили остановиться, они бы не записали Back in Black."
-    },
-    {
-      "en": "If the band had chosen another singer, the album might have sounded different.",
-      "ru": "Если бы группа выбрала другого вокалиста, альбом, возможно, звучал бы иначе."
-    },
-    {
-      "en": "If Brian had refused the audition, AC/DC would have needed another singer.",
-      "ru": "Если бы Брайан отказался от прослушивания, AC/DC пришлось бы искать другого вокалиста."
-    },
-    {
-      "en": "If the band had not continued, its history could have changed dramatically.",
-      "ru": "Если бы группа не продолжила, её история могла бы измениться очень сильно."
-    }
-  ],
-  "note": "Конструкции используются как аналитическая реконструкция событий после смерти Бона Скотта; они не являются цитатами участников AC/DC и не выдаются за их слова."
-},
+    "lines": [
+      {
+        "en": "If AC/DC had decided to stop, they would not have recorded Back in Black.",
+        "ru": "Если бы AC/DC решили остановиться, они бы не записали Back in Black."
+      },
+      {
+        "en": "If the band had chosen another singer, the album might have sounded different.",
+        "ru": "Если бы группа выбрала другого вокалиста, альбом, возможно, звучал бы иначе."
+      },
+      {
+        "en": "If Brian had refused the audition, AC/DC would have needed another singer.",
+        "ru": "Если бы Брайан отказался от прослушивания, AC/DC пришлось бы искать другого вокалиста."
+      },
+      {
+        "en": "If the band had not continued, its history could have changed dramatically.",
+        "ru": "Если бы группа не продолжила, её история могла бы измениться очень сильно."
+      }
+    ],
+    "note": "Конструкции используются как аналитическая реконструкция событий после смерти Бона Скотта; они не являются цитатами участников AC/DC и не выдаются за их слова."
+  },
   "russianAngle": [
     "Русское «если бы» в рассуждении о прошлом соответствует Third Conditional.",
     "После if используется Past Perfect: had + V3.",
@@ -120,31 +120,13 @@
     "could have + V3",
     "might have + V3"
   ],
-  "uses": {
-    "title": "Third Conditional в истории AC/DC",
-    "items": [
-      {
-        "title": "Альтернативное решение",
-        "text": "Позволяет изменить решение, принятое в прошлом, и представить другой результат."
-      },
-      {
-        "title": "Counterfactual history",
-        "text": "Создаёт альтернативную ветку событий на основе известных исторических фактов."
-      },
-      {
-        "title": "Последствие",
-        "text": "Would have показывает предполагаемый результат изменённого прошлого."
-      },
-      {
-        "title": "Вероятность",
-        "text": "Might have позволяет не выдавать гипотетический результат за установленный факт."
-      },
-      {
-        "title": "Анализ решения",
-        "text": "Конструкция позволяет обсуждать последствия реального выбора, не переписывая историю как факт."
-      }
-    ]
-  },
+  "uses": [
+    "Альтернативное решение: Позволяет изменить решение, принятое в прошлом, и представить другой результат.",
+    "Counterfactual history: Создаёт альтернативную ветку событий на основе известных исторических фактов.",
+    "Последствие: Would have показывает предполагаемый результат изменённого прошлого.",
+    "Вероятность: Might have позволяет не выдавать гипотетический результат за установленный факт.",
+    "Анализ решения: Конструкция позволяет обсуждать последствия реального выбора, не переписывая историю как факт."
+  ],
   "rules": [
     {
       "title": "If + Past Perfect",
@@ -178,25 +160,37 @@
         {
           "en": "If AC/DC had decided to stop, they would not have recorded Back in Black.",
           "ru": "Если бы AC/DC решили остановиться, они бы не записали Back in Black.",
-          "highlight": ["If AC/DC had decided", "would not have recorded"],
+          "highlight": [
+            "If AC/DC had decided",
+            "would not have recorded"
+          ],
           "type": "analysis"
         },
         {
           "en": "If the band had chosen another singer, the album might have sounded different.",
           "ru": "Если бы группа выбрала другого вокалиста, альбом, возможно, звучал бы иначе.",
-          "highlight": ["If the band had chosen", "might have sounded"],
+          "highlight": [
+            "If the band had chosen",
+            "might have sounded"
+          ],
           "type": "analysis"
         },
         {
           "en": "If Brian had refused the audition, AC/DC would have needed another singer.",
           "ru": "Если бы Брайан отказался от прослушивания, AC/DC пришлось бы искать другого вокалиста.",
-          "highlight": ["If Brian had refused", "would have needed"],
+          "highlight": [
+            "If Brian had refused",
+            "would have needed"
+          ],
           "type": "analysis"
         },
         {
           "en": "If the band had not continued, its history could have changed dramatically.",
           "ru": "Если бы группа не продолжила, её история могла бы измениться очень сильно.",
-          "highlight": ["If the band had not continued", "could have changed"],
+          "highlight": [
+            "If the band had not continued",
+            "could have changed"
+          ],
           "type": "analysis"
         }
       ]
@@ -207,25 +201,37 @@
         {
           "en": "If AC/DC had stopped in 1980, they would not have released Back in Black.",
           "ru": "Если бы AC/DC остановились в 1980 году, они бы не выпустили Back in Black.",
-          "highlight": ["If AC/DC had stopped", "would not have released"],
+          "highlight": [
+            "If AC/DC had stopped",
+            "would not have released"
+          ],
           "type": "analysis"
         },
         {
           "en": "If the band had chosen a different singer, the first tour might have been different.",
           "ru": "Если бы группа выбрала другого вокалиста, первый тур, возможно, был бы другим.",
-          "highlight": ["If the band had chosen", "might have been"],
+          "highlight": [
+            "If the band had chosen",
+            "might have been"
+          ],
           "type": "analysis"
         },
         {
           "en": "If Brian had not joined AC/DC, another singer could have taken the role.",
           "ru": "Если бы Брайан не присоединился к AC/DC, эту роль мог бы получить другой вокалист.",
-          "highlight": ["If Brian had not joined", "could have taken"],
+          "highlight": [
+            "If Brian had not joined",
+            "could have taken"
+          ],
           "type": "analysis"
         },
         {
           "en": "If the band had spent more time looking for a singer, the album might have appeared later.",
           "ru": "Если бы группа потратила больше времени на поиски вокалиста, альбом, возможно, появился бы позже.",
-          "highlight": ["If the band had spent", "might have appeared"],
+          "highlight": [
+            "If the band had spent",
+            "might have appeared"
+          ],
           "type": "analysis"
         }
       ]
@@ -242,19 +248,27 @@
         {
           "en": "Would they accept Brian?",
           "ru": "Примут ли они Брайана?",
-          "highlight": ["Would they accept Brian?"],
+          "highlight": [
+            "Would they accept Brian?"
+          ],
           "type": "authentic"
         },
         {
           "en": "If the band had stopped, Back in Black would not have been recorded with Brian Johnson.",
           "ru": "Если бы группа остановилась, Back in Black не был бы записан с Брайаном Джонсоном.",
-          "highlight": ["If the band had stopped", "would not have been recorded"],
+          "highlight": [
+            "If the band had stopped",
+            "would not have been recorded"
+          ],
           "type": "analysis"
         },
         {
           "en": "If Brian had refused, the band might have chosen someone else.",
           "ru": "Если бы Брайан отказался, группа, возможно, выбрала бы кого-то другого.",
-          "highlight": ["If Brian had refused", "might have chosen"],
+          "highlight": [
+            "If Brian had refused",
+            "might have chosen"
+          ],
           "type": "analysis"
         }
       ]
@@ -271,7 +285,10 @@
         {
           "en": "If Bon had not died, the history of AC/DC might have developed differently.",
           "ru": "Если бы Бон не умер, история AC/DC, возможно, развивалась бы иначе.",
-          "highlight": ["If Bon had not died", "might have developed"],
+          "highlight": [
+            "If Bon had not died",
+            "might have developed"
+          ],
           "type": "analysis"
         },
         {
@@ -283,7 +300,10 @@
         {
           "en": "If Brian had not joined, the band would have needed another singer.",
           "ru": "Если бы Брайан не присоединился, группе пришлось бы искать другого вокалиста.",
-          "highlight": ["If Brian had not joined", "would have needed"],
+          "highlight": [
+            "If Brian had not joined",
+            "would have needed"
+          ],
           "type": "analysis"
         }
       ]
@@ -294,13 +314,19 @@
         {
           "en": "If AC/DC were to stop now, they would lose their current momentum.",
           "ru": "Если бы AC/DC остановились сейчас, они потеряли бы нынешнюю динамику.",
-          "highlight": ["If AC/DC were", "would lose"],
+          "highlight": [
+            "If AC/DC were",
+            "would lose"
+          ],
           "type": "second"
         },
         {
           "en": "If AC/DC had stopped in 1980, they would not have recorded Back in Black.",
           "ru": "Если бы AC/DC остановились в 1980 году, они бы не записали Back in Black.",
-          "highlight": ["If AC/DC had stopped", "would not have recorded"],
+          "highlight": [
+            "If AC/DC had stopped",
+            "would not have recorded"
+          ],
           "type": "third"
         }
       ]

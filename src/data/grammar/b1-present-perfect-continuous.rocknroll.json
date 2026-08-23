@@ -112,27 +112,12 @@
     "recently",
     "off and on"
   ],
-  "uses": {
-    "title": "Когда используем Present Perfect Continuous",
-    "items": [
-      {
-        "title": "Длительная работа",
-        "text": "Показываем процесс, который продолжается: \"We have been working on the album for years.\""
-      },
-      {
-        "title": "Процесс до настоящего момента",
-        "text": "Действие началось раньше и продолжается сейчас: \"We have been recording since the last album.\""
-      },
-      {
-        "title": "Прерывистый процесс",
-        "text": "Процесс может происходить с паузами: \"We have been recording off and on.\""
-      },
-      {
-        "title": "Недавняя деятельность",
-        "text": "Показываем деятельность, которая объясняет состояние сейчас: \"We have been recording all day.\""
-      }
-    ]
-  },
+  "uses": [
+    "Длительная работа: Показываем процесс, который продолжается: \"We have been working on the album for years.\"",
+    "Процесс до настоящего момента: Действие началось раньше и продолжается сейчас: \"We have been recording since the last album.\"",
+    "Прерывистый процесс: Процесс может происходить с паузами: \"We have been recording off and on.\"",
+    "Недавняя деятельность: Показываем деятельность, которая объясняет состояние сейчас: \"We have been recording all day.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -166,32 +151,44 @@
         {
           "en": "We have been working on the album for years.",
           "ru": "Мы уже несколько лет работаем над альбомом.",
-          "highlight": ["have been working"]
+          "highlight": [
+            "have been working"
+          ]
         },
         {
           "en": "They have been recording for months.",
           "ru": "Они уже несколько месяцев записываются.",
-          "highlight": ["have been recording"]
+          "highlight": [
+            "have been recording"
+          ]
         },
         {
           "en": "He has been writing songs all year.",
           "ru": "Он пишет песни весь этот год.",
-          "highlight": ["has been writing"]
+          "highlight": [
+            "has been writing"
+          ]
         },
         {
           "en": "We have been rehearsing since Monday.",
           "ru": "Мы репетируем с понедельника.",
-          "highlight": ["have been rehearsing"]
+          "highlight": [
+            "have been rehearsing"
+          ]
         },
         {
           "en": "They have been touring for several months.",
           "ru": "Они гастролируют уже несколько месяцев.",
-          "highlight": ["have been touring"]
+          "highlight": [
+            "have been touring"
+          ]
         },
         {
           "en": "How long have you been working on the record?",
           "ru": "Как долго вы работаете над альбомом?",
-          "highlight": ["have you been working"]
+          "highlight": [
+            "have you been working"
+          ]
         }
       ]
     },
@@ -201,32 +198,44 @@
         {
           "en": "We have been recording all day.",
           "ru": "Мы записываемся весь день.",
-          "highlight": ["have been recording"]
+          "highlight": [
+            "have been recording"
+          ]
         },
         {
           "en": "He has been writing all morning.",
           "ru": "Он пишет всё утро.",
-          "highlight": ["has been writing"]
+          "highlight": [
+            "has been writing"
+          ]
         },
         {
           "en": "They have been rehearsing hard lately.",
           "ru": "В последнее время они много репетируют.",
-          "highlight": ["have been rehearsing"]
+          "highlight": [
+            "have been rehearsing"
+          ]
         },
         {
           "en": "We have been working late recently.",
           "ru": "В последнее время мы работаем допоздна.",
-          "highlight": ["have been working"]
+          "highlight": [
+            "have been working"
+          ]
         },
         {
           "en": "They have been recording off and on.",
           "ru": "Они записываются время от времени.",
-          "highlight": ["have been recording"]
+          "highlight": [
+            "have been recording"
+          ]
         },
         {
           "en": "I have been listening to the demos all evening.",
           "ru": "Я весь вечер слушаю демо.",
-          "highlight": ["have been listening"]
+          "highlight": [
+            "have been listening"
+          ]
         }
       ]
     },
@@ -236,32 +245,44 @@
         {
           "en": "We have recorded ten songs.",
           "ru": "Мы записали десять песен.",
-          "highlight": ["have recorded"]
+          "highlight": [
+            "have recorded"
+          ]
         },
         {
           "en": "We have been recording for months.",
           "ru": "Мы записываемся уже несколько месяцев.",
-          "highlight": ["have been recording"]
+          "highlight": [
+            "have been recording"
+          ]
         },
         {
           "en": "They have written five songs.",
           "ru": "Они написали пять песен.",
-          "highlight": ["have written"]
+          "highlight": [
+            "have written"
+          ]
         },
         {
           "en": "They have been writing songs all year.",
           "ru": "Они пишут песни весь этот год.",
-          "highlight": ["have been writing"]
+          "highlight": [
+            "have been writing"
+          ]
         },
         {
           "en": "He has finished the album.",
           "ru": "Он закончил альбом.",
-          "highlight": ["has finished"]
+          "highlight": [
+            "has finished"
+          ]
         },
         {
           "en": "He has been working on the album for years.",
           "ru": "Он уже несколько лет работает над альбомом.",
-          "highlight": ["has been working"]
+          "highlight": [
+            "has been working"
+          ]
         }
       ]
     }

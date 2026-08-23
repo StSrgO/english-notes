@@ -40,26 +40,26 @@
     "Отделять исторический факт от аналитической реконструкции."
   ],
   "context": {
-  "lines": [
-    {
-      "en": "If Mary had not travelled to Switzerland, Frankenstein might have developed differently.",
-      "ru": "Если бы Мэри не поехала в Швейцарию, Frankenstein, возможно, развивался бы иначе."
-    },
-    {
-      "en": "If Byron had not proposed the challenge, Mary might not have developed the idea at that moment.",
-      "ru": "Если бы Байрон не предложил этот конкурс, Мэри, возможно, не развила бы эту идею в тот момент."
-    },
-    {
-      "en": "If the weather had been better, the group might have spent less time indoors.",
-      "ru": "Если бы погода была лучше, группа, возможно, проводила бы меньше времени в помещении."
-    },
-    {
-      "en": "If the group had not met so often, the novel could have developed differently.",
-      "ru": "Если бы группа не встречалась так часто, роман мог бы развиваться иначе."
-    }
-  ],
-  "note": "Конструкции используются как аналитическая реконструкция событий лета 1816 года; они не являются цитатами Мэри Шелли и не выдаются за её слова."
-},
+    "lines": [
+      {
+        "en": "If Mary had not travelled to Switzerland, Frankenstein might have developed differently.",
+        "ru": "Если бы Мэри не поехала в Швейцарию, Frankenstein, возможно, развивался бы иначе."
+      },
+      {
+        "en": "If Byron had not proposed the challenge, Mary might not have developed the idea at that moment.",
+        "ru": "Если бы Байрон не предложил этот конкурс, Мэри, возможно, не развила бы эту идею в тот момент."
+      },
+      {
+        "en": "If the weather had been better, the group might have spent less time indoors.",
+        "ru": "Если бы погода была лучше, группа, возможно, проводила бы меньше времени в помещении."
+      },
+      {
+        "en": "If the group had not met so often, the novel could have developed differently.",
+        "ru": "Если бы группа не встречалась так часто, роман мог бы развиваться иначе."
+      }
+    ],
+    "note": "Конструкции используются как аналитическая реконструкция событий лета 1816 года; они не являются цитатами Мэри Шелли и не выдаются за её слова."
+  },
   "russianAngle": [
     "Русское «если бы» обычно передаёт значение Third Conditional.",
     "В английском завершённое прошлое кодируется Past Perfect после if.",
@@ -119,31 +119,13 @@
     "could have + V3",
     "might have + V3"
   ],
-  "uses": {
-    "title": "Что выражает Third Conditional",
-    "items": [
-      {
-        "title": "Альтернативное прошлое",
-        "text": "Представляет ситуацию, которая не произошла: If Mary had not travelled, the story might have developed differently."
-      },
-      {
-        "title": "Гипотетический результат",
-        "text": "Показывает, что произошло бы в изменённом прошлом."
-      },
-      {
-        "title": "Сожаление",
-        "text": "Может использоваться, когда говорящий оценивает прошлое и думает о другом результате."
-      },
-      {
-        "title": "Историческая реконструкция",
-        "text": "Позволяет анализировать, как изменение одного известного события могло бы повлиять на последующие события."
-      },
-      {
-        "title": "Неопределённый результат",
-        "text": "Might have и could have позволяют не выдавать гипотезу за установленный факт."
-      }
-    ]
-  },
+  "uses": [
+    "Альтернативное прошлое: Представляет ситуацию, которая не произошла: If Mary had not travelled, the story might have developed differently.",
+    "Гипотетический результат: Показывает, что произошло бы в изменённом прошлом.",
+    "Сожаление: Может использоваться, когда говорящий оценивает прошлое и думает о другом результате.",
+    "Историческая реконструкция: Позволяет анализировать, как изменение одного известного события могло бы повлиять на последующие события.",
+    "Неопределённый результат: Might have и could have позволяют не выдавать гипотезу за установленный факт."
+  ],
   "rules": [
     {
       "title": "If + Past Perfect",
@@ -177,25 +159,37 @@
         {
           "en": "If Mary had not travelled to Switzerland, Frankenstein might have developed differently.",
           "ru": "Если бы Мэри не поехала в Швейцарию, Frankenstein, возможно, развивался бы иначе.",
-          "highlight": ["If Mary had not travelled", "might have developed"],
+          "highlight": [
+            "If Mary had not travelled",
+            "might have developed"
+          ],
           "type": "analysis"
         },
         {
           "en": "If Byron had not proposed the challenge, Mary might not have developed the idea at that moment.",
           "ru": "Если бы Байрон не предложил этот конкурс, Мэри, возможно, не развила бы эту идею в тот момент.",
-          "highlight": ["If Byron had not proposed", "might not have developed"],
+          "highlight": [
+            "If Byron had not proposed",
+            "might not have developed"
+          ],
           "type": "analysis"
         },
         {
           "en": "If the weather had been better, the group might have spent less time indoors.",
           "ru": "Если бы погода была лучше, группа, возможно, проводила бы меньше времени в помещении.",
-          "highlight": ["If the weather had been", "might have spent"],
+          "highlight": [
+            "If the weather had been",
+            "might have spent"
+          ],
           "type": "analysis"
         },
         {
           "en": "If the group had not met so often, the novel could have developed differently.",
           "ru": "Если бы группа не встречалась так часто, роман мог бы развиваться иначе.",
-          "highlight": ["If the group had not met", "could have developed"],
+          "highlight": [
+            "If the group had not met",
+            "could have developed"
+          ],
           "type": "analysis"
         }
       ]
@@ -206,25 +200,37 @@
         {
           "en": "If Mary had stayed in England, she might not have experienced the same circumstances.",
           "ru": "Если бы Мэри осталась в Англии, она, возможно, не столкнулась бы с теми же обстоятельствами.",
-          "highlight": ["If Mary had stayed", "might not have experienced"],
+          "highlight": [
+            "If Mary had stayed",
+            "might not have experienced"
+          ],
           "type": "analysis"
         },
         {
           "en": "If Byron had never organised the gathering, the group might not have produced the same stories.",
           "ru": "Если бы Байрон никогда не организовал эту встречу, группа, возможно, не создала бы те же истории.",
-          "highlight": ["If Byron had never organised", "might not have produced"],
+          "highlight": [
+            "If Byron had never organised",
+            "might not have produced"
+          ],
           "type": "analysis"
         },
         {
           "en": "If the group had spent the summer outdoors, their creative process could have been different.",
           "ru": "Если бы группа проводила лето на улице, их творческий процесс мог бы быть другим.",
-          "highlight": ["If the group had spent", "could have been"],
+          "highlight": [
+            "If the group had spent",
+            "could have been"
+          ],
           "type": "analysis"
         },
         {
           "en": "If Mary had not developed the idea then, she might have written something else.",
           "ru": "Если бы Мэри не развила эту идею тогда, она, возможно, написала бы что-то другое.",
-          "highlight": ["If Mary had not developed", "might have written"],
+          "highlight": [
+            "If Mary had not developed",
+            "might have written"
+          ],
           "type": "analysis"
         }
       ]
@@ -241,7 +247,10 @@
         {
           "en": "If Mary had not travelled to Switzerland, the story might have been different.",
           "ru": "Если бы Мэри не приехала в Швейцарию, история могла бы быть другой.",
-          "highlight": ["If Mary had not travelled", "might have been"],
+          "highlight": [
+            "If Mary had not travelled",
+            "might have been"
+          ],
           "type": "analysis"
         },
         {
@@ -253,7 +262,10 @@
         {
           "en": "If the weather had been better, they might have spent less time together indoors.",
           "ru": "Если бы погода была лучше, они, возможно, проводили бы меньше времени вместе в помещении.",
-          "highlight": ["If the weather had been", "might have spent"],
+          "highlight": [
+            "If the weather had been",
+            "might have spent"
+          ],
           "type": "analysis"
         }
       ]
@@ -264,13 +276,19 @@
         {
           "en": "If Mary were in Switzerland, she would write.",
           "ru": "Если бы Мэри находилась в Швейцарии, она бы писала.",
-          "highlight": ["If Mary were", "would write"],
+          "highlight": [
+            "If Mary were",
+            "would write"
+          ],
           "type": "second"
         },
         {
           "en": "If Mary had been in Switzerland, she would have written.",
           "ru": "Если бы Мэри была в Швейцарии, она бы написала.",
-          "highlight": ["If Mary had been", "would have written"],
+          "highlight": [
+            "If Mary had been",
+            "would have written"
+          ],
           "type": "third"
         }
       ]

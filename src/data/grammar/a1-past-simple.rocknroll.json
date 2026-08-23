@@ -125,27 +125,12 @@
     "later",
     "finally"
   ],
-  "uses": {
-    "title": "Когда используется Past Simple",
-    "items": [
-      {
-        "title": "Завершённое событие",
-        "text": "Для законченного события в прошлом: MC5 played a show."
-      },
-      {
-        "title": "Последовательность",
-        "text": "Для цепочки событий: They played, the audience reacted, and the band returned."
-      },
-      {
-        "title": "Прошлый период",
-        "text": "Для фактов, относящихся к завершённому периоду: MC5 toured the East Coast in 1968."
-      },
-      {
-        "title": "Повторение в прошлом",
-        "text": "Для повторяющегося действия внутри завершённого периода: The band played almost every night."
-      }
-    ]
-  },
+  "uses": [
+    "Завершённое событие: Для законченного события в прошлом: MC5 played a show.",
+    "Последовательность: Для цепочки событий: They played, the audience reacted, and the band returned.",
+    "Прошлый период: Для фактов, относящихся к завершённому периоду: MC5 toured the East Coast in 1968.",
+    "Повторение в прошлом: Для повторяющегося действия внутри завершённого периода: The band played almost every night."
+  ],
   "rules": [
     {
       "title": "Правильные глаголы",
@@ -179,32 +164,44 @@
         {
           "en": "MC5 played a show in 1968.",
           "ru": "MC5 сыграли концерт в 1968 году.",
-          "highlight": ["played"]
+          "highlight": [
+            "played"
+          ]
         },
         {
           "en": "The band opened the show.",
           "ru": "Группа открыла концерт.",
-          "highlight": ["opened"]
+          "highlight": [
+            "opened"
+          ]
         },
         {
           "en": "The audience reacted immediately.",
           "ru": "Публика сразу отреагировала.",
-          "highlight": ["reacted"]
+          "highlight": [
+            "reacted"
+          ]
         },
         {
           "en": "The crowd demanded another song.",
           "ru": "Публика потребовала ещё одну песню.",
-          "highlight": ["demanded"]
+          "highlight": [
+            "demanded"
+          ]
         },
         {
           "en": "The band returned to the stage.",
           "ru": "Группа вернулась на сцену.",
-          "highlight": ["returned"]
+          "highlight": [
+            "returned"
+          ]
         },
         {
           "en": "They left the stage later.",
           "ru": "Позже они ушли со сцены.",
-          "highlight": ["left"]
+          "highlight": [
+            "left"
+          ]
         }
       ]
     },
@@ -214,32 +211,48 @@
         {
           "en": "MC5 walked onstage and started playing.",
           "ru": "MC5 вышли на сцену и начали играть.",
-          "highlight": ["walked", "started"]
+          "highlight": [
+            "walked",
+            "started"
+          ]
         },
         {
           "en": "The band played, and the crowd reacted.",
           "ru": "Группа играла, а публика реагировала.",
-          "highlight": ["played", "reacted"]
+          "highlight": [
+            "played",
+            "reacted"
+          ]
         },
         {
           "en": "The audience demanded more, so the band returned.",
           "ru": "Публика потребовала продолжения, поэтому группа вернулась.",
-          "highlight": ["demanded", "returned"]
+          "highlight": [
+            "demanded",
+            "returned"
+          ]
         },
         {
           "en": "The group finished the set and left the stage.",
           "ru": "Группа закончила сет и ушла со сцены.",
-          "highlight": ["finished", "left"]
+          "highlight": [
+            "finished",
+            "left"
+          ]
         },
         {
           "en": "The headliner came on later.",
           "ru": "Позже вышел хедлайнер.",
-          "highlight": ["came"]
+          "highlight": [
+            "came"
+          ]
         },
         {
           "en": "The show ended after midnight.",
           "ru": "Концерт закончился после полуночи.",
-          "highlight": ["ended"]
+          "highlight": [
+            "ended"
+          ]
         }
       ]
     },
@@ -249,32 +262,44 @@
         {
           "en": "The band went on tour.",
           "ru": "Группа отправилась в тур.",
-          "highlight": ["went"]
+          "highlight": [
+            "went"
+          ]
         },
         {
           "en": "The musicians came to New York.",
           "ru": "Музыканты приехали в Нью-Йорк.",
-          "highlight": ["came"]
+          "highlight": [
+            "came"
+          ]
         },
         {
           "en": "They got a strong response.",
           "ru": "Они получили сильную реакцию.",
-          "highlight": ["got"]
+          "highlight": [
+            "got"
+          ]
         },
         {
           "en": "They took the stage.",
           "ru": "Они вышли на сцену.",
-          "highlight": ["took"]
+          "highlight": [
+            "took"
+          ]
         },
         {
           "en": "The audience saw something unexpected.",
           "ru": "Публика увидела нечто неожиданное.",
-          "highlight": ["saw"]
+          "highlight": [
+            "saw"
+          ]
         },
         {
           "en": "The band left the stage.",
           "ru": "Группа ушла со сцены.",
-          "highlight": ["left"]
+          "highlight": [
+            "left"
+          ]
         }
       ]
     },
@@ -284,32 +309,47 @@
         {
           "en": "The audience didn't leave.",
           "ru": "Публика не ушла.",
-          "highlight": ["didn't leave"]
+          "highlight": [
+            "didn't leave"
+          ]
         },
         {
           "en": "The band didn't stop.",
           "ru": "Группа не остановилась.",
-          "highlight": ["didn't stop"]
+          "highlight": [
+            "didn't stop"
+          ]
         },
         {
           "en": "The show didn't end quietly.",
           "ru": "Концерт не закончился тихо.",
-          "highlight": ["didn't end"]
+          "highlight": [
+            "didn't end"
+          ]
         },
         {
           "en": "Did MC5 play before Cream?",
           "ru": "MC5 выступали перед Cream?",
-          "highlight": ["Did", "play"]
+          "highlight": [
+            "Did",
+            "play"
+          ]
         },
         {
           "en": "Did the audience demand more?",
           "ru": "Публика потребовала продолжения?",
-          "highlight": ["Did", "demand"]
+          "highlight": [
+            "Did",
+            "demand"
+          ]
         },
         {
           "en": "Did the band return?",
           "ru": "Группа вернулась?",
-          "highlight": ["Did", "return"]
+          "highlight": [
+            "Did",
+            "return"
+          ]
         }
       ]
     },
@@ -319,32 +359,50 @@
         {
           "en": "MC5 toured the East Coast in 1968.",
           "ru": "MC5 гастролировали по Восточному побережью в 1968 году.",
-          "highlight": ["toured", "in 1968"]
+          "highlight": [
+            "toured",
+            "in 1968"
+          ]
         },
         {
           "en": "They played last night.",
           "ru": "Они играли прошлой ночью.",
-          "highlight": ["played", "last night"]
+          "highlight": [
+            "played",
+            "last night"
+          ]
         },
         {
           "en": "The audience reacted a few minutes later.",
           "ru": "Публика отреагировала несколько минут спустя.",
-          "highlight": ["reacted", "later"]
+          "highlight": [
+            "reacted",
+            "later"
+          ]
         },
         {
           "en": "The band returned after that.",
           "ru": "После этого группа вернулась.",
-          "highlight": ["returned", "after that"]
+          "highlight": [
+            "returned",
+            "after that"
+          ]
         },
         {
           "en": "They left the stage finally.",
           "ru": "В конце концов они ушли со сцены.",
-          "highlight": ["left", "finally"]
+          "highlight": [
+            "left",
+            "finally"
+          ]
         },
         {
           "en": "The tour ended later that year.",
           "ru": "Тур закончился позже в том же году.",
-          "highlight": ["ended", "later"]
+          "highlight": [
+            "ended",
+            "later"
+          ]
         }
       ]
     },
@@ -354,32 +412,44 @@
         {
           "en": "MC5 play live.",
           "ru": "MC5 играют концерты.",
-          "highlight": ["play"]
+          "highlight": [
+            "play"
+          ]
         },
         {
           "en": "MC5 played live in 1968.",
           "ru": "MC5 играли концерты в 1968 году.",
-          "highlight": ["played"]
+          "highlight": [
+            "played"
+          ]
         },
         {
           "en": "The band attracts crowds.",
           "ru": "Группа собирает публику.",
-          "highlight": ["attracts"]
+          "highlight": [
+            "attracts"
+          ]
         },
         {
           "en": "The band attracted crowds in 1968.",
           "ru": "Группа собирала публику в 1968 году.",
-          "highlight": ["attracted"]
+          "highlight": [
+            "attracted"
+          ]
         },
         {
           "en": "They open shows for bigger bands.",
           "ru": "Они открывают концерты более известных групп.",
-          "highlight": ["open"]
+          "highlight": [
+            "open"
+          ]
         },
         {
           "en": "They opened shows for bigger bands.",
           "ru": "Они открывали концерты более известных групп.",
-          "highlight": ["opened"]
+          "highlight": [
+            "opened"
+          ]
         }
       ]
     }

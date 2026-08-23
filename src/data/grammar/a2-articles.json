@@ -93,21 +93,9 @@
     "singular countable noun"
   ],
   "uses": [
-    {
-      "title": "Первое упоминание",
-      "explanation": "A/an вводит новый исчисляемый предмет в единственном числе.",
-      "example": "A sailor entered the inn."
-    },
-    {
-      "title": "Конкретный предмет",
-      "explanation": "The используется, когда говорящий и слушатель могут понять, о каком предмете идёт речь.",
-      "example": "The sailor sat near the door."
-    },
-    {
-      "title": "Общее значение",
-      "explanation": "Множественное число без артикля может обозначать предметы или людей вообще.",
-      "example": "Sailors travelled long distances."
-    }
+    "Первое упоминание: A/an вводит новый исчисляемый предмет в единственном числе. Example: A sailor entered the inn.",
+    "Конкретный предмет: The используется, когда говорящий и слушатель могут понять, о каком предмете идёт речь. Example: The sailor sat near the door.",
+    "Общее значение: Множественное число без артикля может обозначать предметы или людей вообще. Example: Sailors travelled long distances."
   ],
   "rules": [
     {
@@ -138,22 +126,30 @@
         {
           "en": "A sailor entered the inn.",
           "ru": "Один моряк вошёл в гостиницу. Моряк вводится впервые.",
-          "highlight": ["A sailor"]
+          "highlight": [
+            "A sailor"
+          ]
         },
         {
           "en": "A ship appeared near the island.",
           "ru": "Впервые появляется один корабль.",
-          "highlight": ["A ship"]
+          "highlight": [
+            "A ship"
+          ]
         },
         {
           "en": "An old map was on the table.",
           "ru": "Карта вводится как новый предмет.",
-          "highlight": ["An old map"]
+          "highlight": [
+            "An old map"
+          ]
         },
         {
           "en": "A man stood by the door.",
           "ru": "Мы пока не знаем, кто именно этот человек.",
-          "highlight": ["A man"]
+          "highlight": [
+            "A man"
+          ]
         }
       ]
     },
@@ -163,22 +159,30 @@
         {
           "en": "The sailor sat near the fire.",
           "ru": "Теперь речь идёт о том же моряке.",
-          "highlight": ["The sailor"]
+          "highlight": [
+            "The sailor"
+          ]
         },
         {
           "en": "The ship was ready to leave.",
           "ru": "Мы уже знаем, о каком корабле идёт речь.",
-          "highlight": ["The ship"]
+          "highlight": [
+            "The ship"
+          ]
         },
         {
           "en": "The old map showed an island.",
           "ru": "Карта уже известна из предыдущего предложения.",
-          "highlight": ["The old map"]
+          "highlight": [
+            "The old map"
+          ]
         },
         {
           "en": "The man opened the door.",
           "ru": "Это уже конкретный человек из ситуации.",
-          "highlight": ["The man"]
+          "highlight": [
+            "The man"
+          ]
         }
       ]
     },
@@ -188,22 +192,30 @@
         {
           "en": "an island",
           "ru": "Перед гласным звуком используется an.",
-          "highlight": ["an island"]
+          "highlight": [
+            "an island"
+          ]
         },
         {
           "en": "an old ship",
           "ru": "Первый звук в old — гласный.",
-          "highlight": ["an old ship"]
+          "highlight": [
+            "an old ship"
+          ]
         },
         {
           "en": "a sailor",
           "ru": "Перед согласным звуком используется a.",
-          "highlight": ["a sailor"]
+          "highlight": [
+            "a sailor"
+          ]
         },
         {
           "en": "a treasure map",
           "ru": "Treasure начинается с согласного звука.",
-          "highlight": ["a treasure map"]
+          "highlight": [
+            "a treasure map"
+          ]
         }
       ]
     },
@@ -213,22 +225,30 @@
         {
           "en": "Ships can be dangerous.",
           "ru": "Речь о кораблях вообще.",
-          "highlight": ["Ships"]
+          "highlight": [
+            "Ships"
+          ]
         },
         {
           "en": "Pirates were common in old stories.",
           "ru": "Речь о пиратах как категории.",
-          "highlight": ["Pirates"]
+          "highlight": [
+            "Pirates"
+          ]
         },
         {
           "en": "Gold is valuable.",
           "ru": "Gold — неисчисляемое существительное в общем значении.",
-          "highlight": ["Gold"]
+          "highlight": [
+            "Gold"
+          ]
         },
         {
           "en": "Treasure can change people's lives.",
           "ru": "Речь идёт о сокровищах вообще.",
-          "highlight": ["Treasure"]
+          "highlight": [
+            "Treasure"
+          ]
         }
       ]
     },
@@ -238,22 +258,31 @@
         {
           "en": "Close the door.",
           "ru": "Из ситуации понятно, какую дверь нужно закрыть.",
-          "highlight": ["the door"]
+          "highlight": [
+            "the door"
+          ]
         },
         {
           "en": "The captain is on the ship.",
           "ru": "Говорящий имеет в виду конкретного капитана и конкретный корабль.",
-          "highlight": ["The captain", "the ship"]
+          "highlight": [
+            "The captain",
+            "the ship"
+          ]
         },
         {
           "en": "The map is on the table.",
           "ru": "Из ситуации понятно, о какой карте идёт речь.",
-          "highlight": ["The map"]
+          "highlight": [
+            "The map"
+          ]
         },
         {
           "en": "The sea was calm.",
           "ru": "В данном контексте речь идёт о конкретном море вокруг героев.",
-          "highlight": ["The sea"]
+          "highlight": [
+            "The sea"
+          ]
         }
       ]
     },
@@ -263,22 +292,31 @@
         {
           "en": "Treasure Island was famous.",
           "ru": "Treasure Island — название, поэтому артикль не нужен.",
-          "highlight": ["Treasure Island"]
+          "highlight": [
+            "Treasure Island"
+          ]
         },
         {
           "en": "The island was difficult to reach.",
           "ru": "Здесь island — обычное существительное и обозначает конкретный остров.",
-          "highlight": ["The island"]
+          "highlight": [
+            "The island"
+          ]
         },
         {
           "en": "The Admiral Benbow was an inn.",
           "ru": "Название и обычное существительное выполняют разные функции.",
-          "highlight": ["The Admiral Benbow", "an inn"]
+          "highlight": [
+            "The Admiral Benbow",
+            "an inn"
+          ]
         },
         {
           "en": "The inn stood near the sea.",
           "ru": "После введения объекта он становится конкретным.",
-          "highlight": ["The inn"]
+          "highlight": [
+            "The inn"
+          ]
         }
       ]
     }
@@ -364,25 +402,45 @@
   "quiz": [
     {
       "q": "___ sailor entered the inn for the first time.",
-      "options": ["A", "The", "An", "—"],
+      "options": [
+        "A",
+        "The",
+        "An",
+        "—"
+      ],
       "answer": "A",
       "why": "Sailor — исчисляемое существительное в единственном числе, объект вводится впервые."
     },
     {
       "q": "I saw a ship. ___ ship was very old.",
-      "options": ["A", "An", "The", "—"],
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
       "answer": "The",
       "why": "Во втором предложении корабль уже известен."
     },
     {
       "q": "___ island appeared on the map.",
-      "options": ["A", "An", "The", "—"],
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
       "answer": "An",
       "why": "Island начинается с гласного звука и вводится впервые."
     },
     {
       "q": "___ ships can travel long distances.",
-      "options": ["A", "An", "The", "—"],
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
       "answer": "—",
       "why": "Речь идёт о кораблях вообще."
     },

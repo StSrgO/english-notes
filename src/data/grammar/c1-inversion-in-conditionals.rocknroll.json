@@ -115,31 +115,13 @@
     "Were + subject + to + verb",
     "Should + subject + verb"
   ],
-  "uses": {
-    "title": "Четыре модели условной инверсии",
-    "items": [
-      {
-        "title": "Альтернативное прошлое",
-        "text": "Had + subject + past participle заменяет If + Past Perfect и показывает нереализованный вариант прошлого."
-      },
-      {
-        "title": "Гипотетическое состояние",
-        "text": "Were + subject + adjective/noun заменяет условие с If + were."
-      },
-      {
-        "title": "Гипотетическое действие",
-        "text": "Were + subject + to + verb используется для формальной гипотезы о возможном действии."
-      },
-      {
-        "title": "Возможное событие",
-        "text": "Should + subject + verb представляет возможную ситуацию в формальном стиле."
-      },
-      {
-        "title": "Сжатие",
-        "text": "Conditional inversion убирает if и делает условную часть короче."
-      }
-    ]
-  },
+  "uses": [
+    "Альтернативное прошлое: Had + subject + past participle заменяет If + Past Perfect и показывает нереализованный вариант прошлого.",
+    "Гипотетическое состояние: Were + subject + adjective/noun заменяет условие с If + were.",
+    "Гипотетическое действие: Were + subject + to + verb используется для формальной гипотезы о возможном действии.",
+    "Возможное событие: Should + subject + verb представляет возможную ситуацию в формальном стиле.",
+    "Сжатие: Conditional inversion убирает if и делает условную часть короче."
+  ],
   "rules": [
     {
       "title": "Had inversion",

@@ -121,31 +121,13 @@
     "would + V1",
     "could/might + V1"
   ],
-  "uses": {
-    "title": "Second Conditional как инструмент анализа",
-    "items": [
-      {
-        "title": "Альтернативное решение",
-        "text": "Позволяет представить другой способ действия: If the band were more diplomatic, it would avoid the conflict."
-      },
-      {
-        "title": "Гипотетическое последствие",
-        "text": "Показывает, что могло бы произойти в созданной условной ситуации."
-      },
-      {
-        "title": "If it wasn't for",
-        "text": "Позволяет представить ситуацию без определённого человека или фактора: If it wasn't for the MC5..."
-      },
-      {
-        "title": "Аргументация",
-        "text": "Используется, чтобы рассуждать о решениях и последствиях, не утверждая, что альтернативный вариант является фактом."
-      },
-      {
-        "title": "Маловероятное будущее",
-        "text": "Можно представить возможное, но маловероятное изменение ситуации."
-      }
-    ]
-  },
+  "uses": [
+    "Альтернативное решение: Позволяет представить другой способ действия: If the band were more diplomatic, it would avoid the conflict.",
+    "Гипотетическое последствие: Показывает, что могло бы произойти в созданной условной ситуации.",
+    "If it wasn't for: Позволяет представить ситуацию без определённого человека или фактора: If it wasn't for the MC5...",
+    "Аргументация: Используется, чтобы рассуждать о решениях и последствиях, не утверждая, что альтернативный вариант является фактом.",
+    "Маловероятное будущее: Можно представить возможное, но маловероятное изменение ситуации."
+  ],
   "rules": [
     {
       "title": "If + Past Simple",
@@ -179,22 +161,34 @@
         {
           "en": "If MC5 were more diplomatic, they would have more options.",
           "ru": "Если бы MC5 были более дипломатичны, у них было бы больше возможностей.",
-          "highlight": ["If MC5 were", "would have"]
+          "highlight": [
+            "If MC5 were",
+            "would have"
+          ]
         },
         {
           "en": "If Hudson's accepted the album, the conflict would be smaller.",
           "ru": "Если бы Hudson's принял альбом, конфликт был бы меньше.",
-          "highlight": ["If Hudson's accepted", "would be"]
+          "highlight": [
+            "If Hudson's accepted",
+            "would be"
+          ]
         },
         {
           "en": "If the label changed its strategy, the band would have more freedom.",
           "ru": "Если бы лейбл изменил стратегию, у группы было бы больше свободы.",
-          "highlight": ["If the label changed", "would have"]
+          "highlight": [
+            "If the label changed",
+            "would have"
+          ]
         },
         {
           "en": "If the band were willing to compromise, the situation would be easier.",
           "ru": "Если бы группа была готова к компромиссу, ситуация была бы проще.",
-          "highlight": ["If the band were", "would be"]
+          "highlight": [
+            "If the band were",
+            "would be"
+          ]
         }
       ]
     },
@@ -204,22 +198,34 @@
         {
           "en": "If MC5 changed their response, they could keep the contract.",
           "ru": "Если бы MC5 изменили свою реакцию, они могли бы сохранить контракт.",
-          "highlight": ["If MC5 changed", "could keep"]
+          "highlight": [
+            "If MC5 changed",
+            "could keep"
+          ]
         },
         {
           "en": "If Hudson's changed its policy, the album might sell better.",
           "ru": "Если бы Hudson's изменил свою политику, альбом, возможно, продавался бы лучше.",
-          "highlight": ["If Hudson's changed", "might sell"]
+          "highlight": [
+            "If Hudson's changed",
+            "might sell"
+          ]
         },
         {
           "en": "If the label were more flexible, the band could stay.",
           "ru": "Если бы лейбл был гибче, группа могла бы остаться.",
-          "highlight": ["If the label were", "could stay"]
+          "highlight": [
+            "If the label were",
+            "could stay"
+          ]
         },
         {
           "en": "If there were less controversy, the album might receive less attention.",
           "ru": "Если бы было меньше скандала, альбом, возможно, получил бы меньше внимания.",
-          "highlight": ["If there were", "might receive"]
+          "highlight": [
+            "If there were",
+            "might receive"
+          ]
         }
       ]
     },
@@ -229,22 +235,34 @@
         {
           "en": "If it wasn't for the MC5, all of these bands would have been nothing.",
           "ru": "Если бы не MC5, все эти группы ничего бы собой не представляли.",
-          "highlight": ["If it wasn't for the MC5", "would have been nothing"]
+          "highlight": [
+            "If it wasn't for the MC5",
+            "would have been nothing"
+          ]
         },
         {
           "en": "What would you be if you didn't try?",
           "ru": "Кем бы ты был, если бы не пытался?",
-          "highlight": ["What would you be", "if you didn't try"]
+          "highlight": [
+            "What would you be",
+            "if you didn't try"
+          ]
         },
         {
           "en": "If we stuck to those basic forms, the music would sustain itself.",
           "ru": "Если бы мы придерживались этих базовых форм, музыка сохраняла бы свою жизнеспособность.",
-          "highlight": ["If we stuck", "would sustain"]
+          "highlight": [
+            "If we stuck",
+            "would sustain"
+          ]
         },
         {
           "en": "If I were the manager, I would change the strategy.",
           "ru": "Если бы я был менеджером, я бы изменил стратегию.",
-          "highlight": ["If I were", "would change"]
+          "highlight": [
+            "If I were",
+            "would change"
+          ]
         }
       ]
     },
@@ -254,22 +272,34 @@
         {
           "en": "If MC5 were more diplomatic, Elektra would have fewer reasons to react.",
           "ru": "Если бы MC5 были более дипломатичны, у Elektra было бы меньше причин реагировать.",
-          "highlight": ["If MC5 were", "would have"]
+          "highlight": [
+            "If MC5 were",
+            "would have"
+          ]
         },
         {
           "en": "If Hudson's sold the album, the dispute would be smaller.",
           "ru": "Если бы Hudson's продавал альбом, спор был бы меньше.",
-          "highlight": ["If Hudson's sold", "would be"]
+          "highlight": [
+            "If Hudson's sold",
+            "would be"
+          ]
         },
         {
           "en": "If the band accepted a compromise, they could keep more control.",
           "ru": "Если бы группа согласилась на компромисс, она могла бы сохранить больше контроля.",
-          "highlight": ["If the band accepted", "could keep"]
+          "highlight": [
+            "If the band accepted",
+            "could keep"
+          ]
         },
         {
           "en": "If the label trusted the band more, the relationship might survive.",
           "ru": "Если бы лейбл больше доверял группе, отношения, возможно, сохранились бы.",
-          "highlight": ["If the label trusted", "might survive"]
+          "highlight": [
+            "If the label trusted",
+            "might survive"
+          ]
         }
       ]
     },
@@ -279,12 +309,18 @@
         {
           "en": "If the band were more diplomatic, it would have more options.",
           "ru": "Если бы группа была более дипломатичной, у неё было бы больше возможностей.",
-          "highlight": ["If the band were", "would have"]
+          "highlight": [
+            "If the band were",
+            "would have"
+          ]
         },
         {
           "en": "If the band had been more diplomatic, it would have had more options.",
           "ru": "Если бы группа тогда была более дипломатичной, у неё было бы больше возможностей.",
-          "highlight": ["If the band had been", "would have had"]
+          "highlight": [
+            "If the band had been",
+            "would have had"
+          ]
         }
       ]
     },
@@ -294,12 +330,18 @@
         {
           "en": "If Hudson's accepts the album, the store will sell it.",
           "ru": "Если Hudson's примет альбом, магазин будет его продавать.",
-          "highlight": ["If Hudson's accepts", "will sell"]
+          "highlight": [
+            "If Hudson's accepts",
+            "will sell"
+          ]
         },
         {
           "en": "If Hudson's accepted the album, the store would sell it.",
           "ru": "Если бы Hudson's принял альбом, магазин продавал бы его.",
-          "highlight": ["If Hudson's accepted", "would sell"]
+          "highlight": [
+            "If Hudson's accepted",
+            "would sell"
+          ]
         }
       ]
     }

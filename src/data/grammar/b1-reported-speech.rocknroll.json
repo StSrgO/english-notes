@@ -1,4 +1,4 @@
-﻿{
+{
   "variant": "rocknroll",
   "slug": "b1-reported-speech",
   "level": "B1",
@@ -114,31 +114,13 @@
     "told somebody to",
     "told somebody not to"
   ],
-  "uses": {
-    "title": "Как пересказать интервью",
-    "items": [
-      {
-        "title": "Передача слов",
-        "text": "Прямая реплика превращается в сообщение: \"We've spent it.\" → Jones said that they had spent it."
-      },
-      {
-        "title": "Пересказ вопроса",
-        "text": "Вопрос становится частью предложения: \"Are you serious?\" → Grundy asked whether they were serious."
-      },
-      {
-        "title": "Backshift",
-        "text": "Прошедший глагол сообщения часто вызывает сдвиг времени назад: \"We've spent it\" → \"they had spent it\"."
-      },
-      {
-        "title": "Медийный пересказ",
-        "text": "Reported Speech позволяет передать не точную реплику, а то, как событие было описано журналистами."
-      },
-      {
-        "title": "Say vs tell",
-        "text": "Say вводит содержание; tell требует адресата: \"He said that...\" / \"He told viewers that...\""
-      }
-    ]
-  },
+  "uses": [
+    "Передача слов: Прямая реплика превращается в сообщение: \"We've spent it.\" → Jones said that they had spent it.",
+    "Пересказ вопроса: Вопрос становится частью предложения: \"Are you serious?\" → Grundy asked whether they were serious.",
+    "Backshift: Прошедший глагол сообщения часто вызывает сдвиг времени назад: \"We've spent it\" → \"they had spent it\".",
+    "Медийный пересказ: Reported Speech позволяет передать не точную реплику, а то, как событие было описано журналистами.",
+    "Say vs tell: Say вводит содержание; tell требует адресата: \"He said that...\" / \"He told viewers that...\""
+  ],
   "rules": [
     {
       "title": "Present → Past",
@@ -172,22 +154,30 @@
         {
           "en": "Jones said, “We've spent it.” → Jones said that they had spent it.",
           "ru": "Джонс сказал: «Мы всё потратили». → Джонс сказал, что они всё потратили.",
-          "highlight": ["said that they had spent"]
+          "highlight": [
+            "said that they had spent"
+          ]
         },
         {
           "en": "The band said, “We are not joking.” → The band said that they were not joking.",
           "ru": "Группа сказала: «Мы не шутим». → Группа сказала, что они не шутят.",
-          "highlight": ["said that they were not joking"]
+          "highlight": [
+            "said that they were not joking"
+          ]
         },
         {
           "en": "Grundy said, “I want to prove it.” → Grundy said that he wanted to prove it.",
           "ru": "Гранди сказал: «Я хочу это доказать». → Гранди сказал, что хочет это доказать.",
-          "highlight": ["said that he wanted"]
+          "highlight": [
+            "said that he wanted"
+          ]
         },
         {
           "en": "A journalist said, “The band used foul language.” → A journalist said that the band had used foul language.",
           "ru": "Журналист сказал: «Группа использовала нецензурную лексику». → Журналист сказал, что группа использовала нецензурную лексику.",
-          "highlight": ["said that the band had used"]
+          "highlight": [
+            "said that the band had used"
+          ]
         }
       ]
     },
@@ -197,22 +187,30 @@
         {
           "en": "“Are you serious?” → Grundy asked whether they were serious.",
           "ru": "«Вы серьёзно?» → Гранди спросил, серьёзно ли они говорят.",
-          "highlight": ["asked whether they were"]
+          "highlight": [
+            "asked whether they were"
+          ]
         },
         {
           "en": "“Why are you laughing?” → He asked why they were laughing.",
           "ru": "«Почему вы смеётесь?» → Он спросил, почему они смеются.",
-          "highlight": ["asked why they were laughing"]
+          "highlight": [
+            "asked why they were laughing"
+          ]
         },
         {
           "en": "“What are you doing?” → He asked what they were doing.",
           "ru": "«Что вы делаете?» → Он спросил, что они делают.",
-          "highlight": ["asked what they were doing"]
+          "highlight": [
+            "asked what they were doing"
+          ]
         },
         {
           "en": "“Did you spend the money?” → He asked if they had spent the money.",
           "ru": "«Вы потратили деньги?» → Он спросил, потратили ли они деньги.",
-          "highlight": ["asked if they had spent"]
+          "highlight": [
+            "asked if they had spent"
+          ]
         }
       ]
     },
@@ -222,22 +220,30 @@
         {
           "en": "The press reported that the band had used foul language.",
           "ru": "Пресса сообщила, что группа использовала нецензурную лексику.",
-          "highlight": ["reported that the band had used"]
+          "highlight": [
+            "reported that the band had used"
+          ]
         },
         {
           "en": "The report said that viewers had complained.",
           "ru": "В сообщении говорилось, что зрители пожаловались.",
-          "highlight": ["said that viewers had complained"]
+          "highlight": [
+            "said that viewers had complained"
+          ]
         },
         {
           "en": "The presenter said that he had been trying to provoke the group.",
           "ru": "Ведущий сказал, что пытался спровоцировать группу.",
-          "highlight": ["said that he had been trying"]
+          "highlight": [
+            "said that he had been trying"
+          ]
         },
         {
           "en": "The band said that they had reacted spontaneously.",
           "ru": "Группа заявила, что отреагировала спонтанно.",
-          "highlight": ["said that they had reacted"]
+          "highlight": [
+            "said that they had reacted"
+          ]
         }
       ]
     }

@@ -115,31 +115,13 @@
     "these",
     "those"
   ],
-  "uses": {
-    "title": "Когда нужен plural",
-    "items": [
-      {
-        "title": "Несколько песен",
-        "text": "Когда песен больше одной, используется plural: one song → several songs."
-      },
-      {
-        "title": "Несколько треков",
-        "text": "Track во множественном числе становится tracks: one track → two tracks."
-      },
-      {
-        "title": "Несколько авторов",
-        "text": "Writer во множественном числе становится writers: one writer → several writers."
-      },
-      {
-        "title": "Несколько участников",
-        "text": "Member во множественном числе становится members: one member → four members."
-      },
-      {
-        "title": "Неправильная форма",
-        "text": "Некоторые слова требуют особой формы: person → people."
-      }
-    ]
-  },
+  "uses": [
+    "Несколько песен: Когда песен больше одной, используется plural: one song → several songs.",
+    "Несколько треков: Track во множественном числе становится tracks: one track → two tracks.",
+    "Несколько авторов: Writer во множественном числе становится writers: one writer → several writers.",
+    "Несколько участников: Member во множественном числе становится members: one member → four members.",
+    "Неправильная форма: Некоторые слова требуют особой формы: person → people."
+  ],
   "rules": [
     {
       "title": "Обычная форма",

@@ -122,31 +122,13 @@
     "these days",
     "still"
   ],
-  "uses": {
-    "title": "Когда используется Present Continuous",
-    "items": [
-      {
-        "title": "Прямо сейчас",
-        "text": "Для действия, происходящего в момент речи: I am reading now. She is working at the moment."
-      },
-      {
-        "title": "Текущий период",
-        "text": "Для временной ситуации, продолжающейся сейчас: I am reading a new book this week."
-      },
-      {
-        "title": "Одновременные процессы",
-        "text": "Для нескольких действий, происходящих одновременно: He is writing while she is reading."
-      },
-      {
-        "title": "Развитие и изменение",
-        "text": "Для ситуаций, которые меняются или развиваются: The city is growing. The situation is changing."
-      },
-      {
-        "title": "Временная ситуация",
-        "text": "Для ситуации, которая не воспринимается как постоянная: She is living in Paris this year."
-      }
-    ]
-  },
+  "uses": [
+    "Прямо сейчас: Для действия, происходящего в момент речи: I am reading now. She is working at the moment.",
+    "Текущий период: Для временной ситуации, продолжающейся сейчас: I am reading a new book this week.",
+    "Одновременные процессы: Для нескольких действий, происходящих одновременно: He is writing while she is reading.",
+    "Развитие и изменение: Для ситуаций, которые меняются или развиваются: The city is growing. The situation is changing.",
+    "Временная ситуация: Для ситуации, которая не воспринимается как постоянная: She is living in Paris this year."
+  ],
   "rules": [
     {
       "title": "I → am",
@@ -188,32 +170,44 @@
         {
           "en": "Dickens is reading a manuscript.",
           "ru": "Диккенс читает рукопись.",
-          "highlight": ["is reading"]
+          "highlight": [
+            "is reading"
+          ]
         },
         {
           "en": "He is editing an article.",
           "ru": "Он редактирует статью.",
-          "highlight": ["is editing"]
+          "highlight": [
+            "is editing"
+          ]
         },
         {
           "en": "The editors are checking the pages.",
           "ru": "Редакторы проверяют страницы.",
-          "highlight": ["are checking"]
+          "highlight": [
+            "are checking"
+          ]
         },
         {
           "en": "The printer is preparing the pages.",
           "ru": "Печатник готовит страницы.",
-          "highlight": ["is preparing"]
+          "highlight": [
+            "is preparing"
+          ]
         },
         {
           "en": "They are working on the next issue.",
           "ru": "Они работают над следующим номером.",
-          "highlight": ["are working"]
+          "highlight": [
+            "are working"
+          ]
         },
         {
           "en": "Dickens is changing a passage.",
           "ru": "Диккенс меняет фрагмент.",
-          "highlight": ["is changing"]
+          "highlight": [
+            "is changing"
+          ]
         }
       ]
     },
@@ -223,32 +217,44 @@
         {
           "en": "I am reading a new book this week.",
           "ru": "На этой неделе я читаю новую книгу.",
-          "highlight": ["am reading"]
+          "highlight": [
+            "am reading"
+          ]
         },
         {
           "en": "She is working in London this month.",
           "ru": "В этом месяце она работает в Лондоне.",
-          "highlight": ["is working"]
+          "highlight": [
+            "is working"
+          ]
         },
         {
           "en": "They are staying here for a few weeks.",
           "ru": "Они остаются здесь на несколько недель.",
-          "highlight": ["are staying"]
+          "highlight": [
+            "are staying"
+          ]
         },
         {
           "en": "He is learning a new skill these days.",
           "ru": "В эти дни он осваивает новый навык.",
-          "highlight": ["is learning"]
+          "highlight": [
+            "is learning"
+          ]
         },
         {
           "en": "We are working on a new project.",
           "ru": "Мы работаем над новым проектом.",
-          "highlight": ["are working"]
+          "highlight": [
+            "are working"
+          ]
         },
         {
           "en": "The editors are preparing a new issue.",
           "ru": "Редакторы готовят новый номер.",
-          "highlight": ["are preparing"]
+          "highlight": [
+            "are preparing"
+          ]
         }
       ]
     },
@@ -258,32 +264,49 @@
         {
           "en": "Dickens is writing while the editors are reading.",
           "ru": "Диккенс пишет, пока редакторы читают.",
-          "highlight": ["is writing", "are reading"]
+          "highlight": [
+            "is writing",
+            "are reading"
+          ]
         },
         {
           "en": "She is talking while he is working.",
           "ru": "Она разговаривает, пока он работает.",
-          "highlight": ["is talking", "is working"]
+          "highlight": [
+            "is talking",
+            "is working"
+          ]
         },
         {
           "en": "The editors are checking the pages while Dickens is changing the text.",
           "ru": "Редакторы проверяют страницы, пока Диккенс меняет текст.",
-          "highlight": ["are checking", "is changing"]
+          "highlight": [
+            "are checking",
+            "is changing"
+          ]
         },
         {
           "en": "They are working while the printer is preparing the paper.",
           "ru": "Они работают, пока печатник готовит бумагу.",
-          "highlight": ["are working", "is preparing"]
+          "highlight": [
+            "are working",
+            "is preparing"
+          ]
         },
         {
           "en": "I am reading while my friend is writing.",
           "ru": "Я читаю, пока мой друг пишет.",
-          "highlight": ["am reading", "is writing"]
+          "highlight": [
+            "am reading",
+            "is writing"
+          ]
         },
         {
           "en": "Everyone is working at the same time.",
           "ru": "Все работают одновременно.",
-          "highlight": ["is working"]
+          "highlight": [
+            "is working"
+          ]
         }
       ]
     },
@@ -293,32 +316,44 @@
         {
           "en": "The city is changing.",
           "ru": "Город меняется.",
-          "highlight": ["is changing"]
+          "highlight": [
+            "is changing"
+          ]
         },
         {
           "en": "The weather is getting colder.",
           "ru": "Погода становится холоднее.",
-          "highlight": ["is getting"]
+          "highlight": [
+            "is getting"
+          ]
         },
         {
           "en": "The story is becoming more complicated.",
           "ru": "История становится сложнее.",
-          "highlight": ["is becoming"]
+          "highlight": [
+            "is becoming"
+          ]
         },
         {
           "en": "The journal is changing.",
           "ru": "Журнал меняется.",
-          "highlight": ["is changing"]
+          "highlight": [
+            "is changing"
+          ]
         },
         {
           "en": "The situation is developing quickly.",
           "ru": "Ситуация быстро развивается.",
-          "highlight": ["is developing"]
+          "highlight": [
+            "is developing"
+          ]
         },
         {
           "en": "The project is taking shape.",
           "ru": "Проект постепенно складывается.",
-          "highlight": ["is taking"]
+          "highlight": [
+            "is taking"
+          ]
         }
       ]
     },
@@ -328,32 +363,44 @@
         {
           "en": "I am not working today.",
           "ru": "Сегодня я не работаю.",
-          "highlight": ["am not working"]
+          "highlight": [
+            "am not working"
+          ]
         },
         {
           "en": "She isn't reading now.",
           "ru": "Она сейчас не читает.",
-          "highlight": ["isn't reading"]
+          "highlight": [
+            "isn't reading"
+          ]
         },
         {
           "en": "They aren't waiting.",
           "ru": "Они не ждут.",
-          "highlight": ["aren't waiting"]
+          "highlight": [
+            "aren't waiting"
+          ]
         },
         {
           "en": "Is Dickens working now?",
           "ru": "Диккенс сейчас работает?",
-          "highlight": ["Is"]
+          "highlight": [
+            "Is"
+          ]
         },
         {
           "en": "Are the editors checking the pages?",
           "ru": "Редакторы проверяют страницы?",
-          "highlight": ["Are"]
+          "highlight": [
+            "Are"
+          ]
         },
         {
           "en": "Are they preparing the next issue?",
           "ru": "Они готовят следующий номер?",
-          "highlight": ["Are"]
+          "highlight": [
+            "Are"
+          ]
         }
       ]
     },
@@ -363,32 +410,44 @@
         {
           "en": "Dickens edits the journal.",
           "ru": "Диккенс редактирует журнал.",
-          "highlight": ["edits"]
+          "highlight": [
+            "edits"
+          ]
         },
         {
           "en": "Dickens is editing an article now.",
           "ru": "Диккенс сейчас редактирует статью.",
-          "highlight": ["is editing"]
+          "highlight": [
+            "is editing"
+          ]
         },
         {
           "en": "She reads every evening.",
           "ru": "Она читает каждый вечер.",
-          "highlight": ["reads"]
+          "highlight": [
+            "reads"
+          ]
         },
         {
           "en": "She is reading now.",
           "ru": "Она сейчас читает.",
-          "highlight": ["is reading"]
+          "highlight": [
+            "is reading"
+          ]
         },
         {
           "en": "He works in London.",
           "ru": "Он работает в Лондоне.",
-          "highlight": ["works"]
+          "highlight": [
+            "works"
+          ]
         },
         {
           "en": "He is working in London this month.",
           "ru": "В этом месяце он работает в Лондоне.",
-          "highlight": ["is working"]
+          "highlight": [
+            "is working"
+          ]
         }
       ]
     }

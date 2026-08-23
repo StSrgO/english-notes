@@ -119,31 +119,13 @@
     "is not / isn't",
     "are not / aren't"
   ],
-  "uses": {
-    "title": "Когда используется to be",
-    "items": [
-      {
-        "title": "Идентичность",
-        "text": "Чтобы сказать, кто это или что это: I am Gregor. He is a salesman."
-      },
-      {
-        "title": "Состояние",
-        "text": "Чтобы описать состояние или качество: He is tired. She is ill."
-      },
-      {
-        "title": "Место",
-        "text": "Чтобы сказать, где находится человек или предмет: He is at home. They are in the room."
-      },
-      {
-        "title": "Возраст",
-        "text": "Возраст выражается через be: I am twenty. She is eighteen."
-      },
-      {
-        "title": "Профессия",
-        "text": "Профессия описывается через be: He is a salesman. She is a teacher."
-      }
-    ]
-  },
+  "uses": [
+    "Идентичность: Чтобы сказать, кто это или что это: I am Gregor. He is a salesman.",
+    "Состояние: Чтобы описать состояние или качество: He is tired. She is ill.",
+    "Место: Чтобы сказать, где находится человек или предмет: He is at home. They are in the room.",
+    "Возраст: Возраст выражается через be: I am twenty. She is eighteen.",
+    "Профессия: Профессия описывается через be: He is a salesman. She is a teacher."
+  ],
   "rules": [
     {
       "title": "I → am",

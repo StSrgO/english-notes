@@ -118,31 +118,13 @@
     "there is some",
     "there aren't any"
   ],
-  "uses": {
-    "title": "Когда используется there is / there are",
-    "items": [
-      {
-        "title": "Один предмет",
-        "text": "Чтобы сообщить о наличии одного человека или предмета: There is a laboratory on the street."
-      },
-      {
-        "title": "Несколько предметов",
-        "text": "Чтобы сообщить о наличии нескольких объектов: There are shops and restaurants nearby."
-      },
-      {
-        "title": "Неисчисляемое существительное",
-        "text": "Чтобы сообщить о наличии неисчисляемого вещества или понятия: There is water in the bay. There is noise in the street."
-      },
-      {
-        "title": "Описание места",
-        "text": "Чтобы постепенно вводить объекты в описание пространства: There is a street. There are buildings along it."
-      },
-      {
-        "title": "Наличие или существование",
-        "text": "Чтобы сообщить, что что-то существует или имеется: There is a problem. There are several reasons."
-      }
-    ]
-  },
+  "uses": [
+    "Один предмет: Чтобы сообщить о наличии одного человека или предмета: There is a laboratory on the street.",
+    "Несколько предметов: Чтобы сообщить о наличии нескольких объектов: There are shops and restaurants nearby.",
+    "Неисчисляемое существительное: Чтобы сообщить о наличии неисчисляемого вещества или понятия: There is water in the bay. There is noise in the street.",
+    "Описание места: Чтобы постепенно вводить объекты в описание пространства: There is a street. There are buildings along it.",
+    "Наличие или существование: Чтобы сообщить, что что-то существует или имеется: There is a problem. There are several reasons."
+  ],
   "rules": [
     {
       "title": "There is + единственное число",

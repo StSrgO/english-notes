@@ -148,39 +148,15 @@
     "twice a year",
     "How often"
   ],
-  "uses": {
-    "title": "Две функции языка",
-    "items": [
-      {
-        "title": "Direct command",
-        "text": "Прямое обращение: Come in. / Wait."
-      },
-      {
-        "title": "Negative command",
-        "text": "Запрет или просьба не делать действие: Don't leave."
-      },
-      {
-        "title": "Suggestion",
-        "text": "Предложение совместного действия: Let's go."
-      },
-      {
-        "title": "Habit",
-        "text": "Описание привычного действия: He often leaves."
-      },
-      {
-        "title": "Regular repetition",
-        "text": "Конкретная регулярность: She calls every night."
-      },
-      {
-        "title": "Frequency question",
-        "text": "Вопрос о частоте: How often does he leave?"
-      },
-      {
-        "title": "Lyric repetition",
-        "text": "Повторение строки — художественный приём, а не отдельная грамматическая форма frequency."
-      }
-    ]
-  },
+  "uses": [
+    "Direct command: Прямое обращение: Come in. / Wait.",
+    "Negative command: Запрет или просьба не делать действие: Don't leave.",
+    "Suggestion: Предложение совместного действия: Let's go.",
+    "Habit: Описание привычного действия: He often leaves.",
+    "Regular repetition: Конкретная регулярность: She calls every night.",
+    "Frequency question: Вопрос о частоте: How often does he leave?",
+    "Lyric repetition: Повторение строки — художественный приём, а не отдельная грамматическая форма frequency."
+  ],
   "rules": [
     {
       "title": "Imperative",
@@ -222,32 +198,44 @@
         {
           "en": "Come in.",
           "ru": "Входи.",
-          "highlight": ["Come"]
+          "highlight": [
+            "Come"
+          ]
         },
         {
           "en": "Wait here.",
           "ru": "Подожди здесь.",
-          "highlight": ["Wait"]
+          "highlight": [
+            "Wait"
+          ]
         },
         {
           "en": "Move on.",
           "ru": "Двигайся дальше.",
-          "highlight": ["Move"]
+          "highlight": [
+            "Move"
+          ]
         },
         {
           "en": "Listen.",
           "ru": "Слушай.",
-          "highlight": ["Listen"]
+          "highlight": [
+            "Listen"
+          ]
         },
         {
           "en": "Go back.",
           "ru": "Возвращайся.",
-          "highlight": ["Go"]
+          "highlight": [
+            "Go"
+          ]
         },
         {
           "en": "Stay here.",
           "ru": "Оставайся здесь.",
-          "highlight": ["Stay"]
+          "highlight": [
+            "Stay"
+          ]
         }
       ]
     },
@@ -257,32 +245,51 @@
         {
           "en": "Don't go.",
           "ru": "Не уходи.",
-          "highlight": ["Don't", "go"]
+          "highlight": [
+            "Don't",
+            "go"
+          ]
         },
         {
           "en": "Don't leave.",
           "ru": "Не уходи.",
-          "highlight": ["Don't", "leave"]
+          "highlight": [
+            "Don't",
+            "leave"
+          ]
         },
         {
           "en": "Don't wait.",
           "ru": "Не жди.",
-          "highlight": ["Don't", "wait"]
+          "highlight": [
+            "Don't",
+            "wait"
+          ]
         },
         {
           "en": "Please don't go.",
           "ru": "Пожалуйста, не уходи.",
-          "highlight": ["Please", "don't", "go"]
+          "highlight": [
+            "Please",
+            "don't",
+            "go"
+          ]
         },
         {
           "en": "Don't stop.",
           "ru": "Не останавливайся.",
-          "highlight": ["Don't", "stop"]
+          "highlight": [
+            "Don't",
+            "stop"
+          ]
         },
         {
           "en": "Don't look back.",
           "ru": "Не оглядывайся.",
-          "highlight": ["Don't", "look"]
+          "highlight": [
+            "Don't",
+            "look"
+          ]
         }
       ]
     },
@@ -292,32 +299,45 @@
         {
           "en": "He always leaves.",
           "ru": "Он всегда уезжает.",
-          "highlight": ["always"]
+          "highlight": [
+            "always"
+          ]
         },
         {
           "en": "She usually waits.",
           "ru": "Она обычно ждёт.",
-          "highlight": ["usually"]
+          "highlight": [
+            "usually"
+          ]
         },
         {
           "en": "He often moves on.",
           "ru": "Он часто движется дальше.",
-          "highlight": ["often"]
+          "highlight": [
+            "often"
+          ]
         },
         {
           "en": "They sometimes meet.",
           "ru": "Они иногда встречаются.",
-          "highlight": ["sometimes"]
+          "highlight": [
+            "sometimes"
+          ]
         },
         {
           "en": "He never stays long.",
           "ru": "Он никогда не остаётся надолго.",
-          "highlight": ["never"]
+          "highlight": [
+            "never"
+          ]
         },
         {
           "en": "She is often alone.",
           "ru": "Она часто одна.",
-          "highlight": ["is", "often"]
+          "highlight": [
+            "is",
+            "often"
+          ]
         }
       ]
     },
@@ -327,32 +347,44 @@
         {
           "en": "He leaves every night.",
           "ru": "Он уезжает каждую ночь.",
-          "highlight": ["every night"]
+          "highlight": [
+            "every night"
+          ]
         },
         {
           "en": "They meet every week.",
           "ru": "Они встречаются каждую неделю.",
-          "highlight": ["every week"]
+          "highlight": [
+            "every week"
+          ]
         },
         {
           "en": "She calls once a week.",
           "ru": "Она звонит раз в неделю.",
-          "highlight": ["once a week"]
+          "highlight": [
+            "once a week"
+          ]
         },
         {
           "en": "They play together every day.",
           "ru": "Они играют вместе каждый день.",
-          "highlight": ["every day"]
+          "highlight": [
+            "every day"
+          ]
         },
         {
           "en": "He comes back twice a year.",
           "ru": "Он возвращается дважды в год.",
-          "highlight": ["twice a year"]
+          "highlight": [
+            "twice a year"
+          ]
         },
         {
           "en": "She visits once a month.",
           "ru": "Она приходит раз в месяц.",
-          "highlight": ["once a month"]
+          "highlight": [
+            "once a month"
+          ]
         }
       ]
     },
@@ -362,32 +394,55 @@
         {
           "en": "How often does he leave?",
           "ru": "Как часто он уезжает?",
-          "highlight": ["How often", "does", "leave"]
+          "highlight": [
+            "How often",
+            "does",
+            "leave"
+          ]
         },
         {
           "en": "How often does she come back?",
           "ru": "Как часто она возвращается?",
-          "highlight": ["How often", "does", "come"]
+          "highlight": [
+            "How often",
+            "does",
+            "come"
+          ]
         },
         {
           "en": "How often do they meet?",
           "ru": "Как часто они встречаются?",
-          "highlight": ["How often", "do", "meet"]
+          "highlight": [
+            "How often",
+            "do",
+            "meet"
+          ]
         },
         {
           "en": "How often is she alone?",
           "ru": "Как часто она остаётся одна?",
-          "highlight": ["How often", "is"]
+          "highlight": [
+            "How often",
+            "is"
+          ]
         },
         {
           "en": "How often do they play together?",
           "ru": "Как часто они играют вместе?",
-          "highlight": ["How often", "do", "play"]
+          "highlight": [
+            "How often",
+            "do",
+            "play"
+          ]
         },
         {
           "en": "How often does he return?",
           "ru": "Как часто он возвращается?",
-          "highlight": ["How often", "does", "return"]
+          "highlight": [
+            "How often",
+            "does",
+            "return"
+          ]
         }
       ]
     }

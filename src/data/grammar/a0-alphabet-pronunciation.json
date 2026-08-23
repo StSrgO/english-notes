@@ -1,4 +1,4 @@
-﻿{
+{
   "variant": "classic",
   "slug": "alphabet-pronunciation",
   "level": "A0",
@@ -22,32 +22,110 @@
     "Замечать повтор звуков и ритм в английском тексте."
   ],
   "alphabet": [
-    { "letter": "A", "name": "/eɪ/" },
-    { "letter": "B", "name": "/biː/" },
-    { "letter": "C", "name": "/siː/" },
-    { "letter": "D", "name": "/diː/" },
-    { "letter": "E", "name": "/iː/" },
-    { "letter": "F", "name": "/ɛf/" },
-    { "letter": "G", "name": "/dʒiː/" },
-    { "letter": "H", "name": "/eɪtʃ/" },
-    { "letter": "I", "name": "/aɪ/" },
-    { "letter": "J", "name": "/dʒeɪ/" },
-    { "letter": "K", "name": "/keɪ/" },
-    { "letter": "L", "name": "/ɛl/" },
-    { "letter": "M", "name": "/ɛm/" },
-    { "letter": "N", "name": "/ɛn/" },
-    { "letter": "O", "name": "/oʊ/" },
-    { "letter": "P", "name": "/piː/" },
-    { "letter": "Q", "name": "/kjuː/" },
-    { "letter": "R", "name": "/ɑːr/" },
-    { "letter": "S", "name": "/ɛs/" },
-    { "letter": "T", "name": "/tiː/" },
-    { "letter": "U", "name": "/juː/" },
-    { "letter": "V", "name": "/viː/" },
-    { "letter": "W", "name": "/ˈdʌbəljuː/" },
-    { "letter": "X", "name": "/ɛks/" },
-    { "letter": "Y", "name": "/waɪ/" },
-    { "letter": "Z", "name": "/zed/" }
+    {
+      "letter": "A",
+      "ipa": "/eɪ/"
+    },
+    {
+      "letter": "B",
+      "ipa": "/biː/"
+    },
+    {
+      "letter": "C",
+      "ipa": "/siː/"
+    },
+    {
+      "letter": "D",
+      "ipa": "/diː/"
+    },
+    {
+      "letter": "E",
+      "ipa": "/iː/"
+    },
+    {
+      "letter": "F",
+      "ipa": "/ɛf/"
+    },
+    {
+      "letter": "G",
+      "ipa": "/dʒiː/"
+    },
+    {
+      "letter": "H",
+      "ipa": "/eɪtʃ/"
+    },
+    {
+      "letter": "I",
+      "ipa": "/aɪ/"
+    },
+    {
+      "letter": "J",
+      "ipa": "/dʒeɪ/"
+    },
+    {
+      "letter": "K",
+      "ipa": "/keɪ/"
+    },
+    {
+      "letter": "L",
+      "ipa": "/ɛl/"
+    },
+    {
+      "letter": "M",
+      "ipa": "/ɛm/"
+    },
+    {
+      "letter": "N",
+      "ipa": "/ɛn/"
+    },
+    {
+      "letter": "O",
+      "ipa": "/oʊ/"
+    },
+    {
+      "letter": "P",
+      "ipa": "/piː/"
+    },
+    {
+      "letter": "Q",
+      "ipa": "/kjuː/"
+    },
+    {
+      "letter": "R",
+      "ipa": "/ɑːr/"
+    },
+    {
+      "letter": "S",
+      "ipa": "/ɛs/"
+    },
+    {
+      "letter": "T",
+      "ipa": "/tiː/"
+    },
+    {
+      "letter": "U",
+      "ipa": "/juː/"
+    },
+    {
+      "letter": "V",
+      "ipa": "/viː/"
+    },
+    {
+      "letter": "W",
+      "ipa": "/ˈdʌbəljuː/"
+    },
+    {
+      "letter": "X",
+      "ipa": "/ɛks/"
+    },
+    {
+      "letter": "Y",
+      "ipa": "/waɪ/"
+    },
+    {
+      "letter": "Z",
+      "ipa": "/zed/"
+    }
   ],
   "context": {
     "lines": [
@@ -116,29 +194,13 @@
     }
   },
   "formula": "",
-  "structure": {
-    "positive": "",
-    "negative": "",
-    "question": ""
-  },
+  "structure": {},
   "markers": [],
   "uses": [
-    {
-      "title": "Название буквы",
-      "text": "Каждая буква имеет собственное название: A — /eɪ/, B — /biː/, C — /siː/."
-    },
-    {
-      "title": "Звук буквы",
-      "text": "Название буквы и её звук в слове могут различаться."
-    },
-    {
-      "title": "Spelling",
-      "text": "Названия букв используются, когда слово нужно произнести по буквам."
-    },
-    {
-      "title": "Звуковой рисунок",
-      "text": "Повтор одинаковых или похожих звуков создаёт ритм английской речи."
-    }
+    "Название буквы: Каждая буква имеет собственное название: A — /eɪ/, B — /biː/, C — /siː/.",
+    "Звук буквы: Название буквы и её звук в слове могут различаться.",
+    "Spelling: Названия букв используются, когда слово нужно произнести по буквам.",
+    "Звуковой рисунок: Повтор одинаковых или похожих звуков создаёт ритм английской речи."
   ],
   "rules": [
     {
@@ -169,27 +231,37 @@
         {
           "en": "A — /eɪ/",
           "ru": "A произносится как /eɪ/.",
-          "highlight": ["A"]
+          "highlight": [
+            "A"
+          ]
         },
         {
           "en": "E — /iː/",
           "ru": "E произносится как /iː/.",
-          "highlight": ["E"]
+          "highlight": [
+            "E"
+          ]
         },
         {
           "en": "I — /aɪ/",
           "ru": "I произносится как /aɪ/.",
-          "highlight": ["I"]
+          "highlight": [
+            "I"
+          ]
         },
         {
           "en": "O — /oʊ/",
           "ru": "O произносится как /oʊ/.",
-          "highlight": ["O"]
+          "highlight": [
+            "O"
+          ]
         },
         {
           "en": "U — /juː/",
           "ru": "U произносится как /juː/.",
-          "highlight": ["U"]
+          "highlight": [
+            "U"
+          ]
         }
       ]
     },
@@ -199,22 +271,36 @@
         {
           "en": "A — /eɪ/; cat — /æ/",
           "ru": "Название A — /eɪ/, но в cat буква A обозначает /æ/.",
-          "highlight": ["A", "/eɪ/", "/æ/"]
+          "highlight": [
+            "A",
+            "/eɪ/",
+            "/æ/"
+          ]
         },
         {
           "en": "C — /siː/; cat — /k/",
           "ru": "Название C — /siː/, но в cat она обозначает /k/.",
-          "highlight": ["C", "/siː/", "/k/"]
+          "highlight": [
+            "C",
+            "/siː/",
+            "/k/"
+          ]
         },
         {
           "en": "G — /dʒiː/; go — /ɡ/",
           "ru": "Название G — /dʒiː/, но в go она обозначает /ɡ/.",
-          "highlight": ["G", "/dʒiː/", "/ɡ/"]
+          "highlight": [
+            "G",
+            "/dʒiː/",
+            "/ɡ/"
+          ]
         },
         {
           "en": "R — /ɑːr/",
           "ru": "R имеет собственное название, которое не равно звуку /r/ в слове.",
-          "highlight": ["R"]
+          "highlight": [
+            "R"
+          ]
         }
       ]
     },
@@ -224,22 +310,34 @@
         {
           "en": "weak and weary",
           "ru": "Повтор начального звука связывает слова weak и weary.",
-          "highlight": ["weak", "weary"]
+          "highlight": [
+            "weak",
+            "weary"
+          ]
         },
         {
           "en": "nodded, nearly napping",
           "ru": "Повтор звука n создаёт заметный ритм.",
-          "highlight": ["nodded", "nearly", "napping"]
+          "highlight": [
+            "nodded",
+            "nearly",
+            "napping"
+          ]
         },
         {
           "en": "tapping, rapping",
           "ru": "Похожие окончания связывают tapping и rapping.",
-          "highlight": ["tapping", "rapping"]
+          "highlight": [
+            "tapping",
+            "rapping"
+          ]
         },
         {
           "en": "still is sitting, still is sitting",
           "ru": "Повтор всей фразы усиливает ритмический эффект.",
-          "highlight": ["still is sitting"]
+          "highlight": [
+            "still is sitting"
+          ]
         }
       ]
     },
@@ -249,17 +347,25 @@
         {
           "en": "Z — /zed/ (BrE)",
           "ru": "В британском английском Z называется /zed/.",
-          "highlight": ["Z", "/zed/"]
+          "highlight": [
+            "Z",
+            "/zed/"
+          ]
         },
         {
           "en": "Z — /ziː/ (AmE)",
           "ru": "В американском английском Z называется /ziː/.",
-          "highlight": ["Z", "/ziː/"]
+          "highlight": [
+            "Z",
+            "/ziː/"
+          ]
         },
         {
           "en": "R — /ɑːr/",
           "ru": "Название R включает звук r в американском варианте.",
-          "highlight": ["R"]
+          "highlight": [
+            "R"
+          ]
         }
       ]
     }

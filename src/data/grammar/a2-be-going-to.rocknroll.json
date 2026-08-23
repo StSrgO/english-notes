@@ -107,23 +107,11 @@
     "soon",
     "in the future"
   ],
-  "uses": {
-    "title": "Когда используем Be Going To",
-    "items": [
-      {
-        "title": "План",
-        "text": "Решение уже принято: \"They are going to make a concept album.\""
-      },
-      {
-        "title": "Намерение",
-        "text": "Говорящий уже собирается что-то сделать: \"They are going to start again.\""
-      },
-      {
-        "title": "Предсказание по признакам",
-        "text": "Уже есть основания ожидать результат: \"The songs are going to become something bigger.\""
-      }
-    ]
-  },
+  "uses": [
+    "План: Решение уже принято: \"They are going to make a concept album.\"",
+    "Намерение: Говорящий уже собирается что-то сделать: \"They are going to start again.\"",
+    "Предсказание по признакам: Уже есть основания ожидать результат: \"The songs are going to become something bigger.\""
+  ],
   "rules": [
     {
       "title": "Формула",

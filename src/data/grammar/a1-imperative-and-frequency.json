@@ -147,39 +147,15 @@
     "twice a year",
     "How often"
   ],
-  "uses": {
-    "title": "Imperative и frequency",
-    "items": [
-      {
-        "title": "Command",
-        "text": "Прямая команда: Come here. / Stop."
-      },
-      {
-        "title": "Request",
-        "text": "Просьба: Please wait. / Please don't go."
-      },
-      {
-        "title": "Instruction",
-        "text": "Последовательность действий: Open the door. Look inside. Wait."
-      },
-      {
-        "title": "Suggestion",
-        "text": "Предложение сделать что-то вместе: Let's go. / Let's wait."
-      },
-      {
-        "title": "Frequency",
-        "text": "Описание повторяющегося действия: He often appears at night."
-      },
-      {
-        "title": "Zero frequency",
-        "text": "Never показывает, что действие не происходит: He never stays long."
-      },
-      {
-        "title": "Exact frequency",
-        "text": "Every day, once a week и другие выражения называют конкретную частоту: The twins play tricks every day."
-      }
-    ]
-  },
+  "uses": [
+    "Command: Прямая команда: Come here. / Stop.",
+    "Request: Просьба: Please wait. / Please don't go.",
+    "Instruction: Последовательность действий: Open the door. Look inside. Wait.",
+    "Suggestion: Предложение сделать что-то вместе: Let's go. / Let's wait.",
+    "Frequency: Описание повторяющегося действия: He often appears at night.",
+    "Zero frequency: Never показывает, что действие не происходит: He never stays long.",
+    "Exact frequency: Every day, once a week и другие выражения называют конкретную частоту: The twins play tricks every day."
+  ],
   "rules": [
     {
       "title": "Утвердительный Imperative",
@@ -225,32 +201,44 @@
         {
           "en": "Come here.",
           "ru": "Иди сюда.",
-          "highlight": ["Come"]
+          "highlight": [
+            "Come"
+          ]
         },
         {
           "en": "Wait a moment.",
           "ru": "Подожди минуту.",
-          "highlight": ["Wait"]
+          "highlight": [
+            "Wait"
+          ]
         },
         {
           "en": "Open the door.",
           "ru": "Открой дверь.",
-          "highlight": ["Open"]
+          "highlight": [
+            "Open"
+          ]
         },
         {
           "en": "Look at the window.",
           "ru": "Посмотри на окно.",
-          "highlight": ["Look"]
+          "highlight": [
+            "Look"
+          ]
         },
         {
           "en": "Stop!",
           "ru": "Стой!",
-          "highlight": ["Stop"]
+          "highlight": [
+            "Stop"
+          ]
         },
         {
           "en": "Go to bed.",
           "ru": "Иди спать.",
-          "highlight": ["Go"]
+          "highlight": [
+            "Go"
+          ]
         }
       ]
     },
@@ -260,32 +248,51 @@
         {
           "en": "Don't go.",
           "ru": "Не уходи.",
-          "highlight": ["Don't", "go"]
+          "highlight": [
+            "Don't",
+            "go"
+          ]
         },
         {
           "en": "Don't touch it.",
           "ru": "Не трогай это.",
-          "highlight": ["Don't", "touch"]
+          "highlight": [
+            "Don't",
+            "touch"
+          ]
         },
         {
           "en": "Please don't leave.",
           "ru": "Пожалуйста, не уходи.",
-          "highlight": ["Please", "don't", "leave"]
+          "highlight": [
+            "Please",
+            "don't",
+            "leave"
+          ]
         },
         {
           "en": "Don't open the door.",
           "ru": "Не открывай дверь.",
-          "highlight": ["Don't", "open"]
+          "highlight": [
+            "Don't",
+            "open"
+          ]
         },
         {
           "en": "Don't be afraid.",
           "ru": "Не бойся.",
-          "highlight": ["Don't", "be"]
+          "highlight": [
+            "Don't",
+            "be"
+          ]
         },
         {
           "en": "Don't make a noise.",
           "ru": "Не шуми.",
-          "highlight": ["Don't", "make"]
+          "highlight": [
+            "Don't",
+            "make"
+          ]
         }
       ]
     },
@@ -295,32 +302,45 @@
         {
           "en": "The ghost always appears at night.",
           "ru": "Призрак всегда появляется ночью.",
-          "highlight": ["always"]
+          "highlight": [
+            "always"
+          ]
         },
         {
           "en": "The twins usually play tricks.",
           "ru": "Близнецы обычно устраивают проделки.",
-          "highlight": ["usually"]
+          "highlight": [
+            "usually"
+          ]
         },
         {
           "en": "The ghost often appears in the corridor.",
           "ru": "Призрак часто появляется в коридоре.",
-          "highlight": ["often"]
+          "highlight": [
+            "often"
+          ]
         },
         {
           "en": "Virginia sometimes talks to him.",
           "ru": "Virginia иногда разговаривает с ним.",
-          "highlight": ["sometimes"]
+          "highlight": [
+            "sometimes"
+          ]
         },
         {
           "en": "Virginia never laughs at him.",
           "ru": "Virginia никогда не смеётся над ним.",
-          "highlight": ["never"]
+          "highlight": [
+            "never"
+          ]
         },
         {
           "en": "The ghost is often unhappy.",
           "ru": "Призрак часто несчастен.",
-          "highlight": ["is", "often"]
+          "highlight": [
+            "is",
+            "often"
+          ]
         }
       ]
     },
@@ -330,32 +350,44 @@
         {
           "en": "The ghost appears every night.",
           "ru": "Призрак появляется каждую ночь.",
-          "highlight": ["every night"]
+          "highlight": [
+            "every night"
+          ]
         },
         {
           "en": "The twins play tricks every day.",
           "ru": "Близнецы каждый день устраивают проделки.",
-          "highlight": ["every day"]
+          "highlight": [
+            "every day"
+          ]
         },
         {
           "en": "Virginia visits the garden once a week.",
           "ru": "Virginia посещает сад раз в неделю.",
-          "highlight": ["once a week"]
+          "highlight": [
+            "once a week"
+          ]
         },
         {
           "en": "The family talks about the ghost every evening.",
           "ru": "Семья говорит о призраке каждый вечер.",
-          "highlight": ["every evening"]
+          "highlight": [
+            "every evening"
+          ]
         },
         {
           "en": "He visits the house twice a year.",
           "ru": "Он посещает дом дважды в год.",
-          "highlight": ["twice a year"]
+          "highlight": [
+            "twice a year"
+          ]
         },
         {
           "en": "The ghost rests once a day.",
           "ru": "Призрак отдыхает раз в день.",
-          "highlight": ["once a day"]
+          "highlight": [
+            "once a day"
+          ]
         }
       ]
     },
@@ -365,32 +397,55 @@
         {
           "en": "How often does the ghost appear?",
           "ru": "Как часто появляется призрак?",
-          "highlight": ["How often", "does", "appear"]
+          "highlight": [
+            "How often",
+            "does",
+            "appear"
+          ]
         },
         {
           "en": "How often do the twins play tricks?",
           "ru": "Как часто близнецы устраивают проделки?",
-          "highlight": ["How often", "do", "play"]
+          "highlight": [
+            "How often",
+            "do",
+            "play"
+          ]
         },
         {
           "en": "How often does Virginia talk to him?",
           "ru": "Как часто Virginia разговаривает с ним?",
-          "highlight": ["How often", "does", "talk"]
+          "highlight": [
+            "How often",
+            "does",
+            "talk"
+          ]
         },
         {
           "en": "How often is the ghost unhappy?",
           "ru": "Как часто призрак несчастен?",
-          "highlight": ["How often", "is"]
+          "highlight": [
+            "How often",
+            "is"
+          ]
         },
         {
           "en": "How often do they visit the house?",
           "ru": "Как часто они посещают дом?",
-          "highlight": ["How often", "do", "visit"]
+          "highlight": [
+            "How often",
+            "do",
+            "visit"
+          ]
         },
         {
           "en": "How often does he appear at night?",
           "ru": "Как часто он появляется ночью?",
-          "highlight": ["How often", "does", "appear"]
+          "highlight": [
+            "How often",
+            "does",
+            "appear"
+          ]
         }
       ]
     }

@@ -112,27 +112,12 @@
     "start + V-ing",
     "keep + V-ing"
   ],
-  "uses": {
-    "title": "Как выбрать форму",
-    "items": [
-      {
-        "title": "Намерение",
-        "text": "Want, decide, plan и hope требуют to + V: \"They wanted to change the setlist.\""
-      },
-      {
-        "title": "Начало процесса",
-        "text": "Start может вводить действие с V-ing: \"They started discussing the songs.\""
-      },
-      {
-        "title": "Избегание",
-        "text": "После avoid используется V-ing: \"They avoided playing the usual hits.\""
-      },
-      {
-        "title": "Изменение смысла",
-        "text": "Remember, stop и try могут использовать обе формы с разным значением."
-      }
-    ]
-  },
+  "uses": [
+    "Намерение: Want, decide, plan и hope требуют to + V: \"They wanted to change the setlist.\"",
+    "Начало процесса: Start может вводить действие с V-ing: \"They started discussing the songs.\"",
+    "Избегание: После avoid используется V-ing: \"They avoided playing the usual hits.\"",
+    "Изменение смысла: Remember, stop и try могут использовать обе формы с разным значением."
+  ],
   "rules": [
     {
       "title": "Want",
@@ -170,32 +155,44 @@
         {
           "en": "They started discussing the setlist.",
           "ru": "Они начали обсуждать сет-лист.",
-          "highlight": ["started discussing"]
+          "highlight": [
+            "started discussing"
+          ]
         },
         {
           "en": "They avoided playing the usual hits.",
           "ru": "Они избегали играть обычные хиты.",
-          "highlight": ["avoided playing"]
+          "highlight": [
+            "avoided playing"
+          ]
         },
         {
           "en": "Krist kept playing the accordion.",
           "ru": "Крист продолжал играть на аккордеоне.",
-          "highlight": ["kept playing"]
+          "highlight": [
+            "kept playing"
+          ]
         },
         {
           "en": "They finished rehearsing the song.",
           "ru": "Они закончили репетировать песню.",
-          "highlight": ["finished rehearsing"]
+          "highlight": [
+            "finished rehearsing"
+          ]
         },
         {
           "en": "They enjoyed playing the new arrangement.",
           "ru": "Им нравилось играть новую аранжировку.",
-          "highlight": ["enjoyed playing"]
+          "highlight": [
+            "enjoyed playing"
+          ]
         },
         {
           "en": "They considered changing the song.",
           "ru": "Они рассматривали возможность изменить песню.",
-          "highlight": ["considered changing"]
+          "highlight": [
+            "considered changing"
+          ]
         }
       ]
     },
@@ -205,32 +202,44 @@
         {
           "en": "They wanted to play different songs.",
           "ru": "Они хотели играть другие песни.",
-          "highlight": ["wanted to play"]
+          "highlight": [
+            "wanted to play"
+          ]
         },
         {
           "en": "They decided to invite the Meat Puppets.",
           "ru": "Они решили пригласить Meat Puppets.",
-          "highlight": ["decided to invite"]
+          "highlight": [
+            "decided to invite"
+          ]
         },
         {
           "en": "They planned to change the arrangements.",
           "ru": "Они планировали изменить аранжировки.",
-          "highlight": ["planned to change"]
+          "highlight": [
+            "planned to change"
+          ]
         },
         {
           "en": "They hoped to make the show different.",
           "ru": "Они надеялись сделать шоу другим.",
-          "highlight": ["hoped to make"]
+          "highlight": [
+            "hoped to make"
+          ]
         },
         {
           "en": "They agreed to play the song.",
           "ru": "Они согласились сыграть песню.",
-          "highlight": ["agreed to play"]
+          "highlight": [
+            "agreed to play"
+          ]
         },
         {
           "en": "They chose to perform several covers.",
           "ru": "Они выбрали исполнить несколько каверов.",
-          "highlight": ["chose to perform"]
+          "highlight": [
+            "chose to perform"
+          ]
         }
       ]
     },
@@ -240,32 +249,44 @@
         {
           "en": "I remember playing the accordion.",
           "ru": "Я помню, что играл на аккордеоне.",
-          "highlight": ["remember playing"]
+          "highlight": [
+            "remember playing"
+          ]
         },
         {
           "en": "Remember to bring the accordion.",
           "ru": "Не забудь принести аккордеон.",
-          "highlight": ["remember to bring"]
+          "highlight": [
+            "remember to bring"
+          ]
         },
         {
           "en": "They stopped playing.",
           "ru": "Они перестали играть.",
-          "highlight": ["stopped playing"]
+          "highlight": [
+            "stopped playing"
+          ]
         },
         {
           "en": "They stopped to discuss the arrangement.",
           "ru": "Они остановились, чтобы обсудить аранжировку.",
-          "highlight": ["stopped to discuss"]
+          "highlight": [
+            "stopped to discuss"
+          ]
         },
         {
           "en": "Try changing the arrangement.",
           "ru": "Попробуй изменить аранжировку.",
-          "highlight": ["try changing"]
+          "highlight": [
+            "try changing"
+          ]
         },
         {
           "en": "Try to change the arrangement.",
           "ru": "Постарайся изменить аранжировку.",
-          "highlight": ["try to change"]
+          "highlight": [
+            "try to change"
+          ]
         }
       ]
     }

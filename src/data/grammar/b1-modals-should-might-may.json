@@ -110,27 +110,12 @@
     "now",
     "soon"
   ],
-  "uses": {
-    "title": "Когда используем Should / May / Might",
-    "items": [
-      {
-        "title": "Совет",
-        "text": "Should показывает, какое действие говорящий считает правильным: \"You should revise the ending.\""
-      },
-      {
-        "title": "Ожидание",
-        "text": "Should может показывать ожидаемый результат: \"The revision should improve the effect.\""
-      },
-      {
-        "title": "Возможность",
-        "text": "May показывает, что событие возможно: \"The change may improve the poem.\""
-      },
-      {
-        "title": "Осторожная возможность",
-        "text": "Might показывает ещё более осторожное предположение: \"The change might improve the poem.\""
-      }
-    ]
-  },
+  "uses": [
+    "Совет: Should показывает, какое действие говорящий считает правильным: \"You should revise the ending.\"",
+    "Ожидание: Should может показывать ожидаемый результат: \"The revision should improve the effect.\"",
+    "Возможность: May показывает, что событие возможно: \"The change may improve the poem.\"",
+    "Осторожная возможность: Might показывает ещё более осторожное предположение: \"The change might improve the poem.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -164,32 +149,44 @@
         {
           "en": "You should revise the ending.",
           "ru": "Тебе стоит переработать концовку.",
-          "highlight": ["should revise"]
+          "highlight": [
+            "should revise"
+          ]
         },
         {
           "en": "The writer should decide on the effect first.",
           "ru": "Писателю стоит сначала определить эффект.",
-          "highlight": ["should decide"]
+          "highlight": [
+            "should decide"
+          ]
         },
         {
           "en": "You should keep the poem short.",
           "ru": "Тебе стоит сделать стихотворение коротким.",
-          "highlight": ["should keep"]
+          "highlight": [
+            "should keep"
+          ]
         },
         {
           "en": "The author should consider the reader's response.",
           "ru": "Автору стоит учитывать реакцию читателя.",
-          "highlight": ["should consider"]
+          "highlight": [
+            "should consider"
+          ]
         },
         {
           "en": "You should read the essay carefully.",
           "ru": "Тебе стоит внимательно прочитать эссе.",
-          "highlight": ["should read"]
+          "highlight": [
+            "should read"
+          ]
         },
         {
           "en": "The final image should remain clear.",
           "ru": "Финальный образ должен оставаться ясным.",
-          "highlight": ["should remain"]
+          "highlight": [
+            "should remain"
+          ]
         }
       ]
     },
@@ -199,32 +196,44 @@
         {
           "en": "The change may improve the effect.",
           "ru": "Это изменение может усилить эффект.",
-          "highlight": ["may improve"]
+          "highlight": [
+            "may improve"
+          ]
         },
         {
           "en": "The reader may notice the repetition.",
           "ru": "Читатель может заметить повторение.",
-          "highlight": ["may notice"]
+          "highlight": [
+            "may notice"
+          ]
         },
         {
           "en": "The ending may seem unexpected.",
           "ru": "Концовка может показаться неожиданной.",
-          "highlight": ["may seem"]
+          "highlight": [
+            "may seem"
+          ]
         },
         {
           "en": "The new structure may work better.",
           "ru": "Новая структура может сработать лучше.",
-          "highlight": ["may work"]
+          "highlight": [
+            "may work"
+          ]
         },
         {
           "en": "The poem may create a stronger impression.",
           "ru": "Стихотворение может создать более сильное впечатление.",
-          "highlight": ["may create"]
+          "highlight": [
+            "may create"
+          ]
         },
         {
           "en": "A shorter poem may be more effective.",
           "ru": "Более короткое стихотворение может оказаться эффективнее.",
-          "highlight": ["may be"]
+          "highlight": [
+            "may be"
+          ]
         }
       ]
     },
@@ -234,32 +243,44 @@
         {
           "en": "The ending might seem too abrupt.",
           "ru": "Концовка может показаться слишком резкой.",
-          "highlight": ["might seem"]
+          "highlight": [
+            "might seem"
+          ]
         },
         {
           "en": "The reader might miss the connection.",
           "ru": "Читатель может не заметить связь.",
-          "highlight": ["might miss"]
+          "highlight": [
+            "might miss"
+          ]
         },
         {
           "en": "A longer introduction might weaken the effect.",
           "ru": "Более длинное вступление может ослабить эффект.",
-          "highlight": ["might weaken"]
+          "highlight": [
+            "might weaken"
+          ]
         },
         {
           "en": "The repetition might become distracting.",
           "ru": "Повторение может начать отвлекать.",
-          "highlight": ["might become"]
+          "highlight": [
+            "might become"
+          ]
         },
         {
           "en": "The final image might be remembered more clearly.",
           "ru": "Финальный образ может запомниться лучше.",
-          "highlight": ["might be remembered"]
+          "highlight": [
+            "might be remembered"
+          ]
         },
         {
           "en": "Another solution might work better.",
           "ru": "Другое решение может сработать лучше.",
-          "highlight": ["might work"]
+          "highlight": [
+            "might work"
+          ]
         }
       ]
     }

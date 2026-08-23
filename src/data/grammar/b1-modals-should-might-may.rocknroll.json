@@ -113,27 +113,12 @@
     "now",
     "later"
   ],
-  "uses": {
-    "title": "Когда используем Should / May / Might",
-    "items": [
-      {
-        "title": "Совет",
-        "text": "Should показывает, какое действие говорящий считает правильным: \"You should trust the process.\""
-      },
-      {
-        "title": "Ожидание",
-        "text": "Should может показывать ожидаемый результат: \"The new approach should work.\""
-      },
-      {
-        "title": "Возможность",
-        "text": "May показывает, что результат возможен: \"The next record may sound different.\""
-      },
-      {
-        "title": "Осторожная возможность",
-        "text": "Might показывает более осторожное предположение: \"The new approach might work.\""
-      }
-    ]
-  },
+  "uses": [
+    "Совет: Should показывает, какое действие говорящий считает правильным: \"You should trust the process.\"",
+    "Ожидание: Should может показывать ожидаемый результат: \"The new approach should work.\"",
+    "Возможность: May показывает, что результат возможен: \"The next record may sound different.\"",
+    "Осторожная возможность: Might показывает более осторожное предположение: \"The new approach might work.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -167,32 +152,44 @@
         {
           "en": "You should trust the process.",
           "ru": "Тебе стоит доверять процессу.",
-          "highlight": ["should trust"]
+          "highlight": [
+            "should trust"
+          ]
         },
         {
           "en": "The band should keep some control.",
           "ru": "Группе стоит сохранить некоторый контроль.",
-          "highlight": ["should keep"]
+          "highlight": [
+            "should keep"
+          ]
         },
         {
           "en": "You should listen to the whole record.",
           "ru": "Тебе стоит послушать всю пластинку.",
-          "highlight": ["should listen"]
+          "highlight": [
+            "should listen"
+          ]
         },
         {
           "en": "The musicians should consider the balance.",
           "ru": "Музыкантам стоит учитывать баланс.",
-          "highlight": ["should consider"]
+          "highlight": [
+            "should consider"
+          ]
         },
         {
           "en": "The new approach should remain flexible.",
           "ru": "Новый подход должен оставаться гибким.",
-          "highlight": ["should remain"]
+          "highlight": [
+            "should remain"
+          ]
         },
         {
           "en": "You shouldn't repeat every old decision.",
           "ru": "Не стоит повторять каждое старое решение.",
-          "highlight": ["shouldn't repeat"]
+          "highlight": [
+            "shouldn't repeat"
+          ]
         }
       ]
     },
@@ -202,32 +199,44 @@
         {
           "en": "The next record may sound different.",
           "ru": "Следующая пластинка может звучать иначе.",
-          "highlight": ["may sound"]
+          "highlight": [
+            "may sound"
+          ]
         },
         {
           "en": "The new method may work.",
           "ru": "Новый метод может сработать.",
-          "highlight": ["may work"]
+          "highlight": [
+            "may work"
+          ]
         },
         {
           "en": "The audience may react differently.",
           "ru": "Аудитория может отреагировать иначе.",
-          "highlight": ["may react"]
+          "highlight": [
+            "may react"
+          ]
         },
         {
           "en": "The group may choose another direction.",
           "ru": "Группа может выбрать другое направление.",
-          "highlight": ["may choose"]
+          "highlight": [
+            "may choose"
+          ]
         },
         {
           "en": "The result may be unexpected.",
           "ru": "Результат может оказаться неожиданным.",
-          "highlight": ["may be"]
+          "highlight": [
+            "may be"
+          ]
         },
         {
           "en": "The decision may affect the next album.",
           "ru": "Решение может повлиять на следующий альбом.",
-          "highlight": ["may affect"]
+          "highlight": [
+            "may affect"
+          ]
         }
       ]
     },
@@ -237,32 +246,44 @@
         {
           "en": "The new approach might work.",
           "ru": "Новый подход может сработать.",
-          "highlight": ["might work"]
+          "highlight": [
+            "might work"
+          ]
         },
         {
           "en": "The audience might react differently.",
           "ru": "Аудитория может отреагировать иначе.",
-          "highlight": ["might react"]
+          "highlight": [
+            "might react"
+          ]
         },
         {
           "en": "The next album might sound more open.",
           "ru": "Следующий альбом может звучать более открыто.",
-          "highlight": ["might sound"]
+          "highlight": [
+            "might sound"
+          ]
         },
         {
           "en": "The band might change its method again.",
           "ru": "Группа может снова изменить свой метод.",
-          "highlight": ["might change"]
+          "highlight": [
+            "might change"
+          ]
         },
         {
           "en": "The decision might create new problems.",
           "ru": "Решение может создать новые проблемы.",
-          "highlight": ["might create"]
+          "highlight": [
+            "might create"
+          ]
         },
         {
           "en": "The result might be different from the original plan.",
           "ru": "Результат может отличаться от первоначального плана.",
-          "highlight": ["might be"]
+          "highlight": [
+            "might be"
+          ]
         }
       ]
     }

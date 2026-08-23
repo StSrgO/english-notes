@@ -134,39 +134,15 @@
     "how long",
     "how often"
   ],
-  "uses": {
-    "title": "Какие вопросы нужны в интервью",
-    "items": [
-      {
-        "title": "Проверка факта",
-        "text": "Для вопроса с ответом yes/no: Did the Dolls choose Rundgren?"
-      },
-      {
-        "title": "Человек",
-        "text": "Who помогает узнать, кто совершил действие или на кого оно направлено: Who produced the album?"
-      },
-      {
-        "title": "Причина",
-        "text": "Why помогает выяснить причину решения: Why did they choose Rundgren?"
-      },
-      {
-        "title": "Место",
-        "text": "Where помогает узнать место: Where did they record the album?"
-      },
-      {
-        "title": "Время",
-        "text": "When помогает восстановить время события: When did they record the album?"
-      },
-      {
-        "title": "Процесс",
-        "text": "How помогает спросить о способе или обстоятельствах: How did the sessions work?"
-      },
-      {
-        "title": "Содержание",
-        "text": "What помогает узнать, что произошло или что делали: What happened in the studio?"
-      }
-    ]
-  },
+  "uses": [
+    "Проверка факта: Для вопроса с ответом yes/no: Did the Dolls choose Rundgren?",
+    "Человек: Who помогает узнать, кто совершил действие или на кого оно направлено: Who produced the album?",
+    "Причина: Why помогает выяснить причину решения: Why did they choose Rundgren?",
+    "Место: Where помогает узнать место: Where did they record the album?",
+    "Время: When помогает восстановить время события: When did they record the album?",
+    "Процесс: How помогает спросить о способе или обстоятельствах: How did the sessions work?",
+    "Содержание: What помогает узнать, что произошло или что делали: What happened in the studio?"
+  ],
   "rules": [
     {
       "title": "Yes / No question",
@@ -204,32 +180,49 @@
         {
           "en": "Did the Dolls choose Todd Rundgren?",
           "ru": "Dolls выбрали Todd Rundgren?",
-          "highlight": ["Did", "choose"]
+          "highlight": [
+            "Did",
+            "choose"
+          ]
         },
         {
           "en": "Did they record the album in New York?",
           "ru": "Они записывали альбом в Нью-Йорке?",
-          "highlight": ["Did", "record"]
+          "highlight": [
+            "Did",
+            "record"
+          ]
         },
         {
           "en": "Was Rundgren the producer?",
           "ru": "Rundgren был продюсером?",
-          "highlight": ["Was"]
+          "highlight": [
+            "Was"
+          ]
         },
         {
           "en": "Did the band work quickly?",
           "ru": "Группа работала быстро?",
-          "highlight": ["Did", "work"]
+          "highlight": [
+            "Did",
+            "work"
+          ]
         },
         {
           "en": "Does the band trust the producer?",
           "ru": "Группа доверяет продюсеру?",
-          "highlight": ["Does", "trust"]
+          "highlight": [
+            "Does",
+            "trust"
+          ]
         },
         {
           "en": "Do the musicians agree?",
           "ru": "Музыканты согласны?",
-          "highlight": ["Do", "agree"]
+          "highlight": [
+            "Do",
+            "agree"
+          ]
         }
       ]
     },
@@ -239,32 +232,55 @@
         {
           "en": "Who produced the debut album?",
           "ru": "Кто продюсировал дебютный альбом?",
-          "highlight": ["Who", "produced"]
+          "highlight": [
+            "Who",
+            "produced"
+          ]
         },
         {
           "en": "What did the band record?",
           "ru": "Что записывала группа?",
-          "highlight": ["What", "did", "record"]
+          "highlight": [
+            "What",
+            "did",
+            "record"
+          ]
         },
         {
           "en": "Where did they record the album?",
           "ru": "Где они записывали альбом?",
-          "highlight": ["Where", "did", "record"]
+          "highlight": [
+            "Where",
+            "did",
+            "record"
+          ]
         },
         {
           "en": "When did they record it?",
           "ru": "Когда они записывали его?",
-          "highlight": ["When", "did", "record"]
+          "highlight": [
+            "When",
+            "did",
+            "record"
+          ]
         },
         {
           "en": "Why did they choose Rundgren?",
           "ru": "Почему они выбрали Rundgren?",
-          "highlight": ["Why", "did", "choose"]
+          "highlight": [
+            "Why",
+            "did",
+            "choose"
+          ]
         },
         {
           "en": "How did the sessions work?",
           "ru": "Как проходили сессии?",
-          "highlight": ["How", "did", "work"]
+          "highlight": [
+            "How",
+            "did",
+            "work"
+          ]
         }
       ]
     },
@@ -274,32 +290,53 @@
         {
           "en": "Who chose Todd Rundgren?",
           "ru": "Кто выбрал Todd Rundgren?",
-          "highlight": ["Who", "chose"]
+          "highlight": [
+            "Who",
+            "chose"
+          ]
         },
         {
           "en": "Who did the Dolls choose?",
           "ru": "Кого выбрали Dolls?",
-          "highlight": ["Who", "did", "choose"]
+          "highlight": [
+            "Who",
+            "did",
+            "choose"
+          ]
         },
         {
           "en": "Who produced the album?",
           "ru": "Кто продюсировал альбом?",
-          "highlight": ["Who", "produced"]
+          "highlight": [
+            "Who",
+            "produced"
+          ]
         },
         {
           "en": "Who did the band work with?",
           "ru": "С кем работала группа?",
-          "highlight": ["Who", "did", "work"]
+          "highlight": [
+            "Who",
+            "did",
+            "work"
+          ]
         },
         {
           "en": "Who recorded the songs?",
           "ru": "Кто записал песни?",
-          "highlight": ["Who", "recorded"]
+          "highlight": [
+            "Who",
+            "recorded"
+          ]
         },
         {
           "en": "Who did they invite to the studio?",
           "ru": "Кого они пригласили в студию?",
-          "highlight": ["Who", "did", "invite"]
+          "highlight": [
+            "Who",
+            "did",
+            "invite"
+          ]
         }
       ]
     },
@@ -309,32 +346,56 @@
         {
           "en": "What are they recording?",
           "ru": "Что они сейчас записывают?",
-          "highlight": ["What", "are", "recording"]
+          "highlight": [
+            "What",
+            "are",
+            "recording"
+          ]
         },
         {
           "en": "What did they record?",
           "ru": "Что они записали?",
-          "highlight": ["What", "did", "record"]
+          "highlight": [
+            "What",
+            "did",
+            "record"
+          ]
         },
         {
           "en": "Why are they working together?",
           "ru": "Почему они сейчас работают вместе?",
-          "highlight": ["Why", "are", "working"]
+          "highlight": [
+            "Why",
+            "are",
+            "working"
+          ]
         },
         {
           "en": "Why did they work together?",
           "ru": "Почему они работали вместе?",
-          "highlight": ["Why", "did", "work"]
+          "highlight": [
+            "Why",
+            "did",
+            "work"
+          ]
         },
         {
           "en": "Where are they recording?",
           "ru": "Где они сейчас записываются?",
-          "highlight": ["Where", "are", "recording"]
+          "highlight": [
+            "Where",
+            "are",
+            "recording"
+          ]
         },
         {
           "en": "Where did they record?",
           "ru": "Где они записывались?",
-          "highlight": ["Where", "did", "record"]
+          "highlight": [
+            "Where",
+            "did",
+            "record"
+          ]
         }
       ]
     },
@@ -344,32 +405,52 @@
         {
           "en": "What happened in the studio?",
           "ru": "Что произошло в студии?",
-          "highlight": ["What", "happened"]
+          "highlight": [
+            "What",
+            "happened"
+          ]
         },
         {
           "en": "How many takes did you make?",
           "ru": "Сколько дублей вы сделали?",
-          "highlight": ["How many", "did", "make"]
+          "highlight": [
+            "How many",
+            "did",
+            "make"
+          ]
         },
         {
           "en": "Why was the recording difficult?",
           "ru": "Почему запись была сложной?",
-          "highlight": ["Why", "was"]
+          "highlight": [
+            "Why",
+            "was"
+          ]
         },
         {
           "en": "Who worked with the band?",
           "ru": "Кто работал с группой?",
-          "highlight": ["Who", "worked"]
+          "highlight": [
+            "Who",
+            "worked"
+          ]
         },
         {
           "en": "Where was the studio?",
           "ru": "Где находилась студия?",
-          "highlight": ["Where", "was"]
+          "highlight": [
+            "Where",
+            "was"
+          ]
         },
         {
           "en": "When was the album released?",
           "ru": "Когда вышел альбом?",
-          "highlight": ["When", "was", "released"]
+          "highlight": [
+            "When",
+            "was",
+            "released"
+          ]
         }
       ]
     }

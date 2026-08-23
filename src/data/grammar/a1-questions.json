@@ -135,43 +135,16 @@
     "how often",
     "how long"
   ],
-  "uses": {
-    "title": "Какие вопросы мы задаём",
-    "items": [
-      {
-        "title": "Yes / No",
-        "text": "Чтобы проверить предположение: Is Alice ready? / Does Alice understand?"
-      },
-      {
-        "title": "What",
-        "text": "Чтобы узнать, что это или что происходит: What does Alice want?"
-      },
-      {
-        "title": "Who",
-        "text": "Чтобы узнать человека: Who is speaking?"
-      },
-      {
-        "title": "Where",
-        "text": "Чтобы узнать место: Where is Alice?"
-      },
-      {
-        "title": "When",
-        "text": "Чтобы узнать время: When did Alice arrive?"
-      },
-      {
-        "title": "Why",
-        "text": "Чтобы узнать причину: Why is the Queen angry?"
-      },
-      {
-        "title": "How",
-        "text": "Чтобы узнать способ или характеристику: How did Alice get there?"
-      },
-      {
-        "title": "Subject question",
-        "text": "Когда who/what само является подлежащим: Who saw Alice?"
-      }
-    ]
-  },
+  "uses": [
+    "Yes / No: Чтобы проверить предположение: Is Alice ready? / Does Alice understand?",
+    "What: Чтобы узнать, что это или что происходит: What does Alice want?",
+    "Who: Чтобы узнать человека: Who is speaking?",
+    "Where: Чтобы узнать место: Where is Alice?",
+    "When: Чтобы узнать время: When did Alice arrive?",
+    "Why: Чтобы узнать причину: Why is the Queen angry?",
+    "How: Чтобы узнать способ или характеристику: How did Alice get there?",
+    "Subject question: Когда who/what само является подлежащим: Who saw Alice?"
+  ],
   "rules": [
     {
       "title": "Вопрос с be",
@@ -209,32 +182,48 @@
         {
           "en": "Is Alice ready?",
           "ru": "Alice готова?",
-          "highlight": ["Is"]
+          "highlight": [
+            "Is"
+          ]
         },
         {
           "en": "Are the flowers talking?",
           "ru": "Цветы разговаривают?",
-          "highlight": ["Are"]
+          "highlight": [
+            "Are"
+          ]
         },
         {
           "en": "Does Alice understand?",
           "ru": "Alice понимает?",
-          "highlight": ["Does", "understand"]
+          "highlight": [
+            "Does",
+            "understand"
+          ]
         },
         {
           "en": "Do the flowers speak?",
           "ru": "Цветы разговаривают?",
-          "highlight": ["Do", "speak"]
+          "highlight": [
+            "Do",
+            "speak"
+          ]
         },
         {
           "en": "Did Alice see the Queen?",
           "ru": "Alice видела Королеву?",
-          "highlight": ["Did", "see"]
+          "highlight": [
+            "Did",
+            "see"
+          ]
         },
         {
           "en": "Did Alice enter the garden?",
           "ru": "Alice вошла в сад?",
-          "highlight": ["Did", "enter"]
+          "highlight": [
+            "Did",
+            "enter"
+          ]
         }
       ]
     },
@@ -244,32 +233,53 @@
         {
           "en": "What does Alice want?",
           "ru": "Чего хочет Alice?",
-          "highlight": ["What", "does", "want"]
+          "highlight": [
+            "What",
+            "does",
+            "want"
+          ]
         },
         {
           "en": "Who is speaking?",
           "ru": "Кто говорит?",
-          "highlight": ["Who", "is"]
+          "highlight": [
+            "Who",
+            "is"
+          ]
         },
         {
           "en": "Where is Alice?",
           "ru": "Где Alice?",
-          "highlight": ["Where", "is"]
+          "highlight": [
+            "Where",
+            "is"
+          ]
         },
         {
           "en": "When did Alice arrive?",
           "ru": "Когда Alice приехала?",
-          "highlight": ["When", "did", "arrive"]
+          "highlight": [
+            "When",
+            "did",
+            "arrive"
+          ]
         },
         {
           "en": "Why is the Queen angry?",
           "ru": "Почему Королева сердится?",
-          "highlight": ["Why", "is"]
+          "highlight": [
+            "Why",
+            "is"
+          ]
         },
         {
           "en": "How did Alice get there?",
           "ru": "Как Alice туда попала?",
-          "highlight": ["How", "did", "get"]
+          "highlight": [
+            "How",
+            "did",
+            "get"
+          ]
         }
       ]
     },
@@ -279,32 +289,53 @@
         {
           "en": "Who did Alice see?",
           "ru": "Кого увидела Alice?",
-          "highlight": ["Who", "did", "see"]
+          "highlight": [
+            "Who",
+            "did",
+            "see"
+          ]
         },
         {
           "en": "Who saw Alice?",
           "ru": "Кто увидел Alice?",
-          "highlight": ["Who", "saw"]
+          "highlight": [
+            "Who",
+            "saw"
+          ]
         },
         {
           "en": "Who did Alice meet?",
           "ru": "С кем встретилась Alice?",
-          "highlight": ["Who", "did", "meet"]
+          "highlight": [
+            "Who",
+            "did",
+            "meet"
+          ]
         },
         {
           "en": "Who met Alice?",
           "ru": "Кто встретил Alice?",
-          "highlight": ["Who", "met"]
+          "highlight": [
+            "Who",
+            "met"
+          ]
         },
         {
           "en": "Who did the Queen call?",
           "ru": "Кого позвала Королева?",
-          "highlight": ["Who", "did", "call"]
+          "highlight": [
+            "Who",
+            "did",
+            "call"
+          ]
         },
         {
           "en": "Who called the Queen?",
           "ru": "Кто позвал Королеву?",
-          "highlight": ["Who", "called"]
+          "highlight": [
+            "Who",
+            "called"
+          ]
         }
       ]
     },
@@ -314,32 +345,54 @@
         {
           "en": "What is Alice doing?",
           "ru": "Что делает Alice?",
-          "highlight": ["What", "is", "doing"]
+          "highlight": [
+            "What",
+            "is",
+            "doing"
+          ]
         },
         {
           "en": "What does Alice do?",
           "ru": "Что Alice обычно делает?",
-          "highlight": ["What", "does", "do"]
+          "highlight": [
+            "What",
+            "does",
+            "do"
+          ]
         },
         {
           "en": "What did Alice do?",
           "ru": "Что Alice сделала?",
-          "highlight": ["What", "did", "do"]
+          "highlight": [
+            "What",
+            "did",
+            "do"
+          ]
         },
         {
           "en": "Where is Alice?",
           "ru": "Где Alice?",
-          "highlight": ["Where", "is"]
+          "highlight": [
+            "Where",
+            "is"
+          ]
         },
         {
           "en": "Where did Alice go?",
           "ru": "Куда Alice пошла?",
-          "highlight": ["Where", "did", "go"]
+          "highlight": [
+            "Where",
+            "did",
+            "go"
+          ]
         },
         {
           "en": "Where was Alice?",
           "ru": "Где была Alice?",
-          "highlight": ["Where", "was"]
+          "highlight": [
+            "Where",
+            "was"
+          ]
         }
       ]
     },
@@ -349,32 +402,54 @@
         {
           "en": "Who are you?",
           "ru": "Кто ты?",
-          "highlight": ["Who", "are"]
+          "highlight": [
+            "Who",
+            "are"
+          ]
         },
         {
           "en": "What do you mean?",
           "ru": "Что ты имеешь в виду?",
-          "highlight": ["What", "do", "mean"]
+          "highlight": [
+            "What",
+            "do",
+            "mean"
+          ]
         },
         {
           "en": "Why are you laughing?",
           "ru": "Почему ты смеёшься?",
-          "highlight": ["Why", "are", "laughing"]
+          "highlight": [
+            "Why",
+            "are",
+            "laughing"
+          ]
         },
         {
           "en": "Where did you go?",
           "ru": "Куда ты пошёл?",
-          "highlight": ["Where", "did", "go"]
+          "highlight": [
+            "Where",
+            "did",
+            "go"
+          ]
         },
         {
           "en": "How do you know?",
           "ru": "Откуда ты знаешь?",
-          "highlight": ["How", "do", "know"]
+          "highlight": [
+            "How",
+            "do",
+            "know"
+          ]
         },
         {
           "en": "What happened?",
           "ru": "Что произошло?",
-          "highlight": ["What", "happened"]
+          "highlight": [
+            "What",
+            "happened"
+          ]
         }
       ]
     }

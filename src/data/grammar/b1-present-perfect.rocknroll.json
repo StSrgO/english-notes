@@ -114,27 +114,12 @@
     "today",
     "this year"
   ],
-  "uses": {
-    "title": "Когда используем Present Perfect",
-    "items": [
-      {
-        "title": "Опыт",
-        "text": "Говорим о накопленном опыте: \"He has recorded many albums.\""
-      },
-      {
-        "title": "Результат",
-        "text": "Прошлое действие имеет результат сейчас: \"The project has changed his career.\""
-      },
-      {
-        "title": "Незавершённый период",
-        "text": "Действие произошло в периоде, который ещё продолжается: \"He has recorded three songs this week.\""
-      },
-      {
-        "title": "Связь с настоящим",
-        "text": "Прошлый опыт рассматривается из настоящего: \"I have learned a lot from these records.\""
-      }
-    ]
-  },
+  "uses": [
+    "Опыт: Говорим о накопленном опыте: \"He has recorded many albums.\"",
+    "Результат: Прошлое действие имеет результат сейчас: \"The project has changed his career.\"",
+    "Незавершённый период: Действие произошло в периоде, который ещё продолжается: \"He has recorded three songs this week.\"",
+    "Связь с настоящим: Прошлый опыт рассматривается из настоящего: \"I have learned a lot from these records.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -168,32 +153,44 @@
         {
           "en": "He has recorded many albums.",
           "ru": "Он записал много альбомов.",
-          "highlight": ["has recorded"]
+          "highlight": [
+            "has recorded"
+          ]
         },
         {
           "en": "They have worked together on several records.",
           "ru": "Они вместе работали над несколькими альбомами.",
-          "highlight": ["have worked"]
+          "highlight": [
+            "have worked"
+          ]
         },
         {
           "en": "She has performed in many countries.",
           "ru": "Она выступала во многих странах.",
-          "highlight": ["has performed"]
+          "highlight": [
+            "has performed"
+          ]
         },
         {
           "en": "I have listened to these records many times.",
           "ru": "Я много раз слушал эти записи.",
-          "highlight": ["have listened"]
+          "highlight": [
+            "have listened"
+          ]
         },
         {
           "en": "He has never stopped recording.",
           "ru": "Он никогда не прекращал записываться.",
-          "highlight": ["has never stopped"]
+          "highlight": [
+            "has never stopped"
+          ]
         },
         {
           "en": "Have you ever recorded a song?",
           "ru": "Ты когда-нибудь записывал песню?",
-          "highlight": ["Have you ever recorded"]
+          "highlight": [
+            "Have you ever recorded"
+          ]
         }
       ]
     },
@@ -203,32 +200,44 @@
         {
           "en": "The project has changed his career.",
           "ru": "Этот проект изменил его карьеру.",
-          "highlight": ["has changed"]
+          "highlight": [
+            "has changed"
+          ]
         },
         {
           "en": "The records have changed the way people see him.",
           "ru": "Эти записи изменили то, как люди его воспринимают.",
-          "highlight": ["have changed"]
+          "highlight": [
+            "have changed"
+          ]
         },
         {
           "en": "He has finished the recording.",
           "ru": "Он закончил запись.",
-          "highlight": ["has finished"]
+          "highlight": [
+            "has finished"
+          ]
         },
         {
           "en": "They have released the album.",
           "ru": "Они выпустили альбом.",
-          "highlight": ["have released"]
+          "highlight": [
+            "have released"
+          ]
         },
         {
           "en": "He has already completed the work.",
           "ru": "Он уже закончил работу.",
-          "highlight": ["has already completed"]
+          "highlight": [
+            "has already completed"
+          ]
         },
         {
           "en": "They have just finished the session.",
           "ru": "Они только что закончили сессию.",
-          "highlight": ["have just finished"]
+          "highlight": [
+            "have just finished"
+          ]
         }
       ]
     },
@@ -238,32 +247,44 @@
         {
           "en": "He has recorded three songs this week.",
           "ru": "На этой неделе он записал три песни.",
-          "highlight": ["has recorded"]
+          "highlight": [
+            "has recorded"
+          ]
         },
         {
           "en": "They have played four shows this month.",
           "ru": "В этом месяце они сыграли четыре концерта.",
-          "highlight": ["have played"]
+          "highlight": [
+            "have played"
+          ]
         },
         {
           "en": "I have listened to the album twice today.",
           "ru": "Сегодня я дважды послушал альбом.",
-          "highlight": ["have listened"]
+          "highlight": [
+            "have listened"
+          ]
         },
         {
           "en": "She has written several songs this year.",
           "ru": "В этом году она написала несколько песен.",
-          "highlight": ["has written"]
+          "highlight": [
+            "has written"
+          ]
         },
         {
           "en": "They haven't finished the sessions yet.",
           "ru": "Они ещё не закончили сессии.",
-          "highlight": ["haven't finished"]
+          "highlight": [
+            "haven't finished"
+          ]
         },
         {
           "en": "Have you heard the new recording yet?",
           "ru": "Ты уже слышал новую запись?",
-          "highlight": ["Have you heard"]
+          "highlight": [
+            "Have you heard"
+          ]
         }
       ]
     }

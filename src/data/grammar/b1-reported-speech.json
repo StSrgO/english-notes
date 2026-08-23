@@ -1,4 +1,4 @@
-﻿{
+{
   "variant": "classic",
   "slug": "b1-reported-speech",
   "level": "B1",
@@ -117,31 +117,13 @@
     "told somebody to",
     "told somebody not to"
   ],
-  "uses": {
-    "title": "Что происходит при пересказе",
-    "items": [
-      {
-        "title": "Утверждение",
-        "text": "Прямое утверждение превращается в обычное повествовательное предложение: \"I am innocent.\" → He said that he was innocent."
-      },
-      {
-        "title": "Изменение точки зрения",
-        "text": "Местоимения меняются: \"I\" может стать \"he/she\", а \"you\" — \"I/he/she\" в зависимости от ситуации."
-      },
-      {
-        "title": "Backshift",
-        "text": "После прошедшего глагола сообщения время часто сдвигается назад: \"I know\" → He said that he knew."
-      },
-      {
-        "title": "Косвенный вопрос",
-        "text": "После asked используется обычный порядок слов: \"Who saw me?\" → He asked who had seen him."
-      },
-      {
-        "title": "Просьба или приказ",
-        "text": "Используется tell + person + to: \"Leave\" → He told me to leave."
-      }
-    ]
-  },
+  "uses": [
+    "Утверждение: Прямое утверждение превращается в обычное повествовательное предложение: \"I am innocent.\" → He said that he was innocent.",
+    "Изменение точки зрения: Местоимения меняются: \"I\" может стать \"he/she\", а \"you\" — \"I/he/she\" в зависимости от ситуации.",
+    "Backshift: После прошедшего глагола сообщения время часто сдвигается назад: \"I know\" → He said that he knew.",
+    "Косвенный вопрос: После asked используется обычный порядок слов: \"Who saw me?\" → He asked who had seen him.",
+    "Просьба или приказ: Используется tell + person + to: \"Leave\" → He told me to leave."
+  ],
   "rules": [
     {
       "title": "Present → Past",
@@ -175,22 +157,30 @@
         {
           "en": "“I am innocent.” → He said that he was innocent.",
           "ru": "«Я невиновен». → Он сказал, что он невиновен.",
-          "highlight": ["said that he was"]
+          "highlight": [
+            "said that he was"
+          ]
         },
         {
           "en": "“I know nothing about it.” → He said that he knew nothing about it.",
           "ru": "«Я ничего об этом не знаю». → Он сказал, что ничего об этом не знает.",
-          "highlight": ["said that he knew"]
+          "highlight": [
+            "said that he knew"
+          ]
         },
         {
           "en": "“I picked up the string.” → He said that he had picked up the string.",
           "ru": "«Я поднял верёвку». → Он сказал, что поднял верёвку.",
-          "highlight": ["said that he had picked up"]
+          "highlight": [
+            "said that he had picked up"
+          ]
         },
         {
           "en": "“They found the pocketbook.” → He said that they had found the pocketbook.",
           "ru": "«Они нашли кошелёк». → Он сказал, что они нашли кошелёк.",
-          "highlight": ["said that they had found"]
+          "highlight": [
+            "said that they had found"
+          ]
         }
       ]
     },
@@ -200,22 +190,30 @@
         {
           "en": "“Who saw me?” → He asked who had seen him.",
           "ru": "«Кто меня видел?» → Он спросил, кто его видел.",
-          "highlight": ["asked who had seen him"]
+          "highlight": [
+            "asked who had seen him"
+          ]
         },
         {
           "en": "“Did you take it?” → He asked if I had taken it.",
           "ru": "«Ты это взял?» → Он спросил, взял ли я это.",
-          "highlight": ["asked if I had taken it"]
+          "highlight": [
+            "asked if I had taken it"
+          ]
         },
         {
           "en": "“Where were you?” → She asked where I had been.",
           "ru": "«Где ты был?» → Она спросила, где я был.",
-          "highlight": ["asked where I had been"]
+          "highlight": [
+            "asked where I had been"
+          ]
         },
         {
           "en": "“Why did he leave?” → She asked why he had left.",
           "ru": "«Почему он ушёл?» → Она спросила, почему он ушёл.",
-          "highlight": ["asked why he had left"]
+          "highlight": [
+            "asked why he had left"
+          ]
         }
       ]
     },
@@ -225,22 +223,30 @@
         {
           "en": "He said that he was innocent.",
           "ru": "Он сказал, что невиновен.",
-          "highlight": ["said that"]
+          "highlight": [
+            "said that"
+          ]
         },
         {
           "en": "He told the mayor that he was innocent.",
           "ru": "Он сказал мэру, что невиновен.",
-          "highlight": ["told the mayor that"]
+          "highlight": [
+            "told the mayor that"
+          ]
         },
         {
           "en": "She said that she knew the truth.",
           "ru": "Она сказала, что знает правду.",
-          "highlight": ["said that"]
+          "highlight": [
+            "said that"
+          ]
         },
         {
           "en": "She told me that she knew the truth.",
           "ru": "Она сказала мне, что знает правду.",
-          "highlight": ["told me that"]
+          "highlight": [
+            "told me that"
+          ]
         }
       ]
     },
@@ -250,12 +256,16 @@
         {
           "en": "“Tell me the truth.” → He told me to tell him the truth.",
           "ru": "«Скажи мне правду». → Он велел мне сказать ему правду.",
-          "highlight": ["told me to tell"]
+          "highlight": [
+            "told me to tell"
+          ]
         },
         {
           "en": "“Don't leave.” → He told me not to leave.",
           "ru": "«Не уходи». → Он велел мне не уходить.",
-          "highlight": ["told me not to leave"]
+          "highlight": [
+            "told me not to leave"
+          ]
         }
       ]
     }

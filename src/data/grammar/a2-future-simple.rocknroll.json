@@ -101,27 +101,12 @@
     "in the future",
     "one day"
   ],
-  "uses": {
-    "title": "Когда используем Future Simple",
-    "items": [
-      {
-        "title": "Вопрос о будущем",
-        "text": "Will используется, чтобы спросить, что произойдёт дальше: \"Will you continue?\""
-      },
-      {
-        "title": "Решение",
-        "text": "Will может показать решение говорящего: \"I'll continue.\""
-      },
-      {
-        "title": "Прогноз",
-        "text": "Говорящий предполагает будущее: \"The band will continue.\""
-      },
-      {
-        "title": "Обещание",
-        "text": "Will может выражать обязательство: \"We will keep playing.\""
-      }
-    ]
-  },
+  "uses": [
+    "Вопрос о будущем: Will используется, чтобы спросить, что произойдёт дальше: \"Will you continue?\"",
+    "Решение: Will может показать решение говорящего: \"I'll continue.\"",
+    "Прогноз: Говорящий предполагает будущее: \"The band will continue.\"",
+    "Обещание: Will может выражать обязательство: \"We will keep playing.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -151,22 +136,30 @@
         {
           "en": "The band will continue.",
           "ru": "Группа продолжит существовать.",
-          "highlight": ["will continue"]
+          "highlight": [
+            "will continue"
+          ]
         },
         {
           "en": "The group will find a new form.",
           "ru": "Группа найдёт новую форму.",
-          "highlight": ["will find"]
+          "highlight": [
+            "will find"
+          ]
         },
         {
           "en": "The songs will remain important.",
           "ru": "Песни останутся важными.",
-          "highlight": ["will remain"]
+          "highlight": [
+            "will remain"
+          ]
         },
         {
           "en": "The audience will remember Pete Shelley.",
           "ru": "Аудитория будет помнить Пита Шелли.",
-          "highlight": ["will remember"]
+          "highlight": [
+            "will remember"
+          ]
         }
       ]
     },
@@ -176,22 +169,30 @@
         {
           "en": "I'll continue.",
           "ru": "Я продолжу.",
-          "highlight": ["I'll continue"]
+          "highlight": [
+            "I'll continue"
+          ]
         },
         {
           "en": "We will keep playing.",
           "ru": "Мы продолжим играть.",
-          "highlight": ["will keep"]
+          "highlight": [
+            "will keep"
+          ]
         },
         {
           "en": "I will not stop.",
           "ru": "Я не остановлюсь.",
-          "highlight": ["will not stop"]
+          "highlight": [
+            "will not stop"
+          ]
         },
         {
           "en": "We will keep the songs alive.",
           "ru": "Мы сохраним эти песни живыми.",
-          "highlight": ["will keep"]
+          "highlight": [
+            "will keep"
+          ]
         }
       ]
     },
@@ -201,22 +202,30 @@
         {
           "en": "Will you continue?",
           "ru": "Вы продолжите?",
-          "highlight": ["Will you continue"]
+          "highlight": [
+            "Will you continue"
+          ]
         },
         {
           "en": "Will they play the old songs?",
           "ru": "Они будут играть старые песни?",
-          "highlight": ["Will they play"]
+          "highlight": [
+            "Will they play"
+          ]
         },
         {
           "en": "Will the band release another album?",
           "ru": "Группа выпустит ещё один альбом?",
-          "highlight": ["Will the band release"]
+          "highlight": [
+            "Will the band release"
+          ]
         },
         {
           "en": "Will they keep playing?",
           "ru": "Они продолжат играть?",
-          "highlight": ["Will they keep"]
+          "highlight": [
+            "Will they keep"
+          ]
         }
       ]
     }

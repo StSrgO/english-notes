@@ -120,31 +120,13 @@
     "he's / she's / it's",
     "isn't / aren't"
   ],
-  "uses": {
-    "title": "Что можно сказать с to be",
-    "items": [
-      {
-        "title": "Идентичность",
-        "text": "Чтобы назвать человека, группу или предмет: I am Paul. KISS is a band."
-      },
-      {
-        "title": "Состояние или качество",
-        "text": "Чтобы описать состояние или качество: He is ready. They are famous."
-      },
-      {
-        "title": "Место",
-        "text": "Чтобы сказать, где находится человек или группа: He is backstage. They are on stage."
-      },
-      {
-        "title": "Внешний образ",
-        "text": "Чтобы описать одежду, грим или внешний вид: He is in costume. They are in makeup."
-      },
-      {
-        "title": "Профессия",
-        "text": "Чтобы назвать профессию: He is a singer. She is a musician."
-      }
-    ]
-  },
+  "uses": [
+    "Идентичность: Чтобы назвать человека, группу или предмет: I am Paul. KISS is a band.",
+    "Состояние или качество: Чтобы описать состояние или качество: He is ready. They are famous.",
+    "Место: Чтобы сказать, где находится человек или группа: He is backstage. They are on stage.",
+    "Внешний образ: Чтобы описать одежду, грим или внешний вид: He is in costume. They are in makeup.",
+    "Профессия: Чтобы назвать профессию: He is a singer. She is a musician."
+  ],
   "rules": [
     {
       "title": "I → am",

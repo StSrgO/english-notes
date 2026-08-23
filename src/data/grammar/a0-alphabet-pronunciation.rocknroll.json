@@ -1,4 +1,4 @@
-﻿{
+{
   "variant": "rocknroll",
   "slug": "alphabet-pronunciation",
   "level": "A0",
@@ -22,32 +22,110 @@
     "Начать чувствовать ритм и поток английской речи."
   ],
   "alphabet": [
-    { "letter": "A", "name": "/eɪ/" },
-    { "letter": "B", "name": "/biː/" },
-    { "letter": "C", "name": "/siː/" },
-    { "letter": "D", "name": "/diː/" },
-    { "letter": "E", "name": "/iː/" },
-    { "letter": "F", "name": "/ɛf/" },
-    { "letter": "G", "name": "/dʒiː/" },
-    { "letter": "H", "name": "/eɪtʃ/" },
-    { "letter": "I", "name": "/aɪ/" },
-    { "letter": "J", "name": "/dʒeɪ/" },
-    { "letter": "K", "name": "/keɪ/" },
-    { "letter": "L", "name": "/ɛl/" },
-    { "letter": "M", "name": "/ɛm/" },
-    { "letter": "N", "name": "/ɛn/" },
-    { "letter": "O", "name": "/oʊ/" },
-    { "letter": "P", "name": "/piː/" },
-    { "letter": "Q", "name": "/kjuː/" },
-    { "letter": "R", "name": "/ɑːr/" },
-    { "letter": "S", "name": "/ɛs/" },
-    { "letter": "T", "name": "/tiː/" },
-    { "letter": "U", "name": "/juː/" },
-    { "letter": "V", "name": "/viː/" },
-    { "letter": "W", "name": "/ˈdʌbəljuː/" },
-    { "letter": "X", "name": "/ɛks/" },
-    { "letter": "Y", "name": "/waɪ/" },
-    { "letter": "Z", "name": "/zed/" }
+    {
+      "letter": "A",
+      "ipa": "/eɪ/"
+    },
+    {
+      "letter": "B",
+      "ipa": "/biː/"
+    },
+    {
+      "letter": "C",
+      "ipa": "/siː/"
+    },
+    {
+      "letter": "D",
+      "ipa": "/diː/"
+    },
+    {
+      "letter": "E",
+      "ipa": "/iː/"
+    },
+    {
+      "letter": "F",
+      "ipa": "/ɛf/"
+    },
+    {
+      "letter": "G",
+      "ipa": "/dʒiː/"
+    },
+    {
+      "letter": "H",
+      "ipa": "/eɪtʃ/"
+    },
+    {
+      "letter": "I",
+      "ipa": "/aɪ/"
+    },
+    {
+      "letter": "J",
+      "ipa": "/dʒeɪ/"
+    },
+    {
+      "letter": "K",
+      "ipa": "/keɪ/"
+    },
+    {
+      "letter": "L",
+      "ipa": "/ɛl/"
+    },
+    {
+      "letter": "M",
+      "ipa": "/ɛm/"
+    },
+    {
+      "letter": "N",
+      "ipa": "/ɛn/"
+    },
+    {
+      "letter": "O",
+      "ipa": "/oʊ/"
+    },
+    {
+      "letter": "P",
+      "ipa": "/piː/"
+    },
+    {
+      "letter": "Q",
+      "ipa": "/kjuː/"
+    },
+    {
+      "letter": "R",
+      "ipa": "/ɑːr/"
+    },
+    {
+      "letter": "S",
+      "ipa": "/ɛs/"
+    },
+    {
+      "letter": "T",
+      "ipa": "/tiː/"
+    },
+    {
+      "letter": "U",
+      "ipa": "/juː/"
+    },
+    {
+      "letter": "V",
+      "ipa": "/viː/"
+    },
+    {
+      "letter": "W",
+      "ipa": "/ˈdʌbəljuː/"
+    },
+    {
+      "letter": "X",
+      "ipa": "/ɛks/"
+    },
+    {
+      "letter": "Y",
+      "ipa": "/waɪ/"
+    },
+    {
+      "letter": "Z",
+      "ipa": "/zed/"
+    }
   ],
   "context": {
     "lines": [
@@ -116,29 +194,13 @@
     }
   },
   "formula": "",
-  "structure": {
-    "positive": "",
-    "negative": "",
-    "question": ""
-  },
+  "structure": {},
   "markers": [],
   "uses": [
-    {
-      "title": "Название буквы",
-      "text": "Каждая буква имеет собственное название: A — /eɪ/, B — /biː/, C — /siː/."
-    },
-    {
-      "title": "Звук буквы",
-      "text": "Название буквы не всегда совпадает с её звуком внутри слова."
-    },
-    {
-      "title": "Spelling",
-      "text": "При spelling слово произносится по отдельным названиям букв."
-    },
-    {
-      "title": "Ритм речи",
-      "text": "Произношение английского включает не только отдельные звуки, но и ритм, повтор и движение фразы."
-    }
+    "Название буквы: Каждая буква имеет собственное название: A — /eɪ/, B — /biː/, C — /siː/.",
+    "Звук буквы: Название буквы не всегда совпадает с её звуком внутри слова.",
+    "Spelling: При spelling слово произносится по отдельным названиям букв.",
+    "Ритм речи: Произношение английского включает не только отдельные звуки, но и ритм, повтор и движение фразы."
   ],
   "rules": [
     {
@@ -169,22 +231,30 @@
         {
           "en": "R — /ɑːr/",
           "ru": "R называется /ɑːr/.",
-          "highlight": ["R"]
+          "highlight": [
+            "R"
+          ]
         },
         {
           "en": "M — /ɛm/",
           "ru": "M называется /ɛm/.",
-          "highlight": ["M"]
+          "highlight": [
+            "M"
+          ]
         },
         {
           "en": "N — /ɛn/",
           "ru": "N называется /ɛn/.",
-          "highlight": ["N"]
+          "highlight": [
+            "N"
+          ]
         },
         {
           "en": "S — /ɛs/",
           "ru": "S называется /ɛs/.",
-          "highlight": ["S"]
+          "highlight": [
+            "S"
+          ]
         }
       ]
     },
@@ -194,22 +264,34 @@
         {
           "en": "A — /eɪ/; name — A = /eɪ/",
           "ru": "Название A и звук в некоторых словах могут совпадать.",
-          "highlight": ["A"]
+          "highlight": [
+            "A"
+          ]
         },
         {
           "en": "C — /siː/; cat — C = /k/",
           "ru": "Название C — /siː/, но в cat она обозначает /k/.",
-          "highlight": ["C", "/siː/", "/k/"]
+          "highlight": [
+            "C",
+            "/siː/",
+            "/k/"
+          ]
         },
         {
           "en": "G — /dʒiː/; go — G = /ɡ/",
           "ru": "Название G — /dʒiː/, но в go она обозначает /ɡ/.",
-          "highlight": ["G", "/dʒiː/", "/ɡ/"]
+          "highlight": [
+            "G",
+            "/dʒiː/",
+            "/ɡ/"
+          ]
         },
         {
           "en": "R — /ɑːr/",
           "ru": "R имеет собственное название, которое нужно отличать от её звука в слове.",
-          "highlight": ["R"]
+          "highlight": [
+            "R"
+          ]
         }
       ]
     },
@@ -219,22 +301,46 @@
         {
           "en": "RAMONES — R-A-M-O-N-E-S",
           "ru": "Ramones произносится по буквам как R-A-M-O-N-E-S.",
-          "highlight": ["R", "A", "M", "O", "N", "E", "S"]
+          "highlight": [
+            "R",
+            "A",
+            "M",
+            "O",
+            "N",
+            "E",
+            "S"
+          ]
         },
         {
           "en": "TOMMY — T-O-M-M-Y",
           "ru": "Tommy произносится по буквам как T-O-M-M-Y.",
-          "highlight": ["T", "O", "M", "Y"]
+          "highlight": [
+            "T",
+            "O",
+            "M",
+            "Y"
+          ]
         },
         {
           "en": "JOHNNY — J-O-H-N-N-Y",
           "ru": "Johnny произносится по буквам как J-O-H-N-N-Y.",
-          "highlight": ["J", "O", "H", "N", "Y"]
+          "highlight": [
+            "J",
+            "O",
+            "H",
+            "N",
+            "Y"
+          ]
         },
         {
           "en": "ROCK — R-O-C-K",
           "ru": "Rock произносится по буквам как R-O-C-K.",
-          "highlight": ["R", "O", "C", "K"]
+          "highlight": [
+            "R",
+            "O",
+            "C",
+            "K"
+          ]
         }
       ]
     },
@@ -244,22 +350,33 @@
         {
           "en": "The speed is pure Johnny.",
           "ru": "Скорость — это целиком заслуга Джонни.",
-          "highlight": ["speed", "Johnny"]
+          "highlight": [
+            "speed",
+            "Johnny"
+          ]
         },
         {
           "en": "We were looking for short songs.",
           "ru": "Мы искали короткие песни.",
-          "highlight": ["short songs"]
+          "highlight": [
+            "short songs"
+          ]
         },
         {
           "en": "The speed worked.",
           "ru": "Скорость сработала.",
-          "highlight": ["speed", "worked"]
+          "highlight": [
+            "speed",
+            "worked"
+          ]
         },
         {
           "en": "A simple solid beat.",
           "ru": "Простой, устойчивый ритм.",
-          "highlight": ["simple", "solid beat"]
+          "highlight": [
+            "simple",
+            "solid beat"
+          ]
         }
       ]
     }

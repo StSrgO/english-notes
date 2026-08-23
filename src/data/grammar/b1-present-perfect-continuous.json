@@ -112,27 +112,12 @@
     "lately",
     "recently"
   ],
-  "uses": {
-    "title": "Когда используем Present Perfect Continuous",
-    "items": [
-      {
-        "title": "Действие продолжается",
-        "text": "Действие началось в прошлом и продолжается сейчас: \"I have been writing for three hours.\""
-      },
-      {
-        "title": "Акцент на длительности",
-        "text": "Важно, как долго продолжается процесс: \"She has been working since morning.\""
-      },
-      {
-        "title": "Недавний процесс с результатом сейчас",
-        "text": "Действие только что закончилось или продолжается, а его след виден сейчас: \"I have been working all morning.\""
-      },
-      {
-        "title": "Процесс вместо результата",
-        "text": "Present Perfect Continuous подчёркивает деятельность: \"I have been rewriting the scene.\""
-      }
-    ]
-  },
+  "uses": [
+    "Действие продолжается: Действие началось в прошлом и продолжается сейчас: \"I have been writing for three hours.\"",
+    "Акцент на длительности: Важно, как долго продолжается процесс: \"She has been working since morning.\"",
+    "Недавний процесс с результатом сейчас: Действие только что закончилось или продолжается, а его след виден сейчас: \"I have been working all morning.\"",
+    "Процесс вместо результата: Present Perfect Continuous подчёркивает деятельность: \"I have been rewriting the scene.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -166,32 +151,44 @@
         {
           "en": "I have been writing for three hours.",
           "ru": "Я пишу уже три часа.",
-          "highlight": ["have been writing"]
+          "highlight": [
+            "have been writing"
+          ]
         },
         {
           "en": "She has been working since breakfast.",
           "ru": "Она работает с завтрака.",
-          "highlight": ["has been working"]
+          "highlight": [
+            "has been working"
+          ]
         },
         {
           "en": "We have been reading all morning.",
           "ru": "Мы читаем всё утро.",
-          "highlight": ["have been reading"]
+          "highlight": [
+            "have been reading"
+          ]
         },
         {
           "en": "He has been revising the manuscript for weeks.",
           "ru": "Он уже несколько недель редактирует рукопись.",
-          "highlight": ["has been revising"]
+          "highlight": [
+            "has been revising"
+          ]
         },
         {
           "en": "They have been discussing the novel since yesterday.",
           "ru": "Они обсуждают роман со вчерашнего дня.",
-          "highlight": ["have been discussing"]
+          "highlight": [
+            "have been discussing"
+          ]
         },
         {
           "en": "How long have you been writing?",
           "ru": "Как долго ты пишешь?",
-          "highlight": ["have you been writing"]
+          "highlight": [
+            "have you been writing"
+          ]
         }
       ]
     },
@@ -201,32 +198,44 @@
         {
           "en": "I have been writing all morning.",
           "ru": "Я всё утро писал.",
-          "highlight": ["have been writing"]
+          "highlight": [
+            "have been writing"
+          ]
         },
         {
           "en": "She has been working very hard.",
           "ru": "Она очень много работала.",
-          "highlight": ["has been working"]
+          "highlight": [
+            "has been working"
+          ]
         },
         {
           "en": "They have been rewriting the chapter.",
           "ru": "Они переписывали главу.",
-          "highlight": ["have been rewriting"]
+          "highlight": [
+            "have been rewriting"
+          ]
         },
         {
           "en": "He has been reading all afternoon.",
           "ru": "Он читал весь день.",
-          "highlight": ["has been reading"]
+          "highlight": [
+            "has been reading"
+          ]
         },
         {
           "en": "I have been thinking about the ending.",
           "ru": "Я всё это время думаю о концовке.",
-          "highlight": ["have been thinking"]
+          "highlight": [
+            "have been thinking"
+          ]
         },
         {
           "en": "She has been crying.",
           "ru": "Она плакала.",
-          "highlight": ["has been crying"]
+          "highlight": [
+            "has been crying"
+          ]
         }
       ]
     },
@@ -236,32 +245,44 @@
         {
           "en": "I have written three pages.",
           "ru": "Я написал три страницы.",
-          "highlight": ["have written"]
+          "highlight": [
+            "have written"
+          ]
         },
         {
           "en": "I have been writing for three hours.",
           "ru": "Я пишу уже три часа.",
-          "highlight": ["have been writing"]
+          "highlight": [
+            "have been writing"
+          ]
         },
         {
           "en": "She has finished the chapter.",
           "ru": "Она закончила главу.",
-          "highlight": ["has finished"]
+          "highlight": [
+            "has finished"
+          ]
         },
         {
           "en": "She has been working on the chapter all morning.",
           "ru": "Она всё утро работает над главой.",
-          "highlight": ["has been working"]
+          "highlight": [
+            "has been working"
+          ]
         },
         {
           "en": "We have read the book.",
           "ru": "Мы прочитали книгу.",
-          "highlight": ["have read"]
+          "highlight": [
+            "have read"
+          ]
         },
         {
           "en": "We have been reading the book all week.",
           "ru": "Мы читаем эту книгу всю неделю.",
-          "highlight": ["have been reading"]
+          "highlight": [
+            "have been reading"
+          ]
         }
       ]
     }

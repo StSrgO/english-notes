@@ -109,27 +109,12 @@
     "hope + to V",
     "plan + to V"
   ],
-  "uses": {
-    "title": "Как выбрать форму",
-    "items": [
-      {
-        "title": "Деятельность",
-        "text": "После некоторых глаголов действие воспринимается как занятие: \"He enjoys reading.\""
-      },
-      {
-        "title": "Намерение или решение",
-        "text": "После want, decide, hope, plan используется to + V: \"He decided to read.\""
-      },
-      {
-        "title": "Воспоминание о действии",
-        "text": "Remember doing говорит о том, что действие уже произошло: \"I remember reading it.\""
-      },
-      {
-        "title": "Действие, которое нужно выполнить",
-        "text": "Remember to do означает не забыть выполнить действие: \"Remember to read it.\""
-      }
-    ]
-  },
+  "uses": [
+    "Деятельность: После некоторых глаголов действие воспринимается как занятие: \"He enjoys reading.\"",
+    "Намерение или решение: После want, decide, hope, plan используется to + V: \"He decided to read.\"",
+    "Воспоминание о действии: Remember doing говорит о том, что действие уже произошло: \"I remember reading it.\"",
+    "Действие, которое нужно выполнить: Remember to do означает не забыть выполнить действие: \"Remember to read it.\""
+  ],
   "rules": [
     {
       "title": "Gerund после определённых глаголов",
@@ -163,32 +148,44 @@
         {
           "en": "Dickens enjoyed reading to an audience.",
           "ru": "Диккенсу нравилось читать перед публикой.",
-          "highlight": ["enjoyed reading"]
+          "highlight": [
+            "enjoyed reading"
+          ]
         },
         {
           "en": "She avoided speaking too quickly.",
           "ru": "Она старалась не говорить слишком быстро.",
-          "highlight": ["avoided speaking"]
+          "highlight": [
+            "avoided speaking"
+          ]
         },
         {
           "en": "He finished writing the speech.",
           "ru": "Он закончил писать речь.",
-          "highlight": ["finished writing"]
+          "highlight": [
+            "finished writing"
+          ]
         },
         {
           "en": "They kept rehearsing the scene.",
           "ru": "Они продолжали репетировать сцену.",
-          "highlight": ["kept rehearsing"]
+          "highlight": [
+            "kept rehearsing"
+          ]
         },
         {
           "en": "I don't mind waiting.",
           "ru": "Я не против подождать.",
-          "highlight": ["mind waiting"]
+          "highlight": [
+            "mind waiting"
+          ]
         },
         {
           "en": "She suggested changing the ending.",
           "ru": "Она предложила изменить концовку.",
-          "highlight": ["suggested changing"]
+          "highlight": [
+            "suggested changing"
+          ]
         }
       ]
     },
@@ -198,32 +195,44 @@
         {
           "en": "Dickens decided to read his own works.",
           "ru": "Диккенс решил читать свои произведения.",
-          "highlight": ["decided to read"]
+          "highlight": [
+            "decided to read"
+          ]
         },
         {
           "en": "He wanted to reach the audience.",
           "ru": "Он хотел достучаться до публики.",
-          "highlight": ["wanted to reach"]
+          "highlight": [
+            "wanted to reach"
+          ]
         },
         {
           "en": "They planned to perform the scene.",
           "ru": "Они планировали исполнить сцену.",
-          "highlight": ["planned to perform"]
+          "highlight": [
+            "planned to perform"
+          ]
         },
         {
           "en": "She hoped to succeed.",
           "ru": "Она надеялась добиться успеха.",
-          "highlight": ["hoped to succeed"]
+          "highlight": [
+            "hoped to succeed"
+          ]
         },
         {
           "en": "He promised to return.",
           "ru": "Он пообещал вернуться.",
-          "highlight": ["promised to return"]
+          "highlight": [
+            "promised to return"
+          ]
         },
         {
           "en": "We agreed to begin at eight.",
           "ru": "Мы договорились начать в восемь.",
-          "highlight": ["agreed to begin"]
+          "highlight": [
+            "agreed to begin"
+          ]
         }
       ]
     },
@@ -233,32 +242,44 @@
         {
           "en": "I remember reading the book.",
           "ru": "Я помню, что читал эту книгу.",
-          "highlight": ["remember reading"]
+          "highlight": [
+            "remember reading"
+          ]
         },
         {
           "en": "Remember to read the book.",
           "ru": "Не забудь прочитать эту книгу.",
-          "highlight": ["remember to read"]
+          "highlight": [
+            "remember to read"
+          ]
         },
         {
           "en": "He stopped reading.",
           "ru": "Он перестал читать.",
-          "highlight": ["stopped reading"]
+          "highlight": [
+            "stopped reading"
+          ]
         },
         {
           "en": "He stopped to read a passage.",
           "ru": "Он остановился, чтобы прочитать отрывок.",
-          "highlight": ["stopped to read"]
+          "highlight": [
+            "stopped to read"
+          ]
         },
         {
           "en": "Try reading the passage aloud.",
           "ru": "Попробуй прочитать отрывок вслух.",
-          "highlight": ["try reading"]
+          "highlight": [
+            "try reading"
+          ]
         },
         {
           "en": "Try to read the passage aloud.",
           "ru": "Постарайся прочитать отрывок вслух.",
-          "highlight": ["try to read"]
+          "highlight": [
+            "try to read"
+          ]
         }
       ]
     }

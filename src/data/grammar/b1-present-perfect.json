@@ -115,27 +115,12 @@
     "today",
     "this week"
   ],
-  "uses": {
-    "title": "Когда используем Present Perfect",
-    "items": [
-      {
-        "title": "Опыт",
-        "text": "Говорим о том, что человек когда-либо делал: \"I have lived in Paris.\""
-      },
-      {
-        "title": "Результат сейчас",
-        "text": "Действие завершилось, и его результат важен сейчас: \"I have finished the book.\""
-      },
-      {
-        "title": "Незавершённый период",
-        "text": "Говорим о действии в периоде, который ещё продолжается: \"I have written three pages today.\""
-      },
-      {
-        "title": "Связь прошлого с настоящим",
-        "text": "Прошлое рассматривается из настоящего: \"I have never forgotten those years.\""
-      }
-    ]
-  },
+  "uses": [
+    "Опыт: Говорим о том, что человек когда-либо делал: \"I have lived in Paris.\"",
+    "Результат сейчас: Действие завершилось, и его результат важен сейчас: \"I have finished the book.\"",
+    "Незавершённый период: Говорим о действии в периоде, который ещё продолжается: \"I have written three pages today.\"",
+    "Связь прошлого с настоящим: Прошлое рассматривается из настоящего: \"I have never forgotten those years.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -169,32 +154,44 @@
         {
           "en": "I have lived in Paris.",
           "ru": "Я жил в Париже.",
-          "highlight": ["have lived"]
+          "highlight": [
+            "have lived"
+          ]
         },
         {
           "en": "She has visited the city several times.",
           "ru": "Она несколько раз посещала этот город.",
-          "highlight": ["has visited"]
+          "highlight": [
+            "has visited"
+          ]
         },
         {
           "en": "We have read the book.",
           "ru": "Мы читали эту книгу.",
-          "highlight": ["have read"]
+          "highlight": [
+            "have read"
+          ]
         },
         {
           "en": "He has worked with many writers.",
           "ru": "Он работал со многими писателями.",
-          "highlight": ["has worked"]
+          "highlight": [
+            "has worked"
+          ]
         },
         {
           "en": "I have never forgotten that experience.",
           "ru": "Я никогда не забывал этот опыт.",
-          "highlight": ["have never forgotten"]
+          "highlight": [
+            "have never forgotten"
+          ]
         },
         {
           "en": "Have you ever lived abroad?",
           "ru": "Ты когда-нибудь жил за границей?",
-          "highlight": ["Have you ever lived"]
+          "highlight": [
+            "Have you ever lived"
+          ]
         }
       ]
     },
@@ -204,32 +201,44 @@
         {
           "en": "I have finished the manuscript.",
           "ru": "Я закончил рукопись.",
-          "highlight": ["have finished"]
+          "highlight": [
+            "have finished"
+          ]
         },
         {
           "en": "She has written the final chapter.",
           "ru": "Она написала последнюю главу.",
-          "highlight": ["has written"]
+          "highlight": [
+            "has written"
+          ]
         },
         {
           "en": "We have completed the first draft.",
           "ru": "Мы закончили первый черновик.",
-          "highlight": ["have completed"]
+          "highlight": [
+            "have completed"
+          ]
         },
         {
           "en": "He has changed the ending.",
           "ru": "Он изменил концовку.",
-          "highlight": ["has changed"]
+          "highlight": [
+            "has changed"
+          ]
         },
         {
           "en": "They have already finished the work.",
           "ru": "Они уже закончили работу.",
-          "highlight": ["have already finished"]
+          "highlight": [
+            "have already finished"
+          ]
         },
         {
           "en": "I have just opened the book.",
           "ru": "Я только что открыл книгу.",
-          "highlight": ["have just opened"]
+          "highlight": [
+            "have just opened"
+          ]
         }
       ]
     },
@@ -239,32 +248,44 @@
         {
           "en": "I have written three pages today.",
           "ru": "Сегодня я написал три страницы.",
-          "highlight": ["have written"]
+          "highlight": [
+            "have written"
+          ]
         },
         {
           "en": "She has read two chapters this morning.",
           "ru": "Сегодня утром она прочитала две главы.",
-          "highlight": ["has read"]
+          "highlight": [
+            "has read"
+          ]
         },
         {
           "en": "We have discussed the book this week.",
           "ru": "На этой неделе мы обсуждали книгу.",
-          "highlight": ["have discussed"]
+          "highlight": [
+            "have discussed"
+          ]
         },
         {
           "en": "He has written several letters this month.",
           "ru": "В этом месяце он написал несколько писем.",
-          "highlight": ["has written"]
+          "highlight": [
+            "has written"
+          ]
         },
         {
           "en": "I haven't finished the chapter yet.",
           "ru": "Я ещё не закончил главу.",
-          "highlight": ["haven't finished"]
+          "highlight": [
+            "haven't finished"
+          ]
         },
         {
           "en": "Have you read the article today?",
           "ru": "Ты сегодня читал эту статью?",
-          "highlight": ["Have you read"]
+          "highlight": [
+            "Have you read"
+          ]
         }
       ]
     }

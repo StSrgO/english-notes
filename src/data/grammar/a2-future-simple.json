@@ -103,23 +103,11 @@
     "in the future",
     "one day"
   ],
-  "uses": {
-    "title": "Когда используем Future Simple",
-    "items": [
-      {
-        "title": "Прогноз",
-        "text": "Говорящий предполагает, что произойдёт в будущем: \"The next chapter will be interesting.\""
-      },
-      {
-        "title": "Обещание",
-        "text": "Говорящий обещает что-то сделать: \"I will finish the story.\""
-      },
-      {
-        "title": "Решение сейчас",
-        "text": "Решение появляется в момент речи: \"I'll read it tonight.\""
-      }
-    ]
-  },
+  "uses": [
+    "Прогноз: Говорящий предполагает, что произойдёт в будущем: \"The next chapter will be interesting.\"",
+    "Обещание: Говорящий обещает что-то сделать: \"I will finish the story.\"",
+    "Решение сейчас: Решение появляется в момент речи: \"I'll read it tonight.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -149,22 +137,30 @@
         {
           "en": "The next chapter will be different.",
           "ru": "Следующая глава будет другой.",
-          "highlight": ["will be"]
+          "highlight": [
+            "will be"
+          ]
         },
         {
           "en": "The story will continue.",
           "ru": "История продолжится.",
-          "highlight": ["will continue"]
+          "highlight": [
+            "will continue"
+          ]
         },
         {
           "en": "The readers will wait for the next part.",
           "ru": "Читатели будут ждать следующую часть.",
-          "highlight": ["will wait"]
+          "highlight": [
+            "will wait"
+          ]
         },
         {
           "en": "The next part will reveal more.",
           "ru": "Следующая часть расскажет больше.",
-          "highlight": ["will reveal"]
+          "highlight": [
+            "will reveal"
+          ]
         }
       ]
     },
@@ -174,22 +170,30 @@
         {
           "en": "I'll read the next chapter.",
           "ru": "Я прочитаю следующую главу.",
-          "highlight": ["I'll read"]
+          "highlight": [
+            "I'll read"
+          ]
         },
         {
           "en": "I'll finish the story.",
           "ru": "Я закончу историю.",
-          "highlight": ["I'll finish"]
+          "highlight": [
+            "I'll finish"
+          ]
         },
         {
           "en": "I will tell you what happens next.",
           "ru": "Я расскажу тебе, что произойдёт дальше.",
-          "highlight": ["will tell"]
+          "highlight": [
+            "will tell"
+          ]
         },
         {
           "en": "I won't forget the story.",
           "ru": "Я не забуду эту историю.",
-          "highlight": ["won't forget"]
+          "highlight": [
+            "won't forget"
+          ]
         }
       ]
     }

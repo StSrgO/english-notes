@@ -123,31 +123,13 @@
     "these days",
     "still"
   ],
-  "uses": {
-    "title": "Когда используется Present Continuous",
-    "items": [
-      {
-        "title": "Прямо сейчас",
-        "text": "Для действия, происходящего в момент речи: Dexter is recording now."
-      },
-      {
-        "title": "Текущий период",
-        "text": "Для временного процесса, который продолжается сейчас: The band are working on the album this week."
-      },
-      {
-        "title": "Одновременные процессы",
-        "text": "Для нескольких действий, происходящих параллельно: Dexter is writing while the band are recording."
-      },
-      {
-        "title": "Изменение",
-        "text": "Для процесса развития или изменения: The song is changing. The album is taking shape."
-      },
-      {
-        "title": "Временная ситуация",
-        "text": "Для ситуации, ограниченной текущим периодом: They are working in the studio this month."
-      }
-    ]
-  },
+  "uses": [
+    "Прямо сейчас: Для действия, происходящего в момент речи: Dexter is recording now.",
+    "Текущий период: Для временного процесса, который продолжается сейчас: The band are working on the album this week.",
+    "Одновременные процессы: Для нескольких действий, происходящих параллельно: Dexter is writing while the band are recording.",
+    "Изменение: Для процесса развития или изменения: The song is changing. The album is taking shape.",
+    "Временная ситуация: Для ситуации, ограниченной текущим периодом: They are working in the studio this month."
+  ],
   "rules": [
     {
       "title": "I → am",
@@ -189,32 +171,44 @@
         {
           "en": "Dexter is writing a new lyric.",
           "ru": "Декстер пишет новый текст.",
-          "highlight": ["is writing"]
+          "highlight": [
+            "is writing"
+          ]
         },
         {
           "en": "He is recording the vocal.",
           "ru": "Он записывает вокал.",
-          "highlight": ["is recording"]
+          "highlight": [
+            "is recording"
+          ]
         },
         {
           "en": "The band are playing another take.",
           "ru": "Группа играет ещё один дубль.",
-          "highlight": ["are playing"]
+          "highlight": [
+            "are playing"
+          ]
         },
         {
           "en": "The engineers are listening carefully.",
           "ru": "Звукорежиссёры внимательно слушают.",
-          "highlight": ["are listening"]
+          "highlight": [
+            "are listening"
+          ]
         },
         {
           "en": "They are checking the recording.",
           "ru": "Они проверяют запись.",
-          "highlight": ["are checking"]
+          "highlight": [
+            "are checking"
+          ]
         },
         {
           "en": "The album is taking shape.",
           "ru": "Альбом постепенно складывается.",
-          "highlight": ["is taking"]
+          "highlight": [
+            "is taking"
+          ]
         }
       ]
     },
@@ -224,32 +218,44 @@
         {
           "en": "The Offspring are recording Smash this month.",
           "ru": "В этом месяце The Offspring записывают Smash.",
-          "highlight": ["are recording"]
+          "highlight": [
+            "are recording"
+          ]
         },
         {
           "en": "Dexter is working on the remaining songs.",
           "ru": "Декстер работает над оставшимися песнями.",
-          "highlight": ["is working"]
+          "highlight": [
+            "is working"
+          ]
         },
         {
           "en": "The band are spending long nights in the studio.",
           "ru": "Группа проводит долгие ночи в студии.",
-          "highlight": ["are spending"]
+          "highlight": [
+            "are spending"
+          ]
         },
         {
           "en": "They are working under a tight deadline.",
           "ru": "Они работают в условиях жёстких сроков.",
-          "highlight": ["are working"]
+          "highlight": [
+            "are working"
+          ]
         },
         {
           "en": "The engineers are preparing another session.",
           "ru": "Звукорежиссёры готовят ещё одну сессию.",
-          "highlight": ["are preparing"]
+          "highlight": [
+            "are preparing"
+          ]
         },
         {
           "en": "The group are finishing the final songs.",
           "ru": "Группа заканчивает последние песни.",
-          "highlight": ["are finishing"]
+          "highlight": [
+            "are finishing"
+          ]
         }
       ]
     },
@@ -259,32 +265,48 @@
         {
           "en": "Dexter is writing while the band are recording.",
           "ru": "Декстер пишет, пока группа записывает.",
-          "highlight": ["is writing", "are recording"]
+          "highlight": [
+            "is writing",
+            "are recording"
+          ]
         },
         {
           "en": "The musicians are playing while the engineers are listening.",
           "ru": "Музыканты играют, пока звукорежиссёры слушают.",
-          "highlight": ["are playing", "are listening"]
+          "highlight": [
+            "are playing",
+            "are listening"
+          ]
         },
         {
           "en": "Dexter is writing while the others are working.",
           "ru": "Декстер пишет, пока остальные работают.",
-          "highlight": ["is writing", "are working"]
+          "highlight": [
+            "is writing",
+            "are working"
+          ]
         },
         {
           "en": "The band are recording while the engineer is checking the sound.",
           "ru": "Группа записывает, пока звукорежиссёр проверяет звук.",
-          "highlight": ["are recording", "is checking"]
+          "highlight": [
+            "are recording",
+            "is checking"
+          ]
         },
         {
           "en": "Everyone is working at the same time.",
           "ru": "Все работают одновременно.",
-          "highlight": ["is working"]
+          "highlight": [
+            "is working"
+          ]
         },
         {
           "en": "They are all trying to finish the album.",
           "ru": "Все они пытаются закончить альбом.",
-          "highlight": ["are trying"]
+          "highlight": [
+            "are trying"
+          ]
         }
       ]
     },
@@ -294,32 +316,44 @@
         {
           "en": "The song is changing in the studio.",
           "ru": "Песня меняется в студии.",
-          "highlight": ["is changing"]
+          "highlight": [
+            "is changing"
+          ]
         },
         {
           "en": "The sound is getting louder.",
           "ru": "Звук становится громче.",
-          "highlight": ["is getting"]
+          "highlight": [
+            "is getting"
+          ]
         },
         {
           "en": "The track is becoming clearer.",
           "ru": "Трек становится яснее.",
-          "highlight": ["is becoming"]
+          "highlight": [
+            "is becoming"
+          ]
         },
         {
           "en": "The album is taking shape.",
           "ru": "Альбом постепенно складывается.",
-          "highlight": ["is taking"]
+          "highlight": [
+            "is taking"
+          ]
         },
         {
           "en": "The recording is developing quickly.",
           "ru": "Запись быстро развивается.",
-          "highlight": ["is developing"]
+          "highlight": [
+            "is developing"
+          ]
         },
         {
           "en": "The final songs are coming together.",
           "ru": "Последние песни постепенно складываются.",
-          "highlight": ["are coming"]
+          "highlight": [
+            "are coming"
+          ]
         }
       ]
     },
@@ -329,32 +363,44 @@
         {
           "en": "Dexter isn't sleeping yet.",
           "ru": "Декстер ещё не спит.",
-          "highlight": ["isn't sleeping"]
+          "highlight": [
+            "isn't sleeping"
+          ]
         },
         {
           "en": "The band aren't stopping.",
           "ru": "Группа не останавливается.",
-          "highlight": ["aren't stopping"]
+          "highlight": [
+            "aren't stopping"
+          ]
         },
         {
           "en": "They aren't recording this moment.",
           "ru": "Они сейчас не записывают.",
-          "highlight": ["aren't recording"]
+          "highlight": [
+            "aren't recording"
+          ]
         },
         {
           "en": "Is Dexter writing another song?",
           "ru": "Декстер пишет ещё одну песню?",
-          "highlight": ["Is"]
+          "highlight": [
+            "Is"
+          ]
         },
         {
           "en": "Are the band recording another take?",
           "ru": "Группа записывает ещё один дубль?",
-          "highlight": ["Are"]
+          "highlight": [
+            "Are"
+          ]
         },
         {
           "en": "Are the engineers checking the sound?",
           "ru": "Звукорежиссёры проверяют звук?",
-          "highlight": ["Are"]
+          "highlight": [
+            "Are"
+          ]
         }
       ]
     },
@@ -364,32 +410,44 @@
         {
           "en": "Dexter writes songs.",
           "ru": "Декстер пишет песни.",
-          "highlight": ["writes"]
+          "highlight": [
+            "writes"
+          ]
         },
         {
           "en": "Dexter is writing a song.",
           "ru": "Декстер пишет песню.",
-          "highlight": ["is writing"]
+          "highlight": [
+            "is writing"
+          ]
         },
         {
           "en": "The Offspring record albums.",
           "ru": "The Offspring записывают альбомы.",
-          "highlight": ["record"]
+          "highlight": [
+            "record"
+          ]
         },
         {
           "en": "The Offspring are recording Smash.",
           "ru": "The Offspring записывают Smash.",
-          "highlight": ["are recording"]
+          "highlight": [
+            "are recording"
+          ]
         },
         {
           "en": "The band play punk rock.",
           "ru": "Группа играет панк-рок.",
-          "highlight": ["play"]
+          "highlight": [
+            "play"
+          ]
         },
         {
           "en": "The band are playing another take.",
           "ru": "Группа играет ещё один дубль.",
-          "highlight": ["are playing"]
+          "highlight": [
+            "are playing"
+          ]
         }
       ]
     }

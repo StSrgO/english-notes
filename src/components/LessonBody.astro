@@ -94,11 +94,24 @@ function ideaHtml(text) {
 <section id={'reference' + s} class="lv2-sec" data-spybase="reference" {...reveal}>
   <h2 class="lv2-h">Справочник</h2>
   {T?.formula && <div class="lv2-formula">{T.formula}</div>}
-  {T?.structure && (
+  {T?.structure && Object.keys(T.structure).length > 0 && (
     <div class="lv2-struct">
-      <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{T.structure.positive}</span></div>
-      <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{T.structure.negative}</span></div>
-      <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{T.structure.question}</span></div>
+      {(['positive', 'negative', 'question'].every((k) => Object.prototype.hasOwnProperty.call(T.structure, k))) ? (
+        <>
+          <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{T.structure.positive}</span></div>
+          <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{T.structure.negative}</span></div>
+          <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{T.structure.question}</span></div>
+        </>
+      ) : (
+        Object.entries(T.structure)
+          .filter(([_, value]) => value !== null && value !== undefined && String(value).trim() !== '')
+          .map(([key, value]) => (
+            <div class="lv2-struct__row">
+              <span class="lv2-struct__k">{key}</span>
+              <span>{String(value)}</span>
+            </div>
+          ))
+      )}
     </div>
   )}
   {T.markers && T.markers.length > 0 && (
@@ -175,13 +188,25 @@ function ideaHtml(text) {
     </div>
   )}
 
-  {T.compare && (
+  {T.compare && T.compare.rows && T.compare.rows.length > 0 && (
     <div class="compare">
       <h3 class="lv2-h3">{T.compare.title}</h3>
       <table>
-        <thead><tr><th>{T.compare.leftLabel}</th><th>{T.compare.rightLabel}</th></tr></thead>
+        <thead>
+          <tr>
+            <th>{T.compare.leftLabel}</th>
+            {T.compare.centerLabel && <th>{T.compare.centerLabel}</th>}
+            <th>{T.compare.rightLabel}</th>
+          </tr>
+        </thead>
         <tbody>
-          {T.compare.rows.map((r) => <tr><td>{r.left}</td><td>{r.right}</td></tr>)}
+          {T.compare.rows.map((r) => (
+            <tr>
+              <td>{r.left}</td>
+              {T.compare.centerLabel && <td>{r.center}</td>}
+              <td>{r.right}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

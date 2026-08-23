@@ -117,31 +117,13 @@
     "would + V1",
     "could/might + V1"
   ],
-  "uses": {
-    "title": "Что выражает Second Conditional",
-    "items": [
-      {
-        "title": "Нереальное настоящее",
-        "text": "Говорящий представляет ситуацию, которая сейчас не соответствует действительности: If I were free, I would leave."
-      },
-      {
-        "title": "Маловероятное будущее",
-        "text": "Конструкция может описывать маловероятный будущий вариант: If they offered me the position, I would refuse."
-      },
-      {
-        "title": "Альтернативный результат",
-        "text": "Would показывает, что произошло бы в созданной условной ситуации."
-      },
-      {
-        "title": "Возможность",
-        "text": "Could и might позволяют выразить возможный, а не обязательный результат."
-      },
-      {
-        "title": "Гипотетическая оценка",
-        "text": "Second Conditional позволяет рассуждать о том, как изменилась бы ситуация при другом условии."
-      }
-    ]
-  },
+  "uses": [
+    "Нереальное настоящее: Говорящий представляет ситуацию, которая сейчас не соответствует действительности: If I were free, I would leave.",
+    "Маловероятное будущее: Конструкция может описывать маловероятный будущий вариант: If they offered me the position, I would refuse.",
+    "Альтернативный результат: Would показывает, что произошло бы в созданной условной ситуации.",
+    "Возможность: Could и might позволяют выразить возможный, а не обязательный результат.",
+    "Гипотетическая оценка: Second Conditional позволяет рассуждать о том, как изменилась бы ситуация при другом условии."
+  ],
   "rules": [
     {
       "title": "If + Past Simple",
@@ -175,22 +157,34 @@
         {
           "en": "If I were free, I would leave.",
           "ru": "Если бы я был свободен, я бы ушёл.",
-          "highlight": ["If I were", "would leave"]
+          "highlight": [
+            "If I were",
+            "would leave"
+          ]
         },
         {
           "en": "If Sue were happier, she would stay.",
           "ru": "Если бы Сью была счастливее, она бы осталась.",
-          "highlight": ["If Sue were", "would stay"]
+          "highlight": [
+            "If Sue were",
+            "would stay"
+          ]
         },
         {
           "en": "If Jude lived in Christminster, he would feel different.",
           "ru": "Если бы Джуд жил в Крайстминстере, он чувствовал бы себя иначе.",
-          "highlight": ["If Jude lived", "would feel"]
+          "highlight": [
+            "If Jude lived",
+            "would feel"
+          ]
         },
         {
           "en": "If I were you, I would refuse.",
           "ru": "На твоём месте я бы отказался.",
-          "highlight": ["If I were you", "would refuse"]
+          "highlight": [
+            "If I were you",
+            "would refuse"
+          ]
         }
       ]
     },
@@ -200,22 +194,34 @@
         {
           "en": "If Jude were free, he could choose his own path.",
           "ru": "Если бы Джуд был свободен, он мог бы выбрать свой путь.",
-          "highlight": ["If Jude were", "could choose"]
+          "highlight": [
+            "If Jude were",
+            "could choose"
+          ]
         },
         {
           "en": "If Sue were less afraid, she might leave.",
           "ru": "Если бы Сью меньше боялась, она, возможно, ушла бы.",
-          "highlight": ["If Sue were", "might leave"]
+          "highlight": [
+            "If Sue were",
+            "might leave"
+          ]
         },
         {
           "en": "If they lived together, they might be happier.",
           "ru": "Если бы они жили вместе, они, возможно, были бы счастливее.",
-          "highlight": ["If they lived", "might be"]
+          "highlight": [
+            "If they lived",
+            "might be"
+          ]
         },
         {
           "en": "If he had more freedom, he could study.",
           "ru": "Если бы у него было больше свободы, он мог бы учиться.",
-          "highlight": ["If he had", "could study"]
+          "highlight": [
+            "If he had",
+            "could study"
+          ]
         }
       ]
     },
@@ -225,22 +231,34 @@
         {
           "en": "If she were yours it would be different!",
           "ru": "Если бы она была твоей, всё было бы иначе!",
-          "highlight": ["If she were yours", "would be different"]
+          "highlight": [
+            "If she were yours",
+            "would be different"
+          ]
         },
         {
           "en": "If I were unhappy it would be my fault.",
           "ru": "Если бы я была несчастна, это была бы моя вина.",
-          "highlight": ["If I were unhappy", "would be my fault"]
+          "highlight": [
+            "If I were unhappy",
+            "would be my fault"
+          ]
         },
         {
           "en": "If Jude were free from social rules, he would live differently.",
           "ru": "Если бы Джуд был свободен от социальных правил, он жил бы иначе.",
-          "highlight": ["If Jude were", "would live"]
+          "highlight": [
+            "If Jude were",
+            "would live"
+          ]
         },
         {
           "en": "If Sue could choose everything herself, she might reject marriage.",
           "ru": "Если бы Сью могла сама выбирать всё, она, возможно, отвергла бы брак.",
-          "highlight": ["If Sue could", "might reject"]
+          "highlight": [
+            "If Sue could",
+            "might reject"
+          ]
         }
       ]
     },
@@ -250,22 +268,34 @@
         {
           "en": "If the university opened its doors to everyone, Jude would apply.",
           "ru": "Если бы университет открыл двери для всех, Джуд подал бы заявление.",
-          "highlight": ["If the university opened", "would apply"]
+          "highlight": [
+            "If the university opened",
+            "would apply"
+          ]
         },
         {
           "en": "If society changed its rules, their choices would be different.",
           "ru": "Если бы общество изменило свои правила, их выбор был бы другим.",
-          "highlight": ["If society changed", "would be"]
+          "highlight": [
+            "If society changed",
+            "would be"
+          ]
         },
         {
           "en": "If Sue found a new life, she could become independent.",
           "ru": "Если бы Сью нашла новую жизнь, она могла бы стать независимой.",
-          "highlight": ["If Sue found", "could become"]
+          "highlight": [
+            "If Sue found",
+            "could become"
+          ]
         },
         {
           "en": "If Jude were offered another chance, he might take it.",
           "ru": "Если бы Джуду дали ещё один шанс, он, возможно, воспользовался бы им.",
-          "highlight": ["If Jude were offered", "might take"]
+          "highlight": [
+            "If Jude were offered",
+            "might take"
+          ]
         }
       ]
     },
@@ -275,12 +305,18 @@
         {
           "en": "If Jude were free, he would leave.",
           "ru": "Если бы Джуд был свободен, он бы ушёл.",
-          "highlight": ["If Jude were", "would leave"]
+          "highlight": [
+            "If Jude were",
+            "would leave"
+          ]
         },
         {
           "en": "If Jude had been free, he would have left.",
           "ru": "Если бы Джуд был свободен тогда, он бы ушёл.",
-          "highlight": ["If Jude had been", "would have left"]
+          "highlight": [
+            "If Jude had been",
+            "would have left"
+          ]
         }
       ]
     },
@@ -290,12 +326,18 @@
         {
           "en": "If Sue leaves, Jude will follow her.",
           "ru": "Если Сью уйдёт, Джуд последует за ней.",
-          "highlight": ["If Sue leaves", "will follow"]
+          "highlight": [
+            "If Sue leaves",
+            "will follow"
+          ]
         },
         {
           "en": "If Sue left, Jude would follow her.",
           "ru": "Если бы Сью ушла, Джуд последовал бы за ней.",
-          "highlight": ["If Sue left", "would follow"]
+          "highlight": [
+            "If Sue left",
+            "would follow"
+          ]
         }
       ]
     }

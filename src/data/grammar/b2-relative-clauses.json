@@ -121,31 +121,13 @@
     "who/which + clause",
     "noun + clause without relative pronoun"
   ],
-  "uses": {
-    "title": "Как Relative Clauses добавляют информацию",
-    "items": [
-      {
-        "title": "Идентификация",
-        "text": "Relative Clause помогает определить, о каком человеке или предмете идёт речь: the man who took it."
-      },
-      {
-        "title": "Описание человека",
-        "text": "Для людей используется who: the man who came to the castle."
-      },
-      {
-        "title": "Описание предмета",
-        "text": "Для предметов используется which или that: the box which arrived at Galatz."
-      },
-      {
-        "title": "Дополнительная информация",
-        "text": "Non-defining clause выделяется запятыми: Van Helsing, who was a doctor, studied the evidence."
-      },
-      {
-        "title": "Место и время",
-        "text": "Where и when связывают существительное с местом или временем: the house where he lived; the night when he arrived."
-      }
-    ]
-  },
+  "uses": [
+    "Идентификация: Relative Clause помогает определить, о каком человеке или предмете идёт речь: the man who took it.",
+    "Описание человека: Для людей используется who: the man who came to the castle.",
+    "Описание предмета: Для предметов используется which или that: the box which arrived at Galatz.",
+    "Дополнительная информация: Non-defining clause выделяется запятыми: Van Helsing, who was a doctor, studied the evidence.",
+    "Место и время: Where и when связывают существительное с местом или временем: the house where he lived; the night when he arrived."
+  ],
   "rules": [
     {
       "title": "Who",

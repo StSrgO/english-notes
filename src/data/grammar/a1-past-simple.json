@@ -126,27 +126,12 @@
     "finally",
     "in 1892"
   ],
-  "uses": {
-    "title": "Когда используется Past Simple",
-    "items": [
-      {
-        "title": "Завершённое событие",
-        "text": "Для действия, которое произошло и завершилось в прошлом: Holmes arrived in Dartmoor."
-      },
-      {
-        "title": "Последовательность событий",
-        "text": "Для цепочки действий в рассказе: Holmes arrived, examined the stable and followed the tracks."
-      },
-      {
-        "title": "Прошлый факт",
-        "text": "Для факта, относящегося к завершённому прошлому периоду."
-      },
-      {
-        "title": "Повторяющееся действие в прошлом",
-        "text": "Для привычки или повторения внутри завершённого прошлого периода: Holmes visited the stable every day."
-      }
-    ]
-  },
+  "uses": [
+    "Завершённое событие: Для действия, которое произошло и завершилось в прошлом: Holmes arrived in Dartmoor.",
+    "Последовательность событий: Для цепочки действий в рассказе: Holmes arrived, examined the stable and followed the tracks.",
+    "Прошлый факт: Для факта, относящегося к завершённому прошлому периоду.",
+    "Повторяющееся действие в прошлом: Для привычки или повторения внутри завершённого прошлого периода: Holmes visited the stable every day."
+  ],
   "rules": [
     {
       "title": "Правильные глаголы",
@@ -184,32 +169,44 @@
         {
           "en": "Holmes arrived in Dartmoor.",
           "ru": "Холмс приехал в Дартмур.",
-          "highlight": ["arrived"]
+          "highlight": [
+            "arrived"
+          ]
         },
         {
           "en": "He examined the stable.",
           "ru": "Он осмотрел конюшню.",
-          "highlight": ["examined"]
+          "highlight": [
+            "examined"
+          ]
         },
         {
           "en": "He followed the tracks.",
           "ru": "Он пошёл по следам.",
-          "highlight": ["followed"]
+          "highlight": [
+            "followed"
+          ]
         },
         {
           "en": "He found Silver Blaze.",
           "ru": "Он нашёл Silver Blaze.",
-          "highlight": ["found"]
+          "highlight": [
+            "found"
+          ]
         },
         {
           "en": "He explained the case.",
           "ru": "Он объяснил дело.",
-          "highlight": ["explained"]
+          "highlight": [
+            "explained"
+          ]
         },
         {
           "en": "He returned to London.",
           "ru": "Он вернулся в Лондон.",
-          "highlight": ["returned"]
+          "highlight": [
+            "returned"
+          ]
         }
       ]
     },
@@ -219,32 +216,50 @@
         {
           "en": "Holmes arrived, examined the stable, and followed the tracks.",
           "ru": "Холмс приехал, осмотрел конюшню и пошёл по следам.",
-          "highlight": ["arrived", "examined", "followed"]
+          "highlight": [
+            "arrived",
+            "examined",
+            "followed"
+          ]
         },
         {
           "en": "He opened the door and looked inside.",
           "ru": "Он открыл дверь и заглянул внутрь.",
-          "highlight": ["opened", "looked"]
+          "highlight": [
+            "opened",
+            "looked"
+          ]
         },
         {
           "en": "He found the clue and followed the trail.",
           "ru": "Он нашёл улику и пошёл по следу.",
-          "highlight": ["found", "followed"]
+          "highlight": [
+            "found",
+            "followed"
+          ]
         },
         {
           "en": "Watson listened and Holmes explained.",
           "ru": "Ватсон слушал, а Холмс объяснял.",
-          "highlight": ["listened", "explained"]
+          "highlight": [
+            "listened",
+            "explained"
+          ]
         },
         {
           "en": "They reached the stable and spoke to the trainer.",
           "ru": "Они дошли до конюшни и поговорили с тренером.",
-          "highlight": ["reached", "spoke"]
+          "highlight": [
+            "reached",
+            "spoke"
+          ]
         },
         {
           "en": "Finally, Holmes solved the mystery.",
           "ru": "Наконец Холмс разгадал тайну.",
-          "highlight": ["solved"]
+          "highlight": [
+            "solved"
+          ]
         }
       ]
     },
@@ -254,32 +269,44 @@
         {
           "en": "Holmes found the horse.",
           "ru": "Холмс нашёл лошадь.",
-          "highlight": ["found"]
+          "highlight": [
+            "found"
+          ]
         },
         {
           "en": "He went to the other stable.",
           "ru": "Он пошёл к другой конюшне.",
-          "highlight": ["went"]
+          "highlight": [
+            "went"
+          ]
         },
         {
           "en": "He saw the tracks.",
           "ru": "Он увидел следы.",
-          "highlight": ["saw"]
+          "highlight": [
+            "saw"
+          ]
         },
         {
           "en": "He took the train to Dartmoor.",
           "ru": "Он сел на поезд до Дартмура.",
-          "highlight": ["took"]
+          "highlight": [
+            "took"
+          ]
         },
         {
           "en": "Watson came with him.",
           "ru": "Ватсон поехал с ним.",
-          "highlight": ["came"]
+          "highlight": [
+            "came"
+          ]
         },
         {
           "en": "They left the town later.",
           "ru": "Позже они покинули город.",
-          "highlight": ["left"]
+          "highlight": [
+            "left"
+          ]
         }
       ]
     },
@@ -289,32 +316,47 @@
         {
           "en": "Holmes didn't leave immediately.",
           "ru": "Холмс не ушёл сразу.",
-          "highlight": ["didn't leave"]
+          "highlight": [
+            "didn't leave"
+          ]
         },
         {
           "en": "He didn't find the horse at first.",
           "ru": "Сначала он не нашёл лошадь.",
-          "highlight": ["didn't find"]
+          "highlight": [
+            "didn't find"
+          ]
         },
         {
           "en": "Watson didn't understand the clue.",
           "ru": "Ватсон не понял улику.",
-          "highlight": ["didn't understand"]
+          "highlight": [
+            "didn't understand"
+          ]
         },
         {
           "en": "Did Holmes find the horse?",
           "ru": "Холмс нашёл лошадь?",
-          "highlight": ["Did", "find"]
+          "highlight": [
+            "Did",
+            "find"
+          ]
         },
         {
           "en": "Did Watson see the tracks?",
           "ru": "Ватсон увидел следы?",
-          "highlight": ["Did", "see"]
+          "highlight": [
+            "Did",
+            "see"
+          ]
         },
         {
           "en": "Did Holmes explain the mystery?",
           "ru": "Холмс объяснил тайну?",
-          "highlight": ["Did", "explain"]
+          "highlight": [
+            "Did",
+            "explain"
+          ]
         }
       ]
     },
@@ -324,32 +366,49 @@
         {
           "en": "Holmes arrived yesterday.",
           "ru": "Холмс приехал вчера.",
-          "highlight": ["arrived", "yesterday"]
+          "highlight": [
+            "arrived",
+            "yesterday"
+          ]
         },
         {
           "en": "The horse disappeared last night.",
           "ru": "Лошадь исчезла прошлой ночью.",
-          "highlight": ["disappeared", "last night"]
+          "highlight": [
+            "disappeared",
+            "last night"
+          ]
         },
         {
           "en": "Holmes found the clue two hours later.",
           "ru": "Холмс нашёл улику два часа спустя.",
-          "highlight": ["found", "two hours later"]
+          "highlight": [
+            "found",
+            "two hours later"
+          ]
         },
         {
           "en": "He returned to London the next day.",
           "ru": "На следующий день он вернулся в Лондон.",
-          "highlight": ["returned"]
+          "highlight": [
+            "returned"
+          ]
         },
         {
           "en": "The story appeared in 1892.",
           "ru": "Рассказ появился в 1892 году.",
-          "highlight": ["appeared", "in 1892"]
+          "highlight": [
+            "appeared",
+            "in 1892"
+          ]
         },
         {
           "en": "Watson wrote about the case later.",
           "ru": "Позже Ватсон написал об этом деле.",
-          "highlight": ["wrote", "later"]
+          "highlight": [
+            "wrote",
+            "later"
+          ]
         }
       ]
     },
@@ -359,32 +418,44 @@
         {
           "en": "Holmes examines evidence.",
           "ru": "Холмс изучает улики.",
-          "highlight": ["examines"]
+          "highlight": [
+            "examines"
+          ]
         },
         {
           "en": "Holmes examined the evidence.",
           "ru": "Холмс изучил улики.",
-          "highlight": ["examined"]
+          "highlight": [
+            "examined"
+          ]
         },
         {
           "en": "He finds clues.",
           "ru": "Он находит улики.",
-          "highlight": ["finds"]
+          "highlight": [
+            "finds"
+          ]
         },
         {
           "en": "He found a clue.",
           "ru": "Он нашёл улику.",
-          "highlight": ["found"]
+          "highlight": [
+            "found"
+          ]
         },
         {
           "en": "Watson writes about Holmes.",
           "ru": "Ватсон пишет о Холмсе.",
-          "highlight": ["writes"]
+          "highlight": [
+            "writes"
+          ]
         },
         {
           "en": "Watson wrote about the case.",
           "ru": "Ватсон написал об этом деле.",
-          "highlight": ["wrote"]
+          "highlight": [
+            "wrote"
+          ]
         }
       ]
     }

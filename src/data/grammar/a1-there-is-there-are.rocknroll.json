@@ -118,31 +118,13 @@
     "there is some",
     "there aren't any"
   ],
-  "uses": {
-    "title": "Когда используется there is / there are",
-    "items": [
-      {
-        "title": "Один объект",
-        "text": "Чтобы сообщить о наличии одного объекта: There is a studio in the building."
-      },
-      {
-        "title": "Несколько объектов",
-        "text": "Чтобы сообщить о наличии нескольких объектов: There are several rooms in the studio."
-      },
-      {
-        "title": "Оборудование и другие неисчисляемые существительные",
-        "text": "Чтобы сообщить о наличии неисчисляемого объекта или материала: There is equipment in the room."
-      },
-      {
-        "title": "Описание пространства",
-        "text": "Чтобы постепенно перечислять объекты внутри места: There is a studio. There are several rooms. There is a console."
-      },
-      {
-        "title": "Наличие людей",
-        "text": "Чтобы сообщить, что в определённом месте находятся люди: There are musicians in the studio."
-      }
-    ]
-  },
+  "uses": [
+    "Один объект: Чтобы сообщить о наличии одного объекта: There is a studio in the building.",
+    "Несколько объектов: Чтобы сообщить о наличии нескольких объектов: There are several rooms in the studio.",
+    "Оборудование и другие неисчисляемые существительные: Чтобы сообщить о наличии неисчисляемого объекта или материала: There is equipment in the room.",
+    "Описание пространства: Чтобы постепенно перечислять объекты внутри места: There is a studio. There are several rooms. There is a console.",
+    "Наличие людей: Чтобы сообщить, что в определённом месте находятся люди: There are musicians in the studio."
+  ],
   "rules": [
     {
       "title": "There is + единственное число",

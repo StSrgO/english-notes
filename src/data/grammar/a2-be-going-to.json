@@ -103,23 +103,11 @@
     "next year",
     "this evening"
   ],
-  "uses": {
-    "title": "Когда используем Be Going To",
-    "items": [
-      {
-        "title": "План или намерение",
-        "text": "Решение уже принято: \"I am going to change the ending.\""
-      },
-      {
-        "title": "Предсказание по признакам",
-        "text": "Есть признаки того, что событие произойдёт: \"The sky is dark. It is going to rain.\""
-      },
-      {
-        "title": "Уже определённое будущее действие",
-        "text": "Будущее действие воспринимается как продолжение решения, которое существует сейчас: \"They are going to publish the new version.\""
-      }
-    ]
-  },
+  "uses": [
+    "План или намерение: Решение уже принято: \"I am going to change the ending.\"",
+    "Предсказание по признакам: Есть признаки того, что событие произойдёт: \"The sky is dark. It is going to rain.\"",
+    "Уже определённое будущее действие: Будущее действие воспринимается как продолжение решения, которое существует сейчас: \"They are going to publish the new version.\""
+  ],
   "rules": [
     {
       "title": "Формула",
@@ -145,22 +133,30 @@
         {
           "en": "I am going to read the novel tonight.",
           "ru": "Я собираюсь читать роман сегодня вечером.",
-          "highlight": ["am going to read"]
+          "highlight": [
+            "am going to read"
+          ]
         },
         {
           "en": "She is going to write a new chapter.",
           "ru": "Она собирается написать новую главу.",
-          "highlight": ["is going to write"]
+          "highlight": [
+            "is going to write"
+          ]
         },
         {
           "en": "They are going to discuss the ending.",
           "ru": "Они собираются обсудить концовку.",
-          "highlight": ["are going to discuss"]
+          "highlight": [
+            "are going to discuss"
+          ]
         },
         {
           "en": "We are going to publish the text next month.",
           "ru": "Мы собираемся опубликовать текст в следующем месяце.",
-          "highlight": ["are going to publish"]
+          "highlight": [
+            "are going to publish"
+          ]
         }
       ]
     },
@@ -170,22 +166,30 @@
         {
           "en": "The clouds are getting darker. It is going to rain.",
           "ru": "Облака темнеют. Скоро пойдёт дождь.",
-          "highlight": ["is going to rain"]
+          "highlight": [
+            "is going to rain"
+          ]
         },
         {
           "en": "The old paper is tearing. It is going to break.",
           "ru": "Старая бумага рвётся. Она сейчас порвётся.",
-          "highlight": ["is going to break"]
+          "highlight": [
+            "is going to break"
+          ]
         },
         {
           "en": "The audience is getting restless. The show is going to change.",
           "ru": "Зрители начинают беспокоиться. Шоу сейчас изменится.",
-          "highlight": ["is going to change"]
+          "highlight": [
+            "is going to change"
+          ]
         },
         {
           "en": "The train is already moving. We are going to miss it.",
           "ru": "Поезд уже движется. Мы его пропустим.",
-          "highlight": ["are going to miss"]
+          "highlight": [
+            "are going to miss"
+          ]
         }
       ]
     },
@@ -195,22 +199,30 @@
         {
           "en": "I am not going to change my plan.",
           "ru": "Я не собираюсь менять свой план.",
-          "highlight": ["am not going to change"]
+          "highlight": [
+            "am not going to change"
+          ]
         },
         {
           "en": "She is not going to publish the first version.",
           "ru": "Она не собирается публиковать первую версию.",
-          "highlight": ["is not going to publish"]
+          "highlight": [
+            "is not going to publish"
+          ]
         },
         {
           "en": "Are they going to finish the book?",
           "ru": "Они собираются закончить книгу?",
-          "highlight": ["Are they going to finish"]
+          "highlight": [
+            "Are they going to finish"
+          ]
         },
         {
           "en": "Is he going to use the original ending?",
           "ru": "Он собирается использовать первоначальную концовку?",
-          "highlight": ["Is he going to use"]
+          "highlight": [
+            "Is he going to use"
+          ]
         }
       ]
     }

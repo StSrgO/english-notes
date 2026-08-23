@@ -111,31 +111,13 @@
     "Were + subject + to + verb",
     "Should + subject + verb"
   ],
-  "uses": {
-    "title": "Как работает conditional inversion",
-    "items": [
-      {
-        "title": "Нереальное прошлое",
-        "text": "Had + subject + past participle заменяет If + Past Perfect: \"If she had known\" → \"Had she known\"."
-      },
-      {
-        "title": "Гипотетическое состояние",
-        "text": "Were может выходить перед подлежащим: \"If he were here\" → \"Were he here\"."
-      },
-      {
-        "title": "Гипотетическая ситуация",
-        "text": "Were + subject + to + verb представляет возможную, но гипотетическую ситуацию: \"If she were to return\" → \"Were she to return\"."
-      },
-      {
-        "title": "Формальная возможность",
-        "text": "Should + subject + verb используется для возможной ситуации, особенно в формальной речи: \"If you should need help\" → \"Should you need help\"."
-      },
-      {
-        "title": "Формальный стиль",
-        "text": "Инверсия без if делает условное предложение более компактным и книжным."
-      }
-    ]
-  },
+  "uses": [
+    "Нереальное прошлое: Had + subject + past participle заменяет If + Past Perfect: \"If she had known\" → \"Had she known\".",
+    "Гипотетическое состояние: Were может выходить перед подлежащим: \"If he were here\" → \"Were he here\".",
+    "Гипотетическая ситуация: Were + subject + to + verb представляет возможную, но гипотетическую ситуацию: \"If she were to return\" → \"Were she to return\".",
+    "Формальная возможность: Should + subject + verb используется для возможной ситуации, особенно в формальной речи: \"If you should need help\" → \"Should you need help\".",
+    "Формальный стиль: Инверсия без if делает условное предложение более компактным и книжным."
+  ],
   "rules": [
     {
       "title": "Had inversion",

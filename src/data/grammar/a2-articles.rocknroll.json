@@ -94,21 +94,9 @@
     "singular countable noun"
   ],
   "uses": [
-    {
-      "title": "Вводим новую группу или релиз",
-      "explanation": "A/an показывает, что объект появляется в рассказе впервые.",
-      "example": "A band released an album."
-    },
-    {
-      "title": "Возвращаемся к конкретному объекту",
-      "explanation": "The используется, когда объект уже был определён контекстом.",
-      "example": "The album received mixed reactions."
-    },
-    {
-      "title": "Говорим о музыке вообще",
-      "explanation": "Множественное число без артикля часто обозначает категорию.",
-      "example": "Rock bands need a strong live sound."
-    }
+    "Вводим новую группу или релиз: A/an показывает, что объект появляется в рассказе впервые. Example: A band released an album.",
+    "Возвращаемся к конкретному объекту: The используется, когда объект уже был определён контекстом. Example: The album received mixed reactions.",
+    "Говорим о музыке вообще: Множественное число без артикля часто обозначает категорию. Example: Rock bands need a strong live sound."
   ],
   "rules": [
     {
@@ -139,22 +127,30 @@
         {
           "en": "A band started playing in New York.",
           "ru": "В рассказ впервые вводится одна группа.",
-          "highlight": ["A band"]
+          "highlight": [
+            "A band"
+          ]
         },
         {
           "en": "A guitarist joined the band.",
           "ru": "Новый музыкант появляется впервые.",
-          "highlight": ["A guitarist"]
+          "highlight": [
+            "A guitarist"
+          ]
         },
         {
           "en": "A producer heard the group.",
           "ru": "Продюсер вводится как новый человек в истории.",
-          "highlight": ["A producer"]
+          "highlight": [
+            "A producer"
+          ]
         },
         {
           "en": "A record label offered a contract.",
           "ru": "Компания впервые появляется в рассказе.",
-          "highlight": ["A record label"]
+          "highlight": [
+            "A record label"
+          ]
         }
       ]
     },
@@ -164,22 +160,32 @@
         {
           "en": "The band played another show.",
           "ru": "Группа уже известна из предыдущего контекста.",
-          "highlight": ["The band"]
+          "highlight": [
+            "The band"
+          ]
         },
         {
           "en": "The guitarist became part of the sound.",
           "ru": "Теперь это конкретный гитарист из истории.",
-          "highlight": ["The guitarist"]
+          "highlight": [
+            "The guitarist"
+          ]
         },
         {
           "en": "The producer worked with the group.",
           "ru": "Продюсер и группа уже определены.",
-          "highlight": ["The producer", "the group"]
+          "highlight": [
+            "The producer",
+            "the group"
+          ]
         },
         {
           "en": "The record label signed the band.",
           "ru": "Обе стороны уже конкретны.",
-          "highlight": ["The record label", "the band"]
+          "highlight": [
+            "The record label",
+            "the band"
+          ]
         }
       ]
     },
@@ -189,22 +195,32 @@
         {
           "en": "The band recorded an album.",
           "ru": "Альбом впервые появляется в рассказе.",
-          "highlight": ["an album"]
+          "highlight": [
+            "an album"
+          ]
         },
         {
           "en": "They released a record in 1973.",
           "ru": "Один новый релиз вводится в контекст.",
-          "highlight": ["a record"]
+          "highlight": [
+            "a record"
+          ]
         },
         {
           "en": "A producer worked on an album.",
           "ru": "Оба объекта вводятся как новые.",
-          "highlight": ["A producer", "an album"]
+          "highlight": [
+            "A producer",
+            "an album"
+          ]
         },
         {
           "en": "A song appeared on the record.",
           "ru": "Песня вводится впервые, а record уже конкретен.",
-          "highlight": ["A song", "the record"]
+          "highlight": [
+            "A song",
+            "the record"
+          ]
         }
       ]
     },
@@ -214,22 +230,31 @@
         {
           "en": "The album was released in 1973.",
           "ru": "Теперь речь идёт о конкретном альбоме.",
-          "highlight": ["The album"]
+          "highlight": [
+            "The album"
+          ]
         },
         {
           "en": "The record received mixed reactions.",
           "ru": "Речь о том же конкретном релизе.",
-          "highlight": ["The record"]
+          "highlight": [
+            "The record"
+          ]
         },
         {
           "en": "The song became part of the band's story.",
           "ru": "Конкретная песня и конкретная группа уже известны.",
-          "highlight": ["The song", "the band's"]
+          "highlight": [
+            "The song",
+            "the band's"
+          ]
         },
         {
           "en": "The producer had a different musical background.",
           "ru": "Продюсер уже определён контекстом.",
-          "highlight": ["The producer"]
+          "highlight": [
+            "The producer"
+          ]
         }
       ]
     },
@@ -239,22 +264,30 @@
         {
           "en": "Rock bands often build a strong live reputation.",
           "ru": "Речь о рок-группах вообще.",
-          "highlight": ["Rock bands"]
+          "highlight": [
+            "Rock bands"
+          ]
         },
         {
           "en": "Albums can change a band's career.",
           "ru": "Альбомы рассматриваются как категория.",
-          "highlight": ["Albums"]
+          "highlight": [
+            "Albums"
+          ]
         },
         {
           "en": "Records can sound very different in the studio.",
           "ru": "Речь о записях вообще.",
-          "highlight": ["Records"]
+          "highlight": [
+            "Records"
+          ]
         },
         {
           "en": "Producers can change the sound of a record.",
           "ru": "Продюсеры как категория, без конкретного человека.",
-          "highlight": ["Producers"]
+          "highlight": [
+            "Producers"
+          ]
         }
       ]
     },
@@ -264,22 +297,32 @@
         {
           "en": "New York Dolls was released in 1973.",
           "ru": "Название альбома используется как имя собственного.",
-          "highlight": ["New York Dolls"]
+          "highlight": [
+            "New York Dolls"
+          ]
         },
         {
           "en": "The album New York Dolls was recorded at Record Plant.",
           "ru": "The относится к слову album, а не становится частью названия.",
-          "highlight": ["The album", "New York Dolls"]
+          "highlight": [
+            "The album",
+            "New York Dolls"
+          ]
         },
         {
           "en": "The band recorded New York Dolls in 1973.",
           "ru": "The band — конкретная группа; New York Dolls — название релиза.",
-          "highlight": ["The band", "New York Dolls"]
+          "highlight": [
+            "The band",
+            "New York Dolls"
+          ]
         },
         {
           "en": "The record became associated with early punk.",
           "ru": "Record — обычное существительное, поэтому перед конкретным релизом нужен the.",
-          "highlight": ["The record"]
+          "highlight": [
+            "The record"
+          ]
         }
       ]
     }
@@ -366,25 +409,45 @@
   "quiz": [
     {
       "q": "___ band signed a record contract.",
-      "options": ["A", "An", "The", "—"],
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
       "answer": "A",
       "why": "Группа впервые вводится в рассказ."
     },
     {
       "q": "The band recorded ___ album.",
-      "options": ["a", "an", "the", "—"],
+      "options": [
+        "a",
+        "an",
+        "the",
+        "—"
+      ],
       "answer": "an",
       "why": "Album — новый исчисляемый объект и начинается с гласного звука."
     },
     {
       "q": "They recorded an album. ___ album was released in 1973.",
-      "options": ["A", "An", "The", "—"],
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
       "answer": "The",
       "why": "Альбом уже известен из первого предложения."
     },
     {
       "q": "___ bands can have very different sounds.",
-      "options": ["A", "An", "The", "—"],
+      "options": [
+        "A",
+        "An",
+        "The",
+        "—"
+      ],
       "answer": "—",
       "why": "Речь идёт о группах вообще."
     },
