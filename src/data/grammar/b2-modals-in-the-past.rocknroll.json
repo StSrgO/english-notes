@@ -112,23 +112,23 @@
   "rules": [
     {
       "title": "Must have",
-      "explanation": "Используется для сильного вывода о прошлом.",
-      "example": "The idea must have impressed Angus."
+      "example": "The idea must have impressed Angus.",
+      "text": "Используется для сильного вывода о прошлом."
     },
     {
       "title": "Might have",
-      "explanation": "Используется для возможной, но не доказанной версии.",
-      "example": "They might have considered another effect."
+      "example": "They might have considered another effect.",
+      "text": "Используется для возможной, но не доказанной версии."
     },
     {
       "title": "Can't have",
-      "explanation": "Используется, когда версия противоречит известным обстоятельствам.",
-      "example": "The idea can't have come from the later tour."
+      "example": "The idea can't have come from the later tour.",
+      "text": "Используется, когда версия противоречит известным обстоятельствам."
     },
     {
       "title": "Fact vs inference",
-      "explanation": "Факт сообщает, что произошло; modal construction показывает, как говорящий реконструирует произошедшее.",
-      "example": "Angus heard the cannons. / Angus must have realised their potential."
+      "example": "Angus heard the cannons. / Angus must have realised their potential.",
+      "text": "Факт сообщает, что произошло; modal construction показывает, как говорящий реконструирует произошедшее."
     }
   ],
   "examples": [
@@ -359,27 +359,27 @@
     {
       "wrong": "Angus must realised the idea.",
       "right": "Angus must have realised the idea.",
-      "why": "Для вывода о прошлом нужна конструкция must have + V3."
+      "note": "Для вывода о прошлом нужна конструкция must have + V3."
     },
     {
       "wrong": "They might had considered another effect.",
       "right": "They might have considered another effect.",
-      "why": "После might используется базовая форма have."
+      "note": "После might используется базовая форма have."
     },
     {
       "wrong": "The idea can't came from the tour.",
       "right": "The idea can't have come from the tour.",
-      "why": "После can't для прошлого нужен have + V3."
+      "note": "После can't для прошлого нужен have + V3."
     },
     {
       "wrong": "They must have choose the cannons.",
       "right": "They must have chosen the cannons.",
-      "why": "После have нужен Past Participle."
+      "note": "После have нужен Past Participle."
     },
     {
       "wrong": "The band must have wanted the effect is dramatic.",
       "right": "The band must have wanted the effect to be dramatic.",
-      "why": "После wanted используется object + to-infinitive."
+      "note": "После wanted используется object + to-infinitive."
     }
   ],
   "compare": {
@@ -421,7 +421,6 @@
   ],
   "quiz": [
     {
-      "question": "Which sentence is a strong inference?",
       "options": [
         "Angus heard the cannons.",
         "Angus must have realised their potential.",
@@ -429,10 +428,10 @@
         "The cannons were used on stage."
       ],
       "answer": "Angus must have realised their potential.",
-      "explanation": "Must have показывает сильный вывод из известных фактов."
+      "q": "Which sentence is a strong inference?",
+      "why": "Must have показывает сильный вывод из известных фактов."
     },
     {
-      "question": "Choose the correct form.",
       "options": [
         "They might had considered another effect.",
         "They might have considered another effect.",
@@ -440,10 +439,10 @@
         "They might have consider another effect."
       ],
       "answer": "They might have considered another effect.",
-      "explanation": "Might + have + Past Participle образует возможный вывод о прошлом."
+      "q": "Choose the correct form.",
+      "why": "Might + have + Past Participle образует возможный вывод о прошлом."
     },
     {
-      "question": "Which sentence expresses impossibility?",
       "options": [
         "The idea might have come later.",
         "The idea must have come later.",
@@ -451,10 +450,10 @@
         "The idea came later."
       ],
       "answer": "The idea can't have come from the later tour.",
-      "explanation": "Can't have исключает версию на основании известной хронологии."
+      "q": "Which sentence expresses impossibility?",
+      "why": "Can't have исключает версию на основании известной хронологии."
     },
     {
-      "question": "Which sentence is a fact rather than an inference?",
       "options": [
         "Angus must have liked the sound.",
         "The band might have tested another design.",
@@ -462,10 +461,10 @@
         "The band must have wanted a dramatic finale."
       ],
       "answer": "Angus heard cannon fire on television.",
-      "explanation": "Это документированный факт, а не вывод ученика."
+      "q": "Which sentence is a fact rather than an inference?",
+      "why": "Это документированный факт, а не вывод ученика."
     },
     {
-      "question": "What does 'They could have chosen a different sound' mean?",
       "options": [
         "They definitely chose a different sound.",
         "Choosing another sound was a possible alternative.",
@@ -473,10 +472,10 @@
         "They cannot have chosen another sound."
       ],
       "answer": "Choosing another sound was a possible alternative.",
-      "explanation": "Could have рассматривает возможную альтернативу прошлого."
+      "q": "What does 'They could have chosen a different sound' mean?",
+      "why": "Could have рассматривает возможную альтернативу прошлого."
     },
     {
-      "question": "Which statement follows the project's FACT / INFERENCE rule?",
       "options": [
         "Angus must have said this exact sentence.",
         "The source says the cannon idea came from the wedding, so we can infer that the sound impressed him.",
@@ -484,7 +483,8 @@
         "They must have tested exactly three designs."
       ],
       "answer": "The source says the cannon idea came from the wedding, so we can infer that the sound impressed him.",
-      "explanation": "Здесь факт источника отделён от нашего вывода."
+      "q": "Which statement follows the project's FACT / INFERENCE rule?",
+      "why": "Здесь факт источника отделён от нашего вывода."
     }
   ],
   "related": [

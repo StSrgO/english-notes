@@ -101,23 +101,23 @@
   "rules": [
     {
       "title": "A/an перед новым объектом",
-      "explanation": "Новый один исчисляемый объект вводится через a/an.",
-      "example": "A band signed a contract."
+      "example": "A band signed a contract.",
+      "text": "Новый один исчисляемый объект вводится через a/an."
     },
     {
       "title": "The после появления объекта",
-      "explanation": "Когда слушатель уже понимает, о каком объекте речь, используется the.",
-      "example": "The band entered the studio."
+      "example": "The band entered the studio.",
+      "text": "Когда слушатель уже понимает, о каком объекте речь, используется the."
     },
     {
       "title": "A или an зависит от звука",
-      "explanation": "Перед гласным звуком используется an.",
-      "example": "an album"
+      "example": "an album",
+      "text": "Перед гласным звуком используется an."
     },
     {
       "title": "Общая категория без артикля",
-      "explanation": "Множественное число часто используется без артикля, когда речь идёт о категории вообще.",
-      "example": "Albums can change a band's career."
+      "example": "Albums can change a band's career.",
+      "text": "Множественное число часто используется без артикля, когда речь идёт о категории вообще."
     }
   ],
   "examples": [
@@ -337,32 +337,32 @@
     {
       "wrong": "Band recorded an album.",
       "right": "A band recorded an album.",
-      "why": "Band — исчисляемое существительное в единственном числе, впервые вводимое в рассказ."
+      "note": "Band — исчисляемое существительное в единственном числе, впервые вводимое в рассказ."
     },
     {
       "wrong": "A band recorded an album. A album was released.",
       "right": "A band recorded an album. The album was released.",
-      "why": "Во втором предложении альбом уже известен, а album начинается с гласного звука."
+      "note": "Во втором предложении альбом уже известен, а album начинается с гласного звука."
     },
     {
       "wrong": "The bands can change their sound.",
       "right": "Bands can change their sound.",
-      "why": "Здесь речь о группах вообще."
+      "note": "Здесь речь о группах вообще."
     },
     {
       "wrong": "They recorded a New York Dolls.",
       "right": "They recorded New York Dolls.",
-      "why": "New York Dolls — название альбома, а не обычное существительное."
+      "note": "New York Dolls — название альбома, а не обычное существительное."
     },
     {
       "wrong": "They released an record.",
       "right": "They released a record.",
-      "why": "Record начинается с согласного звука."
+      "note": "Record начинается с согласного звука."
     },
     {
       "wrong": "They recorded album.",
       "right": "They recorded an album.",
-      "why": "Album — исчисляемое существительное в единственном числе."
+      "note": "Album — исчисляемое существительное в единственном числе."
     }
   ],
   "compare": {

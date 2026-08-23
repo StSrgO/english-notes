@@ -100,23 +100,23 @@
   "rules": [
     {
       "title": "A или an?",
-      "explanation": "Выбор зависит от первого звука следующего слова.",
-      "example": "an island"
+      "example": "an island",
+      "text": "Выбор зависит от первого звука следующего слова."
     },
     {
       "title": "Первый раз — a/an",
-      "explanation": "Если один исчисляемый предмет вводится впервые, обычно используется a/an.",
-      "example": "A ship appeared."
+      "example": "A ship appeared.",
+      "text": "Если один исчисляемый предмет вводится впервые, обычно используется a/an."
     },
     {
       "title": "Известный предмет — the",
-      "explanation": "После первого упоминания тот же предмет обычно становится конкретным.",
-      "example": "The ship was large."
+      "example": "The ship was large.",
+      "text": "После первого упоминания тот же предмет обычно становится конкретным."
     },
     {
       "title": "Общее значение — без артикля",
-      "explanation": "Во множественном числе и с неисчисляемыми существительными для общего значения артикль часто не нужен.",
-      "example": "Ships can be dangerous."
+      "example": "Ships can be dangerous.",
+      "text": "Во множественном числе и с неисчисляемыми существительными для общего значения артикль часто не нужен."
     }
   ],
   "examples": [
@@ -330,32 +330,32 @@
     {
       "wrong": "Sailor entered the inn.",
       "right": "A sailor entered the inn.",
-      "why": "Перед новым исчисляемым существительным в единственном числе нужен определитель."
+      "note": "Перед новым исчисляемым существительным в единственном числе нужен определитель."
     },
     {
       "wrong": "I saw a sailor. A sailor was carrying a map.",
       "right": "I saw a sailor. The sailor was carrying a map.",
-      "why": "Во втором предложении речь идёт уже о конкретном моряке."
+      "note": "Во втором предложении речь идёт уже о конкретном моряке."
     },
     {
       "wrong": "The ships are dangerous.",
       "right": "Ships are dangerous.",
-      "why": "Если речь о кораблях вообще, the не нужен."
+      "note": "Если речь о кораблях вообще, the не нужен."
     },
     {
       "wrong": "A island appeared.",
       "right": "An island appeared.",
-      "why": "Island начинается с гласного звука."
+      "note": "Island начинается с гласного звука."
     },
     {
       "wrong": "The Treasure Island was famous.",
       "right": "Treasure Island was famous.",
-      "why": "Название острова употребляется без the."
+      "note": "Название острова употребляется без the."
     },
     {
       "wrong": "I saw ship.",
       "right": "I saw a ship.",
-      "why": "Ship — исчисляемое существительное в единственном числе."
+      "note": "Ship — исчисляемое существительное в единственном числе."
     }
   ],
   "compare": {

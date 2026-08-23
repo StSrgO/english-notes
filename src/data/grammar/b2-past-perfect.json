@@ -112,23 +112,23 @@
   "rules": [
     {
       "title": "Earlier event",
-      "explanation": "Если одно прошлое событие произошло раньше другого прошлого события, более раннее можно поставить в Past Perfect.",
-      "example": "Holmes had formed his theory before he entered the room."
+      "example": "Holmes had formed his theory before he entered the room.",
+      "text": "Если одно прошлое событие произошло раньше другого прошлого события, более раннее можно поставить в Past Perfect."
     },
     {
       "title": "Past Simple as the main timeline",
-      "explanation": "Past Simple обычно сообщает событие, относительно которого определяется более раннее действие.",
-      "example": "He entered the room."
+      "example": "He entered the room.",
+      "text": "Past Simple обычно сообщает событие, относительно которого определяется более раннее действие."
     },
     {
       "title": "Already completed",
-      "explanation": "Past Perfect часто подчёркивает, что действие уже завершилось к определённому моменту прошлого.",
-      "example": "He had already formed his theory."
+      "example": "He had already formed his theory.",
+      "text": "Past Perfect часто подчёркивает, что действие уже завершилось к определённому моменту прошлого."
     },
     {
       "title": "Not simply 'very past'",
-      "explanation": "Past Perfect нужен не из-за давности события, а из-за его отношения к другой точке в прошлом.",
-      "example": "He had left before Watson arrived."
+      "example": "He had left before Watson arrived.",
+      "text": "Past Perfect нужен не из-за давности события, а из-за его отношения к другой точке в прошлом."
     }
   ],
   "examples": [
@@ -327,27 +327,27 @@
     {
       "wrong": "Holmes had entered the room yesterday.",
       "right": "Holmes entered the room yesterday.",
-      "why": "Если нет другой точки в прошлом, Past Perfect не нужен."
+      "note": "Если нет другой точки в прошлом, Past Perfect не нужен."
     },
     {
       "wrong": "Holmes had went into the room.",
       "right": "Holmes had gone into the room.",
-      "why": "После had используется Past Participle."
+      "note": "После had используется Past Participle."
     },
     {
       "wrong": "Holmes has entered the room before Watson arrived.",
       "right": "Holmes had entered the room before Watson arrived.",
-      "why": "Обе точки находятся в прошлом, поэтому более раннее действие оформляется Past Perfect."
+      "note": "Обе точки находятся в прошлом, поэтому более раннее действие оформляется Past Perfect."
     },
     {
       "wrong": "Holmes had entered the room after Watson arrived.",
       "right": "Holmes entered the room after Watson arrived.",
-      "why": "Здесь вход Холмса является более поздним событием."
+      "note": "Здесь вход Холмса является более поздним событием."
     },
     {
       "wrong": "When Watson arrived, Holmes entered already.",
       "right": "When Watson arrived, Holmes had already entered.",
-      "why": "Had already entered показывает, что вход произошёл до прибытия Ватсона."
+      "note": "Had already entered показывает, что вход произошёл до прибытия Ватсона."
     }
   ],
   "compare": {
@@ -389,7 +389,6 @@
   ],
   "quiz": [
     {
-      "question": "Choose the correct form.",
       "options": [
         "Holmes had went into the room.",
         "Holmes had gone into the room.",
@@ -397,10 +396,10 @@
         "Holmes had go into the room."
       ],
       "answer": "Holmes had gone into the room.",
-      "explanation": "После had используется Past Participle: gone."
+      "q": "Choose the correct form.",
+      "why": "После had используется Past Participle: gone."
     },
     {
-      "question": "Which event happened first?",
       "options": [
         "Watson arrived.",
         "Holmes had entered the room.",
@@ -408,10 +407,10 @@
         "The sentence does not show a sequence."
       ],
       "answer": "Holmes had entered the room.",
-      "explanation": "Past Perfect показывает более раннее событие."
+      "q": "Which event happened first?",
+      "why": "Past Perfect показывает более раннее событие."
     },
     {
-      "question": "Why is 'had made' used in 'Holmes realised that he had made a mistake'?",
       "options": [
         "The mistake happened before the realisation.",
         "The mistake happened after the realisation.",
@@ -419,10 +418,10 @@
         "Had is used because the sentence is long."
       ],
       "answer": "The mistake happened before the realisation.",
-      "explanation": "Past Perfect связывает ошибку с более поздним моментом осознания."
+      "q": "Why is 'had made' used in 'Holmes realised that he had made a mistake'?",
+      "why": "Past Perfect связывает ошибку с более поздним моментом осознания."
     },
     {
-      "question": "Which sentence needs Past Perfect most clearly?",
       "options": [
         "Holmes arrived yesterday.",
         "Holmes had arrived before Watson called him.",
@@ -430,10 +429,10 @@
         "Holmes lived in London."
       ],
       "answer": "Holmes had arrived before Watson called him.",
-      "explanation": "Здесь есть две точки в прошлом, и прибытие произошло раньше звонка."
+      "q": "Which sentence needs Past Perfect most clearly?",
+      "why": "Здесь есть две точки в прошлом, и прибытие произошло раньше звонка."
     },
     {
-      "question": "What is the main function of Past Perfect?",
       "options": [
         "To describe an action happening now.",
         "To describe a future plan.",
@@ -441,7 +440,8 @@
         "To describe a repeated present habit."
       ],
       "answer": "To show an earlier event in the past.",
-      "explanation": "Past Perfect показывает более раннее прошлое относительно другой точки в прошлом."
+      "q": "What is the main function of Past Perfect?",
+      "why": "Past Perfect показывает более раннее прошлое относительно другой точки в прошлом."
     }
   ],
   "related": [

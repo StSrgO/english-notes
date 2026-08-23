@@ -57,10 +57,10 @@
   },
   "russianAngle": [
     "В русском Passive часто выглядит привычнее: «альбом был записан», «песня была выпущена».",
-    "В английском нельзя забывать форму be: [bold]The album was recorded[/bold], а не [bold]The album recorded[/bold].",
-    "Время находится в be: [bold]is recorded[/bold] — настоящее, [bold]was recorded[/bold] — прошлое.",
-    "By + исполнитель нужен только тогда, когда важно назвать исполнителя: [bold]The album was produced by Fugazi.[/bold]",
-    "Если исполнитель уже очевиден или неважен, его можно убрать: [bold]The album was recorded in 1991.[/bold]"
+    "В английском нельзя забывать форму be: The album was recorded, а не The album recorded.",
+    "Время находится в be: is recorded — настоящее, was recorded — прошлое.",
+    "By + исполнитель нужен только тогда, когда важно назвать исполнителя: The album was produced by Fugazi.",
+    "Если исполнитель уже очевиден или неважен, его можно убрать: The album was recorded in 1991."
   ],
   "howToLearn": {
     "steps": [
@@ -148,32 +148,44 @@
         {
           "en": "The records are produced independently.",
           "ru": "Записи производятся независимо.",
-          "highlight": ["are produced"]
+          "highlight": [
+            "are produced"
+          ]
         },
         {
           "en": "The songs are recorded in small studios.",
           "ru": "Песни записываются в небольших студиях.",
-          "highlight": ["are recorded"]
+          "highlight": [
+            "are recorded"
+          ]
         },
         {
           "en": "The equipment is chosen by the musicians.",
           "ru": "Оборудование выбирается музыкантами.",
-          "highlight": ["is chosen"]
+          "highlight": [
+            "is chosen"
+          ]
         },
         {
           "en": "The final mixes are checked before release.",
           "ru": "Финальные миксы проверяются перед выпуском.",
-          "highlight": ["are checked"]
+          "highlight": [
+            "are checked"
+          ]
         },
         {
           "en": "The recordings are kept in the archive.",
           "ru": "Записи хранятся в архиве.",
-          "highlight": ["are kept"]
+          "highlight": [
+            "are kept"
+          ]
         },
         {
           "en": "The album is distributed through the label.",
           "ru": "Альбом распространяется через лейбл.",
-          "highlight": ["is distributed"]
+          "highlight": [
+            "is distributed"
+          ]
         }
       ]
     },
@@ -183,32 +195,44 @@
         {
           "en": "The first demo was recorded at Inner Ear Studios.",
           "ru": "Первое демо было записано в Inner Ear Studios.",
-          "highlight": ["was recorded"]
+          "highlight": [
+            "was recorded"
+          ]
         },
         {
           "en": "Several microphones were used during the session.",
           "ru": "Во время сессии использовались несколько микрофонов.",
-          "highlight": ["were used"]
+          "highlight": [
+            "were used"
+          ]
         },
         {
           "en": "The basic tracks were recorded with a drum machine.",
           "ru": "Основные дорожки были записаны с драм-машиной.",
-          "highlight": ["were recorded"]
+          "highlight": [
+            "were recorded"
+          ]
         },
         {
           "en": "The album was produced by Fugazi.",
           "ru": "Альбом был спродюсирован Fugazi.",
-          "highlight": ["was produced"]
+          "highlight": [
+            "was produced"
+          ]
         },
         {
           "en": "The tracks were mixed after the sessions.",
           "ru": "Дорожки были сведены после сессий.",
-          "highlight": ["were mixed"]
+          "highlight": [
+            "were mixed"
+          ]
         },
         {
           "en": "The record was released by Dischord.",
           "ru": "Запись была выпущена Dischord.",
-          "highlight": ["was released"]
+          "highlight": [
+            "was released"
+          ]
         }
       ]
     },
@@ -218,32 +242,44 @@
         {
           "en": "Fugazi produced Steady Diet of Nothing.",
           "ru": "Fugazi спродюсировали Steady Diet of Nothing.",
-          "highlight": ["produced"]
+          "highlight": [
+            "produced"
+          ]
         },
         {
           "en": "Steady Diet of Nothing was produced by Fugazi.",
           "ru": "Steady Diet of Nothing был спродюсирован Fugazi.",
-          "highlight": ["was produced"]
+          "highlight": [
+            "was produced"
+          ]
         },
         {
           "en": "The band used different microphones.",
           "ru": "Группа использовала разные микрофоны.",
-          "highlight": ["used"]
+          "highlight": [
+            "used"
+          ]
         },
         {
           "en": "Different microphones were used.",
           "ru": "Использовались разные микрофоны.",
-          "highlight": ["were used"]
+          "highlight": [
+            "were used"
+          ]
         },
         {
           "en": "The band recorded the basic tracks.",
           "ru": "Группа записала основные дорожки.",
-          "highlight": ["recorded"]
+          "highlight": [
+            "recorded"
+          ]
         },
         {
           "en": "The basic tracks were recorded.",
           "ru": "Основные дорожки были записаны.",
-          "highlight": ["were recorded"]
+          "highlight": [
+            "were recorded"
+          ]
         }
       ]
     }

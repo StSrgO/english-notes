@@ -47,8 +47,8 @@
     "note": "Фрагменты из «The Invisible Man». В них условие связано с возможным действием и будущим или неизбежно следующим за ним результатом."
   },
   "russianAngle": [
-    "В русском будущем условие часто звучит с будущим временем: «Если ты придёшь, я помогу». В английском после if используется Present Simple: [bold]If you come, I will help you.[/bold]",
-    "Will обычно находится в главной части: [bold]If it rains, we will stay home.[/bold]",
+    "В русском будущем условие часто звучит с будущим временем: «Если ты придёшь, я помогу». В английском после if используется Present Simple: If you come, I will help you.",
+    "Will обычно находится в главной части: If it rains, we will stay home.",
     "Не ставь will после if только потому, что по-русски условие относится к будущему.",
     "Главный смысл First Conditional — реальная возможность и её возможное будущее последствие."
   ],
@@ -135,32 +135,50 @@
         {
           "en": "If the weather improves, we will go outside.",
           "ru": "Если погода улучшится, мы выйдем на улицу.",
-          "highlight": ["improves", "will go"]
+          "highlight": [
+            "improves",
+            "will go"
+          ]
         },
         {
           "en": "If he arrives early, we will start the meeting.",
           "ru": "Если он приедет рано, мы начнём встречу.",
-          "highlight": ["arrives", "will start"]
+          "highlight": [
+            "arrives",
+            "will start"
+          ]
         },
         {
           "en": "If you finish the work today, we will send it tomorrow.",
           "ru": "Если ты закончишь работу сегодня, мы отправим её завтра.",
-          "highlight": ["finish", "will send"]
+          "highlight": [
+            "finish",
+            "will send"
+          ]
         },
         {
           "en": "If the shop is open, I will buy some food.",
           "ru": "Если магазин будет открыт, я куплю еды.",
-          "highlight": ["is", "will buy"]
+          "highlight": [
+            "is",
+            "will buy"
+          ]
         },
         {
           "en": "If they invite us, we will go.",
           "ru": "Если они нас пригласят, мы пойдём.",
-          "highlight": ["invite", "will go"]
+          "highlight": [
+            "invite",
+            "will go"
+          ]
         },
         {
           "en": "If she doesn't answer, I will call again.",
           "ru": "Если она не ответит, я позвоню снова.",
-          "highlight": ["doesn't answer", "will call"]
+          "highlight": [
+            "doesn't answer",
+            "will call"
+          ]
         }
       ]
     },
@@ -170,32 +188,50 @@
         {
           "en": "If you drive too fast, you will lose control.",
           "ru": "Если ты будешь ехать слишком быстро, ты потеряешь контроль.",
-          "highlight": ["drive", "will lose"]
+          "highlight": [
+            "drive",
+            "will lose"
+          ]
         },
         {
           "en": "If you don't lock the door, someone may come in.",
           "ru": "Если ты не запрёшь дверь, кто-нибудь может войти.",
-          "highlight": ["don't lock", "may come in"]
+          "highlight": [
+            "don't lock",
+            "may come in"
+          ]
         },
         {
           "en": "If you touch the machine, you will get hurt.",
           "ru": "Если ты прикоснёшься к машине, ты пострадаешь.",
-          "highlight": ["touch", "will get"]
+          "highlight": [
+            "touch",
+            "will get"
+          ]
         },
         {
           "en": "If we leave the fire unattended, it will become dangerous.",
           "ru": "Если мы оставим огонь без присмотра, это станет опасно.",
-          "highlight": ["leave", "will become"]
+          "highlight": [
+            "leave",
+            "will become"
+          ]
         },
         {
           "en": "If he breaks the agreement, we will stop working with him.",
           "ru": "Если он нарушит соглашение, мы прекратим с ним работать.",
-          "highlight": ["breaks", "will stop"]
+          "highlight": [
+            "breaks",
+            "will stop"
+          ]
         },
         {
           "en": "If you keep shouting, I will leave.",
           "ru": "Если ты продолжишь кричать, я уйду.",
-          "highlight": ["keep", "will leave"]
+          "highlight": [
+            "keep",
+            "will leave"
+          ]
         }
       ]
     },
@@ -205,32 +241,50 @@
         {
           "en": "If water reaches zero degrees, it freezes.",
           "ru": "Если вода достигает нуля градусов, она замерзает.",
-          "highlight": ["reaches", "freezes"]
+          "highlight": [
+            "reaches",
+            "freezes"
+          ]
         },
         {
           "en": "If the temperature reaches zero tonight, the road will freeze.",
           "ru": "Если температура достигнет нуля сегодня ночью, дорога замёрзнет.",
-          "highlight": ["reaches", "will freeze"]
+          "highlight": [
+            "reaches",
+            "will freeze"
+          ]
         },
         {
           "en": "If people don't sleep enough, they feel tired.",
           "ru": "Если люди недостаточно спят, они чувствуют усталость.",
-          "highlight": ["don't sleep", "feel"]
+          "highlight": [
+            "don't sleep",
+            "feel"
+          ]
         },
         {
           "en": "If you don't sleep tonight, you will feel tired tomorrow.",
           "ru": "Если ты не поспишь сегодня ночью, завтра ты будешь чувствовать усталость.",
-          "highlight": ["don't sleep", "will feel"]
+          "highlight": [
+            "don't sleep",
+            "will feel"
+          ]
         },
         {
           "en": "If fire gets enough oxygen, it burns.",
           "ru": "Если огонь получает достаточно кислорода, он горит.",
-          "highlight": ["gets", "burns"]
+          "highlight": [
+            "gets",
+            "burns"
+          ]
         },
         {
           "en": "If the fire gets enough oxygen, it will spread quickly.",
           "ru": "Если огонь получит достаточно кислорода, он быстро распространится.",
-          "highlight": ["gets", "will spread"]
+          "highlight": [
+            "gets",
+            "will spread"
+          ]
         }
       ]
     }

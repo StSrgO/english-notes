@@ -53,9 +53,9 @@
   },
   "russianAngle": [
     "Русский язык тоже использует пассив: «книга была опубликована», «рукопись была отправлена». Поэтому сама идея Passive обычно знакома русскоязычному ученику.",
-    "Главная трудность — правильно построить английскую форму: [bold]be + V3[/bold].",
-    "Время показывает глагол be: [bold]is published[/bold] — Present Simple, [bold]was published[/bold] — Past Simple.",
-    "Не нужно добавлять by автоматически. [bold]The book was published in 1847[/bold] — полноценное предложение.",
+    "Главная трудность — правильно построить английскую форму: be + V3.",
+    "Время показывает глагол be: is published — Present Simple, was published — Past Simple.",
+    "Не нужно добавлять by автоматически. The book was published in 1847 — полноценное предложение.",
     "Не путай V3 с прошедшим временем. В Passive третья форма смыслового глагола остаётся V3, а время выражается через be."
   ],
   "howToLearn": {
@@ -144,32 +144,44 @@
         {
           "en": "The manuscript is kept in a special collection.",
           "ru": "Рукопись хранится в специальной коллекции.",
-          "highlight": ["is kept"]
+          "highlight": [
+            "is kept"
+          ]
         },
         {
           "en": "The novel is studied in many universities.",
           "ru": "Роман изучается во многих университетах.",
-          "highlight": ["is studied"]
+          "highlight": [
+            "is studied"
+          ]
         },
         {
           "en": "The book is discussed by literary historians.",
           "ru": "Книга обсуждается литературоведами.",
-          "highlight": ["is discussed"]
+          "highlight": [
+            "is discussed"
+          ]
         },
         {
           "en": "The original text is preserved in the archive.",
           "ru": "Оригинальный текст хранится в архиве.",
-          "highlight": ["is preserved"]
+          "highlight": [
+            "is preserved"
+          ]
         },
         {
           "en": "The author's identity is known today.",
           "ru": "Сегодня личность автора известна.",
-          "highlight": ["is known"]
+          "highlight": [
+            "is known"
+          ]
         },
         {
           "en": "The manuscript is displayed as part of the collection.",
           "ru": "Рукопись выставляется как часть коллекции.",
-          "highlight": ["is displayed"]
+          "highlight": [
+            "is displayed"
+          ]
         }
       ]
     },
@@ -179,32 +191,44 @@
         {
           "en": "The manuscript was completed in 1847.",
           "ru": "Рукопись была завершена в 1847 году.",
-          "highlight": ["was completed"]
+          "highlight": [
+            "was completed"
+          ]
         },
         {
           "en": "The manuscript was sent to Smith, Elder & Co.",
           "ru": "Рукопись была отправлена в Smith, Elder & Co.",
-          "highlight": ["was sent"]
+          "highlight": [
+            "was sent"
+          ]
         },
         {
           "en": "The novel was published in three volumes.",
           "ru": "Роман был опубликован в трёх томах.",
-          "highlight": ["was published"]
+          "highlight": [
+            "was published"
+          ]
         },
         {
           "en": "The book was accepted by the publisher.",
           "ru": "Книга была принята издателем.",
-          "highlight": ["was accepted"]
+          "highlight": [
+            "was accepted"
+          ]
         },
         {
           "en": "The first edition was sold quickly.",
           "ru": "Первое издание быстро продавалось.",
-          "highlight": ["was sold"]
+          "highlight": [
+            "was sold"
+          ]
         },
         {
           "en": "The author's identity was not immediately known.",
           "ru": "Личность автора не была сразу известна.",
-          "highlight": ["was not known"]
+          "highlight": [
+            "was not known"
+          ]
         }
       ]
     },
@@ -214,32 +238,44 @@
         {
           "en": "Charlotte Brontë wrote the novel.",
           "ru": "Шарлотта Бронте написала роман.",
-          "highlight": ["wrote"]
+          "highlight": [
+            "wrote"
+          ]
         },
         {
           "en": "The novel was written by Charlotte Brontë.",
           "ru": "Роман был написан Шарлоттой Бронте.",
-          "highlight": ["was written"]
+          "highlight": [
+            "was written"
+          ]
         },
         {
           "en": "The publisher accepted the manuscript.",
           "ru": "Издатель принял рукопись.",
-          "highlight": ["accepted"]
+          "highlight": [
+            "accepted"
+          ]
         },
         {
           "en": "The manuscript was accepted by the publisher.",
           "ru": "Рукопись была принята издателем.",
-          "highlight": ["was accepted"]
+          "highlight": [
+            "was accepted"
+          ]
         },
         {
           "en": "The readers discovered the author.",
           "ru": "Читатели раскрыли личность автора.",
-          "highlight": ["discovered"]
+          "highlight": [
+            "discovered"
+          ]
         },
         {
           "en": "The author's identity was discovered by readers.",
           "ru": "Личность автора была раскрыта читателями.",
-          "highlight": ["was discovered"]
+          "highlight": [
+            "was discovered"
+          ]
         }
       ]
     }

@@ -112,23 +112,23 @@
   "rules": [
     {
       "title": "Must have + V3",
-      "explanation": "Используется для сильного вывода о прошлом.",
-      "example": "She must have had a reason."
+      "example": "She must have had a reason.",
+      "text": "Используется для сильного вывода о прошлом."
     },
     {
       "title": "Might have + V3",
-      "explanation": "Используется, когда прошлое событие является одной из возможных версий.",
-      "example": "She might have misunderstood him."
+      "example": "She might have misunderstood him.",
+      "text": "Используется, когда прошлое событие является одной из возможных версий."
     },
     {
       "title": "Can't have + V3",
-      "explanation": "Используется, когда говорящий считает прошлое событие невозможным.",
-      "example": "She can't have forgotten."
+      "example": "She can't have forgotten.",
+      "text": "Используется, когда говорящий считает прошлое событие невозможным."
     },
     {
       "title": "Past Simple vs Past Modal",
-      "explanation": "Past Simple сообщает факт; Past Modal выражает вывод говорящего о факте.",
-      "example": "She left. / She must have left."
+      "example": "She left. / She must have left.",
+      "text": "Past Simple сообщает факт; Past Modal выражает вывод говорящего о факте."
     }
   ],
   "examples": [
@@ -359,27 +359,27 @@
     {
       "wrong": "She must had a reason.",
       "right": "She must have had a reason.",
-      "why": "После modal для вывода о прошлом используется have + V3."
+      "note": "После modal для вывода о прошлом используется have + V3."
     },
     {
       "wrong": "She must has left.",
       "right": "She must have left.",
-      "why": "После modal используется базовая форма have."
+      "note": "После modal используется базовая форма have."
     },
     {
       "wrong": "She might has misunderstood him.",
       "right": "She might have misunderstood him.",
-      "why": "После might также используется have + V3."
+      "note": "После might также используется have + V3."
     },
     {
       "wrong": "She can't had forgotten.",
       "right": "She can't have forgotten.",
-      "why": "Can't + have + Past Participle образует отрицательный вывод о прошлом."
+      "note": "Can't + have + Past Participle образует отрицательный вывод о прошлом."
     },
     {
       "wrong": "She must have left means that she was obliged to leave.",
       "right": "She must have left means that the speaker strongly believes she left.",
-      "why": "В Past Modal must выражает вывод, а не обязанность."
+      "note": "В Past Modal must выражает вывод, а не обязанность."
     }
   ],
   "compare": {
@@ -421,7 +421,6 @@
   ],
   "quiz": [
     {
-      "question": "Choose the strongest deduction.",
       "options": [
         "She left.",
         "She might have left.",
@@ -429,10 +428,10 @@
         "She could leave."
       ],
       "answer": "She must have left.",
-      "explanation": "Must have выражает сильный вывод о прошлом."
+      "q": "Choose the strongest deduction.",
+      "why": "Must have выражает сильный вывод о прошлом."
     },
     {
-      "question": "Choose the correct form.",
       "options": [
         "She must had known.",
         "She must have known.",
@@ -440,10 +439,10 @@
         "She must knowing."
       ],
       "answer": "She must have known.",
-      "explanation": "Past Modal строится как modal + have + V3."
+      "q": "Choose the correct form.",
+      "why": "Past Modal строится как modal + have + V3."
     },
     {
-      "question": "Which sentence expresses possibility?",
       "options": [
         "She must have forgotten.",
         "She might have forgotten.",
@@ -451,10 +450,10 @@
         "She forgot."
       ],
       "answer": "She might have forgotten.",
-      "explanation": "Might have показывает возможную версию."
+      "q": "Which sentence expresses possibility?",
+      "why": "Might have показывает возможную версию."
     },
     {
-      "question": "Which sentence expresses impossibility?",
       "options": [
         "She may have known.",
         "She must have known.",
@@ -462,10 +461,10 @@
         "She knew."
       ],
       "answer": "She can't have known.",
-      "explanation": "Can't have показывает, что говорящий исключает такую версию."
+      "q": "Which sentence expresses impossibility?",
+      "why": "Can't have показывает, что говорящий исключает такую версию."
     },
     {
-      "question": "What is the difference between 'She left' and 'She must have left'?",
       "options": [
         "The first is a fact; the second is an inference.",
         "They always mean exactly the same thing.",
@@ -473,10 +472,10 @@
         "The second expresses obligation."
       ],
       "answer": "The first is a fact; the second is an inference.",
-      "explanation": "Past Simple сообщает событие, а must have показывает вывод о нём."
+      "q": "What is the difference between 'She left' and 'She must have left'?",
+      "why": "Past Simple сообщает событие, а must have показывает вывод о нём."
     },
     {
-      "question": "Which sentence is a learner inference rather than a quotation from Emma?",
       "options": [
         "She must have some motive, more powerful than appears, for refusing this invitation.",
         "She must have known something important.",
@@ -484,7 +483,8 @@
         "She might have been a model of right feminine happiness."
       ],
       "answer": "She must have known something important.",
-      "explanation": "Это учебная реконструкция, а не прямая цитата Остин."
+      "q": "Which sentence is a learner inference rather than a quotation from Emma?",
+      "why": "Это учебная реконструкция, а не прямая цитата Остин."
     }
   ],
   "related": [

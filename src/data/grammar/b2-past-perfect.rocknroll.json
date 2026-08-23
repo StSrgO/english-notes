@@ -112,23 +112,23 @@
   "rules": [
     {
       "title": "Earlier event",
-      "explanation": "Более раннее событие в прошлом оформляется как had + Past Participle.",
-      "example": "Harris had written the song before the band recorded it."
+      "example": "Harris had written the song before the band recorded it.",
+      "text": "Более раннее событие в прошлом оформляется как had + Past Participle."
     },
     {
       "title": "Past Simple as later event",
-      "explanation": "Более позднее событие обычно остаётся в Past Simple.",
-      "example": "The band recorded the song."
+      "example": "The band recorded the song.",
+      "text": "Более позднее событие обычно остаётся в Past Simple."
     },
     {
       "title": "Already completed",
-      "explanation": "Past Perfect подчёркивает, что действие уже было завершено к определённому моменту прошлого.",
-      "example": "Harris had already written the song when recording began."
+      "example": "Harris had already written the song when recording began.",
+      "text": "Past Perfect подчёркивает, что действие уже было завершено к определённому моменту прошлого."
     },
     {
       "title": "Historical transformation",
-      "explanation": "Фактическую хронологию можно преобразовать в Past Perfect sentence, но такая учебная формулировка не становится цитатой.",
-      "example": "Harris had watched the film before he wrote the song."
+      "example": "Harris had watched the film before he wrote the song.",
+      "text": "Фактическую хронологию можно преобразовать в Past Perfect sentence, но такая учебная формулировка не становится цитатой."
     }
   ],
   "examples": [
@@ -323,27 +323,27 @@
     {
       "wrong": "Harris had watched the film yesterday.",
       "right": "Harris watched the film yesterday.",
-      "why": "Если нет второй точки в прошлом, Past Perfect не нужен."
+      "note": "Если нет второй точки в прошлом, Past Perfect не нужен."
     },
     {
       "wrong": "Harris had wrote the song.",
       "right": "Harris had written the song.",
-      "why": "После had нужен Past Participle: written."
+      "note": "После had нужен Past Participle: written."
     },
     {
       "wrong": "Harris has watched the film before he wrote the song.",
       "right": "Harris had watched the film before he wrote the song.",
-      "why": "Обе временные точки относятся к прошлому."
+      "note": "Обе временные точки относятся к прошлому."
     },
     {
       "wrong": "Harris had watched the film after he wrote the song.",
       "right": "Harris watched the film after he wrote the song.",
-      "why": "Здесь просмотр фильма происходит позже написания."
+      "note": "Здесь просмотр фильма происходит позже написания."
     },
     {
       "wrong": "When recording began, Harris wrote the song already.",
       "right": "When recording began, Harris had already written the song.",
-      "why": "Past Perfect показывает, что написание было завершено до начала записи."
+      "note": "Past Perfect показывает, что написание было завершено до начала записи."
     }
   ],
   "compare": {
@@ -385,7 +385,6 @@
   ],
   "quiz": [
     {
-      "question": "Choose the correct form.",
       "options": [
         "Harris had wrote the song.",
         "Harris had written the song.",
@@ -393,10 +392,10 @@
         "Harris has written the song."
       ],
       "answer": "Harris had written the song.",
-      "explanation": "После had используется Past Participle: written."
+      "q": "Choose the correct form.",
+      "why": "После had используется Past Participle: written."
     },
     {
-      "question": "Which happened first in 'Harris had watched the film before he wrote the song'?",
       "options": [
         "He wrote the song.",
         "He watched the film.",
@@ -404,10 +403,10 @@
         "The sentence does not show the order."
       ],
       "answer": "He watched the film.",
-      "explanation": "Past Perfect показывает более раннее событие."
+      "q": "Which happened first in 'Harris had watched the film before he wrote the song'?",
+      "why": "Past Perfect показывает более раннее событие."
     },
     {
-      "question": "Why do we use 'had recorded' in 'The band had recorded the album before it was released'?",
       "options": [
         "Recording happened before release.",
         "Recording happened after release.",
@@ -415,10 +414,10 @@
         "Had is used because the album is famous."
       ],
       "answer": "Recording happened before release.",
-      "explanation": "Past Perfect показывает более раннее завершённое действие."
+      "q": "Why do we use 'had recorded' in 'The band had recorded the album before it was released'?",
+      "why": "Past Perfect показывает более раннее завершённое действие."
     },
     {
-      "question": "Which sentence needs Past Perfect?",
       "options": [
         "Harris wrote the song in 1981.",
         "Harris had written the song before the band recorded it.",
@@ -426,10 +425,10 @@
         "The album was released in 1982."
       ],
       "answer": "Harris had written the song before the band recorded it.",
-      "explanation": "Здесь есть две точки в прошлом."
+      "q": "Which sentence needs Past Perfect?",
+      "why": "Здесь есть две точки в прошлом."
     },
     {
-      "question": "Which statement is correct about the Rock examples?",
       "options": [
         "Every Past Perfect sentence is a direct Iron Maiden quote.",
         "The song contains many authentic Past Perfect constructions.",
@@ -437,7 +436,8 @@
         "Historical facts do not matter."
       ],
       "answer": "The Past Perfect sentences are grammatical transformations of documented chronology.",
-      "explanation": "Так сохраняется граница между источником и учебным грамматическим анализом."
+      "q": "Which statement is correct about the Rock examples?",
+      "why": "Так сохраняется граница между источником и учебным грамматическим анализом."
     }
   ],
   "related": [
