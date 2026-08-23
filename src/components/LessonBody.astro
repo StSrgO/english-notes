@@ -94,24 +94,123 @@ function ideaHtml(text) {
 <section id={'reference' + s} class="lv2-sec" data-spybase="reference" {...reveal}>
   <h2 class="lv2-h">Справочник</h2>
   {T?.formula && <div class="lv2-formula">{T.formula}</div>}
-  {T?.structure && Object.keys(T.structure).length > 0 && (
+    {T?.structure && Object.keys(T.structure).length > 0 && (
     <div class="lv2-struct">
-      {(['positive', 'negative', 'question'].every((k) => Object.prototype.hasOwnProperty.call(T.structure, k))) ? (
-        <>
-          <div class="lv2-struct__row"><span class="lv2-struct__k">+</span><span>{T.structure.positive}</span></div>
-          <div class="lv2-struct__row"><span class="lv2-struct__k">−</span><span>{T.structure.negative}</span></div>
-          <div class="lv2-struct__row"><span class="lv2-struct__k">?</span><span>{T.structure.question}</span></div>
-        </>
-      ) : (
-        Object.entries(T.structure)
-          .filter(([_, value]) => value !== null && value !== undefined && String(value).trim() !== '')
-          .map(([key, value]) => (
+      {Object.entries(T.structure)
+        .filter(([_, value]) =>
+          value !== null &&
+          value !== undefined &&
+          String(value).trim() !== ''
+        )
+        .map(([key, value]) => {
+
+          const labels = {
+            positive: "Утверждение",
+            negative: "Отрицание",
+            question: "Вопрос",
+
+            affirmative: "Утверждение",
+            statement: "Утверждение",
+
+            short_answer: "Краткий ответ",
+            shortAnswer: "Краткий ответ",
+
+            wh_cleft: "Вопросительное выделение",
+            it_cleft_person: "Выделение человека",
+            it_cleft_thing: "Выделение предмета",
+            focus_in_explanation: "Фокус в объяснении",
+
+            subject_focus: "Фокус на подлежащем",
+            object_focus: "Фокус на дополнении",
+            time_focus: "Фокус на времени",
+            place_focus: "Фокус на месте",
+
+            present: "Настоящее время",
+            past: "Прошедшее время",
+            future: "Будущее время",
+
+            singular: "Единственное число",
+            plural: "Множественное число",
+
+            question_form: "Вопросительная форма",
+            negative_form: "Отрицательная форма",
+
+            main_clause: "Главная часть",
+            subordinate_clause: "Придаточная часть",
+
+            active: "Активный залог",
+            passive: "Пассивный залог",
+
+            infinitive: "Инфинитив",
+            gerund: "Герундий",
+            participle: "Причастие",
+
+            first_person: "Первое лицо",
+            second_person: "Второе лицо",
+            third_person: "Третье лицо",
+
+            first_person_singular: "Первое лицо, ед. число",
+            second_person_singular: "Второе лицо, ед. число",
+            third_person_singular: "Третье лицо, ед. число",
+
+            first_person_plural: "Первое лицо, мн. число",
+            second_person_plural: "Второе лицо, мн. число",
+            third_person_plural: "Третье лицо, мн. число"
+          };
+
+          const makeLabel = (rawKey) => {
+
+            if (labels[rawKey]) {
+              return labels[rawKey];
+            }
+
+            const readable = String(rawKey)
+              .replace(/([a-z])([A-Z])/g, "$1 $2")
+              .replace(/[_-]+/g, " ")
+              .replace(/\s+/g, " ")
+              .trim();
+
+            return (
+              readable.charAt(0).toUpperCase()
+              + readable.slice(1)
+            );
+          };
+
+          const label = makeLabel(key);
+
+          let renderedValue;
+
+          if (
+            typeof value === "object" &&
+            value !== null
+          ) {
+
+            renderedValue =
+              value.text ??
+              value.value ??
+              value.example ??
+              JSON.stringify(value);
+
+          } else {
+
+            renderedValue = String(value);
+
+          }
+
+          return (
             <div class="lv2-struct__row">
-              <span class="lv2-struct__k">{key}</span>
-              <span>{String(value)}</span>
+
+              <div class="lv2-struct__label">
+                {label}
+              </div>
+
+              <div class="lv2-struct__value">
+                {renderedValue}
+              </div>
+
             </div>
-          ))
-      )}
+          );
+        })}
     </div>
   )}
   {T.markers && T.markers.length > 0 && (
@@ -134,7 +233,7 @@ function ideaHtml(text) {
 
   <!-- АЛФАВИТ (отдельная секция) -->
 {T.alphabet && T.alphabet.length > 0 && (
-  <section id="alphabet" class="lv2-sec" data-spybase="alphabet">
+  <section id={'alphabet' + s} class="lv2-sec" data-spybase="alphabet">
     <h2 class="lv2-h">Алфавит</h2>
     <div class="alphabet-table">
       <div class="alphabet-grid">
@@ -258,3 +357,143 @@ function ideaHtml(text) {
   
 </section>
 )}
+
+<style>
+
+
+/* ENGLISHNOTES FIX #14 — FINAL UNIVERSAL STRUCTURE */
+
+
+/* ============================================================
+   STRUCTURE CONTAINER
+   ============================================================ */
+
+.lv2-struct {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  overflow: hidden;
+}
+
+
+/* ============================================================
+   STRUCTURE ROW
+   ============================================================ */
+
+.lv2-struct__row {
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+
+  display: grid;
+
+  /*
+   * Одинаковая ширина левой колонки
+   * для всех строк структуры.
+   */
+
+  grid-template-columns:
+    minmax(210px, 250px)
+    minmax(0, 1fr);
+
+  column-gap: 1.25rem;
+
+  align-items: start;
+
+  padding: 0.65rem 0;
+
+  border-bottom:
+    1px solid rgba(30, 70, 60, 0.10);
+}
+
+.lv2-struct__row:last-child {
+  border-bottom: none;
+}
+
+
+/* ============================================================
+   LABEL
+   ============================================================ */
+
+.lv2-struct__label {
+  min-width: 0;
+  box-sizing: border-box;
+
+  font-weight: 700;
+  line-height: 1.4;
+
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+
+/* ============================================================
+   VALUE
+   ============================================================ */
+
+.lv2-struct__value {
+  min-width: 0;
+  box-sizing: border-box;
+
+  line-height: 1.5;
+
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+
+/* ============================================================
+   TABLET
+   ============================================================ */
+
+@media (max-width: 760px) {
+
+  .lv2-struct__row {
+    grid-template-columns:
+      minmax(170px, 210px)
+      minmax(0, 1fr);
+
+    column-gap: 0.9rem;
+
+    padding: 0.6rem 0;
+  }
+
+  .lv2-struct__label {
+    font-size: 0.95em;
+  }
+
+  .lv2-struct__value {
+    font-size: 0.95em;
+  }
+}
+
+
+/* ============================================================
+   MOBILE
+   ============================================================ */
+
+@media (max-width: 480px) {
+
+  .lv2-struct__row {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0.2rem;
+
+    padding: 0.7rem 0;
+  }
+
+  .lv2-struct__label {
+    width: 100%;
+  }
+
+  .lv2-struct__value {
+    width: 100%;
+  }
+}
+</style>
