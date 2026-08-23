@@ -2,186 +2,566 @@
   "variant": "classic",
   "slug": "a1-imperative-and-frequency",
   "level": "A1",
-  "title": "Imperative and Frequency Adverbs",
+  "title": "Imperative & Frequency",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Повелительное наклонение и наречия частоты. Джеймс Барри и «Питер Пэн».",
+  "readingTime": 14,
+  "summary": "Imperative используется для команд, просьб, советов и инструкций. В утвердительной форме используется начальная форма глагола, а для отрицания — don't + глагол. Слова always, usually, often, sometimes и never показывают, как часто происходит действие, а выражения every day, once a week и другие уточняют частоту. Положение наречия частоты зависит от типа глагола: с обычным глаголом оно обычно стоит перед ним, а с be — после него.",
   "idea": [
-    "«Follow me!» — Идите за мной! «Don't grow up!» — Не взрослейте! «Think happy thoughts!» — Думайте о счастливом! Питер не просит. Он приказывает. Это команды. Imperative — это язык приказов. Он не требует подлежащего. Он просто говорит: делай это. «Fly to Neverland!» — Летите в Нетландию! «Believe in magic!» — Верьте в магию! «Don't be afraid of Captain Hook!» — Не бойтесь капитана Крюка! «Don't forget Wendy!» — Не забывайте Венди! Каждая команда — это действие. «Sprinkle fairy dust on yourself!» — Посыпьте себя феями-пыльцой! «Stay together in Neverland!» — Держитесь вместе в Нетландии! «Listen to Peter's advice!» — Слушайте советы Питера! «Be brave and strong!» — Будьте храбрыми и сильными! Питер не объясняет, почему. Он просто говорит, что делать.",
-    "Но Питер — это не только команды. Это привычки. Он всегда делает одно и то же. «Peter always fights Captain Hook.» — Питер всегда дерётся с капитаном Крюком. «He often forgets about time.» — Он часто забывает о времени. «He sometimes visits Wendy in London.» — Он иногда навещает Венди в Лондоне. «He never says sorry.» — Он никогда не извиняется. Наречия частоты показывают его характер. «Always» — всегда. «Often» — часто. «Sometimes» — иногда. «Never» — никогда. «The Lost Boys always follow Peter.» — Потерянные мальчики всегда следуют за Питером. «They usually play in the forest.» — Они обычно играют в лесу. «They sometimes hunt pirates.» — Они иногда охотятся на пиратов. «They never tell lies.» — Они никогда не врут. Imperative и frequency adverbs вместе показывают, кто такой Питер Пэн. Команды — его власть. Привычки — его характер."
+    "В разговоре мы не всегда просто сообщаем, что происходит. Иногда нужно сказать человеку, что делать: подождать, открыть дверь, остановиться, посмотреть, не уходить. Для этого английский использует [bold]Imperative[/bold] — повелительную форму. Она особенно естественно появляется в диалогах, потому что команда или просьба направлена непосредственно к собеседнику.",
+    "В [bold]The Canterville Ghost[/bold] такие реплики возникают совершенно естественно. Virginia разговаривает с призраком, который жалуется, что не может уснуть, и отвечает ему практическим советом: [bold]“You have merely to go to bed and blow out the candle.”[/bold] Здесь сама ситуация показывает разницу между обычным сообщением и инструкцией: Virginia объясняет, что нужно сделать, чтобы решить проблему.",
+    "Самая простая форма Imperative — это глагол без подлежащего. Мы говорим [bold]Come here.[/bold], [bold]Wait.[/bold], [bold]Open the door.[/bold], [bold]Look at this.[/bold]. В английском местоимение [bold]you[/bold] обычно не произносится, потому что из самой формы понятно: команда обращена к собеседнику. Поэтому [bold]Come here[/bold] означает «Иди сюда», а не просто «приходить сюда».",
+    "Это важно сравнить с обычным предложением. [bold]You open the door[/bold] сообщает о действии или формулирует инструкцию только в специальном контексте. В нормальной повелительной конструкции мы говорим [bold]Open the door.[/bold] Глагол сразу ставится в начальной форме. Никакого [bold]to[/bold] перед ним нет: не [bold]to open[/bold], а [bold]open[/bold].",
+    "Imperative может выражать не только жёсткую команду. [bold]Come in.[/bold] может быть приглашением. [bold]Wait a moment.[/bold] — просьбой. [bold]Take a seat.[/bold] — вежливым предложением. Поэтому значение зависит от ситуации, интонации и слов вокруг конструкции. Грамматическая форма остаётся одной и той же, но речевая функция меняется.",
+    "Для отрицательной команды используется [bold]don't + глагол[/bold]: [bold]Don't go.[/bold], [bold]Don't touch it.[/bold], [bold]Don't open the door.[/bold]. В [bold]The Canterville Ghost[/bold] это особенно хорошо видно в реплике призрака: [bold]“Please don't go, Miss Virginia.”[/bold] Здесь отрицательный Imperative одновременно является просьбой: призрак просит Virginia не уходить.",
+    "Слово [bold]please[/bold] часто смягчает команду или просьбу. Сравните [bold]Wait.[/bold] и [bold]Please wait.[/bold]. Грамматическая основа одна и та же, но вторая форма звучит вежливее. [bold]Please don't go[/bold] также остаётся отрицательным Imperative: [bold]please + don't + verb[/bold].",
+    "Есть ещё одна важная конструкция: [bold]let's + глагол[/bold]. Она используется, когда говорящий предлагает сделать что-то вместе: [bold]Let's go.[/bold], [bold]Let's wait.[/bold], [bold]Let's look again.[/bold]. Здесь смысл уже не «сделай это», а «давай сделаем это вместе». Отрицательная форма — [bold]Let's not go.[/bold].",
+    "Imperative особенно хорошо работает с инструкциями. Если кто-то объясняет другому человеку, что делать шаг за шагом, появляются последовательные команды: [bold]Open the door. Walk inside. Look around. Don't touch anything.[/bold]. Каждая фраза содержит один основной глагол. Именно поэтому Imperative так часто используется в правилах, рецептах, инструкциях и бытовых ситуациях.",
+    "Но в этом уроке рядом с Imperative появляется ещё одна идея: [bold]frequency[/bold]. Когда мы рассказываем о привычках или повторяющихся событиях, нам важно не только сказать, что человек делает, но и показать, как часто это происходит. [bold]Always[/bold], [bold]usually[/bold], [bold]often[/bold], [bold]sometimes] и [bold]never[/bold] помогают расположить действие на шкале частоты.",
+    "Представьте пять точек на такой шкале. [bold]Always[/bold] означает, что действие происходит практически каждый раз. [bold]Usually[/bold] — обычно. [bold]Often[/bold] — часто. [bold]Sometimes[/bold] — иногда. [bold]Never[/bold] — никогда. Поэтому [bold]Virginia always helps people[/bold] и [bold]Virginia sometimes helps people[/bold] отличаются не временем действия, а частотой.",
+    "С обычным смысловым глаголом наречие частоты обычно ставится перед основным глаголом. [bold]Virginia always helps him.[/bold] [bold]The twins often play tricks.[/bold] [bold]The ghost sometimes appears.[/bold] [bold]Virginia never ignores him.[/bold]. Важно увидеть структуру: subject + frequency adverb + main verb.",
+    "С глаголом [bold]be[/bold] порядок другой. Наречие частоты обычно ставится после формы [bold]be[/bold]: [bold]The ghost is always unhappy.[/bold], [bold]Virginia is often kind.[/bold], [bold]The twins are sometimes cruel.[/bold]. Поэтому нельзя механически поставить [bold]always[/bold] перед be. Не [bold]Virginia always is kind[/bold], а [bold]Virginia is always kind[/bold].",
+    "В Present Simple [bold]always, usually, often, sometimes[/bold] и [bold]never[/bold] особенно полезны, потому что Present Simple часто описывает привычки и повторяющиеся действия. [bold]The ghost often appears at night.[/bold] говорит не о конкретном появлении сейчас, а о повторяющейся ситуации. [bold]The twins always make trouble.[/bold] описывает характерное поведение.",
+    "Однако частоту можно выразить и не наречием, а отдельной группой слов. [bold]Every day[/bold] означает «каждый день», [bold]every week[/bold] — «каждую неделю», [bold]once a week[/bold] — «раз в неделю», [bold]twice a year[/bold] — «два раза в год». Такие выражения обычно стоят в конце предложения: [bold]The ghost appears every night.[/bold], [bold]The twins play tricks every day.[/bold].",
+    "Сравните [bold]The ghost often appears[/bold] и [bold]The ghost appears every night[/bold]. В первом предложении частота выражена одним наречием [bold]often[/bold]. Во втором мы называем конкретный интервал — каждую ночь. Оба предложения говорят о повторяющемся действии, но делают это по-разному.",
+    "Есть важная разница между [bold]sometimes[/bold] и [bold]never[/bold]. [bold]Sometimes[/bold] означает, что действие происходит в некоторых случаях: [bold]The ghost sometimes appears in the corridor.[/bold]. [bold]Never[/bold] означает нулевую частоту: [bold]Virginia never laughs at him.[/bold]. Поэтому [bold]never[/bold] уже содержит отрицательный смысл, и дополнительное [bold]don't[/bold] обычно не требуется.",
+    "Это значит, что [bold]He never goes there[/bold] правильно, а [bold]He doesn't never go there[/bold] — уже совсем другая и ненормальная для базовой модели конструкция. На уровне A1 проще запомнить правило: [bold]never[/bold] само сообщает «никогда», поэтому обычное отрицание с [bold]don't/doesn't[/bold] рядом с ним не нужно.",
+    "Frequency можно соединить с Imperative, но функции у них разные. Imperative говорит человеку, что делать: [bold]Come here.[/bold] Frequency рассказывает, как часто что-то происходит: [bold]He often comes here.[/bold]. В первом предложении мы управляем действием собеседника. Во втором — описываем привычное действие.",
+    "Поэтому [bold]Open the door.[/bold] и [bold]He always opens the door.[/bold] нельзя считать одной и той же конструкцией. В первом случае [bold]open[/bold] — Imperative. Во втором [bold]opens[/bold] — Present Simple с третьим лицом, а [bold]always[/bold] показывает частоту.",
+    "Именно это различие помогает понять диалоги [bold]The Canterville Ghost[/bold]. Персонажи постоянно обращаются друг к другу: кто-то просит не уходить, кто-то предлагает что-то сделать, кто-то даёт практический совет. В реплике Virginia [bold]“go to bed and blow out the candle”[/bold] сразу два Imperative-like действия передают последовательность инструкции.",
+    "При этом сама история наполнена повторяющимися действиями. Призрак регулярно появляется в доме, а семья снова и снова реагирует на его попытки напугать жильцов. Для описания таких повторов естественно использовать frequency: [bold]He often appears at night.[/bold], [bold]The twins always play tricks.[/bold], [bold]Virginia sometimes talks to him.[/bold]. Эти предложения не являются цитатами Wilde, а показывают, как грамматическая модель описывает события истории.",
+    "Важна и позиция frequency adverb в длинном предложении. [bold]The ghost always appears at night[/bold] — наречие стоит перед основным глаголом. Если появляется [bold]be[/bold], структура меняется: [bold]The ghost is always tired[/bold]. Если используется выражение типа [bold]every night[/bold], оно обычно идёт в конце: [bold]The ghost appears every night.[/bold]",
+    "Вопрос о частоте тоже строится естественно через [bold]How often...?[/bold]. [bold]How often does the ghost appear?[/bold] — «Как часто призрак появляется?» Ответ может быть [bold]He often appears at night[/bold] или [bold]He appears every night[/bold]. Таким образом, frequency превращается из отдельного слова в полноценный обмен информацией.",
+    "Обрати внимание на форму глагола в вопросе. [bold]How often does the ghost appear?[/bold], а не [bold]How often does the ghost appears?[/bold]. После [bold]does[/bold] основной глагол возвращается в начальную форму. Это тот же принцип, который мы изучали в Questions: [bold]does + subject + V1[/bold].",
+    "Imperative и frequency могут встретиться даже в одной бытовой ситуации. Представим, что Virginia хочет дать кому-то инструкцию: [bold]Come here. Wait here. Don't open the door.[/bold]. А затем она описывает привычное поведение: [bold]The ghost often comes here. He usually appears at night. He never stays for long.[/bold]. Первые предложения управляют действием, вторые описывают повторяемость.",
+    "Именно поэтому две части урока связаны не случайно. [bold]Imperative[/bold] отвечает на вопрос «что сделать сейчас?», а [bold]frequency[/bold] помогает ответить на вопрос «как часто это происходит?». [bold]Open the door[/bold] — команда. [bold]He often opens the door[/bold] — привычное действие. Форма глагола и позиция слов меняются вместе с задачей говорящего.",
+    "В конце диалога это различие становится особенно наглядным. [bold]Stop![/bold] — короткая команда. В тексте Wilde Virginia действительно говорит [bold]“Stop!”[/bold], когда призрак обвиняет её семью в грубости. Затем можно описать происходящее уже как привычную ситуацию: [bold]The twins often tease the ghost.[/bold] Здесь нет команды — есть сообщение о повторяющемся действии.",
+    "Поэтому полезно каждый раз задавать себе два разных вопроса. Если я хочу заставить, попросить или предложить человеку что-то сделать, мне нужен [bold]Imperative[/bold]: [bold]Come in. Wait. Don't go. Let's talk.[/bold]. Если я рассказываю о привычке или повторении, мне нужен [bold]frequency expression[/bold]: [bold]always, usually, often, sometimes, never, every day, once a week[/bold].",
+    "Так английский позволяет очень точно разделить две функции речи. В диалоге мы можем сказать [bold]Please don't go[/bold] — просьба прямо сейчас. А затем сказать [bold]He often comes here[/bold] — информация о повторяющемся поведении. Одна конструкция обращена к действию собеседника, другая — к описанию мира.",
+    "Именно поэтому бытовые диалоги [bold]The Canterville Ghost[/bold] подходят для этой темы лучше, чем искусственный список команд. В разговоре персонажи действительно дают советы, просят, запрещают и предлагают; а сама история даёт достаточно повторяющихся действий, чтобы рядом естественно показать frequency. Грамматика здесь не приклеена к сюжету — она описывает две разные функции, которые постоянно возникают внутри разговора."
   ],
   "why": [
-    "Приказывать: «Follow me!»",
-    "Давать советы: «Think happy thoughts!»",
-    "Запрещать: «Don't grow up!»",
-    "Говорить о частоте: «He always fights Captain Hook.»"
+    "Давать команды, просьбы, советы и инструкции.",
+    "Вежливо просить человека что-то сделать или не делать.",
+    "Говорить о привычках и повторяющихся действиях.",
+    "Указывать, как часто происходит действие."
   ],
   "context": {
     "lines": [
-      { "en": "Peter: Follow me, boys! Don't be afraid!", "ru": "Идите за мной, мальчики! Не бойтесь!" },
-      { "en": "Wendy: Peter, you always fight Captain Hook. Why?", "ru": "Питер, ты всегда дерёшься с капитаном Крюком. Почему?" },
-      { "en": "Peter: He never learns. He always tries to catch me.", "ru": "Он никогда не учится. Он всегда пытается поймать меня." },
-      { "en": "Wendy: Do you ever stop fighting?", "ru": "Ты когда-нибудь перестаёшь драться?" },
-      { "en": "Peter: Never! Now, come on! Fly with me!", "ru": "Никогда! А теперь, давай! Лети со мной!" }
+      {
+        "en": "Please don't go, Miss Virginia.",
+        "ru": "Пожалуйста, не уходите, мисс Virginia.",
+        "source": "Oscar Wilde, The Canterville Ghost"
+      },
+      {
+        "en": "Stop!",
+        "ru": "Стойте!",
+        "source": "Oscar Wilde, The Canterville Ghost"
+      },
+      {
+        "en": "go to bed and blow out the candle",
+        "ru": "лечь спать и задуть свечу",
+        "source": "Oscar Wilde, The Canterville Ghost"
+      },
+      {
+        "en": "He often appears at night.",
+        "ru": "Он часто появляется ночью.",
+        "source": "Учебный пример по сюжету"
+      },
+      {
+        "en": "The twins always play tricks.",
+        "ru": "Близнецы всегда устраивают проделки.",
+        "source": "Учебный пример по сюжету"
+      }
     ],
-    "note": "Питер командует Потерянными мальчиками. Imperative помогает ему управлять. Frequency adverbs показывают его привычки."
+    "note": "Первые три английские фразы взяты из текста Wilde; последние два предложения являются учебными моделями, описывающими события рассказа."
   },
   "russianAngle": [
-    "В русском мы используем инфинитив для приказа: «Не бояться!» В английском — базовую форму глагола: «Don't be afraid!»",
-    "Для запрета в русском — «Не делай!» В английском — «Don't do it!»",
-    "Наречия частоты в русском обычно стоят перед глаголом: «Я всегда так делаю». В английском тоже: «I always do it.»",
-    "Но будь осторожен: в отрицаниях наречие частоты стоит после don't/doesn't: «He doesn't often come» (не «He often doesn't come»)."
+    "В русском повелительное наклонение имеет специальные формы, а в английском Imperative совпадает с начальной формой глагола без to.",
+    "Английский Imperative обычно не содержит подлежащего you: [bold]Come here.[/bold], [bold]Wait.[/bold].",
+    "Отрицательная команда строится через don't: [bold]Don't go.[/bold].",
+    "В русском наречия частоты можно располагать свободнее, а в английском их позиция зависит от типа глагола.",
+    "С обычным глаголом frequency adverb обычно стоит перед ним: [bold]He often comes.[/bold]. С be — после него: [bold]He is often tired.[/bold]."
   ],
   "howToLearn": {
     "steps": [
-      "Imperative: используй базовую форму глагола: «Fly!», «Come!»",
-      "Отрицательный imperative: don't + базовая форма: «Don't go!»",
-      "Наречия частоты ставь перед основным глаголом: «always, often, sometimes, never».",
-      "В отрицаниях наречие идёт после don't/doesn't: «He doesn't often fight.»",
-      "С глаголом to be наречие стоит после: «He is always happy.»",
-      "Потренируйся: давай команды Питеру Пэну."
+      "Если ты обращаешься к человеку с командой или просьбой, поставь глагол в начальной форме без to.",
+      "Для отрицательной команды используй don't + V1.",
+      "Для предложения сделать что-то вместе используй let's + V1.",
+      "Если описываешь повторяющееся действие, выбери frequency word или frequency expression.",
+      "С обычным глаголом ставь always/usually/often/sometimes/never перед глаголом.",
+      "С be ставь frequency adverb после am/is/are.",
+      "Every day, every week, once a week и подобные выражения обычно ставь в конце.",
+      "Для вопроса о частоте используй How often...?"
     ],
     "exercise": {
-      "prompt": "Сделай команду или добавь наречие частоты:",
+      "prompt": "Выберите правильную конструкцию.",
       "items": [
-        { "q": "Follow me! (отрицание)", "a": "Don't follow me!" },
-        { "q": "He (always / fight) Captain Hook.", "a": "He always fights Captain Hook." },
-        { "q": "Fly to Neverland! (отрицание)", "a": "Don't fly to Neverland!" },
-        { "q": "Peter (never / say sorry).", "a": "Peter never says sorry." },
-        { "q": "Think happy thoughts! (отрицание)", "a": "Don't think happy thoughts!" }
+        {
+          "q": "___ the door. (open)",
+          "a": "Open"
+        },
+        {
+          "q": "___ go, please. (not go)",
+          "a": "Don't"
+        },
+        {
+          "q": "The ghost ___ appears at night. (often)",
+          "a": "often"
+        },
+        {
+          "q": "The ghost ___ always tired. (be)",
+          "a": "is"
+        },
+        {
+          "q": "The twins play tricks ___. (every day)",
+          "a": "every day"
+        },
+        {
+          "q": "___ often does the ghost appear?",
+          "a": "How"
+        }
       ]
     }
   },
-  "formula": "Imperative: V1 / Don't + V1\nFrequency: Subject + adverb + verb",
+  "formula": "Imperative: V1 / Don't + V1 / Let's + V1. Frequency: subject + adverb + main verb / subject + be + adverb.",
   "structure": {
-    "positive": "Команда: V1 (Come here!)",
-    "negative": "Запрет: Don't + V1 (Don't go!)",
-    "question": ""
+    "imperative": "V1",
+    "negativeImperative": "Don't + V1",
+    "politeImperative": "Please + V1 / Please don't + V1",
+    "lets": "Let's + V1",
+    "frequencyMainVerb": "Subject + always/usually/often/sometimes/never + V1",
+    "frequencyBe": "Subject + am/is/are + always/usually/often/sometimes/never",
+    "frequencyExpression": "Subject + verb + every day/once a week/etc.",
+    "frequencyQuestion": "How often + do/does + subject + V1?"
   },
   "markers": [
     "always",
     "usually",
     "often",
     "sometimes",
-    "rarely",
     "never",
-    "ever"
+    "every day",
+    "every week",
+    "every night",
+    "once a week",
+    "twice a year",
+    "How often"
   ],
-  "uses": [
-    "Приказы: «Follow me!»",
-    "Запреты: «Don't grow up!»",
-    "Инструкции: «Think happy thoughts!»",
-    "Советы: «Listen to Peter!»",
-    "Привычки: «He always fights Captain Hook.»"
-  ],
+  "uses": {
+    "title": "Imperative и frequency",
+    "items": [
+      {
+        "title": "Command",
+        "text": "Прямая команда: Come here. / Stop."
+      },
+      {
+        "title": "Request",
+        "text": "Просьба: Please wait. / Please don't go."
+      },
+      {
+        "title": "Instruction",
+        "text": "Последовательность действий: Open the door. Look inside. Wait."
+      },
+      {
+        "title": "Suggestion",
+        "text": "Предложение сделать что-то вместе: Let's go. / Let's wait."
+      },
+      {
+        "title": "Frequency",
+        "text": "Описание повторяющегося действия: He often appears at night."
+      },
+      {
+        "title": "Zero frequency",
+        "text": "Never показывает, что действие не происходит: He never stays long."
+      },
+      {
+        "title": "Exact frequency",
+        "text": "Every day, once a week и другие выражения называют конкретную частоту: The twins play tricks every day."
+      }
+    ]
+  },
   "rules": [
-    { "title": "Imperative — базовая форма", "text": "Используй базовую форму глагола без подлежащего: Come here! Fly with me!" },
-    { "title": "Отрицательный Imperative", "text": "Добавь don't перед глаголом: Don't go! Don't be afraid!" },
-    { "title": "Наречия частоты", "text": "Ставь перед основным глаголом: He always fights. В отрицаниях — после don't/doesn't: He doesn't often fight." },
-    { "title": "To be + наречие", "text": "С глаголом to be наречие ставится после: He is always happy." }
+    {
+      "title": "Утвердительный Imperative",
+      "text": "Используй начальную форму глагола без to: Come here. / Open the door."
+    },
+    {
+      "title": "Отрицательный Imperative",
+      "text": "Используй don't + V1: Don't go. / Don't touch it."
+    },
+    {
+      "title": "Вежливая просьба",
+      "text": "Please может смягчить команду: Please wait. / Please don't go."
+    },
+    {
+      "title": "Let's",
+      "text": "Let's + V1 используется для предложения сделать что-то вместе: Let's go."
+    },
+    {
+      "title": "Frequency с обычным глаголом",
+      "text": "Наречие частоты обычно стоит перед основным глаголом: He often appears."
+    },
+    {
+      "title": "Frequency с be",
+      "text": "С be наречие частоты ставится после am/is/are: He is often tired."
+    },
+    {
+      "title": "Never",
+      "text": "Never уже содержит отрицательный смысл: He never goes there."
+    },
+    {
+      "title": "Выражения частоты",
+      "text": "Every day, every week, once a week и подобные выражения обычно стоят в конце: He appears every night."
+    },
+    {
+      "title": "How often",
+      "text": "Для вопроса о частоте используется How often: How often does he appear?"
+    }
   ],
   "examples": [
     {
-      "group": "Приказы Питера",
+      "group": "Imperative",
       "items": [
-        { "en": "Follow me, boys!", "ru": "Идите за мной, мальчики!", "highlight": ["Follow"] },
-        { "en": "Fly to Neverland!", "ru": "Летите в Нетландию!", "highlight": ["Fly"] },
-        { "en": "Think happy thoughts!", "ru": "Думайте о счастливом!", "highlight": ["Think"] },
-        { "en": "Believe in magic!", "ru": "Верьте в магию!", "highlight": ["Believe"] },
-        { "en": "Sprinkle fairy dust on yourself!", "ru": "Посыпьте себя феями-пыльцой!", "highlight": ["Sprinkle"] },
-        { "en": "Stay together in Neverland!", "ru": "Держитесь вместе в Нетландии!", "highlight": ["Stay"] }
+        {
+          "en": "Come here.",
+          "ru": "Иди сюда.",
+          "highlight": ["Come"]
+        },
+        {
+          "en": "Wait a moment.",
+          "ru": "Подожди минуту.",
+          "highlight": ["Wait"]
+        },
+        {
+          "en": "Open the door.",
+          "ru": "Открой дверь.",
+          "highlight": ["Open"]
+        },
+        {
+          "en": "Look at the window.",
+          "ru": "Посмотри на окно.",
+          "highlight": ["Look"]
+        },
+        {
+          "en": "Stop!",
+          "ru": "Стой!",
+          "highlight": ["Stop"]
+        },
+        {
+          "en": "Go to bed.",
+          "ru": "Иди спать.",
+          "highlight": ["Go"]
+        }
       ]
     },
     {
-      "group": "Запреты",
+      "group": "Negative imperative",
       "items": [
-        { "en": "Don't grow up!", "ru": "Не взрослейте!", "highlight": ["Don't grow"] },
-        { "en": "Don't be afraid of Captain Hook!", "ru": "Не бойтесь капитана Крюка!", "highlight": ["Don't be"] },
-        { "en": "Don't forget Wendy!", "ru": "Не забывайте Венди!", "highlight": ["Don't forget"] },
-        { "en": "Don't go to Neverland alone!", "ru": "Не ходите в Нетландию одни!", "highlight": ["Don't go"] },
-        { "en": "Don't ever leave Neverland!", "ru": "Никогда не покидайте Нетландию!", "highlight": ["Don't ever"] },
-        { "en": "Never trust Captain Hook!", "ru": "Никогда не доверяйте капитану Крюку!", "highlight": ["Never"] }
+        {
+          "en": "Don't go.",
+          "ru": "Не уходи.",
+          "highlight": ["Don't", "go"]
+        },
+        {
+          "en": "Don't touch it.",
+          "ru": "Не трогай это.",
+          "highlight": ["Don't", "touch"]
+        },
+        {
+          "en": "Please don't leave.",
+          "ru": "Пожалуйста, не уходи.",
+          "highlight": ["Please", "don't", "leave"]
+        },
+        {
+          "en": "Don't open the door.",
+          "ru": "Не открывай дверь.",
+          "highlight": ["Don't", "open"]
+        },
+        {
+          "en": "Don't be afraid.",
+          "ru": "Не бойся.",
+          "highlight": ["Don't", "be"]
+        },
+        {
+          "en": "Don't make a noise.",
+          "ru": "Не шуми.",
+          "highlight": ["Don't", "make"]
+        }
       ]
     },
     {
-      "group": "Инструкции и советы",
+      "group": "Frequency adverbs",
       "items": [
-        { "en": "Sprinkle fairy dust on yourself!", "ru": "Посыпьте себя феями-пыльцой!", "highlight": ["Sprinkle"] },
-        { "en": "Listen to Peter's advice!", "ru": "Слушайте советы Питера!", "highlight": ["Listen"] },
-        { "en": "Be brave and strong!", "ru": "Будьте храбрыми и сильными!", "highlight": ["Be"] },
-        { "en": "Stay together in Neverland!", "ru": "Держитесь вместе в Нетландии!", "highlight": ["Stay"] },
-        { "en": "Always follow the leader!", "ru": "Всегда следуйте за лидером!", "highlight": ["Always"] },
-        { "en": "Always believe in fairies!", "ru": "Всегда верьте в фей!", "highlight": ["Always"] }
+        {
+          "en": "The ghost always appears at night.",
+          "ru": "Призрак всегда появляется ночью.",
+          "highlight": ["always"]
+        },
+        {
+          "en": "The twins usually play tricks.",
+          "ru": "Близнецы обычно устраивают проделки.",
+          "highlight": ["usually"]
+        },
+        {
+          "en": "The ghost often appears in the corridor.",
+          "ru": "Призрак часто появляется в коридоре.",
+          "highlight": ["often"]
+        },
+        {
+          "en": "Virginia sometimes talks to him.",
+          "ru": "Virginia иногда разговаривает с ним.",
+          "highlight": ["sometimes"]
+        },
+        {
+          "en": "Virginia never laughs at him.",
+          "ru": "Virginia никогда не смеётся над ним.",
+          "highlight": ["never"]
+        },
+        {
+          "en": "The ghost is often unhappy.",
+          "ru": "Призрак часто несчастен.",
+          "highlight": ["is", "often"]
+        }
       ]
     },
     {
-      "group": "Привычки Питера",
+      "group": "Frequency expressions",
       "items": [
-        { "en": "Peter always fights Captain Hook.", "ru": "Питер всегда дерётся с капитаном Крюком.", "highlight": ["always"] },
-        { "en": "He often forgets about time.", "ru": "Он часто забывает о времени.", "highlight": ["often"] },
-        { "en": "He sometimes visits Wendy in London.", "ru": "Он иногда навещает Венди в Лондоне.", "highlight": ["sometimes"] },
-        { "en": "He never says sorry.", "ru": "Он никогда не извиняется.", "highlight": ["never"] },
-        { "en": "He always fights for what he wants.", "ru": "Он всегда борется за то, что хочет.", "highlight": ["always"] },
-        { "en": "He never stays in one place.", "ru": "Он никогда не остаётся на одном месте.", "highlight": ["never"] }
+        {
+          "en": "The ghost appears every night.",
+          "ru": "Призрак появляется каждую ночь.",
+          "highlight": ["every night"]
+        },
+        {
+          "en": "The twins play tricks every day.",
+          "ru": "Близнецы каждый день устраивают проделки.",
+          "highlight": ["every day"]
+        },
+        {
+          "en": "Virginia visits the garden once a week.",
+          "ru": "Virginia посещает сад раз в неделю.",
+          "highlight": ["once a week"]
+        },
+        {
+          "en": "The family talks about the ghost every evening.",
+          "ru": "Семья говорит о призраке каждый вечер.",
+          "highlight": ["every evening"]
+        },
+        {
+          "en": "He visits the house twice a year.",
+          "ru": "Он посещает дом дважды в год.",
+          "highlight": ["twice a year"]
+        },
+        {
+          "en": "The ghost rests once a day.",
+          "ru": "Призрак отдыхает раз в день.",
+          "highlight": ["once a day"]
+        }
       ]
     },
     {
-      "group": "Привычки Потерянных мальчиков",
+      "group": "How often",
       "items": [
-        { "en": "The Lost Boys always follow Peter.", "ru": "Потерянные мальчики всегда следуют за Питером.", "highlight": ["always"] },
-        { "en": "They usually play in the forest.", "ru": "Они обычно играют в лесу.", "highlight": ["usually"] },
-        { "en": "They sometimes hunt pirates.", "ru": "Они иногда охотятся на пиратов.", "highlight": ["sometimes"] },
-        { "en": "They never tell lies.", "ru": "Они никогда не врут.", "highlight": ["never"] },
-        { "en": "They always listen to Peter.", "ru": "Они всегда слушают Питера.", "highlight": ["always"] },
-        { "en": "They never disobey him.", "ru": "Они никогда не ослушиваются его.", "highlight": ["never"] }
-      ]
-    },
-    {
-      "group": "Команды и частота вместе",
-      "items": [
-        { "en": "Always follow the leader!", "ru": "Всегда следуйте за лидером!", "highlight": ["Always"] },
-        { "en": "Don't ever leave Neverland!", "ru": "Никогда не покидайте Нетландию!", "highlight": ["Don't ever"] },
-        { "en": "Never trust Captain Hook!", "ru": "Никогда не доверяйте капитану Крюку!", "highlight": ["Never"] },
-        { "en": "Always believe in fairies!", "ru": "Всегда верьте в фей!", "highlight": ["Always"] },
-        { "en": "Always think happy thoughts!", "ru": "Всегда думайте о счастливом!", "highlight": ["Always"] },
-        { "en": "Never stop believing in magic!", "ru": "Никогда не переставайте верить в магию!", "highlight": ["Never"] }
+        {
+          "en": "How often does the ghost appear?",
+          "ru": "Как часто появляется призрак?",
+          "highlight": ["How often", "does", "appear"]
+        },
+        {
+          "en": "How often do the twins play tricks?",
+          "ru": "Как часто близнецы устраивают проделки?",
+          "highlight": ["How often", "do", "play"]
+        },
+        {
+          "en": "How often does Virginia talk to him?",
+          "ru": "Как часто Virginia разговаривает с ним?",
+          "highlight": ["How often", "does", "talk"]
+        },
+        {
+          "en": "How often is the ghost unhappy?",
+          "ru": "Как часто призрак несчастен?",
+          "highlight": ["How often", "is"]
+        },
+        {
+          "en": "How often do they visit the house?",
+          "ru": "Как часто они посещают дом?",
+          "highlight": ["How often", "do", "visit"]
+        },
+        {
+          "en": "How often does he appear at night?",
+          "ru": "Как часто он появляется ночью?",
+          "highlight": ["How often", "does", "appear"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "Grow up not!", "right": "Don't grow up!", "note": "В отрицательном imperativе используй don't." },
-    { "wrong": "He always doesn't fight.", "right": "He doesn't always fight.", "note": "В отрицаниях наречие стоит после don't/doesn't." },
-    { "wrong": "Follow you me!", "right": "Follow me!", "note": "В imperativе подлежащее не используется." },
-    { "wrong": "She is never not happy.", "right": "She is never unhappy.", "note": "Двойное отрицание в английском не используется." },
-    { "wrong": "He never fights always.", "right": "He never fights.", "note": "Не используй два наречия частоты вместе." },
-    { "wrong": "Don't be afraid of Peter?", "right": "Don't be afraid of Peter!", "note": "Imperative — это приказ, а не вопрос." }
+    {
+      "wrong": "To open the door.",
+      "right": "Open the door.",
+      "note": "В Imperative используется V1 без to."
+    },
+    {
+      "wrong": "Don't to go.",
+      "right": "Don't go.",
+      "note": "После don't используется начальная форма глагола без to."
+    },
+    {
+      "wrong": "He always is tired.",
+      "right": "He is always tired.",
+      "note": "С be наречие частоты обычно стоит после be."
+    },
+    {
+      "wrong": "He often goes there.",
+      "right": "He often goes there.",
+      "note": "С обычным глаголом frequency adverb стоит перед ним."
+    },
+    {
+      "wrong": "He never doesn't go there.",
+      "right": "He never goes there.",
+      "note": "Never уже выражает отрицательную частоту."
+    },
+    {
+      "wrong": "How often does he appears?",
+      "right": "How often does he appear?",
+      "note": "После does используется V1."
+    },
+    {
+      "wrong": "Don't goes there.",
+      "right": "Don't go there.",
+      "note": "Imperative использует начальную форму."
+    },
+    {
+      "wrong": "Let's to go.",
+      "right": "Let's go.",
+      "note": "После let's используется V1 без to."
+    }
   ],
   "compare": {
-    "title": "Imperative с наречиями частоты",
-    "leftLabel": "Без наречия",
-    "rightLabel": "С наречием",
+    "title": "Команда или привычка?",
+    "leftLabel": "Imperative",
+    "rightLabel": "Frequency",
     "rows": [
-      { "left": "Follow me!", "right": "Always follow me!" },
-      { "left": "Don't go!", "right": "Never go there!" },
-      { "left": "Think happy thoughts!", "right": "Always think happy thoughts!" },
-      { "left": "Be brave!", "right": "Always be brave!" }
+      {
+        "left": "Open the door.",
+        "right": "He often opens the door."
+      },
+      {
+        "left": "Don't go.",
+        "right": "He never goes there."
+      },
+      {
+        "left": "Come here.",
+        "right": "He usually comes here."
+      },
+      {
+        "left": "Wait here.",
+        "right": "He sometimes waits here."
+      },
+      {
+        "left": "Let's talk.",
+        "right": "They often talk at night."
+      }
     ]
   },
   "tips": [
-    "Imperative — это команда. Используй базовую форму глагола.",
-    "Для запрета используй don't + глагол.",
-    "Наречия частоты показывают, как часто что-то происходит.",
-    "Порядок наречий: всегда, обычно, часто, иногда, редко, никогда.",
-    "В imperativе наречие ставится перед глаголом: Always follow me!",
-    "Практикуйся: давай команды Питеру Пэну."
+    "Imperative = что сделать сейчас.",
+    "Frequency = как часто что-то происходит.",
+    "В Imperative используй V1 без to.",
+    "Для отрицательной команды используй don't + V1.",
+    "Please делает просьбу мягче.",
+    "Let's предлагает сделать что-то вместе.",
+    "С обычным глаголом always/usually/often/sometimes/never ставятся перед ним.",
+    "С be frequency adverb ставится после am/is/are.",
+    "Every day, once a week и подобные выражения обычно стоят в конце.",
+    "Never уже содержит отрицание.",
+    "Для вопроса о частоте используй How often...?"
   ],
   "quiz": [
-    { "q": "How do you say 'Не бойся!' in English?", "options": ["Don't afraid!", "Don't be afraid!", "Be afraid not!"], "answer": "Don't be afraid!", "why": "Отрицательный imperative: don't + глагол." },
-    { "q": "What's the correct order?", "options": ["He often fights.", "He fights often.", "Often he fights."], "answer": "He often fights.", "why": "Наречие частоты перед глаголом." },
-    { "q": "How do you say 'Always follow me!' in Russian?", "options": ["Всегда следуй за мной!", "Следуй за мной всегда!", "За мной следуй всегда!"], "answer": "Всегда следуй за мной!", "why": "В английском наречие перед глаголом." },
-    { "q": "Which is correct?", "options": ["He doesn't never fight.", "He never fights.", "He doesn't fight never."], "answer": "He never fights.", "why": "Не используй двойное отрицание." },
-    { "q": "What does 'Don't ever leave me!' mean?", "options": ["Всегда уходи!", "Никогда не уходи!", "Уходи сейчас!"], "answer": "Никогда не уходи!", "why": "Ever в отрицании = никогда." },
-    { "q": "Which is an imperative?", "options": ["Do you fly?", "Fly to Neverland!", "He flies."], "answer": "Fly to Neverland!", "why": "Imperative — это команда без подлежащего." }
+    {
+      "q": "Choose the correct imperative:",
+      "options": [
+        "To open the door.",
+        "Open the door.",
+        "Opens the door."
+      ],
+      "answer": 1,
+      "why": "Imperative использует начальную форму глагола без to."
+    },
+    {
+      "q": "Choose the correct negative imperative:",
+      "options": [
+        "Don't to go.",
+        "Don't go.",
+        "Doesn't go."
+      ],
+      "answer": 1,
+      "why": "Отрицательный Imperative строится как don't + V1."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He always is tired.",
+        "He is always tired.",
+        "He always tired."
+      ],
+      "answer": 1,
+      "why": "С be наречие частоты стоит после be."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He often goes there.",
+        "He goes often there.",
+        "He often go there."
+      ],
+      "answer": 0,
+      "why": "С обычным глаголом often обычно стоит перед ним."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He never doesn't go there.",
+        "He never goes there.",
+        "He doesn't never goes there."
+      ],
+      "answer": 1,
+      "why": "Never уже выражает отрицательную частоту."
+    },
+    {
+      "q": "Choose the correct question:",
+      "options": [
+        "How often does he appears?",
+        "How often does he appear?",
+        "How often he does appear?"
+      ],
+      "answer": 1,
+      "why": "После does используется V1."
+    },
+    {
+      "q": "Choose the correct frequency expression:",
+      "options": [
+        "He appears every night.",
+        "He every night appears.",
+        "Every he night appears."
+      ],
+      "answer": 0,
+      "why": "Every night обычно ставится после основного предложения."
+    },
+    {
+      "q": "Choose the correct Let's construction:",
+      "options": [
+        "Let's to go.",
+        "Let's go.",
+        "Let's going."
+      ],
+      "answer": 1,
+      "why": "После let's используется начальная форма глагола."
+    }
   ],
-  "related": ["a1-present-simple", "a1-questions", "a1-verb-to-be"]
+  "related": [
+    "a1-questions",
+    "a1-present-simple",
+    "a1-present-continuous"
+  ]
 }

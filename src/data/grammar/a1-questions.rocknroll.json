@@ -4,191 +4,536 @@
   "level": "A1",
   "title": "Questions",
   "category": "Grammar",
-  "readingTime": 7,
-  "summary": "Вопросы: общие, специальные и к подлежащему. The Police и песня «Every Breath You Take».",
+  "readingTime": 13,
+  "summary": "В английском вопросы строятся по определённым моделям, и порядок слов зависит от типа вопроса. В вопросах с обычными глаголами в Present Simple используются do или does, а в Past Simple — did. С глаголом be вспомогательный глагол не нужен: am, is, are, was и were сами меняют положение с подлежащим. Специальные вопросы начинаются со слов what, where, when, who, why или how.",
   "idea": [
-    "Это песня о контроле, ревности и наблюдении. Текст, который выйдет, будет полон вопросов. «Will you stay?» — Ты останешься? «Do you love me?» — Ты любишь меня? «Where are you going?» — Куда ты идёшь? Вопросы без ответов. «Will you stay?» — будущее. «Do you love me?» — настоящее. «Where are you going?» — место. Песня становится хитом, но внутри неё — вопросы, которые остаются без ответа. «Is this a love song?» — Это песня о любви? «What do you think?» — Как ты думаешь? «Does it matter?» — Это имеет значение? Люди спрашивают: о чём эта песня? Стинг не отвечает. Вопросы остаются.",
-    "«Did you mean what you said?» — Ты серьёзно сказал это? «Can you feel my love?» — Ты чувствуешь мою любовь? «Will you remember this night?» — Ты запомнишь эту ночь? Вопросы создают напряжение. Вопросы создают смысл. «Do you remember that night?» — Ты помнишь ту ночь? «Why did you write this?» — Почему ты написал это? «What do you think about this song?» — Что ты думаешь об этой песне? «Is it love or obsession?» — Это любовь или одержимость? «Will they play it live?» — Они сыграют её вживую? «How did they record it?» — Как они её записали? Хорошая песня задаёт вопросы. Она не даёт ответы. Она заставляет тебя думать. «What did you mean?» — Что ты имел в виду? «Do you feel the same?» — Ты чувствуешь то же самое? «Where do we go from here?» — Куда мы идём отсюда? Вопросы остаются в памяти дольше, чем ответы. «Will you stay?» — Ты останешься? «Do you love me?» — Ты любишь меня? «Where are you going?» — Куда ты идёшь? И песня продолжается. Потому что вопросы никогда не заканчиваются."
+    "Интервью начинается с вопроса. Журналист хочет узнать, что произошло, музыкант хочет объяснить решение, а слушатель хочет понять, почему запись получилась именно такой. Поэтому вопросы особенно естественно работают в истории создания альбома. Они не просто проверяют информацию. Они заставляют собеседника объяснить выбор, рассказать о процессе и восстановить события.",
+    "История дебюта [bold]New York Dolls[/bold] даёт для этого очень хороший материал. Группа уже сформировала собственную сценическую репутацию, Mercury заключила с ней контракт, а для записи дебютного альбома появился Todd Rundgren. Его кандидатура была необычной: Rundgren был известен как музыкант и продюсер с другим музыкальным подходом и первоначально не был очевидным поклонником Dolls. Поэтому сама история почти просит вопросов: [bold]Why did they choose Todd Rundgren? Who chose him? What happened in the studio? How did the recording work?[/bold]",
+    "Первый тип вопроса — yes/no question. Если интервьюер уже предполагает что-то и хочет проверить это, он может спросить [bold]Did the band choose Rundgren?[/bold]. Ответ может быть yes или no, а затем разговор продолжается. В Present Simple используется do или does: [bold]Do the Dolls trust the producer?[/bold]. В Past Simple — did: [bold]Did they record the album in New York?[/bold].",
+    "Если в вопросе есть [bold]be[/bold], отдельный do не нужен. [bold]Was Rundgren the producer?[/bold] строится просто перестановкой: [bold]Rundgren was the producer[/bold] → [bold]Was Rundgren the producer?[/bold]. В Present: [bold]Is Rundgren in the studio?[/bold]. Поэтому интервьюер должен сначала определить, какой глагол используется, а уже потом выбирать структуру вопроса.",
+    "Вопросы с [bold]what[/bold] помогают выяснить содержание. [bold]What did the band record?[/bold] спрашивает, что именно записывала группа. [bold]What did Rundgren do?[/bold] — что делал продюсер. [bold]What happened in the studio?[/bold] — что произошло. В каждом случае what ставится в начало, а дальше используется обычная вопросительная конструкция.",
+    "Вопрос [bold]why[/bold] особенно важен для истории выбора продюсера. [bold]Why did they choose Rundgren?[/bold] спрашивает о причине решения. Если мы говорим о процессе сейчас, структура меняется: [bold]Why are they working with Rundgren?[/bold]. Если решение уже принято и история завершена, естественнее Past Simple: [bold]Why did they choose him?[/bold].",
+    "Вопрос [bold]who[/bold] может искать человека, который совершил действие, или человека, на которого направлено действие. [bold]Who chose Rundgren?[/bold] — кто его выбрал? Здесь who является подлежащим, поэтому did не нужен. Но [bold]Who did the band choose?[/bold] — кого выбрала группа? Здесь band — подлежащее, а who — объект, поэтому нужен did.",
+    "Эта разница особенно полезна для интервью. Журналист может спросить [bold]Who chose Todd Rundgren?[/bold], если хочет узнать, кто принял решение. Затем он может уточнить [bold]Who did the band want to work with?[/bold]. Первый вопрос ищет исполнителя действия, второй — объект выбора. Одно короткое изменение структуры полностью меняет смысл.",
+    "Вопрос [bold]when[/bold] помогает восстановить хронологию. [bold]When did the Dolls record the album?[/bold] спрашивает о времени записи. В случае дебюта ответ относится к 1973 году: альбом был записан в апреле 1973 года в Record Plant в Нью-Йорке. Но грамматическая конструкция важнее самой даты: [bold]when + did + subject + V1[/bold].",
+    "Вопрос [bold]where[/bold] ищет место: [bold]Where did they record the album?[/bold]. Здесь снова используется did, потому что [bold]record[/bold] — обычный глагол в Past Simple. Если вопрос был бы о состоянии или месте нахождения человека сейчас, мы использовали бы be: [bold]Where is the producer?[/bold].",
+    "Вопрос [bold]how[/bold] помогает узнать способ или обстоятельства. [bold]How did they record the album?[/bold] — как они записывали альбом? Такой вопрос особенно интересен для студийной истории, потому что ответ может рассказать о количестве дублей, атмосфере записи, работе группы и продюсера.",
+    "И здесь документированная история записи становится особенно полезной. Todd Rundgren позже описывал первые сессии как ситуацию, где было трудно добиться от всех достаточно долгой концентрации для полноценного take. В другом интервью он вспоминал, что группе удавалось записывать целый take далеко не всегда. Поэтому интервьюер вполне естественно может спрашивать: [bold]How many takes did you make? Why was it difficult? What happened during the sessions?[/bold]",
+    "Вопросы помогают превратить отдельные факты в разговор. [bold]Who produced the album?[/bold] — Todd Rundgren. [bold]Where did they record it?[/bold] — at the Record Plant. [bold]When did they record it?[/bold] — in April 1973. [bold]Why did they choose Rundgren?[/bold] — это уже вопрос о причине. [bold]How did the sessions go?[/bold] — вопрос о процессе. Один за другим эти вопросы создают полноценное интервью.",
+    "Особенно важно не смешивать [bold]do[/bold] и [bold]be[/bold]. Нельзя сказать [bold]Did Rundgren was the producer?[/bold]. Правильно [bold]Was Rundgren the producer?[/bold]. Нельзя сказать [bold]Does the band was ready?[/bold]. Правильно [bold]Was the band ready?[/bold]. Но если используется обычный глагол, нужен do/does/did: [bold]Did the band choose Rundgren?[/bold].",
+    "После [bold]did[/bold] основной глагол возвращается к начальной форме. [bold]The band chose Rundgren[/bold] → [bold]Did the band choose Rundgren?[/bold]. Не [bold]Did the band chose...?[/bold]. [bold]They recorded the album[/bold] → [bold]Did they record the album?[/bold]. Не [bold]Did they recorded...?[/bold]. Прошедшее время уже находится в did.",
+    "То же самое происходит с [bold]does[/bold]. [bold]The band works with Rundgren[/bold] → [bold]Does the band work with Rundgren?[/bold]. Окончание -s исчезает. [bold]Does the band works...?[/bold] неверно. С do: [bold]Do the musicians agree?[/bold]. Здесь никакого -s нет, потому что подлежащее во множественном числе.",
+    "Вопросы с [bold]what[/bold] можно использовать и для настоящего процесса. [bold]What are they recording?[/bold] спрашивает, что они записывают сейчас. Past Simple меняет перспективу: [bold]What did they record?[/bold] — что они записали? Это различие особенно полезно в студийном контексте. Один вопрос помещает нас внутрь сессии, другой смотрит на неё уже после завершения.",
+    "Точно так же [bold]What is Rundgren doing?[/bold] и [bold]What did Rundgren do?[/bold] относятся к разным моментам. Первый вопрос — о текущем действии. Второй — о завершённом действии в прошлом. Поэтому вопросительное слово [bold]what[/bold] не определяет время само по себе. Время задаётся глагольной конструкцией.",
+    "В интервью вопросы часто идут от общего к конкретному. Сначала: [bold]Who produced the album?[/bold]. Затем: [bold]Why did you choose him?[/bold]. Потом: [bold]What happened in the studio?[/bold]. И наконец: [bold]How did you get the takes?[/bold]. Каждый новый вопрос использует уже полученную информацию и двигает разговор глубже.",
+    "Это хорошо соответствует ситуации с New York Dolls и Todd Rundgren. Выбор продюсера — одно решение. Запись альбома — следующий этап. Внутри студии возникали свои проблемы, связанные с тем, чтобы группа достаточно долго оставалась сосредоточенной для полноценного take. Поэтому интервью позволяет перейти от решения к последствиям: [bold]Who chose Rundgren? Why did they choose him? What happened during the sessions? How did Rundgren work with the band?[/bold]",
+    "Вопрос [bold]when[/bold] помогает отделить конкретную сессию от общей истории группы. [bold]When did the band sign with Mercury?[/bold] — когда? [bold]When did they record the debut?[/bold] — когда записывали? [bold]When was the album released?[/bold] — когда был выпущен? Обрати внимание на последнюю конструкцию: здесь используется [bold]was[/bold], потому что вопрос построен с be, а не с обычным глаголом.",
+    "Вопрос [bold]where[/bold] работает аналогично. [bold]Where did they record the album?[/bold] — действие. [bold]Where was the studio?[/bold] — be. Это две разные грамматические конструкции, хотя в русском оба вопроса могут звучать очень похоже. Именно поэтому полезно сначала находить основной глагол, а потом строить вопрос.",
+    "Вопросы также помогают проверить информацию. [bold]Did Rundgren produce the debut album?[/bold] — проверка факта. [bold]Was Rundgren the producer?[/bold] — тот же общий факт, но с be. [bold]Who produced the album?[/bold] — открытый вопрос. Три вопроса могут вести к одной области информации, но каждый использует свою грамматическую модель.",
+    "Как только мы понимаем эту систему, интервью перестаёт быть набором случайных вопросов. У каждого вопросительного слова есть функция. [bold]Who[/bold] ищет человека. [bold]What[/bold] — предмет или действие. [bold]Where[/bold] — место. [bold]When[/bold] — время. [bold]Why[/bold] — причину. [bold]How[/bold] — способ или обстоятельства. Do, does, did и be затем показывают грамматическую конструкцию.",
+    "Поэтому история New York Dolls подходит к Questions не потому, что в ней просто встречается слово interview. Она показывает саму функцию вопроса. Чтобы понять, почему выбор пал на Todd Rundgren, нужно спросить [bold]why[/bold]. Чтобы установить, кто его выбрал, — [bold]who[/bold]. Чтобы узнать место записи, — [bold]where[/bold]. Чтобы восстановить дату, — [bold]when[/bold]. Чтобы разобраться в студийном процессе, — [bold]how[/bold].",
+    "В итоге вопросы превращают историю записи в диалог. Интервьюер не перечисляет все известные ему факты. Он задаёт один вопрос, получает ответ и строит следующий. [bold]Who produced the album? Why did you choose him? What happened in the studio? How did you get the recordings finished?[/bold] Именно так грамматическая тема Questions становится живым инструментом разговора, а не просто упражнением на перестановку слов."
   ],
   "why": [
-    "Спрашивать о чувствах: «Do you love me?»",
-    "Уточнять информацию: «Where are you going?»",
-    "Выражать сомнение: «Will you stay?»",
-    "Общаться в повседневной жизни: «What's your name?»"
+    "Проводить интервью и выяснять информацию.",
+    "Уточнять решения и причины.",
+    "Восстанавливать место, время и последовательность событий.",
+    "Спрашивать о процессе и способе действия."
   ],
   "context": {
     "lines": [
-      { "en": "Sting: Every breath you take, every move you make… I'll be watching you. Do you feel it?", "ru": "Каждый твой вдох, каждое твоё движение… Я буду смотреть на тебя. Ты чувствуешь?" },
-      { "en": "Producer: Is this a love song or a stalker song?", "ru": "Это песня о любви или о сталкере?" },
-      { "en": "Sting: Who knows? What do you think?", "ru": "Кто знает? Как думаешь?" },
-      { "en": "Producer: Does it matter? It's going to be a hit.", "ru": "Это важно? Это будет хитом." },
-      { "en": "Sting: I didn't write it to be a hit. I wrote it because I had questions.", "ru": "Я написал её не для того, чтобы стать хитом. Я написал её, потому что у меня были вопросы." }
+      {
+        "en": "Who produced the debut album?",
+        "ru": "Кто продюсировал дебютный альбом?"
+      },
+      {
+        "en": "Why did the Dolls choose Todd Rundgren?",
+        "ru": "Почему Dolls выбрали Todd Rundgren?"
+      },
+      {
+        "en": "Where did they record the album?",
+        "ru": "Где они записывали альбом?"
+      },
+      {
+        "en": "What happened in the studio?",
+        "ru": "Что произошло в студии?"
+      },
+      {
+        "en": "How did the sessions work?",
+        "ru": "Как проходили сессии?"
+      }
     ],
-    "note": "Стинг обсуждает песню с продюсером. Вопросы в ней остаются без ответа. Как в жизни."
+    "note": "Исторический контекст основан на документированной истории дебютного альбома New York Dolls и работе Todd Rundgren как продюсера. Английские вопросы являются учебной реконструкцией интервью, а не прямыми цитатами участников. :contentReference[oaicite:6]{index=6}"
   },
   "russianAngle": [
-    "В русском мы спрашиваем интонацией: «Ты любишь меня?» В английском меняем порядок слов: «Do you love me?»",
-    "С глаголом to be — просто меняем местами: «You are» → «Are you?»",
-    "С другими глаголами — do/does (настоящее) или did (прошлое): «Do you write songs?», «Did you write this?»",
-    "В специальных вопросах — слово-вопрос: «What do you think?», «Who wrote this?»"
+    "В русском вопрос часто можно построить почти без изменения порядка слов, а в английском порядок слов является частью грамматики вопроса.",
+    "В Present Simple с обычным глаголом используются do/does: [bold]Do they record? / Does he record?[/bold].",
+    "В Past Simple используется did: [bold]Did they record?[/bold]. После did — начальная форма record.",
+    "С be используется сам be: [bold]Was Rundgren the producer?[/bold].",
+    "Вопросительное слово ставится в начало: [bold]Why did they choose Rundgren?[/bold]."
   ],
   "howToLearn": {
     "steps": [
-      "С глаголом to be: Are you happy? Were you there?",
-      "С другими глаголами: Do you sing? Does he play? Did they record?",
-      "С вопросительными словами: What, Where, When, Why, How.",
-      "Вопросы к подлежащему: Who wrote this song? (без did).",
-      "Потренируйся: задай вопросы Стингу о песне."
+      "Определи, нужен ли yes/no question или специальный вопрос.",
+      "Если специальный, выбери what, who, where, when, why или how.",
+      "Проверь, используется ли be.",
+      "Если обычный глагол в Present Simple, выбери do/does.",
+      "Если обычный глагол в Past Simple, выбери did.",
+      "После do/does/did используй V1.",
+      "Если who является подлежащим, do/does/did обычно не нужен.",
+      "Проверь, какую именно информацию должен дать ответ."
     ],
     "exercise": {
-      "prompt": "Сделай предложения вопросительными:",
+      "prompt": "Постройте вопросы к истории записи New York Dolls.",
       "items": [
-        { "q": "You are a musician.", "a": "Are you a musician?" },
-        { "q": "He writes songs every day.", "a": "Does he write songs every day?" },
-        { "q": "The band recorded the album.", "a": "Did the band record the album?" },
-        { "q": "She was in the studio.", "a": "Was she in the studio?" },
-        { "q": "The song became a hit.", "a": "Did the song become a hit?" }
+        {
+          "q": "___ produced the debut album? (person)",
+          "a": "Who"
+        },
+        {
+          "q": "___ did the Dolls choose? (person)",
+          "a": "Who"
+        },
+        {
+          "q": "___ did they record the album? (place)",
+          "a": "Where"
+        },
+        {
+          "q": "___ did they record the album? (time)",
+          "a": "When"
+        },
+        {
+          "q": "___ did they choose Rundgren? (reason)",
+          "a": "Why"
+        },
+        {
+          "q": "___ did the sessions work? (method)",
+          "a": "How"
+        }
       ]
     }
   },
-  "formula": "Question word (optional) + auxiliary (do/does/did/am/is/are/was/were/can/will) + subject + main verb?",
+  "formula": "Question word + auxiliary/be + subject + main verb?",
   "structure": {
-    "positive": "Утверждение: You are a singer.",
-    "negative": "Отрицание: You aren't a singer.",
-    "question": "Вопрос: Are you a singer?"
+    "yesNoPresent": "Do/Does + subject + V1?",
+    "yesNoPast": "Did + subject + V1?",
+    "be": "Am/Is/Are/Was/Were + subject?",
+    "whPresent": "Wh-word + do/does + subject + V1?",
+    "whPast": "Wh-word + did + subject + V1?",
+    "subjectQuestion": "Who/What + verb?"
   },
   "markers": [
-    "who",
     "what",
+    "who",
     "where",
     "when",
     "why",
     "how",
-    "do",
-    "does",
-    "did",
-    "am",
-    "is",
-    "are",
-    "was",
-    "were",
-    "can",
-    "will"
+    "how many",
+    "how much",
+    "how long",
+    "how often"
   ],
-  "uses": [
-    "Общие вопросы (Yes/No): «Do you love me?»",
-    "Специальные вопросы (Wh-): «Why did you write this?»",
-    "Вопросы к подлежащему: «Who wrote the song?»",
-    "Альтернативные вопросы: «Is it love or obsession?»"
-  ],
+  "uses": {
+    "title": "Какие вопросы нужны в интервью",
+    "items": [
+      {
+        "title": "Проверка факта",
+        "text": "Для вопроса с ответом yes/no: Did the Dolls choose Rundgren?"
+      },
+      {
+        "title": "Человек",
+        "text": "Who помогает узнать, кто совершил действие или на кого оно направлено: Who produced the album?"
+      },
+      {
+        "title": "Причина",
+        "text": "Why помогает выяснить причину решения: Why did they choose Rundgren?"
+      },
+      {
+        "title": "Место",
+        "text": "Where помогает узнать место: Where did they record the album?"
+      },
+      {
+        "title": "Время",
+        "text": "When помогает восстановить время события: When did they record the album?"
+      },
+      {
+        "title": "Процесс",
+        "text": "How помогает спросить о способе или обстоятельствах: How did the sessions work?"
+      },
+      {
+        "title": "Содержание",
+        "text": "What помогает узнать, что произошло или что делали: What happened in the studio?"
+      }
+    ]
+  },
   "rules": [
-    { "title": "Вопросы с глаголом to be", "text": "Меняй местами: You are → Are you? She was → Was she?" },
-    { "title": "Вопросы с другими глаголами", "text": "Используй do/does (настоящее) или did (прошлое): Do you write? Did they record?" },
-    { "title": "Специальные вопросы", "text": "Вопросительное слово + вспомогательный глагол + подлежащее + глагол: Why did you write this?" },
-    { "title": "Вопрос к подлежащему", "text": "Who/What + глагол (без do/does/did): Who wrote the song?" }
+    {
+      "title": "Yes / No question",
+      "text": "Вопрос проверяет предположение и обычно допускает ответ yes/no: Did the Dolls record the album in New York?"
+    },
+    {
+      "title": "Present Simple",
+      "text": "С обычным глаголом используются do/does: Do they work together? / Does he produce records?"
+    },
+    {
+      "title": "Past Simple",
+      "text": "Для завершённого события используется did: Did they record the album?"
+    },
+    {
+      "title": "Be",
+      "text": "С be отдельный do/does/did не нужен: Was Rundgren the producer?"
+    },
+    {
+      "title": "Wh-questions",
+      "text": "What, who, where, when, why и how ставятся в начале вопроса."
+    },
+    {
+      "title": "Начальная форма",
+      "text": "После do/does/did основной глагол используется в начальной форме: Did they choose...? / Does he work...?"
+    },
+    {
+      "title": "Who как подлежащее",
+      "text": "Если who само является исполнителем действия, do/does/did обычно не используется: Who produced the album?"
+    }
   ],
   "examples": [
     {
-      "group": "Общие вопросы (Yes/No)",
+      "group": "Interview yes/no",
       "items": [
-        { "en": "Do you love me?", "ru": "Ты любишь меня?", "highlight": ["Do"] },
-        { "en": "Are you a fan of The Police?", "ru": "Ты фанат The Police?", "highlight": ["Are"] },
-        { "en": "Did you hear this song?", "ru": "Ты слышал эту песню?", "highlight": ["Did"] },
-        { "en": "Was it a hit?", "ru": "Это был хит?", "highlight": ["Was"] },
-        { "en": "Do you remember that night?", "ru": "Ты помнишь ту ночь?", "highlight": ["Do"] },
-        { "en": "Did you mean what you said?", "ru": "Ты серьёзно сказал это?", "highlight": ["Did"] }
+        {
+          "en": "Did the Dolls choose Todd Rundgren?",
+          "ru": "Dolls выбрали Todd Rundgren?",
+          "highlight": ["Did", "choose"]
+        },
+        {
+          "en": "Did they record the album in New York?",
+          "ru": "Они записывали альбом в Нью-Йорке?",
+          "highlight": ["Did", "record"]
+        },
+        {
+          "en": "Was Rundgren the producer?",
+          "ru": "Rundgren был продюсером?",
+          "highlight": ["Was"]
+        },
+        {
+          "en": "Did the band work quickly?",
+          "ru": "Группа работала быстро?",
+          "highlight": ["Did", "work"]
+        },
+        {
+          "en": "Does the band trust the producer?",
+          "ru": "Группа доверяет продюсеру?",
+          "highlight": ["Does", "trust"]
+        },
+        {
+          "en": "Do the musicians agree?",
+          "ru": "Музыканты согласны?",
+          "highlight": ["Do", "agree"]
+        }
       ]
     },
     {
-      "group": "Специальные вопросы (Wh-)",
+      "group": "Wh-questions",
       "items": [
-        { "en": "Who are you?", "ru": "Кто ты?", "highlight": ["Who"] },
-        { "en": "What is your name?", "ru": "Как тебя зовут?", "highlight": ["What"] },
-        { "en": "Where are you going?", "ru": "Куда ты идёшь?", "highlight": ["Where"] },
-        { "en": "Why did you write this?", "ru": "Почему ты написал это?", "highlight": ["Why"] },
-        { "en": "What do you think about this song?", "ru": "Что ты думаешь об этой песне?", "highlight": ["What"] },
-        { "en": "How did they record it?", "ru": "Как они её записали?", "highlight": ["How"] }
+        {
+          "en": "Who produced the debut album?",
+          "ru": "Кто продюсировал дебютный альбом?",
+          "highlight": ["Who", "produced"]
+        },
+        {
+          "en": "What did the band record?",
+          "ru": "Что записывала группа?",
+          "highlight": ["What", "did", "record"]
+        },
+        {
+          "en": "Where did they record the album?",
+          "ru": "Где они записывали альбом?",
+          "highlight": ["Where", "did", "record"]
+        },
+        {
+          "en": "When did they record it?",
+          "ru": "Когда они записывали его?",
+          "highlight": ["When", "did", "record"]
+        },
+        {
+          "en": "Why did they choose Rundgren?",
+          "ru": "Почему они выбрали Rundgren?",
+          "highlight": ["Why", "did", "choose"]
+        },
+        {
+          "en": "How did the sessions work?",
+          "ru": "Как проходили сессии?",
+          "highlight": ["How", "did", "work"]
+        }
       ]
     },
     {
-      "group": "Вопросы к подлежащему",
+      "group": "Who: subject vs object",
       "items": [
-        { "en": "Who wrote the song?", "ru": "Кто написал песню?", "highlight": ["Who"] },
-        { "en": "What happened in the studio?", "ru": "Что случилось в студии?", "highlight": ["What"] },
-        { "en": "Who sang the chorus?", "ru": "Кто пел припев?", "highlight": ["Who"] },
-        { "en": "What made the song famous?", "ru": "Что сделало песню знаменитой?", "highlight": ["What"] },
-        { "en": "Who played the guitar solo?", "ru": "Кто играл гитарное соло?", "highlight": ["Who"] },
-        { "en": "What influenced the lyrics?", "ru": "Что повлияло на текст?", "highlight": ["What"] }
+        {
+          "en": "Who chose Todd Rundgren?",
+          "ru": "Кто выбрал Todd Rundgren?",
+          "highlight": ["Who", "chose"]
+        },
+        {
+          "en": "Who did the Dolls choose?",
+          "ru": "Кого выбрали Dolls?",
+          "highlight": ["Who", "did", "choose"]
+        },
+        {
+          "en": "Who produced the album?",
+          "ru": "Кто продюсировал альбом?",
+          "highlight": ["Who", "produced"]
+        },
+        {
+          "en": "Who did the band work with?",
+          "ru": "С кем работала группа?",
+          "highlight": ["Who", "did", "work"]
+        },
+        {
+          "en": "Who recorded the songs?",
+          "ru": "Кто записал песни?",
+          "highlight": ["Who", "recorded"]
+        },
+        {
+          "en": "Who did they invite to the studio?",
+          "ru": "Кого они пригласили в студию?",
+          "highlight": ["Who", "did", "invite"]
+        }
       ]
     },
     {
-      "group": "Альтернативные вопросы",
+      "group": "Present vs Past",
       "items": [
-        { "en": "Is it love or obsession?", "ru": "Это любовь или одержимость?", "highlight": ["Is"] },
-        { "en": "Did he write it or not?", "ru": "Он написал это или нет?", "highlight": ["Did"] },
-        { "en": "Are you a fan or a critic?", "ru": "Ты фанат или критик?", "highlight": ["Are"] },
-        { "en": "Was the album good or bad?", "ru": "Альбом был хорошим или плохим?", "highlight": ["Was"] },
-        { "en": "Is it about love or control?", "ru": "Это о любви или о контроле?", "highlight": ["Is"] },
-        { "en": "Did they record it live or in the studio?", "ru": "Они записали это вживую или в студии?", "highlight": ["Did"] }
+        {
+          "en": "What are they recording?",
+          "ru": "Что они сейчас записывают?",
+          "highlight": ["What", "are", "recording"]
+        },
+        {
+          "en": "What did they record?",
+          "ru": "Что они записали?",
+          "highlight": ["What", "did", "record"]
+        },
+        {
+          "en": "Why are they working together?",
+          "ru": "Почему они сейчас работают вместе?",
+          "highlight": ["Why", "are", "working"]
+        },
+        {
+          "en": "Why did they work together?",
+          "ru": "Почему они работали вместе?",
+          "highlight": ["Why", "did", "work"]
+        },
+        {
+          "en": "Where are they recording?",
+          "ru": "Где они сейчас записываются?",
+          "highlight": ["Where", "are", "recording"]
+        },
+        {
+          "en": "Where did they record?",
+          "ru": "Где они записывались?",
+          "highlight": ["Where", "did", "record"]
+        }
       ]
     },
     {
-      "group": "Вопросы в песне",
+      "group": "Production interview",
       "items": [
-        { "en": "Can you feel my love?", "ru": "Ты чувствуешь мою любовь?", "highlight": ["Can"] },
-        { "en": "Will you stay with me?", "ru": "Ты останешься со мной?", "highlight": ["Will"] },
-        { "en": "Do you remember that night?", "ru": "Ты помнишь ту ночь?", "highlight": ["Do"] },
-        { "en": "Did you mean what you said?", "ru": "Ты серьёзно сказал это?", "highlight": ["Did"] },
-        { "en": "Will you remember this night?", "ru": "Ты запомнишь эту ночь?", "highlight": ["Will"] },
-        { "en": "Do you feel the same?", "ru": "Ты чувствуешь то же самое?", "highlight": ["Do"] }
-      ]
-    },
-    {
-      "group": "Вопросы о музыке",
-      "items": [
-        { "en": "What do you think about this song?", "ru": "Что ты думаешь об этой песне?", "highlight": ["What"] },
-        { "en": "Why does it sound so sad?", "ru": "Почему она звучит так грустно?", "highlight": ["Why"] },
-        { "en": "How did they record it?", "ru": "Как они её записали?", "highlight": ["How"] },
-        { "en": "When will they play it live?", "ru": "Когда они сыграют её вживую?", "highlight": ["When"] },
-        { "en": "Who wrote the music?", "ru": "Кто написал музыку?", "highlight": ["Who"] },
-        { "en": "What inspired the lyrics?", "ru": "Что вдохновило на текст?", "highlight": ["What"] }
+        {
+          "en": "What happened in the studio?",
+          "ru": "Что произошло в студии?",
+          "highlight": ["What", "happened"]
+        },
+        {
+          "en": "How many takes did you make?",
+          "ru": "Сколько дублей вы сделали?",
+          "highlight": ["How many", "did", "make"]
+        },
+        {
+          "en": "Why was the recording difficult?",
+          "ru": "Почему запись была сложной?",
+          "highlight": ["Why", "was"]
+        },
+        {
+          "en": "Who worked with the band?",
+          "ru": "Кто работал с группой?",
+          "highlight": ["Who", "worked"]
+        },
+        {
+          "en": "Where was the studio?",
+          "ru": "Где находилась студия?",
+          "highlight": ["Where", "was"]
+        },
+        {
+          "en": "When was the album released?",
+          "ru": "Когда вышел альбом?",
+          "highlight": ["When", "was", "released"]
+        }
       ]
     }
   ],
   "mistakes": [
-    { "wrong": "You are a musician?", "right": "Are you a musician?", "note": "С to be меняем порядок." },
-    { "wrong": "He writes songs?", "right": "Does he write songs?", "note": "С глаголом — do/does." },
-    { "wrong": "She wrote the song?", "right": "Did she write the song?", "note": "В прошлом — did." },
-    { "wrong": "Did he wrote the song?", "right": "Did he write the song?", "note": "После did — базовая форма." },
-    { "wrong": "Who did write the song?", "right": "Who wrote the song?", "note": "Вопрос к подлежащему — без did." },
-    { "wrong": "What you think about it?", "right": "What do you think about it?", "note": "Правильный порядок: What + do + you + think?" }
+    {
+      "wrong": "Did the Dolls chose Rundgren?",
+      "right": "Did the Dolls choose Rundgren?",
+      "note": "После did используется начальная форма choose."
+    },
+    {
+      "wrong": "Does the band works with Rundgren?",
+      "right": "Does the band work with Rundgren?",
+      "note": "После does исчезает окончание -s."
+    },
+    {
+      "wrong": "Did Rundgren was the producer?",
+      "right": "Was Rundgren the producer?",
+      "note": "С be используется was, а не did."
+    },
+    {
+      "wrong": "Why they chose Rundgren?",
+      "right": "Why did they choose Rundgren?",
+      "note": "В Past Simple с обычным глаголом нужен did."
+    },
+    {
+      "wrong": "Where they recorded the album?",
+      "right": "Where did they record the album?",
+      "note": "Вопросительная конструкция требует did + V1."
+    },
+    {
+      "wrong": "Who did produced the album?",
+      "right": "Who produced the album?",
+      "note": "Who является подлежащим, поэтому did не нужен."
+    },
+    {
+      "wrong": "What did they recorded?",
+      "right": "What did they record?",
+      "note": "После did используется начальная форма."
+    },
+    {
+      "wrong": "Where was they recording?",
+      "right": "Where were they recording?",
+      "note": "С they используется were."
+    }
   ],
   "compare": {
-    "title": "Типы вопросов",
-    "leftLabel": "Общий (Yes/No)",
-    "rightLabel": "Специальный (Wh-)",
+    "title": "Как строятся вопросы в интервью",
+    "leftLabel": "Утверждение",
+    "rightLabel": "Вопрос",
     "rows": [
-      { "left": "Did you write the song?", "right": "Why did you write it?" },
-      { "left": "Are you a musician?", "right": "What are you?" },
-      { "left": "Was it a hit?", "right": "How did it become a hit?" },
-      { "left": "Do you love the band?", "right": "Why do you love them?" }
+      {
+        "left": "The Dolls chose Rundgren.",
+        "right": "Did the Dolls choose Rundgren?"
+      },
+      {
+        "left": "Rundgren was the producer.",
+        "right": "Was Rundgren the producer?"
+      },
+      {
+        "left": "They recorded the album.",
+        "right": "Where did they record the album?"
+      },
+      {
+        "left": "Who produced the album?",
+        "right": "Who produced the album?"
+      }
     ]
   },
   "tips": [
-    "С to be — меняй местами: You are → Are you?",
-    "С другими глаголами — do/does/did + базовая форма.",
-    "Вопрос к подлежащему — без do/does/did.",
-    "Специальные вопросы начинаются с вопросительного слова.",
-    "Не забывай про порядок слов в вопросах.",
-    "Практикуйся: задавай вопросы Стингу."
+    "Сначала реши, какую информацию ты ищешь.",
+    "Who — человек, what — предмет или действие, where — место, when — время, why — причина, how — способ.",
+    "С обычным глаголом в Present Simple используй do/does.",
+    "С обычным глаголом в Past Simple используй did.",
+    "После do/does/did используй V1.",
+    "С be используй am/is/are/was/were без do/does/did.",
+    "Если who само выполняет действие, do/does/did обычно не нужен.",
+    "В интервью хороший следующий вопрос часто строится на ответе на предыдущий."
   ],
   "quiz": [
-    { "q": "Which is correct?", "options": ["You are a singer?", "Are you a singer?", "Do you are a singer?"], "answer": "Are you a singer?", "why": "С to be меняем местами." },
-    { "q": "How do you ask 'Он написал эту песню'?", "options": ["He wrote this song?", "Did he write this song?", "Did he wrote this song?"], "answer": "Did he write this song?", "why": "В прошлом — did + базовая форма." },
-    { "q": "Which is correct?", "options": ["Does he writes songs?", "Does he write songs?", "Do he write songs?"], "answer": "Does he write songs?", "why": "С does — базовая форма." },
-    { "q": "\"___ wrote the song?\"", "options": ["Who", "Who did", "What"], "answer": "Who", "why": "Вопрос к подлежащему — без did." },
-    { "q": "\"What ___ you think?\"", "options": ["do", "does", "are"], "answer": "do", "why": "С you — do." },
-    { "q": "Which is a special question?", "options": ["Are you a fan?", "What do you think?", "Did you hear it?"], "answer": "What do you think?", "why": "What — вопросительное слово." }
+    {
+      "q": "Choose the correct question:",
+      "options": [
+        "Did the Dolls chose Rundgren?",
+        "Did the Dolls choose Rundgren?",
+        "Did the Dolls chooses Rundgren?"
+      ],
+      "answer": 1,
+      "why": "После did используется начальная форма choose."
+    },
+    {
+      "q": "Choose the correct question with be:",
+      "options": [
+        "Did Rundgren was the producer?",
+        "Was Rundgren the producer?",
+        "Does Rundgren was the producer?"
+      ],
+      "answer": 1,
+      "why": "Was уже образует вопрос с be."
+    },
+    {
+      "q": "Which question asks about a reason?",
+      "options": [
+        "Where did they record?",
+        "Why did they choose Rundgren?",
+        "Who produced the album?"
+      ],
+      "answer": 1,
+      "why": "Why спрашивает о причине."
+    },
+    {
+      "q": "Which question asks about the place?",
+      "options": [
+        "When did they record?",
+        "Where did they record?",
+        "Why did they record?"
+      ],
+      "answer": 1,
+      "why": "Where спрашивает о месте."
+    },
+    {
+      "q": "Choose the correct subject question:",
+      "options": [
+        "Who did produce the album?",
+        "Who produced the album?",
+        "Who did produced the album?"
+      ],
+      "answer": 1,
+      "why": "Who является подлежащим."
+    },
+    {
+      "q": "Choose the correct object question:",
+      "options": [
+        "Who chose the Dolls?",
+        "Who did the Dolls choose?",
+        "Who did the Dolls chose?"
+      ],
+      "answer": 1,
+      "why": "Who является дополнением, поэтому нужен did + choose."
+    },
+    {
+      "q": "Choose the correct question:",
+      "options": [
+        "What did they recorded?",
+        "What did they record?",
+        "What they did record?"
+      ],
+      "answer": 1,
+      "why": "После did используется V1."
+    },
+    {
+      "q": "Choose the correct production question:",
+      "options": [
+        "How many takes did they make?",
+        "How many takes they did make?",
+        "How many takes did they made?"
+      ],
+      "answer": 0,
+      "why": "Правильная модель: how many + noun + did + subject + V1."
+    }
   ],
-  "related": ["a1-past-simple", "a1-present-simple", "a1-verb-to-be"]
+  "related": [
+    "a1-present-simple",
+    "a1-present-continuous",
+    "a1-past-simple"
+  ]
 }
