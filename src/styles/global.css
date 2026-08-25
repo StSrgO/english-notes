@@ -5247,3 +5247,104 @@ main { flex: 1 0 auto; }
   transition: none !important;
 }
 
+/* ============================================================
+   HOME — cinematic London background
+   ============================================================ */
+
+body:has(.hero) {
+  background-image: url("/images/home-london-bg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* ============================================================
+   HOME — final composition pass
+   Left column only. Right column remains untouched.
+   ============================================================ */
+
+/* Центральная колонка растягивается вместе с правой,
+   но свободное место распределяется внутри неё. */
+.hero__lead {
+  justify-content: flex-start !important;
+}
+
+/* Основная текстовая часть получает свободную высоту */
+.hero__copy {
+  flex: 1 1 auto;
+  min-height: 0;
+}
+
+/* Убираем старое "прижатие" 01–03 к низу */
+.hero__how {
+  margin-top: 34px !important;
+  padding-top: 0 !important;
+  gap: 16px;
+}
+
+/* Немного больше воздуха после манифеста */
+.hero__sub {
+  margin-bottom: 8px;
+}
+
+/* Линия и подпись уровней остаются ближе к нижней оси */
+.hero__punch {
+  margin-top: 28px !important;
+}
+
+.cfr-note {
+  margin-top: 18px !important;
+  margin-bottom: 8px !important;
+}
+
+.levels--text {
+  margin-top: 18px !important;
+}
+
+/* ------------------------------------------------------------
+   Очень мягкая светлая дымка под центральным контентом
+   ------------------------------------------------------------ */
+
+.hero__grid::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  pointer-events: none;
+
+  left: 3%;
+  right: 3%;
+  top: -40px;
+  bottom: -50px;
+
+  background: radial-gradient(
+    ellipse 58% 72% at 47% 43%,
+    rgba(250, 249, 245, 0.48) 0%,
+    rgba(250, 249, 245, 0.30) 38%,
+    rgba(250, 249, 245, 0.12) 60%,
+    rgba(250, 249, 245, 0) 82%
+  );
+}
+
+/* Контент поверх дымки */
+.hero__lead,
+.hero__visual {
+  position: relative;
+  z-index: 1;
+}
+
+/* ------------------------------------------------------------
+   Нижняя часть Лондона чуть читаемее.
+   Сам фон остаётся тем же.
+   ------------------------------------------------------------ */
+
+body:has(.hero) {
+  background-image:
+    linear-gradient(
+      to bottom,
+      rgba(255,255,255,0) 48%,
+      rgba(255,255,255,0.02) 62%,
+      rgba(255,255,255,0.00) 100%
+    ),
+    url("/images/home-london-bg.png");
+}
