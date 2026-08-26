@@ -5348,3 +5348,263 @@ body:has(.hero) {
     ),
     url("/images/home-london-bg.png");
 }
+
+/* ============================================================
+   FIX #15 — mobile adaptive polish
+   ------------------------------------------------------------
+   1. Lesson title gets stronger mobile presence.
+   2. Mobile menu uses a three-line hamburger.
+   3. Rock/Classical selected state is darker than hover.
+   4. Touch devices do not inherit the hover appearance.
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   Mobile lesson title
+   ------------------------------------------------------------ */
+
+@media (max-width: 920px) {
+  /*
+     FIX #17
+     Mobile lesson title:
+     stronger editorial scale, without stretching the
+     green highlight itself.
+  */
+
+  .lesson-v2 .lv2-head {
+    width: 100%;
+    max-width: none;
+  }
+
+  .lesson-v2 .lv2-title {
+    font-size: clamp(46px, 12vw, 64px);
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+  }
+
+  .lesson-v2 .lv2-title .hl-mark {
+    font-size: inherit;
+    line-height: inherit;
+  }
+}
+
+/* ------------------------------------------------------------
+   Mobile hamburger
+   ------------------------------------------------------------ */
+
+@media (max-width: 920px) {
+  .nav-toggle__button {
+    display: flex;
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  .nav-toggle__button::-webkit-details-marker {
+    display: none;
+  }
+
+  .nav-toggle__button::marker {
+    display: none;
+    content: "";
+  }
+
+  .nav-toggle__line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    border-radius: 2px;
+    background: currentColor;
+    transition:
+      transform .18s ease,
+      opacity .18s ease;
+  }
+
+  .nav-toggle[open] .nav-toggle__line:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .nav-toggle[open] .nav-toggle__line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .nav-toggle[open] .nav-toggle__line:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+  }
+}
+
+/* ------------------------------------------------------------
+   Rock / Classical switcher
+   ------------------------------------------------------------ */
+
+/*
+   Selected state is intentionally darker than hover.
+   This makes the current mode visually unambiguous.
+*/
+
+.lesson-bar .style-pick.is-active {
+  background: var(--mint-ink);
+  border-color: var(--mint-ink);
+  color: var(--paper);
+}
+
+/*
+   Hover remains lighter than selected.
+*/
+
+@media (hover: hover) and (pointer: fine) {
+  .lesson-bar .style-pick:hover {
+    background: var(--mint);
+    border-color: var(--mint-deep);
+    color: var(--ink);
+  }
+
+  .lesson-bar .style-pick.is-active:hover {
+    background: var(--mint-ink);
+    border-color: var(--mint-ink);
+    color: var(--paper);
+  }
+}
+
+/*
+   On touch devices there is no persistent hover appearance.
+*/
+
+@media (hover: none), (pointer: coarse) {
+  .lesson-bar .style-pick:hover {
+    background: inherit;
+  }
+
+  .lesson-bar .style-pick.is-active:hover {
+    background: var(--mint-ink);
+    border-color: var(--mint-ink);
+    color: var(--paper);
+  }
+}
+
+
+/* ============================================================
+   ENGLISHNOTES FIX #18 — FINAL MOBILE TITLE
+   ------------------------------------------------------------
+   Final mobile title correction.
+
+   The title itself becomes the dominant editorial element.
+   We intentionally do NOT stretch .hl-mark as a background
+   block: the green marker remains attached to the text.
+   ============================================================ */
+
+@media screen and (max-width: 1024px) {
+
+  .lesson-v2 h1.lv2-title {
+    display: block !important;
+
+    width: 100% !important;
+    max-width: none !important;
+
+    box-sizing: border-box !important;
+
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+
+    font-size: clamp(48px, 7.2vw, 60px) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.025em !important;
+  }
+
+  .lesson-v2 h1.lv2-title .hl-mark {
+    font-size: inherit !important;
+    line-height: inherit !important;
+    letter-spacing: inherit !important;
+  }
+}
+
+/*
+   Very narrow phones.
+   Keep the title large but prevent uncomfortable overflow.
+*/
+
+@media screen and (max-width: 420px) {
+
+  .lesson-v2 h1.lv2-title {
+    font-size: 48px !important;
+    line-height: 1.03 !important;
+  }
+
+}
+
+
+/* ============================================================
+   ENGLISHNOTES FIX #20 — HOME HERO TITLE
+   ------------------------------------------------------------
+   Mobile/tablet hero correction.
+
+   The home hero previously kept the desktop two-column
+   structure until 920px, while .hero__copy used max-content.
+   This left the main title trapped inside a ~600px column.
+
+   At <=1024px:
+   - hero becomes one column
+   - hero lead becomes full width
+   - hero copy becomes full width
+   - h1 uses the full available width
+   - title scale increases slightly
+   - green highlight remains text-sized
+   ============================================================ */
+
+@media screen and (max-width: 1024px) {
+
+  .home-page .hero__grid {
+    grid-template-columns: minmax(0, 1fr) !important;
+    gap: 32px !important;
+    align-items: start !important;
+  }
+
+  .home-page .hero__lead {
+    display: block !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .home-page .hero__copy {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+  }
+
+  .home-page .hero h1 {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+
+    font-size: clamp(42px, 6.2vw, 58px) !important;
+    line-height: 1.02 !important;
+    letter-spacing: -0.025em !important;
+  }
+
+  .home-page .hero__invert {
+    display: inline-block !important;
+  }
+}
+
+
+/*
+   Narrow phones:
+   keep the title strong without letting it become
+   uncomfortable or cause horizontal overflow.
+*/
+
+@media screen and (max-width: 620px) {
+
+  .home-page .hero h1 {
+    font-size: clamp(38px, 9vw, 48px) !important;
+    line-height: 1.03 !important;
+  }
+
+}
