@@ -5338,8 +5338,14 @@ body:has(.hero) {
    Сам фон остаётся тем же.
    ------------------------------------------------------------ */
 
+/* ============================================================
+HOME — cinematic London background (с прозрачностью)
+============================================================ */
 body:has(.hero) {
   background-image:
+    /* Белый полупрозрачный слой — меняй 0.45 на нужное значение (0.3 = светлее, 0.6 = ещё светлее) */
+    linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),
+    /* Нижний градиент (почти не виден, оставлен как был) */
     linear-gradient(
       to bottom,
       rgba(255,255,255,0) 48%,
@@ -5347,6 +5353,10 @@ body:has(.hero) {
       rgba(255,255,255,0.00) 100%
     ),
     url("/images/home-london-bg.png");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 /* ============================================================
@@ -5628,13 +5638,13 @@ HOME HERO TITLE — MOBILE FULL WIDTH + LARGER
   .hero h1 {
     width: 100% !important;
     max-width: none !important;
-    font-size: clamp(44px, 7vw, 62px) !important;
+    font-size: clamp(36px, 6vw, 52px) !important;
     line-height: 1.02 !important;
   }
 }
 
 @media screen and (max-width: 620px) {
   .hero h1 {
-    font-size: clamp(38px, 9.5vw, 50px) !important;
+    font-size: clamp(30px, 8.5vw, 44px) !important;
   }
 }
