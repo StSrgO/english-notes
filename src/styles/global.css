@@ -5608,3 +5608,33 @@ body:has(.hero) {
   }
 
 }
+
+/* ============================================================
+HOME HERO TITLE — MOBILE FULL WIDTH + LARGER
+============================================================ */
+@media screen and (max-width: 1024px) {
+  .hero__grid {
+    grid-template-columns: 1fr !important;
+  }
+  .hero__lead {
+    width: 100% !important;
+    display: block !important;
+  }
+  .hero__copy {
+    width: 100% !important;
+    max-width: none !important;
+    display: block !important;
+  }
+  .hero h1 {
+    width: 100% !important;
+    max-width: none !important;
+    font-size: clamp(44px, 7vw, 62px) !important;
+    line-height: 1.02 !important;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .hero h1 {
+    font-size: clamp(38px, 9.5vw, 50px) !important;
+  }
+}
