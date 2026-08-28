@@ -132,5 +132,47 @@ const picks = typeOrder.map((t, i) => {
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
       if (window.ResizeObserver) new ResizeObserver(fit).observe(card);
     })();
+
+    // Заголовок hero: на мобильных не должен распадаться больше чем на 2 строки.
+    // Шрифт плавно уменьшается, пока каждая из двух частей (до <br> и после)
+    // не поместится в одну строку в пределах экрана. (inline !important
+    // нужен, чтобы перебить !important из мобильных медиа-правил CSS.)
+    (function () {
+      const h1 = document.querySelector('.hero h1');
+      if (!h1) return;
+      const MIN_SCALE = 0.45;
+
+      // ширина самой широкой части заголовка (nowrap + width:max-content:
+      // <br> делит текст на 2 строки, ширина блока = самая длинная строка)
+      const segWidth = () => {
+        h1.style.setProperty('white-space', 'nowrap');
+        h1.style.setProperty('width', 'max-content', 'important');
+        const w = h1.getBoundingClientRect().width;
+        h1.style.setProperty('width', '');
+        h1.style.setProperty('white-space', '');
+        return w;
+      };
+
+      function fit() {
+        if (window.innerWidth > 768) return;
+        h1.style.setProperty('font-size', '');
+        const base = parseFloat(getComputedStyle(h1).fontSize);
+        const containerW = h1.parentElement.getBoundingClientRect().width;
+        if (segWidth() <= containerW - 2) return;
+        // бинарный поиск максимального размера, при котором обе части — в одну строку
+        let lo = MIN_SCALE, hi = 1;
+        for (let i = 0; i < 10; i++) {
+          const mid = (lo + hi) / 2;
+          h1.style.setProperty('font-size', (base * mid) + 'px', 'important');
+          if (segWidth() <= containerW - 2) lo = mid; else hi = mid;
+        }
+        h1.style.setProperty('font-size', (base * lo) + 'px', 'important');
+      }
+
+      fit();
+      window.addEventListener('resize', fit);
+      window.addEventListener('pageshow', fit);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+    })();
   </script>
 </Base>
