@@ -5628,7 +5628,7 @@ ENGLISHNOTES FIX #20 — HOME HERO TITLE (только мобильные)
 ============================================================ */
 @media screen and (max-width: 768px) {
   .hero__grid {
-    grid-template-columns: 1fr !important;
+    grid-template-columns: minmax(0, 1fr) !important;
     gap: 32px !important;
   }
   .hero__lead {
@@ -5763,4 +5763,16 @@ FIX — ФРАЗА ДНЯ: ПОСТОЯННАЯ ВЫСОТА КАРТОЧКИ + 
 }
 @media screen and (max-width: 920px) {
   .quote-card { height: 220px; }
+}
+
+/* ============================================================
+FIX — МОБИЛЬНАЯ ГЛАВНАЯ: СТРОКА УРОВНЕЙ A0–C2 ВПИСЫВАЕТСЯ В ШИРИНУ
+Чипы+стрелки были шире экрана и уходили за правый край.
+Компактные отступы/шрифт — вся строка помещается в одну линию
+на любом мобильном от ~350px (уже — остаётся swipe-фолбэк).
+============================================================ */
+@media screen and (max-width: 620px) {
+  .hero .levels { gap: 3px; }
+  .hero .levels .level-link { font-size: 16px; padding: 5px 7px; }
+  .hero .lvl-arrow { font-size: 13px; }
 }
