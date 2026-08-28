@@ -5619,32 +5619,148 @@ body:has(.hero) {
 
 }
 
+
+/*================================================*/
+
+
 /* ============================================================
-HOME HERO TITLE — MOBILE FULL WIDTH + LARGER
+ENGLISHNOTES FIX #20 — HOME HERO TITLE (только мобильные)
 ============================================================ */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 768px) {
   .hero__grid {
     grid-template-columns: 1fr !important;
+    gap: 32px !important;
   }
   .hero__lead {
-    width: 100% !important;
     display: block !important;
+    width: 100% !important;
   }
   .hero__copy {
+    display: block !important;
     width: 100% !important;
     max-width: none !important;
-    display: block !important;
   }
   .hero h1 {
+    display: block !important;
     width: 100% !important;
     max-width: none !important;
-    font-size: clamp(36px, 6vw, 52px) !important;
+    font-size: clamp(42px, 6.2vw, 58px) !important;
     line-height: 1.02 !important;
+    letter-spacing: -0.025em !important;
+  }
+  .hero__invert {
+    display: inline-block !important;
   }
 }
 
 @media screen and (max-width: 620px) {
   .hero h1 {
-    font-size: clamp(30px, 8.5vw, 44px) !important;
+    font-size: clamp(38px, 9vw, 48px) !important;
+    line-height: 1.03 !important;
   }
+}
+
+
+/* ============================================================
+FIX — ФРАЗА ДНЯ: НЕ ВЫЛЕЗАЕТ ЗА КРАЙ НА МОБИЛЬНЫХ
+============================================================ */
+@media screen and (max-width: 920px) {
+  .hero__visual {
+    min-width: 0 !important;
+    overflow: hidden !important;
+  }
+  .quote-card {
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    padding: 18px 16px 20px !important;
+  }
+  .quote-card__en {
+    font-size: clamp(16px, 4.5vw, 20px);
+    word-wrap: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  .quote-card__ru {
+    font-size: 14.5px;
+    word-wrap: break-word !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .quote-card {
+    padding: 14px 12px 16px !important;
+  }
+}
+
+
+/* ============================================================
+FIX — ПОДБОРКА ДНЯ: НЕ ВЫЛЕЗАЕТ ЗА КРАЙ НА МОБИЛЬНЫХ
+============================================================ */
+@media screen and (max-width: 1024px) {
+  .hero__visual {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+  .picks {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+  }
+  .pick {
+    width: 100% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+  .pick__cover {
+    flex: 0 0 44px !important;
+    width: 44px !important;
+    height: 44px !important;
+  }
+  .pick__body {
+    min-width: 0 !important;
+    flex: 1 1 auto !important;
+  }
+  .pick__title,
+  .pick__meta {
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pick__cover {
+    flex: 0 0 38px !important;
+    width: 38px !important;
+    height: 38px !important;
+  }
+  .pick {
+    padding: 6px 10px !important;
+    gap: 10px !important;
+  }
+}
+
+/* ============================================================
+FIX — ФРАЗА ДНЯ: ПОСТОЯННАЯ ВЫСОТА КАРТОЧКИ + АВТОМАСШТАБ ШРИФТА
+Фраза меняется ежедневно, длина текста разная — раньше высота
+карточки «прыгала» и тянула за собой всю страницу. Теперь блок
+всегда одной высоты, а шрифт масштабируется скриптом (index.astro),
+чтобы текст любой длины вписывался полностью.
+============================================================ */
+.quote-card {
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
+}
+.quote-card__en,
+.quote-card__ru {
+  overflow-wrap: break-word;
+}
+@media screen and (max-width: 920px) {
+  .quote-card { height: 220px; }
 }

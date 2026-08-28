@@ -6,6 +6,10 @@ const { title = 'EnglishNotes', currentSlug = '' } = Astro.props;
 const modules = import.meta.glob('../data/grammar/*.json', { eager: true, import: 'default' });
 const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
 const total = topics.length;
+
+// `/_vercel/insights/script.js` отдаёт только платформа Vercel — подключаем
+// его лишь при продакшен-сборке на Vercel, чтобы локально не было 404
+const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
 ---
 <!doctype html>
 <html lang="ru">
@@ -32,7 +36,7 @@ const total = topics.length;
       html.is-rock-preload body.is-rock,
       html.is-rock-preload body:not(.is-rock) { opacity: 1; transition: opacity 0.1s; }
     </style>
-    <script defer src="/_vercel/insights/script.js"></script>
+    {vercelAnalytics && <script defer src="/_vercel/insights/script.js"></script>}
   </head>
   <body data-topics-total={total} data-current-slug={currentSlug}>
         <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">

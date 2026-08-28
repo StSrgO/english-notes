@@ -102,4 +102,35 @@ const picks = typeOrder.map((t, i) => {
     </div>
   
   </section>
+  <script>
+    // «Фраза дня»: карточка фиксированной высоты, шрифт масштабируется,
+    // чтобы текст любой длины вписывался полностью.
+    (function () {
+      const card = document.querySelector('.quote-card');
+      if (!card) return;
+      const parts = [card.querySelector('.quote-card__en'), card.querySelector('.quote-card__ru'), card.querySelector('.quote-card__by')].filter(Boolean);
+      const MIN_SCALE = 0.3;
+      const fits = () => card.scrollHeight <= card.clientHeight + 1;
+
+      function fit() {
+        parts.forEach((el) => { el.style.fontSize = ''; });
+        const base = parts.map((el) => parseFloat(getComputedStyle(el).fontSize));
+        if (fits()) return;
+        // бинарный поиск максимального масштаба, при котором всё влезает
+        let lo = MIN_SCALE, hi = 1;
+        for (let i = 0; i < 12; i++) {
+          const mid = (lo + hi) / 2;
+          parts.forEach((el, j) => { el.style.fontSize = (base[j] * mid) + 'px'; });
+          if (fits()) lo = mid; else hi = mid;
+        }
+        parts.forEach((el, j) => { el.style.fontSize = (base[j] * lo) + 'px'; });
+      }
+
+      fit();
+      window.addEventListener('resize', fit);
+      window.addEventListener('pageshow', fit);
+      if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+      if (window.ResizeObserver) new ResizeObserver(fit).observe(card);
+    })();
+  </script>
 </Base>
