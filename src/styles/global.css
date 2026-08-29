@@ -4048,12 +4048,6 @@ main { flex: 1 0 auto; }
 .lesson-bar__scroll > * + * { position: relative; }
 .lesson-bar__scroll > * + *::before { content: ""; position: absolute; left: 0; top: 50%; transform: translateY(-50%); height: 60%; width: 1px; background: var(--line); }
 .side--v3 .side3__link.is-active { background: var(--mint); color: var(--ink); font-weight: 700; box-shadow: inset 2px 0 0 var(--mint-ink); }
-/* ============================================================
-   update208 — фикс раскладки урока: бар-лента растягивается на
-   обе колонки грида (grid-column 1/-1), aside+article ниже;
-   мобиль — одна колонка
-   ============================================================ */
-.lesson-bar { grid-column: 1 / -1; width: 100%; }
 
 /* ============================================================
    СИМВОЛЫ (A0)
