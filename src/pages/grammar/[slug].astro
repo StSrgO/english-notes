@@ -24,17 +24,19 @@ const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
 <Base title={topic.title + ' — EnglishNotes'} currentSlug={topic.slug}>
   <div class="wrap topic topic--v2">
     <nav class="lesson-bar">
-      <a href="/grammar" class="bar-item" data-back>← назад</a>
-      {rocknrollTopic && (
-        <button type="button" class="bar-item style-pick" data-style-label="rocknroll">Рок-н-ролл</button>
-      )}
-      <button class="act-link" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
-      <button class="act-link" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
-      {nextTopic ? (
-        <a href={'/grammar/' + nextTopic.slug} class="bar-item">следующий урок →</a>
-      ) : (
-        <a href={'/grammar#' + topic.level} class="bar-item">уровень завершён →</a>
-      )}
+      <div class="lesson-bar__scroll">
+        <a href="/grammar" class="bar-item" data-back>← назад</a>
+        {rocknrollTopic && (
+          <button type="button" class="bar-item style-pick" data-style-label="rocknroll">Рок-н-ролл</button>
+        )}
+        <button class="act-link" data-action="complete" data-slug={topic.slug} aria-pressed="false">Отметить изученным</button>
+        <button class="act-link" data-action="favorite" data-slug={topic.slug} aria-pressed="false">В избранное</button>
+        {nextTopic ? (
+          <a href={'/grammar/' + nextTopic.slug} class="bar-item">следующий урок →</a>
+        ) : (
+          <a href={'/grammar#' + topic.level} class="bar-item">уровень завершён →</a>
+        )}
+      </div>
     </nav>
     <aside class="side side--v3">
     <nav class="side3__nav" aria-label="Секции урока">      <a href="#idea" class="side3__link" data-spy="idea">Суть явления</a>
