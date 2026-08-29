@@ -1716,7 +1716,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .lesson-v2 mark.hl { background: var(--mint-deep); color: var(--ink); padding: 0 5px; border-radius: 5px; }
 
 /* mistakes table */
-.lv2-mistakes { border: 1px solid var(--line); border-radius: 14px; overflow: hidden; background: var(--surface); }
+.lv2-mistakes { border: 1px solid var(--line); border-radius: 14px; overflow-x: auto; overflow-y: hidden; background: var(--surface); }
 .lv2-mistakes table { width: 100%; border-collapse: collapse; }
 .lv2-mistakes th { background: var(--mint); text-align: left; padding: 10px 16px; font-family: var(--display); font-weight: 800; font-size: 14px; color: var(--ink); }
 .lv2-mistakes td { padding: 12px 16px; border-top: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
@@ -4137,8 +4137,8 @@ main { flex: 1 0 auto; }
    левое меню при скролле не теряется под баром; пункты ленты
    шире (padding 18px + column-gap) — разделители с воздухом
    ============================================================ */
-.lesson-bar { grid-column: 2; grid-row: 1; }
-.lesson-bar__scroll { column-gap: 6px; }
+.lesson-bar { grid-column: 1 / -1; grid-row: 1; }
+.lesson-bar__scroll { column-gap: 6px; justify-content: space-between; }
 .side--v3 { grid-column: 1; grid-row: 1 / span 2; }
 .lesson-v2 { grid-column: 2; grid-row: 2; }
 .lesson-bar .bar-item { padding: 8px 18px; }
