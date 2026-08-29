@@ -1,6 +1,6 @@
 {
   "variant": "rocknroll",
-  "slug": "alphabet-pronunciation",
+  "slug": "a0-alphabet-pronunciation",
   "level": "A0",
   "title": "Alphabet and Pronunciation",
   "category": "Basics",
@@ -506,5 +506,8 @@
       "why": "При spelling используются названия английских букв."
     }
   ],
-  "related": []
+  "related": [
+    "a0-symbols-abbreviations",
+    "a0-introductions-greetings"
+  ]
 }

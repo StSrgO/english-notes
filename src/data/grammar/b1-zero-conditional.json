@@ -130,32 +130,50 @@
         {
           "en": "If salt dissolves in water, the water becomes salty.",
           "ru": "Если соль растворяется в воде, вода становится солёной.",
-          "highlight": ["dissolves", "becomes"]
+          "highlight": [
+            "dissolves",
+            "becomes"
+          ]
         },
         {
           "en": "If metal gets hot, it expands.",
           "ru": "Если металл нагревается, он расширяется.",
-          "highlight": ["gets", "expands"]
+          "highlight": [
+            "gets",
+            "expands"
+          ]
         },
         {
           "en": "If snow reaches freezing temperature, it starts to melt.",
           "ru": "Если снег достигает температуры замерзания, он начинает таять.",
-          "highlight": ["reaches", "starts"]
+          "highlight": [
+            "reaches",
+            "starts"
+          ]
         },
         {
           "en": "If plants don't get enough water, they dry out.",
           "ru": "Если растения не получают достаточно воды, они высыхают.",
-          "highlight": ["don't get", "dry out"]
+          "highlight": [
+            "don't get",
+            "dry out"
+          ]
         },
         {
           "en": "If the sun sets, the sky gets darker.",
           "ru": "Если солнце садится, небо темнеет.",
-          "highlight": ["sets", "gets"]
+          "highlight": [
+            "sets",
+            "gets"
+          ]
         },
         {
           "en": "If you drop glass, it can break.",
           "ru": "Если уронить стекло, оно может разбиться.",
-          "highlight": ["drop", "can break"]
+          "highlight": [
+            "drop",
+            "can break"
+          ]
         }
       ]
     },
@@ -165,32 +183,50 @@
         {
           "en": "If drivers ignore the signs, they create dangerous situations.",
           "ru": "Если водители игнорируют знаки, они создают опасные ситуации.",
-          "highlight": ["ignore", "create"]
+          "highlight": [
+            "ignore",
+            "create"
+          ]
         },
         {
           "en": "If you leave food outside, animals find it.",
           "ru": "Если оставить еду снаружи, животные её находят.",
-          "highlight": ["leave", "find"]
+          "highlight": [
+            "leave",
+            "find"
+          ]
         },
         {
           "en": "If a machine overheats, it stops working.",
           "ru": "Если машина перегревается, она перестаёт работать.",
-          "highlight": ["overheats", "stops"]
+          "highlight": [
+            "overheats",
+            "stops"
+          ]
         },
         {
           "en": "If you press this button, the alarm starts.",
           "ru": "Если нажать эту кнопку, сигнализация запускается.",
-          "highlight": ["press", "starts"]
+          "highlight": [
+            "press",
+            "starts"
+          ]
         },
         {
           "en": "If people don't follow the instructions, the process becomes slower.",
           "ru": "Если люди не следуют инструкциям, процесс становится медленнее.",
-          "highlight": ["don't follow", "becomes"]
+          "highlight": [
+            "don't follow",
+            "becomes"
+          ]
         },
         {
           "en": "If the battery runs out, the device switches off.",
           "ru": "Если батарея разряжается, устройство выключается.",
-          "highlight": ["runs out", "switches off"]
+          "highlight": [
+            "runs out",
+            "switches off"
+          ]
         }
       ]
     },
@@ -200,32 +236,50 @@
         {
           "en": "If the river freezes, the water becomes solid.",
           "ru": "Если река замерзает, вода становится твёрдой.",
-          "highlight": ["freezes", "becomes"]
+          "highlight": [
+            "freezes",
+            "becomes"
+          ]
         },
         {
           "en": "If the river freezes tonight, the road will become dangerous.",
           "ru": "Если река замёрзнет сегодня ночью, дорога станет опасной.",
-          "highlight": ["freezes", "will become"]
+          "highlight": [
+            "freezes",
+            "will become"
+          ]
         },
         {
           "en": "If people lose their balance, they fall.",
           "ru": "Если люди теряют равновесие, они падают.",
-          "highlight": ["lose", "fall"]
+          "highlight": [
+            "lose",
+            "fall"
+          ]
         },
         {
           "en": "If he loses his balance on the ice, he will fall.",
           "ru": "Если он потеряет равновесие на льду, он упадёт.",
-          "highlight": ["loses", "will fall"]
+          "highlight": [
+            "loses",
+            "will fall"
+          ]
         },
         {
           "en": "If the fire burns without fuel, it eventually dies.",
           "ru": "Если огонь горит без топлива, он в конце концов гаснет.",
-          "highlight": ["burns", "dies"]
+          "highlight": [
+            "burns",
+            "dies"
+          ]
         },
         {
           "en": "If the fire dies tonight, we will have to leave.",
           "ru": "Если огонь погаснет сегодня ночью, нам придётся уйти.",
-          "highlight": ["dies", "will have"]
+          "highlight": [
+            "dies",
+            "will have"
+          ]
         }
       ]
     }
@@ -361,6 +415,6 @@
   "related": [
     "b1-first-conditional",
     "a1-present-simple",
-    "b1-present-perfect"
+    "a2-modals-can-must-have-to"
   ]
 }

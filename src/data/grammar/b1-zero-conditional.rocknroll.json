@@ -130,32 +130,50 @@
         {
           "en": "If new evidence appears, researchers reconsider the explanation.",
           "ru": "Если появляются новые доказательства, исследователи пересматривают объяснение.",
-          "highlight": ["appears", "reconsider"]
+          "highlight": [
+            "appears",
+            "reconsider"
+          ]
         },
         {
           "en": "If observations contradict a theory, scientists question the theory.",
           "ru": "Если наблюдения противоречат теории, учёные ставят теорию под вопрос.",
-          "highlight": ["contradict", "question"]
+          "highlight": [
+            "contradict",
+            "question"
+          ]
         },
         {
           "en": "If repeated tests produce the same result, scientists gain confidence in the explanation.",
           "ru": "Если повторные тесты дают один и тот же результат, учёные больше доверяют объяснению.",
-          "highlight": ["produce", "gain"]
+          "highlight": [
+            "produce",
+            "gain"
+          ]
         },
         {
           "en": "If an experiment fails, researchers examine the method.",
           "ru": "Если эксперимент не удаётся, исследователи изучают метод.",
-          "highlight": ["fails", "examine"]
+          "highlight": [
+            "fails",
+            "examine"
+          ]
         },
         {
           "en": "If the evidence remains weak, scientists keep looking for better explanations.",
           "ru": "Если доказательства остаются слабыми, учёные продолжают искать лучшие объяснения.",
-          "highlight": ["remains", "keep"]
+          "highlight": [
+            "remains",
+            "keep"
+          ]
         },
         {
           "en": "If a result cannot be repeated, scientists treat it cautiously.",
           "ru": "Если результат нельзя повторить, учёные относятся к нему осторожно.",
-          "highlight": ["cannot be repeated", "treat"]
+          "highlight": [
+            "cannot be repeated",
+            "treat"
+          ]
         }
       ]
     },
@@ -165,32 +183,50 @@
         {
           "en": "If a claim has no evidence, careful researchers don't accept it immediately.",
           "ru": "Если у утверждения нет доказательств, осторожные исследователи не принимают его сразу.",
-          "highlight": ["has", "don't accept"]
+          "highlight": [
+            "has",
+            "don't accept"
+          ]
         },
         {
           "en": "If people test an idea, they learn more about its limits.",
           "ru": "Если люди проверяют идею, они узнают больше о её пределах.",
-          "highlight": ["test", "learn"]
+          "highlight": [
+            "test",
+            "learn"
+          ]
         },
         {
           "en": "If an explanation fits the evidence, researchers investigate it further.",
           "ru": "Если объяснение соответствует доказательствам, исследователи изучают его дальше.",
-          "highlight": ["fits", "investigate"]
+          "highlight": [
+            "fits",
+            "investigate"
+          ]
         },
         {
           "en": "If new observations change the picture, old assumptions become less useful.",
           "ru": "Если новые наблюдения меняют картину, старые предположения становятся менее полезными.",
-          "highlight": ["change", "become"]
+          "highlight": [
+            "change",
+            "become"
+          ]
         },
         {
           "en": "If someone questions an assumption, the discussion becomes more precise.",
           "ru": "Если кто-то ставит предположение под вопрос, обсуждение становится точнее.",
-          "highlight": ["questions", "becomes"]
+          "highlight": [
+            "questions",
+            "becomes"
+          ]
         },
         {
           "en": "If people accept every claim without checking it, mistakes spread easily.",
           "ru": "Если люди принимают каждое утверждение без проверки, ошибки легко распространяются.",
-          "highlight": ["accept", "spread"]
+          "highlight": [
+            "accept",
+            "spread"
+          ]
         }
       ]
     },
@@ -200,32 +236,50 @@
         {
           "en": "If evidence contradicts a theory, scientists question it.",
           "ru": "Если доказательства противоречат теории, учёные ставят её под вопрос.",
-          "highlight": ["contradicts", "question"]
+          "highlight": [
+            "contradicts",
+            "question"
+          ]
         },
         {
           "en": "If the new evidence contradicts the theory, scientists will question it.",
           "ru": "Если новые доказательства противоречат теории, учёные поставят её под вопрос.",
-          "highlight": ["contradicts", "will question"]
+          "highlight": [
+            "contradicts",
+            "will question"
+          ]
         },
         {
           "en": "If experiments fail repeatedly, researchers change the method.",
           "ru": "Если эксперименты постоянно не удаются, исследователи меняют метод.",
-          "highlight": ["fail", "change"]
+          "highlight": [
+            "fail",
+            "change"
+          ]
         },
         {
           "en": "If the next experiment fails, researchers will change the method.",
           "ru": "Если следующий эксперимент не удастся, исследователи изменят метод.",
-          "highlight": ["fails", "will change"]
+          "highlight": [
+            "fails",
+            "will change"
+          ]
         },
         {
           "en": "If researchers find a consistent pattern, they develop a stronger explanation.",
           "ru": "Если исследователи находят устойчивую закономерность, они создают более сильное объяснение.",
-          "highlight": ["find", "develop"]
+          "highlight": [
+            "find",
+            "develop"
+          ]
         },
         {
           "en": "If researchers find the same pattern tomorrow, they will publish the result.",
           "ru": "Если исследователи найдут ту же закономерность завтра, они опубликуют результат.",
-          "highlight": ["find", "will publish"]
+          "highlight": [
+            "find",
+            "will publish"
+          ]
         }
       ]
     }
@@ -361,6 +415,6 @@
   "related": [
     "b1-first-conditional",
     "a1-present-simple",
-    "b1-present-perfect"
+    "a2-modals-can-must-have-to"
   ]
 }

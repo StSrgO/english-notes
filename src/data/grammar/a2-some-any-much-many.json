@@ -146,32 +146,44 @@
         {
           "en": "They had some money.",
           "ru": "У них было немного денег.",
-          "highlight": ["some money"]
+          "highlight": [
+            "some money"
+          ]
         },
         {
           "en": "They found some food.",
           "ru": "Они нашли немного еды.",
-          "highlight": ["some food"]
+          "highlight": [
+            "some food"
+          ]
         },
         {
           "en": "There were some people outside.",
           "ru": "Снаружи было несколько человек.",
-          "highlight": ["some people"]
+          "highlight": [
+            "some people"
+          ]
         },
         {
           "en": "He needed some help.",
           "ru": "Ему нужна была некоторая помощь.",
-          "highlight": ["some help"]
+          "highlight": [
+            "some help"
+          ]
         },
         {
           "en": "They had some ideas.",
           "ru": "У них было несколько идей.",
-          "highlight": ["some ideas"]
+          "highlight": [
+            "some ideas"
+          ]
         },
         {
           "en": "He found some way to continue.",
           "ru": "Он нашёл какой-то способ продолжить.",
-          "highlight": ["some way"]
+          "highlight": [
+            "some way"
+          ]
         }
       ]
     },
@@ -181,32 +193,44 @@
         {
           "en": "Is there any money left?",
           "ru": "Остались какие-нибудь деньги?",
-          "highlight": ["any money"]
+          "highlight": [
+            "any money"
+          ]
         },
         {
           "en": "Do you have any questions?",
           "ru": "У тебя есть какие-нибудь вопросы?",
-          "highlight": ["any questions"]
+          "highlight": [
+            "any questions"
+          ]
         },
         {
           "en": "There isn't any food.",
           "ru": "Еды нет.",
-          "highlight": ["any food"]
+          "highlight": [
+            "any food"
+          ]
         },
         {
           "en": "There aren't any people here.",
           "ru": "Здесь нет людей.",
-          "highlight": ["any people"]
+          "highlight": [
+            "any people"
+          ]
         },
         {
           "en": "We don't have any time.",
           "ru": "У нас нет времени.",
-          "highlight": ["any time"]
+          "highlight": [
+            "any time"
+          ]
         },
         {
           "en": "Did they find any answers?",
           "ru": "Они нашли какие-нибудь ответы?",
-          "highlight": ["any answers"]
+          "highlight": [
+            "any answers"
+          ]
         }
       ]
     },
@@ -216,32 +240,44 @@
         {
           "en": "There wasn't much excitement.",
           "ru": "Особого волнения не было.",
-          "highlight": ["much excitement"]
+          "highlight": [
+            "much excitement"
+          ]
         },
         {
           "en": "They didn't have much money.",
           "ru": "У них было не много денег.",
-          "highlight": ["much money"]
+          "highlight": [
+            "much money"
+          ]
         },
         {
           "en": "We don't have much time.",
           "ru": "У нас не так много времени.",
-          "highlight": ["much time"]
+          "highlight": [
+            "much time"
+          ]
         },
         {
           "en": "He doesn't need much help.",
           "ru": "Ему не нужно много помощи.",
-          "highlight": ["much help"]
+          "highlight": [
+            "much help"
+          ]
         },
         {
           "en": "Did they have much information?",
           "ru": "У них было много информации?",
-          "highlight": ["much information"]
+          "highlight": [
+            "much information"
+          ]
         },
         {
           "en": "There isn't much work today.",
           "ru": "Сегодня не так много работы.",
-          "highlight": ["much work"]
+          "highlight": [
+            "much work"
+          ]
         }
       ]
     },
@@ -251,32 +287,44 @@
         {
           "en": "There were many easy ways.",
           "ru": "Было много простых способов.",
-          "highlight": ["many easy ways"]
+          "highlight": [
+            "many easy ways"
+          ]
         },
         {
           "en": "Many people knew the story.",
           "ru": "Многие люди знали эту историю.",
-          "highlight": ["Many people"]
+          "highlight": [
+            "Many people"
+          ]
         },
         {
           "en": "They had many problems.",
           "ru": "У них было много проблем.",
-          "highlight": ["many problems"]
+          "highlight": [
+            "many problems"
+          ]
         },
         {
           "en": "There were many questions.",
           "ru": "Было много вопросов.",
-          "highlight": ["many questions"]
+          "highlight": [
+            "many questions"
+          ]
         },
         {
           "en": "He tried many different ways.",
           "ru": "Он пробовал много разных способов.",
-          "highlight": ["many different ways"]
+          "highlight": [
+            "many different ways"
+          ]
         },
         {
           "en": "Many days passed.",
           "ru": "Прошло много дней.",
-          "highlight": ["Many days"]
+          "highlight": [
+            "Many days"
+          ]
         }
       ]
     },
@@ -286,32 +334,44 @@
         {
           "en": "There is some money.",
           "ru": "Есть немного денег.",
-          "highlight": ["some money"]
+          "highlight": [
+            "some money"
+          ]
         },
         {
           "en": "Is there any money?",
           "ru": "Есть какие-нибудь деньги?",
-          "highlight": ["any money"]
+          "highlight": [
+            "any money"
+          ]
         },
         {
           "en": "There isn't much money.",
           "ru": "Денег не так много.",
-          "highlight": ["much money"]
+          "highlight": [
+            "much money"
+          ]
         },
         {
           "en": "There are many people.",
           "ru": "Здесь много людей.",
-          "highlight": ["many people"]
+          "highlight": [
+            "many people"
+          ]
         },
         {
           "en": "Are there any people outside?",
           "ru": "Снаружи есть люди?",
-          "highlight": ["any people"]
+          "highlight": [
+            "any people"
+          ]
         },
         {
           "en": "There aren't many people here.",
           "ru": "Здесь не так много людей.",
-          "highlight": ["many people"]
+          "highlight": [
+            "many people"
+          ]
         }
       ]
     }
@@ -448,6 +508,8 @@
   ],
   "related": [
     "a1-nouns",
-    "a2-articles"
+    "a2-articles",
+    "a1-plural-nouns",
+    "a1-there-is-there-are"
   ]
 }
