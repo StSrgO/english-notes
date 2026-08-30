@@ -3034,11 +3034,19 @@ main { flex: 1 0 auto; }
    (copy — flex, блок центрируется в свободной зоне) + CEFR-подпись
    ============================================================ */
 .hero__copy { display: flex; flex-direction: column; }
-.hero__how { display: grid; gap: 12px; margin-top: auto; padding-top: 30px; max-width: 46ch; }
-.how-step { display: flex; gap: 14px; align-items: baseline; }
-.how-step__n { font-family: var(--mono); font-weight: 700; font-size: 13px; color: var(--mint-ink); letter-spacing: .08em; flex: 0 0 auto; }
-.how-step p { margin: 0; font-family: 'Lora', Georgia, serif; font-size: 16.5px; line-height: 1.6; color: var(--ink); }
-.cfr-note { margin: 16px 0 10px; font-family: var(--mono); font-size: 11.5px; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); }
+.cfr-note { margin: 16px 0 10px; font-family: var(--mono); font-size: clamp(8px, calc(0.85vw - 0.5px), 10.5px); font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
+.cfr-grp { white-space: nowrap; }
+.cfr-sep { margin: 0 6px; }
+/* Подпись уровней: одна строка в пределах длины зелёной линии.
+   Размер шрифта считается от ширины окна (vw): колонка hero
+   на десктопе занимает ~0.575vw−35px, поэтому 0.85vw−0.5px
+   гарантирует, что фраза влезает при любой ширине (без
+   container-запросов — работает во всех браузерах). */
+/* Мобильный адаптив: подпись в три строки — по группе уровней */
+@media screen and (max-width: 1024px) {
+  .cfr-note { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; white-space: normal; font-size: 11px; }
+  .cfr-sep { display: none; }
+}
 /* ============================================================
    update184 — уровни-картинки (public/levels); текстовый вариант
    скрыт, но жив: возврат = .levels--text{display:flex} + .levels--img{display:none}
@@ -5289,13 +5297,6 @@ body:has(.hero) {
   min-height: 0;
 }
 
-/* Убираем старое "прижатие" 01–03 к низу */
-.hero__how {
-  margin-top: 34px !important;
-  padding-top: 0 !important;
-  gap: 16px;
-}
-
 /* Немного больше воздуха после манифеста */
 .hero__sub {
   margin-bottom: 8px;
@@ -5370,6 +5371,15 @@ body:has(.hero) {
   background-position: center top;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+/* Мобильный адаптив: без лондонского фона —
+   остаётся стандартный фон сайта (var(--paper)) */
+@media screen and (max-width: 768px) {
+  body:has(.hero) {
+    background-image: none;
+    background-attachment: scroll;
+  }
 }
 
 /* ============================================================
