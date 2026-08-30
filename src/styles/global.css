@@ -1720,9 +1720,9 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .lv2-mistakes table { width: 100%; border-collapse: collapse; }
 .lv2-mistakes th { background: var(--mint); text-align: left; padding: 10px 16px; font-family: var(--display); font-weight: 800; font-size: 14px; color: var(--ink); }
 .lv2-mistakes td { padding: 12px 16px; border-top: 1px solid var(--line); vertical-align: top; line-height: 1.55; }
-.lv2-mistakes .w { color: var(--coral); font-weight: 600; text-decoration: line-through; text-decoration-thickness: 2px; }
+.lv2-mistakes .w { color: var(--ink); font-weight: 600; text-decoration: line-through; text-decoration-thickness: 2px; }
 .lv2-mistakes .n { display: block; text-decoration: none; color: var(--ink-soft); font-size: 13.5px; font-weight: 500; margin-top: 6px; line-height: 1.5; }
-.lv2-mistakes .r { color: var(--ink); font-weight: 700; }
+.lv2-mistakes .r { color: var(--mint-ink); font-weight: 700; }
 
 /* tips (no icons) */
 .lv2-tips { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; }
