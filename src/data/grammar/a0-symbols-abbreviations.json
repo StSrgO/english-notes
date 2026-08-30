@@ -313,24 +313,24 @@
     "rightLabel": "Сокращение",
     "rows": [
       {
-        "left": "&",
-        "right": "and → &"
+        "left": "& = and",
+        "right": "Dr. = Doctor"
       },
       {
-        "left": "%",
-        "right": "percent → %"
+        "left": "% = percent",
+        "right": "UK = United Kingdom"
       },
       {
-        "left": "£",
-        "right": "Doctor → Dr."
+        "left": "£ = pound",
+        "right": "USA = United States of America"
       },
       {
-        "left": "@",
-        "right": "United Kingdom → UK"
+        "left": "@ = at",
+        "right": "TV = television"
       },
       {
-        "left": "=",
-        "right": "et cetera → etc."
+        "left": "# = number",
+        "right": "etc. = et cetera"
       }
     ]
   },

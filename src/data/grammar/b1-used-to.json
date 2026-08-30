@@ -49,7 +49,7 @@
         "ru": "Раньше проект оставался незавершённым."
       }
     ],
-    "note": "Культурная история основана на C56: длительная работа Виктора Гюго над Les Misérables, остановка проекта и возвращение к рукописи. Источники проекта — письма и биографические материалы."
+    "note": "Культурная история строится вокруг длительной работы Виктора Гюго над Les Misérables — остановки проекта и возвращения к рукописи. Материал опирается на письма и биографические источники."
   },
   "russianAngle": [
     "Русское «раньше» само по себе не показывает грамматическую форму. В английском для привычки или состояния прошлого используется used to.",
@@ -444,7 +444,7 @@
         "I use to lived there.",
         "I used to living there."
       ],
-      "answer": "I used to live there.",
+      "answer": 0,
       "why": "После used to используется V1."
     },
     {
@@ -454,7 +454,7 @@
         "Did he use to write?",
         "Did he use to wrote?"
       ],
-      "answer": "Did he use to write?",
+      "answer": 1,
       "why": "После did используется use to + V1."
     },
     {
@@ -464,7 +464,7 @@
         "I worked there in the past, but not now.",
         "I am working there today."
       ],
-      "answer": "I worked there in the past, but not now.",
+      "answer": 1,
       "why": "Used to показывает изменение между прошлым и настоящим."
     },
     {
@@ -474,7 +474,7 @@
         "He used to write every morning.",
         "He is writing now."
       ],
-      "answer": "He used to write every morning.",
+      "answer": 1,
       "why": "Used to показывает привычное действие прошлого."
     },
     {
@@ -484,7 +484,7 @@
         "use to",
         "use"
       ],
-      "answer": "use to",
+      "answer": 1,
       "why": "После didn't используется use to."
     },
     {
@@ -494,7 +494,7 @@
         "He visited Paris yesterday.",
         "He use to visit Paris yesterday."
       ],
-      "answer": "He visited Paris yesterday.",
+      "answer": 1,
       "why": "Один конкретный завершённый эпизод требует Past Simple."
     }
   ],

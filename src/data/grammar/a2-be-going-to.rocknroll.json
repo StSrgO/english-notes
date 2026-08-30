@@ -15,7 +15,7 @@
     "Новый проект получил название American Idiot. В центре появилась история Jesus of Suburbia, а песни стали соединяться между собой как части одного повествования. Группа начала работать не только над отдельными песнями, но и над последовательностью, персонажами и общей идеей. [bold]They are going to tell a story.[/bold] Здесь be going to показывает уже принятое творческое намерение.",
     "Важно отличать такие предложения от простого прогноза. Если группа заранее решила начать новый проект, мы говорим [bold]They are going to start again.[/bold] Если музыканты видят, что короткие фрагменты уже превращаются в большую композицию, можно сказать [bold]This is going to become a longer song.[/bold] В первом случае есть план, во втором — предсказание на основе того, что уже видно.",
     "Та же конструкция работает и в вопросах. Если журналист спрашивает о новом проекте, вопрос может звучать так: [bold]Are you going to make a concept album?[/bold] Если ответ положительный, можно сказать: [bold]Yes, we are going to make something different.[/bold] Отрицание строится так же просто: [bold]We are not going to release the old album.[/bold] Сначала происходит решение, затем действие. Be going to связывает эти два момента.",
-    "История American Idiot поэтому хорошо показывает смысл конструкции. Green Day сначала собирались выпустить один альбом, но после кражи записей отказались от этого плана. Затем они приняли новое решение, начали экспериментировать и увидели, что материал превращается во что-то гораздо большее. [bold]They were going to release one album, but they were going to make something completely different instead.[/bold] Be going to здесь описывает не абстрактное будущее, а будущее, которое уже формируется из решений и очевидных признаков."
+    "Смысл конструкции виден в истории American Idiot: Green Day сначала собирались выпустить один альбом, но после кражи записей отказались от этого плана. Затем они приняли новое решение, начали экспериментировать и увидели, что материал превращается во что-то гораздо большее. [bold]They were going to release one album, but they were going to make something completely different instead.[/bold] Be going to здесь описывает не абстрактное будущее, а будущее, которое уже формируется из решений и очевидных признаков."
   ],
   "why": [
     "Говорить о планах и намерениях, которые уже приняты.",
@@ -401,7 +401,7 @@
         "They started again.",
         "They start again."
       ],
-      "answer": "They are going to start again.",
+      "answer": 0,
       "why": "Be going to показывает уже сформированное намерение."
     },
     {
@@ -411,7 +411,7 @@
         "They are going make a new album.",
         "They are going to makes a new album."
       ],
-      "answer": "They are going to make a new album.",
+      "answer": 0,
       "why": "Формула: are + going to + V1."
     },
     {
@@ -421,7 +421,7 @@
         "The songs became something bigger yesterday.",
         "The songs become something bigger every year."
       ],
-      "answer": "The songs are going to become something bigger.",
+      "answer": 0,
       "why": "Говорящий видит признаки будущего результата."
     },
     {
@@ -431,7 +431,7 @@
         "Is they going to start again?",
         "Are they going start again?"
       ],
-      "answer": "Are they going to start again?",
+      "answer": 0,
       "why": "С they используется are, а после going нужен to."
     },
     {
@@ -441,7 +441,7 @@
         "They not are going to release the old album.",
         "They are going to not release the old album."
       ],
-      "answer": "They are not going to release the old album.",
+      "answer": 0,
       "why": "Not ставится после am/is/are."
     },
     {
@@ -451,7 +451,7 @@
         "I'll make a new album now.",
         "I will help you with this song."
       ],
-      "answer": "We are going to make a new album.",
+      "answer": 0,
       "why": "Be going to показывает уже существующий план."
     }
   ],

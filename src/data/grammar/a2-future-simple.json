@@ -258,7 +258,7 @@
         "The next chapter was interesting.",
         "The next chapter is interesting now."
       ],
-      "answer": "The next chapter will be interesting.",
+      "answer": 0,
       "why": "Говорящий предполагает, каким будет будущее."
     },
     {
@@ -268,7 +268,7 @@
         "She will reads.",
         "She will to read."
       ],
-      "answer": "She will read.",
+      "answer": 0,
       "why": "После will используется базовая форма."
     },
     {
@@ -278,7 +278,7 @@
         "I finished the story.",
         "I am finishing the story yesterday."
       ],
-      "answer": "I will finish the story.",
+      "answer": 0,
       "why": "Will может выражать обещание."
     },
     {
@@ -288,7 +288,7 @@
         "They will not to continue.",
         "They will not continues."
       ],
-      "answer": "They will not continue.",
+      "answer": 0,
       "why": "После will not используется V1."
     },
     {
@@ -298,7 +298,7 @@
         "Will the readers continues?",
         "Do the readers will continue?"
       ],
-      "answer": "Will the readers continue?",
+      "answer": 0,
       "why": "Will ставится перед подлежащим."
     }
   ],

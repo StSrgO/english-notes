@@ -15,7 +15,7 @@
     "Will также может превращать разговор о будущем в обещание: [bold]We will keep playing the songs.[/bold] Здесь говорящий берёт на себя обязательство. В этом смысле Future Simple связан не с календарём, а с отношением человека к тому, что ещё не произошло.",
     "Наконец, решение может возникнуть прямо во время разговора. Если журналист спрашивает: [bold]What will you do next?[/bold] — человек может ответить: [bold]I'll continue.[/bold] Решение оформляется в момент речи.",
     "Форма во всех этих случаях одна: [bold]will + V1[/bold]. [bold]We will continue. I will play. They will return.[/bold] После will не появляется -s и не ставится to. Отрицание — [bold]won't[/bold], вопрос — [bold]Will... ?[/bold]",
-    "Поэтому история Buzzcocks хорошо показывает смысл Future Simple. Будущее группы сначала становится вопросом, затем ответом, прогнозом, обещанием и решением."
+    "Смысл Future Simple виден в истории Buzzcocks: будущее группы сначала становится вопросом, затем ответом, прогнозом, обещанием и решением."
   ],
   "why": [
     "Делать прогнозы о том, что произойдёт в будущем.",
@@ -290,7 +290,7 @@
         "Did you continue?",
         "Are you continued?"
       ],
-      "answer": "Will you continue?",
+      "answer": 0,
       "why": "Will открывает вопрос о будущем."
     },
     {
@@ -300,7 +300,7 @@
         "They will continues.",
         "They will to continue."
       ],
-      "answer": "They will continue.",
+      "answer": 0,
       "why": "После will используется V1."
     },
     {
@@ -310,7 +310,7 @@
         "We kept playing.",
         "We were playing."
       ],
-      "answer": "We will keep playing.",
+      "answer": 0,
       "why": "Will может выражать обещание."
     },
     {
@@ -320,7 +320,7 @@
         "I will not to stop.",
         "I will not stops."
       ],
-      "answer": "I will not stop.",
+      "answer": 0,
       "why": "После will not используется V1."
     },
     {
@@ -330,7 +330,7 @@
         "The band continued.",
         "The band is continuing yesterday."
       ],
-      "answer": "The band will continue.",
+      "answer": 0,
       "why": "Говорящий предполагает будущее."
     }
   ],

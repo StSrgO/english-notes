@@ -8,7 +8,7 @@
   "summary": "Be going to показывает уже принятое намерение или план. Также конструкция используется для предсказания, когда есть признаки того, что событие скоро произойдёт.",
   "idea": [
     "Будущее можно увидеть по-разному. Иногда решение уже принято: человек знает, что он собирается делать. Иногда перед нами есть признаки, по которым легко понять, что произойдёт дальше. В обоих случаях английский часто использует [bold]be going to[/bold]. Главное здесь не само будущее, а его связь с настоящим.",
-    "История финала Great Expectations хорошо показывает первую функцию. Чарльз Диккенс уже закончил роман, но затем решил изменить его концовку. После совета Эдварда Бульвер-Литтона он собирался переписать финальные сцены. Здесь идея уже существует до действия: сначала появляется намерение, затем изменение текста.",
+    "Первая функция видна в истории финала Great Expectations: Чарльз Диккенс уже закончил роман, но затем решил изменить его концовку. После совета Эдварда Бульвер-Литтона он собирался переписать финальные сцены. Здесь идея уже существует до действия: сначала появляется намерение, затем изменение текста.",
     "Если описывать эту ситуацию на английском, можно сказать: [bold]Dickens is going to change the ending.[/bold] Это не просто информация о будущем. Это решение, которое уже принято. [bold]He is going to rewrite the final scene.[/bold] У автора уже есть конкретное намерение. [bold]He is going to make the ending more hopeful.[/bold] Будущее здесь начинается с решения в настоящем.",
     "Есть и другая функция. Иногда мы не планируем событие сами, но видим достаточно признаков, чтобы сделать прогноз. Например, если небо быстро темнеет, можно сказать: [bold]It is going to rain.[/bold] Если рукопись уже переделана и новая концовка готовится к публикации, можно сказать: [bold]The new ending is going to appear in the published version.[/bold] Мы видим направление событий.",
     "Формула проста: [bold]am / is / are + going to + глагол.[/bold] Важно не потерять ни одну часть конструкции. [bold]I am going to change it.[/bold] [bold]He is going to change it.[/bold] [bold]They are going to change it.[/bold] После going to остаётся обычная форма глагола.",
@@ -301,7 +301,7 @@
         "I am going to change the ending.",
         "I change the ending."
       ],
-      "answer": "I am going to change the ending.",
+      "answer": 1,
       "why": "Be going to показывает уже существующий план."
     },
     {
@@ -311,7 +311,7 @@
         "is",
         "are"
       ],
-      "answer": "is",
+      "answer": 1,
       "why": "С she используется is."
     },
     {
@@ -321,7 +321,7 @@
         "Look at the clouds! It is going to rain.",
         "It rained yesterday."
       ],
-      "answer": "Look at the clouds! It is going to rain.",
+      "answer": 1,
       "why": "Предсказание основано на видимых признаках."
     },
     {
@@ -331,7 +331,7 @@
         "They are going to change it.",
         "They going to change it."
       ],
-      "answer": "They are going to change it.",
+      "answer": 1,
       "why": "Нужна полная формула are + going to + V1."
     },
     {
@@ -341,7 +341,7 @@
         "Are they going to publish it?",
         "They are going to publish it?"
       ],
-      "answer": "Are they going to publish it?",
+      "answer": 1,
       "why": "С they используется are, а в вопросе are ставится перед подлежащим."
     },
     {
@@ -351,7 +351,7 @@
         "She plans to rewrite it.",
         "She rewrites it every year."
       ],
-      "answer": "She plans to rewrite it.",
+      "answer": 1,
       "why": "Be going to показывает намерение или план."
     }
   ],

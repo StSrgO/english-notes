@@ -15,7 +15,7 @@
     "Та же логика работает с when и while. [bold]While Mrs Ramsay was talking, James was sitting on the floor.[/bold] Здесь два действия идут одновременно. Нам не нужно знать, какое из них началось первым. Важно, что оба были в процессе.",
     "Past Continuous не означает обязательно «долго». Если мы говорим [bold]At that moment, James was sitting on the floor,[/bold] действие может продолжаться всего несколько минут. Важен не размер промежутка, а точка зрения: мы смотрим на прошлое изнутри определённого момента.",
     "Отрицание строится через [bold]wasn't / weren't[/bold], вопрос — через [bold]Was / Were[/bold]. [bold]She wasn't reading.[/bold] [bold]Were they talking?[/bold]",
-    "Поэтому сцена To the Lighthouse хорошо объясняет Past Continuous: Вулф создаёт не список событий, а живой момент, в котором несколько действий происходят одновременно. Past Continuous даёт английскому языку возможность показать этот момент как сцену."
+    "В сцене To the Lighthouse Вулф создаёт не список событий, а живой момент, в котором несколько действий происходят одновременно. Past Continuous даёт английскому языку возможность показать этот момент как сцену."
   ],
   "why": [
     "Показывать действие в процессе в конкретный момент прошлого.",
@@ -297,7 +297,7 @@
         "James sat on the floor.",
         "James sat down."
       ],
-      "answer": "James was sitting on the floor.",
+      "answer": 0,
       "why": "Past Continuous показывает действие в процессе."
     },
     {
@@ -307,7 +307,7 @@
         "She were talking.",
         "She was talk."
       ],
-      "answer": "She was talking.",
+      "answer": 0,
       "why": "С she используется was + V-ing."
     },
     {
@@ -317,7 +317,7 @@
         "They was talking when the door opened.",
         "They were talk when the door opened."
       ],
-      "answer": "They were talking when the door opened.",
+      "answer": 0,
       "why": "Процесс — Past Continuous, событие — Past Simple."
     },
     {
@@ -327,7 +327,7 @@
         "She talked while James sat.",
         "She was talk while James was sitting."
       ],
-      "answer": "She was talking while James was sitting.",
+      "answer": 0,
       "why": "Оба действия происходят одновременно."
     }
   ],
