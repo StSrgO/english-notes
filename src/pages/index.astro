@@ -20,9 +20,12 @@ const phrase = phrases[seed % phrases.length];
 
 const typeOrder = ['podcast', 'video', 'book', 'series', 'song'];
 const typeIcon = { podcast: 'eq', video: 'play', book: 'book', series: 'film', song: 'note' };
+// Ротация: множители (13, 11) взаимно просты с длинами пулов — каждый тип идёт
+// по своему «перемешанному» кругу: соседние дни не повторяются, порядок не выглядит
+// последовательным, полный цикл = длине пула (для пулов 400+ — больше года).
 const picks = typeOrder.map((t, i) => {
   const pool = recs.filter((r) => r.type === t);
-  return pool[(seed + i) % pool.length];
+  return pool[(seed * 13 + i * 11) % pool.length];
 });
 ---
 <Base title="EnglishNotes — Выбери уровень. Выбери стиль." pageClass="home-page">

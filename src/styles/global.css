@@ -4443,64 +4443,6 @@ main { flex: 1 0 auto; }
    ============================================================ */
 .lesson-v2 .practice { margin-bottom: 44px; }
 
-/* Alphabet table styles */
-.alphabet-table {
-  margin-top: 32px;
-}
-
-.alphabet-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-  gap: 8px;
-  margin-top: 16px;
-}
-
-.alphabet-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 12px;
-  background: var(--surface);
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  font-size: 14px;
-  transition: background 0.15s;
-}
-
-.alphabet-item:hover {
-  background: var(--mint);
-  border-color: var(--mint-deep);
-}
-
-.alphabet-letter {
-  font-family: 'Onest', system-ui, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--ink);
-  min-width: 28px;
-}
-
-.alphabet-ipa {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
-  color: var(--ink-soft);
-  min-width: 50px;
-}
-
-.alphabet-example {
-  font-family: 'Lora', serif;
-  font-size: 14px;
-  color: var(--ink);
-  flex: 1;
-}
-
-.alphabet-example-ru {
-  font-family: 'Manrope', system-ui, sans-serif;
-  font-size: 12px;
-  color: var(--ink-soft);
-}
-
-
 /* ============================================================
    СИМВОЛЫ (A0)
    ============================================================ */
@@ -4575,252 +4517,19 @@ main { flex: 1 0 auto; }
     font-size: 22px;
   }
 }
-@media (max-width: 600px) {
-  .alphabet-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-  .alphabet-item {
-    font-size: 12px;
-    padding: 6px 10px;
-  }
-  .alphabet-letter {
-    font-size: 15px;
-    min-width: 20px;
-  }
-}
-
 
 /* ============================================================
-   АЛФАВИТ — A0
+   АЛФАВИТ — A0 (финальная сетка: 4 ряда на десктопе)
+   Фон блока — цвет кнопки рок-н-ролл (--mint-ink),
+   буква и произношение белые, всё по центру блока.
    ============================================================ */
-
 .alphabet-table {
-  margin: 24px 0 32px;
+  margin: 16px 0 20px;
 }
 
 .alphabet-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 8px 16px;
-  margin-top: 12px;
-}
-
-.alphabet-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
-  background: var(--surface);
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  transition: all 0.2s;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-.alphabet-item:hover {
-  background: var(--mint);
-  border-color: var(--mint-deep);
-}
-
-.alphabet-letter {
-  font-family: 'Onest', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--ink);
-  min-width: 28px;
-  text-align: center;
-}
-
-.alphabet-ipa {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--ink-soft);
-  min-width: 44px;
-  text-align: center;
-}
-
-.alphabet-example {
-  font-family: 'Lora', serif;
-  font-size: 14px;
-  color: var(--ink-mid);
-  flex: 1;
-}
-
-.alphabet-example-ru {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12px;
-  color: var(--ink-soft);
-  text-align: right;
-  white-space: nowrap;
-}
-
-/* Мобильная версия — одна буква в ряд, всё в строку */
-@media (max-width: 600px) {
-  .alphabet-grid {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-  
-  .alphabet-item {
-    padding: 6px 10px;
-    gap: 8px;
-    flex-wrap: nowrap;
-    overflow: hidden;
-  }
-  
-  .alphabet-letter {
-    font-size: 16px;
-    min-width: 22px;
-  }
-  
-  .alphabet-ipa {
-    font-size: 12px;
-    min-width: 36px;
-  }
-  
-  .alphabet-example {
-    font-size: 13px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .alphabet-example-ru {
-    font-size: 11px;
-    white-space: nowrap;
-  }
-}
-
-/* Планшетная версия */
-@media (min-width: 601px) and (max-width: 920px) {
-  .alphabet-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  }
-}
-
-/* ============================================================
-   АЛФАВИТ — A0
-   ============================================================ */
-
-.alphabet-table {
-  margin: 24px 0 32px;
-}
-
-.alphabet-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 8px 16px;
-  margin-top: 12px;
-}
-
-.alphabet-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
-  background: var(--surface);
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  transition: all 0.2s;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-.alphabet-item:hover {
-  background: var(--mint);
-  border-color: var(--mint-deep);
-}
-
-.alphabet-letter {
-  font-family: 'Onest', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--ink);
-  min-width: 28px;
-  text-align: center;
-}
-
-.alphabet-ipa {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--ink-soft);
-  min-width: 44px;
-  text-align: center;
-}
-
-.alphabet-example {
-  font-family: 'Lora', serif;
-  font-size: 14px;
-  color: var(--ink-mid);
-  flex: 1;
-}
-
-.alphabet-example-ru {
-  font-family: 'Manrope', sans-serif;
-  font-size: 12px;
-  color: var(--ink-soft);
-  text-align: right;
-  white-space: nowrap;
-}
-
-/* Мобильная версия — одна буква в ряд, всё в строку */
-@media (max-width: 600px) {
-  .alphabet-grid {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-  
-  .alphabet-item {
-    padding: 6px 10px;
-    gap: 8px;
-    flex-wrap: nowrap;
-    overflow: hidden;
-  }
-  
-  .alphabet-letter {
-    font-size: 16px;
-    min-width: 22px;
-  }
-  
-  .alphabet-ipa {
-    font-size: 12px;
-    min-width: 36px;
-  }
-  
-  .alphabet-example {
-    font-size: 13px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .alphabet-example-ru {
-    font-size: 11px;
-    white-space: nowrap;
-  }
-}
-
-/* Планшетная версия */
-@media (min-width: 601px) and (max-width: 920px) {
-  .alphabet-grid {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  }
-}
-
-/* ============================================================
-   АЛФАВИТ — A0
-   ============================================================ */
-
-.alphabet-table {
-  margin: 16px 0 24px;
-}
-
-.alphabet-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(7, 1fr);
   gap: 8px;
   margin-top: 8px;
 }
@@ -4828,246 +4537,82 @@ main { flex: 1 0 auto; }
 .alphabet-item {
   display: flex;
   flex-direction: column;
-  padding: 10px 14px;
-  background: var(--surface);
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 14px 8px;
+  background: var(--mint-ink);
   border-radius: 10px;
-  border: 1px solid var(--line);
-  transition: all 0.2s;
-  min-height: 70px;
-  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  min-height: 64px;
+  text-align: center;
+  transition: transform 0.15s, filter 0.15s;
 }
 
 .alphabet-item:hover {
-  background: var(--mint);
-  border-color: var(--mint-deep);
-}
-
-.alphabet-row {
-  display: flex;
-  align-items: baseline;
-  gap: 8px;
-  flex-wrap: wrap;
+  transform: translateY(-2px);
+  filter: brightness(1.08);
 }
 
 .alphabet-letter {
   font-family: 'Onest', sans-serif;
   font-weight: 700;
   font-size: 20px;
-  color: var(--ink);
+  color: #ffffff;
   line-height: 1.2;
 }
 
 .alphabet-ipa {
   font-family: 'JetBrains Mono', monospace;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
-  color: var(--ink-soft);
+  color: rgba(255, 255, 255, 0.9);
   line-height: 1.2;
 }
 
 .alphabet-example {
   font-family: 'Lora', serif;
-  font-size: 14px;
-  color: var(--ink-mid);
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.85);
   line-height: 1.3;
   margin-top: 2px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  hyphens: auto;
 }
 
 .alphabet-example-ru {
   font-family: 'Manrope', sans-serif;
-  font-size: 12px;
-  color: var(--ink-soft);
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.7);
   line-height: 1.3;
   margin-top: 1px;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  hyphens: auto;
 }
 
-/* Мобильная версия — одна карточка в ряд */
-@media (max-width: 600px) {
+/* Планшет: урок на всю ширину — сетка остаётся 7 колонок */
+@media (min-width: 601px) and (max-width: 920px) {
   .alphabet-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(7, 1fr);
     gap: 6px;
   }
-  
-  .alphabet-item {
-    padding: 8px 12px;
-    min-height: 60px;
-  }
-  
-  .alphabet-letter {
-    font-size: 18px;
-  }
-  
-  .alphabet-ipa {
-    font-size: 13px;
-  }
-  
-  .alphabet-example {
-    font-size: 13px;
-  }
-  
-  .alphabet-example-ru {
-    font-size: 11px;
-  }
 }
 
-/* Планшет */
-@media (min-width: 601px) and (max-width: 920px) {
-  .alphabet-grid {
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  }
-}
-
-/* ============================================================
-   АЛФАВИТ — A0 (компактная сетка)
-   ============================================================ */
-
-.alphabet-table {
-  margin: 16px 0 20px;
-}
-
-.alphabet-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-  gap: 6px;
-  margin-top: 8px;
-}
-
-.alphabet-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 4px;
-  background: var(--surface);
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  transition: all 0.15s;
-  min-height: 48px;
-}
-
-.alphabet-item:hover {
-  background: var(--mint);
-  border-color: var(--mint-deep);
-}
-
-.alphabet-letter {
-  font-family: 'Onest', sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  color: var(--ink);
-  line-height: 1.2;
-}
-
-.alphabet-ipa {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 10px;
-  font-weight: 500;
-  color: var(--ink-soft);
-  line-height: 1.2;
-}
-
-/* Мобильная версия — чуть шире */
-@media (max-width: 600px) {
-  .alphabet-grid {
-    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
-    gap: 4px;
-  }
-  .alphabet-item {
-    min-height: 40px;
-    padding: 4px 2px;
-  }
-  .alphabet-letter {
-    font-size: 14px;
-  }
-  .alphabet-ipa {
-    font-size: 9px;
-  }
-}
-
-/* Планшет */
-@media (min-width: 601px) and (max-width: 920px) {
-  .alphabet-grid {
-    grid-template-columns: repeat(auto-fill, minmax(55px, 1fr));
-  }
-}
-
-/* ============================================================
-   АЛФАВИТ — A0 (3 ряда, компактно)
-   ============================================================ */
-
-.alphabet-table {
-  margin: 16px 0 20px;
-}
-
-.alphabet-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-  gap: 8px;
-  margin-top: 8px;
-}
-
-.alphabet-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 8px 6px;
-  background: var(--surface);
-  border-radius: 8px;
-  border: 1px solid var(--line);
-  transition: all 0.15s;
-  min-height: 56px;
-}
-
-.alphabet-item:hover {
-  background: var(--mint);
-  border-color: var(--mint-deep);
-}
-
-.alphabet-letter {
-  font-family: 'Onest', sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--ink);
-  line-height: 1.2;
-}
-
-.alphabet-ipa {
-  font-family: 'JetBrains Mono', monospace;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--ink-soft);
-  line-height: 1.2;
-}
-
-/* Мобильная версия */
+/* Мобильная версия: компактные карточки в ряд */
 @media (max-width: 600px) {
   .alphabet-grid {
     grid-template-columns: repeat(auto-fill, minmax(60px, 1fr));
-    gap: 5px;
+    gap: 6px;
   }
   .alphabet-item {
-    min-height: 44px;
-    padding: 5px 3px;
+    min-height: 52px;
+    padding: 10px 4px;
   }
   .alphabet-letter {
-    font-size: 15px;
+    font-size: 16px;
   }
   .alphabet-ipa {
     font-size: 10px;
-  }
-}
-
-/* Планшет */
-@media (min-width: 601px) and (max-width: 920px) {
-  .alphabet-grid {
-    grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
   }
 }
 
@@ -5798,4 +5343,24 @@ FIX — МОБИЛЬНАЯ ГЛАВНАЯ: СТРОКА УРОВНЕЙ A0–C2 �
   .hero .levels { gap: 3px; }
   .hero .levels .level-link { font-size: 16px; padding: 5px 7px; }
   .hero .lvl-arrow { font-size: 13px; }
+}
+
+/* ============================================================
+FIX — МОБИЛЬНАЯ ГЛАВНАЯ: БЕЗ ПОДПИСЕЙ УРОВНЕЙ, ЗЕЛЁНАЯ ЧЕРТА
+На мобильных не показываем надписи «A0–A2…C1–C2» (cfr-note)
+и перечисление уровней (текстовое и картинки). После основного
+текста — зелёная линия, за ней блок «фраза дня».
+============================================================ */
+@media screen and (max-width: 768px) {
+  .cfr-note { display: none !important; }
+  .levels--text { display: none !important; }
+  .levels--img { display: none !important; }
+  /* пустой декоративный .hero__punch рисует свою зелёную линию — на мобильном
+     оставляем одну черту (border-top .hero__visual перед «фразой дня») */
+  .hero__punch { display: none !important; }
+  .hero__visual {
+    border-top: 3px solid var(--mint-ink);
+    margin-top: 6px !important;
+    padding-top: 26px !important;
+  }
 }

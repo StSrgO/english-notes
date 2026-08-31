@@ -240,9 +240,9 @@ function ideaHtml(text) {
         {T.alphabet.map((letter) => (
           <div class="alphabet-item">
             <span class="alphabet-letter">{letter.letter}</span>
-            <span class="alphabet-ipa">{letter.ipa}</span>
-            <span class="alphabet-example">{letter.example}</span>
-            <span class="alphabet-example-ru">{letter.exampleRu}</span>
+            {letter.ipa && <span class="alphabet-ipa">{letter.ipa}</span>}
+            {letter.example && <span class="alphabet-example">{letter.example}</span>}
+            {letter.exampleRu && <span class="alphabet-example-ru">{letter.exampleRu}</span>}
           </div>
         ))}
       </div>
