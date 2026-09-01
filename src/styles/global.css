@@ -1636,6 +1636,8 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 }/* hero face-of-site polish (update53) */
 .hero__grid { align-items: stretch; }
 .hero__sub { text-align: justify; text-align-last: justify; }
+/* «Hey! Ho! Let's go!» — своей строкой, не растягивается justify-выравниванием */
+.hero__sub-en { display: block; width: fit-content; }
 .hero__punch { display: flex; justify-content: space-between; align-items: baseline; white-space: normal; gap: 12px; font-size: clamp(14px, 1.5vw, 18px); }
 .hero__punch .sep { margin: 0; }/* punchline single line (update54) */
 .hero__punch { flex-wrap: wrap; font-size: clamp(13px, 1.4vw, 17px); }
