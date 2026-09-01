@@ -116,7 +116,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .hero { position: relative; padding: 50px 0 30px; }
 .hero__grid { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 0.75fr); gap: 56px; align-items: stretch; }
 .hero__lead { display: flex; flex-direction: column; container-type: inline-size; }
-.eyebrow { font-family: var(--mono); font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
+.eyebrow { font-family: var(--mono); font-weight: 800; font-size: 13px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-soft); }
 .hero h1 { font-size: clamp(34px, 5.6vw, 72px); font-weight: 900; margin: 14px 0 16px; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
 .hero__sub { max-width: 46ch; font-size: 18px; line-height: 1.7; color: var(--ink-mid); }
 .levels { display: flex; flex-wrap: wrap; align-items: center; gap: 0; margin: 28px 0 0; }
@@ -325,7 +325,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 
 /* footer */
 .site-foot { border-top: 1px solid var(--line); margin-top: 40px; }
-.site-foot__inner { display: flex; justify-content: space-between; gap: 16px; padding: 26px 0; flex-wrap: wrap; font-size: 14px; color: var(--ink-mid); font-weight: 500; }
+.site-foot__inner { display: flex; justify-content: space-between; gap: 16px; padding: 26px 0; flex-wrap: wrap; font-size: 17px; color: var(--ink-mid); font-weight: 800; }
 
 /* responsive */
 
@@ -1273,7 +1273,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .hero__punch mark.hl { padding: 0 4px; }/* hero ritchie v2 + serif (update42) */
 .hero__copy { position: relative; z-index: 1; max-width: 100%; }
 .hero h1 { font-family: var(--display-serif); font-weight: 800; font-size: clamp(28px, 4.2vw, 54px); line-height: 1.28; letter-spacing: -0.005em; margin: 12px 0 16px; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
-.hero__sub { color: var(--ink); font-weight: 600; font-size: 18px; line-height: 1.62; max-width: 44ch; }
+.hero__sub { color: var(--ink); font-weight: 700; font-size: 18px; line-height: 1.62; max-width: 44ch; }
 .hero__invert { background: var(--mint-ink); color: var(--paper); padding: 0.05em 0.16em; border-radius: 8px; letter-spacing: 0.012em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .hero__punch-hl { background-image: linear-gradient(var(--mint-deep), var(--mint-deep)); background-repeat: no-repeat; background-position: left 88%; background-size: 100% 0.42em; padding: 0 2px; border-radius: 3px; color: var(--ink); font-weight: 800; }
 .tiles { position: relative; z-index: 1; }
@@ -1946,7 +1946,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .level-link.is-active { background: var(--mint-deep); color: var(--ink); }
 .level-link.is-active::before { transform: translateY(-50%) scaleY(1); }
 .level-link.is-active .level-link__n { opacity: .8; }
-.site-foot__inner .brand__word { font-family: var(--display); font-weight: 800; font-size: 15.5px; letter-spacing: -0.02em; color: var(--ink); }
+.site-foot__inner .brand__word { font-family: var(--display); font-weight: 800; font-size: 17px; letter-spacing: -0.02em; color: var(--ink); }
 .site-foot__inner .brand__word b { color: var(--mint-ink); }
 
 /* ============================================
@@ -2043,7 +2043,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 }
 .lv2-prose p { font-size: 17px; }
 .topic-card p.muted { font-size: 14.5px; }
-.hero__sub { font-size: clamp(15px, 1.3vw, 18px); line-height: 1.6; }
+.hero__sub { font-size: clamp(16px, 1.45vw, 20px); line-height: 1.6; }
 .lv2-summary { font-size: 16.5px; line-height: 1.55; color: var(--ink-mid); }
 
 /* sepia слит с зерном бумаги (update143) */ body { position: relative; }
@@ -2734,7 +2734,7 @@ main { flex: 1 0 auto; }
    ============================================================ */
 .hero h1, .lv2-title, .soon__title, .lv2-prose--drop p:first-child::first-letter { font-weight: 700; }
 
-.block-label { font-family: var(--mono); font-weight: 700; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+.block-label { font-family: var(--mono); font-weight: 800; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
 .quote-card__en { font-family: var(--mono); font-weight: 600; font-size: clamp(16px, 1.4vw, 20px); line-height: 1.5; }
 .quote-card__ru { font-family: 'Lora', Georgia, serif; font-weight: 500; }
 .quote-card__by { font-family: var(--mono); font-style: normal; font-size: 12.5px; }
@@ -3036,7 +3036,7 @@ main { flex: 1 0 auto; }
    (copy — flex, блок центрируется в свободной зоне) + CEFR-подпись
    ============================================================ */
 .hero__copy { display: flex; flex-direction: column; }
-.cfr-note { margin: 16px 0 10px; font-family: var(--mono); font-size: clamp(8px, calc(0.85vw - 0.5px), 10.5px); font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
+.cfr-note { margin: 16px 0 10px; font-family: var(--mono); font-size: clamp(8px, calc(0.85vw - 0.5px), 10.5px); font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
 .cfr-grp { white-space: nowrap; }
 .cfr-sep { margin: 0 6px; }
 /* Подпись уровней: одна строка в пределах длины зелёной линии.
