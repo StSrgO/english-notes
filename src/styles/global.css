@@ -70,7 +70,7 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.02; margin: 0; letter-s
 .brand b { color: var(--mint-ink); }
 .brand__word { white-space: nowrap; }
 .nav { display: flex; gap: 6px; }
-.nav a { padding: 8px 14px; border-radius: 999px; font-weight: 600; font-size: 15px; transition: background 0.2s, color 0.2s; }
+.nav a { padding: 8px 14px; border-radius: 999px; font-weight: 700; font-size: 15px; transition: background 0.2s, color 0.2s; }
 .nav a:hover { background: var(--mint); }
 .nav .is-soon { color: var(--ink-soft); }
 .nav-toggle { display: none; }
@@ -2741,7 +2741,7 @@ main { flex: 1 0 auto; }
 
 .levels .level-link { font-family: var(--mono); font-weight: 700; }
 
-.nav a { font-family: var(--mono); font-weight: 600; font-size: 14px; letter-spacing: .02em; }
+.nav a { font-family: var(--mono); font-weight: 700; font-size: 14px; letter-spacing: .02em; }
 .nav-toggle summary { font-family: var(--mono); font-weight: 700; }
 
 .style-switch__label { font-family: var(--mono); font-weight: 700; }
