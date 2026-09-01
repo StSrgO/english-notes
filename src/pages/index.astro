@@ -12,9 +12,13 @@ const sections = [
   { img: 'speaking',   title: 'Говорение',    href: '/grammar' },
 ];
 
-const now = new Date();
-const start = new Date(now.getFullYear(), 0, 0);
-const seed = Math.floor((now.getTime() - start.getTime()) / 86400000);
+// Номер дня в году (1-based) из календарных полей: не зависит от часового пояса
+// и перехода на летнее время (разница epoch-моментов «плывёт» на DST).
+const dayOfYear = (d) =>
+  Math.floor((Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()) - Date.UTC(d.getFullYear(), 0, 1)) / 86400000) + 1;
+// Статическая сборка: ниже — контент на дату сборки, фолбэк для пользователей без JS.
+// Реальная ротация по локальной дате посетителя — в скрипте внизу страницы.
+const seed = dayOfYear(new Date());
 
 const phrase = phrases[seed % phrases.length];
 
@@ -135,6 +139,7 @@ const picks = typeOrder.map((t, i) => {
       fit();
       window.addEventListener('resize', fit);
       window.addEventListener('pageshow', fit);
+      window.addEventListener('daily-updated', fit);
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
       if (window.ResizeObserver) new ResizeObserver(fit).observe(card);
     })();
@@ -179,6 +184,56 @@ const picks = typeOrder.map((t, i) => {
       window.addEventListener('resize', fit);
       window.addEventListener('pageshow', fit);
       if (document.fonts && document.fonts.ready) document.fonts.ready.then(fit);
+    })();
+
+    // «Фраза дня» и «подборка дня»: ротация по локальной дате посетителя.
+    // Статическая сборка замораживает контент на дату деплоя, поэтому выбор дня
+    // пересчитывается в браузере из компактных JSON-эндпоинтов /daily/*.json.
+    // Пока данные грузятся — виден контент из сборки (фолбэк).
+    (function () {
+      const TYPE_ORDER = ['podcast', 'video', 'book', 'series', 'song'];
+      const TYPE_LABEL = { podcast: 'Подкаст', video: 'Видео', book: 'Книга', series: 'Сериал', song: 'Разбор песни' };
+      const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+
+      const card = document.querySelector('.quote-card');
+      const picksWrap = document.querySelector('.picks');
+      if (!card || !picksWrap) return;
+
+      Promise.all([
+        fetch('/daily/phrases.json').then((r) => r.json()),
+        fetch('/daily/recs.json').then((r) => r.json()),
+      ])
+        .then(([phrases, recs]) => {
+          const now = new Date();
+          const seed = Math.floor((Date.UTC(now.getFullYear(), now.getMonth(), now.getDate()) - Date.UTC(now.getFullYear(), 0, 1)) / 86400000) + 1;
+
+          const [en, ru, author, source] = phrases[seed % phrases.length];
+          card.innerHTML =
+            '<blockquote class="quote-card__en">' + esc(en) + '</blockquote>' +
+            '<p class="quote-card__ru">' + esc(ru) + '</p>' +
+            (author ? '<figcaption class="quote-card__by">— ' + esc(author) + (source ? ', ' + esc(source) : '') + '</figcaption>' : '');
+
+          picksWrap.innerHTML = TYPE_ORDER.map((t, i) => {
+            const pool = recs.filter((x) => x[0] === t);
+            const [type, level, title, meta, href] = pool[(seed * 13 + i * 11) % pool.length];
+            return (
+              '<a href="' + esc(href) + '" target="_blank" rel="noopener noreferrer" class="pick">' +
+              '<span class="pick__cover pick__cover--' + type + '">' +
+              '<img src="/picks/' + type + '.png" alt="" class="pick__ico" loading="lazy" />' +
+              '</span>' +
+              '<span class="pick__body">' +
+              '<span class="pick__type">' + TYPE_LABEL[type] + ' · ' + level + '</span>' +
+              '<span class="pick__title">' + esc(title) + '</span>' +
+              '<span class="pick__meta">' + esc(meta) + '</span>' +
+              '</span>' +
+              '<span class="pick__go" aria-hidden="true">↗</span>' +
+              '</a>'
+            );
+          }).join('');
+
+          window.dispatchEvent(new Event('daily-updated'));
+        })
+        .catch(() => {}); // сбой загрузки JSON — остаётся контент из сборки
     })();
   </script>
 </Base>
