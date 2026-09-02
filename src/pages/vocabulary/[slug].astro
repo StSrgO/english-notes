@@ -1,6 +1,7 @@
 ---
 import Base from "../../layouts/Base.astro";
 import Quiz from "../../components/Quiz.astro";
+import quizBank from "../../data/quiz-bank.json";
 
 export async function getStaticPaths() {
   const files = import.meta.glob("../../data/vocabulary/*.json", { eager: true });
@@ -10,6 +11,13 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
+// Тренажёр неправильных глаголов: новая схема данных (§3.1) — группы с ipa/rank.
+// Для остальных тем словаря — прежний рендер (фолбэк).
+const isVerbTrainer =
+  topic.slug === "irregular-verbs" &&
+  Array.isArray(topic.groups) &&
+  topic.groups.some(g => g.words?.some(w => Array.isArray(w.ipa)));
+const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
 ---
 
 <Base title={`${topic.title} — Словарный запас — EnglishNotes`}>
@@ -18,78 +26,297 @@ const { topic } = Astro.props;
       <a href="/vocabulary">← Все темы</a>
     </nav>
 
-    <header class="vocabulary-topic__header">
-      <h1>{topic.title}</h1>
-      <p class="vocabulary-topic__sub">{topic.titleRu}</p>
-      <p class="vocabulary-topic__intro">{topic.intro}</p>
-    </header>
-
-    {topic.groups && topic.groups.length > 0 ? (
-      topic.groups.map((group) => (
-        <section class="vocabulary-group">
-          <h2 class="vocabulary-group__title">{group.groupName}</h2>
-          <p class="vocabulary-group__sub">{group.groupNameRu}</p>
-          <div class="vocabulary-group__words">
-            {group.words.map((word) => (
-              <div class="vocab-word">
-                <div class="vocab-word__main">
-                  <span class="vocab-word__en">
-                    {word.v1 ? `${word.v1} — ${word.v2} — ${word.v3}` : word.en}
-                  </span>
-                  {word.transcription && (
-                    <span class="vocab-word__ipa">{word.transcription}</span>
-                  )}
-                </div>
-                <span class="vocab-word__ru">{word.ru}</span>
+    {
+      isVerbTrainer ? (
+        <>
+          <header class="vocabulary-topic__header">
+            <p class="vocab-stats__eyebrow" id="verbs-count-label">
+              {totalVerbs} глаголов · {topic.groups.length} групп
+            </p>
+            <h1>{topic.title}</h1>
+            <p class="vocabulary-topic__sub">{topic.titleRu}</p>
+            <p class="vocabulary-topic__intro">{topic.intro}</p>
+            <div class="vocab-progress" role="group" aria-label="Прогресс изучения">
+              <div class="vocab-progress__bar" aria-hidden="true">
+                <span class="vocab-progress__fill" id="progress-fill"></span>
               </div>
+              <span class="vocab-progress__label" id="progress-label">Изучено 0 / {totalVerbs}</span>
+            </div>
+            <label class="vocab-search">
+              <span class="sr-only">Поиск по глаголам</span>
+              <input
+                id="verbs-search"
+                class="vocab-search__input"
+                type="search"
+                placeholder="Найти: go, went, идти…"
+                autocomplete="off"
+              />
+            </label>
+            <p class="vocab-search__hint" hidden id="search-empty">
+              Ничего не нашлось. Попробуй другую форму или перевод.
+            </p>
+          </header>
+
+          <nav class="vocab-chips" id="verbs-chips" aria-label="Группы глаголов">
+            {topic.groups.map((group, i) => (
+              <a class="vocab-chips__item" href={`#${group.id}`}>
+                <span class="vocab-chips__n">{String(i + 1).padStart(2, "0")}</span>
+                <span class="vocab-chips__name">{group.chip || group.groupName}</span>
+                <span class="vocab-chips__count">{group.words.length}</span>
+              </a>
             ))}
-          </div>
-        </section>
-      ))
-    ) : (
-      <section class="vocabulary-group">
-        <div class="vocabulary-group__words">
-          {topic.words && topic.words.map((word) => (
-            <div class="vocab-word">
-              <div class="vocab-word__main">
-                <span class="vocab-word__en">{word.en}</span>
-                {word.transcription && (
-                  <span class="vocab-word__ipa">{word.transcription}</span>
-                )}
+          </nav>
+
+          {topic.groups.map((group, gi) => (
+            <section class="vocab-group" id={group.id} data-group>
+              <header class="vocab-group__head">
+                <div class="vocab-group__titles">
+                  <h2 class="vocab-group__title">
+                    <span class="vocab-group__num">{String(gi + 1).padStart(2, "0")}</span>
+                    {group.groupName}
+                  </h2>
+                  <p class="vocab-group__sub">{group.groupNameRu}</p>
+                </div>
+                <span class="vocab-group__count">{group.words.length}</span>
+              </header>
+
+              <ul class="vocab-rows" role="list">
+                {group.words.map((word) => (
+                  <li
+                    class="vocab-row"
+                    data-v1={word.v1}
+                    data-search={[word.v1, word.v2, word.v3, word.ru].join(" ").toLowerCase()}
+                  >
+                    <label class="vocab-row__check">
+                      <input
+                        class="vocab-row__checkbox"
+                        type="checkbox"
+                        data-known
+                        aria-label={`Отметить ${word.v1} как выученный`}
+                      />
+                      <span class="vocab-row__checkmark" aria-hidden="true"></span>
+                    </label>
+
+                    <div class="vocab-row__forms">
+                      {[word.v1, word.v2, word.v3].map((form, fi) => (
+                        <div class="vocab-form" data-form>
+                          <span class="vocab-form__word">{form}</span>
+                          {word.ipa?.[fi] && (
+                            <span class="vocab-form__ipa">{word.ipa[fi]}</span>
+                          )}
+                        </div>
+                      ))}
+                    </div>
+
+                    <span class="vocab-row__ru">{word.ru}</span>
+
+                    <span class="vocab-row__rank" aria-label={`Ранг ${word.rank} по частотности`}>
+                      #{word.rank}
+                    </span>
+
+                    <button
+                      type="button"
+                      class="vocab-row__play"
+                      data-play={[word.v1, word.v2, word.v3].join("|")}
+                      aria-label={`Озвучить ${word.v1}, ${word.v2}, ${word.v3}`}
+                    >
+                      <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+                        <path
+                          d="M4 9.5v5a1 1 0 0 0 1 1h3l4.2 3.4a.6.6 0 0 0 1-.47V5.57a.6.6 0 0 0-1-.47L8 8.5H5a1 1 0 0 0-1 1Z"
+                          fill="currentColor"
+                        />
+                        <path
+                          d="M15.5 8.6a4.6 4.6 0 0 1 0 6.8M18 6.4a8 8 0 0 1 0 11.2"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="1.7"
+                          stroke-linecap="round"
+                        />
+                      </svg>
+                      <span class="sr-only">Озвучить</span>
+                    </button>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </>
+      ) : (
+        <>
+          <header class="vocabulary-topic__header">
+            <h1>{topic.title}</h1>
+            <p class="vocabulary-topic__sub">{topic.titleRu}</p>
+            <p class="vocabulary-topic__intro">{topic.intro}</p>
+          </header>
+
+          {topic.groups && topic.groups.length > 0 ? (
+            topic.groups.map((group) => (
+              <section class="vocabulary-group">
+                <h2 class="vocabulary-group__title">{group.groupName}</h2>
+                <p class="vocabulary-group__sub">{group.groupNameRu}</p>
+                <div class="vocabulary-group__words">
+                  {group.words.map((word) => (
+                    <div class="vocab-word">
+                      <div class="vocab-word__main">
+                        <span class="vocab-word__en">
+                          {word.v1 ? `${word.v1} — ${word.v2} — ${word.v3}` : word.en}
+                        </span>
+                        {word.transcription && (
+                          <span class="vocab-word__ipa">{word.transcription}</span>
+                        )}
+                      </div>
+                      <span class="vocab-word__ru">{word.ru}</span>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            ))
+          ) : (
+            <section class="vocabulary-group">
+              <div class="vocabulary-group__words">
+                {topic.words && topic.words.map((word) => (
+                  <div class="vocab-word">
+                    <div class="vocab-word__main">
+                      <span class="vocab-word__en">{word.en}</span>
+                      {word.transcription && (
+                        <span class="vocab-word__ipa">{word.transcription}</span>
+                      )}
+                    </div>
+                    <span class="vocab-word__ru">{word.ru}</span>
+                  </div>
+                ))}
               </div>
-              <span class="vocab-word__ru">{word.ru}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-    )}
+            </section>
+          )}
 
-    {topic.phrases && topic.phrases.length > 0 && (
-      <section class="vocabulary-phrases">
-        <h2>Примеры фраз</h2>
-        <div class="vocabulary-phrases__list">
-          {topic.phrases.map((phrase) => (
-            <div class="vocab-phrase">
-              <span class="vocab-phrase__en">{phrase.en}</span>
-              <span class="vocab-phrase__ru">{phrase.ru}</span>
-            </div>
-          ))}
-        </div>
-      </section>
-    )}
+          {topic.phrases && topic.phrases.length > 0 && (
+            <section class="vocabulary-phrases">
+              <h2>Примеры фраз</h2>
+              <div class="vocabulary-phrases__list">
+                {topic.phrases.map((phrase) => (
+                  <div class="vocab-phrase">
+                    <span class="vocab-phrase__en">{phrase.en}</span>
+                    <span class="vocab-phrase__ru">{phrase.ru}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          )}
 
-    {topic.quiz && topic.quiz.length > 0 && (
-      <section class="vocabulary-quiz">
-        <h2>Проверь себя</h2>
-        <Quiz quizData={topic.quiz} />
-      </section>
-    )}
+          {topic.quiz && topic.quiz.length > 0 && (
+            <section class="vocabulary-quiz">
+              <h2>Проверь себя</h2>
+              <Quiz questions={topic.quiz} ui={quizBank.__ui} />
+            </section>
+          )}
+        </>
+      )
+    }
   </div>
 </Base>
 
+{
+  isVerbTrainer && (
+    <script>
+      // ---------- Прогресс «знаю» (localStorage englishnotes.vocab.v1) ----------
+      const STORE_KEY = "englishnotes.vocab.v1";
+      const readKnown = () => {
+        try { const s = localStorage.getItem(STORE_KEY); return s ? new Set(JSON.parse(s)) : new Set(); }
+        catch { return new Set(); }
+      };
+      let known = readKnown();
+      const rows = Array.from(document.querySelectorAll("[data-v1]"));
+      const fill = document.getElementById("progress-fill");
+      const label = document.getElementById("progress-label");
+      const total = rows.length;
+      const paint = () => {
+        let done = 0;
+        rows.forEach((row) => {
+          const on = known.has(row.dataset.v1);
+          row.classList.toggle("is-known", on);
+          const cb = row.querySelector("[data-known]");
+          if (cb) cb.checked = on;
+          if (on) done++;
+        });
+        if (fill) fill.style.width = total ? `${Math.round((done / total) * 100)}%` : "0%";
+        if (label) label.textContent = `Изучено ${done} / ${total}`;
+      };
+      const save = () => {
+        try { localStorage.setItem(STORE_KEY, JSON.stringify([...known])); } catch {}
+        paint();
+      };
+      document.addEventListener("change", (e) => {
+        const cb = e.target.closest("[data-known]");
+        if (!cb) return;
+        const row = cb.closest("[data-v1]");
+        if (!row) return;
+        const v1 = row.dataset.v1;
+        if (cb.checked) known.add(v1); else known.delete(v1);
+        save();
+      });
+      paint();
+
+      // ---------- Поиск по v1/v2/v3/ru ----------
+      const search = document.getElementById("verbs-search");
+      const empty = document.getElementById("search-empty");
+      const groups = Array.from(document.querySelectorAll("[data-group]"));
+      if (search) {
+        search.addEventListener("input", () => {
+          const q = search.value.trim().toLowerCase();
+          let visible = 0;
+          rows.forEach((row) => {
+            const hit = !q || row.dataset.search.includes(q);
+            row.hidden = !hit;
+            if (hit) visible++;
+          });
+          groups.forEach((g) => {
+            const any = Array.from(g.querySelectorAll("[data-v1]")).some((r) => !r.hidden);
+            g.hidden = !any;
+          });
+          if (empty) empty.hidden = !(q && visible === 0);
+          // сброс подсветки «знаю» не нужен: hidden-строки не считаем
+          paint();
+        });
+      }
+
+      // ---------- Аудио: speechSynthesis трёх форм (en-GB, фолбэк en-US) ----------
+      const pickVoice = (voices) =>
+        voices.find((v) => /^en-GB/i.test(v.lang)) ||
+        voices.find((v) => /^en[-_]US/i.test(v.lang)) ||
+        voices.find((v) => /^en/i.test(v.lang)) ||
+        null;
+      let voice = null;
+      const setVoice = () => {
+        const vs = window.speechSynthesis ? speechSynthesis.getVoices() : [];
+        voice = pickVoice(vs);
+      };
+      if (window.speechSynthesis) {
+        setVoice();
+        speechSynthesis.onvoiceschanged = setVoice;
+      }
+      const speakRow = (forms) => {
+        if (!window.speechSynthesis) return;
+        speechSynthesis.cancel();
+        forms.split("|").forEach((form, i) => {
+          const u = new SpeechSynthesisUtterance(form);
+          if (voice) u.voice = voice;
+          u.lang = voice ? voice.lang : "en-GB";
+          u.rate = 0.92;
+          setTimeout(() => speechSynthesis.speak(u), i * 750);
+        });
+      };
+      document.addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-play]");
+        if (btn) speakRow(btn.dataset.play);
+      });
+    </script>
+  )
+}
+
 <style>
+  /* ---------- общее (обе схемы) ---------- */
   .vocabulary-topic {
-    max-width: 820px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 32px 28px 60px;
   }
@@ -98,42 +325,337 @@ const { topic } = Astro.props;
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
-    margin-bottom: 32px;
+    margin-bottom: 28px;
   }
   .vocabulary-topic__breadcrumb a {
     color: var(--ink-soft);
     text-decoration: none;
     transition: color 0.15s;
   }
-  .vocabulary-topic__breadcrumb a:hover {
-    color: var(--mint-ink);
-  }
-  .vocabulary-topic__header {
-    margin-bottom: 44px;
-  }
+  .vocabulary-topic__breadcrumb a:hover { color: var(--mint-ink); }
+  .vocabulary-topic__header { margin-bottom: 32px; }
   .vocabulary-topic__header h1 {
     font-family: "Onest", system-ui, sans-serif;
     font-size: 38px;
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: -0.02em;
     color: var(--ink);
-    margin-bottom: 4px;
+    margin: 2px 0 4px;
   }
   .vocabulary-topic__sub {
     font-family: "Lora", serif;
     font-size: 18px;
     color: var(--ink-mid);
-    margin-bottom: 16px;
+    margin-bottom: 12px;
   }
   .vocabulary-topic__intro {
-    font-family: "Lora", serif;
-    font-size: 16px;
-    line-height: 1.7;
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.65;
+    color: var(--ink-soft);
+    max-width: 60ch;
+  }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+
+  /* ---------- тренажёр: шапка, прогресс, поиск ---------- */
+  .vocab-stats__eyebrow {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--mint-ink);
+    margin: 0 0 6px;
+  }
+  .vocab-progress {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 16px 0 14px;
+  }
+  .vocab-progress__bar {
+    flex: 0 1 260px;
+    height: 6px;
+    border-radius: 99px;
+    background: var(--mint);
+    overflow: hidden;
+  }
+  .vocab-progress__fill {
+    display: block;
+    height: 100%;
+    width: 0%;
+    border-radius: 99px;
+    background: var(--mint-ink);
+    transition: width 0.25s ease;
+  }
+  .vocab-progress__label {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ink-mid);
+    white-space: nowrap;
+  }
+  .vocab-search { display: block; max-width: 420px; }
+  .vocab-search__input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 14px;
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 15px;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1.5px solid var(--line);
+    border-radius: 10px;
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+  .vocab-search__input::placeholder { color: var(--ink-soft); opacity: 0.75; }
+  .vocab-search__input:focus-visible {
+    outline: none;
+    border-color: var(--mint-deep);
+    box-shadow: 0 0 0 3px var(--mint);
+  }
+  .vocab-search__hint {
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 14px;
+    color: var(--ink-soft);
+    margin: 10px 0 0;
+  }
+
+  /* ---------- тренажёр: sticky-чипы групп ---------- */
+  .vocab-chips {
+    position: sticky;
+    top: calc(var(--head-h, 64px) + 8px);
+    z-index: 25;
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    margin: 0 0 34px;
+    padding: 8px 2px;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    scrollbar-width: none;
+  }
+  .vocab-chips::-webkit-scrollbar { display: none; }
+  .vocab-chips__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    flex: 0 0 auto;
+    padding: 6px 10px;
+    border-radius: 99px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    color: var(--ink-mid);
+    text-decoration: none;
+    transition: border-color 0.15s, background 0.15s, color 0.15s;
+  }
+  .vocab-chips__item:hover {
+    border-color: var(--mint-deep);
+    color: var(--ink);
+  }
+  .vocab-chips__item:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--mint);
+  }
+  .vocab-chips__n {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--mint-ink);
+  }
+  .vocab-chips__name { font-family: "Manrope", system-ui, sans-serif; font-size: 13px; font-weight: 700; }
+  .vocab-chips__count {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--ink-soft);
+    background: var(--mint);
+    border-radius: 99px;
+    padding: 1px 6px;
+  }
+
+  /* ---------- тренажёр: группы ---------- */
+  .vocab-group {
+    scroll-margin-top: calc(var(--head-h, 64px) + 60px);
+    margin-bottom: 38px;
+  }
+  .vocab-group__head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+  }
+  .vocab-group__title {
+    font-family: "Onest", system-ui, sans-serif;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 2px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .vocab-group__num {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--mint-ink);
+  }
+  .vocab-group__sub {
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 13px;
+    color: var(--ink-soft);
+    margin: 0;
+  }
+  .vocab-group__count {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--mint-ink);
+    background: var(--mint);
+    border-radius: 99px;
+    padding: 3px 9px;
+    white-space: nowrap;
+  }
+  .vocab-rows {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  /* ---------- тренажёр: строка-карточка ---------- */
+  .vocab-row {
+    display: grid;
+    grid-template-columns: 28px minmax(0, 1fr) auto auto auto;
+    grid-template-areas: "check forms ru rank play";
+    align-items: center;
+    gap: 10px 16px;
+    padding: 8px 14px 8px 10px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    transition: border-color 0.15s, background 0.15s;
+  }
+  .vocab-row:hover { border-color: var(--mint-deep); }
+  .vocab-row:has(.vocab-row__checkbox:focus-visible) {
+    box-shadow: 0 0 0 3px var(--mint);
+  }
+  .vocab-row.is-known { background: var(--mint); border-color: var(--mint-deep); }
+  .vocab-row[hidden] { display: none; }
+
+  .vocab-row__check { grid-area: check; position: relative; display: inline-flex; width: 22px; height: 22px; }
+  .vocab-row__checkbox {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    margin: 0;
+    cursor: pointer;
+  }
+  .vocab-row__checkmark {
+    width: 20px;
+    height: 20px;
+    border-radius: 6px;
+    border: 1.5px solid var(--line);
+    background: var(--paper);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.15s, background 0.15s;
+    color: #fff;
+  }
+  .vocab-row__checkmark::after {
+    content: "✓";
+    font-size: 13px;
+    font-weight: 800;
+    opacity: 0;
+    transform: scale(0.6);
+    transition: opacity 0.12s, transform 0.12s;
+  }
+  .vocab-row__checkbox:checked + .vocab-row__checkmark {
+    background: var(--mint-ink);
+    border-color: var(--mint-ink);
+  }
+  .vocab-row__checkbox:checked + .vocab-row__checkmark::after { opacity: 1; transform: scale(1); }
+
+  .vocab-row__forms {
+    grid-area: forms;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 10px 14px;
+    min-width: 0;
+  }
+  .vocab-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    min-width: 0;
+  }
+  .vocab-form__word {
+    font-family: "Onest", system-ui, sans-serif;
+    font-size: 16.5px;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+  .vocab-row.is-known .vocab-form__word { color: var(--ink-mid); }
+  .vocab-form__ipa {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    font-weight: 500;
     color: var(--ink-soft);
   }
-  .vocabulary-group {
-    margin-bottom: 40px;
+  .vocab-row.is-known .vocab-form__ipa { opacity: 0.8; }
+
+  .vocab-row__ru {
+    grid-area: ru;
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 14px;
+    color: var(--ink-mid);
+    text-align: right;
+    max-width: 200px;
   }
+  .vocab-row.is-known .vocab-row__ru { color: var(--ink-soft); }
+
+  .vocab-row__rank {
+    grid-area: rank;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--ink-soft);
+    white-space: nowrap;
+  }
+  .vocab-row__play {
+    grid-area: play;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink-mid);
+    cursor: pointer;
+    transition: border-color 0.15s, background 0.15s, color 0.15s;
+  }
+  .vocab-row__play:hover { background: var(--mint); border-color: var(--mint-deep); color: var(--ink); }
+  .vocab-row__play:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--mint);
+  }
+  .vocab-row.is-known .vocab-row__play { background: transparent; }
+
+  /* ---------- фолбэк (старая схема) ---------- */
+  .vocabulary-group { margin-bottom: 40px; }
   .vocabulary-group__title {
     font-family: "Onest", system-ui, sans-serif;
     font-size: 22px;
@@ -147,11 +669,7 @@ const { topic } = Astro.props;
     color: var(--ink-soft);
     margin-bottom: 16px;
   }
-  .vocabulary-group__words {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-  }
+  .vocabulary-group__words { display: flex; flex-direction: column; gap: 4px; }
   .vocab-word {
     display: flex;
     justify-content: space-between;
@@ -162,15 +680,8 @@ const { topic } = Astro.props;
     border: 1px solid var(--line);
     transition: background 0.15s;
   }
-  .vocab-word:hover {
-    background: var(--mint);
-    border-color: var(--mint-deep);
-  }
-  .vocab-word__main {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
+  .vocab-word:hover { background: var(--mint); border-color: var(--mint-deep); }
+  .vocab-word__main { display: flex; align-items: center; gap: 12px; }
   .vocab-word__en {
     font-family: "Manrope", system-ui, sans-serif;
     font-size: 16px;
@@ -187,11 +698,7 @@ const { topic } = Astro.props;
     font-size: 15px;
     color: var(--ink-mid);
   }
-  .vocabulary-phrases {
-    margin-top: 48px;
-    padding-top: 32px;
-    border-top: 1.5px solid var(--line);
-  }
+  .vocabulary-phrases { margin-top: 48px; padding-top: 32px; border-top: 1.5px solid var(--line); }
   .vocabulary-phrases h2 {
     font-family: "Onest", system-ui, sans-serif;
     font-size: 24px;
@@ -199,11 +706,7 @@ const { topic } = Astro.props;
     color: var(--ink);
     margin-bottom: 16px;
   }
-  .vocabulary-phrases__list {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
+  .vocabulary-phrases__list { display: flex; flex-direction: column; gap: 12px; }
   .vocab-phrase {
     display: flex;
     flex-direction: column;
@@ -213,21 +716,13 @@ const { topic } = Astro.props;
     border-radius: 10px;
     border: 1px solid var(--line);
   }
-  .vocab-phrase__en {
-    font-family: "Lora", serif;
-    font-size: 17px;
-    color: var(--ink);
-  }
+  .vocab-phrase__en { font-family: "Lora", serif; font-size: 17px; color: var(--ink); }
   .vocab-phrase__ru {
     font-family: "Manrope", system-ui, sans-serif;
     font-size: 14px;
     color: var(--ink-soft);
   }
-  .vocabulary-quiz {
-    margin-top: 48px;
-    padding-top: 32px;
-    border-top: 1.5px solid var(--line);
-  }
+  .vocabulary-quiz { margin-top: 48px; padding-top: 32px; border-top: 1.5px solid var(--line); }
   .vocabulary-quiz h2 {
     font-family: "Onest", system-ui, sans-serif;
     font-size: 24px;
@@ -235,20 +730,32 @@ const { topic } = Astro.props;
     color: var(--ink);
     margin-bottom: 20px;
   }
-  @media (max-width: 600px) {
-    .vocabulary-topic {
-      padding: 20px 16px 40px;
+
+  /* ---------- мобильная ---------- */
+  @media (max-width: 640px) {
+    .vocabulary-topic { padding: 20px 14px 44px; }
+    .vocabulary-topic__header h1 { font-size: 29px; }
+    .vocab-progress__bar { flex-basis: 160px; }
+    .vocab-row {
+      grid-template-columns: 26px minmax(0, 1fr) auto;
+      grid-template-areas:
+        "check forms rank"
+        "check ru play";
+      gap: 6px 12px;
+      align-items: center;
+      padding: 10px 12px 10px 8px;
     }
-    .vocabulary-topic__header h1 {
-      font-size: 28px;
-    }
-    .vocab-word {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 2px;
-    }
-    .vocab-word__ru {
-      font-size: 14px;
-    }
+    .vocab-row__forms { gap: 8px 10px; }
+    .vocab-form__word { font-size: 15px; }
+    .vocab-form__ipa { font-size: 10px; }
+    .vocab-row__ru { text-align: left; max-width: none; font-size: 13.5px; }
+    .vocab-row__rank { justify-self: end; }
+    .vocab-row__play { width: 30px; height: 30px; }
+    .vocab-group__head { align-items: flex-start; }
+    .vocab-chips { top: calc(var(--head-h, 64px) + 2px); margin-bottom: 24px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .vocab-progress__fill { transition: none; }
+    .vocab-row__checkmark::after { transition: none; }
   }
 </style>
