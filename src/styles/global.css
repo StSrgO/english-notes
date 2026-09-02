@@ -5468,3 +5468,62 @@ body:has(.soon) {
     align-self: center;
   }
 }
+
+/* ============================================================
+   update220 — фраза дня и подборка дня: БЕЗ КАРТОЧЕК
+   Блоки живут прямо на фоне страницы (--paper): без подложек,
+   рамок и теней. «Фраза дня» отделена сверху тонкой линией,
+   строки подборки разделены точечными линиями-разделителями.
+   ============================================================ */
+.quote-card {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 18px 0 20px;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+}
+.quote-card:hover {
+  transform: none;
+  box-shadow: none;
+}
+.quote-card__en {
+  font-size: clamp(19px, 1.55vw, 23px);
+}
+.picks {
+  gap: 0;
+  /* мягкая внутренняя рамка для дымки на hover (без выхода за границы) */
+  padding: 10px 4px;
+  margin: 0;
+  border-radius: 18px;
+  transition: background 0.25s ease;
+}
+.picks:hover {
+  background: rgba(255, 255, 255, 0.66);
+  -webkit-backdrop-filter: blur(9px);
+  backdrop-filter: blur(9px);
+}
+.pick {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  box-shadow: none;
+  padding: 10px 4px;
+  transition: none;
+}
+.pick:last-child {
+  border-bottom: none;
+}
+.pick:hover {
+  transform: none;
+  box-shadow: none;
+  background: transparent;
+}
+.pick__cover {
+  background: transparent;
+  box-shadow: none;
+}
+.pick__type {
+  color: var(--mint-ink);
+}
