@@ -71,7 +71,7 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.02; margin: 0; letter-s
 .brand__word { white-space: nowrap; }
 .nav { display: flex; gap: 6px; }
 .nav a { padding: 8px 14px; border-radius: 999px; font-weight: 700; font-size: 15px; transition: background 0.2s, color 0.2s; }
-.nav a:hover { background: var(--mint); }
+.nav a:hover { background: var(--mint-ink); color: var(--paper); }
 .nav .is-soon { color: var(--ink-soft); }
 .nav-toggle { display: none; }
 .nav-toggle summary { list-style: none; cursor: pointer; font-weight: 700; padding: 8px 14px; border: 1px solid var(--line); border-radius: 999px; }
@@ -1635,11 +1635,10 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .hero__punch { white-space: normal; }
 }/* hero face-of-site polish (update53) */
 .hero__grid { align-items: stretch; }
-/* Манифест растянут по ширине (justify), но последняя строка — по левому краю,
-   как и отдельный абзац «Hey! Ho! Let's go!» (.hero__sub-en) */
+/* Манифест растянут по ширине (justify), последняя строка — по левому краю */
 .hero__sub { text-align: justify; text-align-last: left; }
-/* «Hey! Ho! Let's go!» — своей строкой, не растягивается justify-выравниванием */
-.hero__sub-en { display: block; width: fit-content; font-family: 'Lora', Georgia, serif; font-weight: 700; color: var(--ink); font-size: clamp(16px, 1.45vw, 20px); line-height: 1.6; margin: 10px 0 0; }
+/* «Hey! Ho! Let's go!» — «подпись»: своя строка, прижата к правому краю */
+.hero__sub-en { display: block; width: fit-content; margin: 10px 0 0 auto; font-family: 'Lora', Georgia, serif; font-weight: 700; color: var(--ink); font-size: clamp(16px, 1.45vw, 20px); line-height: 1.6; }
 .hero__punch { display: flex; justify-content: space-between; align-items: baseline; white-space: normal; gap: 12px; font-size: clamp(14px, 1.5vw, 18px); }
 .hero__punch .sep { margin: 0; }/* punchline single line (update54) */
 .hero__punch { flex-wrap: wrap; font-size: clamp(13px, 1.4vw, 17px); }
