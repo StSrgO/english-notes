@@ -1,87 +1,2490 @@
 ﻿{
-  "slug": "irregular-verbs",
-  "title": "Irregular Verbs",
-  "titleRu": "Неправильные глаголы",
-  "icon": "⚡",
-  "intro": "Самые частотные неправильные глаголы, которые нужно знать наизусть. Никаких таблиц на 300 слов — только топ-50 для реальной жизни. Группировка по типам поможет запомнить быстрее.",
-  "words": [],
-  "groups": [
+ "slug": "irregular-verbs",
+ "title": "Irregular Verbs",
+ "titleRu": "Неправильные глаголы",
+ "icon": "⚡",
+ "intro": "200 самых частотных неправильных глаголов английского языка: все три формы, транскрипция и перевод. Группы по типу образования форм помогают запомнить их быстрее.",
+ "total": 200,
+ "groups": [
+  {
+   "id": "aaa-identical",
+   "groupName": "All three forms are the same",
+   "groupNameRu": "Все три формы одинаковые",
+   "chip": "same forms",
+   "words": [
     {
-      "groupName": "All three forms are the same",
-      "groupNameRu": "Все три формы одинаковые",
-      "words": [
-        { "v1": "cut", "v2": "cut", "v3": "cut", "ru": "резать" },
-        { "v1": "put", "v2": "put", "v3": "put", "ru": "класть" },
-        { "v1": "set", "v2": "set", "v3": "set", "ru": "устанавливать" },
-        { "v1": "hit", "v2": "hit", "v3": "hit", "ru": "ударять" },
-        { "v1": "hurt", "v2": "hurt", "v3": "hurt", "ru": "ранить" },
-        { "v1": "let", "v2": "let", "v3": "let", "ru": "позволять" },
-        { "v1": "read", "v2": "read", "v3": "read", "ru": "читать" }
-      ]
+     "v1": "put",
+     "v2": "put",
+     "v3": "put",
+     "rank": 16,
+     "ipa": [
+      "pʌt",
+      "pʌt",
+      "pʌt"
+     ],
+     "ru": "класть"
     },
     {
-      "groupName": "V2 and V3 are the same",
-      "groupNameRu": "Вторая и третья форма совпадают",
-      "words": [
-        { "v1": "buy", "v2": "bought", "v3": "bought", "ru": "покупать" },
-        { "v1": "think", "v2": "thought", "v3": "thought", "ru": "думать" },
-        { "v1": "bring", "v2": "brought", "v3": "brought", "ru": "приносить" },
-        { "v1": "fight", "v2": "fought", "v3": "fought", "ru": "бороться" },
-        { "v1": "seek", "v2": "sought", "v3": "sought", "ru": "искать" },
-        { "v1": "teach", "v2": "taught", "v3": "taught", "ru": "учить" },
-        { "v1": "catch", "v2": "caught", "v3": "caught", "ru": "ловить" },
-        { "v1": "feel", "v2": "felt", "v3": "felt", "ru": "чувствовать" },
-        { "v1": "keep", "v2": "kept", "v3": "kept", "ru": "держать" },
-        { "v1": "sleep", "v2": "slept", "v3": "slept", "ru": "спать" },
-        { "v1": "leave", "v2": "left", "v3": "left", "ru": "покидать" },
-        { "v1": "lend", "v2": "lent", "v3": "lent", "ru": "одалживать" },
-        { "v1": "spend", "v2": "spent", "v3": "spent", "ru": "тратить" },
-        { "v1": "build", "v2": "built", "v3": "built", "ru": "строить" },
-        { "v1": "lose", "v2": "lost", "v3": "lost", "ru": "терять" },
-        { "v1": "get", "v2": "got", "v3": "got", "ru": "получать" },
-        { "v1": "forget", "v2": "forgot", "v3": "forgotten", "ru": "забывать" }
-      ]
+     "v1": "set",
+     "v2": "set",
+     "v3": "set",
+     "rank": 28,
+     "ipa": [
+      "sɛt",
+      "sɛt",
+      "sɛt"
+     ],
+     "ru": "ставить; устанавливать"
     },
     {
-      "groupName": "All three forms are different",
-      "groupNameRu": "Все три формы разные",
-      "words": [
-        { "v1": "be", "v2": "was/were", "v3": "been", "ru": "быть" },
-        { "v1": "go", "v2": "went", "v3": "gone", "ru": "идти" },
-        { "v1": "do", "v2": "did", "v3": "done", "ru": "делать" },
-        { "v1": "see", "v2": "saw", "v3": "seen", "ru": "видеть" },
-        { "v1": "take", "v2": "took", "v3": "taken", "ru": "брать" },
-        { "v1": "give", "v2": "gave", "v3": "given", "ru": "давать" },
-        { "v1": "write", "v2": "wrote", "v3": "written", "ru": "писать" },
-        { "v1": "drive", "v2": "drove", "v3": "driven", "ru": "водить" },
-        { "v1": "ride", "v2": "rode", "v3": "ridden", "ru": "ездить" },
-        { "v1": "speak", "v2": "spoke", "v3": "spoken", "ru": "говорить" },
-        { "v1": "break", "v2": "broke", "v3": "broken", "ru": "ломать" },
-        { "v1": "choose", "v2": "chose", "v3": "chosen", "ru": "выбирать" },
-        { "v1": "forget", "v2": "forgot", "v3": "forgotten", "ru": "забывать" },
-        { "v1": "sing", "v2": "sang", "v3": "sung", "ru": "петь" },
-        { "v1": "swim", "v2": "swam", "v3": "swum", "ru": "плавать" },
-        { "v1": "ring", "v2": "rang", "v3": "rung", "ru": "звонить" },
-        { "v1": "begin", "v2": "began", "v3": "begun", "ru": "начинать" },
-        { "v1": "drink", "v2": "drank", "v3": "drunk", "ru": "пить" },
-        { "v1": "eat", "v2": "ate", "v3": "eaten", "ru": "есть" },
-        { "v1": "fall", "v2": "fell", "v3": "fallen", "ru": "падать" },
-        { "v1": "fly", "v2": "flew", "v3": "flown", "ru": "летать" },
-        { "v1": "grow", "v2": "grew", "v3": "grown", "ru": "расти" },
-        { "v1": "know", "v2": "knew", "v3": "known", "ru": "знать" },
-        { "v1": "show", "v2": "showed", "v3": "shown", "ru": "показывать" },
-        { "v1": "throw", "v2": "threw", "v3": "thrown", "ru": "бросать" }
-      ]
+     "v1": "let",
+     "v2": "let",
+     "v3": "let",
+     "rank": 35,
+     "ipa": [
+      "lɛt",
+      "lɛt",
+      "lɛt"
+     ],
+     "ru": "позволять"
+    },
+    {
+     "v1": "read",
+     "v2": "read",
+     "v3": "read",
+     "rank": 36,
+     "ipa": [
+      "riːd",
+      "rɛd",
+      "rɛd"
+     ],
+     "ru": "читать"
+    },
+    {
+     "v1": "cut",
+     "v2": "cut",
+     "v3": "cut",
+     "rank": 51,
+     "ipa": [
+      "kʌt",
+      "kʌt",
+      "kʌt"
+     ],
+     "ru": "резать"
+    },
+    {
+     "v1": "cost",
+     "v2": "cost",
+     "v3": "cost",
+     "rank": 68,
+     "ipa": [
+      "kɒst/kɑst",
+      "kɒst/kɑst",
+      "kɒst/kɑst"
+     ],
+     "ru": "стоить"
+    },
+    {
+     "v1": "hit",
+     "v2": "hit",
+     "v3": "hit",
+     "rank": 69,
+     "ipa": [
+      "hɪt",
+      "hɪt",
+      "hɪt"
+     ],
+     "ru": "ударять"
+    },
+    {
+     "v1": "fit",
+     "v2": "fit",
+     "v3": "fit",
+     "rank": 70,
+     "ipa": [
+      "fɪt",
+      "fɪt",
+      "fɪt"
+     ],
+     "ru": "подходить; годиться"
+    },
+    {
+     "v1": "spread",
+     "v2": "spread",
+     "v3": "spread",
+     "rank": 84,
+     "ipa": [
+      "sprɛd",
+      "sprɛd",
+      "sprɛd"
+     ],
+     "ru": "распространять(ся)"
+    },
+    {
+     "v1": "shut",
+     "v2": "shut",
+     "v3": "shut",
+     "rank": 87,
+     "ipa": [
+      "ʃʌt",
+      "ʃʌt",
+      "ʃʌt"
+     ],
+     "ru": "закрывать"
+    },
+    {
+     "v1": "hurt",
+     "v2": "hurt",
+     "v3": "hurt",
+     "rank": 91,
+     "ipa": [
+      "hɜːt",
+      "hɜːt",
+      "hɜːt"
+     ],
+     "ru": "ранить; причинять боль"
+    },
+    {
+     "v1": "cast",
+     "v2": "cast",
+     "v3": "cast",
+     "rank": 97,
+     "ipa": [
+      "kɑːst/kæst",
+      "kɑːst/kæst",
+      "kɑːst/kæst"
+     ],
+     "ru": "бросать; кидать"
+    },
+    {
+     "v1": "split",
+     "v2": "split",
+     "v3": "split",
+     "rank": 104,
+     "ipa": [
+      "splɪt",
+      "splɪt",
+      "splɪt"
+     ],
+     "ru": "расщеплять; разделять"
+    },
+    {
+     "v1": "upset",
+     "v2": "upset",
+     "v3": "upset",
+     "rank": 110,
+     "ipa": [
+      "ʌpˈsɛt",
+      "ʌpˈsɛt",
+      "ʌpˈsɛt"
+     ],
+     "ru": "расстраивать"
+    },
+    {
+     "v1": "rid",
+     "v2": "rid",
+     "v3": "rid",
+     "rank": 112,
+     "ipa": [
+      "rɪd",
+      "rɪd",
+      "rɪd"
+     ],
+     "ru": "избавлять"
+    },
+    {
+     "v1": "burst",
+     "v2": "burst",
+     "v3": "burst",
+     "rank": 114,
+     "ipa": [
+      "bɜːst",
+      "bɜːst",
+      "bɜːst"
+     ],
+     "ru": "лопаться; взрываться"
+    },
+    {
+     "v1": "bet",
+     "v2": "bet",
+     "v3": "bet",
+     "rank": 118,
+     "ipa": [
+      "bɛt",
+      "bɛt",
+      "bɛt"
+     ],
+     "ru": "держать пари"
+    },
+    {
+     "v1": "knit",
+     "v2": "knit",
+     "v3": "knit",
+     "rank": 121,
+     "ipa": [
+      "nɪt",
+      "nɪt",
+      "nɪt"
+     ],
+     "ru": "вязать"
+    },
+    {
+     "v1": "bid",
+     "v2": "bid",
+     "v3": "bid",
+     "rank": 129,
+     "ipa": [
+      "bɪd",
+      "bɪd",
+      "bɪd"
+     ],
+     "ru": "предлагать цену"
+    },
+    {
+     "v1": "thrust",
+     "v2": "thrust",
+     "v3": "thrust",
+     "rank": 135,
+     "ipa": [
+      "θrʌst",
+      "θrʌst",
+      "θrʌst"
+     ],
+     "ru": "толкать; вонзать"
+    },
+    {
+     "v1": "shed",
+     "v2": "shed",
+     "v3": "shed",
+     "rank": 136,
+     "ipa": [
+      "ʃɛd",
+      "ʃɛd",
+      "ʃɛd"
+     ],
+     "ru": "проливать; сбрасывать"
+    },
+    {
+     "v1": "forecast",
+     "v2": "forecast",
+     "v3": "forecast",
+     "rank": 145,
+     "ipa": [
+      "ˈfɔːkɑːst/ˈfɔːrkæst",
+      "ˈfɔːkɑːst/ˈfɔːrkæst",
+      "ˈfɔːkɑːst/ˈfɔːrkæst"
+     ],
+     "ru": "прогнозировать"
+    },
+    {
+     "v1": "quit",
+     "v2": "quit",
+     "v3": "quit",
+     "rank": 148,
+     "ipa": [
+      "kwɪt",
+      "kwɪt",
+      "kwɪt"
+     ],
+     "ru": "бросать; уходить"
+    },
+    {
+     "v1": "broadcast",
+     "v2": "broadcast",
+     "v3": "broadcast",
+     "rank": 149,
+     "ipa": [
+      "ˈbrɔːdkɑːst/ˈbrɔːdkæst",
+      "ˈbrɔːdkɑːst/ˈbrɔːdkæst",
+      "ˈbrɔːdkɑːst/ˈbrɔːdkæst"
+     ],
+     "ru": "передавать в эфир"
+    },
+    {
+     "v1": "offset",
+     "v2": "offset",
+     "v3": "offset",
+     "rank": 153,
+     "ipa": [
+      "ɒfˈsɛt/ɔːfˈsɛt",
+      "ɒfˈsɛt/ɔːfˈsɛt",
+      "ɒfˈsɛt/ɔːfˈsɛt"
+     ],
+     "ru": "компенсировать"
+    },
+    {
+     "v1": "spit",
+     "v2": "spit",
+     "v3": "spit",
+     "rank": 154,
+     "ipa": [
+      "spɪt",
+      "spɪt",
+      "spɪt"
+     ],
+     "ru": "плевать"
+    },
+    {
+     "v1": "wet",
+     "v2": "wet",
+     "v3": "wet",
+     "rank": 160,
+     "ipa": [
+      "wɛt",
+      "wɛt",
+      "wɛt"
+     ],
+     "ru": "мочить; смачивать"
+    },
+    {
+     "v1": "input",
+     "v2": "input",
+     "v3": "input",
+     "rank": 174,
+     "ipa": [
+      "ɪnˈpʊt",
+      "ɪnˈpʊt",
+      "ɪnˈpʊt"
+     ],
+     "ru": "вводить (данные)"
+    },
+    {
+     "v1": "wed",
+     "v2": "wed",
+     "v3": "wed",
+     "rank": 175,
+     "ipa": [
+      "wɛd",
+      "wɛd",
+      "wɛd"
+     ],
+     "ru": "вступать в брак"
+    },
+    {
+     "v1": "output",
+     "v2": "output",
+     "v3": "output",
+     "rank": 190,
+     "ipa": [
+      "aʊtˈpʊt",
+      "aʊtˈpʊt",
+      "aʊtˈpʊt"
+     ],
+     "ru": "выводить (данные)"
+    },
+    {
+     "v1": "beset",
+     "v2": "beset",
+     "v3": "beset",
+     "rank": 192,
+     "ipa": [
+      "bɪˈsɛt/bəˈsɛt",
+      "bɪˈsɛt/bəˈsɛt",
+      "bɪˈsɛt/bəˈsɛt"
+     ],
+     "ru": "осаждать; окружать"
+    },
+    {
+     "v1": "sweat",
+     "v2": "sweat",
+     "v3": "sweat",
+     "rank": 194,
+     "ipa": [
+      "swɛt",
+      "swɛt",
+      "swɛt"
+     ],
+     "ru": "потеть"
+    },
+    {
+     "v1": "reset",
+     "v2": "reset",
+     "v3": "reset",
+     "rank": 197,
+     "ipa": [
+      "riːˈsɛt",
+      "riːˈsɛt",
+      "riːˈsɛt"
+     ],
+     "ru": "сбрасывать; перезагружать"
+    },
+    {
+     "v1": "bust",
+     "v2": "bust",
+     "v3": "bust",
+     "rank": 198,
+     "ipa": [
+      "bʌst",
+      "bʌst",
+      "bʌst"
+     ],
+     "ru": "разбивать; ломать"
     }
-  ],
-  "phrases": [
-    { "en": "I put the book on the table.", "ru": "Я положил книгу на стол." },
-    { "en": "She bought a new car yesterday.", "ru": "Она купила новую машину вчера." },
-    { "en": "He has gone to London.", "ru": "Он уехал в Лондон." }
-  ],
-  "quiz": [
-    { "q": "Вторая форма глагола 'go' — это...", "options": ["goed", "went", "gone"], "answer": 1 },
-    { "q": "Третья форма глагола 'see' — это...", "options": ["saw", "seen", "seed"], "answer": 1 },
-    { "q": "Какая форма у глагола 'buy' во второй и третьей форме?", "options": ["bought", "buyed", "brought"], "answer": 0 }
-  ]
+   ]
+  },
+  {
+   "id": "abb-ought",
+   "groupName": "V2 and V3 end in -ought / -aught",
+   "groupNameRu": "Вторая и третья формы на -ought / -aught",
+   "chip": "-ought / -aught",
+   "words": [
+    {
+     "v1": "think",
+     "v2": "thought",
+     "v3": "thought",
+     "rank": 11,
+     "ipa": [
+      "θɪŋk",
+      "θɔːt/θɑt",
+      "θɔːt/θɑt"
+     ],
+     "ru": "думать"
+    },
+    {
+     "v1": "bring",
+     "v2": "brought",
+     "v3": "brought",
+     "rank": 24,
+     "ipa": [
+      "brɪŋ",
+      "brɔːt/brɑt",
+      "brɔːt/brɑt"
+     ],
+     "ru": "приносить"
+    },
+    {
+     "v1": "buy",
+     "v2": "bought",
+     "v3": "bought",
+     "rank": 40,
+     "ipa": [
+      "baɪ",
+      "bɔːt/bɑt",
+      "bɔːt/bɑt"
+     ],
+     "ru": "покупать"
+    },
+    {
+     "v1": "seek",
+     "v2": "sought",
+     "v3": "sought",
+     "rank": 57,
+     "ipa": [
+      "siːk",
+      "sɔːt/sɑt",
+      "sɔːt/sɑt"
+     ],
+     "ru": "искать"
+    },
+    {
+     "v1": "catch",
+     "v2": "caught",
+     "v3": "caught",
+     "rank": 61,
+     "ipa": [
+      "kætʃ",
+      "kɔːt/kɑt",
+      "kɔːt/kɑt"
+     ],
+     "ru": "ловить; поймать"
+    },
+    {
+     "v1": "fight",
+     "v2": "fought",
+     "v3": "fought",
+     "rank": 64,
+     "ipa": [
+      "faɪt",
+      "fɔːt/fɑt",
+      "fɔːt/fɑt"
+     ],
+     "ru": "бороться; драться"
+    },
+    {
+     "v1": "teach",
+     "v2": "taught",
+     "v3": "taught",
+     "rank": 67,
+     "ipa": [
+      "tiːtʃ",
+      "tɔːt/tɑt",
+      "tɔːt/tɑt"
+     ],
+     "ru": "учить; обучать"
+    }
+   ]
+  },
+  {
+   "id": "abb-t",
+   "groupName": "V2 and V3 end in -t",
+   "groupNameRu": "Вторая и третья формы на -t",
+   "chip": "-t",
+   "words": [
+    {
+     "v1": "mean",
+     "v2": "meant",
+     "v3": "meant",
+     "rank": 18,
+     "ipa": [
+      "miːn",
+      "mɛnt",
+      "mɛnt"
+     ],
+     "ru": "значить; означать"
+    },
+    {
+     "v1": "leave",
+     "v2": "left",
+     "v3": "left",
+     "rank": 19,
+     "ipa": [
+      "liːv",
+      "lɛft",
+      "lɛft"
+     ],
+     "ru": "покидать; уезжать"
+    },
+    {
+     "v1": "feel",
+     "v2": "felt",
+     "v3": "felt",
+     "rank": 20,
+     "ipa": [
+      "fiːl",
+      "fɛlt",
+      "fɛlt"
+     ],
+     "ru": "чувствовать"
+    },
+    {
+     "v1": "keep",
+     "v2": "kept",
+     "v3": "kept",
+     "rank": 22,
+     "ipa": [
+      "kiːp",
+      "kɛpt",
+      "kɛpt"
+     ],
+     "ru": "держать; хранить"
+    },
+    {
+     "v1": "lose",
+     "v2": "lost",
+     "v3": "lost",
+     "rank": 37,
+     "ipa": [
+      "luːz",
+      "lɒst/lɑst",
+      "lɒst/lɑst"
+     ],
+     "ru": "терять"
+    },
+    {
+     "v1": "send",
+     "v2": "sent",
+     "v3": "sent",
+     "rank": 41,
+     "ipa": [
+      "sɛnd",
+      "sɛnt",
+      "sɛnt"
+     ],
+     "ru": "посылать; отправлять"
+    },
+    {
+     "v1": "build",
+     "v2": "built",
+     "v3": "built",
+     "rank": 44,
+     "ipa": [
+      "bɪld",
+      "bɪlt",
+      "bɪlt"
+     ],
+     "ru": "строить"
+    },
+    {
+     "v1": "spend",
+     "v2": "spent",
+     "v3": "spent",
+     "rank": 45,
+     "ipa": [
+      "spɛnd",
+      "spɛnt",
+      "spɛnt"
+     ],
+     "ru": "тратить"
+    },
+    {
+     "v1": "learn",
+     "v2": "learnt",
+     "v3": "learnt",
+     "rank": 46,
+     "ipa": [
+      "lɜːn",
+      "lɜːnt",
+      "lɜːnt"
+     ],
+     "ru": "учить(ся)"
+    },
+    {
+     "v1": "deal",
+     "v2": "dealt",
+     "v3": "dealt",
+     "rank": 56,
+     "ipa": [
+      "diːl",
+      "dɛlt",
+      "dɛlt"
+     ],
+     "ru": "иметь дело"
+    },
+    {
+     "v1": "sleep",
+     "v2": "slept",
+     "v3": "slept",
+     "rank": 81,
+     "ipa": [
+      "sliːp",
+      "slɛpt",
+      "slɛpt"
+     ],
+     "ru": "спать"
+    },
+    {
+     "v1": "burn",
+     "v2": "burnt",
+     "v3": "burnt",
+     "rank": 89,
+     "ipa": [
+      "bɜːn",
+      "bɜːnt",
+      "bɜːnt"
+     ],
+     "ru": "жечь; гореть"
+    },
+    {
+     "v1": "lean",
+     "v2": "leant",
+     "v3": "leant",
+     "rank": 92,
+     "ipa": [
+      "liːn",
+      "lɛnt",
+      "lɛnt"
+     ],
+     "ru": "наклоняться; прислоняться"
+    },
+    {
+     "v1": "bend",
+     "v2": "bent",
+     "v3": "bent",
+     "rank": 100,
+     "ipa": [
+      "bɛnd",
+      "bɛnt",
+      "bɛnt"
+     ],
+     "ru": "гнуть; сгибать"
+    },
+    {
+     "v1": "sweep",
+     "v2": "swept",
+     "v3": "swept",
+     "rank": 103,
+     "ipa": [
+      "swiːp",
+      "swɛpt",
+      "swɛpt"
+     ],
+     "ru": "подметать"
+    },
+    {
+     "v1": "lend",
+     "v2": "lent",
+     "v3": "lent",
+     "rank": 106,
+     "ipa": [
+      "lɛnd",
+      "lɛnt",
+      "lɛnt"
+     ],
+     "ru": "одалживать"
+    },
+    {
+     "v1": "dream",
+     "v2": "dreamt",
+     "v3": "dreamt",
+     "rank": 111,
+     "ipa": [
+      "driːm",
+      "drɛmt",
+      "drɛmt"
+     ],
+     "ru": "мечтать; видеть сон"
+    },
+    {
+     "v1": "smell",
+     "v2": "smelt",
+     "v3": "smelt",
+     "rank": 115,
+     "ipa": [
+      "smɛl",
+      "smɛlt",
+      "smɛlt"
+     ],
+     "ru": "пахнуть; нюхать"
+    },
+    {
+     "v1": "spell",
+     "v2": "spelt",
+     "v3": "spelt",
+     "rank": 123,
+     "ipa": [
+      "spɛl",
+      "spɛlt",
+      "spɛlt"
+     ],
+     "ru": "произносить по буквам"
+    },
+    {
+     "v1": "leap",
+     "v2": "leapt",
+     "v3": "leapt",
+     "rank": 125,
+     "ipa": [
+      "liːp",
+      "lɛpt",
+      "lɛpt"
+     ],
+     "ru": "прыгать; скакать"
+    },
+    {
+     "v1": "creep",
+     "v2": "crept",
+     "v3": "crept",
+     "rank": 134,
+     "ipa": [
+      "kriːp",
+      "krɛpt",
+      "krɛpt"
+     ],
+     "ru": "ползти; красться"
+    },
+    {
+     "v1": "spoil",
+     "v2": "spoilt",
+     "v3": "spoilt",
+     "rank": 137,
+     "ipa": [
+      "spɔɪl",
+      "spɔɪlt",
+      "spɔɪlt"
+     ],
+     "ru": "портить"
+    },
+    {
+     "v1": "rebuild",
+     "v2": "rebuilt",
+     "v3": "rebuilt",
+     "rank": 141,
+     "ipa": [
+      "riːˈbɪld",
+      "riːˈbɪlt",
+      "riːˈbɪlt"
+     ],
+     "ru": "отстраивать; восстанавливать"
+    },
+    {
+     "v1": "spill",
+     "v2": "spilt",
+     "v3": "spilt",
+     "rank": 142,
+     "ipa": [
+      "spɪl",
+      "spɪlt",
+      "spɪlt"
+     ],
+     "ru": "проливать; рассыпать"
+    },
+    {
+     "v1": "weep",
+     "v2": "wept",
+     "v3": "wept",
+     "rank": 143,
+     "ipa": [
+      "wiːp",
+      "wɛpt",
+      "wɛpt"
+     ],
+     "ru": "плакать; рыдать"
+    },
+    {
+     "v1": "kneel",
+     "v2": "knelt",
+     "v3": "knelt",
+     "rank": 157,
+     "ipa": [
+      "niːl",
+      "nɛlt",
+      "nɛlt"
+     ],
+     "ru": "становиться на колени"
+    },
+    {
+     "v1": "dwell",
+     "v2": "dwelt",
+     "v3": "dwelt",
+     "rank": 172,
+     "ipa": [
+      "dwɛl",
+      "dwɛlt",
+      "dwɛlt"
+     ],
+     "ru": "обитать; жить"
+    },
+    {
+     "v1": "resend",
+     "v2": "resent",
+     "v3": "resent",
+     "rank": 181,
+     "ipa": [
+      "riːˈsɛnd",
+      "riːˈsɛnt",
+      "riːˈsɛnt"
+     ],
+     "ru": "отправлять повторно"
+    }
+   ]
+  },
+  {
+   "id": "abb-vowel",
+   "groupName": "V2 and V3 change the vowel",
+   "groupNameRu": "Вторая и третья формы меняют гласную",
+   "chip": "vowel change",
+   "words": [
+    {
+     "v1": "have",
+     "v2": "had",
+     "v3": "had",
+     "rank": 2,
+     "ipa": [
+      "hæv",
+      "hæd",
+      "hæd"
+     ],
+     "ru": "иметь"
+    },
+    {
+     "v1": "say",
+     "v2": "said",
+     "v3": "said",
+     "rank": 4,
+     "ipa": [
+      "seɪ",
+      "sɛd",
+      "sɛd"
+     ],
+     "ru": "говорить; сказать"
+    },
+    {
+     "v1": "get",
+     "v2": "got",
+     "v3": "got",
+     "rank": 6,
+     "ipa": [
+      "ɡɛt",
+      "ɡɒt/ɡɑt",
+      "ɡɒt/ɡɑt"
+     ],
+     "ru": "получать; становиться"
+    },
+    {
+     "v1": "make",
+     "v2": "made",
+     "v3": "made",
+     "rank": 7,
+     "ipa": [
+      "meɪk",
+      "meɪd",
+      "meɪd"
+     ],
+     "ru": "делать"
+    },
+    {
+     "v1": "tell",
+     "v2": "told",
+     "v3": "told",
+     "rank": 15,
+     "ipa": [
+      "tɛl",
+      "təʊld/toʊld",
+      "təʊld/toʊld"
+     ],
+     "ru": "рассказывать; говорить"
+    },
+    {
+     "v1": "hold",
+     "v2": "held",
+     "v3": "held",
+     "rank": 23,
+     "ipa": [
+      "həʊld/hoʊld",
+      "hɛld",
+      "hɛld"
+     ],
+     "ru": "держать"
+    },
+    {
+     "v1": "pay",
+     "v2": "paid",
+     "v3": "paid",
+     "rank": 29,
+     "ipa": [
+      "peɪ",
+      "peɪd",
+      "peɪd"
+     ],
+     "ru": "платить"
+    },
+    {
+     "v1": "hear",
+     "v2": "heard",
+     "v3": "heard",
+     "rank": 30,
+     "ipa": [
+      "hɪə",
+      "hɜːd",
+      "hɜːd"
+     ],
+     "ru": "слышать"
+    },
+    {
+     "v1": "meet",
+     "v2": "met",
+     "v3": "met",
+     "rank": 31,
+     "ipa": [
+      "miːt",
+      "mɛt",
+      "mɛt"
+     ],
+     "ru": "встречать; встречаться"
+    },
+    {
+     "v1": "lead",
+     "v2": "led",
+     "v3": "led",
+     "rank": 32,
+     "ipa": [
+      "liːd",
+      "lɛd",
+      "lɛd"
+     ],
+     "ru": "вести; руководить"
+    },
+    {
+     "v1": "stand",
+     "v2": "stood",
+     "v3": "stood",
+     "rank": 33,
+     "ipa": [
+      "stænd",
+      "stʊd",
+      "stʊd"
+     ],
+     "ru": "стоять"
+    },
+    {
+     "v1": "sit",
+     "v2": "sat",
+     "v3": "sat",
+     "rank": 34,
+     "ipa": [
+      "sɪt",
+      "sæt",
+      "sæt"
+     ],
+     "ru": "сидеть"
+    },
+    {
+     "v1": "understand",
+     "v2": "understood",
+     "v3": "understood",
+     "rank": 43,
+     "ipa": [
+      "ˌʌndəˈstænd",
+      "ʌndəˈstʊd",
+      "ʌndəˈstʊd"
+     ],
+     "ru": "понимать"
+    },
+    {
+     "v1": "sell",
+     "v2": "sold",
+     "v3": "sold",
+     "rank": 49,
+     "ipa": [
+      "sɛl",
+      "səʊld/soʊld",
+      "səʊld/soʊld"
+     ],
+     "ru": "продавать"
+    },
+    {
+     "v1": "shoot",
+     "v2": "shot",
+     "v3": "shot",
+     "rank": 77,
+     "ipa": [
+      "ʃuːt",
+      "ʃɒt/ʃɑt",
+      "ʃɒt/ʃɑt"
+     ],
+     "ru": "стрелять"
+    },
+    {
+     "v1": "lay",
+     "v2": "laid",
+     "v3": "laid",
+     "rank": 79,
+     "ipa": [
+      "leɪ",
+      "leɪd",
+      "leɪd"
+     ],
+     "ru": "класть; положить"
+    },
+    {
+     "v1": "light",
+     "v2": "lit",
+     "v3": "lit",
+     "rank": 95,
+     "ipa": [
+      "laɪt",
+      "lɪt",
+      "lɪt"
+     ],
+     "ru": "зажигать; освещать"
+    },
+    {
+     "v1": "feed",
+     "v2": "fed",
+     "v3": "fed",
+     "rank": 98,
+     "ipa": [
+      "fiːd",
+      "fɛd",
+      "fɛd"
+     ],
+     "ru": "кормить"
+    },
+    {
+     "v1": "slide",
+     "v2": "slid",
+     "v3": "slid",
+     "rank": 105,
+     "ipa": [
+      "slaɪd",
+      "slɪd",
+      "slɪd"
+     ],
+     "ru": "скользить"
+    },
+    {
+     "v1": "flee",
+     "v2": "fled",
+     "v3": "fled",
+     "rank": 124,
+     "ipa": [
+      "fliː",
+      "flɛd",
+      "flɛd"
+     ],
+     "ru": "убегать; спасаться бегством"
+    },
+    {
+     "v1": "breed",
+     "v2": "bred",
+     "v3": "bred",
+     "rank": 126,
+     "ipa": [
+      "briːd",
+      "brɛd",
+      "brɛd"
+     ],
+     "ru": "разводить; выводить"
+    },
+    {
+     "v1": "plead",
+     "v2": "pled",
+     "v3": "pled",
+     "rank": 131,
+     "ipa": [
+      "pliːd",
+      "plɛd",
+      "plɛd"
+     ],
+     "ru": "умолять; заявлять в суде"
+    },
+    {
+     "v1": "speed",
+     "v2": "sped",
+     "v3": "sped",
+     "rank": 133,
+     "ipa": [
+      "spiːd",
+      "spɛd",
+      "spɛd"
+     ],
+     "ru": "мчаться; нестись"
+    },
+    {
+     "v1": "repay",
+     "v2": "repaid",
+     "v3": "repaid",
+     "rank": 150,
+     "ipa": [
+      "riˈpeɪ",
+      "rɪˈpeɪd",
+      "rɪˈpeɪd"
+     ],
+     "ru": "возвращать долг"
+    },
+    {
+     "v1": "uphold",
+     "v2": "upheld",
+     "v3": "upheld",
+     "rank": 151,
+     "ipa": [
+      "ˌʌpˈhəʊld",
+      "ʌpˈhɛld",
+      "ʌpˈhɛld"
+     ],
+     "ru": "поддерживать; отстаивать"
+    },
+    {
+     "v1": "bleed",
+     "v2": "bled",
+     "v3": "bled",
+     "rank": 158,
+     "ipa": [
+      "bliːd",
+      "blɛd",
+      "blɛd"
+     ],
+     "ru": "кровоточить"
+    },
+    {
+     "v1": "withstand",
+     "v2": "withstood",
+     "v3": "withstood",
+     "rank": 169,
+     "ipa": [
+      "wɪðˈstænd",
+      "wɪðˈstʊd/wɪθˈstʊd",
+      "wɪðˈstʊd/wɪθˈstʊd"
+     ],
+     "ru": "выдерживать; противостоять"
+    },
+    {
+     "v1": "withhold",
+     "v2": "withheld",
+     "v3": "withheld",
+     "rank": 170,
+     "ipa": [
+      "wɪθˈhəʊld/wɪθˈhoʊld",
+      "wɪθˈhɛld",
+      "wɪθˈhɛld"
+     ],
+     "ru": "удерживать; не выдавать"
+    },
+    {
+     "v1": "mislead",
+     "v2": "misled",
+     "v3": "misled",
+     "rank": 173,
+     "ipa": [
+      "mɪsˈliːd",
+      "ˌmɪsˈlɛd",
+      "ˌmɪsˈlɛd"
+     ],
+     "ru": "вводить в заблуждение"
+    },
+    {
+     "v1": "misunderstand",
+     "v2": "misunderstood",
+     "v3": "misunderstood",
+     "rank": 179,
+     "ipa": [
+      "mɪsʌndəˈstænd",
+      "ˌmɪsʌndəˈstʊd",
+      "ˌmɪsʌndəˈstʊd"
+     ],
+     "ru": "неправильно понять"
+    },
+    {
+     "v1": "clothe",
+     "v2": "clad",
+     "v3": "clad",
+     "rank": 183,
+     "ipa": [
+      "kləʊð/kloʊð",
+      "klæd",
+      "klæd"
+     ],
+     "ru": "одевать"
+    },
+    {
+     "v1": "overhear",
+     "v2": "overheard",
+     "v3": "overheard",
+     "rank": 184,
+     "ipa": [
+      "ˌəʊvəˈhɪə/ˌoʊvərˈhɪr",
+      "ˌəʊvəˈhɜːd/ˌoʊvərˈhɜrd",
+      "ˌəʊvəˈhɜːd/ˌoʊvərˈhɜrd"
+     ],
+     "ru": "подслушивать"
+    },
+    {
+     "v1": "alight",
+     "v2": "alit",
+     "v3": "alit",
+     "rank": 185,
+     "ipa": [
+      "əˈlaɪt",
+      "əˈlɪt",
+      "əˈlɪt"
+     ],
+     "ru": "сходить (с транспорта)"
+    },
+    {
+     "v1": "behold",
+     "v2": "beheld",
+     "v3": "beheld",
+     "rank": 199,
+     "ipa": [
+      "bɪˈhəʊld/bɪˈhoʊld",
+      "bɪˈhɛld",
+      "bɪˈhɛld"
+     ],
+     "ru": "созерцать; видеть"
+    }
+   ]
+  },
+  {
+   "id": "abb-u",
+   "groupName": "V2 and V3: the vowel becomes u / ou",
+   "groupNameRu": "Вторая и третья формы: гласная → u / ou",
+   "chip": "u / ou",
+   "words": [
+    {
+     "v1": "find",
+     "v2": "found",
+     "v3": "found",
+     "rank": 14,
+     "ipa": [
+      "faɪnd",
+      "faʊnd",
+      "faʊnd"
+     ],
+     "ru": "находить"
+    },
+    {
+     "v1": "win",
+     "v2": "won",
+     "v3": "won",
+     "rank": 42,
+     "ipa": [
+      "wɪn",
+      "wʌn",
+      "wʌn"
+     ],
+     "ru": "выигрывать; побеждать"
+    },
+    {
+     "v1": "hang",
+     "v2": "hung",
+     "v3": "hung",
+     "rank": 74,
+     "ipa": [
+      "hæŋ",
+      "hʌŋ",
+      "hʌŋ"
+     ],
+     "ru": "висеть; вешать"
+    },
+    {
+     "v1": "strike",
+     "v2": "struck",
+     "v3": "struck",
+     "rank": 76,
+     "ipa": [
+      "straɪk",
+      "strʌk",
+      "strʌk"
+     ],
+     "ru": "ударять; бастовать"
+    },
+    {
+     "v1": "stick",
+     "v2": "stuck",
+     "v3": "stuck",
+     "rank": 80,
+     "ipa": [
+      "stɪk",
+      "stʌk",
+      "stʌk"
+     ],
+     "ru": "приклеивать; втыкать"
+    },
+    {
+     "v1": "bind",
+     "v2": "bound",
+     "v3": "bound",
+     "rank": 82,
+     "ipa": [
+      "baɪnd",
+      "baʊnd",
+      "baʊnd"
+     ],
+     "ru": "связывать"
+    },
+    {
+     "v1": "swing",
+     "v2": "swung",
+     "v3": "swung",
+     "rank": 99,
+     "ipa": [
+      "swɪŋ",
+      "swʌŋ",
+      "swʌŋ"
+     ],
+     "ru": "качать(ся)"
+    },
+    {
+     "v1": "dig",
+     "v2": "dug",
+     "v3": "dug",
+     "rank": 109,
+     "ipa": [
+      "dɪɡ",
+      "dʌɡ",
+      "dʌɡ"
+     ],
+     "ru": "копать"
+    },
+    {
+     "v1": "wind",
+     "v2": "wound",
+     "v3": "wound",
+     "rank": 117,
+     "ipa": [
+      "waɪnd",
+      "waʊnd",
+      "waʊnd"
+     ],
+     "ru": "вить(ся); извиваться"
+    },
+    {
+     "v1": "shine",
+     "v2": "shone",
+     "v3": "shone",
+     "rank": 120,
+     "ipa": [
+      "ʃaɪn",
+      "ʃɒn/ʃoʊn",
+      "ʃɒn/ʃoʊn"
+     ],
+     "ru": "сиять; светить"
+    },
+    {
+     "v1": "cling",
+     "v2": "clung",
+     "v3": "clung",
+     "rank": 130,
+     "ipa": [
+      "klɪŋ",
+      "klʌŋ",
+      "klʌŋ"
+     ],
+     "ru": "цепляться"
+    },
+    {
+     "v1": "spin",
+     "v2": "spun",
+     "v3": "spun",
+     "rank": 132,
+     "ipa": [
+      "spɪn",
+      "spʌn",
+      "spʌn"
+     ],
+     "ru": "крутить(ся); прясть"
+    },
+    {
+     "v1": "fling",
+     "v2": "flung",
+     "v3": "flung",
+     "rank": 139,
+     "ipa": [
+      "flɪŋ",
+      "flʌŋ",
+      "flʌŋ"
+     ],
+     "ru": "швырять; бросать"
+    },
+    {
+     "v1": "grind",
+     "v2": "ground",
+     "v3": "ground",
+     "rank": 144,
+     "ipa": [
+      "ɡraɪnd",
+      "ɡraʊnd",
+      "ɡraʊnd"
+     ],
+     "ru": "молоть; точить"
+    },
+    {
+     "v1": "sneak",
+     "v2": "snuck",
+     "v3": "snuck",
+     "rank": 180,
+     "ipa": [
+      "sniːk",
+      "snʌk",
+      "snʌk"
+     ],
+     "ru": "красться"
+    },
+    {
+     "v1": "sting",
+     "v2": "stung",
+     "v3": "stung",
+     "rank": 182,
+     "ipa": [
+      "stɪŋ",
+      "stʌŋ",
+      "stʌŋ"
+     ],
+     "ru": "жалить"
+    },
+    {
+     "v1": "abide",
+     "v2": "abode",
+     "v3": "abode",
+     "rank": 186,
+     "ipa": [
+      "əˈbaɪd",
+      "əˈbəʊd/əˈboʊd",
+      "əˈbəʊd/əˈboʊd"
+     ],
+     "ru": "терпеть; выносить"
+    },
+    {
+     "v1": "sling",
+     "v2": "slung",
+     "v3": "slung",
+     "rank": 200,
+     "ipa": [
+      "slɪŋ",
+      "slʌŋ",
+      "slʌŋ"
+     ],
+     "ru": "швырять; метать"
+    }
+   ]
+  },
+  {
+   "id": "abc-i-a-u",
+   "groupName": "Vowel pattern i → a → u",
+   "groupNameRu": "Гласные i → a → u",
+   "chip": "i → a → u",
+   "words": [
+    {
+     "v1": "begin",
+     "v2": "began",
+     "v3": "begun",
+     "rank": 25,
+     "ipa": [
+      "bɪˈɡɪn",
+      "bɪˈɡæn",
+      "bɪˈɡʌn"
+     ],
+     "ru": "начинать"
+    },
+    {
+     "v1": "drink",
+     "v2": "drank",
+     "v3": "drunk",
+     "rank": 72,
+     "ipa": [
+      "drɪŋk",
+      "dræŋk",
+      "drʌŋk"
+     ],
+     "ru": "пить"
+    },
+    {
+     "v1": "ring",
+     "v2": "rang",
+     "v3": "rung",
+     "rank": 78,
+     "ipa": [
+      "rɪŋ",
+      "ræŋ",
+      "rʌŋ"
+     ],
+     "ru": "звонить; звенеть"
+    },
+    {
+     "v1": "sing",
+     "v2": "sang",
+     "v3": "sung",
+     "rank": 83,
+     "ipa": [
+      "sɪŋ",
+      "sæŋ",
+      "sʌŋ"
+     ],
+     "ru": "петь"
+    },
+    {
+     "v1": "sink",
+     "v2": "sank",
+     "v3": "sunk",
+     "rank": 102,
+     "ipa": [
+      "sɪŋk",
+      "sæŋk",
+      "sʌŋk"
+     ],
+     "ru": "тонуть; опускаться"
+    },
+    {
+     "v1": "swim",
+     "v2": "swam",
+     "v3": "swum",
+     "rank": 113,
+     "ipa": [
+      "swɪm",
+      "swæm",
+      "swʌm"
+     ],
+     "ru": "плавать"
+    },
+    {
+     "v1": "spring",
+     "v2": "sprang",
+     "v3": "sprung",
+     "rank": 128,
+     "ipa": [
+      "sprɪŋ",
+      "spræŋ",
+      "sprʌŋ"
+     ],
+     "ru": "прыгать; возникать"
+    },
+    {
+     "v1": "shrink",
+     "v2": "shrank",
+     "v3": "shrunk",
+     "rank": 156,
+     "ipa": [
+      "ʃrɪŋk",
+      "ʃræŋk",
+      "ʃrʌŋk"
+     ],
+     "ru": "сжиматься; уменьшаться"
+    }
+   ]
+  },
+  {
+   "id": "abc-en",
+   "groupName": "V3 ends in -en",
+   "groupNameRu": "Третья форма на -en",
+   "chip": "-en",
+   "words": [
+    {
+     "v1": "take",
+     "v2": "took",
+     "v3": "taken",
+     "rank": 10,
+     "ipa": [
+      "teɪk",
+      "tʊk",
+      "ˈteɪkən"
+     ],
+     "ru": "брать"
+    },
+    {
+     "v1": "give",
+     "v2": "gave",
+     "v3": "given",
+     "rank": 13,
+     "ipa": [
+      "ɡɪv",
+      "ɡeɪv",
+      "ˈɡɪvən"
+     ],
+     "ru": "давать"
+    },
+    {
+     "v1": "write",
+     "v2": "wrote",
+     "v3": "written",
+     "rank": 26,
+     "ipa": [
+      "raɪt",
+      "rəʊt/roʊt",
+      "ˈrɪtən"
+     ],
+     "ru": "писать"
+    },
+    {
+     "v1": "fall",
+     "v2": "fell",
+     "v3": "fallen",
+     "rank": 38,
+     "ipa": [
+      "fɔːl/fɑl",
+      "fɛl",
+      "ˈfɔːlən"
+     ],
+     "ru": "падать"
+    },
+    {
+     "v1": "speak",
+     "v2": "spoke",
+     "v3": "spoken",
+     "rank": 39,
+     "ipa": [
+      "spiːk",
+      "spəʊk/spoʊk",
+      "ˈspəʊkən/ˈspoʊkən"
+     ],
+     "ru": "говорить; разговаривать"
+    },
+    {
+     "v1": "break",
+     "v2": "broke",
+     "v3": "broken",
+     "rank": 50,
+     "ipa": [
+      "breɪk",
+      "brəʊk/broʊk",
+      "ˈbrəʊkən/ˈbroʊkən"
+     ],
+     "ru": "ломать"
+    },
+    {
+     "v1": "choose",
+     "v2": "chose",
+     "v3": "chosen",
+     "rank": 54,
+     "ipa": [
+      "tʃuːz",
+      "tʃəʊz/tʃoʊz",
+      "ˈtʃəʊzən/ˈtʃoʊzən"
+     ],
+     "ru": "выбирать"
+    },
+    {
+     "v1": "drive",
+     "v2": "drove",
+     "v3": "driven",
+     "rank": 55,
+     "ipa": [
+      "draɪv",
+      "drəʊv/droʊv",
+      "ˈdrɪvən"
+     ],
+     "ru": "водить (машину)"
+    },
+    {
+     "v1": "eat",
+     "v2": "ate",
+     "v3": "eaten",
+     "rank": 58,
+     "ipa": [
+      "iːt",
+      "eɪt",
+      "ˈiːtən"
+     ],
+     "ru": "есть; кушать"
+    },
+    {
+     "v1": "rise",
+     "v2": "rose",
+     "v3": "risen",
+     "rank": 59,
+     "ipa": [
+      "raɪz",
+      "rəʊz/roʊz",
+      "ˈrɪzən"
+     ],
+     "ru": "подниматься; вставать"
+    },
+    {
+     "v1": "prove",
+     "v2": "proved",
+     "v3": "proven",
+     "rank": 60,
+     "ipa": [
+      "pruːv",
+      "pruːvd",
+      "ˈpruːvən"
+     ],
+     "ru": "доказывать"
+    },
+    {
+     "v1": "forget",
+     "v2": "forgot",
+     "v3": "forgotten",
+     "rank": 63,
+     "ipa": [
+      "fəˈɡɛt",
+      "fəˈɡɒt/fərˈɡɑt",
+      "fəˈɡɒtən/fərˈɡɑtən"
+     ],
+     "ru": "забывать"
+    },
+    {
+     "v1": "shake",
+     "v2": "shook",
+     "v3": "shaken",
+     "rank": 71,
+     "ipa": [
+      "ʃeɪk",
+      "ʃʊk",
+      "ˈʃeɪkən"
+     ],
+     "ru": "трясти; качать"
+    },
+    {
+     "v1": "arise",
+     "v2": "arose",
+     "v3": "arisen",
+     "rank": 73,
+     "ipa": [
+      "əˈraɪz",
+      "əˈrəʊz/əˈroʊz",
+      "əˈrɪzən"
+     ],
+     "ru": "возникать"
+    },
+    {
+     "v1": "hide",
+     "v2": "hid",
+     "v3": "hidden",
+     "rank": 85,
+     "ipa": [
+      "haɪd",
+      "hɪd",
+      "ˈhɪdən"
+     ],
+     "ru": "прятать(ся)"
+    },
+    {
+     "v1": "undertake",
+     "v2": "undertook",
+     "v3": "undertaken",
+     "rank": 86,
+     "ipa": [
+      "ˌʌndəˈteɪk",
+      "ʌndəˈtʊk",
+      "ʌndəˈteɪkən"
+     ],
+     "ru": "предпринимать"
+    },
+    {
+     "v1": "ride",
+     "v2": "rode",
+     "v3": "ridden",
+     "rank": 88,
+     "ipa": [
+      "raɪd",
+      "rəʊd/roʊd",
+      "ˈrɪdən"
+     ],
+     "ru": "ехать; кататься"
+    },
+    {
+     "v1": "steal",
+     "v2": "stole",
+     "v3": "stolen",
+     "rank": 93,
+     "ipa": [
+      "stiːl",
+      "stəʊl/stoʊl",
+      "ˈstəʊlən/ˈstoʊlən"
+     ],
+     "ru": "красть; воровать"
+    },
+    {
+     "v1": "wake",
+     "v2": "woke",
+     "v3": "woken",
+     "rank": 96,
+     "ipa": [
+      "weɪk",
+      "wəʊk/woʊk",
+      "ˈwəʊkən/ˈwoʊkən"
+     ],
+     "ru": "будить; просыпаться"
+    },
+    {
+     "v1": "bite",
+     "v2": "bit",
+     "v3": "bitten",
+     "rank": 108,
+     "ipa": [
+      "baɪt",
+      "bɪt",
+      "ˈbɪtən"
+     ],
+     "ru": "кусать"
+    },
+    {
+     "v1": "freeze",
+     "v2": "froze",
+     "v3": "frozen",
+     "rank": 122,
+     "ipa": [
+      "friːz",
+      "frəʊz/froʊz",
+      "ˈfrəʊzən/ˈfroʊzən"
+     ],
+     "ru": "замерзать; замораживать"
+    },
+    {
+     "v1": "forgive",
+     "v2": "forgave",
+     "v3": "forgiven",
+     "rank": 127,
+     "ipa": [
+      "fəˈɡɪv",
+      "fəˈɡeɪv",
+      "fəˈɡɪvən"
+     ],
+     "ru": "прощать"
+    },
+    {
+     "v1": "mistake",
+     "v2": "mistook",
+     "v3": "mistaken",
+     "rank": 138,
+     "ipa": [
+      "mɪˈsteɪk",
+      "mɪsˈtʊk",
+      "mɪˈsteɪkən"
+     ],
+     "ru": "принять за; спутать"
+    },
+    {
+     "v1": "forbid",
+     "v2": "forbad",
+     "v3": "forbidden",
+     "rank": 140,
+     "ipa": [
+      "fəˈbɪd",
+      "fəˈbæd",
+      "fəˈbɪdən"
+     ],
+     "ru": "запрещать"
+    },
+    {
+     "v1": "weave",
+     "v2": "wove",
+     "v3": "woven",
+     "rank": 146,
+     "ipa": [
+      "wiːv",
+      "wəʊv",
+      "ˈwəʊvən/ˈwoʊvən"
+     ],
+     "ru": "ткать; плести"
+    },
+    {
+     "v1": "stride",
+     "v2": "strode",
+     "v3": "stridden",
+     "rank": 147,
+     "ipa": [
+      "straɪd",
+      "strəʊd/stroʊd",
+      "ˈstrɪdən"
+     ],
+     "ru": "шагать; вышагивать"
+    },
+    {
+     "v1": "swell",
+     "v2": "swelled",
+     "v3": "swollen",
+     "rank": 152,
+     "ipa": [
+      "swɛl",
+      "swɛld",
+      "ˈswəʊlən/ˈswoʊlən"
+     ],
+     "ru": "опухать; раздуваться"
+    },
+    {
+     "v1": "strive",
+     "v2": "strove",
+     "v3": "striven",
+     "rank": 155,
+     "ipa": [
+      "straɪv",
+      "strəʊv/stroʊv",
+      "ˈstrɪvən"
+     ],
+     "ru": "стремиться; стараться"
+    },
+    {
+     "v1": "overtake",
+     "v2": "overtook",
+     "v3": "overtaken",
+     "rank": 159,
+     "ipa": [
+      "ˌəʊvəˈteɪk/ˌoʊvərˈteɪk",
+      "əʊvəˈtʊk/oʊvərˈtʊk",
+      "ˌəʊvəˈteɪkən/ˌoʊvərˈteɪkən"
+     ],
+     "ru": "обгонять"
+    },
+    {
+     "v1": "awake",
+     "v2": "awoke",
+     "v3": "awoken",
+     "rank": 161,
+     "ipa": [
+      "əˈweɪk",
+      "əˈwəʊk/əˈwoʊk",
+      "əˈwəʊkən/əˈwoʊkən"
+     ],
+     "ru": "просыпаться; будить"
+    },
+    {
+     "v1": "tread",
+     "v2": "trod",
+     "v3": "trodden",
+     "rank": 162,
+     "ipa": [
+      "trɛd",
+      "trɒd/trɑd",
+      "ˈtrɒdən/ˈtrɑdən"
+     ],
+     "ru": "ступать; наступать"
+    },
+    {
+     "v1": "foresee",
+     "v2": "foresaw",
+     "v3": "foreseen",
+     "rank": 165,
+     "ipa": [
+      "fɔːˈsiː",
+      "fɔːˈsɔː/ˌfɔːrˈsɑː",
+      "fɔːˈsiːn/ˌfɔːrˈsiːn"
+     ],
+     "ru": "предвидеть"
+    },
+    {
+     "v1": "thrive",
+     "v2": "throve",
+     "v3": "thriven",
+     "rank": 167,
+     "ipa": [
+      "θraɪv",
+      "θrəʊv/θroʊv",
+      "ˈθrɪvən"
+     ],
+     "ru": "процветать"
+    },
+    {
+     "v1": "override",
+     "v2": "overrode",
+     "v3": "overridden",
+     "rank": 177,
+     "ipa": [
+      "əʊvəˈraɪd/oʊvərˈraɪd",
+      "ˌəʊvəˈrəʊd/ˌoʊvəˈroʊd",
+      "ˌəʊvəˈrɪdən/ˌoʊvərˈrɪdən"
+     ],
+     "ru": "отменять; иметь приоритет"
+    },
+    {
+     "v1": "rewrite",
+     "v2": "rewrote",
+     "v3": "rewritten",
+     "rank": 178,
+     "ipa": [
+      "riːˈraɪt",
+      "riːˈrəʊt/riˈroʊt",
+      "riːˈrɪtən"
+     ],
+     "ru": "переписывать"
+    },
+    {
+     "v1": "underwrite",
+     "v2": "underwrote",
+     "v3": "underwritten",
+     "rank": 191,
+     "ipa": [
+      "ˌʌndəˈraɪt/ˌʌndərˈraɪt",
+      "ˌʌndəˈrəʊt/ˌʌndərˈroʊt",
+      "ˌʌndəˈrɪtən/ˌʌndərˈrɪtən"
+     ],
+     "ru": "гарантировать (эмиссию)"
+    },
+    {
+     "v1": "befall",
+     "v2": "befell",
+     "v3": "befallen",
+     "rank": 195,
+     "ipa": [
+      "bɪˈfɔːl/biˈfɑl",
+      "bɪˈfɛl",
+      "bɪˈfɔlən"
+     ],
+     "ru": "случаться; постигать"
+    }
+   ]
+  },
+  {
+   "id": "abc-n",
+   "groupName": "V3 ends in -n",
+   "groupNameRu": "Третья форма на -n",
+   "chip": "-n",
+   "words": [
+    {
+     "v1": "show",
+     "v2": "showed",
+     "v3": "shown",
+     "rank": 21,
+     "ipa": [
+      "ʃəʊ/ʃoʊ",
+      "ʃəʊd/ʃoʊd",
+      "ʃəʊn/ʃoʊn"
+     ],
+     "ru": "показывать"
+    },
+    {
+     "v1": "lie",
+     "v2": "lay",
+     "v3": "lain",
+     "rank": 47,
+     "ipa": [
+      "laɪ",
+      "leɪ",
+      "leɪn"
+     ],
+     "ru": "лежать"
+    },
+    {
+     "v1": "bear",
+     "v2": "bore",
+     "v3": "born",
+     "rank": 53,
+     "ipa": [
+      "bɛə",
+      "bɔː",
+      "bɔːn"
+     ],
+     "ru": "нести; выносить; рожать"
+    },
+    {
+     "v1": "wear",
+     "v2": "wore",
+     "v3": "worn",
+     "rank": 62,
+     "ipa": [
+      "wɛə",
+      "wɔː",
+      "wɔːn"
+     ],
+     "ru": "носить (одежду)"
+    },
+    {
+     "v1": "tear",
+     "v2": "tore",
+     "v3": "torn",
+     "rank": 107,
+     "ipa": [
+      "tɛə",
+      "tɔː",
+      "tɔːn"
+     ],
+     "ru": "рвать; разрывать"
+    },
+    {
+     "v1": "swear",
+     "v2": "swore",
+     "v3": "sworn",
+     "rank": 119,
+     "ipa": [
+      "swɛə",
+      "swɔː",
+      "swɔːn"
+     ],
+     "ru": "клясться; ругаться"
+    },
+    {
+     "v1": "saw",
+     "v2": "sawed",
+     "v3": "sawn",
+     "rank": 163,
+     "ipa": [
+      "sɔː/sɑ",
+      "sɔːd",
+      "sɔːn"
+     ],
+     "ru": "пилить"
+    },
+    {
+     "v1": "sow",
+     "v2": "sowed",
+     "v3": "sown",
+     "rank": 164,
+     "ipa": [
+      "səʊ/soʊ",
+      "səʊd/soʊd",
+      "səʊn/soʊn"
+     ],
+     "ru": "сеять"
+    },
+    {
+     "v1": "sew",
+     "v2": "sewed",
+     "v3": "sewn",
+     "rank": 168,
+     "ipa": [
+      "səʊ/soʊ",
+      "səʊd/soʊd",
+      "səʊn/soʊn"
+     ],
+     "ru": "шить"
+    },
+    {
+     "v1": "shear",
+     "v2": "shore",
+     "v3": "shorn",
+     "rank": 176,
+     "ipa": [
+      "ʃɪə",
+      "ʃɔː",
+      "ʃɔːn"
+     ],
+     "ru": "стричь"
+    },
+    {
+     "v1": "underlie",
+     "v2": "underlay",
+     "v3": "underlain",
+     "rank": 187,
+     "ipa": [
+      "ˌʌndəˈlaɪ",
+      "ʌndərˈleɪ",
+      "ʌndərˈleɪn"
+     ],
+     "ru": "лежать в основе"
+    },
+    {
+     "v1": "strew",
+     "v2": "strewed",
+     "v3": "strewn",
+     "rank": 188,
+     "ipa": [
+      "struː",
+      "struːd",
+      "struːn"
+     ],
+     "ru": "разбрасывать; усыпать"
+    },
+    {
+     "v1": "slay",
+     "v2": "slew",
+     "v3": "slain",
+     "rank": 189,
+     "ipa": [
+      "sleɪ",
+      "sluː",
+      "sleɪn"
+     ],
+     "ru": "убивать; поражать"
+    }
+   ]
+  },
+  {
+   "id": "abc-ew-own",
+   "groupName": "V2 in -ew, V3 in -own",
+   "groupNameRu": "Вторая форма на -ew, третья на -own",
+   "chip": "ew → own",
+   "words": [
+    {
+     "v1": "know",
+     "v2": "knew",
+     "v3": "known",
+     "rank": 9,
+     "ipa": [
+      "nəʊ/noʊ",
+      "njuː/nu",
+      "nəʊn/noʊn"
+     ],
+     "ru": "знать"
+    },
+    {
+     "v1": "draw",
+     "v2": "drew",
+     "v3": "drawn",
+     "rank": 48,
+     "ipa": [
+      "drɔː/drɑ",
+      "druː",
+      "drɔːn"
+     ],
+     "ru": "рисовать; тянуть"
+    },
+    {
+     "v1": "grow",
+     "v2": "grew",
+     "v3": "grown",
+     "rank": 52,
+     "ipa": [
+      "ɡrəʊ/ɡroʊ",
+      "ɡruː",
+      "ɡrəʊn/ɡroʊn"
+     ],
+     "ru": "расти; выращивать"
+    },
+    {
+     "v1": "throw",
+     "v2": "threw",
+     "v3": "thrown",
+     "rank": 65,
+     "ipa": [
+      "θrəʊ/θroʊ",
+      "θruː",
+      "θrəʊn/θroʊn"
+     ],
+     "ru": "бросать; кидать"
+    },
+    {
+     "v1": "fly",
+     "v2": "flew",
+     "v3": "flown",
+     "rank": 66,
+     "ipa": [
+      "flaɪ",
+      "fluː",
+      "fləʊn/floʊn"
+     ],
+     "ru": "летать"
+    },
+    {
+     "v1": "blow",
+     "v2": "blew",
+     "v3": "blown",
+     "rank": 90,
+     "ipa": [
+      "bləʊ/bloʊ",
+      "bluː",
+      "bləʊn/bloʊn"
+     ],
+     "ru": "дуть"
+    },
+    {
+     "v1": "withdraw",
+     "v2": "withdrew",
+     "v3": "withdrawn",
+     "rank": 94,
+     "ipa": [
+      "wɪðˈdrɔː/wɪðˈdrɑ",
+      "wɪðˈdruː",
+      "wɪðˈdrɔːn"
+     ],
+     "ru": "снимать (деньги); отзывать"
+    },
+    {
+     "v1": "overthrow",
+     "v2": "overthrew",
+     "v3": "overthrown",
+     "rank": 171,
+     "ipa": [
+      "əʊvəˈθrəʊ/ˌoʊvərˈθroʊ",
+      "ˌəʊvəˈθruː/ˌoʊvərˈθruː",
+      "ˌəʊvəˈθrəʊn/ˌoʊvərˈθroʊn"
+     ],
+     "ru": "свергать"
+    }
+   ]
+  },
+  {
+   "id": "abc-mixed",
+   "groupName": "Special cases",
+   "groupNameRu": "Особые случаи",
+   "chip": "special",
+   "words": [
+    {
+     "v1": "be",
+     "v2": "was/were",
+     "v3": "been",
+     "rank": 1,
+     "ipa": [
+      "biː",
+      "wɒz/wɜː",
+      "biːn/bɪn"
+     ],
+     "ru": "быть"
+    },
+    {
+     "v1": "do",
+     "v2": "did",
+     "v3": "done",
+     "rank": 3,
+     "ipa": [
+      "duː",
+      "dɪd",
+      "dʌn"
+     ],
+     "ru": "делать"
+    },
+    {
+     "v1": "go",
+     "v2": "went",
+     "v3": "gone",
+     "rank": 5,
+     "ipa": [
+      "ɡəʊ/ɡoʊ",
+      "wɛnt",
+      "ɡɒn/ɡɔn"
+     ],
+     "ru": "идти; ехать"
+    },
+    {
+     "v1": "see",
+     "v2": "saw",
+     "v3": "seen",
+     "rank": 8,
+     "ipa": [
+      "siː",
+      "sɔː/sɑ",
+      "siːn"
+     ],
+     "ru": "видеть"
+    },
+    {
+     "v1": "come",
+     "v2": "came",
+     "v3": "come",
+     "rank": 12,
+     "ipa": [
+      "kʌm",
+      "keɪm",
+      "kʌm"
+     ],
+     "ru": "приходить"
+    },
+    {
+     "v1": "become",
+     "v2": "became",
+     "v3": "become",
+     "rank": 17,
+     "ipa": [
+      "bɪˈkʌm",
+      "bɪˈkeɪm",
+      "bɪˈkʌm"
+     ],
+     "ru": "становиться"
+    },
+    {
+     "v1": "run",
+     "v2": "ran",
+     "v3": "run",
+     "rank": 27,
+     "ipa": [
+      "rʌn",
+      "ræn",
+      "rʌn"
+     ],
+     "ru": "бежать; бегать"
+    },
+    {
+     "v1": "beat",
+     "v2": "beat",
+     "v3": "beaten",
+     "rank": 75,
+     "ipa": [
+      "biːt",
+      "biːt",
+      "ˈbiːtən"
+     ],
+     "ru": "бить; побеждать"
+    },
+    {
+     "v1": "overcome",
+     "v2": "overcame",
+     "v3": "overcome",
+     "rank": 101,
+     "ipa": [
+      "ˌəʊvəˈkʌm/ˌoʊvərˈkʌm",
+      "ˌəʊvəˈkeɪm/ˌoʊvərˈkeɪm",
+      "ˌəʊvəˈkʌm/ˌoʊvərˈkʌm"
+     ],
+     "ru": "преодолевать"
+    },
+    {
+     "v1": "undergo",
+     "v2": "underwent",
+     "v3": "undergone",
+     "rank": 116,
+     "ipa": [
+      "ˌʌndəˈɡəʊ/ˌʌndərˈɡoʊ",
+      "ˌʌndəˈwɛnt",
+      "ˌʌndəˈɡɒn/ˌʌndərˈɡɔːn"
+     ],
+     "ru": "подвергаться; переносить"
+    },
+    {
+     "v1": "undo",
+     "v2": "undid",
+     "v3": "undone",
+     "rank": 166,
+     "ipa": [
+      "ʌnˈduː",
+      "ʌnˈdɪd",
+      "ʌnˈdʌn"
+     ],
+     "ru": "отменять (сделанное)"
+    },
+    {
+     "v1": "overrun",
+     "v2": "overran",
+     "v3": "overrun",
+     "rank": 193,
+     "ipa": [
+      "ˌəʊvəˈrʌn/ˌoʊvərˈrʌn",
+      "ˌəʊvəˈræn/ˌoʊvərˈræn",
+      "ˌəʊvəˈrʌn/ˌoʊvərˈrʌn"
+     ],
+     "ru": "превышать; переполнять"
+    },
+    {
+     "v1": "overdo",
+     "v2": "overdid",
+     "v3": "overdone",
+     "rank": 196,
+     "ipa": [
+      "ˌəʊvəˈduː/ˌoʊvərˈdu",
+      "ˌəʊvəˈdɪd/ˌoʊvərˈdɪd",
+      "ˌəʊvəˈdʌn/ˌoʊvərˈdʌn"
+     ],
+     "ru": "перебарщивать; пережаривать"
+    }
+   ]
+  }
+ ]
 }
