@@ -1,4 +1,4 @@
-﻿---
+---
 import Base from "../../layouts/Base.astro";
 
 const vocabularyFiles = import.meta.glob("../../data/vocabulary/*.json", { eager: true });
@@ -20,9 +20,6 @@ const topics = Object.values(vocabularyFiles)
     <div class="vocabulary-grid">
       {topics.map((topic) => (
         <a href={`/vocabulary/${topic.slug}`} class="vocabulary-card">
-          <div class="vocabulary-card__icon">
-            <span class="vocabulary-card__emoji">{topic.icon || "📚"}</span>
-          </div>
           <h2 class="vocabulary-card__title">{topic.title}</h2>
           <p class="vocabulary-card__desc">{topic.titleRu}</p>
           <span class="vocabulary-card__count">{topic.total ?? (topic.words?.length ?? (topic.groups?.reduce((n, g) => n + (g.words?.length || 0), 0) || 0))} слов</span>
@@ -75,13 +72,6 @@ const topics = Object.values(vocabularyFiles)
     border-color: var(--mint-deep);
     transform: translateY(-2px);
     box-shadow: 0 8px 24px rgba(18, 52, 48, 0.06);
-  }
-  .vocabulary-card__icon {
-    margin-bottom: 12px;
-  }
-  .vocabulary-card__emoji {
-    font-size: 32px;
-    line-height: 1;
   }
   .vocabulary-card__title {
     font-family: "Onest", system-ui, sans-serif;
