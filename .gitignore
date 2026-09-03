@@ -7,7 +7,8 @@ dist
 *.log
 CONTEXT.md
 SKILLS.md
-/_vocabulary-redesign-plan.md
+# План-документы в корне (ТЗ; не коммитятся)
+/_*-plan.md
 
 # Промежуточные данные словаря (перегенерируемые скриптами; итог — src/data/vocabulary/*.json)
 /scripts/_*.json
