@@ -1,16 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
-import Icon from '../components/Icon.astro';
 import phrases from '../data/phrases.json';
 import recs from '../data/recommendations.json';
 
 const levels = ['A0', 'A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
-const sections = [
-  { img: 'grammar',    title: 'Грамматика',   href: '/grammar' },
-  { img: 'vocabulary', title: 'Словарь',      href: '/grammar' },
-  { img: 'listening',  title: 'Аудирование',  href: '/grammar' },
-  { img: 'speaking',   title: 'Говорение',    href: '/grammar' },
-];
 
 // Номер дня в году (1-based) из календарных полей: не зависит от часового пояса
 // и перехода на летнее время (разница epoch-моментов «плывёт» на DST).
@@ -23,7 +16,6 @@ const seed = dayOfYear(new Date());
 const phrase = phrases[seed % phrases.length];
 
 const typeOrder = ['podcast', 'video', 'book', 'series', 'song'];
-const typeIcon = { podcast: 'eq', video: 'play', book: 'book', series: 'film', song: 'note' };
 // Ротация: множители (13, 11) взаимно просты с длинами пулов — каждый тип идёт
 // по своему «перемешанному» кругу: соседние дни не повторяются, порядок не выглядит
 // последовательным, полный цикл = длине пула (для пулов 400+ — больше года).
@@ -43,15 +35,6 @@ const picks = typeOrder.map((t, i) => {
           <p class="hero__sub-en">Hey! Ho! Let’s go!</p>
         </div>
 
-        <div class="tiles">
-          {sections.map((s) => (
-            <a href={s.href} class="tile" data-reveal aria-label={s.title} title={s.title}>
-              <img src={'/sections/' + s.img + '.png'} alt={s.title} class="tile__img" loading="lazy" />
-              <span class="tile__go" aria-hidden="true">→</span>
-            </a>
-          ))}
-        </div>
-
         <p class="hero__punch" aria-hidden="true"></p>
         <p class="cfr-note" data-reveal><span class="cfr-grp">A0–A2 — начать и разобраться</span><span class="cfr-sep"> · </span><span class="cfr-grp">B1–B2 — говорить и понимать</span><span class="cfr-sep"> · </span><span class="cfr-grp">C1–C2 — читать, чувствовать и владеть</span></p>
         <div class="levels levels--text">
@@ -62,13 +45,6 @@ const picks = typeOrder.map((t, i) => {
               </>
             ))}
           </div>
-        <div class="levels levels--img">
-          {levels.map((l) => (
-            <a href={'/grammar#' + l} class="lvl-img" title={'Уровень ' + l} aria-label={'Уровень ' + l}>
-              <img src={'/levels/' + l.toLowerCase() + '.png'} alt={'Уровень ' + l} loading="lazy" />
-            </a>
-          ))}
-        </div>
       </div>
 
       <div class="hero__visual" data-reveal>

@@ -1273,7 +1273,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .hero__punch mark.hl { padding: 0 4px; }/* hero ritchie v2 + serif (update42) */
 .hero__copy { position: relative; z-index: 1; max-width: 100%; }
 .hero h1 { font-family: var(--display-serif); font-weight: 800; font-size: clamp(28px, 4.2vw, 54px); line-height: 1.28; letter-spacing: -0.005em; margin: 12px 0 16px; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
-.hero__sub { color: var(--ink); font-weight: 700; font-size: 18px; line-height: 1.62; max-width: 44ch; }
+.hero__sub { color: var(--ink); font-family: var(--display-serif); font-weight: 600; font-size: 18px; line-height: 1.62; max-width: 44ch; }
 .hero__invert { background: var(--mint-ink); color: var(--paper); padding: 0.05em 0.16em; border-radius: 8px; letter-spacing: 0.012em; -webkit-box-decoration-break: clone; box-decoration-break: clone; }
 .hero__punch-hl { background-image: linear-gradient(var(--mint-deep), var(--mint-deep)); background-repeat: no-repeat; background-position: left 88%; background-size: 100% 0.42em; padding: 0 2px; border-radius: 3px; color: var(--ink); font-weight: 800; }
 .tiles { position: relative; z-index: 1; }
@@ -1638,7 +1638,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 /* Манифест растянут по ширине (justify), последняя строка — по левому краю */
 .hero__sub { text-align: justify; text-align-last: left; }
 /* «Hey! Ho! Let's go!» — «подпись»: своя строка, прижата к правому краю */
-.hero__sub-en { display: block; width: fit-content; margin: 10px 0 0 auto; font-family: 'Lora', Georgia, serif; font-weight: 700; color: var(--ink); font-size: clamp(16px, 1.45vw, 20px); line-height: 1.6; }
+.hero__sub-en { display: block; width: fit-content; margin: 10px 0 0 auto; font-family: var(--display-serif); font-weight: 600; color: var(--ink); font-size: clamp(16px, 1.45vw, 20px); line-height: 1.6; }
 .hero__punch { display: flex; justify-content: space-between; align-items: baseline; white-space: normal; gap: 12px; font-size: clamp(14px, 1.5vw, 18px); }
 .hero__punch .sep { margin: 0; }/* punchline single line (update54) */
 .hero__punch { flex-wrap: wrap; font-size: clamp(13px, 1.4vw, 17px); }
@@ -1949,6 +1949,19 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .level-link.is-active .level-link__n { opacity: .8; }
 .site-foot__inner .brand__word { font-family: var(--display); font-weight: 800; font-size: 17px; letter-spacing: -0.02em; color: var(--ink); }
 .site-foot__inner .brand__word b { color: var(--mint-ink); }
+/* футер по скрину: логотип — sans bold, подписи — сериф regular */
+.site-foot__inner > span:first-child {
+  font-family: var(--display-serif);
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--ink-mid);
+}
+.site-foot__inner > .muted b {
+  font-family: var(--display-serif);
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--ink-mid);
+}
 
 /* ============================================
    ТУМБЛЕР СТИЛЕЙ УРОКА (Джентльмен/Рок-н-рольщик)
@@ -4905,8 +4918,9 @@ HOME — cinematic London background (с прозрачностью)
 ============================================================ */
 body:has(.hero) {
   background-image:
-    /* Белый полупрозрачный слой — меняй 0.45 на нужное значение (0.3 = светлее, 0.6 = ещё светлее) */
-    linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)),
+    /* Белый полупрозрачный слой — плотность фона главной:
+       0.8 = спокойный бледный фон; ниже (0.6) = фото заметнее */
+    linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
     /* Нижний градиент (почти не виден, оставлен как был) */
     linear-gradient(
       to bottom,
