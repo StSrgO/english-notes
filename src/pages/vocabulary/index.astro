@@ -22,6 +22,7 @@ const topics = Object.values(vocabularyFiles)
         <a href={`/vocabulary/${topic.slug}`} class="vocabulary-card">
           <h2 class="vocabulary-card__title">{topic.title}</h2>
           <p class="vocabulary-card__desc">{topic.titleRu}</p>
+          {topic.intro && <p class="vocabulary-card__intro">{topic.intro}</p>}
           <span class="vocabulary-card__count">{topic.total ?? (topic.words?.length ?? (topic.groups?.reduce((n, g) => n + (g.words?.length || 0), 0) || 0))} слов</span>
         </a>
       ))}
@@ -84,8 +85,19 @@ const topics = Object.values(vocabularyFiles)
     font-family: "Manrope", system-ui, sans-serif;
     font-size: 14px;
     color: var(--ink-soft);
-    margin-bottom: 12px;
+    margin-bottom: 6px;
     line-height: 1.4;
+  }
+  .vocabulary-card__intro {
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: var(--ink-mid);
+    margin: 0 0 14px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
   .vocabulary-card__count {
     font-family: "JetBrains Mono", monospace;
