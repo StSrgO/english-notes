@@ -62,15 +62,22 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
             </p>
           </header>
 
-          <nav class="vocab-chips" id="verbs-chips" aria-label="Группы глаголов">
-            {topic.groups.map((group, i) => (
-              <a class="vocab-chips__item" href={`#${group.id}`}>
-                <span class="vocab-chips__n">{String(i + 1).padStart(2, "0")}</span>
-                <span class="vocab-chips__name">{group.chip || group.groupName}</span>
-                <span class="vocab-chips__count">{group.words.length}</span>
-              </a>
-            ))}
-          </nav>
+          <div class="vocab-layout">
+            <aside class="vocab-side" aria-label="Содержание страницы">
+              <nav class="vocab-side__nav">
+                {topic.groups.map((group, i) => (
+                  <a class="vocab-side__link" href={`#${group.id}`} data-side-spy={group.id}>
+                    <span class="vocab-side__n">{String(i + 1).padStart(2, "0")}</span>
+                    <span class="vocab-side__name">{group.groupNameRu}</span>
+                    <span class="vocab-side__count">{group.words.length}</span>
+                  </a>
+                ))}
+                <a class="vocab-side__link vocab-side__link--quiz" href="#verb-quiz-host" data-side-spy="verb-quiz-host">
+                  <span class="vocab-side__name">Проверь себя</span>
+                </a>
+              </nav>
+            </aside>
+            <div class="vocab-layout__main">
 
           {topic.groups.map((group, gi) => (
             <section class="vocab-group" id={group.id} data-group>
@@ -116,7 +123,10 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
                       ))}
                     </div>
 
-                    <span class="vocab-row__ru">{word.ru}</span>
+                    <div class="vocab-row__ruwrap">
+                      <span class="vocab-row__ru">{word.ru}</span>
+                      <span class="vocab-row__ex-tag">пример ›</span>
+                    </div>
 
                     <span class="vocab-row__rank" aria-label={`Ранг ${word.rank} по частотности`}>
                       #{word.rank}
@@ -143,6 +153,13 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
                       </svg>
                       <span class="sr-only">Озвучить</span>
                     </button>
+
+                    {word.example && (
+                      <div class="vocab-example">
+                        <span class="vocab-example__en">{word.example.en}</span>
+                        <span class="vocab-example__ru">{word.example.ru}</span>
+                      </div>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -175,6 +192,8 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
               });
             })();
           </script>
+            </div>
+          </div>
         </>
       ) : (
         <>
@@ -344,6 +363,26 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
         const btn = e.target.closest("[data-play]");
         if (btn) speakRow(btn.dataset.play);
       });
+
+      // ---------- Примеры-фразы: раскрытие по клику на строку ----------
+      document.addEventListener("click", (e) => {
+        const row = e.target.closest(".vocab-row");
+        if (!row) return;
+        if (e.target.closest("a, button, input, label")) return; // свои контролы
+        row.classList.toggle("is-open");
+      });
+
+      // ---------- Scrollspy: подсветка активного раздела в боковом меню ----------
+      const sideLinks = Array.from(document.querySelectorAll("[data-side-spy]"));
+      const spySecs = sideLinks.map((l) => document.getElementById(l.dataset.sideSpy)).filter(Boolean);
+      if (sideLinks.length && spySecs.length) {
+        const setSpy = (id) => sideLinks.forEach((l) => l.classList.toggle("is-active", l.dataset.sideSpy === id));
+        const spy = new IntersectionObserver((entries) => {
+          entries.forEach((en) => { if (en.isIntersecting) setSpy(en.target.id); });
+        }, { rootMargin: "-15% 0px -70% 0px", threshold: 0 });
+        spySecs.forEach((sec) => spy.observe(sec));
+        setSpy(sideLinks[0].dataset.sideSpy);
+      }
     </script>
   )
 }
@@ -459,58 +498,83 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     margin: 10px 0 0;
   }
 
-  /* ---------- тренажёр: sticky-чипы групп ---------- */
-  .vocab-chips {
+  /* ---------- тренажёр: лейаут с боковым меню (как в уроках) ---------- */
+  .vocabulary-topic:has(.vocab-layout) { max-width: 1140px; }
+  .vocab-layout {
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 44px;
+    align-items: start;
+  }
+  .vocab-side {
     position: sticky;
-    top: calc(var(--head-h, 64px) + 8px);
-    z-index: 25;
+    top: calc(var(--head-h, 64px) + 18px);
+    max-height: calc(100vh - var(--head-h, 64px) - 40px);
+    overflow-y: auto;
+    padding: 4px 8px 4px 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--mint-deep) transparent;
+  }
+  .vocab-side::-webkit-scrollbar { width: 6px; }
+  .vocab-side::-webkit-scrollbar-thumb { background: var(--mint-deep); border-radius: 3px; }
+  .vocab-side__nav {
+    display: grid;
+    gap: 2px;
+    border-left: 2px solid var(--line);
+    margin-left: 2px;
+  }
+  .vocab-side__link {
     display: flex;
-    gap: 6px;
-    overflow-x: auto;
-    margin: 0 0 34px;
-    padding: 8px 2px;
-    background: var(--paper);
-    border-bottom: 1px solid var(--line);
-    scrollbar-width: none;
-  }
-  .vocab-chips::-webkit-scrollbar { display: none; }
-  .vocab-chips__item {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    flex: 0 0 auto;
-    padding: 6px 10px;
-    border-radius: 99px;
-    border: 1px solid var(--line);
-    background: var(--surface);
-    color: var(--ink-mid);
+    align-items: baseline;
+    gap: 8px;
+    padding: 7px 10px 7px 14px;
+    border-radius: 0 10px 10px 0;
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--ink-soft);
     text-decoration: none;
-    transition: border-color 0.15s, background 0.15s, color 0.15s;
+    transition: color 0.15s, background 0.15s;
   }
-  .vocab-chips__item:hover {
-    border-color: var(--mint-deep);
+  .vocab-side__link:hover { color: var(--ink); background: var(--mint); }
+  .vocab-side__link.is-active {
     color: var(--ink);
+    font-weight: 700;
+    background: var(--mint);
+    box-shadow: inset 3px 0 0 var(--mint-ink);
   }
-  .vocab-chips__item:focus-visible {
+  .vocab-side__link:focus-visible {
     outline: none;
-    box-shadow: 0 0 0 3px var(--mint);
+    box-shadow: inset 3px 0 0 var(--mint-ink), 0 0 0 3px var(--mint);
   }
-  .vocab-chips__n {
+  .vocab-side__n {
     font-family: "JetBrains Mono", monospace;
     font-size: 10px;
     font-weight: 700;
     color: var(--mint-ink);
+    flex: 0 0 auto;
   }
-  .vocab-chips__name { font-family: "Manrope", system-ui, sans-serif; font-size: 13px; font-weight: 700; }
-  .vocab-chips__count {
+  .vocab-side__name { min-width: 0; }
+  .vocab-side__count {
+    margin-left: auto;
     font-family: "JetBrains Mono", monospace;
     font-size: 10px;
     font-weight: 700;
     color: var(--ink-soft);
-    background: var(--mint);
-    border-radius: 99px;
-    padding: 1px 6px;
+    flex: 0 0 auto;
   }
+  .vocab-side__link--quiz {
+    margin-top: 10px;
+    padding-top: 11px;
+    border-top: 1px solid var(--line);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  .vocab-layout__main { min-width: 0; }
 
   /* ---------- тренажёр: группы ---------- */
   .vocab-group {
@@ -570,13 +634,16 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   .vocab-row {
     display: grid;
     grid-template-columns: 28px minmax(0, 1fr) auto auto auto;
-    grid-template-areas: "check forms ru rank play";
+    grid-template-areas:
+      "check forms ru rank play"
+      "ex ex ex ex ex";
     align-items: center;
-    gap: 10px 16px;
+    gap: 2px 16px;
     padding: 8px 14px 8px 10px;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: 12px;
+    cursor: pointer;
     transition: border-color 0.15s, background 0.15s;
   }
   .vocab-row:hover { border-color: var(--mint-deep); }
@@ -650,15 +717,34 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
   .vocab-row.is-known .vocab-form__ipa { opacity: 0.8; }
 
-  .vocab-row__ru {
+  .vocab-row__ruwrap {
     grid-area: ru;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 2px;
+    min-width: 0;
+  }
+  .vocab-row__ru {
     font-family: "Manrope", system-ui, sans-serif;
     font-size: 14px;
     color: var(--ink-mid);
     text-align: right;
     max-width: 200px;
+    line-height: 1.4;
   }
   .vocab-row.is-known .vocab-row__ru { color: var(--ink-soft); }
+  .vocab-row__ex-tag {
+    font-family: "JetBrains Mono", monospace;
+    font-size: 9.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--mint-ink);
+    opacity: 0.75;
+  }
+  .vocab-row:hover .vocab-row__ex-tag,
+  .vocab-row.is-open .vocab-row__ex-tag { opacity: 1; }
 
   .vocab-row__rank {
     grid-area: rank;
@@ -688,6 +774,32 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     box-shadow: 0 0 0 3px var(--mint);
   }
   .vocab-row.is-known .vocab-row__play { background: transparent; }
+
+  /* пример-фраза: раскрывается по клику на строку */
+  .vocab-example {
+    grid-column: 1 / -1;
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+    margin: 4px 2px 2px;
+    padding: 9px 14px;
+    background: var(--paper);
+    border: 1px dashed var(--mint-deep);
+    border-radius: 10px;
+  }
+  .vocab-row.is-open .vocab-example { display: flex; }
+  .vocab-example__en {
+    font-family: "Lora", Georgia, serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink);
+  }
+  .vocab-example__ru {
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink-mid);
+  }
 
   /* ---------- фолбэк (старая схема) ---------- */
   .vocabulary-group { margin-bottom: 40px; }
@@ -767,6 +879,57 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
 
   /* ---------- мобильная ---------- */
+  @media (max-width: 1100px) {
+    .vocab-layout { grid-template-columns: minmax(0, 1fr); gap: 6px; }
+    /* sticky-обёртка не скроллится (iOS Safari): скролл живёт во внутреннем nav */
+    .vocab-side {
+      position: sticky;
+      top: var(--head-h, 64px);
+      z-index: 25;
+      max-height: none;
+      overflow: visible;
+      margin: 0 0 18px;
+      padding: 0;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+    }
+    .vocab-side__nav {
+      display: flex;
+      flex-wrap: nowrap;
+      align-items: stretch;
+      gap: 2px;
+      overflow-x: auto;
+      border-left: none;
+      margin-left: 0;
+      padding: 8px 4px 0;
+      scrollbar-width: none;
+    }
+    .vocab-side__nav::-webkit-scrollbar { display: none; }
+    .vocab-side__link {
+      flex: 0 0 auto;
+      align-items: baseline;
+      border-radius: 10px 10px 0 0;
+      background: none;
+      padding: 8px 12px 9px;
+      font-family: "JetBrains Mono", monospace;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+      white-space: nowrap;
+    }
+    .vocab-side__link:hover { background: var(--mint); color: var(--ink); }
+    .vocab-side__link.is-active {
+      background: none;
+      color: var(--ink);
+      font-weight: 700;
+      box-shadow: inset 0 -2px 0 0 var(--mint-ink);
+    }
+    .vocab-side__n,
+    .vocab-side__count { display: none; }
+    .vocab-side__link--quiz { margin-top: 0; padding-top: 8px; border-top: none; }
+  }
   @media (max-width: 640px) {
     .vocabulary-topic { padding: 20px 14px 44px; }
     .vocabulary-topic__header h1 { font-size: 29px; }
@@ -775,19 +938,20 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
       grid-template-columns: 26px minmax(0, 1fr) auto;
       grid-template-areas:
         "check forms rank"
-        "check ru play";
-      gap: 6px 12px;
+        "check ru play"
+        "ex ex ex";
+      gap: 2px 12px;
       align-items: center;
       padding: 10px 12px 10px 8px;
     }
     .vocab-row__forms { gap: 8px 10px; }
     .vocab-form__word { font-size: 15px; }
     .vocab-form__ipa { font-size: 10px; }
+    .vocab-row__ruwrap { align-items: flex-start; }
     .vocab-row__ru { text-align: left; max-width: none; font-size: 13.5px; }
     .vocab-row__rank { justify-self: end; }
     .vocab-row__play { width: 30px; height: 30px; }
     .vocab-group__head { align-items: flex-start; }
-    .vocab-chips { top: calc(var(--head-h, 64px) + 2px); margin-bottom: 24px; }
   }
   @media (prefers-reduced-motion: reduce) {
     .vocab-progress__fill { transition: none; }
