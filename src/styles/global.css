@@ -779,7 +779,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   pointer-events: none;
   opacity: var(--tower-opacity, 0.2);
   mix-blend-mode: multiply;
-  background: no-repeat center / cover url("/tower.png");
+  background: no-repeat center / cover url("/tower.webp");
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 30%, transparent 92%), radial-gradient(130% 90% at 35% 25%, #000 55%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 30%, transparent 92%), radial-gradient(130% 90% at 35% 25%, #000 55%, transparent 100%);
   -webkit-mask-composite: source-in;
@@ -959,7 +959,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   pointer-events: none;
   opacity: var(--tower-opacity, 0.26);
   mix-blend-mode: multiply;
-  background: no-repeat center / cover url("/tower.png");
+  background: no-repeat center / cover url("/tower.webp");
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 60%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 60%, transparent 100%);
   animation: towerIn 1.2s 0.15s cubic-bezier(0.2, 0.7, 0.2, 1) both;
@@ -1290,7 +1290,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   pointer-events: none;
   opacity: var(--tower-opacity, 0.26);
   mix-blend-mode: multiply;
-  background: no-repeat center / cover url("/tower.png");
+  background: no-repeat center / cover url("/tower.webp");
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 96%), radial-gradient(120% 80% at 50% 30%, #000 60%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 96%), radial-gradient(120% 80% at 50% 30%, #000 60%, transparent 100%);
   -webkit-mask-composite: source-in;
@@ -2206,7 +2206,7 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
   pointer-events: none;
   opacity: 0.26;
   mix-blend-mode: multiply;
-  background: no-repeat center / cover url("/tower.png");
+  background: no-repeat center / cover url("/tower.webp");
   -webkit-mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 96%), radial-gradient(120% 80% at 50% 30%, #000 60%, transparent 100%);
   mask-image: linear-gradient(to bottom, #000 0%, #000 52%, transparent 96%), radial-gradient(120% 80% at 50% 30%, #000 60%, transparent 100%);
 }
@@ -2479,7 +2479,7 @@ main { flex: 1 0 auto; }
 }
 @media (max-width: 920px) {
   .hero h1 { align-items: flex-start; }
-  .hero__tower--right { right: 8px; left: auto; transform: none; background: no-repeat center / cover url("/tower.png"); }
+  .hero__tower--right { right: 8px; left: auto; transform: none; background: no-repeat center / cover url("/tower.webp"); }
 }
 
 
@@ -4821,7 +4821,7 @@ main { flex: 1 0 auto; }
    ============================================================ */
 
 body:has(.hero) {
-  background-image: url("/images/home-london-bg.png");
+  background-image: url("/images/home-london-bg.webp");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -4914,7 +4914,7 @@ body:has(.hero) {
       rgba(255,255,255,0.02) 62%,
       rgba(255,255,255,0.00) 100%
     ),
-    url("/images/home-london-bg.png");
+    url("/images/home-london-bg.webp");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -5377,7 +5377,7 @@ FIX — МОБИЛЬНАЯ ГЛАВНАЯ: БЕЗ ПОДПИСЕЙ УРОВНЕ�
 body:has(.soon) {
   background-image:
     linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
-    url("/images/cat.png");
+    url("/images/cat.webp");
   background-size: auto 94vh;
   background-position: 76% 50%;
   background-repeat: no-repeat;

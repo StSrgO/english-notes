@@ -34,6 +34,9 @@ node_modules/
 /analytics
 /notes_check.txt
 
+# Оригиналы изображений до оптимизации (не летят в сборку и деплой)
+/backup-original-images/
+
 # Кэш и логи
 *.log
 .cache/
