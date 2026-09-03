@@ -51,7 +51,7 @@ const picks = typeOrder.map((t, i) => {
         <section class="daily">
           <h2 class="block-label">фраза дня</h2>
           <figure class="quote-card">
-            <blockquote class="quote-card__en">{phrase.en}</blockquote>
+            <blockquote class="quote-card__en"><span class="hl-mark">{phrase.en}</span></blockquote>
             <p class="quote-card__ru">{phrase.ru}</p>
             {phrase.author && (
               <figcaption class="quote-card__by">— {phrase.author}{phrase.source ? ', ' + phrase.source : ''}</figcaption>
@@ -178,7 +178,7 @@ const picks = typeOrder.map((t, i) => {
 
           const [en, ru, author, source] = phrases[seed % phrases.length];
           card.innerHTML =
-            '<blockquote class="quote-card__en">' + esc(en) + '</blockquote>' +
+            '<blockquote class="quote-card__en"><span class="hl-mark">' + esc(en) + '</span></blockquote>' +
             '<p class="quote-card__ru">' + esc(ru) + '</p>' +
             (author ? '<figcaption class="quote-card__by">— ' + esc(author) + (source ? ', ' + esc(source) : '') + '</figcaption>' : '');
 
