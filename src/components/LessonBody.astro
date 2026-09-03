@@ -339,7 +339,6 @@ function ideaHtml(text) {
       )}
       {quizUi.morePracticeMore && quizUi.morePracticeMore.length > 0 && (
         <p class="practice__also">
-          {quizUi.morePracticeAlsoLabel}{' '}
           {quizUi.morePracticeMore.map((m, i) => (
             <>{i > 0 && <span class="practice__sep">&#183;</span>}<a href={m.href} target="_blank" rel="noopener noreferrer">{m.label}</a></>
           ))}
