@@ -1,7 +1,8 @@
 // T9 (план словаря): сборка финального src/data/vocabulary/irregular-verbs.json
-// из scripts/_verbs.json (200 глаголов: v1/v2/v3/rank/ipa/ru) + метаданных групп.
-// Схема записи — §3.1 плана; example/quiz появятся на T6/T7 (сейчас их нет — страница
-// рендерит без них). Порядок групп и слов внутри — по рангу. Воспроизводимо: node scripts/build-irregular-verbs.mjs.
+// из scripts/_verbs.json (200 глаголов: v1/v2/v3/rank/ipa/ru) + scripts/_examples.json
+// (example{en,ru} на каждый глагол, T6) + метаданных групп.
+// Схема записи — §3.1 плана; квизы появятся на T7. Порядок групп и слов внутри — по рангу.
+// Воспроизводимо: node scripts/build-irregular-verbs.mjs.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -25,6 +26,7 @@ const GROUP_META = {
 
 const groupsJson = JSON.parse(fs.readFileSync(path.join(__dirname, "_groups.json"), "utf8"));
 const verbsJson = JSON.parse(fs.readFileSync(path.join(__dirname, "_verbs.json"), "utf8"));
+const examplesJson = JSON.parse(fs.readFileSync(path.join(__dirname, "_examples.json"), "utf8"));
 const byV1 = new Map(verbsJson.verbs.map((v) => [v.v1, v]));
 
 const groups = [];
@@ -36,19 +38,30 @@ for (const g of groupsJson.groups) {
     .map((w) => byV1.get(w.v1))
     .filter(Boolean)
     .sort((a, b) => a.rank - b.rank)
-    .map((v) => ({
-      v1: v.v1,
-      v2: v.v2,
-      v3: v.v3,
-      rank: v.rank,
-      ipa: v.ipa,
-      ru: v.ru,
-    }));
+    .map((v) => {
+      const ex = examplesJson[v.v1];
+      if (!ex || !ex.en || !ex.ru) throw new Error(`нет примера для ${v.v1}`);
+      return {
+        v1: v.v1,
+        v2: v.v2,
+        v3: v.v3,
+        rank: v.rank,
+        ipa: v.ipa,
+        ru: v.ru,
+        example: { en: ex.en, ru: ex.ru },
+      };
+    });
   if (words.length !== g.words.length) throw new Error(`группа ${g.id}: потеряны слова`);
   total += words.length;
   groups.push({ id: g.id, groupName: meta[0], groupNameRu: meta[1], chip: meta[2], words });
 }
 if (total !== 200) throw new Error(`total != 200: ${total}`);
+
+// guard T6: примеры должны быть уникальны (валидатор T11 повторит проверку)
+const allExamples = groups.flatMap((g) => g.words.map((w) => w.example.en));
+if (new Set(allExamples).size !== allExamples.length) {
+  throw new Error(`example.en повторяются: ${allExamples.length - new Set(allExamples).size}`);
+}
 
 const out = {
   slug: "irregular-verbs",

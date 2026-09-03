@@ -1,0 +1,124 @@
+{
+  "groupQuizzes": {
+    "aaa-identical": [
+      { "q": "Вторая форма глагола put — это…", "options": ["put", "putted", "puts", "putting"], "answer": 0, "why": "put — неправильный глагол с одинаковыми формами: put — put — put." },
+      { "q": "Третья форма глагола read — это…", "options": ["reads", "read", "reading", "readed"], "answer": 1, "why": "read — read — read; формы пишутся одинаково, но V2/V3 читаются /red/." },
+      { "q": "Вторая форма глагола cut — это…", "options": ["cutted", "cut", "cuts", "cutting"], "answer": 1, "why": "cut — cut — cut: формы не изменяются." },
+      { "q": "Что означает глагол hurt?", "options": ["ранить; причинять боль", "прятать", "ударять", "слышать"], "answer": 0, "why": "hurt — ранить, причинять боль; формы одинаковые: hurt — hurt — hurt." },
+      { "q": "Какой глагол означает «закрывать»?", "options": ["spread", "shut", "shine", "split"], "answer": 1, "why": "shut — закрывать: shut — shut — shut." },
+      { "q": "Третья форма глагола set — это…", "options": ["set", "sets", "setting", "setted"], "answer": 0, "why": "set — set — set: все формы совпадают." },
+      { "q": "Вторая форма глагола spread — это…", "options": ["spreaded", "spreads", "spread", "spreading"], "answer": 2, "why": "spread — spread — spread: формы не изменяются." },
+      { "q": "Что означает глагол cost?", "options": ["стоить", "резать", "класть", "мочить"], "answer": 0, "why": "cost — стоить: This ticket costs ten dollars." },
+      { "q": "Какой глагол означает «расстраивать»?", "options": ["upset", "offset", "input", "burst"], "answer": 0, "why": "upset — расстраивать: upset — upset — upset." },
+      { "q": "Третья форма глагола hurt — это…", "options": ["hurt", "hurts", "hurten", "hurted"], "answer": 0, "why": "hurt — hurt — hurt: все формы одинаковые." }
+    ],
+    "abb-ought": [
+      { "q": "Вторая форма глагола think — это…", "options": ["thought", "thinks", "thinked", "thinking"], "answer": 0, "why": "think — thought — thought: V2/V3 на -ought." },
+      { "q": "Третья форма глагола buy — это…", "options": ["buyed", "bought", "buys", "brought"], "answer": 1, "why": "buy — bought — bought." },
+      { "q": "Что означает глагол catch?", "options": ["покупать", "ловить; поймать", "искать", "учить; обучать"], "answer": 1, "why": "catch — ловить, поймать: catch — caught — caught." },
+      { "q": "Какой глагол означает «учить; обучать»?", "options": ["teach", "think", "tell", "take"], "answer": 0, "why": "teach — учить, обучать: teach — taught — taught." },
+      { "q": "Третья форма глагола bring — это…", "options": ["brang", "bringed", "brought", "brings"], "answer": 2, "why": "bring — brought — brought." },
+      { "q": "Вторая форма глагола fight — это…", "options": ["fought", "fighted", "fights", "taught"], "answer": 0, "why": "fight — fought — fought." },
+      { "q": "Что означает глагол seek?", "options": ["искать", "бороться; драться", "ловить; поймать", "приносить"], "answer": 0, "why": "seek — искать: seek — sought — sought." },
+      { "q": "Какой глагол означает «думать»?", "options": ["teach", "bring", "catch", "think"], "answer": 3, "why": "think — думать: think — thought — thought." },
+      { "q": "Третья форма глагола catch — это…", "options": ["caught", "catched", "catch", "cut"], "answer": 0, "why": "catch — caught — caught." },
+      { "q": "Вторая форма глагола teach — это…", "options": ["teached", "taught", "thought", "teaches"], "answer": 1, "why": "teach — taught — taught." }
+    ],
+    "abb-t": [
+      { "q": "Вторая форма глагола leave — это…", "options": ["leaved", "left", "leave", "leaves"], "answer": 1, "why": "leave — left — left." },
+      { "q": "Третья форма глагола lose — это…", "options": ["lost", "losed", "loses", "loss"], "answer": 0, "why": "lose — lost — lost." },
+      { "q": "Что означает глагол mean?", "options": ["значить; означать", "тратить", "строить", "чувствовать"], "answer": 0, "why": "mean — значить, означать: What does this word mean?" },
+      { "q": "Какой глагол означает «тратить»?", "options": ["send", "spend", "sleep", "spell"], "answer": 1, "why": "spend — тратить: spend — spent — spent." },
+      { "q": "Вторая форма глагола feel — это…", "options": ["felt", "feeled", "feels", "fall"], "answer": 0, "why": "feel — felt — felt." },
+      { "q": "Третья форма глагола build — это…", "options": ["builded", "built", "build", "bent"], "answer": 1, "why": "build — built — built." },
+      { "q": "Что означает глагол learn?", "options": ["учить(ся)", "прыгать; скакать", "спать", "чувствовать"], "answer": 0, "why": "learn — учить, учиться; V2/V3 — learnt (BrE) или learned." },
+      { "q": "Какой глагол означает «подметать»?", "options": ["weep", "sweep", "swim", "smell"], "answer": 1, "why": "sweep — подметать: sweep — swept — swept." },
+      { "q": "Вторая форма глагола sleep — это…", "options": ["slept", "sleeped", "sleeps", "slip"], "answer": 0, "why": "sleep — slept — slept." },
+      { "q": "Третья форма глагола deal — это…", "options": ["dealt", "dealed", "deal", "dug"], "answer": 0, "why": "deal — dealt — dealt." }
+    ],
+    "abb-vowel": [
+      { "q": "Вторая форма глагола have — это…", "options": ["haved", "had", "has", "held"], "answer": 1, "why": "have — had — had." },
+      { "q": "Третья форма глагола make — это…", "options": ["maked", "made", "makes", "mend"], "answer": 1, "why": "make — made — made." },
+      { "q": "Что означает глагол tell?", "options": ["рассказывать; говорить", "покупать", "держать", "продавать"], "answer": 0, "why": "tell — рассказывать, говорить: tell — told — told." },
+      { "q": "Какой глагол означает «платить»?", "options": ["play", "pay", "lay", "say"], "answer": 1, "why": "pay — платить: pay — paid — paid." },
+      { "q": "Вторая форма глагола get — это…", "options": ["got", "gets", "get", "gut"], "answer": 0, "why": "get — got — got; в AmE третья форма — gotten." },
+      { "q": "Третья форма глагола hold — это…", "options": ["held", "holds", "hold", "hidden"], "answer": 0, "why": "hold — held — held." },
+      { "q": "Что означает глагол hear?", "options": ["слышать", "чувствовать", "держать", "платить"], "answer": 0, "why": "hear — слышать: hear — heard — heard." },
+      { "q": "Какой глагол означает «сидеть»?", "options": ["sat", "sit", "set", "sink"], "answer": 1, "why": "sit — сидеть: sit — sat — sat." },
+      { "q": "Вторая форма глагола meet — это…", "options": ["met", "meeted", "meets", "made"], "answer": 0, "why": "meet — met — met." },
+      { "q": "Третья форма глагола sell — это…", "options": ["sold", "selled", "sells", "held"], "answer": 0, "why": "sell — sold — sold." }
+    ],
+    "abb-u": [
+      { "q": "Вторая форма глагола find — это…", "options": ["found", "finded", "finds", "fought"], "answer": 0, "why": "find — found — found." },
+      { "q": "Третья форма глагола win — это…", "options": ["wan", "won", "winned", "wins"], "answer": 1, "why": "win — won — won." },
+      { "q": "Что означает глагол hang?", "options": ["висеть; вешать", "находить", "петь", "держать"], "answer": 0, "why": "hang — висеть, вешать: hang — hung — hung." },
+      { "q": "Какой глагол означает «копать»?", "options": ["dig", "dug", "ding", "dive"], "answer": 0, "why": "dig — копать: dig — dug — dug." },
+      { "q": "Вторая форма глагола stick — это…", "options": ["stuck", "sticked", "sticks", "strike"], "answer": 0, "why": "stick — stuck — stuck." },
+      { "q": "Третья форма глагола bind — это…", "options": ["bound", "binded", "binds", "band"], "answer": 0, "why": "bind — bound — bound." },
+      { "q": "Что означает глагол swing?", "options": ["качать(ся)", "звонить; звенеть", "крутить(ся); прясть", "шить"], "answer": 0, "why": "swing — качаться: swing — swung — swung." },
+      { "q": "Какой глагол означает «сиять; светить»?", "options": ["shine", "shone", "shout", "shake"], "answer": 0, "why": "shine — сиять, светить: shine — shone — shone." },
+      { "q": "Вторая форма глагола wind — это…", "options": ["wound", "winded", "winds", "wond"], "answer": 0, "why": "wind (вить, извиваться) — wound — wound." },
+      { "q": "Третья форма глагола sting — это…", "options": ["stang", "stung", "stinged", "string"], "answer": 1, "why": "sting — stung — stung." }
+    ],
+    "abc-i-a-u": [
+      { "q": "Вторая форма глагола begin — это…", "options": ["began", "begun", "begin", "beginned"], "answer": 0, "why": "begin — began — begun: гласные i → a → u." },
+      { "q": "Третья форма глагола drink — это…", "options": ["drank", "drunk", "drink", "drinked"], "answer": 1, "why": "drink — drank — drunk." },
+      { "q": "Что означает глагол ring?", "options": ["звонить; звенеть", "петь", "плавать", "прыгать; возникать"], "answer": 0, "why": "ring — звонить, звенеть: ring — rang — rung." },
+      { "q": "Какой глагол означает «петь»?", "options": ["sink", "sing", "swim", "spring"], "answer": 1, "why": "sing — петь: sing — sang — sung." },
+      { "q": "Вторая форма глагола swim — это…", "options": ["swum", "swam", "swim", "swing"], "answer": 1, "why": "swim — swam — swum." },
+      { "q": "Третья форма глагола sink — это…", "options": ["sank", "sunk", "sink", "sang"], "answer": 1, "why": "sink — sank — sunk." },
+      { "q": "Что означает глагол shrink?", "options": ["сжиматься; уменьшаться", "тонуть; опускаться", "начинать", "звонить; звенеть"], "answer": 0, "why": "shrink — сжиматься, уменьшаться: shrink — shrank — shrunk." },
+      { "q": "Какой глагол означает «начинать»?", "options": ["begin", "began", "ring", "drink"], "answer": 0, "why": "begin — начинать: begin — began — begun." },
+      { "q": "Вторая форма глагола ring — это…", "options": ["rang", "rung", "ring", "ran"], "answer": 0, "why": "ring — rang — rung." },
+      { "q": "Третья форма глагола spring — это…", "options": ["sprang", "sprung", "spring", "sang"], "answer": 1, "why": "spring — sprang — sprung." }
+    ],
+    "abc-en": [
+      { "q": "Вторая форма глагола take — это…", "options": ["took", "taken", "takes", "talk"], "answer": 0, "why": "take — took — taken." },
+      { "q": "Третья форма глагола write — это…", "options": ["wrote", "written", "writes", "writ"], "answer": 1, "why": "write — wrote — written." },
+      { "q": "Что означает глагол speak?", "options": ["говорить; разговаривать", "брать", "падать", "писать"], "answer": 0, "why": "speak — говорить, разговаривать: speak — spoke — spoken." },
+      { "q": "Какой глагол означает «ломать»?", "options": ["break", "broke", "bake", "bring"], "answer": 0, "why": "break — ломать: break — broke — broken." },
+      { "q": "Вторая форма глагола eat — это…", "options": ["ate", "eaten", "eats", "eat"], "answer": 0, "why": "eat — ate — eaten." },
+      { "q": "Третья форма глагола fall — это…", "options": ["fell", "fallen", "falls", "felt"], "answer": 1, "why": "fall — fell — fallen." },
+      { "q": "Что означает глагол rise?", "options": ["подниматься; вставать", "выбирать", "есть; кушать", "расти; выращивать"], "answer": 0, "why": "rise — подниматься, вставать: rise — rose — risen." },
+      { "q": "Какой глагол означает «красть; воровать»?", "options": ["steal", "still", "stole", "steel"], "answer": 0, "why": "steal — красть, воровать: steal — stole — stolen." },
+      { "q": "Вторая форма глагола drive — это…", "options": ["drove", "driven", "drives", "draw"], "answer": 0, "why": "drive — drove — driven." },
+      { "q": "Третья форма глагола wake — это…", "options": ["woke", "woken", "wakes", "worn"], "answer": 1, "why": "wake — woke — woken." }
+    ],
+    "abc-n": [
+      { "q": "Вторая форма глагола show — это…", "options": ["showed", "shown", "shows", "shout"], "answer": 0, "why": "show — showed — shown: V3 на -n." },
+      { "q": "Третья форма глагола wear — это…", "options": ["wore", "worn", "wears", "warn"], "answer": 1, "why": "wear — wore — worn." },
+      { "q": "Что означает глагол tear?", "options": ["рвать; разрывать", "носить (одежду)", "клясться; ругаться", "пилить"], "answer": 0, "why": "tear — рвать, разрывать: tear — tore — torn." },
+      { "q": "Какой глагол означает «носить (одежду)»?", "options": ["wear", "wore", "ware", "weep"], "answer": 0, "why": "wear — носить одежду: wear — wore — worn." },
+      { "q": "Вторая форма глагола lie — это…", "options": ["lay", "lain", "lied", "lies"], "answer": 0, "why": "lie (лежать) — lay — lain; не путать с lay — класть." },
+      { "q": "Третья форма глагола swear — это…", "options": ["swore", "sworn", "swears", "swam"], "answer": 1, "why": "swear — swore — sworn." },
+      { "q": "Что означает глагол bear?", "options": ["нести; выносить; рожать", "пилить", "рвать; разрывать", "шить"], "answer": 0, "why": "bear — нести, выносить, рожать: bear — bore — born." },
+      { "q": "Какой глагол означает «шить»?", "options": ["saw", "sew", "sow", "show"], "answer": 1, "why": "sew — шить: sew — sewed — sewn." },
+      { "q": "Вторая форма глагола bear — это…", "options": ["bore", "born", "bears", "burn"], "answer": 0, "why": "bear (рожать) — bore — born." },
+      { "q": "Третья форма глагола slay — это…", "options": ["slew", "slain", "slays", "slept"], "answer": 1, "why": "slay — slew — slain." }
+    ],
+    "abc-ew-own": [
+      { "q": "Вторая форма глагола know — это…", "options": ["knew", "known", "knows", "knit"], "answer": 0, "why": "know — knew — known." },
+      { "q": "Третья форма глагола grow — это…", "options": ["grew", "grown", "grows", "grow"], "answer": 1, "why": "grow — grew — grown." },
+      { "q": "Что означает глагол draw?", "options": ["рисовать; тянуть", "летать", "знать", "дуть"], "answer": 0, "why": "draw — рисовать, тянуть: draw — drew — drawn." },
+      { "q": "Какой глагол означает «бросать; кидать»?", "options": ["throw", "flow", "threw", "blow"], "answer": 0, "why": "throw — бросать, кидать: throw — threw — thrown." },
+      { "q": "Вторая форма глагола fly — это…", "options": ["flew", "flown", "flies", "flow"], "answer": 0, "why": "fly — flew — flown." },
+      { "q": "Третья форма глагола blow — это…", "options": ["blew", "blown", "blows", "bowl"], "answer": 1, "why": "blow — blew — blown." },
+      { "q": "Что означает глагол withdraw?", "options": ["снимать (деньги); отзывать", "рисовать; тянуть", "свергать", "расти; выращивать"], "answer": 0, "why": "withdraw — снимать деньги, отзывать: withdraw — withdrew — withdrawn." },
+      { "q": "Какой глагол означает «летать»?", "options": ["fly", "flew", "flow", "fling"], "answer": 0, "why": "fly — летать: fly — flew — flown." },
+      { "q": "Вторая форма глагола overthrow — это…", "options": ["overthrew", "overthrown", "overthrows", "overthrow"], "answer": 0, "why": "overthrow — overthrew — overthrown." },
+      { "q": "Третья форма глагола draw — это…", "options": ["drew", "drawn", "draws", "drop"], "answer": 1, "why": "draw — drew — drawn." }
+    ],
+    "abc-mixed": [
+      { "q": "Вторая форма глагола go — это…", "options": ["went", "gone", "goes", "goed"], "answer": 0, "why": "go — went — gone." },
+      { "q": "Третья форма глагола see — это…", "options": ["saw", "seen", "sees", "sang"], "answer": 1, "why": "see — saw — seen." },
+      { "q": "Что означает глагол do?", "options": ["делать", "говорить; сказать", "идти; ехать", "быть"], "answer": 0, "why": "do — делать: do — did — done." },
+      { "q": "Какой глагол означает «становиться»?", "options": ["become", "became", "come", "begin"], "answer": 0, "why": "become — становиться: become — became — become." },
+      { "q": "Вторая форма глагола come — это…", "options": ["came", "come", "comes", "run"], "answer": 0, "why": "come — came — come: V3 совпадает с V1." },
+      { "q": "Третья форма глагола run — это…", "options": ["ran", "run", "runs", "runned"], "answer": 1, "why": "run — ran — run." },
+      { "q": "Что означает глагол overcome?", "options": ["преодолевать", "перебарщивать; пережаривать", "подвергаться; переносить", "отменять (сделанное)"], "answer": 0, "why": "overcome — преодолевать: overcome — overcame — overcome." },
+      { "q": "Какой глагол означает «видеть»?", "options": ["see", "sea", "saw", "seem"], "answer": 0, "why": "see — видеть: see — saw — seen." },
+      { "q": "Вторая форма глагола beat — это…", "options": ["beaten", "beat", "beats", "bent"], "answer": 1, "why": "beat — beat — beaten: V2 совпадает с V1." },
+      { "q": "Третья форма глагола do — это…", "options": ["did", "done", "does", "drawn"], "answer": 1, "why": "do — did — done." }
+    ]
+  }
+}

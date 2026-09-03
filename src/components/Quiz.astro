@@ -8,7 +8,7 @@ const payload = JSON.stringify({ questions: questions || [], ui: ui || {} });
   </section>
 )}
 <script>
-  document.querySelectorAll('[data-quiz]').forEach((root) => {
+  function mountQuiz(root) {
     const { questions, ui } = JSON.parse(root.dataset.quiz);
     const LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
     const CHECK = '\u2713', CROSS = '\u2717', ARROW = '\u2192';
@@ -39,5 +39,12 @@ const payload = JSON.stringify({ questions: questions || [], ui: ui || {} });
       root.querySelector('.quiz__again').addEventListener('click', () => { state.idx = 0; state.sel = new Array(questions.length).fill(null); state.order = buildOrder(); step(); });
     }
     step();
+  }
+  document.querySelectorAll('[data-quiz]').forEach((root) => mountQuiz(root));
+  // Динамический запуск (тренажёр глаголов): страница создаёт <section class="quiz"
+  // с data-quiz и шлёт quiz:mount — квиз собирается как обычный статичный.
+  document.addEventListener('quiz:mount', (e) => {
+    const root = e.detail && e.detail.root;
+    if (root) mountQuiz(root);
   });
 </script>

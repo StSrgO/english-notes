@@ -2,6 +2,7 @@
 import Base from "../../layouts/Base.astro";
 import Quiz from "../../components/Quiz.astro";
 import quizBank from "../../data/quiz-bank.json";
+import verbQuizzes from "../../data/vocabulary/irregular-verbs-quiz.json";
 
 export async function getStaticPaths() {
   const files = import.meta.glob("../../data/vocabulary/*.json", { eager: true });
@@ -52,6 +53,10 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
                 autocomplete="off"
               />
             </label>
+            <div class="vocab-quizbar">
+              <button type="button" class="vocab-quiz-btn" data-quiz-mix>Микс · 20 случайных</button>
+              <p class="vocab-quizbar__hint">Проверь себя: у каждой группы своя кнопка «Квиз по группе», а «Микс» собирает 20 случайных вопросов из всех групп.</p>
+            </div>
             <p class="vocab-search__hint" hidden id="search-empty">
               Ничего не нашлось. Попробуй другую форму или перевод.
             </p>
@@ -77,7 +82,10 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
                   </h2>
                   <p class="vocab-group__sub">{group.groupNameRu}</p>
                 </div>
-                <span class="vocab-group__count">{group.words.length}</span>
+                <div class="vocab-group__actions">
+                  <button type="button" class="vocab-quiz-btn" data-quiz-group={group.id}>Квиз по группе</button>
+                  <span class="vocab-group__count">{group.words.length}</span>
+                </div>
               </header>
 
               <ul class="vocab-rows" role="list">
@@ -140,6 +148,33 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
               </ul>
             </section>
           ))}
+
+          <section class="vocab-quiz" id="verb-quiz-host">
+            <p class="vocab-quiz__idle">Квизы собираются из слов страницы. Выбери «Квиз по группе» у любой группы или запусти «Микс» — проверка появится здесь.</p>
+          </section>
+
+          <script is:inline define:vars={{ pool: verbQuizzes.groupQuizzes, quizUi: quizBank.__ui }}>
+            (function () {
+              const host = document.getElementById("verb-quiz-host");
+              if (!host) return;
+              const shuffle = (a) => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); const t = a[i]; a[i] = a[j]; a[j] = t; } return a; };
+              const start = (questions) => {
+                host.innerHTML = "";
+                const sec = document.createElement("section");
+                sec.className = "quiz";
+                sec.dataset.quiz = JSON.stringify({ questions, ui: quizUi });
+                host.appendChild(sec);
+                document.dispatchEvent(new CustomEvent("quiz:mount", { detail: { root: sec } }));
+                sec.scrollIntoView({ behavior: "smooth", block: "start" });
+              };
+              document.addEventListener("click", (e) => {
+                const g = e.target.closest("[data-quiz-group]");
+                if (g && pool && pool[g.dataset.quizGroup]) { start(pool[g.dataset.quizGroup]); return; }
+                const mix = e.target.closest("[data-quiz-mix]");
+                if (mix && pool) start(shuffle(Object.values(pool).flat()).slice(0, 20));
+              });
+            })();
+          </script>
         </>
       ) : (
         <>
@@ -757,5 +792,62 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   @media (prefers-reduced-motion: reduce) {
     .vocab-progress__fill { transition: none; }
     .vocab-row__checkmark::after { transition: none; }
+  }
+
+  /* ---------- тренажёр: квизы (T8) ---------- */
+  .vocab-quizbar {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+    margin: 14px 0 2px;
+    max-width: 640px;
+  }
+  .vocab-quiz-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 14px;
+    border-radius: 999px;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mint-ink);
+    background: var(--surface);
+    border: 1.5px solid var(--mint-deep);
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .vocab-quiz-btn:hover { background: var(--mint); border-color: var(--mint-ink); color: var(--ink); }
+  .vocab-quiz-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--mint); }
+  .vocab-quizbar__hint {
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink-soft);
+    margin: 0;
+    flex: 1 1 240px;
+    min-width: 200px;
+  }
+  .vocab-group__actions { display: flex; align-items: center; gap: 12px; }
+  .vocab-quiz {
+    scroll-margin-top: calc(var(--head-h, 64px) + 70px);
+    margin-top: 52px;
+    padding-top: 30px;
+    border-top: 1.5px solid var(--line);
+  }
+  .vocab-quiz__idle {
+    font-family: "Manrope", system-ui, sans-serif;
+    font-size: 15px;
+    color: var(--ink-mid);
+    margin: 0;
+  }
+  @media (max-width: 640px) {
+    .vocab-quizbar { align-items: flex-start; }
+    .vocab-quizbar__hint { flex-basis: 100%; }
+    .vocab-group__actions { gap: 8px; }
   }
 </style>
