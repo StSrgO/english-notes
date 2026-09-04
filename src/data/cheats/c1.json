@@ -1,0 +1,233 @@
+{
+  "level": "C1",
+  "label": "C1 · Продвинутый",
+  "topics": [
+    {
+      "id": "c1-emphasis-do-and-fronting",
+      "title": "Emphasis: do and fronting",
+      "titleRu": "Выделение: усилительное do и fronting",
+      "category": "Grammar",
+      "use": "Подчеркнуть утверждение (do/does/did + V1) или вынести важный элемент в начало предложения.",
+      "formula": [
+        "усиление: I do understand / She does know / I did see him",
+        "fronting: объект или обстоятельство + запятая + обычное предложение"
+      ],
+      "points": [
+        "Усилительное do — в утверждениях, часто когда говорящий возражает сомнению: I do remember you.",
+        "Fronting смещает фокус сообщения: His books, I have read all.",
+        "После do/does/did — начальная форма: I did remember, а не remembered."
+      ],
+      "examples": [
+        {
+          "en": "I do believe you.",
+          "ru": "Я действительно тебе верю."
+        },
+        {
+          "en": "This song, I remember well.",
+          "ru": "Вот эту песню я помню хорошо."
+        }
+      ],
+      "note": "Усиление и отрицание не смешиваются: I do understand not — ошибка, нужно I do not understand.",
+      "lesson": "/grammar/c1-emphasis-do-and-fronting"
+    },
+    {
+      "id": "c1-cleft-sentences",
+      "title": "Cleft Sentences",
+      "titleRu": "Расщеплённые предложения",
+      "category": "Grammar",
+      "use": "Специально выделить один элемент сообщения: человека, предмет, место, время или действие.",
+      "formula": [
+        "What + clause + be + фокус: What I need is more time",
+        "It + be + фокус + that/who + clause: It was Ann who called"
+      ],
+      "points": [
+        "It-cleft выделяет человека или предмет: It was Ann who called, а не Kate.",
+        "Wh-cleft оформляет фокус как ответ на вопрос: What I want is a quiet room.",
+        "Факт не меняется — меняется, какая часть сообщения воспринимается главной."
+      ],
+      "examples": [
+        {
+          "en": "It was Ann who called.",
+          "ru": "Звонила именно Анна."
+        },
+        {
+          "en": "What I need is more time.",
+          "ru": "Мне нужно больше времени — вот что мне нужно."
+        }
+      ],
+      "note": "В it-cleft для человека — who, для предмета — that: It was the name that mattered.",
+      "lesson": "/grammar/c1-cleft-sentences"
+    },
+    {
+      "id": "c1-inversion-after-negative-adverbials",
+      "title": "Inversion after Negative Adverbials",
+      "titleRu": "Инверсия после отрицательных наречий",
+      "category": "Grammar",
+      "use": "Формальное усиление: never, rarely, little, only then, not until в начале предложения меняют порядок слов.",
+      "formula": [
+        "Never had I seen…",
+        "Rarely did he speak…",
+        "Little did they know…",
+        "Only then did she understand…",
+        "Not until later did he realize…"
+      ],
+      "points": [
+        "После такого начала вспомогательный глагол или be встаёт перед подлежащим.",
+        "Если нужен did, смысловой глагол — в начальной форме: Rarely did he speak, а не spoke.",
+        "Little did + подлежащее ≈ «он и не подозревал»."
+      ],
+      "examples": [
+        {
+          "en": "Never had I seen such a place.",
+          "ru": "Никогда я не видел такого места."
+        },
+        {
+          "en": "Only then did she understand.",
+          "ru": "Только тогда она поняла."
+        }
+      ],
+      "note": "Инверсия действует, только пока наречие стоит в начале: I had never seen… (обычный порядок) — норма.",
+      "lesson": "/grammar/c1-inversion-after-negative-adverbials"
+    },
+    {
+      "id": "c1-inversion-in-conditionals",
+      "title": "Inversion in Conditional Sentences",
+      "titleRu": "Инверсия в условных предложениях",
+      "category": "Grammar",
+      "use": "Формальная замена if: Had I known, Were he here, Should you need.",
+      "formula": [
+        "Had + подлежащее + V3 — нереальное прошлое (if + Past Perfect)",
+        "Were + подлежащее (+ to + V1) — гипотетическое настоящее или будущее",
+        "Should + подлежащее + V1 — формальная возможность"
+      ],
+      "points": [
+        "Had she known = If she had known, только компактнее и книжнее.",
+        "if в инвертированной конструкции не ставится: Had she known, а не If had she known.",
+        "were to — гипотетическая ситуация: Were he to return…"
+      ],
+      "examples": [
+        {
+          "en": "Had she known, she would have acted differently.",
+          "ru": "Знай она об этом, она поступила бы иначе."
+        },
+        {
+          "en": "Should you need help, call me.",
+          "ru": "Если вам понадобится помощь, позвоните мне."
+        }
+      ],
+      "note": "После had — V3, а не would: Had she knew — ошибка, нужно Had she known.",
+      "lesson": "/grammar/c1-inversion-in-conditionals"
+    },
+    {
+      "id": "c1-mixed-conditionals",
+      "title": "Mixed Conditionals",
+      "titleRu": "Смешанные условные предложения",
+      "category": "Conditionals",
+      "use": "Условие и результат относятся к разным временам: прошлое объясняет настоящее или настоящее объясняет прошлое.",
+      "formula": [
+        "прошлое → настоящее: if + Past Perfect → would + V1",
+        "настоящее → прошлое: if + Past Simple → would have + V3"
+      ],
+      "points": [
+        "«Если бы тогда…, сейчас было бы…»: If I had studied harder, I would have a better job now.",
+        "«Если бы сейчас…, тогда бы…»: If I were more confident, I would have applied for the job.",
+        "Ключевой признак — времена в условии и результате разные."
+      ],
+      "examples": [
+        {
+          "en": "If I had studied harder, I would have a better job now.",
+          "ru": "Учись я усерднее, сейчас у меня была бы работа лучше."
+        },
+        {
+          "en": "If she were here, she would have helped us yesterday.",
+          "ru": "Будь она здесь, она бы вчера нам помогла."
+        }
+      ],
+      "note": "В Third Conditional обе части — про прошлое; в mixed время в частях разное.",
+      "lesson": "/grammar/c1-mixed-conditionals"
+    },
+    {
+      "id": "c1-participle-clauses",
+      "title": "Participle Clauses",
+      "titleRu": "Причастные обороты",
+      "category": "Grammar",
+      "use": "Сжать два связанных предложения в одно: одновременное действие (V-ing), более раннее (Having + V3) или пассив (V3).",
+      "formula": [
+        "V-ing: Walking home, I saw her",
+        "Having + V3: Having finished work, he left",
+        "V3 (пассив): Shocked by the news, she said nothing"
+      ],
+      "points": [
+        "Логический субъект оборота должен совпадать с субъектом главного предложения.",
+        "Having + V3 подчёркивает, что действие завершилось раньше.",
+        "V3 в начале — пассивное значение: Surprised by the question…"
+      ],
+      "examples": [
+        {
+          "en": "Having finished the report, she went home.",
+          "ru": "Закончив отчёт, она пошла домой."
+        },
+        {
+          "en": "Surprised by the question, he paused.",
+          "ru": "Удивлённый вопросом, он замолчал."
+        }
+      ],
+      "note": "Разные субъекты в обороте и главном предложении — ошибка: Walking in, the room was empty нужно заменить на Walking in, he saw that the room was empty.",
+      "lesson": "/grammar/c1-participle-clauses"
+    },
+    {
+      "id": "c1-past-perfect-continuous",
+      "title": "Past Perfect Continuous",
+      "titleRu": "Прошедшее совершённое продолженное время",
+      "category": "Grammar",
+      "use": "Процесс, который длился до определённого момента в прошлом: had been + V-ing.",
+      "formula": [
+        "had + been + V-ing",
+        "for + продолжительность / since + момент начала"
+      ],
+      "points": [
+        "Акцент на длительности процесса, который шёл до момента в прошлом.",
+        "Часто объясняет состояние: He was tired because he had been working all day.",
+        "Завершённый результат к тому моменту — Past Perfect: had finished."
+      ],
+      "examples": [
+        {
+          "en": "She had been waiting for an hour when he arrived.",
+          "ru": "Она ждала целый час, когда он пришёл."
+        }
+      ],
+      "note": "После had been — V-ing: had been working, а не worked.",
+      "lesson": "/grammar/c1-past-perfect-continuous"
+    },
+    {
+      "id": "c1-subjunctive-wish-regret",
+      "title": "Subjunctive / Wish / Regret",
+      "titleRu": "Сослагательное наклонение, wish и сожаление",
+      "category": "Grammar",
+      "use": "Нереальное настоящее, сожаление о прошлом, желание изменений и нереальное сравнение.",
+      "formula": [
+        "wish + Past Simple / were — нереальное настоящее",
+        "wish + Past Perfect — сожаление о прошлом",
+        "wish + would — желаемое изменение",
+        "as if / as though + Past Simple — нереальное сравнение"
+      ],
+      "points": [
+        "were используется со всеми лицами (irrealis): I wish I were free; He acts as if he were the boss.",
+        "Формальный subjunctive после требования — базовая форма: It is essential that he be informed.",
+        "Сожаление о прошлом всегда через Past Perfect: I wish I had known."
+      ],
+      "examples": [
+        {
+          "en": "I wish I had known the truth.",
+          "ru": "Жаль, что я не знал правды."
+        },
+        {
+          "en": "He talks as if he knew everything.",
+          "ru": "Он говорит так, будто знает всё."
+        }
+      ],
+      "note": "wish + will не бывает: I wish you would stop — правильно; I wish you will stop — ошибка.",
+      "lesson": "/grammar/c1-subjunctive-wish-regret"
+    }
+  ]
+}

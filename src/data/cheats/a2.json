@@ -1,0 +1,232 @@
+{
+  "level": "A2",
+  "label": "A2 · Элементарный",
+  "topics": [
+    {
+      "id": "a2-articles",
+      "title": "Articles",
+      "titleRu": "Артикли: новый, известный, общее значение",
+      "category": "Articles",
+      "use": "Три случая: предмет вводится впервые — a/an, уже известный или конкретный — the, общее значение — без артикля.",
+      "formula": [
+        "впервые: a sailor entered the inn",
+        "известный: the sailor sat down",
+        "общее значение: sailors / water — без артикля"
+      ],
+      "points": [
+        "Множественное число и неисчисляемые существительные в общем смысле — без артикля: Ships can be dangerous.",
+        "Выбор a/an — по первому звуку: an island, но a boat.",
+        "Контекст важнее правил: the уместен, когда собеседник понимает, о чём речь."
+      ],
+      "examples": [
+        {
+          "en": "A sailor entered the inn.",
+          "ru": "Моряк вошёл в гостиницу."
+        },
+        {
+          "en": "Ships can be dangerous.",
+          "ru": "Корабли могут быть опасны."
+        }
+      ],
+      "note": "Если предмет уже упоминался, дальше о нём говорят с the: I saw a ship. The ship was old.",
+      "lesson": "/grammar/a2-articles"
+    },
+    {
+      "id": "a2-comparatives-superlatives",
+      "title": "Comparatives & Superlatives",
+      "titleRu": "Степени сравнения прилагательных",
+      "category": "Grammar",
+      "use": "Comparative сравнивает два объекта, superlative выделяет один объект среди группы.",
+      "formula": [
+        "короткие: -er → the -est (fast → faster → the fastest)",
+        "длинные: more → the most (useful → more useful → the most useful)",
+        "исключения: good → better → the best, bad → worse → the worst"
+      ],
+      "points": [
+        "Сравнение двух — с than: This book is more interesting than that one.",
+        "Superlative почти всегда с the: the most useful option.",
+        "Для меньшей степени — less (менее) и the least (наименее)."
+      ],
+      "examples": [
+        {
+          "en": "This book is more interesting than that one.",
+          "ru": "Эта книга интереснее той."
+        },
+        {
+          "en": "It is the best day of the year.",
+          "ru": "Это лучший день в году."
+        }
+      ],
+      "note": "more и -er одновременно не используются: more better — ошибка, просто better.",
+      "lesson": "/grammar/a2-comparatives-superlatives"
+    },
+    {
+      "id": "a2-prepositions-in-on-at",
+      "title": "Prepositions: In, On, At",
+      "titleRu": "Предлоги места и времени in / on / at",
+      "category": "Grammar",
+      "use": "in — пространство или широкий период, on — поверхность или день, at — точка в пространстве или времени.",
+      "formula": [
+        "in + место или период: in the forest, in winter",
+        "on + поверхность или день: on the table, on Monday",
+        "at + точка: at the station, at six o'clock"
+      ],
+      "points": [
+        "Устойчивые сочетания запоминаются целиком: in the morning, at night, at the weekend.",
+        "Пространство внутри — in: in the forest; поверхность — on: on the table.",
+        "Год и месяц — in: in 1899, in March; конкретная дата — on: on March 22nd."
+      ],
+      "examples": [
+        {
+          "en": "We meet at the station on Monday.",
+          "ru": "Встречаемся на вокзале в понедельник."
+        },
+        {
+          "en": "It is cold in winter.",
+          "ru": "Зимой холодно."
+        }
+      ],
+      "note": "Лодка на воде — on the river, а не in the river.",
+      "lesson": "/grammar/a2-prepositions-in-on-at"
+    },
+    {
+      "id": "a2-some-any-much-many",
+      "title": "Some, Any, Much, Many",
+      "titleRu": "Слова количества",
+      "category": "Grammar",
+      "use": "some — в утверждениях, any — в вопросах и отрицаниях; much — с неисчисляемым, many — с исчисляемым.",
+      "formula": [
+        "some money / some people — утверждение",
+        "any — вопрос или отрицание",
+        "much + неисчисляемое: much time",
+        "many + исчисляемое: many people"
+      ],
+      "points": [
+        "Неисчисляемые существительные (money, time, water, information) не имеют множественного числа.",
+        "В утверждениях much/many в живой речи часто заменяются на a lot of.",
+        "some может звучать как предложение: Would you like some tea?"
+      ],
+      "examples": [
+        {
+          "en": "There isn't any milk in the fridge.",
+          "ru": "В холодильнике нет молока."
+        },
+        {
+          "en": "Many people know this song.",
+          "ru": "Многие знают эту песню."
+        }
+      ],
+      "note": "much с исчисляемым — ошибка: much people не говорят, правильно many people.",
+      "lesson": "/grammar/a2-some-any-much-many"
+    },
+    {
+      "id": "a2-past-continuous",
+      "title": "Past Continuous",
+      "titleRu": "Прошедшее продолженное время",
+      "category": "Tenses",
+      "use": "Процесс в прошлом: длительное действие-фон, на котором происходит другое событие.",
+      "formula": [
+        "was / were + V-ing",
+        "was — I, he, she, it",
+        "were — you, we, they"
+      ],
+      "points": [
+        "Фон (длительное действие) + краткое событие: She was reading when I came.",
+        "Два одновременных процесса — with while: She was cooking while he was working.",
+        "Отрицание и вопрос: wasn't / weren't, Was he reading?"
+      ],
+      "examples": [
+        {
+          "en": "She was cooking when I called.",
+          "ru": "Она готовила, когда я позвонил."
+        }
+      ],
+      "note": "was/were пропускать нельзя: She cooking — ошибка, нужно She was cooking.",
+      "lesson": "/grammar/a2-past-continuous"
+    },
+    {
+      "id": "a2-be-going-to",
+      "title": "Be Going To",
+      "titleRu": "Конструкция be going to",
+      "category": "Grammar",
+      "use": "План уже принят или будущее видно по признакам настоящего: am/is/are + going to + V1.",
+      "formula": [
+        "am / is / are + going to + V1",
+        "план: I am going to call him tomorrow",
+        "предсказание: Look at the clouds. It is going to rain."
+      ],
+      "points": [
+        "План или намерение существуют уже сейчас, до момента речи.",
+        "Предсказание опирается на то, что видно: тёмное небо → дождь.",
+        "Отрицание и вопрос: am not going to, Are you going to…?"
+      ],
+      "examples": [
+        {
+          "en": "I am going to buy a new phone.",
+          "ru": "Я собираюсь купить новый телефон."
+        }
+      ],
+      "note": "be going to — план уже есть; will — решение, принятое прямо в момент речи.",
+      "lesson": "/grammar/a2-be-going-to"
+    },
+    {
+      "id": "a2-future-simple",
+      "title": "Future Simple",
+      "titleRu": "Будущее с will",
+      "category": "Tenses",
+      "use": "Прогнозы, обещания и решения в момент речи: will + V1.",
+      "formula": [
+        "will + V1 — одна форма для всех лиц",
+        "отрицание: won't + V1",
+        "вопрос: Will + подлежащее + V1?"
+      ],
+      "points": [
+        "После will — начальная форма без to и без -s: She will come.",
+        "Разговорные сокращения: I'll, you'll, she'll, won't.",
+        "Прогнозы строятся на мнении говорящего, а не на видимых признаках."
+      ],
+      "examples": [
+        {
+          "en": "I will help you tomorrow.",
+          "ru": "Я помогу тебе завтра."
+        },
+        {
+          "en": "It will rain soon.",
+          "ru": "Скоро пойдёт дождь."
+        }
+      ],
+      "note": "Обещание — will: I will call you. Готовый план — be going to.",
+      "lesson": "/grammar/a2-future-simple"
+    },
+    {
+      "id": "a2-modals-can-must-have-to",
+      "title": "Modals: Can, Must, Have To",
+      "titleRu": "Модальные глаголы can, must, have to",
+      "category": "Grammar",
+      "use": "Возможность или разрешение (can), необходимость: must — внутренняя, have to — внешняя.",
+      "formula": [
+        "can / must + V1 (без to)",
+        "have / has to + V1",
+        "mustn't — запрет",
+        "don't / doesn't have to — не обязательно"
+      ],
+      "points": [
+        "После can и must глагол идёт без to: He can swim.",
+        "must — сам говорящий считает нужным; have to — требуют правила или обстоятельства.",
+        "mustn't = нельзя; don't have to = не обязан (но можно)."
+      ],
+      "examples": [
+        {
+          "en": "She can speak three languages.",
+          "ru": "Она говорит на трёх языках."
+        },
+        {
+          "en": "You don't have to come early.",
+          "ru": "Тебе не обязательно приходить рано."
+        }
+      ],
+      "note": "mustn't и don't have to — разные вещи: You mustn't enter — входить нельзя; you don't have to enter — входить не обязательно.",
+      "lesson": "/grammar/a2-modals-can-must-have-to"
+    }
+  ]
+}

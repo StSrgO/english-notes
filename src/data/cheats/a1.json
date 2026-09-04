@@ -1,0 +1,369 @@
+{
+  "level": "A1",
+  "label": "A1 · Начальный",
+  "topics": [
+    {
+      "id": "a1-verb-to-be",
+      "title": "Verb To Be",
+      "titleRu": "Глагол to be: быть, находиться",
+      "category": "Grammar",
+      "use": "Кто я, где я, какой я: состояние, место, возраст, профессия.",
+      "formula": [
+        "I am",
+        "he / she / it is",
+        "you / we / they are"
+      ],
+      "points": [
+        "Русское «я устал», «она дома» по-английски не обходится без глагола: I am tired, She is at home.",
+        "Отрицание: am not / isn't / aren't.",
+        "Вопрос: am/is/are ставится перед подлежащим: Are you ready?"
+      ],
+      "examples": [
+        {
+          "en": "I am tired.",
+          "ru": "Я устал."
+        },
+        {
+          "en": "She is at home.",
+          "ru": "Она дома."
+        }
+      ],
+      "note": "Пропуск глагола — типичная ошибка: He tired неверно, нужно He is tired.",
+      "lesson": "/grammar/a1-verb-to-be"
+    },
+    {
+      "id": "a1-pronouns",
+      "title": "Pronouns",
+      "titleRu": "Местоимения",
+      "category": "Grammar",
+      "use": "Местоимения заменяют существительные: кто говорит (I), к кому обращаются (you), о ком речь (he, she, it, we, they).",
+      "formula": [
+        "subject: I, you, he, she, it, we, they",
+        "object: me, you, him, her, it, us, them",
+        "possessive: my, your, his, her, its, our, their"
+      ],
+      "points": [
+        "Подлежащее — I; после глагола или предлога — me: I see him / He sees me.",
+        "Форма зависит от роли в предложении: She sees me, а не She sees I.",
+        "Принадлежность — отдельные слова: my book, his voice."
+      ],
+      "examples": [
+        {
+          "en": "She sees me.",
+          "ru": "Она меня видит."
+        },
+        {
+          "en": "This is my book.",
+          "ru": "Это моя книга."
+        }
+      ],
+      "note": "me/him/her/us/them не переводятся как «меня/его/её» дословно — они стоят после глагола.",
+      "lesson": "/grammar/a1-pronouns"
+    },
+    {
+      "id": "a1-nouns",
+      "title": "Nouns",
+      "titleRu": "Существительные",
+      "category": "Grammar",
+      "use": "Слова для людей, мест, предметов и понятий; имена собственные пишутся с заглавной буквы.",
+      "formula": [
+        "person / place / thing / idea",
+        "proper noun: London, Ann — с большой буквы"
+      ],
+      "points": [
+        "Исчисляемое существительное в единственном числе обычно требует артикля: a book, the word.",
+        "Множественное число часто образуется с -s: book → books."
+      ],
+      "examples": [
+        {
+          "en": "London is a big city.",
+          "ru": "Лондон — большой город."
+        },
+        {
+          "en": "This is a difficult question.",
+          "ru": "Это трудный вопрос."
+        }
+      ],
+      "note": "Имена людей и названия городов — всегда с заглавной буквы: Ann, London.",
+      "lesson": "/grammar/a1-nouns"
+    },
+    {
+      "id": "a1-plural-nouns",
+      "title": "Plural Nouns",
+      "titleRu": "Множественное число существительных",
+      "category": "Grammar",
+      "use": "Больше одного предмета: обычно -s, после некоторых окончаний -es, а часть форм нужно запомнить.",
+      "formula": [
+        "gift → gifts (-s)",
+        "watch → watches (-es)",
+        "penny → pennies (согласная + y → ies)",
+        "man → men, child → children, person → people"
+      ],
+      "points": [
+        "Правило -y работает только после согласной: story → stories, но day → days.",
+        "Неправильные формы запоминаются целиком: man → men, woman → women, child → children."
+      ],
+      "examples": [
+        {
+          "en": "I have two gifts.",
+          "ru": "У меня два подарка."
+        },
+        {
+          "en": "Children play in the park.",
+          "ru": "Дети играют в парке."
+        }
+      ],
+      "note": "people — уже множественное число: many people, а не many persons.",
+      "lesson": "/grammar/a1-plural-nouns"
+    },
+    {
+      "id": "a1-articles-a-an",
+      "title": "Articles: A, An and The",
+      "titleRu": "Артикли a/an и the",
+      "category": "Grammar",
+      "use": "a/an вводит один новый предмет; the — предмет уже известный или конкретный.",
+      "formula": [
+        "a + согласный звук: a book",
+        "an + гласный звук: an apple",
+        "the + конкретный предмет"
+      ],
+      "points": [
+        "Выбор a/an зависит от первого звука, а не буквы: an hour — h не читается.",
+        "Первое упоминание — a/an, дальше о том же предмете — the: I saw a cat. The cat was black."
+      ],
+      "examples": [
+        {
+          "en": "I saw a cat. The cat was black.",
+          "ru": "Я увидел кота. Кот был чёрный."
+        }
+      ],
+      "note": "Один исчисляемый предмет без артикля не вводится: I saw cat — ошибка, нужно a cat.",
+      "lesson": "/grammar/a1-articles-a-an"
+    },
+    {
+      "id": "a1-there-is-there-are",
+      "title": "There Is / There Are",
+      "titleRu": "Конструкция there is / there are",
+      "category": "Grammar",
+      "use": "Сообщить, что где-то что-то находится или существует: «в комнате есть…».",
+      "formula": [
+        "There is + a/an + единственное число",
+        "There is + неисчисляемое: there is water",
+        "There are + множественное число"
+      ],
+      "points": [
+        "На русский обычно переводится через «где-то есть / находится».",
+        "Вопрос и отрицание: Is there…? There isn't… There aren't any…",
+        "Не путать с there как «там»: there is — просто «есть/имеется»."
+      ],
+      "examples": [
+        {
+          "en": "There is water in the bottle.",
+          "ru": "В бутылке есть вода."
+        },
+        {
+          "en": "There are two shops near the station.",
+          "ru": "Рядом со станцией два магазина."
+        }
+      ],
+      "note": "Число согласуется с предметом: There is a shop / There are two shops.",
+      "lesson": "/grammar/a1-there-is-there-are"
+    },
+    {
+      "id": "a1-numbers-dates-time",
+      "title": "Numbers, Dates and Time",
+      "titleRu": "Числа, даты и время",
+      "category": "Basics",
+      "use": "Предлоги времени: at — точное время, on — день или дата, in — месяц или год.",
+      "formula": [
+        "at + точное время: at six o'clock",
+        "on + день или дата: on Monday",
+        "in + месяц или год: in March"
+      ],
+      "points": [
+        "В датах используются порядковые числительные: March 22nd — the twenty-second of March.",
+        "Годы обычно читаются парами: 1895 — eighteen ninety-five."
+      ],
+      "examples": [
+        {
+          "en": "The meeting is on Monday at ten.",
+          "ru": "Встреча в понедельник в десять часов."
+        }
+      ],
+      "note": "С годом — только in: in 1895, а не on 1895.",
+      "lesson": "/grammar/a1-numbers-dates-time"
+    },
+    {
+      "id": "a1-colours-clothes",
+      "title": "Colours and Clothes",
+      "titleRu": "Цвета и одежда",
+      "category": "Basics",
+      "use": "Описание внешности: цвет — перед предметом; что надето сейчас — be wearing; что носят обычно — wear.",
+      "formula": [
+        "цвет + предмет: a red dress",
+        "be wearing + сейчас: She is wearing a red dress",
+        "wear + обычно: She wears red dresses"
+      ],
+      "points": [
+        "Прямо сейчас на человеке — be + wearing: He is wearing a black coat.",
+        "Обычное или повторяющееся действие — просто wear (после he/she — wears).",
+        "Части внешности — через have: He has blue eyes."
+      ],
+      "examples": [
+        {
+          "en": "She is wearing a white dress.",
+          "ru": "На ней белое платье."
+        },
+        {
+          "en": "He has blue eyes.",
+          "ru": "У него голубые глаза."
+        }
+      ],
+      "note": "Порядок слов: цвет перед предметом — a red dress, а не a dress red.",
+      "lesson": "/grammar/a1-colours-clothes"
+    },
+    {
+      "id": "a1-present-simple",
+      "title": "Present Simple",
+      "titleRu": "Простое настоящее время",
+      "category": "Grammar",
+      "use": "Привычки, повторяющиеся действия, общие факты и расписания.",
+      "formula": [
+        "I / you / we / they + V1",
+        "he / she / it + V-s",
+        "отрицание: don't / doesn't + V1",
+        "вопрос: Do / Does + подлежащее + V1?"
+      ],
+      "points": [
+        "После he/she/it в утверждении — окончание -s: She works.",
+        "В вопросах и отрицаниях -s переходит в does: Does she work? She doesn't work.",
+        "Маркеры: every day, usually, always, often."
+      ],
+      "examples": [
+        {
+          "en": "I read every day.",
+          "ru": "Я читаю каждый день."
+        },
+        {
+          "en": "She doesn't work here.",
+          "ru": "Она здесь не работает."
+        }
+      ],
+      "note": "Расписания и графики — тоже Present Simple: The train leaves at eight.",
+      "lesson": "/grammar/a1-present-simple"
+    },
+    {
+      "id": "a1-imperative-and-frequency",
+      "title": "Imperative & Frequency",
+      "titleRu": "Команды, просьбы и наречия частоты",
+      "category": "Grammar",
+      "use": "Команды и просьбы (V1, Don't + V1, Let's + V1) и ответы на вопрос «как часто?».",
+      "formula": [
+        "команда: Open the door",
+        "запрет: Don't go",
+        "предложение вместе: Let's go",
+        "частота: always / usually / often / sometimes / never"
+      ],
+      "points": [
+        "Please смягчает команду: Please wait, Please don't go.",
+        "Наречие частоты — перед основным глаголом: He often goes there.",
+        "С глаголом be наречие стоит после него: He is always tired."
+      ],
+      "examples": [
+        {
+          "en": "Please wait a moment.",
+          "ru": "Подождите, пожалуйста, минутку."
+        },
+        {
+          "en": "He is always late.",
+          "ru": "Он всегда опаздывает."
+        }
+      ],
+      "note": "Наречие частоты с be — после is/are: is always, а не always is.",
+      "lesson": "/grammar/a1-imperative-and-frequency"
+    },
+    {
+      "id": "a1-present-continuous",
+      "title": "Present Continuous",
+      "titleRu": "Настоящее продолженное время",
+      "category": "Grammar",
+      "use": "Действие происходит сейчас или длится в текущий период: am/is/are + V-ing.",
+      "formula": [
+        "am / is / are + V-ing",
+        "I am working / She is working / They are working"
+      ],
+      "points": [
+        "Показывает процесс, а не привычку: I am reading now — «читаю сейчас».",
+        "Маркеры: now, at the moment, this week, this year.",
+        "Форма меняется по подлежащему: I am, he is, they are."
+      ],
+      "examples": [
+        {
+          "en": "I am reading a book now.",
+          "ru": "Я сейчас читаю книгу."
+        }
+      ],
+      "note": "am/is/are пропускать нельзя: She reading — ошибка, нужно She is reading.",
+      "lesson": "/grammar/a1-present-continuous"
+    },
+    {
+      "id": "a1-past-simple",
+      "title": "Past Simple",
+      "titleRu": "Простое прошедшее время",
+      "category": "Grammar",
+      "use": "Действия и события, которые произошли и завершились в прошлом.",
+      "formula": [
+        "правильные глаголы: V + -ed (work → worked)",
+        "неправильные: особая форма (go → went)",
+        "отрицание и вопрос: didn't / Did + V1"
+      ],
+      "points": [
+        "Форма одна для всех лиц: I worked, she worked, they worked.",
+        "В вопросе и отрицании — did, а глагол возвращается в начальную форму: Did you go? I didn't go.",
+        "Маркеры: yesterday, last week, in 2020."
+      ],
+      "examples": [
+        {
+          "en": "We watched a film yesterday.",
+          "ru": "Вчера мы смотрели фильм."
+        },
+        {
+          "en": "She went to London last year.",
+          "ru": "В прошлом году она ездила в Лондон."
+        }
+      ],
+      "note": "После did глагол без -ed: I didn't went — ошибка, правильно I didn't go.",
+      "lesson": "/grammar/a1-past-simple"
+    },
+    {
+      "id": "a1-questions",
+      "title": "Questions",
+      "titleRu": "Вопросы",
+      "category": "Grammar",
+      "use": "Порядок слов в вопросах: вспомогательный глагол или be ставится перед подлежащим.",
+      "formula": [
+        "be: Is she ready?",
+        "Do / Does + подлежащее + V1?",
+        "Did + подлежащее + V1?",
+        "wh-слово + …?"
+      ],
+      "points": [
+        "С be вспомогательный глагол не нужен: be сам встаёт в начало — Is he ready?",
+        "С обычным глаголом — do/does/did, основной глагол в начальной форме.",
+        "Специальные вопросы начинаются со what, where, when, who, why, how."
+      ],
+      "examples": [
+        {
+          "en": "Do you like tea?",
+          "ru": "Ты любишь чай?"
+        },
+        {
+          "en": "Where do you live?",
+          "ru": "Где ты живёшь?"
+        }
+      ],
+      "note": "После does/did глагол без -s и -ed: Does she like tea? Did she go home?",
+      "lesson": "/grammar/a1-questions"
+    }
+  ]
+}

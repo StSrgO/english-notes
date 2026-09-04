@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
-export interface Props { title?: string; currentSlug?: string; }
-const { title = 'EnglishNotes', currentSlug = '' } = Astro.props;
+export interface Props { title?: string; currentSlug?: string; description?: string; }
+const { title = 'EnglishNotes', currentSlug = '', description = '' } = Astro.props;
 
 const modules = import.meta.glob('../data/grammar/*.json', { eager: true, import: 'default' });
 const topics = Object.values(modules).sort((a, b) => String(a.slug).localeCompare(String(b.slug)));
@@ -17,6 +17,7 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{title}</title>
+    {description && <meta name="description" content={description} />}
     <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32.png" />
     <link rel="shortcut icon" type="image/png" href="/images/favicon-32.png" />
@@ -61,7 +62,7 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
           <nav class="nav">
             <a href="/">Главная</a>
             <a href="/grammar">Грамматика</a>
-            <a href="/soon">Шпаргалки</a>
+            <a href="/cheats">Шпаргалки</a>
             <a href="/vocabulary" class="nav__link">Слова</a>
             <a href="/soon">Аудирование</a>
             <a href="/soon">Говорение</a>
@@ -71,7 +72,7 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
         <nav class="nav nav--desktop">
           <a href="/">Главная</a>
           <a href="/grammar">Грамматика</a>
-          <a href="/soon">Шпаргалки</a>
+          <a href="/cheats">Шпаргалки</a>
           <a href="/vocabulary" class="nav__link">Слова</a>
           <a href="/soon">Аудирование</a>
           <a href="/soon">Говорение</a>

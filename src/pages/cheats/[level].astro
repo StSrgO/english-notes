@@ -1,0 +1,504 @@
+---
+import Base from "../../layouts/Base.astro";
+
+export function getStaticPaths() {
+  const files = import.meta.glob("../../data/cheats/*.json", { eager: true, import: "default" });
+  return Object.values(files)
+    .filter((d) => d && d.level && Array.isArray(d.topics))
+    .map((d) => ({ params: { level: d.level.toLowerCase() }, props: { data: d } }));
+}
+
+const { data } = Astro.props;
+const topics = data.topics;
+const name = data.label && data.label.startsWith(data.level + " · ") ? data.label.slice(data.level.length + 3) : data.label;
+const pad = (i) => String(i + 1).padStart(2, "0");
+const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.length || t.examples?.length || t.note).length;
+---
+
+<Base title={`Шпаргалки · ${data.level} — EnglishNotes`} description={`Шпаргалки по грамматике английского · ${name}: краткие схемы ${topics.length} тем уровня — когда используется, формула, примеры, частая ошибка.`}>
+  <div class="cheats wrap">
+    <header class="cheats__head">
+      <nav class="cheats-crumb" aria-label="Хлебные крошки">
+        <a href="/grammar">Грамматика</a>
+        <span aria-hidden="true"> · </span>
+        <a href="/cheats">Шпаргалки</a>
+        <span aria-hidden="true"> · </span>
+        <span aria-current="page">{data.level}</span>
+      </nav>
+      <div class="cheats__head-row">
+        <div class="cheats__titles">
+          <p class="eyebrow">grammar · cheats</p>
+          <h1 class="cheats__h1"><span class="hl-mark">Шпаргалки · {data.level}</span></h1>
+        </div>
+        <button type="button" class="cheats-print" data-print>Печать / PDF</button>
+      </div>
+      <p class="cheats__meta">
+        {name} · {topics.length} тем · повторение правила за 10–30 секунд
+      </p>
+      {ready < topics.length && (
+        <p class="cheats__status">
+          Готово карточек: {ready} из {topics.length} — остальные появятся в ближайших обновлениях.
+        </p>
+      )}
+    </header>
+
+    <div class="cheats__layout">
+      <aside class="cheats-side" aria-label="Темы уровня">
+        <span class="cheats-side__t">Темы</span>
+        {topics.map((t, i) => (
+          <a class="cheats-side__link" data-cheat-spy={t.id} href={"#" + t.id}>
+            <span class="cheats-side__n">{pad(i)}</span>
+            <span class="cheats-side__name">{t.titleRu || t.title}</span>
+          </a>
+        ))}
+      </aside>
+
+      <div class="cheats__main">
+        {topics.map((t, i) => {
+          const filled = t.use || t.formula?.length || t.points?.length || t.examples?.length || t.note;
+          return (
+            <section class="cheat-card" id={t.id}>
+              <header class="cheat-card__head">
+                <p class="cheat-card__eye">
+                  <span class="cheat-card__cat">{t.category}</span>
+                  <span aria-hidden="true"> · </span>шпаргалка {data.level} · {pad(i)}
+                </p>
+                <h2 class="cheat-card__title">{t.title}</h2>
+                {t.titleRu && <p class="cheat-card__sub">{t.titleRu}</p>}
+              </header>
+
+              {filled ? (
+                <div class="cheat-card__body">
+                  {t.use && <p class="cheat-card__use">{t.use}</p>}
+
+                  {t.formula?.length > 0 && (
+                    <div class="cheat-card__formula">
+                      {t.formula.map((line) => (
+                        <span class="cheat-card__fline">{line}</span>
+                      ))}
+                    </div>
+                  )}
+
+                  {t.points?.length > 0 && (
+                    <ul class="cheat-card__points">
+                      {t.points.map((p) => (
+                        <li>{p}</li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {t.examples?.length > 0 && (
+                    <ul class="cheat-card__exs">
+                      {t.examples.map((ex) => (
+                        <li class="cheat-card__ex">
+                          <span class="cheat-card__en">{ex.en}</span>
+                          <span class="cheat-card__ru">{ex.ru}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+
+                  {t.note && <p class="cheat-card__note">{t.note}</p>}
+                </div>
+              ) : (
+                <p class="cheat-card__soon">Карточка ещё заполняется — загляни в полный урок.</p>
+              )}
+
+              <a class="cheat-card__lesson" href={t.lesson}>Полный урок →</a>
+            </section>
+          );
+        })}
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const links = Array.from(document.querySelectorAll("[data-cheat-spy]"));
+    if (links.length) {
+      const cards = links.map((l) => document.getElementById(l.dataset.cheatSpy)).filter(Boolean);
+      const nav = links[0].closest(".cheats-side");
+      const setActive = (id, autoscroll) => {
+        links.forEach((a) => a.classList.toggle("is-active", a.dataset.cheatSpy === id));
+        if (!autoscroll || !nav) return;
+        const act = links.find((a) => a.dataset.cheatSpy === id);
+        if (act && nav.scrollWidth > nav.clientWidth) {
+          const nr = nav.getBoundingClientRect();
+          const ar = act.getBoundingClientRect();
+          nav.scrollTo({ left: nav.scrollLeft + (ar.left - nr.left) - (nav.clientWidth - ar.width) / 2, behavior: "smooth" });
+        }
+      };
+      const spy = new IntersectionObserver((entries) => {
+        entries.forEach((en) => {
+          if (en.isIntersecting && en.target.id) {
+            setActive(en.target.id, true);
+            history.replaceState(null, "", "#" + en.target.id);
+          }
+        });
+      }, { rootMargin: "-15% 0px -70% 0px", threshold: 0 });
+      cards.forEach((c) => spy.observe(c));
+      const initHash = location.hash.replace("#", "");
+      setActive(initHash && cards.some((c) => c.id === initHash) ? initHash : links[0].dataset.cheatSpy, false);
+    }
+    const printBtn = document.querySelector("[data-print]");
+    if (printBtn) printBtn.addEventListener("click", () => window.print());
+  </script>
+</Base>
+
+<style>
+  .cheats { padding: 38px 0 76px; }
+
+  /* ---------- шапка ---------- */
+  .cheats-crumb {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    margin-bottom: 24px;
+  }
+  .cheats-crumb a { transition: color 0.15s; }
+  .cheats-crumb a:hover { color: var(--mint-ink); }
+  .cheats__head { margin-bottom: 30px; }
+  .cheats__head-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .cheats__h1 {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: clamp(32px, 4.6vw, 52px);
+    letter-spacing: -0.02em;
+    line-height: 1.06;
+    margin: 12px 0 10px;
+  }
+  .cheats__meta {
+    font-size: 15.5px;
+    font-weight: 600;
+    color: var(--ink-mid);
+    margin: 0;
+  }
+  .cheats__status {
+    display: inline-block;
+    margin: 14px 0 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--ink-mid);
+    background: var(--mint);
+    border: 1px solid var(--mint-deep);
+    border-radius: 999px;
+    padding: 6px 14px;
+  }
+  .cheats-print {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--paper);
+    background: var(--ink);
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.15s, background 0.2s;
+  }
+  .cheats-print:hover { transform: translateY(-2px); background: var(--ink-mid); }
+  .cheats-print:active { transform: scale(0.97); }
+  .cheats-print:focus-visible { outline: 2.5px solid var(--coral); outline-offset: 4px; }
+
+  /* ---------- лейаут: меню + карточки ---------- */
+  .cheats__layout {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+    gap: 48px;
+    align-items: start;
+  }
+  .cheats-side {
+    position: sticky;
+    top: calc(var(--head-h, 64px) + 18px);
+    max-height: calc(100vh - var(--head-h, 64px) - 40px);
+    overflow-y: auto;
+    padding: 4px 10px 4px 0;
+    scrollbar-width: thin;
+    scrollbar-color: var(--mint-deep) transparent;
+  }
+  .cheats-side::-webkit-scrollbar { width: 6px; }
+  .cheats-side::-webkit-scrollbar-thumb { background: var(--mint-deep); border-radius: 3px; }
+  .cheats-side__t {
+    display: block;
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    margin: 0 0 10px 14px;
+  }
+  .cheats-side .cheats-side__link {
+    display: flex;
+    align-items: baseline;
+    gap: 9px;
+    padding: 7px 10px 7px 14px;
+    border-left: 2px solid var(--line);
+    margin-left: 2px;
+    border-radius: 0 10px 10px 0;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--ink-soft);
+    transition: color 0.15s, background 0.15s;
+  }
+  .cheats-side__link:hover { color: var(--ink); background: var(--mint); }
+  .cheats-side__link.is-active {
+    color: var(--ink);
+    font-weight: 700;
+    background: var(--mint);
+    box-shadow: inset 3px 0 0 var(--mint-ink);
+  }
+  .cheats-side__n {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--mint-ink);
+    flex: 0 0 auto;
+  }
+  .cheats-side__name { min-width: 0; }
+
+  .cheats__main { min-width: 0; }
+
+  /* ---------- карточка темы ---------- */
+  .cheat-card {
+    scroll-margin-top: calc(var(--head-h, 64px) + 26px);
+    margin-bottom: 34px;
+    padding: 24px 26px 20px;
+    background: var(--surface);
+    border: 1.5px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.18s ease, box-shadow 0.18s ease;
+  }
+  .cheat-card:hover { border-color: var(--mint-deep); }
+  .cheat-card__eye {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 8px;
+  }
+  .cheat-card__cat { color: var(--mint-ink); }
+  .cheat-card__title {
+    font-family: var(--display);
+    font-weight: 800;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    line-height: 1.15;
+    color: var(--ink);
+  }
+  .cheat-card__sub {
+    margin: 3px 0 0;
+    font-family: var(--display-serif);
+    font-size: 16.5px;
+    font-weight: 500;
+    color: var(--ink-mid);
+  }
+  .cheat-card__body { margin-top: 16px; }
+
+  .cheat-card__use {
+    margin: 0 0 12px;
+    font-size: 15.5px;
+    font-weight: 600;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+  .cheat-card__formula {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin: 0 0 14px;
+    padding: 11px 16px;
+    background: var(--mint);
+    border: 1px solid var(--mint-deep);
+    border-radius: 11px;
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.5;
+    color: var(--ink);
+    overflow-wrap: anywhere;
+  }
+  .cheat-card__points {
+    display: grid;
+    gap: 6px;
+    margin: 0 0 14px;
+    padding: 0;
+    list-style: none;
+  }
+  .cheat-card__points li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+  .cheat-card__points li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 0.62em;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--mint-ink);
+  }
+  .cheat-card__exs {
+    display: grid;
+    gap: 8px;
+    margin: 0 0 14px;
+    padding: 0;
+    list-style: none;
+  }
+  .cheat-card__ex {
+    display: grid;
+    gap: 1px;
+    padding: 10px 14px;
+    background: var(--paper);
+    border: 1px dashed var(--mint-deep);
+    border-radius: 11px;
+  }
+  .cheat-card__en {
+    font-family: var(--display-serif);
+    font-size: 16.5px;
+    font-weight: 600;
+    line-height: 1.45;
+    color: var(--ink);
+  }
+  .cheat-card__ru {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--ink-mid);
+  }
+  .cheat-card__note {
+    margin: 0 0 4px;
+    padding: 10px 14px;
+    background: var(--mint);
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.55;
+    color: var(--ink-mid);
+  }
+  .cheat-card__note::before {
+    content: "! ";
+    font-family: var(--mono);
+    font-weight: 800;
+    color: var(--mint-ink);
+  }
+  .cheat-card__soon {
+    margin: 4px 0;
+    font-size: 14.5px;
+    font-weight: 500;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+  .cheat-card__lesson {
+    display: inline-block;
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--mint-ink);
+    transition: color 0.15s;
+  }
+  .cheat-card__lesson:hover { color: var(--ink); }
+
+  /* ---------- узкие экраны: меню — sticky-лента чипсов ---------- */
+  @media (max-width: 1100px) {
+    .cheats__layout { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+    .cheats-side {
+      position: sticky;
+      top: var(--head-h, 64px);
+      z-index: 25;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 2px;
+      max-height: none;
+      overflow-x: auto;
+      overflow-y: visible;
+      margin: 0 0 22px;
+      padding: 8px 4px;
+      background: var(--paper);
+      border-bottom: 1px solid var(--line);
+      scrollbar-width: none;
+    }
+    .cheats-side::-webkit-scrollbar { display: none; }
+    .cheats-side__t { display: none; }
+    .cheats-side .cheats-side__link {
+      flex: 0 0 auto;
+      align-items: baseline;
+      gap: 7px;
+      padding: 8px 13px;
+      margin-left: 0;
+      border-left: none;
+      border-radius: 10px;
+      background: var(--mint);
+      font-family: var(--mono);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--ink-soft);
+      white-space: nowrap;
+    }
+    .cheats-side__link:hover { background: var(--mint-deep); color: var(--ink); }
+    .cheats-side__link.is-active {
+      color: var(--paper);
+      font-weight: 700;
+      background: var(--ink);
+      box-shadow: none;
+    }
+    .cheats-side__n { display: none; }
+  }
+  @media (max-width: 640px) {
+    .cheats { padding: 22px 0 56px; }
+    .cheats__head-row { align-items: flex-start; }
+    .cheat-card { padding: 20px 18px 16px; border-radius: 15px; }
+    .cheat-card__title { font-size: 21px; }
+    .cheat-card__formula { font-size: 13.5px; }
+  }
+
+  /* ---------- печать ---------- */
+  @media print {
+    .site-head, .site-foot, .cheats-side, .cheats-print, .cheats-crumb, .cheats__status { display: none !important; }
+    body { background: #fff; }
+    .cheats { width: 100%; padding: 0; }
+    .cheats__layout { display: block; }
+    .cheat-card {
+      break-inside: avoid;
+      page-break-inside: avoid;
+      margin-bottom: 18px;
+      padding: 14px 2px 10px;
+      border: none;
+      border-top: 1.5px solid #c9d4cd;
+      border-radius: 0;
+      box-shadow: none;
+    }
+    .cheat-card__head { margin-bottom: 8px; }
+    .cheat-card__en, .cheat-card__use, .cheat-card__title { color: #000; }
+    .cheat-card__lesson { display: none; }
+    .cheat-card__ex { background: #fff; border-color: #d8e2da; }
+    .cheat-card__note { border: 1px solid #d8e2da; }
+  }
+</style>

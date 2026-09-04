@@ -1,0 +1,153 @@
+{
+  "level": "C2",
+  "label": "C2 · Свободный",
+  "topics": [
+    {
+      "id": "c2-inversion-so-such",
+      "title": "Inversion with So and Such",
+      "titleRu": "Инверсия с so и such",
+      "category": "Grammar",
+      "use": "Формальное усиление степени или результата: so/such выносятся в начало, порядок слов меняется, результат — в that-части.",
+      "formula": [
+        "So + прилагательное / наречие + be / вспомогательный + подлежащее + that…",
+        "Such + именная группа + be + подлежащее + that…"
+      ],
+      "points": [
+        "So powerful was the story that… = The story was so powerful that…",
+        "С наречием нужен вспомогательный глагол: So quickly did they move that…",
+        "Конструкция книжная — в устной речи звучит намеренно пафосно."
+      ],
+      "examples": [
+        {
+          "en": "So strange was the landscape that nobody spoke.",
+          "ru": "Пейзаж был настолько странным, что никто не говорил."
+        },
+        {
+          "en": "Such was her anger that she left the room.",
+          "ru": "Она была так разгневана, что вышла из комнаты."
+        }
+      ],
+      "note": "Порядок обязателен: So powerful was the story…, а не So powerful the story was…",
+      "lesson": "/grammar/c2-inversion-so-such"
+    },
+    {
+      "id": "c2-mixed-conditionals",
+      "title": "Mixed Conditionals — Advanced",
+      "titleRu": "Смешанные условные: продвинутый уровень",
+      "category": "Grammar",
+      "use": "Сложные причинно-следственные связи между прошлым и настоящим, в том числе с длительным результатом.",
+      "formula": [
+        "if + Past Perfect → would be + V-ing (прошлая причина → процесс сейчас)",
+        "if + Past Simple → would have + V3 (настоящее условие → прошлый результат)",
+        "might / could вместо would — менее уверенный вывод"
+      ],
+      "points": [
+        "Продолжающийся сейчас результат прошлого условия: If he had stayed, he would be living there now.",
+        "would be + V-ing показывает, что результат длится в настоящем, а не завершён.",
+        "В Third Conditional обе части — про прошлое; здесь времена намеренно разведены."
+      ],
+      "examples": [
+        {
+          "en": "If he had stayed, he would be living there now.",
+          "ru": "Если бы он остался, он бы сейчас там жил."
+        },
+        {
+          "en": "If she were more careful, she would have noticed the mistake.",
+          "ru": "Будь она внимательнее, она бы заметила ошибку."
+        }
+      ],
+      "note": "Смешение времён осознанное: условие had stayed — тогда, результат would be living — сейчас.",
+      "lesson": "/grammar/c2-mixed-conditionals"
+    },
+    {
+      "id": "c2-mandative-subjunctive",
+      "title": "Mandative Subjunctive",
+      "titleRu": "Мандативный сослагательный",
+      "category": "Grammar",
+      "use": "Формальный английский после требования, рекомендации или необходимости: в придаточном с that — базовая форма глагола.",
+      "formula": [
+        "demand / insist / suggest / recommend + that + подлежащее + V1",
+        "It is essential that he be informed",
+        "отрицание: that he not leave"
+      ],
+      "points": [
+        "Никакого -s и никакого времени: They demanded that he leave, а не leaves.",
+        "be остаётся be при любом подлежащем: that he be, that she be, that they be.",
+        "Стиль: официальный, юридический, академический."
+      ],
+      "examples": [
+        {
+          "en": "They insisted that he leave immediately.",
+          "ru": "Они настояли, чтобы он немедленно ушёл."
+        },
+        {
+          "en": "It is essential that everyone be informed.",
+          "ru": "Важно, чтобы все были осведомлены."
+        }
+      ],
+      "note": "Отрицание — not + базовая форма: They insisted that he not leave, а не doesn't leave.",
+      "lesson": "/grammar/c2-mandative-subjunctive"
+    },
+    {
+      "id": "c2-modals-past-deduction",
+      "title": "Modals of Past Deduction",
+      "titleRu": "Выводы о прошлом",
+      "category": "Grammar",
+      "use": "Оценка прошлого по свидетельствам: must have — почти уверен, may/might/could have — версия, can't have — исключено.",
+      "formula": [
+        "must have + V3 — сильный вывод",
+        "may / might / could have + V3 — возможная версия",
+        "can't have + V3 — событие исключено",
+        "пассив: must have been + V3"
+      ],
+      "points": [
+        "Это вывод из свидетельств, а не прямое сообщение о факте.",
+        "Для пассива: The money must have been hidden.",
+        "have после модального не изменяется: must have, can't have — не has/had."
+      ],
+      "examples": [
+        {
+          "en": "The door was locked, so he must have left.",
+          "ru": "Дверь была заперта, значит, он, должно быть, ушёл."
+        },
+        {
+          "en": "He can't have done it alone.",
+          "ru": "Не может быть, что он сделал это один."
+        }
+      ],
+      "note": "must have left ≠ left: первый вариант — вывод, второй — факт.",
+      "lesson": "/grammar/c2-modals-past-deduction"
+    },
+    {
+      "id": "c2-cohesion-and-register",
+      "title": "Cohesion and Register",
+      "titleRu": "Связность текста и регистр",
+      "category": "Grammar",
+      "use": "Cohesion — как части текста связаны между собой; register — как выбор слов зависит от ситуации и адресата.",
+      "formula": [
+        "reference: The editor rejected the title. He explained why.",
+        "lexical chains: title → draft → revision → publication",
+        "linking: however, therefore, nevertheless",
+        "register: I don't think it works → I am not persuaded that it is effective"
+      ],
+      "points": [
+        "Местоимения и указательные слова связывают новое предложение с уже сказанным.",
+        "Лексическая цепочка удерживает тему без повторов одного и того же слова.",
+        "Connectors добавляют по смыслу: избыточная связка засоряет текст.",
+        "Один и тот же смысл можно выразить формально и неформально — это регистр."
+      ],
+      "examples": [
+        {
+          "en": "The editor rejected the title. He explained why.",
+          "ru": "Редактор отверг название. Он объяснил почему."
+        },
+        {
+          "en": "The proposal was rejected. However, the discussion continued.",
+          "ru": "Предложение отклонили. Тем не менее обсуждение продолжилось."
+        }
+      ],
+      "note": "Cohesion — про языковую связь, coherence — про понятность общей мысли: связный текст может быть бессвязным по смыслу.",
+      "lesson": "/grammar/c2-cohesion-and-register"
+    }
+  ]
+}
