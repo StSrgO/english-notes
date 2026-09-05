@@ -395,7 +395,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     padding: 32px 28px 60px;
   }
   .vocabulary-topic__breadcrumb {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 13px;
     font-weight: 700;
     text-transform: uppercase;
@@ -409,7 +409,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   .vocabulary-topic__breadcrumb a:hover { color: var(--mint-ink); }
   .vocabulary-topic__header { margin-bottom: 32px; }
   .vocabulary-topic__header h1 {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 38px;
     font-weight: 800;
     letter-spacing: -0.02em;
@@ -417,13 +417,13 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     margin: 2px 0 4px;
   }
   .vocabulary-topic__sub {
-    font-family: "Lora", serif;
+    font-family: var(--display-serif);
     font-size: 18px;
     color: var(--ink-mid);
     margin-bottom: 12px;
   }
   .vocabulary-topic__intro {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 15px;
     line-height: 1.65;
     color: var(--ink-soft);
@@ -436,7 +436,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
 
   /* ---------- тренажёр: шапка, прогресс, поиск ---------- */
   .vocab-stats__eyebrow {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -466,7 +466,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     transition: width 0.25s ease;
   }
   .vocab-progress__label {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 12px;
     font-weight: 700;
     color: var(--ink-mid);
@@ -477,7 +477,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     width: 100%;
     box-sizing: border-box;
     padding: 10px 14px;
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 15px;
     color: var(--ink);
     background: var(--surface);
@@ -492,7 +492,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     box-shadow: 0 0 0 3px var(--mint);
   }
   .vocab-search__hint {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 14px;
     color: var(--ink-soft);
     margin: 10px 0 0;
@@ -529,7 +529,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     gap: 8px;
     padding: 7px 10px 7px 14px;
     border-radius: 0 10px 10px 0;
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 13.5px;
     font-weight: 600;
     line-height: 1.35;
@@ -549,7 +549,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     box-shadow: inset 3px 0 0 var(--mint-ink), 0 0 0 3px var(--mint);
   }
   .vocab-side__n {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 10px;
     font-weight: 700;
     color: var(--mint-ink);
@@ -558,7 +558,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   .vocab-side__name { min-width: 0; }
   .vocab-side__count {
     margin-left: auto;
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 10px;
     font-weight: 700;
     color: var(--ink-soft);
@@ -568,7 +568,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     margin-top: 10px;
     padding-top: 11px;
     border-top: 1px solid var(--line);
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
@@ -589,7 +589,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     margin-bottom: 12px;
   }
   .vocab-group__title {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 22px;
     font-weight: 800;
     letter-spacing: -0.01em;
@@ -600,19 +600,19 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     gap: 10px;
   }
   .vocab-group__num {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 12px;
     font-weight: 700;
     color: var(--mint-ink);
   }
   .vocab-group__sub {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 13px;
     color: var(--ink-soft);
     margin: 0;
   }
   .vocab-group__count {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 11px;
     font-weight: 700;
     color: var(--mint-ink);
@@ -701,7 +701,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     min-width: 0;
   }
   .vocab-form__word {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 16.5px;
     font-weight: 800;
     color: var(--ink);
@@ -710,7 +710,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
   .vocab-row.is-known .vocab-form__word { color: var(--ink-mid); }
   .vocab-form__ipa {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 11px;
     font-weight: 500;
     color: var(--ink-soft);
@@ -726,7 +726,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     min-width: 0;
   }
   .vocab-row__ru {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 14px;
     color: var(--ink-mid);
     text-align: right;
@@ -735,7 +735,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
   .vocab-row.is-known .vocab-row__ru { color: var(--ink-soft); }
   .vocab-row__ex-tag {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 9.5px;
     font-weight: 700;
     text-transform: uppercase;
@@ -748,7 +748,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
 
   .vocab-row__rank {
     grid-area: rank;
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 10.5px;
     font-weight: 700;
     color: var(--ink-soft);
@@ -789,13 +789,13 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
   .vocab-row.is-open .vocab-example { display: flex; }
   .vocab-example__en {
-    font-family: "Lora", Georgia, serif;
+    font-family: var(--display-serif);
     font-size: 15px;
     line-height: 1.5;
     color: var(--ink);
   }
   .vocab-example__ru {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 13px;
     line-height: 1.5;
     color: var(--ink-mid);
@@ -804,14 +804,14 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   /* ---------- фолбэк (старая схема) ---------- */
   .vocabulary-group { margin-bottom: 40px; }
   .vocabulary-group__title {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 22px;
     font-weight: 700;
     color: var(--ink);
     margin-bottom: 2px;
   }
   .vocabulary-group__sub {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 14px;
     color: var(--ink-soft);
     margin-bottom: 16px;
@@ -830,24 +830,24 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   .vocab-word:hover { background: var(--mint); border-color: var(--mint-deep); }
   .vocab-word__main { display: flex; align-items: center; gap: 12px; }
   .vocab-word__en {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 16px;
     font-weight: 500;
     color: var(--ink);
   }
   .vocab-word__ipa {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 13px;
     color: var(--ink-soft);
   }
   .vocab-word__ru {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 15px;
     color: var(--ink-mid);
   }
   .vocabulary-phrases { margin-top: 48px; padding-top: 32px; border-top: 1.5px solid var(--line); }
   .vocabulary-phrases h2 {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 24px;
     font-weight: 700;
     color: var(--ink);
@@ -863,15 +863,15 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     border-radius: 10px;
     border: 1px solid var(--line);
   }
-  .vocab-phrase__en { font-family: "Lora", serif; font-size: 17px; color: var(--ink); }
+  .vocab-phrase__en { font-family: var(--display-serif); font-size: 17px; color: var(--ink); }
   .vocab-phrase__ru {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 14px;
     color: var(--ink-soft);
   }
   .vocabulary-quiz { margin-top: 48px; padding-top: 32px; border-top: 1.5px solid var(--line); }
   .vocabulary-quiz h2 {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 24px;
     font-weight: 700;
     color: var(--ink);
@@ -911,7 +911,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
       border-radius: 10px 10px 0 0;
       background: none;
       padding: 8px 12px 9px;
-      font-family: "JetBrains Mono", monospace;
+      font-family: var(--mono);
       font-size: 12px;
       font-weight: 600;
       letter-spacing: 0.04em;
@@ -973,7 +973,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     gap: 6px;
     padding: 7px 14px;
     border-radius: 999px;
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -988,7 +988,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   .vocab-quiz-btn:hover { background: var(--mint); border-color: var(--mint-ink); color: var(--ink); }
   .vocab-quiz-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--mint); }
   .vocab-quizbar__hint {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 13px;
     line-height: 1.5;
     color: var(--ink-soft);
@@ -1004,7 +1004,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     border-top: 1.5px solid var(--line);
   }
   .vocab-quiz__idle {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 15px;
     color: var(--ink-mid);
     margin: 0;

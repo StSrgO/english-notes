@@ -7,15 +7,30 @@
       "title": "Inversion with So and Such",
       "titleRu": "Инверсия с so и such",
       "category": "Grammar",
-      "use": "Формальное усиление степени или результата: so/such выносятся в начало, порядок слов меняется, результат — в that-части.",
+      "use": [
+        "Формально усилить степень или результат: so/such выносятся в начало, меняется порядок слов.",
+        "So + прилагательное или наречие в начале: So powerful was the story that…",
+        "Such + именная группа в начале: Such a powerful image was it that…",
+        "That-clause называет результат высокой степени или признака.",
+        "Книжный и риторический регистр: фокус на признаке, а не просто сообщение факта."
+      ],
       "formula": [
-        "So + прилагательное / наречие + be / вспомогательный + подлежащее + that…",
-        "Such + именная группа + be + подлежащее + that…"
+        "So + adjective/adverb + be/auxiliary + подлежащее + that…",
+        "Such + noun phrase + be + подлежащее + that…",
+        "The story was so powerful",
+        "→ So powerful was the story"
+      ],
+      "markers": [
+        "so strange was",
+        "so quickly did",
+        "such a powerful image was",
+        "that + result clause"
       ],
       "points": [
-        "So powerful was the story that… = The story was so powerful that…",
-        "С наречием нужен вспомогательный глагол: So quickly did they move that…",
-        "Конструкция книжная — в устной речи звучит намеренно пафосно."
+        "Инверсия обязательна: So powerful was the story…, а не So powerful the story was…",
+        "Если основной глагол не be, нужен вспомогательный: So quickly did the expedition move that…",
+        "Such работает с именной группой и сохраняет артикль: Such a powerful image was it that…",
+        "В устной речи естественнее обычный порядок слов — инверсия звучит намеренно книжно."
       ],
       "examples": [
         {
@@ -23,11 +38,19 @@
           "ru": "Пейзаж был настолько странным, что никто не говорил."
         },
         {
-          "en": "Such was her anger that she left the room.",
-          "ru": "Она была так разгневана, что вышла из комнаты."
+          "en": "So quickly did the expedition move that nobody could follow it.",
+          "ru": "Экспедиция двигалась настолько быстро, что никто не мог за ней угнаться."
+        },
+        {
+          "en": "Such a powerful image was it that nobody forgot it.",
+          "ru": "Это был настолько сильный образ, что его никто не забыл."
         }
       ],
-      "note": "Порядок обязателен: So powerful was the story…, а не So powerful the story was…",
+      "pitfalls": [
+        { "wrong": "So powerful the story was that it stayed with the reader.", "right": "So powerful was the story that it stayed with the reader." },
+        { "wrong": "Such strange was the journey that nobody forgot it.", "right": "So strange was the journey that nobody forgot it." }
+      ],
+      "note": "Не путай so и such: so усиливает прилагательное или наречие, such — именную группу.",
       "lesson": "/grammar/c2-inversion-so-such"
     },
     {
@@ -35,16 +58,32 @@
       "title": "Mixed Conditionals — Advanced",
       "titleRu": "Смешанные условные: продвинутый уровень",
       "category": "Grammar",
-      "use": "Сложные причинно-следственные связи между прошлым и настоящим, в том числе с длительным результатом.",
+      "use": [
+        "Связать прошлую причину с нынешним результатом: If he had stayed, he would be living there now.",
+        "Показать нынешнее нереальное условие, объясняющее прошлый результат: If she were more careful, she would have noticed the mistake.",
+        "Обозначить результат, который длится сейчас, — через would be + V-ing.",
+        "Выразить менее уверенный вывод через might / could вместо would.",
+        "Отличить mixed от Second и Third Conditional: временные планы условия и результата разведены."
+      ],
       "formula": [
-        "if + Past Perfect → would be + V-ing (прошлая причина → процесс сейчас)",
-        "if + Past Simple → would have + V3 (настоящее условие → прошлый результат)",
-        "might / could вместо would — менее уверенный вывод"
+        "if + Past Perfect (had + V3)",
+        "→ would + V1 / would be + V-ing — прошлая причина, результат сейчас",
+        "if + Past Simple (were)",
+        "→ would have + V3 — нынешнее условие, результат в прошлом",
+        "might / could (+ have) вместо would — слабее уверенность"
+      ],
+      "markers": [
+        "if + had + V3",
+        "would be + V-ing",
+        "if + were",
+        "would have + V3",
+        "now / then"
       ],
       "points": [
-        "Продолжающийся сейчас результат прошлого условия: If he had stayed, he would be living there now.",
-        "would be + V-ing показывает, что результат длится в настоящем, а не завершён.",
-        "В Third Conditional обе части — про прошлое; здесь времена намеренно разведены."
+        "Смешение времён осознанное: условие had stayed — тогда, результат would be living — сейчас.",
+        "If + Past Perfect → would + V1: прошлое событие объясняет нынешнее состояние.",
+        "If + Past Simple → would have + V3: нынешняя характеристика пересматривает прошлое.",
+        "Если обе части относятся к прошлому — это Third Conditional, а не mixed."
       ],
       "examples": [
         {
@@ -54,9 +93,21 @@
         {
           "en": "If she were more careful, she would have noticed the mistake.",
           "ru": "Будь она внимательнее, она бы заметила ошибку."
+        },
+        {
+          "en": "If they had left earlier, they would be home by now.",
+          "ru": "Выехали бы они раньше — были бы уже дома."
+        },
+        {
+          "en": "If he were less confident, he might have asked for help.",
+          "ru": "Будь он менее самоуверен, он, возможно, попросил бы помощи."
         }
       ],
-      "note": "Смешение времён осознанное: условие had stayed — тогда, результат would be living — сейчас.",
+      "pitfalls": [
+        { "wrong": "If he had stayed, he would live there now.", "right": "If he had stayed, he would be living there now." },
+        { "wrong": "If he were more cautious, he would make different decisions in the past.", "right": "If he were more cautious, he would have made different decisions in the past." }
+      ],
+      "note": "Не путай с Third Conditional: там обе части — про прошлое (if + had + V3 → would have + V3).",
       "lesson": "/grammar/c2-mixed-conditionals"
     },
     {
@@ -64,16 +115,31 @@
       "title": "Mandative Subjunctive",
       "titleRu": "Мандативный сослагательный",
       "category": "Grammar",
-      "use": "Формальный английский после требования, рекомендации или необходимости: в придаточном с that — базовая форма глагола.",
+      "use": [
+        "Выразить требование, рекомендацию или необходимость в формальном английском.",
+        "После demand / insist / suggest / recommend + that — базовая форма глагола при любом лице.",
+        "После essential / important / necessary that — форма be: It is essential that he be informed.",
+        "Построить отрицание как not + базовая форма: They insisted that he not leave.",
+        "Отделить требование от факта: конструкция не утверждает, что действие произошло."
+      ],
       "formula": [
         "demand / insist / suggest / recommend + that + подлежащее + V1",
-        "It is essential that he be informed",
-        "отрицание: that he not leave"
+        "It is essential that + подлежащее + be + V3",
+        "отрицание: that + подлежащее + not + V1"
+      ],
+      "markers": [
+        "demand that",
+        "insist that",
+        "suggest that",
+        "recommend that",
+        "it is essential that",
+        "it is necessary that"
       ],
       "points": [
         "Никакого -s и никакого времени: They demanded that he leave, а не leaves.",
-        "be остаётся be при любом подлежащем: that he be, that she be, that they be.",
-        "Стиль: официальный, юридический, академический."
+        "be сохраняет форму be при любом подлежащем: that he be, that she be, that they be.",
+        "Отрицание — not перед базовой формой, без do: that he not leave.",
+        "Регистр официальный: институциональный, юридический и академический английский."
       ],
       "examples": [
         {
@@ -83,9 +149,21 @@
         {
           "en": "It is essential that everyone be informed.",
           "ru": "Важно, чтобы все были осведомлены."
+        },
+        {
+          "en": "The committee recommended that the policy be changed.",
+          "ru": "Комитет рекомендовал изменить политику."
+        },
+        {
+          "en": "They insisted that he not leave.",
+          "ru": "Они настояли, чтобы он не уходил."
         }
       ],
-      "note": "Отрицание — not + базовая форма: They insisted that he not leave, а не doesn't leave.",
+      "pitfalls": [
+        { "wrong": "They demanded that he leaves.", "right": "They demanded that he leave." },
+        { "wrong": "They insisted that he is present.", "right": "They insisted that he be present." }
+      ],
+      "note": "Не путай требование и факт: demanded that he leave не сообщает, что он действительно ушёл.",
       "lesson": "/grammar/c2-mandative-subjunctive"
     },
     {
@@ -93,17 +171,32 @@
       "title": "Modals of Past Deduction",
       "titleRu": "Выводы о прошлом",
       "category": "Grammar",
-      "use": "Оценка прошлого по свидетельствам: must have — почти уверен, may/might/could have — версия, can't have — исключено.",
+      "use": [
+        "must have + V3 — сильный вывод из свидетельств: He must have left.",
+        "may have + V3 — возможная версия прошлого события.",
+        "might have / could have + V3 — ещё менее уверенная возможность или вариант, который был возможен.",
+        "can't have + V3 — событие исключено: He can't have been there.",
+        "must have been + V3 — пассивный вывод, когда исполнитель неизвестен или неважен."
+      ],
       "formula": [
         "must have + V3 — сильный вывод",
-        "may / might / could have + V3 — возможная версия",
-        "can't have + V3 — событие исключено",
+        "may have / might have / could have + V3 — возможная версия",
+        "can't have + V3 — отрицательный вывод",
         "пассив: must have been + V3"
       ],
+      "markers": [
+        "must have + V3",
+        "may have + V3",
+        "might have + V3",
+        "could have + V3",
+        "can't have + V3",
+        "must have been + V3"
+      ],
       "points": [
-        "Это вывод из свидетельств, а не прямое сообщение о факте.",
-        "Для пассива: The money must have been hidden.",
-        "have после модального не изменяется: must have, can't have — не has/had."
+        "Конструкция — вывод из свидетельств, а не прямое сообщение о факте: must have left ≠ left.",
+        "После модального — неизменное have: must have, can't have; не has/had.",
+        "После have нужен past participle: must have gone, а не must have went.",
+        "Could have — о возможном событии, а не о способности в прошлом (could swim)."
       ],
       "examples": [
         {
@@ -112,10 +205,22 @@
         },
         {
           "en": "He can't have done it alone.",
-          "ru": "Не может быть, что он сделал это один."
+          "ru": "Не может быть, что он сделал это в одиночку."
+        },
+        {
+          "en": "Nobody saw him arrive, so he may have come during the night.",
+          "ru": "Никто не видел, как он приехал, поэтому, возможно, он прибыл ночью."
+        },
+        {
+          "en": "The money must have been hidden before the attack.",
+          "ru": "Деньги, должно быть, спрятали до нападения."
         }
       ],
-      "note": "must have left ≠ left: первый вариант — вывод, второй — факт.",
+      "pitfalls": [
+        { "wrong": "He must has left early.", "right": "He must have left early." },
+        { "wrong": "He must have went there.", "right": "He must have gone there." }
+      ],
+      "note": "Не путай вывод и факт: must have left — предположение по свидетельствам, left — сообщение о факте.",
       "lesson": "/grammar/c2-modals-past-deduction"
     },
     {
@@ -123,18 +228,32 @@
       "title": "Cohesion and Register",
       "titleRu": "Связность текста и регистр",
       "category": "Grammar",
-      "use": "Cohesion — как части текста связаны между собой; register — как выбор слов зависит от ситуации и адресата.",
+      "use": [
+        "Cohesion — связывать предложения и абзацы в единый текст: отсылки, повторы, союзы.",
+        "Reference: местоимения и this / that возвращают к уже сказанному: The editor rejected the title. He explained why.",
+        "Lexical chain — удерживать тему без механических повторов: manuscript, draft, revision, publication.",
+        "Linking devices (however, therefore, nevertheless) — только там, где есть реальная логическая связь.",
+        "Register — выбирать формулировку под адресата и ситуацию: один смысл, разная степень формальности."
+      ],
       "formula": [
         "reference: The editor rejected the title. He explained why.",
-        "lexical chains: title → draft → revision → publication",
-        "linking: however, therefore, nevertheless",
+        "lexical chain: title → manuscript → draft → revision → publication",
+        "linking: however / therefore / nevertheless / by contrast",
         "register: I don't think it works → I am not persuaded that it is effective"
       ],
+      "markers": [
+        "this / that / it / they",
+        "lexical repetition",
+        "however",
+        "therefore",
+        "nevertheless",
+        "formal / neutral / informal phrasing"
+      ],
       "points": [
-        "Местоимения и указательные слова связывают новое предложение с уже сказанным.",
-        "Лексическая цепочка удерживает тему без повторов одного и того же слова.",
-        "Connectors добавляют по смыслу: избыточная связка засоряет текст.",
-        "Один и тот же смысл можно выразить формально и неформально — это регистр."
+        "Cohesion — языковая связь частей, coherence — логическая целостность мысли: это не одно и то же.",
+        "Местоимение должно однозначно отсылать к предшествующему — двусмысленная отсылка ослабляет текст.",
+        "Лишние connectors делают текст тяжёлым: иногда связь понятна и без явного слова-связки.",
+        "Register создаётся не только лексикой: дистанция и непрямая формулировка тоже добавляют формальности."
       ],
       "examples": [
         {
@@ -144,9 +263,21 @@
         {
           "en": "The proposal was rejected. However, the discussion continued.",
           "ru": "Предложение отклонили. Тем не менее обсуждение продолжилось."
+        },
+        {
+          "en": "The manuscript was revised repeatedly. The final draft differed from the original.",
+          "ru": "Рукопись неоднократно правили. Финальный вариант отличался от исходного."
+        },
+        {
+          "en": "The wording would benefit from further revision.",
+          "ru": "Формулировка выиграла бы от дальнейшей правки."
         }
       ],
-      "note": "Cohesion — про языковую связь, coherence — про понятность общей мысли: связный текст может быть бессвязным по смыслу.",
+      "pitfalls": [
+        { "wrong": "The manuscript was revised. Therefore, the editor was a person.", "right": "The manuscript was revised. Therefore, the final version differed from the draft." },
+        { "wrong": "The text has many connectors, so it is coherent.", "right": "The text may be cohesive, but coherence depends on the logic of its ideas." }
+      ],
+      "note": "Не путай cohesion и coherence: cohesion — языковая связь, coherence — понятность общей мысли.",
       "lesson": "/grammar/c2-cohesion-and-register"
     }
   ]

@@ -24,17 +24,12 @@ const levelIdx = levelTopics.findIndex((t) => t.slug === topic.slug);
 const nextTopic = (levelIdx >= 0 && levelIdx < levelTopics.length - 1) ? levelTopics[levelIdx + 1] : null;
 const prevTopic = (levelIdx > 0) ? levelTopics[levelIdx - 1] : null;
 
-// Ссылка «Шпаргалка» на якорь своей карточки в разделе /cheats (если карточка существует)
-const cheatFiles = import.meta.glob('../../data/cheats/*.json', { eager: true, import: 'default' });
-const cheatIds = new Set(Object.values(cheatFiles).flatMap((d) => (d.topics || []).map((t) => t.id)));
-const cheatHref = cheatIds.has(topic.slug) ? '/cheats/' + topic.level.toLowerCase() + '#' + topic.slug : null;
 ---
 <Base title={topic.title + ' — EnglishNotes'} currentSlug={topic.slug}>
   <div class="wrap topic topic--v2">
     <nav class="lesson-bar">
       <div class="lesson-bar__scroll">
         <a href="/grammar" class="bar-item" data-back>← назад</a>
-        {cheatHref && <a href={cheatHref} class="bar-item">шпаргалка →</a>}
         {rocknrollTopic && (
           <button type="button" class="bar-item style-pick" data-style-label="rocknroll">Рок-н-ролл</button>
         )}

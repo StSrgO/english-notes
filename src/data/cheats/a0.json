@@ -7,23 +7,45 @@
       "title": "Alphabet and Pronunciation",
       "titleRu": "Алфавит и произношение",
       "category": "Basics",
-      "use": "26 букв: у каждой есть название (A — /eɪ/), а в словах буквы часто звучат иначе (cat — /kæt/).",
+      "use": [
+        "Назвать любую букву английского алфавита: A — /eɪ/, B — /biː/.",
+        "Произносить слово по буквам (spelling), когда нужно назвать имя или незнакомое слово.",
+        "Отличать название буквы от её звука в слове: C — /siː/, но в cat она читается /k/.",
+        "Различать британский и американский варианты названий букв."
+      ],
       "formula": [
-        "26 букв: A–Z",
-        "название буквы ≠ звук буквы в слове"
+        "26 букв: от A до Z",
+        "название буквы ≠ звук буквы в слове",
+        "A — /eɪ/; в слове cat — /æ/"
       ],
       "points": [
-        "Названия букв нужны, чтобы произносить слова по буквам: A — /eɪ/, B — /biː/, C — /siː/.",
-        "Одна и та же буква в разных словах может звучать по-разному.",
-        "Z — /zed/ в британском варианте и /ziː/ в американском."
+        "У каждой буквы есть собственное название: A — /eɪ/, B — /biː/, C — /siː/.",
+        "Одна и та же буква в разных словах может звучать по-разному: C — /k/ в cat и /s/ в city.",
+        "Z — /zed/ в британском варианте и /ziː/ в американском; у R в американском варианте конечный r произносится."
       ],
       "examples": [
         {
-          "en": "C is /siː/, but cat is /kæt/.",
-          "ru": "Буква C — /siː/, но в слове cat — /kæt/."
+          "en": "A — /eɪ/; cat — /æ/",
+          "ru": "Название A — /eɪ/, а в слове cat буква A читается /æ/."
+        },
+        {
+          "en": "C — /siː/; cat — /k/",
+          "ru": "Название C — /siː/, а в слове cat она читается /k/."
+        },
+        {
+          "en": "G — /dʒiː/; go — /ɡ/",
+          "ru": "Название G — /dʒiː/, а в слове go буква даёт звук /ɡ/."
+        },
+        {
+          "en": "Z — /zed/ (BrE) / /ziː/ (AmE)",
+          "ru": "Z — /zed/ в британском варианте и /ziː/ в американском."
         }
       ],
-      "note": "Звук буквы в слове часто не совпадает с её названием — это нормально, учите оба варианта.",
+      "pitfalls": [
+        { "wrong": "The name of the letter A is /æ/.", "right": "The name of the letter A is /eɪ/." },
+        { "wrong": "Z is always /ziː/.", "right": "Z is /zed/ in British English and /ziː/ in American English." }
+      ],
+      "note": "Не путай название буквы с её звуком в слове: они совпадают далеко не всегда.",
       "lesson": "/grammar/a0-alphabet-pronunciation"
     },
     {
@@ -31,16 +53,24 @@
       "title": "Introductions and Greetings",
       "titleRu": "Приветствия и знакомство",
       "category": "Basics",
-      "use": "Приветствие, представление и вопрос об имени — старт любого разговора или письма.",
-      "formula": [
-        "Hello / Hi",
-        "My name is … / I'm …",
-        "What's your name?"
+      "use": [
+        "Поздороваться в разговоре: Hello, Hi, Good morning, Good afternoon, Good evening.",
+        "Представиться и назвать своё имя: My name is… или I'm….",
+        "Спросить, как зовут собеседника: What's your name?",
+        "Начать письмо с обращения: Dear + имя или Dear Sir.",
+        "Попрощаться: Goodbye; вечером на ночь — Good night."
       ],
+      "formula": [
+        "Hello! / Hi!",
+        "My name is + имя / I'm + имя",
+        "What's your name?",
+        "Dear Sir, / Dear + имя,"
+      ],
+      "markers": ["Hello", "Hi", "Good morning", "Good evening", "Nice to meet you", "Goodbye"],
       "points": [
-        "Good morning, Good afternoon, Good evening — приветствия по времени суток; Good night — прощание перед сном.",
-        "В письме обращение начинается с Dear: Dear Ann, Dear Sir.",
-        "Представиться можно двумя способами: My name is Ann и I'm Ann."
+        "При встрече вечером говорят Good evening, а Good night используют, когда прощаются на ночь.",
+        "Представиться можно двумя способами: My name is… и I'm….",
+        "В письме обращение начинается с Dear: формальное — Dear Sir, дружеское — Dear + имя."
       ],
       "examples": [
         {
@@ -50,9 +80,21 @@
         {
           "en": "What's your name?",
           "ru": "Как тебя зовут?"
+        },
+        {
+          "en": "Nice to meet you.",
+          "ru": "Рад познакомиться."
+        },
+        {
+          "en": "Good evening!",
+          "ru": "Добрый вечер!"
         }
       ],
-      "note": "Без глагола не работает: My name Ann — ошибка, нужен is.",
+      "pitfalls": [
+        { "wrong": "My name Ann.", "right": "My name is Ann." },
+        { "wrong": "What's name you?", "right": "What's your name?" }
+      ],
+      "note": "Не путай Good evening (приветствие при встрече) и Good night (прощание перед сном).",
       "lesson": "/grammar/a0-introductions-greetings"
     },
     {
@@ -60,16 +102,25 @@
       "title": "Family and House",
       "titleRu": "Семья и дом",
       "category": "Basics",
-      "use": "Слова о семье, комнатах и предметах дома плюс простое описание через is и has.",
+      "use": [
+        "Назвать членов семьи: mother, father, brother, sister, son, daughter.",
+        "Назвать комнаты и предметы дома: room, door, window, wall, bed, table.",
+        "Описать предмет через is: The room is small, The door is open.",
+        "Сказать, что есть в доме или комнате, через has: The room has a table.",
+        "Указать, где находится предмет, предлогами места in, on, under, near."
+      ],
       "formula": [
         "This is my mother / my room",
         "The room is small",
-        "The room has a table"
+        "The room has a table",
+        "The table is near the window"
       ],
+      "markers": ["house", "home", "room", "mother", "father", "sister"],
       "points": [
-        "House — здание; home — дом как место жизни.",
-        "Описание предмета — is: The room is small. Наличие предмета — has: The room has a table.",
-        "Предлоги места: in the room (в комнате), on the table (на столе)."
+        "House — дом как здание, home — место, где человек живёт.",
+        "Один предмет или человек — is и has: The room is small, The room has a table.",
+        "Место указывают предлоги: in the room, on the table, under the table, near the door.",
+        "Слова семьи запоминай с местоимениями: brother — he, sister — she."
       ],
       "examples": [
         {
@@ -77,11 +128,23 @@
           "ru": "Это моя мама."
         },
         {
+          "en": "The house has two rooms.",
+          "ru": "В доме две комнаты."
+        },
+        {
+          "en": "The bed is in the room.",
+          "ru": "Кровать находится в комнате."
+        },
+        {
           "en": "The book is on the table.",
           "ru": "Книга на столе."
         }
       ],
-      "note": "С одним предметом или человеком — is/has: The room is small, the room has a table.",
+      "pitfalls": [
+        { "wrong": "The house are small.", "right": "The house is small." },
+        { "wrong": "The room have a table.", "right": "The room has a table." }
+      ],
+      "note": "Не путай house и home: house — здание, home — место, где человек живёт.",
       "lesson": "/grammar/a0-family-house"
     },
     {
@@ -89,17 +152,25 @@
       "title": "Symbols and Abbreviations",
       "titleRu": "Символы и сокращения",
       "category": "Basics",
-      "use": "Знаки и короткие формы, которые ускоряют запись: & = and, % = percent, Dr. = Doctor.",
-      "formula": [
-        "& — and",
-        "% — percent",
-        "Dr. — Doctor",
-        "UK — United Kingdom"
+      "use": [
+        "Понять знак, который заменяет слово: & — and, % — percent.",
+        "Прочитать деньги, номера и меры: £20, #5, 10%.",
+        "Узнать короткую письменную форму слова: Doctor → Dr., Street → St.",
+        "Узнать сокращённые названия: UK — United Kingdom, TV — television.",
+        "Определять значение знака по контексту: #5 — номер, #music — хэштег."
       ],
+      "formula": [
+        "& = and",
+        "% = percent",
+        "£ = pound",
+        "Dr. = Doctor",
+        "UK = United Kingdom"
+      ],
+      "markers": ["@ = at", "# = number / hashtag", "$ = dollar", "etc. = et cetera", "Mr. = Mister", "St. = Street / Saint"],
       "points": [
-        "Значение символа зависит от контекста: # — номер (#5) или хэштег (#music).",
-        "£ — pound (фунт), не dollar.",
-        "В обычной речи & читается как and; сам знак уместен в названиях и коротких записях."
+        "Значение знака зависит от контекста: #5 — номер, а #music — часть хэштега.",
+        "£ — британский фунт, а не доллар; знак валюты стоит перед числом: £20.",
+        "Знак & означает and, но в обычном тексте слово and чаще пишут целиком."
       ],
       "examples": [
         {
@@ -108,10 +179,22 @@
         },
         {
           "en": "The UK is a country.",
-          "ru": "Великобритания — это страна."
+          "ru": "Соединённое Королевство — это страна."
+        },
+        {
+          "en": "Books, films, songs, etc.",
+          "ru": "Книги, фильмы, песни и т. д."
+        },
+        {
+          "en": "5 + 3 = 8",
+          "ru": "5 плюс 3 равно 8."
         }
       ],
-      "note": "Сокращения часто пишутся с точкой: Dr., St., a.m.",
+      "pitfalls": [
+        { "wrong": "£ means dollar.", "right": "£ means pound." },
+        { "wrong": "# always means hashtag.", "right": "# can mean a number or a hashtag." }
+      ],
+      "note": "Не путай символ и сокращение: % — символ, а Dr. — сокращённая форма слова Doctor.",
       "lesson": "/grammar/a0-symbols-abbreviations"
     }
   ]

@@ -40,7 +40,7 @@ const topics = Object.values(vocabularyFiles)
     margin-bottom: 44px;
   }
   .vocabulary-header h1 {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 42px;
     font-weight: 700;
     letter-spacing: -0.02em;
@@ -48,7 +48,7 @@ const topics = Object.values(vocabularyFiles)
     margin-bottom: 12px;
   }
   .vocabulary-lead {
-    font-family: "Lora", serif;
+    font-family: var(--display-serif);
     font-size: 18px;
     line-height: 1.6;
     color: var(--ink-mid);
@@ -75,21 +75,21 @@ const topics = Object.values(vocabularyFiles)
     box-shadow: 0 8px 24px rgba(18, 52, 48, 0.06);
   }
   .vocabulary-card__title {
-    font-family: "Onest", system-ui, sans-serif;
+    font-family: var(--display);
     font-size: 20px;
     font-weight: 700;
     color: var(--ink);
     margin-bottom: 4px;
   }
   .vocabulary-card__desc {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 14px;
     color: var(--ink-soft);
     margin-bottom: 6px;
     line-height: 1.4;
   }
   .vocabulary-card__intro {
-    font-family: "Manrope", system-ui, sans-serif;
+    font-family: var(--body);
     font-size: 13.5px;
     line-height: 1.5;
     color: var(--ink-mid);
@@ -100,7 +100,7 @@ const topics = Object.values(vocabularyFiles)
     overflow: hidden;
   }
   .vocabulary-card__count {
-    font-family: "JetBrains Mono", monospace;
+    font-family: var(--mono);
     font-size: 12px;
     font-weight: 700;
     color: var(--mint-ink);

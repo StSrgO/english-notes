@@ -7,26 +7,49 @@
       "title": "Present Perfect Continuous",
       "titleRu": "Настоящее совершённое продолженное время",
       "category": "Grammar",
-      "use": "Действие началось в прошлом и длится до сих пор (или только что закончилось с видимым результатом): акцент на процессе.",
+      "use": [
+        "Показать действие, которое началось в прошлом и продолжается до сих пор.",
+        "Подчеркнуть процесс и его длительность, а не завершённый результат.",
+        "Говорить о недавней деятельности, след которой виден сейчас.",
+        "Отвечать на вопрос «как долго?»: How long have you been working?"
+      ],
       "formula": [
         "have / has + been + V-ing"
       ],
+      "forms": [
+        "− haven't / hasn't been + V-ing",
+        "? Have / Has + подлежащее + been + V-ing?"
+      ],
+      "markers": ["for", "since", "all day", "all morning", "lately", "recently"],
       "points": [
-        "Акцент на длительности процесса, а не на завершённом результате.",
-        "for — продолжительность (for two hours); since — момент начала (since morning).",
-        "Если важен завершённый результат, а не процесс — Present Perfect Simple: I have written three pages."
+        "have — с I, you, we, they; has — с he, she, it.",
+        "for — длительность (for three hours); since — момент начала (since morning).",
+        "Если важен завершённый результат, а не процесс — Present Perfect Simple: I have written three pages.",
+        "Past Continuous помещает процесс в конкретный момент прошлого, без связи с настоящим: I was writing at eight o'clock."
       ],
       "examples": [
         {
-          "en": "I have been working all morning.",
-          "ru": "Я работал всё утро (и это заметно или всё ещё продолжаю)."
+          "en": "I have been writing for three hours.",
+          "ru": "Я пишу уже три часа."
         },
         {
-          "en": "She has been learning English since 2020.",
-          "ru": "Она учит английский с 2020 года."
+          "en": "She has been working since morning.",
+          "ru": "Она работает с утра."
+        },
+        {
+          "en": "They have been reading all day.",
+          "ru": "Они читают весь день."
+        },
+        {
+          "en": "I have been thinking about the problem.",
+          "ru": "Я всё время думаю о проблеме."
         }
       ],
-      "note": "После been нужен V-ing: I have been writing, а не I have been written.",
+      "pitfalls": [
+        { "wrong": "She has been write all morning.", "right": "She has been writing all morning." },
+        { "wrong": "I am writing this book for two years.", "right": "I have been writing this book for two years." }
+      ],
+      "note": "Не путай с Present Continuous: I am writing — процесс прямо сейчас, I have been writing — процесс, начавшийся в прошлом.",
       "lesson": "/grammar/b2-present-perfect-continuous"
     },
     {
@@ -34,23 +57,46 @@
       "title": "Third Conditional",
       "titleRu": "Условные предложения третьего типа",
       "category": "Conditionals",
-      "use": "Нереальное прошлое: что было бы, если бы тогда всё сложилось иначе; сожаление и анализ прошлого.",
+      "use": [
+        "Мысленно менять завершившееся прошлое и представлять другой результат.",
+        "Выражать сожаление об уже случившемся или несделанном.",
+        "Анализировать, как одно прошлое событие повлияло бы на дальнейший ход дел.",
+        "Оставлять вывод открытым через could have / might have."
+      ],
       "formula": [
         "if + Past Perfect (had + V3)",
         "→ would / could / might have + V3"
       ],
+      "forms": [
+        "− If + hadn't + V3, wouldn't / couldn't have + V3",
+        "? Would + подлежащее + have + V3 (главная часть)?"
+      ],
+      "markers": ["if I had known", "if he had stayed", "would have + V3", "could have + V3", "might have + V3"],
       "points": [
-        "Обе части — про прошлое: условие не сбылось, поэтому и результат не случился.",
-        "could have / might have смягчают вывод до версии или возможности.",
-        "Для воображаемого настоящего нужен Second Conditional, а не Third."
+        "После if — had + V3, без would: If I would have known — ошибка.",
+        "could have — возможный исход или способность; might have — менее уверенное предположение.",
+        "Условие и результат относятся к завершённому прошлому.",
+        "О гипотезе в настоящем или будущем — Second Conditional: If I were free, I would travel."
       ],
       "examples": [
         {
-          "en": "If I had known, I would have called you.",
-          "ru": "Если бы я знал, я бы тебе позвонил."
+          "en": "If I had left home earlier, I would have caught the train.",
+          "ru": "Если бы я вышел из дома раньше, я бы успел на поезд."
+        },
+        {
+          "en": "If the weather had been better, they could have gone swimming.",
+          "ru": "Если бы погода была лучше, они могли бы пойти купаться."
+        },
+        {
+          "en": "If she had known about the traffic, she might have taken a different route.",
+          "ru": "Если бы она знала о пробках, она, возможно, поехала бы другой дорогой."
         }
       ],
-      "note": "В части с if никогда не ставится would: If I would have known — ошибка, нужно If I had known.",
+      "pitfalls": [
+        { "wrong": "If I would have known, I would have come.", "right": "If I had known, I would have come." },
+        { "wrong": "If they had stayed longer, they would see the ending.", "right": "If they had stayed longer, they would have seen the ending." }
+      ],
+      "note": "Не путай с Second Conditional: тот относится к настоящему или будущему (if + Past Simple → would + V1).",
       "lesson": "/grammar/b2-third-conditional"
     },
     {
@@ -58,17 +104,24 @@
       "title": "Wish / If only",
       "titleRu": "Желания и сожаления: wish / if only",
       "category": "Unreal situations",
-      "use": "Сожаление и желание, чтобы реальность была другой: про настоящее, прошлое или желаемое изменение.",
+      "use": [
+        "Сожалеть о нереальной ситуации в настоящем: I wish I knew the answer.",
+        "Выражать сожаление о прошлом: I wish I had acted differently.",
+        "Хотеть изменения поведения или ситуации: I wish you would listen.",
+        "Усилить эмоцию сожаления: If only I had known!"
+      ],
       "formula": [
         "wish + Past Simple / were — нереальное настоящее",
         "wish + Past Perfect — сожаление о прошлом",
-        "wish + would — хочу, чтобы изменилось",
-        "If only — то же самое, но эмоциональнее"
+        "wish + would + V1 — желаемое изменение поведения",
+        "If only + те же формы — усиление сожаления"
       ],
+      "markers": ["I wish I knew", "I wish I were", "I wish I had known", "I wish you would", "If only I had known"],
       "points": [
-        "О настоящем: I wish I knew the answer — не know.",
-        "О прошлом: I wish I had known — Past Perfect.",
-        "Об изменении поведения или ситуации: I wish you would listen."
+        "Форма после wish «сдвигается назад»: о настоящем — knew, а не know.",
+        "were — предпочтительная гипотетическая форма be: I wish I were free.",
+        "wish + could — желаемая возможность, которой сейчас нет: I wish I could help.",
+        "wish + would — об изменении поведения другого человека; о собственном состоянии — Past Simple."
       ],
       "examples": [
         {
@@ -76,11 +129,23 @@
           "ru": "Жаль, что я не свободен."
         },
         {
-          "en": "I wish I had known about the meeting.",
-          "ru": "Жаль, что я не знал о встрече."
+          "en": "I wish I had acted differently.",
+          "ru": "Жаль, что я не поступил иначе."
+        },
+        {
+          "en": "I wish you would listen to me.",
+          "ru": "Я хотел бы, чтобы ты меня послушал."
+        },
+        {
+          "en": "If only I had known!",
+          "ru": "Если бы только я знал!"
         }
       ],
-      "note": "if only усиливает эмоцию: If only I had known! — «Если бы только я знал!»",
+      "pitfalls": [
+        { "wrong": "I wish I know the answer.", "right": "I wish I knew the answer." },
+        { "wrong": "If only I would have known.", "right": "If only I had known." }
+      ],
+      "note": "Не путай времена сожаления: о настоящем — Past Simple, о прошлом — Past Perfect.",
       "lesson": "/grammar/b2-wish-if-only"
     },
     {
@@ -88,17 +153,26 @@
       "title": "Advanced Passive Voice",
       "titleRu": "Страдательный залог: продвинутый уровень",
       "category": "Passive voice",
-      "use": "Центр сообщения — действие и его результат, а не исполнитель; в том числе с Perfect и модальными глаголами.",
-      "formula": [
-        "am/is/are + V3; was/were + V3",
-        "have/has/had + been + V3",
-        "modal + be + V3: must be done",
-        "reporting passive: is said to / was believed to"
+      "use": [
+        "Сделать центром сообщения объект, результат или последствие действия.",
+        "Строить пассив в Perfect: has been sent, had been prepared.",
+        "Сочетать пассив с модальными глаголами: must be done, could be reversed.",
+        "Передавать мнение без источника: is said to, was believed to.",
+        "Не называть исполнителя, когда он очевиден или неважен."
       ],
+      "formula": [
+        "am / is / are + V3 — настоящее",
+        "was / were + V3 — прошедшее",
+        "have / has / had + been + V3 — Perfect",
+        "modal + be + V3: must be done",
+        "reporting passive: is said to + V1 / to have + V3"
+      ],
+      "markers": ["was announced", "had been prepared", "must be done", "is said to", "was believed to"],
       "points": [
-        "Время несёт форма to be: had been + V3 — действие раньше другого прошлого.",
-        "Модальный + пассив: must be done, can't be seen.",
-        "Reporting passive убирает неопределённое «говорят»: He is said to have left."
+        "Время выражает форма to be; смысловой глагол всегда в третьей форме (V3).",
+        "Исполнитель указывается через by только когда он важен: was written by.",
+        "Reporting passive убирает неопределённый источник: People believe → is believed to.",
+        "to have + V3 показывает, что событие произошло раньше сообщения: was said to have left."
       ],
       "examples": [
         {
@@ -106,11 +180,23 @@
           "ru": "Письмо отправлено."
         },
         {
+          "en": "The report had been prepared before the meeting.",
+          "ru": "Отчёт был подготовлен до начала встречи."
+        },
+        {
+          "en": "The decision could not be reversed.",
+          "ru": "Решение нельзя было отменить."
+        },
+        {
           "en": "He is believed to have left the city.",
           "ru": "Полагают, что он уехал из города."
         }
       ],
-      "note": "После to в reporting passive — начальная форма или have + V3: to leave, to have left — но не to left.",
+      "pitfalls": [
+        { "wrong": "The evidence had presented before the trial.", "right": "The evidence had been presented before the trial." },
+        { "wrong": "He was believed to had left the city.", "right": "He was believed to have left the city." }
+      ],
+      "note": "В reporting passive после to — инфинитив: to be, to have been, но не to was / to had.",
       "lesson": "/grammar/b2-passive-voice-advanced"
     },
     {
@@ -118,28 +204,42 @@
       "title": "Past Modals",
       "titleRu": "Модальные глаголы для выводов о прошлом",
       "category": "Modal verbs",
-      "use": "Вывод о прошлом по свидетельствам: почти уверен — must have; возможно — may/might/could have; исключено — can't have.",
+      "use": [
+        "Делать почти уверенный вывод о прошлом по имеющимся признакам.",
+        "Предлагать возможную версию события, не утверждая её как факт.",
+        "Исключать версию, противоречащую известным обстоятельствам.",
+        "Отличать вывод о прошлом от факта: She left — факт, She must have left — вывод."
+      ],
       "formula": [
         "must have + V3 — сильный вывод",
         "may / might / could have + V3 — возможная версия",
         "can't / couldn't have + V3 — исключение"
       ],
+      "markers": ["must have", "may have", "might have", "could have", "can't have", "couldn't have"],
       "points": [
-        "Вывод ≠ факт: факт — Past Simple (He left), вывод — модальный + have + V3 (He must have left).",
-        "После модального всегда have, дальше — V3: must have left, could have known.",
-        "has/had после модального не бывает: must have had, а не must had."
+        "Шкала уверенности: must have — почти уверен, might have — версия, can't have — исключено.",
+        "must have — это вывод, а не обязанность в прошлом.",
+        "Форма всегда modal + have + V3: must have left, must have had — без must has / must had."
       ],
       "examples": [
         {
           "en": "The lights are off. She must have left.",
-          "ru": "Свет погашен. Она, должно быть, ушла."
+          "ru": "Свет погашен. Должно быть, она ушла."
+        },
+        {
+          "en": "She might have misunderstood the message.",
+          "ru": "Возможно, она неправильно поняла сообщение."
         },
         {
           "en": "He can't have forgotten the meeting.",
-          "ru": "Не может быть, что он забыл о встрече."
+          "ru": "Не может быть, чтобы он забыл о встрече."
         }
       ],
-      "note": "Сравни: She refused (факт) и She must have had a reason (вывод).",
+      "pitfalls": [
+        { "wrong": "She must has left.", "right": "She must have left." },
+        { "wrong": "She can't had forgotten.", "right": "She can't have forgotten." }
+      ],
+      "note": "Сравни: She refused — факт, She must have had a reason — вывод из обстоятельств.",
       "lesson": "/grammar/b2-modals-in-the-past"
     },
     {
@@ -147,29 +247,48 @@
       "title": "Relative Clauses",
       "titleRu": "Относительные придаточные",
       "category": "Grammar",
-      "use": "Присоединить к существительному дополнительную информацию о человеке, предмете, месте или времени.",
+      "use": [
+        "Добавить к существительному информацию о человеке, предмете, месте или времени.",
+        "Точно определить, о ком или о чём речь: the man who called.",
+        "Присоединить добавочную информацию, выделив её запятыми.",
+        "Опустить относительное слово, если оно не подлежащее: the book I found."
+      ],
       "formula": [
         "who — люди: the man who called",
         "which / that — предметы: the book that I found",
         "whose — принадлежность",
-        "where / when — место и время"
+        "where — место, when — время"
       ],
+      "markers": ["who", "which", "that", "whose", "where", "when"],
       "points": [
-        "Определяющее придаточное (без запятых) допускает that; поясняющее (в запятых) — только who/which.",
-        "Местоимение можно опустить, если оно не подлежащее: the book (that) I found.",
-        "Если местоимение — подлежащее, оно обязательно: the man who called."
+        "who — только о людях; which / that — о предметах и явлениях.",
+        "Определяющее придаточное (без запятых) допускает that; поясняющее (в запятых) — только who / which.",
+        "Относительное слово-подлежащее опускать нельзя: the man who called; слово-дополнение можно: the book (that) I found.",
+        "whose уже выражает принадлежность: the man whose house we entered."
       ],
       "examples": [
         {
-          "en": "The man who called is my brother.",
-          "ru": "Человек, который звонил, — мой брат."
+          "en": "The woman who answered the phone was very helpful.",
+          "ru": "Женщина, которая ответила на звонок, была очень приветливой."
         },
         {
           "en": "This is the house where I grew up.",
           "ru": "Это дом, где я вырос."
+        },
+        {
+          "en": "The book that I found was very old.",
+          "ru": "Книга, которую я нашёл, была очень старой."
+        },
+        {
+          "en": "My colleague, who speaks three languages, translated the letter.",
+          "ru": "Мой коллега, который говорит на трёх языках, перевёл письмо."
         }
       ],
-      "note": "who — только о людях, which — о предметах: the book who — ошибка.",
+      "pitfalls": [
+        { "wrong": "The man which called is my neighbour.", "right": "The man who called is my neighbour." },
+        { "wrong": "The house which I grew up is far away.", "right": "The house where I grew up is far away." }
+      ],
+      "note": "Не путай определяющее и поясняющее придаточные: без запятых информация определяет предмет, с запятыми — только дополняет.",
       "lesson": "/grammar/b2-relative-clauses"
     }
   ]

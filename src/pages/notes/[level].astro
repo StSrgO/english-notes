@@ -15,68 +15,80 @@ const pad = (i) => String(i + 1).padStart(2, "0");
 const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.length || t.examples?.length || t.note).length;
 ---
 
-<Base title={`Шпаргалки · ${data.level} — EnglishNotes`} description={`Шпаргалки по грамматике английского · ${name}: краткие схемы ${topics.length} тем уровня — когда используется, формула, примеры, частая ошибка.`}>
+<Base title={`Краткие заметки · ${data.level} — EnglishNotes`} description={`Заметки по грамматике английского · ${name}: краткие схемы ${topics.length} тем уровня — когда используется, формула, примеры, частая ошибка.`}>
   <div class="cheats wrap">
-    <header class="cheats__head">
-      <nav class="cheats-crumb" aria-label="Хлебные крошки">
-        <a href="/grammar">Грамматика</a>
-        <span aria-hidden="true"> · </span>
-        <a href="/cheats">Шпаргалки</a>
-        <span aria-hidden="true"> · </span>
-        <span aria-current="page">{data.level}</span>
-      </nav>
-      <div class="cheats__head-row">
-        <div class="cheats__titles">
-          <p class="eyebrow">grammar · cheats</p>
-          <h1 class="cheats__h1"><span class="hl-mark">Шпаргалки · {data.level}</span></h1>
-        </div>
-        <button type="button" class="cheats-print" data-print>Печать / PDF</button>
-      </div>
-      <p class="cheats__meta">
-        {name} · {topics.length} тем · повторение правила за 10–30 секунд
-      </p>
-      {ready < topics.length && (
-        <p class="cheats__status">
-          Готово карточек: {ready} из {topics.length} — остальные появятся в ближайших обновлениях.
-        </p>
-      )}
-    </header>
-
     <div class="cheats__layout">
       <aside class="cheats-side" aria-label="Темы уровня">
-        <span class="cheats-side__t">Темы</span>
         {topics.map((t, i) => (
           <a class="cheats-side__link" data-cheat-spy={t.id} href={"#" + t.id}>
             <span class="cheats-side__n">{pad(i)}</span>
-            <span class="cheats-side__name">{t.titleRu || t.title}</span>
+            <span class="cheats-side__name">{t.title}</span>
           </a>
         ))}
       </aside>
 
       <div class="cheats__main">
+        <header class="cheats__head">
+          <p class="eyebrow">grammar · notes</p>
+          <div class="cheats__head-row">
+            <h1 class="cheats__h1">Краткие заметки · {data.level}</h1>
+            <button type="button" class="cheats-print" data-print>Печать / PDF</button>
+          </div>
+          {ready < topics.length && (
+            <p class="cheats__status">
+              Готово карточек: {ready} из {topics.length} — остальные появятся в ближайших обновлениях.
+            </p>
+          )}
+        </header>
         {topics.map((t, i) => {
-          const filled = t.use || t.formula?.length || t.points?.length || t.examples?.length || t.note;
+          const filled = t.use || t.formula?.length || t.forms?.length || t.points?.length || t.markers?.length || t.examples?.length || t.pitfalls?.length || t.note;
+          // строки формулы, начинающиеся с «→», склеиваем с предыдущей в одну строку
+          const formulaLines = [];
+          for (const l of t.formula || []) {
+            if (/^→/.test(l.trimStart()) && formulaLines.length) formulaLines[formulaLines.length - 1] += " " + l.trimStart();
+            else formulaLines.push(l.trim());
+          }
           return (
             <section class="cheat-card" id={t.id}>
               <header class="cheat-card__head">
-                <p class="cheat-card__eye">
+                <div class="cheat-card__meta">
                   <span class="cheat-card__cat">{t.category}</span>
-                  <span aria-hidden="true"> · </span>шпаргалка {data.level} · {pad(i)}
-                </p>
-                <h2 class="cheat-card__title">{t.title}</h2>
+                  <span class="cheat-card__no" aria-hidden="true">{data.level} · {pad(i)}</span>
+                </div>
+                <h2 class="cheat-card__title"><span class="hl-mark">{t.title}</span></h2>
                 {t.titleRu && <p class="cheat-card__sub">{t.titleRu}</p>}
               </header>
 
               {filled ? (
                 <div class="cheat-card__body">
-                  {t.use && <p class="cheat-card__use">{t.use}</p>}
+                  {Array.isArray(t.use) ? (
+                    t.use.length > 0 && (
+                      <ul class="cheat-card__uses">
+                        {t.use.map((u) => (
+                          <li>{u}</li>
+                        ))}
+                      </ul>
+                    )
+                  ) : t.use ? (
+                    <p class="cheat-card__use">{t.use}</p>
+                  ) : null}
 
-                  {t.formula?.length > 0 && (
+                  {(formulaLines.length > 0 || t.forms?.length > 0) && (
                     <div class="cheat-card__formula">
-                      {t.formula.map((line) => (
+                      {formulaLines.map((line) => (
                         <span class="cheat-card__fline">{line}</span>
                       ))}
+                      {t.forms?.map((line) => (
+                        <span class="cheat-card__fline cheat-card__fline--form">{line}</span>
+                      ))}
                     </div>
+                  )}
+
+                  {t.markers?.length > 0 && (
+                    <p class="cheat-card__markers">
+                      <span class="cheat-card__markers-t">сигналы</span>
+                      {t.markers.map((m) => <span class="cheat-card__marker">{m}</span>)}
+                    </p>
                   )}
 
                   {t.points?.length > 0 && (
@@ -96,6 +108,19 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
                         </li>
                       ))}
                     </ul>
+                  )}
+
+                  {t.pitfalls?.length > 0 && (
+                    <div class="cheat-card__pits">
+                      <span class="cheat-card__pits-t">частая ошибка</span>
+                      {t.pitfalls.map((p) => (
+                        <p class="cheat-card__pit">
+                          <span class="cheat-card__wrong">{p.wrong}</span>
+                          <span class="cheat-card__arrow" aria-hidden="true">→</span>
+                          <span class="cheat-card__right">{p.right}</span>
+                        </p>
+                      ))}
+                    </div>
                   )}
 
                   {t.note && <p class="cheat-card__note">{t.note}</p>}
@@ -148,38 +173,21 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
   .cheats { padding: 38px 0 76px; }
 
   /* ---------- шапка ---------- */
-  .cheats-crumb {
-    font-family: var(--mono);
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.06em;
-    color: var(--ink-soft);
-    margin-bottom: 24px;
-  }
-  .cheats-crumb a { transition: color 0.15s; }
-  .cheats-crumb a:hover { color: var(--mint-ink); }
-  .cheats__head { margin-bottom: 30px; }
+  .cheats__head { margin-bottom: 26px; text-align: left; }
   .cheats__head-row {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
   }
   .cheats__h1 {
-    font-family: var(--display);
+    font-family: var(--display-serif);
     font-weight: 800;
-    font-size: clamp(32px, 4.6vw, 52px);
-    letter-spacing: -0.02em;
-    line-height: 1.06;
-    margin: 12px 0 10px;
-  }
-  .cheats__meta {
-    font-size: 15.5px;
-    font-weight: 600;
-    color: var(--ink-mid);
-    margin: 0;
+    font-size: clamp(26px, 3.2vw, 40px);
+    letter-spacing: -0.01em;
+    line-height: 1.08;
+    margin: 4px 0 0;
   }
   .cheats__status {
     display: inline-block;
@@ -223,8 +231,8 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
   }
   .cheats-side {
     position: sticky;
-    top: calc(var(--head-h, 64px) + 18px);
-    max-height: calc(100vh - var(--head-h, 64px) - 40px);
+    top: calc(var(--head-h, 64px) - 4px);
+    max-height: calc(100vh - var(--head-h, 64px) - 20px);
     overflow-y: auto;
     padding: 4px 10px 4px 0;
     scrollbar-width: thin;
@@ -286,49 +294,87 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     transition: border-color 0.18s ease, box-shadow 0.18s ease;
   }
   .cheat-card:hover { border-color: var(--mint-deep); }
-  .cheat-card__eye {
+  .cheat-card__meta {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 0 8px;
+  }
+  .cheat-card__cat {
     font-family: var(--mono);
     font-size: 11px;
     font-weight: 700;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--ink-soft);
-    margin: 0 0 8px;
+    color: var(--mint-ink);
   }
-  .cheat-card__cat { color: var(--mint-ink); }
+  .cheat-card__no {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: var(--ink-soft);
+  }
   .cheat-card__title {
-    font-family: var(--display);
+    font-family: var(--display-serif);
     font-weight: 800;
-    font-size: 24px;
+    font-size: clamp(23px, 2.4vw, 28px);
     letter-spacing: -0.01em;
-    line-height: 1.15;
+    line-height: 1.12;
     color: var(--ink);
   }
   .cheat-card__sub {
-    margin: 3px 0 0;
-    font-family: var(--display-serif);
-    font-size: 16.5px;
+    margin: 4px 0 0;
+    font-size: 15px;
     font-weight: 500;
+    line-height: 1.5;
     color: var(--ink-mid);
   }
   .cheat-card__body { margin-top: 16px; }
 
   .cheat-card__use {
-    margin: 0 0 12px;
+    margin: 0 0 14px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+  .cheat-card__uses {
+    display: grid;
+    gap: 7px;
+    margin: 0 0 14px;
+    padding: 0;
+    list-style: none;
+  }
+  .cheat-card__uses li {
+    position: relative;
+    padding-left: 22px;
     font-size: 15.5px;
     font-weight: 600;
     line-height: 1.55;
     color: var(--ink);
   }
+  .cheat-card__uses li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 0.62em;
+    width: 8px;
+    height: 8px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    background: var(--mint-ink);
+  }
   .cheat-card__formula {
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 3px;
     margin: 0 0 14px;
-    padding: 11px 16px;
+    padding: 12px 16px;
     background: var(--mint);
     border: 1px solid var(--mint-deep);
-    border-radius: 11px;
+    border-radius: 12px;
     font-family: var(--mono);
     font-weight: 700;
     font-size: 15px;
@@ -336,6 +382,39 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     color: var(--ink);
     overflow-wrap: anywhere;
   }
+  .cheat-card__fline--form {
+    margin-top: 4px;
+    padding-top: 4px;
+    border-top: 1px dashed var(--mint-deeper);
+    font-weight: 600;
+    color: var(--ink-mid);
+  }
+  .cheat-card__markers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 6px 12px;
+    margin: 0 0 14px;
+  }
+  .cheat-card__markers-t {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .cheat-card__marker {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    background: var(--mint);
+    border: 1px solid var(--mint-deep);
+    border-radius: 999px;
+    padding: 2px 10px;
+  }
+  .cheat-card__markers .cheat-card__marker + .cheat-card__marker { margin-left: 2px; }
   .cheat-card__points {
     display: grid;
     gap: 6px;
@@ -363,31 +442,69 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
   }
   .cheat-card__exs {
     display: grid;
-    gap: 8px;
-    margin: 0 0 14px;
-    padding: 0;
+    gap: 11px;
+    margin: 0 0 16px;
+    padding: 2px 0 2px 18px;
     list-style: none;
+    border-left: 4px solid var(--mint-deep);
   }
   .cheat-card__ex {
     display: grid;
     gap: 1px;
-    padding: 10px 14px;
-    background: var(--paper);
-    border: 1px dashed var(--mint-deep);
-    border-radius: 11px;
   }
   .cheat-card__en {
     font-family: var(--display-serif);
-    font-size: 16.5px;
+    font-size: 17px;
     font-weight: 600;
     line-height: 1.45;
     color: var(--ink);
   }
   .cheat-card__ru {
-    font-size: 14px;
+    font-size: 13.5px;
     font-weight: 500;
     line-height: 1.5;
     color: var(--ink-mid);
+  }
+  .cheat-card__pits {
+    margin: 0 0 14px;
+    padding: 12px 14px 11px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+  }
+  .cheat-card__pits-t {
+    display: block;
+    margin: 0 0 7px;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+  }
+  .cheat-card__pit {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 8px;
+    margin: 4px 0 0;
+    font-size: 14.5px;
+    line-height: 1.5;
+  }
+  .cheat-card__pit:first-of-type { margin-top: 0; }
+  .cheat-card__wrong {
+    font-weight: 600;
+    color: var(--ink);
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+  }
+  .cheat-card__arrow {
+    color: var(--ink-soft);
+    font-weight: 700;
+  }
+  .cheat-card__right {
+    font-weight: 700;
+    color: var(--mint-ink);
   }
   .cheat-card__note {
     margin: 0 0 4px;
@@ -400,7 +517,7 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     color: var(--ink-mid);
   }
   .cheat-card__note::before {
-    content: "! ";
+    content: "≠ ";
     font-family: var(--mono);
     font-weight: 800;
     color: var(--mint-ink);
@@ -420,10 +537,10 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     font-weight: 700;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: var(--mint-ink);
+    color: var(--ink);
     transition: color 0.15s;
   }
-  .cheat-card__lesson:hover { color: var(--ink); }
+  .cheat-card__lesson:hover { color: var(--mint-ink); }
 
   /* ---------- узкие экраны: меню — sticky-лента чипсов ---------- */
   @media (max-width: 1100px) {
@@ -481,7 +598,7 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
 
   /* ---------- печать ---------- */
   @media print {
-    .site-head, .site-foot, .cheats-side, .cheats-print, .cheats-crumb, .cheats__status { display: none !important; }
+    .site-head, .site-foot, .cheats-side, .cheats-print, .cheats__status { display: none !important; }
     body { background: #fff; }
     .cheats { width: 100%; padding: 0; }
     .cheats__layout { display: block; }
@@ -496,9 +613,12 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
       box-shadow: none;
     }
     .cheat-card__head { margin-bottom: 8px; }
-    .cheat-card__en, .cheat-card__use, .cheat-card__title { color: #000; }
+    .cheat-card__en, .cheat-card__use, .cheat-card__uses li, .cheat-card__title, .cheat-card__right, .cheat-card__wrong { color: #000; }
     .cheat-card__lesson { display: none; }
-    .cheat-card__ex { background: #fff; border-color: #d8e2da; }
     .cheat-card__note { border: 1px solid #d8e2da; }
+    .cheat-card__marker { background: #fff; border-color: #d8e2da; }
+    .cheat-card__pits { background: #fff; border-color: #d8e2da; }
+    .cheat-card__fline--form { border-color: #d8e2da; }
+    .cheat-card__exs { border-color: #a8d5b2; }
   }
 </style>

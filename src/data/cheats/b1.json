@@ -7,11 +7,16 @@
       "title": "Zero Conditional",
       "titleRu": "Общие закономерности и факты",
       "category": "Conditionals",
-      "use": "Общие факты и закономерности: результат повторяется каждый раз, когда выполняется условие.",
+      "use": [
+        "Общие факты и закономерности: условие выполняется — результат повторяется всегда.",
+        "Физические свойства и природные явления: if water freezes…",
+        "Правила и инструкции; when, whenever, every time работают как if."
+      ],
       "formula": [
         "if + Present Simple",
         "→ Present Simple"
       ],
+      "markers": ["if", "when", "whenever", "every time", "unless"],
       "points": [
         "Обе части — в Present Simple: связь устойчивая, это не один конкретный случай.",
         "После if будущее время (will) не используется."
@@ -20,7 +25,19 @@
         {
           "en": "If water freezes, it becomes ice.",
           "ru": "Если вода замерзает, она превращается в лёд."
+        },
+        {
+          "en": "If metal gets hot, it expands.",
+          "ru": "Если металл нагревается, он расширяется."
+        },
+        {
+          "en": "If you leave food outside, animals find it.",
+          "ru": "Если оставить еду снаружи, животные её находят."
         }
+      ],
+      "pitfalls": [
+        { "wrong": "If water will freeze, it becomes ice.", "right": "If water freezes, it becomes ice." },
+        { "wrong": "If water freezes, it will become ice.", "right": "If water freezes, it becomes ice." }
       ],
       "note": "Не путай с First Conditional: тот описывает конкретное будущее событие и следствие с will.",
       "lesson": "/grammar/b1-zero-conditional"
@@ -30,20 +47,41 @@
       "title": "First Conditional",
       "titleRu": "Реальные ситуации в будущем",
       "category": "Conditionals",
-      "use": "Реальная или вполне вероятная ситуация в будущем и её возможное следствие.",
+      "use": [
+        "Реальная или вполне вероятная ситуация в будущем и её следствие.",
+        "Предупреждение: if you touch that wire, you will get a shock.",
+        "Обещание или план, зависящий от условия: if she calls, I will tell her."
+      ],
       "formula": [
         "if + Present Simple",
         "→ will + V1"
       ],
+      "forms": [
+        "− if + Present Simple, won't + V1",
+        "? If + Present Simple, will + подлежащее + V1?"
+      ],
+      "markers": ["if", "unless", "as long as", "provided that", "when"],
       "points": [
         "После if — Present Simple, даже когда речь идёт о будущем.",
-        "В главной части — will + V1; will после if не ставится."
+        "В главной части — will + V1; will после if не ставится.",
+        "Вопрос и отрицание строятся в главной части: will / won't."
       ],
       "examples": [
         {
           "en": "If you leave now, you will catch the train.",
           "ru": "Если выйдешь сейчас, успеешь на поезд."
+        },
+        {
+          "en": "If the shop is open, I will buy some food.",
+          "ru": "Если магазин будет открыт, я куплю еды."
+        },
+        {
+          "en": "If she doesn't answer, I will call again.",
+          "ru": "Если она не ответит, я позвоню снова."
         }
+      ],
+      "pitfalls": [
+        { "wrong": "If it will rain, we will stay home.", "right": "If it rains, we will stay home." }
       ],
       "note": "Не путай с Zero Conditional: там условие и результат — общая закономерность, обе части в Present Simple.",
       "lesson": "/grammar/b1-first-conditional"
@@ -53,11 +91,21 @@
       "title": "Second Conditional",
       "titleRu": "Нереальные и маловероятные ситуации",
       "category": "Conditionals",
-      "use": "Нереальные или маловероятные ситуации в настоящем и будущем: мечты, советы, воображаемые варианты.",
+      "use": [
+        "Нереальные ситуации в настоящем: представляем то, чего сейчас нет.",
+        "Маловероятные варианты будущего: if they offered me the job…",
+        "Совет: If I were you, I would…",
+        "Could / might — возможный, а не обязательный результат."
+      ],
       "formula": [
         "if + Past Simple (were)",
         "→ would / could / might + V1"
       ],
+      "forms": [
+        "− wouldn't / couldn't + V1 (главная часть)",
+        "? Would + подлежащее + V1 (главная часть)?"
+      ],
+      "markers": ["if I were you", "if I had", "if we lived", "would + V1", "could / might + V1"],
       "points": [
         "Past Simple здесь не про прошлое — это дистанция от реальности.",
         "Гипотетическая форма be — were: If I were you.",
@@ -67,7 +115,19 @@
         {
           "en": "If I had money, I would travel.",
           "ru": "Если бы у меня были деньги, я бы путешествовал."
+        },
+        {
+          "en": "If I were you, I would refuse.",
+          "ru": "На твоём месте я бы отказался."
+        },
+        {
+          "en": "If he had more free time, he could learn to play the guitar.",
+          "ru": "Если бы у него было больше свободного времени, он мог бы научиться играть на гитаре."
         }
+      ],
+      "pitfalls": [
+        { "wrong": "If I would be free, I would leave.", "right": "If I were free, I would leave." },
+        { "wrong": "If he was free, he would leave.", "right": "If he were free, he would leave." }
       ],
       "note": "Не путай с Third Conditional: тот — про нереальное прошлое (if + had + V3 → would have + V3).",
       "lesson": "/grammar/b1-second-conditional"
@@ -77,10 +137,19 @@
       "title": "Used to",
       "titleRu": "Привычки и состояния в прошлом",
       "category": "Grammar",
-      "use": "Привычка или состояние, которые были в прошлом, но теперь изменились: главное — контраст «раньше — теперь».",
+      "use": [
+        "Привычка в прошлом, которой больше нет: раньше делал, теперь не делаю.",
+        "Состояние в прошлом: жил, работал, был где-то.",
+        "Контраст «раньше — теперь»: I used to work there, but I don't anymore."
+      ],
       "formula": [
         "Subject + used to + V1"
       ],
+      "forms": [
+        "− didn't use to + V1",
+        "? Did + подлежащее + use to + V1?"
+      ],
+      "markers": ["used to", "when I was young", "in the past", "years ago"],
       "points": [
         "Отрицание и вопрос — через did: didn't use to, Did you use to…?",
         "После used to — начальная форма глагола (не -ing).",
@@ -90,7 +159,19 @@
         {
           "en": "I used to live in a small town.",
           "ru": "Раньше я жил в маленьком городке."
+        },
+        {
+          "en": "She used to play the piano every evening.",
+          "ru": "Раньше она играла на пианино каждый вечер."
+        },
+        {
+          "en": "They used to meet every week.",
+          "ru": "Раньше они встречались каждую неделю."
         }
+      ],
+      "pitfalls": [
+        { "wrong": "He use to write every morning.", "right": "He used to write every morning." },
+        { "wrong": "Did he used to live there?", "right": "Did he use to live there?" }
       ],
       "note": "Не путай с be used to + V-ing («быть привыкшим»): это другая конструкция и другой смысл.",
       "lesson": "/grammar/b1-used-to"
@@ -100,20 +181,42 @@
       "title": "Present Perfect",
       "titleRu": "Связь прошлого с настоящим",
       "category": "Grammar",
-      "use": "Действие произошло в прошлом, но важен его результат или опыт сейчас; конкретный момент не называется.",
+      "use": [
+        "Опыт: что человек когда-либо делал — ever, never.",
+        "Результат сейчас: действие завершилось, и его результат важен.",
+        "Незавершённый период: today, this week — период ещё идёт.",
+        "Конкретный момент совершения не называется."
+      ],
       "formula": [
         "have / has + V3"
       ],
+      "forms": [
+        "− haven't / hasn't + V3",
+        "? Have / Has + подлежащее + V3?"
+      ],
+      "markers": ["already", "just", "yet", "ever", "never", "so far"],
       "points": [
         "have — с I, you, we, they; has — с he, she, it.",
         "Конкретный момент в прошлом (yesterday, in 2020) — сигнал для Past Simple.",
-        "Об опыте спрашивают и говорят с ever / never; о свежем результате — с just / already / yet."
+        "Об опыте спрашивают с ever / never; о свежем результате — с just / already / yet."
       ],
       "examples": [
         {
           "en": "I have finished the report.",
           "ru": "Я закончил отчёт (результат важен сейчас)."
+        },
+        {
+          "en": "I have never been to Japan.",
+          "ru": "Я никогда не был в Японии."
+        },
+        {
+          "en": "We have sent three emails today.",
+          "ru": "Сегодня мы отправили три письма (день ещё не закончился)."
         }
+      ],
+      "pitfalls": [
+        { "wrong": "I have lived in Paris in 1921.", "right": "I lived in Paris in 1921." },
+        { "wrong": "She have finished the book.", "right": "She has finished the book." }
       ],
       "note": "Если момент в прошлом назван, время меняется на Past Simple: I finished the report yesterday.",
       "lesson": "/grammar/b1-present-perfect"
@@ -123,22 +226,44 @@
       "title": "Past Perfect",
       "titleRu": "Действие раньше другого действия в прошлом",
       "category": "Past tenses",
-      "use": "Событие, которое произошло раньше другого события или момента в прошлом, — «прошлое до прошлого».",
+      "use": [
+        "Событие раньше другого события в прошлом — «прошлое до прошлого».",
+        "Вторая точка отсчёта обязательна: before, after, by the time.",
+        "Порядок в рассказе: сначала had + V3, затем Past Simple.",
+        "Без второй точки Past Perfect излишен — используй Past Simple."
+      ],
       "formula": [
         "Subject + had + V3"
       ],
+      "forms": [
+        "− hadn't + V3",
+        "? Had + подлежащее + V3?"
+      ],
+      "markers": ["already", "before", "after", "by the time", "when", "never before"],
       "points": [
-        "Нужна вторая точка в прошлом: более раннее событие — Past Perfect, более позднее — Past Simple.",
-        "Без неё Past Perfect излишен — используй обычный Past Simple.",
+        "Более раннее событие — Past Perfect, более позднее — Past Simple.",
+        "Порядок частей предложения не важен — маркер показывает, что было раньше.",
         "Частые спутники: before, after, by the time."
       ],
       "examples": [
         {
           "en": "The train had left before I arrived.",
           "ru": "Поезд ушёл до того, как я приехал."
+        },
+        {
+          "en": "She had cooked dinner before the guests came.",
+          "ru": "Она приготовила ужин до того, как пришли гости."
+        },
+        {
+          "en": "He had never flown before his first business trip.",
+          "ru": "Он ни разу не летал до своей первой командировки."
         }
       ],
-      "note": "Порядок частей предложения не важен — маркер времени показывает, какое событие было раньше.",
+      "pitfalls": [
+        { "wrong": "I had seen the film yesterday.", "right": "I saw the film yesterday." },
+        { "wrong": "They had went home.", "right": "They had gone home." }
+      ],
+      "note": "Сравни с Past Simple: если порядок событий понятен без уточнения, Past Perfect не нужен.",
       "lesson": "/grammar/b1-past-perfect"
     },
     {
@@ -146,21 +271,43 @@
       "title": "Passive Voice — Simple",
       "titleRu": "Страдательный залог: Simple",
       "category": "Passive",
-      "use": "Важнее само действие, его результат или объект, чем тот, кто его выполняет.",
+      "use": [
+        "Фокус на действии, результате или объекте, а не на исполнителе.",
+        "Исполнитель неизвестен: The window was broken last night.",
+        "Исполнитель очевиден или неважен — его опускают.",
+        "Исполнитель добавляется через by, только если он важен."
+      ],
       "formula": [
         "Present Simple: am / is / are + V3",
         "Past Simple: was / were + V3"
       ],
+      "forms": [
+        "− isn't / wasn't + V3",
+        "? Is / Was + подлежащее + V3?"
+      ],
+      "markers": ["by", "every year", "usually", "now"],
       "points": [
         "Время и согласование несёт форма to be; V3 остаётся неизменной.",
-        "Исполнитель добавляется через by, только если он важен.",
-        "Если исполнитель неизвестен или очевиден — его опускают."
+        "Если исполнитель неизвестен или очевиден — его опускают.",
+        "Подлежащее пассива — объект действия активного предложения."
       ],
       "examples": [
         {
           "en": "The report was sent yesterday.",
           "ru": "Отчёт отправили вчера (важен факт, а не отправитель)."
+        },
+        {
+          "en": "The museum is visited by thousands of tourists.",
+          "ru": "Музей посещают тысячи туристов."
+        },
+        {
+          "en": "The window was broken last night.",
+          "ru": "Окно разбили прошлой ночью."
         }
+      ],
+      "pitfalls": [
+        { "wrong": "The report sent yesterday.", "right": "The report was sent yesterday." },
+        { "wrong": "The letters was sent on time.", "right": "The letters were sent on time." }
       ],
       "note": "Без формы to be пассив не работает: нужен am / is / are или was / were + V3.",
       "lesson": "/grammar/b1-passive-voice-simple"
@@ -170,14 +317,24 @@
       "title": "Should / May / Might",
       "titleRu": "Совет, ожидание и возможность",
       "category": "Grammar",
-      "use": "Should — совет или ожидаемый результат; may и might — возможность и неуверенность.",
+      "use": [
+        "Should — совет или ожидаемый результат.",
+        "May — реальная возможность: The change may help.",
+        "Might — более осторожное предположение, меньше уверенности.",
+        "Отрицания: shouldn't, may not, might not."
+      ],
       "formula": [
         "should / may / might + V1"
       ],
+      "forms": [
+        "− shouldn't / may not / might not + V1",
+        "? Should + подлежащее + V1?"
+      ],
+      "markers": ["I think", "perhaps", "maybe", "probably"],
       "points": [
         "После модальных глаголов — базовая форма без to: should go, may help.",
         "Might звучит осторожнее, чем may: меньше уверенности.",
-        "Отрицания: shouldn't, may not, might not."
+        "В вопросах чаще всего should; may в значении разрешения — отдельная тема."
       ],
       "examples": [
         {
@@ -187,7 +344,15 @@
         {
           "en": "It may rain tomorrow.",
           "ru": "Завтра, возможно, будет дождь."
+        },
+        {
+          "en": "They might be at home by now.",
+          "ru": "Они, возможно, уже дома."
         }
+      ],
+      "pitfalls": [
+        { "wrong": "You should to go home.", "right": "You should go home." },
+        { "wrong": "She may comes later.", "right": "She may come later." }
       ],
       "note": "Ожидаемый результат — тоже should: The train should arrive on time.",
       "lesson": "/grammar/b1-modals-should-might-may"
@@ -197,14 +362,20 @@
       "title": "Gerund vs Infinitive",
       "titleRu": "-ing или to + глагол",
       "category": "Grammar",
-      "use": "После одних глаголов идёт форма с -ing, после других — to + глагол; выбор зависит от самого глагола.",
+      "use": [
+        "После одних глаголов — форма с -ing: enjoy, avoid, finish, keep.",
+        "После других — to + глагол: want, decide, hope, plan.",
+        "После предлогов и в роли подлежащего — всегда V-ing.",
+        "Списки глаголов лучше запоминать парами, а не по одному."
+      ],
       "formula": [
         "V-ing: enjoy, avoid, finish, keep",
         "to + V1: want, decide, hope, plan"
       ],
+      "markers": ["enjoy + V-ing", "avoid + V-ing", "finish + V-ing", "want + to V1", "decide + to V1"],
       "points": [
-        "Списки глаголов лучше запоминать парами, а не по одному.",
-        "После предлогов и в роли подлежащего — всегда V-ing."
+        "Выбор формы зависит от самого глагола — общего правила нет.",
+        "Remember doing («помню, что делал») ≠ remember to do («не забыть сделать»)."
       ],
       "examples": [
         {
@@ -214,9 +385,17 @@
         {
           "en": "He decided to learn English.",
           "ru": "Он решил учить английский."
+        },
+        {
+          "en": "They kept talking during the film.",
+          "ru": "Они продолжали разговаривать во время фильма."
         }
       ],
-      "note": "Есть глаголы, у которых форма меняет смысл: remember doing («помню, что делал») и remember to do («не забыть сделать»).",
+      "pitfalls": [
+        { "wrong": "I enjoy to read.", "right": "I enjoy reading." },
+        { "wrong": "She decided reading the book.", "right": "She decided to read the book." }
+      ],
+      "note": "Есть глаголы, у которых форма меняет смысл: remember doing и remember to do.",
       "lesson": "/grammar/b1-gerund-vs-infinitive"
     },
     {
@@ -224,15 +403,21 @@
       "title": "Reported Speech",
       "titleRu": "Пересказ чужих слов",
       "category": "Grammar",
-      "use": "Передача чужих слов не дословно, а пересказом: «Он сказал, что…».",
+      "use": [
+        "Передача чужих слов пересказом: He said that he was tired.",
+        "После say адресат не ставится; после tell — ставится: told me.",
+        "Косвенный вопрос — прямой порядок слов и без do.",
+        "Просьбы и приказы — told somebody to do."
+      ],
       "formula": [
         "say / tell + (that) + утверждение",
         "ask + if / вопросительное слово + …"
       ],
+      "markers": ["said that", "told somebody that", "asked if / whether", "asked who / what / where"],
       "points": [
-        "После say адресат не ставится (He said that…), после tell — ставится (He told me that…).",
+        "He said that… — без адресата; He told me that… — с адресатом.",
         "Время «сдвигается назад»: Present → Past, Past → Past Perfect.",
-        "В косвенных вопросах — прямой порядок слов и без do."
+        "Вместе с временем сдвигаются местоимения и указатели: today → that day, here → there."
       ],
       "examples": [
         {
@@ -242,9 +427,17 @@
         {
           "en": "She asked if I had seen the film.",
           "ru": "Она спросила, видел ли я этот фильм."
+        },
+        {
+          "en": "She told me to wait.",
+          "ru": "Она попросила меня подождать."
         }
       ],
-      "note": "Вместе с временем сдвигаются местоимения и указатели: today → that day, here → there.",
+      "pitfalls": [
+        { "wrong": "He said me that he was tired.", "right": "He told me that he was tired." },
+        { "wrong": "He told that he was tired.", "right": "He told me that he was tired." }
+      ],
+      "note": "Не путай say и tell: say — о словах, tell — о передаче слов кому-то.",
       "lesson": "/grammar/b1-reported-speech"
     }
   ]
