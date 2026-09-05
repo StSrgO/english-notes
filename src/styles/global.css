@@ -5566,3 +5566,59 @@ body:has(.soon) {
   .quote-card { border-bottom-color: #c2ccc0; }
   .pick { border-bottom-color: #c2ccc0; }
 }
+
+/* ============================================================
+   catalog: врезка-описание уровня (level-intro)
+   ============================================================ */
+.level-intro {
+  margin: 2px 0 22px;
+  max-width: 76ch;
+}
+.level-intro__desc {
+  margin: 0 0 14px;
+  font-size: 15.5px;
+  font-weight: 500;
+  line-height: 1.65;
+  color: var(--ink-mid);
+}
+.level-intro__more-t {
+  margin: 0 0 8px;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.level-intro__more {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.level-intro__more li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 14.5px;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--ink-mid);
+}
+.level-intro__more li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 0.6em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--mint-ink);
+}
+.level-intro__more li.level-intro__from {
+  padding-left: 0;
+  font-weight: 700;
+  color: var(--ink);
+}
+.level-intro__more li.level-intro__from::before { display: none; }
+

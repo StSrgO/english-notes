@@ -162,7 +162,7 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
       }, { rootMargin: "-15% 0px -70% 0px", threshold: 0 });
       cards.forEach((c) => spy.observe(c));
       const initHash = location.hash.replace("#", "");
-      setActive(initHash && cards.some((c) => c.id === initHash) ? initHash : links[0].dataset.cheatSpy, false);
+      if (initHash && cards.some((c) => c.id === initHash)) setActive(initHash, false);
     }
     const printBtn = document.querySelector("[data-print]");
     if (printBtn) printBtn.addEventListener("click", () => window.print());
@@ -542,21 +542,22 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
   }
   .cheat-card__lesson:hover { color: var(--mint-ink); }
 
-  /* ---------- узкие экраны: меню — sticky-лента чипсов ---------- */
+  /* ---------- узкие экраны: меню — sticky-скролл как на /grammar ---------- */
   @media (max-width: 1100px) {
     .cheats__layout { grid-template-columns: minmax(0, 1fr); gap: 8px; }
     .cheats-side {
       position: sticky;
-      top: var(--head-h, 64px);
-      z-index: 25;
+      top: 60px;
+      z-index: 15;
       display: flex;
       flex-wrap: nowrap;
+      align-items: center;
       gap: 2px;
       max-height: none;
       overflow-x: auto;
       overflow-y: visible;
       margin: 0 0 22px;
-      padding: 8px 4px;
+      padding: 8px 0;
       background: var(--paper);
       border-bottom: 1px solid var(--line);
       scrollbar-width: none;
@@ -566,24 +567,29 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     .cheats-side .cheats-side__link {
       flex: 0 0 auto;
       align-items: baseline;
-      gap: 7px;
-      padding: 8px 13px;
+      gap: 8px;
+      padding: 8px 14px;
       margin-left: 0;
       border-left: none;
-      border-radius: 10px;
-      background: var(--mint);
-      font-family: var(--mono);
-      font-size: 12px;
-      font-weight: 600;
-      letter-spacing: 0.04em;
-      color: var(--ink-soft);
-      white-space: nowrap;
-    }
-    .cheats-side__link:hover { background: var(--mint-deep); color: var(--ink); }
-    .cheats-side__link.is-active {
-      color: var(--paper);
+      border-radius: 11px;
+      background: transparent;
+      font-family: var(--display);
+      font-size: 15px;
       font-weight: 700;
-      background: var(--ink);
+      letter-spacing: 0;
+      color: var(--ink);
+      position: relative;
+      white-space: nowrap;
+      transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
+    }
+    .cheats-side .cheats-side__link:hover {
+      background: var(--mint);
+      color: var(--mint-ink);
+      transform: translateX(3px);
+    }
+    .cheats-side .cheats-side__link.is-active {
+      background: var(--mint-ink);
+      color: var(--paper);
       box-shadow: none;
     }
     .cheats-side__n { display: none; }
