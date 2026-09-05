@@ -146,9 +146,10 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .pick:hover .pick__go { opacity: 1; transform: none; }
 
 /* catalog */
+:root { --line-strong: #c2ccc0; } /* заметные разделители-линии (не зелёные) */
 .filters { display: flex; flex-wrap: wrap; gap: 10px; margin: 8px 0 30px; }
 .level-block { margin-bottom: 40px; scroll-margin-top: 100px; }
-.level-block__title { font-family: var(--display); font-weight: 900; font-size: 30px; display: flex; align-items: baseline; gap: 12px; margin-bottom: 16px; }
+.level-block__title { font-family: var(--display); font-weight: 900; font-size: 30px; display: flex; align-items: baseline; gap: 12px; margin-bottom: 18px; padding-bottom: 12px; border-bottom: 2px solid var(--line-strong); }
 .level-block__title small { font-family: var(--body); font-size: 14px; font-weight: 600; color: var(--ink-mid); }
 .topic-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 16px; }
 .topic-card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 20px; box-shadow: var(--shadow-sm); transition: transform 0.2s, box-shadow 0.2s; display: flex; flex-direction: column; gap: 10px; }
@@ -5571,14 +5572,18 @@ body:has(.soon) {
    catalog: врезка-описание уровня (level-intro)
    ============================================================ */
 .level-intro {
-  margin: 2px 0 22px;
-  max-width: 76ch;
+  margin: 2px 0 26px;
+  padding-bottom: 18px;
+  border-bottom: 2px solid var(--line-strong);
 }
 .level-intro__desc {
   margin: 0 0 14px;
-  font-size: 15.5px;
+  font-family: var(--display-serif);
+  font-size: 16.5px;
   font-weight: 500;
-  line-height: 1.65;
+  line-height: 1.7;
+  text-align: justify;
+  hyphens: auto;
   color: var(--ink-mid);
 }
 .level-intro__more-t {
@@ -5599,20 +5604,22 @@ body:has(.soon) {
 }
 .level-intro__more li {
   position: relative;
-  padding-left: 20px;
-  font-size: 14.5px;
+  padding-left: 22px;
+  font-family: var(--display-serif);
+  font-size: 15px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 1.6;
+  text-align: left;
   color: var(--ink-mid);
 }
 .level-intro__more li::before {
   content: "";
   position: absolute;
-  left: 2px;
-  top: 0.6em;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
+  left: 3px;
+  top: 0.52em;
+  width: 8px;
+  height: 8px;
+  transform: rotate(45deg);
   background: var(--mint-ink);
 }
 .level-intro__more li.level-intro__from {
