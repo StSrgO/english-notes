@@ -144,7 +144,6 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
       const levelLinks = Array.from(document.querySelectorAll('[data-level-link]'));
       if (levelLinks.length) {
         const blocks = Array.from(document.querySelectorAll('[data-level-block]'));
-        const firstBlock = blocks[0];
         const setActive = (lvl, autoscroll) => {
           levelLinks.forEach((a) => a.classList.toggle('is-active', a.dataset.level === lvl));
           if (autoscroll) {
@@ -160,12 +159,14 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
           }
         };
         let ignoreSpy = false;
+        let lastLvl = '';
         levelLinks.forEach((a) => {
           a.addEventListener('click', (e) => {
             e.preventDefault();
             const lvl = a.dataset.level;
             ignoreSpy = true;
             setActive(lvl);
+            lastLvl = lvl === 'all' ? levelLinks[0].dataset.level : lvl;
             if (lvl === 'all') {
               window.scrollTo({ top: 0, behavior: 'smooth' });
               history.replaceState(null, '', location.pathname);
@@ -180,30 +181,45 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
             setTimeout(() => { ignoreSpy = false; }, 700);
           });
         });
-        const spy = new IntersectionObserver((entries) => {
-          if (ignoreSpy) return;
-          entries.forEach((en) => {
-            if (en.isIntersecting && en.target.id) {
-              setActive(en.target.id, true);
-              history.replaceState(null, '', '#' + en.target.id);
+        // Активный уровень = последний блок, чей верх поднялся выше линии
+        // чтения (30% высоты окна — верх прежней полосы rootMargin).
+        // Пока страница выше всех блоков (начало страницы), активен первый
+        // уровень: A0 подсвечен сразу и не гаснет при старте скролла.
+        // Пересчёт также на pageshow/visibilitychange — возврат из другой
+        // вкладки или bfcache без события scroll.
+        if (blocks.length) {
+          const line = () => window.innerHeight * 0.3;
+          const spyLevel = () => {
+            let cur = '';
+            for (const b of blocks) {
+              if (b.getBoundingClientRect().top <= line()) cur = b.id;
             }
+            return cur || levelLinks[0].dataset.level;
+          };
+          const initHash = location.hash.replace('#', '');
+          lastLvl = lastLvl || (initHash && document.getElementById(initHash) ? initHash : spyLevel());
+          const updateSpy = () => {
+            if (ignoreSpy) return;
+            const lvl = spyLevel();
+            const changed = lvl !== lastLvl;
+            setActive(lvl, changed); // лента автопрокручивается только при смене уровня
+            lastLvl = lvl;
+            const atTop = lvl === levelLinks[0].dataset.level && window.scrollY < 40;
+            history.replaceState(null, '', atTop ? location.pathname : '#' + lvl);
+          };
+          let ticking = false;
+          const onScroll = () => {
+            if (ignoreSpy || ticking) return;
+            ticking = true;
+            requestAnimationFrame(() => { ticking = false; updateSpy(); });
+          };
+          window.addEventListener('scroll', onScroll, { passive: true });
+          window.addEventListener('pageshow', onScroll);
+          document.addEventListener('visibilitychange', () => {
+            if (document.visibilityState === 'visible') onScroll();
           });
-        }, { rootMargin: '-20% 0px -70% 0px', threshold: 0 });
-        blocks.forEach((b) => spy.observe(b));
-        let ticking = false;
-        window.addEventListener('scroll', () => {
-          if (ignoreSpy || ticking) return;
-          ticking = true;
-          requestAnimationFrame(() => {
-            ticking = false;
-            if (firstBlock && firstBlock.getBoundingClientRect().top > 200) {
-              setActive('all', true);
-              history.replaceState(null, '', location.pathname);
-            }
-          });
-        }, { passive: true });
-        const initHash = location.hash.replace('#', '');
-        setActive(initHash && document.getElementById(initHash) ? initHash : 'all');
+          setActive(lastLvl, false);
+        }
       }
 
       // scroll reveal

@@ -11,6 +11,15 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
 
 <Base title="Краткие заметки по грамматике — EnglishNotes" description={`Заметки по грамматике английского: краткие схемы ${total} тем по уровням A0–C2 — когда используется, формула, примеры, частая ошибка.`}>
   <section class="cheats-index wrap">
+    <nav class="cheats-lvls" aria-label="Уровни заметок">
+      {levels.map((d) => (
+        <a href={"#" + d.level} class="cheats-lvls__link" data-level-link data-level={d.level}>
+          <span class="cheats-lvls__lvl">{d.level}</span>
+          <span class="cheats-lvls__n">{d.topics.length}</span>
+        </a>
+      ))}
+    </nav>
+
     <header class="cheats-index__head">
       <p class="eyebrow">grammar · notes</p>
       <h1 class="cheats-index__h1"><span class="hl-mark">Краткие заметки</span></h1>
@@ -20,15 +29,6 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
         {total} тем на {levels.length} уровнях.
       </p>
     </header>
-
-    <nav class="cheats-lvls" aria-label="Уровни заметок">
-      {levels.map((d) => (
-        <a href={"#" + d.level} class="cheats-lvls__link" data-level-link data-level={d.level}>
-          <span class="cheats-lvls__lvl">{d.level}</span>
-          <span class="cheats-lvls__n">{d.topics.length}</span>
-        </a>
-      ))}
-    </nav>
 
     <div class="cheats-grid">
       {levels.map((d) => {
@@ -150,9 +150,12 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
   }
   .cheat-lvl:hover .cheat-lvl__t { color: var(--ink-mid); }
 
-  /* мобильный скролл-бар уровней — как на /grammar */
+  /* мобильный скролл-бар уровней — правило update222: лента сразу
+     под шапкой (первый элемент), фон — бумага + фактура --bar-paper */
   .cheats-lvls { display: none; }
   @media (max-width: 920px) {
+    .cheats-index { padding-top: 0; }
+    .cheats-index__head { margin-top: 22px; }
     .cheats-lvls {
       position: sticky;
       top: 60px;
@@ -162,8 +165,9 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
       gap: 8px;
       overflow-x: auto;
       padding: 10px 2px;
-      margin: 0 -2px 16px;
-      background: var(--paper);
+      margin: 0 -2px;
+      background-color: var(--paper);
+      background-image: var(--bar-paper);
       border-bottom: 1px solid var(--line);
       scrollbar-width: none;
     }
@@ -177,8 +181,9 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
       padding: 8px 14px;
       border-radius: 11px;
       font-family: var(--display);
-      font-weight: 700;
-      font-size: 15px;
+      font-weight: 800;
+      font-size: 19px;
+      letter-spacing: -0.01em;
       color: var(--ink);
       position: relative;
       transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
@@ -202,7 +207,7 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
   }
 
   @media (max-width: 640px) {
-    .cheats-index { padding: 26px 0 56px; }
+    .cheats-index { padding: 0 0 56px; }
     .cheats-grid { grid-template-columns: minmax(0, 1fr); gap: 14px; }
     .cheat-lvl { padding: 18px 16px; }
   }

@@ -542,8 +542,11 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
   }
   .cheat-card__lesson:hover { color: var(--mint-ink); }
 
-  /* ---------- узкие экраны: меню — sticky-скролл как на /grammar ---------- */
+  /* ---------- узкие экраны: меню — sticky-скролл по правилу update222
+     (лента сразу под шапкой, фон = бумага + фактура --bar-paper) ---------- */
   @media (max-width: 1100px) {
+    .cheats { padding-top: 0; }
+    .cheats__head { margin-top: 22px; }
     .cheats__layout { grid-template-columns: minmax(0, 1fr); gap: 8px; }
     .cheats-side {
       position: sticky;
@@ -556,9 +559,10 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
       max-height: none;
       overflow-x: auto;
       overflow-y: visible;
-      margin: 0 0 22px;
-      padding: 8px 0;
-      background: var(--paper);
+      margin: 0 -2px 20px;
+      padding: 10px 2px;
+      background-color: var(--paper);
+      background-image: var(--bar-paper);
       border-bottom: 1px solid var(--line);
       scrollbar-width: none;
     }
@@ -574,9 +578,10 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
       border-radius: 11px;
       background: transparent;
       font-family: var(--display);
-      font-size: 15px;
-      font-weight: 700;
-      letter-spacing: 0;
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      line-height: 1.65;
       color: var(--ink);
       position: relative;
       white-space: nowrap;
@@ -595,7 +600,7 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     .cheats-side__n { display: none; }
   }
   @media (max-width: 640px) {
-    .cheats { padding: 22px 0 56px; }
+    .cheats { padding: 0 0 56px; }
     .cheats__head-row { align-items: flex-start; }
     .cheat-card { padding: 20px 18px 16px; border-radius: 15px; }
     .cheat-card__title { font-size: 21px; }

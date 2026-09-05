@@ -408,7 +408,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .tiles { flex-wrap: wrap; gap: 12px; margin-top: 28px; padding-top: 0; }
   .tile__img { height: clamp(96px, 30vw, 150px); }
   .catalog { grid-template-columns: 1fr; gap: 14px; }
-  .catalog__nav { position: sticky; top: 60px; z-index: 15; display: flex; flex-direction: row; gap: 8px; overflow-x: auto; padding: 10px 2px; margin: 0 -2px; background: var(--paper); border-bottom: 1px solid var(--line); scrollbar-width: none; }
+  .catalog__nav { position: sticky; top: 60px; z-index: 15; display: flex; flex-direction: row; gap: 8px; overflow-x: auto; padding: 10px 2px; margin: 0 -2px; background-color: var(--paper); background-image: var(--bar-paper); border-bottom: 1px solid var(--line); scrollbar-width: none; }
   .catalog__nav::-webkit-scrollbar { display: none; }
   .catalog__nav-t { display: none; }
   .level-link { flex: 0 0 auto; padding: 8px 14px; }
@@ -5621,4 +5621,37 @@ body:has(.soon) {
   color: var(--ink);
 }
 .level-intro__more li.level-intro__from::before { display: none; }
+
+/* ============================================================
+   update222 — ЕДИНОЕ ПРАВИЛО СТИКИ-СКРОЛЛ-БАРОВ
+   (горизонтальные ленты-меню под шапкой)
+
+   Скролл-бар = sticky-лента пунктов/кнопок под шапкой:
+   • в разметке лента — ПЕРВЫЙ элемент секции: на мобильном она
+     стоит сразу под шапкой, а не после заголовка/текста;
+   • скролл живёт во внутреннем контейнере (overflow-x: auto);
+   • полоса прокрутки скрыта: scrollbar-width: none +
+     ::-webkit-scrollbar { display: none };
+   • липнет ниже шапки (top: 60px);
+   • ФОН ленты = «бумага»: background-color: var(--paper) +
+     лёгкая фактура var(--bar-paper) (тёплый радиальный блик
+     сверху + зерно), чтобы лента не выглядела плоской;
+   • пункты ленты: var(--display) 19px/800, letter-spacing
+     -0.01em, padding 8px 14px, radius 11px — как .level-link
+     на /grammar;
+   • активный пункт подсвечивает текущий блок (спай: последний
+     блок выше линии чтения; у верха страницы — первый пункт;
+     пересчёт на scroll/pageshow/visibilitychange — Base.astro).
+
+   Эталон реализации — .lesson-bar (update207): его код
+   намеренно НЕ трогаем, его фон совпадает с var(--bar-paper).
+   Новые/чинимые ленты используют var(--bar-paper), а не
+   копируют строки текстуры. Применено: мобильный .catalog__nav
+   на /grammar, .cheats-lvls на /notes, .cheats-side (≤1100px)
+   на /notes/{level}.
+   ============================================================ */
+:root {
+  --bar-paper: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>");
+}
+
 
