@@ -88,24 +88,31 @@
     },
     {
       "id": "a2-prepositions-in-on-at",
-      "title": "Prepositions: In, On, At",
-      "titleRu": "Предлоги места и времени in / on / at",
+      "title": "Prepositions: Place, Time and Direction",
+      "titleRu": "Предлоги места, времени и направления",
       "category": "Grammar",
       "use": [
         "in — пространство или широкий период: in the forest, in winter, in 1899.",
         "on — поверхность или конкретный день: on the table, on Monday.",
-        "at — точка в пространстве или времени: at the station, at six o'clock."
+        "at — точка в пространстве или времени: at the station, at six o'clock.",
+        "Положение относительно других: under, behind, in front of, between, next to.",
+        "Движение: to, from, into, out of, across, through.",
+        "Время-рамки: until, during, for, before, after, by."
       ],
       "formula": [
         "in + место или период: in the forest, in winter",
         "on + поверхность или день: on the table, on Monday",
-        "at + точка: at the station, at six o'clock"
+        "at + точка: at the station, at six o'clock",
+        "положение: under the bed, behind the door, next to the station",
+        "движение: into the room, out of the room, across the street, through the forest",
+        "время: until midnight, during the trip, for two days"
       ],
-      "markers": ["in the morning", "in winter", "on Monday", "at night", "at the weekend"],
+      "markers": ["in", "on", "at", "under", "behind", "next to", "into", "through"],
       "points": [
-        "Год и месяц — in: in 1899, in March; конкретная дата — on: on March 22nd.",
         "Устойчивые сочетания запоминаются целиком: in the morning, at night, at the weekend.",
-        "Пространство внутри — in: in the forest; на поверхности — on: on the table."
+        "Движение внутрь — into, положение внутри — in: He walked into the room; He is in the room.",
+        "«Через» — across (улица, мост) или through (лес, толпа, туннель).",
+        "Длительность — for + срок: for two days; during — внутри события: during the trip."
       ],
       "examples": [
         {
@@ -119,11 +126,19 @@
         {
           "en": "The keys are on the table.",
           "ru": "Ключи на столе."
+        },
+        {
+          "en": "He walked into the room and sat down.",
+          "ru": "Он вошёл в комнату и сел."
+        },
+        {
+          "en": "They waited until midnight.",
+          "ru": "Они ждали до полуночи."
         }
       ],
       "pitfalls": [
         { "wrong": "They are at the forest.", "right": "They are in the forest." },
-        { "wrong": "The boat is in the river.", "right": "The boat is on the river." }
+        { "wrong": "He walked in the room.", "right": "He walked into the room." }
       ],
       "note": "Русское «на» не всегда равно on: на картине — in the picture, в городе — in the city.",
       "lesson": "/grammar/a2-prepositions-in-on-at"

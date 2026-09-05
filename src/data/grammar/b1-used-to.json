@@ -2,10 +2,10 @@
   "variant": "classic",
   "slug": "b1-used-to",
   "level": "B1",
-  "title": "Used to — раньше было иначе",
+  "title": "Used to / Be used to / Get used to",
   "category": "Grammar",
-  "readingTime": 8,
-  "summary": "Used to показывает привычку или состояние, которые были характерны для прошлого, но теперь изменились. Конструкция используется для контраста между тем, как было раньше, и тем, как стало сейчас.",
+  "readingTime": 11,
+  "summary": "Used to + V1 — о привычке или состоянии в прошлом, которых больше нет. Be used to + V-ing — о том, что уже привычно; get used to + V-ing — о процессе привыкания.",
   "idea": [
     "Иногда прошлое важно не потому, что оно произошло, а потому, что теперь всё иначе. Именно для такого контраста английский использует [bold]used to[/bold]. Конструкция показывает привычку или состояние, характерные для прошлого, но больше не являющиеся обычной реальностью.",
     "Разница особенно хорошо видна на двух простых мыслях: [bold]I worked there[/bold] сообщает о факте прошлого, а [bold]I used to work there[/bold] сразу создаёт контраст с настоящим: раньше я там работал, теперь — нет. Used to поэтому часто звучит как маленькое слово о перемене.",
@@ -15,7 +15,10 @@
     "У конструкции есть и вторая важная функция — прошлое состояние. Можно сказать [bold]The manuscript was unfinished[/bold], если нас интересует факт. Но [bold]The project used to be unfinished[/bold] подчёркивает, что это состояние существовало раньше, а затем изменилось. Used to особенно полезна, когда сегодняшняя ситуация является результатом перемены.",
     "Отрицание строится просто: [bold]Hugo didn't use to work on the novel[/bold]. После did появляется обычная форма use, без окончания -d. Вопрос устроен так же: [bold]Did Hugo use to write every day?[/bold]. В речи часто встречается и форма [bold]used to[/bold] в утвердительном предложении.",
     "В истории Les Misérables это различие особенно заметно. Гюго когда-то работал над рукописью, затем долго к ней не возвращался, а потом снова начал писать. Поэтому used to помогает смотреть не на отдельную дату, а на прежний режим жизни и работы: раньше это было привычно или нормально, теперь ситуация изменилась.",
-    "Главный смысл used to — не «давно». В предложении [bold]I used to live in Paris[/bold] главное не то, что это было давно, а то, что теперь говорящий живёт не в Париже. [bold]I used to write every morning[/bold] означает, что такая привычка была характерна для прошлого. Конструкция всегда несёт идею изменения."
+    "Главный смысл used to — не «давно». В предложении [bold]I used to live in Paris[/bold] главное не то, что это было давно, а то, что теперь говорящий живёт не в Париже. [bold]I used to write every morning[/bold] означает, что такая привычка была характерна для прошлого. Конструкция всегда несёт идею изменения.",
+    "Рядом с used to живут две похожие конструкции о привычке в настоящем. [bold]Be used to + V-ing[/bold] описывает состояние: человек уже привык к чему-то. [bold]Hugo was used to writing standing up[/bold] — писать стоя было для него привычным занятием. Здесь после to стоит форма с -ing, а не начальная форма глагола: маленькое to обманчиво, и именно на нём спотыкаются.",
+    "[bold]Get used to + V-ing[/bold] — это не состояние, а процесс привыкания: [bold]Hugo got used to living far from Paris[/bold] — он постепенно привык жить вдали от Парижа. Be used to отвечает на вопрос «привык ли уже?», а get used to — «привыкает ли или привык в итоге?». Поэтому get меняется по временам: is getting used to, got used to, will get used to.",
+    "Три конструкции легко перепутать, но смысл у них разный. [bold]He used to write standing up[/bold] — раньше писал стоя, теперь нет. [bold]He was used to writing standing up[/bold] — писать стоя было для него привычкой (состояние). [bold]He got used to writing standing up[/bold] — он привык писать стоя (процесс завершился). В первых двух предложениях после to стоят V1 и V-ing — и это различие надо чувствовать."
   ],
   "why": [
     "Говорить о привычках прошлого, которых больше нет.",
@@ -24,7 +27,10 @@
     "Рассказывать о прежних ролях и принадлежности, например о том, кем человек был раньше.",
     "Отличать повторяющуюся привычку от одного завершённого события в прошлом.",
     "Строить вопросы и отрицания с правильной формой вспомогательного глагола.",
-    "Понимать устные рассказы о прошлом, в которых говорящий подчёркивает перемены."
+    "Понимать устные рассказы о прошлом, в которых говорящий подчёркивает перемены.",
+    "Говорить о состоянии привычки в настоящем: be used to + V-ing.",
+    "Рассказывать о процессе привыкания: get used to + V-ing.",
+    "Не путать used to + V1 с be/get used to + V-ing."
   ],
   "context": {
     "lines": [
@@ -47,16 +53,27 @@
       {
         "en": "The project used to be unfinished.",
         "ru": "Раньше проект оставался незавершённым."
+      },
+      {
+        "en": "Hugo was used to writing standing up.",
+        "ru": "Писать стоя было для Гюго привычным делом."
+      },
+      {
+        "en": "He got used to living far from Paris.",
+        "ru": "Он привык жить вдали от Парижа."
       }
     ],
-    "note": "Культурная история строится вокруг длительной работы Виктора Гюго над Les Misérables — остановки проекта и возвращения к рукописи. Материал опирается на письма и биографические источники."
+    "note": "Культурная история строится вокруг длительной работы Виктора Гюго над Les Misérables — остановки проекта и возвращения к рукописи. Материал опирается на письма и биографические источники; предложения с was used to и got used to — учебные примеры на основе этой истории."
   },
   "russianAngle": [
     "Русское «раньше» само по себе не показывает грамматическую форму. В английском для привычки или состояния прошлого используется used to.",
     "I worked there = я там работал. I used to work there = раньше я там работал, но теперь уже нет.",
     "После used to используется обычная форма глагола: used to write, used to live, used to work.",
     "В вопросе и отрицании после did используется use: Did you use to...? / I didn't use to....",
-    "Used to говорит о прошлом, которое отличается от настоящего. Если такой контраст не нужен, часто достаточно Past Simple."
+    "Used to говорит о прошлом, которое отличается от настоящего. Если такой контраст не нужен, часто достаточно Past Simple.",
+    "«Привык» — be used to + V-ing: I am used to working early.",
+    "«Привыкаю / постепенно привык» — get used to + V-ing: I am getting used to the new routine.",
+    "После to в be/get used to стоит V-ing или существительное, а не начальная форма глагола."
   ],
   "howToLearn": {
     "steps": [
@@ -65,7 +82,10 @@
       "Проверь, изменилось ли это сейчас.",
       "Если да, используй used to + V1.",
       "В вопросе используй Did + subject + use to + V1.",
-      "В отрицании используй didn't use to + V1."
+      "В отрицании используй didn't use to + V1.",
+      "Если речь о привычке в настоящем — be used to + V-ing: I am used to working early.",
+      "Если речь о процессе привыкания — get used to + V-ing: I am getting used to it.",
+      "Помни: после to в be/get used to стоит V-ing или существительное, а не V1."
     ],
     "exercise": {
       "prompt": "Выбери правильную форму:",
@@ -89,29 +109,45 @@
         {
           "q": "They ___ work together.",
           "a": "used to"
+        },
+        {
+          "q": "Hugo ___ writing standing up.",
+          "a": "was used to"
+        },
+        {
+          "q": "He ___ living far from Paris.",
+          "a": "got used to"
+        },
+        {
+          "q": "I am getting used to ___ early.",
+          "a": "waking up"
         }
       ]
     }
   },
-  "formula": "Subject + used to + V1",
+  "formula": "used to + V1 (в прошлом) · be used to + V-ing (привык) · get used to + V-ing (привыкаю)",
   "structure": {
-    "positive": "I/You/He/She/We/They used to write.",
-    "negative": "I/You/He/She/We/They didn't use to write.",
-    "question": "Did I/you/he/she/we/they use to write?"
+    "used_to": "Subject + used to + V1\nI used to live in Paris.",
+    "be_used_to": "Subject + be (am/is/are, was/were) + used to + V-ing\nI am used to living in Paris.",
+    "get_used_to": "Subject + get + used to + V-ing\nI am getting used to living in Paris."
   },
   "markers": [
     "used to",
+    "be used to",
+    "get used to",
+    "get used to it",
     "when I was young",
     "in the past",
     "years ago",
-    "before",
     "once"
   ],
   "uses": [
     "Прошлая привычка: «I used to write every morning.»",
     "Прошлое состояние: «I used to live there.»",
     "Контраст с настоящим: «I used to work there, but I don't anymore.»",
-    "Повторяющееся действие в прошлом: «They used to meet every week.»"
+    "Повторяющееся действие в прошлом: «They used to meet every week.»",
+    "Состояние привычки в настоящем: «I am used to working early.»",
+    "Процесс привыкания: «I am getting used to the new routine.»"
   ],
   "rules": [
     {
@@ -129,6 +165,18 @@
     {
       "title": "Вопрос и отрицание",
       "text": "После did используется форма use: «Did you use to work here?» и «I didn't use to work here.»"
+    },
+    {
+      "title": "Be used to + V-ing — состояние привычки",
+      "text": "Be used to + V-ing (или существительное) описывает состояние: человек уже привык. Be меняется по временам: «He is used to writing standing up», «Hugo was used to working from early morning», «I am used to the noise.»"
+    },
+    {
+      "title": "Get used to + V-ing — процесс привыкания",
+      "text": "Get used to + V-ing показывает, что человек привыкает или в итоге привык: «I am getting used to the new routine», «He got used to living far from Paris», «She will get used to it.»"
+    },
+    {
+      "title": "Ловушка to",
+      "text": "После to в be/get used to стоит V-ing или существительное, а после used to — V1: «He used to write» ≠ «He is used to writing»."
     }
   ],
   "examples": [
@@ -366,6 +414,86 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Be used to — состояние привычки",
+      "items": [
+        {
+          "en": "He was used to working from early morning.",
+          "ru": "Ему было привычно работать с раннего утра.",
+          "highlight": [
+            "was used to working"
+          ]
+        },
+        {
+          "en": "The writer was used to long working days.",
+          "ru": "Писателю были привычны долгие рабочие дни.",
+          "highlight": [
+            "was used to long working days"
+          ]
+        },
+        {
+          "en": "He was used to keeping his manuscripts nearby.",
+          "ru": "Он привык держать рукописи рядом.",
+          "highlight": [
+            "was used to keeping"
+          ]
+        },
+        {
+          "en": "Hugo was used to the slow pace of the work.",
+          "ru": "Гюго был привычен к медленному темпу работы.",
+          "highlight": [
+            "was used to the slow pace"
+          ]
+        },
+        {
+          "en": "I am used to writing at my desk.",
+          "ru": "Мне привычно писать за своим столом.",
+          "highlight": [
+            "am used to writing"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Get used to — процесс привыкания",
+      "items": [
+        {
+          "en": "Hugo got used to working in exile.",
+          "ru": "Гюго привык работать в изгнании.",
+          "highlight": [
+            "got used to working"
+          ]
+        },
+        {
+          "en": "He gradually got used to the island routine.",
+          "ru": "Он постепенно привык к островному распорядку.",
+          "highlight": [
+            "got used to the island routine"
+          ]
+        },
+        {
+          "en": "The writer never got used to interruptions.",
+          "ru": "Писатель так и не привык к перерывам в работе.",
+          "highlight": [
+            "never got used to interruptions"
+          ]
+        },
+        {
+          "en": "She is getting used to her new schedule.",
+          "ru": "Она привыкает к своему новому расписанию.",
+          "highlight": [
+            "getting used to"
+          ]
+        },
+        {
+          "en": "You will get used to it.",
+          "ru": "Ты к этому привыкнешь.",
+          "highlight": [
+            "will get used to it"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -398,33 +526,53 @@
       "wrong": "He used to work there yesterday.",
       "right": "He worked there yesterday.",
       "note": "Used to не используется для одного конкретного завершённого события."
+    },
+    {
+      "wrong": "He is used to live in Guernsey.",
+      "right": "He is used to living in Guernsey.",
+      "note": "После to в be used to нужен V-ing, а не начальная форма глагола."
+    },
+    {
+      "wrong": "I was used to work standing up.",
+      "right": "I was used to working standing up.",
+      "note": "Be used to + V-ing: was used to working."
+    },
+    {
+      "wrong": "She got used to live alone.",
+      "right": "She got used to living alone.",
+      "note": "Get used to + V-ing: got used to living."
+    },
+    {
+      "wrong": "They are getting used to wake up early.",
+      "right": "They are getting used to waking up early.",
+      "note": "После to в get used to стоит V-ing."
     }
   ],
   "compare": {
-    "title": "Used to vs Past Simple",
-    "leftLabel": "Used to",
-    "centerLabel": "Past Simple",
-    "rightLabel": "Смысл",
+    "title": "Used to vs Be used to vs Get used to",
+    "leftLabel": "used to + V1 (привычка в прошлом)",
+    "centerLabel": "be used to + V-ing (уже привык)",
+    "rightLabel": "get used to + V-ing (привыкаю / привык)",
     "rows": [
       {
-        "left": "I used to work there.",
-        "center": "I worked there.",
-        "right": "привычка/состояние в прошлом"
+        "left": "I used to live here.",
+        "center": "I am used to living here.",
+        "right": "I got used to living here."
       },
       {
-        "left": "I used to live there.",
-        "center": "I lived there in 2010.",
-        "right": "прошлое состояние / конкретный период"
+        "left": "He used to work at night.",
+        "center": "He is used to working at night.",
+        "right": "He got used to working at night."
       },
       {
-        "left": "He used to write every morning.",
-        "center": "He wrote yesterday.",
-        "right": "повторяемость / один случай"
+        "left": "She used to get up early.",
+        "center": "She is used to getting up early.",
+        "right": "She got used to getting up early."
       },
       {
-        "left": "She used to be a teacher.",
-        "center": "She was a teacher in 2015.",
-        "right": "прежнее состояние / факт"
+        "left": "They used to live abroad.",
+        "center": "They are used to living abroad.",
+        "right": "They will get used to living abroad."
       }
     ]
   },
@@ -434,7 +582,10 @@
     "После did/didn't — use to, без -d.",
     "Used to подходит для привычек и состояний.",
     "Для одного конкретного события используй Past Simple.",
-    "Главный смысл конструкции — контраст прошлого и настоящего."
+    "Главный смысл конструкции — контраст прошлого и настоящего.",
+    "Be used to + V-ing = уже привык: I am used to working early.",
+    "Get used to + V-ing = привыкаю / постепенно привык: I am getting used to it.",
+    "После to в be/get used to — V-ing или существительное, не V1."
   ],
   "quiz": [
     {
@@ -496,11 +647,52 @@
       ],
       "answer": 1,
       "why": "Один конкретный завершённый эпизод требует Past Simple."
+    },
+    {
+      "q": "Choose the correct sentence:",
+      "options": [
+        "He is used to live here.",
+        "He is used to living here.",
+        "He used to living here."
+      ],
+      "answer": 1,
+      "why": "После to в be used to нужен V-ing."
+    },
+    {
+      "q": "What does 'I am getting used to it' mean?",
+      "options": [
+        "It was my habit in the past.",
+        "I am becoming familiar with it now.",
+        "I used it before."
+      ],
+      "answer": 1,
+      "why": "Get used to описывает процесс привыкания."
+    },
+    {
+      "q": "Complete: She ___ be a teacher.",
+      "options": [
+        "is used to",
+        "used to",
+        "was used to"
+      ],
+      "answer": 1,
+      "why": "Used to + V1 описывает прошлую роль: She used to be a teacher."
+    },
+    {
+      "q": "Complete: I am used to ___ early.",
+      "options": [
+        "wake up",
+        "waking up",
+        "woke up"
+      ],
+      "answer": 1,
+      "why": "После to в be used to стоит V-ing."
     }
   ],
   "related": [
     "a1-past-simple",
     "a2-past-continuous",
-    "a1-present-simple"
+    "a1-present-simple",
+    "b1-gerund-vs-infinitive"
   ]
 }

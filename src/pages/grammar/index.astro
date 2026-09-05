@@ -37,11 +37,6 @@ const usedLevels = LEVELS.filter((lvl) => byLevel(lvl).length > 0);
   <section class="section wrap">
     <div class="catalog">
       <aside class="catalog__nav" aria-label="Уровни">
-        <span class="catalog__nav-t">Уровни</span>
-        <a href="#top" class="level-link is-active" data-level-link data-level="all">
-          <span>Все</span>
-          <span class="level-link__n">{topics.length}</span>
-        </a>
         {usedLevels.map((lvl) => (
           <a href={'#' + lvl} class="level-link" data-level-link data-level={lvl}>
             <span class="level-link__lvl">{lvl}</span>

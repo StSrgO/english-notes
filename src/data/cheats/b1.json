@@ -134,46 +134,52 @@
     },
     {
       "id": "b1-used-to",
-      "title": "Used to",
-      "titleRu": "Привычки и состояния в прошлом",
+      "title": "Used to / Be used to / Get used to",
+      "titleRu": "Привычка в прошлом, привык, привыкаю",
       "category": "Grammar",
       "use": [
-        "Привычка в прошлом, которой больше нет: раньше делал, теперь не делаю.",
-        "Состояние в прошлом: жил, работал, был где-то.",
+        "Привычка или состояние в прошлом, которых больше нет: used to + V1.",
+        "Состояние «уже привык»: be used to + V-ing.",
+        "Процесс привыкания: get used to + V-ing.",
         "Контраст «раньше — теперь»: I used to work there, but I don't anymore."
       ],
       "formula": [
-        "Subject + used to + V1"
+        "used to + V1 — привычка в прошлом",
+        "be used to + V-ing — уже привык",
+        "get used to + V-ing — привыкаю"
       ],
       "forms": [
-        "− didn't use to + V1",
-        "? Did + подлежащее + use to + V1?"
+        "− didn't use to + V1 (used to)",
+        "− am not / isn't / aren't used to + V-ing (be used to)",
+        "? Did + подлежащее + use to + V1?",
+        "? Am / Is / Are + подлежащее + used to + V-ing?"
       ],
-      "markers": ["used to", "when I was young", "in the past", "years ago"],
+      "markers": ["used to", "be used to", "get used to", "get used to it", "in the past"],
       "points": [
-        "Отрицание и вопрос — через did: didn't use to, Did you use to…?",
         "После used to — начальная форма глагола (не -ing).",
+        "После to в be/get used to — V-ing или существительное: I am used to living here.",
+        "Отрицание и вопрос (used to) — через did: didn't use to, Did you use to…?",
         "Не подходит для разовых действий в прошлом — только привычки и состояния."
       ],
       "examples": [
         {
           "en": "I used to live in a small town.",
-          "ru": "Раньше я жил в маленьком городке."
+          "ru": "Раньше я жил в маленьком городке (а теперь нет)."
         },
         {
-          "en": "She used to play the piano every evening.",
-          "ru": "Раньше она играла на пианино каждый вечер."
+          "en": "I am used to getting up early.",
+          "ru": "Я привык вставать рано."
         },
         {
-          "en": "They used to meet every week.",
-          "ru": "Раньше они встречались каждую неделю."
+          "en": "She is getting used to her new job.",
+          "ru": "Она привыкает к новой работе."
         }
       ],
       "pitfalls": [
         { "wrong": "He use to write every morning.", "right": "He used to write every morning." },
-        { "wrong": "Did he used to live there?", "right": "Did he use to live there?" }
+        { "wrong": "He is used to live in a small town.", "right": "He is used to living in a small town." }
       ],
-      "note": "Не путай с be used to + V-ing («быть привыкшим»): это другая конструкция и другой смысл.",
+      "note": "Не путай used to + V1 (было раньше) с be/get used to + V-ing (привык / привыкаю).",
       "lesson": "/grammar/b1-used-to"
     },
     {
@@ -268,7 +274,7 @@
     },
     {
       "id": "b1-passive-voice-simple",
-      "title": "Passive Voice — Simple",
+      "title": "Passive Voice (Simple)",
       "titleRu": "Страдательный залог: Simple",
       "category": "Passive",
       "use": [
