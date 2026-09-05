@@ -142,27 +142,53 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     if (links.length) {
       const cards = links.map((l) => document.getElementById(l.dataset.cheatSpy)).filter(Boolean);
       const nav = links[0].closest(".cheats-side");
-      const setActive = (id, autoscroll) => {
-        links.forEach((a) => a.classList.toggle("is-active", a.dataset.cheatSpy === id));
-        if (!autoscroll || !nav) return;
-        const act = links.find((a) => a.dataset.cheatSpy === id);
-        if (act && nav.scrollWidth > nav.clientWidth) {
-          const nr = nav.getBoundingClientRect();
-          const ar = act.getBoundingClientRect();
-          nav.scrollTo({ left: nav.scrollLeft + (ar.left - nr.left) - (nav.clientWidth - ar.width) / 2, behavior: "smooth" });
-        }
-      };
-      const spy = new IntersectionObserver((entries) => {
-        entries.forEach((en) => {
-          if (en.isIntersecting && en.target.id) {
-            setActive(en.target.id, true);
-            history.replaceState(null, "", "#" + en.target.id);
+      if (cards.length) {
+        // Правило скролл-баров: активен последний блок, чей верх поднялся
+        // выше линии чтения (30% высоты окна); у верха страницы — первый
+        // пункт. Активный пункт автоцентрируется в ленте только при смене;
+        // пересчёт на pageshow/visibilitychange (возврат из другой вкладки).
+        const line = () => window.innerHeight * 0.3;
+        const curSpy = () => {
+          let cur = "";
+          for (const c of cards) {
+            if (c.getBoundingClientRect().top <= line()) cur = c.id;
           }
+          return cur || links[0].dataset.cheatSpy;
+        };
+        const initHash = location.hash.replace("#", "");
+        let lastId = initHash && cards.some((c) => c.id === initHash) ? initHash : curSpy();
+        const setActive = (id, autoscroll) => {
+          links.forEach((a) => a.classList.toggle("is-active", a.dataset.cheatSpy === id));
+          if (!autoscroll || !nav) return;
+          const act = links.find((a) => a.dataset.cheatSpy === id);
+          if (act && nav.scrollWidth > nav.clientWidth) {
+            const nr = nav.getBoundingClientRect();
+            const ar = act.getBoundingClientRect();
+            nav.scrollTo({ left: nav.scrollLeft + (ar.left - nr.left) - (nav.clientWidth - ar.width) / 2, behavior: "smooth" });
+          }
+        };
+        const update = () => {
+          const id = curSpy();
+          if (id !== lastId) {
+            lastId = id;
+            setActive(id, true);
+          }
+          const atTop = id === links[0].dataset.cheatSpy && window.scrollY < 40;
+          history.replaceState(null, "", atTop ? location.pathname : "#" + id);
+        };
+        let ticking = false;
+        const onScroll = () => {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(() => { ticking = false; update(); });
+        };
+        window.addEventListener("scroll", onScroll, { passive: true });
+        window.addEventListener("pageshow", onScroll);
+        document.addEventListener("visibilitychange", () => {
+          if (document.visibilityState === "visible") onScroll();
         });
-      }, { rootMargin: "-15% 0px -70% 0px", threshold: 0 });
-      cards.forEach((c) => spy.observe(c));
-      const initHash = location.hash.replace("#", "");
-      if (initHash && cards.some((c) => c.id === initHash)) setActive(initHash, false);
+        setActive(lastId, false);
+      }
     }
     const printBtn = document.querySelector("[data-print]");
     if (printBtn) printBtn.addEventListener("click", () => window.print());
