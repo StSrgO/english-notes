@@ -666,22 +666,19 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     text-decoration: none;
     transition: color 0.15s, background 0.15s, transform 0.15s;
   }
-  /* hover (подсвечивание) — как у чипов скролл-бара на /grammar:
-     светлая mint-подложка + зелёный текст var(--mint-ink) + сдвиг 3px;
-     выбранное состояние при этом темнее (см. .is-active ниже) */
+  /* hover (подсвечивание) — как в десктопной колонке /notes/{level}
+     (.cheats-side): светлая mint-подложка + тёмный текст, без сдвига */
   .vocab-side__link:hover {
+    color: var(--ink);
     background: var(--mint);
-    color: var(--mint-ink);
-    transform: translateX(3px);
   }
-  /* выбранный пункт — по общему правилу скролл-баров: тёмно-зелёная
-     подложка var(--mint-ink) + белый текст var(--paper), как у чипов
-     ленты на /grammar */
+  /* выбранный пункт — как .cheats-side__link.is-active на /notes/{level}:
+     светлый mint + жирный тёмный текст + левый инсет-бар mint-ink */
   .vocab-side__link.is-active {
-    color: var(--paper);
+    color: var(--ink);
     font-weight: 700;
-    background: var(--mint-ink);
-    box-shadow: none;
+    background: var(--mint);
+    box-shadow: inset 3px 0 0 var(--mint-ink);
     transform: none;
   }
   .vocab-side__link:focus-visible {
@@ -720,16 +717,15 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     text-transform: uppercase;
     color: var(--ink-soft);
   }
-  /* hover раздела — как у обычных чипов (зелёный текст на светлом mint) */
+  /* hover раздела — как у обычных пунктов колонки (тёмный текст на mint) */
   .vocab-side__sections .vocab-side__link:hover {
-    color: var(--mint-ink);
+    color: var(--ink);
   }
-  /* активный пункт раздела меню: свой mono-цвет не должен перебивать
-     цвет выбранного состояния (иначе тёмный текст на подложке).
-     Правило стоит ПОСЛЕ :hover, чтобы у активного чипа белый текст
-     побеждал даже при «прилипшем» hover после тапа */
+  /* активный пункт раздела: цвет — тёмный (светлая подложка из общего
+     .is-active); правило стоит ПОСЛЕ :hover и перебивает базовый
+     mono-цвет ink-soft (специфичность (0,3,0) > (0,2,0)) */
   .vocab-side__sections .vocab-side__link.is-active {
-    color: var(--paper);
+    color: var(--ink);
   }
   .vocab-layout__main { min-width: 0; }
 
