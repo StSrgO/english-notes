@@ -623,7 +623,7 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
   }
   .cheat-card__lesson:hover { color: var(--mint-ink); }
 
-  /* ---------- узкие экраны: меню — sticky-скролл по правилу update222
+  /* ---------- узкие экраны: меню — sticky-скролл по единому правилу скролл-баров
      (лента сразу под шапкой, фон = бумага + фактура --bar-paper) ---------- */
   @media (max-width: 1100px) {
     .cheats { padding-top: 0; }
@@ -681,7 +681,7 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     .cheats-side__n { display: none; }
   }
   /* тач: hover после тапа «прилипает» — фон нажатия не должен
-     переживать переход is-active на другой пункт (update223);
+     переживать переход is-active на другой пункт (правило тач-гасилки);
      активный пункт не гасим, чтобы его подсветка оставалась видна */
   @media (hover: none), (pointer: coarse) {
     .cheats-side .cheats-side__link:not(.is-active):hover {

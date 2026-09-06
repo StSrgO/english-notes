@@ -370,7 +370,7 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
       flashWord();
       window.addEventListener("pageshow", flashWord);
 
-      // ---------- Scrollspy: активный раздел (правило update222) ----------
+      // ---------- Scrollspy: активный раздел (единое правило скролл-баров) ----------
       // Активна последняя секция, чей верх поднялся выше линии чтения
       // (30% высоты окна); у верха страницы — первый пункт. Активный чип
       // автопрокруткой центрируется в ленте; пересчёт на pageshow /
@@ -625,7 +625,7 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
   .vocabulary-topic:has(.vocab-trainer) { max-width: 1140px; }
   /* Тренажёр: меню слева, справа — шапка, группы и низ страницы.
      Меню .vocab-side стоит первым в разметке, чтобы на мобильном
-     лента скролл-бара оказывалась сразу под шапкой (правило update222). */
+     лента скролл-бара оказывалась сразу под шапкой (единое правило скролл-баров). */
   .vocab-trainer {
     display: grid;
     grid-template-columns: 230px minmax(0, 1fr);
@@ -1049,7 +1049,7 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     margin-bottom: 20px;
   }
 
-  /* ---------- мобильная: скролл-бар по правилу update222 ---------- */
+  /* ---------- мобильная: скролл-бар по единому правилу скролл-баров ---------- */
   @media (max-width: 1100px) {
     .vocabulary-topic:has(.vocab-trainer) { padding-top: 0; }
     .vocabulary-topic:has(.vocab-trainer) .vocabulary-topic__breadcrumb {
@@ -1141,7 +1141,7 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     }
   }
   /* тач: hover после тапа «прилипает» — фон нажатия не должен
-     переживать переход is-active на другой пункт (update223);
+     переживать переход is-active на другой пункт (правило тач-гасилки);
      активный пункт не гасим, чтобы его подсветка оставалась видна */
   @media (hover: none), (pointer: coarse) {
     .vocab-side__link:not(.is-active):hover {

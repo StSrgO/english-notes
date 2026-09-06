@@ -64,7 +64,7 @@ const levelsRange = levels.length ? levels[0].level + "–" + levels[levels.leng
 <style>
   .cheats-index { padding: 44px 0 72px; }
   .cheats-index__head { margin-bottom: 0; }
-  /* отступы заголовка; шрифт/размер — общий .page-title (update225) */
+  /* отступы заголовка; шрифт/размер — общий класс .page-title */
   .cheats-index__h1 {
     margin: 12px 0 14px;
   }
@@ -160,7 +160,7 @@ const levelsRange = levels.length ? levels[0].level + "–" + levels[levels.leng
   }
   .cheat-lvl:hover .cheat-lvl__t { color: var(--ink-mid); }
 
-  /* мобильный скролл-бар уровней — правило update222: лента сразу
+  /* мобильный скролл-бар уровней — единое правило скролл-баров: лента сразу
      под шапкой (первый элемент), фон — бумага + фактура --bar-paper */
   .cheats-lvls { display: none; }
   @media (max-width: 920px) {
@@ -217,7 +217,7 @@ const levelsRange = levels.length ? levels[0].level + "–" + levels[levels.leng
   }
 
   /* тач: после тапа браузер держит :hover — чип оставался бы
-     «нажатым», пока спай подсвечивает другой уровень (update223);
+     «нажатым», пока спай подсвечивает другой уровень (правило тач-гасилки);
      активный чип не гасим, иначе его подсветка пропадает */
   @media (hover: none), (pointer: coarse) {
     .cheats-lvls__link:not(.is-active):hover {
