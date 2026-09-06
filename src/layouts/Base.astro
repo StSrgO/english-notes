@@ -179,27 +179,48 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
             }
           }
         };
-        let ignoreSpy = false;
         let lastLvl = '';
+        // Клик по уровню = выбор: чип подсвечивается сразу, страница плавно
+        // едет к блоку. Пока идёт программная прокрутка, спай «закреплён»
+        // на выбранном уровне и не пробегает подсветкой по промежуточным
+        // уровням (A0 → C2 → C1 → C2). Закреп снимается, когда пользователь
+        // вручную уезжает от выбранного блока дальше ~60px.
+        let pinnedLvl = '';
+        let programmatic = false;
+        let pinDest = -1;
+        let pinBase = 0;
+        let pinTimer = 0;
+        const finishProgrammatic = () => {
+          if (!programmatic) return;
+          programmatic = false;
+          pinBase = window.scrollY;
+        };
         levelLinks.forEach((a) => {
           a.addEventListener('click', (e) => {
             e.preventDefault();
             const lvl = a.dataset.level;
-            ignoreSpy = true;
-            setActive(lvl);
-            lastLvl = lvl === 'all' ? levelLinks[0].dataset.level : lvl;
             if (lvl === 'all') {
+              pinnedLvl = '';
+              programmatic = false;
+              lastLvl = levelLinks[0].dataset.level;
+              setActive(lastLvl);
               window.scrollTo({ top: 0, behavior: 'smooth' });
               history.replaceState(null, '', location.pathname);
-            } else {
-              const t = document.getElementById(lvl);
-              if (t) {
-                const y = t.getBoundingClientRect().top + window.scrollY - 92;
-                window.scrollTo({ top: y, behavior: 'smooth' });
-                history.replaceState(null, '', '#' + lvl);
-              }
+              return;
             }
-            setTimeout(() => { ignoreSpy = false; }, 700);
+            pinnedLvl = lvl;
+            programmatic = true;
+            clearTimeout(pinTimer);
+            setActive(lvl);
+            lastLvl = lvl;
+            const t = document.getElementById(lvl);
+            if (t) {
+              const maxY = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) - window.innerHeight;
+              pinDest = Math.max(0, Math.min(t.getBoundingClientRect().top + window.scrollY - 92, maxY));
+              window.scrollTo({ top: pinDest, behavior: 'smooth' });
+              history.replaceState(null, '', '#' + lvl);
+            }
+            pinTimer = setTimeout(finishProgrammatic, 4000);
           });
         });
         // Активный уровень = последний блок, чей верх поднялся выше линии
@@ -226,9 +247,16 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
           };
           const initHash = location.hash.replace('#', '');
           lastLvl = lastLvl || (initHash && document.getElementById(initHash) ? initHash : spyLevel());
-          const updateSpy = () => {
-            if (ignoreSpy) return;
+          const resolveLevel = () => {
+            if (programmatic && pinnedLvl) return pinnedLvl;
+            if (pinnedLvl && Math.abs(window.scrollY - pinBase) <= 60) return pinnedLvl;
             const lvl = spyLevel();
+            if (pinnedLvl && lvl !== pinnedLvl) pinnedLvl = '';
+            return lvl;
+          };
+          const updateSpy = () => {
+            if (programmatic && pinDest >= 0 && Math.abs(window.scrollY - pinDest) <= 2) finishProgrammatic();
+            const lvl = resolveLevel();
             const changed = lvl !== lastLvl;
             setActive(lvl, changed); // лента автопрокручивается только при смене уровня
             lastLvl = lvl;
@@ -237,7 +265,7 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
           };
           let ticking = false;
           const onScroll = () => {
-            if (ignoreSpy || ticking) return;
+            if (ticking) return;
             ticking = true;
             requestAnimationFrame(() => { ticking = false; updateSpy(); });
           };

@@ -173,12 +173,41 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
             nav.scrollTo({ left: nav.scrollLeft + (ar.left - nr.left) - (nav.clientWidth - ar.width) / 2, behavior: "smooth" });
           }
         };
-        const update = () => {
-          const id = curSpy();
-          if (id !== lastId) {
-            lastId = id;
-            setActive(id, true);
+
+        // Клик по пункту меню = выбор: чип подсвечивается сразу, страница
+        // плавно едет к теме. Пока идёт программная прокрутка, спай не
+        // «пробегает» подсветкой по промежуточным темам — активен пункт,
+        // который нажали. Закреп снимается, когда пользователь уезжает от
+        // выбранной темы вручную (правило спая снова выбирает сам).
+        let pinnedId = "";
+        let programmatic = false;
+        let pinDest = -1;
+        let pinBase = 0;
+        let pinTimer = 0;
+        const finishProgrammatic = () => {
+          if (!programmatic) return;
+          programmatic = false;
+          pinBase = window.scrollY;
+        };
+        const choose = () => {
+          if (programmatic && pinnedId) return pinnedId;
+          if (atBottom()) {
+            if (pinnedId) {
+              const t = document.getElementById(pinnedId);
+              if (t && t.getBoundingClientRect().top < window.innerHeight) return pinnedId;
+            }
+            return cards[cards.length - 1].id;
           }
+          const id = curSpy();
+          if (!programmatic && pinnedId && id !== pinnedId && Math.abs(window.scrollY - pinBase) > 60) pinnedId = "";
+          return id;
+        };
+        const update = () => {
+          if (programmatic && pinDest >= 0 && Math.abs(window.scrollY - pinDest) <= 2) finishProgrammatic();
+          const id = choose();
+          const changed = id !== lastId;
+          if (changed) lastId = id;
+          setActive(id, changed);
           const atTop = id === links[0].dataset.cheatSpy && window.scrollY < 40;
           history.replaceState(null, "", atTop ? location.pathname : "#" + id);
         };
@@ -194,6 +223,26 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
           if (document.visibilityState === "visible") onScroll();
         });
         setActive(lastId, false);
+
+        links.forEach((a) =>
+          a.addEventListener("click", (e) => {
+            e.preventDefault();
+            const id = a.dataset.cheatSpy;
+            pinnedId = id;
+            setActive(id, true);
+            lastId = id;
+            const t = document.getElementById(id);
+            if (!t) return;
+            programmatic = true;
+            clearTimeout(pinTimer);
+            const margin = parseFloat(getComputedStyle(t).scrollMarginTop) || 0;
+            const maxY = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) - window.innerHeight;
+            pinDest = Math.max(0, Math.min(t.getBoundingClientRect().top + window.scrollY - margin, maxY));
+            window.scrollTo({ top: pinDest, behavior: "smooth" });
+            history.replaceState(null, "", "#" + id);
+            pinTimer = setTimeout(finishProgrammatic, 4000);
+          })
+        );
       }
     }
     const printBtn = document.querySelector("[data-print]");
