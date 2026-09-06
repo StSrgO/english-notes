@@ -363,6 +363,155 @@
       ],
       "note": "mustn't и don't have to — разные вещи: You mustn't enter — входить нельзя; you don't have to enter — входить не обязательно.",
       "lesson": "/grammar/a2-modals-can-must-have-to"
+    },
+    {
+      "id": "a2-make-vs-do",
+      "title": "Make vs Do",
+      "titleRu": "Make и do: когда какое слово",
+      "category": "Words",
+      "use": [
+        "do — для повседневных дел и работы: homework, housework, the dishes, the shopping.",
+        "make — для создания и результата: coffee, a plan, a decision, a mistake.",
+        "Русское «делать» не переводится одним словом: выбор между do и make закреплён за сочетанием.",
+        "Когда точного глагола нет, помогает do: do something, do nothing."
+      ],
+      "formula": [
+        "do + homework / housework",
+        "make + a decision / a mistake",
+        "do + дела: the dishes, the shopping, your best",
+        "make + результат: an appointment, a noise, money"
+      ],
+      "markers": ["homework", "housework", "the shopping", "a decision", "a mistake", "an appointment"],
+      "points": [
+        "Бытовая работа и занятия — do: do the dishes, do yoga, do your homework.",
+        "Создание и результат — make: make coffee, make a plan.",
+        "Сочетания вроде make a phone call или do someone a favour запоминаются целиком.",
+        "Вопрос о занятии — с do: What are you doing tonight?",
+        "Подсказка: действие просто происходит — do; действие что-то производит — make."
+      ],
+      "examples": [
+        {
+          "en": "I do my homework every evening.",
+          "ru": "Я делаю домашнее задание каждый вечер."
+        },
+        {
+          "en": "She did the dishes after dinner.",
+          "ru": "После ужина она помыла посуду."
+        },
+        {
+          "en": "We did the shopping on Saturday.",
+          "ru": "В субботу мы ходили за покупками."
+        },
+        {
+          "en": "He does yoga twice a week.",
+          "ru": "Он занимается йогой два раза в неделю."
+        },
+        {
+          "en": "You did your best.",
+          "ru": "Ты сделал всё, что мог."
+        },
+        {
+          "en": "I will make coffee for everyone.",
+          "ru": "Я приготовлю кофе для всех."
+        },
+        {
+          "en": "Let's make a list before we go.",
+          "ru": "Давай составим список перед выходом."
+        },
+        {
+          "en": "He made a mistake in the email.",
+          "ru": "Он допустил ошибку в письме."
+        },
+        {
+          "en": "She made an appointment with the doctor.",
+          "ru": "Она записалась к врачу."
+        },
+        {
+          "en": "The children are making too much noise.",
+          "ru": "Дети слишком шумят."
+        },
+        {
+          "en": "They made a lot of money selling coffee.",
+          "ru": "Они заработали много денег на продаже кофе."
+        },
+        {
+          "en": "I made a phone call to the office.",
+          "ru": "Я позвонил в офис."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "I did a mistake in the test.", "right": "I made a mistake in the test." },
+        { "wrong": "She makes her homework in the evening.", "right": "She does her homework in the evening." }
+      ],
+      "note": "Общее правило работает, но каждое новое сочетание с do или make лучше сразу проверять в словаре."
+    },
+    {
+      "id": "a2-false-friends",
+      "title": "False Friends",
+      "titleRu": "Ложные друзья переводчика",
+      "category": "Words",
+      "use": [
+        "Слово похоже на русское, а значит другое: accurate — «точный», а не «аккуратный».",
+        "Перевод по одному звучанию даёт ошибку — значение определяет контекст.",
+        "Полезно запоминать пару целиком: magazine — «журнал», а «магазин» — shop.",
+        "Сомневаешься в неожиданном значении — загляни в словарь."
+      ],
+      "markers": ["accurate", "magazine", "artist", "cabinet", "intelligent", "actual", "data", "sympathy", "anecdote", "receipt"],
+      "points": [
+        "accurate — точный, верный; «аккуратный» — это tidy / neat.",
+        "artist — художник; про сцену лучше performer, actor или singer.",
+        "intelligent — умный, сообразительный; «интеллигентный» сюда не подходит.",
+        "actual — фактический, настоящий; «актуальный» — это current / topical.",
+        "«Кабинет» — study или office, а английское cabinet — шкафчик.",
+        "data — данные; «дата» в смысле числа — это date."
+      ],
+      "examples": [
+        {
+          "en": "The numbers in the report are accurate.",
+          "ru": "Цифры в отчёте точные."
+        },
+        {
+          "en": "She read a fashion magazine on the train.",
+          "ru": "В поезде она читала модный журнал."
+        },
+        {
+          "en": "The artist paints beautiful landscapes.",
+          "ru": "Художник пишет красивые пейзажи."
+        },
+        {
+          "en": "The cups are in the kitchen cabinet.",
+          "ru": "Чашки в кухонном шкафчике."
+        },
+        {
+          "en": "Dolphins are very intelligent animals.",
+          "ru": "Дельфины — очень умные животные."
+        },
+        {
+          "en": "The actual price was lower than we expected.",
+          "ru": "Фактическая цена оказалась ниже, чем мы ожидали."
+        },
+        {
+          "en": "All the data is in this file.",
+          "ru": "Все данные в этом файле."
+        },
+        {
+          "en": "She showed real sympathy for her friend.",
+          "ru": "Она искренне сочувствовала подруге."
+        },
+        {
+          "en": "Grandpa told an anecdote about his school years.",
+          "ru": "Дедушка рассказал забавную историю из школьных лет."
+        },
+        {
+          "en": "Keep the receipt if you want to return the coat.",
+          "ru": "Сохрани чек, если хочешь вернуть пальто."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "She is very accurate and her room is always clean.", "right": "She is very tidy and her room is always clean." },
+        { "wrong": "We went to the magazine to buy bread.", "right": "We went to the shop to buy bread." }
+      ],
+      "note": "Ложный друг обманывает один раз: после ошибки слово запоминается уже с настоящим значением."
     }
   ]
 }

@@ -433,6 +433,209 @@
       ],
       "note": "Не путай wish и hope: hope — о возможном будущем (I hope I pass), wish — о нереальном или желаемом изменении.",
       "lesson": "/grammar/c1-subjunctive-wish-regret"
+    },
+    {
+      "id": "c1-modal-verbs",
+      "title": "Modal Verbs: Complete Guide",
+      "titleRu": "Модальные глаголы: полная карта",
+      "category": "Modal verbs",
+      "use": [
+        "Выразить способность и умение: can — общая возможность, be able to / manage to — конкретный случай.",
+        "Попросить или дать разрешение: can — нейтрально, may — официально, could — вежливо.",
+        "Передать обязанность: must — по мнению говорящего, have to — по внешнему требованию.",
+        "Различать запрет и отсутствие необходимости: mustn't — нельзя, don't have to / needn't — не обязательно.",
+        "Сделать вывод о настоящем: must be — почти уверен, may / might / could be — возможная версия, can't be — исключено.",
+        "Сделать вывод о прошлом через perfect infinitive: must have done, might have done, can't have done.",
+        "Дать совет или рекомендацию: should, ought to, had better.",
+        "Предложить помощь или действие: shall I ...?, will / would you ...?"
+      ],
+      "formula": [
+        "can / could — возможность, способность, вежливая просьба",
+        "must / have to — долженствование: must — внутреннее, have to — внешнее",
+        "mustn't — запрет; don't have to / needn't — отсутствие необходимости",
+        "should / ought to / had better — совет, рекомендация",
+        "may / might / could + V1 — предположение о настоящем",
+        "must have + V3 — уверенный вывод о прошлом",
+        "might / could have + V3 — возможная версия о прошлом",
+        "can't / couldn't have + V3 — исключение версии о прошлом",
+        "be able to / manage to — суметь в конкретной ситуации",
+        "shall / will / would — предложение, намерение, вежливость"
+      ],
+      "markers": [
+        "can / could",
+        "must / have to",
+        "mustn't",
+        "don't have to",
+        "needn't",
+        "should / ought to",
+        "be able to",
+        "must have + V3",
+        "might have + V3",
+        "can't have + V3"
+      ],
+      "points": [
+        "Модальный глагол не изменяется по лицам: he can, а не he cans; после него смысловой глагол — в начальной форме без to (исключения — have to и ought to).",
+        "mustn't — запрет: You mustn't smoke here. don't have to и needn't — отсутствие обязанности: You don't have to come. Это противоположные значения, а не синонимы.",
+        "must и have to близки по смыслу, но must передаёт мнение говорящего, have to — внешнее правило; в прошедшем у must нет формы, там работает had to.",
+        "Вывод о настоящем: He must be tired — «он, должно быть, устал»; He can't be tired — «не может быть, чтобы он устал»; He may / might / could be tired — «возможно, устал».",
+        "Вывод о прошлом строится как modal + have + V3: must have done — почти уверен, might / could have done — допускаю, can't / couldn't have done — исключаю.",
+        "Вывод (deduction) не равен обязанности: He must have left — «он, должно быть, ушёл», а не «он был обязан уйти»."
+      ],
+      "examples": [
+        {
+          "en": "She can speak four languages.",
+          "ru": "Она умеет говорить на четырёх языках."
+        },
+        {
+          "en": "May I use your phone?",
+          "ru": "Можно воспользоваться вашим телефоном?"
+        },
+        {
+          "en": "You must wear a helmet when you ride a bike.",
+          "ru": "Катаясь на велосипеде, ты обязан надеть шлем."
+        },
+        {
+          "en": "You mustn't tell anyone about this.",
+          "ru": "Ты никому не должен об этом рассказывать — это запрещено."
+        },
+        {
+          "en": "You don't have to answer that question.",
+          "ru": "Тебе не обязательно отвечать на этот вопрос."
+        },
+        {
+          "en": "You needn't come with us if you don't want to.",
+          "ru": "Тебе не нужно идти с нами, если не хочешь."
+        },
+        {
+          "en": "He must be exhausted after the flight.",
+          "ru": "Он, должно быть, вымотался после перелёта."
+        },
+        {
+          "en": "That could be the postman at the door.",
+          "ru": "Это, возможно, почтальон у двери."
+        },
+        {
+          "en": "She can't be at home — I just saw her in the park.",
+          "ru": "Не может быть, чтобы она была дома — я только что видел её в парке."
+        },
+        {
+          "en": "The streets are wet — it must have rained last night.",
+          "ru": "Улицы мокрые — должно быть, ночью шёл дождь."
+        },
+        {
+          "en": "She might have taken the wrong turn.",
+          "ru": "Возможно, она свернула не туда."
+        },
+        {
+          "en": "He can't have forgotten the meeting — I reminded him twice.",
+          "ru": "Не может быть, чтобы он забыл о встрече — я напомнил ему дважды."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "He must has finished the report.", "right": "He must have finished the report." },
+        { "wrong": "You don't must smoke here.", "right": "You mustn't smoke here." }
+      ],
+      "note": "Сравни: He must work — «ему приходится работать» (обязанность), He must be working — «он, должно быть, работает» (вывод о настоящем)."
+    },
+    {
+      "id": "c1-formal-vs-informal",
+      "title": "Formal vs Informal",
+      "titleRu": "Формальный и неформальный регистр",
+      "category": "Writing",
+      "use": [
+        "Выбрать регистр по ситуации: официальный — письма, заявки, отчёты; неформальный — чаты, записки, разговор с близкими.",
+        "Развернуть сокращения в официальном тексте: can't → cannot, I'll → I will.",
+        "Заменить фразовые глаголы однословными эквивалентами: look into → investigate, put off → postpone.",
+        "Смягчить просьбу формулами: Could you possibly ...?, I would appreciate it if ...",
+        "Согласовать обращение и подпись письма: Dear Sir/Madam — Yours faithfully, Dear Mr Smith — Yours sincerely.",
+        "Убрать сленг и разговорные слова из официальной переписки.",
+        "Связать мысли формальными средствами: however, moreover, consequently."
+      ],
+      "formula": [
+        "can't → cannot; don't → do not; it's → it is",
+        "look into → investigate; put off → postpone; find out → discover",
+        "get → receive; buy → purchase; ask for → request; need → require",
+        "Could you possibly + V1? — вежливая просьба",
+        "I would appreciate it if you could + V1 — вежливая просьба",
+        "Dear Sir/Madam ... Yours faithfully — письмо без имени адресата",
+        "Dear Mr Smith ... Yours sincerely — письмо с именем адресата",
+        "Hi / Hello ... Best / Best wishes — неформальная переписка"
+      ],
+      "markers": [
+        "can't / cannot",
+        "don't / do not",
+        "look into / investigate",
+        "put off / postpone",
+        "get / receive",
+        "Dear Sir/Madam",
+        "Yours faithfully",
+        "I would appreciate it if",
+        "Could you possibly",
+        "Hi ... Best wishes"
+      ],
+      "points": [
+        "Главный маркер неформальности — сокращения: в официальном тексте пишут cannot, do not, I will полностью.",
+        "Фразовые глаголы нейтральны в разговоре, но в письме их заменяют однословными: look into → investigate, put off → postpone.",
+        "Сленг и разговорные слова (kids, stuff, a lot of, great) в официальном регистре заменяют на children, materials, a large number of, excellent.",
+        "Вежливые формулы просьбы — норма официального этикета, а не канцелярит: Could you possibly ...?, I would appreciate it if ...",
+        "Обращение и подпись не смешивают: Dear Sir/Madam требует Yours faithfully, Dear Mr Smith — Yours sincerely, Hi — Best.",
+        "В официальном тексте избегают эмодзи, восклицательных знаков и сокращений типа info, ASAP."
+      ],
+      "examples": [
+        {
+          "en": "I can't come to the meeting.",
+          "ru": "Неформально: «Я не могу прийти на встречу»."
+        },
+        {
+          "en": "I cannot attend the meeting.",
+          "ru": "Формально: «Я не могу присутствовать на встрече»."
+        },
+        {
+          "en": "We should look into this problem.",
+          "ru": "Неформально: «Нам стоит разобраться с этой проблемой»."
+        },
+        {
+          "en": "We need to investigate this matter.",
+          "ru": "Формально: «Нам необходимо изучить этот вопрос»."
+        },
+        {
+          "en": "The meeting was put off until Friday.",
+          "ru": "Неформально: «Встречу перенесли на пятницу»."
+        },
+        {
+          "en": "The meeting has been postponed until Friday.",
+          "ru": "Формально: «Заседание перенесено на пятницу»."
+        },
+        {
+          "en": "Can you send me the report?",
+          "ru": "Неформально: «Скинешь мне отчёт?»"
+        },
+        {
+          "en": "Could you possibly send me the report?",
+          "ru": "Формально: «Не могли бы вы прислать мне отчёт?»"
+        },
+        {
+          "en": "I would appreciate it if you could reply by Friday.",
+          "ru": "Формально: «Я был бы признателен, если бы вы ответили к пятнице»."
+        },
+        {
+          "en": "Dear Sir/Madam, I am writing to request further information.",
+          "ru": "Формальное письмо без имени адресата — завершается Yours faithfully."
+        },
+        {
+          "en": "Hi Mark, just writing to ask for more details.",
+          "ru": "Неформальное письмо знакомому — завершается Best или Best wishes."
+        },
+        {
+          "en": "Thank you very much for your assistance.",
+          "ru": "Формально: «Благодарю вас за содействие» — ср. неформальное Thanks a lot for your help!"
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "Dear Mr Smith, ... Yours faithfully, James Reed", "right": "Dear Mr Smith, ... Yours sincerely, James Reed" },
+        { "wrong": "Could you possibly to send the file?", "right": "Could you possibly send the file?" }
+      ],
+      "note": "Регистр определяют адресат и канал: письмо в компанию — формальный, переписка с коллегой — нейтральный; смешение Hi и Yours sincerely в одном письме — ошибка."
     }
   ]
 }

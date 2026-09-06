@@ -445,6 +445,473 @@
       ],
       "note": "Не путай say и tell: say — о словах, tell — о передаче слов кому-то.",
       "lesson": "/grammar/b1-reported-speech"
+    },
+    {
+      "id": "b1-talking-about-the-future",
+      "title": "Talking about the Future",
+      "titleRu": "Говорим о будущем: will, going to, Present",
+      "category": "Tenses",
+      "use": [
+        "will — спонтанное решение в момент речи, обещание, предложение, прогноз-мнение.",
+        "be going to — план или намерение, о котором решили заранее.",
+        "be going to — прогноз по видимым приметам: Look at those clouds!",
+        "Present Continuous — договорённость на конкретное время и место.",
+        "Present Simple — официальное расписание: транспорт, сеансы, уроки.",
+        "Выбор формы подсказывает, откуда взялась мысль о будущем: сейчас или раньше."
+      ],
+      "formula": [
+        "will + V1",
+        "be going to + V1",
+        "am / is / are + V-ing",
+        "Present Simple (по расписанию)"
+      ],
+      "markers": ["tonight", "tomorrow", "next week", "this weekend", "probably", "I think", "I promise", "at 6 pm"],
+      "points": [
+        "will: решение прямо в момент речи — собеседник о нём не знал: The phone is ringing. I will answer it.",
+        "be going to: план уже был до разговора или есть видимые доказательства: It is going to rain.",
+        "Present Continuous: будущее зафиксировано договорённостью — обычно есть время и место: I am meeting Anna at 6.",
+        "Present Simple: будущее по расписанию, которое не зависит от говорящего: The train leaves at 7.",
+        "После if, when, before, until будущее время не используется — Present Simple."
+      ],
+      "examples": [
+        {
+          "en": "I will call you tonight.",
+          "ru": "Я позвоню тебе вечером (решил сейчас, обещание)."
+        },
+        {
+          "en": "Don't worry, I will help you.",
+          "ru": "Не волнуйся, я помогу тебе."
+        },
+        {
+          "en": "I think it will be sunny tomorrow.",
+          "ru": "Думаю, завтра будет солнечно."
+        },
+        {
+          "en": "We are going to visit grandma this weekend.",
+          "ru": "Мы собираемся навестить бабушку на этих выходных."
+        },
+        {
+          "en": "Look at those clouds! It is going to rain.",
+          "ru": "Посмотри на эти тучи! Сейчас пойдёт дождь."
+        },
+        {
+          "en": "I am going to buy a new laptop.",
+          "ru": "Я собираюсь купить новый ноутбук (решил заранее)."
+        },
+        {
+          "en": "We are meeting our friends at 6 pm on Friday.",
+          "ru": "В пятницу в шесть мы встречаемся с друзьями (договорились)."
+        },
+        {
+          "en": "She is flying to London next Monday.",
+          "ru": "Она летит в Лондон в следующий понедельник."
+        },
+        {
+          "en": "The train leaves at 7:30 in the morning.",
+          "ru": "Поезд отправляется в 7:30 утра (расписание)."
+        },
+        {
+          "en": "The film starts at eight, so don't be late.",
+          "ru": "Фильм начинается в восемь, так что не опаздывай."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "We will going to the beach tomorrow.", "right": "We are going to the beach tomorrow." },
+        { "wrong": "She will probably comes late.", "right": "She will probably come late." }
+      ],
+      "note": "Главный вопрос — откуда взялось «будущее»: решение сейчас (will), план заранее (going to), договорённость (Present Continuous), расписание (Present Simple)."
+    },
+    {
+      "id": "b1-confusing-verbs",
+      "title": "Confusing Verbs",
+      "titleRu": "Похожие глаголы: say/tell, hear/listen, see/look/watch",
+      "category": "Words",
+      "use": [
+        "say / tell — как передать чужие слова и информацию.",
+        "hear / listen — слышать случайно или слушать намеренно.",
+        "see / look / watch — видеть, направлять взгляд, наблюдать за движением.",
+        "Три пары-«ловушки», где русский передаёт смысл одним словом, а английский различает оттенки."
+      ],
+      "formula": [
+        "say + (that) + …; say + hello / goodbye",
+        "tell + somebody + …; tell + a story / the truth / a lie",
+        "listen to + …; look at + …",
+        "hear / see / watch + … — без предлога"
+      ],
+      "markers": ["say hello", "tell a story", "tell the truth", "listen to music", "look at the photo", "watch a film", "hear a noise", "see a friend"],
+      "points": [
+        "say — сами слова, без адресата: He said hello. tell — с адресатом: Tell me the truth.",
+        "Устойчивые сочетания tell: a story, a joke, the truth, a lie — адресат необязателен.",
+        "hear — звук дошёл сам: I heard a noise. listen to — сознательное усилие: listen to music.",
+        "see — само попало в поле зрения: I saw a bird. look at — направил взгляд: Look at me!",
+        "watch — объект движется или длится: a film, a match, children playing.",
+        "listen и look требуют предлога (to / at) перед объектом; hear, see, watch — нет."
+      ],
+      "examples": [
+        {
+          "en": "She said goodbye and left.",
+          "ru": "Она попрощалась и ушла."
+        },
+        {
+          "en": "He said hello to everyone.",
+          "ru": "Он поздоровался со всеми."
+        },
+        {
+          "en": "Tell me about your trip.",
+          "ru": "Расскажи мне о своей поездке."
+        },
+        {
+          "en": "She told me the truth.",
+          "ru": "Она сказала мне правду."
+        },
+        {
+          "en": "He told us an interesting story.",
+          "ru": "Он рассказал нам интересную историю."
+        },
+        {
+          "en": "I heard a strange noise outside.",
+          "ru": "Я услышал странный шум на улице."
+        },
+        {
+          "en": "Can you hear me?",
+          "ru": "Ты меня слышишь?"
+        },
+        {
+          "en": "She listens to music while she works.",
+          "ru": "Она слушает музыку, пока работает."
+        },
+        {
+          "en": "Listen to me, please.",
+          "ru": "Послушай меня, пожалуйста."
+        },
+        {
+          "en": "I saw Anna in the park yesterday.",
+          "ru": "Вчера я видел Анну в парке."
+        },
+        {
+          "en": "Look at this photo!",
+          "ru": "Посмотри на это фото!"
+        },
+        {
+          "en": "We watched a football match on TV.",
+          "ru": "Мы смотрели футбольный матч по телевизору."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "Please listen me.", "right": "Please listen to me." },
+        { "wrong": "Look this picture!", "right": "Look at this picture!" }
+      ],
+      "note": "hear и see — про результат, который случился сам; listen to и look at — про наше усилие; watch — когда объект движется или длится во времени."
+    },
+    {
+      "id": "b1-phrasal-verbs",
+      "title": "Phrasal Verbs: the Basics",
+      "titleRu": "Фразовые глаголы: устройство и первые шаги",
+      "category": "Words",
+      "use": [
+        "Фразовый глагол = глагол + частица: turn on, give up, look for.",
+        "Смысл не всегда складывается из частей: give up — бросить, find out — выяснить.",
+        "В разговорном английском фразовые глаголы встречаются постоянно — без них не обойтись.",
+        "Запоминать фразовый глагол как одно слово и сразу с примером.",
+        "Понимать разницу separable (можно разъединить) и inseparable (только вместе)."
+      ],
+      "formula": [
+        "verb + particle (up, on, off, out, back…)",
+        "separable: turn on the TV = turn the TV on = turn it on",
+        "inseparable: look for my keys = look for them (не look them for)"
+      ],
+      "markers": ["up", "down", "on", "off", "out", "in", "back", "away", "for", "after"],
+      "points": [
+        "Значение фразового глагола часто нельзя вывести из частей: give up = сдаться, find out = узнать.",
+        "get up и come back — без дополнения: разделять нечего.",
+        "Separable: дополнение можно поставить и после глагола, и после частицы: turn on the TV / turn the TV on.",
+        "Местоимение (it, them, me) у separable ставится только между: turn it on — не turn on it.",
+        "Inseparable: дополнение всегда после частицы: look for my keys, look after the children.",
+        "Один глагол с разными частицами — разные значения: look at, look for, look after."
+      ],
+      "examples": [
+        {
+          "en": "Can you turn on the light, please?",
+          "ru": "Можешь включить свет, пожалуйста?"
+        },
+        {
+          "en": "She turned off the TV and went to bed.",
+          "ru": "Она выключила телевизор и пошла спать."
+        },
+        {
+          "en": "Put on your coat, it is cold outside.",
+          "ru": "Надень пальто, на улице холодно."
+        },
+        {
+          "en": "He took off his shoes at the door.",
+          "ru": "Он снял обувь у двери."
+        },
+        {
+          "en": "I get up at seven every morning.",
+          "ru": "Я встаю в семь каждое утро."
+        },
+        {
+          "en": "She is looking for her keys.",
+          "ru": "Она ищет свои ключи."
+        },
+        {
+          "en": "Do not give up! You are so close.",
+          "ru": "Не сдавайся! Ты так близко к цели."
+        },
+        {
+          "en": "I need to find out the truth.",
+          "ru": "Мне нужно выяснить правду."
+        },
+        {
+          "en": "When will you come back?",
+          "ru": "Когда ты вернёшься?"
+        },
+        {
+          "en": "Who looks after the children?",
+          "ru": "Кто присматривает за детьми?"
+        },
+        {
+          "en": "Could you pick up the phone?",
+          "ru": "Не мог бы ты взять трубку?"
+        },
+        {
+          "en": "Please wake me up at six tomorrow.",
+          "ru": "Разбуди меня, пожалуйста, завтра в шесть."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "Turn on it, please.", "right": "Turn it on, please." },
+        { "wrong": "She is looking her keys for.", "right": "She is looking for her keys." }
+      ],
+      "note": "Фразовый глагол — единое целое: учи его как одно слово, сразу с примером и с правилом про местоимения."
+    },
+    {
+      "id": "b1-articles-places",
+      "title": "Articles: Names and Places",
+      "titleRu": "Артикли с именами и географией",
+      "category": "Articles",
+      "use": [
+        "Названия рек, морей, океанов и горных цепей — с the: the Volga, the Alps.",
+        "Страны во множественном числе и «составные» названия — с the: the USA, the Netherlands.",
+        "Города, страны в единственном числе, отдельные горы и озёра — без артикля.",
+        "Имена людей — без артикля; the + фамилия во множественном — вся семья.",
+        "Артикль — часть названия: его запоминают вместе со словом, как род в русском."
+      ],
+      "formula": [
+        "the + реки / моря / океаны / горные цепи",
+        "the + the USA, the Netherlands, the United Kingdom",
+        "без артикля: города, страны (ед. ч.), озёра, отдельные горы",
+        "the Smiths = семья Смитов"
+      ],
+      "markers": ["the Volga", "the Alps", "the Atlantic", "the USA", "the Netherlands", "the United Kingdom", "the Smiths", "Moscow", "Mount Elbrus", "Lake Baikal"],
+      "points": [
+        "С the — реки, моря и океаны: the Volga, the Black Sea, the Atlantic.",
+        "С the — горные цепи: the Urals, the Alps; отдельные вершины — без: Mount Elbrus.",
+        "С the — страны во множественном числе и «составные» названия: the USA, the Netherlands, the United Kingdom.",
+        "Без артикля — города и страны в единственном числе: Moscow, Canada, Spain.",
+        "Без артикля — озёра: Lake Baikal (но the Caspian Sea — море).",
+        "Имена людей — без the; the + фамилия во множественном числе — семья целиком: the Smiths."
+      ],
+      "examples": [
+        {
+          "en": "Anna lives in Moscow.",
+          "ru": "Анна живёт в Москве."
+        },
+        {
+          "en": "We are going to Spain this summer.",
+          "ru": "Этим летом мы едем в Испанию."
+        },
+        {
+          "en": "The Volga flows into the Caspian Sea.",
+          "ru": "Волга впадает в Каспийское море."
+        },
+        {
+          "en": "The Urals separate Europe and Asia.",
+          "ru": "Уральские горы разделяют Европу и Азию."
+        },
+        {
+          "en": "Mount Elbrus is the highest peak in Russia.",
+          "ru": "Эльбрус — высочайшая вершина России."
+        },
+        {
+          "en": "Lake Baikal is the deepest lake in the world.",
+          "ru": "Байкал — самое глубокое озеро в мире."
+        },
+        {
+          "en": "My friends live in the USA now.",
+          "ru": "Мои друзья теперь живут в США."
+        },
+        {
+          "en": "The Netherlands is famous for its canals.",
+          "ru": "Нидерланды знамениты своими каналами."
+        },
+        {
+          "en": "The Smiths invited us to dinner.",
+          "ru": "Смиты пригласили нас на ужин."
+        },
+        {
+          "en": "London is the capital of the United Kingdom.",
+          "ru": "Лондон — столица Соединённого Королевства."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "I want to visit the Moscow next summer.", "right": "I want to visit Moscow next summer." },
+        { "wrong": "The Lake Baikal is in Siberia.", "right": "Lake Baikal is in Siberia." }
+      ],
+      "note": "Артикль — часть географического названия: его нельзя вывести из правил русского, его запоминают вместе с названием."
+    },
+    {
+      "id": "b1-typical-mistakes",
+      "title": "Typical Mistakes",
+      "titleRu": "Типичные ошибки русскоязычных",
+      "category": "Mistakes",
+      "use": [
+        "Возраст, чувства и состояния — через to be, а не have: I am 20.",
+        "agree, feel, like, belong — обычные глаголы, без am/is/are.",
+        "Предлоги «приклеены» к глаголу иначе, чем в русском: depend on, listen to.",
+        "«Хочу, чтобы он сделал» — want + somebody + to do, без that.",
+        "Ищи английскую конструкцию под смысл, а не построчный перевод слов."
+      ],
+      "formula": [
+        "I am 20 years old — мне 20 лет (не I have 20)",
+        "I agree — я согласен (не I am agree)",
+        "depend on / listen to / be married to",
+        "want somebody to do: I want you to help me",
+        "go home — без to; go to school — с to"
+      ],
+      "markers": ["am / is / are + возраст", "agree with", "depend on", "listen to", "married to", "want somebody to do", "go home", "belong to"],
+      "points": [
+        "Возраст — с to be: I am twenty years old. Не «I have 20 years».",
+        "agree — глагол: I agree with you. Не «I am agree».",
+        "feel, like, belong — тоже глаголы: I feel fine, the bag belongs to me — без am/is.",
+        "Русское «от» не равно английскому предлогу: depend on, не depend from.",
+        "«Я хочу, чтобы ты помог» — I want you to help me: дополнение + to + глагол, без that.",
+        "very не ставится перед глаголом: I like it very much, не I very like it."
+      ],
+      "examples": [
+        {
+          "en": "I agree with this plan.",
+          "ru": "Я согласен с этим планом."
+        },
+        {
+          "en": "My brother is twenty years old.",
+          "ru": "Моему брату двадцать лет."
+        },
+        {
+          "en": "I feel great today.",
+          "ru": "Я сегодня отлично себя чувствую."
+        },
+        {
+          "en": "I like this song very much.",
+          "ru": "Мне очень нравится эта песня."
+        },
+        {
+          "en": "This bag belongs to me.",
+          "ru": "Эта сумка принадлежит мне."
+        },
+        {
+          "en": "It depends on the weather.",
+          "ru": "Это зависит от погоды."
+        },
+        {
+          "en": "My sister is married to a doctor.",
+          "ru": "Моя сестра замужем за врачом."
+        },
+        {
+          "en": "I want you to help me.",
+          "ru": "Я хочу, чтобы ты мне помог."
+        },
+        {
+          "en": "I go home by bus.",
+          "ru": "Я езжу домой на автобусе."
+        },
+        {
+          "en": "I am looking forward to seeing you.",
+          "ru": "С нетерпением жду встречи с тобой."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "I am agree with you.", "right": "I agree with you." },
+        { "wrong": "I have 20 years.", "right": "I am 20 years old." }
+      ],
+      "note": "Сверяйся не со словами, а со смыслом: «мне 20» = I am 20, «я согласен» = I agree, «хочу, чтобы ты…» = I want you to…"
+    },
+    {
+      "id": "b1-punctuation",
+      "title": "Punctuation Basics",
+      "titleRu": "Пунктуация: запятая, апостроф, кавычки",
+      "category": "Writing",
+      "use": [
+        "Запятые — в перечислениях и между частями сложного предложения перед союзами.",
+        "Апостроф — в сокращениях (don't, I'm) и для принадлежности (Anna's).",
+        "Различать it's (it is) и its (его/её) — самая частая ошибка.",
+        "Прямая речь в английском — в кавычках, не в «ёлочках».",
+        "Точка, вопрос и восклицание — как в русском, но рядом с кавычками свои правила."
+      ],
+      "markers": ["it's / its", "don't / I'm", "Anna's", "the Smiths", "…, … and …", "I was tired, but…", "“…”"],
+      "points": [
+        "Перечисление из трёх и более: запятая между пунктами, перед финальным and запятая (Oxford comma) необязательна — главное, будь последователен.",
+        "Перед but между двумя предложениями запятая нужна: I was tired, but I finished. Перед and — только если обе части — полные предложения.",
+        "Апостроф в сокращении отмечает пропущенные буквы: don't = do not, it's = it is / it has.",
+        "Принадлежность — апостроф + s: Anna's book. Множественное число — без апострофа: books, the Smiths.",
+        "its — принадлежность без апострофа: its tail. it's — только сокращение.",
+        "Прямая речь: She said, “I am ready.” Точка и запятая в американском варианте — внутри кавычек."
+      ],
+      "examples": [
+        {
+          "en": "I bought apples, oranges and bananas.",
+          "ru": "Я купил яблоки, апельсины и бананы."
+        },
+        {
+          "en": "We invited Anna, Mark and Tom.",
+          "ru": "Мы пригласили Анну, Марка и Тома."
+        },
+        {
+          "en": "I was tired, but I finished the report.",
+          "ru": "Я устал, но доделал отчёт."
+        },
+        {
+          "en": "Do you want tea or coffee?",
+          "ru": "Тебе чай или кофе?"
+        },
+        {
+          "en": "It is Anna's book.",
+          "ru": "Это книга Анны."
+        },
+        {
+          "en": "My parents' house is near the park.",
+          "ru": "Дом моих родителей рядом с парком."
+        },
+        {
+          "en": "Don't worry about it.",
+          "ru": "Не переживай об этом."
+        },
+        {
+          "en": "It's cold today.",
+          "ru": "Сегодня холодно."
+        },
+        {
+          "en": "The cat is playing with its toy.",
+          "ru": "Кошка играет со своей игрушкой."
+        },
+        {
+          "en": "She said, “I will come tomorrow.”",
+          "ru": "Она сказала: «Я приду завтра»."
+        },
+        {
+          "en": "“What time is it?” she asked.",
+          "ru": "«Который час?» — спросила она."
+        },
+        {
+          "en": "Unfortunately, we missed the bus.",
+          "ru": "К сожалению, мы опоздали на автобус."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "The dog wagged it's tail.", "right": "The dog wagged its tail." },
+        { "wrong": "The Smith's live next door.", "right": "The Smiths live next door." }
+      ],
+      "note": "it's / its: подставь it is — смысл сохранился (It is cold today), значит it's. Не сохранился — пиши its без апострофа."
     }
   ]
 }

@@ -129,7 +129,9 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
                 <p class="cheat-card__soon">Карточка ещё заполняется — загляни в полный урок.</p>
               )}
 
-              <a class="cheat-card__lesson" href={t.lesson}>Полный урок →</a>
+              {t.lesson && (
+                <a class="cheat-card__lesson" href={t.lesson}>Полный урок →</a>
+              )}
             </section>
           );
         })}

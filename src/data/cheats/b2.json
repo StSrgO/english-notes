@@ -290,6 +290,320 @@
       ],
       "note": "Не путай определяющее и поясняющее придаточные: без запятых информация определяет предмет, с запятыми — только дополняет.",
       "lesson": "/grammar/b2-relative-clauses"
+    },
+    {
+      "id": "b2-conditionals-map",
+      "title": "All Conditionals at a Glance",
+      "titleRu": "Все типы conditionals: одна карта",
+      "category": "Conditionals",
+      "use": [
+        "Свериться, какой тип условия нужен: реальный факт, реальное будущее или нереальная ситуация.",
+        "Быстро освежить формулы всех пяти типов перед письмом, пересказом или экзаменом.",
+        "Заметить «сдвиг времён»: чем дальше от реальности, тем «глубже» время в if-части.",
+        "Проверить, что после if не стоят will и would.",
+        "Выразить связь прошлого условия с настоящим результатом — через mixed conditional."
+      ],
+      "formula": [
+        "zero: If + Present Simple, … Present Simple",
+        "first: If + Present Simple, … will / won't + V1",
+        "second: If + Past Simple, … would + V1",
+        "third: If + Past Perfect, … would have + V3",
+        "mixed: if-часть и результат в разных временах (обычно If + Past Perfect → would + V1)"
+      ],
+      "markers": ["if", "unless", "even if", "what if", "suppose", "provided that", "as long as", "if I were you"],
+      "points": [
+        "zero — закономерности и факты, которые всегда истинны: If you heat ice, it melts.",
+        "first — реальное условие о будущем: в if-части Present Simple, в результате — will.",
+        "second — гипотеза о настоящем или будущем: if + Past Simple; после I / he / she — were.",
+        "third — нереальное прошлое: условие сдвинуто в Past Perfect, результат — would have + V3.",
+        "mixed — прошлое условие с настоящим результатом (If I had saved more, I would be rich now) или наоборот.",
+        "В if-части никогда не ставятся will и would; каждый следующий тип сдвигает время на шаг назад."
+      ],
+      "examples": [
+        {
+          "en": "If you heat ice, it melts.",
+          "ru": "Если нагреть лёд, он тает."
+        },
+        {
+          "en": "If I don't get enough sleep, I feel tired the next day.",
+          "ru": "Если я не высыпаюсь, на следующий день я чувствую усталость."
+        },
+        {
+          "en": "If the train is late, we will miss the first act.",
+          "ru": "Если поезд опоздает, мы пропустим первое действие."
+        },
+        {
+          "en": "If you send the invoice today, I will pay it tomorrow.",
+          "ru": "Если вы пришлёте счёт сегодня, я оплачу его завтра."
+        },
+        {
+          "en": "If I had more free time, I would learn the guitar.",
+          "ru": "Если бы у меня было больше свободного времени, я бы учился играть на гитаре."
+        },
+        {
+          "en": "If I were you, I would not worry about it.",
+          "ru": "На твоём месте я бы не переживал об этом."
+        },
+        {
+          "en": "If we had checked the forecast, we would have stayed at home.",
+          "ru": "Если бы мы посмотрели прогноз, мы бы остались дома."
+        },
+        {
+          "en": "If she had caught the earlier train, she would have arrived on time.",
+          "ru": "Если бы она села на более ранний поезд, она бы приехала вовремя."
+        },
+        {
+          "en": "If I had saved more, I would be able to retire soon.",
+          "ru": "Если бы я больше откладывал, я бы мог скоро выйти на пенсию."
+        },
+        {
+          "en": "If he were more careful, he would not have lost the documents.",
+          "ru": "Если бы он был внимательнее, он бы не потерял документы."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "If it will rain tomorrow, we will cancel the picnic.", "right": "If it rains tomorrow, we will cancel the picnic." },
+        { "wrong": "If I would be taller, I would play basketball.", "right": "If I were taller, I would play basketball." }
+      ],
+      "note": "В русском «если бы» звучит одинаково во втором, третьем и mixed-типах, поэтому ориентируйся на время: Past Simple — гипотеза, Past Perfect — нереальное прошлое."
+    },
+    {
+      "id": "b2-past-tenses",
+      "title": "The Past: Which Tense?",
+      "titleRu": "Прошедшее время: как выбрать",
+      "category": "Tenses",
+      "use": [
+        "Передать цепочку завершённых событий рассказа: Past Simple двигает историю вперёд.",
+        "Описать действие-процесс, которое шло в конкретный момент прошлого: Past Continuous.",
+        "Показать, что одно событие произошло раньше другого в прошлом: Past Perfect.",
+        "Подчеркнуть, как долго длился процесс до момента в прошлом: Past Perfect Continuous.",
+        "Ответить на вопросы: «что случилось?», «что происходило в тот момент?», «что было раньше?», «как долго к тому моменту?»."
+      ],
+      "formula": [
+        "Past Simple: V2 (went) / did + V1 — факт, завершённое событие",
+        "Past Continuous: was / were + V-ing — процесс в момент",
+        "Past Perfect: had + V3 — действие раньше другого прошлого",
+        "Past Perfect Continuous: had been + V-ing — длительность до момента в прошлом"
+      ],
+      "markers": ["yesterday", "last night", "at six o'clock", "when", "while", "by the time", "before", "after", "for two hours"],
+      "points": [
+        "Past Simple — завершённое событие или цепочка событий: I finished the report and went home.",
+        "Past Continuous — фон-процесс, на котором происходит короткое событие: What were you doing at eight? — I was having breakfast.",
+        "Past Perfect — «раньше»: действие завершилось до другого действия в прошлом.",
+        "Past Perfect Continuous — «как долго к тому моменту»: длительность процесса, который шёл до точки в прошлом.",
+        "Сравни: When I got home, she cooked dinner (начала после моего прихода) / she had cooked dinner (уже приготовила к моему приходу)."
+      ],
+      "examples": [
+        {
+          "en": "I watched a documentary last night.",
+          "ru": "Вчера вечером я посмотрел документальный фильм."
+        },
+        {
+          "en": "I was watching a documentary when the power went out.",
+          "ru": "Я смотрел документальный фильм, когда отключили свет."
+        },
+        {
+          "en": "She made dinner after she came home.",
+          "ru": "Она приготовила ужин после того, как пришла домой."
+        },
+        {
+          "en": "When we arrived at the station, the train had already left.",
+          "ru": "Когда мы приехали на вокзал, поезд уже ушёл."
+        },
+        {
+          "en": "He had sent the report before the manager asked about it.",
+          "ru": "Он отправил отчёт до того, как менеджер спросил о нём."
+        },
+        {
+          "en": "They had been waiting for forty minutes when the bus finally came.",
+          "ru": "Они прождали сорок минут, прежде чем наконец пришёл автобус."
+        },
+        {
+          "en": "By noon she had been driving for six hours.",
+          "ru": "К полудню она уже шесть часов была за рулём."
+        },
+        {
+          "en": "It was raining hard, so we stayed indoors.",
+          "ru": "Шёл сильный дождь, поэтому мы остались дома."
+        },
+        {
+          "en": "He walked into the room and turned on the light.",
+          "ru": "Он вошёл в комнату и включил свет."
+        },
+        {
+          "en": "I had never seen the ocean before that summer.",
+          "ru": "До того лета я никогда не видел океан."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "When we arrived, the film already started.", "right": "When we arrived, the film had already started." },
+        { "wrong": "She was driving for two hours when the accident happened.", "right": "She had been driving for two hours when the accident happened." }
+      ],
+      "note": "Past Simple двигает сюжет вперёд, Continuous даёт фон, Perfect — предысторию, а Perfect Continuous — длительность процесса до момента в прошлом."
+    },
+    {
+      "id": "b2-linking-words",
+      "title": "Linking Words",
+      "titleRu": "Слова-связки и маркеры текста",
+      "category": "Writing",
+      "use": [
+        "Связать предложения и абзацы так, чтобы текст читался как единое целое.",
+        "Добавить аргумент к уже сказанному: moreover, besides, in addition.",
+        "Противопоставить одну мысль другой: however, although, on the other hand.",
+        "Показать причину и следствие: therefore, as a result, consequently.",
+        "Проиллюстрировать мысль примером: for instance, for example.",
+        "Выстроить последовательность рассуждения: firstly, then, finally."
+      ],
+      "formula": [
+        "Sentence. However, sentence.",
+        "Although + clause, clause.",
+        "Sentence; therefore, sentence.",
+        "Sentence. For instance, sentence."
+      ],
+      "markers": ["however", "although", "moreover", "besides", "therefore", "as a result", "for instance", "for example", "on the other hand", "firstly, finally"],
+      "points": [
+        "however — контраст между самостоятельными предложениями: He is young. However, he is very experienced.",
+        "although — уступка внутри одного предложения: Although the task was hard, she finished it on time.",
+        "moreover и besides добавляют аргумент; besides — ещё и «к тому же», часто с оттенком «и так достаточно».",
+        "therefore и as a result — следствие; перед ними должна стоять названная причина.",
+        "for instance и for example ставятся перед иллюстрацией, обычно в начале нового предложения.",
+        "but соединяет части одного предложения, however — самостоятельные предложения."
+      ],
+      "examples": [
+        {
+          "en": "The project was difficult. However, the team completed it on time.",
+          "ru": "Проект был трудным. Однако команда сдала его вовремя."
+        },
+        {
+          "en": "Although the museum was crowded, we enjoyed the tour.",
+          "ru": "Хотя в музее было много народу, экскурсия нам понравилась."
+        },
+        {
+          "en": "The hotel room was expensive. Moreover, it had a wonderful view.",
+          "ru": "Номер в отеле был дорогим. Кроме того, из него открывался чудесный вид."
+        },
+        {
+          "en": "I don't feel like going to the party. Besides, I have an early start tomorrow.",
+          "ru": "Мне не хочется идти на вечеринку. К тому же завтра мне рано вставать."
+        },
+        {
+          "en": "He forgot to set the alarm. Therefore, he overslept.",
+          "ru": "Он забыл завести будильник. Поэтому он проспал."
+        },
+        {
+          "en": "The roads were icy. As a result, the traffic moved very slowly.",
+          "ru": "Дороги обледенели. В результате движение было очень медленным."
+        },
+        {
+          "en": "Some metals rust easily. For instance, iron needs a protective coating.",
+          "ru": "Некоторые металлы легко ржавеют. Например, железо нуждается в защитном покрытии."
+        },
+        {
+          "en": "Choose a quiet place to study. For example, the library is perfect for that.",
+          "ru": "Выбери тихое место для занятий. Например, библиотека для этого отлично подходит."
+        },
+        {
+          "en": "On the one hand, the flat is cheap. On the other hand, it is far from the centre.",
+          "ru": "С одной стороны, квартира дешёвая. С другой стороны, она далеко от центра."
+        },
+        {
+          "en": "She was tired, but she finished the race.",
+          "ru": "Она устала, но всё же закончила гонку."
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "Although it was raining, but we went for a walk.", "right": "Although it was raining, we went for a walk." },
+        { "wrong": "Because the weather was bad, so we stayed home.", "right": "Because the weather was bad, we stayed home." }
+      ],
+      "note": "Одной-двух связок на абзац достаточно: текст, где moreover стоит в каждом предложении, читается тяжело."
+    },
+    {
+      "id": "b2-british-vs-american",
+      "title": "British vs American English",
+      "titleRu": "Британский и американский: главные различия",
+      "category": "Usage",
+      "use": [
+        "Понять, что одно и то же называется по-разному: flat / apartment, lift / elevator.",
+        "Не смешивать варианты в одном тексте: письмо должно быть цельным.",
+        "Запомнить правила орфографии: -our / -or, -ise / -ize, удвоение l.",
+        "Узнать грамматические особенности: gotten, shall и число коллективных существительных.",
+        "Осознанно выбирать вариант под собеседника, текст или экзамен."
+      ],
+      "markers": [
+        "flat (UK) = apartment (US)",
+        "lift (UK) = elevator (US)",
+        "autumn (UK) = fall (US)",
+        "rubbish (UK) = garbage (US)",
+        "colour (UK) = color (US)",
+        "travelled (UK) = traveled (US)",
+        "realise (UK) = realize (US)",
+        "got (UK) = gotten (US)",
+        "team is (US) = team are (UK)",
+        "Shall I …? (UK)"
+      ],
+      "points": [
+        "Лексика — самый заметный пласт: flat / apartment, lift / elevator, autumn / fall, rubbish / garbage, holiday / vacation, film / movie.",
+        "Орфография: британское -our (colour, favour) против американского -or (color, favor); -re (centre) против -er (center).",
+        "-ise (realise, organise) — традиционно британское написание, -ize — американское и всё более распространённое в UK; в США всегда -ize.",
+        "Удвоение l: британское travelled, cancelled; американское traveled, canceled.",
+        "Грамматика: в США часто I've gotten, в UK — I've got; Shall I ...? — типично британское предложение помощи, в США чаще Should I ...?",
+        "Коллективные существительные (team, family, government): в UK возможны оба числа, в US — всегда единственное."
+      ],
+      "examples": [
+        {
+          "en": "She lives in a small flat near the park.",
+          "ru": "Она живёт в маленькой квартире у парка (в США скажут apartment)."
+        },
+        {
+          "en": "He rented an apartment in the centre of town.",
+          "ru": "Он снял квартиру в центре города (в Великобритании скажут flat)."
+        },
+        {
+          "en": "Take the lift to the fifth floor.",
+          "ru": "Поднимись на лифте на пятый этаж (в США — elevator)."
+        },
+        {
+          "en": "The elevator is out of order.",
+          "ru": "Лифт не работает (в Великобритании — lift)."
+        },
+        {
+          "en": "The park looks beautiful in autumn.",
+          "ru": "Парк прекрасен осенью (в США — in the fall)."
+        },
+        {
+          "en": "Where should I put this rubbish?",
+          "ru": "Куда мне выбросить этот мусор? (в США — garbage)."
+        },
+        {
+          "en": "Her favourite colour is green.",
+          "ru": "Её любимый цвет — зелёный (в США пишут favorite, color)."
+        },
+        {
+          "en": "We travelled around Europe for a month.",
+          "ru": "Мы месяц путешествовали по Европе (в США пишут traveled)."
+        },
+        {
+          "en": "She realised she had left her keys at home.",
+          "ru": "Она поняла, что оставила ключи дома (в США пишут realized)."
+        },
+        {
+          "en": "I've gotten used to the cold weather here.",
+          "ru": "Я привык к здешней холодной погоде (в Великобритании обычно скажут I've got used to ...)."
+        },
+        {
+          "en": "The team is playing well this season.",
+          "ru": "Команда в этом сезоне играет хорошо (в британском варианте возможно The team are playing ...)."
+        },
+        {
+          "en": "Shall I open the window?",
+          "ru": "Открыть окно? (предложение помощи; типично для Великобритании, в США чаще Should I open the window?)"
+        }
+      ],
+      "pitfalls": [
+        { "wrong": "I organised my favorite files.", "right": "I organised my favourite files. (UK) / I organized my favorite files. (US)" },
+        { "wrong": "In British English, pants are worn over the legs.", "right": "In British English, trousers are worn over the legs; pants are underwear." }
+      ],
+      "note": "Ни один вариант не «правильнее» другого: оба литературные. Выбери один и держись его — главное последовательность."
     }
   ]
 }
