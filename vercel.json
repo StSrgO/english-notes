@@ -15,6 +15,50 @@
     {
       "source": "/tower.webp",
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }]
+    },
+    {
+      "source": "/",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/grammar",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/grammar/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/notes",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/notes/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/vocabulary",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/vocabulary/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/soon",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=600, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/search.json",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/search-content.json",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400" }]
+    },
+    {
+      "source": "/daily/:path*",
+      "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400, s-maxage=604800, stale-while-revalidate=86400" }]
     }
   ]
 }
