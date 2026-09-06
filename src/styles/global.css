@@ -5836,5 +5836,23 @@ body:has(.soon) {
   .hs-item { padding: 8px; }
 }
 
+/* ============================================================
+   update225 — ЕДИНЫЙ ЗАГОЛОВОК главных страниц разделов
+   (/grammar, /notes, /vocabulary)
+
+   Серифная гарнитура, один размер, название подчёркивается
+   маркером .hl-mark (как заголовки уроков). В разметке:
+   <h1 class="page-title"><span class="hl-mark">…</span></h1>
+   Отступы остаются за обёрткой каждой страницы.
+   ============================================================ */
+.page-title {
+  font-family: var(--display-serif);
+  font-weight: 800;
+  font-size: clamp(34px, 5vw, 54px);
+  letter-spacing: -0.01em;
+  line-height: 1.05;
+  color: var(--ink);
+}
+
 
 
