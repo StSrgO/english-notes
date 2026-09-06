@@ -5662,4 +5662,179 @@ body:has(.soon) {
   --bar-paper: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>");
 }
 
+/* ============================================================
+   update223 — скролл-бары: на тач-устройствах не оставляем
+   «прилипший» hover после тапа
+
+   После тапа по чипу ленты браузер держит :hover до следующего
+   тапа: чип остаётся с подсветкой нажатия, хотя спай уже перевёл
+   is-active на другой пункт (двойная подсветка при скролле).
+   На устройствах без мыши hover-фон чипов гасим — активный пункт
+   подсвечивает только .is-active; кратковременный отклик нажатия
+   даёт :active. Для курсора (mouse) hover сохранён.
+   ============================================================ */
+@media (hover: none), (pointer: coarse) {
+  .catalog__nav .level-link:hover { background: transparent; transform: none; }
+  .lesson-bar .bar-item:hover,
+  .lesson-bar .act-link:hover { background: transparent; }
+  .side--v3 .side3__link:hover { background: transparent; color: var(--ink-soft); transform: none; }
+  .lesson-back:hover { background: transparent; color: var(--ink-soft); }
+  .lv2-chip:hover { background: transparent; color: var(--ink-soft); transform: none; }
+}
+/* В мобильном варианте секции урока чипы .side3__link уже стоят
+   на mint-фоне в покое: гасим только сдвиг, фон оставляем. */
+@media (max-width: 920px) {
+  @media (hover: none), (pointer: coarse) {
+    .side--v3 .side3__link:hover { background: var(--mint); }
+  }
+}
+
+/* ============================================================
+   update224 — глобальный поиск по сайту в шапке
+   (поле между логотипом EnglishNotes и меню, Base.astro +
+   эндпоинт /search.json + клиентский скрипт в Base.astro)
+
+   Поле — «пилюля» высотой как бургер; выпадающие подсказки —
+   карточка под шапкой с результатами трёх типов (урок/заметка/
+   слова). Меню и логотип остаются в той же строке: поле тянется
+   в оставшемся промежутке, на узких экранах сжимается.
+   ============================================================ */
+.site-head__inner { gap: 10px; }
+.site-head__menu { display: flex; align-items: center; gap: 6px; min-width: 0; }
+.site-head__menu .nav-toggle { flex: 0 0 auto; }
+.site-head__menu .nav--desktop { flex: 0 0 auto; }
+
+.head-search { position: relative; flex: 1 1 300px; min-width: 0; max-width: 560px; }
+.head-search__input {
+  width: 100%;
+  height: 40px;
+  padding: 0 14px 0 36px;
+  font-family: var(--body);
+  font-size: 14.5px;
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.head-search__input::placeholder { color: var(--ink-soft); opacity: 0.7; }
+.head-search__input::-webkit-search-cancel-button { -webkit-appearance: none; }
+.head-search__input:focus-visible {
+  outline: none;
+  border-color: var(--mint-deep);
+  box-shadow: 0 0 0 3px var(--mint);
+}
+.head-search__ico {
+  position: absolute;
+  left: 13px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ink-soft);
+  pointer-events: none;
+}
+
+.head-search__drop {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(620px, 92vw);
+  max-height: min(60vh, 560px);
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1.5px solid var(--line);
+  border-radius: 16px;
+  box-shadow: var(--shadow);
+  padding: 8px;
+  z-index: 60;
+  text-align: left;
+}
+.head-search__drop[hidden] { display: none; }
+.hs-group {
+  padding: 8px 10px 4px;
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.hs-group:first-child { padding-top: 4px; }
+.hs-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 8px 10px;
+  border-radius: 11px;
+  transition: background 0.13s ease;
+}
+.hs-item.is-cur,
+.hs-item:hover { background: var(--mint); }
+.hs-tag {
+  flex: 0 0 auto;
+  margin-top: 1px;
+  font-family: var(--mono);
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 2px 8px;
+  color: var(--ink-soft);
+  white-space: nowrap;
+}
+.hs-tag.is-g { color: var(--mint-ink); border-color: var(--mint-deep); background: var(--mint); }
+.hs-tag.is-n { color: var(--coral); border-color: #ffd5cf; background: #fff1ee; }
+.hs-tag.is-v { color: var(--ink); border-color: var(--line); background: var(--paper); }
+.hs-body { min-width: 0; display: flex; flex-direction: column; gap: 1px; }
+.hs-title {
+  font-family: var(--display);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: var(--ink);
+}
+.hs-lvl {
+  font-family: var(--mono);
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--mint-ink);
+  margin-left: 4px;
+}
+.hs-sub {
+  font-size: 12.5px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: var(--ink-soft);
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.hs-empty {
+  padding: 16px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 920px) {
+  .head-search__drop { top: calc(100% + 6px); }
+}
+@media (max-width: 640px) {
+  .head-search { flex-basis: 90px; }
+  .head-search__input { padding-left: 12px; font-size: 14px; }
+  .head-search__ico { display: none; }
+  .head-search__drop { width: 96vw; max-height: 62vh; padding: 6px; }
+  .hs-tag { display: none; }
+  .hs-item { padding: 8px; }
+}
+
+
 

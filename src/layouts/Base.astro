@@ -53,13 +53,41 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
     <header class="site-head">
       <div class="wrap site-head__inner">
         <a href="/" class="brand"><span class="brand__word">English<b>Notes</b></span></a>
-        <details class="nav-toggle">
-          <summary class="nav-toggle__button" aria-label="Открыть меню">
-  <span class="nav-toggle__line"></span>
-  <span class="nav-toggle__line"></span>
-  <span class="nav-toggle__line"></span>
-</summary>
-          <nav class="nav">
+        <div class="head-search" data-search role="search">
+          <svg class="head-search__ico" viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2" />
+            <path d="M16.5 16.5 21 21" stroke="currentColor" stroke-width="2" stroke-linecap="round" />
+          </svg>
+          <input
+            class="head-search__input"
+            type="search"
+            placeholder="Поиск по сайту…"
+            aria-label="Поиск по урокам, заметкам и словам"
+            autocomplete="off"
+            spellcheck="false"
+            enterkeyhint="search"
+            data-search-input
+          />
+          <div class="head-search__drop" data-search-drop hidden></div>
+        </div>
+        <div class="site-head__menu">
+          <details class="nav-toggle">
+            <summary class="nav-toggle__button" aria-label="Открыть меню">
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+              <span class="nav-toggle__line"></span>
+            </summary>
+            <nav class="nav">
+              <a href="/">Главная</a>
+              <a href="/grammar">Грамматика</a>
+              <a href="/notes">Заметки</a>
+              <a href="/vocabulary" class="nav__link">Слова</a>
+              <a href="/soon">Аудирование</a>
+              <a href="/soon">Говорение</a>
+              <a href="/soon">Прогресс</a>
+            </nav>
+          </details>
+          <nav class="nav nav--desktop">
             <a href="/">Главная</a>
             <a href="/grammar">Грамматика</a>
             <a href="/notes">Заметки</a>
@@ -68,16 +96,7 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
             <a href="/soon">Говорение</a>
             <a href="/soon">Прогресс</a>
           </nav>
-        </details>
-        <nav class="nav nav--desktop">
-          <a href="/">Главная</a>
-          <a href="/grammar">Грамматика</a>
-          <a href="/notes">Заметки</a>
-          <a href="/vocabulary" class="nav__link">Слова</a>
-          <a href="/soon">Аудирование</a>
-          <a href="/soon">Говорение</a>
-          <a href="/soon">Прогресс</a>
-        </nav>
+        </div>
       </div>
     </header>
 
@@ -143,18 +162,20 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
       // level navigation: smooth scroll + scroll-spy (catalog only)
       const levelLinks = Array.from(document.querySelectorAll('[data-level-link]'));
       if (levelLinks.length) {
+        // Горизонтальная лента уровней, которой управляет спай: на /grammar —
+        // .catalog__nav, на /notes — .cheats-lvls (оба в разметке — первые
+        // элементы секции). Контейнер ищем один на страницу: все чипы
+        // data-level-link лежат в одной ленте.
+        const levelNav = levelLinks[0].closest('.catalog__nav, .cheats-lvls') || null;
         const blocks = Array.from(document.querySelectorAll('[data-level-block]'));
         const setActive = (lvl, autoscroll) => {
           levelLinks.forEach((a) => a.classList.toggle('is-active', a.dataset.level === lvl));
           if (autoscroll) {
             const act = levelLinks.filter((a) => a.dataset.level === lvl)[0];
-            if (act) {
-              const nav = act.closest('.catalog__nav');
-              if (nav && nav.scrollWidth > nav.clientWidth) {
-                const nr = nav.getBoundingClientRect();
-                const ar = act.getBoundingClientRect();
-                nav.scrollTo({ left: nav.scrollLeft + (ar.left - nr.left) - (nav.clientWidth - ar.width) / 2, behavior: 'smooth' });
-              }
+            if (act && levelNav && levelNav.scrollWidth > levelNav.clientWidth) {
+              const nr = levelNav.getBoundingClientRect();
+              const ar = act.getBoundingClientRect();
+              levelNav.scrollTo({ left: levelNav.scrollLeft + (ar.left - nr.left) - (levelNav.clientWidth - ar.width) / 2, behavior: 'smooth' });
             }
           }
         };
@@ -218,8 +239,22 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
           document.addEventListener('visibilitychange', () => {
             if (document.visibilityState === 'visible') onScroll();
           });
-          setActive(lastLvl, false);
+          // При заходе по якорю (#C2) сразу центрируем ленту на нужном
+          // уровне, иначе выбранный чип останется за краем экрана.
+          setActive(lastLvl, !!initHash && !!document.getElementById(initHash));
         }
+      }
+
+      // Мобильное меню (<details class="nav-toggle">): закрывается не только
+      // крестиком, но и кликом по любой области вне меню, и клавишей Escape.
+      const navToggle = document.querySelector('.nav-toggle');
+      if (navToggle) {
+        document.addEventListener('click', (e) => {
+          if (navToggle.open && !navToggle.contains(e.target)) navToggle.open = false;
+        });
+        document.addEventListener('keydown', (e) => {
+          if (e.key === 'Escape' && navToggle.open) navToggle.open = false;
+        });
       }
 
       // scroll reveal
@@ -229,6 +264,295 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
       document.querySelectorAll('[data-reveal]').forEach((el) => io.observe(el));
       var fy = document.getElementById('foot-year');
       if (fy) { fy.textContent = String(new Date().getFullYear()); }
+    </script>
+
+    <script>
+      // Глобальный поиск по сайту: статический индекс /search.json собирается
+      // при сборке (src/pages/search.json.ts), здесь он фильтруется на лету.
+      // Подсказки открываются под полем; выбор стрелками + Enter, закрытие —
+      // Escape или клик вне поля.
+      (function () {
+        var root = document.querySelector('[data-search]');
+        var input = root && root.querySelector('[data-search-input]');
+        var drop = root && root.querySelector('[data-search-drop]');
+        if (!root || !input || !drop) return;
+
+        // на узких экранах плейсхолдер короче, чтобы не обрезался
+        var shortPh = window.matchMedia('(max-width: 640px)');
+        var setPh = function () { input.placeholder = shortPh.matches ? 'Поиск…' : 'Поиск по сайту…'; };
+        setPh();
+        shortPh.addEventListener ? shortPh.addEventListener('change', setPh) : shortPh.addListener(setPh);
+
+        var GROUP = {
+          g: { label: 'Уроки грамматики', cls: 'is-g' },
+          n: { label: 'Заметки', cls: 'is-n' },
+          v: { label: 'Слова', cls: 'is-v' }
+        };
+        var items = [];
+        var cur = 0;          // индекс активной строки в текущем списке
+        var curList = [];     // отфильтрованные записи в порядке показа
+
+        // Контентный поиск по урокам: ленивый индекс /search-content.json
+        // (текст повествований классики и рока под одним slug), кэш в
+        // localStorage, чтобы не тянуть большой файл на каждой странице.
+        var contentKey = 'englishnotes.search-content.v1';
+        var contentIdx = [];
+        var contentMeta = {};
+        var contentPromise = null;
+        var contentDone = false;
+
+        var esc = function (s) {
+          return String(s).replace(/[&<>"']/g, function (c) {
+            return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+          });
+        };
+
+        // Ранг записи: выше — префикс названия, затем префикс формы/перевода
+        // слова (вторая/третья формы, русский перевод), потом «содержит».
+        // Короткий запрос (1 символ) показывает только префиксные совпадения,
+        // чтобы слова из словаря не заливали список.
+        var rank = function (it, q, qq) {
+          var title = (it.title || '').toLowerCase();
+          var titlePre = title.indexOf(q) === 0 || (qq !== q && title.indexOf(qq) === 0);
+          if (titlePre) return 0;
+          var fields = (it.f || []).map(String);
+          for (var fi = 0; fi < fields.length; fi++) {
+            var f = fields[fi].toLowerCase();
+            if (f.indexOf(q) === 0 || (qq !== q && f.indexOf(qq) === 0)) return 1;
+          }
+          if (q.length < 2) return 9;
+          var sub = ((it.sub || '') + ' ' + (it.d || '')).toLowerCase();
+          var titleHit = title.indexOf(q) !== -1 || (qq !== q && title.indexOf(qq) !== -1);
+          var subPre = sub.indexOf(q) === 0 || (qq !== q && sub.indexOf(qq) === 0);
+          if (titleHit || subPre) return 2;
+          if (sub.indexOf(q) !== -1 || (qq !== q && sub.indexOf(qq) !== -1)) return 3;
+          return 9;
+        };
+
+        // Кириллица -> латиница: чтобы по-русски можно было искать латинские
+        // имена/названия из уроков («оффспринг» -> offspring). Для неоднозначных
+        // букв (ж, х, ц, ю, я, ...) генерируем несколько вариантов.
+        var CYR_LAT = {
+          'а': 'a', 'б': 'b', 'в': 'v', 'г': 'g', 'д': 'd', 'е': 'e',
+          'ё': ['yo', 'e'], 'ж': ['zh', 'j'], 'з': 'z', 'и': 'i',
+          'й': ['y', 'i', 'j'], 'к': 'k', 'л': 'l', 'м': 'm', 'н': 'n',
+          'о': 'o', 'п': 'p', 'р': 'r', 'с': 's', 'т': 't', 'у': 'u',
+          'ф': 'f', 'х': ['kh', 'h'], 'ц': ['ts', 'c'], 'ч': ['ch'],
+          'ш': ['sh'], 'щ': ['shch', 'sch'], 'ъ': '', 'ы': 'y', 'ь': '',
+          'э': ['e'], 'ю': ['yu', 'u', 'iu'], 'я': ['ya', 'ia', 'a']
+        };
+        var translitVariants = function (s) {
+          var parts = [];
+          for (var ci = 0; ci < s.length; ci++) {
+            var ch = s.charAt(ci);
+            var v = CYR_LAT[ch];
+            if (!v) { parts.push([ch]); continue; }
+            parts.push(typeof v === 'string' ? [v] : v);
+          }
+          var res = [''];
+          for (var pi = 0; pi < parts.length; pi++) {
+            var next = [];
+            for (var ri = 0; ri < res.length; ri++) {
+              for (var vi = 0; vi < parts[pi].length; vi++) {
+                next.push(res[ri] + parts[pi][vi]);
+                if (next.length > 30) break;
+              }
+              if (next.length > 30) break;
+            }
+            res = next;
+          }
+          return res;
+        };
+
+        var render = function () {
+          var q = input.value.trim().toLowerCase();
+          if (q.length === 0) { drop.hidden = true; drop.innerHTML = ''; return; }
+          var qq = q.replace(/[ьъ]/g, ''); // мягкий поиск по русским окончаниям
+          if (qq.length < 2) qq = q;
+          var hits = [];
+          for (var i = 0; i < items.length; i++) {
+            var it = items[i];
+            var hay = (it.title + ' ' + (it.sub || '') + ' ' + (it.d || '') + ' ' + (it.lvl)).toLowerCase();
+            if (hay.indexOf(q) === -1 && (qq === q || hay.indexOf(qq) === -1)) continue;
+            var rk = rank(it, q, qq);
+            if (rk === 9) continue;
+            hits.push({ it: it, rk: rk });
+          }
+          hits.sort(function (a, b) { return a.rk - b.rk; });
+          curList = hits.slice(0, 14).map(function (h) { return h.it; });
+
+          // Поиск внутри уроков: если по названиям/полям мало результатов,
+          // добавляем уроки, где запрос встречается в тексте истории/примеров
+          // (от 3 символов, чтобы не заливать список общими словами).
+          if (q.length >= 3) {
+            if (!contentIdx.length && !contentDone) ensureContent();
+            if (contentIdx.length) {
+              var seen = {};
+              for (var j = 0; j < curList.length; j++) seen[curList[j].href] = true;
+              var qn = q.replace(/[’‘`´]/g, "'");
+              var qn2 = qn.replace(/[ьъ]/g, ''); // мягкие русские окончания
+              if (qn2.length < 2) qn2 = qn;
+              // варианты запроса для поиска: как набран + транслитерация
+              // кириллицы в латиницу (по-русски можно искать латинские имена)
+              var qVars = [qn];
+              if (qn2 !== qn) qVars.push(qn2);
+              if (/[а-яё]/.test(q)) {
+                var tv = translitVariants(qn);
+                for (var ti = 0; ti < tv.length; ti++) {
+                  if (tv[ti].length >= 3 && qVars.indexOf(tv[ti]) === -1) qVars.push(tv[ti]);
+                }
+              }
+              var found = [];
+              for (var ci = 0; ci < contentIdx.length; ci++) {
+                var cx = contentIdx[ci];
+                if (!cx || !cx.x || seen[cx.h]) continue;
+                var at = -1;
+                for (var vi = 0; vi < qVars.length && at === -1; vi++) {
+                  at = cx.x.indexOf(qVars[vi]);
+                }
+                if (at === -1) continue;
+                var meta = contentMeta[cx.h];
+                if (!meta) continue;
+                found.push({ href: cx.h, title: meta.title, lvl: meta.lvl || cx.lvl, sub: snippet(cx.x, at), at: at });
+              }
+              found.sort(function (a, b) { return a.at - b.at; });
+              var room = 14 - curList.length;
+              for (var fi = 0; fi < found.length && fi < 8 && room > 0; fi++, room--) {
+                curList.push({ t: 'g', lvl: found[fi].lvl, title: found[fi].title, sub: found[fi].sub, href: found[fi].href });
+              }
+            }
+          }
+
+          var html = '';
+          var lastGroup = '';
+          for (var k = 0; k < curList.length; k++) {
+            var r = curList[k];
+            var g = GROUP[r.t];
+            if (g && g.label !== lastGroup) {
+              lastGroup = g.label;
+              html += '<div class="hs-group">' + esc(g.label) + '</div>';
+            }
+            var subTxt = r.sub || (r.d || '');
+            if (r.t === 'g' && r.sub && r.d) subTxt = r.sub + ' · ' + r.d;
+            html +=
+              '<a class="hs-item" role="option" href="' + esc(r.href) + '" data-i="' + k + '">' +
+              '<span class="hs-tag ' + g.cls + '">' + esc(r.t === 'g' ? 'урок' : r.t === 'n' ? 'заметка' : 'слова') + '</span>' +
+              '<span class="hs-body">' +
+              '<span class="hs-title">' + esc(r.title) + (r.lvl ? ' <em class="hs-lvl">' + esc(r.lvl) + '</em>' : '') + '</span>' +
+              '<span class="hs-sub">' + esc(subTxt) + '</span>' +
+              '</span>' +
+              '</a>';
+          }
+          if (!curList.length) {
+            html = '<div class="hs-empty">Ничего не нашлось по «' + esc(input.value.trim()) + '»</div>';
+          }
+          drop.innerHTML = html;
+          drop.hidden = false;
+          cur = -1;
+        };
+
+        var mark = function () {
+          var rows = drop.querySelectorAll('.hs-item');
+          rows.forEach(function (el, i) { el.classList.toggle('is-cur', i === cur); });
+        };
+
+        // Фрагмент текста урока вокруг первого вхождения запроса
+        var snippet = function (x, at) {
+          var L = 46, R = 100;
+          var from = at - L, to = at + R;
+          if (from < 0) from = 0;
+          if (to > x.length) to = x.length;
+          var pre = from > 0 ? x.indexOf(' ', from) + 1 : 0;
+          if (pre <= 0) pre = from;
+          var post = to < x.length ? x.lastIndexOf(' ', to) : to;
+          if (post <= pre) post = to;
+          var cutL = pre > 0;
+          var cutR = post < x.length;
+          return (cutL ? '… ' : '') + x.slice(pre, post).trim() + (cutR ? ' …' : '');
+        };
+
+        // заголовки уроков для контентных совпадений берём из основного индекса
+        var fillMeta = function () {
+          contentMeta = {};
+          for (var mi = 0; mi < items.length; mi++) {
+            var mit = items[mi];
+            if (mit.t === 'g' && mit.href) contentMeta[mit.href] = mit;
+          }
+        };
+
+        // ленивая загрузка контентного индекса (один раз, дальше — кэш)
+        var ensureContent = function () {
+          if (contentPromise) return contentPromise;
+          contentDone = true;
+          var cached = null;
+          try { cached = localStorage.getItem(contentKey); } catch (e) {}
+          if (cached) {
+            try {
+              contentIdx = (JSON.parse(cached).items) || [];
+              fillMeta();
+              contentPromise = Promise.resolve();
+              return contentPromise;
+            } catch (e) { contentIdx = []; }
+          }
+          contentPromise = fetch('/search-content.json')
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+            .then(function (data) {
+              contentIdx = (data && data.items) || [];
+              fillMeta();
+              try { localStorage.setItem(contentKey, JSON.stringify(data)); } catch (e) {}
+            })
+            .catch(function () { contentIdx = []; });
+          return contentPromise;
+        };
+
+        input.addEventListener('input', function () {
+          render();
+          if (qLen() >= 3 && !contentIdx.length) {
+            ensureContent().then(function () { if (qLen() >= 3) render(); });
+          }
+        });
+        input.addEventListener('focus', render);
+        var qLen = function () { return input.value.trim().length; };
+
+        input.addEventListener('keydown', function (e) {
+          if (drop.hidden) return;
+          var rows = drop.querySelectorAll('.hs-item');
+          if (e.key === 'ArrowDown' || e.key === 'ArrowUp') {
+            e.preventDefault();
+            var dir = e.key === 'ArrowDown' ? 1 : -1;
+            cur = rows.length ? (cur + dir + rows.length) % rows.length : -1;
+            mark();
+            if (cur >= 0) {
+              var act = rows[cur];
+              if (act.scrollIntoView) act.scrollIntoView({ block: 'nearest' });
+            }
+          } else if (e.key === 'Enter') {
+            var target = rows[cur] || rows[0];
+            if (target) { e.preventDefault(); location.href = target.getAttribute('href'); }
+          } else if (e.key === 'Escape') {
+            drop.hidden = true;
+            input.blur();
+          }
+        });
+
+        // выбор из выпадающего списка мышью/тачем
+        drop.addEventListener('pointerdown', function (e) {
+          var row = e.target.closest('.hs-item');
+          if (!row) return;
+          e.preventDefault(); // не даём полю потерять фокус до навигации
+          location.href = row.getAttribute('href');
+        });
+
+        document.addEventListener('pointerdown', function (e) {
+          if (!root.contains(e.target)) { drop.hidden = true; }
+        });
+
+        var load = fetch('/search.json')
+          .then(function (r) { return r.ok ? r.json() : Promise.reject(); })
+          .then(function (data) { items = (data && data.items) || []; fillMeta(); })
+          .catch(function () { items = []; });
+        if (input.value) render();
+      })();
     </script>
   </body>
 </html>

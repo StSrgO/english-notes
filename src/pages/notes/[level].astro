@@ -625,6 +625,15 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     }
     .cheats-side__n { display: none; }
   }
+  /* тач: hover после тапа «прилипает» — фон нажатия не должен
+     переживать переход is-active на другой пункт (update223) */
+  @media (hover: none), (pointer: coarse) {
+    .cheats-side .cheats-side__link:hover {
+      background: transparent;
+      color: var(--ink);
+      transform: none;
+    }
+  }
   @media (max-width: 640px) {
     .cheats { padding: 0 0 56px; }
     .cheats__head-row { align-items: flex-start; }

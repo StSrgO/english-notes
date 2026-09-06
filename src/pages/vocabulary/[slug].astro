@@ -100,6 +100,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
                 {group.words.map((word) => (
                   <li
                     class="vocab-row"
+                    id={'w-' + word.v1}
                     data-v1={word.v1}
                     data-search={[word.v1, word.v2, word.v3, word.ru].join(" ").toLowerCase()}
                   >
@@ -372,6 +373,22 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
         if (e.target.closest("a, button, input, label")) return; // свои контролы
         row.classList.toggle("is-open");
       });
+
+      // ---------- Глобальный поиск: переход к слову по якорю #w-<v1> ----------
+      // При заходе на страницу с якорем слова — центрируем строку и на
+      // секунду подсвечиваем её, чтобы было видно, куда вёл результат.
+      const flashWord = () => {
+        const h = location.hash.replace("#", "");
+        if (!h.startsWith("w-")) return;
+        const row = document.getElementById(h);
+        if (!row || !row.classList.contains("vocab-row")) return;
+        row.scrollIntoView({ block: "center" });
+        row.classList.add("is-hit");
+        clearTimeout(flashWord._t);
+        flashWord._t = setTimeout(() => row.classList.remove("is-hit"), 2400);
+      };
+      flashWord();
+      window.addEventListener("pageshow", flashWord);
 
       // ---------- Scrollspy: активный раздел (правило update222) ----------
       // Активна последняя секция, чей верх поднялся выше линии чтения
@@ -691,6 +708,17 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
   .vocab-row.is-known { background: var(--mint); border-color: var(--mint-deep); }
   .vocab-row[hidden] { display: none; }
+  /* переход к слову по якорю из глобального поиска: запас под шапку и
+     sticky-ленту, краткая подсветка строки */
+  .vocab-row { scroll-margin-top: calc(var(--head-h, 64px) + 110px); }
+  @keyframes vocab-hit {
+    0% { background: var(--mint-deep); border-color: var(--mint-ink); box-shadow: 0 0 0 3px var(--mint); }
+    100% { background: var(--surface); border-color: var(--line); box-shadow: none; }
+  }
+  .vocab-row.is-hit {
+    animation: vocab-hit 1.5s ease 0.15s 1;
+    border-color: var(--mint-ink);
+  }
 
   .vocab-row__check { grid-area: check; position: relative; display: inline-flex; width: 22px; height: 22px; }
   .vocab-row__checkbox {
@@ -976,6 +1004,15 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     .vocab-side__n,
     .vocab-side__count { display: none; }
     .vocab-side__link--quiz { margin-top: 0; padding-top: 8px; }
+  }
+  /* тач: hover после тапа «прилипает» — фон нажатия не должен
+     переживать переход is-active на другой пункт (update223) */
+  @media (hover: none), (pointer: coarse) {
+    .vocab-side__link:hover {
+      background: transparent;
+      color: var(--ink);
+      transform: none;
+    }
   }
   @media (max-width: 640px) {
     .vocabulary-topic { padding: 12px 14px 44px; }
