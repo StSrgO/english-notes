@@ -1,7 +1,7 @@
-// T9 (план словаря): сборка финального src/data/vocabulary/irregular-verbs.json
+// Сборка финального src/data/vocabulary/irregular-verbs.json
 // из scripts/_verbs.json (200 глаголов: v1/v2/v3/rank/ipa/ru) + scripts/_examples.json
-// (example{en,ru} на каждый глагол, T6) + метаданных групп.
-// Схема записи — §3.1 плана; квизы появятся на T7. Порядок групп и слов внутри — по рангу.
+// (example{en,ru} на каждый глагол) + метаданных групп.
+// Порядок групп и слов внутри — по рангу.
 // Воспроизводимо: node scripts/build-irregular-verbs.mjs.
 import fs from "node:fs";
 import path from "node:path";
@@ -57,7 +57,7 @@ for (const g of groupsJson.groups) {
 }
 if (total !== 200) throw new Error(`total != 200: ${total}`);
 
-// guard T6: примеры должны быть уникальны (валидатор T11 повторит проверку)
+// guard: примеры должны быть уникальны (валидатор validate-verbs.mjs повторит проверку)
 const allExamples = groups.flatMap((g) => g.words.map((w) => w.example.en));
 if (new Set(allExamples).size !== allExamples.length) {
   throw new Error(`example.en повторяются: ${allExamples.length - new Set(allExamples).size}`);

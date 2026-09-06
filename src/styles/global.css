@@ -137,7 +137,6 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .pick { display: flex; align-items: center; gap: 12px; background: var(--surface); border: 1px solid var(--line); border-radius: 13px; padding: 8px 12px; box-shadow: var(--shadow-sm); transition: transform 0.2s ease, box-shadow 0.2s ease; }
 .pick:hover { transform: translateX(5px); box-shadow: var(--shadow); }
 .pick__cover { flex: 0 0 auto; width: 52px; height: 52px; border-radius: 14px; display: grid; place-items: center; }
-/* pick type-colors removed (update32): raster mint sticker replaces them */
 .pick__body { display: flex; flex-direction: column; min-width: 0; }
 .pick__type { font-family: var(--mono); font-size: 10px; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-soft); font-weight: 600; }
 .pick__title { font-family: var(--display); font-weight: 800; font-size: 14px; line-height: 1.15; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -1125,7 +1124,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 }/* picks raster stickers (update33) вЂ” transparent-bg mint chips, no halo */
 .pick__ico { display: block; width: 100%; height: 100%; object-fit: contain; transition: transform .35s cubic-bezier(.2,.7,.2,1); }
 .pick:hover .pick__ico { transform: scale(1.08) rotate(-2.5deg); }
-.pick__go { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--mint); font-size: 15px; }/* quiz component (update35) */
+.pick__go { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; background: var(--ink); color: var(--mint); font-size: 15px; }
 .quiz { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); padding: 30px 30px 34px; box-shadow: var(--shadow); overflow: hidden; }
 .quiz::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; }
 .quiz > * { position: relative; z-index: 1; }
@@ -1254,7 +1253,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .quiz__medal { animation: none; }
   .quiz__why, .quiz__foot, .quiz__done { animation: none; }
   .quiz__opt { transition: none; }
-}/* practice cta at lesson end (update38) */
+}
 .practice { position: relative; overflow: hidden; margin-top: 34px; padding: 32px 30px 34px; border: 1.5px dashed var(--mint-deep); border-radius: var(--r); text-align: center; background: linear-gradient(180deg, rgba(191, 230, 198, .16), rgba(191, 230, 198, 0) 72%); box-shadow: var(--shadow-sm); }
 .practice::before { content: ""; position: absolute; inset: 0; pointer-events: none; opacity: 0; }
 .practice > * { position: relative; z-index: 1; }
@@ -1266,10 +1265,10 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 .practice__also-item { white-space: nowrap; }
 .practice__also a { color: var(--ink-mid); font-weight: 700; text-decoration: none; border-bottom: 1px solid transparent; transition: color .2s ease, border-color .2s ease; }
 .practice__also a:hover { color: var(--ink); border-bottom-color: var(--mint-deeper); }
-.practice__sep { margin: 0 9px; color: var(--mint-deeper); }/* hero ritchie punchline (update41) */
+.practice__sep { margin: 0 9px; color: var(--mint-deeper); }
 .hero__punch { display: inline-block; margin: 18px 0 0; font-family: var(--display); font-weight: 800; font-size: clamp(15px, 1.4vw, 18px); color: var(--ink); letter-spacing: -0.01em; line-height: 1.5; white-space: nowrap; border-bottom: 3px solid var(--mint-deep); padding-bottom: 7px; }
 .hero__punch .sep { color: var(--mint-deeper); margin: 0 9px; font-weight: 800; }
-.hero__punch mark.hl { padding: 0 4px; }/* hero ritchie v2 + serif (update42) */
+.hero__punch mark.hl { padding: 0 4px; }
 .hero__copy { position: relative; z-index: 1; max-width: 100%; }
 .hero h1 { font-family: var(--display-serif); font-weight: 800; font-size: clamp(28px, 4.2vw, 54px); line-height: 1.28; letter-spacing: -0.005em; margin: 12px 0 16px; overflow-wrap: anywhere; hyphens: auto; -webkit-hyphens: auto; }
 .hero__sub { color: var(--ink); font-family: var(--display-serif); font-weight: 600; font-size: 18px; line-height: 1.62; max-width: 44ch; }
@@ -1374,7 +1373,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 @media (max-width: 920px) {
   .hero__copy { max-width: 100%; }
   .hero__lead::after { right: auto; left: 0; top: 0; width: clamp(92px, 26vw, 140px); height: clamp(320px, 70vw, 460px); opacity: 0.12; }
-}/* ritchie v3 levels + punch underline (update44) */
+}
 .lvl-cell { display: inline-flex; align-items: center; }
 .lvl-dot { width: 11px; height: 11px; border-radius: 50%; background: var(--mint-ink); margin: 0 16px; flex: 0 0 auto; }
 .level-link { font-family: var(--display); font-weight: 800; font-size: 19px; color: var(--ink); letter-spacing: -0.01em; transition: color .2s ease; }
@@ -1458,7 +1457,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .hero__punch { white-space: normal; display: block; }
   .levels { gap: 2px; }
   .lvl-dot { margin: 0 10px; }
-}/* hero chip-driven bounds (update51) */
+}
 .hero__copy { width: max-content; max-width: 100%; }
 .hero__invert { display: inline-block; margin: 0; padding: 0.08em 0.35em 0.16em; border-radius: 12px; }
 .hero__sub { width: 0; min-width: 100%; max-width: none; padding-left: 0; }
@@ -1548,7 +1547,7 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .hero__sub, .hero__punch, .levels { width: auto; min-width: 0; }
   .hero__punch { white-space: normal; }
   .levels { flex-wrap: wrap; justify-content: flex-start; gap: 4px; }
-}/* hero bottom align + responsive guards (update52) */
+}
 .hero__lead { display: flex; flex-direction: column; }
 .tiles { margin-top: auto; }
 .hero__visual { display: flex; flex-direction: column; }
@@ -1632,19 +1631,16 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
 }
 @media (max-width: 1100px) {
   .hero__punch { white-space: normal; }
-}/* hero face-of-site polish (update53) */
+}
 .hero__grid { align-items: stretch; }
 /* Манифест растянут по ширине (justify), последняя строка — по левому краю */
 .hero__sub { text-align: justify; text-align-last: left; }
 /* «Hey! Ho! Let's go!» — «подпись»: своя строка, прижата к правому краю */
 .hero__sub-en { display: block; width: fit-content; margin: 10px 0 0 auto; font-family: var(--display-serif); font-weight: 600; color: var(--ink); font-size: clamp(16px, 1.45vw, 20px); line-height: 1.6; }
 .hero__punch { display: flex; justify-content: space-between; align-items: baseline; white-space: normal; gap: 12px; font-size: clamp(14px, 1.5vw, 18px); }
-.hero__punch .sep { margin: 0; }/* punchline single line (update54) */
+.hero__punch .sep { margin: 0; }
 .hero__punch { flex-wrap: wrap; font-size: clamp(13px, 1.4vw, 17px); }
 .hero__punch > span { white-space: nowrap; }
-/* ============================================================
-   lesson v2 (update58) — editorial redesign of the lesson page
-   ============================================================ */
 .topic--v2 { grid-template-columns: 250px minmax(0, 1fr); gap: 48px; padding-top: 34px; }
 .lesson-v2 { min-width: 0; }
 
@@ -1817,9 +1813,6 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .lv2-chips::-webkit-scrollbar { display: none; }
   .lv2-chip { flex: 0 0 auto; }
 }
-/* ============================================================
-   lesson v3 (update59) — unified fonts + sidebar section nav
-   ============================================================ */
 
 /* block titles: one style everywhere (bigger + bolder) */
 .lv2-h { font-family: var(--display); font-size: 22px; font-weight: 800; letter-spacing: -0.01em; text-transform: none; color: var(--ink); margin: 0 0 16px; }
@@ -1939,9 +1932,6 @@ mark.hl { background: var(--ink); color: var(--paper); padding: 0 4px; border-ra
   .side--v3 .side3__link { border-radius: 999px; background: var(--mint); padding: 6px 12px; font-size: 13.5px; }
   .side--v3 .side3__link.is-active { background: var(--ink); color: var(--paper); box-shadow: none; }
 }
-/* ============================================================
-   catalog mint active + footer brand (update60)
-   ============================================================ */
 .level-link::before { background: var(--mint-ink); }
 .level-link.is-active { background: var(--mint-deep); color: var(--ink); }
 .level-link.is-active::before { transform: translateY(-50%) scaleY(1); }
@@ -2080,19 +2070,10 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
-/* ============================================================
-   update152 — examples: solid vertical mint line, no group titles
-   ============================================================ */
 .lv2-examples { border-left: 4px solid var(--mint-deep); padding-left: 18px; margin-top: 12px; }
 .lv2-exgroup { margin-top: 0; }
-/* ============================================================
-   update153 — examples: ONLY ONE continuous vertical line
-   ============================================================ */
 .lv2-exgroup, .lv2-exgroup > div, .lv2-ex, .lv2-ex > div { border-left: none !important; }
 .lv2-exgroup { margin-top: 0; }
-/* ============================================================
-   update163 — главная v3: навигация, уровни, линия, плашка, башня
-   ============================================================ */
 
 /* скрытие плиток секций */
 .tiles { display: none !important; }
@@ -2311,16 +2292,9 @@ body > *:not(style):not(script) { position: relative; z-index: 1; }
 .soon__sub { font-size: 18px; color: var(--ink-mid); margin-bottom: 24px; }
 .soon__back { display: inline-block; padding: 12px 24px; border-radius: 999px; background: var(--mint-deep); color: var(--ink); font-weight: 700; text-decoration: none; transition: background 0.2s; }
 .soon__back:hover { background: var(--mint-ink); color: var(--paper); }
-/* ============================================================
-   update164 — линия к уровням вниз, башня в правый край hero
-   ============================================================ */
 .hero__lead { justify-content: flex-start; }
 .hero__punch { margin-top: auto; }
 body { overflow-x: clip; }
-/* ============================================================
-   update165 — башни полностью за блоками (не пересекают контент),
-   нижняя линия = цвет плашки Two Fucking Voices
-   ============================================================ */
 .hero__tower--right { right: 0; transform: translateX(100%); }
 .hero__tower--left { left: 0; right: auto; transform: translateX(-100%); }
 .hero__punch { border-bottom-color: var(--mint-ink); }
@@ -2403,10 +2377,6 @@ body { overflow-x: clip; }
   .hero__tower { transform: none; }
   .hero__tower--left { display: none; }
 }
-/* ============================================================
-   update169 — зазор башен 35px, sticky-footer, мобильный hero,
-   уровни A0-C2 свайп-лентой (вариант A)
-   ============================================================ */
 .hero__tower--right { transform: translateX(calc(100% + 35px)); }
 .hero__tower--left { transform: translateX(calc(-100% - 35px)); }
 
@@ -2575,10 +2545,6 @@ main { flex: 1 0 auto; }
   .hero .lvl-cell { flex: 0 0 auto; }
   .hero .level-link { width: auto; font-size: 15px; padding: 10px 18px; white-space: nowrap; }
 }
-/* ============================================================
-   update170 — мобиль: плашка «Two Fucking Voices» к левому краю
-   (align-self ребёнка перебивает align-items родителя из 169)
-   ============================================================ */
 
 /* ============================================================
    СИМВОЛЫ (A0)
@@ -2657,10 +2623,6 @@ main { flex: 1 0 auto; }
 @media (max-width: 920px) {
   .hero__invert { align-self: flex-start; }
 }
-/* ============================================================
-   update171 — мобильные чипы уровней на главной:
-   рамка --ink, фон --mint-deep, выделение = --mint-ink (цвет плашки)
-   ============================================================ */
 
 /* ============================================================
    СИМВОЛЫ (A0)
@@ -2741,10 +2703,6 @@ main { flex: 1 0 auto; }
   .hero .level-link:hover, .hero .level-link:active { background: var(--mint-ink); border-color: var(--mint-ink); color: var(--paper); }
   .hero .level-link:hover::before, .hero .level-link:active::before { color: var(--paper); }
 }
-/* ============================================================
-   update175 — шрифтовой пасс: Lora — единый сериф заголовков,
-   mono — машинный голос (навигация/лейблы/уровни/свитчер/сайд-меню)
-   ============================================================ */
 .hero h1, .lv2-title, .soon__title, .lv2-prose--drop p:first-child::first-letter { font-weight: 700; }
 
 .block-label { font-family: var(--mono); font-weight: 800; font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
@@ -2764,7 +2722,6 @@ main { flex: 1 0 auto; }
 .side3__pg-t { font-family: var(--mono); font-weight: 700; font-size: 14px; }
 .side__next-t { font-family: var(--mono); font-weight: 700; font-size: 14px; }
 
-/* фикс бага 172: клиппинг верхнего края чипа при выделении */
 
 /* ============================================================
    СИМВОЛЫ (A0)
@@ -2843,16 +2800,8 @@ main { flex: 1 0 auto; }
 @media (max-width: 620px) {
   .hero .levels .level-link:hover, .hero .levels .level-link:active { transform: none; }
 }
-/* ============================================================
-   update176 — фраза дня: шрифты как в подборке дня
-   (en = Onest 800 как .pick__title, ru = Onest 500 как .pick__meta)
-   ============================================================ */
 .quote-card__en { font-family: var(--display); font-weight: 800; font-size: clamp(18px, 1.5vw, 22px); line-height: 1.32; }
 .quote-card__ru { font-family: var(--body); font-weight: 500; font-size: 15.5px; }
-/* ============================================================
-   update178 — уроки без reveal-задержек; бейджи каталога;
-   мобиль: назад сверху, пейджер внизу
-   ============================================================ */
 .topic--v2 [data-reveal] { opacity: 1; transform: none; transition: none; }
 
 .topic-card { position: relative; }
@@ -2941,11 +2890,6 @@ main { flex: 1 0 auto; }
   .side--v3 .side3__pager { display: none; }
   .pager-mobile { display: grid; gap: 8px; margin: 26px 0 10px; }
 }
-/* ============================================================
-   update179 — бейджи: кружки ✓ и ★ на одном уровне справа сверху;
-   мобильный пейджер — пилюли на всю ширину в стиле «назад»;
-   чип «Тем: N» убран из разметки каталога
-   ============================================================ */
 .topic-card.is-done::after { content: "✓"; top: 14px; right: 14px; width: 26px; height: 26px; padding: 0; display: grid; place-items: center; border-radius: 50%; background: var(--mint-ink); color: var(--paper); font-size: 13px; font-weight: 700; letter-spacing: 0; text-transform: none; }
 .topic-card.is-fav::before { content: "★"; top: 14px; right: 48px; z-index: 1; width: 26px; height: 26px; padding: 0; display: grid; place-items: center; border-radius: 50%; background: var(--ink); color: var(--mint-deep); font-size: 13px; font-weight: 700; letter-spacing: 0; text-transform: none; }
 
@@ -3029,25 +2973,13 @@ main { flex: 1 0 auto; }
   .pager-mobile .side3__pg-eye { font-size: 12px; letter-spacing: .06em; white-space: nowrap; }
   .pager-mobile .side3__pg-t { font-size: 13px; font-weight: 700; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 }
-/* ============================================================
-   update180 — одиночный бейдж всегда у правого края;
-   оба вместе: ★ справа, ✓ левее; тикер вровень с «фраза дня»
-   ============================================================ */
 .topic-card.is-fav::before { right: 14px; }
 .topic-card.is-done::after { right: 14px; }
 .topic-card.is-done.is-fav::after { right: 48px; }
 .hero .eyebrow { margin: 0; }
-/* ============================================================
-   update182 — фраза/перевод по левому краю иконок подборки
-   (pick padding-left = 12px); ступенька тикер/«фраза дня» — финально
-   ============================================================ */
 .quote-card { padding: 22px 20px 24px 12px; }
 .hero__lead, .hero__visual { padding-top: 0 !important; margin-top: 0 !important; }
 .hero .eyebrow, .hero .block-label { margin-top: 0 !important; }
-/* ============================================================
-   update183 — «как это работает» 01-03 в пустом центре hero
-   (copy — flex, блок центрируется в свободной зоне) + CEFR-подпись
-   ============================================================ */
 .hero__copy { display: flex; flex-direction: column; }
 .cfr-note { margin: 16px 0 10px; font-family: var(--mono); font-size: clamp(8px, calc(0.85vw - 0.5px), 10.5px); font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--ink-soft); white-space: nowrap; }
 .cfr-grp { white-space: nowrap; }
@@ -3062,10 +2994,6 @@ main { flex: 1 0 auto; }
   .cfr-note { display: flex; flex-direction: column; align-items: flex-start; gap: 3px; white-space: normal; font-size: 11px; }
   .cfr-sep { display: none; }
 }
-/* ============================================================
-   update184 — уровни-картинки (public/levels); текстовый вариант
-   скрыт, но жив: возврат = .levels--text{display:flex} + .levels--img{display:none}
-   ============================================================ */
 .levels--text { display: none; }
 .levels--img .lvl-img { flex: 0 0 auto; display: block; transition: transform .25s cubic-bezier(.2,.7,.2,1); }
 .levels--img .lvl-img img { display: block; height: clamp(60px, 7vw, 92px); width: auto; border-radius: 12px; filter: drop-shadow(0 8px 16px rgba(18,52,48,.22)); }
@@ -3148,11 +3076,6 @@ main { flex: 1 0 auto; }
 @media (max-width: 620px) {
   .levels--img .lvl-img img { height: 60px; }
 }
-/* ============================================================
-   update185 — кнопки уровней v2: full-bleed PNG (без белых полей),
-   размер вписан в прежнюю разметку ряда печатных букв;
-   скругления и плоский вид — через CSS
-   ============================================================ */
 .levels--img .lvl-img img { height: clamp(36px, 3.4vw, 48px); border-radius: 9px; filter: none; }
 .levels--img .lvl-img:hover { transform: translateY(-3px) rotate(-1.2deg); }
 
@@ -3233,10 +3156,6 @@ main { flex: 1 0 auto; }
 @media (max-width: 620px) {
   .levels--img .lvl-img img { height: 40px; }
 }
-/* ============================================================
-   update186 — плашки уровней = высота карточки подборки дня,
-   нижний ряд слева и справа читается одной линией
-   ============================================================ */
 .levels--img .lvl-img img { height: 88px; }
 
 /* ============================================================
@@ -3316,12 +3235,6 @@ main { flex: 1 0 auto; }
 @media (max-width: 620px) {
   .levels--img .lvl-img img { height: 60px; }
 }
-/* ============================================================
-   update187 — плашки: 7 равных слотов на ширину левой колонки
-   (как прежний ряд), высота = карточка подборки (88px);
-   арт вписан contain поверх мятного фона ячейки (--mint-deep =
-   цвет канваса PNG, стыка нет); ряд не вылезает на правую колонку
-   ============================================================ */
 .levels--img { gap: 10px; }
 .levels--img .lvl-img { flex: 1 1 0; min-width: 0; background: var(--mint-deep); border-radius: 10px; }
 .levels--img .lvl-img img { width: 100%; height: 88px; object-fit: contain; border-radius: 10px; filter: none; }
@@ -3404,12 +3317,6 @@ main { flex: 1 0 auto; }
   .levels--img .lvl-img { flex: 0 0 auto; width: 118px; }
   .levels--img .lvl-img img { height: 64px; }
 }
-/* ============================================================
-   update188 — REVERT к update185: компактные плашки (высота
-   clamp(36px,3.4vw,48px), ширина по пропорции PNG), ряд
-   space-between как прежний текстовый; эксперименты 186 (высота
-   88px -> раздув ширины) и 187 (равные слоты + contain) сняты
-   ============================================================ */
 .levels--img .lvl-img { flex: 0 0 auto; min-width: 0; background: none; }
 .levels--img .lvl-img img { width: auto; height: clamp(36px, 3.4vw, 48px); object-fit: initial; border-radius: 9px; }
 
@@ -3491,12 +3398,6 @@ main { flex: 1 0 auto; }
   .levels--img .lvl-img { width: auto; }
   .levels--img .lvl-img img { height: 40px; }
 }
-/* ============================================================
-   update190 — возврат печатных букв уровней; вместо кругов —
-   стрелки «→» отдельными flex-элементами: при space-between
-   стоят точно по центру промежутка между уровнями;
-   картинки скрыты, но ассеты сохранены в public/levels/
-   ============================================================ */
 .levels--img { display: none; }
 .levels--text { display: flex; }
 .lvl-arrow { font-family: var(--mono); font-weight: 700; font-size: 16px; color: var(--mint-ink); flex: 0 0 auto; }
@@ -3578,17 +3479,7 @@ main { flex: 1 0 auto; }
 @media (max-width: 620px) {
   .lvl-arrow { font-size: 14px; }
 }
-/* ============================================================
-   update191 — фраза дня: возврат исходных отступов карточки
-   (выравнивание по левому краю иконок из 182 не прижилось)
-   ============================================================ */
 .quote-card { padding: 22px 26px 24px; }
-/* ============================================================
-   update192 — подборка дня: иконки+текст по левому краю текста
-   карточки фразы (26px); выделение уровней на десктопе —
-   заливка --mint-ink с белым текстом, как плашка «Two Fucking Voices»
-   (мобильные чипы уже такие — не трогаем)
-   ============================================================ */
 .pick { padding: 8px 12px 8px 26px; }
 
 /* ============================================================
@@ -3669,13 +3560,6 @@ main { flex: 1 0 auto; }
   .levels .level-link { padding: 6px 14px; border-radius: 10px; }
   .levels .level-link:hover { background: var(--mint-ink); color: var(--paper); }
 }
-/* ============================================================
-   update204 — ДС кнопок v1 + мобильные уровни = буквы
-   Форма: пилюля 999px; рамки только solid; пунктира НЕТ;
-   роли: PRIMARY (ink/paper, hover mint-ink/paper),
-   SECONDARY (mint + 1.5px mint-deeper, hover mint-deep, active mint-ink/paper),
-   GHOST (transparent, hover mint/ink); active ВСЕГДА mint-ink + paper
-   ============================================================ */
 
 /* мобиль: уровни — просто буквы, выделение как на десктопе */
 
@@ -3946,22 +3830,9 @@ main { flex: 1 0 auto; }
 @media (max-width: 920px) {
   .side--v3 .side3__link.is-active { background: var(--mint-ink); color: var(--paper); }
 }
-/* ============================================================
-   update205 — «отметить изученным»/«в избранное» = текстовые
-   ссылки в одну линию со свитчером: mono uppercase, ink;
-   hover = mint как верхнее меню; on = жирнее + значок (✓/★
-   подставляет JS), без заливки — минус два зелёных пятна
-   ============================================================ */
 .act-link { background: none; border: none; padding: 8px 12px; border-radius: 10px; font-family: var(--mono); font-weight: 500; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--ink); cursor: pointer; transition: background .18s ease; }
 .act-link:hover { background: var(--mint); }
 .act-link.is-on { font-weight: 700; }
-/* ============================================================
-   update206 — урок без левой колонки (вариант B):
-   секции — sticky горизонтальная mono-линия под шапкой
-   (active = mint-ink + 2px линия снизу, без заливки);
-   пейджер prev/next — внизу (desktop: две колонки, mobile: столбик);
-   проза — во всю ширину; зелёный остаётся только в underline
-   ============================================================ */
 .topic--v2 { grid-template-columns: 1fr; }
 .side3__bar { position: sticky; top: 60px; z-index: 20; display: flex; flex-wrap: nowrap; overflow-x: auto; gap: 2px; padding: 10px 2px; margin: 0 0 26px; background: var(--paper); border-bottom: 1px solid var(--line); border-left: none; margin-left: 0; scrollbar-width: none; }
 .side3__bar::-webkit-scrollbar { display: none; }
@@ -4047,14 +3918,6 @@ main { flex: 1 0 auto; }
 @media (min-width: 921px) {
   .pager-mobile { grid-template-columns: 1fr 1fr; }
 }
-/* ============================================================
-   update207 — финальная схема урока:
-   верхняя sticky-лента действий (полупрозрачная бумага + blur):
-   назад | классика/рок | изучить | избранное | следующий урок;
-   всё mono 700 uppercase, разделители — вертикальные линии 60%;
-   левое меню возвращено (active-черновик: mint + ink + 2px mint-ink);
-   «предыдущий урок» и нижний пейджер убраны; мобиль — свайп-лента
-   ============================================================ */
 .topic--v2 { grid-template-columns: 240px minmax(0, 1fr); }
 :root { --head-h: 64px; }
 @media (max-width: 920px) { :root { --head-h: 67px; } }
@@ -4149,11 +4012,6 @@ main { flex: 1 0 auto; }
 @media (max-width: 920px) {
   .topic--v2 { grid-template-columns: 1fr; }
 }
-/* ============================================================
-   update209 — бар-лента = ширина правого блока (grid-column 2),
-   левое меню при скролле не теряется под баром; пункты ленты
-   шире (padding 18px + column-gap) — разделители с воздухом
-   ============================================================ */
 .lesson-bar { grid-column: 2; grid-row: 1; }
 .lesson-bar__scroll { column-gap: 6px; justify-content: space-between; }
 .side--v3 { grid-column: 1; grid-row: 1 / span 2; }
@@ -4239,53 +4097,16 @@ main { flex: 1 0 auto; }
 @media (max-width: 920px) {
   .lesson-bar, .side--v3, .lesson-v2 { grid-column: auto; grid-row: auto; }
 }
-/* ============================================================
-   update211 — лента полностью прозрачная (background: none,
-   blur остаётся); весь текст ленты mono 700 чёрный (--ink),
-   включая РОК-Н-РОЛЛ; выбранный стиль и on-состояния —
-   мягкая мятная подложка --mint (текст чёрный)
-   ============================================================ */
 .lesson-bar { background: none; }
 .lesson-bar .bar-item, .lesson-bar .act-link { font-weight: 700; color: var(--ink); }
 .lesson-bar .style-pick.is-active { background: var(--mint); }
 .lesson-bar .act-link.is-on { background: var(--mint); }
-/* ============================================================
-   update212 — бар-хамелеон: фон бара = точная копия фона сайта
-   (бумага+зерно+sepia) с background-attachment: fixed — бар
-   неотличим от страницы, урок не проходит под ним; blur УБРАН;
-   sticky остаётся на десктопе И мобильном (важные кнопки видны)
-   ============================================================ */
 .lesson-bar { background: var(--paper); background-attachment: fixed; backdrop-filter: none; -webkit-backdrop-filter: none; }
-/* ============================================================
-   update213 — хамелеон v2: бар копирует РЕАЛЬНЫЙ слой зерна+sepia
-   (найден по feTurbulence, селектор напечатан при запуске)
-   с background-attachment: fixed — бар сливается с фоном сайта,
-   белая полоса устранена; blur по-прежнему нет
-   ============================================================ */
 .lesson-bar { background: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>"); background-attachment: fixed; }
-/* ============================================================
-   update215 — хамелеон v3: бар НЕПРОЗРАЧНЫЙ (background: var(--paper))
-   + свой слой зерна через ::before (точная копия из body::before) —
-   зерно рисуется поверх фона бара, бар сливается с бумагой;
-   blur не нужен, контент не проходит под баром;
-   sticky на десктопе и мобильном
-   ============================================================ */
 .lesson-bar { background: var(--paper); position: relative; }
 .lesson-bar::before { content: ""; position: absolute; inset: 0; z-index: 0; pointer-events: none; background-image: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>"); }
 .lesson-bar__scroll > * { position: relative; z-index: 1; }
-/* ============================================================
-   update216 — фикс хамелеона v3: возвращаем position: sticky
-   (в 215 было position: relative, что убрало прилипание);
-   isolation: isolate создаёт локальный stacking context,
-   чтобы ::before не вылезал за границы бара
-   ============================================================ */
 .lesson-bar { position: sticky; isolation: isolate; }
-/* ============================================================
-   update219 — мобиль: левое меню секций скрыто (бесполезно,
-   уезжает вверх); зерно бара — в background-image самого бара
-   (красится на всю скролл-ширину, белого при свайпе нет);
-   h1 Conditions — мобильный кегль подстроен
-   ============================================================ */
 
 /* ============================================================
    СИМВОЛЫ (A0)
@@ -4444,18 +4265,7 @@ main { flex: 1 0 auto; }
 @media (max-width: 620px) {
   .hero h1 { font-size: clamp(23px, 6.2vw, 36px); }
 }
-/* ============================================================
-   update220 — фиксы 219: act-link в баре — одна строка
-   (white-space: nowrap; на мобильном «отметить изученным»
-   и «в избранное» больше не переносятся)
-   ============================================================ */
 .lesson-bar .act-link { white-space: nowrap; }
-/* ============================================================
-   update222 — у .practice не было margin-bottom (блок раньше
-   стоял последним); после переноса «Связанных тем» вниз линия
-   секции наезжала на его нижнюю кромку/тень — добавлен отступ,
-   линия опущена, наложение устранено (повтор бага-наложения)
-   ============================================================ */
 .lesson-v2 .practice { margin-bottom: 44px; }
 
 /* ============================================================
@@ -4631,18 +4441,8 @@ main { flex: 1 0 auto; }
   }
 }
 
-/* ============================================================
-   ENGLISHNOTES FIX #16 — GLOBAL LESSON CSS
-   ============================================================ */
 
-/*
- * Universal lesson structure.
- *
- * Moved from LessonBody.astro so that visual architecture
- * belongs to the global stylesheet rather than the renderer.
- */
 
-/* ENGLISHNOTES FIX #14 — FINAL UNIVERSAL STRUCTURE */
 
 
 /* ============================================================
@@ -4778,9 +4578,6 @@ main { flex: 1 0 auto; }
   }
 }
 
-/* ============================================================
-   ENGLISHNOTES FIX #16 — SUMMARY / IDEA WIDTH
-   ============================================================ */
 
 /*
  * Lesson editorial text.
@@ -4806,9 +4603,6 @@ main { flex: 1 0 auto; }
   text-align: justify;
 }
 
-/* ============================================================
-   ENGLISHNOTES FIX #16 — INSTANT GLOBAL REVEAL
-   ============================================================ */
 
 /*
  * Content must be visible immediately.
@@ -4943,14 +4737,6 @@ body:has(.hero) {
   }
 }
 
-/* ============================================================
-   FIX #15 — mobile adaptive polish
-   ------------------------------------------------------------
-   1. Lesson title gets stronger mobile presence.
-   2. Mobile menu uses a three-line hamburger.
-   3. Rock/Classical selected state is darker than hover.
-   4. Touch devices do not inherit the hover appearance.
-   ============================================================ */
 
 /* ------------------------------------------------------------
    Mobile lesson title
@@ -5083,15 +4869,6 @@ body:has(.hero) {
 }
 
 
-/* ============================================================
-   ENGLISHNOTES FIX #18 — FINAL MOBILE TITLE
-   ------------------------------------------------------------
-   Final mobile title correction.
-
-   The title itself becomes the dominant editorial element.
-   We intentionally do NOT stretch .hl-mark as a background
-   block: the green marker remains attached to the text.
-   ============================================================ */
 
 @media screen and (max-width: 1024px) {
 
@@ -5133,23 +4910,6 @@ body:has(.hero) {
 }
 
 
-/* ============================================================
-   ENGLISHNOTES FIX #20 — HOME HERO TITLE
-   ------------------------------------------------------------
-   Mobile/tablet hero correction.
-
-   The home hero previously kept the desktop two-column
-   structure until 920px, while .hero__copy used max-content.
-   This left the main title trapped inside a ~600px column.
-
-   At <=1024px:
-   - hero becomes one column
-   - hero lead becomes full width
-   - hero copy becomes full width
-   - h1 uses the full available width
-   - title scale increases slightly
-   - green highlight remains text-sized
-   ============================================================ */
 
 @media screen and (max-width: 1024px) {
 
@@ -5207,9 +4967,6 @@ body:has(.hero) {
 /*================================================*/
 
 
-/* ============================================================
-ENGLISHNOTES FIX #20 — HOME HERO TITLE (только мобильные)
-============================================================ */
 @media screen and (max-width: 768px) {
   .hero__grid {
     grid-template-columns: minmax(0, 1fr) !important;
@@ -5245,9 +5002,6 @@ ENGLISHNOTES FIX #20 — HOME HERO TITLE (только мобильные)
 }
 
 
-/* ============================================================
-FIX — ФРАЗА ДНЯ: НЕ ВЫЛЕЗАЕТ ЗА КРАЙ НА МОБИЛЬНЫХ
-============================================================ */
 @media screen and (max-width: 920px) {
   .hero__visual {
     min-width: 0 !important;
@@ -5277,9 +5031,6 @@ FIX — ФРАЗА ДНЯ: НЕ ВЫЛЕЗАЕТ ЗА КРАЙ НА МОБИЛЬ
 }
 
 
-/* ============================================================
-FIX — ПОДБОРКА ДНЯ: НЕ ВЫЛЕЗАЕТ ЗА КРАЙ НА МОБИЛЬНЫХ
-============================================================ */
 @media screen and (max-width: 1024px) {
   .hero__visual {
     width: 100% !important;
@@ -5349,24 +5100,12 @@ FIX — ФРАЗА ДНЯ: ПОСТОЯННАЯ ВЫСОТА КАРТОЧКИ + 
   .quote-card { height: 220px; }
 }
 
-/* ============================================================
-FIX — МОБИЛЬНАЯ ГЛАВНАЯ: СТРОКА УРОВНЕЙ A0–C2 ВПИСЫВАЕТСЯ В ШИРИНУ
-Чипы+стрелки были шире экрана и уходили за правый край.
-Компактные отступы/шрифт — вся строка помещается в одну линию
-на любом мобильном от ~350px (уже — остаётся swipe-фолбэк).
-============================================================ */
 @media screen and (max-width: 620px) {
   .hero .levels { gap: 3px; }
   .hero .levels .level-link { font-size: 16px; padding: 5px 7px; }
   .hero .lvl-arrow { font-size: 13px; }
 }
 
-/* ============================================================
-FIX — МОБИЛЬНАЯ ГЛАВНАЯ: БЕЗ ПОДПИСЕЙ УРОВНЕЙ, ЗЕЛЁНАЯ ЧЕРТА
-На мобильных не показываем надписи «A0–A2…C1–C2» (cfr-note)
-и перечисление уровней (текстовое и картинки). После основного
-текста — зелёная линия, за ней блок «фраза дня».
-============================================================ */
 @media screen and (max-width: 768px) {
   .cfr-note { display: none !important; }
   .levels--text { display: none !important; }
@@ -5482,12 +5221,6 @@ body:has(.soon) {
   }
 }
 
-/* ============================================================
-   update220 — фраза дня и подборка дня: БЕЗ КАРТОЧЕК
-   Блоки живут прямо на фоне страницы (--paper): без подложек,
-   рамок и теней. «Фраза дня» отделена сверху тонкой линией,
-   строки подборки разделены точечными линиями-разделителями.
-   ============================================================ */
 .quote-card {
   background: transparent;
   border: none;
@@ -5542,13 +5275,6 @@ body:has(.soon) {
 }
 
 
-/* ============================================================
-   update221 — главная, блоки «фраза дня» и «подборка дня»:
-   • короткая зелёная черта (~3 буквы надписи) под текстом заголовков;
-   • на мобильном линии-разделители блоков заметнее.
-   Сама фраза дня подчёркивается маркером .hl-mark (как заголовки
-   уроков) — разметка в index.astro.
-   ============================================================ */
 .block-label {
   position: relative;
 }
@@ -5629,50 +5355,10 @@ body:has(.soon) {
 }
 .level-intro__more li.level-intro__from::before { display: none; }
 
-/* ============================================================
-   update222 — ЕДИНОЕ ПРАВИЛО СТИКИ-СКРОЛЛ-БАРОВ
-   (горизонтальные ленты-меню под шапкой)
-
-   Скролл-бар = sticky-лента пунктов/кнопок под шапкой:
-   • в разметке лента — ПЕРВЫЙ элемент секции: на мобильном она
-     стоит сразу под шапкой, а не после заголовка/текста;
-   • скролл живёт во внутреннем контейнере (overflow-x: auto);
-   • полоса прокрутки скрыта: scrollbar-width: none +
-     ::-webkit-scrollbar { display: none };
-   • липнет ниже шапки (top: 60px);
-   • ФОН ленты = «бумага»: background-color: var(--paper) +
-     лёгкая фактура var(--bar-paper) (тёплый радиальный блик
-     сверху + зерно), чтобы лента не выглядела плоской;
-   • пункты ленты: var(--display) 19px/800, letter-spacing
-     -0.01em, padding 8px 14px, radius 11px — как .level-link
-     на /grammar;
-   • активный пункт подсвечивает текущий блок (спай: последний
-     блок выше линии чтения; у верха страницы — первый пункт;
-     пересчёт на scroll/pageshow/visibilitychange — Base.astro).
-
-   Эталон реализации — .lesson-bar (update207): его код
-   намеренно НЕ трогаем, его фон совпадает с var(--bar-paper).
-   Новые/чинимые ленты используют var(--bar-paper), а не
-   копируют строки текстуры. Применено: мобильный .catalog__nav
-   на /grammar, .cheats-lvls на /notes, .cheats-side (≤1100px)
-   на /notes/{level}, .vocab-side (≤1100px) на странице
-   неправильных глаголов /vocabulary/irregular-verbs.
-   ============================================================ */
 :root {
   --bar-paper: radial-gradient(ellipse at 50% 30%, rgba(210, 180, 130, 0.04), transparent 70%), url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='300' height='300'><filter id='p'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><filter id='m'><feTurbulence type='fractalNoise' baseFrequency='0.02 0.03' numOctaves='3' stitchTiles='stitch'/><feColorMatrix type='saturate' values='0'/></filter><rect width='300' height='300' filter='url(%23p)' opacity='0.09'/><rect width='300' height='300' filter='url(%23m)' opacity='0.12'/></svg>");
 }
 
-/* ============================================================
-   update223 — скролл-бары: на тач-устройствах не оставляем
-   «прилипший» hover после тапа
-
-   После тапа по чипу ленты браузер держит :hover до следующего
-   тапа: чип остаётся с подсветкой нажатия, хотя спай уже перевёл
-   is-active на другой пункт (двойная подсветка при скролле).
-   На устройствах без мыши hover-фон чипов гасим — активный пункт
-   подсвечивает только .is-active; кратковременный отклик нажатия
-   даёт :active. Для курсора (mouse) hover сохранён.
-   ============================================================ */
 @media (hover: none), (pointer: coarse) {
   /* Выбранные (.is-active/.is-on) пункты не гасим: после тапа браузер
      держит :hover на нажатом чипе, и правило ниже перебивало бы
@@ -5692,16 +5378,6 @@ body:has(.soon) {
   }
 }
 
-/* ============================================================
-   update224 — глобальный поиск по сайту в шапке
-   (поле между логотипом EnglishNotes и меню, Base.astro +
-   эндпоинт /search.json + клиентский скрипт в Base.astro)
-
-   Поле — «пилюля» высотой как бургер; выпадающие подсказки —
-   карточка под шапкой с результатами трёх типов (урок/заметка/
-   слова). Меню и логотип остаются в той же строке: поле тянется
-   в оставшемся промежутке, на узких экранах сжимается.
-   ============================================================ */
 .site-head__inner { gap: 10px; }
 .site-head__menu { display: flex; align-items: center; gap: 6px; min-width: 0; }
 .site-head__menu .nav-toggle { flex: 0 0 auto; }
@@ -5839,15 +5515,6 @@ body:has(.soon) {
   .hs-item { padding: 8px; }
 }
 
-/* ============================================================
-   update225 — ЕДИНЫЙ ЗАГОЛОВОК главных страниц разделов
-   (/grammar, /notes, /vocabulary)
-
-   Серифная гарнитура, один размер, название подчёркивается
-   маркером .hl-mark (как заголовки уроков). В разметке:
-   <h1 class="page-title"><span class="hl-mark">…</span></h1>
-   Отступы остаются за обёрткой каждой страницы.
-   ============================================================ */
 .page-title {
   font-family: var(--display-serif);
   font-weight: 800;
@@ -5857,16 +5524,6 @@ body:has(.soon) {
   color: var(--ink);
 }
 
-/* ============================================================
-   update226 — мобильные правки (по команде пользователя):
-   1. /soon: подтекст без «пустых» строк — строфы разложены на
-      блоки .soon__st (разметка в soon.astro), на десктопе между
-      ними отступ в пустую строку (1.6em), на мобильном — ноль,
-      текст идёт плотно, строка за строкой;
-   2. главная: надпись-«плашка» classic · rock-n-roll · grammar
-      на мобильном растянута по ширине контентной колонки (justify),
-      как строки абзацев под ней; за край экрана не выходит.
-   ============================================================ */
 .soon__st { display: block; }
 .soon__st + .soon__st { margin-top: 1.6em; }
 

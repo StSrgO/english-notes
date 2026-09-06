@@ -1,7 +1,7 @@
-// T3 (план словаря): распределение топ-200 по группам.
+// Распределение топ-200 по группам.
 // Читает scripts/_top200.json (v1, rank, v2, v3), выдаёт scripts/_groups.json.
 //
-// Таксономия — по §3.2 плана; группы >35 слов разбиты на подгруппы (правило плана «дробить»):
+// Таксономия; группы >35 слов разбиты на подгруппы:
 //   1. aaa-identical  — v2===v1 && v3===v1
 //   2. abb-ought      — v2===v3 на -ought/-aught
 //   3. abb-t          — v2===v3 на -t (v1 без -t): feel→felt, build→built
@@ -61,7 +61,7 @@ console.log("total:", total, total === 200 ? "OK" : "!!! != 200");
 console.log("нарушения размера 8–35:", bad.length ? bad.join(", ") : "нет");
 
 fs.writeFileSync(path.join(__dirname, "_groups.json"), JSON.stringify({
-  source: "scripts/_top200.json; таксономия §3.2 плана с дроблением групп >35",
+  source: "scripts/_top200.json; таксономия с дроблением групп >35",
   built: new Date().toISOString().slice(0, 10),
   groups: order.map((id) => ({
     id,

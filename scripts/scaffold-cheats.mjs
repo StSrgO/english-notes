@@ -1,4 +1,4 @@
-// T2 (план шпаргалок): каркас src/data/cheats/{level}.json из уроков грамматики.
+// Каркас src/data/cheats/{level}.json из уроков грамматики (карточки раздела /notes).
 // Собирает темы уровня (id/title/category/lesson) в методическом порядке LEVEL_ORDER.
 // Контент карточек (titleRu/use/formula/points/examples/note) заполняется вручную.
 // Запуск: node scripts/scaffold-cheats.mjs [--force]  →  exit 0 = OK, exit 1 = ошибки.

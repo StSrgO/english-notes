@@ -1,4 +1,4 @@
-// T11 (план словаря): валидация данных тренажёра неправильных глаголов.
+// Валидация данных тренажёра неправильных глаголов.
 // Проверяет src/data/vocabulary/irregular-verbs.json (200 слов, ipa/ru/example)
 // и src/data/vocabulary/irregular-verbs-quiz.json (квизы по группам, answer в диапазоне).
 // Запуск: node scripts/validate-verbs.mjs  →  exit 0 = OK, exit 1 = найдены ошибки.

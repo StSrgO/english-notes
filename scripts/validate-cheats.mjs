@@ -1,4 +1,4 @@
-// T6/T7 (план шпаргалок) + раунд 2: валидация src/data/cheats/{a0..c2}.json.
+// Валидация src/data/cheats/{a0..c2}.json (карточки раздела /notes).
 // Проверяет: состав и порядок тем = LEVEL_ORDER классических уроков, у каждой
 // карточки непустые use (массив пунктов)/formula/points/examples (3–5)/titleRu,
 // опциональные forms (−/?)/markers/pitfalls (wrong ≠ right), ссылки lesson ведут
