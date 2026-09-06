@@ -18,14 +18,42 @@ const topics = Object.values(vocabularyFiles)
     </header>
 
     <div class="vocabulary-grid">
-      {topics.map((topic) => (
-        <a href={`/vocabulary/${topic.slug}`} class="vocabulary-card">
-          <h2 class="vocabulary-card__title">{topic.title}</h2>
-          <p class="vocabulary-card__desc">{topic.titleRu}</p>
-          {topic.intro && <p class="vocabulary-card__intro">{topic.intro}</p>}
-          <span class="vocabulary-card__count">{topic.total ?? (topic.words?.length ?? (topic.groups?.reduce((n, g) => n + (g.words?.length || 0), 0) || 0))} слов</span>
-        </a>
-      ))}
+      {topics.map((topic) => {
+        // темы с группами (тренажёр) — карточка со списком групп, как в меню
+        // страницы тренажёра; обычные темы — простая карточка-ссылка
+        const hasGroups = Array.isArray(topic.groups) && topic.groups.length > 0;
+        if (!hasGroups) {
+          return (
+            <a href={`/vocabulary/${topic.slug}`} class="vocabulary-card">
+              <h2 class="vocabulary-card__title">{topic.title}</h2>
+              <p class="vocabulary-card__desc">{topic.titleRu}</p>
+              {topic.intro && <p class="vocabulary-card__intro">{topic.intro}</p>}
+              <span class="vocabulary-card__count">{topic.total ?? (topic.words?.length ?? 0)} слов</span>
+            </a>
+          );
+        }
+        const totalWords = topic.total ?? topic.groups.reduce((n, g) => n + (g.words?.length || 0), 0);
+        const pad = (i) => String(i + 1).padStart(2, "0");
+        // компактное имя группы в карточке: длинное «Вторая и третья формы»
+        // сокращаем до v2/v3, чтобы название целиком влезало в строку
+        const shortName = (s) => String(s).replace("Вторая и третья формы", "v2/v3");
+        return (
+          <a href={`/vocabulary/${topic.slug}`} class="vocabulary-card vocabulary-card--groups">
+            <h2 class="vocabulary-card__title">{topic.title}</h2>
+            <p class="vocabulary-card__desc">{topic.titleRu}</p>
+            <span class="vocabulary-card__count">{totalWords} слов · {topic.groups.length} {topic.groups.length === 1 ? "группа" : topic.groups.length < 5 ? "группы" : "групп"}</span>
+            <ul class="vocabulary-card__groups">
+              {topic.groups.map((g, i) => (
+                <li class="vocabulary-card__group">
+                  <span class="vocabulary-card__gn">{pad(i)}</span>
+                  <span class="vocabulary-card__gname">{shortName(g.groupNameRu || g.groupName)}</span>
+                  <span class="vocabulary-card__gcount">{g.words?.length || 0}</span>
+                </li>
+              ))}
+            </ul>
+          </a>
+        );
+      })}
     </div>
   </div>
 </Base>
@@ -106,6 +134,53 @@ const topics = Object.values(vocabularyFiles)
     color: var(--mint-ink);
     text-transform: uppercase;
     letter-spacing: 0.03em;
+  }
+  /* карточка темы с группами: список групп, как в меню тренажёра
+     (номер · русское название · сколько слов) */
+  .vocabulary-card--groups {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .vocabulary-card__groups {
+    list-style: none;
+    margin: 14px 0 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .vocabulary-card__group {
+    display: flex;
+    align-items: baseline;
+    gap: 9px;
+    padding: 6px 0;
+    min-width: 0;
+  }
+  .vocabulary-card__group + .vocabulary-card__group {
+    border-top: 1px solid var(--line);
+  }
+  .vocabulary-card__gn {
+    flex: 0 0 auto;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--mint-ink);
+  }
+  .vocabulary-card__gname {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 13.5px;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--ink);
+  }
+  .vocabulary-card:hover .vocabulary-card__gname { color: var(--ink-mid); }
+  .vocabulary-card__gcount {
+    flex: 0 0 auto;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--ink-soft);
   }
   @media (max-width: 600px) {
     .vocabulary-page {

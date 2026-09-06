@@ -19,6 +19,8 @@ const isVerbTrainer =
   Array.isArray(topic.groups) &&
   topic.groups.some(g => g.words?.some(w => Array.isArray(w.ipa)));
 const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
+// «Вторая и третья формы …» в названиях групп — коротко v2/v3
+const shortGroupName = (s) => String(s).replace("Вторая и третья формы", "v2/v3");
 ---
 
 <Base title={`${topic.title} — Словарный запас — EnglishNotes`}>
@@ -36,49 +38,33 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
                 {topic.groups.map((group, i) => (
                   <a class="vocab-side__link" href={`#${group.id}`} data-side-spy={group.id}>
                     <span class="vocab-side__n">{String(i + 1).padStart(2, "0")}</span>
-                    <span class="vocab-side__name">{group.groupNameRu}</span>
+                    <span class="vocab-side__name">{shortGroupName(group.groupNameRu)}</span>
                     <span class="vocab-side__count">{group.words.length}</span>
                   </a>
                 ))}
-                <a class="vocab-side__link vocab-side__link--quiz" href="#verb-quiz-host" data-side-spy="verb-quiz-host">
-                  <span class="vocab-side__name">Проверь себя</span>
-                </a>
+                <div class="vocab-side__sections">
+                  <a class="vocab-side__link" href="#vocab-progress" data-side-spy="vocab-progress">
+                    <span class="vocab-side__name">Прогресс</span>
+                  </a>
+                  <a class="vocab-side__link" href="#vocab-mix" data-side-spy="vocab-mix">
+                    <span class="vocab-side__name">Микс слов</span>
+                  </a>
+                  <a class="vocab-side__link" href="#verb-quiz-host" data-side-spy="verb-quiz-host">
+                    <span class="vocab-side__name">Проверь себя</span>
+                  </a>
+                </div>
               </nav>
             </aside>
 
-            <header class="vocabulary-topic__header">
-              <p class="vocab-stats__eyebrow" id="verbs-count-label">
-                {totalVerbs} глаголов · {topic.groups.length} групп
-              </p>
-              <h1>{topic.title}</h1>
-              <p class="vocabulary-topic__sub">{topic.titleRu}</p>
-              <p class="vocabulary-topic__intro">{topic.intro}</p>
-              <div class="vocab-progress" role="group" aria-label="Прогресс изучения">
-                <div class="vocab-progress__bar" aria-hidden="true">
-                  <span class="vocab-progress__fill" id="progress-fill"></span>
-                </div>
-                <span class="vocab-progress__label" id="progress-label">Изучено 0 / {totalVerbs}</span>
-              </div>
-              <label class="vocab-search">
-                <span class="sr-only">Поиск по глаголам</span>
-                <input
-                  id="verbs-search"
-                  class="vocab-search__input"
-                  type="search"
-                  placeholder="Найти: go, went, идти…"
-                  autocomplete="off"
-                />
-              </label>
-              <div class="vocab-quizbar">
-                <button type="button" class="vocab-quiz-btn" data-quiz-mix>Микс · 20 случайных</button>
-                <p class="vocab-quizbar__hint">Проверь себя: у каждой группы своя кнопка «Квиз по группе», а «Микс» собирает 20 случайных вопросов из всех групп.</p>
-              </div>
-              <p class="vocab-search__hint" hidden id="search-empty">
-                Ничего не нашлось. Попробуй другую форму или перевод.
-              </p>
-            </header>
-
             <div class="vocab-layout__main">
+              <header class="vocabulary-topic__header vocab-topic-head">
+                <p class="vocab-stats__eyebrow" id="verbs-count-label">
+                  {totalVerbs} глаголов · {topic.groups.length} групп
+                </p>
+                <h1><span class="hl-mark">{topic.title}</span></h1>
+                <p class="vocabulary-topic__sub">{topic.titleRu}</p>
+                <p class="vocabulary-topic__intro">{topic.intro}</p>
+              </header>
 
           {topic.groups.map((group, gi) => (
             <section class="vocab-group" id={group.id} data-group>
@@ -102,7 +88,6 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
                     class="vocab-row"
                     id={'w-' + word.v1}
                     data-v1={word.v1}
-                    data-search={[word.v1, word.v2, word.v3, word.ru].join(" ").toLowerCase()}
                   >
                     <label class="vocab-row__check">
                       <input
@@ -167,6 +152,22 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
               </ul>
             </section>
           ))}
+
+          <section class="vocab-progress-plate" id="vocab-progress" data-side-spy="vocab-progress" aria-label="Прогресс изучения">
+            <div class="vocab-progress-plate__head">
+              <span class="vocab-progress-plate__label">Прогресс изучения</span>
+              <span class="vocab-progress-plate__num" id="progress-label">Изучено 0 / {totalVerbs}</span>
+            </div>
+            <div class="vocab-progress__bar" aria-hidden="true">
+              <span class="vocab-progress__fill" id="progress-fill"></span>
+            </div>
+            <p class="vocab-progress-plate__hint">Отмечай выученные глаголы галочкой слева — прогресс сохранится в этом браузере.</p>
+          </section>
+
+          <div class="vocab-quizbar" id="vocab-mix" data-side-spy="vocab-mix">
+            <button type="button" class="vocab-quiz-btn vocab-quiz-btn--mix" data-quiz-mix>Микс · 20 случайных</button>
+            <p class="vocab-quizbar__hint">Проверка соберётся из 20 случайных глаголов всех групп. Квиз по одной группе запускается её кнопкой «Квиз по группе».</p>
+          </div>
 
           <section class="vocab-quiz" id="verb-quiz-host">
             <p class="vocab-quiz__idle">Квизы собираются из слов страницы. Выбери «Квиз по группе» у любой группы или запусти «Микс» — проверка появится здесь.</p>
@@ -311,29 +312,6 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
         save();
       });
       paint();
-
-      // ---------- Поиск по v1/v2/v3/ru ----------
-      const search = document.getElementById("verbs-search");
-      const empty = document.getElementById("search-empty");
-      const groups = Array.from(document.querySelectorAll("[data-group]"));
-      if (search) {
-        search.addEventListener("input", () => {
-          const q = search.value.trim().toLowerCase();
-          let visible = 0;
-          rows.forEach((row) => {
-            const hit = !q || row.dataset.search.includes(q);
-            row.hidden = !hit;
-            if (hit) visible++;
-          });
-          groups.forEach((g) => {
-            const any = Array.from(g.querySelectorAll("[data-v1]")).some((r) => !r.hidden);
-            g.hidden = !any;
-          });
-          if (empty) empty.hidden = !(q && visible === 0);
-          // сброс подсветки «знаю» не нужен: hidden-строки не считаем
-          paint();
-        });
-      }
 
       // ---------- Аудио: speechSynthesis трёх форм (en-GB, фолбэк en-US) ----------
       const pickVoice = (voices) =>
@@ -483,7 +461,7 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
   }
 
-  /* ---------- тренажёр: шапка, прогресс, поиск ---------- */
+  /* ---------- тренажёр: шапка внутри колонки слов ---------- */
   .vocab-stats__eyebrow {
     font-family: var(--mono);
     font-size: 12px;
@@ -493,17 +471,69 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     color: var(--mint-ink);
     margin: 0 0 6px;
   }
-  .vocab-progress {
+  .vocab-topic-head {
+    margin: 0 0 26px;
+  }
+  /* заголовок с маркером-подчёркиванием, как в уроках и заметках */
+  .vocab-topic-head h1 {
+    font-family: var(--display-serif);
+    font-size: clamp(30px, 3vw, 46px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.06;
+    color: var(--ink);
+    margin: 2px 0 8px;
+    overflow-wrap: anywhere;
+  }
+  .vocab-topic-head .vocabulary-topic__sub {
+    font-size: 19px;
+    margin-bottom: 8px;
+  }
+  .vocab-topic-head .vocabulary-topic__intro {
+    margin: 0;
+    max-width: none;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+
+  /* ---------- тренажёр: низ страницы — прогресс и микс ---------- */
+  .vocab-progress-plate {
+    margin-top: 52px;
+    padding: 18px 20px 16px;
+    background: var(--mint);
+    border: 1.5px solid var(--mint-deep);
+    border-radius: 16px;
+    scroll-margin-top: calc(var(--head-h, 64px) + 60px);
+  }
+  .vocab-progress-plate__head {
     display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 16px 0 14px;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 6px 12px;
+    margin-bottom: 10px;
+  }
+  .vocab-progress-plate__label {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--mint-ink);
+  }
+  .vocab-progress-plate__num {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 800;
+    color: var(--ink);
+    white-space: nowrap;
   }
   .vocab-progress__bar {
-    flex: 0 1 260px;
-    height: 6px;
+    height: 10px;
     border-radius: 99px;
-    background: var(--mint);
+    background: var(--surface);
+    border: 1px solid var(--mint-deep);
     overflow: hidden;
   }
   .vocab-progress__fill {
@@ -514,58 +544,32 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     background: var(--mint-ink);
     transition: width 0.25s ease;
   }
-  .vocab-progress__label {
-    font-family: var(--mono);
-    font-size: 12px;
-    font-weight: 700;
-    color: var(--ink-mid);
-    white-space: nowrap;
-  }
-  .vocab-search { display: block; max-width: 420px; }
-  .vocab-search__input {
-    width: 100%;
-    box-sizing: border-box;
-    padding: 10px 14px;
-    font-family: var(--body);
-    font-size: 15px;
-    color: var(--ink);
-    background: var(--surface);
-    border: 1.5px solid var(--line);
-    border-radius: 10px;
-    transition: border-color 0.15s, box-shadow 0.15s;
-  }
-  .vocab-search__input::placeholder { color: var(--ink-soft); opacity: 0.75; }
-  .vocab-search__input:focus-visible {
-    outline: none;
-    border-color: var(--mint-deep);
-    box-shadow: 0 0 0 3px var(--mint);
-  }
-  .vocab-search__hint {
-    font-family: var(--body);
-    font-size: 14px;
-    color: var(--ink-soft);
+  .vocab-progress-plate__hint {
     margin: 10px 0 0;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--ink-mid);
   }
+  #vocab-mix { scroll-margin-top: calc(var(--head-h, 64px) + 60px); }
 
   /* ---------- тренажёр: лейаут с боковым меню (как в уроках) ---------- */
   .vocabulary-topic:has(.vocab-trainer) { max-width: 1140px; }
-  /* Тренажёр: шапка во всю ширину, ниже — колонки меню и контента.
+  /* Тренажёр: меню слева, справа — шапка, группы и низ страницы.
      Меню .vocab-side стоит первым в разметке, чтобы на мобильном
      лента скролл-бара оказывалась сразу под шапкой (правило update222). */
   .vocab-trainer {
     display: grid;
     grid-template-columns: 230px minmax(0, 1fr);
-    grid-template-areas: "head head" "side main";
+    grid-template-areas: "side main";
     column-gap: 44px;
     align-items: start;
   }
-  .vocab-trainer > .vocabulary-topic__header { grid-area: head; }
   .vocab-trainer > .vocab-side { grid-area: side; }
   .vocab-trainer > .vocab-layout__main { grid-area: main; }
   .vocab-side {
     position: sticky;
-    top: calc(var(--head-h, 64px) + 18px);
-    max-height: calc(100vh - var(--head-h, 64px) - 40px);
+    top: calc(var(--head-h, 64px) - 4px);
+    max-height: calc(100vh - var(--head-h, 64px) - 20px);
     overflow-y: auto;
     padding: 4px 8px 4px 0;
     scrollbar-width: thin;
@@ -620,15 +624,21 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     color: var(--ink-soft);
     flex: 0 0 auto;
   }
-  .vocab-side__link--quiz {
+  /* раздел меню «Прогресс / Микс / Проверь себя» — отделён от групп */
+  .vocab-side__sections {
     margin-top: 10px;
-    padding-top: 11px;
+    padding-top: 10px;
     border-top: 1px solid var(--line);
+    display: grid;
+    gap: 2px;
+  }
+  .vocab-side__sections .vocab-side__link {
     font-family: var(--mono);
-    font-size: 12px;
+    font-size: 11.5px;
     font-weight: 700;
-    text-transform: uppercase;
     letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
   }
   .vocab-layout__main { min-width: 0; }
 
@@ -689,7 +699,9 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   /* ---------- тренажёр: строка-карточка ---------- */
   .vocab-row {
     display: grid;
-    grid-template-columns: 28px minmax(0, 1fr) auto auto auto;
+    /* ширина колонки перевода фиксирована, чтобы три формы во всех
+       строках группы начинались на одних и тех же позициях */
+    grid-template-columns: 28px minmax(0, 1fr) 210px auto auto;
     grid-template-areas:
       "check forms ru rank play"
       "ex ex ex ex ex";
@@ -797,8 +809,8 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     font-size: 14px;
     color: var(--ink-mid);
     text-align: right;
-    max-width: 200px;
     line-height: 1.4;
+    overflow-wrap: anywhere;
   }
   .vocab-row.is-known .vocab-row__ru { color: var(--ink-soft); }
   .vocab-row__ex-tag {
@@ -1003,7 +1015,22 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     }
     .vocab-side__n,
     .vocab-side__count { display: none; }
-    .vocab-side__link--quiz { margin-top: 0; padding-top: 8px; }
+    /* нижние пункты меню (прогресс/микс/проверка) — обычные чипы ленты */
+    .vocab-side__sections {
+      display: contents;
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+    .vocab-side__sections .vocab-side__link {
+      font-family: var(--display);
+      font-size: 19px;
+      font-weight: 800;
+      letter-spacing: -0.01em;
+      text-transform: none;
+      color: var(--ink);
+      padding-top: 8px;
+    }
   }
   /* тач: hover после тапа «прилипает» — фон нажатия не должен
      переживать переход is-active на другой пункт (update223) */
@@ -1016,8 +1043,8 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
   @media (max-width: 640px) {
     .vocabulary-topic { padding: 12px 14px 44px; }
-    .vocabulary-topic__header h1 { font-size: 29px; }
-    .vocab-progress__bar { flex-basis: 160px; }
+    .vocabulary-topic__header h1 { font-size: clamp(26px, 8vw, 34px); }
+    .vocab-progress-plate { padding: 15px 16px 14px; }
     .vocab-row {
       grid-template-columns: 26px minmax(0, 1fr) auto;
       grid-template-areas:
@@ -1042,20 +1069,20 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
     .vocab-row__checkmark::after { transition: none; }
   }
 
-  /* ---------- тренажёр: квизы (T8) ---------- */
+  /* ---------- тренажёр: низ страницы — микс и квиз (T8) ---------- */
   .vocab-quizbar {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     gap: 8px 14px;
-    margin: 14px 0 2px;
-    max-width: 640px;
+    margin: 22px 0 2px;
+    max-width: 720px;
   }
   .vocab-quiz-btn {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    padding: 7px 14px;
+    padding: 8px 16px;
     border-radius: 999px;
     font-family: var(--mono);
     font-size: 11px;
@@ -1071,6 +1098,17 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   }
   .vocab-quiz-btn:hover { background: var(--mint); border-color: var(--mint-ink); color: var(--ink); }
   .vocab-quiz-btn:focus-visible { outline: none; box-shadow: 0 0 0 3px var(--mint); }
+  /* кнопка «Микс» заметнее остальных */
+  .vocab-quiz-btn--mix {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--paper);
+  }
+  .vocab-quiz-btn--mix:hover {
+    background: var(--mint-ink);
+    border-color: var(--mint-ink);
+    color: var(--paper);
+  }
   .vocab-quizbar__hint {
     font-family: var(--body);
     font-size: 13px;
@@ -1083,8 +1121,8 @@ const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
   .vocab-group__actions { display: flex; align-items: center; gap: 12px; }
   .vocab-quiz {
     scroll-margin-top: calc(var(--head-h, 64px) + 70px);
-    margin-top: 52px;
-    padding-top: 30px;
+    margin-top: 30px;
+    padding-top: 26px;
     border-top: 1.5px solid var(--line);
   }
   .vocab-quiz__idle {
