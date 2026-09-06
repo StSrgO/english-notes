@@ -25,9 +25,11 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
 
 <Base title={`${topic.title} — Словарный запас — EnglishNotes`}>
   <div class="vocabulary-topic">
-    <nav class="vocabulary-topic__breadcrumb">
-      <a href="/vocabulary">← Все темы</a>
-    </nav>
+    {!isVerbTrainer && (
+      <nav class="vocabulary-topic__breadcrumb">
+        <a href="/vocabulary">← Все темы</a>
+      </nav>
+    )}
 
     {
       isVerbTrainer ? (

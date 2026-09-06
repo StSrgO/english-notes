@@ -126,7 +126,15 @@ const levelMeta = {
           <div>
             <p class="eyebrow">grammar · CEFR</p>
             <h1 class="page-title"><span class="hl-mark">Грамматика по уровням</span></h1>
+            <p class="grammar-lead">
+              Грамматика английского от A0 до C2: темы разложены по уровням CEFR —
+              от алфавита и первых времён до инверсии и стилистики. У каждого урока
+              простое объяснение, живой контекст, разбор через русский, правила
+              с примерами и проверка себя в конце. Выбирай уровень — и иди по темам
+              по порядку или сразу к нужной.
+            </p>
           </div>
+          <div class="grammar-divider" aria-hidden="true"></div>
         </div>
 
         {usedLevels.map((lvl) => {
@@ -172,6 +180,24 @@ const levelMeta = {
 <style>
   /* отступы заголовка каталога; шрифт/размер — общий .page-title (update225) */
   .section__head .page-title {
-    margin: 6px 0 20px;
+    margin: 6px 0 0;
+  }
+  /* описание под заголовком — как на главных /notes и /vocabulary */
+  .grammar-lead {
+    max-width: none;
+    font-family: var(--display-serif);
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--ink-mid);
+    font-weight: 500;
+    margin: 10px 0 0;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  /* разделительная полоса под описанием — как на других главных разделах */
+  .grammar-divider {
+    margin: 22px 0 26px;
+    border-bottom: 2px solid var(--line-strong);
   }
 </style>
