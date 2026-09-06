@@ -12,10 +12,15 @@ const topics = Object.values(vocabularyFiles)
     <header class="vocabulary-header">
       <h1>Словарный запас</h1>
       <p class="vocabulary-lead">
-        Тематические подборки слов и выражений для реальной жизни.
-        От еды до неправильных глаголов — учи слова в контексте.
+        Словарный запас — подборки английских слов по темам. В каждой подборке слово
+        показано целиком: его формы и произношение, перевод и пример употребления —
+        так слово запоминается в контексте, а не отдельной строчкой из списка.
+        Открой нужную тему из карточки, отметь слова, которые уже знаешь, послушай
+        произношение и проверь себя квизом. Отмеченный прогресс сохраняется в браузере,
+        так что в следующий раз ты продолжишь с того же места.
       </p>
     </header>
+    <div class="vocabulary-divider" aria-hidden="true"></div>
 
     <div class="vocabulary-grid">
       {topics.map((topic) => {
@@ -65,7 +70,7 @@ const topics = Object.values(vocabularyFiles)
     padding: 40px 28px 60px;
   }
   .vocabulary-header {
-    margin-bottom: 44px;
+    margin-bottom: 0;
   }
   .vocabulary-header h1 {
     font-family: var(--display);
@@ -80,7 +85,15 @@ const topics = Object.values(vocabularyFiles)
     font-size: 18px;
     line-height: 1.6;
     color: var(--ink-mid);
-    max-width: 640px;
+    max-width: none;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  /* разделительная полоса под описанием — как заголовки уровней на /grammar */
+  .vocabulary-divider {
+    margin: 24px 0 34px;
+    border-bottom: 2px solid var(--line-strong);
   }
   .vocabulary-grid {
     display: grid;

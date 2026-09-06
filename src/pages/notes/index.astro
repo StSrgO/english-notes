@@ -7,6 +7,7 @@ const levels = Object.values(files)
   .filter((d) => d && d.level && Array.isArray(d.topics))
   .sort((a, b) => LEVELS.indexOf(a.level) - LEVELS.indexOf(b.level));
 const total = levels.reduce((n, d) => n + d.topics.length, 0);
+const levelsRange = levels.length ? levels[0].level + "–" + levels[levels.length - 1].level : "A0–C2";
 ---
 
 <Base title="Краткие заметки по грамматике — EnglishNotes" description={`Заметки по грамматике английского: краткие схемы ${total} тем по уровням A0–C2 — когда используется, формула, примеры, частая ошибка.`}>
@@ -24,11 +25,16 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
       <p class="eyebrow">grammar · notes</p>
       <h1 class="cheats-index__h1"><span class="hl-mark">Краткие заметки</span></h1>
       <p class="cheats-index__lead">
-        Краткие схемы по темам грамматики для быстрого повторения: когда используется,
-        формула, один-два примера и частая ошибка — без истории и длинных объяснений.
-        {total} тем на {levels.length} уровнях.
+        Краткие заметки — это грамматика в сжатом виде, разложенная по уровням CEFR:
+        {total} тем на {levelsRange}. У каждой темы одна задача — быстро напомнить
+        правило и дать его рабочие примеры: формула конструкции, слова-сигналы,
+        короткие примеры с переводом и типичная ошибка с исправлением. Перед уроком,
+        письмом или разговором достаточно открыть нужную тему и за пару минут освежить
+        правило. Когда захочешь разобраться глубже, из карточки ведёт ссылка
+        на полный урок.
       </p>
     </header>
+    <div class="cheats-index__divider" aria-hidden="true"></div>
 
     <div class="cheats-grid">
       {levels.map((d) => {
@@ -57,7 +63,7 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
 
 <style>
   .cheats-index { padding: 44px 0 72px; }
-  .cheats-index__head { margin-bottom: 34px; }
+  .cheats-index__head { margin-bottom: 0; }
   .cheats-index__h1 {
     font-family: var(--display-serif);
     font-weight: 800;
@@ -67,13 +73,21 @@ const total = levels.reduce((n, d) => n + d.topics.length, 0);
     margin: 12px 0 14px;
   }
   .cheats-index__lead {
-    max-width: 62ch;
+    max-width: none;
     font-family: var(--display-serif);
     font-size: 18px;
     line-height: 1.7;
     color: var(--ink-mid);
     font-weight: 500;
     margin: 0;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  /* разделительная полоса под описанием — как заголовки уровней на /grammar */
+  .cheats-index__divider {
+    margin: 22px 0 30px;
+    border-bottom: 2px solid var(--line-strong);
   }
 
   .cheats-grid {
