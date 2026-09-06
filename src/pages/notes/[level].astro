@@ -148,7 +148,13 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
         // пункт. Активный пункт автоцентрируется в ленте только при смене;
         // пересчёт на pageshow/visibilitychange (возврат из другой вкладки).
         const line = () => window.innerHeight * 0.3;
+        // Конец страницы: последняя карточка может не дойти верхом до линии
+        // чтения — тогда активна она (иначе последний пункт внизу никогда
+        // не подсвечивается).
+        const atBottom = () =>
+          window.scrollY + window.innerHeight >= Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) - 4;
         const curSpy = () => {
+          if (atBottom()) return cards[cards.length - 1].id;
           let cur = "";
           for (const c of cards) {
             if (c.getBoundingClientRect().top <= line()) cur = c.id;
@@ -626,9 +632,10 @@ const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.lengt
     .cheats-side__n { display: none; }
   }
   /* тач: hover после тапа «прилипает» — фон нажатия не должен
-     переживать переход is-active на другой пункт (update223) */
+     переживать переход is-active на другой пункт (update223);
+     активный пункт не гасим, чтобы его подсветка оставалась видна */
   @media (hover: none), (pointer: coarse) {
-    .cheats-side .cheats-side__link:hover {
+    .cheats-side .cheats-side__link:not(.is-active):hover {
       background: transparent;
       color: var(--ink);
       transform: none;

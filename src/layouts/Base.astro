@@ -210,7 +210,14 @@ const vercelAnalytics = import.meta.env.PROD && process.env.VERCEL === '1';
         // вкладки или bfcache без события scroll.
         if (blocks.length) {
           const line = () => window.innerHeight * 0.3;
+          // Достигнут конец страницы: последний блок может быть короче
+          // расстояния до линии чтения (top так и не поднимется выше 30%
+          // высоты окна) — тогда активен последний пункт, иначе на /notes
+          // C2 внизу страницы никогда не подсвечивался бы.
+          const atBottom = () =>
+            window.scrollY + window.innerHeight >= Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) - 4;
           const spyLevel = () => {
+            if (atBottom()) return blocks[blocks.length - 1].id;
             let cur = '';
             for (const b of blocks) {
               if (b.getBoundingClientRect().top <= line()) cur = b.id;

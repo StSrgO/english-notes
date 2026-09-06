@@ -375,11 +375,16 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
       // (30% высоты окна); у верха страницы — первый пункт. Активный чип
       // автопрокруткой центрируется в ленте; пересчёт на pageshow /
       // visibilitychange (возврат из другой вкладки или bfcache).
-      const sideLinks = Array.from(document.querySelectorAll("[data-side-spy]"));
+      const sideLinks = Array.from(document.querySelectorAll("a[data-side-spy]"));
       const spySecs = sideLinks.map((l) => document.getElementById(l.dataset.sideSpy)).filter(Boolean);
       if (sideLinks.length && spySecs.length) {
         const line = () => window.innerHeight * 0.3;
-        const curSpy = () => {
+        // Конец страницы: последняя секция может не дойти верхом до линии
+        // чтения — тогда активна она (иначе последний пункт внизу страницы
+        // никогда не подсвечивается).
+        const atBottom = () =>
+          window.scrollY + window.innerHeight >= Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) - 4;
+        const lineCur = () => {
           let cur = "";
           for (const s of spySecs) {
             if (s.getBoundingClientRect().top <= line()) cur = s.id;
@@ -399,18 +404,73 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
             nav.scrollTo({ left: nav.scrollLeft + (ar.left - nr.left) - (nav.clientWidth - ar.width) / 2, behavior: "smooth" });
           }
         };
+
+        // Клик по пункту меню — это выбор пункта (как на лентах уровней):
+        // чип подсвечивается сразу, страница плавно едет к секции. Секции
+        // внизу страницы (прогресс/микс/проверка) короче, чем расстояние
+        // до линии чтения, — их верх не поднимется выше 30% окна, и спай
+        // не смог бы их показать. Поэтому выбранный тапом пункт «закрепляется»:
+        // пока он виден у нижнего края страницы, активен он; правило снова
+        // вступает в силу, когда пользователь уезжает от него (или тапает
+        // другой пункт).
+        let pinnedId = "";
+        let programmatic = false;
+        let pinDest = -1;
+        let pinBase = 0;
+        let pinTimer = 0;
+        const finishProgrammatic = () => {
+          if (!programmatic) return;
+          programmatic = false;
+          pinBase = window.scrollY;
+        };
+        const current = () => {
+          if (programmatic && pinnedId) return pinnedId;
+          if (atBottom()) {
+            if (pinnedId) {
+              const t = document.getElementById(pinnedId);
+              if (t && t.getBoundingClientRect().top < window.innerHeight) return pinnedId;
+            }
+            return spySecs[spySecs.length - 1].id;
+          }
+          const id = lineCur();
+          if (!programmatic && pinnedId && id !== pinnedId && Math.abs(window.scrollY - pinBase) > 60) pinnedId = "";
+          return id;
+        };
         let ticking = false;
         const onScroll = () => {
           if (ticking) return;
           ticking = true;
-          requestAnimationFrame(() => { ticking = false; setSpy(curSpy()); });
+          requestAnimationFrame(() => {
+            ticking = false;
+            if (programmatic && pinDest >= 0 && Math.abs(window.scrollY - pinDest) <= 2) finishProgrammatic();
+            setSpy(current());
+          });
         };
         window.addEventListener("scroll", onScroll, { passive: true });
         window.addEventListener("pageshow", onScroll);
         document.addEventListener("visibilitychange", () => {
           if (document.visibilityState === "visible") onScroll();
         });
-        setSpy(curSpy());
+        setSpy(current());
+
+        sideLinks.forEach((a) =>
+          a.addEventListener("click", (e) => {
+            e.preventDefault();
+            const id = a.dataset.sideSpy;
+            pinnedId = id;
+            setSpy(id);
+            const t = document.getElementById(id);
+            if (!t) return;
+            programmatic = true;
+            clearTimeout(pinTimer);
+            const margin = parseFloat(getComputedStyle(t).scrollMarginTop) || 0;
+            const maxY = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight) - window.innerHeight;
+            pinDest = Math.max(0, Math.min(t.getBoundingClientRect().top + window.scrollY - margin, maxY));
+            window.scrollTo({ top: pinDest, behavior: "smooth" });
+            history.replaceState(null, "", "#" + id);
+            pinTimer = setTimeout(finishProgrammatic, 4000);
+          })
+        );
       }
     </script>
   )
@@ -604,14 +664,25 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     line-height: 1.35;
     color: var(--ink-soft);
     text-decoration: none;
-    transition: color 0.15s, background 0.15s;
+    transition: color 0.15s, background 0.15s, transform 0.15s;
   }
-  .vocab-side__link:hover { color: var(--ink); background: var(--mint); }
-  .vocab-side__link.is-active {
-    color: var(--ink);
-    font-weight: 700;
+  /* hover (подсвечивание) — как у чипов скролл-бара на /grammar:
+     светлая mint-подложка + зелёный текст var(--mint-ink) + сдвиг 3px;
+     выбранное состояние при этом темнее (см. .is-active ниже) */
+  .vocab-side__link:hover {
     background: var(--mint);
-    box-shadow: inset 3px 0 0 var(--mint-ink);
+    color: var(--mint-ink);
+    transform: translateX(3px);
+  }
+  /* выбранный пункт — по общему правилу скролл-баров: тёмно-зелёная
+     подложка var(--mint-ink) + белый текст var(--paper), как у чипов
+     ленты на /grammar */
+  .vocab-side__link.is-active {
+    color: var(--paper);
+    font-weight: 700;
+    background: var(--mint-ink);
+    box-shadow: none;
+    transform: none;
   }
   .vocab-side__link:focus-visible {
     outline: none;
@@ -648,6 +719,17 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--ink-soft);
+  }
+  /* hover раздела — как у обычных чипов (зелёный текст на светлом mint) */
+  .vocab-side__sections .vocab-side__link:hover {
+    color: var(--mint-ink);
+  }
+  /* активный пункт раздела меню: свой mono-цвет не должен перебивать
+     цвет выбранного состояния (иначе тёмный текст на подложке).
+     Правило стоит ПОСЛЕ :hover, чтобы у активного чипа белый текст
+     побеждал даже при «прилипшем» hover после тапа */
+  .vocab-side__sections .vocab-side__link.is-active {
+    color: var(--paper);
   }
   .vocab-layout__main { min-width: 0; }
 
@@ -1016,12 +1098,19 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
       white-space: nowrap;
       transition: background 0.18s ease, color 0.18s ease, transform 0.18s ease;
     }
-    .vocab-side__link:hover { background: var(--mint); color: var(--ink); transform: translateX(3px); }
+    /* hover (подсвечивание) чипа — как на /grammar: светлый mint-фон +
+       зелёный текст var(--mint-ink) + сдвиг 3px (выбранное — темнее) */
+    .vocab-side__link:hover {
+      background: var(--mint);
+      color: var(--mint-ink);
+      transform: translateX(3px);
+    }
     .vocab-side__link.is-active {
       background: var(--mint-ink);
       color: var(--paper);
       font-weight: 800;
       box-shadow: none;
+      transform: none;
     }
     .vocab-side__n,
     .vocab-side__count { display: none; }
@@ -1041,13 +1130,22 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
       color: var(--ink);
       padding-top: 8px;
     }
+    /* правило .vocab-side__sections .vocab-side__link (0,3,0) перебивало
+       color у .is-active (0,2,0) — активный чип «Проверь себя» был с
+       тёмным текстом на тёмно-зелёной подложке */
+    .vocab-side__sections .vocab-side__link:hover {
+      color: var(--mint-ink);
+    }
+    .vocab-side__sections .vocab-side__link.is-active {
+      color: var(--paper);
+    }
   }
   /* тач: hover после тапа «прилипает» — фон нажатия не должен
-     переживать переход is-active на другой пункт (update223) */
+     переживать переход is-active на другой пункт (update223);
+     активный пункт не гасим, чтобы его подсветка оставалась видна */
   @media (hover: none), (pointer: coarse) {
-    .vocab-side__link:hover {
+    .vocab-side__link:not(.is-active):hover {
       background: transparent;
-      color: var(--ink);
       transform: none;
     }
   }

@@ -217,9 +217,10 @@ const levelsRange = levels.length ? levels[0].level + "–" + levels[levels.leng
   }
 
   /* тач: после тапа браузер держит :hover — чип оставался бы
-     «нажатым», пока спай подсвечивает другой уровень (update223) */
+     «нажатым», пока спай подсвечивает другой уровень (update223);
+     активный чип не гасим, иначе его подсветка пропадает */
   @media (hover: none), (pointer: coarse) {
-    .cheats-lvls__link:hover {
+    .cheats-lvls__link:not(.is-active):hover {
       background: transparent;
       color: var(--ink);
       transform: none;

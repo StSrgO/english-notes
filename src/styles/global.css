@@ -5674,18 +5674,21 @@ body:has(.soon) {
    даёт :active. Для курсора (mouse) hover сохранён.
    ============================================================ */
 @media (hover: none), (pointer: coarse) {
-  .catalog__nav .level-link:hover { background: transparent; transform: none; }
-  .lesson-bar .bar-item:hover,
-  .lesson-bar .act-link:hover { background: transparent; }
-  .side--v3 .side3__link:hover { background: transparent; color: var(--ink-soft); transform: none; }
-  .lesson-back:hover { background: transparent; color: var(--ink-soft); }
-  .lv2-chip:hover { background: transparent; color: var(--ink-soft); transform: none; }
+  /* Выбранные (.is-active/.is-on) пункты не гасим: после тапа браузер
+     держит :hover на нажатом чипе, и правило ниже перебивало бы
+     подсветку активного пункта (фон становится прозрачным). */
+  .catalog__nav .level-link:not(.is-active):hover { background: transparent; transform: none; }
+  .lesson-bar .bar-item:not(.is-active):not(.is-on):hover,
+  .lesson-bar .act-link:not(.is-active):not(.is-on):hover { background: transparent; }
+  .side--v3 .side3__link:not(.is-active):hover { background: transparent; color: var(--ink-soft); transform: none; }
+  .lesson-back:not(.is-active):not(.is-on):hover { background: transparent; color: var(--ink-soft); }
+  .lv2-chip:not(.is-active):hover { background: transparent; color: var(--ink-soft); transform: none; }
 }
 /* В мобильном варианте секции урока чипы .side3__link уже стоят
    на mint-фоне в покое: гасим только сдвиг, фон оставляем. */
 @media (max-width: 920px) {
   @media (hover: none), (pointer: coarse) {
-    .side--v3 .side3__link:hover { background: var(--mint); }
+    .side--v3 .side3__link:not(.is-active):hover { background: var(--mint); }
   }
 }
 
@@ -5852,6 +5855,33 @@ body:has(.soon) {
   letter-spacing: -0.01em;
   line-height: 1.05;
   color: var(--ink);
+}
+
+/* ============================================================
+   update226 — мобильные правки (по команде пользователя):
+   1. /soon: подтекст без «пустых» строк — строфы разложены на
+      блоки .soon__st (разметка в soon.astro), на десктопе между
+      ними отступ в пустую строку (1.6em), на мобильном — ноль,
+      текст идёт плотно, строка за строкой;
+   2. главная: надпись-«плашка» classic · rock-n-roll · grammar
+      на мобильном растянута по ширине контентной колонки (justify),
+      как строки абзацев под ней; за край экрана не выходит.
+   ============================================================ */
+.soon__st { display: block; }
+.soon__st + .soon__st { margin-top: 1.6em; }
+
+@media (max-width: 768px) {
+  .soon__st + .soon__st { margin-top: 0; }
+}
+
+@media (max-width: 768px) {
+  /* Надпись растягивается по всей ширине контентной колонки
+     (как заголовок и абзацы под ней): текст распределяется от левого
+     до правого края колонки. За пределы колонки/экрана не выходит. */
+  .hero .eyebrow {
+    text-align: justify;
+    text-align-last: justify;
+  }
 }
 
 
