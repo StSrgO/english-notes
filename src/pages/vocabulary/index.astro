@@ -40,9 +40,14 @@ const topics = Object.values(vocabularyFiles)
         }
         const totalWords = topic.total ?? topic.groups.reduce((n, g) => n + (g.words?.length || 0), 0);
         const pad = (i) => String(i + 1).padStart(2, "0");
+        // тренажёр форм (v1/v2/v3): имена групп в карточке — русские (типы форм);
+        // тематические темы (слова {en}): группы-частицы называем по-английски
+        const hasVerbForms = topic.groups.some((g) => g.words?.some((w) => w.v1));
         // компактное имя группы в карточке: длинное «Вторая и третья формы»
         // сокращаем до v2/v3, чтобы название целиком влезало в строку
         const shortName = (s) => String(s).replace("Вторая и третья формы", "v2/v3");
+        const groupListName = (g) =>
+          hasVerbForms ? shortName(g.groupNameRu || g.groupName) : g.groupName;
         return (
           <a href={`/vocabulary/${topic.slug}`} class="vocabulary-card vocabulary-card--groups">
             <h2 class="vocabulary-card__title">{topic.title}</h2>
@@ -52,7 +57,7 @@ const topics = Object.values(vocabularyFiles)
               {topic.groups.map((g, i) => (
                 <li class="vocabulary-card__group">
                   <span class="vocabulary-card__gn">{pad(i)}</span>
-                  <span class="vocabulary-card__gname">{shortName(g.groupNameRu || g.groupName)}</span>
+                  <span class="vocabulary-card__gname">{groupListName(g)}</span>
                   <span class="vocabulary-card__gcount">{g.words?.length || 0}</span>
                 </li>
               ))}

@@ -1,0 +1,391 @@
+{
+  "slug": "phrasal-verbs",
+  "title": "Phrasal Verbs",
+  "titleRu": "Фразовые глаголы",
+  "intro": "Фразовые глаголы — сочетания простого глагола с короткой частицей (give up, find out, turn off). Частица меняет смысл глагола, иногда до неузнаваемости: give — «давать», а give up — «сдаваться». Привычка к таким связкам досталась английскому от древних германских языков: новое значение собирали из уже знакомых слов, а не заимствовали. Позже в язык пришли латинские и французские «книжные» синонимы — put off и postpone, find out и discover, — но в живой речи, фильмах и песнях победили именно фразовые глаголы. Здесь собраны самые частотные из них — больше двухсот единиц, разбитых по частицам, чтобы были видны закономерности: up добавляет «вверх и до конца», out — «наружу». У каждого глагола есть произношение, перевод и живой пример с озвучкой.",
+  "groups": [
+    {
+      "id": "pv-up",
+      "groupName": "up",
+      "groupNameRu": "вверх · до конца",
+      "words": [
+        { "en": "give up", "transcription": "ˌɡɪv ˈʌp", "ru": "сдаваться", "example": { "en": "Don't give up — you're almost there.", "ru": "Не сдавайся — ты уже почти у цели." } },
+        { "en": "wake up", "transcription": "ˌweɪk ˈʌp", "ru": "просыпаться", "example": { "en": "I wake up at seven every day.", "ru": "Я просыпаюсь в семь каждый день." } },
+        { "en": "get up", "transcription": "ˌɡet ˈʌp", "ru": "вставать с постели", "example": { "en": "He gets up early even on Sundays.", "ru": "Он встаёт рано даже по воскресеньям." } },
+        { "en": "stand up", "transcription": "ˌstænd ˈʌp", "ru": "вставать на ноги", "example": { "en": "Everyone stood up when she entered.", "ru": "Все встали, когда она вошла." } },
+        { "en": "grow up", "transcription": "ˌɡrəʊ ˈʌp", "ru": "вырастать", "example": { "en": "She grew up in a small town.", "ru": "Она выросла в маленьком городке." } },
+        { "en": "make up", "transcription": "ˌmeɪk ˈʌp", "ru": "выдумывать", "example": { "en": "He made up an excuse for being late.", "ru": "Он выдумал оправдание своему опозданию." } },
+        { "en": "pick up", "transcription": "ˌpɪk ˈʌp", "ru": "забирать, заезжать за кем-то", "example": { "en": "Could you pick me up at the airport?", "ru": "Не мог бы ты забрать меня из аэропорта?" } },
+        { "en": "look up", "transcription": "ˌlʊk ˈʌp", "ru": "искать (в словаре, в интернете)", "example": { "en": "If you don't know the word, look it up.", "ru": "Если не знаешь слова, посмотри его в словаре." } },
+        { "en": "turn up", "transcription": "ˌtɜːn ˈʌp", "ru": "появляться, приходить", "example": { "en": "About thirty people turned up.", "ru": "Пришло около тридцати человек." } },
+        { "en": "show up", "transcription": "ˌʃəʊ ˈʌp", "ru": "появляться (в назначенном месте)", "example": { "en": "She showed up an hour late.", "ru": "Она появилась на час позже." } },
+        { "en": "set up", "transcription": "ˌset ˈʌp", "ru": "открывать, организовывать", "example": { "en": "They set up a small business together.", "ru": "Они вместе открыли небольшой бизнес." } },
+        { "en": "end up", "transcription": "ˌend ˈʌp", "ru": "в итоге оказаться где-то", "example": { "en": "We ended up watching TV all evening.", "ru": "В итоге мы весь вечер смотрели телевизор." } },
+        { "en": "bring up", "transcription": "ˌbrɪŋ ˈʌp", "ru": "воспитывать", "example": { "en": "She was brought up by her grandmother.", "ru": "Её воспитала бабушка." } },
+        { "en": "come up", "transcription": "ˌkʌm ˈʌp", "ru": "возникать (о делах, теме)", "example": { "en": "Something came up, so I couldn't call you.", "ru": "Возникли дела, поэтому я не смог тебе позвонить." } },
+        { "en": "take up", "transcription": "ˌteɪk ˈʌp", "ru": "начать заниматься (хобби, спортом)", "example": { "en": "He took up photography last year.", "ru": "В прошлом году он занялся фотографией." } },
+        { "en": "put up with", "transcription": "ˌpʊt ˈʌp wɪð", "ru": "мириться с чем-то", "example": { "en": "I can't put up with this noise any longer.", "ru": "Я больше не могу мириться с этим шумом." } },
+        { "en": "keep up", "transcription": "ˌkiːp ˈʌp", "ru": "продолжать, не останавливаться", "example": { "en": "You're doing great — keep it up!", "ru": "У тебя отлично получается — продолжай!" } },
+        { "en": "catch up", "transcription": "ˌkætʃ ˈʌp", "ru": "навёрстывать упущенное", "example": { "en": "I missed two weeks of class and need to catch up.", "ru": "Я пропустил две недели занятий, нужно наверстать." } },
+        { "en": "clean up", "transcription": "ˌkliːn ˈʌp", "ru": "убирать, прибирать", "example": { "en": "Clean up your room before dinner.", "ru": "Убери в комнате перед ужином." } },
+        { "en": "dress up", "transcription": "ˌdres ˈʌp", "ru": "наряжаться", "example": { "en": "The kids dressed up as pirates.", "ru": "Дети нарядились пиратами." } },
+        { "en": "hang up", "transcription": "ˌhæŋ ˈʌp", "ru": "класть трубку", "example": { "en": "Don't hang up, I have one more question.", "ru": "Не клади трубку, у меня ещё один вопрос." } },
+        { "en": "hurry up", "transcription": "ˌhʌri ˈʌp", "ru": "торопиться", "example": { "en": "Hurry up or we'll miss the bus.", "ru": "Поторопись, а то мы опоздаем на автобус." } },
+        { "en": "break up", "transcription": "ˌbreɪk ˈʌp", "ru": "расставаться (о паре)", "example": { "en": "They broke up after five years together.", "ru": "Они расстались после пяти лет вместе." } },
+        { "en": "stay up", "transcription": "ˌsteɪ ˈʌp", "ru": "не ложиться спать", "example": { "en": "We stayed up talking until midnight.", "ru": "Мы не ложились и проговорили до полуночи." } },
+        { "en": "use up", "transcription": "ˌjuːz ˈʌp", "ru": "израсходовать, извести", "example": { "en": "We've used up all the hot water.", "ru": "Мы израсходовали всю горячую воду." } },
+        { "en": "save up", "transcription": "ˌseɪv ˈʌp", "ru": "копить деньги", "example": { "en": "I'm saving up for a new laptop.", "ru": "Я коплю на новый ноутбук." } },
+        { "en": "sign up", "transcription": "ˌsaɪn ˈʌp", "ru": "записываться, регистрироваться", "example": { "en": "I signed up for a yoga class.", "ru": "Я записалась на занятия йогой." } },
+        { "en": "warm up", "transcription": "ˌwɔːm ˈʌp", "ru": "разминаться", "example": { "en": "Always warm up before a run.", "ru": "Перед пробежкой всегда разминайся." } },
+        { "en": "cheer up", "transcription": "ˌtʃɪər ˈʌp", "ru": "приободряться, не унывать", "example": { "en": "Cheer up — it's not the end of the world.", "ru": "Не унывай — это не конец света." } },
+        { "en": "tidy up", "transcription": "ˌtaɪdi ˈʌp", "ru": "прибирать, наводить порядок", "example": { "en": "We need to tidy up before the guests arrive.", "ru": "Нужно прибраться до прихода гостей." } },
+        { "en": "clear up", "transcription": "ˌklɪər ˈʌp", "ru": "проясняться (о погоде)", "example": { "en": "The sky cleared up after the rain.", "ru": "После дождя небо прояснилось." } },
+        { "en": "fill up", "transcription": "ˌfɪl ˈʌp", "ru": "заправлять (бак); наполнять", "example": { "en": "Let's fill up the tank before the trip.", "ru": "Давай заправим бак перед поездкой." } },
+        { "en": "screw up", "transcription": "ˌskruː ˈʌp", "ru": "испортить, провалить (разг.)", "example": { "en": "I completely screwed up the interview.", "ru": "Я напрочь провалил собеседование." } },
+        { "en": "mess up", "transcription": "ˌmes ˈʌp", "ru": "испортить, напортачить (разг.)", "example": { "en": "Don't mess up this presentation.", "ru": "Не испорти эту презентацию." } },
+        { "en": "mix up", "transcription": "ˌmɪks ˈʌp", "ru": "перепутать", "example": { "en": "I always mix up their names.", "ru": "Я вечно путаю их имена." } },
+        { "en": "look up to", "transcription": "ˌlʊk ˈʌp tuː", "ru": "уважать, равняться на", "example": { "en": "She looks up to her older sister.", "ru": "Она равняется на свою старшую сестру." } },
+        { "en": "put up", "transcription": "ˌpʊt ˈʌp", "ru": "приютить, разместить у себя", "example": { "en": "We can put you up for the night.", "ru": "Мы можем приютить тебя на ночь." } },
+        { "en": "open up", "transcription": "ˌəʊpən ˈʌp", "ru": "открывать (возможности)", "example": { "en": "The new job opened up many opportunities.", "ru": "Новая работа открыла много возможностей." } },
+        { "en": "pack up", "transcription": "ˌpæk ˈʌp", "ru": "собирать вещи", "example": { "en": "We packed up and left before sunrise.", "ru": "Мы собрали вещи и уехали до рассвета." } },
+        { "en": "live up to", "transcription": "ˌlɪv ˈʌp tuː", "ru": "соответствовать (ожиданиям)", "example": { "en": "The movie lived up to the hype.", "ru": "Фильм оправдал всю шумиху." } },
+        { "en": "make up for", "transcription": "ˌmeɪk ˈʌp fɔː", "ru": "компенсировать", "example": { "en": "A good breakfast makes up for a short night.", "ru": "Хороший завтрак компенсирует короткую ночь." } }
+      ]
+    },
+    {
+      "id": "pv-out",
+      "groupName": "out",
+      "groupNameRu": "наружу · извлечение",
+      "words": [
+        { "en": "find out", "transcription": "ˌfaɪnd ˈaʊt", "ru": "выяснять, узнавать", "example": { "en": "Let's find out what happened.", "ru": "Давай выясним, что произошло." } },
+        { "en": "figure out", "transcription": "ˌfɪɡər ˈaʊt", "ru": "понимать, разбираться", "example": { "en": "I can't figure out this puzzle.", "ru": "Не могу разобраться в этой головоломке." } },
+        { "en": "work out", "transcription": "ˌwɜːk ˈaʊt", "ru": "улаживаться, получаться", "example": { "en": "Don't worry — everything will work out.", "ru": "Не переживай — всё уладится." } },
+        { "en": "point out", "transcription": "ˌpɔɪnt ˈaʊt", "ru": "указывать, отмечать", "example": { "en": "She pointed out a mistake in my report.", "ru": "Она указала на ошибку в моём отчёте." } },
+        { "en": "carry out", "transcription": "ˌkæri ˈaʊt", "ru": "выполнять, проводить", "example": { "en": "Scientists carried out a series of tests.", "ru": "Учёные провели серию тестов." } },
+        { "en": "run out of", "transcription": "ˌrʌn ˈaʊt əv", "ru": "заканчиваться (о запасах)", "example": { "en": "We've run out of milk.", "ru": "У нас закончилось молоко." } },
+        { "en": "check out", "transcription": "ˌtʃek ˈaʊt", "ru": "посмотреть, оценить", "example": { "en": "Check out this new café!", "ru": "Посмотри, какое новое кафе открылось!" } },
+        { "en": "go out", "transcription": "ˌɡəʊ ˈaʊt", "ru": "идти куда-то развлечься", "example": { "en": "We went out for dinner on Friday.", "ru": "В пятницу мы ходили ужинать в город." } },
+        { "en": "eat out", "transcription": "ˌiːt ˈaʊt", "ru": "есть в кафе или ресторане", "example": { "en": "We eat out about twice a month.", "ru": "Мы ходим в ресторан примерно два раза в месяц." } },
+        { "en": "hang out", "transcription": "ˌhæŋ ˈaʊt", "ru": "проводить время вместе", "example": { "en": "We hang out at the park after school.", "ru": "После школы мы тусуемся в парке." } },
+        { "en": "watch out", "transcription": "ˌwɒtʃ ˈaʊt", "ru": "быть осторожным", "example": { "en": "Watch out — there's a step here.", "ru": "Осторожно — здесь ступенька." } },
+        { "en": "drop out", "transcription": "ˌdrɒp ˈaʊt", "ru": "бросать учёбу", "example": { "en": "He dropped out of university in his second year.", "ru": "Он бросил университет на втором курсе." } },
+        { "en": "fill out", "transcription": "ˌfɪl ˈaʊt", "ru": "заполнять (бланк, форму)", "example": { "en": "Please fill out this form.", "ru": "Пожалуйста, заполните эту форму." } },
+        { "en": "sort out", "transcription": "ˌsɔːt ˈaʊt", "ru": "улаживать, решать проблему", "example": { "en": "We need to sort out this problem.", "ru": "Нам нужно решить эту проблему." } },
+        { "en": "turn out", "transcription": "ˌtɜːn ˈaʊt", "ru": "оказываться", "example": { "en": "It turned out that she was right.", "ru": "Оказалось, что она была права." } },
+        { "en": "try out", "transcription": "ˌtraɪ ˈaʊt", "ru": "пробовать, испытывать", "example": { "en": "You should try out this recipe.", "ru": "Тебе стоит попробовать этот рецепт." } },
+        { "en": "help out", "transcription": "ˌhelp ˈaʊt", "ru": "выручать, помогать", "example": { "en": "My sister helped me out with the move.", "ru": "Сестра помогла мне с переездом." } },
+        { "en": "move out", "transcription": "ˌmuːv ˈaʊt", "ru": "съезжать (с квартиры)", "example": { "en": "She moved out of her parents' house.", "ru": "Она съехала из родительского дома." } },
+        { "en": "leave out", "transcription": "ˌliːv ˈaʊt", "ru": "пропускать, не включать", "example": { "en": "Don't leave out any details.", "ru": "Не пропускай никаких деталей." } },
+        { "en": "hand out", "transcription": "ˌhænd ˈaʊt", "ru": "раздавать", "example": { "en": "The teacher handed out the tests.", "ru": "Учитель раздал контрольные." } },
+        { "en": "sell out", "transcription": "ˌsel ˈaʊt", "ru": "раскупать, распродаваться", "example": { "en": "The tickets sold out in an hour.", "ru": "Билеты раскупили за час." } },
+        { "en": "stand out", "transcription": "ˌstænd ˈaʊt", "ru": "выделяться", "example": { "en": "Her red coat really stands out.", "ru": "Её красное пальто очень выделяется." } },
+        { "en": "print out", "transcription": "ˌprɪnt ˈaʊt", "ru": "распечатывать", "example": { "en": "Print out the ticket and take it with you.", "ru": "Распечатай билет и возьми с собой." } },
+        { "en": "blow out", "transcription": "ˌbləʊ ˈaʊt", "ru": "задувать (свечу)", "example": { "en": "She blew out all the candles on the cake.", "ru": "Она задула все свечи на торте." } },
+        { "en": "break out", "transcription": "ˌbreɪk ˈaʊt", "ru": "вспыхивать (о пожаре, войне)", "example": { "en": "A fire broke out in the kitchen.", "ru": "На кухне вспыхнул пожар." } },
+        { "en": "pass out", "transcription": "ˌpɑːs ˈaʊt", "ru": "потерять сознание", "example": { "en": "He passed out from the heat.", "ru": "Он потерял сознание от жары." } },
+        { "en": "set out", "transcription": "ˌset ˈaʊt", "ru": "намереваться, ставить целью", "example": { "en": "They set out to prove him wrong.", "ru": "Они задались целью доказать, что он не прав." } },
+        { "en": "head out", "transcription": "ˌhed ˈaʊt", "ru": "отправляться, выдвигаться", "example": { "en": "We headed out to the beach early.", "ru": "Мы отправились на пляж рано утром." } },
+        { "en": "walk out", "transcription": "ˌwɔːk ˈaʊt", "ru": "демонстративно уйти", "example": { "en": "She walked out of the meeting in anger.", "ru": "Она в гневе вышла из зала заседания." } },
+        { "en": "burn out", "transcription": "ˌbɜːn ˈaʊt", "ru": "выгорать (эмоционально)", "example": { "en": "He burned out after months of overtime.", "ru": "Он выгорел после месяцев переработок." } },
+        { "en": "wear out", "transcription": "ˌweə ˈaʊt", "ru": "изнашиваться, снашиваться", "example": { "en": "These shoes are completely worn out.", "ru": "Эти туфли совсем износились." } },
+        { "en": "wipe out", "transcription": "ˌwaɪp ˈaʊt", "ru": "уничтожать, сметать", "example": { "en": "The wave wiped out our sandcastle.", "ru": "Волна снесла наш замок из песка." } },
+        { "en": "call out", "transcription": "ˌkɔːl ˈaʊt", "ru": "выкрикивать, громко называть", "example": { "en": "The teacher called out my name.", "ru": "Учитель громко назвал моё имя." } },
+        { "en": "single out", "transcription": "ˌsɪŋɡl ˈaʊt", "ru": "выделять среди других", "example": { "en": "Why did they single out one student?", "ru": "Почему они выделили одного студента?" } },
+        { "en": "spell out", "transcription": "ˌspel ˈaʊt", "ru": "разъяснять до мелочей", "example": { "en": "Do I have to spell it out for you?", "ru": "Мне что, разжёвывать тебе всё?" } }
+      ]
+    },
+    {
+      "id": "pv-off",
+      "groupName": "off",
+      "groupNameRu": "отделение · выключение",
+      "words": [
+        { "en": "turn off", "transcription": "ˌtɜːn ˈɒf", "ru": "выключать", "example": { "en": "Don't forget to turn off the lights.", "ru": "Не забудь выключить свет." } },
+        { "en": "take off", "transcription": "ˌteɪk ˈɒf", "ru": "взлетать; снимать (одежду)", "example": { "en": "The plane took off on time.", "ru": "Самолёт взлетел вовремя." } },
+        { "en": "get off", "transcription": "ˌɡet ˈɒf", "ru": "выходить (из автобуса, поезда)", "example": { "en": "Get off at the next stop.", "ru": "Выходи на следующей остановке." } },
+        { "en": "put off", "transcription": "ˌpʊt ˈɒf", "ru": "откладывать", "example": { "en": "Don't put off your homework until Sunday.", "ru": "Не откладывай домашнее задание до воскресенья." } },
+        { "en": "show off", "transcription": "ˌʃəʊ ˈɒf", "ru": "хвастаться, красоваться", "example": { "en": "He bought a sports car just to show off.", "ru": "Он купил спортивную машину, чтобы просто похвастаться." } },
+        { "en": "set off", "transcription": "ˌset ˈɒf", "ru": "отправляться в путь", "example": { "en": "We set off at dawn.", "ru": "Мы отправились в путь на рассвете." } },
+        { "en": "call off", "transcription": "ˌkɔːl ˈɒf", "ru": "отменять", "example": { "en": "The match was called off because of the rain.", "ru": "Матч отменили из-за дождя." } },
+        { "en": "drop off", "transcription": "ˌdrɒp ˈɒf", "ru": "подвозить, высаживать", "example": { "en": "I'll drop you off at the station.", "ru": "Я подвезу тебя до вокзала." } },
+        { "en": "pay off", "transcription": "ˌpeɪ ˈɒf", "ru": "окупаться, приносить результат", "example": { "en": "All those hours of practice paid off.", "ru": "Все те часы тренировок окупились." } },
+        { "en": "cut off", "transcription": "ˌkʌt ˈɒf", "ru": "отключать, прерывать", "example": { "en": "The storm cut off the electricity.", "ru": "Из-за бури отключили электричество." } },
+        { "en": "go off", "transcription": "ˌɡəʊ ˈɒf", "ru": "срабатывать (о будильнике)", "example": { "en": "My alarm didn't go off this morning.", "ru": "Сегодня утром мой будильник не сработал." } },
+        { "en": "kick off", "transcription": "ˌkɪk ˈɒf", "ru": "начинаться (о матче, событии)", "example": { "en": "The game kicks off at eight.", "ru": "Игра начинается в восемь." } },
+        { "en": "lay off", "transcription": "ˌleɪ ˈɒf", "ru": "увольнять (сокращать штат)", "example": { "en": "The company laid off two hundred workers.", "ru": "Компания сократила двести сотрудников." } },
+        { "en": "see off", "transcription": "ˌsiː ˈɒf", "ru": "провожать (в дорогу)", "example": { "en": "We saw them off at the airport.", "ru": "Мы проводили их в аэропорту." } },
+        { "en": "tell off", "transcription": "ˌtel ˈɒf", "ru": "отчитывать, делать выговор", "example": { "en": "The teacher told him off for being late.", "ru": "Учитель отчитал его за опоздание." } },
+        { "en": "come off", "transcription": "ˌkʌm ˈɒf", "ru": "отрываться, сходить (о детали)", "example": { "en": "The handle came off the door.", "ru": "С двери оторвалась ручка." } },
+        { "en": "switch off", "transcription": "ˌswɪtʃ ˈɒf", "ru": "выключать (прибор)", "example": { "en": "Switch off the laptop before you leave.", "ru": "Выключи ноутбук перед уходом." } },
+        { "en": "doze off", "transcription": "ˌdəʊz ˈɒf", "ru": "задремать, клевать носом", "example": { "en": "I dozed off during the film.", "ru": "Я задремал посреди фильма." } },
+        { "en": "rip off", "transcription": "ˌrɪp ˈɒf", "ru": "обдирать, заламывать цену (разг.)", "example": { "en": "They ripped me off at that shop.", "ru": "В том магазине меня ободрали как липку." } },
+        { "en": "write off", "transcription": "ˌraɪt ˈɒf", "ru": "списывать (долг, имущество)", "example": { "en": "The insurance company wrote off the car.", "ru": "Страховая компания списала машину." } },
+        { "en": "head off", "transcription": "ˌhed ˈɒf", "ru": "предотвращать", "example": { "en": "We managed to head off a crisis.", "ru": "Нам удалось предотвратить кризис." } }
+      ]
+    },
+    {
+      "id": "pv-down",
+      "groupName": "down",
+      "groupNameRu": "вниз · уменьшение",
+      "words": [
+        { "en": "calm down", "transcription": "ˌkɑːm ˈdaʊn", "ru": "успокаиваться", "example": { "en": "Calm down and tell me what happened.", "ru": "Успокойся и расскажи, что случилось." } },
+        { "en": "break down", "transcription": "ˌbreɪk ˈdaʊn", "ru": "ломаться (о технике)", "example": { "en": "The car broke down on the highway.", "ru": "Машина сломалась на шоссе." } },
+        { "en": "turn down", "transcription": "ˌtɜːn ˈdaʊn", "ru": "отклонять (предложение)", "example": { "en": "He turned down the job offer.", "ru": "Он отклонил предложение о работе." } },
+        { "en": "write down", "transcription": "ˌraɪt ˈdaʊn", "ru": "записывать", "example": { "en": "Let me write down your phone number.", "ru": "Дай я запишу твой номер телефона." } },
+        { "en": "put down", "transcription": "ˌpʊt ˈdaʊn", "ru": "класть, опускать", "example": { "en": "Put down your phone and listen to me.", "ru": "Положи телефон и послушай меня." } },
+        { "en": "settle down", "transcription": "ˌsetl ˈdaʊn", "ru": "осесть, обосноваться", "example": { "en": "After college he settled down in London.", "ru": "После колледжа он обосновался в Лондоне." } },
+        { "en": "cut down on", "transcription": "ˌkʌt ˈdaʊn ɒn", "ru": "сокращать потребление", "example": { "en": "I'm trying to cut down on sugar.", "ru": "Я стараюсь есть меньше сахара." } },
+        { "en": "let down", "transcription": "ˌlet ˈdaʊn", "ru": "подводить", "example": { "en": "You promised to help — don't let me down.", "ru": "Ты обещал помочь — не подведи меня." } },
+        { "en": "shut down", "transcription": "ˌʃʌt ˈdaʊn", "ru": "закрываться (о компании); выключаться", "example": { "en": "The factory shut down last year.", "ru": "В прошлом году фабрика закрылась." } },
+        { "en": "slow down", "transcription": "ˌsləʊ ˈdaʊn", "ru": "замедляться, сбавлять скорость", "example": { "en": "Slow down, you're driving too fast.", "ru": "Сбавь скорость, ты едешь слишком быстро." } },
+        { "en": "come down with", "transcription": "ˌkʌm ˈdaʊn wɪð", "ru": "заболеть, подхватить простуду", "example": { "en": "I think I'm coming down with a cold.", "ru": "Кажется, я подхватываю простуду." } },
+        { "en": "look down on", "transcription": "ˌlʊk ˈdaʊn ɒn", "ru": "смотреть свысока на", "example": { "en": "She looks down on people without a degree.", "ru": "Она смотрит свысока на людей без диплома." } },
+        { "en": "fall down", "transcription": "ˌfɔːl ˈdaʊn", "ru": "падать", "example": { "en": "He fell down and hurt his knee.", "ru": "Он упал и ушиб колено." } },
+        { "en": "go down", "transcription": "ˌɡəʊ ˈdaʊn", "ru": "снижаться (о ценах, уровне)", "example": { "en": "Prices went down after the holidays.", "ru": "После праздников цены снизились." } },
+        { "en": "die down", "transcription": "ˌdaɪ ˈdaʊn", "ru": "затихать, утихать", "example": { "en": "The wind died down by midnight.", "ru": "К полуночи ветер стих." } },
+        { "en": "hand down", "transcription": "ˌhænd ˈdaʊn", "ru": "передавать по наследству", "example": { "en": "This watch was handed down from my grandfather.", "ru": "Эти часы перешли мне по наследству от деда." } },
+        { "en": "track down", "transcription": "ˌtræk ˈdaʊn", "ru": "разыскивать, выслеживать", "example": { "en": "The police tracked down the missing car.", "ru": "Полиция разыскала пропавшую машину." } },
+        { "en": "boil down to", "transcription": "ˌbɔɪl ˈdaʊn tuː", "ru": "сводиться к", "example": { "en": "It all boils down to money.", "ru": "Всё сводится к деньгам." } },
+        { "en": "knock down", "transcription": "ˌnɒk ˈdaʊn", "ru": "сносить (здание); сбивать с ног", "example": { "en": "They knocked down the old factory.", "ru": "Они снесли старую фабрику." } }
+      ]
+    },
+    {
+      "id": "pv-on",
+      "groupName": "on",
+      "groupNameRu": "включение · продолжение",
+      "words": [
+        { "en": "put on", "transcription": "ˌpʊt ˈɒn", "ru": "надевать", "example": { "en": "Put on a jacket, it's cold outside.", "ru": "Надень куртку, на улице холодно." } },
+        { "en": "turn on", "transcription": "ˌtɜːn ˈɒn", "ru": "включать", "example": { "en": "Can you turn on the heating?", "ru": "Можешь включить отопление?" } },
+        { "en": "try on", "transcription": "ˌtraɪ ˈɒn", "ru": "примерять", "example": { "en": "Can I try on these jeans?", "ru": "Можно примерить эти джинсы?" } },
+        { "en": "get on", "transcription": "ˌɡet ˈɒn", "ru": "ладить, уживаться", "example": { "en": "Do you get on with your colleagues?", "ru": "Ты ладишь со своими коллегами?" } },
+        { "en": "go on", "transcription": "ˌɡəʊ ˈɒn", "ru": "происходить; продолжаться", "example": { "en": "What's going on here?", "ru": "Что здесь происходит?" } },
+        { "en": "carry on", "transcription": "ˌkæri ˈɒn", "ru": "продолжать", "example": { "en": "Carry on with your work.", "ru": "Продолжай свою работу." } },
+        { "en": "hold on", "transcription": "ˌhəʊld ˈɒn", "ru": "подождать, не класть трубку", "example": { "en": "Hold on a second, I'll check.", "ru": "Подожди секунду, я проверю." } },
+        { "en": "move on", "transcription": "ˌmuːv ˈɒn", "ru": "двигаться дальше", "example": { "en": "Let's move on to the next question.", "ru": "Давай перейдём к следующему вопросу." } },
+        { "en": "count on", "transcription": "ˌkaʊnt ˈɒn", "ru": "рассчитывать на", "example": { "en": "You can always count on me.", "ru": "На меня всегда можно рассчитывать." } },
+        { "en": "rely on", "transcription": "rɪˈlaɪ ɒn", "ru": "полагаться на", "example": { "en": "Now we rely on our phones for everything.", "ru": "Сейчас мы во всём полагаемся на телефоны." } },
+        { "en": "take on", "transcription": "ˌteɪk ˈɒn", "ru": "браться за, взваливать на себя", "example": { "en": "Don't take on more than you can handle.", "ru": "Не бери на себя больше, чем можешь потянуть." } },
+        { "en": "keep on", "transcription": "ˌkiːp ˈɒn", "ru": "продолжать (делать что-то)", "example": { "en": "He kept on talking for an hour.", "ru": "Он продолжал говорить целый час." } },
+        { "en": "switch on", "transcription": "ˌswɪtʃ ˈɒn", "ru": "включать (прибор, свет)", "example": { "en": "Switch on the lamp, it's dark in here.", "ru": "Включи лампу, здесь темно." } },
+        { "en": "pass on", "transcription": "ˌpɑːs ˈɒn", "ru": "передавать дальше (информацию)", "example": { "en": "Pass on the message to the rest of the team.", "ru": "Передай сообщение остальной команде." } },
+        { "en": "tell on", "transcription": "ˌtel ˈɒn", "ru": "ябедничать на кого-то", "example": { "en": "Don't tell on me, please!", "ru": "Пожалуйста, не ябедничай на меня!" } }
+      ]
+    },
+    {
+      "id": "pv-in",
+      "groupName": "in",
+      "groupNameRu": "внутрь · включение",
+      "words": [
+        { "en": "give in", "transcription": "ˌɡɪv ˈɪn", "ru": "уступать, сдаваться", "example": { "en": "He refused to give in to their demands.", "ru": "Он отказался уступить их требованиям." } },
+        { "en": "check in", "transcription": "ˌtʃek ˈɪn", "ru": "регистрироваться (в отеле, на рейс)", "example": { "en": "We checked in at the hotel at noon.", "ru": "Мы заселились в отель в полдень." } },
+        { "en": "hand in", "transcription": "ˌhænd ˈɪn", "ru": "сдавать (работу)", "example": { "en": "Hand in your essay by Friday.", "ru": "Сдай эссе до пятницы." } },
+        { "en": "plug in", "transcription": "ˌplʌɡ ˈɪn", "ru": "подключать к розетке", "example": { "en": "Plug in the charger, please.", "ru": "Подключи зарядку, пожалуйста." } },
+        { "en": "log in", "transcription": "ˌlɒɡ ˈɪn", "ru": "входить в систему", "example": { "en": "Log in to check your email.", "ru": "Войди в систему, чтобы проверить почту." } },
+        { "en": "come in", "transcription": "ˌkʌm ˈɪn", "ru": "входить", "example": { "en": "Come in, the door is open!", "ru": "Входи, дверь открыта!" } },
+        { "en": "get in", "transcription": "ˌɡet ˈɪn", "ru": "прибывать (о поезде, самолёте)", "example": { "en": "What time does your flight get in?", "ru": "Во сколько прибывает твой рейс?" } },
+        { "en": "fit in", "transcription": "ˌfɪt ˈɪn", "ru": "вписываться в коллектив", "example": { "en": "He was shy and didn't fit in at first.", "ru": "Он был застенчив и поначалу не вписывался в коллектив." } },
+        { "en": "break in", "transcription": "ˌbreɪk ˈɪn", "ru": "вламываться", "example": { "en": "Burglars broke in while we were away.", "ru": "Пока нас не было, в дом вломились воры." } },
+        { "en": "drop in", "transcription": "ˌdrɒp ˈɪn", "ru": "заглядывать без предупреждения", "example": { "en": "Feel free to drop in anytime.", "ru": "Заходи без звонка в любое время." } },
+        { "en": "join in", "transcription": "ˌdʒɔɪn ˈɪn", "ru": "присоединяться к общему занятию", "example": { "en": "Come and join in the game!", "ru": "Давай, присоединяйся к игре!" } },
+        { "en": "move in", "transcription": "ˌmuːv ˈɪn", "ru": "въезжать в новое жильё", "example": { "en": "They moved in last Saturday.", "ru": "Они въехали в прошлую субботу." } },
+        { "en": "turn in", "transcription": "ˌtɜːn ˈɪn", "ru": "сдавать (работу, отчёт)", "example": { "en": "Turn in your reports by Friday.", "ru": "Сдайте отчёты до пятницы." } },
+        { "en": "settle in", "transcription": "ˌsetl ˈɪn", "ru": "осваиваться на новом месте", "example": { "en": "It took a while to settle in at the new school.", "ru": "Потребовалось время, чтобы освоиться в новой школе." } },
+        { "en": "take in", "transcription": "ˌteɪk ˈɪn", "ru": "усваивать, осознавать", "example": { "en": "I couldn't take in what he was saying.", "ru": "Я не мог осознать то, что он говорил." } }
+      ]
+    },
+    {
+      "id": "pv-away",
+      "groupName": "away",
+      "groupNameRu": "прочь · удаление",
+      "words": [
+        { "en": "put away", "transcription": "ˌpʊt əˈweɪ", "ru": "убирать на место", "example": { "en": "Put your toys away before dinner.", "ru": "Убери игрушки на место перед ужином." } },
+        { "en": "give away", "transcription": "ˌɡɪv əˈweɪ", "ru": "отдавать, раздавать", "example": { "en": "She gave away all her old clothes.", "ru": "Она раздала всю свою старую одежду." } },
+        { "en": "throw away", "transcription": "ˌθrəʊ əˈweɪ", "ru": "выбрасывать", "example": { "en": "Don't throw away that receipt.", "ru": "Не выбрасывай этот чек." } },
+        { "en": "take away", "transcription": "ˌteɪk əˈweɪ", "ru": "забирать, уносить", "example": { "en": "The waiter took away our plates.", "ru": "Официант унёс наши тарелки." } },
+        { "en": "go away", "transcription": "ˌɡəʊ əˈweɪ", "ru": "уезжать, уходить", "example": { "en": "We're going away for the weekend.", "ru": "Мы уезжаем на выходные." } },
+        { "en": "get away", "transcription": "ˌɡet əˈweɪ", "ru": "сбегать, скрываться", "example": { "en": "The thieves got away with the money.", "ru": "Воры скрылись с деньгами." } },
+        { "en": "run away", "transcription": "ˌrʌn əˈweɪ", "ru": "убегать", "example": { "en": "He ran away from home at sixteen.", "ru": "Он убежал из дома в шестнадцать лет." } },
+        { "en": "pass away", "transcription": "ˌpɑːs əˈweɪ", "ru": "умереть (вежливо)", "example": { "en": "Her grandfather passed away last year.", "ru": "В прошлом году умер её дедушка." } },
+        { "en": "stay away", "transcription": "ˌsteɪ əˈweɪ", "ru": "держаться подальше", "example": { "en": "Stay away from the edge of the cliff.", "ru": "Держись подальше от края обрыва." } },
+        { "en": "back away", "transcription": "ˌbæk əˈweɪ", "ru": "отступать, пятиться", "example": { "en": "He backed away from the growling dog.", "ru": "Он отступил от рычащей собаки." } },
+        { "en": "break away", "transcription": "ˌbreɪk əˈweɪ", "ru": "откалываться, выходить из группы", "example": { "en": "Some members broke away and formed a new party.", "ru": "Часть членов откололась и создала новую партию." } }
+      ]
+    },
+    {
+      "id": "pv-back",
+      "groupName": "back",
+      "groupNameRu": "назад · возврат",
+      "words": [
+        { "en": "come back", "transcription": "ˌkʌm ˈbæk", "ru": "возвращаться (сюда)", "example": { "en": "Wait for me to come back.", "ru": "Подожди, пока я вернусь." } },
+        { "en": "go back", "transcription": "ˌɡəʊ ˈbæk", "ru": "возвращаться (туда)", "example": { "en": "We went back home by taxi.", "ru": "Домой мы вернулись на такси." } },
+        { "en": "get back", "transcription": "ˌɡet ˈbæk", "ru": "вернуться (после поездки)", "example": { "en": "What time did you get back last night?", "ru": "Во сколько ты вернулся вчера вечером?" } },
+        { "en": "call back", "transcription": "ˌkɔːl ˈbæk", "ru": "перезванивать", "example": { "en": "I'll call you back in ten minutes.", "ru": "Я перезвоню тебе через десять минут." } },
+        { "en": "give back", "transcription": "ˌɡɪv ˈbæk", "ru": "возвращать (вещь)", "example": { "en": "Can you give me back my book?", "ru": "Вернёшь мне мою книгу?" } },
+        { "en": "pay back", "transcription": "ˌpeɪ ˈbæk", "ru": "возвращать деньги, долг", "example": { "en": "Thanks for the loan — I'll pay you back tomorrow.", "ru": "Спасибо за заём — завтра верну деньги." } },
+        { "en": "look back", "transcription": "ˌlʊk ˈbæk", "ru": "оглядываться на прошлое", "example": { "en": "Looking back, we made the right choice.", "ru": "Оглядываясь назад, мы сделали правильный выбор." } },
+        { "en": "hold back", "transcription": "ˌhəʊld ˈbæk", "ru": "сдерживать (слёзы, эмоции)", "example": { "en": "She held back her tears.", "ru": "Она сдержала слёзы." } },
+        { "en": "cut back on", "transcription": "ˌkʌt ˈbæk ɒn", "ru": "сокращать расходы", "example": { "en": "We're cutting back on eating out.", "ru": "Мы сокращаем расходы на рестораны." } },
+        { "en": "take back", "transcription": "ˌteɪk ˈbæk", "ru": "забирать обратно (товар)", "example": { "en": "The shop took back the faulty phone.", "ru": "Магазин принял обратно неисправный телефон." } },
+        { "en": "bring back", "transcription": "ˌbrɪŋ ˈbæk", "ru": "возвращать; напоминать (о прошлом)", "example": { "en": "This song brings back old memories.", "ru": "Эта песня воскрешает старые воспоминания." } },
+        { "en": "turn back", "transcription": "ˌtɜːn ˈbæk", "ru": "поворачивать назад", "example": { "en": "The road was blocked, so we turned back.", "ru": "Дорога была перекрыта, и мы повернули назад." } },
+        { "en": "write back", "transcription": "ˌraɪt ˈbæk", "ru": "ответить письмом", "example": { "en": "I wrote back to her the same day.", "ru": "Я ответил ей письмом в тот же день." } },
+        { "en": "step back", "transcription": "ˌstep ˈbæk", "ru": "отойти; взглянуть со стороны", "example": { "en": "Sometimes you need to step back and think.", "ru": "Иногда нужно отойти в сторону и подумать." } }
+      ]
+    },
+    {
+      "id": "pv-over",
+      "groupName": "over",
+      "groupNameRu": "через · повтор",
+      "words": [
+        { "en": "get over", "transcription": "ˌɡet ˈəʊvə", "ru": "оправляться, переживать", "example": { "en": "She's still getting over the breakup.", "ru": "Она до сих пор переживает расставание." } },
+        { "en": "think over", "transcription": "ˌθɪŋk ˈəʊvə", "ru": "обдумывать", "example": { "en": "Think it over and call me tomorrow.", "ru": "Обдумай это и позвони мне завтра." } },
+        { "en": "go over", "transcription": "ˌɡəʊ ˈəʊvə", "ru": "просматривать, повторять", "example": { "en": "Let's go over the plan one more time.", "ru": "Давай ещё раз повторим план." } },
+        { "en": "look over", "transcription": "ˌlʊk ˈəʊvə", "ru": "просматривать, проверять", "example": { "en": "Could you look over my essay?", "ru": "Не мог бы ты просмотреть моё эссе?" } },
+        { "en": "take over", "transcription": "ˌteɪk ˈəʊvə", "ru": "принимать руководство", "example": { "en": "He took over as manager in May.", "ru": "В мае он вступил в должность управляющего." } },
+        { "en": "hand over", "transcription": "ˌhænd ˈəʊvə", "ru": "передавать", "example": { "en": "She handed the documents over to the police.", "ru": "Она передала документы полиции." } },
+        { "en": "pull over", "transcription": "ˌpʊl ˈəʊvə", "ru": "съезжать на обочину", "example": { "en": "The police told him to pull over.", "ru": "Полиция велела ему съехать на обочину." } },
+        { "en": "come over", "transcription": "ˌkʌm ˈəʊvə", "ru": "приходить в гости", "example": { "en": "Come over for dinner tonight.", "ru": "Приходи сегодня на ужин." } },
+        { "en": "fall over", "transcription": "ˌfɔːl ˈəʊvə", "ru": "падать, опрокидываться", "example": { "en": "The bike fell over in the wind.", "ru": "Велосипед опрокинулся от ветра." } },
+        { "en": "talk over", "transcription": "ˌtɔːk ˈəʊvə", "ru": "обсуждать", "example": { "en": "Let's talk it over before we decide.", "ru": "Давай обсудим это, прежде чем решать." } },
+        { "en": "turn over", "transcription": "ˌtɜːn ˈəʊvə", "ru": "переворачивать(ся)", "example": { "en": "Turn over the page and continue reading.", "ru": "Переверни страницу и продолжай читать." } },
+        { "en": "sleep over", "transcription": "ˌsliːp ˈəʊvə", "ru": "ночевать в гостях", "example": { "en": "Can I sleep over at Tom's house?", "ru": "Можно я останусь ночевать у Тома?" } }
+      ]
+    },
+    {
+      "id": "pv-through",
+      "groupName": "through",
+      "groupNameRu": "сквозь · до конца",
+      "words": [
+        { "en": "go through", "transcription": "ˌɡəʊ ˈθruː", "ru": "переживать (трудный период)", "example": { "en": "She's going through a difficult time.", "ru": "Она переживает трудный период." } },
+        { "en": "get through", "transcription": "ˌɡet ˈθruː", "ru": "дозваниваться", "example": { "en": "I couldn't get through to her all day.", "ru": "Я весь день не мог до неё дозвониться." } },
+        { "en": "look through", "transcription": "ˌlʊk ˈθruː", "ru": "просматривать, пролистывать", "example": { "en": "I looked through my notes before the exam.", "ru": "Перед экзаменом я просмотрел свои записи." } },
+        { "en": "fall through", "transcription": "ˌfɔːl ˈθruː", "ru": "срываться (о планах)", "example": { "en": "Our plans for the trip fell through.", "ru": "Наши планы на поездку сорвались." } },
+        { "en": "come through", "transcription": "ˌkʌm ˈθruː", "ru": "поступать (о сообщении, результате)", "example": { "en": "The test results came through this morning.", "ru": "Результаты теста пришли сегодня утром." } },
+        { "en": "live through", "transcription": "ˌlɪv ˈθruː", "ru": "пережить (событие)", "example": { "en": "She lived through the war.", "ru": "Она пережила войну." } },
+        { "en": "sit through", "transcription": "ˌsɪt ˈθruː", "ru": "высидеть до конца", "example": { "en": "We sat through a three-hour meeting.", "ru": "Мы высидели трёхчасовое совещание." } },
+        { "en": "read through", "transcription": "ˌriːd ˈθruː", "ru": "прочитать целиком, внимательно", "example": { "en": "Read through the contract before signing it.", "ru": "Внимательно прочитай договор перед подписанием." } }
+      ]
+    },
+    {
+      "id": "pv-for",
+      "groupName": "for",
+      "groupNameRu": "поиск · цель",
+      "words": [
+        { "en": "look for", "transcription": "ˌlʊk ˈfɔː", "ru": "искать", "example": { "en": "I'm looking for my keys — have you seen them?", "ru": "Я ищу свои ключи — ты их не видел?" } },
+        { "en": "ask for", "transcription": "ˌɑːsk ˈfɔː", "ru": "просить", "example": { "en": "He asked for a glass of water.", "ru": "Он попросил стакан воды." } },
+        { "en": "wait for", "transcription": "ˌweɪt ˈfɔː", "ru": "ждать", "example": { "en": "We waited for the bus for twenty minutes.", "ru": "Мы ждали автобус двадцать минут." } },
+        { "en": "pay for", "transcription": "ˌpeɪ ˈfɔː", "ru": "платить за", "example": { "en": "Who's going to pay for the tickets?", "ru": "Кто будет платить за билеты?" } },
+        { "en": "apply for", "transcription": "əˈplaɪ ˈfɔː", "ru": "подавать заявку на", "example": { "en": "She applied for a job at the bank.", "ru": "Она подала заявку на работу в банке." } },
+        { "en": "care for", "transcription": "ˌkeə ˈfɔː", "ru": "заботиться о", "example": { "en": "She cared for her mother in her final years.", "ru": "В последние годы жизни матери она заботилась о ней." } },
+        { "en": "go for", "transcription": "ˌɡəʊ ˈfɔː", "ru": "выбирать, останавливаться на", "example": { "en": "Which option did you go for in the end?", "ru": "На каком варианте ты в итоге остановился?" } },
+        { "en": "settle for", "transcription": "ˌsetl ˈfɔː", "ru": "довольствоваться", "example": { "en": "Don't settle for second best.", "ru": "Не довольствуйся вторым местом." } }
+      ]
+    },
+    {
+      "id": "pv-after",
+      "groupName": "after",
+      "groupNameRu": "забота · сходство",
+      "words": [
+        { "en": "look after", "transcription": "ˌlʊk ˈɑːftə", "ru": "присматривать за", "example": { "en": "Who looks after the kids while you work?", "ru": "Кто присматривает за детьми, пока ты работаешь?" } },
+        { "en": "take after", "transcription": "ˌteɪk ˈɑːftə", "ru": "быть похожим на родственника", "example": { "en": "You really take after your mother.", "ru": "Ты очень похожа на свою маму." } }
+      ]
+    },
+    {
+      "id": "pv-with",
+      "groupName": "with",
+      "groupNameRu": "совместность · согласие",
+      "words": [
+        { "en": "deal with", "transcription": "ˌdiːl ˈwɪð", "ru": "разбираться с, решать", "example": { "en": "I have a lot of emails to deal with.", "ru": "Мне нужно разобраться с кучей писем." } },
+        { "en": "cope with", "transcription": "ˌkəʊp ˈwɪð", "ru": "справляться с", "example": { "en": "How do you cope with so much work?", "ru": "Как ты справляешься с таким объёмом работы?" } },
+        { "en": "agree with", "transcription": "əˈɡriː ˈwɪð", "ru": "соглашаться с", "example": { "en": "I don't agree with you on this.", "ru": "Я с тобой в этом не согласен." } },
+        { "en": "come up with", "transcription": "ˌkʌm ˈʌp wɪð", "ru": "придумывать (идею, решение)", "example": { "en": "She came up with a brilliant idea.", "ru": "Она придумала блестящую идею." } },
+        { "en": "go with", "transcription": "ˌɡəʊ ˈwɪð", "ru": "сочетаться, подходить", "example": { "en": "That tie goes well with your shirt.", "ru": "Этот галстук хорошо сочетается с твоей рубашкой." } }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Что означает фразовый глагол give up?",
+      "options": ["сдаваться", "выбрасывать", "надевать", "выключать"],
+      "answer": 0,
+      "why": "Give up — «сдаваться, прекращать попытки»: Don't give up! Остальные варианты — throw away, put on и turn off."
+    },
+    {
+      "q": "Что означает фразовый глагол find out?",
+      "options": ["засыпать", "выяснять, узнавать", "убирать на место", "провожать в дорогу"],
+      "answer": 1,
+      "why": "Find out — «выяснить, узнать»: Let's find out what happened."
+    },
+    {
+      "q": "Что означает фразовый глагол turn down?",
+      "options": ["включать", "надевать", "отклонять (предложение)", "подводить"],
+      "answer": 2,
+      "why": "Turn down — «отклонить, отказаться»: He turned down the job offer. Включать — turn on, надевать — put on."
+    },
+    {
+      "q": "Что означает фразовый глагол put off?",
+      "options": ["откладывать", "надевать", "записываться", "дозваниваться"],
+      "answer": 0,
+      "why": "Put off — «отложить на потом»: Don't put off your homework."
+    },
+    {
+      "q": "Что означает фразовый глагол look after?",
+      "options": ["искать", "ждать", "присматривать за кем-то", "полагаться на кого-то"],
+      "answer": 2,
+      "why": "Look after — «заботиться, присматривать»: Who looks after the kids? Искать — look for."
+    },
+    {
+      "q": "Что означает фразовый глагол run out of?",
+      "options": ["заканчиваться (о запасах)", "присматривать за кем-то", "выходить из транспорта", "успокаиваться"],
+      "answer": 0,
+      "why": "Run out of — «израсходовать всё, закончиться»: We've run out of milk."
+    },
+    {
+      "q": "Что означает фразовый глагол make up?",
+      "options": ["выдумывать", "копить деньги", "убирать на место", "хвастаться"],
+      "answer": 0,
+      "why": "Make up — «выдумать, сочинить»: He made up an excuse. Копить — save up, хвастаться — show off."
+    },
+    {
+      "q": "Что означает фразовый глагол get over?",
+      "options": ["возвращаться", "двигаться дальше", "оправляться, переживать", "дозваниваться"],
+      "answer": 2,
+      "why": "Get over — «оправиться, пережить»: She's still getting over the breakup."
+    },
+    {
+      "q": "Что означает фразовый глагол show off?",
+      "options": ["хвастаться", "наряжаться", "выключать", "торопиться"],
+      "answer": 0,
+      "why": "Show off — «хвастаться, красоваться»: He bought a sports car to show off."
+    },
+    {
+      "q": "Что означает фразовый глагол break down?",
+      "options": ["расставаться", "ломаться (о технике)", "выбрасывать", "взрослеть"],
+      "answer": 1,
+      "why": "Break down — «сломаться»: The car broke down on the highway. Расставаться — break up."
+    },
+    {
+      "q": "Что означает фразовый глагол come up with?",
+      "options": ["довольствоваться", "придумывать (идею, решение)", "мириться с чем-то", "выделять среди других"],
+      "answer": 1,
+      "why": "Come up with — «придумать, предложить»: She came up with a brilliant idea."
+    },
+    {
+      "q": "Что означает фразовый глагол mess up?",
+      "options": ["прибирать", "перепутать", "испортить, напортачить (разг.)", "компенсировать"],
+      "answer": 2,
+      "why": "Mess up — «испортить, напортачить»: Don't mess up this presentation."
+    },
+    {
+      "q": "Что означает фразовый глагол track down?",
+      "options": ["разыскивать, выслеживать", "отступать", "высидеть до конца", "списывать"],
+      "answer": 0,
+      "why": "Track down — «разыскать, выследить»: The police tracked down the missing car."
+    },
+    {
+      "q": "Что означает фразовый глагол wear out?",
+      "options": ["выгорать", "выкрикивать", "изнашиваться", "опрокидываться"],
+      "answer": 2,
+      "why": "Wear out — «изнашиваться, снашиваться»: These shoes are completely worn out."
+    }
+  ]
+}

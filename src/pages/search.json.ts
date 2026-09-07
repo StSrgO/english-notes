@@ -13,6 +13,10 @@ const grammarFiles = import.meta.glob(
 const cheatsFiles = import.meta.glob('../data/cheats/*.json', { eager: true, import: 'default' });
 const vocabFiles = import.meta.glob('../data/vocabulary/*.json', { eager: true, import: 'default' });
 
+// Якорь слова на странице темы: 'w-' + слаг — повторяет функцию из
+// vocabulary/[slug].astro (там по этому id рендерятся строки слов).
+const wSlug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+
 export function GET() {
   const items = [];
 
@@ -56,27 +60,45 @@ export function GET() {
     if (!v || !v.slug || !v.title) continue;
     items.push({ t: 'v', lvl: '', title: v.title, sub: v.titleRu || '', href: '/vocabulary/' + v.slug });
     if (Array.isArray(v.groups)) {
+      // имена групп в списках: у тренажёра форм — русские (типы форм),
+      // у тематических тем — английские (частицы), как в меню и карточке
+      const hasVerbForms = v.groups.some((g) => g.words?.some((w) => w.v1));
       for (const g of v.groups) {
         if (!g || !g.id) continue;
         items.push({
           t: 'v',
           lvl: '',
-          title: g.groupNameRu || g.groupName || '',
+          title: hasVerbForms ? g.groupNameRu || g.groupName : g.groupName,
           sub: v.title,
           href: '/vocabulary/' + v.slug + '#' + g.id,
         });
         if (!Array.isArray(g.words)) continue;
         for (const w of g.words) {
-          if (!w || !w.v1) continue;
-          const forms = [w.v1, w.v2, w.v3].filter(Boolean);
-          items.push({
-            t: 'v',
-            lvl: '',
-            title: forms.join(' — '),
-            sub: w.ru || '',
-            f: forms,
-            href: '/vocabulary/' + v.slug + '#w-' + w.v1,
-          });
+          if (!w) continue;
+          if (w.v1) {
+            // тренажёр неправильных глаголов: слово ищется по любой из трёх
+            // форм и по русскому переводу; ссылка — на строку #w-<v1>
+            const forms = [w.v1, w.v2, w.v3].filter(Boolean);
+            items.push({
+              t: 'v',
+              lvl: '',
+              title: forms.join(' — '),
+              sub: w.ru || '',
+              f: forms,
+              href: '/vocabulary/' + v.slug + '#w-' + w.v1,
+            });
+          } else if (w.en) {
+            // тематическая тема: у слова одна форма (en) + перевод;
+            // якорь строки — #w-<en> (в слаге, без пробелов)
+            items.push({
+              t: 'v',
+              lvl: '',
+              title: w.en,
+              sub: w.ru || '',
+              f: [w.en],
+              href: '/vocabulary/' + v.slug + '#w-' + wSlug(w.en),
+            });
+          }
         }
       }
     }

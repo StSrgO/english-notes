@@ -21,16 +21,22 @@ const isVerbTrainer =
 const totalVerbs = isVerbTrainer ? topic.total || 0 : 0;
 // «Вторая и третья формы …» в названиях групп — коротко v2/v3
 const shortGroupName = (s) => String(s).replace("Вторая и третья формы", "v2/v3");
+// Якорь слова на странице темы: 'w-' + слаг (в тренажёре якорь '#w-<v1>').
+// Слаг повторяет функцию из search.json.ts — ссылки поиска ведут на эти id.
+const wSlug = (s) => String(s).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+// Тематическая тема (не тренажёр форм): группы слов {en, ru, example} —
+// рендерится в том же лейауте тренажёра (меню, строки, озвучка).
+const isTopicTrainer =
+  !isVerbTrainer &&
+  Array.isArray(topic.groups) &&
+  topic.groups.some((g) => g.words?.some((w) => w.en && !w.v1));
+const topicWordCount = Array.isArray(topic.groups)
+  ? topic.groups.reduce((n, g) => n + (g.words?.length || 0), 0)
+  : topic.total || topic.words?.length || 0;
 ---
 
 <Base title={`${topic.title} — Словарный запас — EnglishNotes`}>
   <div class="vocabulary-topic">
-    {!isVerbTrainer && (
-      <nav class="vocabulary-topic__breadcrumb">
-        <a href="/vocabulary">← Все темы</a>
-      </nav>
-    )}
-
     {
       isVerbTrainer ? (
         <>
@@ -202,72 +208,110 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
         </>
       ) : (
         <>
-          <header class="vocabulary-topic__header">
-            <h1>{topic.title}</h1>
-            <p class="vocabulary-topic__sub">{topic.titleRu}</p>
-            <p class="vocabulary-topic__intro">{topic.intro}</p>
-          </header>
-
-          {topic.groups && topic.groups.length > 0 ? (
-            topic.groups.map((group) => (
-              <section class="vocabulary-group">
-                <h2 class="vocabulary-group__title">{group.groupName}</h2>
-                <p class="vocabulary-group__sub">{group.groupNameRu}</p>
-                <div class="vocabulary-group__words">
-                  {group.words.map((word) => (
-                    <div class="vocab-word">
-                      <div class="vocab-word__main">
-                        <span class="vocab-word__en">
-                          {word.v1 ? `${word.v1} — ${word.v2} — ${word.v3}` : word.en}
-                        </span>
-                        {word.transcription && (
-                          <span class="vocab-word__ipa">{word.transcription}</span>
-                        )}
-                      </div>
-                      <span class="vocab-word__ru">{word.ru}</span>
-                    </div>
-                  ))}
+          <div class="vocab-trainer">
+            <aside class="vocab-side" aria-label="Содержание страницы">
+              <nav class="vocab-side__nav">
+                {topic.groups.map((group, i) => (
+                  <a class="vocab-side__link" href={`#${group.id}`} data-side-spy={group.id}>
+                    <span class="vocab-side__n">{String(i + 1).padStart(2, "0")}</span>
+                    <span class="vocab-side__name">{group.groupName}</span>
+                    <span class="vocab-side__count">{group.words.length}</span>
+                  </a>
+                ))}
+                <div class="vocab-side__sections">
+                  <a class="vocab-side__link" href="#pv-quiz" data-side-spy="pv-quiz">
+                    <span class="vocab-side__name">Проверь себя</span>
+                  </a>
                 </div>
-              </section>
-            ))
-          ) : (
-            <section class="vocabulary-group">
-              <div class="vocabulary-group__words">
-                {topic.words && topic.words.map((word) => (
-                  <div class="vocab-word">
-                    <div class="vocab-word__main">
-                      <span class="vocab-word__en">{word.en}</span>
-                      {word.transcription && (
-                        <span class="vocab-word__ipa">{word.transcription}</span>
-                      )}
+              </nav>
+            </aside>
+
+            <div class="vocab-layout__main">
+              <header class="vocabulary-topic__header vocab-topic-head">
+                <p class="vocab-stats__eyebrow">
+                  {topicWordCount} глаголов · {topic.groups.length} групп
+                </p>
+                <h1><span class="hl-mark">{topic.title}</span></h1>
+                <p class="vocabulary-topic__sub">{topic.titleRu}</p>
+                <p class="vocabulary-topic__intro">{topic.intro}</p>
+              </header>
+
+              {topic.groups.map((group, gi) => (
+                <section class="vocab-group" id={group.id} data-group>
+                  <header class="vocab-group__head">
+                    <div class="vocab-group__titles">
+                      <h2 class="vocab-group__title">
+                        <span class="vocab-group__num">{String(gi + 1).padStart(2, "0")}</span>
+                        {group.groupName}
+                      </h2>
+                      <p class="vocab-group__sub">{group.groupNameRu}</p>
                     </div>
-                    <span class="vocab-word__ru">{word.ru}</span>
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
+                    <div class="vocab-group__actions">
+                      <span class="vocab-group__count">{group.words.length}</span>
+                    </div>
+                  </header>
 
-          {topic.phrases && topic.phrases.length > 0 && (
-            <section class="vocabulary-phrases">
-              <h2>Примеры фраз</h2>
-              <div class="vocabulary-phrases__list">
-                {topic.phrases.map((phrase) => (
-                  <div class="vocab-phrase">
-                    <span class="vocab-phrase__en">{phrase.en}</span>
-                    <span class="vocab-phrase__ru">{phrase.ru}</span>
-                  </div>
-                ))}
-              </div>
-            </section>
-          )}
+                  <ul class="vocab-rows" role="list">
+                    {group.words.map((word) => (
+                      <li
+                        class="vocab-row vocab-row--pv"
+                        id={'w-' + wSlug(word.en)}
+                        data-pv
+                      >
+                        <button
+                          type="button"
+                          class="vocab-row__play"
+                          data-play={[word.en, word.example && word.example.en].filter(Boolean).join("|")}
+                          aria-label={`Озвучить ${word.en}`}
+                        >
+                          <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+                            <path
+                              d="M4 9.5v5a1 1 0 0 0 1 1h3l4.2 3.4a.6.6 0 0 0 1-.47V5.57a.6.6 0 0 0-1-.47L8 8.5H5a1 1 0 0 0-1 1Z"
+                              fill="currentColor"
+                            />
+                            <path
+                              d="M15.5 8.6a4.6 4.6 0 0 1 0 6.8M18 6.4a8 8 0 0 1 0 11.2"
+                              fill="none"
+                              stroke="currentColor"
+                              stroke-width="1.7"
+                              stroke-linecap="round"
+                            />
+                          </svg>
+                          <span class="sr-only">Озвучить</span>
+                        </button>
 
-          {topic.quiz && topic.quiz.length > 0 && (
-            <section class="vocabulary-quiz">
-              <h2>Проверь себя</h2>
-              <Quiz questions={topic.quiz} ui={quizBank.__ui} />
-            </section>
-          )}
+                        <div class="vocab-pv__word">
+                          <span class="vocab-pv__en">{word.en}</span>
+                          {word.transcription && (
+                            <span class="vocab-pv__ipa">{word.transcription}</span>
+                          )}
+                        </div>
+
+                        <div class="vocab-row__ruwrap">
+                          <span class="vocab-row__ru">{word.ru}</span>
+                          <span class="vocab-row__ex-tag">пример ›</span>
+                        </div>
+
+                        {word.example && (
+                          <div class="vocab-example">
+                            <span class="vocab-example__en">{word.example.en}</span>
+                            <span class="vocab-example__ru">{word.example.ru}</span>
+                          </div>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))}
+
+              {topic.quiz && topic.quiz.length > 0 && (
+                <section class="vocab-pv-quiz" id="pv-quiz" data-side-spy="pv-quiz">
+                  <h2 class="vocab-pv-quiz__title">Проверь себя</h2>
+                  <Quiz questions={topic.quiz} ui={quizBank.__ui} />
+                </section>
+              )}
+            </div>
+          </div>
         </>
       )
     }
@@ -275,7 +319,7 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
 </Base>
 
 {
-  isVerbTrainer && (
+  (isVerbTrainer || isTopicTrainer) && (
     <script>
       // ---------- Прогресс «знаю» (localStorage englishnotes.vocab.v1) ----------
       const STORE_KEY = "englishnotes.vocab.v1";
@@ -483,19 +527,6 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     margin: 0 auto;
     padding: 32px 28px 60px;
   }
-  .vocabulary-topic__breadcrumb {
-    font-family: var(--mono);
-    font-size: 13px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 28px;
-  }
-  .vocabulary-topic__breadcrumb a {
-    color: var(--ink-soft);
-    text-decoration: none;
-    transition: color 0.15s;
-  }
-  .vocabulary-topic__breadcrumb a:hover { color: var(--mint-ink); }
   .vocabulary-topic__header { margin-bottom: 32px; }
   .vocabulary-topic__header h1 {
     font-family: var(--display);
@@ -968,91 +999,57 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     color: var(--ink-mid);
   }
 
-  /* ---------- фолбэк (старая схема) ---------- */
-  .vocabulary-group { margin-bottom: 40px; }
-  .vocabulary-group__title {
-    font-family: var(--display);
-    font-size: 22px;
-    font-weight: 700;
-    color: var(--ink);
-    margin-bottom: 2px;
+  /* ---------- тематическая тема (группы слов: en + перевод + пример) ---------- */
+  /* Строка-карточка в том же лейауте, что тренажёр глаголов, но без форм:
+     слева озвучка, слово с IPA, перевод; пример раскрывается кликом. */
+  .vocab-row--pv {
+    grid-template-columns: auto minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-areas:
+      "play word ru"
+      "ex ex ex";
   }
-  .vocabulary-group__sub {
-    font-family: var(--body);
-    font-size: 14px;
-    color: var(--ink-soft);
-    margin-bottom: 16px;
-  }
-  .vocabulary-group__words { display: flex; flex-direction: column; gap: 4px; }
-  .vocab-word {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 16px;
-    border-radius: 8px;
-    background: var(--surface);
-    border: 1px solid var(--line);
-    transition: background 0.15s;
-  }
-  .vocab-word:hover { background: var(--mint); border-color: var(--mint-deep); }
-  .vocab-word__main { display: flex; align-items: center; gap: 12px; }
-  .vocab-word__en {
-    font-family: var(--body);
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--ink);
-  }
-  .vocab-word__ipa {
-    font-family: var(--mono);
-    font-size: 13px;
-    color: var(--ink-soft);
-  }
-  .vocab-word__ru {
-    font-family: var(--body);
-    font-size: 15px;
-    color: var(--ink-mid);
-  }
-  .vocabulary-phrases { margin-top: 48px; padding-top: 32px; border-top: 1.5px solid var(--line); }
-  .vocabulary-phrases h2 {
-    font-family: var(--display);
-    font-size: 24px;
-    font-weight: 700;
-    color: var(--ink);
-    margin-bottom: 16px;
-  }
-  .vocabulary-phrases__list { display: flex; flex-direction: column; gap: 12px; }
-  .vocab-phrase {
+  .vocab-pv__word {
+    grid-area: word;
     display: flex;
     flex-direction: column;
-    gap: 2px;
-    padding: 14px 18px;
-    background: var(--surface);
-    border-radius: 10px;
-    border: 1px solid var(--line);
+    gap: 1px;
+    min-width: 0;
+    align-self: center;
   }
-  .vocab-phrase__en { font-family: var(--display-serif); font-size: 17px; color: var(--ink); }
-  .vocab-phrase__ru {
-    font-family: var(--body);
-    font-size: 14px;
+  .vocab-pv__en {
+    font-family: var(--display);
+    font-size: 16.5px;
+    font-weight: 800;
+    color: var(--ink);
+    line-height: 1.25;
+    overflow-wrap: anywhere;
+  }
+  .vocab-pv__ipa {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
     color: var(--ink-soft);
   }
-  .vocabulary-quiz { margin-top: 48px; padding-top: 32px; border-top: 1.5px solid var(--line); }
-  .vocabulary-quiz h2 {
+  .vocab-row--pv .vocab-row__ruwrap { grid-area: ru; align-self: center; justify-self: end; }
+  .vocab-row--pv .vocab-row__play { align-self: center; }
+  /* раздел «Проверь себя» внизу тематической темы */
+  .vocab-pv-quiz {
+    scroll-margin-top: calc(var(--head-h, 64px) + 70px);
+    margin-top: 44px;
+    padding-top: 26px;
+    border-top: 1.5px solid var(--line);
+  }
+  .vocab-pv-quiz__title {
     font-family: var(--display);
     font-size: 24px;
     font-weight: 700;
     color: var(--ink);
-    margin-bottom: 20px;
+    margin: 0 0 20px;
   }
 
   /* ---------- мобильная: скролл-бар по единому правилу скролл-баров ---------- */
   @media (max-width: 1100px) {
     .vocabulary-topic:has(.vocab-trainer) { padding-top: 0; }
-    .vocabulary-topic:has(.vocab-trainer) .vocabulary-topic__breadcrumb {
-      margin-bottom: 8px;
-      font-size: 12px;
-      line-height: 1.3;
-    }
     .vocab-trainer { display: block; }
     /* sticky-обёртка не скроллится (iOS Safari): скролл живёт во внутреннем nav */
     .vocab-side {
@@ -1242,5 +1239,31 @@ const shortGroupName = (s) => String(s).replace("Вторая и третья ф
     .vocab-quizbar { align-items: flex-start; }
     .vocab-quizbar__hint { flex-basis: 100%; }
     .vocab-group__actions { gap: 8px; }
+  }
+
+  /* ---------- тематическая тема: мобильные переопределения ----------
+     Общая @media 640 выше задаёт сетку .vocab-row под три формы —
+     строки тематической темы возвращаем к своей раскладке (позже = выше). */
+  @media (max-width: 640px) {
+    .vocab-row--pv {
+      grid-template-columns: auto minmax(0, 1fr) minmax(0, 1fr);
+      grid-template-areas:
+        "play word ru"
+        "ex ex ex";
+      gap: 2px 10px;
+      align-items: center;
+      padding: 10px 12px 10px 8px;
+    }
+    .vocab-row--pv .vocab-row__ruwrap {
+      align-items: flex-end;
+      justify-self: end;
+    }
+    .vocab-row--pv .vocab-row__ru {
+      text-align: right;
+      max-width: none;
+      font-size: 13.5px;
+    }
+    .vocab-pv__en { font-size: 15px; }
+    .vocab-pv__ipa { font-size: 10px; }
   }
 </style>
