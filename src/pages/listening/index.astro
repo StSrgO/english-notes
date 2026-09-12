@@ -1,0 +1,140 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LEVELS } from '../../data/lesson-order.js';
+
+// Раздел «Аудирование»: каталог уроков по уровням (пока пилот B1).
+const files = import.meta.glob('../../data/listening/*.json', { eager: true, import: 'default' });
+const byLevel = {};
+for (const f of Object.values(files)) {
+  if (!f || !f.slug || !f.title) continue;
+  const sent = (f.scenes || []).reduce((n, s) => n + (s.sentences?.length || 0), 0);
+  byLevel[f.level || ''] = byLevel[f.level || ''] || [];
+  byLevel[f.level || ''].push({ ...f, sent });
+}
+const order = LEVELS.filter((l) => byLevel[l]);
+const totalLessons = order.reduce((n, l) => n + byLevel[l].length, 0);
+---
+
+<Base title="Аудирование — EnglishNotes">
+  <div class="listening-page">
+    <header class="listening-header">
+      <p class="eyebrow">listening · b1</p>
+      <h1 class="page-title"><span class="hl-mark">Аудирование</span></h1>
+      <p class="listening-lead">
+        Аудирование — это умение понимать английскую речь на слух, а оно не приходит само:
+        его тренируют, слушая короткие живые сцены и проверяя себя по ним. Каждый урок здесь —
+        маленькая история на уровне B1. Сначала ты слушаешь сцену целиком — можно повторять,
+        пока не разберёшь каждое слово, — затем отвечаешь на вопросы на понимание, и только
+        после проверки открывается текст с переводом для самопроверки. Диалоги озвучены
+        браузером, поэтому урок можно открыть на любом устройстве — без скачивания
+        и внешних сервисов.
+      </p>
+    </header>
+    <div class="listening-divider" aria-hidden="true"></div>
+
+    {order.map((lvl) => (
+      <section class="lvl-block" id={lvl.toLowerCase()}>
+        <h2 class="lvl-block__title"><span class="lvl-block__code">{lvl}</span>{byLevel[lvl].length} {byLevel[lvl].length === 1 ? 'урок' : 'урока'}</h2>
+        <div class="lvl-block__list">
+          {byLevel[lvl].map((lesson) => (
+            <a href={`/listening/${lesson.slug}`} class="l-card">
+              <div class="l-card__head">
+                <h3 class="l-card__title">{lesson.title}</h3>
+                <span class="l-card__count">{lesson.scenes.length} {lesson.scenes.length === 1 ? 'сцена' : 'сцены'} · {lesson.sent} {lesson.sent === 1 ? 'предложение' : lesson.sent < 5 ? 'предложения' : 'предложений'}</span>
+              </div>
+              <p class="l-card__sub">{lesson.titleRu}</p>
+              {lesson.intro && <p class="l-card__intro">{lesson.intro}</p>}
+            </a>
+          ))}
+        </div>
+      </section>
+    ))}
+    {totalLessons === 0 && (
+      <p class="listening-empty">Уроки появятся здесь в ближайшее время.</p>
+    )}
+  </div>
+</Base>
+
+<style>
+  .listening-page {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 28px 60px;
+  }
+  .listening-header h1 { margin: 6px 0 14px; }
+  .listening-lead {
+    font-family: var(--display-serif);
+    font-size: 18px;
+    line-height: 1.6;
+    color: var(--ink-mid);
+    max-width: none;
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+  .listening-divider { margin: 24px 0 34px; border-bottom: 2px solid var(--line-strong); }
+  .lvl-block { margin-bottom: 40px; }
+  .lvl-block__title {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: var(--display);
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 14px;
+  }
+  .lvl-block__code {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--paper);
+    background: var(--mint-ink);
+    border-radius: 6px;
+    padding: 2px 7px;
+  }
+  .lvl-block__list { display: flex; flex-direction: column; gap: 12px; }
+  .l-card {
+    display: block;
+    padding: 20px 24px;
+    background: var(--surface);
+    border: 1.5px solid var(--line);
+    border-radius: 16px;
+    text-decoration: none;
+    color: var(--ink);
+    transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+  }
+  .l-card:hover {
+    border-color: var(--mint-deep);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(18, 52, 48, 0.06);
+  }
+  .l-card__head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .l-card__title { font-family: var(--display); font-size: 19px; font-weight: 700; margin: 0; }
+  .l-card__count {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--mint-ink);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    white-space: nowrap;
+  }
+  .l-card__sub { font-size: 14px; color: var(--ink-soft); margin: 2px 0 8px; }
+  .l-card__intro {
+    font-family: var(--display-serif);
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--ink-mid);
+    margin: 0;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  @media (max-width: 600px) {
+    .listening-page { padding: 24px 16px 40px; }
+    .listening-header h1 { font-size: 30px; }
+  }
+</style>

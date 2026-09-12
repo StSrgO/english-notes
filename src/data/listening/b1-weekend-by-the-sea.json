@@ -1,0 +1,133 @@
+{
+  "slug": "b1-weekend-by-the-sea",
+  "level": "B1",
+  "title": "A Weekend by the Sea",
+  "titleRu": "Выходные у моря",
+  "intro": "Кейт проводит выходные у моря. Урок состоит из двух сцен: телефонный разговор — бронирование номера, и разговор уже в отеле при заселении. Каждую сцену слушай целиком и повторяй, пока не разберёшь; вопросы откроются, когда дослушаешь до конца. Текст с переводом появится после проверки — чтобы свериться с тем, что ты услышал(а).",
+  "cast": [
+    { "who": "Kate", "ru": "Кейт", "gender": "f" },
+    { "who": "Receptionist", "ru": "Администратор", "gender": "f" }
+  ],
+  "scenes": [
+    {
+      "id": "scene-booking",
+      "title": "Booking a Room",
+      "titleRu": "Бронирование номера",
+      "sentences": [
+        { "who": "Kate", "en": "Good afternoon. I'd like to book a double room for two nights, please.", "ru": "Добрый день. Я бы хотела забронировать двухместный номер на две ночи, пожалуйста." },
+        { "who": "Receptionist", "en": "Certainly. Could you tell me your name, please?", "ru": "Конечно. Назовите, пожалуйста, ваше имя." },
+        { "who": "Kate", "en": "It's Kate Morrison.", "ru": "Кейт Моррисон." },
+        { "who": "Receptionist", "en": "Thank you, Ms Morrison. Which dates would you like to stay?", "ru": "Спасибо, мисс Моррисон. На какие даты вы хотите остановиться?" },
+        { "who": "Kate", "en": "From Friday the fourteenth to Sunday the sixteenth of May.", "ru": "С пятницы, четырнадцатого мая, по воскресенье, шестнадцатое." },
+        { "who": "Receptionist", "en": "Let me check what we have… We have a sea-view room on the second floor.", "ru": "Сейчас посмотрю, что есть… У нас есть номер с видом на море на втором этаже." },
+        { "who": "Kate", "en": "That sounds nice. How much is it per night?", "ru": "Звучит хорошо. Сколько стоит ночь?" },
+        { "who": "Receptionist", "en": "Ninety pounds a night, breakfast included.", "ru": "Девяносто фунтов за ночь, завтрак включён." },
+        { "who": "Kate", "en": "And is there free Wi-Fi in the room?", "ru": "А в номере есть бесплатный Wi-Fi?" },
+        { "who": "Receptionist", "en": "Yes, the Wi-Fi is free, and there is a small fridge too.", "ru": "Да, Wi-Fi бесплатный, и в номере есть небольшой холодильник." },
+        { "who": "Kate", "en": "Great. Is there a parking space at the hotel?", "ru": "Отлично. У отеля есть парковка?" },
+        { "who": "Receptionist", "en": "Yes, parking is free behind the building.", "ru": "Да, за зданием есть бесплатная парковка." },
+        { "who": "Kate", "en": "Perfect. Can I pay by card when I arrive?", "ru": "Прекрасно. Можно оплатить картой по приезде?" },
+        { "who": "Receptionist", "en": "Of course. We'll see you on the fourteenth, then.", "ru": "Конечно. Тогда ждём вас четырнадцатого." },
+        { "who": "Kate", "en": "Thank you very much. Goodbye!", "ru": "Большое спасибо. До свидания!" }
+      ],
+      "quiz": [
+        {
+          "q": "What does Kate book?",
+          "options": ["A double room for two nights", "A single room with a balcony", "A family suite", "A studio near the sea"],
+          "answer": 0,
+          "why": "Первая реплика Кейт: I'd like to book a double room for two nights — двухместный номер на две ночи."
+        },
+        {
+          "q": "Which dates does she choose?",
+          "options": ["From the 14th to the 16th of May", "From the 15th to the 17th of May", "From the 14th to the 16th of June", "Next weekend"],
+          "answer": 0,
+          "why": "Кейт: From Friday the fourteenth to Sunday the sixteenth of May — с 14 по 16 мая."
+        },
+        {
+          "q": "What is included in the price?",
+          "options": ["Breakfast", "Lunch and dinner", "Parking in the city centre", "Airport transfer"],
+          "answer": 0,
+          "why": "Администратор: Ninety pounds a night, breakfast included — девяносто фунтов за ночь, завтрак включён."
+        },
+        {
+          "q": "What else is there in the room?",
+          "options": ["Free Wi-Fi and a small fridge", "A TV and a coffee machine", "A balcony and a bathtub", "A kettle and a microwave"],
+          "answer": 0,
+          "why": "Администратор: the Wi-Fi is free, and there is a small fridge too — Wi-Fi и холодильник."
+        },
+        {
+          "q": "What does Kate ask about at the end of the call?",
+          "options": ["About parking and payment by card", "About the swimming pool", "About check-out time", "About the way to the city centre"],
+          "answer": 0,
+          "why": "Кейт спрашивает про парковку (Is there a parking space?) и оплату картой по приезде."
+        },
+        {
+          "q": "When will Kate check in?",
+          "options": ["On the fourteenth of May", "On the sixteenth of May", "Tomorrow morning", "On Friday the sixteenth"],
+          "answer": 0,
+          "why": "Администратор: We'll see you on the fourteenth — ждём вас 14 мая (пятница)."
+        }
+      ]
+    },
+    {
+      "id": "scene-checkin",
+      "title": "Checking In",
+      "titleRu": "Заселение в отель",
+      "sentences": [
+        { "who": "Receptionist", "en": "Good afternoon. Welcome to the Sea Breeze Hotel.", "ru": "Добрый день. Добро пожаловать в отель «Си Бриз»." },
+        { "who": "Kate", "en": "Hello. I have a booking under the name Morrison.", "ru": "Здравствуйте. У меня бронь на фамилию Моррисон." },
+        { "who": "Receptionist", "en": "Let me find it… Yes, two nights, room two-oh-four.", "ru": "Сейчас найду… Да, две ночи, номер двести четыре." },
+        { "who": "Kate", "en": "That's right. Could we check in early? We came on the morning train.", "ru": "Верно. Можно заселиться пораньше? Мы приехали утренним поездом." },
+        { "who": "Receptionist", "en": "The room is ready, so that won't be a problem.", "ru": "Номер уже готов, так что это не проблема." },
+        { "who": "Kate", "en": "Wonderful. Where can we leave our luggage?", "ru": "Чудесно. Где можно оставить багаж?" },
+        { "who": "Receptionist", "en": "There is a storage room right next to the reception.", "ru": "Рядом со стойкой регистрации есть камера хранения." },
+        { "who": "Kate", "en": "And how far is the beach from here?", "ru": "А далеко ли отсюда до пляжа?" },
+        { "who": "Receptionist", "en": "About ten minutes on foot — just follow the main street.", "ru": "Минут десять пешком — просто идите по главной улице." },
+        { "who": "Kate", "en": "Are there any cafés on the beach?", "ru": "На пляже есть кафе?" },
+        { "who": "Receptionist", "en": "Yes, there are two cafés and a small shop near the pier.", "ru": "Да, у пирса есть два кафе и небольшой магазинчик." },
+        { "who": "Kate", "en": "What time is breakfast served tomorrow?", "ru": "Во сколько завтра завтрак?" },
+        { "who": "Receptionist", "en": "Breakfast is from seven thirty to ten, in the dining room downstairs.", "ru": "Завтрак с семи тридцати до десяти, в столовой на первом этаже." },
+        { "who": "Kate", "en": "Perfect. Thank you for your help.", "ru": "Отлично. Спасибо за помощь." },
+        { "who": "Receptionist", "en": "Enjoy your stay, and call us if you need anything.", "ru": "Приятного отдыха, звоните, если что-то понадобится." }
+      ],
+      "quiz": [
+        {
+          "q": "What is the name of the hotel?",
+          "options": ["The Sea Breeze Hotel", "The Grand Hotel", "The Beach House", "The Sea View Hotel"],
+          "answer": 0,
+          "why": "Приветствие администратора: Welcome to the Sea Breeze Hotel — отель называется «Си Бриз»."
+        },
+        {
+          "q": "Which room does Kate get?",
+          "options": ["Room 204 on the second floor", "Room 402 on the fourth floor", "Room 240 on the ground floor", "Room 104 on the first floor"],
+          "answer": 0,
+          "why": "Администратор: room two-oh-four — номер 204. two-oh-four читается как 204."
+        },
+        {
+          "q": "Why can they check in early?",
+          "options": ["The room is already ready", "They paid extra for it", "They arrived before noon", "They have a very small room"],
+          "answer": 0,
+          "why": "Администратор: The room is ready, so that won't be a problem — номер уже готов."
+        },
+        {
+          "q": "How do they get to the beach?",
+          "options": ["They walk along the main street for about ten minutes", "They take a bus from the station", "They take a taxi from the hotel", "They walk through the park"],
+          "answer": 0,
+          "why": "Администратор: About ten minutes on foot — just follow the main street — десять минут пешком по главной улице."
+        },
+        {
+          "q": "What can they find near the beach?",
+          "options": ["Two cafés and a small shop near the pier", "A gym and a swimming pool", "A playground and a park", "A surf school and a bike rental"],
+          "answer": 0,
+          "why": "Администратор: there are two cafés and a small shop near the pier — два кафе и магазинчик у пирса."
+        },
+        {
+          "q": "When is breakfast served?",
+          "options": ["From 7:30 to 10:00 in the dining room downstairs", "From 6:00 to 9:00 on the terrace", "From 8:00 to 11:00 in the room", "From 7:00 to 10:00 at the bar"],
+          "answer": 0,
+          "why": "Администратор: from seven thirty to ten, in the dining room downstairs — с 7:30 до 10:00 внизу, в столовой."
+        }
+      ]
+    }
+  ]
+}

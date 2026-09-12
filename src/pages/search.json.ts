@@ -53,6 +53,20 @@ export function GET() {
     }
   }
 
+  // Уроки аудирования
+  const listeningFiles = import.meta.glob('../data/listening/*.json', { eager: true, import: 'default' });
+  for (const t of Object.values(listeningFiles)) {
+    if (!t || !t.slug || !t.title) continue;
+    items.push({
+      t: 'l',
+      lvl: t.level || '',
+      title: t.title,
+      sub: t.titleRu || '',
+      d: (t.intro || '').slice(0, 120),
+      href: '/listening/' + t.slug,
+    });
+  }
+
   // Слова: темы словаря + группы тренажёра + сами слова из карточек
   // (слово ищется по любой из трёх форм и по русскому переводу; ссылка
   // ведёт на строку-карточку через якорь #w-<v1>)

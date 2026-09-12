@@ -1,0 +1,809 @@
+---
+import Base from "../../layouts/Base.astro";
+import Quiz from "../../components/Quiz.astro";
+import quizBank from "../../data/quiz-bank.json";
+
+export async function getStaticPaths() {
+  const files = import.meta.glob("../../data/listening/*.json", { eager: true, import: "default" });
+  return Object.values(files)
+    .filter((f) => f?.slug)
+    .map((f) => ({ params: { slug: f.slug }, props: { lesson: f } }));
+}
+
+const { lesson } = Astro.props;
+const scenes = lesson.scenes || [];
+const totalSent = scenes.reduce((n, s) => n + (s.sentences?.length || 0), 0);
+
+// Кто говорит: подписи — из lesson.cast (имена в русском интерфейсе кириллицей),
+// в тексте реплики каждого участника встают на свою сторону — как диалог, а не монолог.
+// gender нужен озвучке: у говорящего должен быть голос своего пола.
+const castOf = (who) => (lesson.cast || []).find((c) => c.who === who) || {};
+const castLabel = (who) => castOf(who).ru || who;
+
+const sceneViews = scenes.map((scene, si) => {
+  const speakers = [...new Set(scene.sentences.map((s) => (s.who || "").trim()).filter(Boolean))];
+  const sideOf = (who) => (speakers.indexOf(who) % 2 === 1 ? "b" : "a");
+  return {
+    ...scene,
+    si,
+    speakers: speakers.map((who) => ({
+      who,
+      label: castLabel(who),
+      gender: castOf(who).gender || "",
+      side: sideOf(who),
+    })),
+    lines: scene.sentences.map((s) => {
+      const who = (s.who || "").trim();
+      return { ...s, who, label: who ? castLabel(who) : "", gender: castOf(who).gender || "", side: sideOf(who) };
+    }),
+  };
+});
+---
+
+<Base title={`${lesson.title} — Аудирование — EnglishNotes`}>
+  <div class="listening-lesson">
+    <nav class="ll-back"><a href="/listening">← Аудирование</a></nav>
+
+    <header class="ll-head">
+      <p class="ll-eyebrow">listening · {lesson.level.toLowerCase()} · {scenes.length} {scenes.length === 1 ? 'сцена' : 'сцены'} · {totalSent} {totalSent === 1 ? 'предложение' : totalSent < 5 ? 'предложения' : 'предложений'}</p>
+      <h1 class="ll-title"><span class="hl-mark">{lesson.title}</span></h1>
+      <p class="ll-sub">{lesson.titleRu}</p>
+      {lesson.intro && <p class="ll-intro">{lesson.intro}</p>}
+    </header>
+
+    <ol class="ll-howto">
+      <li>Слушай сцену целиком: пауза и перемотка по фразам — воспроизведение продолжится с того места, где ты остановился.</li>
+      <li>Когда дослушаешь до конца, откроются вопросы «Что ты услышал(а)?» — текст при этом скрыт.</li>
+      <li>После проверки откроется текст с переводом: сверься и послушай сложные места ещё раз.</li>
+    </ol>
+
+    {sceneViews.map((v) => (
+      <section class="ll-scene" id={v.id}>
+        <header class="ll-scene__head">
+          <div class="ll-scene__titles">
+            <h2 class="ll-scene__title">
+              <span class="ll-scene__num">{String(v.si + 1).padStart(2, "0")}</span>
+              {v.title}
+            </h2>
+            {v.titleRu && <p class="ll-scene__sub">{v.titleRu}</p>}
+          </div>
+          <span class="ll-scene__meta">{v.lines.length} {v.lines.length === 1 ? 'фраза' : v.lines.length < 5 ? 'фразы' : 'фраз'}</span>
+        </header>
+
+        <div class="ll-player">
+          <div class="ll-player__bar">
+            <button type="button" class="ll-player__skip" data-skip={v.si} data-dir="-1" aria-label="Предыдущая фраза" title="Предыдущая фраза">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                <path d="M6.6 6h2.4v12H6.6z" fill="currentColor" />
+                <path d="M18 6.4v11.2a.7.7 0 0 1-1.08.6l-7.8-5.6a.7.7 0 0 1 0-1.2l7.8-5.6a.7.7 0 0 1 1.08.6Z" fill="currentColor" />
+              </svg>
+            </button>
+            <button type="button" class="ll-player__play" data-play-scene={v.si} aria-pressed="false">
+              <svg class="ll-ico ll-ico--play" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                <path d="M8 5.1v13.8a.7.7 0 0 0 1.07.6l11-6.9a.7.7 0 0 0 0-1.2l-11-6.9A.7.7 0 0 0 8 5.1Z" fill="currentColor" />
+              </svg>
+              <svg class="ll-ico ll-ico--pause" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                <path d="M7 5h3.4v14H7zM13.6 5H17v14h-3.4z" fill="currentColor" />
+              </svg>
+              <span class="ll-player__cap ll-player__cap--play">Слушать сцену</span>
+              <span class="ll-player__cap ll-player__cap--resume">Продолжить</span>
+              <span class="ll-player__cap ll-player__cap--pause">Пауза</span>
+            </button>
+            <button type="button" class="ll-player__skip" data-skip={v.si} data-dir="1" aria-label="Следующая фраза" title="Следующая фраза">
+              <svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true">
+                <path d="M15 6h2.4v12H15z" fill="currentColor" />
+                <path d="M6 6.4v11.2a.7.7 0 0 0 1.08.6l7.8-5.6a.7.7 0 0 0 0-1.2l-7.8-5.6A.7.7 0 0 0 6 6.4Z" fill="currentColor" />
+              </svg>
+            </button>
+          </div>
+          {v.speakers.length > 1 && (
+            <ul class="ll-cast" data-cast={v.si} role="list">
+              {v.speakers.map((sp) => (
+                <li class={`ll-cast__item ll-cast__item--${sp.side}`} data-who={sp.who}>{sp.label}</li>
+              ))}
+            </ul>
+          )}
+          <span class="ll-player__state" data-state={v.si} aria-live="polite"></span>
+        </div>
+
+        <div class="ll-gate" data-gate={v.si}>
+          <p class="ll-gate__txt">Вопросы появятся, когда ты дослушаешь сцену до конца.</p>
+          <span class="ll-gate__wait" aria-hidden="true">●●●</span>
+        </div>
+
+        <div class="ll-quiz" data-scene-quiz hidden>
+          <h3 class="ll-quiz__title">Что ты услышал(а)?</h3>
+          <Quiz questions={v.quiz} ui={quizBank.__ui} />
+        </div>
+
+        <details class="ll-script is-locked">
+          <summary class="ll-script__toggle" data-toggle-label="Показать текст сцены и перевод">Текст откроется после прохождения квиза</summary>
+          <div class="ll-script__inner">
+            <ul class="ll-lines" role="list" data-lines={v.si}>
+              {v.lines.map((l) => (
+                <li class={`ll-line ll-line--${l.side}`} data-who={l.who} data-gender={l.gender}>
+                  <button
+                    type="button"
+                    class="ll-play"
+                    data-say={v.si}
+                    aria-label={`Озвучить: ${l.en}`}
+                  >
+                    <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+                      <path
+                        d="M4 9.5v5a1 1 0 0 0 1 1h3l4.2 3.4a.6.6 0 0 0 1-.47V5.57a.6.6 0 0 0-1-.47L8 8.5H5a1 1 0 0 0-1 1Z"
+                        fill="currentColor"
+                      />
+                      <path
+                        d="M15.5 8.6a4.6 4.6 0 0 1 0 6.8M18 6.4a8 8 0 0 1 0 11.2"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.7"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                    <span class="sr-only">Озвучить</span>
+                  </button>
+                  <div class="ll-line__body">
+                    {l.label && <span class="ll-line__who">{l.label}</span>}
+                    <p class="ll-line__en">{l.en}</p>
+                    <p class="ll-line__ru">{l.ru}</p>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </details>
+      </section>
+    ))}
+
+    <p class="ll-footnote">
+      Озвучка — голосом твоего устройства (speechSynthesis). Если голос не прогрузился,
+      перезагрузи страницу: список голосов иногда подгружается с задержкой.
+    </p>
+  </div>
+</Base>
+
+<script>
+  // ---------- Озвучка (speechSynthesis, как в тренажёрах) ----------
+  const pickVoice = (voices) =>
+    voices.find((v) => /^en-GB/i.test(v.lang)) ||
+    voices.find((v) => /^en[-_]US/i.test(v.lang)) ||
+    voices.find((v) => /^en/i.test(v.lang)) ||
+    null;
+  let voice = null;
+  const setVoice = () => {
+    const vs = window.speechSynthesis ? speechSynthesis.getVoices() : [];
+    voice = pickVoice(vs);
+  };
+  if (window.speechSynthesis) {
+    setVoice();
+    speechSynthesis.onvoiceschanged = setVoice;
+  }
+
+  // Пол голоса в браузере не сообщается: опираемся на типовые названия голосов.
+  // Female проверяем первым — в /male/ попадает «female».
+  const FEMALE =
+    /female|samantha|victoria|karen|moira|tessa|fiona|serena|allison|ava|susan|zoe|zira|hazel|aria|jenny|michelle|clara|emily|emma|amber|ashley|libby|sonia|natasha|olivia|maisie|catherine|mary|anna|joanna|salli|kimberly|nicole|kathy|linda|heather|nora|luna|google us english/i;
+  const MALE =
+    /male|daniel|alex|fred|oliver|aaron|arthur|gordon|rishi|david|guy|mark|eric|andrew|brian|christopher|ryan|steffan|george|james|liam|matthew|sean|thomas|william|diego|jorge|juan|carlos|felipe|henrik|magnus|hans|stefan|xander|duncan|graham|roger|ronald|ralph|reed/i;
+  const voiceGender = (v) => (FEMALE.test(v.name) ? "f" : MALE.test(v.name) ? "m" : "");
+
+  const enVoices = () => {
+    if (!window.speechSynthesis) return [];
+    const rank = (v) => (/^en-GB/i.test(v.lang) ? 0 : /^en[-_]US/i.test(v.lang) ? 1 : 2);
+    return speechSynthesis
+      .getVoices()
+      .filter((v) => /^en/i.test(v.lang))
+      .sort((a, b) => rank(a) - rank(b));
+  };
+
+  // Разговор должен звучать как разговор: у каждого говорящего свой голос своего пола.
+  // Если подходящих голосов меньше, чем людей, берём голос того же пола и разводим
+  // тоном (женский вверх, мужской вниз) — так Кейт не зазвучит мужчиной.
+  const shade = (g, n) => {
+    const k = Math.min(n, 3);
+    if (g === "f") return [1, 1.14, 1.24, 1.32][k];
+    if (g === "m") return [1, 0.86, 0.78, 0.7][k];
+    return [1, 0.84, 1.18, 0.74][k];
+  };
+  const planVoices = (speakers) => {
+    const vs = enVoices();
+    const taken = new Map(); // voiceURI → сколько говорящих уже этим голосом говорит
+    const plan = new Map();
+    speakers.forEach((sp) => {
+      const free = (match) => vs.find((v) => !taken.has(v.voiceURI) && match(v));
+      let v = sp.gender ? free((x) => voiceGender(x) === sp.gender) : null;
+      if (!v && sp.gender) v = vs.find((x) => voiceGender(x) === sp.gender);
+      if (!v) v = free(() => true);
+      if (!v) v = vs[0] || null;
+      if (!v) return plan.set(sp.who, { voice: null, pitch: sp.gender === "m" ? 0.85 : 1.12 });
+      const n = taken.get(v.voiceURI) || 0;
+      taken.set(v.voiceURI, n + 1);
+      const wrong = sp.gender && voiceGender(v) && voiceGender(v) !== sp.gender;
+      plan.set(sp.who, {
+        voice: v,
+        pitch: wrong ? (sp.gender === "f" ? 1.16 : 0.82) : shade(sp.gender, n),
+      });
+    });
+    return plan;
+  };
+  const utterFor = (text, who, plan) => {
+    const u = new SpeechSynthesisUtterance(text);
+    const p = (plan && plan.get(who)) || {};
+    const v = p.voice || voice;
+    if (v) u.voice = v;
+    u.lang = v ? v.lang : "en-GB";
+    u.rate = 0.95;
+    if (p.pitch && p.pitch !== 1) u.pitch = p.pitch;
+    return u;
+  };
+
+  const linesOf = (sceneEl) =>
+    Array.from(sceneEl.querySelectorAll("[data-lines] .ll-line")).map((li) => {
+      const whoEl = li.querySelector(".ll-line__who");
+      return {
+        el: li,
+        who: li.dataset.who || "",
+        label: (whoEl && whoEl.textContent) || li.dataset.who || "",
+        gender: li.dataset.gender || "",
+        text: li.querySelector(".ll-line__en").textContent,
+      };
+    });
+
+  // Курсор сцены живёт, пока открыта страница: пауза продолжает с того же места,
+  // перемотка двигает курсор. Перезагрузка или возврат на страницу (bfcache)
+  // прогресс сбрасывают — сцену слушаем сначала.
+  const sceneCtx = Array.from(document.querySelectorAll("[data-play-scene]")).map((btn) => {
+    const sceneEl = btn.closest(".ll-scene");
+    const lines = linesOf(sceneEl);
+    return {
+      sceneEl,
+      btn,
+      stateEl: sceneEl.querySelector("[data-state]"),
+      castEl: sceneEl.querySelector("[data-cast]"),
+      si: Number(btn.dataset.playScene),
+      lines,
+      speakers: [...new Set(lines.map((l) => l.who))].map((who) => ({
+        who,
+        gender: (lines.find((l) => l.who === who) || {}).gender || "",
+      })),
+      cursor: 0,
+      started: false,
+      playing: false,
+      plan: null,
+    };
+  });
+
+  let playGen = 0; // отменяет устаревшие цепочки после паузы/перемотки/перезапуска
+
+  const render = (ctx, paused) => {
+    if (!ctx.stateEl) return;
+    const line = ctx.lines[ctx.cursor];
+    ctx.stateEl.textContent = line
+      ? (paused ? "Пауза · " : "") +
+        (line.label ? line.label + " · " : "") +
+        "фраза " + (ctx.cursor + 1) + " из " + ctx.lines.length
+      : "";
+  };
+  const markBtn = (ctx, mode) => {
+    ctx.btn.classList.toggle("is-playing", mode === "playing");
+    ctx.btn.classList.toggle("is-paused", mode === "paused");
+    ctx.btn.setAttribute("aria-pressed", mode === "playing" ? "true" : "false");
+  };
+  const clearSpeaking = () =>
+    document.querySelectorAll(".ll-line.is-speaking").forEach((el) => el.classList.remove("is-speaking"));
+  const clearCast = () =>
+    document.querySelectorAll(".ll-cast__item.is-on").forEach((el) => el.classList.remove("is-on"));
+  const markSpeaker = (ctx, who) => {
+    if (!ctx.castEl) return;
+    Array.from(ctx.castEl.children).forEach((li) => {
+      li.classList.toggle("is-on", !!who && li.dataset.who === who);
+    });
+  };
+
+  // Снимает озвучку, но курсор не двигает — с этого места продолжим.
+  const halt = (ctx) => {
+    if (window.speechSynthesis) speechSynthesis.cancel();
+    playGen++;
+    ctx.playing = false;
+    clearSpeaking();
+    clearCast();
+  };
+
+  // Квиз сцены открывается только после полного прослушивания.
+  const unlockQuiz = (sceneEl) => {
+    const gate = sceneEl.querySelector("[data-gate]");
+    const quiz = sceneEl.querySelector("[data-scene-quiz]");
+    if (gate) gate.hidden = true;
+    if (quiz) quiz.hidden = false;
+  };
+
+  // Цепочка предложений сцены: следующее стартует по onend — без дрейфа таймеров.
+  // Текст при этом скрыт: слушаем и только после квиза сверяемся с ним.
+  const playFrom = (ctx, from) => {
+    if (!ctx.lines.length) return;
+    const voicesReady = window.speechSynthesis && (voice || speechSynthesis.getVoices().length > 0);
+    if (!voicesReady) {
+      // озвучить нечем (нет голосов/API) — не запираем вопросы
+      unlockQuiz(ctx.sceneEl);
+      return;
+    }
+    halt(ctx);
+    ctx.plan = planVoices(ctx.speakers);
+    ctx.cursor = Math.min(Math.max(from, 0), ctx.lines.length - 1);
+    ctx.started = true;
+    ctx.playing = true;
+    const gen = playGen; // halt уже сменил поколение — цепочка играет под ним
+    markBtn(ctx, "playing");
+    // Если движок молчит и onend не приходит (нет голосов, сбой), фраза
+    // «договаривается» по оценке длительности — цепочка не зависнет.
+    const estimate = (text) => Math.max(1800, Math.round(text.length * 85));
+    const say = (i) => {
+      if (gen !== playGen) return; // пауза, перемотка или другая сцена
+      if (i >= ctx.lines.length) {
+        ctx.playing = false;
+        ctx.started = false;
+        ctx.cursor = 0;
+        clearSpeaking();
+        clearCast();
+        if (ctx.stateEl) ctx.stateEl.textContent = "";
+        markBtn(ctx, "idle");
+        unlockQuiz(ctx.sceneEl);
+        return;
+      }
+      ctx.cursor = i;
+      render(ctx, false);
+      markSpeaker(ctx, ctx.lines[i].who);
+      clearSpeaking();
+      ctx.lines[i].el.classList.add("is-speaking");
+      const utt = utterFor(ctx.lines[i].text, ctx.lines[i].who, ctx.plan);
+      let done = false;
+      const finish = () => {
+        if (done || gen !== playGen) return;
+        done = true;
+        clearTimeout(timer);
+        say(i + 1);
+      };
+      utt.onend = finish;
+      utt.onerror = finish;
+      const timer = setTimeout(finish, estimate(ctx.lines[i].text));
+      speechSynthesis.speak(utt);
+    };
+    say(ctx.cursor);
+  };
+
+  const pause = (ctx) => {
+    halt(ctx);
+    markBtn(ctx, ctx.started ? "paused" : "idle");
+    render(ctx, true);
+  };
+
+  // Перемотка по фразам: играет — продолжаем с новой фразы, стоит — двигаем курсор,
+  // чтобы «Продолжить» началось с него.
+  const skip = (ctx, dir) => {
+    const wasPlaying = ctx.playing;
+    halt(ctx);
+    ctx.started = true;
+    ctx.cursor = Math.min(Math.max(ctx.cursor + dir, 0), ctx.lines.length - 1);
+    if (wasPlaying) return playFrom(ctx, ctx.cursor);
+    markBtn(ctx, "paused");
+    render(ctx, true);
+  };
+
+  // Отдельная реплика из текста сцены: сцену ставим на паузу, курсор не трогаем.
+  const sayOne = (text) => {
+    if (!window.speechSynthesis) return;
+    sceneCtx.forEach((c) => {
+      if (!c.playing) return;
+      halt(c);
+      markBtn(c, c.started ? "paused" : "idle");
+      render(c, true);
+    });
+    playGen++;
+    speechSynthesis.cancel();
+    clearSpeaking();
+    clearCast();
+    speechSynthesis.speak(utterFor(text, "", null));
+  };
+
+  document.addEventListener("click", (e) => {
+    const one = e.target.closest("[data-say]");
+    if (one) {
+      const en = one.closest(".ll-line").querySelector(".ll-line__en");
+      if (en) sayOne(en.textContent);
+      return;
+    }
+    const btn = e.target.closest("[data-play-scene]");
+    if (btn) {
+      const ctx = sceneCtx.find((c) => c.btn === btn);
+      if (ctx) (ctx.playing ? pause : playFrom)(ctx, ctx.cursor);
+      return;
+    }
+    const step = e.target.closest("[data-skip]");
+    if (!step) return;
+    const ctx = sceneCtx.find((c) => c.si === Number(step.dataset.skip));
+    if (ctx) skip(ctx, Number(step.dataset.dir));
+  });
+
+  // Вернулись на страницу из кэша браузера (bfcache) — начинаем сцены сначала:
+  // прогресс живёт только в открытой странице.
+  window.addEventListener("pageshow", (e) => {
+    if (!e.persisted) return;
+    if (window.speechSynthesis) speechSynthesis.cancel();
+    playGen++;
+    clearSpeaking();
+    clearCast();
+    sceneCtx.forEach((c) => {
+      c.cursor = 0;
+      c.started = false;
+      c.playing = false;
+      markBtn(c, "idle");
+      if (c.stateEl) c.stateEl.textContent = "";
+    });
+  });
+
+  // Текст сцены закрыт, пока квиз не пройден: клик по заблокированному
+  // переключателю ничего не открывает.
+  document.addEventListener("click", (e) => {
+    const sum = e.target.closest(".ll-script__toggle");
+    if (!sum) return;
+    const det = sum.closest("details.ll-script");
+    if (det && det.classList.contains("is-locked")) e.preventDefault();
+  });
+
+  const unlockScript = (scene) => {
+    const det = scene.querySelector(".ll-script");
+    if (!det) return;
+    det.classList.remove("is-locked");
+    const sum = det.querySelector(".ll-script__toggle");
+    if (sum && sum.dataset.toggleLabel) sum.textContent = sum.dataset.toggleLabel;
+    det.open = true;
+  };
+
+  // Квиз сцены пройден — разблокируем текст (перевод для сверки) и открываем.
+  document.addEventListener("quiz:done", (e) => {
+    const scene = e.target && e.target.closest ? e.target.closest(".ll-scene") : null;
+    if (!scene) return;
+    unlockScript(scene);
+  });
+</script>
+
+<style>
+  .listening-lesson {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 24px 28px 64px;
+  }
+  .ll-back {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 4px 0 22px;
+  }
+  .ll-back a { color: var(--ink-soft); text-decoration: none; transition: color 0.15s; }
+  .ll-back a:hover { color: var(--mint-ink); }
+
+  .ll-head { margin: 0 0 20px; }
+  .ll-eyebrow {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--mint-ink);
+    margin: 0 0 8px;
+  }
+  .ll-title {
+    font-family: var(--display-serif);
+    font-size: clamp(30px, 3.4vw, 46px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.06;
+    color: var(--ink);
+    margin: 0 0 8px;
+  }
+  .ll-sub { font-family: var(--display-serif); font-size: 18px; color: var(--ink-mid); margin: 0 0 10px; }
+  .ll-intro {
+    font-family: var(--display-serif);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.7;
+    color: var(--ink-mid);
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+
+  /* как работать с уроком */
+  .ll-howto {
+    margin: 0 0 36px;
+    padding: 14px 18px 14px 42px;
+    background: var(--surface);
+    border: 1px dashed var(--mint-deep);
+    border-radius: 14px;
+    font-family: var(--display-serif);
+    font-size: 14.5px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--ink-mid);
+  }
+  .ll-howto li { margin: 4px 0; }
+  .ll-howto li::marker { color: var(--mint-ink); font-weight: 700; }
+
+  .ll-scene {
+    scroll-margin-top: calc(var(--head-h, 64px) + 30px);
+    margin-bottom: 44px;
+  }
+  .ll-scene + .ll-scene { border-top: 1.5px solid var(--line); padding-top: 38px; }
+  .ll-scene__head {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 14px;
+  }
+  .ll-scene__title {
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    margin: 0 0 2px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .ll-scene__num { font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--mint-ink); }
+  .ll-scene__sub { font-family: var(--display-serif); font-size: 14.5px; font-weight: 500; color: var(--ink-mid); margin: 0; }
+  .ll-scene__meta {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--mint-ink);
+    background: var(--mint);
+    border-radius: 99px;
+    padding: 3px 10px;
+    white-space: nowrap;
+  }
+
+  .ll-player { display: flex; align-items: center; gap: 12px; margin: 0 0 26px; flex-wrap: wrap; }
+  .ll-player__bar { display: flex; align-items: center; gap: 8px; }
+  .ll-player__skip {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1.5px solid var(--line);
+    background: var(--paper);
+    color: var(--ink-mid);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .ll-player__skip:hover { background: var(--mint); border-color: var(--mint-deep); color: var(--ink); }
+  .ll-player__play {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--paper);
+    background: var(--ink);
+    border: 1.5px solid var(--ink);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .ll-player__play:hover { background: var(--mint-ink); border-color: var(--mint-ink); }
+  /* играем: кнопка та же, но подсвечена — повторное нажатие ставит на паузу */
+  .ll-player__play.is-playing {
+    background: var(--mint-deep);
+    border-color: var(--mint-ink);
+    color: var(--ink);
+  }
+  .ll-player__play.is-playing:hover { background: var(--mint-deeper); }
+  /* приостановлено: играет тот же значок, но подпись зовёт продолжить с того же места */
+  .ll-player__play.is-paused { background: var(--mint); border-color: var(--mint-deep); color: var(--ink); }
+  .ll-player__play.is-paused:hover { background: var(--mint-deep); }
+  .ll-ico { display: block; }
+  .ll-ico--pause,
+  .ll-player__cap--resume,
+  .ll-player__cap--pause { display: none; }
+  .ll-player__play.is-playing .ll-ico--play,
+  .ll-player__play.is-playing .ll-player__cap--play { display: none; }
+  .ll-player__play.is-playing .ll-ico--pause { display: block; }
+  .ll-player__play.is-playing .ll-player__cap--pause { display: inline; }
+  .ll-player__play.is-paused .ll-player__cap--play { display: none; }
+  .ll-player__play.is-paused .ll-player__cap--resume { display: inline; }
+
+  /* кто говорит в сцене: точка и подсветка активного голоса во время прослушивания */
+  .ll-cast { list-style: none; display: flex; align-items: center; gap: 6px; margin: 0; padding: 0; }
+  .ll-cast__item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 11px 5px 9px;
+    border-radius: 999px;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--ink-soft);
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .ll-cast__item::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--ink-soft);
+  }
+  .ll-cast__item--b::before { background: var(--mint-ink); }
+  .ll-cast__item.is-on { background: var(--ink); border-color: var(--ink); color: var(--paper); }
+  .ll-cast__item.is-on::before { background: var(--mint-deep); }
+  .ll-cast__item--b.is-on { background: var(--mint-ink); border-color: var(--mint-ink); }
+  .ll-cast__item--b.is-on::before { background: var(--paper); }
+
+  .ll-player__state {
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--mint-ink);
+  }
+
+  .ll-quiz { margin-bottom: 20px; }
+  .ll-quiz[hidden] { display: none; }
+  .ll-quiz__title {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--mint-ink);
+    margin: 0 0 12px;
+  }
+
+  /* гейт: вопросы закрыты, пока сцена не дослушана до конца */
+  .ll-gate {
+    margin: 0 0 20px;
+    padding: 16px 18px;
+    background: var(--surface);
+    border: 1.5px dashed var(--mint-deep);
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .ll-gate[hidden] { display: none; }
+  .ll-gate__txt {
+    font-family: var(--display-serif);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--ink-mid);
+    margin: 0;
+  }
+  .ll-gate__wait {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.35em;
+    color: var(--mint-ink);
+    animation: ll-pulse 1.6s ease-in-out infinite;
+  }
+  @keyframes ll-pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+
+  /* текст сцены — заблокирован до прохождения квиза, затем раскрывается */
+  .ll-script { border-top: 1px solid var(--line); padding-top: 16px; margin-top: 4px; }
+  .ll-script__toggle {
+    list-style: none;
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 12px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--mint-ink);
+    user-select: none;
+  }
+  .ll-script__toggle::-webkit-details-marker { display: none; }
+  .ll-script__toggle::before { content: "＋ "; }
+  .ll-script[open] .ll-script__toggle::before { content: "－ "; }
+  .ll-script__toggle:hover { color: var(--ink); }
+  /* пока квиз не пройден — открыть нельзя: некликабельно, без маркера */
+  .ll-script.is-locked { border-top-color: var(--mint-deep); }
+  .ll-script.is-locked .ll-script__toggle {
+    color: var(--ink-soft);
+    cursor: not-allowed;
+  }
+  .ll-script.is-locked .ll-script__toggle::before { content: none; }
+  .ll-script.is-locked .ll-script__toggle:hover { color: var(--ink-soft); }
+  .ll-script__inner { margin-top: 14px; }
+
+  /* Реплики диалога: участники встают на разные стороны и разными цветами,
+     чтобы сцена читалась как разговор двух людей, а не как монолог. */
+  .ll-lines { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; }
+  .ll-line {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    gap: 4px 12px;
+    padding: 10px 14px 10px 8px;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 12px;
+  }
+  .ll-line:hover { border-color: var(--mint-deep); }
+  .ll-line--b {
+    align-self: flex-end;
+    max-width: min(88%, 560px);
+    background: var(--mint);
+    border-color: var(--mint-deep);
+  }
+  .ll-line--b:hover { border-color: var(--mint-deeper); }
+  /* сейчас звучит эта реплика */
+  .ll-line.is-speaking {
+    border-color: var(--mint-ink);
+    box-shadow: 0 0 0 2px rgba(47, 157, 110, 0.22);
+  }
+  .ll-play {
+    grid-row: 1 / 3;
+    align-self: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: var(--paper);
+    color: var(--ink-mid);
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  }
+  .ll-play:hover { background: var(--mint); border-color: var(--mint-deep); color: var(--ink); }
+  .ll-line--b .ll-play { background: transparent; border-color: var(--mint-deep); }
+  .ll-line--b .ll-play:hover { background: var(--mint-deep); }
+  .ll-line__body { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+  .ll-line__who {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    color: var(--ink-soft);
+  }
+  .ll-line--b .ll-line__who { color: var(--mint-ink); }
+  .ll-line__en { font-family: var(--display-serif); font-size: 15.5px; line-height: 1.45; color: var(--ink); margin: 0; }
+  .ll-line__ru { font-family: var(--body); font-size: 13.5px; line-height: 1.45; color: var(--ink-soft); margin: 0; }
+
+  .ll-footnote {
+    margin-top: 40px;
+    padding-top: 22px;
+    border-top: 1px solid var(--line);
+    font-family: var(--display-serif);
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: var(--ink-soft);
+  }
+  .sr-only {
+    position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
+  }
+  @media (max-width: 640px) {
+    .listening-lesson { padding: 12px 14px 48px; }
+    .ll-scene__head { flex-direction: column; align-items: flex-start; }
+    .ll-title { font-size: clamp(26px, 8vw, 34px); }
+    .ll-howto { padding-left: 34px; }
+    .ll-line--b { max-width: 94%; }
+    .ll-player__play { padding: 10px 16px; }
+    .ll-player { gap: 10px; }
+    .ll-cast__item { font-size: 10.5px; padding: 4px 10px 4px 8px; }
+  }
+</style>

@@ -37,6 +37,8 @@ const payload = JSON.stringify({ questions: questions || [], ui: ui || {} });
       const review = wrong.length ? '<div class="quiz__review"><h3 class="quiz__review-t">' + esc(ui.reviewTitle || 'Review') + '</h3>' + wrong.map((x) => { const q = x.q, mine = state.sel[x.i]; return '<div class="quiz__rev"><p class="quiz__rev-q">' + esc(q.q) + '</p><p class="quiz__rev-wrong">' + CROSS + ' ' + esc(ui.yourAnswer || 'Your answer') + ': ' + esc(q.options[mine]) + '</p><p class="quiz__rev-right">' + CHECK + ' ' + esc(ui.correctAnswer || 'Correct') + ': ' + esc(q.options[q.answer]) + '</p><p class="quiz__rev-why">' + esc(q.why) + '</p></div>'; }).join('') + '</div>' : '';
       root.innerHTML = '<div class="quiz__done"><p class="quiz__eyebrow">' + esc(ui.eyebrow || '') + '</p><div class="quiz__medal"><span class="quiz__medal-n">' + s + '</span><span class="quiz__medal-t">/ ' + t + '</span></div><p class="quiz__pct">' + pct + '%</p><p class="quiz__verdict">' + esc(v) + '</p>' + review + '<button type="button" class="btn btn--ghost quiz__again">' + esc(ui.again || 'Again') + '</button></div>';
       root.querySelector('.quiz__again').addEventListener('click', () => { state.idx = 0; state.sel = new Array(questions.length).fill(null); state.order = buildOrder(); step(); });
+      // Страницы-обёртки могут реагировать на завершение (например, показать текст сцены)
+      root.dispatchEvent(new CustomEvent('quiz:done', { bubbles: true }));
     }
     step();
   }
