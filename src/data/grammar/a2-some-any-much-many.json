@@ -13,7 +13,7 @@
     "[bold]Much[/bold] используется с неисчисляемыми существительными — теми, которые воспринимаются как масса, вещество, время, деньги, информация или другое неделимое количество. В «The Ransom of Red Chief» появляется [bold]much excitement[/bold]. Excitement нельзя пересчитать как отдельные предметы, поэтому используется much. То же правило работает с time, money, water, information и work.",
     "[bold]Many[/bold] используется с исчисляемыми существительными во множественном числе. В «The Cop and the Anthem» О. Генри пишет [bold]many easy ways[/bold]: ways можно пересчитать — one way, two ways, many ways. Поэтому many относится к отдельным предметам, людям, местам или вариантам.",
     "Разницу между формами показывают простые пары. [bold]Some money[/bold] — некоторое количество денег; money неисчисляемое. [bold]Many dollars[/bold] — много долларов; dollars можно пересчитать. [bold]Much time[/bold] — много времени; time воспринимается как количество. [bold]Many days[/bold] — много дней; days можно пересчитать.",
-    "В утверждении some и much/many часто работают вместе: [bold]There is some food[/bold], [bold]There is much excitement[/bold], [bold]There are many ways[/bold]. В вопросе о наличии появляется any: [bold]Is there any water?[/bold], [bold]Are there any ways?[/bold]. В отрицании та же логика: [bold]There isn't any water[/bold], [bold]There aren't many options[/bold].",
+    "В утверждении some и much/many часто работают вместе: [bold]There is some food[/bold], [bold]There is much excitement[/bold], [bold]There are many ways[/bold]. В вопросе о наличии появляется any: [bold]Is there any water?[/bold], [bold]Are there any ways?[/bold]. В отрицании та же логика: [bold]There isn't any water[/bold], [bold]There aren't many options[/bold]. В разговорной речи на месте much и many в утверждении чаще звучит [bold]a lot of[/bold] или [bold]lots of[/bold]: [bold]There was a lot of noise[/bold], [bold]There are lots of ways[/bold]. Вопрос о количестве строится отдельно, через [bold]how much[/bold] и [bold]how many[/bold]: [bold]How much money is there?[/bold] [bold]How many days does it take?[/bold] Выбор между how much и how many идёт по тому же признаку, что и между much и many.",
     "У some есть отдельное употребление в просьбах и предложениях, где говорящий ожидает положительного ответа: [bold]Would you like some tea?[/bold] Some показывает предполагаемое наличие некоторого количества, а не «несколько». Основная схема остаётся прежней: some — утверждение, any — вопрос и отрицание.",
     "В историях О. Генри количество связано с конкретными ограничениями: деньги можно потратить, время можно потерять, варианты можно пересчитать, а интерес или волнение нельзя посчитать по отдельным единицам. Some, any, much и many описывают эти ограничения со своей стороны: наличие, отсутствие, объём и число."
   ],
@@ -130,7 +130,9 @@
     "Any — отсутствие количества в отрицательных предложениях.",
     "Much — большое или неопределённое количество неисчисляемого.",
     "Many — большое или неопределённое количество исчисляемого во множественном числе.",
-    "Some может использоваться в просьбах и предложениях: «Would you like some coffee?»"
+    "Some может использоваться в просьбах и предложениях: «Would you like some coffee?»",
+    "A lot of / lots of — большое количество в утверждении.",
+    "How much / how many — вопрос о количестве."
   ],
   "rules": [
     {
@@ -148,6 +150,14 @@
     {
       "title": "Many — исчисляемое",
       "text": "Many используется с исчисляемыми существительными во множественном числе: «many people», «many days», «many ways»."
+    },
+    {
+      "title": "A lot of / lots of",
+      "text": "В утверждениях вместо much и many часто используется a lot of или lots of: «a lot of money», «lots of people»."
+    },
+    {
+      "title": "How much / how many",
+      "text": "Вопрос о количестве начинается с how much или how many: «How much time?», «How many people?». Выбор тот же: how much — перед неисчисляемым, how many — перед исчисляемым во множественном числе."
     }
   ],
   "examples": [
@@ -383,6 +393,34 @@
           "highlight": [
             "many people"
           ]
+        },
+        {
+          "en": "There is a lot of noise in the street.",
+          "ru": "На улице много шума.",
+          "highlight": [
+            "a lot of noise"
+          ]
+        },
+        {
+          "en": "Lots of people knew about the plan.",
+          "ru": "Многие знали об этом плане.",
+          "highlight": [
+            "Lots of people"
+          ]
+        },
+        {
+          "en": "How much time do they need?",
+          "ru": "Сколько времени им нужно?",
+          "highlight": [
+            "How much time"
+          ]
+        },
+        {
+          "en": "How many days will it take?",
+          "ru": "Сколько дней это займёт?",
+          "highlight": [
+            "How many days"
+          ]
         }
       ]
     }
@@ -453,7 +491,9 @@
     "Much = неисчисляемое.",
     "Many = исчисляемое во множественном числе.",
     "Сначала определяй исчисляемое / неисчисляемое, потом выбирай much или many.",
-    "Не путай many people с much people и much money с many money."
+    "Не путай many people с much people и much money с many money.",
+    "В утверждении о большом количестве чаще звучит a lot of или lots of: a lot of money, lots of people.",
+    "Вопрос о количестве: how much перед неисчисляемым, how many перед исчисляемым."
   ],
   "quiz": [
     {

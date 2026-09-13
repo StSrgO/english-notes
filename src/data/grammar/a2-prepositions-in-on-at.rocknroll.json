@@ -17,7 +17,7 @@
     "Выбор предлога зависит от точки зрения. Один и тот же человек может сначала быть [bold]on the stage[/bold], затем оказаться [bold]in the crowd[/bold], а всё событие происходит [bold]at the festival[/bold]. Три предлога описывают не три разных правила, а три разных масштаба одного пространства.",
     "Три предлога отвечают на разные вопросы о пространстве и времени. [bold]In[/bold] — где-то внутри объёма или внутри периода. [bold]On[/bold] — на поверхности или в пределах дня. [bold]At[/bold] — в точке, у конкретного места или в точный час. Место, поверхность и точка — три разных способа указать положение одного и того же объекта.",
     "Когда Игги покидает сцену, у пространства появляются свои ориентиры. Охранники стоят [bold]behind the stage[/bold], фанаты жмутся [bold]next to the speakers[/bold], а между охранниками и толпой — [bold]between the guards and the crowd[/bold] — возникает полоса напряжения. Пока музыкант остаётся на месте, положение описывают предлоги [bold]under[/bold], [bold]behind[/bold], [bold]next to[/bold], [bold]between[/bold]. Но Игги не стоит на месте: он прыгает [bold]into the crowd[/bold], выбирается [bold]out of the crowd[/bold], бежит [bold]across the field[/bold] и пробирается [bold]through the audience[/bold], чтобы снова подняться [bold]up to the stage[/bold]. Положение отвечает на вопрос «где?», направление — на вопрос «куда?», и вместе они превращают сцену и толпу в один маршрут.",
-    "У концерта есть и временные рамки. Пока группа не вышла, зрители ждут [bold]before the concert[/bold] — иногда [bold]for hours[/bold]. Когда шоу началось, всё происходит [bold]during the concert[/bold]: и прыжок в толпу, и возвращение на сцену. Фестиваль продолжается [bold]until midnight[/bold], и даже [bold]after the set[/bold] публика не расходится. In, on и at ставят событие на шкалу времени, а until, during и for показывают, как долго оно длится и до какого предела."
+    "У концерта есть и временные рамки. Пока группа не вышла, зрители ждут [bold]before the concert[/bold] — иногда [bold]for hours[/bold]. Когда шоу началось, всё происходит [bold]during the concert[/bold]: и прыжок в толпу, и возвращение на сцену. Фестиваль продолжается [bold]until midnight[/bold], и даже [bold]after the set[/bold] публика не расходится. In, on и at ставят событие на шкалу времени, а until, during и for показывают, как долго оно длится и до какого предела. Отдельно стоит предлог by. Со временем он показывает крайний срок: [bold]The stage must be ready by noon[/bold] значит «к полудню, не позднее полудня». С транспортом by называет способ передвижения, а с местом — близость: [bold]the crew reaches the field by bus[/bold], [bold]the crew waits by the speakers[/bold]."
   ],
   "why": [
     "Указывать, что предмет или человек находится внутри пространства.",
@@ -134,7 +134,7 @@
       ]
     }
   },
-  "formula": "in + space/period; on + surface/day; at + point/event/moment; under/behind/next to + position; to/into/out of/across/through + direction; until/during/for/before/after + time frame",
+  "formula": "in + space/period; on + surface/day; at + point/event/moment; under/behind/next to + position; to/into/out of/across/through + direction; until/during/for/before/after + time frame; by + transport/deadline",
   "structure": {
     "place": "in the crowd\non the stage\nat the festival",
     "time": "in 1970\non that day\nat noon",
@@ -165,7 +165,8 @@
     "behind the stage",
     "into the crowd",
     "out of the crowd",
-    "until midnight"
+    "until midnight",
+    "by"
   ],
   "uses": [
     "Внутри пространства: «in the crowd».",
@@ -176,7 +177,9 @@
     "В точный момент: «at noon».",
     "Положение: «behind the stage», «next to the speakers», «between the guards».",
     "Движение: «into the crowd», «out of the crowd», «across the field», «through the audience».",
-    "Время-рамки: «until midnight», «during the show», «for hours», «before the concert»."
+    "Время-рамки: «until midnight», «during the show», «for hours», «before the concert».",
+    "Способ передвижения: «by bus», «by train» — без артикля перед транспортом.",
+    "Крайний срок: «by noon» — к полудню, не позднее полудня."
   ],
   "rules": [
     {
@@ -206,6 +209,10 @@
     {
       "title": "Время-рамки",
       "text": "Until задаёт предел ожидания: «until midnight». During помещает действие внутрь события: «during the show». For показывает длительность: «for hours». Before и after — порядок событий."
+    },
+    {
+      "title": "By — транспорт, близость, срок",
+      "text": "С транспортом by показывает способ передвижения и стоит без артикля: «by bus», «by car», «by train». С местом by значит «рядом»: «by the door». Со временем — крайний срок: «by noon» — к полудню, не позднее полудня."
     }
   ],
   "examples": [
@@ -434,6 +441,13 @@
           "highlight": [
             "under the stage"
           ]
+        },
+        {
+          "en": "Fans stand by the barrier.",
+          "ru": "Фанаты стоят у ограждения.",
+          "highlight": [
+            "by the barrier"
+          ]
         }
       ]
     },
@@ -474,6 +488,13 @@
           "highlight": [
             "up to the stage"
           ]
+        },
+        {
+          "en": "They reach the festival by bus.",
+          "ru": "Они добираются до фестиваля на автобусе.",
+          "highlight": [
+            "by bus"
+          ]
         }
       ]
     },
@@ -513,6 +534,13 @@
           "ru": "После сета зрители всё ещё ищут Игги.",
           "highlight": [
             "after the set"
+          ]
+        },
+        {
+          "en": "The stage must be ready by six o'clock.",
+          "ru": "Сцена должна быть готова к шести часам.",
+          "highlight": [
+            "by six o'clock"
           ]
         }
       ]
@@ -603,7 +631,8 @@
     "Положение отвечает на «где?»: under, behind, next to, between.",
     "Движение отвечает на «куда?»: to, into, out of, across, through.",
     "Until — предел, during — внутри события, for — длительность.",
-    "«Из»: from — откуда человек приехал, out of — наружу изнутри."
+    "«Из»: from — откуда человек приехал, out of — наружу изнутри.",
+    "By + транспорт без артикля: by bus, by car. Со временем by означает крайний срок: by noon; с местом — близость: by the door."
   ],
   "quiz": [
     {

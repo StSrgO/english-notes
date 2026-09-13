@@ -11,7 +11,7 @@
     "К началу истории уже произошла целая цепочка событий: «Серебряный» исчез из конюшни, тренер Джон Стрэкер погиб, конюх Нед Хантер был опоен порошковым опиумом, а инспектор Грегори арестовал Фитцроя Симпсона. Когда Холмс приезжает в Дартмур, он не наблюдает эти события в реальном времени. Он восстанавливает их по следам и свидетельствам. Рассказ постоянно возвращается к тому, что произошло раньше: [bold]Silver disappeared[/bold]. [bold]Straker died[/bold]. [bold]Gregory arrested Simpson[/bold]. Такая цепочка завершённых событий — обычная среда для Past Simple.",
     "Past Simple показывает событие завершённым. Если действие произошло и больше не происходит, форма представляет его как отдельный факт: [bold]Holmes arrived[/bold], [bold]he inspected the tracks[/bold], [bold]he questioned the groom[/bold]. Дело не в моменте наблюдения, как в Present Continuous, а в том, что событие уже случилось. Поэтому Past Simple часто встречается в рассказах, биографиях, воспоминаниях и описаниях прошлых событий.",
     "Обычно Past Simple легко узнать по словам, которые указывают на завершённое прошлое: [bold]yesterday[/bold], [bold]last night[/bold], [bold]last week[/bold], [bold]two days ago[/bold], [bold]in 1892[/bold]. Например, [bold]Holmes returned yesterday[/bold] говорит о завершённом событии. [bold]The horse left the stable last night[/bold] помещает исчезновение в определённый момент прошлого. Но такие слова не обязательны. Сам контекст может сделать прошлое очевидным: [bold]Holmes entered the stable and examined the door[/bold]. Даже без yesterday понятно, что действия относятся к уже завершённому эпизоду.",
-    "У правильных глаголов Past Simple образуется с помощью окончания [bold]-ed[/bold]. [bold]arrive → arrived[/bold], [bold]examine → examined[/bold], [bold]open → opened[/bold], [bold]look → looked[/bold]. Окончание относится к прошлому действию, а не к подлежащему. [bold]Holmes examined the stable[/bold] и [bold]Watson examined the stable[/bold] используют одну и ту же форму examined. В отличие от Present Simple отдельное окончание для he или she не появляется. Прошедшая форма остаётся одинаковой для всех лиц.",
+    "У правильных глаголов Past Simple образуется с помощью окончания [bold]-ed[/bold]. [bold]arrive → arrived[/bold], [bold]examine → examined[/bold], [bold]open → opened[/bold], [bold]look → looked[/bold]. Окончание относится к прошлому действию, а не к подлежащему. [bold]Holmes examined the stable[/bold] и [bold]Watson examined the stable[/bold] используют одну и ту же форму examined. В отличие от Present Simple отдельное окончание для he или she не появляется. Прошедшая форма остаётся одинаковой для всех лиц. Само окончание пишется по-разному в зависимости от конца глагола. Если перед y стоит согласная, y переходит в i: [bold]study → studied[/bold], [bold]carry → carried[/bold]. Если перед y стоит гласная, ничего не меняется: [bold]play → played[/bold]. Короткий глагол, у которого на конце одна гласная и одна согласная, удваивает эту согласную: [bold]stop → stopped[/bold], [bold]plan → planned[/bold].",
     "Но Past Simple нельзя построить только добавлением -ed: многие самые частотные английские глаголы неправильные. [bold]go → went[/bold], [bold]come → came[/bold], [bold]find → found[/bold], [bold]see → saw[/bold], [bold]take → took[/bold], [bold]leave → left[/bold]. Эти формы запоминаются как отдельные пары. Например, [bold]He saw the footprints[/bold] — не [bold]He see the footprints[/bold]. Форма прошедшего времени сама служит сигналом того, что событие уже произошло.",
     "Past Simple особенно полезен, когда события образуют последовательность. В рассказе можно сказать: [bold]Holmes arrived, examined the stable, followed the tracks, and found the horse[/bold]. Четыре действия идут одно за другим. Первое произошло, затем второе, затем третье, затем четвёртое. Поэтому Past Simple становится одним из главных инструментов повествования. Он позволяет двигать историю вперёд, превращая отдельные факты в цепочку.",
     "В «Серебряном» такой принцип работает почти как расследовательская схема. Сначала Холмс приехал в Дартмур. Затем он осмотрел место происшествия. Потом он изучил следы. После этого он обнаружил «Серебряного». В конце он объяснил, что произошло с Джоном Стрэкером. Всю историю можно представить как ряд завершённых событий: [bold]Holmes arrived. He examined the evidence. He followed the tracks. He found the horse. He explained the case.[/bold] Past Simple делает эту последовательность видимой.",
@@ -145,6 +145,10 @@
     {
       "title": "Правильные глаголы",
       "text": "У правильных глаголов Past Simple обычно образуется с -ed: examine → examined, arrive → arrived."
+    },
+    {
+      "title": "Написание -ed",
+      "text": "Перед -ed конечное y после согласной переходит в i: study → studied, carry → carried. Короткий глагол с одной гласной и одной согласной на конце удваивает согласную: stop → stopped, plan → planned."
     },
     {
       "title": "Неправильные глаголы",
@@ -531,6 +535,7 @@
     "В вопросе используй did + V1.",
     "В отрицании используй didn't + V1.",
     "Для be используй was/were.",
+    "Перед -ed проверь конец глагола: study → studied, carry → carried, stop → stopped, plan → planned.",
     "Если рассказываешь цепочку завершённых событий, Past Simple обычно становится основным временем повествования."
   ],
   "quiz": [

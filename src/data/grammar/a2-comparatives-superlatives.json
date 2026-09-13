@@ -9,7 +9,7 @@
   "idea": [
     "В 1958 году Олдос Хаксли вернулся к миру, который придумал почти тридцать лет назад. В Brave New World он описал будущее, в котором общество управляется не только силой, но и удовольствием, привычкой и контролем желаний. В Brave New World Revisited он смотрит на этот мир из другой точки во времени: часть того, что раньше казалось далёким предупреждением, теперь выглядит ближе. Поэтому Хаксли постоянно сравнивает разные состояния общества. Когда нужно показать, что один объект обладает признаком в большей или меньшей степени, английский использует comparative: [bold]more powerful[/bold], [bold]less optimistic[/bold], [bold]more effective[/bold]. Сравниваются две вещи или две степени одного признака.",
     "Хаксли не утверждает, что одна система хорошая, а другая плохая. Он пытается определить, чем они отличаются. Одна форма общественного устройства может быть [bold]more stable[/bold] than another — более стабильной, чем другая. Какая-то опасность может стать [bold]more serious[/bold] over time — более серьёзной. А прогноз автора может оказаться [bold]less optimistic[/bold] than it was before — менее оптимистичным, чем раньше. Слово than обычно стоит после comparative, когда второй объект сравнения назван прямо.",
-    "Для коротких прилагательных comparative обычно образуется с -er: [bold]faster[/bold], [bold]smaller[/bold], [bold]stronger[/bold]. Для длинных прилагательных используется more: [bold]more dangerous[/bold], [bold]more important[/bold]. Меньшую степень показывает less: [bold]less effective[/bold], [bold]less predictable[/bold]. Формы с -er, more и less вместе описывают и рост признака, и его снижение.",
+    "Для коротких прилагательных comparative обычно образуется с -er: [bold]faster[/bold], [bold]smaller[/bold], [bold]stronger[/bold]. Для длинных прилагательных используется more: [bold]more dangerous[/bold], [bold]more important[/bold]. Меньшую степень показывает less: [bold]less effective[/bold], [bold]less predictable[/bold]. Формы с -er, more и less вместе описывают и рост признака, и его снижение. Отдельный оборот нужен, когда признак у двух объектов одинаковый: [bold]as powerful as[/bold], [bold]as important as[/bold]. Отрицательная форма показывает, что признак слабее: [bold]not as effective as[/bold]. Написание коротких форм тоже подчиняется правилу: конечное y после согласной переходит в i: [bold]easy → easier → the easiest[/bold]. Если на конце одна гласная и одна согласная, согласная удваивается: [bold]big → bigger → the biggest[/bold].",
     "Хаксли также сравнивает собственную антиутопию с другими представлениями о будущем. Comparative помогает не только описать объект, но и построить аргумент. [bold]Brave New World is different from 1984[/bold] — это ещё не объяснение. [bold]One system may be more effective than another[/bold] уже задаёт вопрос: почему? Сравнение заставляет читателя смотреть на два варианта одновременно.",
     "Superlative работает иначе. Comparative отвечает на вопрос «какой из двух больше, меньше, сильнее или слабее?». Superlative выделяет один объект среди трёх и более: [bold]the most important[/bold], [bold]the most dangerous[/bold], [bold]the least effective[/bold]. Поэтому the most important argument — не «более значимый аргумент», а «самый значимый аргумент среди рассматриваемых».",
     "У Хаксли встречаются не два варианта, а целый набор возможных угроз и способов контроля. [bold]The most dangerous form of control[/bold] — среди нескольких форм контроля одна выделяется как наиболее опасная. [bold]The least obvious method[/bold] — наименее очевидный метод. Superlative завершает сравнение: один элемент выбран из группы.",
@@ -115,7 +115,8 @@
     "Сравнение двух объектов: «This system is more stable than that one.»",
     "Большая степень признака: «The situation is more serious than before.»",
     "Меньшая степень признака: «The method is less effective than the old one.»",
-    "Выделение одного объекта из группы: «This is the most dangerous option.»"
+    "Выделение одного объекта из группы: «This is the most dangerous option.»",
+    "Одинаковая степень признака: «This option is as practical as the first one.»"
   ],
   "rules": [
     {
@@ -125,6 +126,14 @@
     {
       "title": "Как образуется comparative",
       "text": "Для коротких прилагательных обычно используется -er: «faster», «stronger». Для длинных — more: «more dangerous», «more effective». Для меньшей степени используется less."
+    },
+    {
+      "title": "Одинаковый признак: as … as",
+      "text": "Если признак выражен у двух объектов одинаково, используется оборот с as: «as stable as», «as serious as». Отрицание показывает меньшую степень: «not as reliable as»."
+    },
+    {
+      "title": "Написание -er и -est",
+      "text": "Конечное y после согласной переходит в i: happy → happier → the happiest. Короткое прилагательное с одной гласной и одной согласной на конце удваивает согласную: hot → hotter → the hottest."
     },
     {
       "title": "Superlative для группы",
@@ -180,6 +189,27 @@
           "highlight": [
             "stronger than"
           ]
+        },
+        {
+          "en": "The second system is as stable as the first one.",
+          "ru": "Вторая система такая же стабильная, как первая.",
+          "highlight": [
+            "as stable as"
+          ]
+        },
+        {
+          "en": "This method is not as accurate as the previous one.",
+          "ru": "Этот метод не настолько точный, как предыдущий.",
+          "highlight": [
+            "not as accurate as"
+          ]
+        },
+        {
+          "en": "The new version is easier to follow than the original one.",
+          "ru": "Новую версию легче читать, чем первоначальную.",
+          "highlight": [
+            "easier"
+          ]
         }
       ]
     },
@@ -226,6 +256,20 @@
           "ru": "Это стало самой важной частью его аргумента.",
           "highlight": [
             "the most important"
+          ]
+        },
+        {
+          "en": "This is the biggest difference between the two systems.",
+          "ru": "Это самое большое различие между двумя системами.",
+          "highlight": [
+            "the biggest"
+          ]
+        },
+        {
+          "en": "It was the easiest way to keep the situation under control.",
+          "ru": "Это был самый простой способ держать ситуацию под контролем.",
+          "highlight": [
+            "the easiest"
           ]
         }
       ]
@@ -324,7 +368,9 @@
     "Если один объект выделяется среди группы, используй superlative.",
     "Запоминай comparative вместе с than: more important than, less serious than.",
     "В superlative не забывай the: the most important, the least serious.",
-    "Особенно полезно запомнить три формы: good → better → the best; bad → worse → the worst."
+    "Особенно полезно запомнить три формы: good → better → the best; bad → worse → the worst.",
+    "Если признак у двух объектов одинаковый, сравни через as … as; оборот not as … as показывает, что признак выражен слабее.",
+    "Короткие формы меняют написание: happy → happier → the happiest, hot → hotter → the hottest."
   ],
   "quiz": [
     {

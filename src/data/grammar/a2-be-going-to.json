@@ -11,7 +11,7 @@
     "Первая функция связана с финалом Great Expectations: Чарльз Диккенс уже закончил роман, но затем решил изменить его концовку. После совета Эдварда Бульвер-Литтона он собирался переписать финальные сцены. Намерение возникает раньше действия: сначала решение, затем изменение текста.",
     "Если описывать эту ситуацию на английском, можно сказать: [bold]Dickens is going to write another ending.[/bold] Речь не о догадке, а о решении, которое уже принято. [bold]He is going to change the last pages.[/bold] У автора уже есть конкретное намерение. [bold]He is going to make the ending more hopeful.[/bold] Будущее начинается с решения в настоящем.",
     "Есть и другая функция. Иногда событие планируется не говорящим, но признаков достаточно, чтобы сделать прогноз. Например, если свеча почти догорела, можно сказать: [bold]The candle is going to go out.[/bold] Если рукопись уже переделана и новая концовка готовится к публикации, можно сказать: [bold]The new ending is going to appear in the published version.[/bold] Направление событий уже понятно.",
-    "Формула проста: форма [bold]be[/bold] в нужном лице, затем [bold]going to[/bold] и базовая форма глагола. Ни одну часть конструкции терять нельзя. [bold]I am going to change it.[/bold] [bold]He is going to change it.[/bold] [bold]They are going to change the date.[/bold] После going to остаётся обычная форма глагола.",
+    "Формула проста: форма [bold]be[/bold] в нужном лице, затем [bold]going to[/bold] и базовая форма глагола. Ни одну часть конструкции терять нельзя. [bold]I am going to change it.[/bold] [bold]He is going to change it.[/bold] [bold]They are going to change the date.[/bold] После going to остаётся обычная форма глагола. Если план остался в прошлом, форма be тоже переходит в прошедшее время: [bold]Dickens was going to keep the original ending[/bold], [bold]they were going to publish the first version[/bold]. Was используется с I, he, she и it, were — с we, you и they. Такая форма часто описывает намерение, которое не осуществилось: план был, а текст в итоге изменили.",
     "Отрицание строится через not после am, is или are: [bold]Dickens is not going to keep the original ending.[/bold] Вопрос начинается с формы be: [bold]Is Dickens going to change the ending?[/bold] — «Диккенс собирается изменить концовку?» Это тот же принцип, который уже знаком по другим конструкциям с be.",
     "Рядом с be going to стоит will. Если решение уже есть, уместно сказать [bold]I am going to call him.[/bold] Если решение появляется прямо сейчас, можно сказать [bold]I will call him.[/bold] Be going to смотрит на уже существующее намерение. Will часто появляется в момент разговора как новое решение или обещание.",
     "Поэтому be going to можно представить как будущее, которое уже имеет направление. Решение принято — [bold]She is going to leave.[/bold] Есть очевидные признаки — [bold]The train is going to arrive.[/bold] В обоих случаях будущее не возникает из ниоткуда: его причина уже видна в настоящем."
@@ -110,7 +110,8 @@
   "uses": [
     "План или намерение: Решение уже принято: \"I am going to change the ending.\"",
     "Предсказание по признакам: Есть признаки того, что событие произойдёт: \"The sky is dark. It is going to rain.\"",
-    "Уже определённое будущее действие: Будущее действие воспринимается как продолжение решения, которое существует сейчас: \"They are going to publish the new version.\""
+    "Уже определённое будущее действие: Будущее действие воспринимается как продолжение решения, которое существует сейчас: \"They are going to publish the new version.\"",
+    "План, который остался в прошлом: Намерение относилось к прошлому: \"He was going to change the ending.\""
   ],
   "rules": [
     {
@@ -128,6 +129,10 @@
     {
       "title": "Be Going To и Will",
       "text": "Be going to обычно показывает уже существующий план или намерение; will часто используется для решения, которое появляется в момент речи."
+    },
+    {
+      "title": "Прошедшая форма",
+      "text": "Если план относится к прошлому, am/is/are меняются на was/were: \"She was going to leave.\" \"They were going to publish the book.\""
     }
   ],
   "examples": [
@@ -229,6 +234,39 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Планы в прошлом",
+      "items": [
+        {
+          "en": "Dickens was going to keep the first version.",
+          "ru": "Диккенс собирался оставить первую версию.",
+          "highlight": [
+            "was going to keep"
+          ]
+        },
+        {
+          "en": "He was going to publish the earlier ending.",
+          "ru": "Он собирался опубликовать прежний финал.",
+          "highlight": [
+            "was going to publish"
+          ]
+        },
+        {
+          "en": "They were going to print the first text.",
+          "ru": "Они собирались напечатать первый текст.",
+          "highlight": [
+            "were going to print"
+          ]
+        },
+        {
+          "en": "The author was going to finish the novel earlier.",
+          "ru": "Автор собирался закончить роман раньше.",
+          "highlight": [
+            "was going to finish"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -287,7 +325,8 @@
     "Не забывай am/is/are.",
     "После going to всегда идёт базовая форма глагола.",
     "В вопросе: Is he going to...? / Are they going to...?",
-    "Не смешивай going to + V1 с going to + place."
+    "Не смешивай going to + V1 с going to + place.",
+    "Если план остался в прошлом, форма be тоже прошедшая: was/were going to."
   ],
   "quiz": [
     {

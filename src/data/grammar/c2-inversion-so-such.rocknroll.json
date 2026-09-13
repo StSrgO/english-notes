@@ -15,7 +15,7 @@
     "Если используется не [bold]be[/bold], а другой глагол, появляется вспомогательный глагол. [bold]The new band developed so quickly that the project became a full career[/bold] превращается в [bold]So quickly did the new band develop that the project became a full career.[/bold] [bold]Did[/bold] нужен потому, что исходный глагол находится в Past Simple.",
     "Такая форма принадлежит журналистскому и биографическому письму: автор сначала даёт оценку степени, а потом сообщает результат. В обычной разговорной речи нейтральная версия звучит привычнее.",
     "С [bold]such[/bold] структура немного другая. [bold]It was such an unexpected turning point that the next stage of his career looked completely different[/bold] можно перестроить как [bold]Such an unexpected turning point was it that the next stage of his career looked completely different.[/bold] В начало переносится именная группа целиком: [bold]such[/bold] и определяемое существительное с его определением.",
-    "Различие между [bold]so[/bold] и [bold]such[/bold] задано тем, что они присоединяют. [bold]So successful[/bold] содержит [bold]so + adjective[/bold]. [bold]Such a successful career[/bold] содержит [bold]such + noun phrase[/bold]. Поэтому нельзя сказать [bold]such successful was his career[/bold] в этой модели.",
+    "Различие между [bold]so[/bold] и [bold]such[/bold] задано тем, что они присоединяют. [bold]So successful[/bold] содержит [bold]so + adjective[/bold]. [bold]Such a successful career[/bold] содержит [bold]such + noun phrase[/bold]. Поэтому нельзя сказать [bold]such successful was his career[/bold] в этой модели. Есть и смешанный случай: [bold]so[/bold] встаёт перед прилагательным внутри именной группы, а артикль идёт после него: [bold]It was so sudden a decision that nobody expected it.[/bold] Инверсия переносит группу целиком: [bold]So sudden a decision was it that nobody expected it.[/bold]",
     "После ухода из Black Sabbath главное — сам результат. К концу 1979 года Black Sabbath, когда-то одна из крупнейших рок-групп мира, казалось, подошла к концу пути. Но после увольнения и тяжёлого периода Оззи встретил Рэнди Роудса и начал новую карьеру.",
     "Поэтому обычное предложение [bold]The turning point was so important that it changed everything[/bold] можно сделать более риторическим: [bold]So important was the turning point that it changed everything.[/bold] Вторая версия не сообщает другой факт. Она заставляет читателя сначала увидеть [bold]important[/bold], а уже затем узнать, каким оказался результат.",
     "Та же логика работает с наречием. [bold]The band's sound changed so radically that the first album sounded like a new beginning[/bold] можно преобразовать в [bold]So radically did the band's sound change that the first album sounded like a new beginning.[/bold] После выноса [bold]so radically[/bold] в начало появляется [bold]did[/bold], а смысловой глагол возвращается к начальной форме.",
@@ -110,10 +110,12 @@
   "structure": {
     "so_adjective": "The firing was so significant that it changed his career. → So significant was the firing that it changed his career.",
     "so_adverb": "Ozzy rebuilt his career so quickly that the firing no longer looked like the end. → So quickly did Ozzy rebuild his career that the firing no longer looked like the end.",
-    "such_noun_phrase": "It was such an unexpected turning point that his career changed direction. → Such an unexpected turning point was it that his career changed direction."
+    "such_noun_phrase": "It was such an unexpected turning point that his career changed direction. → Such an unexpected turning point was it that his career changed direction.",
+    "so_adjective_singular_noun": "It was so unexpected an ending that nobody spoke. → So unexpected an ending was it that nobody spoke."
   },
   "markers": [
     "so + adjective + auxiliary/be + subject",
+    "so + adjective + a/an + noun + auxiliary/be + subject",
     "so + adverb + auxiliary + subject",
     "such + noun phrase + be + subject",
     "that-clause",
@@ -122,6 +124,7 @@
   ],
   "uses": [
     "Степень: So выносит степень признака в начало: \"The firing was so significant\" → \"So significant was the firing\".",
+    "So + adjective + a + noun: Перед существительным в единственном числе артикль идёт после прилагательного: so important a decision.",
     "Результат: That-clause показывает последствие: \"So significant was the firing that it changed his career.\"",
     "Наречие: So + adverb требует вспомогательного глагола: \"So quickly did Ozzy rebuild his career...\"",
     "Such + noun phrase: Such выносит в начало всю именную группу: \"Such an unexpected turning point was it...\"",
@@ -131,6 +134,10 @@
     {
       "title": "So + adjective",
       "text": "После so + adjective используется инверсия be или вспомогательного глагола."
+    },
+    {
+      "title": "So + adjective + a + noun",
+      "text": "С существительным в единственном числе артикль идёт после прилагательного: so important a decision. Инверсия переносит группу в начало."
     },
     {
       "title": "So + adverb",
@@ -172,6 +179,20 @@
           "ru": "Изменение было настолько резким, что новая карьера выглядела совершенно иначе. → Настолько резким было изменение, что новая карьера выглядела совершенно иначе.",
           "highlight": [
             "So dramatic was"
+          ]
+        },
+        {
+          "en": "It was so firm a decision that nobody in the band argued. → So firm a decision was it that nobody in the band argued.",
+          "ru": "Решение было настолько твёрдым, что никто в группе не спорил. → Настолько твёрдым было решение, что никто в группе не спорил.",
+          "highlight": [
+            "So firm a decision was"
+          ]
+        },
+        {
+          "en": "It was so personal a record that the interviews kept returning to it. → So personal a record was it that the interviews kept returning to it.",
+          "ru": "Альбом был настолько личным, что интервью возвращались к нему снова. → Настолько личным был альбом, что интервью возвращались к нему снова.",
+          "highlight": [
+            "So personal a record was"
           ]
         }
       ]
@@ -272,6 +293,7 @@
   "tips": [
     "So используется перед adjective/adverb, such — перед noun phrase.",
     "После so + adjective проверь, не должен ли be оказаться перед подлежащим.",
+    "С существительным в единственном числе артикль ставится после прилагательного: so important a decision, а не so a important decision.",
     "После so + adverb с обычным глаголом используй do/did/does.",
     "Не добавляй did, если инверсия уже построена с be.",
     "That-clause показывает результат.",

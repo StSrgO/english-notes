@@ -18,7 +18,7 @@
     "С [bold]such[/bold] работает другой шаблон. После [bold]such[/bold] обычно стоит именная группа: [bold]It was such a strange discovery that the whole story changed.[/bold] При инверсии получается: [bold]Such a strange discovery was it that the whole story changed.[/bold] Эта конструкция гораздо более книжная и выразительная, поэтому особенно часто воспринимается как литературный или риторический приём.",
     "Сравни две версии: [bold]It was such an abrupt finish that readers wanted more[/bold] и [bold]Such an abrupt finish was it that readers wanted more.[/bold] Смысл практически одинаков. Разница заключается в фокусе: во втором варианте именная группа [bold]such an abrupt finish[/bold] выдвинута в начало и получает максимальное внимание.",
     "В The Martian Chronicles такой принцип особенно хорошо виден на уровне самой композиции. Отдельные рассказы сохраняют собственную самостоятельность, но вместе образуют более крупное целое. Брэдбери позднее объяснял, что редактор предложил ему соединить марсианские рассказы в своего рода «гобелен».",
-    "Полезно отличать [bold]so[/bold] и [bold]such[/bold]. [bold]So[/bold] непосредственно усиливает прилагательное или наречие: [bold]so strange, so vivid, so quickly[/bold]. [bold]Such[/bold] определяет именную группу: [bold]such a strange story, such vivid imagery, such an unusual structure[/bold]. В инверсии это различие сохраняется.",
+    "Полезно отличать [bold]so[/bold] и [bold]such[/bold]. [bold]So[/bold] непосредственно усиливает прилагательное или наречие: [bold]so strange, so vivid, so quickly[/bold]. [bold]Such[/bold] определяет именную группу: [bold]such a strange story, such vivid imagery, such an unusual structure[/bold]. В инверсии это различие сохраняется. Есть и смешанный случай: [bold]so[/bold] стоит перед прилагательным внутри именной группы, а артикль переезжает после него: [bold]It was so strange an ending that readers wrote to the author.[/bold] Инверсия переносит в начало всю группу: [bold]So strange an ending was it that readers wrote to the author.[/bold]",
     "Сравни: [bold]The episodes were so strange that they seemed invented → So strange were the episodes that they seemed invented.[/bold] В первом варианте [bold]so + adjective[/bold] вынесено вперёд, а [bold]were[/bold] предшествует подлежащему. В другой модели: [bold]They were such strange episodes that they seemed invented → Such strange episodes were they that they seemed invented.[/bold]",
     "Инверсия с [bold]so[/bold] и [bold]such[/bold] не является обязательной заменой обычной конструкции. Она используется тогда, когда автору нужно усилить эффект, степень или результат. Поэтому в ней часто чувствуется более формальный, литературный или риторический регистр.",
     "Поэтому такую конструкцию полезно воспринимать не как механическую формулу, а как инструмент управления вниманием читателя. [bold]The book was so unusual that it resisted classification[/bold] просто сообщает факт. [bold]So unusual was the book that it resisted classification[/bold] сначала заставляет читателя заметить необычность, а уже затем сообщает её результат.",
@@ -111,10 +111,12 @@
   "structure": {
     "so_adjective": "The story was so powerful that it stayed with the reader. → So powerful was the story that it stayed with the reader.",
     "so_adverb": "The expedition moved so quickly that nobody could follow it. → So quickly did the expedition move that nobody could follow it.",
-    "such_noun_phrase": "It was such a strange journey that nobody forgot it. → Such a strange journey was it that nobody forgot it."
+    "such_noun_phrase": "It was such a strange journey that nobody forgot it. → Such a strange journey was it that nobody forgot it.",
+    "so_adjective_singular_noun": "He was so unusual a visitor that the town remembered him. → So unusual a visitor was he that the town remembered him."
   },
   "markers": [
     "so + adjective + auxiliary/be + subject",
+    "so + adjective + a/an + noun + auxiliary/be + subject",
     "so + adverb + auxiliary + subject",
     "such + noun phrase + be + subject",
     "that-clause",
@@ -123,6 +125,7 @@
   ],
   "uses": [
     "So + adjective: Степень признака выносится в начало: \"The story was so powerful\" → \"So powerful was the story\".",
+    "So + adjective + a/an + noun: Перед существительным в единственном числе артикль идёт после прилагательного: so brief a pause.",
     "So + adverb: Наречие выносится вперёд, а вспомогательный глагол становится перед подлежащим: \"The expedition moved so quickly\" → \"So quickly did the expedition move\".",
     "Such + noun phrase: Именная группа с such переносится в начало: \"It was such a strange journey\" → \"Such a strange journey was it\".",
     "Result: That-clause показывает результат высокой степени: \"So strange was the landscape that nobody spoke.\"",
@@ -132,6 +135,10 @@
     {
       "title": "So + adjective",
       "text": "После so + adjective при инверсии используется be или вспомогательный глагол перед подлежащим."
+    },
+    {
+      "title": "So + adjective + a/an + noun",
+      "text": "С существительным в единственном числе артикль идёт после прилагательного: so brief a pause. При инверсии такая группа переносится в начало целиком."
     },
     {
       "title": "So + adverb",
@@ -173,6 +180,20 @@
           "ru": "Книга была настолько необычной, что читателям было трудно определить её жанр. → Настолько необычной была книга, что читателям было трудно определить её жанр.",
           "highlight": [
             "So unusual was"
+          ]
+        },
+        {
+          "en": "The settlement was so fragile a place that one storm could end it. → So fragile a place was the settlement that one storm could end it.",
+          "ru": "Поселение было настолько хрупким местом, что одна буря могла его уничтожить. → Настолько хрупким местом было поселение, что одна буря могла его уничтожить.",
+          "highlight": [
+            "So fragile a place was"
+          ]
+        },
+        {
+          "en": "It was so quiet a landing that nobody on the planet noticed it. → So quiet a landing was it that nobody on the planet noticed it.",
+          "ru": "Высадка была настолько тихой, что никто на планете её не заметил. → Настолько тихой была высадка, что никто на планете её не заметил.",
+          "highlight": [
+            "So quiet a landing was"
           ]
         }
       ]
@@ -275,6 +296,7 @@
     "После вынесенного so + adjective/adverb проверь инверсию.",
     "Если основной глагол не be, может понадобиться do/did.",
     "После such в начале предложения именная группа сохраняет артикль.",
+    "С существительным в единственном числе артикль ставится после прилагательного, а не перед ним.",
     "That-clause показывает результат высокой степени.",
     "Инверсия звучит более формально и литературно, чем нейтральная конструкция.",
     "Используй её для эмфазы, а не как обязательную замену обычному порядку слов."

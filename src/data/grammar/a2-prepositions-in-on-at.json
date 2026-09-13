@@ -16,7 +16,7 @@
     "Есть устойчивые сочетания, которые лучше запоминать целиком. [bold]At night[/bold] говорит о ночи как о части суток и не требует уточнения даты, а [bold]on a cold night[/bold] относится к одной конкретной ночи. Отдельно запоминаются [bold]at home[/bold] и [bold]on foot[/bold]: русские «дома» и «пешком» переводятся предлогами, которые не выводятся из общего правила.",
     "Три предлога различаются не переводом, а охватом. [bold]In[/bold] отвечает на вопрос «внутри чего?», [bold]On[/bold] — «на чём?», [bold]At[/bold] — «в какой точке?». Для времени вопросы те же: внутри какого периода, в какой день, в какой час. Один и тот же день путешествия показан и в Африке, и на реке, и на станции: выбор предлога зависит от того, насколько крупно взят масштаб.",
     "Мир вокруг парохода Марлоу не стоит на месте, и предлоги помогают удержать в нём точку опоры. Кто-то прячется [bold]behind the trees[/bold], Марлоу греется [bold]next to the fire[/bold], лодка движется [bold]between the banks[/bold] — между берегами. Пока предметы неподвижны, работают предлоги положения: [bold]under[/bold] — под, [bold]behind[/bold] — за, [bold]in front of[/bold] — перед, [bold]next to[/bold] — рядом с. Как только начинается движение, появляются другие слова: пароход идёт [bold]up the river[/bold] — вверх по реке, Марлоу выходит [bold]out of the station[/bold] и возвращается [bold]into the forest[/bold], а дорога ведёт [bold]through the jungle[/bold] — сквозь джунгли — и дальше [bold]across the clearing[/bold] — через поляну.",
-    "Время в путешествии тоже измеряется рамками, а не только точками. До рассвета Марлоу ждёт [bold]until dawn[/bold], [bold]during the day[/bold] пароход медленно ползёт вперёд, а долгая тишина длится [bold]for weeks[/bold]. Чтобы показать порядок событий, пригодится пара before и after: [bold]before the journey[/bold] — до путешествия, [bold]after the journey[/bold] — после него. Такие предлоги показывают границы события: когда оно началось, сколько продолжалось и чем закончилось."
+    "Время в путешествии тоже измеряется рамками, а не только точками. До рассвета Марлоу ждёт [bold]until dawn[/bold], [bold]during the day[/bold] пароход медленно ползёт вперёд, а долгая тишина длится [bold]for weeks[/bold]. Чтобы показать порядок событий, пригодится пара before и after: [bold]before the journey[/bold] — до путешествия, [bold]after the journey[/bold] — после него. Такие предлоги показывают границы события: когда оно началось, сколько продолжалось и чем закончилось. Отдельно стоит предлог by. Со временем он показывает крайний срок: [bold]The journey must be over by the evening[/bold] значит «к вечеру, не позднее вечера». С транспортом by называет способ передвижения, а с местом — близость: [bold]Marlow reaches the station by boat[/bold]. В каюте рядом с лампой тоже стоит by: [bold]Marlow reads by the lamp[/bold]."
   ],
   "why": [
     "Указывать, что предмет или человек находится внутри пространства.",
@@ -133,7 +133,7 @@
       ]
     }
   },
-  "formula": "in + space/period; on + surface/day; at + point/moment; under/behind/next to + position; to/into/out of + movement; until/during/for + time frame",
+  "formula": "in + space/period; on + surface/day; at + point/moment; under/behind/next to + position; to/into/out of + movement; until/during/for + time frame; by + transport/deadline",
   "structure": {
     "place": "in the forest\non the river\nat the station",
     "time": "in 1899\non Monday\nat noon",
@@ -163,7 +163,8 @@
     "during",
     "for",
     "before",
-    "after"
+    "after",
+    "by"
   ],
   "uses": [
     "Внутри пространства: «in the forest».",
@@ -174,7 +175,9 @@
     "В точный момент: «at noon».",
     "Положение предмета относительно других: «behind the trees», «next to the fire», «under the awning».",
     "Движение и направление: «up the river», «out of the station», «through the forest».",
-    "Временные рамки: «until dawn», «during the day», «for weeks»."
+    "Временные рамки: «until dawn», «during the day», «for weeks».",
+    "Способ передвижения: «by car», «by train» — без артикля перед транспортом.",
+    "Крайний срок: «by the evening» — к вечеру, не позднее вечера."
   ],
   "rules": [
     {
@@ -204,6 +207,10 @@
     {
       "title": "Время-рамки",
       "text": "Until показывает границу («until dawn»), during — период-событие («during the day»), for — длительность («for weeks»), before и after — порядок событий во времени."
+    },
+    {
+      "title": "By — транспорт, близость, срок",
+      "text": "С транспортом by показывает способ передвижения и стоит без артикля: «by car», «by train», «by boat». С местом by значит «рядом»: «by the window». Со временем — крайний срок: «by the evening» — к вечеру, не позднее вечера."
     }
   ],
   "examples": [
@@ -432,6 +439,13 @@
           "highlight": [
             "next to the hut"
           ]
+        },
+        {
+          "en": "Marlow waits by the window.",
+          "ru": "Марлоу ждёт у окна.",
+          "highlight": [
+            "by the window"
+          ]
         }
       ]
     },
@@ -472,6 +486,13 @@
           "highlight": [
             "into the hut"
           ]
+        },
+        {
+          "en": "They reach the station by boat.",
+          "ru": "Они добираются до станции на лодке.",
+          "highlight": [
+            "by boat"
+          ]
         }
       ]
     },
@@ -511,6 +532,13 @@
           "ru": "Они отправляются до восхода.",
           "highlight": [
             "before sunrise"
+          ]
+        },
+        {
+          "en": "The repairs must be finished by morning.",
+          "ru": "Ремонт нужно закончить к утру.",
+          "highlight": [
+            "by morning"
           ]
         }
       ]
@@ -601,7 +629,8 @@
     "Положение: спроси «где именно?» — under, behind, in front of, between, next to.",
     "Движение: спроси «куда? откуда?» — to, into, out of; путь — across, through, along.",
     "Время: until — граница, during — событие-период, for — длительность.",
-    "«Из»: from — от точки отправления, out of — изнутри наружу."
+    "«Из»: from — от точки отправления, out of — изнутри наружу.",
+    "By + транспорт без артикля: by car, by train. Со временем by означает крайний срок: by the evening; с местом — близость: by the window."
   ],
   "quiz": [
     {

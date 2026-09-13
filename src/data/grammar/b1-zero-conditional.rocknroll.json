@@ -124,6 +124,10 @@
     {
       "title": "If не определяет conditional",
       "text": "Предложение с if может выражать закономерность, будущее или гипотезу. Тип определяется смыслом."
+    },
+    {
+      "title": "Другие вводные слова",
+      "text": "Повторяющуюся связь вводят when, whenever, every time и unless. Обе части при этом остаются в Present Simple."
     }
   ],
   "examples": [
@@ -285,6 +289,43 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Другие способы ввести закономерность",
+      "items": [
+        {
+          "en": "When a method works, researchers use it again.",
+          "ru": "Когда метод работает, исследователи применяют его снова.",
+          "highlight": [
+            "works",
+            "use"
+          ]
+        },
+        {
+          "en": "Whenever an experiment fails, the team checks the equipment.",
+          "ru": "Всякий раз, когда эксперимент не удаётся, команда проверяет оборудование.",
+          "highlight": [
+            "fails",
+            "checks"
+          ]
+        },
+        {
+          "en": "An explanation is accepted unless the evidence points the other way.",
+          "ru": "Объяснение принимают до тех пор, пока доказательства не говорят об обратном.",
+          "highlight": [
+            "is accepted",
+            "points"
+          ]
+        },
+        {
+          "en": "Every time someone checks the numbers, the pattern holds.",
+          "ru": "Каждый раз, когда кто-то проверяет числа, закономерность подтверждается.",
+          "highlight": [
+            "checks",
+            "holds"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -344,7 +385,8 @@
     "Научные правила — хороший способ увидеть смысл Zero Conditional.",
     "Конкретное будущее обычно требует First Conditional.",
     "Гипотетическое условие может требовать Second Conditional.",
-    "Сначала определи смысл, потом выбирай грамматическую форму."
+    "Сначала определи смысл, потом выбирай грамматическую форму.",
+    "Ставь when или whenever там, где сам повтор важнее отдельного случая."
   ],
   "quiz": [
     {

@@ -14,7 +14,7 @@
     "Но будущее можно представить и как прогноз. [bold]The band will come back in a new form.[/bold] Говорящий предполагает результат. Это не сообщение о завершившемся событии, а взгляд вперёд.",
     "Will также может превращать разговор о будущем в обещание: [bold]We will keep playing the songs.[/bold] Говорящий берёт на себя обязательство. В этом смысле Future Simple связан не с календарём, а с отношением человека к тому, что ещё не произошло.",
     "Наконец, решение может возникнуть прямо во время разговора. Если журналист спрашивает: [bold]What will you do next?[/bold] — человек может ответить: [bold]I'll continue.[/bold] Решение оформляется в момент речи. А если оно принято заранее, звучит иначе: [bold]We are going to play the old songs again.[/bold] Be going to показывает уже существующее намерение, will — момент, когда решение только появляется.",
-    "Форма у всех этих значений одна: [bold]will[/bold] и базовая форма глагола. После will стоит начальная форма, поэтому рядом с ней нет ни окончания -s, ни частицы to: [bold]I will play. They will return.[/bold] Отрицание строится через [bold]won't[/bold], вопрос — через [bold]Will...?[/bold]",
+    "Форма у всех этих значений одна: [bold]will[/bold] и базовая форма глагола. После will стоит начальная форма, поэтому рядом с ней нет ни окончания -s, ни частицы to: [bold]I will play. They will return.[/bold] Отрицание строится через [bold]won't[/bold], вопрос — через [bold]Will...?[/bold] После союзов when и if will не ставится: зависимая часть идёт в Present Simple. [bold]When the tour starts, the band will play the old songs[/bold]. [bold]If the audience asks for more, they will return to the stage[/bold]. Будущее остаётся только в главной части.",
     "Все значения Future Simple собираются в одну цепочку: будущее Buzzcocks сначала становится вопросом, затем ответом, прогнозом, обещанием и решением."
   ],
   "why": [
@@ -110,7 +110,8 @@
     "Вопрос о будущем: Will используется, чтобы спросить, что произойдёт дальше: \"Will you continue?\"",
     "Решение: Will может показать решение говорящего: \"I'll continue.\"",
     "Прогноз: Говорящий предполагает будущее: \"The band will continue.\"",
-    "Обещание: Will может выражать обязательство: \"We will keep playing.\""
+    "Обещание: Will может выражать обязательство: \"We will keep playing.\"",
+    "Будущее после when и if: Зависимая часть с when или if стоит в Present Simple, а will — в главной части: \"They will return when the crowd asks.\""
   ],
   "rules": [
     {
@@ -132,6 +133,10 @@
     {
       "title": "Вопрос",
       "text": "Will + subject + V1."
+    },
+    {
+      "title": "When и if",
+      "text": "После when и if будущее выражается Present Simple, а will остаётся в главной части: \"When the tour starts, we will play.\" \"If they ask, we will return.\""
     }
   ],
   "examples": [
@@ -233,6 +238,43 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Будущее после when и if",
+      "items": [
+        {
+          "en": "When the album is ready, the band will announce it.",
+          "ru": "Когда альбом будет готов, группа объявит об этом.",
+          "highlight": [
+            "is",
+            "will announce"
+          ]
+        },
+        {
+          "en": "If the fans ask, they will play the old songs.",
+          "ru": "Если фанаты попросят, они сыграют старые песни.",
+          "highlight": [
+            "ask",
+            "will play"
+          ]
+        },
+        {
+          "en": "We will start the show when the lights go down.",
+          "ru": "Мы начнём шоу, когда погаснет свет.",
+          "highlight": [
+            "will start",
+            "go"
+          ]
+        },
+        {
+          "en": "They will keep playing if the crowd stays.",
+          "ru": "Они продолжат играть, если публика останется.",
+          "highlight": [
+            "will keep",
+            "stays"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -281,7 +323,8 @@
     "Основные функции: вопрос, прогноз, решение и обещание.",
     "После will всегда V1.",
     "Won't = will not.",
-    "Заранее существующий план лучше сравнивать с be going to."
+    "Заранее существующий план лучше сравнивать с be going to.",
+    "В зависимой части с when и if будущее передаёт Present Simple, а не will."
   ],
   "quiz": [
     {

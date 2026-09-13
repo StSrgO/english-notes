@@ -21,7 +21,7 @@
     "Если он говорит [bold]The paragraph might be too long[/bold], сомнение становится ещё заметнее. Возможно, проблема действительно есть, но говорящий не уверен.",
     "Поэтому полезно представить три разных движения мысли. [bold]Should[/bold] направляет: что стоит сделать или чего стоит ожидать. [bold]May[/bold] открывает возможность: это может произойти. [bold]Might[/bold] оставляет возможность ещё менее определённой: это, возможно, произойдёт.",
     "Форма после всех трёх модальных глаголов одна и та же: базовая форма без to — [bold]should write[/bold], [bold]may work[/bold], [bold]might change[/bold]. Нельзя сказать [bold]should to write[/bold] или [bold]might to change[/bold].",
-    "Отрицание строится сразу после модального глагола: [bold]should not[/bold] / [bold]shouldn't[/bold], [bold]may not[/bold], [bold]might not[/bold]. Значение при этом зависит от самого глагола. [bold]You shouldn't change it[/bold] — тебе не стоит это менять. [bold]It may not help[/bold] — возможно, это не поможет.",
+    "Отрицание строится сразу после модального глагола: [bold]should not[/bold] / [bold]shouldn't[/bold], [bold]may not[/bold], [bold]might not[/bold]. Значение при этом зависит от самого глагола. [bold]You shouldn't change it[/bold] — тебе не стоит это менять. [bold]It may not help[/bold] — возможно, это не поможет. У [bold]may not[/bold] есть и второй смысл — запрет: [bold]Readers may not take the manuscript out of the room[/bold] сообщает о правиле, а не о вероятности. Разрешение выражает [bold]may[/bold] в вопросе: [bold]May I copy the essay?[/bold]",
     "У [bold]should[/bold] есть ещё одна функция — ожидание. [bold]The poem should be finished soon[/bold] означает, что говорящий ожидает такого результата. Это не приказ и не стопроцентное предсказание: есть основания считать результат вероятным или нормальным.",
     "Поэтому [bold]should[/bold] занимает промежуточное положение между советом и ожиданием. [bold]You should revise the second half[/bold] — совет. [bold]The ending should work better now[/bold] — ожидание результата.",
     "По сначала формулирует желаемый эффект, затем рассматривает возможные способы его достижения и только после этого описывает конкретные решения. Каждый шаг этого рассуждения отмечен своим модальным глаголом: принцип, возможность, осторожное предположение.",
@@ -120,7 +120,8 @@
     "Совет: Should показывает, какое действие говорящий считает правильным: \"You should revise the ending.\"",
     "Ожидание: Should может показывать ожидаемый результат: \"The revision should improve the effect.\"",
     "Возможность: May показывает, что событие возможно: \"The change may improve the poem.\"",
-    "Осторожная возможность: Might показывает ещё более осторожное предположение: \"The change might improve the poem.\""
+    "Осторожная возможность: Might показывает ещё более осторожное предположение: \"The change might improve the poem.\"",
+    "Разрешение и запрет: May показывает, что действие позволено, а may not — что оно запрещено правилом: \"Readers may not copy the manuscript.\""
   ],
   "rules": [
     {
@@ -138,6 +139,10 @@
     {
       "title": "May — возможность",
       "text": "May показывает, что событие возможно: The change may help."
+    },
+    {
+      "title": "May — разрешение",
+      "text": "May выражает разрешение, а may not — запрет: You may open the window; You may not smoke here."
     },
     {
       "title": "Might — более осторожная возможность",
@@ -239,6 +244,25 @@
           "ru": "Более короткое стихотворение может оказаться эффективнее.",
           "highlight": [
             "may be"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "May — разрешение и запрет",
+      "items": [
+        {
+          "en": "You may borrow this edition for a day.",
+          "ru": "Вы можете взять это издание на день.",
+          "highlight": [
+            "may borrow"
+          ]
+        },
+        {
+          "en": "Visitors may not take photographs in the reading room.",
+          "ru": "Посетителям нельзя фотографировать в читальном зале.",
+          "highlight": [
+            "may not take"
           ]
         }
       ]
@@ -361,7 +385,8 @@
     "Не учи may и might как фиксированные проценты.",
     "После всех трёх модальных глаголов — V1 без to.",
     "В отрицании: shouldn't, may not, might not.",
-    "Сначала определи отношение говорящего, потом выбирай модальный глагол."
+    "Сначала определи отношение говорящего, потом выбирай модальный глагол.",
+    "May выражает не только возможность, но и разрешение; may not — запрет."
   ],
   "quiz": [
     {

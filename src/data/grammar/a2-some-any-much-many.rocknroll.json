@@ -14,7 +14,7 @@
     "[bold]Many[/bold] захватывает другую область: то, что считают по отдельным единицам. Просьбу сыграть [bold]many reggae-songs[/bold] легко понять: речь о большом количестве песен. Их можно пересчитать — one song, two songs, many songs. Поэтому many противопоставляется much: [bold]many songs[/bold], но [bold]much music[/bold].",
     "Разница между формами сводится к типу существительного: исчисляемые считаются по одному, неисчисляемые — нет. Песни считаются по отдельности, поэтому [bold]many songs[/bold]. Музыка — общий объём, поэтому [bold]much music[/bold]. Так же [bold]many shows[/bold], но [bold]much time[/bold]; [bold]many people[/bold], но [bold]much energy[/bold].",
     "Some и any зависят не только от количества, но и от типа предложения. [bold]The band played a few shows[/bold] — утверждение. [bold]Did the band play any shows?[/bold] — вопрос. [bold]The band didn't play any shows[/bold] — отрицание. При этом существительное shows остаётся исчисляемым; меняется только контекст предложения. Отдельно стоит просьба и предложение: [bold]Would you like some time to think?[/bold] В таком вопросе появляется some, потому что говорящий рассчитывает на согласие.",
-    "В разговорной речи much часто встречается в вопросах и отрицаниях: [bold]How much time?[/bold], [bold]not much time[/bold]. В утвердительных предложениях вместо него очень часто используется [bold]a lot of[/bold]: [bold]They had a lot of energy[/bold]. Но сначала нужно уверенно различать much и many и понимать, почему [bold]much music[/bold] и [bold]many songs[/bold] требуют разных слов.",
+    "В разговорной речи much часто встречается в вопросах и отрицаниях: [bold]How much time?[/bold], [bold]not much time[/bold]. В утвердительных предложениях вместо него очень часто используется [bold]a lot of[/bold]: [bold]They had a lot of energy[/bold]. Рядом с a lot of стоит [bold]lots of[/bold] — та же идея в разговорной речи: [bold]They played lots of shows[/bold]. Вопрос о количестве строится через [bold]how much[/bold] и [bold]how many[/bold], и отдельных слов для количества там не нужно: [bold]How much time did they have?[/bold] [bold]How many songs did they play?[/bold] Выбор тот же: how much перед неисчисляемым, how many перед исчисляемым. Но сначала нужно уверенно различать much и many и понимать, почему [bold]much music[/bold] и [bold]many songs[/bold] требуют разных слов.",
     "В разговоре о Bad Brains количество появляется в связи с людьми, песнями, временем, работой и музыкальным материалом. Все четыре слова — some, any, much и many — служат одной задаче: показать, о каком количестве идёт речь."
   ],
   "why": [
@@ -122,7 +122,9 @@
     "Any — отсутствие количества в отрицании.",
     "Much — неисчисляемое количество: time, energy, work, music.",
     "Many — исчисляемое количество: songs, shows, people.",
-    "Much часто используется в вопросах и отрицаниях: «How much time?», «not much time»."
+    "Much часто используется в вопросах и отрицаниях: «How much time?», «not much time».",
+    "A lot of / lots of — большое количество в утверждении.",
+    "How much / how many — вопрос о количестве."
   ],
   "rules": [
     {
@@ -140,6 +142,14 @@
     {
       "title": "Many — отдельные объекты",
       "text": "Many используется с исчисляемыми существительными во множественном числе: «many songs», «many shows», «many people»."
+    },
+    {
+      "title": "A lot of / lots of",
+      "text": "В утверждениях вместо much и many часто используется a lot of или lots of: «a lot of energy», «lots of shows»."
+    },
+    {
+      "title": "How much / how many",
+      "text": "Вопрос о количестве начинается с how much или how many: «How much time?», «How many songs?». Выбор тот же: how much — перед неисчисляемым, how many — перед исчисляемым во множественном числе."
     }
   ],
   "examples": [
@@ -375,6 +385,34 @@
           "highlight": [
             "many people"
           ]
+        },
+        {
+          "en": "The band had a lot of energy in the studio.",
+          "ru": "В студии у группы было много энергии.",
+          "highlight": [
+            "a lot of energy"
+          ]
+        },
+        {
+          "en": "Lots of people came to the show.",
+          "ru": "На концерт пришло много людей.",
+          "highlight": [
+            "Lots of people"
+          ]
+        },
+        {
+          "en": "How much time did they need?",
+          "ru": "Сколько времени им потребовалось?",
+          "highlight": [
+            "How much time"
+          ]
+        },
+        {
+          "en": "How many songs did they record?",
+          "ru": "Сколько песен они записали?",
+          "highlight": [
+            "How many songs"
+          ]
         }
       ]
     }
@@ -445,7 +483,9 @@
     "Much = неисчисляемое: music, time, energy, work.",
     "Many = исчисляемое: songs, shows, people.",
     "Many songs, но much music.",
-    "Не забывай: some и any зависят прежде всего от контекста предложения."
+    "Не забывай: some и any зависят прежде всего от контекста предложения.",
+    "В утверждении о большом количестве чаще звучит a lot of или lots of: a lot of energy, lots of shows.",
+    "Вопрос о количестве: how much перед неисчисляемым, how many перед исчисляемым."
   ],
   "quiz": [
     {

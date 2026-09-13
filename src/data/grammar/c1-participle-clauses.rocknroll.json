@@ -12,11 +12,11 @@
     "Если два действия происходят практически одновременно или одно действие является фоном для другого, используется [bold]V-ing[/bold]. [bold]Changing its lineup, the band continued to perform[/bold] можно развернуть в [bold]While the band was changing its lineup, it continued to perform.[/bold]",
     "Но participle clause требует общего субъекта. В предложении [bold]Touring without a record deal, the band played smaller venues[/bold] и причастие, и сказуемое относятся к самой группе, поэтому повторяющееся подлежащее можно убрать без потери смысла.",
     "Если нужно подчеркнуть, что одно событие уже завершилось до другого, используется перфектный оборот с [bold]having[/bold] и причастием прошедшего времени. [bold]Having lost its record deal, the Stooges entered a period of inactivity[/bold] означает: сначала группа потеряла контракт, затем наступил период бездействия.",
-    "Форму [bold]-ing[/bold] можно поставить и после предлогов [bold]after[/bold], [bold]before[/bold], [bold]on[/bold] и [bold]without[/bold]: [bold]After losing their deal, the Stooges went quiet[/bold] означает «после того как группа потеряла контракт», [bold]without saying goodbye[/bold] — «не попрощавшись». Связь между действиями задаёт сам предлог, а подлежащее в обороте не повторяется.",
+    "Форму [bold]-ing[/bold] можно поставить и после предлогов [bold]after[/bold], [bold]before[/bold], [bold]on[/bold] и [bold]without[/bold]: [bold]After losing their deal, the Stooges went quiet[/bold] означает «после того как группа потеряла контракт», [bold]without saying goodbye[/bold] — «не попрощавшись». Связь между действиями задаёт сам предлог, а подлежащее в обороте не повторяется. Сокращаются и обороты с [bold]if[/bold] и [bold]when[/bold]: [bold]If asked about the breakup, the band changed the subject[/bold], [bold]When finished, the record was released without delay.[/bold]",
     "Форма с [bold]having been[/bold] и причастием прошедшего времени сжимает пассивное действие, которое произошло раньше. [bold]Having been dropped by Elektra, the Stooges spent a period without a record deal.[/bold] Группа не сама «drop» себя: она подверглась действию, поэтому используется пассивная форма.",
     "Разница между [bold]having[/bold] и [bold]having been[/bold] — в залоге. [bold]Having changed the lineup[/bold] означает, что группа сама изменила состав. [bold]Having been dropped by the label[/bold] означает, что лейбл прекратил сотрудничество с группой.",
     "Пассивная форма нужна там, где группа не действует сама. О смене состава можно сказать и в пассиве: [bold]the band was reorganized[/bold] — так действие представлено как произошедшее с группой, а не совершённое ею. После такой реорганизации, уже в 1972 году, Рон Эштон перешёл на бас, а группа продолжила выступать под именем Iggy & The Stooges.",
-    "Participle clause выражает не только время, но и причину, условие или результат — выбор чтения задаёт контекст, а не сама форма. Один и тот же оборот может значить «после того как», «из-за того что» или «так что».",
+    "Participle clause выражает не только время, но и причину, условие или результат — выбор чтения задаёт контекст, а не сама форма. Один и тот же оборот может значить «после того как», «из-за того что» или «так что». Отрицание ставится перед причастием: [bold]Not knowing whether the label would keep them, the band kept recording.[/bold]",
     "Если последовательность нужно сделать более явной, используется perfect participle: [bold]Having finished the sessions, the group went back on the road.[/bold] Смена состава воспринимается как завершённый этап, после которого последовало продолжение деятельности.",
     "Пассивная конструкция работает так же. [bold]The group was left without a label, and it changed its sound.[/bold] → [bold]Having been left without a label, the group changed its sound.[/bold] Вторая версия значительно плотнее, но сохраняет причинно-временную связь.",
     "Participle Clauses также позволяют быстро вводить последствия. [bold]Joining the band in 1970, James Williamson changed the guitar lineup.[/bold] Присоединение Уильямсона относится к той же последовательности событий. В полном варианте потребовалось бы отдельное предложение или придаточная конструкция.",
@@ -130,7 +130,10 @@
     "Предшествующий этап: Having + past participle показывает, что одно событие завершилось раньше другого: \"Having lost their record deal, the Stooges entered a period of inactivity.\"",
     "Пассивный результат: Past Participle показывает, что субъект подвергся действию: \"Dropped by Elektra, the Stooges spent a period without a deal.\"",
     "Предшествующее пассивное действие: Having been + past participle показывает завершённое пассивное действие перед главным: \"Having been dropped by Elektra, the band entered a period of inactivity.\"",
-    "Историческое сжатие: Несколько связанных этапов истории можно объединить, если общий субъект и временная связь остаются очевидными."
+    "Историческое сжатие: Несколько связанных этапов истории можно объединить, если общий субъект и временная связь остаются очевидными.",
+    "Предшествующее пассивное действие: форма having been показывает, что группа подверглась действию до главного события: Having been invited back to the studio, the band recorded two more songs.",
+    "Отрицательное причастие: частица not перед причастием передаёт отсутствие знания или действия: Not having heard the final mix, they still approved it.",
+    "Условие и время: обороты с if и when сокращают условную и временную часть: When completed, the mix was sent to the label."
   ],
   "rules": [
     {
@@ -148,6 +151,14 @@
     {
       "title": "Having been + past participle",
       "text": "Показывает пассивное действие, завершившееся до действия главного предложения."
+    },
+    {
+      "title": "Отрицательное причастие",
+      "text": "Отрицание ставится перед причастием: not knowing, not having heard."
+    },
+    {
+      "title": "If / when + participle",
+      "text": "Обороты с if и when сокращают условную и временную часть: if asked, when finished."
     },
     {
       "title": "Общий субъект",
@@ -290,6 +301,32 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Negative participles and if / when",
+      "items": [
+        {
+          "en": "Not knowing how the audience would react, the band played the new songs anyway.",
+          "ru": "Не зная, как отреагирует публика, группа всё равно сыграла новые песни — отрицание стоит перед причастием.",
+          "highlight": [
+            "Not knowing how the audience"
+          ]
+        },
+        {
+          "en": "If asked about the tour, he usually said nothing.",
+          "ru": "Если его спрашивали о туре, он обычно молчал — if сокращает условную часть.",
+          "highlight": [
+            "If asked"
+          ]
+        },
+        {
+          "en": "When finished, the tapes were sent to the label.",
+          "ru": "Когда плёнки были готовы, их отправили на лейбл — when сокращает временную часть.",
+          "highlight": [
+            "When finished"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -359,6 +396,8 @@
     "Для пассивного значения используй Past Participle.",
     "Для завершённого пассивного действия используй Having been + past participle.",
     "Не сжимай слишком много исторических событий в одно предложение.",
+    "Отрицание ставится перед причастием.",
+    "Обороты с if и when сжимают условие и время так же, как after и while.",
     "Всегда проверяй логического субъекта причастной конструкции."
   ],
   "quiz": [

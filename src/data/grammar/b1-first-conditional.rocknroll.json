@@ -20,7 +20,7 @@
     "Можно представить типичный разговор группы: [bold]If the label calls, we will discuss the release.[/bold] Звонок ещё не произошёл, но он возможен. После if стоит Present Simple, а не will: форма [bold]will[/bold] закреплена за результатом, а не за условием.",
     "В разговорах о музыке, работе и решениях First Conditional описывает ветвление ситуации. Он не предсказывает судьбу группы как неизбежный факт: один вариант приведёт к одному результату, другой — к другому. Оба исхода остаются реальными, а форма лишь показывает связь между условием и следствием.",
     "Ранняя карьера Buzzcocks строилась на быстрых решениях, самостоятельных записях и непосредственной реакции на происходящее. First Conditional точно описывает механизм таких решений: если происходит одно, следом происходит другое.",
-    "Вопрос для проверки звучит так: [bold]What is possible, and what will happen if it happens?[/bold] Если возможность реальна, First Conditional связывает её с предполагаемым будущим последствием.",
+    "Вопрос для проверки звучит так: [bold]What is possible, and what will happen if it happens?[/bold] Если возможность реальна, First Conditional связывает её с предполагаемым будущим последствием. Условие вводят и другие слова: [bold]unless[/bold] и [bold]provided that[/bold] называют возможное будущее иначе, а части предложения сохраняют свою форму.",
     "First Conditional отличается от Zero Conditional смыслом условия. Zero говорит: [bold]this happens every time[/bold]. First Conditional говорит: [bold]this may happen, and if it does, this will happen.[/bold] Zero описывает повторяющееся правило, First Conditional — один возможный поворот событий."
   ],
   "why": [
@@ -131,6 +131,10 @@
     {
       "title": "Контекст решает",
       "text": "Другие условные конструкции тоже могут содержать if. Нужно определить смысл предложения, а не просто найти слово if."
+    },
+    {
+      "title": "Условие без if",
+      "text": "Unless значит «если не», а as long as и provided that — «только при этом условии». В условии остаётся Present Simple, а результат сохраняет will."
     }
   ],
   "examples": [
@@ -292,6 +296,43 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Другие способы ввести условие",
+      "items": [
+        {
+          "en": "Unless the promoter changes the date, the show will go ahead.",
+          "ru": "Если промоутер не изменит дату, концерт состоится.",
+          "highlight": [
+            "Unless",
+            "will go ahead"
+          ]
+        },
+        {
+          "en": "As long as the songs still work live, the band will keep playing them.",
+          "ru": "Пока песни работают на концертах, группа будет их играть.",
+          "highlight": [
+            "As long as",
+            "will keep"
+          ]
+        },
+        {
+          "en": "Provided that the recordings are finished, the label will announce the release.",
+          "ru": "При условии, что записи закончены, лейбл объявит о выпуске.",
+          "highlight": [
+            "Provided that",
+            "will announce"
+          ]
+        },
+        {
+          "en": "When the new record is ready, we will play it live.",
+          "ru": "Когда новый альбом будет готов, мы сыграем его на концертах.",
+          "highlight": [
+            "is",
+            "will play"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -356,7 +397,8 @@
     "В результате — will + V1.",
     "Не ставь will после if.",
     "Сравни с Zero Conditional, если результат выглядит как общее правило.",
-    "Сравни с Second Conditional, если ситуация воображаемая или маловероятная."
+    "Сравни с Second Conditional, если ситуация воображаемая или маловероятная.",
+    "Проверяй вводное слово: unless переворачивает условие, а as long as и provided that сужают его."
   ],
   "quiz": [
     {

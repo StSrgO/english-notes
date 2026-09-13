@@ -13,7 +13,7 @@
     "Если назван конкретный момент, картина меняется: [bold]Cash recorded American Recordings in 1993[/bold]. Появляется законченный момент прошлого, поэтому используется Past Simple. Если же речь идёт о накопленном опыте вплоть до настоящего момента, указывать дату уже не нужно: форма охватывает всю карьеру.",
     "Это первое основное значение Present Perfect — [bold]experience[/bold]. Речь идёт о том, что человек делал в своей жизни или карьере, без указания на конкретное время. [bold]He has worked with many musicians[/bold] означает, что такой опыт есть в его истории.",
     "Вторая функция — [bold]result[/bold]. Когда Рик Рубин предложил Кэшу более простой способ работы, результатом стала новая серия записей: [bold]Cash has changed the way he records[/bold]. Действие произошло раньше, но его результат продолжает определять последующие записи.",
-    "Третья функция — незавершённый период. Present Perfect охватывает отрезок времени, который ещё продолжается, поэтому действие остаётся связанным с настоящим: [bold]They have released three records so far[/bold]. Точкой отсчёта становится не дата, а сам незакрытый отрезок.",
+    "Третья функция — незавершённый период. Present Perfect охватывает отрезок времени, который ещё продолжается, поэтому действие остаётся связанным с настоящим: [bold]They have released three records so far[/bold]. Точкой отсчёта становится не дата, а сам незакрытый отрезок. Длительность такого отрезка называет [bold]for[/bold], а его начало — [bold]since[/bold]: [bold]They have played those songs for decades[/bold] отвечает на вопрос «как долго», а [bold]I have followed these records since 1994[/bold] — «с какого момента».",
     "Три случая объединяет точка наблюдения: она находится в настоящем. Прошлое берётся не само по себе, а через связь с этим моментом, поэтому форма отвечает на вопрос «что это значит сейчас?», а не «когда это было?». Различаются случаи только тем, что берётся за точку отсчёта: весь накопленный опыт, свежий результат или ещё не закрытый отрезок времени.",
     "Отличие от Past Simple видно на одном глаголе. [bold]Cash toured with his own band[/bold] — рассказ о прошлом. [bold]Cash has toured with his own band[/bold] — взгляд из настоящего на накопленный результат карьеры.",
     "Если добавить конкретную дату, Present Perfect в таком значении уже не подходит: [bold]The project started in 1993[/bold]. Но [bold]Cash has recorded several albums with different producers[/bold] — это информация об опыте без привязки к одной дате.",
@@ -116,12 +116,15 @@
     "never",
     "so far",
     "today",
+    "for",
+    "since",
     "this year"
   ],
   "uses": [
     "Опыт: Говорим о накопленном опыте: \"He has recorded many albums.\"",
     "Результат: Прошлое действие имеет результат сейчас: \"The project has changed his career.\"",
     "Незавершённый период: Действие произошло в периоде, который ещё продолжается: \"He has recorded three songs this week.\"",
+    "Длительность и точка отсчёта: For называет, как долго длится ситуация, since — с какого момента она идёт: \"He has played that guitar for years.\"",
     "Связь с настоящим: Прошлый опыт рассматривается из настоящего: \"I have learned a lot from these records.\""
   ],
   "rules": [
@@ -140,6 +143,10 @@
     {
       "title": "Результат",
       "text": "Present Perfect показывает прошлое действие, результат которого важен сейчас."
+    },
+    {
+      "title": "For и since",
+      "text": "For называет длительность, since — точку отсчёта: I have lived here for two years; I have known him since 2019."
     },
     {
       "title": "Past Simple",
@@ -284,6 +291,22 @@
           ]
         },
         {
+          "en": "They have toured together for decades.",
+          "ru": "Они гастролируют вместе уже десятилетиями.",
+          "highlight": [
+            "have toured",
+            "for decades"
+          ]
+        },
+        {
+          "en": "He has kept these tapes since the first session.",
+          "ru": "Он хранит эти записи с самой первой сессии.",
+          "highlight": [
+            "has kept",
+            "since the first session"
+          ]
+        },
+        {
           "en": "Have you heard the new recording yet?",
           "ru": "Ты уже слышал новую запись?",
           "highlight": [
@@ -362,6 +385,7 @@
     "Результат: The project has changed his career.",
     "Конкретная дата → Past Simple.",
     "Have/has + V3.",
+    "For отвечает на вопрос «как долго», since — «с какого момента».",
     "Ever/never часто используются для опыта.",
     "Already/just/yet часто показывают актуальный результат."
   ],

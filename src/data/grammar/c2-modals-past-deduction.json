@@ -9,10 +9,10 @@
   "idea": [
     "Иногда о прошлом известно не само событие, а только его следы. Тогда английский позволяет выразить не достоверное знание, а степень уверенности в выводе. Оценку вводит модальный глагол, после которого идёт [bold]have[/bold] и причастие: [bold]The lamp was still warm, so someone must have been in the room.[/bold] Выбор модального глагола показывает, насколько силён вывод.",
     "Роман Джозефа Конрада [bold]Nostromo[/bold] постоянно ограничивает доступ читателя к полной информации. Персонажи видят отдельные действия, слышат версии событий и пытаются восстановить то, что произошло за пределами их непосредственного наблюдения.",
-    "Если свидетельство кажется очень сильным, вывод звучит почти как уверенность: [bold]He must have left the harbour before dawn.[/bold] Это не означает, что говорящий видел его уход. Он делает сильный вывод из того, что известно.",
+    "Если свидетельство кажется очень сильным, вывод звучит почти как уверенность: [bold]He must have left the harbour before dawn.[/bold] Это не означает, что говорящий видел его уход. Он делает сильный вывод из того, что известно. Твёрдость вывода можно подчеркнуть отдельным словом: [bold]The stranger must surely have known the coast.[/bold] Если версия только очень вероятна, но не доказана, ту же работу делает слово well: [bold]The rumour may well have been true.[/bold]",
     "Если уверенность ниже, используются [bold]may have[/bold] и [bold]might have[/bold]. [bold]The servants may have known about the plan[/bold] означает, что это одна из возможных версий. [bold]The servants might have known about the plan[/bold] делает такую возможность ещё менее определённой.",
     "Возможность в прошлом выражает и форма с [bold]could have[/bold]: [bold]He could have taken another route.[/bold] Говорящий не утверждает, что так всё произошло на самом деле: он указывает на вариант, который был возможен.",
-    "Форму [bold]could have[/bold] легко спутать с обычным утверждением о способности. [bold]He could swim[/bold] говорит о способности в прошлом, тогда как [bold]He could have swum to the shore[/bold] говорит о возможном прошлом событии.",
+    "Форму [bold]could have[/bold] легко спутать с обычным утверждением о способности. [bold]He could swim[/bold] говорит о способности в прошлом, тогда как [bold]He could have swum to the shore[/bold] говорит о возможном прошлом событии. Похожим образом расходятся формы о необходимости: [bold]He needn't have left so early[/bold] сообщает, что он всё-таки ушёл рано, хотя мог и остаться, а [bold]He didn't need to leave so early[/bold] говорит только об отсутствии необходимости.",
     "Для отрицательного вывода используется форма с [bold]can't have[/bold]. Если человек точно находился в другом месте, можно сказать: [bold]He can't have been at the harbour.[/bold] Говорящий не сообщает прямой факт, а делает вывод на основании несовместимых свидетельств.",
     "Такая логика работает из-за разницы между знанием персонажей и знанием читателя. Один персонаж может видеть результат действия, но не знать, кто его совершил. Другой обладает лишь частью информации и строит на ней собственную версию.",
     "Конрад часто показывает не готовый ответ, а процесс восстановления событий. Если кто-то исчез, читатель может спросить, что произошло. Если найден предмет, возникает вопрос, как он туда попал. Если персонаж знает определённую деталь, это ещё не означает, что он знает всю цепочку событий.",
@@ -102,22 +102,29 @@
   "formula": "must / may / might / could / can't + have + past participle",
   "structure": {
     "strong_deduction": "He must have left.",
+    "confident_deduction": "He must surely have gone before dark. / She may well have taken the last boat.",
     "possibility": "He may have left. / He might have left. / He could have left.",
     "negative_deduction": "He can't have left.",
+    "unnecessary_action": "You needn't have waited for the boat. / You didn't need to wait for the boat.",
     "passive": "The money must have been hidden."
   },
   "markers": [
     "must have + past participle",
+    "must surely have + past participle",
     "may have + past participle",
+    "may well have + past participle",
     "might have + past participle",
     "could have + past participle",
     "can't have + past participle",
+    "needn't have + past participle",
     "must have been + past participle"
   ],
   "uses": [
     "Сильный вывод: Must have показывает, что имеющиеся свидетельства делают вывод очень вероятным: He must have left.",
+    "Уверенная вероятность: Слова surely и well подчёркивают, что вывод держится не на одном свидетельстве: must surely have, may well have.",
     "Возможность: May have, might have и could have показывают возможный вариант прошлого события.",
     "Отрицательный вывод: Can't have показывает, что событие, скорее всего, не могло произойти: He can't have done it.",
+    "Ненужное действие: Needn't have описывает уже выполненное действие, которого можно было не делать, а didn't need to сообщает только об отсутствии необходимости.",
     "Пассивный вывод: Для пассива используется modal + have been + past participle: The money must have been hidden.",
     "Свидетельства и вывод: Модальная конструкция показывает, что предложение является выводом из свидетельств, а не прямым сообщением о факте."
   ],
@@ -125,6 +132,10 @@
     {
       "title": "Must have",
       "text": "Используется для сильного вывода о прошлом: He must have left."
+    },
+    {
+      "title": "Must surely have / may well have",
+      "text": "Слова surely и well показывают, насколько твёрдо говорящий держится версии: He must surely have left, They may well have known."
     },
     {
       "title": "May / might have",
@@ -137,6 +148,10 @@
     {
       "title": "Can't have",
       "text": "Используется для сильного вывода о том, что событие не произошло."
+    },
+    {
+      "title": "Needn't have vs didn't need to",
+      "text": "Needn't have говорит о выполненном действии, которого можно было не совершать, а didn't need to — о том, что необходимости в нём не было."
     },
     {
       "title": "Have + past participle",
@@ -184,6 +199,20 @@
           "ru": "Не может быть, чтобы он ушёл до рассвета.",
           "highlight": [
             "can't have left"
+          ]
+        },
+        {
+          "en": "The stranger must surely have heard the news.",
+          "ru": "Чужак, должно быть, точно слышал эту новость.",
+          "highlight": [
+            "must surely have heard"
+          ]
+        },
+        {
+          "en": "The rumour may well have reached the harbour first.",
+          "ru": "Слух вполне мог дойти до причала первым.",
+          "highlight": [
+            "may well have reached"
           ]
         }
       ]
@@ -243,6 +272,25 @@
           "ru": "Возможно, документ был взят из офиса.",
           "highlight": [
             "might have been taken"
+          ]
+        }
+      ]
+    },
+    {
+      "group": "Need and unnecessary action",
+      "items": [
+        {
+          "en": "The servants needn't have carried the silver upstairs.",
+          "ru": "Слугам вовсе не обязательно было относить серебро наверх.",
+          "highlight": [
+            "needn't have carried"
+          ]
+        },
+        {
+          "en": "The servants didn't need to carry the silver upstairs.",
+          "ru": "Слугам не нужно было относить серебро наверх.",
+          "highlight": [
+            "didn't need to carry"
           ]
         }
       ]
@@ -310,9 +358,11 @@
   "tips": [
     "Сначала найди свидетельства, а потом делай вывод.",
     "Must have — сильный вывод, а не абсолютное знание.",
+    "Слова surely и well усиливают вывод: must surely have, may well have.",
     "May/might/could have показывают возможность.",
     "Can't have показывает сильный отрицательный вывод.",
     "После модального глагола используй have + past participle.",
+    "Различай needn't have и didn't need to: в первом случае действие сделано зря, во втором необходимости не было.",
     "Для пассива используй have been + past participle.",
     "Не путай could have с обычным could + verb, который может обозначать способность в прошлом."
   ],

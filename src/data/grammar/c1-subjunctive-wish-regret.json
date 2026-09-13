@@ -23,8 +23,8 @@
     "[bold]Wish[/bold] легко спутать с обычным [bold]hope[/bold]. [bold]I hope she arrives on time[/bold] говорит о возможном будущем событии. [bold]I wish the exam were over[/bold] говорит о ситуации, которая не соответствует действительности прямо сейчас. [bold]Hope[/bold] относится к возможному, [bold]wish[/bold] — к желаемому, но нереальному или проблемному.",
     "Похожая логика появляется в конструкциях [bold]as if[/bold] и [bold]as though[/bold]. Если ситуация кажется нереальной, после них можно использовать past form: [bold]He talks as if he were the only person who mattered.[/bold] Форма [bold]were[/bold] показывает дистанцию между впечатлением и фактом.",
     "В более формальном английском встречается и настоящее сослагательное наклонение, особенно в конструкциях требований, рекомендаций и необходимости: [bold]It is essential that every student be treated equally.[/bold] Форма [bold]be[/bold] не меняется на [bold]is[/bold], потому что речь идёт не о факте, а о требовании.",
-    "Общее у этих конструкций — не набор редких форм, а одна функция: грамматика показывает отношение говорящего к реальности. Форма может выражать желание, сожаление, дистанцию, гипотезу или требование.",
-    "Поэтому [bold]I wish I were different[/bold], [bold]I wish I had spoken up[/bold] и [bold]I wish you would change[/bold] нельзя воспринимать как три варианта одной и той же конструкции. Первая относится к нереальному настоящему, вторая — к сожалениям о прошлом, третья — к желаемому изменению поведения или ситуации.",
+    "Общее у этих конструкций — не набор редких форм, а одна функция: грамматика показывает отношение говорящего к реальности. Форма может выражать желание, сожаление, дистанцию, гипотезу или требование. Сожаление передаёт и модальная конструкция: [bold]I should have kept quiet[/bold] означает, что возможность была, но ею не воспользовались.",
+    "Поэтому [bold]I wish I were different[/bold], [bold]I wish I had spoken up[/bold] и [bold]I wish you would change[/bold] нельзя воспринимать как три варианта одной и той же конструкции. Первая относится к нереальному настоящему, вторая — к сожалениям о прошлом, третья — к желаемому изменению поведения или ситуации. Глагол [bold]regret[/bold] делает то же самое без [bold]wish[/bold]: [bold]I regret telling him the truth[/bold] относится к разговору, который уже состоялся, а [bold]I regret having said it[/bold] подчёркивает завершённость действия.",
     "Мир Brave New World построен на устранении подобных желаний. Общество Хаксли старается сделать так, чтобы людям не приходилось сожалеть, сомневаться или представлять другую жизнь. Язык Бернарда выделяется на этом фоне: его [bold]wish[/bold] и [bold]were[/bold] показывают пространство между тем, что ему разрешено чувствовать, и тем, чего он хочет.",
     "Subjunctive и конструкции с [bold]wish[/bold] охватывают разные слои действительности: [bold]what is[/bold], [bold]what could be, what should be, what was wished for[/bold] и [bold]what the speaker regrets[/bold]. Форма [bold]were[/bold] при этом одна для всех лиц, а [bold]was[/bold] после [bold]I[/bold], [bold]he[/bold] и [bold]she[/bold] возможен только в разговорной речи."
   ],
@@ -119,6 +119,8 @@
     "I wish you would...",
     "as if I were...",
     "as though he were...",
+    "I regret doing...",
+    "I should have...",
     "It is essential that..."
   ],
   "uses": [
@@ -126,7 +128,9 @@
     "Сожаление о прошлом: Wish + Past Perfect используется для сожаления о том, что уже произошло или не произошло: I wish I had known.",
     "Желаемое изменение: Wish + would используется, когда говорящий хочет изменить поведение или развитие ситуации: I wish you would listen.",
     "Нереальное сравнение: As if/as though + past form показывает, что сравнение не следует воспринимать как факт: He acts as if he were the boss.",
-    "Формальное требование: В формальном английском Subjunctive может использоваться после конструкций требования или необходимости: It is essential that everyone be informed."
+    "Формальное требование: В формальном английском Subjunctive может использоваться после конструкций требования или необходимости: It is essential that everyone be informed.",
+    "Сожаление о поступке: regret с формой на -ing оценивает уже совершённое действие: I regret saying that.",
+    "Упрёк самому себе: should have с причастием прошедшего времени показывает, что действие осталось невыполненным: I should have called you earlier."
   ],
   "rules": [
     {
@@ -152,6 +156,18 @@
     {
       "title": "Mandative Subjunctive",
       "text": "В формальном английском после некоторых выражений требования используется базовая форма глагола: It is essential that he be informed."
+    },
+    {
+      "title": "Regret + -ing",
+      "text": "После regret форма на -ing относится к уже совершённому действию: I regret leaving so early."
+    },
+    {
+      "title": "Regret + having",
+      "text": "Перфектная форма с having подчёркивает, что действие завершилось к моменту разговора: I regret having answered so quickly."
+    },
+    {
+      "title": "Should have",
+      "text": "Конструкция should have с причастием прошедшего времени выражает сожаление о невыполненном: I should have asked before agreeing."
     }
   ],
   "examples": [
@@ -272,6 +288,34 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Regret",
+      "items": [
+        {
+          "en": "I regret telling her about it. → I regret having told her about it.",
+          "ru": "Жалею, что рассказал ей об этом — перфектная форма подчёркивает, что действие уже завершено.",
+          "highlight": [
+            "regret telling",
+            "regret having told"
+          ]
+        },
+        {
+          "en": "She regrets not taking the offer.",
+          "ru": "Она жалеет, что не приняла предложение — отрицание ставится перед формой на -ing.",
+          "highlight": [
+            "regrets not taking"
+          ]
+        },
+        {
+          "en": "I should have asked for help. → I regret not asking for help.",
+          "ru": "Мне следовало попросить помощи — модальная конструкция и regret передают одно и то же сожаление.",
+          "highlight": [
+            "should have asked",
+            "regret not asking"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -331,6 +375,8 @@
     "Wish + would выражает желаемое изменение ситуации или поведения.",
     "В формальном английском were предпочтительнее was в irrealis.",
     "Не путай wish и hope: wish выражает нереальное или проблемное желание, hope — возможное.",
+    "Regret с формой на -ing относится к тому, что уже сделано; форма с having подчёркивает завершённость.",
+    "Should have с причастием прошедшего времени выражает сожаление о том, чего говорящий не сделал.",
     "Сначала определи отношение к реальности, а уже потом выбирай форму глагола."
   ],
   "quiz": [

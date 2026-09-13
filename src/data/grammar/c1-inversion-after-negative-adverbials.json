@@ -14,12 +14,12 @@
     "Та же модель работает с [bold]rarely[/bold] и [bold]seldom[/bold]. [bold]I rarely remembered my childhood so clearly[/bold] превращается в [bold]Rarely did I remember my childhood so clearly.[/bold] Вспомогательный [bold]did[/bold] появляется потому, что исходный смысловой глагол стоит в Past Simple.",
     "После [bold]did[/bold] смысловой глагол возвращается в начальную форму. Поэтому нельзя сказать [bold]Rarely did I remembered[/bold]. Правильно: [bold]Rarely did I remember.[/bold] Инверсия меняет положение вспомогательного глагола, но не отменяет обычные правила построения времени.",
     "С [bold]be[/bold] отдельный вспомогательный глагол не нужен. Сравни: [bold]She was never so tired.[/bold] → [bold]Never was she so tired.[/bold] Глагол [bold]was[/bold] сам становится перед подлежащим.",
-    "Ограничительные обороты с [bold]only[/bold] устроены иначе: придаточное с [bold]after[/bold] или [bold]when[/bold] сохраняет обычный порядок слов, а инверсия происходит в главной части. [bold]Only after the war did he understand what had been lost.[/bold] [bold]Only when he returned did he see how much the town had changed.[/bold]",
-    "С [bold]hardly[/bold] и [bold]scarcely[/bold] инверсия соединяется с [bold]when[/bold]: [bold]Hardly had he entered the house when the storm began.[/bold] Оборот сообщает, что второе событие последовало сразу за первым, а начальное [bold]hardly[/bold] делает это следование особенно заметным.",
+    "Ограничительные обороты с [bold]only[/bold] устроены иначе: придаточное с [bold]after[/bold] или [bold]when[/bold] сохраняет обычный порядок слов, а инверсия происходит в главной части. [bold]Only after the war did he understand what had been lost.[/bold] [bold]Only when he returned did he see how much the town had changed.[/bold] Если [bold]only[/bold] относится к подлежащему, порядок слов остаётся обычным: [bold]Only John knew the answer.[/bold] Инверсия появляется тогда, когда ограничение относится к обстоятельству или к дополнению.",
+    "С [bold]hardly[/bold] и [bold]scarcely[/bold] инверсия соединяется с [bold]when[/bold]: [bold]Hardly had he entered the house when the storm began.[/bold] Оборот сообщает, что второе событие последовало сразу за первым, а начальное [bold]hardly[/bold] делает это следование особенно заметным. Тот же смысл немедленного следования передаёт пара no sooner … than: [bold]No sooner had he left than it started to rain.[/bold]",
     "Обычное отрицание и стилистическое усиление различаются расстановкой акцента. [bold]I had never forgotten Lower Binfield[/bold] просто сообщает факт, а [bold]Never had I forgotten Lower Binfield[/bold] выносит отрицание в начало и заставляет читателя сильнее почувствовать его значение.",
     "После [bold]little[/bold] инверсия тоже возможна, когда [bold]little[/bold] означает «почти не» или «мало». Например: [bold]Little did she suspect the danger.[/bold] В такой конструкции [bold]little[/bold] не является обычным определителем существительного. Оно означает, что человек почти не осознавал происходящего.",
     "Эта конструкция особенно полезна в повествовании, потому что она может создавать эффект предчувствия. [bold]Little did George know that the town had already changed.[/bold] Читатель получает информацию раньше героя, и поэтому предложение одновременно сообщает факт и создаёт напряжение.",
-    "Другую группу образуют ограничительные обороты с [bold]only then[/bold] и [bold]only later[/bold]. Когда такой оборот стоит в начале предложения, инверсия в главной части обязательна: вариант [bold]Only then he understood what had happened[/bold] невозможен, правильно [bold]Only then did he understand what had happened.[/bold]",
+    "Другую группу образуют ограничительные обороты с [bold]only then[/bold] и [bold]only later[/bold]. Когда такой оборот стоит в начале предложения, инверсия в главной части обязательна: вариант [bold]Only then he understood what had happened[/bold] невозможен, правильно [bold]Only then did he understand what had happened.[/bold] Оборот not only … but also меняет порядок слов только в первой части: [bold]Not only did she apologise, but she also paid for the damage.[/bold]",
     "Инверсию легко спутать с вопросом. [bold]Only later did she agree[/bold] — утверждение, а не вопрос: [bold]did[/bold] оказывается перед подлежащим только потому, что предложение начинается с ограничительного выражения.",
     "С [bold]not until[/bold] работает похожий принцип: [bold]Not until he returned did he understand how much had changed.[/bold] Первая часть задаёт границу во времени, а инверсия в главной части подчёркивает, что понимание произошло только после этого момента.",
     "В Coming Up for Air подобная структура хорошо соответствует самой логике романа. Боулинг возвращается в Лоуэр-Бинфилд, рассчитывая увидеть прошлое, но постепенно понимает, что прошлое уже исчезло. Поэтому ограничительные конструкции подходят для описания момента осознания.",
@@ -126,6 +126,8 @@
     "only after",
     "only when",
     "not until",
+    "not only … but also",
+    "no sooner … than",
     "under no circumstances"
   ],
   "uses": [
@@ -133,7 +135,10 @@
     "Редкость: Rarely и seldom могут выноситься вперёд для усиления: Rarely did he speak about the past.",
     "Недостаток знания: Little did + subject используется, когда человек почти не осознавал ситуацию: Little did he know what was coming.",
     "Ограничение: Only then, only later, only after и only when подчёркивают момент или условие: Only then did she understand.",
-    "Жёсткое ограничение: Not until и выражения вроде under no circumstances делают условие или границу особенно заметными: Not until later did he understand."
+    "Жёсткое ограничение: Not until и выражения вроде under no circumstances делают условие или границу особенно заметными: Not until later did he understand.",
+    "Ограничение подлежащего: если only выделяет подлежащее, порядок слов не меняется: Only she noticed the difference.",
+    "Немедленное следование: no sooner … than подчёркивает, что второе событие началось сразу после первого: No sooner had the door closed than the argument began.",
+    "Присоединение: not only … but also выносит первую часть вперёд и делает вторую особенно заметной: Not only did the plan fail, but it also cost a fortune."
   ],
   "rules": [
     {
@@ -155,6 +160,18 @@
     {
       "title": "Only + inversion",
       "text": "После вынесенного вперёд only then, only later, only after или only when главная часть строится с инверсией."
+    },
+    {
+      "title": "Only + subject",
+      "text": "Если only относится к подлежащему, инверсии нет: Only her brother understood the decision."
+    },
+    {
+      "title": "Not only … but also",
+      "text": "В первой части оборота not only … but also используется инверсия, во второй — обычный порядок слов."
+    },
+    {
+      "title": "No sooner … than",
+      "text": "После начального no sooner инверсия открывает первое событие, а than присоединяет второе."
     },
     {
       "title": "Not until",
@@ -279,6 +296,33 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Only + subject / not only / no sooner",
+      "items": [
+        {
+          "en": "Only the manager knew the full schedule.",
+          "ru": "Только менеджер знал всё расписание — инверсии нет, only относится к подлежащему.",
+          "highlight": [
+            "Only the manager knew"
+          ]
+        },
+        {
+          "en": "Not only did the band cancel the show, but it also returned the money.",
+          "ru": "Группа не только отменила концерт, но и вернула деньги за билеты — инверсия только в первой части.",
+          "highlight": [
+            "Not only did the band cancel",
+            "but it also returned"
+          ]
+        },
+        {
+          "en": "No sooner had the train left than the storm began.",
+          "ru": "Не успел поезд уйти, как началась буря — than присоединяет второе событие.",
+          "highlight": [
+            "No sooner had the train left"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -350,6 +394,9 @@
     "После did используй начальную форму смыслового глагола.",
     "С be дополнительный вспомогательный глагол не нужен.",
     "Only then, only later, only after и not until вызывают инверсию в главной части.",
+    "Если only относится к подлежащему, инверсии нет.",
+    "Not only … but also требует инверсии только в первой части.",
+    "No sooner … than передаёт то же немедленное следование, что и hardly … when.",
     "Little did he know — отдельная распространённая модель.",
     "Инверсия здесь является утверждением, а не вопросом.",
     "Обычный порядок часто нейтрален, а инверсия делает начало предложения стилистически заметным."

@@ -15,12 +15,12 @@
     "В defining relative clause для предметов и людей используется и [bold]that[/bold]. [bold]The drummer who joined last year[/bold] и [bold]the drummer that joined last year[/bold] выполняют одну и ту же функцию. Однако [bold]that[/bold] встречается только в определительных конструкциях.",
     "Различие между defining и non-defining clauses связано с информацией. Если Relative Clause нужна, чтобы понять, о каком человеке или предмете идёт речь, она является defining: [bold]the song that he cannot forget[/bold]. В таком случае придаточное идентифицирует песню.",
     "Если объект уже понятен, дополнительную характеристику можно отделить запятыми. [bold]The neighbour, who works nights, plays his records loudly[/bold] сообщает дополнительный факт о человеке, которого читатель уже знает.",
-    "В non-defining clauses [bold]who[/bold] и [bold]which[/bold] возможны, а [bold]that[/bold] не используется. Поэтому [bold]The record, which he bought in Brighton, is scratched[/bold] правильно, а [bold]the record, that he bought in Brighton, is scratched[/bold] неправильно.",
+    "В non-defining clauses [bold]who[/bold] и [bold]which[/bold] возможны, а [bold]that[/bold] не используется. Поэтому [bold]The record, which he bought in Brighton, is scratched[/bold] правильно, а [bold]the record, that he bought in Brighton, is scratched[/bold] неправильно. Придаточное с [bold]which[/bold] может комментировать не слово, а всю ситуацию: [bold]The album was delayed again, which frustrated the band.[/bold] В таком случае относительное слово отсылает к целому предложению.",
     "Определительное придаточное нельзя убрать без потери смысла: без него непонятно, о ком или о чём идёт речь. Добавочное придаточное вынимается, и предложение остаётся понятным — оно теряет лишь одну подробность. Запятые показывают, какой из двух типов выбран. В [bold]Quadrophenia[/bold] встречаются оба: одни придаточные отсекают лишние варианты, другие добавляют к уже известному портрету новую черту.",
     "Придаточное может выражать принадлежность. [bold]The boy whose parents do not understand him[/bold] означает «парень, чьи родители его не понимают». После [bold]whose[/bold] сразу стоит существительное, и такая группа прикрепляется к уже названному слову.",
     "Для места используется [bold]where[/bold]. [bold]Brighton is the town where the mods spend the weekend[/bold] связывает героев с пространством, в котором происходит действие. Такая конструкция подходит для рассказа, который строится вокруг конкретной городской среды.",
     "Для времени можно использовать [bold]when[/bold]. [bold]Those were the years when young Mods searched for identity[/bold] связывает период времени с происходившими тогда событиями. Одна конструкция вмещает и название периода, и его характеристику.",
-    "Есть и ещё одна возможность: Relative Pronoun может быть дополнением и тогда иногда исчезает. [bold]The parka that he wears[/bold] можно превратить в [bold]the parka he wears[/bold]. В придаточном уже есть своё подлежащее, поэтому [bold]that[/bold] выполняет роль дополнения.",
+    "Есть и ещё одна возможность: Relative Pronoun может быть дополнением и тогда иногда исчезает. [bold]The parka that he wears[/bold] можно превратить в [bold]the parka he wears[/bold]. В придаточном уже есть своё подлежащее, поэтому [bold]that[/bold] выполняет роль дополнения. Для людей в этой роли есть форма [bold]whom[/bold], и после предлога она обязательна: [bold]the girl with whom he argues[/bold]. Без предлога в разговорной речи чаще звучит [bold]who[/bold].",
     "Но если Relative Pronoun является подлежащим, убрать его нельзя. [bold]The mod who rides the scooter[/bold] нельзя превратить в [bold]The mod rides the scooter[/bold] без изменения структуры и смысла. В таком придаточном [bold]who[/bold] — тот, кто выполняет действие [bold]rides[/bold].",
     "Придаточное прикрепляется к тому существительному, которое стоит непосредственно перед ним, и от этого зависит смысл. [bold]The town where he lives[/bold] описывает место, а [bold]the town that shapes him[/bold] — его влияние на героя. В обоих случаях перед придаточным стоит одно и то же слово, но называют они разные свойства города.",
     "Придаточное может сжаться до причастного оборота: [bold]the scooter which was sent from Brighton[/bold] превращается в [bold]the scooter sent from Brighton[/bold], и предмет назван тот же, но короче. Исчезают сразу два элемента — относительное местоимение и форма [bold]be[/bold], а смысл придаточного берёт на себя причастие. Такое сжатие разрешено только для определяющего придаточного: оборот после запятой сохраняет полную форму.",
@@ -130,7 +130,9 @@
     "Характеристика предмета: Which или that описывают предмет: the song that Jimmy hears.",
     "Идентификация: Defining clause помогает определить конкретного человека или предмет: the song that describes Jimmy.",
     "Добавочная информация: Non-defining clause выделяется запятыми: Jimmy, who feels isolated, leaves London.",
-    "Связь с местом и временем: Where и when связывают персонажа с местом или периодом: the city where Jimmy lives; the years when he was a Mod."
+    "Связь с местом и временем: Where и when связывают персонажа с местом или периодом: the city where Jimmy lives; the years when he was a Mod.",
+    "Форма whom: Для человека в роли дополнения используется whom, особенно после предлога: the friend with whom he travels.",
+    "Which для целого предложения: Такое придаточное комментирует всю ситуацию: The show was cancelled, which disappointed the fans."
   ],
   "rules": [
     {
@@ -152,6 +154,14 @@
     {
       "title": "Where and when",
       "text": "Where относится к месту, when — ко времени."
+    },
+    {
+      "title": "Whom",
+      "text": "Whom используется для человека в роли дополнения и остаётся обязательным после предлога: the man whom I met; the man to whom I wrote."
+    },
+    {
+      "title": "Which for a whole sentence",
+      "text": "Which может относиться ко всей ситуации, а не к одному слову: He was late, which annoyed everyone."
     },
     {
       "title": "Defining vs non-defining",
@@ -263,6 +273,39 @@
       ]
     },
     {
+      "group": "Whom and sentence which",
+      "items": [
+        {
+          "en": "The friend whom Jimmy trusts leaves Brighton.",
+          "ru": "Друг, которому доверяет Джимми, уезжает из Брайтона.",
+          "highlight": [
+            "whom Jimmy trusts"
+          ]
+        },
+        {
+          "en": "The mod to whom the scooter belongs works nights.",
+          "ru": "Мод, которому принадлежит скутер, работает по ночам.",
+          "highlight": [
+            "to whom the scooter belongs"
+          ]
+        },
+        {
+          "en": "The band cancelled the show, which disappointed everyone.",
+          "ru": "Группа отменила концерт, что всех разочаровало.",
+          "highlight": [
+            "which disappointed everyone"
+          ]
+        },
+        {
+          "en": "Jimmy lost his job, which made everything worse.",
+          "ru": "Джимми потерял работу, и это сделало всё только хуже.",
+          "highlight": [
+            "which made everything worse"
+          ]
+        }
+      ]
+    },
+    {
       "group": "Omission",
       "items": [
         {
@@ -359,7 +402,9 @@
     "Проверь, нужна ли Relative Clause для идентификации.",
     "Если информация добавочная, используй запятые.",
     "Проверь роль relative pronoun внутри придаточного.",
-    "Если это дополнение, его иногда можно опустить."
+    "Если это дополнение, его иногда можно опустить.",
+    "После предлога используется whom: to whom, with whom.",
+    "Which может относиться ко всему предложению, а не только к существительному."
   ],
   "quiz": [
     {

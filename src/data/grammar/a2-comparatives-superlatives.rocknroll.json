@@ -9,7 +9,7 @@
   "idea": [
     "Панк часто строится на короткой форме. Быстрая песня, несколько минут, несколько аккордов — и дальше следующая. В этой культуре длина сама по себе может быть частью ожидания. Поэтому The Decline у NOFX выглядит почти как нарушение правил ещё до того, как начинается разговор о музыке: песня длится около восемнадцати минут. [bold]It is much longer than a typical punk song[/bold] — сравнительная форма ставит рядом два объекта и показывает разницу между ними.",
     "Но сравнительная форма нужна не только для длины — она описывает сам творческий выбор. The Decline требует гораздо большего пространства для развития, чем обычная короткая песня: [bold]The song is more demanding than a short punk track[/bold]. Её структура сложнее обычной трёхаккордной формы: [bold]the structure is more complex than a simple three-chord song[/bold]. И музыкантам приходится играть не пару минут, а почти восемнадцать: [bold]the task is harder than playing a few short songs[/bold]. Comparative показывает степень различия между двумя объектами.",
-    "Форма сравнительной степени зависит от длины самого прилагательного. Односложное слово забирает окончание -er: [bold]short[/bold] превращается в [bold]shorter[/bold], а [bold]long[/bold] — в [bold]longer[/bold]. Длинное прилагательное окончание не берёт, и его место занимает more: [bold]more ambitious[/bold], [bold]more complex[/bold], [bold]more demanding[/bold]. The Decline и обычная короткая песня расходятся по всем этим признакам. Меньшую степень признака передаёт less: [bold]less conventional[/bold] и [bold]less predictable[/bold].",
+    "Форма сравнительной степени зависит от длины самого прилагательного. Односложное слово забирает окончание -er: [bold]short[/bold] превращается в [bold]shorter[/bold], а [bold]long[/bold] — в [bold]longer[/bold]. Длинное прилагательное окончание не берёт, и его место занимает more: [bold]more ambitious[/bold], [bold]more complex[/bold], [bold]more demanding[/bold]. The Decline и обычная короткая песня расходятся по всем этим признакам. Меньшую степень признака передаёт less: [bold]less conventional[/bold] и [bold]less predictable[/bold]. Если признак у двух песен совпадает, нужен оборот с as: [bold]as heavy as[/bold], [bold]as ambitious as[/bold]. Отрицательная форма показывает, что признак выражен слабее: [bold]not as complex as[/bold]. Написание коротких форм тоже подчиняется правилу: конечное y после согласной переходит в i: [bold]easy → easier[/bold]. Если на конце одна гласная и одна согласная, согласная удваивается: [bold]big → bigger[/bold].",
     "Длина песни становится частью её смысла. Обычный короткий формат и эта композиция находятся на разных концах шкалы: [bold]The Decline is longer than most punk songs[/bold]. В предложении два элемента сравнения: The Decline и большинство панк-песен. Than показывает, с чем сравнивается объект.",
     "Затем comparative описывает уже не длину, а степень сложности. Сравнивать нужно однотипные вещи: структуру одной песни — со структурой другой, а не песню с её собственной структурой. [bold]The structure is more complicated than the structure of a typical short punk song[/bold]. Это не утверждение о том, что одна форма «хорошая», а другая «плохая»: comparative измеряет разницу, а не выносит оценку.",
     "Superlative нужен, когда два объекта уже не сравниваются, а в поле зрения попадает целая группа. [bold]The longest song[/bold] — самая длинная песня внутри определённого набора. [bold]The most unusual track[/bold] — самый необычный трек этой группы. [bold]The least conventional choice[/bold] — наименее традиционный выбор. Артикль the показывает, что один элемент выделен среди нескольких.",
@@ -116,7 +116,8 @@
     "Сравнение двух объектов: «This song is longer than that one.»",
     "Большая степень признака: «The structure is more complex than the usual format.»",
     "Меньшая степень признака: «This choice is less conventional than the usual one.»",
-    "Выделение одного объекта из группы: «This is the longest song on the list.»"
+    "Выделение одного объекта из группы: «This is the longest song on the list.»",
+    "Одинаковая степень признака: «This track is as tight as the other one.»"
   ],
   "rules": [
     {
@@ -126,6 +127,14 @@
     {
       "title": "Как образуется comparative",
       "text": "Для коротких прилагательных обычно используется -er: «shorter», «faster», «longer». Для длинных — more: «more complex», «more ambitious». Для меньшей степени используется less."
+    },
+    {
+      "title": "Одинаковый признак: as … as",
+      "text": "Если признак выражен у двух песен или двух форматов одинаково, используется оборот с as: «as fast as», «as loud as». Отрицание показывает меньшую степень: «not as simple as»."
+    },
+    {
+      "title": "Написание -er и -est",
+      "text": "Конечное y после согласной переходит в i: easy → easier → the easiest. Короткое прилагательное с одной гласной и одной согласной на конце удваивает согласную: big → bigger → the biggest."
     },
     {
       "title": "Superlative для группы",
@@ -181,6 +190,27 @@
           "highlight": [
             "more unusual than"
           ]
+        },
+        {
+          "en": "The new arrangement is as tight as the original one.",
+          "ru": "Новая аранжировка такая же плотная, как первоначальная.",
+          "highlight": [
+            "as tight as"
+          ]
+        },
+        {
+          "en": "This version is not as rough as the live recording.",
+          "ru": "Эта версия не такая шероховатая, как концертная запись.",
+          "highlight": [
+            "not as rough as"
+          ]
+        },
+        {
+          "en": "The second half is easier to remember than the first.",
+          "ru": "Вторую половину запомнить легче, чем первую.",
+          "highlight": [
+            "easier"
+          ]
         }
       ]
     },
@@ -227,6 +257,20 @@
           "ru": "Это стало самым сложным произведением для исполнения.",
           "highlight": [
             "the most demanding"
+          ]
+        },
+        {
+          "en": "That is the biggest change in the arrangement.",
+          "ru": "Это самое большое изменение в аранжировке.",
+          "highlight": [
+            "the biggest"
+          ]
+        },
+        {
+          "en": "This is the easiest song in the whole set.",
+          "ru": "Это самая лёгкая песня во всём сете.",
+          "highlight": [
+            "the easiest"
           ]
         }
       ]
@@ -325,7 +369,9 @@
     "Если один объект выделяется среди группы, используй superlative.",
     "Comparative часто идёт с than: longer than, more complex than.",
     "Superlative обычно требует the: the longest, the most ambitious.",
-    "Не оценивай comparative автоматически как «лучше»: more complex означает только «более сложный»."
+    "Не оценивай comparative автоматически как «лучше»: more complex означает только «более сложный».",
+    "Если признак у двух песен одинаковый, сравни через as … as; оборот not as … as показывает, что признак выражен слабее.",
+    "Короткие формы меняют написание: easy → easier → the easiest, big → bigger → the biggest."
   ],
   "quiz": [
     {

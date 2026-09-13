@@ -23,7 +23,7 @@
     "С [bold]never[/bold] форма показывает отсутствие опыта: [bold]I have never written a memoir[/bold]. О конкретной попытке в прошлом речи нет: говорящий описывает свой опыт до настоящего момента.",
     "С [bold]just[/bold] Present Perfect часто показывает совсем недавнее действие с актуальным результатом: [bold]I have just finished the manuscript[/bold]. С [bold]already[/bold] подчёркивается, что действие произошло раньше ожидаемого момента: [bold]I have already finished it[/bold]. С [bold]yet[/bold] говорящий спрашивает или сообщает, произошло ли действие к настоящему моменту.",
     "Но Present Perfect не ставится только потому, что событие произошло в прошлом. Если речь идёт о конкретном парижском вечере, конкретной поездке или конкретном годе, нужен Past Simple: [bold]He met them in Paris[/bold]. Такое прошлое завершено и привязано к определённому времени.",
-    "Отдельный случай — отрезок времени, который ещё не закончился. К парижским годам это не относится: они закрыты и датированы. Но опыт, суммированный к моменту письма, тянется от Парижа до сегодняшнего дня: [bold]He has seen a great deal since those years in Paris[/bold]. Present Perfect отмечает конец этого отрезка в момент речи, а не дату внутри него.",
+    "Отдельный случай — отрезок времени, который ещё не закончился. К парижским годам это не относится: они закрыты и датированы. Но опыт, суммированный к моменту письма, тянется от Парижа до сегодняшнего дня: [bold]He has seen a great deal since those years in Paris[/bold]. Present Perfect отмечает конец этого отрезка в момент речи, а не дату внутри него. Продолжительность такого отрезка передаёт [bold]for[/bold], а его начальную точку — [bold]since[/bold]: [bold]I have worked on the memoir for three years[/bold] отвечает на вопрос «как долго», а [bold]I have kept those notebooks since 1921[/bold] — «с какого момента».",
     "Поэтому полезно представить две камеры. Past Simple смотрит на прошлое изнутри конкретного момента: [bold]He wrote the memoir in the 1950s[/bold]. Present Perfect смотрит из настоящего назад: [bold]He has written about Paris[/bold]. Вторая камера показывает не дату, а то, что прошлое продолжает иметь значение.",
     "Для Present Perfect форма собирается просто: нужна форма have или has и третья форма смыслового глагола. Для [bold]I, you, we, they[/bold] используется [bold]have[/bold], для [bold]he, she, it[/bold] — [bold]has[/bold]. Вопрос строится перестановкой: [bold]Have you finished? Has he finished?[/bold]",
     "Отрицание образуется через [bold]have not / has not[/bold]: [bold]I haven't sent the letter yet[/bold], [bold]She hasn't read the last chapter[/bold]. Второй вспомогательный глагол при этом не нужен. В Present Perfect [bold]have/has[/bold] несёт грамматическое время, а смысловой глагол стоит в третьей форме.",
@@ -117,12 +117,15 @@
     "never",
     "so far",
     "today",
+    "for",
+    "since",
     "this week"
   ],
   "uses": [
     "Опыт: Говорим о том, что человек когда-либо делал: \"I have lived in Paris.\"",
     "Результат сейчас: Действие завершилось, и его результат важен сейчас: \"I have finished the book.\"",
     "Незавершённый период: Говорим о действии в периоде, который ещё продолжается: \"I have written three pages today.\"",
+    "Длительность и точка отсчёта: For называет, как долго длится ситуация, since — с какого момента она идёт: \"They have known each other for years.\"",
     "Связь прошлого с настоящим: Прошлое рассматривается из настоящего: \"I have never forgotten those years.\""
   ],
   "rules": [
@@ -141,6 +144,10 @@
     {
       "title": "Результат",
       "text": "Present Perfect показывает действие, результат которого важен сейчас."
+    },
+    {
+      "title": "For и since",
+      "text": "For называет длительность, since — точку отсчёта: I have lived here for two years; I have known him since 2019."
     },
     {
       "title": "Конкретное прошлое",
@@ -285,6 +292,22 @@
           ]
         },
         {
+          "en": "She has taught in Paris for two years.",
+          "ru": "Она преподаёт в Париже уже два года.",
+          "highlight": [
+            "has taught",
+            "for two years"
+          ]
+        },
+        {
+          "en": "He has known the family since 1921.",
+          "ru": "Он знаком с этой семьёй с 1921 года.",
+          "highlight": [
+            "has known",
+            "since 1921"
+          ]
+        },
+        {
           "en": "Have you read the article today?",
           "ru": "Ты сегодня читал эту статью?",
           "highlight": [
@@ -363,6 +386,7 @@
     "Результат: I have finished the book.",
     "С конкретным законченным временем прошлого используй Past Simple.",
     "Have/has + V3.",
+    "For отвечает на вопрос «как долго», since — «с какого момента».",
     "Ever и never часто говорят об опыте.",
     "Already, just и yet часто подчёркивают актуальность результата."
   ],

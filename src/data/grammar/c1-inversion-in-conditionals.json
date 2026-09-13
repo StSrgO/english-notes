@@ -20,8 +20,8 @@
     "Третий вариант использует [bold]should[/bold]. [bold]If you should need help, write to me[/bold] можно преобразовать в [bold]Should you need help, write to me.[/bold] В такой фразе [bold]should[/bold] обозначает не обязанность, а условную возможность: «если вдруг понадобится».",
     "В отличие от [bold]had[/bold], который связан с нереальным прошлым, [bold]should[/bold] часто используется для возможной ситуации в будущем. [bold]Should Angel return, Tess would have to respond.[/bold] Речь не идёт о том, что возвращение уже произошло или не произошло. Это гипотетическая возможность.",
     "Три модели инверсии покрывают три типа условного значения. Инверсия с [bold]had[/bold] заменяет условие с [bold]if[/bold] и Past Perfect. Инверсия с [bold]were[/bold] заменяет условие с [bold]if[/bold] и [bold]were[/bold], включая оборот с [bold]to[/bold]. Инверсия с [bold]should[/bold] выражает формальную гипотетическую возможность.",
-    "Модель с [bold]had[/bold] обслуживает нереальное прошлое. Чаще всего такая фраза выражает сожаление или упрёк: [bold]Had he told the truth then, everything would have gone differently.[/bold] Союз [bold]if[/bold] в ней уже не нужен, а основная часть остаётся такой же, как в обычном третьем условном.",
-    "Модель с [bold]were[/bold] описывает гипотетическое настоящее или будущее. Оборот с [bold]to[/bold] подчёркивает, что ситуация только предполагается: [bold]Were Tess to learn the truth, she would have to decide what to do.[/bold] Отрицание ставится после подлежащего: [bold]Were he not so proud, he would speak first.[/bold]",
+    "Модель с [bold]had[/bold] обслуживает нереальное прошлое. Чаще всего такая фраза выражает сожаление или упрёк: [bold]Had he told the truth then, everything would have gone differently.[/bold] Союз [bold]if[/bold] в ней уже не нужен, а основная часть остаётся такой же, как в обычном третьем условном. Отрицание при таком условии ставится после подлежащего: [bold]Had he not told the truth, the case would have collapsed.[/bold]",
+    "Модель с [bold]were[/bold] описывает гипотетическое настоящее или будущее. Оборот с [bold]to[/bold] подчёркивает, что ситуация только предполагается: [bold]Were Tess to learn the truth, she would have to decide what to do.[/bold] Отрицание ставится после подлежащего: [bold]Were he not so proud, he would speak first.[/bold] Отдельную модель образуют обороты were it not for и had it not been for: [bold]Were it not for the delay, the plan would still work[/bold] говорит о настоящем, а [bold]Had it not been for the delay, the plan would have worked[/bold] — о прошлом.",
     "В тексте Харди инверсия особенно выразительна потому, что она помещает альтернативное прошлое рядом с реальным. Читатель знает, что Тесс не сделала сцену, не изменила ситуацию и не получила другого исхода. Поэтому инвертированное условие открывает короткое пространство для события, которого в действительности не произошло.",
     "Смысл можно проверить обратным преобразованием. [bold]Had they known about the danger, they might have acted differently[/bold] → [bold]If they had known about the danger, they might have acted differently.[/bold] Если после возвращения [bold]if[/bold] структура сохраняет смысл, инверсия распознана правильно.",
     "Но не всякое условное предложение можно перестроить. Инверсия возможна только там, где в условной части уже есть [bold]had[/bold], [bold]were[/bold] или [bold]should[/bold]: только эти формы могут встать перед подлежащим. Условие с обычным глаголом в Past Simple, как [bold]If she knew the answer[/bold], остаётся без инверсии.",
@@ -117,14 +117,18 @@
     "Had + subject + past participle",
     "Were + subject + adjective/noun",
     "Were + subject + to + verb",
-    "Should + subject + verb"
+    "Should + subject + verb",
+    "Were it not for",
+    "Had it not been for"
   ],
   "uses": [
     "Нереальное прошлое: Had + subject + past participle заменяет If + Past Perfect: \"If she had known\" → \"Had she known\".",
     "Гипотетическое состояние: Were может выходить перед подлежащим: \"If he were here\" → \"Were he here\".",
     "Гипотетическая ситуация: Were + subject + to + verb представляет возможную, но гипотетическую ситуацию: \"If she were to return\" → \"Were she to return\".",
     "Формальная возможность: Should + subject + verb используется для возможной ситуации, особенно в формальной речи: \"If you should need help\" → \"Should you need help\".",
-    "Формальный стиль: Инверсия без if делает условное предложение более компактным и книжным."
+    "Формальный стиль: Инверсия без if делает условное предложение более компактным и книжным.",
+    "Отрицание в условии: частица not ставится после подлежащего: Had they not left so early, they would have met her.",
+    "Нереализованная причина: обороты were it not for и had it not been for заменяют условие с if it were not for и if it had not been for: Had it not been for her letter, he would never have returned."
   ],
   "rules": [
     {
@@ -146,6 +150,14 @@
     {
       "title": "No if",
       "text": "После инверсии союз if не используется."
+    },
+    {
+      "title": "Had + subject + not",
+      "text": "Отрицание в инвертированном условии ставится после подлежащего, а не перед вспомогательным глаголом."
+    },
+    {
+      "title": "Were it not for / Had it not been for",
+      "text": "Обороты were it not for и had it not been for заменяют условие с if it were not for и if it had not been for."
     },
     {
       "title": "Formal register",
@@ -249,6 +261,32 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Negation and it-not-for",
+      "items": [
+        {
+          "en": "If she had not agreed, the plan would have failed. → Had she not agreed, the plan would have failed.",
+          "ru": "Если бы она не согласилась, план провалился бы. → Отрицание стоит после подлежащего.",
+          "highlight": [
+            "Had she not agreed"
+          ]
+        },
+        {
+          "en": "If it were not for his support, the project would fail. → Were it not for his support, the project would fail.",
+          "ru": "Если бы не его поддержка, проект провалился бы. → Were it not for заменяет if it were not for.",
+          "highlight": [
+            "Were it not for his support"
+          ]
+        },
+        {
+          "en": "If it had not been for that meeting, nothing would have changed. → Had it not been for that meeting, nothing would have changed.",
+          "ru": "Если бы не та встреча, ничего бы не изменилось. → Had it not been for заменяет if it had not been for.",
+          "highlight": [
+            "Had it not been for that meeting"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -316,6 +354,8 @@
     "Were + subject + to + verb — формальная гипотеза.",
     "Should + subject + verb — формальная возможная ситуация.",
     "После инверсии if не используется.",
+    "Отрицание при had и were ставится после подлежащего, а не перед ним.",
+    "Were it not for говорит о настоящем, Had it not been for — о прошлом.",
     "Не путай conditional inversion с вопросительным порядком слов.",
     "Такая конструкция особенно характерна для формального и литературного английского."
   ],

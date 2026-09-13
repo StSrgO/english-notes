@@ -14,7 +14,7 @@
     "Но ожидание следующего выпуска может привести и к другому типу будущего. Читатель может сказать: [bold]I will take the book with me.[/bold] Речь уже не о прогнозе: человек принимает решение или даёт обещание. Will появляется как действие говорящего.",
     "Рядом с will стоит be going to. Если человек заранее решил прочитать книгу вечером, можно сказать [bold]I'm going to read it tonight.[/bold] Если решение появляется прямо сейчас, можно сказать [bold]I'll start right after dinner.[/bold] Will показывает момент принятия решения, be going to — уже существующее намерение.",
     "То же самое происходит с обещанием: [bold]I will send you my notes.[/bold] Говорящий не сообщает о существующем расписании. Он берёт на себя обязательство. Поэтому одна и та же форма will может появляться в разных ситуациях — прогнозе, обещании и решении.",
-    "Форма при этом остаётся простой: [bold]will[/bold] + базовая форма глагола. [bold]The chapter will continue. I will read. They will wait.[/bold] Will не меняется по лицам, после него не появляется -s и не ставится to.",
+    "Форма при этом остаётся простой: [bold]will[/bold] + базовая форма глагола. [bold]The chapter will continue. I will read. They will wait.[/bold] Will не меняется по лицам, после него не появляется -s и не ставится to. После союзов when и if будущее выражается не через will: зависимая часть встаёт в Present Simple. [bold]When the next part arrives, the reader will know the ending[/bold]. [bold]If the ending stays the same, the story will lose its purpose[/bold]. Will остаётся только в главной части.",
     "Так сериализация The Pickwick Papers превращает Future Simple не в абстрактное «время будущего», а в язык ожидания. Следующая часть ещё не наступила, поэтому читатель предполагает, обещает себе прочитать её или принимает решение сделать это. Будущее появляется потому, что настоящее ещё не знает, чем закончится история."
   ],
   "why": [
@@ -114,7 +114,8 @@
   "uses": [
     "Прогноз: Говорящий предполагает, что произойдёт в будущем: \"The next chapter will be interesting.\"",
     "Обещание: Говорящий обещает что-то сделать: \"I will finish the story.\"",
-    "Решение сейчас: Решение появляется в момент речи: \"I'll read it tonight.\""
+    "Решение сейчас: Решение появляется в момент речи: \"I'll read it tonight.\"",
+    "Будущее после when и if: Зависимая часть с when или if стоит в Present Simple, а will — в главной части: \"They will continue when the chapter arrives.\""
   ],
   "rules": [
     {
@@ -136,6 +137,10 @@
     {
       "title": "Вопрос",
       "text": "Will ставится перед подлежащим: \"Will the readers continue?\""
+    },
+    {
+      "title": "When и if",
+      "text": "После when и if о будущем говорится в Present Simple, а will остаётся в главной части: \"When he arrives, we will start.\" \"If it rains, we will stay at home.\""
     }
   ],
   "examples": [
@@ -204,6 +209,43 @@
           ]
         }
       ]
+    },
+    {
+      "group": "Будущее после when и if",
+      "items": [
+        {
+          "en": "When the new part appears, the readers will discuss it.",
+          "ru": "Когда выйдет новая часть, читатели начнут её обсуждать.",
+          "highlight": [
+            "appears",
+            "will discuss"
+          ]
+        },
+        {
+          "en": "If the chapter arrives tomorrow, I will read it at once.",
+          "ru": "Если глава придёт завтра, я сразу её прочитаю.",
+          "highlight": [
+            "arrives",
+            "will read"
+          ]
+        },
+        {
+          "en": "He will write the ending when he has more time.",
+          "ru": "Он напишет концовку, когда у него будет больше времени.",
+          "highlight": [
+            "will write",
+            "has"
+          ]
+        },
+        {
+          "en": "We will continue if the readers ask for more.",
+          "ru": "Мы продолжим, если читатели попросят ещё.",
+          "highlight": [
+            "will continue",
+            "ask"
+          ]
+        }
+      ]
     }
   ],
   "mistakes": [
@@ -252,7 +294,8 @@
     "Основные функции: прогноз, обещание, решение сейчас.",
     "После will всегда V1.",
     "Won't = will not.",
-    "Если план существовал заранее, сравни его с be going to."
+    "Если план существовал заранее, сравни его с be going to.",
+    "В зависимой части с when и if будущее передаёт Present Simple, а не will."
   ],
   "quiz": [
     {
