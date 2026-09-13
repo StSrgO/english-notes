@@ -98,21 +98,53 @@ const strip = (s) => s
   .replace(/«[^»]*»/g, " ")
   .replace(/“[^”]*”/g, " ");
 const norm = (s) => s.toLowerCase().replace(/[^a-z0-9' ]+/g, " ").replace(/\s+/g, " ").trim();
+// Правило «одна фраза живёт в одном блоке» касается английских ПРИМЕРОВ, то есть
+// предложений. Названия песен, книг и альбомов в уроке повторяются законно, поэтому
+// D5 делит находки: «пример» (есть глагольная форма) и «название» (упоминание).
+const VERBISH =
+  /\b(is|are|was|were|be|been|being|am|has|have|had|do|does|did|will|would|shall|should|can|could|may|might|must|go|goes|went|gone|say|says|said|see|saw|seen|know|knew|known|make|makes|made|take|takes|took|taken|give|gives|gave|given|come|comes|came|get|gets|got|find|finds|found|think|thinks|thought|feel|feels|felt|look|looks|looked|play|plays|played|sing|sings|sang|sung|write|writes|wrote|written|read|reads|walk|walks|walked|talk|talks|talked|tell|tells|told|ask|asks|asked|live|lives|lived|work|works|worked|want|wants|wanted|need|needs|needed|like|likes|liked|love|loves|loved|hate|hates|hated|start|starts|started|stop|stops|stopped|keep|keeps|kept|leave|leaves|left|stand|stands|stood|sit|sits|sat|wait|waits|waited|belong|belongs|seem|seems|seemed|become|becomes|became|bring|brings|brought|buy|buys|bought|call|calls|called|lose|loses|lost|meet|meets|met|move|moves|moved|open|opens|opened|put|puts|run|runs|ran|show|shows|showed|turn|turns|turned|understand|understands|understood|hear|hears|heard|hold|holds|held|let|lets|put|sell|sells|sold|send|sends|sent|speak|speaks|spoke|spend|spends|spent|stick|sticks|stuck|teach|teaches|taught|wear|wears|wore|win|wins|won|believe|believes|believed|remember|remembers|remembered|forget|forgets|forgot|forgotten|expect|expects|expected|decide|decides|decided|agree|agrees|agreed|allow|allows|allowed|avoid|avoids|avoided|finish|finishes|finished|mind|minds|minded|suggest|suggests|suggested|consider|considers|considered|notice|notices|noticed|realise|realises|realised|realize|realizes|realized|mean|means|meant|enjoy|enjoys|enjoyed|explain|explains|explained|describe|describes|described|appear|appears|appeared|happen|happens|happened|arrive|arrives|arrived|examine|examines|examined|visit|visits|visited|help|helps|helped|carry|carries|carried|watch|watches|watched|listen|listens|listened|reach|reaches|reached|offer|offers|offered|pay|pays|paid|choose|chooses|chose|chosen|drive|drives|drove|driven|eat|eats|ate|eaten|sleep|sleeps|slept|wake|wakes|woke|woken|break|breaks|broke|broken|build|builds|built|catch|catches|caught|draw|draws|drew|drawn|fall|falls|fell|fallen|fight|fights|fought|grow|grows|grew|grown|learn|learns|learnt|learned|ride|rides|rode|ridden|rise|rises|rose|risen|seek|seeks|sought|shake|shakes|shook|shaken|shoot|shoots|shot|steal|steals|stole|stolen|swim|swims|swam|swum|throw|throws|threw|thrown|hope|hopes|hoped|pass|passes|passed|try|tries|tried|stay|stays|stayed|plan|plans|planned|promise|promises|promised|refuse|refuses|refused|join|joins|joined|thank|thanks|thanked|travel|travels|travelled|traveled|study|studies|studied|cost|costs|cut|cuts|hurt|hurts|lend|lends|lent|shut|shuts|borrow|borrows|borrowed|cook|cooks|cooked|clean|cleans|cleaned|order|orders|ordered|argue|argues|argued|complain|complains|complained|mention|mentions|mentioned|admit|admits|admitted|accept|accepts|accepted|provide|provides|provided|suppose|supposes|supposed|imagine|imagines|imagined|tend|tends|tended|claim|claims|claimed|refer|refers|referred)\b/;
+// Ошибку в сторону «это пример» выбрать безопаснее: лишнее предупреждение человек отсмотрит,
+// а настоящий дубль, помеченный «названием», пройдёт приёмку незамеченным. Поэтому кроме
+// списка форм ловим английские глагольные окончания (-ed/-ing) в нижнем регистре.
+// Прилагательные и существительные, оканчивающиеся на -ed/-ing, дают ложное срабатывание:
+// их выкидываем перед проверкой окончаний, чтобы «evening», «string», «speckled», «tired»
+// не превращали название в пример.
+const NOT_VERB = /\b(?:evening|morning|something|nothing|anything|everything|thing|string|during|tired|interested|excited|worried|married|supposed|based|speckled|dressed|looking|wing|king|ring|spring|bring)\b/g;
+// Названия («Through the Looking-Glass», «The Number of the Beast», «Ace of Spades»)
+// распознаём по капитализации: все слова либо с заглавной, либо служебные.
+const FUNC = new Set(["the", "a", "an", "of", "and", "or", "in", "on", "at", "to", "for", "with", "de", "la", "le"]);
+const isTitle = (ph) => {
+  const w = ph.split(" ").filter(Boolean);
+  if (!w.length || !w.some((x) => /^[A-Z]/.test(x))) return false;
+  return w.every((x) => /^[A-Z]/.test(x) || FUNC.has(x));
+};
+const isExample = (ph) =>
+  !isTitle(ph) &&
+  (VERBISH.test(ph) || (ph.split(" ").length >= 3 && /\b[a-z]{3,}(?:ed|ing)\b/.test(ph.replace(NOT_VERB, " "))));
+
+// Фразу храним в двух видах: `raw` — как в тексте (нужен, чтобы отличить название
+// по капитализации) и `key` — нормализованный (по нему ищем дубли и совпадения в блоках).
 const boldPhrases = (s) =>
   [...s.matchAll(/\[bold\]([^[\]]+)\[\/bold\]/g)]
-    .map((m) => norm(m[1]))
-    .filter((p) => p.split(" ").length >= 3 && p.split(" ").some((w) => w.length > 1));
+    .map((m) => ({ raw: m[1].trim(), key: norm(m[1]) }))
+    .filter((p) => p.key.split(" ").length >= 3 && p.key.split(" ").some((w) => w.length > 1));
 
-const restText = (lesson) => {
-  const out = [];
-  const walk = (v, key) => {
-    if (key === "idea") return;
-    if (typeof v === "string") out.push(v);
-    else if (Array.isArray(v)) v.forEach((x) => walk(x));
-    else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) walk(x, k);
+// Тексты блоков урока (кроме idea) по верхнеуровневым ключам: нужно, чтобы D5
+// называл блок, в котором живёт повторённая фраза, а не просто «другой блок».
+const blockTexts = (lesson) => {
+  const out = new Map();
+  const walk = (v, key, path) => {
+    if (typeof v === "string") out.set(path, (out.get(path) || "") + " " + v);
+    else if (Array.isArray(v)) v.forEach((x) => walk(x, key, path));
+    else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) walk(x, k, path);
   };
-  for (const [k, v] of Object.entries(lesson)) walk(v, k);
-  return norm(out.join(" \n "));
+  for (const [k, v] of Object.entries(lesson)) {
+    if (k === "idea") continue;
+    walk(v, k, k);
+  }
+  const normed = new Map();
+  for (const [p, t] of out) normed.set(p, norm(t));
+  return normed;
 };
 
 const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
@@ -121,6 +153,7 @@ let paragraphs = 0;
 let chars = 0;
 let dupInIdea = 0;
 let dupOutside = 0;
+let dupNames = 0;
 const markerHits = [];
 
 for (const file of files) {
@@ -134,7 +167,8 @@ for (const file of files) {
   paragraphs += idea.length;
   chars += text.length;
   const where = (i, s) => `[${i}] ${s}`;
-  const seen = new Map(); // фразы idea → первый абзац, где встретились
+  const seen = new Map(); // нормализованная фраза idea → первый абзац, где встретилась
+  const rawOf = new Map(); // нормализованная фраза → её исходное написание
   let markers = 0;
 
   idea.forEach((p, i) => {
@@ -157,11 +191,16 @@ for (const file of files) {
       for (const m of p.matchAll(new RegExp(re.source, "g")))
         err("D10", file, where(i, `${note} — «…${p.slice(Math.max(0, m.index - 25), m.index + m[0].length + 20).trim()}…»`));
     // D5: повторы английских фраз из [bold] внутри idea и в других блоках
-    for (const ph of boldPhrases(p)) {
-      if (seen.has(ph)) {
-        dupInIdea++;
-        warn(file, `D5: фраза «${ph}» повторяется в idea [${seen.get(ph)}] и [${i}]`);
-      } else seen.set(ph, i);
+    for (const { raw, key } of boldPhrases(p)) {
+      if (seen.has(key)) {
+        const kind = isExample(raw) ? "пример" : "название";
+        if (kind === "пример") dupInIdea++;
+        else dupNames++;
+        warn(file, `D5-${kind}: фраза «${key}» повторяется в idea [${seen.get(key)}] и [${i}]`);
+      } else {
+        seen.set(key, i);
+        rawOf.set(key, raw);
+      }
     }
     for (const [re, name] of MARKERS)
       for (const m of p.matchAll(new RegExp(re.source, "gi"))) {
@@ -170,12 +209,16 @@ for (const file of files) {
       }
   });
 
-  const rest = restText(lesson);
-  for (const ph of seen.keys())
-    if (rest.includes(ph)) {
-      dupOutside++;
-      warn(file, `D5: фраза «${ph}» есть и в другом блоке урока`);
+  const blocks = blockTexts(lesson);
+  for (const ph of seen.keys()) {
+    const where = [...blocks].filter(([, t]) => t.includes(ph)).map(([p]) => p);
+    if (where.length) {
+      const kind = isExample(rawOf.get(ph) || ph) ? "пример" : "название";
+      if (kind === "пример") dupOutside++;
+      else dupNames++;
+      warn(file, `D5-${kind}: фраза «${ph}» есть и в блоках: ${where.join(", ")}`);
     }
+  }
 
   if (idea.length >= 22) warn(file, `D6: ${idea.length} абзацев idea — вероятная «вода» (типично 12–18)`);
 
@@ -184,7 +227,7 @@ for (const file of files) {
 
   const topic = file.replace(/\.rocknroll\.json$/, "").replace(/\.json$/, "");
   if (!phrasesByTopic.has(topic)) phrasesByTopic.set(topic, []);
-  phrasesByTopic.get(topic).push([file, new Set(seen.keys())]);
+  phrasesByTopic.get(topic).push([file, rawOf]);
 }
 
 // D5: classic и rock одной темы не должны повторять одни и те же английские фразы
@@ -192,10 +235,12 @@ let dupVersions = 0;
 for (const [topic, versions] of phrasesByTopic)
   if (versions.length === 2) {
     const [a, b] = versions;
-    for (const ph of a[1])
+    for (const [ph, raw] of a[1])
       if (b[1].has(ph)) {
-        dupVersions++;
-        warn(b[0], `D5: фраза «${ph}» повторяется в ${a[0]} (тема ${topic})`);
+        const kind = isExample(raw) ? "пример" : "название";
+        if (kind === "пример") dupVersions++;
+        else dupNames++;
+        warn(b[0], `D5-${kind}: фраза «${ph}» повторяется в ${a[0]} (тема ${topic})`);
       }
   }
 
@@ -227,7 +272,11 @@ if (list) {
 if (!list && warns.length) {
   const byKind = new Map();
   for (const w of warns) {
-    const kind = w.includes("D5:") ? "D5 (повторы фраз)" : w.includes("D6:") ? "D6 (объём idea)" : "маркеры ИИ-стиля";
+    const kind = w.includes("D5-")
+      ? "D5 (повторы фраз)"
+      : w.includes("D6:")
+        ? "D6 (объём idea)"
+        : "маркеры ИИ-стиля";
     byKind.set(kind, (byKind.get(kind) || 0) + 1);
   }
   console.log("\n=== предупреждения (полный список — с --list) ===");
