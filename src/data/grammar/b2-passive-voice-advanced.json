@@ -72,8 +72,8 @@
       "prompt": "Преобразуй предложения в естественный пассив.",
       "items": [
         {
-          "q": "The court sentenced Wilde to two years' hard labour.",
-          "a": "Wilde was sentenced to two years' hard labour."
+          "q": "The court sentenced Wilde to two years' imprisonment with hard labour.",
+          "a": "Wilde was sentenced to two years' imprisonment with hard labour."
         },
         {
           "q": "The prosecution presented the evidence.",
@@ -151,8 +151,8 @@
           "type": "quote"
         },
         {
-          "en": "Wilde was sentenced to two years' hard labour.",
-          "ru": "Уайльд был приговорён к двум годам каторжных работ.",
+          "en": "Wilde was sentenced to two years' imprisonment with hard labour.",
+          "ru": "Уайльд был приговорён к двум годам тюремного заключения с каторжными работами.",
           "highlight": [
             "was sentenced"
           ],
