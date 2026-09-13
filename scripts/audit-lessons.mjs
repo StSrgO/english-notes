@@ -323,9 +323,10 @@ for (const f of fs.readdirSync(CDIR).filter((x) => x.endsWith(".json")).sort()) 
     cheats.set(c.id, { file: f, card: c });
     for (const k of ["id", "title", "titleRu", "category", "use", "points", "examples", "pitfalls", "note"])
       if (!(k in c)) ERR("заметки", f, p, `нет поля ${k}`);
-    // formula/markers у справочных карточек не обязательны — на них валидатор cheats не жалуется
-    if (!("formula" in c)) WARN("заметки", f, p, "нет поля formula");
-    if (!("markers" in c)) WARN("заметки", f, p, "нет поля markers");
+    // formula/markers у справочных карточек не обязательны (валидатор cheats их не требует,
+    // у сводных карточек вроде False Friends схемы нет по природе темы) — проверяем только карточки уроков
+    if (c.lesson && !("formula" in c)) WARN("заметки", f, p, "нет поля formula");
+    if (c.lesson && !("markers" in c)) WARN("заметки", f, p, "нет поля markers");
     if (!nonEmptyStr(c.note)) WARN("заметки", f, p, "нет полей note");
     if (!Array.isArray(c.use) || c.use.length < 2) WARN("заметки", f, p, `use = ${c.use?.length ?? 0} (мало)`);
     if (!Array.isArray(c.points) || c.points.length < 2) WARN("заметки", f, p, `points = ${c.points?.length ?? 0} (мало)`);

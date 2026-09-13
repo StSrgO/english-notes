@@ -6,7 +6,7 @@
       "id": "c1-emphasis-do-and-fronting",
       "title": "Emphasis: do and fronting",
       "titleRu": "Выделение: усилительное do и fronting",
-      "category": "Grammar",
+      "category": "Emphasis",
       "use": [
         "Подчеркнуть, что утверждение действительно верно: усиление через do/does/did.",
         "Ответить с акцентом на сомнение собеседника: I do remember.",
@@ -19,9 +19,11 @@
         "выносимый элемент + , + обычное предложение — fronting"
       ],
       "markers": [
-        "do / does / did + V1",
-        "fronted object + , + clause",
-        "fronted adverbial + , + clause"
+        "I do appreciate it",
+        "she does know the answer",
+        "he did call yesterday",
+        "the ending, I remember well",
+        "Slowly, the boat drifted away"
       ],
       "points": [
         "После do/does/did смысловой глагол — в начальной форме: I did remember, а не I did remembered.",
@@ -35,16 +37,28 @@
           "ru": "Я действительно тебе верю."
         },
         {
-          "en": "She does understand the problem.",
-          "ru": "Она действительно понимает проблему."
-        },
-        {
-          "en": "I did remember the conversation.",
-          "ru": "Я действительно помнил тот разговор."
-        },
-        {
           "en": "This book, I remember well.",
           "ru": "Вот эту книгу я помню хорошо."
+        },
+        {
+          "en": "I do hope you will stay for dinner.",
+          "ru": "Я очень надеюсь, что вы останетесь на ужин."
+        },
+        {
+          "en": "He did warn us about the traffic.",
+          "ru": "Он ведь предупреждал нас о пробках."
+        },
+        {
+          "en": "That decision, I still regret.",
+          "ru": "О том решении я жалею до сих пор."
+        },
+        {
+          "en": "Without a word, she left the room.",
+          "ru": "Не говоря ни слова, она вышла из комнаты."
+        },
+        {
+          "en": "Your report, I read twice.",
+          "ru": "Твой отчёт я прочитал дважды."
         }
       ],
       "pitfalls": [
@@ -58,7 +72,7 @@
       "id": "c1-cleft-sentences",
       "title": "Cleft Sentences",
       "titleRu": "Расщеплённые предложения",
-      "category": "Grammar",
+      "category": "Emphasis",
       "use": [
         "Выделить один элемент сообщения: человека, предмет, место или время.",
         "Ответить на скрытый вопрос «что именно?» конструкцией What ... is ...",
@@ -70,9 +84,11 @@
         "It + be + выделяемый элемент + who / that + clause — it-cleft"
       ],
       "markers": [
-        "What ... is / was ...",
-        "It is / was ... that ...",
-        "It is / was ... who ..."
+        "What I need is",
+        "What surprised me was",
+        "It was my colleague who",
+        "It was the key that",
+        "What matters is"
       ],
       "points": [
         "who — после выделенного человека; that — после предмета, действия или обстоятельства.",
@@ -85,16 +101,24 @@
           "ru": "Звонил именно мой коллега."
         },
         {
-          "en": "What I need is more time.",
-          "ru": "Мне нужно больше времени — именно это."
-        },
-        {
           "en": "What surprised me was his reaction.",
           "ru": "Меня удивила именно его реакция."
         },
         {
           "en": "It was the key that I lost.",
           "ru": "Потерял я именно ключ."
+        },
+        {
+          "en": "It was in Vienna that they met for the first time.",
+          "ru": "Именно в Вене они встретились впервые."
+        },
+        {
+          "en": "What he wanted was a straight answer.",
+          "ru": "Он хотел именно прямого ответа."
+        },
+        {
+          "en": "It was not the price that bothered me.",
+          "ru": "Меня беспокоила вовсе не цена."
         }
       ],
       "pitfalls": [
@@ -108,7 +132,7 @@
       "id": "c1-inversion-after-negative-adverbials",
       "title": "Inversion after Negative Adverbials",
       "titleRu": "Инверсия после отрицательных наречий",
-      "category": "Grammar",
+      "category": "Inversion",
       "use": [
         "Формально усилить отрицание, вынеся его в начало: Never had I seen such a place.",
         "Отметить редкость: rarely, seldom в начале предложения.",
@@ -141,16 +165,28 @@
           "ru": "Никогда я не видел такого места."
         },
         {
-          "en": "Rarely did he speak about his childhood.",
-          "ru": "Редко он говорил о своём детстве."
-        },
-        {
           "en": "Little did they know what was coming.",
           "ru": "Они и не подозревали, что их ждёт."
         },
         {
           "en": "Only then did she understand the truth.",
           "ru": "Только тогда она поняла правду."
+        },
+        {
+          "en": "Seldom have I heard such a convincing argument.",
+          "ru": "Редко мне доводилось слышать столь убедительный довод."
+        },
+        {
+          "en": "Not until the next morning did the news reach us.",
+          "ru": "Новость дошла до нас только на следующее утро."
+        },
+        {
+          "en": "No sooner had the concert ended than the lights went out.",
+          "ru": "Не успел концерт закончиться, как погас свет."
+        },
+        {
+          "en": "Under no circumstances should you sign it.",
+          "ru": "Ни при каких обстоятельствах не подписывай это."
         }
       ],
       "pitfalls": [
@@ -164,7 +200,7 @@
       "id": "c1-inversion-in-conditionals",
       "title": "Inversion in Conditional Sentences",
       "titleRu": "Инверсия в условных предложениях",
-      "category": "Grammar",
+      "category": "Conditionals",
       "use": [
         "Формально заменить if: Had I known, Were he here, Should you need.",
         "Компактно выразить нереальное прошлое вместо if + Past Perfect.",
@@ -178,9 +214,12 @@
         "Should + подлежащее + V1 — формальная возможность"
       ],
       "markers": [
-        "Had + subject + V3",
-        "Were + subject + (to + V1)",
-        "Should + subject + V1"
+        "Had I known",
+        "Were he here",
+        "Were I to accept",
+        "Should you need",
+        "Were it not for",
+        "Had it not been for"
       ],
       "points": [
         "Had she known = If she had known, только компактнее и формальнее.",
@@ -190,20 +229,32 @@
       ],
       "examples": [
         {
-          "en": "Had she known, she would have acted differently.",
-          "ru": "Знала бы она об этом, она поступила бы иначе."
+          "en": "Had the train been on time, we would not have missed the opening.",
+          "ru": "Приди поезд вовремя, мы бы не пропустили начало."
         },
         {
-          "en": "Were he here, things would be different.",
-          "ru": "Будь он здесь, всё было бы иначе."
+          "en": "Had I realised how late it was, I would have called a taxi.",
+          "ru": "Знал бы я, как поздно, я бы вызвал такси."
         },
         {
-          "en": "Should you need help, call me.",
-          "ru": "Если вдруг понадобится помощь, позвоните мне."
+          "en": "Had he not intervened, the argument would have lasted all night.",
+          "ru": "Не вмешайся он, спор длился бы всю ночь."
         },
         {
-          "en": "Had they arrived earlier, they might have seen her.",
-          "ru": "Приди они раньше, они могли бы её увидеть."
+          "en": "Were she to accept the offer, the whole team would move to Berlin.",
+          "ru": "Прими она это предложение, вся команда переехала бы в Берлин."
+        },
+        {
+          "en": "Were it not for her notes, I would have forgotten everything.",
+          "ru": "Не будь её записей, я бы всё забыл."
+        },
+        {
+          "en": "Should the weather worsen, the festival will be moved indoors.",
+          "ru": "Если погода испортится, фестиваль перенесут в помещение."
+        },
+        {
+          "en": "Should you change your mind, the offer stands until Friday.",
+          "ru": "Если передумаете, предложение действует до пятницы."
         }
       ],
       "pitfalls": [
@@ -248,8 +299,8 @@
           "ru": "Учись я усерднее, сейчас у меня была бы работа лучше."
         },
         {
-          "en": "If he were less impulsive, he would not have made that decision.",
-          "ru": "Будь он менее импульсивным, он не принял бы того решения."
+          "en": "If he were more careful with names, he would not have offended the client.",
+          "ru": "Будь он внимательнее к именам, он не обидел бы клиента."
         },
         {
           "en": "If they had left earlier, they would be home by now.",
@@ -258,20 +309,28 @@
         {
           "en": "If I were more confident, I would have applied for the job.",
           "ru": "Будь я увереннее, я подал бы заявку на эту работу."
+        },
+        {
+          "en": "If she had signed the contract, she would be running the studio today.",
+          "ru": "Подпиши она контракт, сегодня она руководила бы студией."
+        },
+        {
+          "en": "If I had taken that course, I might be working abroad now.",
+          "ru": "Пройди я тот курс, сейчас я, возможно, работал бы за границей."
         }
       ],
       "pitfalls": [
         { "wrong": "If he were more careful, he would not make that mistake.", "right": "If he were more careful, he would not have made that mistake." },
         { "wrong": "If she had stayed, they would have been together now.", "right": "If she had stayed, they would be together now." }
       ],
-      "note": "Сравни с Third Conditional (прошлое → прошлое): в mixed условие и результат относятся к разным временам.",
+      "note": "Не путай mixed и Third Conditional: в нём оба действия в прошлом (if + had + V3 → would have + V3), в mixed условие и результат — в разных временах.",
       "lesson": "/grammar/c1-mixed-conditionals"
     },
     {
       "id": "c1-participle-clauses",
       "title": "Participle Clauses",
       "titleRu": "Причастные обороты",
-      "category": "Grammar",
+      "category": "Clauses",
       "use": [
         "Сжать два предложения с общим субъектом в одну компактную конструкцию.",
         "V-ing — действие, одновременное с главным, или причина.",
@@ -312,6 +371,18 @@
         {
           "en": "Written in simple language, the book is easy to read.",
           "ru": "Написанная простым языком, книга легко читается."
+        },
+        {
+          "en": "Having read the reviews, we decided to skip the film.",
+          "ru": "Прочитав отзывы, мы решили пропустить этот фильм."
+        },
+        {
+          "en": "Surprised by the offer, he asked for time to think.",
+          "ru": "Удивлённый предложением, он попросил время подумать."
+        },
+        {
+          "en": "Not knowing where to go, they waited at the station.",
+          "ru": "Не зная, куда идти, они ждали на вокзале."
         }
       ],
       "pitfalls": [
@@ -325,7 +396,7 @@
       "id": "c1-past-perfect-continuous",
       "title": "Past Perfect Continuous",
       "titleRu": "Прошедшее совершённое продолженное время",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "Показать процесс, длившийся до определённого момента в прошлом: had been + V-ing.",
         "Подчеркнуть длительность или сам процесс, а не только результат.",
@@ -360,16 +431,24 @@
           "ru": "Дождь шёл всё утро, прежде чем мы вышли."
         },
         {
-          "en": "She had been waiting for an hour when he arrived.",
-          "ru": "Она ждала уже час, когда он пришёл."
+          "en": "He had not been sleeping well for weeks before the deadline.",
+          "ru": "Перед сдачей проекта он неделями плохо спал."
         },
         {
-          "en": "He was tired because he had been working all day.",
-          "ru": "Он устал, потому что работал весь день."
+          "en": "She had been teaching at the school for ten years when she left.",
+          "ru": "Она преподавала в этой школе десять лет, когда ушла."
         },
         {
-          "en": "They had been living there for years before they moved.",
-          "ru": "Они прожили там много лет, прежде чем переехать."
+          "en": "They had been driving since dawn and were ready to stop.",
+          "ru": "Они ехали с рассвета и готовы были остановиться."
+        },
+        {
+          "en": "The children were covered in mud — they had been playing in the garden.",
+          "ru": "Дети были в грязи — они играли в саду."
+        },
+        {
+          "en": "How long had he been waiting before the doctor saw him?",
+          "ru": "Сколько ему пришлось ждать, прежде чем врач его принял?"
         }
       ],
       "pitfalls": [
@@ -383,7 +462,7 @@
       "id": "c1-subjunctive-wish-regret",
       "title": "Subjunctive / Wish / Regret",
       "titleRu": "Сослагательное наклонение, wish и сожаление",
-      "category": "Grammar",
+      "category": "Unreal situations",
       "use": [
         "wish + Past Simple / were — жаль, что сейчас не так.",
         "wish + Past Perfect — сожаление о прошлом.",
@@ -411,20 +490,28 @@
       ],
       "examples": [
         {
-          "en": "I wish I had more time.",
-          "ru": "Жаль, что у меня нет больше времени."
+          "en": "I wish I spoke French fluently.",
+          "ru": "Жаль, что я не говорю свободно по-французски."
         },
         {
-          "en": "I wish I had known the truth.",
-          "ru": "Жаль, что я не знал правды."
+          "en": "I wish I had taken his advice.",
+          "ru": "Жаль, что я не прислушался к его совету."
         },
         {
-          "en": "I wish you would listen.",
-          "ru": "Хотелось бы, чтобы ты меня слушал."
+          "en": "I wish the rain would stop before the match.",
+          "ru": "Хорошо бы дождь прекратился до матча."
         },
         {
-          "en": "She behaves as if she knew everything.",
-          "ru": "Она ведёт себя так, будто знает всё."
+          "en": "He talks as if he had written the whole album himself.",
+          "ru": "Он говорит так, будто сам написал весь альбом."
+        },
+        {
+          "en": "I regret having said that in front of everyone.",
+          "ru": "Жалею, что сказал это при всех."
+        },
+        {
+          "en": "If only we had booked the tickets earlier.",
+          "ru": "Если бы только мы заказали билеты раньше."
         }
       ],
       "pitfalls": [
@@ -535,7 +622,7 @@
         { "wrong": "He must has finished the report.", "right": "He must have finished the report." },
         { "wrong": "You don't must smoke here.", "right": "You mustn't smoke here." }
       ],
-      "note": "Сравни: He must work — «ему приходится работать» (обязанность), He must be working — «он, должно быть, работает» (вывод о настоящем)."
+      "note": "Не путай must + V1 и must be + V-ing: He must work — «ему приходится работать», He must be working — «он, должно быть, работает»."
     },
     {
       "id": "c1-formal-vs-informal",
@@ -635,7 +722,7 @@
         { "wrong": "Dear Mr Smith, ... Yours faithfully, James Reed", "right": "Dear Mr Smith, ... Yours sincerely, James Reed" },
         { "wrong": "Could you possibly to send the file?", "right": "Could you possibly send the file?" }
       ],
-      "note": "Регистр определяют адресат и канал: письмо в компанию — формальный, переписка с коллегой — нейтральный; смешение Hi и Yours sincerely в одном письме — ошибка."
+      "note": "Не путай формальное и неформальное: регистр задаёт адресат, а не длина письма, поэтому Hi и Yours sincerely в одном письме — ошибка."
     }
   ]
 }

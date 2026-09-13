@@ -15,7 +15,7 @@ const pad = (i) => String(i + 1).padStart(2, "0");
 const ready = topics.filter((t) => t.use || t.formula?.length || t.points?.length || t.examples?.length || t.note).length;
 ---
 
-<Base title={`Краткие заметки · ${data.level} — EnglishNotes`} description={`Заметки по грамматике английского · ${name}: краткие схемы ${topics.length} тем уровня — когда используется, формула, примеры, частая ошибка.`}>
+<Base title={`Краткие заметки · ${data.level} — EnglishNotes`} description={`Заметки по грамматике английского · ${name}: краткие схемы ${topics.length} тем уровня — когда используется, формула или формы, примеры, частая ошибка.`}>
   <div class="cheats wrap">
     <div class="cheats__layout">
       <aside class="cheats-side" aria-label="Темы уровня">

@@ -6,7 +6,7 @@
       "id": "b2-present-perfect-continuous",
       "title": "Present Perfect Continuous",
       "titleRu": "Настоящее совершённое продолженное время",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "Показать действие, которое началось в прошлом и продолжается до сих пор.",
         "Подчеркнуть процесс и его длительность, а не завершённый результат.",
@@ -29,10 +29,6 @@
       ],
       "examples": [
         {
-          "en": "I have been writing for three hours.",
-          "ru": "Я пишу уже три часа."
-        },
-        {
           "en": "She has been working since morning.",
           "ru": "Она работает с утра."
         },
@@ -43,6 +39,18 @@
         {
           "en": "I have been thinking about the problem.",
           "ru": "Я всё время думаю о проблеме."
+        },
+        {
+          "en": "How long have you been learning Italian?",
+          "ru": "Как долго ты учишь итальянский?"
+        },
+        {
+          "en": "The neighbours have been arguing since last night.",
+          "ru": "Соседи ссорятся с прошлой ночи."
+        },
+        {
+          "en": "He has been standing outside for half an hour.",
+          "ru": "Он стоит на улице уже полчаса."
         }
       ],
       "pitfalls": [
@@ -90,6 +98,18 @@
         {
           "en": "If she had known about the traffic, she might have taken a different route.",
           "ru": "Если бы она знала о пробках, она, возможно, поехала бы другой дорогой."
+        },
+        {
+          "en": "If they had booked earlier, they would have paid less.",
+          "ru": "Если бы они забронировали раньше, они заплатили бы меньше."
+        },
+        {
+          "en": "If we had taken the earlier flight, we would have avoided the storm.",
+          "ru": "Если бы мы взяли более ранний рейс, мы бы избежали грозы."
+        },
+        {
+          "en": "If he had apologised, they might have stayed friends.",
+          "ru": "Если бы он извинился, они, возможно, остались бы друзьями."
         }
       ],
       "pitfalls": [
@@ -125,20 +145,32 @@
       ],
       "examples": [
         {
-          "en": "I wish I were free.",
-          "ru": "Жаль, что я не свободен."
+          "en": "I wish I lived closer to the office.",
+          "ru": "Жаль, что я живу далеко от офиса."
         },
         {
-          "en": "I wish I had acted differently.",
-          "ru": "Жаль, что я не поступил иначе."
+          "en": "I wish I were better at remembering names.",
+          "ru": "Жаль, что я плохо запоминаю имена."
         },
         {
-          "en": "I wish you would listen to me.",
-          "ru": "Я хотел бы, чтобы ты меня послушал."
+          "en": "I wish I had taken that job offer.",
+          "ru": "Жаль, что я не принял то предложение о работе."
         },
         {
-          "en": "If only I had known!",
-          "ru": "Если бы только я знал!"
+          "en": "I wish I hadn't sold my old guitar.",
+          "ru": "Жаль, что я продал свою старую гитару."
+        },
+        {
+          "en": "I wish the neighbours would turn the music down.",
+          "ru": "Хотелось бы, чтобы соседи сделали музыку тише."
+        },
+        {
+          "en": "If only the train would arrive!",
+          "ru": "Скорее бы поезд пришёл!"
+        },
+        {
+          "en": "I wish I could help you, but I'm leaving tomorrow.",
+          "ru": "Я бы рад помочь, но завтра уезжаю."
         }
       ],
       "pitfalls": [
@@ -151,8 +183,8 @@
     {
       "id": "b2-passive-voice-advanced",
       "title": "Passive Voice (Advanced)",
-      "titleRu": "Страдательный залог: продвинутый уровень",
-      "category": "Passive voice",
+      "titleRu": "Страдательный залог: сложные формы",
+      "category": "Passive",
       "use": [
         "Сделать центром сообщения объект, результат или последствие действия.",
         "Строить пассив в Perfect: has been sent, had been prepared.",
@@ -190,6 +222,18 @@
         {
           "en": "He is believed to have left the city.",
           "ru": "Полагают, что он уехал из города."
+        },
+        {
+          "en": "These rules must be followed at all times.",
+          "ru": "Эти правила должны соблюдаться всегда."
+        },
+        {
+          "en": "Nothing could be done about the delay.",
+          "ru": "С задержкой уже ничего нельзя было сделать."
+        },
+        {
+          "en": "The castle is said to date back to the twelfth century.",
+          "ru": "Говорят, что замок относится к двенадцатому веку."
         }
       ],
       "pitfalls": [
@@ -233,20 +277,32 @@
         {
           "en": "He can't have forgotten the meeting.",
           "ru": "Не может быть, чтобы он забыл о встрече."
+        },
+        {
+          "en": "Her car is not in the garage. She must have driven to work.",
+          "ru": "Её машины нет в гараже. Должно быть, она уехала на работу."
+        },
+        {
+          "en": "They may have missed the connection in Frankfurt.",
+          "ru": "Возможно, они не успели на пересадку во Франкфурте."
+        },
+        {
+          "en": "You couldn't have known about the change — nobody told you.",
+          "ru": "Ты не мог знать об изменении — тебе никто не сказал."
         }
       ],
       "pitfalls": [
         { "wrong": "She must has left.", "right": "She must have left." },
         { "wrong": "She can't had forgotten.", "right": "She can't have forgotten." }
       ],
-      "note": "Сравни: She refused — факт, She must have had a reason — вывод из обстоятельств.",
+      "note": "Не путай факт и вывод: She refused — сообщение о факте, She must have had a reason — вывод из обстоятельств.",
       "lesson": "/grammar/b2-modals-in-the-past"
     },
     {
       "id": "b2-relative-clauses",
       "title": "Relative Clauses",
       "titleRu": "Относительные придаточные",
-      "category": "Grammar",
+      "category": "Clauses",
       "use": [
         "Добавить к существительному информацию о человеке, предмете, месте или времени.",
         "Точно определить, о ком или о чём речь: the man who called.",
@@ -259,7 +315,14 @@
         "whose — принадлежность",
         "where — место, when — время"
       ],
-      "markers": ["who", "which", "that", "whose", "where", "when"],
+      "markers": [
+        "the friend who called me",
+        "the letter that arrived yesterday",
+        "the woman whose car was stolen",
+        "the café where we met",
+        "the evening when it rained",
+        "…, which surprised everyone"
+      ],
       "points": [
         "who — только о людях; which / that — о предметах и явлениях.",
         "Определяющее придаточное (без запятых) допускает that; поясняющее (в запятых) — только who / which.",
@@ -276,12 +339,20 @@
           "ru": "Это дом, где я вырос."
         },
         {
-          "en": "The book that I found was very old.",
-          "ru": "Книга, которую я нашёл, была очень старой."
+          "en": "The film that we watched last night was a remake.",
+          "ru": "Фильм, который мы вчера смотрели, — ремейк."
         },
         {
           "en": "My colleague, who speaks three languages, translated the letter.",
           "ru": "Мой коллега, который говорит на трёх языках, перевёл письмо."
+        },
+        {
+          "en": "The café that opened last month is always full.",
+          "ru": "Кафе, которое открылось в прошлом месяце, всегда полно."
+        },
+        {
+          "en": "She has a brother whose band plays in the city centre.",
+          "ru": "У неё есть брат, чья группа играет в центре города."
         }
       ],
       "pitfalls": [
@@ -515,7 +586,7 @@
         { "wrong": "Although it was raining, but we went for a walk.", "right": "Although it was raining, we went for a walk." },
         { "wrong": "Because the weather was bad, so we stayed home.", "right": "Because the weather was bad, we stayed home." }
       ],
-      "note": "Одной-двух связок на абзац достаточно: текст, где moreover стоит в каждом предложении, читается тяжело."
+      "note": "Не путай логику и украшение: связка нужна там, где между мыслями есть отношение, а не в каждом предложении — moreover в каждой строке читается тяжело."
     },
     {
       "id": "b2-british-vs-american",
@@ -603,7 +674,7 @@
         { "wrong": "I organised my favorite files.", "right": "I organised my favourite files. (UK) / I organized my favorite files. (US)" },
         { "wrong": "In British English, pants are worn over the legs.", "right": "In British English, trousers are worn over the legs; pants are underwear." }
       ],
-      "note": "Ни один вариант не «правильнее» другого: оба литературные. Выбери один и держись его — главное последовательность."
+      "note": "Не путай «правильно» и «привычно»: colour и color равноправны, но в одном тексте выбирай один вариант и держись его."
     }
   ]
 }

@@ -18,6 +18,7 @@
         "название буквы ≠ звук буквы в слове",
         "A — /eɪ/; в слове cat — /æ/"
       ],
+      "markers": ["A — /eɪ/", "B — /biː/", "How do you spell…?", "silent -k- in know", "double -ll- in bell", "Z — /zed/ (BrE)", "Z — /ziː/ (AmE)"],
       "points": [
         "У каждой буквы есть собственное название: A — /eɪ/, B — /biː/, C — /siː/.",
         "Одна и та же буква в разных словах может звучать по-разному: C — /k/ в cat и /s/ в city.",
@@ -25,20 +26,32 @@
       ],
       "examples": [
         {
-          "en": "A — /eɪ/; cat — /æ/",
-          "ru": "Название A — /eɪ/, а в слове cat буква A читается /æ/."
+          "en": "B — /biː/; book — /b/",
+          "ru": "Название B — /biː/, а в слове book буква даёт звук /b/."
         },
         {
-          "en": "C — /siː/; cat — /k/",
-          "ru": "Название C — /siː/, а в слове cat она читается /k/."
+          "en": "Y — /waɪ/; yes — /j/",
+          "ru": "Название Y — /waɪ/, а в слове yes она читается /j/."
         },
         {
-          "en": "G — /dʒiː/; go — /ɡ/",
-          "ru": "Название G — /dʒiː/, а в слове go буква даёт звук /ɡ/."
+          "en": "W — /ˈdʌbljuː/",
+          "ru": "W называется /ˈdʌbljuː/ — это самое длинное название буквы."
         },
         {
-          "en": "Z — /zed/ (BrE) / /ziː/ (AmE)",
-          "ru": "Z — /zed/ в британском варианте и /ziː/ в американском."
+          "en": "kn in know — /n/",
+          "ru": "В слове know буква -k- не читается: слово начинается со звука /n/."
+        },
+        {
+          "en": "ll in bell — /l/",
+          "ru": "Двойная -ll- в слове bell читается как один звук /l/."
+        },
+        {
+          "en": "How do you spell your name?",
+          "ru": "Как пишется твоё имя?"
+        },
+        {
+          "en": "S-I-S-T-E-R",
+          "ru": "Слово sister произносят по буквам, чтобы собеседник записал его."
         }
       ],
       "pitfalls": [
@@ -78,16 +91,28 @@
           "ru": "Привет! Меня зовут Анна."
         },
         {
-          "en": "What's your name?",
-          "ru": "Как тебя зовут?"
+          "en": "Hi, Bob!",
+          "ru": "Привет, Боб!"
         },
         {
-          "en": "Nice to meet you.",
-          "ru": "Рад познакомиться."
+          "en": "How are you?",
+          "ru": "Как дела?"
         },
         {
-          "en": "Good evening!",
-          "ru": "Добрый вечер!"
+          "en": "I'm fine, thank you.",
+          "ru": "Хорошо, спасибо."
+        },
+        {
+          "en": "Good night, everyone.",
+          "ru": "Всем доброй ночи."
+        },
+        {
+          "en": "Dear Mrs. Smith,",
+          "ru": "Уважаемая госпожа Смит,"
+        },
+        {
+          "en": "See you tomorrow.",
+          "ru": "До завтра."
         }
       ],
       "pitfalls": [
@@ -124,20 +149,32 @@
       ],
       "examples": [
         {
-          "en": "This is my mother.",
-          "ru": "Это моя мама."
+          "en": "My sister has a small room.",
+          "ru": "У моей сестры маленькая комната."
         },
         {
-          "en": "The house has two rooms.",
-          "ru": "В доме две комнаты."
+          "en": "Our family has a big dog.",
+          "ru": "У нашей семьи большая собака."
         },
         {
-          "en": "The bed is in the room.",
-          "ru": "Кровать находится в комнате."
+          "en": "The kitchen is near the living room.",
+          "ru": "Кухня рядом с гостиной."
         },
         {
-          "en": "The book is on the table.",
-          "ru": "Книга на столе."
+          "en": "The picture is on the wall.",
+          "ru": "Картина на стене."
+        },
+        {
+          "en": "The keys are on the shelf.",
+          "ru": "Ключи на полке."
+        },
+        {
+          "en": "My grandmother is in the garden.",
+          "ru": "Моя бабушка в саду."
+        },
+        {
+          "en": "The towel is in the bathroom.",
+          "ru": "Полотенце в ванной."
         }
       ],
       "pitfalls": [
@@ -182,12 +219,24 @@
           "ru": "Соединённое Королевство — это страна."
         },
         {
-          "en": "Books, films, songs, etc.",
-          "ru": "Книги, фильмы, песни и т. д."
+          "en": "The price is $15.",
+          "ru": "Цена — 15 долларов."
         },
         {
-          "en": "5 + 3 = 8",
-          "ru": "5 плюс 3 равно 8."
+          "en": "Room #12 is on the second floor.",
+          "ru": "Комната № 12 на втором этаже."
+        },
+        {
+          "en": "Open Mon. to Fri.",
+          "ru": "Открыто с понедельника по пятницу."
+        },
+        {
+          "en": "Salt & pepper on every table.",
+          "ru": "Соль и перец на каждом столе."
+        },
+        {
+          "en": "Dr. Watson is at home.",
+          "ru": "Доктор Ватсон дома."
         }
       ],
       "pitfalls": [

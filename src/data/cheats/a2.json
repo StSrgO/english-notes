@@ -25,23 +25,39 @@
       ],
       "examples": [
         {
-          "en": "A sailor entered the inn.",
-          "ru": "Один моряк вошёл в гостиницу — он вводится впервые."
+          "en": "We stayed in a hotel near the station.",
+          "ru": "Мы остановились в гостинице у вокзала — отель упоминается впервые."
         },
         {
-          "en": "An old map was on the table.",
-          "ru": "На столе лежала какая-то старая карта."
+          "en": "The hotel was full, so we looked for another one.",
+          "ru": "Тот отель был занят, и мы стали искать другой — речь о том же отеле."
         },
         {
-          "en": "Ships can be dangerous.",
-          "ru": "Корабли могут быть опасны (вообще)."
+          "en": "He is an engineer at a small plant.",
+          "ru": "Он инженер на небольшом заводе."
+        },
+        {
+          "en": "An hour passed before the doctor came.",
+          "ru": "Прошёл час, прежде чем пришёл врач."
+        },
+        {
+          "en": "Please open the window.",
+          "ru": "Открой, пожалуйста, окно — понятно, какое именно."
+        },
+        {
+          "en": "Fish need clean water.",
+          "ru": "Рыбам нужна чистая вода — речь о рыбах вообще."
+        },
+        {
+          "en": "Water boils at one hundred degrees.",
+          "ru": "Вода кипит при ста градусах — общее свойство, артикль не нужен."
         }
       ],
       "pitfalls": [
         { "wrong": "I saw ship in the harbour.", "right": "I saw a ship in the harbour." },
         { "wrong": "I saw a ship. A ship was old.", "right": "I saw a ship. The ship was old." }
       ],
-      "note": "Если предмет уже упоминался, дальше о нём говорят с the.",
+      "note": "Не путай a/an и the: a/an вводит новый предмет, the указывает на уже известный.",
       "lesson": "/grammar/a2-articles"
     },
     {
@@ -71,8 +87,24 @@
           "ru": "Эта книга интереснее той."
         },
         {
-          "en": "The second system is more stable than the first.",
-          "ru": "Вторая система стабильнее первой."
+          "en": "The exam was easier than I expected.",
+          "ru": "Экзамен оказался легче, чем я ожидал."
+        },
+        {
+          "en": "Today is colder than yesterday.",
+          "ru": "Сегодня холоднее, чем вчера."
+        },
+        {
+          "en": "My new phone is lighter than the old one.",
+          "ru": "Новый телефон легче старого."
+        },
+        {
+          "en": "This road is the shortest way to the city.",
+          "ru": "Эта дорога — самый короткий путь до города."
+        },
+        {
+          "en": "She is the most careful driver in our family.",
+          "ru": "Она самый осторожный водитель в нашей семье."
         },
         {
           "en": "It is the best day of the year.",
@@ -90,7 +122,7 @@
       "id": "a2-prepositions-in-on-at",
       "title": "Prepositions: Place, Time and Direction",
       "titleRu": "Предлоги места, времени и направления",
-      "category": "Grammar",
+      "category": "Prepositions",
       "use": [
         "in — пространство или широкий период: in the forest, in winter, in 1899.",
         "on — поверхность или конкретный день: on the table, on Monday.",
@@ -134,6 +166,18 @@
         {
           "en": "They waited until midnight.",
           "ru": "Они ждали до полуночи."
+        },
+        {
+          "en": "The cat is hiding under the bed.",
+          "ru": "Кот прячется под кроватью."
+        },
+        {
+          "en": "The bus stops in front of the school.",
+          "ru": "Автобус останавливается перед школой."
+        },
+        {
+          "en": "The shop closes at nine o'clock.",
+          "ru": "Магазин закрывается в девять часов."
         }
       ],
       "pitfalls": [
@@ -179,6 +223,22 @@
         {
           "en": "He needs some help.",
           "ru": "Ему нужна некоторая помощь."
+        },
+        {
+          "en": "Do you have any brothers or sisters?",
+          "ru": "У тебя есть братья или сёстры?"
+        },
+        {
+          "en": "We didn't have much time before the train left.",
+          "ru": "У нас было мало времени до отхода поезда."
+        },
+        {
+          "en": "There are many good teachers at this school.",
+          "ru": "В этой школе много хороших учителей."
+        },
+        {
+          "en": "She has some interesting books at home.",
+          "ru": "У неё дома есть несколько интересных книг."
         }
       ],
       "pitfalls": [
@@ -210,7 +270,10 @@
       "markers": ["while", "when", "at that moment", "all evening"],
       "points": [
         "Краткое событие прерывает фон: I came (Past Simple) — while she was reading.",
-        "was/were пропускать нельзя: She cooking — ошибка, нужно She was cooking."
+        "was/were пропускать нельзя: She cooking — ошибка, нужно She was cooking.",
+        "Одновременные процессы связывает while; короткое событие на фоне вводит when.",
+        "Вопрос и отрицание строятся вокруг was/were: Was she cooking? They weren't waiting.",
+        "Маркеры at that moment и all evening подсказывают процесс, а не отдельное действие."
       ],
       "examples": [
         {
@@ -224,6 +287,22 @@
         {
           "en": "She was reading while he was cooking.",
           "ru": "Она читала, пока он готовил."
+        },
+        {
+          "en": "It was raining all evening.",
+          "ru": "Весь вечер шёл дождь."
+        },
+        {
+          "en": "I was sleeping at that moment.",
+          "ru": "В тот момент я спал."
+        },
+        {
+          "en": "What were you doing at eight o'clock?",
+          "ru": "Что ты делал в восемь часов?"
+        },
+        {
+          "en": "He was walking home when he met an old friend.",
+          "ru": "Он шёл домой, когда встретил старого друга."
         }
       ],
       "pitfalls": [
@@ -237,7 +316,7 @@
       "id": "a2-be-going-to",
       "title": "Be Going To",
       "titleRu": "Конструкция be going to",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "План или намерение уже приняты до момента речи.",
         "Предсказание по видимым признакам: тучи → дождь.",
@@ -255,7 +334,10 @@
       "markers": ["tomorrow", "tonight", "soon", "next week"],
       "points": [
         "После going to — начальная форма глагола: I am going to call.",
-        "Предсказание опирается на то, что видно сейчас: тёмное небо → дождь."
+        "Предсказание опирается на то, что видно сейчас: тёмное небо → дождь.",
+        "Форма to be меняется по лицам: I am going to, she is going to, they are going to.",
+        "Вопрос начинается с am / is / are: Is he going to help?",
+        "Отрицание — not после to be: he isn't going to come."
       ],
       "examples": [
         {
@@ -269,6 +351,22 @@
         {
           "en": "They are going to move next month.",
           "ru": "Они собираются переехать в следующем месяце."
+        },
+        {
+          "en": "She is going to start a new job in May.",
+          "ru": "Она собирается начать новую работу в мае."
+        },
+        {
+          "en": "We are not going to wait any longer.",
+          "ru": "Мы не собираемся больше ждать."
+        },
+        {
+          "en": "Are you going to join us tonight?",
+          "ru": "Ты собираешься присоединиться к нам вечером?"
+        },
+        {
+          "en": "The glass is going to fall off the table.",
+          "ru": "Стакан сейчас упадёт со стола."
         }
       ],
       "pitfalls": [
@@ -309,8 +407,24 @@
           "ru": "Скоро пойдёт дождь."
         },
         {
-          "en": "The story will continue.",
-          "ru": "История продолжится."
+          "en": "I will send you the photos later.",
+          "ru": "Я отправлю тебе фотографии позже."
+        },
+        {
+          "en": "She will be back in an hour.",
+          "ru": "Она вернётся через час."
+        },
+        {
+          "en": "Will you help me with this box?",
+          "ru": "Ты поможешь мне с этой коробкой?"
+        },
+        {
+          "en": "I promise I won't be late again.",
+          "ru": "Обещаю, я больше не опоздаю."
+        },
+        {
+          "en": "Nobody will believe that story.",
+          "ru": "Никто не поверит этой истории."
         }
       ],
       "pitfalls": [
@@ -324,7 +438,7 @@
       "id": "a2-modals-can-must-have-to",
       "title": "Modals: Can, Must, Have To",
       "titleRu": "Модальные глаголы can, must, have to",
-      "category": "Grammar",
+      "category": "Modal verbs",
       "use": [
         "can — возможность или разрешение.",
         "must — необходимость, которую осознаёт сам говорящий.",
@@ -355,6 +469,26 @@
         {
           "en": "You must be quiet here.",
           "ru": "Здесь нужно соблюдать тишину."
+        },
+        {
+          "en": "I can't hear you, please speak louder.",
+          "ru": "Я тебя не слышу, говори, пожалуйста, громче."
+        },
+        {
+          "en": "You must wear a helmet on the site.",
+          "ru": "На стройке нужно носить каску."
+        },
+        {
+          "en": "We have to leave before six.",
+          "ru": "Нам приходится уезжать до шести."
+        },
+        {
+          "en": "You mustn't smoke in the building.",
+          "ru": "В здании нельзя курить."
+        },
+        {
+          "en": "He doesn't have to work on Sundays.",
+          "ru": "По воскресеньям ему не обязательно работать."
         }
       ],
       "pitfalls": [
@@ -443,7 +577,7 @@
         { "wrong": "I did a mistake in the test.", "right": "I made a mistake in the test." },
         { "wrong": "She makes her homework in the evening.", "right": "She does her homework in the evening." }
       ],
-      "note": "Общее правило работает, но каждое новое сочетание с do или make лучше сразу проверять в словаре."
+      "note": "Не путай do и make: do — про работу и занятия, make — про создание и результат."
     },
     {
       "id": "a2-false-friends",
@@ -511,7 +645,7 @@
         { "wrong": "She is very accurate and her room is always clean.", "right": "She is very tidy and her room is always clean." },
         { "wrong": "We went to the magazine to buy bread.", "right": "We went to the shop to buy bread." }
       ],
-      "note": "Ложный друг обманывает один раз: после ошибки слово запоминается уже с настоящим значением."
+      "note": "Не путай anecdote и «анекдот»: по-английски это короткий случай из жизни, а шутка — joke."
     }
   ]
 }

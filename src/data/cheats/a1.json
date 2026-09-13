@@ -30,27 +30,43 @@
       ],
       "examples": [
         {
-          "en": "She is at work.",
-          "ru": "Она на работе."
-        },
-        {
-          "en": "They are students.",
-          "ru": "Они студенты."
-        },
-        {
-          "en": "I am not ready.",
-          "ru": "Я не готов."
-        },
-        {
           "en": "Are you at home?",
           "ru": "Ты дома?"
+        },
+        {
+          "en": "My brother is a doctor.",
+          "ru": "Мой брат врач."
+        },
+        {
+          "en": "My sister is nineteen.",
+          "ru": "Моей сестре девятнадцать."
+        },
+        {
+          "en": "The film is boring.",
+          "ru": "Фильм скучный."
+        },
+        {
+          "en": "It is cold today.",
+          "ru": "Сегодня холодно."
+        },
+        {
+          "en": "We are not late.",
+          "ru": "Мы не опоздали."
+        },
+        {
+          "en": "My parents are in the garden.",
+          "ru": "Мои родители в саду."
+        },
+        {
+          "en": "Is your brother at work?",
+          "ru": "Твой брат на работе?"
         }
       ],
       "pitfalls": [
         { "wrong": "He tired.", "right": "He is tired." },
         { "wrong": "They is at home.", "right": "They are at home." }
       ],
-      "note": "Не путай to be с глаголами действия: is описывает состояние, а не действие.",
+      "note": "Не путай to be и глаголы действия: is говорит, кто это, какой он и где он, а не что он делает.",
       "lesson": "/grammar/a1-verb-to-be"
     },
     {
@@ -85,8 +101,24 @@
           "ru": "Я вижу их в парке."
         },
         {
-          "en": "This is our house.",
-          "ru": "Это наш дом."
+          "en": "We are waiting for you.",
+          "ru": "Мы ждём тебя."
+        },
+        {
+          "en": "Their car is red.",
+          "ru": "Их машина красная."
+        },
+        {
+          "en": "Give him the book, please.",
+          "ru": "Дай ему книгу, пожалуйста."
+        },
+        {
+          "en": "He called her in the morning.",
+          "ru": "Он позвонил ей утром."
+        },
+        {
+          "en": "We met them at the station.",
+          "ru": "Мы встретили их на вокзале."
         }
       ],
       "pitfalls": [
@@ -115,20 +147,39 @@
       "markers": ["girl", "book", "city", "idea", "meaning", "question"],
       "points": [
         "Исчисляемому существительному в единственном числе обычно нужен артикль: a book.",
-        "Прилагательное не заменяет существительное: оно лишь описывает предмет."
+        "Прилагательное не заменяет существительное: оно лишь описывает предмет.",
+        "Имена, города и страны пишутся с заглавной буквы: Paris, London, Mary.",
+        "Существительное называет человека, место, предмет или понятие: brother, city, door, idea.",
+        "Вопросы к существительному — «кто?» и «что?»: sister — кто?, table — что?"
       ],
       "examples": [
         {
-          "en": "The word has a meaning.",
-          "ru": "У слова есть значение."
-        },
-        {
-          "en": "The question is difficult.",
-          "ru": "Вопрос трудный."
-        },
-        {
           "en": "My friend lives in a big city.",
           "ru": "Мой друг живёт в большом городе."
+        },
+        {
+          "en": "Paris is a beautiful city.",
+          "ru": "Париж — красивый город."
+        },
+        {
+          "en": "The letter arrived this morning.",
+          "ru": "Письмо пришло сегодня утром."
+        },
+        {
+          "en": "The book has a red cover.",
+          "ru": "У книги красная обложка."
+        },
+        {
+          "en": "My brother works in a hospital.",
+          "ru": "Мой брат работает в больнице."
+        },
+        {
+          "en": "Freedom is important.",
+          "ru": "Свобода важна."
+        },
+        {
+          "en": "Her answer was a surprise.",
+          "ru": "Её ответ был неожиданным."
         }
       ],
       "pitfalls": [
@@ -178,20 +229,36 @@
         {
           "en": "These boxes are heavy.",
           "ru": "Эти коробки тяжёлые."
+        },
+        {
+          "en": "We need two tickets for the show.",
+          "ru": "Нам нужно два билета на концерт."
+        },
+        {
+          "en": "The stories in this book are short.",
+          "ru": "Истории в этой книге короткие."
+        },
+        {
+          "en": "The buses stop near the park.",
+          "ru": "Автобусы останавливаются возле парка."
+        },
+        {
+          "en": "These women are my sisters.",
+          "ru": "Эти женщины — мои сёстры."
         }
       ],
       "pitfalls": [
         { "wrong": "I have two childs.", "right": "I have two children." },
         { "wrong": "I have two pennys.", "right": "I have two pennies." }
       ],
-      "note": "Не путай исчисляемое и неисчисляемое: money и hair обычно не получают -s.",
+      "note": "Не путай один предмет и несколько: после two, three и many существительное стоит во множественном числе, а a/an бывает только в единственном.",
       "lesson": "/grammar/a1-plural-nouns"
     },
     {
       "id": "a1-articles-a-an",
       "title": "Articles: A, An and The",
       "titleRu": "Артикли a/an и the",
-      "category": "Grammar",
+      "category": "Articles",
       "use": [
         "a/an вводит один новый предмет: I saw a cat.",
         "the — предмет уже известный или конкретный: The cat was black.",
@@ -206,7 +273,9 @@
       "markers": ["a book", "an apple", "an hour", "the book"],
       "points": [
         "После первого упоминания тот же предмет переходит на the: a cat → the cat.",
-        "Решает произношение: an hour, но a university."
+        "Решает произношение: an hour, но a university.",
+        "Перед профессией в единственном числе нужен a/an: He is a teacher.",
+        "Перед именами и названиями артикль обычно не ставится: Anna, Moscow."
       ],
       "examples": [
         {
@@ -224,6 +293,18 @@
         {
           "en": "A writer needs time.",
           "ru": "Писателю нужно время."
+        },
+        {
+          "en": "I need an umbrella.",
+          "ru": "Мне нужен зонт."
+        },
+        {
+          "en": "She bought a new phone.",
+          "ru": "Она купила новый телефон."
+        },
+        {
+          "en": "He is an engineer.",
+          "ru": "Он инженер."
         }
       ],
       "pitfalls": [
@@ -256,7 +337,9 @@
       "markers": ["There is a", "There are", "some", "any"],
       "points": [
         "Форма зависит от существительного после конструкции, а не от смысла «много».",
-        "There здесь не значит «там»: место обычно названо отдельно."
+        "There здесь не значит «там»: место обычно названо отдельно.",
+        "Отрицание: после there ставится isn't или aren't, а перед существительным — any.",
+        "Вопрос начинается с Is there или Are there."
       ],
       "examples": [
         {
@@ -274,6 +357,18 @@
         {
           "en": "Is there a bank near here?",
           "ru": "Здесь есть банк поблизости?"
+        },
+        {
+          "en": "There are two chairs in the kitchen.",
+          "ru": "На кухне два стула."
+        },
+        {
+          "en": "There is a problem with the car.",
+          "ru": "С машиной проблема."
+        },
+        {
+          "en": "There aren't any students in the class today.",
+          "ru": "Сегодня в классе нет учеников."
         }
       ],
       "pitfalls": [
@@ -322,13 +417,25 @@
         {
           "en": "My parents moved here in 2010.",
           "ru": "Мои родители переехали сюда в 2010 году."
+        },
+        {
+          "en": "See you at noon.",
+          "ru": "Увидимся в полдень."
+        },
+        {
+          "en": "The concert is on Saturday evening.",
+          "ru": "Концерт в субботу вечером."
+        },
+        {
+          "en": "Her birthday is on May 3rd.",
+          "ru": "Её день рождения третьего мая."
         }
       ],
       "pitfalls": [
         { "wrong": "My birthday is on March.", "right": "My birthday is in March." },
         { "wrong": "The lesson starts in Monday.", "right": "The lesson starts on Monday." }
       ],
-      "note": "Не переноси русское «в» автоматически: в час — at, в день — on, в месяце или году — in.",
+      "note": "Не путай at, on и in: at — точное время, on — день или дата, in — месяц, год или век.",
       "lesson": "/grammar/a1-numbers-dates-time"
     },
     {
@@ -356,12 +463,8 @@
       ],
       "examples": [
         {
-          "en": "She is wearing a white dress.",
-          "ru": "На ней белое платье."
-        },
-        {
-          "en": "He has blue eyes.",
-          "ru": "У него голубые глаза."
+          "en": "She has green eyes.",
+          "ru": "У неё зелёные глаза."
         },
         {
           "en": "I usually wear a black coat.",
@@ -370,6 +473,22 @@
         {
           "en": "What colour is your jacket?",
           "ru": "Какого цвета твоя куртка?"
+        },
+        {
+          "en": "He is wearing brown shoes.",
+          "ru": "На нём коричневые туфли."
+        },
+        {
+          "en": "My mother wears a blue hat in summer.",
+          "ru": "Летом моя мама носит синюю шляпу."
+        },
+        {
+          "en": "What is she wearing today?",
+          "ru": "Что на ней надето сегодня?"
+        },
+        {
+          "en": "These trousers are too long.",
+          "ru": "Эти брюки слишком длинные."
         }
       ],
       "pitfalls": [
@@ -383,7 +502,7 @@
       "id": "a1-present-simple",
       "title": "Present Simple",
       "titleRu": "Простое настоящее время",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "Привычки и повторяющиеся действия: I read every evening.",
         "Постоянные состояния и факты: She lives in this town.",
@@ -420,6 +539,18 @@
         {
           "en": "They don't drink coffee.",
           "ru": "Они не пьют кофе."
+        },
+        {
+          "en": "My sister always gets up at seven.",
+          "ru": "Моя сестра всегда встаёт в семь."
+        },
+        {
+          "en": "He never watches TV in the morning.",
+          "ru": "Он никогда не смотрит телевизор утром."
+        },
+        {
+          "en": "Do you speak English?",
+          "ru": "Ты говоришь по-английски?"
         }
       ],
       "pitfalls": [
@@ -469,6 +600,18 @@
         {
           "en": "He is always on time.",
           "ru": "Он всегда приходит вовремя."
+        },
+        {
+          "en": "Turn off the light, please.",
+          "ru": "Выключи свет, пожалуйста."
+        },
+        {
+          "en": "We usually have lunch at one o'clock.",
+          "ru": "Обычно мы обедаем в час."
+        },
+        {
+          "en": "Let's start now.",
+          "ru": "Давай начнём сейчас."
         }
       ],
       "pitfalls": [
@@ -482,7 +625,7 @@
       "id": "a1-present-continuous",
       "title": "Present Continuous",
       "titleRu": "Настоящее продолженное время",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "Действие происходит прямо сейчас: I am reading now.",
         "Временная ситуация текущего периода: She is working on a project this week.",
@@ -519,6 +662,18 @@
         {
           "en": "They are playing football in the park.",
           "ru": "Они играют в футбол в парке."
+        },
+        {
+          "en": "The children are sleeping now.",
+          "ru": "Дети сейчас спят."
+        },
+        {
+          "en": "I am not listening to music.",
+          "ru": "Я не слушаю музыку."
+        },
+        {
+          "en": "What are you doing?",
+          "ru": "Что ты делаешь?"
         }
       ],
       "pitfalls": [
@@ -532,7 +687,7 @@
       "id": "a1-past-simple",
       "title": "Past Simple",
       "titleRu": "Простое прошедшее время",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "Завершённое действие в прошлом: We watched a film yesterday.",
         "Последовательность событий в рассказе.",
@@ -569,6 +724,18 @@
         {
           "en": "Did you finish the report?",
           "ru": "Ты закончил отчёт?"
+        },
+        {
+          "en": "He was at home last night.",
+          "ru": "Вчера вечером он был дома."
+        },
+        {
+          "en": "We were in London two years ago.",
+          "ru": "Два года назад мы были в Лондоне."
+        },
+        {
+          "en": "She studied English at school.",
+          "ru": "Она учила английский в школе."
         }
       ],
       "pitfalls": [
@@ -600,7 +767,9 @@
       "markers": ["what", "where", "when", "who", "why", "how"],
       "points": [
         "С be вспомогательный do не нужен: Is he ready?, а не Does he is ready?",
-        "После do / does / did основной глагол остаётся без -s и -ed: Does she like tea?"
+        "После do / does / did основной глагол остаётся без -s и -ed: Does she like tea?",
+        "Специальный вопрос начинается с вопросительного слова: what, where, when, who, why, how.",
+        "Who в роли подлежащего идёт без do и did: Who saw you?"
       ],
       "examples": [
         {
@@ -618,6 +787,18 @@
         {
           "en": "What happened last night?",
           "ru": "Что случилось прошлой ночью?"
+        },
+        {
+          "en": "How many brothers do you have?",
+          "ru": "Сколько у тебя братьев?"
+        },
+        {
+          "en": "Who called you?",
+          "ru": "Кто тебе позвонил?"
+        },
+        {
+          "en": "Did they arrive on time?",
+          "ru": "Они приехали вовремя?"
         }
       ],
       "pitfalls": [

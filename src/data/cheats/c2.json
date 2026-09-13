@@ -6,7 +6,7 @@
       "id": "c2-inversion-so-such",
       "title": "Inversion with So and Such",
       "titleRu": "Инверсия с so и such",
-      "category": "Grammar",
+      "category": "Inversion",
       "use": [
         "Формально усилить степень или результат: so/such выносятся в начало, меняется порядок слов.",
         "So + прилагательное или наречие в начале: So powerful was the story that…",
@@ -20,10 +20,15 @@
         "The story was so powerful",
         "→ So powerful was the story"
       ],
+      "forms": [
+        "− So quiet was the room that not a single chair moved.",
+        "? Was the hall so quiet that nobody dared to speak?"
+      ],
       "markers": [
-        "so strange was",
-        "so quickly did",
-        "such a powerful image was",
+        "So silent was the hall",
+        "So carelessly did he speak",
+        "Such was the noise",
+        "So few were the guests",
         "that + result clause"
       ],
       "points": [
@@ -34,16 +39,28 @@
       ],
       "examples": [
         {
-          "en": "So strange was the landscape that nobody spoke.",
-          "ru": "Пейзаж был настолько странным, что никто не говорил."
+          "en": "So convincing was his argument that nobody objected.",
+          "ru": "Довод его был настолько убедителен, что никто не возразил."
         },
         {
-          "en": "So quickly did the expedition move that nobody could follow it.",
-          "ru": "Экспедиция двигалась настолько быстро, что никто не мог за ней угнаться."
+          "en": "So rapidly did the rumour spread that by noon the whole office was talking about it.",
+          "ru": "Слух распространялся так быстро, что к полудню о нём говорил весь офис."
         },
         {
-          "en": "Such a powerful image was it that nobody forgot it.",
-          "ru": "Это был настолько сильный образ, что его никто не забыл."
+          "en": "Such was her authority that nobody dared to interrupt.",
+          "ru": "Авторитет её был таков, что никто не смел перебивать."
+        },
+        {
+          "en": "So abrupt was the ending that many readers felt cheated.",
+          "ru": "Финал был настолько внезапным, что многие читатели почувствовали себя обманутыми."
+        },
+        {
+          "en": "So little did we know about the plan that we could not comment on it.",
+          "ru": "Мы знали о плане настолько мало, что не могли ничего сказать."
+        },
+        {
+          "en": "So intense was the heat that the match was postponed.",
+          "ru": "Жара была настолько сильной, что матч перенесли."
         }
       ],
       "pitfalls": [
@@ -56,8 +73,8 @@
     {
       "id": "c2-mixed-conditionals",
       "title": "Mixed Conditionals (Advanced)",
-      "titleRu": "Смешанные условные: продвинутый уровень",
-      "category": "Grammar",
+      "titleRu": "Смешанные условные: сложные случаи",
+      "category": "Conditionals",
       "use": [
         "Связать прошлую причину с нынешним результатом: If he had stayed, he would be living there now.",
         "Показать нынешнее нереальное условие, объясняющее прошлый результат: If she were more careful, she would have noticed the mistake.",
@@ -71,6 +88,11 @@
         "if + Past Simple (were)",
         "→ would have + V3 — нынешнее условие, результат в прошлом",
         "might / could (+ have) вместо would — слабее уверенность"
+      ],
+      "forms": [
+        "− If + hadn't + V3, wouldn't + V1",
+        "− If + weren't, wouldn't have + V3",
+        "? Would + подлежащее + V1 + if + had + V3?"
       ],
       "markers": [
         "if + had + V3",
@@ -101,6 +123,18 @@
         {
           "en": "If he were less confident, he might have asked for help.",
           "ru": "Будь он менее самоуверен, он, возможно, попросил бы помощи."
+        },
+        {
+          "en": "If she had married him, she would be living in Rome now.",
+          "ru": "Выдь она за него, сейчас она жила бы в Риме."
+        },
+        {
+          "en": "If I had slept better, I would not be yawning through this meeting.",
+          "ru": "Спал бы я лучше, я бы не зевал на этом совещании."
+        },
+        {
+          "en": "If I were better at saving money, I would have bought the flat last year.",
+          "ru": "Умей я копить деньги, я бы купил квартиру в прошлом году."
         }
       ],
       "pitfalls": [
@@ -114,7 +148,7 @@
       "id": "c2-mandative-subjunctive",
       "title": "Mandative Subjunctive",
       "titleRu": "Мандативный сослагательный",
-      "category": "Grammar",
+      "category": "Subjunctive",
       "use": [
         "Выразить требование, рекомендацию или необходимость в формальном английском.",
         "После demand / insist / suggest / recommend + that — базовая форма глагола при любом лице.",
@@ -126,6 +160,10 @@
         "demand / insist / suggest / recommend + that + подлежащее + V1",
         "It is essential that + подлежащее + be + V3",
         "отрицание: that + подлежащее + not + V1"
+      ],
+      "forms": [
+        "− demand / insist + that + подлежащее + not + V1",
+        "? Is it essential that + подлежащее + be + V3?"
       ],
       "markers": [
         "demand that",
@@ -143,10 +181,6 @@
       ],
       "examples": [
         {
-          "en": "They insisted that he leave immediately.",
-          "ru": "Они настояли, чтобы он немедленно ушёл."
-        },
-        {
           "en": "It is essential that everyone be informed.",
           "ru": "Важно, чтобы все были осведомлены."
         },
@@ -155,8 +189,20 @@
           "ru": "Комитет рекомендовал изменить политику."
         },
         {
-          "en": "They insisted that he not leave.",
-          "ru": "Они настояли, чтобы он не уходил."
+          "en": "The judge ordered that the hearing be postponed.",
+          "ru": "Судья распорядился отложить слушание."
+        },
+        {
+          "en": "It is vital that the committee reach a decision today.",
+          "ru": "Крайне важно, чтобы комитет принял решение сегодня."
+        },
+        {
+          "en": "The board demanded that the report not be published.",
+          "ru": "Совет директоров потребовал не публиковать отчёт."
+        },
+        {
+          "en": "We suggest that every applicant submit two references.",
+          "ru": "Мы предлагаем каждому кандидату предоставить две рекомендации."
         }
       ],
       "pitfalls": [
@@ -170,7 +216,7 @@
       "id": "c2-modals-past-deduction",
       "title": "Modals of Past Deduction",
       "titleRu": "Выводы о прошлом",
-      "category": "Grammar",
+      "category": "Modal verbs",
       "use": [
         "must have + V3 — сильный вывод из свидетельств: He must have left.",
         "may have + V3 — возможная версия прошлого события.",
@@ -183,6 +229,11 @@
         "may have / might have / could have + V3 — возможная версия",
         "can't have + V3 — отрицательный вывод",
         "пассив: must have been + V3"
+      ],
+      "forms": [
+        "− can't / couldn't have + V3 — событие исключено",
+        "− must have been + V3 — пассив",
+        "? Could + подлежащее + have + V3?"
       ],
       "markers": [
         "must have + V3",
@@ -212,8 +263,20 @@
           "ru": "Никто не видел, как он приехал, поэтому, возможно, он прибыл ночью."
         },
         {
-          "en": "The money must have been hidden before the attack.",
-          "ru": "Деньги, должно быть, спрятали до нападения."
+          "en": "The safe must have been opened with a copy of the key.",
+          "ru": "Сейф, должно быть, открыли копией ключа."
+        },
+        {
+          "en": "The kettle is still warm — she must have been here recently.",
+          "ru": "Чайник ещё тёплый — должно быть, она была здесь недавно."
+        },
+        {
+          "en": "They can't have finished the repairs so quickly.",
+          "ru": "Не может быть, чтобы они так быстро закончили ремонт."
+        },
+        {
+          "en": "The letter may have been lost in the post.",
+          "ru": "Возможно, письмо потерялось на почте."
         }
       ],
       "pitfalls": [
@@ -227,7 +290,7 @@
       "id": "c2-cohesion-and-register",
       "title": "Cohesion and Register",
       "titleRu": "Связность текста и регистр",
-      "category": "Grammar",
+      "category": "Writing",
       "use": [
         "Cohesion — связывать предложения и абзацы в единый текст: отсылки, повторы, союзы.",
         "Reference: местоимения и this / that возвращают к уже сказанному: The editor rejected the title. He explained why.",
@@ -240,6 +303,10 @@
         "lexical chain: title → manuscript → draft → revision → publication",
         "linking: however / therefore / nevertheless / by contrast",
         "register: I don't think it works → I am not persuaded that it is effective"
+      ],
+      "forms": [
+        "− The wording does not work as it stands.",
+        "? Does the argument hold throughout the whole article?"
       ],
       "markers": [
         "this / that / it / they",
@@ -257,20 +324,32 @@
       ],
       "examples": [
         {
-          "en": "The editor rejected the title. He explained why.",
-          "ru": "Редактор отверг название. Он объяснил почему."
+          "en": "The title was changed twice. Each new version shifted the tone of the novel.",
+          "ru": "Название меняли дважды. Каждый новый вариант менял тон романа."
         },
         {
-          "en": "The proposal was rejected. However, the discussion continued.",
-          "ru": "Предложение отклонили. Тем не менее обсуждение продолжилось."
+          "en": "The novel was rejected by three publishers. It was finally accepted in 1925.",
+          "ru": "Роман отвергли три издателя. В конце концов его приняли в 1925 году."
         },
         {
-          "en": "The manuscript was revised repeatedly. The final draft differed from the original.",
-          "ru": "Рукопись неоднократно правили. Финальный вариант отличался от исходного."
+          "en": "The first draft was too long. This became clear after the second reading.",
+          "ru": "Первый вариант был слишком длинным. Это стало ясно после второго чтения."
         },
         {
-          "en": "The wording would benefit from further revision.",
-          "ru": "Формулировка выиграла бы от дальнейшей правки."
+          "en": "Several titles were discussed. Nevertheless, the author returned to the original one.",
+          "ru": "Обсуждали несколько названий. Тем не менее автор вернулся к первоначальному."
+        },
+        {
+          "en": "The reviewers praised the structure. Consequently, the publisher approved the print run.",
+          "ru": "Рецензенты похвалили структуру. В результате издатель утвердил тираж."
+        },
+        {
+          "en": "I am not convinced that the opening chapter works.",
+          "ru": "Я не убеждён, что первая глава удалась."
+        },
+        {
+          "en": "The final scene would benefit from being shortened.",
+          "ru": "Формально: «Финальную сцену стоило бы сократить» — ср. разговорное We need to cut the last scene."
         }
       ],
       "pitfalls": [

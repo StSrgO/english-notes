@@ -16,10 +16,17 @@
         "if + Present Simple",
         "→ Present Simple"
       ],
+      "forms": [
+        "− if + Present Simple, don't / doesn't + V1",
+        "? If + Present Simple, do / does + подлежащее + V1?"
+      ],
       "markers": ["if", "when", "whenever", "every time", "unless"],
       "points": [
         "Обе части — в Present Simple: связь устойчивая, это не один конкретный случай.",
-        "После if будущее время (will) не используется."
+        "После if будущее время (will) не используется.",
+        "when, whenever и every time вводят то же условие, что и if.",
+        "Если условие стоит первым, между частями ставится запятая.",
+        "Общий совет тоже подходит: If you feel tired, take a break."
       ],
       "examples": [
         {
@@ -27,12 +34,24 @@
           "ru": "Если вода замерзает, она превращается в лёд."
         },
         {
-          "en": "If metal gets hot, it expands.",
-          "ru": "Если металл нагревается, он расширяется."
+          "en": "If you heat ice, it melts.",
+          "ru": "Если нагреть лёд, он тает."
         },
         {
-          "en": "If you leave food outside, animals find it.",
-          "ru": "Если оставить еду снаружи, животные её находят."
+          "en": "If I drink coffee late, I can't sleep.",
+          "ru": "Если я пью кофе поздно, я не могу заснуть."
+        },
+        {
+          "en": "If you mix blue and yellow, you get green.",
+          "ru": "Если смешать синий и жёлтый, получится зелёный."
+        },
+        {
+          "en": "If the bus is late, I walk to work.",
+          "ru": "Если автобус опаздывает, я иду на работу пешком."
+        },
+        {
+          "en": "If you save money every month, you can buy a car.",
+          "ru": "Если откладывать деньги каждый месяц, можно купить машину."
         }
       ],
       "pitfalls": [
@@ -72,12 +91,24 @@
           "ru": "Если выйдешь сейчас, успеешь на поезд."
         },
         {
-          "en": "If the shop is open, I will buy some food.",
-          "ru": "Если магазин будет открыт, я куплю еды."
+          "en": "If you book now, you will get a discount.",
+          "ru": "Если забронируешь сейчас, получишь скидку."
         },
         {
-          "en": "If she doesn't answer, I will call again.",
-          "ru": "Если она не ответит, я позвоню снова."
+          "en": "If I find your keys, I will bring them to you.",
+          "ru": "Если найду твои ключи, я принесу их тебе."
+        },
+        {
+          "en": "If the laptop breaks, we will lose all the files.",
+          "ru": "Если ноутбук сломается, мы потеряем все файлы."
+        },
+        {
+          "en": "If we miss the bus, we will take a taxi.",
+          "ru": "Если мы опоздаем на автобус, мы поедем на такси."
+        },
+        {
+          "en": "If I get the job, I will move to another city.",
+          "ru": "Если я получу работу, я перееду в другой город."
         }
       ],
       "pitfalls": [
@@ -117,8 +148,20 @@
           "ru": "Если бы у меня были деньги, я бы путешествовал."
         },
         {
-          "en": "If I were you, I would refuse.",
-          "ru": "На твоём месте я бы отказался."
+          "en": "If I won the lottery, I would buy a house by the sea.",
+          "ru": "Если бы я выиграл в лотерею, я бы купил дом у моря."
+        },
+        {
+          "en": "If it were not so late, we could go for a walk.",
+          "ru": "Если бы не было так поздно, мы могли бы пойти гулять."
+        },
+        {
+          "en": "Would you take the job if they offered it to you?",
+          "ru": "Ты бы взялся за эту работу, если бы её предложили?"
+        },
+        {
+          "en": "If she spoke more slowly, I would understand her better.",
+          "ru": "Если бы она говорила медленнее, я понимал бы её лучше."
         },
         {
           "en": "If he had more free time, he could learn to play the guitar.",
@@ -136,7 +179,7 @@
       "id": "b1-used-to",
       "title": "Used to / Be used to / Get used to",
       "titleRu": "Привычка в прошлом, привык, привыкаю",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "Привычка или состояние в прошлом, которых больше нет: used to + V1.",
         "Состояние «уже привык»: be used to + V-ing.",
@@ -173,6 +216,22 @@
         {
           "en": "She is getting used to her new job.",
           "ru": "Она привыкает к новой работе."
+        },
+        {
+          "en": "We used to play football in the yard every evening.",
+          "ru": "Раньше мы каждый вечер играли в футбол во дворе."
+        },
+        {
+          "en": "There used to be a cinema on this street.",
+          "ru": "Раньше на этой улице был кинотеатр."
+        },
+        {
+          "en": "Did you use to wear glasses?",
+          "ru": "Ты раньше носил очки?"
+        },
+        {
+          "en": "They are used to living in a noisy city.",
+          "ru": "Они привыкли жить в шумном городе."
         }
       ],
       "pitfalls": [
@@ -186,7 +245,7 @@
       "id": "b1-present-perfect",
       "title": "Present Perfect",
       "titleRu": "Связь прошлого с настоящим",
-      "category": "Grammar",
+      "category": "Tenses",
       "use": [
         "Опыт: что человек когда-либо делал — ever, never.",
         "Результат сейчас: действие завершилось, и его результат важен.",
@@ -218,20 +277,36 @@
         {
           "en": "We have sent three emails today.",
           "ru": "Сегодня мы отправили три письма (день ещё не закончился)."
+        },
+        {
+          "en": "They have bought a new car.",
+          "ru": "Они купили новую машину."
+        },
+        {
+          "en": "Have you seen my glasses anywhere?",
+          "ru": "Ты нигде не видел мои очки?"
+        },
+        {
+          "en": "He has just left the office.",
+          "ru": "Он только что вышел из офиса."
+        },
+        {
+          "en": "We haven't decided yet.",
+          "ru": "Мы ещё не решили."
         }
       ],
       "pitfalls": [
         { "wrong": "I have lived in Paris in 1921.", "right": "I lived in Paris in 1921." },
         { "wrong": "She have finished the book.", "right": "She has finished the book." }
       ],
-      "note": "Если момент в прошлом назван, время меняется на Past Simple: I finished the report yesterday.",
+      "note": "Не путай Present Perfect и Past Simple: I have finished the report — результат важен сейчас, I finished the report yesterday — момент в прошлом назван.",
       "lesson": "/grammar/b1-present-perfect"
     },
     {
       "id": "b1-past-perfect",
       "title": "Past Perfect",
       "titleRu": "Действие раньше другого действия в прошлом",
-      "category": "Past tenses",
+      "category": "Tenses",
       "use": [
         "Событие раньше другого события в прошлом — «прошлое до прошлого».",
         "Вторая точка отсчёта обязательна: before, after, by the time.",
@@ -263,13 +338,29 @@
         {
           "en": "He had never flown before his first business trip.",
           "ru": "Он ни разу не летал до своей первой командировки."
+        },
+        {
+          "en": "When we arrived at the cinema, the film had already started.",
+          "ru": "Когда мы пришли в кино, фильм уже начался."
+        },
+        {
+          "en": "She had finished her homework before dinner.",
+          "ru": "Она сделала домашнее задание до ужина."
+        },
+        {
+          "en": "I had never seen the sea before that summer.",
+          "ru": "До того лета я никогда не видел моря."
+        },
+        {
+          "en": "By the time we got to the station, the bus had gone.",
+          "ru": "К тому времени, как мы добрались до станции, автобус уже ушёл."
         }
       ],
       "pitfalls": [
         { "wrong": "I had seen the film yesterday.", "right": "I saw the film yesterday." },
         { "wrong": "They had went home.", "right": "They had gone home." }
       ],
-      "note": "Сравни с Past Simple: если порядок событий понятен без уточнения, Past Perfect не нужен.",
+      "note": "Не путай Past Perfect и Past Simple: had + V3 отмечает событие раньше другого (The train had left before I arrived), а если порядок ясен, нужен Past Simple.",
       "lesson": "/grammar/b1-past-perfect"
     },
     {
@@ -309,20 +400,36 @@
         {
           "en": "The window was broken last night.",
           "ru": "Окно разбили прошлой ночью."
+        },
+        {
+          "en": "This bridge was built in 1880.",
+          "ru": "Этот мост построили в 1880 году."
+        },
+        {
+          "en": "English is spoken all over the world.",
+          "ru": "На английском говорят по всему миру."
+        },
+        {
+          "en": "My bike was stolen last week.",
+          "ru": "Мой велосипед украли на прошлой неделе."
+        },
+        {
+          "en": "These photos were taken in Italy.",
+          "ru": "Эти фотографии сделаны в Италии."
         }
       ],
       "pitfalls": [
         { "wrong": "The report sent yesterday.", "right": "The report was sent yesterday." },
         { "wrong": "The letters was sent on time.", "right": "The letters were sent on time." }
       ],
-      "note": "Без формы to be пассив не работает: нужен am / is / are или was / were + V3.",
+      "note": "Не путай пассив и время: пассив задаёт be + V3, а время и согласование — форма be: The report was sent, These photos were taken.",
       "lesson": "/grammar/b1-passive-voice-simple"
     },
     {
       "id": "b1-modals-should-might-may",
       "title": "Should / May / Might",
       "titleRu": "Совет, ожидание и возможность",
-      "category": "Grammar",
+      "category": "Modal verbs",
       "use": [
         "Should — совет или ожидаемый результат.",
         "May — реальная возможность: The change may help.",
@@ -354,13 +461,29 @@
         {
           "en": "They might be at home by now.",
           "ru": "Они, возможно, уже дома."
+        },
+        {
+          "en": "You shouldn't eat so much sugar.",
+          "ru": "Тебе не стоит есть так много сахара."
+        },
+        {
+          "en": "She may be late today.",
+          "ru": "Она, возможно, сегодня опоздает."
+        },
+        {
+          "en": "We might not have enough chairs for everyone.",
+          "ru": "Возможно, стульев на всех не хватит."
+        },
+        {
+          "en": "Should I close the window?",
+          "ru": "Закрыть окно?"
         }
       ],
       "pitfalls": [
         { "wrong": "You should to go home.", "right": "You should go home." },
         { "wrong": "She may comes later.", "right": "She may come later." }
       ],
-      "note": "Ожидаемый результат — тоже should: The train should arrive on time.",
+      "note": "Не путай should-совет и should-ожидание: You should see a doctor — совет, The train should arrive on time — ожидание.",
       "lesson": "/grammar/b1-modals-should-might-may"
     },
     {
@@ -378,10 +501,18 @@
         "V-ing: enjoy, avoid, finish, keep",
         "to + V1: want, decide, hope, plan"
       ],
+      "forms": [
+        "− She doesn't enjoy waiting in queues.",
+        "− He didn't decide to leave.",
+        "? Does she enjoy reading?"
+      ],
       "markers": ["enjoy + V-ing", "avoid + V-ing", "finish + V-ing", "want + to V1", "decide + to V1"],
       "points": [
         "Выбор формы зависит от самого глагола — общего правила нет.",
-        "Remember doing («помню, что делал») ≠ remember to do («не забыть сделать»)."
+        "Remember doing («помню, что делал») ≠ remember to do («не забыть сделать»).",
+        "После предлогов всегда V-ing: interested in reading, good at cooking.",
+        "В роли подлежащего — V-ing: Reading helps me relax.",
+        "После want, decide, hope и plan идёт to + глагол."
       ],
       "examples": [
         {
@@ -395,13 +526,29 @@
         {
           "en": "They kept talking during the film.",
           "ru": "Они продолжали разговаривать во время фильма."
+        },
+        {
+          "en": "I want to ask you a question.",
+          "ru": "Я хочу задать тебе вопрос."
+        },
+        {
+          "en": "He avoided talking about the accident.",
+          "ru": "Он избегал разговора о происшествии."
+        },
+        {
+          "en": "She suggested going to the cinema.",
+          "ru": "Она предложила сходить в кино."
+        },
+        {
+          "en": "She forgot to lock the door.",
+          "ru": "Она забыла запереть дверь."
         }
       ],
       "pitfalls": [
         { "wrong": "I enjoy to read.", "right": "I enjoy reading." },
         { "wrong": "She decided reading the book.", "right": "She decided to read the book." }
       ],
-      "note": "Есть глаголы, у которых форма меняет смысл: remember doing и remember to do.",
+      "note": "Не путай remember doing и remember to do: doing — «помню, что делал», to do — «не забыть сделать».",
       "lesson": "/grammar/b1-gerund-vs-infinitive"
     },
     {
@@ -418,6 +565,11 @@
       "formula": [
         "say / tell + (that) + утверждение",
         "ask + if / вопросительное слово + …"
+      ],
+      "forms": [
+        "− He said that he didn't know the answer.",
+        "− She told me not to wait.",
+        "? She asked if I was ready."
       ],
       "markers": ["said that", "told somebody that", "asked if / whether", "asked who / what / where"],
       "points": [
@@ -437,6 +589,22 @@
         {
           "en": "She told me to wait.",
           "ru": "Она попросила меня подождать."
+        },
+        {
+          "en": "My mother said that dinner was ready.",
+          "ru": "Мама сказала, что ужин готов."
+        },
+        {
+          "en": "He told me that he would come back later.",
+          "ru": "Он сказал мне, что вернётся позже."
+        },
+        {
+          "en": "He asked me to close the door.",
+          "ru": "Он попросил меня закрыть дверь."
+        },
+        {
+          "en": "I asked her if she liked jazz.",
+          "ru": "Я спросил её, любит ли она джаз."
         }
       ],
       "pitfalls": [
@@ -519,7 +687,7 @@
         { "wrong": "We will going to the beach tomorrow.", "right": "We are going to the beach tomorrow." },
         { "wrong": "She will probably comes late.", "right": "She will probably come late." }
       ],
-      "note": "Главный вопрос — откуда взялось «будущее»: решение сейчас (will), план заранее (going to), договорённость (Present Continuous), расписание (Present Simple)."
+      "note": "Не путай will и be going to: will — решение прямо сейчас, be going to — заранее принятый план."
     },
     {
       "id": "b1-confusing-verbs",
@@ -683,7 +851,7 @@
         { "wrong": "Turn on it, please.", "right": "Turn it on, please." },
         { "wrong": "She is looking her keys for.", "right": "She is looking for her keys." }
       ],
-      "note": "Фразовый глагол — единое целое: учи его как одно слово, сразу с примером и с правилом про местоимения."
+      "note": "Не путай фразовый глагол и сочетание глагола с предлогом: местоимение разделяет глагол и частицу (give it up), но не глагол и предлог (look after it)."
     },
     {
       "id": "b1-articles-places",
@@ -758,7 +926,7 @@
         { "wrong": "I want to visit the Moscow next summer.", "right": "I want to visit Moscow next summer." },
         { "wrong": "The Lake Baikal is in Siberia.", "right": "Lake Baikal is in Siberia." }
       ],
-      "note": "Артикль — часть географического названия: его нельзя вывести из правил русского, его запоминают вместе с названием."
+      "note": "Не путай названия с артиклем и без него: the Netherlands и the USA — с the, а Ukraine и France — без."
     },
     {
       "id": "b1-typical-mistakes",
@@ -834,7 +1002,7 @@
         { "wrong": "I am agree with you.", "right": "I agree with you." },
         { "wrong": "I have 20 years.", "right": "I am 20 years old." }
       ],
-      "note": "Сверяйся не со словами, а со смыслом: «мне 20» = I am 20, «я согласен» = I agree, «хочу, чтобы ты…» = I want you to…"
+      "note": "Не переводи дословно: «мне 20» — I am 20, «я согласен» — I agree, «хочу, чтобы ты…» — I want you to…"
     },
     {
       "id": "b1-punctuation",
