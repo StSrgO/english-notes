@@ -14,7 +14,7 @@
     "Поэтому предложение [bold]The bass must have been turned down for one specific reason[/bold] звучит слишком категорично: подтверждения у одной-единственной причины нет. Мягче и точнее звучит [bold]The bass may have been turned down because it occupied the same sonic space as the guitars.[/bold] — форма [bold]may have[/bold] оставляет место и для других объяснений.",
     "Если версию подтверждают несколько независимых свидетельств, можно использовать [bold]must have[/bold]. Например: [bold]The final mix must have reflected the band's priorities at the time.[/bold] Степень уверенности в таком предложении максимальная, хотя окончательного доказательства причины всё равно нет.",
     "Если выбрать одну причину не получается, используются [bold]may have[/bold] или [bold]might have[/bold]. [bold]The final mix may have been shaped by the guitar sound[/bold] означает, что такая связь возможна. [bold]The final mix might have been shaped by several competing decisions[/bold] оставляет ещё больше пространства для неопределённости.",
-    "Форма [bold]could have[/bold] называет вариант, который был возможен, но не обязательно имел место: [bold]The producers could have used a different balance.[/bold] Речь идёт о допустимом ходе событий, а не о том, что произошло на самом деле.",
+    "Форма [bold]could have[/bold] называет вариант, который был возможен, но не обязательно имел место: [bold]The producers could have used a different balance.[/bold] Речь идёт о допустимом ходе событий, а не о том, что произошло на самом деле. Без [bold]have[/bold] тот же глагол говорит только о способности: [bold]Rasmussen could mix a record quickly[/bold] — это умение, а не предположение о прошлом.",
     "Разные вопросы требуют разной степени уверенности: [bold]what happened[/bold] и [bold]why it happened[/bold]. Что бас Джейсона оказался очень низко в итоговом миксе, устанавливается по самой записи. Причина этого решения требует отдельного вывода, и его сила зависит от количества свидетельств.",
     "С несколькими свидетельствами работает [bold]must have[/bold]: [bold]Something must have influenced the final balance.[/bold] Но если вопрос звучит как [bold]What exactly influenced it?[/bold], степень уверенности ниже, и ответ меняет форму: [bold]Several factors may have influenced it.[/bold]",
     "Для отрицательного вывода используется [bold]can't have[/bold]. Например: [bold]The missing bass can't have been caused by the absence of a bass recording.[/bold] Такой вывод опирается на свидетельство, что басовые партии действительно были записаны.",
@@ -24,7 +24,7 @@
     "Вывод становится сложнее, когда появляются разные версии участников. Если один человек говорит, что решение было связано со звучанием гитар, а другой описывает совсем другой контекст, назвать одну версию окончательной нельзя. Форма [bold]must have[/bold] была бы слишком сильной; версии оставляют открытыми [bold]may have[/bold] и [bold]might have[/bold].",
     "В таком случае выбор формы сам показывает, насколько говорящий готов настаивать: [bold]The mix may have been shaped by several factors.[/bold] [bold]The band might have preferred a very dry guitar sound.[/bold] [bold]The bass could have been reduced because it competed with the guitars.[/bold] В каждом предложении степень уверенности разная.",
     "Если же свидетельство становится достаточно сильным, появляется [bold]must have[/bold]. Например: [bold]The final mix must have involved a deliberate reduction of the bass level.[/bold] Но такой вывод касается результата записи, а не мотивов каждого участника.",
-    "Такое различие многое решает в музыкальной истории: готовая запись сохраняет результат, но не всегда сохраняет каждое решение, которое к нему привело. Финальный баланс слышен, а версии участников можно сравнить, но вывод о причинах остаётся выводом.",
+    "Форма после модального глагола не меняется: идут [bold]have[/bold] и причастие, поэтому правильно [bold]They must have recorded the bass lines[/bold], а не [bold]they must recorded the bass lines[/bold]. Простое прошедшее после [bold]must[/bold], [bold]may[/bold], [bold]might[/bold] и [bold]could[/bold] невозможно: эти глаголы сами стоят там, где обычно стоит вспомогательный, а завершённость действия передаётся причастием.",
     "Сравни четыре модели: [bold]The bass must have been lowered at some point in the process[/bold] — сильный вывод; [bold]The bass may have been reduced for several reasons[/bold] — возможное объяснение; [bold]The bass might have been reduced to create more space for the guitars[/bold] — менее уверенная гипотеза; [bold]The bass can't have been absent from the recording entirely[/bold] — сильный отрицательный вывод.",
     "[bold]Modals of Past Deduction[/bold] позволяют говорить о спорной истории точнее: форма показывает, насколько уверенно говорящий берётся утверждать причину. Установленное по свидетельствам и восстановленное выводом — не одно и то же, и разница между ними выражается выбором формы. В истории [bold]...And Justice For All[/bold] эта разница заметна сильнее всего, потому что вокруг неё и возникло столько разных объяснений."
   ],
@@ -354,7 +354,7 @@
       "options": [
         "can't",
         "mustn't",
-        "couldn't to"
+        "didn't"
       ],
       "answer": 0,
       "why": "Can't have выражает сильный вывод о невозможности."
@@ -370,7 +370,7 @@
       "why": "Could have показывает возможный вариант, но не утверждает, что он действительно был реализован."
     },
     {
-      "q": "Choose the correct passive deduction.",
+      "q": "Which version builds the passive deduction correctly?",
       "options": [
         "The bass must have been reduced.",
         "The bass must has been reduced.",

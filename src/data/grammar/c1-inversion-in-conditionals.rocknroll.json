@@ -15,7 +15,7 @@
     "Первый тип инверсии строится с [bold]had[/bold] перед подлежащим и причастием прошедшего времени. Он заменяет [bold]if + Past Perfect[/bold]. [bold]If the band had stayed at the club[/bold] → [bold]Had the band stayed at the club[/bold]. Речь идёт о прошлом, которое уже нельзя изменить.",
     "Такая конструкция говорит о том, чего не было: [bold]Had The Doors remained a small club band, their career might have followed another path.[/bold] Условие стоит в первой части предложения, а вторая показывает нереализованный результат.",
     "Второй тип использует [bold]were[/bold]. [bold]If The Doors were to return to their early club routine, the situation would be very different[/bold] можно преобразовать в [bold]Were The Doors to return to their early club routine, the situation would be very different.[/bold]",
-    "Конструкция [bold]were to + verb[/bold] особенно удобна для гипотезы. Она не утверждает, что событие обязательно произойдёт. Она просто помещает его в условное пространство.",
+    "Конструкция [bold]were to + verb[/bold] особенно удобна для гипотезы. Она не утверждает, что событие обязательно произойдёт. Она просто помещает его в условное пространство. Отрицание при этом стоит после подлежащего: [bold]Were the band not so used to touring, the change would feel harder[/bold], а не перед ним.",
     "Третий тип использует [bold]should[/bold]. [bold]If the group should decide to change direction, the audience would notice[/bold] → [bold]Should the group decide to change direction, the audience would notice.[/bold] В такой конструкции [bold]should[/bold] означает примерно «если вдруг» или «если случится, что».",
     "Гипотетические конструкции уместны в разговоре о творческом направлении. Неопределённость можно передать так: [bold]I don't know what will happen. I guess we'll continue like this for a while.[/bold] И дальше — предположение о том, что из этого дела, возможно, придётся уйти.",
     "Сами по себе эти слова инверсии не содержат, но ту же неопределённость можно передать формально: [bold]Had they continued exactly as before, they might have lost the need to change.[/bold] В такой конструкции условие выражено через [bold]had[/bold] перед подлежащим, а не через [bold]if[/bold].",
@@ -23,7 +23,7 @@
     "Для [bold]were[/bold] сравнение выглядит так: [bold]If the band were to return to its early method, the result would be unpredictable.[/bold] → [bold]Were the band to return to its early method, the result would be unpredictable.[/bold]",
     "Для [bold]should[/bold]: [bold]If the band should lose its singer, the tour would be cancelled.[/bold] → [bold]Should the band lose its singer, the tour would be cancelled.[/bold] Во всех трёх случаях основная часть предложения не меняется.",
     "Отличие от разговорного варианта — в регистре. [bold]If they had stayed together[/bold] звучит нейтрально, а [bold]Had they stayed together[/bold] — сжато, формально и книжно.",
-    "К этому моменту успех уже изменил способ работы группы, но будущее ещё не определилось. Инверсия нужна там, где речь идёт о возможном: о том, что могло произойти, что могло бы произойти и что произойдёт при определённом условии.",
+    "К этому моменту успех уже изменил способ работы группы, но будущее ещё не определилось. Инверсия нужна там, где речь идёт о возможном: о том, что могло произойти, что могло бы произойти и что произойдёт при определённом условии. Инверсию легко принять за вопрос: [bold]Had the band played its last club show?[/bold] спрашивает о прошлом, а [bold]Had the band stopped touring then, the next record would have sounded rougher[/bold] — условная часть, потому что рядом стоит следствие.",
     "Но эта конструкция не заменяет механически каждый [bold]if[/bold]. Инверсия возможна прежде всего с [bold]had[/bold], [bold]were[/bold] и [bold]should[/bold]. Нельзя просто поставить любой глагол перед подлежащим.",
     "Поэтому три модели стоит запомнить как три готовых шаблона: инверсия с [bold]had[/bold], с [bold]were[/bold] и с [bold]should[/bold]. Если один из этих глаголов стоит в начале условной части, [bold]if[/bold] уже не нужен.",
     "Три типа различаются не только формой, но и временем условия: [bold]had[/bold] отсылает к уже закрытому прошлому, [bold]were to[/bold] — к будущему, которое ещё открыто, [bold]should[/bold] — к возможному, но маловероятному повороту событий. [bold]Should they return...[/bold] оставляет возвращение открытым, а [bold]Had they returned...[/bold] говорит о том, чего в прошлом не случилось."
@@ -369,14 +369,14 @@
       "why": "Had + Past Participle выражает нереальное прошлое."
     },
     {
-      "q": "What happens to if in conditional inversion?",
+      "q": "Which element is dropped when a condition begins with Had, Were or Should?",
       "options": [
-        "It remains.",
-        "It disappears.",
-        "It moves after the subject."
+        "The subject of the condition.",
+        "The conjunction if.",
+        "The main clause of the sentence."
       ],
       "answer": 1,
-      "why": "Инверсия строится без if."
+      "why": "Инверсия заменяет союз if, поэтому в предложении он не остаётся."
     },
     {
       "q": "Which sentence is the most formal?",

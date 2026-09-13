@@ -9,12 +9,12 @@
   "idea": [
     "Панк часто строится на короткой форме. Быстрая песня, несколько минут, несколько аккордов — и дальше следующая. В этой культуре длина сама по себе может быть частью ожидания. Поэтому The Decline у NOFX выглядит почти как нарушение правил ещё до того, как начинается разговор о музыке: песня длится около восемнадцати минут. [bold]It is much longer than a typical punk song[/bold] — сравнительная форма ставит рядом два объекта и показывает разницу между ними.",
     "Но сравнительная форма нужна не только для длины — она описывает сам творческий выбор. The Decline требует гораздо большего пространства для развития, чем обычная короткая песня: [bold]The song is more demanding than a short punk track[/bold]. Её структура сложнее обычной трёхаккордной формы: [bold]the structure is more complex than a simple three-chord song[/bold]. И музыкантам приходится играть не пару минут, а почти восемнадцать: [bold]the task is harder than playing a few short songs[/bold]. Comparative показывает степень различия между двумя объектами.",
-    "Для коротких прилагательных используется -er: [bold]shorter[/bold], [bold]faster[/bold], [bold]longer[/bold]. Для длинных — more: [bold]more ambitious[/bold], [bold]more complex[/bold], [bold]more demanding[/bold]. Меньшую степень показывает less: [bold]less conventional[/bold] — менее традиционный, [bold]less predictable[/bold] — менее предсказуемый.",
+    "Форма сравнительной степени зависит от длины самого прилагательного. Односложное слово забирает окончание -er: [bold]short[/bold] превращается в [bold]shorter[/bold], а [bold]long[/bold] — в [bold]longer[/bold]. Длинное прилагательное окончание не берёт, и его место занимает more: [bold]more ambitious[/bold], [bold]more complex[/bold], [bold]more demanding[/bold]. The Decline и обычная короткая песня расходятся по всем этим признакам. Меньшую степень признака передаёт less: [bold]less conventional[/bold] и [bold]less predictable[/bold].",
     "Длина песни становится частью её смысла. Обычный короткий формат и эта композиция находятся на разных концах шкалы: [bold]The Decline is longer than most punk songs[/bold]. В предложении два элемента сравнения: The Decline и большинство панк-песен. Than показывает, с чем сравнивается объект.",
     "Затем comparative описывает уже не длину, а степень сложности. Сравнивать нужно однотипные вещи: структуру одной песни — со структурой другой, а не песню с её собственной структурой. [bold]The structure is more complicated than the structure of a typical short punk song[/bold]. Это не утверждение о том, что одна форма «хорошая», а другая «плохая»: comparative измеряет разницу, а не выносит оценку.",
     "Superlative нужен, когда два объекта уже не сравниваются, а в поле зрения попадает целая группа. [bold]The longest song[/bold] — самая длинная песня внутри определённого набора. [bold]The most unusual track[/bold] — самый необычный трек этой группы. [bold]The least conventional choice[/bold] — наименее традиционный выбор. Артикль the показывает, что один элемент выделен среди нескольких.",
     "Такое различие работает и в более широком разговоре о панк-формате. Для двух песен нужен comparative: [bold]This track lasts longer than the usual one[/bold]. Для десяти песен, из которых выбирается одна, — superlative: [bold]This track is the longest one here[/bold]. Формула короткая: comparative сопоставляет, superlative выделяет.",
-    "Несколько форм строятся не по общему правилу. good становится [bold]better[/bold], а затем [bold]the best[/bold]. bad становится [bold]worse[/bold] и [bold]the worst[/bold]. Поэтому нельзя говорить gooder или the goodest. Эти формы нужно запомнить отдельно.",
+    "Несколько форм строятся не по общему правилу. good становится [bold]better[/bold], а затем [bold]the best[/bold]. bad становится [bold]worse[/bold] и [bold]the worst[/bold]. У far тоже две сравнительные формы: farther говорит о расстоянии, further — о дополнительном или последующем. Поэтому нельзя говорить gooder или the goodest, и такие формы приходится запоминать отдельно.",
     "В итоге сравнительные формы описывают масштаб, а не набор окончаний: [bold]The song is longer, more complex, more ambitious or less conventional than another song[/bold]. А для сравнения с целой группой нужен superlative: [bold]the longest[/bold], [bold]the most unusual[/bold], [bold]the least conventional[/bold]. Грамматика передаёт реальное нарушение привычного формата: одна песня сознательно занимает гораздо больше места, чем принято в её жанре."
   ],
   "why": [
@@ -369,11 +369,11 @@
       "why": "Для короткого прилагательного long используется форма longest."
     },
     {
-      "q": "What is the correct comparative of 'good'?",
+      "q": "Which comparative of 'good' is correct in a sentence about two tracks?",
       "options": [
-        "gooder",
-        "more good",
-        "better"
+        "This track is gooder than the other one.",
+        "This track is more good than the other one.",
+        "This track is better than the other one."
       ],
       "answer": 2,
       "why": "good имеет неправильную сравнительную форму better."

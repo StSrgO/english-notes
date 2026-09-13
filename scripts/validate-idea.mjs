@@ -10,6 +10,13 @@
 //   термины — английские служебные термины в русской фразе (modal verb, evidence, V1,
 //         нотация «subject + verb»); исключение — термин-предмет урока (cleft sentence).
 //   D10 — типографика: пробел перед знаком, висячий пробел, дефис вместо тире.
+//   D11 — самостоятельность версий (тема T19): classic и rock — два независимых урока.
+//         ошибки: абзац idea дословно совпадает с абзацем другой версии; текст урока
+//         ссылается на другую версию;
+//         предупреждения: абзац idea — пересказ абзаца другой версии (близость ≥ 0.6);
+//         одна и та же цитата (context.lines) в обеих версиях.
+//         Методический аппарат (formula, structure, rules, tips, uses, markers, why,
+//         summary) по замыслу одинаков в обеих версиях — D11 его не проверяет.
 // Предупреждения (решение 1 плана — не блокируют приёмку):
 //   D5 — одна английская фраза живёт в одном блоке: считаются повторы внутри idea,
 //        в других блоках урока и между classic/rock одной темы;
@@ -129,6 +136,44 @@ const boldPhrases = (s) =>
     .map((m) => ({ raw: m[1].trim(), key: norm(m[1]) }))
     .filter((p) => p.key.split(" ").length >= 3 && p.key.split(" ").some((w) => w.length > 1));
 
+// D11: текст урока не должен ссылаться на другую версию. Общие слова («в другой версии»
+// о трактовках события) не ловим — только прямые упоминания версий урока.
+const VERSION_REF = [
+  [/(?:рок|rock)-?верси/i, "ссылка на рок-версию урока внутри урока"],
+  [/classic-?верси|классическ[а-яё]+\s+верси/i, "ссылка на классическую версию урока внутри урока"],
+  [/(?:обеих|этой)\s+верси[а-яё]+/i, "ссылка на версии урока"],
+];
+
+// Близость абзацев другой версии считаем по значимым словам: без стоп-слов, длиной > 3.
+// Без стоп-списка любые два абзаца об одном правиле дают высокую близость на «и/в/не/что».
+const STOP_RU = new Set(
+  "и в во не что он на я с со как а то все она так его но да ты к у же вы за бы по только ее мне было вот от меня еще нет о из ему теперь когда даже ну вдруг ли если или ни быть был него до вас нибудь опять уж вам ведь там потом себя ничего ей может они тут где есть надо ней для мы тебя их чем была сам чтоб без будто чего раз тоже себе под будет ж тогда кто этот того потому этого какой совсем ним здесь этом один почти мой тем чтобы нее сейчас были куда зачем всех никогда можно при наконец два об другой хоть после над больше тот через эти нас про всего них какая много разве три эту моя впрочем хорошо свою этой перед иногда лучше чуть том нельзя такой им более всегда конечно всю между это который которая которые своих".split(" ")
+);
+const NEAR_MIN = 80; // короче — правило/формула, совпадение законно
+const NEAR_DIST = 0.6;
+
+const normRu = (s) =>
+  s
+    .replace(/\[bold\]|\[\/bold\]/g, " ")
+    .toLowerCase()
+    .replace(/[^a-zа-яё0-9' ]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+const sigWords = (s) => new Set(normRu(s).split(" ").filter((w) => w.length > 3 && !STOP_RU.has(w)));
+const jaccard = (a, b) => {
+  const inter = [...a].filter((w) => b.has(w)).length;
+  return inter / (a.size + b.size - inter || 1);
+};
+
+// Все текстовые листья урока с путями: нужен текст всего урока, а не только idea.
+const rawLeaves = (v, p, out = []) => {
+  if (typeof v === "string") out.push([p, v]);
+  else if (Array.isArray(v)) v.forEach((x, i) => rawLeaves(x, `${p}[${i}]`, out));
+  else if (v && typeof v === "object")
+    for (const [k, x] of Object.entries(v)) rawLeaves(x, p ? `${p}.${k}` : k, out);
+  return out;
+};
+
 // Тексты блоков урока (кроме idea) по верхнеуровневым ключам: нужно, чтобы D5
 // называл блок, в котором живёт повторённая фраза, а не просто «другой блок».
 const blockTexts = (lesson) => {
@@ -149,6 +194,7 @@ const blockTexts = (lesson) => {
 
 const files = fs.readdirSync(dir).filter((f) => f.endsWith(".json")).sort();
 const phrasesByTopic = new Map(); // тема без .rocknroll -> набор фраз idea
+const versionsByTopic = new Map(); // тема без .rocknroll -> [файл, абзацы idea, цитаты context]
 let paragraphs = 0;
 let chars = 0;
 let dupInIdea = 0;
@@ -228,6 +274,16 @@ for (const file of files) {
   const topic = file.replace(/\.rocknroll\.json$/, "").replace(/\.json$/, "");
   if (!phrasesByTopic.has(topic)) phrasesByTopic.set(topic, []);
   phrasesByTopic.get(topic).push([file, rawOf]);
+
+  // D11: текст урока не должен ссылаться на другую версию (проверяем весь урок).
+  for (const [p, s] of rawLeaves(lesson, ""))
+    for (const [re, note] of VERSION_REF) {
+      const m = s.match(re);
+      if (m) err("D11", file, `${p}: «${m[0].trim()}» — ${note}`);
+    }
+
+  if (!versionsByTopic.has(topic)) versionsByTopic.set(topic, []);
+  versionsByTopic.get(topic).push([file, idea, (lesson.context?.lines || []).map((l) => l.en)]);
 }
 
 // D5: classic и rock одной темы не должны повторять одни и те же английские фразы
@@ -244,6 +300,38 @@ for (const [topic, versions] of phrasesByTopic)
       }
   }
 
+// D11: classic и rock одной темы — два самостоятельных урока. Абзац idea одной версии
+// не повторяет и не пересказывает абзац другой; цитаты у версий свои.
+let dupParagraphs = 0;
+let nearParagraphs = 0;
+let dupQuotes = 0;
+for (const [topic, versions] of versionsByTopic) {
+  if (versions.length !== 2) continue;
+  const [a, b] = versions; // a — классика, b — рок (сортировка файлов)
+  const sigB = b[1].map(sigWords);
+  a[1].forEach((pa, i) => {
+    if (pa.length < NEAR_MIN) return;
+    b[1].forEach((pb, j) => {
+      if (pb.length < NEAR_MIN) return;
+      if (normRu(pb) === normRu(pa)) {
+        dupParagraphs++;
+        err("D11", b[0], `idea[${j}] дословно совпадает с ${a[0]} idea[${i}] — версии самостоятельны, абзац нужно переписать`);
+        return;
+      }
+      const s = jaccard(sigWords(pa), sigB[j]);
+      if (s >= NEAR_DIST) {
+        nearParagraphs++;
+        warn(b[0], `D11: idea[${j}] — пересказ ${a[0]} idea[${i}] (близость ${s.toFixed(2)}), тема ${topic}`);
+      }
+    });
+  });
+  for (const q of a[2])
+    if (norm(q).length > 3 && b[2].some((r) => norm(r) === norm(q))) {
+      dupQuotes++;
+      warn(b[0], `D11: цитата «${q}» есть и в ${a[0]} — у версий свой материал`);
+    }
+}
+
 const byCode = new Map();
 for (const e of errors) {
   if (!byCode.has(e.code)) byCode.set(e.code, []);
@@ -253,6 +341,9 @@ for (const e of errors) {
 console.log(
   `idea: ${files.length} файлов, ${paragraphs} абзацев, ${chars} знаков. ` +
   `Дубли фраз (D5): внутри idea ${dupInIdea}, в других блоках ${dupOutside}, между версиями ${dupVersions}.`
+);
+console.log(
+  `Самостоятельность версий (D11): совпавших абзацев ${dupParagraphs}, пересказов ${nearParagraphs}, общих цитат ${dupQuotes}.`
 );
 if (list) {
   console.log("\n=== список ошибок ===");
@@ -274,9 +365,11 @@ if (!list && warns.length) {
   for (const w of warns) {
     const kind = w.includes("D5-")
       ? "D5 (повторы фраз)"
-      : w.includes("D6:")
-        ? "D6 (объём idea)"
-        : "маркеры ИИ-стиля";
+      : w.includes("D11:")
+        ? "D11 (самостоятельность версий)"
+        : w.includes("D6:")
+          ? "D6 (объём idea)"
+          : "маркеры ИИ-стиля";
     byKind.set(kind, (byKind.get(kind) || 0) + 1);
   }
   console.log("\n=== предупреждения (полный список — с --list) ===");

@@ -23,7 +23,7 @@
     "Множественное число существительных образуется с помощью [bold]-s[/bold]: [bold]friend[/bold] — друг, [bold]friends[/bold] — друзья; [bold]room[/bold] — комната, [bold]rooms[/bold] — комнаты. Если слово заканчивается на [bold]-y[/bold], вместо неё появляется [bold]-ies[/bold]: [bold]city[/bold] — город, [bold]cities[/bold] — города. Рядом с такими словами стоит [bold]are[/bold] или [bold]have[/bold], а не [bold]is[/bold] или [bold]has[/bold].",
     "Не путать [bold]house[/bold] и [bold]home[/bold]. [bold]House[/bold] — здание. [bold]Home[/bold] — место, где человек живёт. [bold]My house is in the city[/bold] говорят, когда показывают на здание, а [bold]We are at home[/bold] — когда говорят о том, где человек находится. В этом сочетании используется предлог [bold]at[/bold], а не [bold]in[/bold].",
     "Слово [bold]room[/bold] обозначает комнату или помещение. В доме может быть несколько комнат: [bold]The house has three rooms.[/bold] В клубе тоже может быть отдельная комната: [bold]The club has two rooms.[/bold] Так одно и то же слово работает в разных ситуациях.",
-    "Сравни: [bold]This is my street.[/bold] [bold]This is my band.[/bold] [bold]This is my city.[/bold] [bold]This is my club.[/bold] Все четыре предложения используют простую конструкцию, но говорят о разных сторонах жизни музыканта: улице, группе, городе и месте общения.",
+    "Притяжательное слово [bold]my[/bold] и модели с ним описывают и семью. [bold]This is my mother.[/bold] [bold]This is my father.[/bold] [bold]My brother and my sister live nearby.[/bold] [bold]My son plays in a band.[/bold] [bold]My daughter comes to the club with me.[/bold] Слово [bold]this[/bold] указывает на человека или предмет рядом с говорящим, а [bold]that[/bold] — на того, кто дальше; во множественном числе им соответствуют [bold]these[/bold] и [bold]those[/bold]. Место предмета описывают предлоги [bold]on[/bold] и [bold]under[/bold]: [bold]The guitar is on the bed.[/bold] [bold]The shoes are under the chair.[/bold]",
     "Музыкальная группа формируется не в пустоте. Люди знакомятся в определённых местах, находят друзей, начинают играть вместе и создают собственную сцену. В английском для рассказа об этом достаточно простых слов: [bold]people, friends, city, club, band, home[/bold].",
     "Четыре слова описывают разные связи вокруг человека: [bold]family[/bold] — люди рядом дома, [bold]friends[/bold] — люди, которых человек выбрал сам, [bold]home[/bold] — место, где он живёт, [bold]community[/bold] — люди и места, которые создают ощущение принадлежности. Все эти связи выражаются короткими предложениями с [bold]be[/bold] и [bold]have[/bold].",
     "Собственный дом — не единственное место в жизни молодого музыканта: рядом город, улица, клуб и круг друзей. Даже простых слов хватает, чтобы описать такую сцену целиком: [bold]They lived in Düsseldorf. They had friends. They played in clubs. They built a local scene.[/bold]"
@@ -362,7 +362,7 @@
   ],
   "quiz": [
     {
-      "q": "Choose the correct sentence:",
+      "q": "Which sentence is written correctly?",
       "options": [
         "The club are in Düsseldorf.",
         "The club is in Düsseldorf.",
@@ -372,17 +372,17 @@
       "why": "Club — единственное число, поэтому используется is."
     },
     {
-      "q": "Which word means a place where you live?",
+      "q": "Which word completes the phrase 'We are at ___'?",
       "options": [
         "home",
         "club",
         "street"
       ],
       "answer": 0,
-      "why": "Home означает место, где человек живёт."
+      "why": "Home входит в готовое сочетание at home."
     },
     {
-      "q": "Choose the correct sentence:",
+      "q": "Which sentence is written correctly?",
       "options": [
         "They is friends.",
         "They are friends.",
@@ -402,7 +402,7 @@
       "why": "Для нахождения в городе используется in."
     },
     {
-      "q": "Choose the correct sentence:",
+      "q": "Which sentence is written correctly?",
       "options": [
         "The band have friends.",
         "The band has friends.",

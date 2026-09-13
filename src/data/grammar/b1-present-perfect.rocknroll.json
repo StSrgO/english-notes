@@ -23,7 +23,7 @@
     "Но Present Perfect не заменяет Past Simple во всей истории [bold]American Recordings[/bold]. Когда рассказ ведётся последовательностью событий, основной остаётся Past Simple: [bold]Rubin met Cash, they recorded songs, and the project grew[/bold]. Present Perfect появляется там, где рассказчик выходит из последовательности и оценивает накопленный результат.",
     "Это полезная граница. [bold]Rubin met Cash in 1993[/bold] — событие с конкретным временем. [bold]Rubin has worked with Cash[/bold] — опыт и связь, рассматриваемые из настоящего. Один и тот же человек может появиться в двух формах, потому что говорящий меняет перспективу.",
     "Проверка проста: закончился ли отрезок времени, в который попадает действие? [bold]Today[/bold], [bold]this week[/bold], [bold]so far[/bold] оставляют его открытым, и тогда уместен Present Perfect: [bold]He has completed three sessions so far[/bold]. А [bold]yesterday[/bold], [bold]last week[/bold] или [bold]in 1994[/bold] отсекают действие от настоящего, и тогда нужен Past Simple.",
-    "Формула проста: have или has плюс третья форма глагола. [bold]I have recorded[/bold] и [bold]you have recorded[/bold] берут have, а для he, she, it нужен has. Вопрос строится из have или has: [bold]Have you recorded...? Has he recorded...?[/bold] Отрицание: [bold]haven't recorded / hasn't recorded[/bold].",
+    "Форма собирается из двух частей: вспомогательного have или has и третьей формы смыслового глагола. Для he, she, it берётся has, поэтому о Кэше говорят [bold]He has recorded the final take[/bold]; для I, you, we, they нужен have: [bold]They have recorded the final take[/bold]. Вопрос выносит вспомогательный глагол вперёд: [bold]Has he finished the session?[/bold] Отрицание ставит not сразу после него: [bold]The band hasn't booked the studio yet[/bold].",
     "Главная трудность для русскоязычного ученика в том, что русский язык не заставляет выбирать между Present Perfect и Past Simple так же явно. Поэтому нельзя ориентироваться только на перевод. Нужно определить, рассказываешь ли ты о конкретном прошлом или смотришь из настоящего на опыт и результат.",
     "В масштабе всей карьеры Кэш записал множество конкретных песен в конкретные годы. Но вся эта работа вместе образует опыт, который определяет поздний этап его творчества. Когда в центре рассказа оказывается этот накопленный опыт, подходит Present Perfect.",
     "Present Perfect не сводится к прошедшему времени с вспомогательным [bold]have[/bold]. Это способ показать, что прошлое ещё имеет отношение к тому, о чём идёт речь сейчас. Для истории [bold]American Recordings[/bold] старый опыт становится частью нового этапа."
@@ -377,11 +377,11 @@
       "why": "Present Perfect показывает опыт без конкретной даты."
     },
     {
-      "q": "Choose the correct form.",
+      "q": "Complete: Cash ___ several records with different producers.",
       "options": [
-        "He have recorded.",
-        "He has recorded.",
-        "He has record."
+        "Cash have recorded several records.",
+        "Cash has recorded several records.",
+        "Cash has record several records."
       ],
       "answer": 1,
       "why": "С he используется has + V3."
@@ -397,11 +397,11 @@
       "why": "Present Perfect подчёркивает связь результата с настоящим."
     },
     {
-      "q": "Choose the correct question about experience.",
+      "q": "How do you ask about experience without naming a date?",
       "options": [
-        "Did you ever record a song?",
-        "Have you ever recorded a song?",
-        "Have you ever record a song?"
+        "Did you record with a famous producer in 1993?",
+        "Have you ever recorded with a famous producer?",
+        "Have you ever record with a famous producer?"
       ],
       "answer": 1,
       "why": "Have + subject + V3 используется для вопроса об опыте."

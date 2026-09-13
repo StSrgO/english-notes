@@ -13,7 +13,7 @@
     "At воспринимает место как конкретную точку. [bold]At the festival[/bold] может обозначать присутствие на конкретном мероприятии. [bold]At the entrance[/bold] — конкретное место на площадке. Во времени [bold]at noon[/bold] или [bold]at midnight[/bold] обозначают точный момент.",
     "В сцене Cincinnati Pop Festival можно последовательно менять предлог вместе с масштабом. [bold]In the crowd[/bold] показывает человека внутри толпы. [bold]On the stage[/bold] показывает его положение на поверхности сцены. [bold]At the festival[/bold] говорит уже не о физической поверхности, а о конкретном мероприятии как о точке события.",
     "Во времени работает тот же масштаб, но ориентиры другие. [bold]In winter[/bold] — сезон, [bold]in August[/bold] — месяц. [bold]On Friday[/bold] — день недели. [bold]At three o'clock[/bold] — час действия. Предлог выбирается по длине отрезка: in охватывает сезон или месяц, on — один день, at — час или минуту.",
-    "Есть устойчивые сочетания, которые нельзя каждый раз строить только переводом с русского. [bold]On stage[/bold] — на сцене, [bold]in the crowd[/bold] — в толпе, [bold]at the festival[/bold] — на фестивале. Во времени [bold]in the afternoon[/bold], [bold]on that night[/bold] и [bold]at midnight[/bold] требуют разных предлогов, хотя по-русски все они могут звучать очень похоже.",
+    "Есть устойчивые сочетания, которые нельзя каждый раз строить только переводом с русского. [bold]On stage[/bold] — на сцене, [bold]in the crowd[/bold] — в толпе, [bold]at the festival[/bold] — на фестивале. Во времени [bold]in the afternoon[/bold], [bold]on that night[/bold] и [bold]at midnight[/bold] требуют разных предлогов, хотя по-русски все они могут звучать очень похоже. Две бытовые фразы придётся просто выучить целиком: «дома» — это [bold]at home[/bold], «пешком» — [bold]on foot[/bold].",
     "Выбор предлога зависит от точки зрения. Один и тот же человек может сначала быть [bold]on the stage[/bold], затем оказаться [bold]in the crowd[/bold], а всё событие происходит [bold]at the festival[/bold]. Три предлога описывают не три разных правила, а три разных масштаба одного пространства.",
     "Три предлога отвечают на разные вопросы о пространстве и времени. [bold]In[/bold] — где-то внутри объёма или внутри периода. [bold]On[/bold] — на поверхности или в пределах дня. [bold]At[/bold] — в точке, у конкретного места или в точный час. Место, поверхность и точка — три разных способа указать положение одного и того же объекта.",
     "Когда Игги покидает сцену, у пространства появляются свои ориентиры. Охранники стоят [bold]behind the stage[/bold], фанаты жмутся [bold]next to the speakers[/bold], а между охранниками и толпой — [bold]between the guards and the crowd[/bold] — возникает полоса напряжения. Пока музыкант остаётся на месте, положение описывают предлоги [bold]under[/bold], [bold]behind[/bold], [bold]next to[/bold], [bold]between[/bold]. Но Игги не стоит на месте: он прыгает [bold]into the crowd[/bold], выбирается [bold]out of the crowd[/bold], бежит [bold]across the field[/bold] и пробирается [bold]through the audience[/bold], чтобы снова подняться [bold]up to the stage[/bold]. Положение отвечает на вопрос «где?», направление — на вопрос «куда?», и вместе они превращают сцену и толпу в один маршрут.",
@@ -647,24 +647,24 @@
       "why": "Год — широкий период."
     },
     {
-      "q": "Which phrase is correct?",
+      "q": "Which sentence is correct for the exact moment when the show began?",
       "options": [
-        "on noon",
-        "in noon",
-        "at noon"
+        "The show began on midnight sharp.",
+        "The show began in midnight sharp.",
+        "The show began at midnight sharp."
       ],
       "answer": 2,
-      "why": "Noon обозначает точный момент."
+      "why": "Midnight обозначает точный момент, поэтому нужен at."
     },
     {
-      "q": "Which phrase is correct?",
+      "q": "Which sentence is correct about the single day of the concert?",
       "options": [
-        "at Sunday",
-        "on Sunday",
-        "in Sunday"
+        "The concert happened at Sunday.",
+        "The concert happened in Sunday.",
+        "The concert happened on Sunday."
       ],
-      "answer": 1,
-      "why": "Конкретный день используется с on."
+      "answer": 2,
+      "why": "Один конкретный день недели связывается с on."
     },
     {
       "q": "Which sentence is correct?",
@@ -687,14 +687,14 @@
       "why": "Толпа — заполненное пространство, поэтому движение внутри неё — through."
     },
     {
-      "q": "Which sentence is correct?",
+      "q": "Which sentence shows the moment when the music stopped?",
       "options": [
-        "The band played during two hours.",
-        "The band played for two hours.",
-        "The band played until two hours."
+        "The music continued during midnight.",
+        "The music continued until midnight.",
+        "The music continued for midnight."
       ],
       "answer": 1,
-      "why": "Длительность действия передаёт for + период; during указывает на событие, внутри которого оно происходит."
+      "why": "Until задаёт предел и ведёт действие до самой точки. During указывает, внутри какого события происходит действие, а for вводит длительность."
     }
   ],
   "related": [

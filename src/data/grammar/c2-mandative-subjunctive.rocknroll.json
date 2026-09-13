@@ -12,7 +12,7 @@
     "В такой ситуации часто звучат конструкции, выражающие необходимость или требование. Одна из них — Mandative Subjunctive: в придаточном с [bold]that[/bold] глагол получает базовую форму, а не обычную форму настоящего времени.",
     "В этой фразе Снайдера видно основное свойство конструкции: он не сообщает, что родители осведомлены, — он формулирует, что они должны быть осведомлены. Поэтому [bold]be aware[/bold] является частью оценки необходимости, а не обычного утверждения.",
     "Mandative Subjunctive появляется после глаголов, прилагательных и существительных, которые задают требование или необходимость. Например: [bold]The committee required that the label disclose its standards.[/bold] После [bold]that[/bold] стоит базовая форма [bold]disclose[/bold], хотя подлежащее [bold]the label[/bold] — третье лицо единственного числа.",
-    "Поэтому нельзя сказать [bold]The committee required that the label discloses its standards[/bold] в этой конструкции. Окончание [bold]-s[/bold] исчезает, потому что это не обычный Present Simple.",
+    "Поэтому в этой конструкции не появляется окончание [bold]-s[/bold]: после [bold]that[/bold] стоит базовая форма, а не обычное третье лицо единственного числа. В британском английском индикатив ([bold]discloses[/bold], [bold]has[/bold]) нормален и встречается в формальной речи, поэтому вариант с окончанием -s — не ошибка за пределами американской нормы.",
     "Тот же принцип работает с [bold]be[/bold]. [bold]It is vital that the panel hear both sides.[/bold] [bold]It is necessary that the industry be responsible.[/bold] [bold]It is essential that every claim be documented.[/bold] Во всех случаях используется одна форма [bold]be[/bold].",
     "Снайдер находится в ситуации, где его слова фиксируются как свидетельство, а аудитория представляет государственный институт. Поэтому он одновременно защищает свою позицию и выбирает регистр, соответствующий обстановке.",
     "Mandative Subjunctive нужно отличать от модального значения самого слова. В предложении [bold]It is important that the report be accurate[/bold] слово [bold]important[/bold] выражает необходимость, а форма [bold]be[/bold] показывает грамматическую модель, которая следует за этой необходимостью.",
@@ -23,7 +23,7 @@
     "Формальный регистр не требует обязательно сложных слов. Иногда грамматическая конструкция сама меняет социальный статус высказывания. [bold]I want the panel to know[/bold] звучит как личное желание. [bold]It is important that the panel be informed[/bold] звучит как формулировка принципа или ответственности.",
     "Сравни: [bold]I want the labels to respond[/bold] и [bold]It is essential that the labels respond.[/bold] В первом случае говорящий говорит о собственном желании. Во втором он формулирует необходимость как принцип.",
     "В формальном аргументе это различие имеет значение. Снайдеру нужно не просто сказать, чего он хочет. Он должен показать, почему его позиция имеет рациональное основание. Поэтому институциональный синтаксис становится частью стратегии убеждения.",
-    "Mandative Subjunctive также позволяет отделить требование от результата. [bold]The board demanded that the company review its policy[/bold] сообщает о требовании. Из такого предложения не следует, выполнено ли требование. Если сказать [bold]The company reviewed its policy[/bold], это уже сообщение о результате.",
+    "От требования нельзя автоматически перейти к его исполнению. [bold]The board demanded that the company review its policy[/bold] фиксирует только позицию органа: придаточное называет то, что должно быть сделано. Ничего о том, сделала ли компания это, предложение не сообщает — сведения об исполнении появляются лишь в отдельном утверждении.",
     "Отрицательная форма строится так же: [bold]They insisted that the network not release the recording.[/bold] Форма [bold]not release[/bold] обозначает требуемое отсутствие действия.",
     "В американском английском эта конструкция особенно заметна в официальной речи. В британском английском вместо неё также часто используется [bold]should + verb[/bold]: [bold]They insisted that the panel should reconsider the decision.[/bold] Американская модель чаще даёт более короткое [bold]They insisted that the panel reconsider the decision.[/bold]",
     "Поэтому Mandative Subjunctive наглядно связывает грамматику с регистром. Одна и та же мысль может быть выражена разговорно, через инфинитив, или формально, через that-clause с базовой формой.",
@@ -239,10 +239,10 @@
           ]
         },
         {
-          "en": "They suggested that the policy change.",
-          "ru": "Они предложили изменить политику.",
+          "en": "They suggested that the committee reconsider the proposal.",
+          "ru": "Они предложили комитету пересмотреть предложение.",
           "highlight": [
-            "suggested that the policy change"
+            "suggested that the committee reconsider"
           ]
         },
         {
@@ -366,7 +366,7 @@
   ],
   "quiz": [
     {
-      "q": "Choose the correct sentence:",
+      "q": "Which sentence follows the mandative pattern?",
       "options": [
         "It is important that parents be aware.",
         "It is important that parents are aware.",
@@ -376,7 +376,7 @@
       "why": "После important that в Mandative Subjunctive используется be."
     },
     {
-      "q": "Choose the correct sentence:",
+      "q": "Which sentence follows the mandative pattern?",
       "options": [
         "The committee demanded that the industry act.",
         "The committee demanded that the industry acts.",
@@ -396,7 +396,7 @@
       "why": "После insist that используется форма be."
     },
     {
-      "q": "Choose the correct negative form:",
+      "q": "Which negative form is built correctly?",
       "options": [
         "They insisted that the committee not interfere.",
         "They insisted that the committee doesn't interfere.",

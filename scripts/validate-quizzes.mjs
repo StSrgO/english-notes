@@ -1,4 +1,5 @@
-// Аудит квизов: структурные проверки (все квизы уроков + словаря)
+// Аудит квизов: структурные проверки (все квизы уроков + словаря),
+// самостоятельность версий (рок-квиз не повторяет классический — правило T19)
 // и семантическая сверка словарного пула неправильных глаголов:
 // шаблон вопроса -> ожидаемая V1/V2/V3/перевод; флаги «форма того же
 // глагола в опциях переводного вопроса».
@@ -38,6 +39,56 @@ for (const file of lessonFiles) {
     seenQ.add(full);
   });
   qCount += qs.length;
+}
+
+// ---------- 1b. Самостоятельность версий: рок-квиз не повторяет классический ----------
+// Ошибка — вопрос вместе со всеми опциями повторяет классический. Предупреждения —
+// совпавшая содержательная формулировка вопроса (шаблонные инструкции вида «Choose the
+// correct sentence:» не считаются) или совпавший набор опций.
+const byTopic = new Map();
+for (const file of lessonFiles) {
+  const topic = file.replace(/\.rocknroll\.json$/, "").replace(/\.json$/, "");
+  const entry = byTopic.get(topic) || {};
+  entry[file.includes(".rocknroll.") ? "rock" : "classic"] = {
+    file,
+    quiz: read("src/data/grammar/" + file).quiz || [],
+  };
+  byTopic.set(topic, entry);
+}
+const qNorm = (s) =>
+  String(s)
+    .toLowerCase()
+    .replace(/[^a-zа-яё0-9' ]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+let dupQuiz = 0;
+let dupStem = 0;
+let dupOpts = 0;
+for (const [, v] of byTopic) {
+  if (!v.classic || !v.rock) continue;
+  const seen = v.classic.quiz.map((q) => ({
+    full: qNorm(q.q) + " ‖ " + (q.options || []).map(qNorm).join(" | "),
+    stem: qNorm(q.q),
+    opts: (q.options || []).map(qNorm).sort().join(" | "),
+  }));
+  v.rock.quiz.forEach((q, i) => {
+    const tag = `${v.rock.file} quiz[${i}]`;
+    const full = qNorm(q.q) + " ‖ " + (q.options || []).map(qNorm).join(" | ");
+    const stem = qNorm(q.q);
+    const opts = (q.options || []).map(qNorm).sort().join(" | ");
+    if (seen.some((c) => c.full === full)) {
+      dupQuiz++;
+      return err(`${tag}: вопрос и опции дословно повторяют ${v.classic.file} — у версий свой квиз («${q.q.slice(0, 60)}»)`);
+    }
+    if (stem.length >= 40 && seen.some((c) => c.stem === stem)) {
+      dupStem++;
+      warn(`${tag}: формулировка вопроса совпадает с ${v.classic.file} («${q.q.slice(0, 60)}»)`);
+    }
+    if (opts.length >= 15 && seen.some((c) => c.opts === opts)) {
+      dupOpts++;
+      warn(`${tag}: набор опций совпадает с ${v.classic.file} («${q.q.slice(0, 60)}»)`);
+    }
+  });
 }
 
 // ---------- 2. Словарный пул неправильных глаголов: семантика ----------
@@ -123,6 +174,9 @@ const dupQ = allVocabQs.filter((x, i, a) => a.findIndex((y) => y.q === x.q) !== 
 if (dupQ.length) err(`повторы вопросов пула: ${dupQ.slice(0, 5).map((x) => x.q).join(" | ")}`);
 
 console.log(`Уроки: ${lessonFiles.length} файлов, ${qCount} квиз-вопросов. Словарь: ${vocabN} вопросов пула.`);
+console.log(
+  `Самостоятельность версий: вопросов-дублей классики ${dupQuiz}, совпавших формулировок ${dupStem}, совпавших наборов опций ${dupOpts}.`
+);
 if (warns.length) {
   console.log(`\n⚠ Замечания (${warns.length}):`);
   warns.forEach((w) => console.log("  - " + w));

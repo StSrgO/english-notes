@@ -14,7 +14,7 @@
     "Про работу над [bold]Dr. Feelgood[/bold] рассказывают так: Никки Сикс к тому моменту уже пять лет занимался на басе. Пять лет — это период, в течение которого действие продолжалось до определённой точки в прошлом.",
     "Форма состоит из [bold]had[/bold], [bold]been[/bold] и смыслового глагола с окончанием -ing. [bold]Had[/bold] связывает действие с прошлым моментом, [bold]been[/bold] создаёт Continuous, а смысловой глагол передаёт само длительное действие.",
     "Смысл особенно хорошо виден при сравнении: [bold]He had studied the bass for years[/bold] сообщает о факте занятий. [bold]He had been studying the bass for years[/bold] подчёркивает, что занятия продолжались до того момента, о котором идёт речь.",
-    "Поэтому Past Perfect Continuous часто появляется рядом с конкретным прошлым событием. Например: [bold]Nikki had been taking bass lessons for five years when he started working on Dr. Feelgood.[/bold] Сначала продолжались занятия, затем наступил момент начала работы над альбомом.",
+    "Поэтому Past Perfect Continuous требует второй прошлой точки — события, до которого продолжался процесс: без неё форма не употребляется. Такую точку вводят [bold]when[/bold] и [bold]before[/bold], а также оборот со словом time: [bold]Nikki had been taking bass lessons for five years when he started working on Dr. Feelgood.[/bold] Сначала продолжались занятия, затем наступил момент начала работы над альбомом.",
     "Для длительности используется [bold]for[/bold]: [bold]for five years, for several months, for three weeks[/bold]. Для момента начала используется [bold]since[/bold]: [bold]since 1984, since January, since the previous tour[/bold].",
     "Сравни: [bold]They had been recording for three months[/bold] и [bold]They had been recording since February[/bold]. В первом случае названа продолжительность, во втором — начало периода.",
     "Past Perfect Continuous также помогает объяснить состояние человека в прошлом. Например: [bold]The musicians were exhausted because they had been working all day.[/bold] Усталость относится к прошлому, а длительная работа объясняет её причину.",
@@ -22,7 +22,7 @@
     "Разницу видно при сравнении форм. [bold]They had finished the album[/bold] говорит о том, что альбом был закончен. [bold]They had been writing songs all spring[/bold] показывает, какой длительный процесс предшествовал этому результату.",
     "Past Perfect Continuous не означает автоматически, что действие завершилось. Оно могло закончиться непосредственно перед другим моментом или продолжаться в этот момент. Значение имеет сам процесс, который уже длился до определённой точки прошлого.",
     "Например: [bold]They had been working in Vancouver for months when the final recording sessions began.[/bold] Работа продолжалась до момента начала последних сессий. А в [bold]They had been working in Vancouver for months before the album was released[/bold] внимание направлено на период до более позднего события.",
-    "Отрицательная форма строится через [bold]had not been + verb-ing[/bold]: [bold]They had not been working efficiently before Bob Rock arrived.[/bold] Вопрос выглядит так: [bold]Had they been working efficiently before the recording sessions?[/bold]",
+    "Отрицательная форма строится через [bold]had not been + verb-ing[/bold]: [bold]They had not been working efficiently before Bob Rock arrived.[/bold] Вопрос выглядит так: [bold]Had they been working efficiently before the recording sessions?[/bold] Короткий ответ содержит только вспомогательный глагол: [bold]Yes, they had.[/bold] или [bold]No, they hadn't.[/bold]",
     "Не стоит использовать Past Perfect Continuous только потому, что в предложении есть два события в прошлом. Если на первом плане результат, точнее Past Perfect: [bold]They had recorded ten songs before the producer arrived.[/bold] Если на первом плане длительный процесс: [bold]They had been recording for several weeks before the producer arrived.[/bold]",
     "В истории Mötley Crüe разница особенно заметна. Законченную запись можно рассматривать как результат: [bold]They had finished the record before the producer left.[/bold] Но подготовка, репетиции, студийная работа и ежедневный режим образуют процесс: [bold]They had been working on the record for months.[/bold]",
     "Past Perfect Continuous нужен тогда, когда говорящий смотрит назад из одной точки прошлого и показывает действие, которое уже продолжалось до неё. В центре оказывается не конечный результат, а время и усилия, которые к нему привели.",
@@ -346,21 +346,21 @@
   ],
   "quiz": [
     {
-      "q": "Choose the correct sentence:",
+      "q": "Which sentence is formed correctly?",
       "options": [
         "Nikki had been taking bass lessons for five years.",
         "Nikki had been take bass lessons for five years.",
         "Nikki had taking bass lessons for five years."
       ],
       "answer": 0,
-      "why": "Past Perfect Continuous строится как had + been + verb-ing."
+      "why": "Длительный процесс до определённой точки в прошлом требует had и been, после которых идёт глагол с окончанием -ing."
     },
     {
       "q": "Choose the correct form: The band was exhausted because it ___ all day.",
       "options": [
         "had worked",
         "had been working",
-        "has been working"
+        "had been work"
       ],
       "answer": 1,
       "why": "Длительный процесс объясняет состояние в прошлом."
@@ -380,7 +380,7 @@
       "options": [
         "since",
         "for",
-        "from"
+        "at"
       ],
       "answer": 1,
       "why": "For используется с продолжительностью."
@@ -390,13 +390,13 @@
       "options": [
         "for",
         "since",
-        "during"
+        "on"
       ],
       "answer": 1,
       "why": "Since показывает момент начала."
     },
     {
-      "q": "Which sentence focuses on the process?",
+      "q": "Which option stresses the activity itself rather than its result?",
       "options": [
         "They had completed the album.",
         "They had been working on the album for months.",

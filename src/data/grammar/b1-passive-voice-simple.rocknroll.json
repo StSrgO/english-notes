@@ -25,7 +25,7 @@
     "В Active такая последовательность выглядела бы иначе: [bold]The band recorded the songs. The band mixed the tracks. Dischord released the album.[/bold] Все три предложения начинаются с исполнителя. Последовательность с исполнителем в начале уместна, когда героями рассказа являются сами музыканты и лейбл.",
     "Passive не делает предложение автоматически более официальным и не означает, что Active хуже. Это выбор перспективы. Если речь идёт о решениях Иэна Маккея, Гая Пиччиотто или Брендана Канти, Active может быть намного живее. Если речь идёт о судьбе записи, Passive позволяет не отвлекаться от самого объекта.",
     "Выбор перспективы зависит от того, что читатель должен заметить в первую очередь. Рассказ о Fugazi строится и вокруг людей, и вокруг студии: оборудование, микрофоны и дорожки рассказывают о группе не меньше, чем биография участников.",
-    "Поэтому Passive Voice можно запомнить не как механическую перестановку слов, а как смену камеры. Active направляет камеру на человека, который действует. Passive направляет её на объект, над которым производится действие.",
+    "Поэтому Passive Voice можно запомнить не как механическую перестановку слов, а как смену камеры. Active направляет камеру на человека, который действует. Passive направляет её на объект, над которым производится действие. Такой объект есть не у каждого глагола: [bold]The tape arrived late.[/bold] — это действие без объекта, поэтому формы [bold]was arrived[/bold] в английском не существует. Глаголы вроде [bold]record[/bold], [bold]mix[/bold] и [bold]release[/bold] образуют Passive свободно, потому что у их действия есть объект.",
     "Когда камера направлена на запись, получается [bold]The track was mixed later.[/bold] Когда она возвращается к музыкантам, выходит [bold]Fugazi mixed the track later.[/bold] Факт почти тот же, но рассказ уже другой."
   ],
   "why": [
@@ -379,34 +379,34 @@
       "why": "В Passive microphones становятся subject и центром сообщения."
     },
     {
-      "q": "Choose the correct Present Simple Passive.",
+      "q": "Which sentence is in Present Simple Passive?",
       "options": [
-        "The records are produced independently.",
-        "The records produce independently.",
-        "The records were produce independently."
+        "The tracks are mixed separately.",
+        "The tracks mix separately.",
+        "The tracks were mix separately."
       ],
       "answer": 0,
       "why": "Present Simple Passive = are + V3."
     },
     {
-      "q": "Which sentence is Active?",
+      "q": "In which sentence does the band stay at the centre of the message?",
       "options": [
-        "The album was produced by Fugazi.",
-        "Different mics were used.",
-        "Fugazi produced the album."
-      ],
-      "answer": 2,
-      "why": "Fugazi является исполнителем действия."
-    },
-    {
-      "q": "Choose the correct sentence.",
-      "options": [
-        "The tracks was mixed.",
-        "The tracks were mixed.",
-        "The tracks were mix."
+        "Inner Ear Studios was used by the band.",
+        "The band used Inner Ear Studios.",
+        "The studio was booked for two days."
       ],
       "answer": 1,
-      "why": "Tracks — plural, поэтому were + V3."
+      "why": "В Active исполнитель действия стоит в позиции subject."
+    },
+    {
+      "q": "Complete with the correct plural form: The demos ___ in one session.",
+      "options": [
+        "was record",
+        "were recorded",
+        "were record"
+      ],
+      "answer": 1,
+      "why": "Demos — множественное число, поэтому were + V3."
     },
     {
       "q": "Why might 'The album was recorded' be better than 'Fugazi recorded the album'?",
