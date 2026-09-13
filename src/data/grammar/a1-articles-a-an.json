@@ -25,7 +25,7 @@
     "Поэтому различать [bold]a/an[/bold] и [bold]the[/bold] полезно не как два перевода, а как две разные степени определённости. [bold]a manuscript[/bold] — рукопись, о которой слушатель ещё ничего не знает. [bold]the manuscript[/bold] — та самая рукопись, о которой уже шла речь. А [bold]the Professor[/bold] — конкретное произведение, выделенное своим названием.",
     "Если следующее слово начинается с гласного звука, используется [bold]an[/bold]: [bold]an author[/bold], [bold]an editor[/bold], [bold]an interview[/bold]. Если следующий звук согласный, используется [bold]a[/bold]: [bold]a writer[/bold], [bold]a letter[/bold], [bold]a manuscript[/bold]. Поэтому правило нужно связывать с произношением, а не только с написанием.",
     "Артикль [bold]the[/bold] не зависит от того, начинается слово с гласного или согласного звука: [bold]the manuscript[/bold], [bold]the author[/bold], [bold]the letter[/bold]. Его функция другая — он показывает определённость.",
-    "В истории Бронте особенно легко увидеть переход [bold]a → the[/bold]: [bold]Charlotte completed a manuscript. The manuscript was signed Currer Bell.[/bold] В первом предложении объект вводится. Во втором тот же объект уже определён контекстом.",
+    "В истории Бронте особенно легко увидеть переход [bold]a → the[/bold]: [bold]Charlotte completed a manuscript. The manuscript was signed by Currer Bell.[/bold] В первом предложении объект вводится. Во втором тот же объект уже определён контекстом.",
     "Артикли помогают слушателю следить за предметами в рассказе. [bold]A manuscript[/bold] появляется в повествовании как новый объект; [bold]the manuscript[/bold] позволяет вернуться к нему; [bold]the original title[/bold] указывает на конкретную деталь этой рукописи. Артикль маленький, но он показывает, как говорящий организует информацию для слушателя."
   ],
   "why": [
@@ -86,7 +86,7 @@
           "a": "a"
         },
         {
-          "q": "___ manuscript was signed Currer Bell.",
+          "q": "___ manuscript was signed by Currer Bell.",
           "a": "The"
         },
         {
@@ -107,7 +107,7 @@
   "formula": "a/an + singular countable noun; the + specific or known noun",
   "structure": {
     "positive": "a/an + singular countable noun → a manuscript / an author",
-    "negative": "not a/an + singular countable noun → not a manuscript / not an author",
+    "negative": "It isn't a manuscript. / She isn't an author.",
     "question": "Is it a/an + singular countable noun? → Is it a manuscript? / Is she an author?"
   },
   "markers": [
@@ -119,7 +119,7 @@
   ],
   "uses": [
     "Новый предмет: A/an вводит один новый исчисляемый предмет: Charlotte completed a manuscript.",
-    "Уже известный предмет: The используется, когда предмет уже был назван или однозначно определён: She completed a manuscript. The manuscript was signed Currer Bell.",
+    "Уже известный предмет: The используется, когда предмет уже был назван или однозначно определён: She completed a manuscript. The manuscript was signed by Currer Bell.",
     "Один представитель класса: A/an может обозначать представителя класса: Charlotte Brontë was a writer.",
     "Конкретный объект: The показывает конкретный объект: the manuscript of The Professor.",
     "Выбор a или an: A используется перед согласным звуком, an — перед гласным: a writer, an author."
@@ -217,7 +217,7 @@
       "group": "A → The",
       "items": [
         {
-          "en": "She completed a manuscript. The manuscript was signed Currer Bell.",
+          "en": "She completed a manuscript. The manuscript was signed by Currer Bell.",
           "ru": "Она закончила рукопись. На рукописи стояло имя Каррер Белл.",
           "highlight": [
             "a manuscript",
@@ -335,8 +335,8 @@
       "note": "Author начинается с гласного звука, поэтому нужен an."
     },
     {
-      "wrong": "She completed a manuscript. A manuscript was signed Currer Bell.",
-      "right": "She completed a manuscript. The manuscript was signed Currer Bell.",
+      "wrong": "She completed a manuscript. A manuscript was signed by Currer Bell.",
+      "right": "She completed a manuscript. The manuscript was signed by Currer Bell.",
       "note": "Во втором предложении речь идёт о той же, уже известной рукописи."
     },
     {
@@ -408,7 +408,7 @@
       "why": "Author начинается с гласного звука, поэтому используется an."
     },
     {
-      "q": "She completed a manuscript. ___ manuscript was signed Currer Bell.",
+      "q": "She completed a manuscript. ___ manuscript was signed by Currer Bell.",
       "options": [
         "A",
         "An",
@@ -438,7 +438,7 @@
       "why": "В hour буква h не произносится, поэтому слово начинается с гласного звука."
     },
     {
-      "q": "What does the manuscript mean in 'The manuscript was signed Currer Bell'?",
+      "q": "What does the manuscript mean in 'The manuscript was signed by Currer Bell'?",
       "options": [
         "Any manuscript",
         "One unknown manuscript",

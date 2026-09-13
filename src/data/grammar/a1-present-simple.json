@@ -15,7 +15,7 @@
     "Эта же форма используется для постоянных или относительно устойчивых состояний: [bold]He lives in Middlemarch[/bold], [bold]She works in a small shop[/bold], [bold]They have a family[/bold]. Такие предложения описывают ситуацию как характеристику жизни героя, а не как отдельное событие.",
     "Present Simple также помогает формулировать общие наблюдения. Если конкретный случай становится примером более широкой закономерности, можно перейти от [bold]one person[/bold] к [bold]people[/bold] и использовать настоящее время: [bold]People learn from experience[/bold], [bold]Families change[/bold], [bold]Children ask endless questions[/bold]. Такая форма подходит для повествования и эссеистического комментария.",
     "В утвердительном предложении структура проста: [bold]subject + verb[/bold]. Например: [bold]I work[/bold], [bold]They play tennis[/bold], [bold]She works[/bold]. Для [bold]he/she/it[/bold] нужно помнить об окончании [bold]-s[/bold]. Нельзя сказать [bold]She work[/bold], если это обычное утвердительное предложение в Present Simple.",
-    "У некоторых глаголов окончание имеет особую форму. После [bold]-s[/bold] может появляться [bold]-es[/bold]: [bold]he watches[/bold], [bold]she goes[/bold]. Если глагол заканчивается на согласную + [bold]y[/bold], [bold]y[/bold] меняется на [bold]ies[/bold]: [bold]he studies[/bold]. Но основное правило остаётся тем же: третье лицо единственного числа получает специальную форму.",
+    "У некоторых глаголов окончание имеет особую форму. После [bold]-s[/bold], [bold]-sh[/bold], [bold]-ch[/bold], [bold]-x[/bold] и [bold]-o[/bold] добавляется [bold]-es[/bold]: [bold]he watches[/bold], [bold]she goes[/bold]. Если глагол заканчивается на согласную + [bold]y[/bold], [bold]y[/bold] меняется на [bold]ies[/bold]: [bold]he studies[/bold]. Но основное правило остаётся тем же: третье лицо единственного числа получает специальную форму.",
     "В отрицании Present Simple использует вспомогательный глагол [bold]do[/bold] или [bold]does[/bold]. С [bold]I, you, we, they[/bold] используется [bold]do not[/bold] или сокращённая форма [bold]don't[/bold]: [bold]I don't eat meat[/bold], [bold]They don't live there[/bold]. С [bold]he, she, it[/bold] используется [bold]does not[/bold] или [bold]doesn't[/bold]: [bold]She doesn't drink coffee[/bold].",
     "После [bold]doesn't[/bold] основной глагол возвращается к обычной форме. Поэтому правильно [bold]He doesn't smoke[/bold], а не [bold]He doesn't smokes[/bold]. Окончание [bold]-s[/bold] уже находится в форме [bold]does[/bold], поэтому второй раз оно не появляется.",
     "Вопрос строится по тому же принципу. С [bold]I, you, we, they[/bold] используется [bold]do[/bold]: [bold]Do you speak Spanish?[/bold], [bold]Do they live in town?[/bold]. С [bold]he, she, it[/bold] используется [bold]does[/bold]: [bold]Does she teach English?[/bold], [bold]Does he live in town?[/bold].",
@@ -486,9 +486,10 @@
     }
   ],
   "related": [
+    "a1-numbers-dates-time",
     "a1-verb-to-be",
     "a1-pronouns",
-    "a1-there-is-there-are",
+    "a1-plural-nouns",
     "a1-questions",
     "a1-past-simple",
     "a1-imperative-and-frequency"

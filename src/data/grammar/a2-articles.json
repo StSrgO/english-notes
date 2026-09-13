@@ -27,8 +27,6 @@
     "Не оставлять исчисляемое существительное в единственном числе без определителя."
   ],
   "context": {
-    "title": "Treasure Island: как предмет становится знакомым",
-    "description": "В начале Treasure Island Джим Хокинс начинает рассказывать историю и постепенно вводит в неё людей, места и предметы. Сначала читатель встречает новые объекты, затем повествование возвращается к тем же объектам как к уже известным. Это даёт естественный контекст для наблюдения за a/an и the.",
     "lines": [
       {
         "en": "a sea-chest",
@@ -362,28 +360,29 @@
   ],
   "compare": {
     "title": "A/an, the или ничего?",
-    "leftLabel": "A / an",
-    "rightLabel": "The / zero article",
+    "leftLabel": "A / an — новый предмет",
+    "centerLabel": "The — уже известный",
+    "rightLabel": "Без артикля — вообще",
     "rows": [
       {
-        "situation": "Новый один предмет",
-        "form": "a/an",
-        "example": "A ship appeared."
+        "left": "a ship",
+        "center": "the ship",
+        "right": "ships"
       },
       {
-        "situation": "Уже известный предмет",
-        "form": "the",
-        "example": "The ship was large."
+        "left": "a sailor",
+        "center": "the sailor",
+        "right": "sailors"
       },
       {
-        "situation": "Предметы вообще",
-        "form": "zero article",
-        "example": "Ships are useful."
+        "left": "a map",
+        "center": "the map",
+        "right": "maps"
       },
       {
-        "situation": "Конкретный объект из ситуации",
-        "form": "the",
-        "example": "The door is open."
+        "left": "an island",
+        "center": "the island",
+        "right": "islands"
       }
     ]
   },

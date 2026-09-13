@@ -4,7 +4,7 @@
   "level": "B2",
   "title": "Passive Voice (Advanced)",
   "category": "Passive voice",
-  "readingTime": 14,
+  "readingTime": 10,
   "summary": "Пассивный залог позволяет сосредоточиться на действии, его результате или объекте, а не на исполнителе. В сложных текстах пассив часто используется, когда важнее само событие, решение или его последствия. Важно уметь выбирать между активной и пассивной конструкцией в зависимости от того, что именно нужно сделать центром высказывания.",
   "idea": [
     "Пассивный залог нужен не только для того, чтобы избежать упоминания исполнителя. Его основная функция — изменить перспективу высказывания: сделать главным не того, кто совершает действие, а человека, предмет или событие, на которое это действие направлено. Сравним: [bold]The committee approved the plan[/bold] и [bold]The plan was approved[/bold]. Во втором варианте внимание сразу переносится на план и на то, что с ним произошло.",
@@ -149,32 +149,28 @@
           "ru": "В 1895 году Уайльду было предъявлено обвинение.",
           "highlight": [
             "was indicted"
-          ],
-          "type": "quote"
+          ]
         },
         {
           "en": "Wilde was sentenced to two years' imprisonment with hard labour.",
           "ru": "Уайльд был приговорён к двум годам тюремного заключения с каторжными работами.",
           "highlight": [
             "was sentenced"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The evidence was presented during the trial.",
           "ru": "Доказательства были представлены во время процесса.",
           "highlight": [
             "was presented"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The case was resumed after the earlier proceedings.",
           "ru": "Дело было возобновлено после предыдущего разбирательства.",
           "highlight": [
             "was resumed"
-          ],
-          "type": "analysis"
+          ]
         }
       ]
     },
@@ -186,32 +182,28 @@
           "ru": "Доказательства были представлены до возобновления процесса.",
           "highlight": [
             "had been presented"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The decision had been made before the hearing began.",
           "ru": "Решение было принято до начала слушания.",
           "highlight": [
             "had been made"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The documents had been prepared before the case was reopened.",
           "ru": "Документы были подготовлены до возобновления дела.",
           "highlight": [
             "had been prepared"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The sentence had already been announced when the reporters arrived.",
           "ru": "Приговор уже был объявлен, когда прибыли журналисты.",
           "highlight": [
-            "had been announced"
-          ],
-          "type": "analysis"
+            "had already been announced"
+          ]
         }
       ]
     },
@@ -223,32 +215,28 @@
           "ru": "Считалось, что процесс глубоко повлиял на Уайльда.",
           "highlight": [
             "was believed to have been"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The decision was reported to have caused a public reaction.",
           "ru": "Сообщалось, что решение вызвало общественную реакцию.",
           "highlight": [
             "was reported to have caused"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The case was said to have changed Wilde's life.",
           "ru": "Говорили, что дело изменило жизнь Уайльда.",
           "highlight": [
             "was said to have changed"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "The evidence was believed to be unreliable.",
           "ru": "Считалось, что доказательства ненадёжны.",
           "highlight": [
             "was believed to be"
-          ],
-          "type": "analysis"
+          ]
         }
       ]
     }
@@ -375,6 +363,7 @@
   ],
   "related": [
     "b1-past-perfect",
+    "c1-past-perfect-continuous",
     "b1-passive-voice-simple",
     "b2-modals-in-the-past"
   ]

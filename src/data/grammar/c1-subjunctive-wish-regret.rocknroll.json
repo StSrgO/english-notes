@@ -4,7 +4,7 @@
   "level": "C1",
   "title": "Subjunctive / Wish / Regret",
   "category": "Grammar",
-  "readingTime": 14,
+  "readingTime": 10,
   "summary": "Конструкции Subjunctive, wish и regret позволяют говорить о том, что не соответствует реальности, чего мы хотим или о чём сожалеем. В английском форма глагола показывает, относится ли это к настоящему, прошлому или желаемому изменению. Особенно важно различать wish + Past Simple, wish + Past Perfect и wish + would. Такие конструкции передают не только время, но и отношение говорящего к ситуации.",
   "idea": [
     "Когда человек оглядывается на собственную карьеру, он редко говорит только о фактах. Он может представить, как всё могло бы сложиться иначе, пожалеть о прошлом решении или, наоборот, сказать, что не хотел бы ничего менять. Английские конструкции [bold]wish[/bold], [bold]were[/bold] и другие формы irrealis передают эту дистанцию между реальностью и отношением к ней.",
@@ -307,11 +307,6 @@
       "wrong": "If I would have stayed, things might have changed.",
       "right": "If I had stayed, things might have changed.",
       "note": "В стандартном third conditional после if используется Past Perfect."
-    },
-    {
-      "wrong": "Iggy Pop said that he wished he had chosen differently.",
-      "right": "Iggy Pop said that he had great times creatively with Bowie.",
-      "note": "После wish перфектная форма выражает нереальное сожаление о прошлом; сообщение о факте передаётся обычным прошедшим временем."
     }
   ],
   "compare": {
@@ -398,14 +393,14 @@
       "why": "As if + were показывает нереальное сравнение."
     },
     {
-      "q": "Which statement is grammatically and factually safer when discussing an interview?",
+      "q": "Choose the correct reported form: “I wish I had known.”",
       "options": [
-        "He wished he had chosen differently.",
-        "The interview says that he regretted the decision.",
-        "We can use 'I wish I had chosen differently' as a hypothetical learner example."
+        "He said that he wished he had known.",
+        "He said that he wishes he had known.",
+        "He said that he wished he knew."
       ],
-      "answer": 2,
-      "why": "Wish + had + V3 описывает гипотетическое сожаление о прошлом, поэтому предложение передаёт гипотезу, а не слова собеседника."
+      "answer": 0,
+      "why": "После прошедшего said глагол wish остаётся в прошедшей форме, а had known сохраняет отнесённость к прошлому."
     }
   ],
   "related": [

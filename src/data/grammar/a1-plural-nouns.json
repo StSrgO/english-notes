@@ -112,7 +112,7 @@
   "formula": "singular noun → plural noun: a gift → gifts / a watch → watches / a person → people",
   "structure": {
     "positive": "one gift → two gifts",
-    "negative": "one gift → not two gifts",
+    "negative": "It isn't a gift. / They aren't gifts.",
     "question": "How many gifts?"
   },
   "markers": [
@@ -423,6 +423,7 @@
   ],
   "related": [
     "a1-nouns",
+    "a1-verb-to-be",
     "a1-articles-a-an",
     "a1-there-is-there-are",
     "a2-some-any-much-many"

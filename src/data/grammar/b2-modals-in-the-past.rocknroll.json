@@ -4,7 +4,7 @@
   "level": "B2",
   "title": "Past Modals",
   "category": "Modal verbs",
-  "readingTime": 14,
+  "readingTime": 10,
   "summary": "Модальные конструкции с Perfect Infinitive позволяют делать выводы о прошлом. Must have показывает, что говорящий считает прошлое событие почти несомненным; might have и could have выражают возможную версию; can't have или couldn't have показывают, что событие кажется невозможным. Важно отличать такой вывод от простого сообщения о том, что действительно произошло.",
   "idea": [
     "Когда последовательность событий известна, а детали решения — нет, прошлое приходится восстанавливать с помощью модальных глаголов. [bold]The idea must have come from somewhere[/bold] означает сильный вывод; [bold]The idea might have come from somewhere else[/bold] оставляет версию открытой; [bold]It can't have happened that way[/bold] исключает её. Ни одна из этих конструкций не сообщает нового факта: это способ интерпретировать уже известные обстоятельства.",
@@ -147,32 +147,28 @@
           "ru": "Должно быть, Ангус понял, что этот звук может сработать.",
           "highlight": [
             "must have realised"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The original design must have caused technical problems.",
           "ru": "Должно быть, первоначальная конструкция создавала технические проблемы.",
           "highlight": [
             "must have caused"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The band must have wanted a dramatic finale.",
           "ru": "Должно быть, группа хотела эффектного финала.",
           "highlight": [
             "must have wanted"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The idea must have seemed unusual at first.",
           "ru": "Должно быть, сначала идея казалась необычной.",
           "highlight": [
             "must have seemed"
-          ],
-          "type": "inference"
+          ]
         }
       ]
     },
@@ -184,32 +180,28 @@
           "ru": "Возможно, группа рассматривала другие звуковые эффекты.",
           "highlight": [
             "might have considered"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "They might have discussed the idea before the rehearsal.",
           "ru": "Возможно, они обсуждали идею до репетиции.",
           "highlight": [
             "might have discussed"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The first design might have looked very different.",
           "ru": "Возможно, первая конструкция выглядела совсем иначе.",
           "highlight": [
             "might have looked"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The band may have expected the effect to surprise audiences.",
           "ru": "Возможно, группа ожидала, что эффект удивит публику.",
           "highlight": [
             "may have expected"
-          ],
-          "type": "inference"
+          ]
         }
       ]
     },
@@ -221,32 +213,28 @@
           "ru": "Не может быть, чтобы идея возникла во время более позднего тура.",
           "highlight": [
             "can't have come"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The final design couldn't have been the first version.",
           "ru": "Финальная конструкция не могла быть первой версией.",
           "highlight": [
             "couldn't have been"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The sound can't have been chosen without a reason.",
           "ru": "Не может быть, чтобы звук был выбран без причины.",
           "highlight": [
             "can't have been chosen"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "They can't have known exactly how the effect would work on tour.",
           "ru": "Не может быть, чтобы они точно знали, как эффект будет работать в туре.",
           "highlight": [
             "can't have known"
-          ],
-          "type": "inference"
+          ]
         }
       ]
     },
@@ -258,32 +246,28 @@
           "ru": "Ангус услышал артиллерийские залпы по телевизору.",
           "highlight": [
             "heard cannon fire"
-          ],
-          "type": "fact"
+          ]
         },
         {
           "en": "Angus must have realised that the sound could fit the song.",
           "ru": "Должно быть, Ангус понял, что этот звук может подойти песне.",
           "highlight": [
             "must have realised"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The cannons became part of the live show.",
           "ru": "Пушки стали частью концертного шоу.",
           "highlight": [
             "became part"
-          ],
-          "type": "fact"
+          ]
         },
         {
           "en": "The band must have wanted the finale to feel spectacular.",
           "ru": "Должно быть, группа хотела сделать финал эффектным.",
           "highlight": [
             "must have wanted"
-          ],
-          "type": "inference"
+          ]
         }
       ]
     },
@@ -295,32 +279,28 @@
           "ru": "Должно быть, группа ожидала сильной реакции.",
           "highlight": [
             "must have expected"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The band might have expected a strong reaction.",
           "ru": "Возможно, группа ожидала сильной реакции.",
           "highlight": [
             "might have expected"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The band can't have expected every technical problem.",
           "ru": "Не может быть, чтобы группа ожидала всех технических проблем.",
           "highlight": [
             "can't have expected"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The band expected the song to work.",
           "ru": "Группа ожидала, что песня сработает.",
           "highlight": [
             "expected"
-          ],
-          "type": "analysis"
+          ]
         }
       ]
     },
@@ -332,32 +312,28 @@
           "ru": "Они могли выбрать другой звуковой эффект.",
           "highlight": [
             "could have chosen"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The original design could have worked under different conditions.",
           "ru": "Первоначальная конструкция могла бы работать при других условиях.",
           "highlight": [
             "could have worked"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The finale could have been built around another sound.",
           "ru": "Финал мог быть построен вокруг другого звука.",
           "highlight": [
             "could have been built"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "The band could have abandoned the idea after the first problems.",
           "ru": "Группа могла отказаться от идеи после первых проблем.",
           "highlight": [
             "could have abandoned"
-          ],
-          "type": "inference"
+          ]
         }
       ]
     }
@@ -497,6 +473,7 @@
   "related": [
     "b1-past-perfect",
     "c1-past-perfect-continuous",
+    "b2-third-conditional",
     "b2-wish-if-only",
     "c2-modals-past-deduction",
     "b1-modals-should-might-may"

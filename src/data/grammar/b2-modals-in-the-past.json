@@ -4,7 +4,7 @@
   "level": "B2",
   "title": "Past Modals",
   "category": "Modal verbs",
-  "readingTime": 14,
+  "readingTime": 10,
   "summary": "Модальные конструкции с Perfect Infinitive позволяют делать выводы о прошлом. Must have показывает, что говорящий считает прошлое событие почти несомненным; might have и could have выражают возможную версию; can't have или couldn't have показывают, что событие кажется невозможным. Важно отличать такой вывод от простого сообщения о том, что действительно произошло.",
   "idea": [
     "О прошлом не всегда известно точно, что произошло. Иногда есть только признаки, по которым строится собственный вывод: [bold]She must have posted the letter[/bold] — «должно быть, она отправила письмо»; [bold]She might have posted the letter[/bold] — «возможно, она отправила письмо»; [bold]She can't have posted the letter[/bold] — «не может быть, чтобы она отправила письмо». Речь идёт не о самом событии, а об отношении говорящего к его вероятности.",
@@ -148,32 +148,28 @@
           "ru": "Должно быть, у неё была причина.",
           "highlight": [
             "must have had"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "Emma must have misunderstood the situation.",
           "ru": "Должно быть, Эмма неправильно поняла ситуацию.",
           "highlight": [
             "must have misunderstood"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "Jane must have known something important.",
           "ru": "Должно быть, Джейн знала что-то важное.",
           "highlight": [
             "must have known"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "He must have noticed the change.",
           "ru": "Должно быть, он заметил изменение.",
           "highlight": [
             "must have noticed"
-          ],
-          "type": "analysis"
+          ]
         }
       ]
     },
@@ -185,32 +181,28 @@
           "ru": "Возможно, она неправильно поняла приглашение.",
           "highlight": [
             "might have misunderstood"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "Emma might have judged her too quickly.",
           "ru": "Возможно, Эмма слишком поспешно её оценила.",
           "highlight": [
             "might have judged"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "Jane may have had another reason.",
           "ru": "Возможно, у Джейн была другая причина.",
           "highlight": [
             "may have had"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "He could have misunderstood her words.",
           "ru": "Он мог неправильно понять её слова.",
           "highlight": [
             "could have misunderstood"
-          ],
-          "type": "analysis"
+          ]
         }
       ]
     },
@@ -222,32 +214,28 @@
           "ru": "Не может быть, чтобы она забыла о приглашении.",
           "highlight": [
             "can't have forgotten"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "Emma couldn't have known the whole story.",
           "ru": "Эмма не могла знать всю историю.",
           "highlight": [
             "couldn't have known"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "He can't have expected that reaction.",
           "ru": "Не может быть, чтобы он ожидал такой реакции.",
           "highlight": [
             "can't have expected"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "Jane couldn't have predicted the result.",
           "ru": "Джейн не могла предсказать результат.",
           "highlight": [
             "couldn't have predicted"
-          ],
-          "type": "analysis"
+          ]
         }
       ]
     },
@@ -259,32 +247,28 @@
           "ru": "Джейн отказалась от приглашения.",
           "highlight": [
             "refused"
-          ],
-          "type": "fact"
+          ]
         },
         {
           "en": "Jane must have had a reason.",
           "ru": "Должно быть, у Джейн была причина.",
           "highlight": [
             "must have had"
-          ],
-          "type": "inference"
+          ]
         },
         {
           "en": "Emma did not know the reason.",
           "ru": "Эмма не знала причины.",
           "highlight": [
             "did not know"
-          ],
-          "type": "fact"
+          ]
         },
         {
           "en": "Emma might have misunderstood her.",
           "ru": "Возможно, Эмма неправильно её поняла.",
           "highlight": [
             "might have misunderstood"
-          ],
-          "type": "inference"
+          ]
         }
       ]
     },
@@ -296,32 +280,28 @@
           "ru": "Должно быть, она знала.",
           "highlight": [
             "must have known"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "She might have known.",
           "ru": "Возможно, она знала.",
           "highlight": [
             "might have known"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "She can't have known.",
           "ru": "Не может быть, чтобы она знала.",
           "highlight": [
             "can't have known"
-          ],
-          "type": "analysis"
+          ]
         },
         {
           "en": "She knew.",
           "ru": "Она знала.",
           "highlight": [
             "knew"
-          ],
-          "type": "fact"
+          ]
         }
       ]
     },
@@ -333,32 +313,28 @@
           "ru": "Должно быть, у неё есть какая-то причина, более веская, чем кажется, чтобы отказаться от этого приглашения.",
           "highlight": [
             "must have some motive"
-          ],
-          "type": "quote"
+          ]
         },
         {
           "en": "She might have been a model of right feminine happiness.",
           "ru": "Она могла бы быть образцом правильного женского счастья.",
           "highlight": [
             "might have been"
-          ],
-          "type": "quote"
+          ]
         },
         {
           "en": "She could not have deserved this.",
           "ru": "Она не могла заслужить такого.",
           "highlight": [
             "could not have deserved"
-          ],
-          "type": "quote"
+          ]
         },
         {
           "en": "She must be under some sort of penance.",
           "ru": "Должно быть, она подвергается какому-то наказанию.",
           "highlight": [
             "must be"
-          ],
-          "type": "quote"
+          ]
         }
       ]
     }
@@ -497,6 +473,7 @@
   ],
   "related": [
     "b1-past-perfect",
+    "c1-past-perfect-continuous",
     "b2-third-conditional",
     "b2-wish-if-only",
     "c2-modals-past-deduction",

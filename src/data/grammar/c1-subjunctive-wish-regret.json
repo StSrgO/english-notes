@@ -4,7 +4,7 @@
   "level": "C1",
   "title": "Subjunctive / Wish / Regret",
   "category": "Grammar",
-  "readingTime": 14,
+  "readingTime": 10,
   "summary": "Конструкции Subjunctive, wish и regret позволяют говорить о том, что не соответствует реальности, чего мы хотим или о чём сожалеем. В английском форма глагола показывает, относится ли это к настоящему, прошлому или желаемому изменению. Особенно важно различать wish + Past Simple, wish + Past Perfect и wish + would. Такие конструкции передают не только время, но и отношение говорящего к ситуации.",
   "idea": [
     "Форма глагола обычно сообщает о реальной ситуации. Но говорящий умеет отдаляться от реальности: он хочет, чтобы всё было иначе, жалеет о прошлом или представляет состояние, которого сейчас нет. Для такого значения английский использует формы irrealis — формы, которые показывают не факт, а отношение к факту.",
@@ -299,11 +299,6 @@
       "wrong": "I hope I were free tomorrow.",
       "right": "I hope I will be free tomorrow.",
       "note": "Hope используется для реальной или возможной будущей ситуации."
-    },
-    {
-      "wrong": "He acts as if he is the boss, but he isn't.",
-      "right": "He acts as if he were the boss.",
-      "note": "Для нереального сравнения возможна форма irrealis were."
     }
   ],
   "compare": {
@@ -370,7 +365,7 @@
       "why": "Wish + would выражает желаемое изменение поведения или ситуации."
     },
     {
-      "q": "Choose the correct form: He behaves as if he ___ the boss.",
+      "q": "Choose the correct form for an unreal comparison: He behaves as if he ___ the boss.",
       "options": [
         "is",
         "were",

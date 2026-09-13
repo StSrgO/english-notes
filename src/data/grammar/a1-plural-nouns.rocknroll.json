@@ -107,7 +107,7 @@
   "formula": "singular noun → plural noun: a song → songs / a track → tracks / a writer → writers",
   "structure": {
     "positive": "one song → two songs",
-    "negative": "one song → not two songs",
+    "negative": "It isn't a song. / They aren't songs.",
     "question": "How many songs?"
   },
   "markers": [
@@ -418,6 +418,7 @@
   "related": [
     "a1-nouns",
     "a1-verb-to-be",
+    "a1-articles-a-an",
     "a1-there-is-there-are",
     "a2-some-any-much-many"
   ]

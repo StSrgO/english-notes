@@ -24,7 +24,7 @@
     "После [bold]Fun House[/bold] изменения состава продолжились: группа на некоторое время практически замерла, а затем встреча Игги Попа с Дэвидом Боуи помогла запустить новый этап, который привёл к [bold]Raw Power[/bold]. Participle clauses позволяют представить эту цепочку как непрерывное движение.",
     "Для исторического текста это особенно полезно. Вместо [bold]The Stooges lost their deal. They went into a period of inactivity. New musicians appeared. James Williamson joined. The group was eventually revived[/bold] можно написать: [bold]Having lost their deal, the Stooges entered a period of inactivity, later bringing in new musicians and eventually rebuilding the group around a new lineup.[/bold]",
     "Однако последняя конструкция уже очень плотная: граница применения participle clauses проходит по ясности. Чем больше событий сжато в одном предложении, тем выше риск потерять связь между ними. Строить такую конструкцию недостаточно: нужно понимать, когда её лучше не использовать.",
-    "Особенно опасны конструкции, в которых логический субъект не совпадает. [bold]Having changed the lineup, the new bassist joined the band[/bold] звучит так, будто новый басист изменил состав. Если состав изменила группа, есть два выхода: переписать оборот с общим субъектом — [bold]Having changed the lineup, the band brought in a new bassist[/bold] — или дать причастию собственное подлежащее: [bold]The lineup changed, the band brought in a new bassist[/bold]. Когда ни один из этих вариантов не звучит ясно, точнее полное придаточное предложение.",
+    "Особенно опасны конструкции, в которых логический субъект не совпадает. [bold]Having changed the lineup, the new bassist joined the band[/bold] звучит так, будто новый басист изменил состав. Если состав изменила группа, есть два выхода: переписать оборот с общим субъектом — [bold]Having changed the lineup, the band brought in a new bassist[/bold] — или дать причастию собственное подлежащее: [bold]The lineup having changed, the band brought in a new bassist[/bold]. Когда ни один из этих вариантов не звучит ясно, точнее полное придаточное предложение.",
     "Отдельная форма — одиночное [bold]past participle[/bold] без [bold]having[/bold]. Она передаёт пассивное значение без указания на предшествование: деятель называется после [bold]by[/bold], а главное предложение сообщает следствие. Причастие может сохранить и собственное подлежащее — тогда получается абсолютная конструкция: [bold]Their contract gone, the Stooges drifted apart[/bold]. Союз в ней не нужен, подлежащее стоит перед причастием, и такой оборот чаще всего обозначает сопутствующее обстоятельство или причину.",
     "В результате история группы может звучать не как список дат и фамилий, а как связная последовательность изменений: [bold]Having lost its deal, the band became inactive; changing its lineup, it later returned in a new form.[/bold] Синтаксис отражает сам принцип такой последовательности: одно изменение приводит к следующему."
   ],
@@ -98,12 +98,12 @@
           "a": "Having been dropped by Elektra, the band spent a period without a record deal."
         },
         {
-          "q": "After James Williamson had joined the band, the lineup changed again.",
-          "a": "Having joined the band, James Williamson became part of the new lineup."
+          "q": "After James Williamson had joined the band, the band changed its guitar lineup.",
+          "a": "Having been joined by James Williamson, the band changed its guitar lineup."
         },
         {
           "q": "Because the group was reorganized, Ron Asheton moved to bass.",
-          "a": "Reorganized, the group moved Ron Asheton to bass."
+          "a": "The group having been reorganized, Ron Asheton moved to bass."
         }
       ]
     }

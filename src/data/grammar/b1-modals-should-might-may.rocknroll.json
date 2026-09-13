@@ -105,7 +105,7 @@
   "structure": {
     "positive": "You should change the approach.\nThe approach may change.\nThe approach might change.",
     "negative": "You shouldn't change the approach.\nThe approach may not work.\nThe approach might not work.",
-    "question": "Should we change the approach?\nMay the approach change?\nMight the approach change?"
+    "question": "Should we change the approach?\nMay I change the approach?"
   },
   "markers": [
     "I think",
@@ -312,11 +312,6 @@
       "wrong": "You don't should give up.",
       "right": "You shouldn't give up.",
       "note": "Отрицание should строится как shouldn't."
-    },
-    {
-      "wrong": "You must rewrite the chorus.",
-      "right": "You should rewrite the chorus.",
-      "note": "Must выражает требование, а should — совет: выбор остаётся за собеседником."
     },
     {
       "wrong": "The band might changes its method.",

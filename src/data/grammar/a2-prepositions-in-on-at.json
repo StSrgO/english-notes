@@ -523,9 +523,9 @@
       "note": "Лес воспринимается как пространство, внутри которого находятся люди."
     },
     {
-      "wrong": "The boat is in the river.",
-      "right": "The boat is on the river.",
-      "note": "Для положения на поверхности воды используется on."
+      "wrong": "The men sat in the deck.",
+      "right": "The men sat on the deck.",
+      "note": "Палуба — поверхность, поэтому положение на ней передаёт on."
     },
     {
       "wrong": "They arrive in the station.",
@@ -635,14 +635,14 @@
       "why": "Noon — конкретный момент времени."
     },
     {
-      "q": "Which sentence is correct?",
+      "q": "Which preposition describes a position on a surface?",
       "options": [
-        "The boat is on the river.",
-        "The boat is at the river.",
-        "The boat is in the river."
+        "on",
+        "in",
+        "at"
       ],
       "answer": 0,
-      "why": "Для положения на поверхности воды используется on."
+      "why": "Положение на поверхности передаёт on."
     },
     {
       "q": "Choose the correct phrase:",
@@ -698,6 +698,7 @@
   "related": [
     "a1-there-is-there-are",
     "a2-past-continuous",
+    "a2-future-simple",
     "a1-past-simple",
     "a1-present-simple"
   ]

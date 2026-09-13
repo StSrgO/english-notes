@@ -502,9 +502,9 @@
       "note": "Если who является подлежащим, did не нужен."
     },
     {
-      "wrong": "Who saw Alice?",
+      "wrong": "Who Alice saw?",
       "right": "Who did Alice see?",
-      "note": "Если вопрос о человеке, которого увидела Алиса, структура меняется: who + did + subject + V1."
+      "note": "Вопрос о том, кого увидела Алиса, строится через did: who + did + subject + V1."
     }
   ],
   "compare": {
