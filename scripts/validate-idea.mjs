@@ -17,6 +17,13 @@
 //         одна и та же цитата (context.lines) в обеих версиях.
 //         Методический аппарат (formula, structure, rules, tips, uses, markers, why,
 //         summary) по замыслу одинаков в обеих версиях — D11 его не проверяет.
+//   D13 — латиница вне [bold] в idea (решение 13.09.2026): жирным выделяется всё английское —
+//         слова, буквы, названия времён, имена, названия книг и групп. Исключение — IPA:
+//         транскрипции вида /eɪ/, /zed/, /ɑːr/ остаются без выделения, а перечисления через
+//         слеш (am/is/are, I/he/she/it) выделяются по обычному правилу.
+//   D14 — состав формы описан дважды в idea этого урока («форма состоит из трёх частей» дважды):
+//         второй абзац должен говорить о другом, а не повторять строение формы.
+//         Повтор итогового тезиса в закрывающем абзаце («Итог: …») — приём урока, не дефект.
 // Предупреждения (решение 1 плана — не блокируют приёмку):
 //   D5 — одна английская фраза живёт в одном блоке: считаются повторы внутри idea,
 //        в других блоках урока и между classic/rock одной темы;
@@ -86,6 +93,53 @@ const MARKUP = [
   [/\s-\s/, "дефис вместо тире"],
 ];
 
+// D13: латиница в idea должна быть внутри [bold]. Токен начинается с латинской буквы
+// (числа не выделяем), но может содержать цифры и дефис — иначе MC5 и Blink-182 рвутся.
+// IPA (/eɪ/, /zed/) не выделяется, но перечисление через слеш (am/is/are) — выделяется:
+// различаем по примыканию латинской буквы к слешу.
+const LAT = String.raw`\p{Script=Latin}`;
+const TOK = String.raw`-?'?${LAT}[${LAT}\p{Nd}'’-]*`;
+const LAT_RUN = new RegExp(String.raw`${TOK}(?:\s+${TOK})*`, "gu");
+const IPA_CAND = /\/[^/\n\r]{1,25}\//g;
+const latLetter = /\p{Script=Latin}/u;
+const trimTail = (s) => s.replace(/['’-]+$/, "");
+const ipaSpans = (seg) =>
+  [...seg.matchAll(IPA_CAND)]
+    .filter((m) => {
+      const before = seg[m.index - 1];
+      const after = seg[m.index + m[0].length];
+      return !(before && latLetter.test(before)) && !(after && latLetter.test(after));
+    })
+    .map((m) => [m.index, m.index + m[0].length]);
+const latinOutsideBold = (p) =>
+  p
+    .split(/(\[bold\][^[\]]*\[\/bold\])/g)
+    .flatMap((seg) => {
+      if (seg.startsWith("[bold]")) return [];
+      const ipa = ipaSpans(seg);
+      return [...seg.matchAll(LAT_RUN)]
+        .filter((m) => !ipa.some(([a, b]) => m.index >= a && m.index < b))
+        .map((m) => trimTail(m[0]))
+        .filter((t) => latLetter.test(t));
+    });
+
+// D14: состав формы описан дважды. Так выглядел случай c1-past-perfect-continuous: idea[0]
+// «Форма собирается из трёх частей: had, been, глагол с -ing» и idea[3] «Форма состоит из трёх
+// частей. Had…, been…, а глагол с -ing…». Ловим именно состав (части/элементы/компоненты):
+// повтор итогового тезиса в закрывающем абзаце — приём урока, а не дефект, и его не считаем.
+// ПЕРВАЯ РЕДАКЦИЯ ТРЕБОВАЛА СЛОВА «ЧАСТЬ» и потому пропустила рок-версию того же урока, где
+// перечень стоял без него («Форма состоит из had, been и смыслового глагола с окончанием -ing»).
+// Теперь ловим и перечень без «части», и обороты «часть формы / часть формулы».
+const COMPOSITION = new RegExp(
+  [
+    String.raw`(?:форм[а-яё]*|конструкц[а-яё]*|оборот|врем[яеё]|правил[а-яё]*|модел[а-яё]*)[^.!?]{0,60}(?:состоит|собира[ею]тся|стро[ия]тся|складыва[ею]тся|образуется)[^.!?]{0,60}(?:из|част|элемент|компонент)`,
+    String.raw`(?:состоит|собира[ею]тся|стро[ия]тся|складыва[ею]тся)[^.!?]{0,30}(?:из\s+[^.!?]{0,50}(?:част|элемент|компонент))`,
+    String.raw`част[а-яё]*\s+формул`,
+    String.raw`част[а-яё]*\s+форм`,
+  ].join("|"),
+  "i"
+);
+
 // Маркеры ИИ-стиля (D2-плотность, план §3).
 const MARKERS = [
   [new RegExp(cy("(?:мы|нас|нам|наш[а-яё]*|наши)"), "i"), "мы/наш"],
@@ -125,15 +179,33 @@ const isTitle = (ph) => {
   if (!w.length || !w.some((x) => /^[A-Z]/.test(x))) return false;
   return w.every((x) => /^[A-Z]/.test(x) || FUNC.has(x));
 };
-const isExample = (ph) =>
-  !isTitle(ph) &&
-  (VERBISH.test(ph) || (ph.split(" ").length >= 3 && /\b[a-z]{3,}(?:ed|ing)\b/.test(ph.replace(NOT_VERB, " "))));
+// Вид фразы. С 13.09.2026 в idea жирным выделена ВСЯ латиница, поэтому фраз из [bold] стало
+// намного больше и бинарное «пример/название» перестало работать: под него попадали обрывки
+// («is getting used to», «than it was before») и названия времён. Разделяем три вида:
+//   пример   — английское предложение (с заглавной, ≥ 3 слов, есть глагольная форма) — D5 следит за ним;
+//   название — имя, книга, альбом, группа, название времени (по капитализации) — повторяются законно, только счётчик;
+//   фрагмент — обрывок, формула, буква, окончание — D5 не интересует вовсе.
+const isSentence = (ph) =>
+  /^[A-Z]/.test(ph.trim()) &&
+  ph.split(" ").filter(Boolean).length >= 3 &&
+  (VERBISH.test(ph) || /\b[a-z]{3,}(?:ed|ing)\b/.test(ph.replace(NOT_VERB, " ")));
+const phraseKind = (ph) => (isTitle(ph) ? "название" : isSentence(ph) ? "пример" : "фрагмент");
 
 // Фразу храним в двух видах: `raw` — как в тексте (нужен, чтобы отличить название
 // по капитализации) и `key` — нормализованный (по нему ищем дубли и совпадения в блоках).
+// В одном [bold] часто стоит несколько примеров-предложений («There is a laboratory on the
+// street. There is a problem.»). Правило «одна фраза — одно место» работает по предложениям,
+// поэтому выделение делим на предложения: иначе группа из трёх предложений не совпадёт ни с чем
+// и повтор пройдёт незамеченным.
 const boldPhrases = (s) =>
   [...s.matchAll(/\[bold\]([^[\]]+)\[\/bold\]/g)]
-    .map((m) => ({ raw: m[1].trim(), key: norm(m[1]) }))
+    .flatMap((m) =>
+      m[1]
+        .split(/(?<=[.!?])\s+/)
+        .map((x) => x.trim())
+        .filter(Boolean)
+        .map((raw) => ({ raw, key: norm(raw) }))
+    )
     .filter((p) => p.key.split(" ").length >= 3 && p.key.split(" ").some((w) => w.length > 1));
 
 // D11: текст урока не должен ссылаться на другую версию. Общие слова («в другой версии»
@@ -200,6 +272,7 @@ let chars = 0;
 let dupInIdea = 0;
 let dupOutside = 0;
 let dupNames = 0;
+let dupFormulations = 0;
 const markerHits = [];
 
 for (const file of files) {
@@ -236,13 +309,17 @@ for (const file of files) {
     for (const [re, note] of MARKUP)
       for (const m of p.matchAll(new RegExp(re.source, "g")))
         err("D10", file, where(i, `${note} — «…${p.slice(Math.max(0, m.index - 25), m.index + m[0].length + 20).trim()}…»`));
+    // D13: вся латиница в idea внутри [bold]
+    for (const t of latinOutsideBold(p))
+      err("D13", file, where(i, `латиница вне [bold] — «${t}»`));
     // D5: повторы английских фраз из [bold] внутри idea и в других блоках
     for (const { raw, key } of boldPhrases(p)) {
       if (seen.has(key)) {
-        const kind = isExample(raw) ? "пример" : "название";
+        const kind = phraseKind(raw);
         if (kind === "пример") dupInIdea++;
-        else dupNames++;
-        warn(file, `D5-${kind}: фраза «${key}» повторяется в idea [${seen.get(key)}] и [${i}]`);
+        else if (kind === "название") dupNames++;
+        if (kind === "пример")
+          warn(file, `D5-пример: фраза «${key}» повторяется в idea [${seen.get(key)}] и [${i}]`);
       } else {
         seen.set(key, i);
         rawOf.set(key, raw);
@@ -259,11 +336,23 @@ for (const file of files) {
   for (const ph of seen.keys()) {
     const where = [...blocks].filter(([, t]) => t.includes(ph)).map(([p]) => p);
     if (where.length) {
-      const kind = isExample(rawOf.get(ph) || ph) ? "пример" : "название";
+      const kind = phraseKind(rawOf.get(ph) || ph);
       if (kind === "пример") dupOutside++;
-      else dupNames++;
-      warn(file, `D5-${kind}: фраза «${ph}» есть и в блоках: ${where.join(", ")}`);
+      else if (kind === "название") dupNames++;
+      if (kind === "пример") warn(file, `D5-пример: фраза «${ph}» есть и в блоках: ${where.join(", ")}`);
     }
+  }
+
+  // D14: состав формы описан дважды — см. описание COMPOSITION выше.
+  const compositions = idea.map((p, i) => [i, p.match(COMPOSITION)]).filter(([, m]) => m);
+  if (compositions.length >= 2) {
+    dupFormulations++;
+    warn(
+      file,
+      `D14: состав формы описан ${compositions.length} раза — ${compositions
+        .map(([i, m]) => `idea[${i}] «${m[0].slice(0, 60)}»`)
+        .join(", ")}; один из абзацев должен говорить о другом`
+    );
   }
 
   if (idea.length >= 22) warn(file, `D6: ${idea.length} абзацев idea — вероятная «вода» (типично 12–18)`);
@@ -293,10 +382,11 @@ for (const [topic, versions] of phrasesByTopic)
     const [a, b] = versions;
     for (const [ph, raw] of a[1])
       if (b[1].has(ph)) {
-        const kind = isExample(raw) ? "пример" : "название";
+        const kind = phraseKind(raw);
         if (kind === "пример") dupVersions++;
-        else dupNames++;
-        warn(b[0], `D5-${kind}: фраза «${ph}» повторяется в ${a[0]} (тема ${topic})`);
+        else if (kind === "название") dupNames++;
+        if (kind === "пример")
+          warn(b[0], `D5-пример: фраза «${ph}» повторяется в ${a[0]} (тема ${topic})`);
       }
   }
 
@@ -340,10 +430,12 @@ for (const e of errors) {
 
 console.log(
   `idea: ${files.length} файлов, ${paragraphs} абзацев, ${chars} знаков. ` +
-  `Дубли фраз (D5): внутри idea ${dupInIdea}, в других блоках ${dupOutside}, между версиями ${dupVersions}.`
+  `Дубли фраз (D5): внутри idea ${dupInIdea}, в других блоках ${dupOutside}, между версиями ${dupVersions}; ` +
+  `повторов названий (норма) ${dupNames}.`
 );
 console.log(
-  `Самостоятельность версий (D11): совпавших абзацев ${dupParagraphs}, пересказов ${nearParagraphs}, общих цитат ${dupQuotes}.`
+  `Самостоятельность версий (D11): совпавших абзацев ${dupParagraphs}, пересказов ${nearParagraphs}, общих цитат ${dupQuotes}. ` +
+  `Повторов тезиса внутри idea (D14): ${dupFormulations}.`
 );
 if (list) {
   console.log("\n=== список ошибок ===");
@@ -365,11 +457,13 @@ if (!list && warns.length) {
   for (const w of warns) {
     const kind = w.includes("D5-")
       ? "D5 (повторы фраз)"
-      : w.includes("D11:")
-        ? "D11 (самостоятельность версий)"
-        : w.includes("D6:")
-          ? "D6 (объём idea)"
-          : "маркеры ИИ-стиля";
+      : w.includes("D14:")
+        ? "D14 (повтор тезиса внутри idea)"
+        : w.includes("D11:")
+          ? "D11 (самостоятельность версий)"
+          : w.includes("D6:")
+            ? "D6 (объём idea)"
+            : "маркеры ИИ-стиля";
     byKind.set(kind, (byKind.get(kind) || 0) + 1);
   }
   console.log("\n=== предупреждения (полный список — с --list) ===");
@@ -384,4 +478,4 @@ if (errors.length) {
   }
   process.exit(1);
 }
-console.log("\nvalidate-idea.mjs: OK — блок idea чист по D1–D4, D9, терминам и D10.");
+console.log("\nvalidate-idea.mjs: OK — блок idea чист по D1–D4, D9, D10, D13, терминам.");

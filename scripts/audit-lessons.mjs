@@ -238,27 +238,31 @@ for (const s of inOrder.keys()) if (!lessons.has(s)) ERR("каталог", "less
 // ---------- A11. корпусный дедуп английских предложений ----------
 // Классы по смыслу правила «одно предложение — одно место» (CONTEXT §5, T16):
 //   WARN  дубли-сцена           — предложение сцены (context) повторено в другом блоке урока;
-//   WARN  дубли-между_версиями  — одно предложение в classic и rock одной темы;
+//   WARN  дубли-между_версиями  — английский пример повторён в classic и rock одной темы.
+//                                 Исключение (решение 13.09.2026): повтор, живущий ТОЛЬКО
+//                                 в compare/mistakes, — аппарат: контракты compare и
+//                                 канонические пары ошибок версии делят по замыслу (INFO);
 //   WARN  дубли-между_уроками   — одно предложение в разных темах;
 //   INFO  дубли-упражнения      — повтор между examples/mistakes/compare/quiz: так устроены
 //                                 упражнения (квиз проверяет примеры, mistakes показывает ошибку
 //                                 на примере, compare ссылается на пример) — не дефект.
-const dupStat = { "сцена": 0, "между версиями": 0, "между уроками": 0, "упражнения": 0 };
-const blockOf = (p) => p.split(".")[0].replace(/\[\d+\]/g, "");
+const dupStat = { "сцена": 0, "между версиями": 0, "между уроками": 0, "упражнения": 0, "аппарат версий": 0 };
+const APPARATUS_BLOCKS = new Set(["compare", "mistakes"]);
 for (const [key, where] of englishLines) {
   const uniq = [...new Set(where)];
   if (uniq.length < 2) continue;
   const files = uniq.map((w) => w.split(" ")[0]);
-  const blocks = uniq.map((w) => (w.split(" ")[1] || "").split(".")[0]);
+  const blocks = uniq.map((w) => (w.split(" ")[1] || "").split(".")[0].replace(/\[\d+\]/g, ""));
   const uniqFiles = [...new Set(files)];
   const hasContext = blocks.includes("context");
+  const apparatusOnly = blocks.every((b) => APPARATUS_BLOCKS.has(b));
   let cls;
   if (uniqFiles.length === 1) cls = hasContext ? "сцена" : "упражнения";
   else if (uniqFiles.length === 2 && uniqFiles[0].replace(/\.rocknroll\.json$/, ".json") === uniqFiles[1].replace(/\.rocknroll\.json$/, ".json"))
-    cls = "между версиями";
+    cls = apparatusOnly ? "аппарат версий" : "между версиями";
   else cls = "между уроками";
   dupStat[cls]++;
-  const sev = cls === "упражнения" ? "INFO" : "WARN";
+  const sev = cls === "упражнения" || cls === "аппарат версий" ? "INFO" : "WARN";
   add(sev, `дубли-${cls.replace(/ /g, "_")}`, uniqFiles.join(" + "), "—", `«${key}»: ${uniq.join(" | ")}`);
 }
 

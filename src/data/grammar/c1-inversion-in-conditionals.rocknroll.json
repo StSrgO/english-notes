@@ -10,7 +10,7 @@
     "Условие обычно начинается с [bold]if[/bold]: [bold]If the group had stayed together, things might have developed differently.[/bold] Но формальный английский позволяет убрать [bold]if[/bold] и вынести вспомогательный глагол перед подлежащим: [bold]Had the group stayed together, things might have developed differently.[/bold]",
     "В 1968 году группа находилась на вершине популярности, но одновременно сталкивалась с изменением масштаба работы, гастролями и растущей дистанцией между участниками.",
     "После успеха изменился сам характер работы: раньше группа сама перевозила оборудование с концерта на концерт и могла работать над музыкой каждый вечер, а теперь свободного времени почти не оставалось.",
-    "Это обычное предложение с [bold]when[/bold], а не conditional inversion. Но оно отделяет реальное условие от гипотетического. Альтернативную историю можно представить так: [bold]Had the band remained a small club group, they might have continued creating music night after night.[/bold]",
+    "Это обычное предложение с [bold]when[/bold], а не [bold]conditional inversion[/bold]. Но оно отделяет реальное условие от гипотетического. Альтернативную историю можно представить так: [bold]Had the band remained a small club group, they might have continued creating music night after night.[/bold]",
     "Три формы — [bold]Had the band remained...[/bold], [bold]Were they to return...[/bold] и [bold]Should they decide...[/bold] — устроены одинаково: на первое место выходит вспомогательный глагол, а [bold]if[/bold] исчезает. Такой перенос и называется инверсией.",
     "Первый тип инверсии строится с [bold]had[/bold] перед подлежащим и причастием прошедшего времени. Он заменяет [bold]if + Past Perfect[/bold]. [bold]If the band had stayed at the club[/bold] → [bold]Had the band stayed at the club[/bold]. Речь идёт о прошлом, которое уже нельзя изменить.",
     "Такая конструкция говорит о том, чего не было: [bold]Had The Doors remained a small club band, their career might have followed another path.[/bold] Условие стоит в первой части предложения, а вторая показывает нереализованный результат.",
@@ -26,7 +26,7 @@
     "К этому моменту успех уже изменил способ работы группы, но будущее ещё не определилось. Инверсия нужна там, где речь идёт о возможном: о том, что могло произойти, что могло бы произойти и что произойдёт при определённом условии. Инверсию легко принять за вопрос: [bold]Had the band played its last club show?[/bold] спрашивает о прошлом, а [bold]Had the band stopped touring then, the next record would have sounded rougher[/bold] — условная часть, потому что рядом стоит следствие.",
     "Но эта конструкция не заменяет механически каждый [bold]if[/bold]. Инверсия возможна прежде всего с [bold]had[/bold], [bold]were[/bold] и [bold]should[/bold]. Нельзя просто поставить любой глагол перед подлежащим.",
     "Поэтому три модели стоит запомнить как три готовых шаблона: инверсия с [bold]had[/bold], с [bold]were[/bold] и с [bold]should[/bold]. Если один из этих глаголов стоит в начале условной части, [bold]if[/bold] уже не нужен.",
-    "Три типа различаются не только формой, но и временем условия: [bold]had[/bold] отсылает к уже закрытому прошлому, [bold]were to[/bold] — к будущему, которое ещё открыто, [bold]should[/bold] — к возможному, но маловероятному повороту событий. [bold]Should they return...[/bold] оставляет возвращение открытым, а [bold]Had they returned...[/bold] говорит о том, чего в прошлом не случилось. Отдельные обороты were it not for и had it not been for заменяют условие с if: [bold]Were it not for the Berlin sessions, his solo career would look different[/bold] и [bold]Had it not been for those sessions, the record might never have appeared.[/bold]"
+    "Три типа различаются не только формой, но и временем условия: [bold]had[/bold] отсылает к уже закрытому прошлому, [bold]were to[/bold] — к будущему, которое ещё открыто, [bold]should[/bold] — к возможному, но маловероятному повороту событий. [bold]Should they return...[/bold] оставляет возвращение открытым, а [bold]Had they returned...[/bold] говорит о том, чего в прошлом не случилось. Отдельные обороты [bold]were it not for[/bold] и [bold]had it not been for[/bold] заменяют условие с [bold]if[/bold]: [bold]Were it not for the Berlin sessions, his solo career would look different[/bold] и [bold]Had it not been for those sessions, the record might never have appeared.[/bold]"
   ],
   "why": [
     "Выражать условие в формальном и письменном английском.",
@@ -252,11 +252,10 @@
       "group": "The Doors context",
       "items": [
         {
-          "en": "When we had to carry our own equipment everywhere, we had no time to be creative.",
-          "ru": "Когда нам приходилось везде таскать собственное оборудование, у нас не было времени заниматься творчеством.",
+          "en": "If the band had toured less in those years, there would have been time for new songs. → Had the band toured less in those years, there would have been time for new songs.",
+          "ru": "Если бы группа гастролировала в те годы меньше, нашлось бы время на новые песни.",
           "highlight": [
-            "had to carry",
-            "had no time"
+            "Had the band toured"
           ]
         },
         {
