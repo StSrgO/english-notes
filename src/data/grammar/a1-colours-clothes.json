@@ -98,8 +98,8 @@
           "a": "The shirt is blue."
         },
         {
-          "q": "ask about the colour of the dress",
-          "a": "What colour is the dress?"
+          "q": "ask about the colour of the hat",
+          "a": "What colour is the hat?"
         }
       ]
     }
@@ -108,7 +108,7 @@
   "structure": {
     "positive": "He is wearing a black coat. / She wears red clothes.",
     "negative": "He is not wearing a black coat. / She does not wear red clothes.",
-    "question": "What is he wearing? / What colour is the coat?"
+    "question": "What is the man wearing? / What colour is the coat?"
   },
   "markers": [
     "red, blue, green, yellow",
@@ -125,7 +125,7 @@
     "Цвет предмета: Цвет ставится перед существительным: a black coat, a white dress, a blue shirt.",
     "Что на человеке сейчас: Используется be wearing: He is wearing a black coat.",
     "Что человек обычно носит: Используется wear: She wears black clothes.",
-    "Вопрос о цвете: Используется What colour...? Например: What colour is the dress?",
+    "Вопрос о цвете: Используется What colour...? Например: What colour are the shoes?",
     "Вопрос об одежде: Используется What is he/she wearing? Например: What is she wearing?"
   ],
   "rules": [
@@ -301,8 +301,8 @@
       "group": "Questions",
       "items": [
         {
-          "en": "What colour is the dress?",
-          "ru": "Какого цвета платье?",
+          "en": "What colour is the skirt?",
+          "ru": "Какого цвета юбка?",
           "highlight": [
             "What colour"
           ]
@@ -315,10 +315,10 @@
           ]
         },
         {
-          "en": "What is he wearing?",
-          "ru": "Что на нём надето?",
+          "en": "What is Dorian wearing?",
+          "ru": "Что надето на Дориане?",
           "highlight": [
-            "What is he wearing"
+            "What is Dorian wearing"
           ]
         },
         {
@@ -353,13 +353,13 @@
       "note": "Цвет ставится перед существительным."
     },
     {
-      "wrong": "What colour the dress is?",
-      "right": "What colour is the dress?",
+      "wrong": "What colour the trousers are?",
+      "right": "What colour are the trousers?",
       "note": "В вопросе с be используется порядок What colour + be + subject."
     },
     {
-      "wrong": "What he is wearing?",
-      "right": "What is he wearing?",
+      "wrong": "What you are wearing?",
+      "right": "What are you wearing?",
       "note": "В вопросе с be глагол ставится перед подлежащим."
     }
   ],
@@ -428,19 +428,19 @@
     {
       "q": "How do you ask about the colour?",
       "options": [
-        "What colour is the dress?",
-        "What is colour the dress?",
-        "What the colour is dress?"
+        "What colour is the tie?",
+        "What is colour the tie?",
+        "What the colour is tie?"
       ],
       "answer": 0,
       "why": "Правильная модель: What colour + be + subject?"
     },
     {
-      "q": "How do you ask what a person has on now?",
+      "q": "How do you ask what people have on now?",
       "options": [
-        "What he is wearing?",
-        "What is he wearing?",
-        "What wearing he is?"
+        "What they are wearing?",
+        "What are they wearing?",
+        "What wearing they are?"
       ],
       "answer": 1,
       "why": "В вопросе с be глагол is ставится перед подлежащим."

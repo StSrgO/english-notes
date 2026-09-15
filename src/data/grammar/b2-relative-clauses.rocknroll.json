@@ -24,7 +24,7 @@
     "Но если [bold]Relative Pronoun[/bold] является подлежащим, убрать его нельзя. [bold]The mod who rides the scooter[/bold] нельзя превратить в [bold]The mod rides the scooter[/bold] без изменения структуры и смысла. В таком придаточном [bold]who[/bold] — тот, кто выполняет действие [bold]rides[/bold].",
     "Придаточное прикрепляется к тому существительному, которое стоит непосредственно перед ним, и от этого зависит смысл. [bold]The town where he lives[/bold] описывает место, а [bold]the town that shapes him[/bold] — его влияние на героя. В обоих случаях перед придаточным стоит одно и то же слово, но называют они разные свойства города.",
     "Придаточное может сжаться до причастного оборота: [bold]the scooter which was sent from Brighton[/bold] превращается в [bold]the scooter sent from Brighton[/bold], и предмет назван тот же, но короче. Исчезают сразу два элемента — относительное местоимение и форма [bold]be[/bold], а смысл придаточного берёт на себя причастие. Такое сжатие разрешено только для определяющего придаточного: оборот после запятой сохраняет полную форму.",
-    "Сравни: [bold]Jimmy is a young man. He feels like a misfit. He loves a girl. He loses his job.[/bold] Такой вариант разбивает характеристику на четыре коротких предложения. [bold]Relative Clauses[/bold] позволяют соединить информацию: [bold]Jimmy is a young man who feels like a misfit, loves a girl and loses his job.[/bold]",
+    "Сравни: [bold]Jimmy is a Mod. He feels like a misfit. He loves a girl. He loses his job[/bold]. Такой вариант разбивает характеристику на четыре коротких предложения. [bold]Relative Clauses[/bold] позволяют соединить информацию: [bold]Jimmy is a Mod who feels like a misfit, loves a girl and loses his job[/bold].",
     "Но объединять предложения нужно не механически. [bold]Relative Clause[/bold] должна выполнять смысловую функцию: идентифицировать, описывать или добавлять информацию. Если придаточное ничего не уточняет, его присутствие не делает английский лучше.",
     "[bold]Quadrophenia[/bold] держится не на наборе событий, а на самом Джимми, его окружении, предметах, местах и людях, которые формируют его опыт. [bold]Relative Clauses[/bold] связывают эти элементы друг с другом в одном предложении.",
     "Относительное слово выбирается по тому, что описывается: [bold]who[/bold] и [bold]that[/bold] — для людей, [bold]which[/bold] и [bold]that[/bold] — для предметов, [bold]whose[/bold] — для принадлежности, [bold]where[/bold] — для места, [bold]when[/bold] — для времени. [bold]The friend who understands him best[/bold], [bold]the city where he lives[/bold], [bold]the music that shapes him[/bold] и [bold]the people whose expectations surround him[/bold] собирают разные стороны одного описания в одном предложении.",
@@ -82,8 +82,8 @@
       "prompt": "Объедини предложения с помощью Relative Clause:",
       "items": [
         {
-          "q": "Jimmy is a young man. He feels isolated.",
-          "a": "Jimmy is a young man who feels isolated."
+          "q": "Jimmy has a friend. He understands him best.",
+          "a": "Jimmy has a friend who understands him best."
         },
         {
           "q": "The song describes Jimmy. I heard it yesterday.",

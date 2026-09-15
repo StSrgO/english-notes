@@ -129,7 +129,7 @@
   "uses": [
     "Процесс до прошлого момента: Действие продолжалось до определённой точки в прошлом: He had been working before he stopped.",
     "Длительность: Конструкция подчёркивает, как долго продолжалось действие: He had been working for three hours.",
-    "Причина состояния: Длительный процесс объясняет состояние в прошлом: He was tired because he had been working all day.",
+    "Причина состояния: Длительный процесс объясняет состояние в прошлом: She was tired because she had been standing all evening.",
     "For и since: For показывает продолжительность, since — момент начала: He had been working for months / since January.",
     "Процесс вместо результата: Past Perfect Continuous подчёркивает действие как процесс: He had been rewriting the ending."
   ],
@@ -263,10 +263,10 @@
       "group": "Cause and result",
       "items": [
         {
-          "en": "He was tired because he had been working all day.",
-          "ru": "Он устал, потому что работал весь день.",
+          "en": "He was out of breath because he had been running.",
+          "ru": "Он запыхался, потому что бежал.",
           "highlight": [
-            "had been working all day"
+            "had been running"
           ]
         },
         {

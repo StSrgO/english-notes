@@ -118,7 +118,7 @@
   ],
   "uses": [
     "Производство: The album was recorded at Inner Ear Studios.",
-    "Результат: The tracks were mixed after the session.",
+    "Результат: The vocals were recorded the next day.",
     "Фокус на объекте: Different mics were used.",
     "Документирование процесса: The record was produced by the band.",
     "Общее описание процесса: The records are produced independently."
@@ -225,10 +225,10 @@
           ]
         },
         {
-          "en": "The tracks were mixed after the sessions.",
-          "ru": "Дорожки были сведены после сессий.",
+          "en": "The vocals were added the next day.",
+          "ru": "Вокал был добавлен на следующий день.",
           "highlight": [
-            "were mixed"
+            "were added"
           ]
         },
         {
@@ -338,8 +338,8 @@
         "right": "The record was produced by Fugazi."
       },
       {
-        "left": "The engineer mixed the tracks.",
-        "right": "The tracks were mixed by the engineer."
+        "left": "The engineer edited the tapes.",
+        "right": "The tapes were edited by the engineer."
       },
       {
         "left": "Subject = doer",

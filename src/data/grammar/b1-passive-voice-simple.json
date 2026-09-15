@@ -117,7 +117,7 @@
     "Фокус на результате: The novel was published in 1847.",
     "Исполнитель неизвестен: The manuscript was lost.",
     "Исполнитель очевиден или неважен: The book is sold worldwide.",
-    "Последовательность процесса: The manuscript was completed, sent and published."
+    "Последовательность процесса: The novel was written, edited and printed."
   ],
   "rules": [
     {
@@ -193,10 +193,10 @@
       "group": "Past Simple Passive",
       "items": [
         {
-          "en": "The manuscript was completed in 1847.",
-          "ru": "Рукопись была завершена в 1847 году.",
+          "en": "The first draft was finished in 1846.",
+          "ru": "Первый черновик был закончен в 1846 году.",
           "highlight": [
-            "was completed"
+            "was finished"
           ]
         },
         {

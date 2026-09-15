@@ -94,7 +94,7 @@
         },
         {
           "q": "I see ___.",
-          "a": "them"
+          "a": "him"
         },
         {
           "q": "This is ___ book.",
@@ -130,10 +130,10 @@
     "their"
   ],
   "uses": [
-    "Говорящий: I обозначает человека, который произносит предложение: I am here.",
-    "Собеседник: You обозначает человека или людей, к которым обращаются: You are here.",
+    "Говорящий: I обозначает человека, который произносит предложение: I am at work.",
+    "Собеседник: You обозначает человека или людей, к которым обращаются: You are right.",
     "Другой человек: He и she заменяют имя человека: John is here. He is here.",
-    "Группа: We включает говорящего в группу, а they обозначает других людей: We are here. They are there.",
+    "Группа: We включает говорящего в группу, а they обозначает других людей: We are late. They are there.",
     "Объект действия: Me, him, her, us и them используются, когда действие направлено на человека: She sees me."
   ],
   "rules": [
@@ -167,15 +167,15 @@
       "group": "Subject pronouns",
       "items": [
         {
-          "en": "I am here.",
-          "ru": "Я здесь.",
+          "en": "I am in the room.",
+          "ru": "Я в комнате.",
           "highlight": [
             "I"
           ]
         },
         {
-          "en": "She is here.",
-          "ru": "Она здесь.",
+          "en": "She is in the room.",
+          "ru": "Она в комнате.",
           "highlight": [
             "She"
           ]
@@ -266,19 +266,19 @@
       "group": "Changing perspective",
       "items": [
         {
-          "en": "I see them.",
-          "ru": "Я вижу их.",
+          "en": "We see you.",
+          "ru": "Мы видим вас.",
           "highlight": [
-            "I",
-            "them"
+            "We",
+            "you"
           ]
         },
         {
-          "en": "They see me.",
-          "ru": "Они видят меня.",
+          "en": "You see us.",
+          "ru": "Вы видите нас.",
           "highlight": [
-            "They",
-            "me"
+            "You",
+            "us"
           ]
         },
         {
@@ -302,8 +302,8 @@
   ],
   "mistakes": [
     {
-      "wrong": "Me am here.",
-      "right": "I am here.",
+      "wrong": "Me am busy.",
+      "right": "I am busy.",
       "note": "I используется как подлежащее."
     },
     {
@@ -327,8 +327,8 @@
       "note": "Перед существительным нужен possessive adjective."
     },
     {
-      "wrong": "I see they.",
-      "right": "I see them.",
+      "wrong": "We see they.",
+      "right": "We see them.",
       "note": "They — subject pronoun, them — object pronoun."
     }
   ],
@@ -371,9 +371,9 @@
     {
       "q": "Choose the correct sentence:",
       "options": [
-        "Me am here.",
-        "I am here.",
-        "Him am here."
+        "Me am busy.",
+        "I am busy.",
+        "Him am busy."
       ],
       "answer": 1,
       "why": "I используется как подлежащее."

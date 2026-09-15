@@ -17,7 +17,7 @@
     "Тот же объект проходит путь от неопределённого к определённому: [bold]a title[/bold] — одно из возможных названий; [bold]the original title[/bold] — конкретное первоначальное название рукописи. Название [bold]The Professor[/bold] и подпись [bold]Currer Bell[/bold] на рукописи являются уже определёнными обозначениями конкретной работы.",
     "То же происходит с письмами. В начале письма может появиться [bold]a letter[/bold] — одно письмо из множества. После того как оно названо, появляется [bold]the letter[/bold]. Если речь идёт о конкретном сохранившемся письме Шарлотты Бронте к Уильяму Уильямсу, определённость задана самим контекстом.",
     "В этом письме Бронте пишет: [bold]“My dear Sir”[/bold] и далее говорит о том, что хотела показать себя Уильямсу такой, какая она есть, после того как её личность перестала быть тайной. Имя Каррер Белл обозначает уже конкретную литературную личность, связанную с её опубликованными произведениями.",
-    "С [bold]the[/bold] часто говорится о единственном объекте, который уже был назван. [bold]I saw a manuscript. The manuscript was signed by Currer Bell.[/bold] Но [bold]the[/bold] может появиться и без предыдущего упоминания, если сама ситуация делает объект определённым: [bold]the manuscript of The Professor[/bold] — конкретная рукопись определённого произведения.",
+    "С [bold]the[/bold] часто говорится о единственном объекте, который уже был назван. [bold]I saw a letter. The letter had two signatures[/bold]. Но [bold]the[/bold] может появиться и без предыдущего упоминания, если сама ситуация делает объект определённым: [bold]the manuscript of The Professor[/bold] — конкретная рукопись определённого произведения.",
     "Поэтому полезно задавать вопрос: «Слушатель уже понимает, о каком предмете идёт речь?» Если ответ «нет», часто нужен [bold]a/an[/bold]. Если ответ «да», часто нужен [bold]the[/bold]. Это не перевод слова «один» и не правило о первой или второй встрече слова в тексте.",
     "Артикль [bold]a[/bold] также может обозначать представителя класса. [bold]A writer needs time.[/bold] Речь не об одном конкретном писателе, а о любом писателе как представителе группы. Но [bold]the writer[/bold] обычно означает конкретного писателя, определённого контекстом.",
     "Сравни: [bold]Charlotte Brontë became a writer.[/bold] Слово [bold]a writer[/bold] означает принадлежность к классу писателей. Но [bold]the writer of Jane Eyre[/bold] — уже конкретный человек, определённый через произведение.",
@@ -25,7 +25,7 @@
     "Поэтому различать [bold]a/an[/bold] и [bold]the[/bold] полезно не как два перевода, а как две разные степени определённости. [bold]a manuscript[/bold] — рукопись, о которой слушатель ещё ничего не знает. [bold]the manuscript[/bold] — та самая рукопись, о которой уже шла речь. А [bold]the Professor[/bold] — конкретное произведение, выделенное своим названием.",
     "Если следующее слово начинается с гласного звука, используется [bold]an[/bold]: [bold]an author[/bold], [bold]an editor[/bold], [bold]an interview[/bold]. Если следующий звук согласный, используется [bold]a[/bold]: [bold]a writer[/bold], [bold]a letter[/bold], [bold]a manuscript[/bold]. Поэтому правило нужно связывать с произношением, а не только с написанием.",
     "Артикль [bold]the[/bold] не зависит от того, начинается слово с гласного или согласного звука: [bold]the manuscript[/bold], [bold]the author[/bold], [bold]the letter[/bold]. Его функция другая — он показывает определённость.",
-    "В истории Бронте особенно легко увидеть переход [bold]a → the[/bold]: [bold]Charlotte completed a manuscript. The manuscript was signed by Currer Bell.[/bold] В первом предложении объект вводится. Во втором тот же объект уже определён контекстом.",
+    "В истории Бронте особенно легко увидеть переход [bold]a → the[/bold]: [bold]Charlotte wrote a novel. The novel appeared under a pseudonym[/bold]. В первом предложении объект вводится. Во втором тот же объект уже определён контекстом.",
     "Артикли помогают слушателю следить за предметами в рассказе. [bold]A manuscript[/bold] появляется в повествовании как новый объект; [bold]the manuscript[/bold] позволяет вернуться к нему; [bold]the original title[/bold] указывает на конкретную деталь этой рукописи. Артикль маленький, но он показывает, как говорящий организует информацию для слушателя."
   ],
   "why": [
@@ -119,7 +119,7 @@
   ],
   "uses": [
     "Новый предмет: A/an вводит один новый исчисляемый предмет: Charlotte completed a manuscript.",
-    "Уже известный предмет: The используется, когда предмет уже был назван или однозначно определён: She completed a manuscript. The manuscript was signed by Currer Bell.",
+    "Уже известный предмет: The используется, когда предмет уже был назван или однозначно определён: She posted a letter. The letter reached the editor.",
     "Один представитель класса: A/an может обозначать представителя класса: Charlotte Brontë was a writer.",
     "Конкретный объект: The показывает конкретный объект: the manuscript of The Professor.",
     "Выбор a или an: a используется перед согласным звуком, an — перед гласным: a writer, an author."
@@ -217,8 +217,8 @@
       "group": "A → The",
       "items": [
         {
-          "en": "She completed a manuscript. The manuscript was signed by Currer Bell.",
-          "ru": "Она закончила рукопись. На рукописи стояло имя Каррер Белл.",
+          "en": "He sent a manuscript. The manuscript was accepted.",
+          "ru": "Он отправил рукопись. Рукопись была принята.",
           "highlight": [
             "a manuscript",
             "The manuscript"
@@ -335,9 +335,9 @@
       "note": "Author начинается с гласного звука, поэтому нужен an."
     },
     {
-      "wrong": "She completed a manuscript. A manuscript was signed by Currer Bell.",
-      "right": "She completed a manuscript. The manuscript was signed by Currer Bell.",
-      "note": "Во втором предложении речь идёт о той же, уже известной рукописи."
+      "wrong": "She found a letter. A letter was long.",
+      "right": "She found a letter. The letter was long.",
+      "note": "Во втором предложении речь идёт о том же, уже известном предмете."
     },
     {
       "wrong": "She studied at an university.",
@@ -438,7 +438,7 @@
       "why": "В hour буква -h- не произносится, поэтому слово начинается с гласного звука."
     },
     {
-      "q": "What does the manuscript mean in 'The manuscript was signed by Currer Bell'?",
+      "q": "What does the manuscript mean in 'The publisher kept a manuscript. The manuscript needed a signature'?",
       "options": [
         "Any manuscript",
         "One unknown manuscript",

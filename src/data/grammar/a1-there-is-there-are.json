@@ -25,7 +25,7 @@
     "У [bold]there is[/bold] / [bold]there are[/bold] есть ещё одна особенность: [bold]there[/bold] не переводится буквально как «там». В конструкции [bold]there is a shop on the corner[/bold] слово [bold]there[/bold] является частью грамматической конструкции существования. Само место уже может быть указано отдельно: [bold]on the corner[/bold].",
     "Сравним [bold]There is a bakery on the corner[/bold] и [bold]The bakery is on the corner[/bold]. Первое предложение вводит булочную в описание: «На углу есть булочная». Второе говорит о конкретной булочной, которая уже известна: «Булочная находится на углу». В описании эти два предложения выполняют разные задачи: первое вводит объект, второе говорит о нём как об уже известном.",
     "Стейнбек начинает с пространства и постепенно вводит в него людей, здания, работу и повседневную жизнь. Такой же принцип воспроизводится с помощью [bold]there is[/bold] / [bold]there are[/bold]: сначала назвать место, затем сказать, что в нём есть. [bold]There is a street. There are buildings. There are people. There is noise.[/bold]",
-    "Конструкция работает не только с физическими предметами. [bold]There is a problem. There is a reason. There is a difference.[/bold] Такие предложения сообщают о существовании идеи, проблемы или обстоятельства. Поэтому [bold]there is[/bold] относится не только к описанию комнаты или улицы.",
+    "Конструкция работает не только с физическими предметами. [bold]There is a chance. There is a reason. There is a difference.[/bold] Такие предложения сообщают о существовании идеи, проблемы или обстоятельства. Поэтому [bold]there is[/bold] относится не только к описанию комнаты или улицы.",
     "Задача этой конструкции — не назвать предмет как уже известный объект, а сообщить о его наличии. [bold]There is a laboratory on Cannery Row[/bold] вводит лабораторию в описание. После этого о ней можно говорить как о конкретном месте: [bold]The laboratory is important. It is near the water.[/bold] Так [bold]there is[/bold] / [bold]there are[/bold] помогает строить связное описание пространства."
   ],
   "why": [
@@ -87,8 +87,8 @@
       "prompt": "Вставьте правильную форму there is / there are:",
       "items": [
         {
-          "q": "___ a laboratory on the street.",
-          "a": "There is a laboratory on the street."
+          "q": "___ a laboratory in the building.",
+          "a": "There is a laboratory in the building."
         },
         {
           "q": "___ several shops nearby.",
@@ -99,8 +99,8 @@
           "a": "Are there any restaurants here?"
         },
         {
-          "q": "___ a problem with the building.",
-          "a": "There is a problem with the building."
+          "q": "___ a new shop in the building.",
+          "a": "There is a new shop in the building."
         },
         {
           "q": "___ any people in the room.",
@@ -128,11 +128,11 @@
     "there aren't any"
   ],
   "uses": [
-    "Один предмет: Чтобы сообщить о наличии одного человека или предмета: There is a laboratory on the street.",
-    "Несколько предметов: Чтобы сообщить о наличии нескольких объектов: There are shops and restaurants nearby.",
-    "Неисчисляемое существительное: Чтобы сообщить о наличии неисчисляемого вещества или понятия: There is water in the bay. There is noise in the street.",
-    "Описание места: Чтобы постепенно вводить объекты в описание пространства: There is a street. There are buildings along it.",
-    "Наличие или существование: Чтобы сообщить, что что-то существует или имеется: There is a problem. There are several reasons."
+    "Один предмет: Чтобы сообщить о наличии одного человека или предмета: There is a laboratory near the bay.",
+    "Несколько предметов: Чтобы сообщить о наличии нескольких объектов: There are several shops near the water.",
+    "Неисчисляемое существительное: Чтобы сообщить о наличии неисчисляемого вещества или понятия: There is sand on the floor. There is smoke in the air.",
+    "Описание места: Чтобы постепенно вводить объекты в описание пространства: There is a road near the water. There are fishing boats along it.",
+    "Наличие или существование: Чтобы сообщить, что что-то существует или имеется: There is a question. There are several reasons."
   ],
   "rules": [
     {
@@ -145,7 +145,7 @@
     },
     {
       "title": "There is + неисчисляемое существительное",
-      "text": "С неисчисляемым существительным используется There is: There is water. There is noise."
+      "text": "С неисчисляемым существительным используется There is: There is water. There is bread."
     },
     {
       "title": "Отрицание",
@@ -186,8 +186,8 @@
           ]
         },
         {
-          "en": "There is a problem here.",
-          "ru": "Здесь есть проблема.",
+          "en": "There is a boat in the bay.",
+          "ru": "В заливе есть лодка.",
           "highlight": [
             "There is"
           ]
@@ -205,22 +205,22 @@
           ]
         },
         {
-          "en": "There are restaurants near the street.",
-          "ru": "Возле улицы есть рестораны.",
+          "en": "There are two bakeries on the street.",
+          "ru": "На улице есть две булочные.",
           "highlight": [
             "There are"
           ]
         },
         {
-          "en": "There are people in the building.",
-          "ru": "В здании есть люди.",
+          "en": "There are workers in the building.",
+          "ru": "В здании есть рабочие.",
           "highlight": [
             "There are"
           ]
         },
         {
-          "en": "There are canneries along the street.",
-          "ru": "Вдоль улицы есть консервные заводы.",
+          "en": "There are canneries near the bay.",
+          "ru": "У залива есть консервные заводы.",
           "highlight": [
             "There are"
           ]
@@ -231,22 +231,22 @@
       "group": "Uncountable nouns",
       "items": [
         {
-          "en": "There is water in the bay.",
-          "ru": "В заливе есть вода.",
+          "en": "There is water in the bottle.",
+          "ru": "В бутылке есть вода.",
           "highlight": [
             "There is"
           ]
         },
         {
-          "en": "There is noise in the street.",
-          "ru": "На улице есть шум.",
+          "en": "There is milk in the glass.",
+          "ru": "В стакане есть молоко.",
           "highlight": [
             "There is"
           ]
         },
         {
-          "en": "There is light in the room.",
-          "ru": "В комнате есть свет.",
+          "en": "There is bread on the table.",
+          "ru": "На столе есть хлеб.",
           "highlight": [
             "There is"
           ]
@@ -330,29 +330,29 @@
       "group": "Description of a place",
       "items": [
         {
-          "en": "There is a street by the bay.",
-          "ru": "У залива есть улица.",
+          "en": "There is a road by the water.",
+          "ru": "У воды есть дорога.",
           "highlight": [
             "There is"
           ]
         },
         {
-          "en": "There are buildings along the street.",
-          "ru": "Вдоль улицы стоят здания.",
+          "en": "There are old houses along the street.",
+          "ru": "Вдоль улицы стоят старые дома.",
           "highlight": [
             "There are"
           ]
         },
         {
-          "en": "There are shops and restaurants nearby.",
-          "ru": "Поблизости есть магазины и рестораны.",
+          "en": "There are shops and a bakery nearby.",
+          "ru": "Поблизости есть магазины и булочная.",
           "highlight": [
             "There are"
           ]
         },
         {
-          "en": "There is noise from the canneries.",
-          "ru": "От консервных заводов доносится шум.",
+          "en": "There is light in the windows.",
+          "ru": "В окнах есть свет.",
           "highlight": [
             "There is"
           ]
@@ -377,9 +377,9 @@
       "note": "People — множественное число, поэтому используется are."
     },
     {
-      "wrong": "There are water in the bay.",
-      "right": "There is water in the bay.",
-      "note": "Water — неисчисляемое существительное, поэтому используется there is."
+      "wrong": "There are coffee in the cup.",
+      "right": "There is coffee in the cup.",
+      "note": "Coffee — неисчисляемое существительное, поэтому используется there is."
     },
     {
       "wrong": "Is there are any shops?",
@@ -448,12 +448,12 @@
     {
       "q": "Choose the correct sentence:",
       "options": [
-        "There are water in the bay.",
-        "There is water in the bay.",
-        "There be water in the bay."
+        "There are sugar in the tea.",
+        "There is sugar in the tea.",
+        "There be sugar in the tea."
       ],
       "answer": 1,
-      "why": "Water — неисчисляемое существительное, поэтому используется There is."
+      "why": "Sugar — неисчисляемое существительное, поэтому используется There is."
     },
     {
       "q": "Choose the correct question:",
